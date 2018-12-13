@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+<span id="sidebar-toggle-span">
+  <a href="#" id="sidebar-toggle" data-sidebar-toggle=""
+    ><i class="fas fa-bars"></i> navigation</a
+  >
+</span>
+
+{{if .Site.Home.Content }} {{.Site.Home.Content}} {{else}}
+
+{{ end }}
+
+{{ partial "footer.html" . }}

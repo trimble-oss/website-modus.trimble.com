@@ -1,0 +1,12 @@
+.DS_Store
+npm-debug.log
+package-lock.json
+Thumbs.db
+
+node_modules/*
+public/*
+resources/*
+_gen/*
+
+themes/hugo-theme-learn/exampleSite/*
+themes/hugo-theme-learn/static/fonts/*

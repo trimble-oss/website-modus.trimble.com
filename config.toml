@@ -1,0 +1,17 @@
+baseURL = "/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Project ETHER"
+theme = "hugo-theme-learn"
+metaDataFormat = "yaml"
+
+[params]
+  description = "Docs"
+  author = "Trimble MAPS"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+
+[outputs]
+home = [ "HTML", "JSON"]
