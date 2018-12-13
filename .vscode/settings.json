@@ -3,7 +3,6 @@
   "search.exclude": {
     "node_modules": true
   },
-  "git.ignoreLimitWarning": true,
   "cSpell.words": [
     "activetraffic",
     "aeris",
@@ -320,6 +319,5 @@
   },
   "cSpell.language": ",en,en-GB,en-US",
   "cSpell.flagWords": ["hte", "pardot"],
-  "cSpell.ignorePaths": ["bin", "Properties", ".git"],
   "editor.formatOnSave": true
 }
