@@ -1,17 +1,30 @@
-# Project Ether Styleguide
+# Webpack Frontend Starterkit
 
-## Initial Setup
+A lightweight foundation for your next webpack based frontend project.
 
-1. Download Hugo: https://github.com/gohugoio/hugo/releases/download/v0.52/hugo_extended_0.52_Windows-64bit.zip
-2. Extract the ZIP so it's like so: `C:\Hugo\bin\hugo.exe`
-3. Set the path so you can run Hugo globally. This video helped me set it up: https://gohugo.io/getting-started/installing/#windows
 
-## Commands
+### Installation
 
-- View live server with `hugo serve` (site will then be viewable in browser at: http://localhost:1313/)
-- Make a build with `hugo`
-- Make a build with minified HTML (good to do before moving to production to save a few KB) `hugo --minify`
+```
+npm install
+```
 
-## Notes
+### Start Dev Server
 
-- To make CSS changes edit `static\css\hugo-theme.css` (I haven't setup the SCSS compiler which is a Hugo feature)
+```
+npm start
+```
+
+### Build Prod Version
+
+```
+npm run build
+```
+
+### Features:
+
+* ES6 Support via [babel](https://babeljs.io/) (v7)
+* SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
+* Linting via [eslint-loader](https://github.com/MoOx/eslint-loader)
+
+When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.

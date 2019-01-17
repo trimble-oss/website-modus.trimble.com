@@ -1,0 +1,53 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "A light foundation for your next frontend project based on webpack.",
+  "scripts": {
+    "build": "webpack --config webpack/webpack.config.prod.js --colors",
+    "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbkd/webpack-starter.git"
+  },
+  "keywords": [
+    "webpack",
+    "startkit",
+    "frontend",
+    "es6",
+    "javascript",
+    "webdev"
+  ],
+  "author": "webkid.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wbkd/webpack-starter/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.12.0",
+    "eslint-loader": "^2.1.1",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^4.0.0-beta.5",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "project-ether-framework": "git+ssh://git@bitbucket.trimble.tools/maps/project-ether-framework.git"
+  }
+}

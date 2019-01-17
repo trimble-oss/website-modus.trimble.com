@@ -1,9 +1,14 @@
-.DS_Store
-npm-debug.log
-package-lock.json
-Thumbs.db
+# dependencies
+node_modules
 
-node_modules/*
-public/*
-resources/*
-_gen/*
+# production
+build
+
+# misc
+.DS_Store
+
+npm-debug.log
+yarn-error.log
+yarn.lock
+.yarnclean
+.vscode

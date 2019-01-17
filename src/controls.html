@@ -1,0 +1,109 @@
+${require(`./header.html`)}
+<div class="guide-content">
+
+  <h1>Basic Controls</h1>
+  <p class="lead">
+    Examples and usage guidelines for basic form control like buttons, input boxes, and more.
+  </p>
+  <div class="guide-section">
+    <h2>Buttons</h2>
+    <p>
+      The .btn classes are designed to be used with the
+      <code>&lt;button&gt;</code> element. However, you can also use these classes
+      on <code>&lt;a&gt;</code> or
+      <code>&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).
+
+      When using button classes on
+      <code>&lt;a&gt;</code> elements that are used to trigger in-page functionality (like collapsing
+      content), rather than linking to new pages or sections within the current page, these links should be
+      given a role="button" to appropriately convey their purpose to assistive technologies such as screen
+      readers.
+    </p>
+
+    <h3 class="mt-5">Regular Buttons</h3>
+    <div class="guide-example-block">
+      <div class="guide-sample" id="basic-buttons-text">
+        <p>
+          <button class="btn btn-primary">Primary Button</button>
+          <button class="btn btn-secondary">Secondary Button</button>
+        </p>
+        <p>
+          <button class="btn btn-primary btn-lg">Primary Large Button</button>
+          <button class="btn btn-secondary btn-lg">Secondary Large Button</button>
+        </p>
+      </div>
+      <div class="guide-code">
+        <pre>
+          <code class="hljs">&lt;button <span class="hljs-keyword">class</span>=<span class="hljs-string">"btn btn-primary"</span>&gt;Primary Button&lt;/button&gt;
+                &lt;button <span class="hljs-keyword">class</span>=<span class="hljs-string">"btn btn-secondary"</span>&gt;Secondary Button&lt;/button&gt;
+
+                &lt;button <span class="hljs-keyword">class</span>=<span class="hljs-string">"btn btn-primary btn-lg"</span>&gt;Primary Large Button&lt;/button&gt;
+                &lt;button <span class="hljs-keyword">class</span>=<span class="hljs-string">"btn btn-secondary btn-lg"</span>&gt;Secondary Large Button&lt;/button&gt;</code></pre>
+        <button class="btn btn-reverse-primary btn-xs guide-copy-code" onclick="copyToClipboard('basic-buttons-text')">Copy</button>
+      </div>
+
+      <h3 class="mt-5">Reverse Buttons</h3>
+      <div class="guide-example-block">
+        <div class="guide-sample" id="basic-lg-buttons-text">
+          <p>
+            <button class="btn btn-reverse-primary">Reverse Primary Button</button>
+            <button class="btn btn-reverse-secondary">Reverse Secondary Button</button>
+          </p>
+          <p>
+            <button class="btn btn-reverse-primary btn-lg">Reverse Large Primary Button</button>
+            <button class="btn btn-reverse-secondary btn-lg">Reverse Large Secondary Button</button>
+          </p>
+        </div>
+        <div class="guide-code">
+          <pre>
+          <code class="hljs">&lt;button <span class="hljs-keyword">class</span>=<span class="hljs-string">"btn btn-reverse-primary"</span>&gt;Reverse Primary Button&lt;/button&gt;
+                &lt;button <span class="hljs-keyword">class</span>=<span class="hljs-string">"btn btn-reverse-secondary"</span>&gt;Reverse Secondary Button&lt;/button&gt;
+              
+                &lt;button <span class="hljs-keyword">class</span>=<span class="hljs-string">"btn btn-reverse-primary btn-lg"</span>&gt;Reverse Large Primary Button&lt;/button&gt;
+                &lt;button <span class="hljs-keyword">class</span>=<span class="hljs-string">"btn btn-reverse-secondary btn-lg"</span>&gt;Reverse Large Secondary Button&lt;/button&gt;</code></pre>
+          <button class="btn btn-reverse-primary btn-xs guide-copy-code" onclick="copyToClipboard('basic-lg-buttons-text')">Copy</button>
+        </div>
+      </div>
+
+      <h3 class="mt-5">Input Boxes</h3>
+      <div class="guide-example-block">
+        <div class="guide-sample" id="basic-input-text">
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Text Input (Regular Size)</label>
+            <input class="form-control w-50" id="exampleFormControlInput1" placeholder="Placeholder Text">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput2">Text Input (Large Size)</label>
+            <input class="form-control form-control-lg w-50" id="exampleFormControlInput2" placeholder="Placeholder Text">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput3">Outlined Text Input (Regular Size)</label>
+            <input class="form-control form-control-outlined w-50" id="exampleFormControlInput3" placeholder="Placeholder Text">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput4">Outlined Text Input (Large Size)</label>
+            <input class="form-control form-control-outlined form-control-lg w-50" id="exampleFormControlInput4"
+              placeholder="Placeholder Text">
+          </div>
+        </div>
+        <div class="guide-code">
+          <pre>
+          <code class="hljs">&lt;button <span class="hljs-keyword">class</span>=<span class="hljs-string">"btn btn-reverse-primary"</span>&gt;Reverse Primary Button&lt;/button&gt;
+                &lt;button <span class="hljs-keyword">class</span>=<span class="hljs-string">"btn btn-reverse-secondary"</span>&gt;Reverse Secondary Button&lt;/button&gt;
+              
+                &lt;button <span class="hljs-keyword">class</span>=<span class="hljs-string">"btn btn-reverse-primary btn-lg"</span>&gt;Reverse Large Primary Button&lt;/button&gt;
+                &lt;button <span class="hljs-keyword">class</span>=<span class="hljs-string">"btn btn-reverse-secondary btn-lg"</span>&gt;Reverse Large Secondary Button&lt;/button&gt;</code></pre>
+          <button class="btn btn-reverse-primary btn-xs guide-copy-code" onclick="copyToClipboard('basic-lg-buttons-text')">Copy</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".left-nav-item").removeClass("active");
+    $("#controls").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}
