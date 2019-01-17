@@ -1,10 +1,59 @@
-${require("./header.html")}
+${require(`./header.html`)}
 <div class="guide-content">
-  <pre><code class="hljs"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>h1. Ether heading<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>h2. Ether heading<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>h3. Ether heading<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>h4. Ether heading<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">h5</span>&gt;</span>h5. Ether heading<span class="hljs-tag">&lt;/<span class="hljs-name">h5</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">h6</span>&gt;</span>h6. Ether heading<span class="hljs-tag">&lt;/<span class="hljs-name">h6</span>&gt;</span></code></pre>
+  <h2 class="display-4">Typography</h2>
+  <p class="lead">
+    Documentation and examples for typography, including global settings, headings, body text, lists, and more.
+  </p>
+  <div class="guide-section">
+    <h2>Headings</h2>
+    <div class="guide-example-block">
+      <div class="guide-sample" id="header-text">
+        <h1>h1. Ether heading</h1>
+        <h2>h2. Ether heading</h2>
+        <h3>h3. Ether heading</h3>
+        <h4>h4. Ether heading</h4>
+        <h5>h5. Ether heading</h5>
+        <h6>h6. Ether heading</h6>
+      </div>
+      <div class="guide-code">
+        <pre>
+          <code class="hljs"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>h1. Ether heading<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>h2. Ether heading<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>h3. Ether heading<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>h4. Ether heading<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h5</span>&gt;</span>h5. Ether heading<span class="hljs-tag">&lt;/<span class="hljs-name">h5</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h6</span>&gt;</span>h6. Ether heading<span class="hljs-tag">&lt;/<span class="hljs-name">h6</span>&gt;</span></code></pre>
+        <button class="btn btn-reverse-primary btn-xs guide-copy-code" onclick="copyToClipboard('header-text')">Copy</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="guide-section">
+    <h2>Display Headings</h2>
+    <div class="guide-example-block">
+      <div class="guide-sample" id="display-header-text">
+        <h1 class="display-1">Display 1</h1>
+        <h1 class="display-2">Display 2</h1>
+        <h1 class="display-3">Display 3</h1>
+        <h1 class="display-4">Display 4</h1>
+      </div>
+      <div class="guide-code">
+        <pre>
+          <code class="hljs">&lt;h1 <span class="hljs-keyword">class</span>=<span class="hljs-string">"display-1"</span>&gt;Display <span class="hljs-number">1</span>&lt;/h1&gt;
+                  &lt;h1 <span class="hljs-keyword">class</span>=<span class="hljs-string">"display-2"</span>&gt;Display <span class="hljs-number">2</span>&lt;/h1&gt;
+                  &lt;h1 <span class="hljs-keyword">class</span>=<span class="hljs-string">"display-3"</span>&gt;Display <span class="hljs-number">3</span>&lt;/h1&gt;
+                  &lt;h1 <span class="hljs-keyword">class</span>=<span class="hljs-string">"display-4"</span>&gt;Display <span class="hljs-number">4</span>&lt;/h1&gt;</code></pre>
+        <button class="btn btn-reverse-primary btn-xs guide-copy-code" onclick="copyToClipboard('display-header-text')">Copy</button>
+
+      </div>
+    </div>
+  </div>
 </div>
-${require("./footer.html")}
+</div>
+<script>
+  $(document).ready(function () {
+    $(".left-nav-item").removeClass("active");
+    $("#typography").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}
