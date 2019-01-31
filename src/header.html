@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Project Ether Styleguide</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="${require(`./img/favicon.ico`)}" />
   <link id="pagestyles" rel="stylesheet" href="./assets/ether.min.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -15,50 +17,66 @@
 </head>
 
 <body>
-  <div class="page-wrapper">
-    <div class="page-header">
-      <div class="page-header-branding">
-        <div class="branding-logo">
-          <img src="${require(`./img/trimble-maps-logo.svg`)}" alt="">
-        </div>
-        <h1 class="mt-3 display-3">Project Ether Framework</h1>
+  <div class="ether-page-wrapper">
+    <nav class="navbar navbar-expand-lg ether-navbar">
+      <a class="navbar-brand" href="/index.html">
+        <img src="${require(`./img/trimble-maps-logo.svg`)}" class="d-inline-block align-middle" height="30px" />
+
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="navbarTogglerDemo02"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-text">
+        <span class="h2 m-0">Project Ether Framework</span>
       </div>
-      <div class="page-header-center"></div>
-      <div class="page-header-right">
-        <div class="custom-control custom-switch custom-control-inline">
-          <input type="checkbox" id="style-switch" class="custom-control-input" name="example1">
-          <label class="custom-control-label label-lg" for="style-switch">Dark Mode</label>
+      <div class="collapse navbar-collapse" id="mainnav">
+        <div class="navbar-nav m-auto">
+
         </div>
-      </div>
-    </div>
-    <div class="page-main-area">
-      <div class="left-nav-bar">
-        <div class="list-group list-group-chromeless mt-1">
-          <a id="index" class="list-group-item left-nav-item" href="/index.html">
-            <span class="left-nav-bar-icon">
-              <i class="ico ico-eye-open"></i>
-            </span>
-            Overview</a>
-          <a id="controls" class="list-group-item left-nav-item" href="/controls.html">
-            <span class="left-nav-bar-icon">
-              <i class="ico ico-checkbox-checked"></i>
-            </span>
-            Basic Controls</a>
-          <a id="typography" class="list-group-item left-nav-item" href="/typography.html">
-            <span class="left-nav-bar-icon">
-              <i class="ico ico-text"></i>
-            </span>
-            Typography</a>
-          <!-- <a id="colors" class="list-group-item left-nav-item" href="/colors.html">
-            <span class="left-nav-bar-icon">
-              <i class="ico ico-eyedropper"></i>
-            </span>
-            Colors</a> -->
-          <a id="icons" class="list-group-item left-nav-item" href="/icons.html">
-            <span class="left-nav-bar-icon">
-              <i class="ico ico-info-circle"></i>
-            </span>
-            Icons</a>
+        <div class="border-left pl-3 py-2">
+          <div class="custom-control custom-switch custom-control-inline">
+            <input type="checkbox" id="style-switch" class="custom-control-input" name="example1">
+            <label class="custom-control-label label-lg" for="style-switch">Dark Mode</label>
+          </div>
         </div>
       </div>
-      <div class="content-wrapper panel-bg">
+    </nav>
+    <div class="ether-page-main-area">
+      <nav class="nav flex-column ether-left-nav">
+        <a id="home" class="nav-link active" href="/index.html">
+          <span class="left-nav-icon">
+            <i class="icon material-icons">home</i>
+          </span>
+          Introduction
+        </a>
+        <a id="overview" class="nav-link" href="/overview.html">
+          <span class="left-nav-icon">
+            <i class="icon material-icons">grid_on</i>
+          </span>
+          Overview
+        </a>
+        <a id="layout" class="nav-link" href="/layout.html">
+          <span class="left-nav-icon">
+            <i class="icon material-icons">view_quilt</i>
+          </span>
+          Ether Layout
+        </a>
+        <a id="colors" class="nav-link" href="/colors.html">
+          <span class="left-nav-icon">
+            <i class="icon material-icons">color_lens</i>
+          </span>
+          Colors</a>
+        <a id="typography" class="nav-link" href="/typography.html">
+          <span class="left-nav-icon">
+            <i class="icon material-icons">text_fields</i>
+          </span>
+          Typography</a>
+        <a id="controls" class="nav-link" href="/controls.html">
+          <span class="left-nav-icon">
+            <i class="icon material-icons">ballot</i>
+          </span>
+          Basic Controls
+        </a>
+      </nav>
+      <div class="bg-panel-background">

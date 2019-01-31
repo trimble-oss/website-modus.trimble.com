@@ -1,0 +1,639 @@
+${require(`./header.html`)}
+<div class="guide-content">
+
+  <h1>Overview</h1>
+  <div class="grid-layout scroll-container">
+
+    <div class="grid-item cols-2">
+      <h6>Buttons</h6>
+      <p>
+        Large Buttons<br />
+        <button class="btn btn-primary btn-lg">Primary Button</button>
+        <button class="btn btn-secondary btn-lg">Secondary Button</button>
+        <button class="btn btn-tertiary btn-lg">Tertiary Button</button>
+      </p>
+      <p>
+        Normal Buttons<br />
+        <button class="btn btn-primary">Primary Button</button>
+        <button class="btn btn-secondary">Secondary Button</button>
+        <button class="btn btn-tertiary">Tertiary Button</button>
+      </p>
+      <p>
+        Disabled Buttons<br />
+        <button class="btn btn-primary" disabled>Primary Button</button>
+        <button class="btn btn-secondary" disabled>Secondary Button</button>
+        <button class="btn btn-tertiary" disabled>Tertiary Button</button>
+      </p>
+      <p>
+        Buttons with Icons
+      </p>
+      <p>
+        <button class="btn btn-primary btn-lg"><i class="icon icon-on-btn material-icons">settings</i><span>Primary
+            Button</span></button>
+        <button class="btn btn-secondary btn-lg"><i class="icon icon-on-btn material-icons">settings</i><span>Secondary
+            Button</span></button>
+        <button class="btn btn-tertiary btn-lg"><i class="icon icon-on-btn material-icons">settings</i><span>Tertiary
+            Button</span></button>
+      </p>
+      <p>
+        <button class="btn btn-primary btn-lg"><span>Primary Button</span><i class="icon icon-on-btn material-icons">check</i></button>
+        <button class="btn btn-secondary btn-lg"><span>Secondary Button</span><i class="icon icon-on-btn material-icons">check</i></button>
+        <button class="btn btn-tertiary btn-lg"><span>Tertiary Button</span><i class="icon icon-on-btn material-icons">check</i></button>
+      </p>
+      <p>
+        <button class="btn btn-primary"><i class="icon icon-on-btn material-icons">settings</i><span>Primary Button</span></button>
+        <button class="btn btn-secondary"><i class="icon icon-on-btn material-icons">settings</i><span>Secondary Button</span></button>
+        <button class="btn btn-tertiary"><i class="icon icon-on-btn material-icons">settings</i><span>Tertiary Button</span></button>
+      </p>
+      <p>
+        <button class="btn btn-primary"><span>Primary Button</span><i class="icon icon-on-btn material-icons">check</i></button>
+        <button class="btn btn-secondary"><span>Secondary Button</span><i class="icon icon-on-btn material-icons">check</i></button>
+        <button class="btn btn-tertiary"><span>Tertiary Button</span><i class="icon icon-on-btn material-icons">check</i></button>
+      </p>
+      <p>Icon only buttons</p>
+      <p>
+        <label for="">Large</label>
+        <button class="btn btn-lg btn-icon">
+          <i class="icon material-icons">date_range</i>
+        </button>
+        <button class="btn btn-lg btn-icon">
+          <i class="icon material-icons">settings</i>
+        </button>
+      </p>
+      <p>
+        <label for="">Regular</label>
+        <button class="btn btn-icon">
+          <i class="icon material-icons">date_range</i>
+        </button>
+        <button class="btn btn-icon">
+          <i class="icon material-icons">settings</i>
+        </button>
+      </p>
+    </div>
+
+    <div class="grid-item">
+      <h6>Accordion*</h6>
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Collapsible Group Item #1
+            </h5>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+              wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+              eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+              assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+              nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+              farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+              labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Collapsible Group Item #2
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+              wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+              eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+              assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+              nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+              farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+              labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Collapsible Group Item #3
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+              wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+              eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+              assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+              nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+              farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+              labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-item">
+      <h6>Card</h6>
+      <div class="card mb-2" style="width: 18rem;">
+        <img class="card-img-top" src="https://fakeimg.pl/286x150/" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Card Title</h4>
+          <h5 class="card-subtitle mb-2 text-muted">Card Subtitle</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's content.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="https://fakeimg.pl/286x150/" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-title">Card Title</p>
+          <p class="card-subtitle">Card Subtitle</p>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's content.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-item">
+      <h6>List Items</h6>
+      <ul class="list-group">
+        <li class="list-group-item active">List Item (active)</li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-switch custom-control-inline">
+            <input type="checkbox" checked class="custom-control-input" id="listSwitch1">
+            <label class="custom-control-label" for="listSwitch1"></label>
+          </div>
+          <span>Left Switch</span>
+        </li>
+        <li class="list-group-item list-item-right-control">
+
+          <span>Right Switch</span>
+          <div class="custom-control custom-switch custom-control-inline">
+            <input type="checkbox" checked class="custom-control-input" id="listSwitch2">
+            <label class="custom-control-label" for="listSwitch2"></label>
+          </div>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" checked class="custom-control-input" id="customCheck-list" name="example1">
+            <label class="custom-control-label" for="customCheck-list"></label>
+          </div>
+          <span>Left Checkbox</span>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-radio">
+            <input type="radio" checked class="custom-control-input" id="customRadio-list" name="example4" value="customEx">
+            <label class="custom-control-label" for="customRadio-list"></label>
+          </div>
+          <span>Left Radio Button</span>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="customRadio-list2" name="example4" value="customEx">
+            <label class="custom-control-label" for="customRadio-list2"></label>
+          </div>
+          <span>Left Radio Button</span>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <i class="icon material-icons">settings</i>
+          <span>Left Icon</span> </li>
+        <li class="list-group-item list-item-right-control">
+          <span>Right Icon</span>
+          <i class="icon material-icons">settings</i> </li>
+        <li class="list-group-item list-item-leftright-control">
+          <i class="icon material-icons">settings</i>
+          <span>Both Icons</span>
+          <i class="icon material-icons">check</i> </li>
+      </ul>
+    </div>
+
+
+    <div class="grid-item">
+      <h6>List Items - Condensed</h6>
+      <ul class="list-group list-group-condensed">
+        <li class="list-group-item active">List Item (active)</li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-switch custom-control-inline">
+            <input type="checkbox" checked class="custom-control-input" id="listSwitch-cond">
+            <label class="custom-control-label" for="listSwitch-cond"></label>
+          </div>
+          <span>Left Switch</span>
+        </li>
+        <li class="list-group-item list-item-right-control">
+
+          <span>Right Switch</span>
+          <div class="custom-control custom-switch custom-control-inline">
+            <input type="checkbox" checked class="custom-control-input" id="listSwitch-cond2">
+            <label class="custom-control-label" for="listSwitch-cond2"></label>
+          </div>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" checked class="custom-control-input" id="customCheck-cond1" name="cond1">
+            <label class="custom-control-label" for="customCheck-cond1"></label>
+          </div>
+          <span>Left Checkbox</span>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-radio">
+            <input type="radio" checked class="custom-control-input" id="customRadio-cond2" name="cond2" value="customEx">
+            <label class="custom-control-label" for="customRadio-cond2"></label>
+          </div>
+          <span>Left Radio Button</span>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="customRadio-list5" name="cond2" value="customEx">
+            <label class="custom-control-label" for="customRadio-list5"></label>
+          </div>
+          <span>Left Radio Button</span>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <i class="icon material-icons">settings</i>
+          <span>Left Icon</span> </li>
+        <li class="list-group-item list-item-right-control">
+          <span>Right Icon</span>
+          <i class="icon material-icons">settings</i> </li>
+        <li class="list-group-item list-item-leftright-control">
+          <i class="icon material-icons">settings</i>
+          <span>Both Icons</span>
+          <i class="icon material-icons">check</i> </li>
+      </ul>
+    </div>
+
+    <div class="grid-item grid-item-white">
+      <h6>List Items - Outlined</h6>
+      <ul class="list-group list-group-outlined">
+        <li class="list-group-item active">List Item (active)</li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-switch custom-control-inline">
+            <input type="checkbox" checked class="custom-control-input" id="listSwitch-outline1">
+            <label class="custom-control-label" for="listSwitch-outline1"></label>
+          </div>
+          <span>Left Switch</span>
+        </li>
+        <li class="list-group-item list-item-right-control">
+
+          <span>Right Switch</span>
+          <div class="custom-control custom-switch custom-control-inline">
+            <input type="checkbox" checked class="custom-control-input" id="listSwitch-outline2">
+            <label class="custom-control-label" for="listSwitch-outline2"></label>
+          </div>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" checked class="custom-control-input" id="customCheck--outline1" name="outline1">
+            <label class="custom-control-label" for="customCheck--outline1"></label>
+          </div>
+          <span>Left Checkbox</span>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-radio">
+            <input type="radio" checked class="custom-control-input" id="customRadio--outline1" name="outline2" value="customEx">
+            <label class="custom-control-label" for="customRadio--outline1"></label>
+          </div>
+          <span>Left Radio Button</span>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="customRadio--outline2" name="outline2" value="customEx">
+            <label class="custom-control-label" for="customRadio--outline2"></label>
+          </div>
+          <span>Left Radio Button</span>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <i class="icon material-icons">settings</i>
+          <span>Left Icon</span> </li>
+        <li class="list-group-item list-item-right-control">
+          <span>Right Icon</span>
+          <i class="icon material-icons">settings</i> </li>
+        <li class="list-group-item list-item-leftright-control">
+          <i class="icon material-icons">settings</i>
+          <span>Both Icons</span>
+          <i class="icon material-icons">check</i> </li>
+      </ul>
+    </div>
+
+    <div class="grid-item">
+      <h6>List Items - Chromeless</h6>
+      <ul class="list-group list-group-chromeless">
+        <li class="list-group-item active">List Item (active)</li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-switch custom-control-inline">
+            <input type="checkbox" checked class="custom-control-input" id="listSwitch-chromeless1">
+            <label class="custom-control-label" for="listSwitch-chromeless1"></label>
+          </div>
+          <span>Left Switch</span>
+        </li>
+        <li class="list-group-item list-item-right-control">
+
+          <span>Right Switch</span>
+          <div class="custom-control custom-switch custom-control-inline">
+            <input type="checkbox" checked class="custom-control-input" id="listSwitch-chromeless2">
+            <label class="custom-control-label" for="listSwitch-chromeless2"></label>
+          </div>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" checked class="custom-control-input" id="customCheck-chromeless1" name="chromeless1">
+            <label class="custom-control-label" for="customCheck-chromeless1"></label>
+          </div>
+          <span>Left Checkbox</span>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-radio">
+            <input type="radio" checked class="custom-control-input" id="customRadio-chromeless1" name="chromeless2"
+              value="customEx">
+            <label class="custom-control-label" for="customRadio-chromeless1"></label>
+          </div>
+          <span>Left Radio Button</span>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <div class="custom-control custom-radio">
+            <input type="radio" class="custom-control-input" id="customRadio-chromeless2" name="chromeless2" value="customEx">
+            <label class="custom-control-label" for="customRadio-chromeless2"></label>
+          </div>
+          <span>Left Radio Button</span>
+        </li>
+        <li class="list-group-item list-item-left-control">
+          <i class="icon material-icons">settings</i>
+          <span>Left Icon</span> </li>
+        <li class="list-group-item list-item-right-control">
+          <span>Right Icon</span>
+          <i class="icon material-icons">settings</i> </li>
+        <li class="list-group-item list-item-leftright-control">
+          <i class="icon material-icons">settings</i>
+          <span>Both Icons</span>
+          <i class="icon material-icons">check</i> </li>
+      </ul>
+    </div>
+
+    <div class="grid-item">
+      <h6>Controls</h6>
+      <div class="form-group">
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+          <label class="custom-control-label label-lg" for="customCheck">Checkbox</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="custom-control custom-checkbox">
+          <input type="checkbox" checked class="custom-control-input" id="customCheck2" name="example1">
+          <label class="custom-control-label label-lg" for="customCheck2">Checkbox</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="custom-control custom-switch custom-control-inline">
+          <input type="checkbox" checked class="custom-control-input" id="customSwitch" name="example1">
+          <label class="custom-control-label label-lg" for="customSwitch">Switch</label>
+        </div>
+        <div class="custom-control custom-switch custom-control-inline">
+          <input type="checkbox" class="custom-control-input" id="customSwitch2" name="example1">
+          <label class="custom-control-label label-lg" for="customSwitch2">Switch</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="custom-control custom-radio custom-control-inline">
+          <input type="radio" checked class="custom-control-input" id="customRadio" name="example" value="customEx">
+          <label class="custom-control-label label-lg" for="customRadio">Radio 1</label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+          <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+          <label class="custom-control-label label-lg" for="customRadio2">Radio 2</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="label-lg" for="customRange">Slider</label>
+        <input type="range" class="custom-range" id="customRange" name="points1">
+      </div>
+    </div>
+
+    <div class="grid-item">
+      <h6>Form Inputs</h6>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Text Input (Regular Size)</label>
+        <input class="form-control" id="exampleFormControlInput1" placeholder="Placeholder Text">
+      </div>
+      <div class="form-group">
+        <label class="label-lg" for="exampleFormControlInput2">Text Input (Large Size)</label>
+        <input class="form-control form-control-lg" id="exampleFormControlInput2" placeholder="Placeholder Text">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput3">Outlined Text Input (Regular Size)</label>
+        <input class="form-control form-control-outlined" id="exampleFormControlInput3" placeholder="Placeholder Text">
+      </div>
+      <div class="form-group">
+        <label class="label-lg" for="exampleFormControlInput4">Outlined Text Input (Large Size)</label>
+        <input class="form-control form-control-outlined form-control-lg" id="exampleFormControlInput4" placeholder="Placeholder Text">
+      </div>
+    </div>
+    <div class="grid-item">
+      <h6>Form Select</h6>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Custom Select</label>
+        <select class="custom-select" id="exampleFormControlSelect1">
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+          <option>Option 4</option>
+          <option>Option 5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Custom Select Outlined</label>
+        <select class="custom-select form-control-outlined" id="exampleFormControlSelect2">
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+          <option>Option 4</option>
+          <option>Option 5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Custom Large Select</label>
+        <select class="custom-select custom-select-lg" id="exampleFormControlSelect3">
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+          <option>Option 4</option>
+          <option>Option 5</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Custom Select Large Outlined</label>
+        <select class="custom-select custom-select-lg form-control-outlined" id="exampleFormControlSelect4">
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+          <option>Option 4</option>
+          <option>Option 5</option>
+        </select>
+      </div>
+    </div>
+    <div class="grid-item">
+      <h6>Form Text Area</h6>
+      <p>
+        <textarea rows="4" class="form-control form-control-lg" placeholder="Text Area"></textarea>
+      </p>
+      <p>
+        <textarea rows="4" class="form-control form-control-lg form-control-outlined" placeholder="Text Area">With Outline</textarea>
+      </p>
+    </div>
+
+    <div class="grid-item">
+      <h6>Dropdown Menu*</h6>
+      <div class="dropdown">
+        <button class="btn btn-lg btn-reverse-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-item">
+      <h6>Tables</h6>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="grid-item">
+      <h6>Input Groups</h6>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+          aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <span class="input-group-text" id="basic-addon2">@example.com</span>
+        </div>
+      </div>
+
+      <div class="input-group input-group-lg mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-lg">Large</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+      </div>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" checked class="custom-control-input" id="group-check1" name="example1">
+              <label class="custom-control-label label-lg" for="group-check1"></label>
+            </div>
+          </div>
+        </div>
+        <input type="text" class="form-control" placeholder="Text input with checkbox">
+      </div>
+
+      <div class="input-group input-group-lg">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" checked class="custom-control-input" id="group-radio1" name="group-radio1" value="customEx">
+              <label class="custom-control-label label-lg" for="group-radio1"></label>
+            </div>
+          </div>
+        </div>
+        <input type="text" class="form-control" placeholder="Text input with radio button">
+      </div>
+
+    </div>
+
+
+    <div class="grid-item grid-item-white">
+      <h6>Input Groups - Outlined</h6>
+      <div class="input-group input-group-outlined mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">@</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+
+      <div class="input-group input-group-outlined mb-3">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+          aria-describedby="basic-addon2">
+        <div class="input-group-append">
+          <span class="input-group-text" id="basic-addon2">@example.com</span>
+        </div>
+      </div>
+
+      <div class="input-group input-group-outlined input-group-lg mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-lg2">Large</span>
+        </div>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+      </div>
+
+      <div class="input-group input-group-outlined mb-3">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" checked class="custom-control-input" id="group-check2" name="example2">
+              <label class="custom-control-label label-lg" for="group-check2"></label>
+            </div>
+          </div>
+        </div>
+        <input type="text" class="form-control" placeholder="Text input with checkbox">
+      </div>
+
+      <div class="input-group input-group-outlined input-group-lg">
+        <div class="input-group-prepend">
+          <div class="input-group-text">
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" checked class="custom-control-input" id="group-radio2" name="group-radio1" value="customEx">
+              <label class="custom-control-label label-lg" for="group-radio2"></label>
+            </div>
+          </div>
+        </div>
+        <input type="text" class="form-control" placeholder="Text input with radio button">
+      </div>
+
+    </div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#overview").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}

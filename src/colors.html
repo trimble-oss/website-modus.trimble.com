@@ -1,0 +1,152 @@
+${require(`./header.html`)}
+<div class="guide-content">
+  <div class="guide-content-column">
+    <h1>Color Palette</h1>
+    <p class="lead">
+      The Project Ether Framework palette is based on the Trimble brand colors. You can modify the colors in <code>_theme.scss</code>
+      and <code>_theme-dark.scss</code> when using the SASS implenetation.
+    </p>
+    <div class="color-swatches">
+      <div class="card">
+        <div class="card-img-top bg-primary">
+          <code class="text-primary">.text-white</code>
+        </div>
+        <div class="card-body">
+          <div class="card-title">
+            <h6>Primary Brand Color</h6>
+            <p class="card-subtitle">
+              #005F9E
+            </p>
+            <p><code>.bg-primary</code></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img-top bg-secondary"></div>
+        <div class="card-body">
+          <div class="card-title">
+            <h6>Secondary Brand Color</h6>
+            <p class="card-subtitle">
+              #8C8B96
+            </p>
+            <p><code>.bg-secondary</code></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img-top bg-main-background"></div>
+        <div class="card-body">
+          <div class="card-title">
+            <h6>Main Background Color</h6>
+            <p class="card-subtitle">
+              #FFFFFF
+            </p>
+            <p><code>.bg-main-background</code></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img-top bg-panel-background"></div>
+        <div class="card-body">
+          <div class="card-title">
+            <h6>UI Panel Background Color</h6>
+            <p class="card-subtitle">
+              #F3F3F7
+            </p>
+            <p><code>.bg-panel-background</code><br />
+              <code>.bg-light</code></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img-top bg-hover"></div>
+        <div class="card-body">
+          <div class="card-title">
+            <h6>Hover Color</h6>
+            <p class="card-subtitle">
+              #EAEAEF
+            </p>
+            <p><code>.bg-hover</code></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img-top bg-selected"></div>
+        <div class="card-body">
+          <div class="card-title">
+            <h6>Selection Color</h6>
+            <p class="card-subtitle">
+              #D0D0D7
+            </p>
+            <p><code>.bg-selected</code></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img-top bg-active"></div>
+        <div class="card-body">
+          <div class="card-title">
+            <h6>Active Color</h6>
+            <p class="card-subtitle">
+              #009AD9
+            </p>
+            <p><code>.bg-active</code></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img-top bg-warning"></div>
+        <div class="card-body">
+          <div class="card-title">
+            <h6>Warning or Emphasis Color</h6>
+            <p class="card-subtitle">
+              #FFBE00
+            </p>
+            <p><code>.bg-warning</code></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img-top bg-dark"></div>
+        <div class="card-body">
+          <div class="card-title">
+            <h6>Dark Color</h6>
+            <p class="card-subtitle">
+              #262533
+            </p>
+            <p><code>.bg-dark</code></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img-top bg-danger"></div>
+        <div class="card-body">
+          <div class="card-title">
+            <h6>Danger or Error Color</h6>
+            <p class="card-subtitle">
+              #C81922
+            </p>
+            <p><code>.bg-danger</code></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#colors").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}

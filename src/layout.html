@@ -1,0 +1,102 @@
+${require(`./header.html`)}
+<div class="guide-content">
+  <div class="guide-content-column">
+    <h1>Ether Layout</h1>
+    <p class="lead">
+      Besides the aesthetics and UI elements, the Ether Framework has an optional layout you can use for your web
+      applications.
+    </p>
+    <div class="guide-section">
+      <h2>Basic Structure</h2>
+      <p>The page should be wrapped in a <code>&lt;div class="ether-page-wrapper"&gt;</code> to set up the over all
+        structure.</p>
+      <p>The top nav bar is a standard Bootstrap <code>&lt;nav class="navbar navbar-expand-lg"&gt;</code> with an
+        additional class of <code>ether-navbar</code> to apply the aesthetics.</p>
+      <p>The navbar should be followed by <code>&lt;div class="ether-page-main-area"&gt;</code> to set up the left nav
+        area and main
+        content area.</p>
+      <p>The left nav is another Bootstrap <code>&lt;nav class="nav flex-column"&gt;</code> to create vertical nav
+        along with an additional class of <code>ether-left-nav</code> for the proper aesthetics. Within each <code>navlink</code>
+        it is important to have and icon or image with a class of <code>icon</code></p>
+      <p>The next sibling element after the left nav will automatically become the main content area. The <code>ether-page-main-area</code>
+        should be closed after this.</p>
+      <p>After the <code>ether-page-main-area</code> the next element should be the <code>&lt;div
+          class="ether-page-footer"&gt;</code>. Each sibling element will be spaced automatically.</p>
+      <div class="guide-example-block">
+        <div class="guide-sample position-relative p-0" style="height: 500px; z-index: 10; border-width: 7px;">
+          <div class="ether-page-wrapper">
+            <nav class="navbar navbar-expand-lg ether-navbar">
+              <a class="navbar-brand" href="#">Brand</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="navbarTogglerDemo02"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-text">
+                Application name
+              </div>
+              <div class="collapse navbar-collapse" id="mainnav">
+                <div class="navbar-nav m-auto">
+                  Center Text
+                </div>
+                <div class="navbar-nav">
+                  <div class="pr-3 py-2">
+                    <a href="#"><i class="icon material-icons" style="font-size: 24px">account_circle</i></a>
+                  </div>
+                  <div class="border-left pl-3 py-2">
+                    <a href="#"><i class="icon material-icons" style="font-size: 24px">apps</i></a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+            <div class="ether-page-main-area">
+              <nav class="nav flex-column ether-left-nav">
+                <a class="nav-link active" href="#">
+                  <span class="left-nav-icon"><i class="material-icons">grid_on</i></span>
+                  Nav Item (icon font)
+                </a>
+                <a class="nav-link" href="#">
+                  <span class="left-nav-icon">
+                    <svg height="24" width="24">
+                      <circle cx="12" cy="12" r="12" fill="#363545" />
+                      <text fill="#ffffff" text-anchor="middle" font-size="9" font-weight="700" font-family="Open Sans"
+                        x="12" y="15">SVG</text>
+                    </svg>
+                  </span>
+                  Nav Item (inline SVG)
+                </a>
+                <a class="nav-link" href="#">
+                  <span class="left-nav-icon"><img src="${require(`./img/route.svg`)}" /></span>
+                  Nav Item (SVG image)
+                </a>
+                <a class="nav-link" href="#">
+                  <span class="left-nav-icon"><img src="${require(`./img/check-mark-orange.png`)}" /></span>
+                  Nav Item (PNG image, 24x24)
+                </a>
+              </nav>
+              <div class="ether-panel-content bg-panel-background">
+                <div class="grid-layout ether-panel-scroll-container">
+                  <h3>Content Area</h3>
+                </div>
+              </div>
+            </div>
+            <div class="ether-page-footer">
+              <div class="small">Footer Text 1</div>
+              <div class="small">Footer Text 2</div>
+              <div class="small">Footer Text 3</div>
+            </div>
+          </div>
+        </div>
+        <div class="guide-code" style="max-width: 900px;"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#layout").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}

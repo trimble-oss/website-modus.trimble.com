@@ -1,5 +1,8 @@
-const copyToClipboard = id => {
-  const str = document.getElementById(id).innerHTML;
+var Pretty = require('pretty');
+var Prism = require('prismjs');
+require('prismjs/components/prism-sass');
+
+const copyToClipboard = str => {
   const el = document.createElement('textarea'); // Create a <textarea> element
   el.value = str; // Set its value to the string that you want copied
   el.setAttribute('readonly', ''); // Make it readonly to be tamper-proof
@@ -23,7 +26,7 @@ const copyToClipboard = id => {
 
 const swapStyleSheet = id => {
   document.getElementById("pagestyles").setAttribute("href", id);
-}
+};
 
 const initate = () => {
   console.log("Script Initialized");
@@ -36,5 +39,58 @@ const initate = () => {
     }
   };
 };
+
+$(document).ready(function () {
+  $(".guide-code").each(function (i, block) {
+    var prev_html = Pretty($(block).prev().html());
+    var html_code = Prism.highlight(prev_html, Prism.languages.markup, "markup");
+    var elem = $("<pre>").html(html_code).appendTo("<code>");
+    $(block).append(elem);
+  });
+
+  $(".guide-copy-code,.guide-code").on("click", (e) => {
+    var str = $(e.currentTarget).siblings(".guide-sample").html();
+    copyToClipboard(str);
+    // Get the snackbar DIV
+    var snack = $("#snackbar");
+
+    // Add the "show" class to DIV
+    snack.text("Code copied to clipboard.").addClass("show");
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function () {
+      snack.removeClass("show");
+    }, 3000);
+  });
+
+  const close_popovers = () => {
+    $(".hover-dimensions").find('*').removeClass("pop-highlight").popover("dispose");
+  };
+
+  $(".hover-dimensions").find('*').not('p').not('div').on("mouseenter", (e) => {
+    close_popovers();
+    var elem = $(e.currentTarget);
+    elem.addClass("pop-highlight");
+    var pop = elem.popover({
+      placement: "top",
+      content: `
+        <p class="small text-primary font-weight-bold m-0">${elem.prop("tagName")}</p>
+        <p class="small mb-0"><strong>Height:</strong> ${elem.outerHeight()}px</p>
+        <p class="small mb-0"><strong>Font size:</strong> ${elem.css("font-size")}</p>
+        <p class="small mb-0"><strong>Padding:</strong> ${elem.css("padding")}</p>
+        <p class="small mb-0"><strong>Border:</strong> ${elem.css("border-width")}</p>
+        `,
+      html: true
+    });
+    elem.popover("show");
+
+  });
+
+  $(".hover-dimensions").find('*').on("mouseleave", (e) => {
+    var elem = $(e.currentTarget);
+    elem.removeClass("pop-highlight");
+    elem.popover("dispose");
+  });
+});
 
 window.onload = initate;

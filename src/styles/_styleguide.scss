@@ -1,3 +1,4 @@
+// @import '/node_modules/prismjs/themes/prism.css';
 $panel-background-color: #F3F3F7;
 
 html {
@@ -60,6 +61,11 @@ body {
   padding: 20px;
 }
 
+.guide-content-column {
+  padding: 20px;
+  max-width: 960px;
+}
+
 .guide-header {
   height: 70px;
   background-color: #fff;
@@ -86,6 +92,7 @@ body {
   display: grid;
   grid-template-rows: auto auto;
   max-width: 900px;
+  position: relative;
 
   &>div {
     border: 1px solid #ddd;
@@ -98,98 +105,134 @@ body {
   .guide-code {
     background-color: #fff;
     border-top: none;
-    position: relative;
+    padding-bottom: 30px;
+
+    code {
+      text-align: left;
+    }
+
+    pre {
+      margin-top: -10px;
+      margin: 1rem;
+      color: #333;
+      white-space: pre-wrap;
+    }
   }
 
   .guide-copy-code {
     position: absolute;
-    top: -1px;
-    right: -1px;
+    bottom: 0px;
+    left: 0px;
   }
 }
 
-pre {
-  white-space: pre-line;
-  margin: 1rem;
+:not(pre)>code[class*="language-"],
+pre[class*="language-"] {
+  background: #fff;
 }
 
-// Code highlighting
-// https://andrewsun.com/tools/syntax-highlighter/
-.hljs {
-  display: block;
-  overflow-x: auto;
-  padding: 0.5em;
-  // background: #F0F0F0
+.pop-highlight {
+  //background-color: red !important;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    border: 1px dashed rgba(255, 0, 0, 1);
+    top: -1px;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    pointer-events: none;
+  }
 }
 
-.hljs,
-.hljs-subst {
-  color: #444
+.color-swatches {
+  display: grid;
+  grid-template-columns: min-content min-content min-content min-content;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-content: center;
+
+  .card-img-top {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-bottom: 1px solid #ddd;
+  }
 }
 
-.hljs-comment {
-  color: #888888
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
 }
 
-.hljs-keyword,
-.hljs-attribute,
-.hljs-selector-tag,
-.hljs-meta-keyword,
-.hljs-doctag,
-.hljs-name {
-  font-weight: bold
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+  visibility: visible;
+  /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+  However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
 
-.hljs-type,
-.hljs-string,
-.hljs-number,
-.hljs-selector-id,
-.hljs-selector-class,
-.hljs-quote,
-.hljs-template-tag,
-.hljs-deletion {
-  color: #880000
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
 }
 
-.hljs-title,
-.hljs-section {
-  color: #880000;
-  font-weight: bold
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
 }
 
-.hljs-regexp,
-.hljs-symbol,
-.hljs-variable,
-.hljs-template-variable,
-.hljs-link,
-.hljs-selector-attr,
-.hljs-selector-pseudo {
-  color: #BC6060
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
 }
 
-.hljs-literal {
-  color: #78A960
-}
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
 
-.hljs-built_in,
-.hljs-bullet,
-.hljs-code,
-.hljs-addition {
-  color: #397300
-}
-
-.hljs-meta {
-  color: #1f7199
-}
-
-.hljs-meta-string {
-  color: #4d99bf
-}
-
-.hljs-emphasis {
-  font-style: italic
-}
-
-.hljs-strong {
-  font-weight: bold
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
 }

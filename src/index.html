@@ -1,367 +1,150 @@
 ${require(`./header.html`)}
 <div class="guide-content">
 
-  <h1>Overview</h1>
-  <div class="grid-layout scroll-container">
-    <div class="grid-item">
-      <h6>Accordion*</h6>
-      <div class="accordion" id="accordionExample">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Collapsible Group Item #1
-            </h5>
-          </div>
+  <div class="guide-content-column">
+    <h1>Introduction</h1>
+    <p class="lead">
+      The Project Ether Framework was developed as a common platform for all of Trimble MAPS web applications, with the
+      additional goal of sharing with other groups within Trimble. It leverages the Trimble brand as well as some of
+      the
+      work done by other groups, specifically Project Origin by the SketchUp team.
+    </p>
+    <h2>Usage</h2>
+    <p>Project Ether is built upon and extends the Bootstrap 4 code framework. It is a responsive framework for web and
+      mobile uses. You can use the CSS files as is, or integrate the SASS files into your own application if you wish
+      to
+      modify it further.</p>
+    <h3>Download CSS</h3>
+    <p>Download and unzip the package into your project directory.</p>
+    <p>
+      <a href="http://styleguide.trimblemaps.com/dist/ether-framework-latest.zip"></a>
+      <href class="btn btn-lg btn-primary">Download</href>
+    </p>
+    <p>Place the <code>.css</code> files in your project directory and add <code>ether.min.css</code> with a <code>&lt;link&gt;</code>
+      tag. </p>
+    <p> To use the dark theme, reference <code>ether-dark.min.css</code> in your <code>&lt;link&gt;</code> tag.</p>
+    <h3>Install CSS with NPM</h3>
+    <p>Install Project Ether in your Node.js powered apps with our tarball package:</p>
+    <p class="bg-main-background py-3 px-2">
+      <code>$ npm install --save http://styleguide.trimblemaps.com/dist/ether-framework-latest.tgz</code>
+    </p>
+    <p>The CSS files will be found in the <code>./node_modules/project-ether-framework/dist</code> directory.</p>
+    <h3>Customize using SASS</h3>
+    <p>The SASS files will be found in the <code>./node_modules/project-ether-framework/dist/scss</code> directory.</p>
+    <h5 id="file-structure">File structure</h5>
 
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-              wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-              eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-              assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-              nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-              farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-              labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Collapsible Group Item #2
-            </h5>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-              wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-              eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-              assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-              nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-              farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-              labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h5 class="mb-0" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Collapsible Group Item #3
-            </h5>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-              wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
-              eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-              assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
-              nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-              farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
-              labore sustainable VHS.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="grid-item">
-      <h6>Card</h6>
-      <div class="card mb-2" style="width: 18rem;">
-        <img class="card-img-top" src="https://fakeimg.pl/286x150/" alt="Card image cap">
-        <div class="card-body">
-          <h4 class="card-title">Card Title</h4>
-          <h5 class="card-subtitle mb-2 text-muted">Card Subtitle</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-        </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="https://fakeimg.pl/286x150/" alt="Card image cap">
-        <div class="card-body">
-          <p class="card-title">Card Title</p>
-          <p class="card-subtitle">Card Subtitle</p>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-            card's content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="grid-item cols-2">
-      <h6>Buttons</h6>
-      <p>
-        Large Buttons<br />
-        <button class="btn btn-primary btn-lg">Primary Button</button>
-        <button class="btn btn-secondary btn-lg">Secondary Button</button>
-        <button class="btn btn-tertiary btn-lg">Tertiary Button</button>
-      </p>
-      <p>
-        Normal Buttons<br />
-        <button class="btn btn-primary">Primary Button</button>
-        <button class="btn btn-secondary">Secondary Button</button>
-        <button class="btn btn-tertiary">Tertiary Button</button>
-      </p>
-      <p>
-        Disabled Buttons<br />
-        <button class="btn btn-primary" disabled>Primary Button</button>
-        <button class="btn btn-secondary" disabled>Secondary Button</button>
-        <button class="btn btn-tertiary" disabled>Tertiary Button</button>
-      </p>
-      <p>
-        Buttons with Icons
-      </p>
-      <p>
-        <button class="btn btn-primary btn-lg"><span class="icon-on-btn ico ico-cog"></span><span>Primary Button</span></button>
-        <button class="btn btn-secondary btn-lg"><span class="icon-on-btn ico ico-cog"></span><span>Secondary Button</span></button>
-        <button class="btn btn-tertiary btn-lg"><span class="icon-on-btn ico ico-cog"></span><span>Tertiary Button</span></button>
-      </p>
-      <p>
-        <button class="btn btn-primary btn-lg"><span>Primary Button</span><span class="icon-on-btn ico ico-check"></span></button>
-        <button class="btn btn-secondary btn-lg"><span>Secondary Button</span><span class="icon-on-btn ico ico-check"></span></button>
-        <button class="btn btn-tertiary btn-lg"><span>Tertiary Button</span><span class="icon-on-btn ico ico-check"></span></button>
-      </p>
-      <p>
-        <button class="btn btn-primary"><span class="icon-on-btn ico ico-cog"></span><span>Primary Button</span></button>
-        <button class="btn btn-secondary"><span class="icon-on-btn ico ico-cog"></span><span>Secondary Button</span></button>
-        <button class="btn btn-tertiary"><span class="icon-on-btn ico ico-cog"></span><span>Tertiary Button</span></button>
-      </p>
-      <p>
-        <button class="btn btn-primary"><span>Primary Button</span><span class="icon-on-btn ico ico-check"></span></button>
-        <button class="btn btn-secondary"><span>Secondary Button</span><span class="icon-on-btn ico ico-check"></span></button>
-        <button class="btn btn-tertiary"><span>Tertiary Button</span><span class="icon-on-btn ico ico-check"></span></button>
-      </p>
-      <p>Icon only buttons</p>
-      <p>
-        <label for="">Large</label>
-        <button class="btn btn-lg btn-icon">
-          <span class="ico ico-calendar"></span>
-        </button>
-        <button class="btn btn-lg btn-icon">
-          <span class="ico ico-cog"></span>
-        </button>
-      </p>
-      <p>
-        <label for="">Regular</label>
-        <button class="btn btn-icon">
-          <span class="ico ico-calendar"></span>
-        </button>
-        <button class="btn btn-icon">
-          <span class="ico ico-cog"></span>
-        </button>
-      </p>
-    </div>
-    <div class="grid-item">
-      <h6>Dropdown Menu*</h6>
-      <div class="dropdown">
-        <button class="btn btn-lg btn-reverse-primary dropdown-toggle" type="button" id="dropdownMenuButton"
-          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown button
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </div>
-    </div>
-    <div class="grid-item">
-      <h6>Controls</h6>
-      <div class="form-group">
-        <div class="custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
-          <label class="custom-control-label label-lg" for="customCheck">Checkbox</label>
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="custom-control custom-checkbox">
-          <input type="checkbox" checked class="custom-control-input" id="customCheck2" name="example1">
-          <label class="custom-control-label label-lg" for="customCheck2">Checkbox</label>
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="custom-control custom-switch custom-control-inline">
-          <input type="checkbox" checked class="custom-control-input" id="customSwitch" name="example1">
-          <label class="custom-control-label label-lg" for="customSwitch">Switch</label>
-        </div>
-        <div class="custom-control custom-switch custom-control-inline">
-          <input type="checkbox" class="custom-control-input" id="customSwitch2" name="example1">
-          <label class="custom-control-label label-lg" for="customSwitch2">Switch</label>
-        </div>
-      </div>
-      <div class="form-group">
-        <div class="custom-control custom-radio custom-control-inline">
-          <input type="radio" checked class="custom-control-input" id="customRadio" name="example" value="customEx">
-          <label class="custom-control-label label-lg" for="customRadio">Radio 1</label>
-        </div>
-        <div class="custom-control custom-radio custom-control-inline">
-          <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
-          <label class="custom-control-label label-lg" for="customRadio2">Radio 2</label>
-        </div>
-      </div>
-      <div class="form-group">
-        <label class="label-lg" for="customRange">Slider</label>
-        <input type="range" class="custom-range" id="customRange" name="points1">
-      </div>
-    </div>
-    <div class="grid-item">
-      <h6>List Items</h6>
-      <ul class="list-group">
-        <li class="list-group-item">List Item</li>
-        <li class="list-group-item list-item-left-control">
-          <div class="custom-control custom-switch custom-control-inline">
-            <input type="checkbox" checked class="custom-control-input" id="listSwitch1">
-            <label class="custom-control-label" for="listSwitch1"></label>
-          </div>
-          <span>Left Switch</span>
-        </li>
-        <li class="list-group-item list-item-right-control">
+    <p>Whenever possible, avoid modifying Ether or Bootstrap core files. For Sass, that means creating your own
+      stylesheet
+      that imports Ether and Bootstrap so you can modify and extend it. Assuming you’re using a package manager like
+      npm, you’ll
+      have a file structure that looks like this:</p>
 
-          <span>Right Switch</span>
-          <div class="custom-control custom-switch custom-control-inline">
-            <input type="checkbox" checked class="custom-control-input" id="listSwitch2">
-            <label class="custom-control-label" for="listSwitch2"></label>
-          </div>
-        </li>
-        <li class="list-group-item list-item-left-control">
-          <div class="custom-control custom-checkbox">
-            <input type="checkbox" checked class="custom-control-input" id="customCheck-list" name="example1">
-            <label class="custom-control-label" for="customCheck-list"></label>
-          </div>
-          <span>Left Checkbox</span>
-        </li>
-        <li class="list-group-item list-item-left-control">
-          <div class="custom-control custom-radio">
-            <input type="radio" checked class="custom-control-input" id="customRadio-list" name="example4" value="customEx">
-            <label class="custom-control-label" for="customRadio-list"></label>
-          </div>
-          <span>Left Radio Button</span>
-        </li>
-        <li class="list-group-item list-item-left-control">
-          <div class="custom-control custom-radio">
-            <input type="radio" class="custom-control-input" id="customRadio-list2" name="example4" value="customEx">
-            <label class="custom-control-label" for="customRadio-list2"></label>
-          </div>
-          <span>Left Radio Button</span>
-        </li>
-        <li class="list-group-item list-item-left-control">
-          <span class="ico ico-cog"></span>
-          <span>Left Icon</span> </li>
-        <li class="list-group-item list-item-right-control">
-          <span>Right Icon</span>
-          <span class="ico ico-cog"></span> </li>
-        <li class="list-group-item list-item-leftright-control">
-          <span class="ico ico-cog"></span>
-          <span>Both Icons</span>
-          <span class="ico ico-check"></span> </li>
-      </ul>
+    <div class="bg-main-background pt-2 px-4 mb-4">
+      <pre><code data-lang="plaintext">your-project/
+├── scss
+│   └── custom.scss
+└── node_modules/
+    ├── bootstrap
+    │   ├── js
+    │   └── scss
+    └── project-ether-framework
+        └── scss</code></pre>
     </div>
-    <div class="grid-item">
-      <h6>Form Inputs</h6>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Text Input (Regular Size)</label>
-        <input class="form-control" id="exampleFormControlInput1" placeholder="Placeholder Text">
-      </div>
-      <div class="form-group">
-        <label class="label-lg" for="exampleFormControlInput2">Text Input (Large Size)</label>
-        <input class="form-control form-control-lg" id="exampleFormControlInput2" placeholder="Placeholder Text">
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlInput3">Outlined Text Input (Regular Size)</label>
-        <input class="form-control form-control-outlined" id="exampleFormControlInput3" placeholder="Placeholder Text">
-      </div>
-      <div class="form-group">
-        <label class="label-lg" for="exampleFormControlInput4">Outlined Text Input (Large Size)</label>
-        <input class="form-control form-control-outlined form-control-lg" id="exampleFormControlInput4" placeholder="Placeholder Text">
-      </div>
-    </div>
-    <div class="grid-item">
-      <h6>Form Select</h6>
-      <div class="form-group">
-        <label for="exampleFormControlSelect1">Custom Select</label>
-        <select class="custom-select" id="exampleFormControlSelect1">
-          <option>Option 1</option>
-          <option>Option 2</option>
-          <option>Option 3</option>
-          <option>Option 4</option>
-          <option>Option 5</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlSelect1">Custom Select Outlined</label>
-        <select class="custom-select form-control-outlined" id="exampleFormControlSelect2">
-          <option>Option 1</option>
-          <option>Option 2</option>
-          <option>Option 3</option>
-          <option>Option 4</option>
-          <option>Option 5</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlSelect1">Custom Large Select</label>
-        <select class="custom-select custom-select-lg" id="exampleFormControlSelect3">
-          <option>Option 1</option>
-          <option>Option 2</option>
-          <option>Option 3</option>
-          <option>Option 4</option>
-          <option>Option 5</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlSelect1">Custom Select Large Outlined</label>
-        <select class="custom-select custom-select-lg form-control-outlined" id="exampleFormControlSelect4">
-          <option>Option 1</option>
-          <option>Option 2</option>
-          <option>Option 3</option>
-          <option>Option 4</option>
-          <option>Option 5</option>
-        </select>
-      </div>
-    </div>
-    <div class="grid-item">
-      <h6>Form Text Area</h6>
-      <p>
-        <textarea rows="4" class="form-control form-control-lg" placeholder="Text Area"></textarea>
-      </p>
-      <p>
-        <textarea rows="4" class="form-control form-control-lg form-control-outlined" placeholder="Text Area">With Outline</textarea>
-      </p>
-    </div>
-    <div class="grid-item">
-      <h6>Tables</h6>
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <h5 id="importing">Importing</h5>
+
+    <p>In your <code class="highlighter-rouge">custom.scss</code>, you’ll import Ether and Bootstrap’s source Sass
+      files. With that setup in place, you can begin to modify any of the Sass variables and maps in your <code class="highlighter-rouge">custom.scss</code>.
+      You can also start to add parts of Bootstrap under the <code class="highlighter-rouge">// Optional</code>
+      section
+      as needed. We suggest using the full import stack from our <code class="highlighter-rouge">bootstrap.scss</code>
+      file as your starting point.</p>
+    <p>The main file to focus on is the <code>_theme.scss</code> file (and/or <code>_theme-dark.scss</code> if you want
+      a dark look). You should copy this file from <code>/node_modules/project-ether-framework/scss/components</code>
+      to your own SASS directory and import your copy instead of the Project Ether version in your main SASS file.</p>
+    <p>This example shows you how you should structure your main file. The order in which files ar eimported matters.</p>
+    <figure class="bg-main-background p-2 mb-4">
+      <pre><code class="language-sass" data-lang="sass">
+  // Bootstrap functions
+  @import "../node_modules/bootstrap/scss/functions";
+  // Ether functions
+  @import "components/functions";
+  
+  //Fonts
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+  @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,600,700');
+  
+  // **** YOUR CUSTOM CODE GOES HERE ****
+  @import "your_custom_sass_directory/your_copy_of_ether_theme_file";
+
+  @import "../node_modules/project-ether-framework/scss/components/variables"; 
+  // OPTIONAL - use your own variables:
+  // @import "your_custom_sass_directory/copy_of_ether_variables_file";
+  
+  // Bootstrap variables
+  @import "../node_modules/bootstrap/scss/variables";
+  @import "../node_modules/bootstrap/scss/mixins";
+  
+  // Bootstrap components
+  @import "../node_modules/bootstrap/scss/reboot";
+  @import "../node_modules/bootstrap/scss/type";
+  @import "../node_modules/bootstrap/scss/images";
+  @import "../node_modules/bootstrap/scss/code";
+  @import "../node_modules/bootstrap/scss/grid";
+  @import "../node_modules/bootstrap/scss/tables";
+  @import "../node_modules/bootstrap/scss/forms";
+  @import "../node_modules/bootstrap/scss/buttons";
+  @import "../node_modules/bootstrap/scss/transitions";
+  @import "../node_modules/bootstrap/scss/dropdown";
+  @import "../node_modules/bootstrap/scss/button-group";
+  @import "../node_modules/bootstrap/scss/input-group";
+  @import "../node_modules/bootstrap/scss/custom-forms";
+  @import "../node_modules/bootstrap/scss/card";
+  @import "../node_modules/bootstrap/scss/breadcrumb";
+  @import "../node_modules/bootstrap/scss/pagination";
+  @import "../node_modules/bootstrap/scss/badge";
+  @import "../node_modules/bootstrap/scss/alert";
+  @import "../node_modules/bootstrap/scss/progress";
+  @import "../node_modules/bootstrap/scss/media";
+  @import "../node_modules/bootstrap/scss/list-group";
+  @import "../node_modules/bootstrap/scss/close";
+  @import "../node_modules/bootstrap/scss/modal"; 
+  @import "../node_modules/bootstrap/scss/tooltip";
+  @import "../node_modules/bootstrap/scss/popover";
+  @import "../node_modules/bootstrap/scss/spinners";
+  @import "../node_modules/bootstrap/scss/utilities";          
+
+  // Bootstrap Optionals
+  // @import "../node_modules/bootstrap/scss/nav";
+  // @import "../node_modules/bootstrap/scss/navbar";
+  // @import "../node_modules/bootstrap/scss/carousel";
+  // @import "../node_modules/bootstrap/scss/jumbotron";
+  // @import "../node_modules/bootstrap/scss/toasts";
+  // @import "../node_modules/bootstrap/scss/print";
+  
+  // Ether components
+  @import "../node_modules/project-ether-framework/scss/components/mixins";
+  @import "../node_modules/project-ether-framework/scss/components/controls";
+  @import "../node_modules/project-ether-framework/scss/components/base";
+  @import "../node_modules/project-ether-framework/scss/components/layout"; 
+
+  // **** YOUR SITE SPECIFIC SASS GOES HERE ****
+  @import "your_custom_sass_directory/your_sass_files";</code></pre>
+    </figure>
+
+
+    <h3>JavaScript</h3>
+    <p>A number of the HTML components require JavaScript to function properly. You must inlcude the Bootstrap 4 and
+      JQuery dependencies to use these. Refer to <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/#js"><strong>Bootstrap's
+          Guide</strong></a>
+      to learn where to get these files.
+    </p>
+    </figure>
   </div>
 </div>
 <script>
   $(document).ready(function () {
-    $(".left-nav-item").removeClass("active");
-    $("#index").addClass("active");
+    $(".nav-link").removeClass("active");
+    $("#home").addClass("active");
   });
 </script>
 ${require(`./footer.html`)}

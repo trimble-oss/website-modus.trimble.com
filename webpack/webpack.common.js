@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: {
     app: Path.resolve(__dirname, '../src/scripts/index.js'),
-    guide_styles: Path.resolve(__dirname, '../src/styles/style.scss')
+    // guide_styles: Path.resolve(__dirname, '../src/styles/style.scss')
   },
   output: {
     path: Path.join(__dirname, '../build'),
@@ -27,7 +27,7 @@ module.exports = {
       to: 'public'
     }),
     new CopyWebpackPlugin([{
-      from: Path.resolve(__dirname, '../node_modules/project-ether-framework/dist/*.css'),
+      from: Path.resolve(__dirname, '../node_modules/ether-framework/*.css'),
       to: 'assets',
       force: true,
       flatten: true
@@ -36,14 +36,33 @@ module.exports = {
       filename: 'index.html',
       inject: true,
       template: Path.resolve(__dirname, '../src/index.html')
-    }), new HtmlWebpackPlugin({
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'layout.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/layout.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'overview.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/overview.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'colors.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/colors.html')
+    }),
+    new HtmlWebpackPlugin({
       filename: 'controls.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/controls.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'typography.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/typography.html')
     }),
     new HtmlWebpackPlugin({

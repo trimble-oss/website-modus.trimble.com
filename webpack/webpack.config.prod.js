@@ -19,19 +19,18 @@ module.exports = merge(common, {
     }),
     new Webpack.optimize.ModuleConcatenationPlugin(),
     new MiniCssExtractPlugin({
-      filename: 'bundle.css'
+      filename: 'styles.[hash].css'
     })
   ],
   module: {
-    rules: [
-      {
+    rules: [{
         test: /\.(js)$/,
         exclude: /node_modules/,
         use: 'babel-loader'
       },
       {
         test: /\.s?css/i,
-        use : [
+        use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
           'sass-loader'
