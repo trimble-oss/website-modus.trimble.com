@@ -40,6 +40,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'layout.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/layout.html')
     }),
     new HtmlWebpackPlugin({
@@ -64,11 +65,6 @@ module.exports = {
       inject: true,
       minify: false,
       template: Path.resolve(__dirname, '../src/typography.html')
-    }),
-    new HtmlWebpackPlugin({
-      filename: 'icons.html',
-      inject: true,
-      template: Path.resolve(__dirname, '../src/icons.html')
     })
   ],
   resolve: {
