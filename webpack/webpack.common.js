@@ -27,10 +27,11 @@ module.exports = {
       to: 'public'
     }),
     new CopyWebpackPlugin([{
-      from: Path.resolve(__dirname, '../node_modules/ether-framework/*.css'),
+      from: Path.resolve(__dirname, '../node_modules/@trimblemaps/ether-framework/dist/*.css'),
       to: 'assets',
       force: true,
-      flatten: true
+      flatten: true,
+      debug: 'debug'
     }]),
     new HtmlWebpackPlugin({
       filename: 'index.html',

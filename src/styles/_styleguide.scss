@@ -44,19 +44,8 @@ body {
   grid-row-end: span 3;
 }
 
-.guide-section-nav {
-  position: fixed;
-  top: 70px;
-  bottom: 0px;
-  width: 200px;
-}
 
 .guide-content {
-  position: absolute;
-  top: 0;
-  left: 50px;
-  right: 0;
-  bottom: 0;
   overflow-y: auto;
   padding: 20px;
 }
@@ -96,6 +85,10 @@ body {
 
   &>div {
     border: 1px solid #ddd;
+  }
+
+  .ether-page-layout {
+    height: 100%;
   }
 
   .guide-sample {

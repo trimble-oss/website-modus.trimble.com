@@ -24,8 +24,8 @@ ${require(`./header.html`)}
           class="ether-page-footer"&gt;</code>. Each sibling element will be spaced automatically.</p>
       <div class="guide-example-block">
         <div class="guide-sample position-relative p-0" style="height: 500px; z-index: 10; border-width: 7px;">
-          <div class="ether-page-wrapper">
-            <nav class="navbar navbar-expand-lg ether-navbar">
+          <div class="ether-page-layout">
+            <nav class="ether-top-navbar navbar navbar-expand-lg">
               <a class="navbar-brand" href="#">Brand</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="navbarTogglerDemo02"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +49,7 @@ ${require(`./header.html`)}
               </div>
             </nav>
             <div class="ether-page-main-area">
-              <nav class="nav flex-column ether-left-nav">
+              <nav class="ether-left-navbar nav flex-column">
                 <a class="nav-link active" href="#">
                   <span class="left-nav-icon"><i class="material-icons">grid_on</i></span>
                   Nav Item (icon font)
@@ -73,10 +73,8 @@ ${require(`./header.html`)}
                   Nav Item (PNG image, 24x24)
                 </a>
               </nav>
-              <div class="ether-panel-content bg-panel-background">
-                <div class="ether-panel-scroll-container">
-                  <h3>Content Area</h3>
-                </div>
+              <div class="ether-page-content p-2">
+                <h3>Content Area</h3>
               </div>
             </div>
             <div class="ether-page-footer">
@@ -85,13 +83,12 @@ ${require(`./header.html`)}
               <div class="small">Footer Text 3</div>
             </div>
           </div>
+          <div class="guide-code" style="max-width: 900px;"></div>
+          <button class="btn btn-link guide-copy-code">Click to Copy</button>
         </div>
-        <div class="guide-code" style="max-width: 900px;"></div>
-        <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
     </div>
   </div>
-</div>
 </div>
 <script>
   $(document).ready(function () {

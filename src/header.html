@@ -17,8 +17,9 @@
 </head>
 
 <body>
-  <div class="ether-page-wrapper">
-    <nav class="navbar navbar-expand-lg ether-navbar">
+  <div class="ether-page-layout">
+
+    <nav class="ether-top-navbar navbar navbar-expand-lg">
       <a class="navbar-brand" href="/index.html">
         <img src="${require(`./img/trimble-maps-logo.svg`)}" class="d-inline-block align-middle" height="30px" />
 
@@ -42,8 +43,10 @@
         </div>
       </div>
     </nav>
+
     <div class="ether-page-main-area">
-      <nav class="nav flex-column ether-left-nav">
+
+      <nav class="ether-left-navbar nav flex-column">
         <a id="home" class="nav-link active" href="/index.html">
           <span class="left-nav-icon">
             <i class="icon material-icons">home</i>
@@ -79,4 +82,4 @@
           Basic Controls
         </a>
       </nav>
-      <div class="bg-panel-background">
+      <div class="ether-page-content">
