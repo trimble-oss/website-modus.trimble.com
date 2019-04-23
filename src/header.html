@@ -8,32 +8,32 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="${require(`./img/favicon.ico`)}" />
   <link id="pagestyles" rel="stylesheet" href="./assets/ether.min.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+  <link id="pagestyle" rel="stylesheet" href="./assets/ether-layout.css">
+  <script src="./assets/ether-layout.min.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
 </head>
 
 <body>
-  <div class="ether-page-layout">
-
-    <nav class="ether-top-navbar navbar navbar-expand-lg">
+  <div class="ether-layout">
+    <nav class="navbar navbar-expand-lg ether-header">
+      <!-- <a data-ether-item="menu-btn"><i class="material-icons menu-btn">menu</i></a> -->
       <a class="navbar-brand" href="/index.html">
         <img src="${require(`./img/trimble-maps-logo.svg`)}" class="d-inline-block align-middle" height="30px" />
 
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="navbarTogglerDemo02"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="navbar-text">
         <span class="h2 m-0">Project Ether Framework</span>
       </div>
-      <div class="collapse navbar-collapse" id="mainnav">
+      <div class="collapse navbar-collapse">
         <div class="navbar-nav m-auto">
-
         </div>
         <div class="border-left pl-3 py-2">
           <div class="custom-control custom-switch custom-control-inline">
@@ -43,43 +43,96 @@
         </div>
       </div>
     </nav>
+    <div class="ether-body sidebar-open" data-ether-item="body">
+      <nav class="nav flex-column ether-sidebar">
+        <ul>
+          <li>
+            <a id="home" class="nav-link" href="/index.html">
+              <span class="left-nav-icon">
+                <i class="icon material-icons">home</i>
+              </span>
+              Introduction</a>
+          </li>
+          <li>
+            <a id="layout" class="nav-link" href="/layout.html">
+              <span class="left-nav-icon">
+                <i class="icon material-icons">view_quilt</i>
+              </span>
+              Ether Layout</a>
+          </li>
+          <li>
+            <a id="colors" class="nav-link" href="/colors.html">
+              <span class="left-nav-icon">
+                <i class="icon material-icons">color_lens</i>
+              </span>
+              Color Palette</a>
+          </li>
+          <li>
+            <a id="typography" class="nav-link" href="/typography.html">
+              <span class="left-nav-icon">
+                <i class="icon material-icons">text_fields</i>
+              </span>
+              Typography</a>
+          </li>
+          <li class="has-subnav">
+            <a id="components" href="#controls-subnav" class="nav-link collapsed " data-toggle="collapse">
+              <span class="left-nav-icon">
+                <i class="icon material-icons">ballot</i>
+              </span>
+              Components <i class="material-icons expand-icon">expand_less</i></a>
+            <div class="collapse sub-nav" id="controls-subnav">
+              <div>
+                <a id="buttons" href="/buttons.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Buttons</a>
+                <a id="chips" href="/chips.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Chips</a>
+                <a id="shadows" href="shadows.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Shadows</a>
+                <a id="cards" href="cards.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Cards</a>
+                <a id="alerts" href="/alerts.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Alerts</a>
+                <a id="accordians" href="/accordians.html" class="list-group-item nav-link"> <span
+                    class="left-nav-icon">
+                  </span>Accordians</a>
+                <a id="controls" href="/controls.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Controls</a>
+                <a id="chips" href="/chips.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Chips</a>
+                <a id="dropdowns" href="/dropdowns.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Dropdowns</a>
+                <a id="forms" href="/forms.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Forms</a>
+                <a id="input=groups" href="/input-groups.html" class="list-group-item nav-link"> <span
+                    class="left-nav-icon">
+                  </span>Input Groups</a>
+                <a id="lists" href="/lists.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Lists</a>
+                <a id="maps" href="/maps.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Maps</a>
+                <a id="maps" href="/modal.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Modals</a>
+                <a id="panel" href="/panel.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Panel</a>
+                <a id="progress" href="/progress.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Progress</a>
+                <a id="tables" href="/tables.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Tables</a>
+                <a id="tabs" href="/tabs.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Tabs</a>
+                <a id="tooltips" href="/tooltips.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                  </span>Tooltips</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a id="branding" class="nav-link" href="/branding.html">
+              <span class="left-nav-icon">
+                <img src="${require(`./img/favicon.ico`)}" />
+              </span>
+              Branding</a>
+          </li>
+        </ul>
 
-    <div class="ether-page-main-area">
-
-      <nav class="ether-left-navbar nav flex-column">
-        <a id="home" class="nav-link active" href="/index.html">
-          <span class="left-nav-icon">
-            <i class="icon material-icons">home</i>
-          </span>
-          Introduction
-        </a>
-        <a id="overview" class="nav-link" href="/overview.html">
-          <span class="left-nav-icon">
-            <i class="icon material-icons">grid_on</i>
-          </span>
-          Overview
-        </a>
-        <a id="layout" class="nav-link" href="/layout.html">
-          <span class="left-nav-icon">
-            <i class="icon material-icons">view_quilt</i>
-          </span>
-          Ether Layout
-        </a>
-        <a id="colors" class="nav-link" href="/colors.html">
-          <span class="left-nav-icon">
-            <i class="icon material-icons">color_lens</i>
-          </span>
-          Colors</a>
-        <a id="typography" class="nav-link" href="/typography.html">
-          <span class="left-nav-icon">
-            <i class="icon material-icons">text_fields</i>
-          </span>
-          Typography</a>
-        <a id="controls" class="nav-link" href="/controls.html">
-          <span class="left-nav-icon">
-            <i class="icon material-icons">ballot</i>
-          </span>
-          Basic Controls
-        </a>
       </nav>
-      <div class="ether-page-content">
+      <div class="ether-content-area">

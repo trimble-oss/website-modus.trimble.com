@@ -1,0 +1,1068 @@
+${require(`./header.html`)}
+<div class="guide-content">
+  <div class="guide-content-column container">
+
+    <h1>Forms</h1>
+    <p class="lead">
+      Examples and usage guidelines for Forms.
+    </p>
+    <div class="alert alert-warning" role="alert">
+      WIP: This page is not complete.
+    </div>
+    <div class="guide-section">
+      <h2>Forms</h2>
+      <p>
+        <!-- The .btn classes are designed to be used with the
+        <code>&lt;button&gt;</code> element. However, you can also use these classes
+        on <code>&lt;a&gt;</code> or
+        <code>&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).
+
+        When using button classes on
+        <code>&lt;a&gt;</code> elements that are used to trigger in-page functionality (like collapsing
+        content), rather than linking to new pages or sections within the current page, these links should be
+        given a role="button" to appropriately convey their purpose to assistive technologies such as screen
+        readers.
+      </p> -->
+
+        <!-- <h3 class="mt-5">Regular Buttons</h3>
+        <div class="guide-example-block">
+          <div class="guide-sample hover-dimensions">
+            <button class=" btn btn-primary">Primary Button</button>
+            <button class="btn btn-secondary">Secondary Button</button>
+            <button class="btn btn-tertiary">Tertiary Button</button>
+            <button class="btn btn-primary" disabled>Disabled Button</button>
+          </div>
+          <div class="guide-code"></div>
+          <button class="btn btn-link guide-copy-code">Click to Copy</button>
+        </div> -->
+        <div class="px-4 pt-0 pb-4">
+          <div class="custom-control custom-switch custom-control-inline">
+            <input type="checkbox" id="card-switch" class="custom-control-input" name="card-switch" />
+            <label class="custom-control-label label-lg" for="card-switch">Show White Background</label>
+          </div>
+        </div>
+        <div class="grid-layout ether-panel-scroll-container">
+          <div class="grid-item cols-3">
+            <h6>Inputs</h6>
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Input</th>
+                  <th scope="col">Input + Icon Right</th>
+                  <th scope="col">Input + Icon Left</th>
+                  <th scope="col">Input + Button</th>
+                  <th scope="col">Select</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Normal State</th>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input2">Label</label>
+                      <input class="form-control" id="Input2" placeholder="Placeholder Text" />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control" placeholder="Placeholder Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control" placeholder="Placeholder Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control" placeholder="Placeholder Text" id="Input1" />
+                        <div class="input-group-append">
+                          <button class="btn btn-reverse-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control" id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Focus State</th>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input2">Label</label>
+                      <input class="form-control focus" id="Input2" value="Input Text" />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control focus" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control focus" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control focus" value="Input Text" id="Input1" />
+                        <div class="input-group-append">
+                          <button class="btn btn-reverse-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control focus" id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">In-valid State</th>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input2">Label</label>
+                      <input class="form-control is-invalid" id="Input2" value="Input Text" />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control  is-invalid" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control  is-invalid" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control is-invalid" placeholder="Placeholder Text" id="Input1" />
+                        <div class="input-group-append">
+                          <button class="btn btn-reverse-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control is-invalid" id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Valid State</th>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input2">Label</label>
+                      <input class="form-control is-valid" id="Input2" value="Input Text" />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control  is-valid" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control  is-valid" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control is-valid" placeholder="Placeholder Text" id="Input1" />
+                        <div class="input-group-append">
+                          <button class="btn btn-reverse-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control is-valid" id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Disabled State</th>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input2">Label</label>
+                      <input class="form-control" id="Input2" placeholder="Placeholder Text" disabled />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control" placeholder="Placeholder Text" id="Input1" disabled />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control" placeholder="Placeholder Text" id="Input1" disabled />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control" placeholder="Placeholder Text" id="Input1" disabled />
+                        <div class="input-group-append">
+                          <button disabled class="btn btn-reverse-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control" disabled id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="grid-item cols-3">
+            <h6>Large Inputs</h6>
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Input</th>
+                  <th scope="col">Input + Icon Right</th>
+                  <th scope="col">Input + Icon Left</th>
+                  <th scope="col">Input + Button</th>
+                  <th scope="col">Select</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Normal State</th>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input2">Label</label>
+                      <input class="form-control form-control-lg" id="Input2" placeholder="Placeholder Text" />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input1" />
+                        <div class="input-group-append">
+                          <button class="btn btn-reverse-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control form-control-lg" id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Focus State</th>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input2">Label</label>
+                      <input class="form-control form-control-lg focus" id="Input2" value="Input Text" />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control form-control-lg focus" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control form-control-lg focus" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control form-control-lg focus" value="Input Text" id="Input1" />
+                        <div class="input-group-append">
+                          <button class="btn btn-reverse-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control form-control-lg focus" id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">In-valid State</th>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input2">Label</label>
+                      <input class="form-control form-control-lg is-invalid" id="Input2" value="Input Text" />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control form-control-lg  is-invalid" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control form-control-lg  is-invalid" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control form-control-lg is-invalid" placeholder="Placeholder Text"
+                          id="Input1" />
+                        <div class="input-group-append">
+                          <button class="btn btn-reverse-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control form-control-lg is-invalid"
+                        id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Valid State</th>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input2">Label</label>
+                      <input class="form-control form-control-lg is-valid" id="Input2" value="Input Text" />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control form-control-lg  is-valid" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control form-control-lg  is-valid" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control form-control-lg is-valid" placeholder="Placeholder Text"
+                          id="Input1" />
+                        <div class="input-group-append">
+                          <button class="btn btn-reverse-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control form-control-lg is-valid"
+                        id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Disabled State</th>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input2">Label</label>
+                      <input class="form-control form-control-lg" id="Input2" placeholder="Placeholder Text" disabled />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input1"
+                          disabled />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input1"
+                          disabled />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input1"
+                          disabled />
+                        <div class="input-group-append">
+                          <button disabled class="btn btn-reverse-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control form-control-lg" disabled
+                        id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="grid-item cols-3">
+            <h6>Borderless Inputs (border-0)</h6>
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Input</th>
+                  <th scope="col">Input + Icon Right</th>
+                  <th scope="col">Input + Icon Left</th>
+                  <th scope="col">Input + Button</th>
+                  <th scope="col">Select</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Normal State</th>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input2">Label</label>
+                      <input class="form-control border-0" id="Input2" placeholder="Placeholder Text" />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control border-0" placeholder="Placeholder Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control border-0" placeholder="Placeholder Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control border-0" placeholder="Placeholder Text" id="Input1" />
+                        <div class="input-group-append">
+                          <button class="btn btn-text-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control border-0" id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Focus State</th>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input2">Label</label>
+                      <input class="form-control border-0 focus" id="Input2" value="Input Text" />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control border-0 focus" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control border-0 focus" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control border-0 focus" value="Input Text" id="Input1" />
+                        <div class="input-group-append">
+                          <button class="btn btn-text-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control border-0 focus" id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">In-valid State</th>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input2">Label</label>
+                      <input class="form-control border-0 is-invalid" id="Input2" value="Input Text" />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control border-0  is-invalid" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control border-0  is-invalid" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control border-0 is-invalid" placeholder="Placeholder Text" id="Input1" />
+                        <div class="input-group-append">
+                          <button class="btn btn-text-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control border-0 is-invalid" id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Valid State</th>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input2">Label</label>
+                      <input class="form-control border-0 is-valid" id="Input2" value="Input Text" />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control border-0  is-valid" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control border-0  is-valid" value="Input Text" id="Input1" />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control border-0 is-valid" placeholder="Placeholder Text" id="Input1" />
+                        <div class="input-group-append">
+                          <button class="btn btn-text-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control border-0 is-valid" id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Disabled State</th>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input2">Label</label>
+                      <input class="form-control border-0" id="Input2" placeholder="Placeholder Text" disabled />
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-right">
+                        <input class="form-control border-0" placeholder="Placeholder Text" id="Input1" disabled />
+                        <div class="input-icon">
+                          <i class="material-icons">visibility</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-with-icon-left">
+                        <input class="form-control border-0" placeholder="Placeholder Text" id="Input1" disabled />
+                        <div class="input-icon">
+                          <i class="material-icons">search</i>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <div class="input-group">
+                        <input class="form-control border-0" placeholder="Placeholder Text" id="Input1" disabled />
+                        <div class="input-group-append">
+                          <button disabled class="btn btn-text-secondary">
+                            Go
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Custom Select Outlined</label>
+                      <select class="custom-select form-control border-0" disabled id="exampleFormControlSelect2">
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                        <option>Option 3</option>
+                        <option>Option 4</option>
+                        <option>Option 5</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="grid-item cols-3">
+            <h6>Text Area</h6>
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Normal</th>
+                  <th scope="col">Focus</th>
+                  <th scope="col">In-valid</th>
+                  <th scope="col">Valid</th>
+                  <th scope="col">Disabled</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Normal Size</th>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input2">Label</label>
+                      <textarea class="form-control" id="Input1">Some Text
+                                </textarea>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <textarea class="form-control focus" id="Input1">Some Text
+                                </textarea>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <textarea class="form-control is-invalid" id="Input1">Some Text
+                                    </textarea>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <textarea class="form-control is-valid" id="Input1">Some Text
+                                    </textarea>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="Input1">Label</label>
+                      <textarea disabled class="form-control" id="Input1">Some Text
+                                    </textarea>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">Large Size</th>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input2">Label</label>
+                      <textarea class="form-control form-control-lg" id="Input1">Some Text
+                            </textarea>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <textarea class="form-control form-control-lg focus" id="Input1">Some Text
+                            </textarea>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <textarea class="form-control form-control-lg is-invalid" id="Input1">Some Text
+                                </textarea>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <textarea class="form-control form-control-lg is-valid" id="Input1">Some Text
+                                </textarea>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label class="label-lg" for="Input1">Label</label>
+                      <textarea disabled class="form-control form-control-lg" id="Input1">Some Text
+                                </textarea>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#controls").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}

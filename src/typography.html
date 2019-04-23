@@ -1,20 +1,19 @@
 ${require(`./header.html`)}
 <div class="guide-content">
-  <div class="guide-content-column">
+  <div class="guide-content-column container">
     <h1>Typography</h1>
     <p class="lead">
       Documentation and examples for typography, including global settings, headings, body text, lists, and more.
     </p>
     <h2>Typefaces</h2>
-    <p>Most text uses <a href="https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans" class="badge badge-primary">Open
-        Sans</a>, but headings are set in <a href="https://fonts.google.com/specimen/Rubik" class="badge badge-primary">Rubik</a>.
+    <p>Most text uses <a target="_blank" href="https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans"
+        class="badge badge-primary">Open
+        Sans</a>, but headings are set in <a href="https://fonts.google.com/specimen/Roboto"
+        class="badge badge-primary">Roboto</a>.
       The typefaces can be customized
       in the SASS implementation.</p>
     <div class="guide-section">
       <h2>Headings</h2>
-      <div class="alert alert-warning" role="alert">
-        WIP: These sizes and weights are not final.
-      </div>
       <div class="guide-example-block">
         <div class="guide-sample hover-dimensions">
           <h1>h1. Ether heading</h1>
@@ -42,6 +41,24 @@ ${require(`./header.html`)}
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
     </div>
+    <div class="guide-section">
+      <h2>Text Styles</h2>
+      <div class="guide-example-block">
+        <div class="guide-sample hover-dimensions">
+          <p id="leadtext" class="lead-text"> Lead Text / Open Sans Regular</p>
+          <p class="body-text">Body / Open Sans Regular </p>
+          <p class="card-text"> Card Text / Open Sans Regular </p>
+          <p class="card-text-2"> Card Text 2 / Open Sans Semibold </p>
+          <p class="card-subtitle-1">Card Subtitle 1 / Open Sans Regular</p>
+          <p class="card-subtitle-2"> Card Subtitle 2 / Open Sans Bold (All Caps) </p>
+          <p class="form-labels card-caption"> Form Labels + Card Caption / Open Sans
+            Regular </p>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+    </div>
+
   </div>
 </div>
 </div>

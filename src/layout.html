@@ -1,34 +1,42 @@
 ${require(`./header.html`)}
 <div class="guide-content">
-  <div class="guide-content-column">
+  <div class="guide-content-column container">
     <h1>Ether Layout</h1>
     <p class="lead">
       Besides the aesthetics and UI elements, the Ether Framework has an optional layout you can use for your web
       applications.
     </p>
     <div class="guide-section">
+      <h2>Setup Instructions</h2>
+      <div class="alert alert-warning" role="alert">
+        WIP: This page is not complete. Needs info about layout css, js
+      </div>
       <h2>Basic Structure</h2>
-      <p>The page should be wrapped in a <code>&lt;div class="ether-page-wrapper"&gt;</code> to set up the over all
+      <p>The page should be wrapped in a <code>&lt;div class="ether-layout"&gt;</code> to set up the over all
         structure.</p>
       <p>The top nav bar is a standard Bootstrap <code>&lt;nav class="navbar navbar-expand-lg"&gt;</code> with an
-        additional class of <code>ether-navbar</code> to apply the aesthetics.</p>
-      <p>The navbar should be followed by <code>&lt;div class="ether-page-main-area"&gt;</code> to set up the left nav
+        additional class of <code>ether-header</code> to apply the aesthetics.</p>
+      <p>The navbar should be followed by <code>&lt;div class="ether-body"&gt;</code> to set up the left nav
         area and main
         content area.</p>
       <p>The left nav is another Bootstrap <code>&lt;nav class="nav flex-column"&gt;</code> to create vertical nav
-        along with an additional class of <code>ether-left-nav</code> for the proper aesthetics. Within each <code>navlink</code>
+        along with an additional class of <code>ether-sidebar</code> for the proper aesthetics. Within each
+        <code>navlink</code>
         it is important to have and icon or image with a class of <code>icon</code></p>
-      <p>The next sibling element after the left nav will automatically become the main content area. The <code>ether-page-main-area</code>
+      <p>The next sibling element after the left nav will automatically become the main content area. The
+        <code>ether-content-area</code>
         should be closed after this.</p>
-      <p>After the <code>ether-page-main-area</code> the next element should be the <code>&lt;div
-          class="ether-page-footer"&gt;</code>. Each sibling element will be spaced automatically.</p>
+      <p>After the <code>ether-body</code> the next element should be the <code>&lt;div
+          class="ether-footer"&gt;</code>. Each sibling element will be spaced automatically.</p>
       <div class="guide-example-block">
-        <div class="guide-sample position-relative p-0" style="height: 500px; z-index: 10; border-width: 7px;">
-          <div class="ether-page-layout">
-            <nav class="ether-top-navbar navbar navbar-expand-lg">
+        <div class="guide-sample position-relative p-0" style="height: 500px; z-index: 10; border-width: 7px;"
+          id="example-block">
+          <div class="ether-layout">
+            <nav class="ether-header navbar navbar-expand-lg">
+              <a data-ether-item="menu-btn"><i class="material-icons menu-btn">menu</i></a>
               <a class="navbar-brand" href="#">Brand</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="navbarTogglerDemo02"
-                aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="navbar-text">
@@ -48,8 +56,8 @@ ${require(`./header.html`)}
                 </div>
               </div>
             </nav>
-            <div class="ether-page-main-area">
-              <nav class="ether-left-navbar nav flex-column">
+            <div class="ether-body sidebar-closed" data-ether-item='body'>
+              <nav class="ether-sidebar nav flex-column">
                 <a class="nav-link active" href="#">
                   <span class="left-nav-icon"><i class="material-icons">grid_on</i></span>
                   Nav Item (icon font)
@@ -73,14 +81,12 @@ ${require(`./header.html`)}
                   Nav Item (PNG image, 24x24)
                 </a>
               </nav>
-              <div class="ether-page-content p-2">
+              <div class="ether-content-area p-2">
                 <h3>Content Area</h3>
               </div>
             </div>
-            <div class="ether-page-footer">
+            <div class="ether-footer">
               <div class="small">Footer Text 1</div>
-              <div class="small">Footer Text 2</div>
-              <div class="small">Footer Text 3</div>
             </div>
           </div>
           <div class="guide-code" style="max-width: 900px;"></div>
@@ -96,5 +102,10 @@ ${require(`./header.html`)}
     $(".nav-link").removeClass("active");
     $("#layout").addClass("active");
   });
+  var doc = document.getElementById('example-block')
+  doc.querySelector("[data-ether-item='menu-btn']").addEventListener("click", function () {
+        var e = document.querySelector("[data-ether-item='body']");
+        e.classList.toggle("sidebar-closed"), e.classList.toggle("sidebar-open");
+      }
 </script>
 ${require(`./footer.html`)}

@@ -2,15 +2,15 @@ ${require(`./header.html`)}
 <div class="guide-content">
   <div class="guide-content-column container">
 
-    <h1>Accordians</h1>
+    <h1>Cards</h1>
     <p class="lead">
-      Examples and usage guidelines for Accordians.
+      Examples and usage guidelines for Cards.
     </p>
     <div class="alert alert-warning" role="alert">
       WIP: This page is not complete.
     </div>
     <div class="guide-section">
-      <h2>Accordians</h2>
+      <h2>Cards</h2>
       <p>
         The .btn classes are designed to be used with the
         <code>&lt;button&gt;</code> element. However, you can also use these classes
@@ -24,13 +24,19 @@ ${require(`./header.html`)}
         readers.
       </p>
 
-      <h3 class="mt-5">Regular Buttons</h3>
+      <h3 class="mt-5">Regular Cards</h3>
       <div class="guide-example-block">
         <div class="guide-sample hover-dimensions">
-          <button class=" btn btn-primary">Primary Button</button>
-          <button class="btn btn-secondary">Secondary Button</button>
-          <button class="btn btn-tertiary">Tertiary Button</button>
-          <button class="btn btn-primary" disabled>Disabled Button</button>
+
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-5">Custom Cards</h3>
+      <div class="guide-example-block">
+        <div class="guide-sample hover-dimensions">
+
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
@@ -43,7 +49,7 @@ ${require(`./header.html`)}
 <script>
   $(document).ready(function () {
     $(".nav-link").removeClass("active");
-    $("#controls").addClass("active");
+    $("#cards").addClass("active");
   });
 </script>
 ${require(`./footer.html`)}

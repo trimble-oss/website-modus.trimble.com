@@ -1,0 +1,123 @@
+${require(`./header.html`)}
+<div class="guide-content">
+  <div class="guide-content-column container">
+
+    <h1>Basic Controls</h1>
+    <p class="lead">
+      Examples and usage guidelines for basic form control like buttons, input boxes, and more.
+    </p>
+    <div class="alert alert-warning" role="alert">
+      WIP: This page is not complete.
+    </div>
+    <div class="guide-section">
+      <h2>Buttons</h2>
+      <p>
+        The .btn classes are designed to be used with the
+        <code>&lt;button&gt;</code> element. However, you can also use these classes
+        on <code>&lt;a&gt;</code> or
+        <code>&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).
+
+        When using button classes on
+        <code>&lt;a&gt;</code> elements that are used to trigger in-page functionality (like collapsing
+        content), rather than linking to new pages or sections within the current page, these links should be
+        given a role="button" to appropriately convey their purpose to assistive technologies such as screen
+        readers.
+      </p>
+
+      <h3 class="mt-5">Regular Buttons</h3>
+      <div class="guide-example-block">
+        <div class="guide-sample hover-dimensions">
+          <button class=" btn btn-primary">Primary Button</button>
+          <button class="btn btn-secondary">Secondary Button</button>
+          <button class="btn btn-tertiary">Tertiary Button</button>
+          <button class="btn btn-primary" disabled>Disabled Button</button>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-5">Large Buttons</h3>
+      <div class="guide-example-block">
+        <div class="guide-sample hover-dimensions">
+          <button class="btn btn-primary btn-lg">Primary Button</button>
+          <button class="btn btn-secondary btn-lg">Secondary Button</button>
+          <button class="btn btn-tertiary btn-lg">Tertiary Button</button>
+          <button class="btn btn-primary btn-lg" disabled>Disabled Button</button>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-5">Buttons with Icons</h3>
+      <p class="subhead">
+        For spacing the button text should be wrapped in a <code>&lt;span&gt;</code> tag. The button text element and
+        the
+        icon element should be the only 2 elements in the button and siblings.
+      </p>
+      <div class="guide-example-block">
+        <div class="guide-sample hover-dimensions">
+          <p>
+            <button class="btn btn-primary">
+              <span class="icon-on-btn ico ico-cog"></span><span>Primary Button</span>
+            </button>
+            <button class="btn btn-secondary">
+              <span class="icon-on-btn ico ico-cog"></span><span>Secondary Button</span>
+            </button>
+            <button class="btn btn-tertiary">
+              <span class="icon-on-btn ico ico-cog"></span><span>Tertiary Button</span>
+            </button>
+          </p>
+          <p>
+            <button class="btn btn-primary btn-lg">
+              <span class="icon-on-btn ico ico-cog"></span><span>Primary Button</span>
+            </button>
+            <button class="btn btn-secondary btn-lg">
+              <span class="icon-on-btn ico ico-cog"></span><span>Secondary Button</span>
+            </button>
+            <button class="btn btn-tertiary btn-lg">
+              <span class="icon-on-btn ico ico-cog"></span><span>Tertiary Button</span>
+            </button>
+          </p>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-5">Input Boxes</h3>
+      <div class="guide-example-block">
+        <div class="guide-sample hover-dimensions">
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Text Input (Regular Size)</label>
+            <input class="form-control w-50" id="exampleFormControlInput1" placeholder="Placeholder Text">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput2">Text Input (Large Size)</label>
+            <input class="form-control form-control-lg w-50" id="exampleFormControlInput2"
+              placeholder="Placeholder Text">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput3">Outlined Text Input (Regular Size)</label>
+            <input class="form-control form-control-outlined w-50" id="exampleFormControlInput3"
+              placeholder="Placeholder Text">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput4">Outlined Text Input (Large Size)</label>
+            <input class="form-control form-control-outlined form-control-lg w-50" id="exampleFormControlInput4"
+              placeholder="Placeholder Text">
+          </div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#controls").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}

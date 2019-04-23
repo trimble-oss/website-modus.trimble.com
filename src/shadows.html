@@ -1,0 +1,172 @@
+${require(`./header.html`)}
+<h1>Shadows & Depth</h1>
+<p class="lead">
+  Examples and usage guidelines for basic form control like buttons, input boxes, and more.
+</p>
+<div class="alert alert-warning" role="alert">
+  WIP: This page is not complete.
+</div>
+<div class="guide-section">
+  <h2>Buttons and Cards</h2>
+  <p>
+    The .btn classes are designed to be used with the
+    <code>&lt;button&gt;</code> element. However, you can also use these classes
+    on <code>&lt;a&gt;</code> or
+    <code>&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).
+
+    When using button classes on
+    <code>&lt;a&gt;</code> elements that are used to trigger in-page functionality (like collapsing
+    content), rather than linking to new pages or sections within the current page, these links should be
+    given a role="button" to appropriately convey their purpose to assistive technologies such as screen
+    readers.
+  </p>
+</div>
+<div class="px-4 pt-0 pb-4">
+  <div class="custom-control custom-switch custom-control-inline">
+    <input type="checkbox" id="card-switch" class="custom-control-input" name="card-switch">
+    <label class="custom-control-label label-lg" for="card-switch">Show White Background</label>
+  </div>
+</div>
+<div class="grid-layout ether-panel-scroll-container">
+  <div class="grid-item cols-2 buttons">
+    <h6>Buttons</h6>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Primary </th>
+          <th scope="col">Secondary </th>
+          <th scope="col">Danger </th>
+          <th scope="col">Success </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Regular</th>
+          <td><button class="btn btn-primary btn-raised">BUTTON</button></td>
+          <td><button class="btn btn-secondary btn-raised">BUTTON</button></td>
+          <td><button class="btn btn-danger btn-raised">BUTTON</button></td>
+          <td><button class="btn btn-success btn-raised">BUTTON</button></td>
+
+        </tr>
+        <tr>
+          <th scope="row">Outline</th>
+          <td><button class="btn btn-outline-primary btn-raised">BUTTON</button></td>
+          <td><button class="btn btn-outline-secondary btn-raised">BUTTON</button></td>
+          <td><button class="btn btn-outline-danger btn-raised">BUTTON</button></td>
+          <td><button class="btn btn-outline-success btn-raised">BUTTON</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Reverse</th>
+          <td><button class="btn btn-reverse-primary btn-raised">BUTTON</button></td>
+          <td><button class="btn btn-reverse-secondary btn-raised">BUTTON</button></td>
+          <td><button class="btn btn-reverse-danger btn-raised">BUTTON</button></td>
+          <td><button class="btn btn-reverse-success btn-raised">BUTTON</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Text</th>
+          <td><button class="btn btn-text-primary btn-raised">BUTTON</button></td>
+          <td><button class="btn btn-text-secondary btn-raised">BUTTON</button></td>
+          <td><button class="btn btn-text-danger btn-raised">BUTTON</button></td>
+          <td><button class="btn btn-text-success btn-raised">BUTTON</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Icon</th>
+          <td>
+            <button class="btn btn-primary btn-icon-only btn-raised"><i class="material-icons">settings</i></button>
+            <button class="btn btn-reverse-primary btn-icon-only btn-raised"><i
+                class="material-icons">settings</i></button>
+            <button class="btn btn-text-primary btn-icon-only btn-raised"><i
+                class="material-icons">settings</i></button>
+          </td>
+          <td>
+            <button class="btn btn-secondary btn-icon-only btn-raised"><i class="material-icons">settings</i></button>
+            <button class="btn btn-reverse-secondary btn-icon-only btn-raised"><i
+                class="material-icons">settings</i></button>
+            <button class="btn btn-text-secondary btn-icon-only btn-raised"><i
+                class="material-icons">settings</i></button>
+          </td>
+          <td>
+            <button class="btn btn-danger btn-icon-only btn-raised"><i class="material-icons">settings</i></button>
+            <button class="btn btn-reverse-danger btn-icon-only btn-raised"><i
+                class="material-icons">settings</i></button>
+            <button class="btn btn-text-danger btn-icon-only btn-raised"><i class="material-icons">settings</i></button>
+          </td>
+          <td>
+            <button class="btn btn-success btn-icon-only btn-raised"><i class="material-icons">settings</i></button>
+            <button class="btn btn-reverse-success btn-icon-only btn-raised"><i
+                class="material-icons">settings</i></button>
+            <button class="btn btn-text-success btn-icon-only btn-raised"><i
+                class="material-icons">settings</i></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="grid-item cols-2 buttons">
+    <h6>Cards</h6>
+    <div class="auto-grid-3" style="grid-gap: 30px;">
+      <div class="card shadow-1" style="width: 14rem;">
+        <div class="card-body">
+          <h5 class="card-title">Shadow Depth 1</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+      <div class="card shadow-2" style="width: 14rem;">
+        <div class="card-body">
+          <h5 class="card-title">Shadow Depth 2</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+      <div class="card shadow-3" style="width: 14rem;">
+        <div class="card-body">
+          <h5 class="card-title">Shadow Depth 3</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+      <div class="card shadow-4" style="width: 14rem;">
+        <div class="card-body">
+          <h5 class="card-title">Shadow Depth 4</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+      <div class="card shadow-5" style="width: 14rem;">
+        <div class="card-body">
+          <h5 class="card-title">Shadow Depth 5</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#controls").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}

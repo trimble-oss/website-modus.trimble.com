@@ -1,7 +1,6 @@
 ${require(`./header.html`)}
 <div class="guide-content">
-
-  <div class="guide-content-column">
+  <div class="guide-content-column container">
     <h1>Introduction</h1>
     <p class="lead">
       The Project Ether Framework was developed as a common platform for all of Trimble MAPS web applications, with the
@@ -14,13 +13,17 @@ ${require(`./header.html`)}
       mobile uses. You can use the CSS files as is, or integrate the SASS files into your own application if you wish
       to
       modify it further.</p>
+    <div class="alert alert-warning" role="alert">
+      WIP: This page is not complete. Needs info about layout css, js
+    </div>
     <h3>Download CSS</h3>
     <p>Download and unzip the package into your project directory.</p>
     <p>
       <a href="http://styleguide.trimblemaps.com/dist/ether-framework-latest.zip"></a>
       <href class="btn btn-lg btn-primary">Download</href>
     </p>
-    <p>Place the <code>.css</code> files in your project directory and add <code>ether.min.css</code> with a <code>&lt;link&gt;</code>
+    <p>Place the <code>.css</code> files in your project directory and add <code>ether.min.css</code> with a
+      <code>&lt;link&gt;</code>
       tag. </p>
     <p> To use the dark theme, reference <code>ether-dark.min.css</code> in your <code>&lt;link&gt;</code> tag.</p>
     <h3>Install CSS with NPM</h3>
@@ -53,7 +56,8 @@ ${require(`./header.html`)}
     <h5 id="importing">Importing</h5>
 
     <p>In your <code class="highlighter-rouge">custom.scss</code>, you’ll import Ether and Bootstrap’s source Sass
-      files. With that setup in place, you can begin to modify any of the Sass variables and maps in your <code class="highlighter-rouge">custom.scss</code>.
+      files. With that setup in place, you can begin to modify any of the Sass variables and maps in your <code
+        class="highlighter-rouge">custom.scss</code>.
       You can also start to add parts of Bootstrap under the <code class="highlighter-rouge">// Optional</code>
       section
       as needed. We suggest using the full import stack from our <code class="highlighter-rouge">bootstrap.scss</code>
@@ -61,7 +65,8 @@ ${require(`./header.html`)}
     <p>The main file to focus on is the <code>_theme.scss</code> file (and/or <code>_theme-dark.scss</code> if you want
       a dark look). You should copy this file from <code>/node_modules/project-ether-framework/scss/components</code>
       to your own SASS directory and import your copy instead of the Project Ether version in your main SASS file.</p>
-    <p>This example shows you how you should structure your main file. The order in which files ar eimported matters.</p>
+    <p>This example shows you how you should structure your main file. The order in which files ar eimported matters.
+    </p>
     <figure class="bg-main-background p-2 mb-4">
       <pre><code class="language-sass" data-lang="sass">
   // Bootstrap functions
@@ -134,7 +139,8 @@ ${require(`./header.html`)}
 
     <h3>JavaScript</h3>
     <p>A number of the HTML components require JavaScript to function properly. You must inlcude the Bootstrap 4 and
-      JQuery dependencies to use these. Refer to <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/#js"><strong>Bootstrap's
+      JQuery dependencies to use these. Refer to <a
+        href="https://getbootstrap.com/docs/4.1/getting-started/introduction/#js"><strong>Bootstrap's
           Guide</strong></a>
       to learn where to get these files.
     </p>
