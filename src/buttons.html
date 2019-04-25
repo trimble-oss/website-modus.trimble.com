@@ -1,22 +1,21 @@
 ${require(`./header.html`)}
 <div class="guide-content">
-  <div class="guide-content-column container button-container">
+  <div class="container button-container">
 
     <h1>Buttons</h1>
     <p class="lead">
-      Examples and usage guidelines for basic form control like buttons, input boxes, and more.
+      Use custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and
+      more.
     </p>
-    <div class="alert alert-warning" role="alert">
-      WIP: This page is not complete.
-    </div>
     <div class="guide-section">
-      <h2>Buttons</h2>
+      <h2>Classes & Usage</h2>
       <p>
         The .btn classes are designed to be used with the
         <code>&lt;button&gt;</code> element. However, you can also use these classes
         on <code>&lt;a&gt;</code> or
         <code>&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).
-
+      </p>
+      <p>
         When using button classes on
         <code>&lt;a&gt;</code> elements that are used to trigger in-page functionality (like collapsing
         content), rather than linking to new pages or sections within the current page, these links should be
@@ -24,7 +23,16 @@ ${require(`./header.html`)}
         readers.
       </p>
 
+      <div class="specs">
+        <h3 class="mt-5">Design Specs</h5>
+          <img src="${require(`./img/btn-specs.jpg`)}" /></br>
+          <!-- <p class="lead">
+            links to XD dev
+          </p> -->
+      </div>
+
       <h3 class="mt-5">Regular Buttons</h3>
+      <p><code>class="btn"</code></p>
       <div class="guide-example-block">
         <div class="guide-sample ">
           <button class="btn btn-primary">BUTTON</button>
@@ -37,36 +45,91 @@ ${require(`./header.html`)}
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
 
-      <h3 class="mt-5">Disabled Buttons</h3>
+      <h3 class="mt-5">Button States </h3>
       <div class="guide-example-block">
         <div class="guide-sample">
-          <button class="btn btn-primary disabled">BUTTON</button>
-          <button class="btn btn-secondary disabled">BUTTON</button>
-          <button class="btn btn-dark disabled">BUTTON</button>
-          <button class="btn btn-danger disabled">BUTTON</button>
-          <button class="btn btn-success disabled">BUTTON</button>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Primary </th>
+                <th scope="col">Secondary </th>
+                <th scope="col">Dark </th>
+                <th scope="col">Danger </th>
+                <th scope="col">Success </th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Default</th>
+                <td><button class="btn btn-primary">BUTTON</button></td>
+                <td><button class="btn btn-secondary">BUTTON</button></td>
+                <td><button class="btn btn-dark">BUTTON</button></td>
+                <td><button class="btn btn-danger">BUTTON</button></td>
+                <td><button class="btn btn-success">BUTTON</button></td>
+
+              </tr>
+              <tr>
+                <th scope="row">Hover</th>
+                <td><button class="btn btn-primary hover">BUTTON</button></td>
+                <td><button class="btn btn-secondary hover">BUTTON</button></td>
+                <td><button class="btn btn-dark hover">BUTTON</button></td>
+                <td><button class="btn btn-danger hover">BUTTON</button></td>
+                <td><button class="btn btn-success hover">BUTTON</button></td>
+
+              </tr>
+              <tr>
+                <th scope="row">Active</th>
+                <td><button class="btn btn-primary active">BUTTON</button></td>
+                <td><button class="btn btn-secondary active">BUTTON</button></td>
+                <td><button class="btn btn-dark active">BUTTON</button></td>
+                <td><button class="btn btn-danger active">BUTTON</button></td>
+                <td><button class="btn btn-success active">BUTTON</button></td>
+              </tr>
+              <tr>
+                <th scope="row">Disabled</th>
+                <td><button class="btn btn-primary disabled">BUTTON</button></td>
+                <td><button class="btn btn-secondary disabled">BUTTON</button></td>
+                <td><button class="btn btn-dark disabled">BUTTON</button></td>
+                <td><button class="btn btn-danger disabled">BUTTON</button></td>
+                <td><button class="btn btn-success disabled">BUTTON</button></td>
+              </tr>
+              <tr>
+                <th scope="row">Raised</th>
+                <td><button class="btn btn-primary btn-raised">BUTTON</button></td>
+                <td><button class="btn btn-secondary btn-raised">BUTTON</button></td>
+                <td><button class="btn btn-dark btn-raised">BUTTON</button></td>
+                <td><button class="btn btn-danger btn-raised">BUTTON</button></td>
+                <td><button class="btn btn-success btn-raised">BUTTON</button></td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
+      <h3 class="mt-5">Button Group</h3>
+      <p><code>class="btn-group btn-group-toggle"</code></p>
 
-      <h3 class="mt-5">Large Buttons</h3>
       <div class="guide-example-block">
         <div class="guide-sample">
-          <button class="btn btn-lg btn-primary"> BUTTON </button>
-          <button class="btn btn-lg btn-secondary"> BUTTON</button>
-          <button class="btn btn-lg btn-dark">BUTTON</button>
-          <button class="btn btn-lg btn-danger"> BUTTON</button>
-          <button class="btn btn-lg btn-success"> BUTTON</button>
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+              <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+            </label>
+          </div>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
-      <div class="specs">
-        <h5>Specs</h5>
-        <img src="img/default-btn.png" class="d-inline-block align-middle" /></br>
-        text specs
-      </div>
 
       <h3 class="mt-5">Small Buttons</h3>
+      <p><code>class="btn-sm"</code></p>
       <div class="guide-example-block">
         <div class="guide-sample">
           <button class="btn btn-sm btn-primary"> BUTTON </button>
@@ -79,7 +142,53 @@ ${require(`./header.html`)}
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
 
+      <h3 class="mt-5">Large Buttons</h3>
+      <p><code>class="btn-lg"</code></p>
+      <div class="guide-example-block">
+        <div class="guide-sample">
+          <button class="btn btn-lg btn-primary"> BUTTON </button>
+          <button class="btn btn-lg btn-secondary"> BUTTON</button>
+          <button class="btn btn-lg btn-dark">BUTTON</button>
+          <button class="btn btn-lg btn-danger"> BUTTON</button>
+          <button class="btn btn-lg btn-success"> BUTTON</button>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+      <h3 class="mt-5">Large Buttons with icons</h3>
+      <div class="guide-example-block">
+        <div class="guide-sample">
+          <button class="btn btn-lg btn-primary"> <i class="material-icons left-icon icon-on-btn">settings</i>
+            BUTTON </button>
+          <button class="btn btn-lg btn-secondary"><i class="material-icons left-icon icon-on-btn">settings</i>
+            BUTTON</button>
+          <button class="btn btn-lg btn-danger"> BUTTON<i class="material-icons right-icon icon-on-btn">done</i>
+          </button>
+          <button class="btn btn-lg btn-success">BUTTON<i
+              class="material-icons right-icon icon-on-btn">done</i></button>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-5">Large Buttons with icons</h3>
+      <div class="guide-example-block">
+        <div class="guide-sample">
+          <button class="btn btn-sm btn-primary"> <i class="material-icons left-icon icon-on-btn">settings</i>
+            BUTTON </button>
+          <button class="btn btn-sm btn-secondary"><i class="material-icons left-icon icon-on-btn">settings</i>
+            BUTTON</button>
+          <button class="btn btn-sm btn-danger"> BUTTON<i class="material-icons right-icon icon-on-btn">done</i>
+          </button>
+          <button class="btn btn-sm btn-success">BUTTON<i
+              class="material-icons right-icon icon-on-btn">done</i></button>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
       <h3 class="mt-5">Outline Buttons</h3>
+      <p><code>class="btn-outline"</code></p>
       <div class="guide-example-block">
         <div class="guide-sample">
           <button class="btn btn-outline-primary">BUTTON</button>
@@ -93,6 +202,7 @@ ${require(`./header.html`)}
       </div>
 
       <h3 class="mt-5">Reverse Buttons</h3>
+      <p><code>class="btn-reverse"</code></p>
       <div class="guide-example-block">
         <div class="guide-sample">
           <button class="btn btn-reverse-primary">BUTTON</button>
@@ -106,6 +216,7 @@ ${require(`./header.html`)}
       </div>
 
       <h3 class="mt-5">Text only Buttons</h3>
+      <p><code>class="btn-text-primary"</code></p>
       <div class="guide-example-block">
         <div class="guide-sample">
           <button class="btn btn-text-primary">BUTTON</button>
@@ -144,6 +255,7 @@ ${require(`./header.html`)}
       </div>
 
       <h3 class="mt-5">Icon only buttons</h3>
+      <p><code>class="btn-icon-only"</code></p>
       <div class="guide-example-block">
         <div class="guide-sample">
 
@@ -171,6 +283,7 @@ ${require(`./header.html`)}
 
     </div>
   </div>
+
 </div>
 </div>
 <script>

@@ -103,6 +103,11 @@ module.exports = {
       template: Path.resolve(__dirname, '../src/forms.html')
     }),
     new HtmlWebpackPlugin({
+      filename: 'icons.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/icons.html')
+    }),
+    new HtmlWebpackPlugin({
       filename: 'input-groups.html',
       inject: true,
       template: Path.resolve(__dirname, '../src/input-groups.html')

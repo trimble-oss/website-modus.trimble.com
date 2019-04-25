@@ -6,515 +6,331 @@ ${require(`./header.html`)}
       Chips are compact elements that represent an input, attribute, or action.
     </p>
     <div class="guide-section">
-      <h2>Chips</h2>
+      <h2>Classes & Usage</h2>
       <p>
         Chips are used to add information, make selections or filter content.
         Chips should appear dynamically as a group of multiple interactive elements.
+      </p>
+      <p>
         To use chips, add classes <code>chip</code>
+      </p>
+      <p>
         To specify the function of the chip, use <code>chip-input</code>, <code>chip-choice</code>,
-        <code>chip-filter</code>, <code>chip-action</code> </br>
+        <code>chip-filter</code>, <code>chip-action</code>
+      </p>
+      <p>
         To specify the style, use one of these classes: <code>chip-solid</code>, <code>chip-reverse</code>
         <code>chip-outline</code>
       </p>
-      <div class="px-4 pt-0 pb-4">
+      <!-- <div class="px-4 pt-0 pb-4">
         <div class="custom-control custom-switch custom-control-inline">
           <input type="checkbox" id="card-switch" class="custom-control-input" name="card-switch">
           <label class="custom-control-label label-lg" for="card-switch">Show White Background</label>
         </div>
+      </div> -->
+      <div class="specs">
+        <h3 class="mt-5">Design Specs</h5>
+          <img src="${require(`./img/chips-specs.jpg`)}" /></br>
+          <!-- <p class="lead">
+            links to XD dev
+          </p> -->
       </div>
 
-      <h3 class="mt-5">Chips</h3>
-      <div class="guide-example-block">
+      <h3 class="mt-5">Chip Types</h3>
+      <div class="guide-example-block chips-block">
         <div class="guide-sample hover-dimensions">
           <div class="chip chip-solid chip-input">
             <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
             <div class="chip-text">Solid chip</div>
             <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
           </div>
+
           <div class="chip chip-solid chip-choice">
             <div class="chip-icon-left"><i class="material-icons">directions_bike</i></div>
             <div class="chip-text">Choice Chip</div>
           </div>
+
           <div class="chip chip-solid chip-filter">
             <div class="chip-icon-left"><i class="material-icons">done</i></div>
             <div class="chip-text">Filter Chip</div>
           </div>
+
           <div class="chip chip-solid chip-action">
             <div class="chip-icon-left"><i class="material-icons">brightness_low</i></div>
             <div class="chip-text">Action Chip</div>
           </div>
         </div>
+      </div>
+
+      <h3 class="mt-5">Chip Styles</h3>
+      <div class="guide-example-block chips-block">
+        <div class="guide-sample hover-dimensions">
+          <div class="chip chip-solid chip-input">
+            <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+            <div class="chip-text">Solid chip</div>
+            <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+          </div>
+
+          <div class="chip chip-outline chip-choice">
+            <div class="chip-icon-left"><i class="material-icons">directions_bike</i></div>
+            <div class="chip-text">Choice Chip</div>
+          </div>
+
+          <div class="chip chip-reverse chip-filter">
+            <div class="chip-icon-left"><i class="material-icons">done</i></div>
+            <div class="chip-text">Filter Chip</div>
+          </div>
+        </div>
+      </div>
+      <h3 class="mt-5">States</h3>
+      <div class="guide-example-block">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Solid </th>
+              <th scope="col">Outline </th>
+              <th scope="col">Reverse </th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Default</th>
+              <td>
+                <div class="chip chip-solid chip-input">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Clifford</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+              <td>
+                <div class="chip chip-outline chip-input">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Jeff</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+              <td>
+                <div class="chip chip-reverse chip-input">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">David</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+
+            </tr>
+            <tr>
+              <th scope="row">Hover</th>
+              <td>
+                <div class="chip chip-solid chip-input hover">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Clifford</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+              <td>
+                <div class="chip chip-outline chip-input hover">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Jeff</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+              <td>
+                <div class="chip chip-reverse chip-input hover">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">David</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+
+            </tr>
+            <tr>
+              <th scope="row">Active</th>
+              <td>
+                <div class="chip chip-solid chip-input active">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Jean</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+              <td>
+                <div class="chip chip-outline chip-input active">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Victor</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+              <td>
+                <div class="chip chip-reverse chip-input active">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Elmer</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Error</th>
+              <td>
+                <div class="chip chip-solid chip-input error">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Jean</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+              <td>
+                <div class="chip chip-outline chip-input error">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Victor</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+              <td>
+                <div class="chip chip-reverse chip-input error">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Elmer</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Disabled</th>
+              <td>
+                <div class="chip chip-solid chip-input disabled">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Leona</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+              <td>
+                <div class="chip chip-outline chip-input disabled">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Earl</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+              <td>
+                <div class="chip chip-reverse chip-input disabled">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Dean</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">Raised</th>
+              <td>
+                <div class="chip chip-solid chip-input chip-raised">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Amy</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+              <td>
+                <div class="chip chip-outline chip-input chip-raised">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Verna</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+              <td>
+                <div class="chip chip-reverse chip-input chip-raised">
+                  <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+                  <div class="chip-text">Amanda</div>
+                  <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="mt-5">Input Chips</h3>
+      <div class="guide-example-block chips-block">
+        <div class="guide-sample hover-dimensions">
+
+          <div class="chip chip-solid chip-input">
+            <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+            <div class="chip-text">Clifford</div>
+            <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+          </div>
+
+          <div class="chip chip-outline chip-input">
+            <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+            <div class="chip-text">Jeff</div>
+            <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+          </div>
+
+          <div class="chip chip-reverse chip-input">
+            <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
+            <div class="chip-text">David</div>
+            <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+          </div>
+        </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
+      <h3 class="mt-5">Choice Chips</h3>
+      <div class="guide-example-block chips-block">
+        <div class="guide-sample hover-dimensions">
+          <div class="chip chip-solid chip-choice">
+            <div class="chip-icon-left"><i class="material-icons">directions_bike</i></div>
+            <div class="chip-text">Bike route</div>
+          </div>
 
-      <div class="grid-layout ether-panel-scroll-container">
-        <div class="grid-item cols-2 buttons">
-          <h6>Input Chips</h6>
+          <div class="chip chip-outline chip-choice">
+            <div class="chip-icon-left"><i class="material-icons">directions_walk</i></div>
+            <div class="chip-text">Walking route</div>
+          </div>
 
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Solid </th>
-                <th scope="col">Outline </th>
-                <th scope="col">Reverse </th>
-
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Default</th>
-                <td>
-                  <div class="chip chip-solid chip-input">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Clifford</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-input">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Jeff</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-input">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">David</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-
-              </tr>
-              <tr>
-                <th scope="row">Hover</th>
-                <td>
-                  <div class="chip chip-solid chip-input hover">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Clifford</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-input hover">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Jeff</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-input hover">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">David</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-
-              </tr>
-              <tr>
-                <th scope="row">Active</th>
-                <td>
-                  <div class="chip chip-solid chip-input active">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Jean</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-input active">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Victor</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-input active">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Elmer</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Error</th>
-                <td>
-                  <div class="chip chip-solid chip-input error">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Jean</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-input error">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Victor</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-input error">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Elmer</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Disabled</th>
-                <td>
-                  <div class="chip chip-solid chip-input disabled">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Leona</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-input disabled">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Earl</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-input disabled">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Dean</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Raised</th>
-                <td>
-                  <div class="chip chip-solid chip-input chip-raised">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Amy</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-input chip-raised">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Verna</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-input chip-raised">
-                    <div class="chip-thumbnail"><img src="img/headshot.png" /></div>
-                    <div class="chip-text">Amanda</div>
-                    <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="chip chip-reverse chip-choice">
+            <div class="chip-icon-left"><i class="material-icons">local_taxi</i></div>
+            <div class="chip-text">Taxi route</div>
+          </div>
         </div>
-        <div class="grid-item cols-2 buttons">
-          <h6>Choice Chips</h6>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+      <h3 class="mt-5">Action Chips</h3>
+      <div class="guide-example-block chips-block">
+        <div class="guide-sample hover-dimensions">
+          <div class="chip chip-solid chip-action">
+            <div class="chip-icon-left"><i class="material-icons">brightness_low</i></div>
+            <div class="chip-text">Clifford</div>
+          </div>
 
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Solid </th>
-                <th scope="col">Outline </th>
-                <th scope="col">Reverse </th>
+          <div class="chip chip-outline chip-action">
+            <div class="chip-icon-left"><i class="material-icons">access_alarm</i></div>
+            <div class="chip-text">Jeff</div>
+          </div>
 
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Default</th>
-                <td>
-                  <div class="chip chip-solid chip-choice">
-                    <div class="chip-icon-left"><i class="material-icons">directions_bike</i></div>
-                    <div class="chip-text">Bike route</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-choice">
-                    <div class="chip-icon-left"><i class="material-icons">directions_walk</i></div>
-                    <div class="chip-text">Walking route</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-choice">
-                    <div class="chip-icon-left"><i class="material-icons">local_taxi</i></div>
-                    <div class="chip-text">Taxi route</div>
-                  </div>
-                </td>
-
-              </tr>
-              <tr>
-                <th scope="row">Active</th>
-                <td>
-                  <div class="chip chip-solid chip-choice active">
-                    <div class="chip-icon-left"><i class="material-icons">directions_bike</i></div>
-                    <div class="chip-text">Bike route</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-choice active">
-                    <div class="chip-icon-left"><i class="material-icons">directions_walk</i></div>
-                    <div class="chip-text">Walking route</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-choice active">
-                    <div class="chip-icon-left"><i class="material-icons">local_taxi</i></div>
-                    <div class="chip-text">Taxi route</div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Disabled</th>
-                <td>
-                  <div class="chip chip-solid chip-choice disabled">
-                    <div class="chip-icon-left"><i class="material-icons">directions_bike</i></div>
-                    <div class="chip-text">Bike route</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-choice disabled">
-                    <div class="chip-icon-left"><i class="material-icons">directions_walk</i></div>
-                    <div class="chip-text">Walking route</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-choice disabled">
-                    <div class="chip-icon-left"><i class="material-icons">local_taxi</i></div>
-                    <div class="chip-text">Taxi route</div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Raised</th>
-                <td>
-                  <div class="chip chip-solid chip-choice chip-raised">
-                    <div class="chip-icon-left"><i class="material-icons">directions_bike</i></div>
-                    <div class="chip-text">Bike route</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-choice chip-raised">
-                    <div class="chip-icon-left"><i class="material-icons">directions_walk</i></div>
-                    <div class="chip-text">Walking route</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-choice chip-raised">
-                    <div class="chip-icon-left"><i class="material-icons">local_taxi</i></div>
-                    <div class="chip-text">Taxi route</div>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="chip chip-reverse chip-action">
+            <div class="chip-icon-left"><i class="material-icons">bluetooth</i></div>
+            <div class="chip-text">David</div>
+          </div>
         </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+      <h3 class="mt-5">Filter Chips</h3>
+      <div class="guide-example-block chips-block">
+        <div class="guide-sample hover-dimensions">
+          <div class="chip chip-solid chip-filter">
+            <div class="chip-icon-left"><i class="material-icons">done</i></div>
+            <div class="chip-text">Red fish</div>
+          </div>
 
-        <div class="grid-item cols-2 buttons">
-          <h6>Filter Chips</h6>
+          <div class="chip chip-outline chip-filter">
+            <div class="chip-text">Blue fish</div>
+          </div>
 
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Solid </th>
-                <th scope="col">Outline </th>
-                <th scope="col">Reverse </th>
+          <div class="chip chip-reverse chip-filter">
+            <div class="chip-text">Green eggs</div>
+          </div>
 
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Default</th>
-                <td>
-                  <div class="chip chip-solid chip-filter">
-                    <div class="chip-icon-left"><i class="material-icons">done</i></div>
-                    <div class="chip-text">Red fish</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-filter">
-                    <div class="chip-text">Blue fish</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-filter">
-                    <div class="chip-text">Green eggs</div>
-                  </div>
-                </td>
-
-              </tr>
-              <tr>
-                <th scope="row">Active</th>
-                <td>
-                  <div class="chip chip-solid chip-filter active">
-                    <div class="chip-text">Red fish</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-filter active">
-                    <div class="chip-icon-left"><i class="material-icons">done</i></div>
-                    <div class="chip-text">Blue fish</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-filter active">
-                    <div class="chip-text">Green eggs</div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Disabled</th>
-                <td>
-                  <div class="chip chip-solid chip-filter disabled">
-                    <div class="chip-text">Red fish</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-filter disabled">
-                    <div class="chip-text">Blue fish</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-filter disabled">
-                    <div class="chip-icon-left"><i class="material-icons">done</i></div>
-                    <div class="chip-text">Green eggs</div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Raised</th>
-                <td>
-                  <div class="chip chip-solid chip-filter chip-raised">
-                    <div class="chip-icon-left"><i class="material-icons">done</i></div>
-                    <div class="chip-text">Red fish</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-filter chip-raised">
-                    <div class="chip-text">Blue fish</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-filter chip-raised">
-                    <div class="chip-text">Green eggs</div>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
         </div>
-
-
-        <div class="grid-item cols-2 buttons">
-          <h6>Action Chips</h6>
-
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Solid </th>
-                <th scope="col">Outline </th>
-                <th scope="col">Reverse </th>
-
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Default</th>
-                <td>
-                  <div class="chip chip-solid chip-action">
-                    <div class="chip-icon-left"><i class="material-icons">brightness_low</i></div>
-                    <div class="chip-text">Clifford</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-action">
-                    <div class="chip-icon-left"><i class="material-icons">access_alarm</i></div>
-                    <div class="chip-text">Jeff</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-action">
-                    <div class="chip-icon-left"><i class="material-icons">bluetooth</i></div>
-                    <div class="chip-text">David</div>
-                  </div>
-                </td>
-
-              </tr>
-              <tr>
-                <th scope="row">Active</th>
-                <td>
-                  <div class="chip chip-solid chip-action active">
-                    <div class="chip-icon-left"><i class="material-icons">brightness_low</i></div>
-                    <div class="chip-text">Brightness</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-action active">
-                    <div class="chip-icon-left"><i class="material-icons">access_alarm</i></div>
-                    <div class="chip-text">Turn on alarm</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-action active">
-                    <div class="chip-icon-left"><i class="material-icons">bluetooth</i></div>
-                    <div class="chip-text">Bluetooth on</div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Disabled</th>
-                <td>
-                  <div class="chip chip-solid chip-action disabled">
-                    <div class="chip-icon-left"><i class="material-icons">brightness_low</i></div>
-                    <div class="chip-text">Brightness</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-action disabled">
-                    <div class="chip-icon-left"><i class="material-icons">access_alarm</i></div>
-                    <div class="chip-text">Turn on alarm</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-action disabled">
-                    <div class="chip-icon-left"><i class="material-icons">bluetooth</i></div>
-                    <div class="chip-text">Bluetooth on</div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <th scope="row">Raised</th>
-                <td>
-                  <div class="chip chip-solid chip-action chip-raised">
-                    <div class="chip-icon-left"><i class="material-icons">brightness_low</i></div>
-                    <div class="chip-text">Brightness</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-outline chip-action chip-raised">
-                    <div class="chip-icon-left"><i class="material-icons">access_alarm</i></div>
-                    <div class="chip-text">Turn on alarm</div>
-                  </div>
-                </td>
-                <td>
-                  <div class="chip chip-reverse chip-action chip-raised">
-                    <div class="chip-icon-left"><i class="material-icons">bluetooth</i></div>
-                    <div class="chip-text">Bluetooth on</div>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
     </div>
   </div>

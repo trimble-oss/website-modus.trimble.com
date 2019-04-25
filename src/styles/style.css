@@ -1,4 +1,5 @@
 @import url(c:\devel\checkout\trimble-maps-git\project-ether-styleguide\node_modules\project-ether-framework\dist\fonts\icons.css);
+
 html {
   height: 100%;
 }
@@ -30,14 +31,14 @@ body {
   background-color: #fff;
 }
 
-.guide-header > img {
+.guide-header>img {
   max-height: 30px;
   max-width: 200px;
   float: left;
   margin: 20px;
 }
 
-.guide-header > h1 {
+.guide-header>h1 {
   display: inline-block;
   font-size: 2rem;
   margin-top: 12px;
@@ -51,11 +52,11 @@ body {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: auto auto;
-      grid-template-rows: auto auto;
+  grid-template-rows: auto auto;
   max-width: 900px;
 }
 
-.guide-example-block > div {
+.guide-example-block>div {
   border: 1px solid #ddd;
 }
 
@@ -157,4 +158,6 @@ pre {
 .hljs-strong {
   font-weight: bold;
 }
-/*# sourceMappingURL=style.css.map */
+
+*/
+/*# sourceMappingURL=style.css.map
