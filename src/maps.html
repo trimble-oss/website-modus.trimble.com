@@ -35,15 +35,45 @@ ${require(`./header.html`)}
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
-
     </div>
   </div>
+</div>
 </div>
 </div>
 <script>
   $(document).ready(function () {
     $(".nav-link").removeClass("active");
-    $("#controls").addClass("active");
+    $("#maps").addClass("active");
   });
+</script>
+<script>
+  ALKMapsGL.APIKey = '68B06901AF7DA34884CE5FB7A202A743';
+
+  let map = window.map = new ALKMapsGL.Map({
+    container: 'map',
+    zoom: 12.5,
+    center: [-77.01866, 38.888],
+    hash: true
+  });
+
+  let nav = new ALKMapsGL.NavigationControl();
+  map.addControl(nav, 'top-right');
+
+  function swapStyleSheet(sheet) {
+    document.getElementById("pagestyle").setAttribute("href", sheet);
+  }
+
+  function initate() {
+    var toggle = document.getElementById("style-switch");
+    toggle.onchange = function (e) {
+      if (e.target.checked) {
+        swapStyleSheet("css/ether-dark.css");
+      } else {
+        swapStyleSheet("css/ether.css");
+      }
+    };
+  }
+
+  window.onload = initate;
 </script>
 ${require(`./footer.html`)}

@@ -57,9 +57,19 @@ module.exports = {
       template: Path.resolve(__dirname, '../src/typography.html')
     }),
     new HtmlWebpackPlugin({
+      filename: 'accordians.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/accordians.html')
+    }),
+    new HtmlWebpackPlugin({
       filename: 'alerts.html',
       inject: true,
       template: Path.resolve(__dirname, '../src/alerts.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'badges.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/badges.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'branding.html',

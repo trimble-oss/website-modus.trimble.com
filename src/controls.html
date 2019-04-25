@@ -2,15 +2,15 @@ ${require(`./header.html`)}
 <div class="guide-content">
   <div class="guide-content-column container">
 
-    <h1>Accordians</h1>
+    <h1>Input Controls</h1>
     <p class="lead">
-      Examples and usage guidelines for Accordians.
-    </p>
+      Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs, custom
+      selects, and custom file inputs. </p>
     <div class="alert alert-warning" role="alert">
       WIP: This page is not complete.
     </div>
     <div class="guide-section">
-      <h2>Accordians</h2>
+      <!-- <h2>Accordians</h2>
       <p>
         The .btn classes are designed to be used with the
         <code>&lt;button&gt;</code> element. However, you can also use these classes
@@ -22,20 +22,98 @@ ${require(`./header.html`)}
         content), rather than linking to new pages or sections within the current page, these links should be
         given a role="button" to appropriately convey their purpose to assistive technologies such as screen
         readers.
-      </p>
+      </p> -->
 
-      <h3 class="mt-5">Regular Buttons</h3>
+      <h3 class="mt-5">Input Controls</h3>
       <div class="guide-example-block">
-        <div class="guide-sample hover-dimensions">
-          <button class=" btn btn-primary">Primary Button</button>
-          <button class="btn btn-secondary">Secondary Button</button>
-          <button class="btn btn-tertiary">Tertiary Button</button>
-          <button class="btn btn-primary" disabled>Disabled Button</button>
+        <h6 class="mt-5">Checkbox</h6>
+        <div class="guide-sample">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+            <label class="custom-control-label label-lg" for="customCheck">Checkbox</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" checked class="custom-control-input" id="customCheck2" name="example1">
+            <label class="custom-control-label label-lg" for="customCheck2">Checkbox</label>
+          </div>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
 
+      <div class="guide-example-block">
+        <h6 class="mt-5">Radio</h6>
+        <div class="guide-sample">
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" checked class="custom-control-input" id="customRadio" name="example" value="customEx">
+            <label class="custom-control-label label-lg" for="customRadio">Radio 1</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+            <label class="custom-control-label label-lg" for="customRadio2">Radio 2</label>
+          </div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <div class="guide-example-block">
+        <h6 class="mt-5">Switch</h6>
+        <div class="guide-sample">
+          <div class="custom-control custom-switch custom-control-inline">
+            <input type="checkbox" checked class="custom-control-input" id="customSwitch" name="example1">
+            <label class="custom-control-label label-lg" for="customSwitch">Switch</label>
+          </div>
+          <div class="custom-control custom-switch custom-control-inline">
+            <input type="checkbox" class="custom-control-input" id="customSwitch2" name="example1">
+            <label class="custom-control-label label-lg" for="customSwitch2">Switch</label>
+          </div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <div class="guide-example-block">
+        <h6 class="mt-5">Small Switch</h6>
+        <div class="guide-sample">
+          <div class="custom-control custom-switch custom-switch-sm custom-control-inline">
+            <input type="checkbox" checked class="custom-control-input" id="customSwitchSmall" name="example1">
+            <label class="custom-control-label label-lg" for="customSwitchSmall">Switch Small</label>
+          </div>
+          <div class="custom-control custom-switch custom-switch-sm custom-control-inline">
+            <input type="checkbox" class="custom-control-input" id="customSwitchSmall2" name="example1">
+            <label class="custom-control-label label-lg" for="customSwitchSmall2">Switch Small</label>
+          </div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <div class="guide-example-block">
+        <h6 class="mt-5">Slider</h6>
+
+        <div class="guide-sample">
+          <label class="label-lg" for="customRange">Slider</label>
+          <input type="range" class="custom-range" id="customRange" name="points1">
+
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+
+      <div class="grid-item">
+
+      </div>
+      <div class="grid-item">
+
+      </div>
+      <div class="grid-item">
+
+      </div>
+      <div class="grid-item">
+
+      </div>
     </div>
   </div>
 </div>
