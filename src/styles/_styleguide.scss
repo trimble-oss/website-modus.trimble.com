@@ -52,7 +52,7 @@ body {
 
 .guide-content-column {
   padding: 20px;
-  min-width: 960px;
+  //  min-width: 960px;
 }
 
 .guide-header {
@@ -80,7 +80,7 @@ body {
 .guide-example-block {
   display: flex;
   flex-direction: column;
-  min-width: 900px;
+  // min-width: 900px;
   position: relative;
 
   &>div {
@@ -182,6 +182,14 @@ body {
 .specs {
   padding: 10px;
   border-bottom: 1px solid #ddd;
+
+  img {
+    max-height: 90vh;
+    max-width: 90vw;
+    display: block;
+    width: auto;
+    height: auto;
+  }
 }
 
 :not(pre)>code[class*="language-"],
