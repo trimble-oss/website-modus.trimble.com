@@ -99,6 +99,21 @@ body {
   }
 }
 
+.dropdown-example {
+  .dropdown {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.modal-static {
+  .modal {
+    position: relative;
+    display: inline;
+  }
+}
+
 .card-row {
   display: flex;
   align-items: center;
