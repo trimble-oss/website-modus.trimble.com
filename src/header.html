@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Project Ether Styleguide</title>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <link rel="stylesheet" href="https://styles-dev.trimblemaps.com/assets/0.2.6/fonts/ether-icons.css">
   <link rel="icon" type="image/x-icon" href="${require(`./img/favicon.ico`)}" />
   <link id="pagestyles" rel="stylesheet" href="./assets/ether.min.css">
   <link id="pagestyle" rel="stylesheet" href="./assets/ether-layout.css">
@@ -19,12 +20,14 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
   </script>
+  <link rel="stylesheet" href="https://alk-qa-public.s3.amazonaws.com/alkmaps-web-gl/alkmapsgl.css" />
+  <script src="https://alk-qa-public.s3.amazonaws.com/alkmaps-web-gl/alkmapsgl.js"></script>
 </head>
 
 <body>
   <div class="ether-layout">
     <nav class="navbar navbar-expand-lg ether-header">
-      <a data-ether-item="menu-btn"><i class="material-icons menu-btn">menu</i></a>
+      <a data-ether-item="menu-btn"><i class="ether-icons menu-btn">menu</i></a>
       <a class="navbar-brand" href="/index.html">
         <img src="${require(`./img/trimble-maps-logo.svg`)}" class="d-inline-block align-middle" height="30px" />
 
@@ -49,44 +52,44 @@
           <li>
             <a id="home" class="nav-link" href="/index.html">
               <span class="left-nav-icon">
-                <i class="icon material-icons">home</i>
+                <i class="icon ether-icons">home</i>
               </span>
               Introduction</a>
           </li>
           <li>
             <a id="layout" class="nav-link" href="/layout.html">
               <span class="left-nav-icon">
-                <i class="icon material-icons">view_quilt</i>
+                <i class="icon ether-icons">view_quilt</i>
               </span>
               Ether Layout</a>
           </li>
           <li>
             <a id="colors" class="nav-link" href="/colors.html">
               <span class="left-nav-icon">
-                <i class="icon material-icons">color_lens</i>
+                <i class="icon ether-icons">color_lens</i>
               </span>
               Color Palette</a>
           </li>
           <li>
             <a id="typography" class="nav-link" href="/icons.html">
               <span class="left-nav-icon">
-                <i class="icon material-icons">sentiment_satisfied_alt</i>
+                <i class="icon ether-icons">sentiment_satisfied_alt</i>
               </span>
               Icon Library</a>
           </li>
           <li>
             <a id="typography" class="nav-link" href="/typography.html">
               <span class="left-nav-icon">
-                <i class="icon material-icons">text_fields</i>
+                <i class="icon ether-icons">text_fields</i>
               </span>
               Typography</a>
           </li>
           <li class="has-subnav">
             <a id="components" href="#controls-subnav" class="nav-link collapsed " data-toggle="collapse">
               <span class="left-nav-icon">
-                <i class="icon material-icons">ballot</i>
+                <i class="icon ether-icons">ballot</i>
               </span>
-              Components <i class="material-icons expand-icon">expand_less</i></a>
+              Components <i class="ether-icons expand-icon">expand_less</i></a>
             <div class="collapse sub-nav" id="controls-subnav">
               <div>
                 <a id="accordians" href="/accordians.html" class="list-group-item nav-link"> <span
@@ -114,9 +117,9 @@
                   </span>Input Groups</a>
                 <a id="lists" href="/lists.html" class="list-group-item nav-link"> <span class="left-nav-icon">
                   </span>Lists</a>
-                <!-- <a id="maps" href="/maps.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                <a id="maps" href="/maps.html" class="list-group-item nav-link"> <span class="left-nav-icon">
                   </span>Maps</a>
-                <a id="maps" href="/modal.html" class="list-group-item nav-link"> <span class="left-nav-icon">
+                <!--   <a id="maps" href="/modal.html" class="list-group-item nav-link"> <span class="left-nav-icon">
                   </span>Modals</a> -->
                 <!-- <a id="panel" href="/panel.html" class="list-group-item nav-link"> <span class="left-nav-icon">
                   </span>Panel</a>

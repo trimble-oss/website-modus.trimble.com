@@ -214,6 +214,15 @@ pre[class*="language-"] {
   }
 }
 
+.hidden {
+  display: none;
+}
+
+.icon-lib {
+  //temporary
+  height: 2150px;
+}
+
 .color-swatches {
   display: grid;
   grid-template-columns: min-content min-content min-content min-content;

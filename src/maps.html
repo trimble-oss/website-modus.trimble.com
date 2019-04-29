@@ -2,35 +2,31 @@ ${require(`./header.html`)}
 <div class="guide-content">
   <div class="guide-content-column container">
 
-    <h1>Accordians</h1>
+    <h1>Maps</h1>
     <p class="lead">
-      Examples and usage guidelines for Accordians.
+      The ALK Maps Javascript API enables you to embed ALK's commercial maps and routing in your own web applications.
+      This guide is intended to get you started, and give you an overview of the main functionality. It is designed for
+      people familiar with JavaScript programming and object-oriented programming concepts. For more detailed reference
+      of all the functions, see the ALK Maps <a href="https://maps.alk.com/Developer/1.2/Default" target="_blank">
+        Developer Guide
+      </a>
     </p>
     <div class="alert alert-warning" role="alert">
       WIP: This page is not complete.
     </div>
     <div class="guide-section">
-      <h2>Accordians</h2>
-      <p>
-        The .btn classes are designed to be used with the
-        <code>&lt;button&gt;</code> element. However, you can also use these classes
-        on <code>&lt;a&gt;</code> or
-        <code>&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).
-
-        When using button classes on
-        <code>&lt;a&gt;</code> elements that are used to trigger in-page functionality (like collapsing
-        content), rather than linking to new pages or sections within the current page, these links should be
-        given a role="button" to appropriately convey their purpose to assistive technologies such as screen
-        readers.
-      </p>
-
-      <h3 class="mt-5">Regular Buttons</h3>
+      <h2>Trimble Maps</h2>
+      <div id="map" style="height: 700px"></div>
+      <!-- <h3 class="mt-5">Regular Buttons</h3> -->
       <div class="guide-example-block">
-        <div class="guide-sample hover-dimensions">
-          <button class=" btn btn-primary">Primary Button</button>
-          <button class="btn btn-secondary">Secondary Button</button>
-          <button class="btn btn-tertiary">Tertiary Button</button>
-          <button class="btn btn-primary" disabled>Disabled Button</button>
+        <div class="guide-sample">
+          <link rel="stylesheet" href="https://alk-qa-public.s3.amazonaws.com/alkmaps-web-gl/alkmapsgl.css" />
+          <script src="https://alk-qa-public.s3.amazonaws.com/alkmaps-web-gl/alkmapsgl.js"></script>
+          .
+          .
+          .
+          .
+          <div id="map"></div>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
@@ -76,4 +72,6 @@ ${require(`./header.html`)}
 
   window.onload = initate;
 </script>
+
+
 ${require(`./footer.html`)}

@@ -12,12 +12,17 @@ ${require(`./header.html`)}
     </div>
     <div class="guide-section">
       <h2>Usage Guidelines</h2>
-      <p class="lead-text">Fit for use<p>
+      <p>Fit for use<p>
           <p>Each symbol is available in a range of downloadable sizes and densities.</p>
-
-          <p class="lead-text"> Also available as a git repository <a href="" target="_blank">here</a>. </p>
-          <p>CDN or whatever</p>
-          <p class="lead-text"> Icon font </p>
+          <div class="guide-example-block">
+            <div class="guide-sample hover-dimensions hidden">
+              <link rel="stylesheet" href="https://styles-dev.trimblemaps.com/assets/0.2.6/fonts/ether-icons.css">
+            </div>
+            <div class="guide-code"></div>
+            <button class="btn btn-link guide-copy-code">Click to Copy</button>
+          </div> </br>
+          <p> Also available as a git repository <a href="" target="_blank">here</a>. </p>
+          <h4>HTML Structure</h4>
           <p> For web projects, the best format is our easy-to-use icon web font. </p>
         </p> <code>&lt;i class=&quot;ether-icons&quot;&gt;icon_name&lt;/i&gt;
         </code>
@@ -33,13 +38,15 @@ ${require(`./header.html`)}
       <div class="guide-example-block">
         <p>Click on the icons to get the code and download link</p>
         <div class="guide-sample hover-dimensions">
-          <!-- <button class=" btn btn-primary">Primary Button</button>
-          <button class="btn btn-secondary">Secondary Button</button>
-          <button class="btn btn-tertiary">Tertiary Button</button>
-          <button class="btn btn-primary" disabled>Disabled Button</button> -->
+          <i class="ether-icons">arrow_right_bold</i>
         </div>
-        <!-- <div class="guide-code"></div>
-        <button class="btn btn-link guide-copy-code">Click to Copy</button> -->
+        <!-- <div class="guide-code"></div>-->
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+      <div class="guide-example-block">
+
+        <embed src="https://styles.trimblemaps.com/assets/0.2.6/fonts/ether-icons.html" class="icon-lib"
+          onerror="alert('URL invalid !!');" />
       </div>
       <!-- add design specs link from tekla -->
     </div>
