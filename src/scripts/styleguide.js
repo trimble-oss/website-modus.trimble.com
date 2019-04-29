@@ -44,7 +44,7 @@ const PrevNext = (current, future) => {
   var list = [];
   //find current
   // href current + 1 or current - 1;
-}
+};
 $(document).ready(function () {
   $(".guide-code").each(function (i, block) {
     var prev_html = Pretty($(block).prev().html());

@@ -2,35 +2,101 @@ ${require(`./header.html`)}
 <div class="guide-content">
   <div class="guide-content-column container">
 
-    <h1>Accordians</h1>
+    <h1>Tables</h1>
     <p class="lead">
-      Examples and usage guidelines for Accordians.
+      Documentation and examples for opt-in styling of tables (given their prevalent use in JavaScript plugins) with
+      Bootstrap.
     </p>
     <div class="alert alert-warning" role="alert">
       WIP: This page is not complete.
     </div>
     <div class="guide-section">
-      <h2>Accordians</h2>
+      <h2>Classes & Usage</h2>
       <p>
-        The .btn classes are designed to be used with the
-        <code>&lt;button&gt;</code> element. However, you can also use these classes
-        on <code>&lt;a&gt;</code> or
-        <code>&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).
-
-        When using button classes on
-        <code>&lt;a&gt;</code> elements that are used to trigger in-page functionality (like collapsing
-        content), rather than linking to new pages or sections within the current page, these links should be
-        given a role="button" to appropriately convey their purpose to assistive technologies such as screen
-        readers.
+        Due to the widespread use of tables across third-party widgets like calendars and date pickers, we’ve designed
+        our tables to be opt-in.
+        Just add the base class .table to any <code>&lt;table&gt;
+        </code>, then extend with custom styles or our various included modifier
+        classes.
       </p>
+      <p>Using the most basic table markup, here’s how <code>.table</code>-based tables look in Bootstrap.
+        All table styles are inherited in Bootstrap 4, meaning any nested tables will be styled in the same manner as
+        the parent. <a href="https://getbootstrap.com/docs/4.0/content/tables/" target="_blank"> Read More</a></p>
 
-      <h3 class="mt-5">Regular Buttons</h3>
+
+
+
+      <h3 class="mt-5">Basic Table</h3>
       <div class="guide-example-block">
         <div class="guide-sample hover-dimensions">
-          <button class=" btn btn-primary">Primary Button</button>
-          <button class="btn btn-secondary">Secondary Button</button>
-          <button class="btn btn-tertiary">Tertiary Button</button>
-          <button class="btn btn-primary" disabled>Disabled Button</button>
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-5">Bordered Table</h3>
+      <div class="guide-example-block">
+        <div class="guide-sample hover-dimensions">
+          <table class="table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>

@@ -2,139 +2,75 @@ ${require(`./header.html`)}
 <div class="guide-content">
   <div class="guide-content-column container">
 
-    <h1>Cards</h1>
+    <h1>Badges</h1>
     <p class="lead">
-      Examples and usage guidelines for Cards.
+      Documentation and examples for badges, our small count and labeling component.
+
     </p>
     <div class="guide-section">
       <h2>Code Structure & Usage </h2>
       <p>
-        The .btn classes are designed to be used with the
-        <code>&lt;button&gt;</code> element. However, you can also use these classes
-        on <code>&lt;a&gt;</code> or
-        <code>&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).
-
-        When using button classes on
-        <code>&lt;a&gt;</code> elements that are used to trigger in-page functionality (like collapsing
-        content), rather than linking to new pages or sections within the current page, these links should be
-        given a role="button" to appropriately convey their purpose to assistive technologies such as screen
-        readers.
+        Badges scale to match the size of the immediate parent element by using relative font sizing and em units.
       </p>
+      <p>Use classes <code>badge</code> along with contexual classes in a <code>span</code></p>
+      <p>Badges can be used as part of links or buttons to provide a counter.</p>
+      <p>Using the contextual <code>.badge-*</code> classes on an <code>&lt;a&gt;
+        </code> element quickly provide actionable badges with hover and focus
+        states.
+      </p>
+      <p>Available contextual classes: <code>badge-primary</code> <code>badge-secondary</code>
+        <code>badge-success</code> <code>badge-info</code> <code>badge-warning</code>
+        <code>badge-danger</code> <code>badge-light</code> <code>badge-dark</code> </p>
 
-      <!-- <h3 class="mt-5">Regular Cards</h3>
-      <div class="guide-example-block">
-        <div class="guide-sample hover-dimensions">
-
-        </div>
-        <div class="guide-code"></div>
-        <button class="btn btn-link guide-copy-code">Click to Copy</button>
-      </div> -->
-      <h3 class="mt-5">Floating Card </h3>
-      <div class="guide-example-block">
-        <div class="guide-sample hover-dimensions">
-          <div class="card-row">
-            <div class="card" style="width: 14rem;">
-              <div class="card-body">
-                <h5 class="card-title">Shadow Depth 1</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="guide-code"></div>
-        <button class="btn btn-link guide-copy-code">Click to Copy</button>
-      </div>
-
-      <h3 class="mt-5">Card with Image </h3>
-      <div class="guide-example-block">
-        <div class="guide-sample hover-dimensions">
-          <div class="card-row">
-            <div class="card mb-2" style="width: 18rem;">
-              <img class="card-img-top" src="https://fakeimg.pl/286x150/" alt="Card image cap">
-              <div class="card-body">
-                <h4 class="card-title">Card Title</h4>
-                <h5 class="card-subtitle mb-2 text-muted">Card Subtitle</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the
-                  bulk of the
-                  card's content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="guide-code"></div>
-        <button class="btn btn-link guide-copy-code">Click to Copy</button>
-      </div>
-
-      <h3 class="mt-5">Card Shadow & depth</h3>
+      <h3 class="mt-5">Examples - Contextual </h3>
 
       <div class="guide-example-block chips-block">
         <div class="guide-sample hover-dimensions">
-          <div class="card-row">
-            <div class="card shadow-1" style="width: 14rem;">
-              <div class="card-body">
-                <h5 class="card-title">Shadow Depth 1</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-            <div class="card shadow-2" style="width: 14rem;">
-              <div class="card-body">
-                <h5 class="card-title">Shadow Depth 2</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-          <div class="card-row">
-            <div class="card shadow-3" style="width: 14rem;">
-              <div class="card-body">
-                <h5 class="card-title">Shadow Depth 3</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-            <div class="card shadow-4" style="width: 14rem;">
-              <div class="card-body">
-                <h5 class="card-title">Shadow Depth 4</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
-          <div class="card-row">
-            <div class="card shadow-5" style="width: 14rem;">
-              <div class="card-body">
-                <h5 class="card-title">Shadow Depth 5</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-          </div>
+          <h1>Heading <span class="badge badge-primary">Primary</span></h1>
+          <h2>Heading <span class="badge badge-secondary">Secondary</span></h2>
+          <h3>Heading <span class="badge badge-success">Success</span></h3>
+          <h4>Heading <span class="badge badge-info">Info</span></h4>
+          <h5>Heading <span class="badge badge-warning">Warning</span></h5>
+          <h6>Heading <span class="badge badge-danger">Danger</span></h6>
+          <span class="badge badge-light">New</span>
+          <span class="badge badge-dark">Dark</span>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+      <h3 class="mt-5">Pills</h3>
+      <p>Use the <code>.badge-pill</code> modifier class to make badges more rounded </p>
+      <div class="guide-example-block chips-block">
+        <div class="guide-sample hover-dimensions">
+          <span class="badge badge-pill badge-primary">New</span>
+          <span class="badge badge-pill badge-dark">Dark</span>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-5">Badge inside button</h3>
+      <p>Use the <code>.badge-pill</code> modifier class to make badges more rounded </p>
+      <div class="guide-example-block chips-block">
+        <div class="guide-sample hover-dimensions">
+          <button type="button" class="btn btn-primary">
+            Notifications <span class="badge badge-light">4</span>
+          </button>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-5">Badge as list item</h3>
+      <p>Use the <code>.badge-pill</code> modifier class to make badges more rounded </p>
+      <div class="guide-example-block chips-block">
+        <div class="guide-sample hover-dimensions">
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              List with Badge
+              <span class="badge badge-primary badge-pill">14</span>
+            </li>
+          </ul>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
