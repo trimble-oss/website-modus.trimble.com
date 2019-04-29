@@ -2,35 +2,60 @@ ${require(`./header.html`)}
 <div class="guide-content">
   <div class="guide-content-column container">
 
-    <h1>Accordians</h1>
+    <h1>Tabs</h1>
     <p class="lead">
-      Examples and usage guidelines for Accordians.
+      Examples and usage guidelines for Tabs.
     </p>
     <div class="alert alert-warning" role="alert">
       WIP: This page is not complete.
     </div>
     <div class="guide-section">
-      <h2>Accordians</h2>
+      <h2>Classes & Usage</h2>
       <p>
-        The .btn classes are designed to be used with the
-        <code>&lt;button&gt;</code> element. However, you can also use these classes
-        on <code>&lt;a&gt;</code> or
-        <code>&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).
-
-        When using button classes on
-        <code>&lt;a&gt;</code> elements that are used to trigger in-page functionality (like collapsing
-        content), rather than linking to new pages or sections within the current page, these links should be
-        given a role="button" to appropriately convey their purpose to assistive technologies such as screen
-        readers.
+        Takes the basic nav from above and adds the <code>.nav-tabs</code> class to generate a tabbed interface. Use
+        them to create tabbable regions with Bootstrap's tab <a
+          href="https://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior" target="_blank">JavaScript
+          plugin</a>.
       </p>
 
-      <h3 class="mt-5">Regular Buttons</h3>
+      <h3 class="mt-5">Basic Tabs</h3>
       <div class="guide-example-block">
         <div class="guide-sample hover-dimensions">
-          <button class=" btn btn-primary">Primary Button</button>
-          <button class="btn btn-secondary">Secondary Button</button>
-          <button class="btn btn-tertiary">Tertiary Button</button>
-          <button class="btn btn-primary" disabled>Disabled Button</button>
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+      <h3 class="mt-5">Inverse Tabs</h3>
+      <div class="guide-example-block">
+        <div class="guide-sample hover-dimensions">
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
