@@ -4,7 +4,8 @@
   "description": "The Project Ether Framework was developed as a common platform for all of Trimble MAPS web applications, with the additional goal of sharing with other groups within Trimble.",
   "scripts": {
     "build": "webpack --config webpack/webpack.config.prod.js --colors",
-    "deploy": "cross-env s3-deploy './build/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './build/' --region us-east-1 --bucket styleguide-dev.trimblemaps.com --cache 0",
+    "deploy": "cross-env s3-deploy './build/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './build/' --region us-east-1 --bucket prod-styles-trimblemaps --cache 0",
+    "deploy:dev": "cross-env s3-deploy './build/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './build/' --region us-east-1 --bucket dev-styles-trimblemaps --cache 0",
     "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js"
   },
   "repository": {
