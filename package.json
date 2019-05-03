@@ -1,7 +1,7 @@
 {
-  "name": "webpack-starter",
+  "name": "ether-framework-styleguide",
   "version": "1.0.0",
-  "description": "A light foundation for your next frontend project based on webpack.",
+  "description": "The Project Ether Framework was developed as a common platform for all of Trimble MAPS web applications, with the additional goal of sharing with other groups within Trimble.",
   "scripts": {
     "build": "webpack --config webpack/webpack.config.prod.js --colors",
     "deploy": "cross-env s3-deploy './build/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './build/' --region us-east-1 --bucket styleguide-dev.trimblemaps.com --cache 0",
@@ -9,27 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wbkd/webpack-starter.git"
+    "url": "ssh://git@bitbucket.trimble.tools/maps/project-ether-styleguide.git"
   },
-  "keywords": [
-    "webpack",
-    "startkit",
-    "frontend",
-    "es6",
-    "javascript",
-    "webdev"
-  ],
-  "author": "webkid.io",
+  "author": "Trimble Maps",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wbkd/webpack-starter/issues"
-  },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-class-properties": "^7.3.0",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-env": "^7.3.1",
-    "@trimblemaps/ether-framework": "^0.1.31",
+    "@trimblemaps/ether-framework": "^0.1.33",
     "babel-loader": "^8.0.5",
     "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^4.6.0",

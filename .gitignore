@@ -7,9 +7,9 @@ assets
 
 # misc
 .DS_Store
-
 npm-debug.log
 yarn-error.log
 yarn.lock
 .yarnclean
 .vscode
+.vscode/settings.json

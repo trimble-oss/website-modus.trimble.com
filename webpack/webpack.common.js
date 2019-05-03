@@ -6,7 +6,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   entry: {
     app: Path.resolve(__dirname, '../src/scripts/index.js'),
-    // guide_styles: Path.resolve(__dirname, '../src/styles/style.scss')
   },
   output: {
     path: Path.join(__dirname, '../build'),
@@ -22,17 +21,6 @@ module.exports = {
     new CleanWebpackPlugin(['build'], {
       root: Path.resolve(__dirname, '..')
     }),
-    new CopyWebpackPlugin([], {
-      from: Path.resolve(__dirname, '../public'),
-      to: 'public'
-    }),
-    new CopyWebpackPlugin([{
-      from: Path.resolve(__dirname, '../node_modules/@trimblemaps/ether-framework/dist/*+(.css|.js)'),
-      to: 'assets',
-      force: true,
-      flatten: true,
-      debug: 'debug'
-    }]),
     new HtmlWebpackPlugin({
       filename: 'index.html',
       inject: true,
