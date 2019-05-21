@@ -217,6 +217,10 @@ pre[class*="language-"] {
   }
 }
 
+.indent {
+  padding-left: 1rem;
+}
+
 #snackbar {
   visibility: hidden;
   min-width: 250px;

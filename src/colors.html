@@ -5,20 +5,21 @@ ${require(`./header.html`)}
     <p class="lead">
       The Project Ether Framework palette is based on the Trimble brand colors. You can modify the colors in
       <code>_theme.scss</code>
-      and <code>_theme-dark.scss</code> when using the SASS implenetation.
+      and <code>_theme-dark.scss</code> when using the SASS implementation.
     </p>
-    <h3 class="mt-5">Brand Colors</h3>
-    <div class="guide-example-block chips-block">
-      <div class="guide-sample hover-dimensions">
 
+    <!-- Theme Colors -->
+    <h3 class="mt-5">Theme Colors</h3>
+    <div class="guide-example-block chips-block">
+      <p>These can be changed to define app theme</p>
+      <div class="guide-sample">
         <div class="color-swatches">
+
           <div class="card">
-            <div class="card-img-top bg-primary">
-              <code class="text-primary">.text-white</code>
-            </div>
+            <div class="card-img-top bg-primary"></div>
             <div class="card-body">
               <div class="card-title">
-                <h6>Primary Brand Color</h6>
+                <h6>Primary Color</h6>
                 <p class="card-subtitle">
                   #005F9E
                 </p>
@@ -31,90 +32,11 @@ ${require(`./header.html`)}
             <div class="card-img-top bg-secondary"></div>
             <div class="card-body">
               <div class="card-title">
-                <h6>Secondary Brand Color</h6>
+                <h6>Secondary Color</h6>
                 <p class="card-subtitle">
                   #8C8B96
                 </p>
                 <p><code>.bg-secondary</code></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-img-top bg-main-background"></div>
-            <div class="card-body">
-              <div class="card-title">
-                <h6>Main Background Color</h6>
-                <p class="card-subtitle">
-                  #FFFFFF
-                </p>
-                <p><code>.bg-main-background</code></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-img-top bg-panel-background"></div>
-            <div class="card-body">
-              <div class="card-title">
-                <h6>UI Panel Background Color</h6>
-                <p class="card-subtitle">
-                  #F3F3F7
-                </p>
-                <p><code>.bg-panel-background</code><br />
-                  <code>.bg-light</code></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-img-top bg-hover"></div>
-            <div class="card-body">
-              <div class="card-title">
-                <h6>Hover Color</h6>
-                <p class="card-subtitle">
-                  #EAEAEF
-                </p>
-                <p><code>.bg-hover</code></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-img-top bg-selected"></div>
-            <div class="card-body">
-              <div class="card-title">
-                <h6>Selection Color</h6>
-                <p class="card-subtitle">
-                  #D0D0D7
-                </p>
-                <p><code>.bg-selected</code></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-img-top bg-active"></div>
-            <div class="card-body">
-              <div class="card-title">
-                <h6>Active Color</h6>
-                <p class="card-subtitle">
-                  #009AD9
-                </p>
-                <p><code>.bg-active</code></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-img-top bg-warning"></div>
-            <div class="card-body">
-              <div class="card-title">
-                <h6>Warning or Emphasis Color</h6>
-                <p class="card-subtitle">
-                  #FFBE00
-                </p>
-                <p><code>.bg-warning</code></p>
               </div>
             </div>
           </div>
@@ -133,10 +55,23 @@ ${require(`./header.html`)}
           </div>
 
           <div class="card">
+            <div class="card-img-top bg-success"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Success Color</h6>
+                <p class="card-subtitle">
+                  #5E9331
+                </p>
+                <p><code>.bg-success</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
             <div class="card-img-top bg-danger"></div>
             <div class="card-body">
               <div class="card-title">
-                <h6>Danger or Error Color</h6>
+                <h6>Danger Color</h6>
                 <p class="card-subtitle">
                   #C81922
                 </p>
@@ -144,49 +79,332 @@ ${require(`./header.html`)}
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div class="guide-sample bg-main-background">
+        <p><code>$theme-colors: (</code></p>
+        <p class="indent"><code> "primary": #005F9E,</code></p>
+        <p class="indent"><code> "secondary": #8C8B96,</code></p>
+        <p class="indent"><code> "dark": #363545,</code></p>
+        <p class="indent"><code> "success": #5E9331,</code></p>
+        <p class="indent"><code> "danger": #C81922,</code></p>
+        <p><code> );</code></p>
+      </div>
+    </div>
+
+    <!-- UI Colors -->
+    <h3 class="mt-5">UI Colors</h3>
+    <div class="guide-example-block chips-block">
+      <p>These can be changed to define app theme</p>
+      <div class="guide-sample">
+        <div class="color-swatches">
+
+          <div class="card">
+            <div class="card-img-top bg-main-background"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Main Background Color</h6>
+                <p class="card-subtitle">
+                  #FFFFFF
+                </p>
+                <p><code>.bg-main-background</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-panel-background"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Panel Background Color</h6>
+                <p class="card-subtitle">
+                  #F3F3F7
+                </p>
+                <p>
+                  <code>.bg-panel-background</code><br>
+                  <code>.bg-light</code>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-active"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Active Color</h6>
+                <br>
+                <p class="card-subtitle">
+                  #009AD9
+                </p>
+                <p><code>.bg-active</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-hover"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Hover Color</h6>
+                <br>
+                <p class="card-subtitle">
+                  #EAEAEF
+                </p>
+                <p><code>.bg-hover</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-selected"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Selected Color</h6>
+                <p class="card-subtitle">
+                  #D0D0D7
+                </p>
+                <p><code>.bg-selected</code></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="guide-sample bg-main-background">
+        <p><code>$ui-colors: (</code></p>
+        <p class="indent"><code> "main-background": #FFFFFF,</code></p>
+        <p class="indent"><code> "panel-background": #F3F3F7,</code></p>
+        <p class="indent"><code> "active": #009AD9,</code></p>
+        <p class="indent"><code> "hover": #EAEAEF,</code></p>
+        <p class="indent"><code> "selected": #D0D0D7</code></p>
+        <p><code>);</code></p>
+      </div>
+    </div>
+
+    <!-- Gray Palette -->
+    <h3 class="mt-5">Gray Palette</h3>
+    <div class="guide-example-block chips-block">
+
+      <!-- TODO: remove display none when bg gray variants are available -->
+      <div class="guide-sample" style="display: none">
+
+        <div class="color-swatches">
+
+          <div class="card">
+            <div class="card-img-top bg-gray-50"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 50</h6>
+                <p class="card-subtitle">
+                  #F9F9FB
+                </p>
+                <p><code>.bg-gray-50</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-100"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 100</h6>
+                <p class="card-subtitle">
+                  #F3F3F7
+                </p>
+                <p><code>.bg-gray-100</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-150"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 150</h6>
+                <p class="card-subtitle">
+                  #EAEAEF
+                </p>
+                <p><code>.bg-gray-150</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-200"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 200</h6>
+                <p class="card-subtitle">
+                  #E2E2E7
+                </p>
+                <p><code>.bg-gray-200</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-250"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 250</h6>
+                <p class="card-subtitle">
+                  #D0D0D7
+                </p>
+                <p><code>.bg-gray-250</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-300"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 300</h6>
+                <p class="card-subtitle">
+                  #BFBFC6
+                </p>
+                <p><code>.bg-gray-300</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-350"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 350</h6>
+                <p class="card-subtitle">
+                  #AEAEB6
+                </p>
+                <p><code>.bg-gray-350</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-400"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 400</h6>
+                <p class="card-subtitle">
+                  #9D9DA6
+                </p>
+                <p><code>.bg-gray-400</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-450"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 450</h6>
+                <p class="card-subtitle">
+                  #8C8B96
+                </p>
+                <p><code>.bg-gray-450</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-500"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 500</h6>
+                <p class="card-subtitle">
+                  #7B7A86
+                </p>
+                <p><code>.bg-gray-500</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-550"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 550</h6>
+                <p class="card-subtitle">
+                  #6A6976
+                </p>
+                <p><code>.bg-gray-550</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-600"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 600</h6>
+                <p class="card-subtitle">
+                  #595868
+                </p>
+                <p><code>.bg-gray-600</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-700"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 700</h6>
+                <p class="card-subtitle">
+                  #363545
+                </p>
+                <p><code>.bg-gray-700</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-750"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 750</h6>
+                <p class="card-subtitle">
+                  #262533
+                </p>
+                <p><code>.bg-gray-750</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-800"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 800</h6>
+                <p class="card-subtitle">
+                  #1B1A26
+                </p>
+                <p><code>.bg-gray-800</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img-top bg-gray-900"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Gray 900</h6>
+                <p class="card-subtitle">
+                  #0B0A12
+                </p>
+                <p><code>.bg-gray-900</code></p>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
-    </div>
 
-    <h3 class="mt-5">Theme Colors</h3>
-    <div class="guide-example-block chips-block">
-      <P>These can be changed to define app theme</P>
-      <div class="guide-sample hover-dimensions">
-        <p><code>$theme-colors: (</code></p>
-        <p><code> "primary": #005F9E,</code></p>
-        <p><code> "secondary": #8C8B96,</code></p>
-        <p><code> "dark": #363545,</code></p>
-        <p><code> "success": #5e9331,</code></p>
-        <p><code> "danger": #C81922,</code></p>
-        <code>
-          <p> );
-        </code></p>
-        </code>
-
-      </div>
-    </div>
-    <h3 class="mt-5">UI Colors</h3>
-    <div class="guide-example-block chips-block">
-      <P>These can be changed to define app theme</P>
-      <div class="guide-sample hover-dimensions">
-        <p><code>$ui-colors: (</code></p>
-        <p><code> "main-background": #fff,</code></p>
-        <p><code> "panel-background": #F3F3F7,</code></p>
-        <p><code> "active": #009AD9,</code></p>
-        <p><code> "hover": #EAEAEF,</code></p>
-        <p><code> "selected": #D0D0D7</code></p>
-        <code>
-          <p> );
-        </code></p>
-        </code>
-
-      </div>
-    </div>
-    <h3 class="mt-5">Gray Palette</h3>
-    <div class="guide-example-block chips-block">
-      <div class="guide-sample hover-dimensions">
-        <p><code>$gray-50: #f9f9fb; // col_gray_half </code></p>
+      <div class="guide-sample bg-main-background">
+        <p><code>$gray-50: #F9F9Fb; // col_gray_half </code></p>
         <p><code> $gray-100: #F3F3F7; // col_gray_light</code></p>
         <p><code> $gray-150: #EAEAEF; // col_gray_0</code></p>
         <p><code> $gray-200: #E2E2E7; // col_gray_1</code></p>
@@ -198,11 +416,10 @@ ${require(`./header.html`)}
         <p><code> $gray-500: #7B7A86; // col_gray_7</code></p>
         <p><code> $gray-550: #6A6976; // col_gray_8</code></p>
         <p><code> $gray-600: #595868; // col_gray_9</code></p>
-        <p><code> $gray-700: #363545; // col_timble_gray</code></p>
+        <p><code> $gray-700: #363545; // col_trimble_gray</code></p>
         <p><code> $gray-750: #262533; // col_gray_dark_1</code></p>
         <p><code> $gray-800: #1B1A26; // col_gray_dark_2</code></p>
         <p><code> $gray-900: #0B0A12; // col_gray_dark_3</code></p>
-
       </div>
     </div>
   </div>
