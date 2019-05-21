@@ -8,7 +8,7 @@ ${require(`./header.html`)}
     </p>
     <div class="guide-section">
       <h2>Basic Structure</h2>
-      <p>The page should be wrapped in a <code>&lt;div class="ether-layout"&gt;</code> to set up the over all
+      <p>The page should be wrapped in a <code>&lt;div class="ether-layout"&gt;</code> to set up the overall
         structure.</p>
       <p>The top nav bar is a standard Bootstrap <code>&lt;nav class="navbar navbar-expand-lg"&gt;</code> with an
         additional class of <code>ether-header</code> to apply the aesthetics.</p>
@@ -28,24 +28,27 @@ ${require(`./header.html`)}
       <div class="guide-example-block">
         <div class="guide-sample position-relative p-0" style="height: 500px; z-index: 10; border-width: 7px;"
           id="example-block">
+          <!-- Ether Layout Page Wrapper -->
           <div class="ether-layout">
-            <nav class="ether-header navbar navbar-expand-lg">
+
+            <!-- Ether Header -->
+            <nav class="navbar navbar-expand-lg ether-header">
               <a data-ether-item="menu-btn"><i class="ether-icons menu-btn">menu</i></a>
-              <a class="navbar-brand" href="#">Brand</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainnav"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+              <a class="navbar-brand" href="#">
+                BRAND
+              </a>
               <div class="navbar-text">
-                Application name
+                <span class="h3 m-0">Application Name</span>
               </div>
-              <div class="collapse navbar-collapse" id="mainnav">
-                <div class="navbar-nav m-auto">
+              <div class="collapse navbar-collapse">
+                <div class="h4 navbar-nav m-auto">
                   Center Text
                 </div>
                 <div class="navbar-nav">
                   <div class="pr-3 py-2">
-                    <a href="#"><i class="ether-icons" style="font-size: 24px">account_circle</i></a>
+                    <a href="#">
+                      <i class="ether-icons" style="font-size: 24px">account_circle</i>
+                    </a>
                   </div>
                   <div class="border-left pl-3 py-2">
                     <a href="#"><i class="ether-icons" style="font-size: 24px">apps</i></a>
@@ -53,42 +56,70 @@ ${require(`./header.html`)}
                 </div>
               </div>
             </nav>
-            <div class="ether-body sidebar-closed" data-ether-item='body'>
-              <nav class="ether-sidebar nav flex-column">
-                <a class="nav-link active" href="#">
-                  <span class="left-nav-icon"><i class="ether-icons">grid_on</i></span>
-                  Nav Item (icon font)
-                </a>
-                <a class="nav-link" href="#">
-                  <span class="left-nav-icon">
-                    <svg height="24" width="24">
-                      <circle cx="12" cy="12" r="12" fill="#363545" />
-                      <text fill="#ffffff" text-anchor="middle" font-size="9" font-weight="700" font-family="Open Sans"
-                        x="12" y="15">SVG</text>
-                    </svg>
-                  </span>
-                  Nav Item (inline SVG)
-                </a>
-                <a class="nav-link" href="#">
-                  <span class="left-nav-icon"><img src="${require(`./img/route.svg`)}" /></span>
-                  Nav Item (SVG image)
-                </a>
-                <a class="nav-link" href="#">
-                  <span class="left-nav-icon"><img src="${require(`./img/check-mark-orange.png`)}" /></span>
-                  Nav Item (PNG image, 24x24)
-                </a>
+
+            <!-- Ether Body Wrapper -->
+            <div class="ether-body sidebar-open" data-ether-item="body">
+
+              <!-- Ether Sidebar -->
+              <nav class="nav flex-column ether-sidebar">
+                <ul>
+                  <li>
+                    <a class="nav-link active" href="#">
+                      <span class="left-nav-icon">
+                        <i class="material-icons">home</i>
+                      </span>
+                      Nav Item (Icon Font)
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="nav-link" href="#">
+                      <span class="left-nav-icon">
+                        <svg height="24" width="24">
+                          <circle cx="12" cy="12" r="12" fill="#363545"></circle>
+                          <text fill="#ffffff" text-anchor="middle" font-size="9" font-weight="700" font-family="Open Sans" x="12" y="15">SVG</text>
+                        </svg>
+                      </span>
+                      Nav Item (Inline SVG)
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="nav-link" href="#">
+                      <span class="left-nav-icon">
+                        <img src="src/img/route.svg">
+                      </span>
+                      Nav Item (SVG Image)
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="nav-link" href="#">
+                      <span class="left-nav-icon">
+                        <img src="src/img/check-mark-orange.png" style="min-width: 24px">
+                      </span>
+                      Nav Item (PNG Image, 24x24)
+                    </a>
+                  </li>
+
+                </ul>
+
               </nav>
+
+              <!-- Ether Content -->
               <div class="ether-content-area p-2">
                 <h3>Content Area</h3>
               </div>
             </div>
+
+            <!-- Ether Footer -->
             <div class="ether-footer">
-              <div class="small">Footer Text 1</div>
+              <div class="small">Footer Text</div>
             </div>
           </div>
         </div>
-        <div class="guide-code" style="max-width: 900px;"></div>
-        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+        <div class="guide-code" style="max-width: 100%;"></div>
+        <button class="btn btn-link guide-copy-code">Click to copy</button>
       </div>
       <!-- <h3>States</h3>
       <p>Sidebar, left panel states
@@ -109,13 +140,20 @@ ${require(`./header.html`)}
 </div>
 <script>
   $(document).ready(function () {
-    $(".nav-link").removeClass("active");
-    $("#layout").addClass("active");
+    $('.nav-link').removeClass('active');
+    $('#layout').addClass('active');
   });
-  var doc = document.getElementById('example-block')
-  doc.querySelector("[data-ether-item='menu-btn']").addEventListener("click", function () {
-        var e = document.querySelector("[data-ether-item='body']");
-        e.classList.toggle("sidebar-closed"), e.classList.toggle("sidebar-open");
-      }
+  var doc = document.getElementById('example-block');
+  doc.querySelector('[data-ether-item="menu-btn"]').addEventListener('click', function () {
+    var e = doc.querySelector("[data-ether-item='body']");
+    e.classList.toggle('ex-sidebar-closed');
+  });
+  var navLinks = doc.querySelectorAll('.nav-link');
+  [].forEach.call(navLinks, (link) => {
+    link.addEventListener('click', (e) => {
+      navLinks.forEach((el) => {el.classList.remove('active');});
+      e.target.classList.toggle('active');
+    });
+  });
 </script>
 ${require(`./footer.html`)}

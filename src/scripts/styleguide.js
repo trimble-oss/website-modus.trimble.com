@@ -28,7 +28,7 @@ const swapStyleSheet = id => {
   document.getElementById("pagestyles").setAttribute("href", id);
 };
 
-const initate = () => {
+const initiate = () => {
   console.log("Script Initialized");
   var toggle = document.getElementById("style-switch");
   toggle.onchange = function (e) {
@@ -99,4 +99,4 @@ $(document).ready(function () {
 
 });
 
-window.onload = initate;
+window.onload = initiate;
