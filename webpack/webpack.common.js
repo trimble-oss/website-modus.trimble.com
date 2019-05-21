@@ -45,9 +45,9 @@ module.exports = {
       template: Path.resolve(__dirname, '../src/typography.html')
     }),
     new HtmlWebpackPlugin({
-      filename: 'accordians.html',
+      filename: 'accordions.html',
       inject: true,
-      template: Path.resolve(__dirname, '../src/accordians.html')
+      template: Path.resolve(__dirname, '../src/accordions.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'alerts.html',
