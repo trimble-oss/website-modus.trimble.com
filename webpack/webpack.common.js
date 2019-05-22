@@ -181,6 +181,11 @@ module.exports = {
       inject: true,
       template: Path.resolve(__dirname, '../src/embed.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'flex.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/flex.html')
+    }),
 
 
   ],
