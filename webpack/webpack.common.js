@@ -176,6 +176,11 @@ module.exports = {
       inject: true,
       template: Path.resolve(__dirname, '../src/display.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'embed.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/embed.html')
+    }),
 
 
   ],

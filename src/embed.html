@@ -1,0 +1,71 @@
+${require(`./header.html`)}
+<div class="guide-content">
+  <div class="guide-content-column container">
+
+    <h1>Embed</h1>
+    <p class="lead">
+      Create responsive video or slideshow embeds based on the width of the parent by creating an intrinsic ratio that scales on any device.
+    </p>
+    <div class="guide-section">
+      <h3 class="mt-5">About</h3>
+      <p>
+        Rules are directly applied to <code>&lt;iframe&gt;</code>, <code>&lt;embed&gt;</code>, <code>&lt;video&gt;</code>, and <code>&lt;object&gt;</code> elements; optionally use an explicit descendant class <code>.embed-responsive-item</code> when you want to match the styling for other attributes.
+      </p>
+
+      <h3 class="mt-5">Example</h3>
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Al6rni8OX44" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-5">Aspect Ratios</h3>
+      <p>
+        Aspect ratios can be customized with modifier classes. By default, the following ratio classes are provided:
+      </p>
+
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample" style="display: none">
+          <!-- 21:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-21by9">
+            <iframe class="embed-responsive-item" src="..."></iframe>
+          </div>
+
+          <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="..."></iframe>
+          </div>
+
+          <!-- 4:3 aspect ratio -->
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="..."></iframe>
+          </div>
+
+          <!-- 1:1 aspect ratio -->
+          <div class="embed-responsive embed-responsive-1by1">
+            <iframe class="embed-responsive-item" src="..."></iframe>
+          </div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#embed").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}
