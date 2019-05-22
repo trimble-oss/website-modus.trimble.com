@@ -1,0 +1,84 @@
+${require(`./header.html`)}
+<div class="guide-content">
+  <div class="guide-content-column container">
+
+    <h1>Borders</h1>
+    <p class="lead">
+      Use border utilities to quickly style the border and border-radius of an element. Great for images, buttons, or any other element.
+    </p>
+    <div class="guide-section">
+
+      <h3 class="mt-5">Additive</h3>
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample border-sample">
+          <div class="border"></div>
+          <div class="border-top"></div>
+          <div class="border-right"></div>
+          <div class="border-bottom"></div>
+          <div class="border-left"></div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-5">Subtractive</h3>
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample border-sample subtractive-sample">
+          <div class="border-0"></div>
+          <div class="border-top-0"></div>
+          <div class="border-right-0"></div>
+          <div class="border-bottom-0"></div>
+          <div class="border-left-0"></div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-5">Border Color</h3>
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample border-sample">
+          <div class="border border-primary"></div>
+          <div class="border border-secondary"></div>
+          <div class="border border-dark"></div>
+          <div class="border border-success"></div>
+          <div class="border border-danger"></div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-5">Border Radius</h3>
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample border-sample border-radius-sample">
+          <div class="rounded"></div>
+          <div class="rounded-top"></div>
+          <div class="rounded-right"></div>
+          <div class="rounded-bottom"></div>
+          <div class="rounded-left"></div>
+          <div class="rounded-circle"></div>
+          <div class="rounded-pill"></div>
+          <div class="rounded-0"></div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#borders").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}

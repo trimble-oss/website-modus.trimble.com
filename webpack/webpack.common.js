@@ -156,6 +156,11 @@ module.exports = {
       inject: true,
       template: Path.resolve(__dirname, '../src/tooltips.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'borders.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/borders.html')
+    }),
 
   ],
   resolve: {

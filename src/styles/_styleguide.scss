@@ -221,6 +221,25 @@ pre[class*="language-"] {
   padding-left: 1rem;
 }
 
+.border-sample > div {
+  height: 5rem;
+  width: 5rem;
+  display: inline-block;
+  background-color: #ffffff;
+  margin-right: 1rem;
+}
+
+.subtractive-sample > div {
+  border: 1px solid #bfbfc6;
+}
+
+.border-radius-sample > div {
+  background-color: #868e96;
+  &.rounded-pill {
+    width: 10rem;
+  }
+}
+
 #snackbar {
   visibility: hidden;
   min-width: 250px;
