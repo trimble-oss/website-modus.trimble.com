@@ -1,0 +1,80 @@
+${require(`./header.html`)}
+<div class="guide-content">
+  <div class="guide-content-column container">
+
+    <h1>Float</h1>
+    <p class="lead">
+      Toggle floats on any element, across any breakpoint, using these responsive float utilities.
+    </p>
+    <div class="guide-section">
+
+      <h3 class="mt-5">Overview</h3>
+      <p>
+        These utility classes float an element to the left or right, or disable floating, based on the current viewport size using the CSS float property. <code>!important</code> is included to avoid specificity issues. These use the same viewport breakpoints as our grid system. Please be aware float utilities have no affect on flex items.
+      </p>
+
+      <h3 class="mt-5">Classes</h3>
+      <p>
+        Toggle a float with a class:
+      </p>
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample">
+          <div class="float-left">Float left on all viewport sizes</div><br>
+          <div class="float-right">Float right on all viewport sizes</div><br>
+          <div class="float-none">Don't float on all viewport sizes</div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+      <h3 class="mt-5">Responsive</h3>
+      <p>
+        Responsive variations also exist for each <code>float</code> value.
+      </p>
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample">
+          <div class="float-sm-left">Float left on viewports sized SM (small) or wider</div><br>
+          <div class="float-md-left">Float left on viewports sized MD (medium) or wider</div><br>
+          <div class="float-lg-left">Float left on viewports sized LG (large) or wider</div><br>
+          <div class="float-xl-left">Float left on viewports sized XL (extra-large) or wider</div><br>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <p class="mt-3">
+        Here are all the support classes:
+      </p>
+      <ul>
+        <li><code>.float-left</code></li>
+        <li><code>.float-right</code></li>
+        <li><code>.float-none</code></li>
+        <li><code>.float-sm-left</code></li>
+        <li><code>.float-sm-right</code></li>
+        <li><code>.float-sm-none</code></li>
+        <li><code>.float-md-left</code></li>
+        <li><code>.float-md-right</code></li>
+        <li><code>.float-md-none</code></li>
+        <li><code>.float-lg-left</code></li>
+        <li><code>.float-lg-right</code></li>
+        <li><code>.float-lg-none</code></li>
+        <li><code>.float-xl-left</code></li>
+        <li><code>.float-xl-right</code></li>
+        <li><code>.float-xl-none</code></li>
+      </ul>
+
+
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#float").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}

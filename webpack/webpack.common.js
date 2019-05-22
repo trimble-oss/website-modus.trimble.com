@@ -186,6 +186,11 @@ module.exports = {
       inject: true,
       template: Path.resolve(__dirname, '../src/flex.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'float.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/float.html')
+    }),
 
 
   ],
