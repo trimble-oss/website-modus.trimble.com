@@ -1,0 +1,48 @@
+${require(`./header.html`)}
+<div class="guide-content">
+  <div class="guide-content-column container">
+
+    <h1>Clearfix</h1>
+    <p class="lead">
+      Quickly and easily clear floated content within a container by adding a clearfix utility.
+    </p>
+    <p>
+      Easily clear <code>floats</code> by adding <code>.clearfix</code> <strong>to the parent element.</strong>
+    </p>
+    <div class="guide-section">
+
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample" style="display: none">
+          <div class="clearfix">...</div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <p class="mt-5">The following example shows how the clearfix can be used. Without the clearfix, the wrapping div would not span the buttons, which would cause a broken layout.</p>
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample">
+          <div class="bg-dark w-100 clearfix">
+            <button class="btn btn-secondary float-left">Example Button Floated Left</button>
+            <button class="btn btn-secondary float-right">Example Button Floated Right</button>
+          </div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#clearfix").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}

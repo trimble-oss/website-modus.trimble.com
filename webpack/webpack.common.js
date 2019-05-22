@@ -161,6 +161,12 @@ module.exports = {
       inject: true,
       template: Path.resolve(__dirname, '../src/borders.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'clearfix.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/clearfix.html')
+    }),
+
 
   ],
   resolve: {
