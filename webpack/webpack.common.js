@@ -171,6 +171,11 @@ module.exports = {
       inject: true,
       template: Path.resolve(__dirname, '../src/close-icon.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'display.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/display.html')
+    }),
 
 
   ],

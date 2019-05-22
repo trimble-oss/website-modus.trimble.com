@@ -9,6 +9,20 @@ body {
   height: 100%;
 }
 
+table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+th, td {
+  padding: .75rem;
+  vertical-align: top;
+  border: 1px solid #dee3e6;
+}
+
 .guide-content {
   //overflow-y: auto;
   padding: 20px;
