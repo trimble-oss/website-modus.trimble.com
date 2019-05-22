@@ -166,6 +166,11 @@ module.exports = {
       inject: true,
       template: Path.resolve(__dirname, '../src/clearfix.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'close-icon.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/close-icon.html')
+    }),
 
 
   ],
