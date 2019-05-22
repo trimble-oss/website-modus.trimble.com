@@ -191,6 +191,11 @@ module.exports = {
       inject: true,
       template: Path.resolve(__dirname, '../src/float.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'overflow.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/overflow.html')
+    }),
 
 
   ],

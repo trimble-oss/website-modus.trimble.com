@@ -1,0 +1,48 @@
+${require(`./header.html`)}
+<div class="guide-content">
+  <div class="guide-content-column container">
+
+    <h1>Overflow</h1>
+    <p class="lead">
+      Use these shorthand utilities for quickly configuring how content overflows an element.
+    </p>
+    <div class="guide-section">
+
+      <p>
+        Barebones <code>overflow</code> functionality is provided for two values by default, and they are not responsive.
+      </p>
+
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample d-md-flex">
+          <div class="overflow-auto p-3 mb-3 mb-md-0 mr-md-3 bg-white" style="max-width: 260px; max-height: 100px;">
+            This is an example of using <code>.overflow-auto</code> on an element with set width and height dimensions. By design, this content will vertically scroll.
+          </div>
+          <div class="overflow-hidden p-3 bg-white" style="max-width: 260px; max-height: 100px;">
+            This is an example of using <code>.overflow-hidden</code> on an element with set width and height dimensions.
+          </div>
+        </div>
+      </div>
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample" style="display: none">
+          <div class="overflow-auto">...</div>
+          <div class="overflow-hidden">...</div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#overflow").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}
