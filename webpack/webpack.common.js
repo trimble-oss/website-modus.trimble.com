@@ -196,6 +196,11 @@ module.exports = {
       inject: true,
       template: Path.resolve(__dirname, '../src/overflow.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'position.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/position.html')
+    }),
 
 
   ],

@@ -1,0 +1,86 @@
+${require(`./header.html`)}
+<div class="guide-content">
+  <div class="guide-content-column container">
+
+    <h1>Position</h1>
+    <p class="lead">
+      Use these shorthand utilities for quickly configuring the position of an element.
+    </p>
+
+    <div class="guide-section">
+
+      <h3 class="mt-5">Common Values</h3>
+      <p>
+        Quick positioning classes are available, though they are not responsive.
+      </p>
+
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample" style="display: none">
+          <div class="position-static">...</div>
+          <div class="position-relative">...</div>
+          <div class="position-absolute">...</div>
+          <div class="position-fixed">...</div>
+          <div class="position-sticky">...</div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-3">Fixed Top</h3>
+      <p>
+        Position an element at the top of the viewport, from edge to edge. Be sure you understand the ramifications of fixed position in your project; you may need to add additional CSS.
+      </p>
+
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample" style="display: none">
+          <div class="fixed-top">...</div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-3">Fixed Bottom</h3>
+      <p>
+        Position an element at the bottom of the viewport, from edge to edge. Be sure you understand the ramifications of fixed position in your project; you may need to add additional CSS.
+      </p>
+
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample" style="display: none">
+          <div class="fixed-bottom">...</div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-3">Sticky Top</h3>
+      <p>
+        Position an element at the top of the viewport, from edge to edge, but only after you scroll past it. The <code>.sticky-top</code> utility uses CSS’s <code>position: sticky</code>, which isn’t fully supported in all browsers.
+      </p>
+
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample" style="display: none">
+          <div class="sticky-top">...</div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#position").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}
