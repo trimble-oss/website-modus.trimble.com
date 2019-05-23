@@ -1,0 +1,72 @@
+${require(`./header.html`)}
+<div class="guide-content">
+  <div class="guide-content-column container">
+
+    <h1>Vertical Alignment</h1>
+    <p class="lead">
+        Easily change the vertical alignment of inline, inline-block, inline-table, and table cell elements.
+    </p>
+
+    <div class="guide-section">
+
+      <p>
+        Change the alignment of elements with the <code>vertical-alignment</code> utilities. Please note that vertical-align only affects inline, inline-block, inline-table, and table cell elements.
+      </p>
+      <p>
+        Choose from <code>.align-baseline</code>, <code>.align-top</code>, <code>.align-middle</code>, <code>.align-bottom</code>, <code>.align-text-bottom</code>, and <code>.align-text-top</code> as needed.
+      </p>
+      <p>
+        With inline elements:
+      </p>
+
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample">
+          <span class="align-baseline">baseline</span>
+          <span class="align-top">top</span>
+          <span class="align-middle">middle</span>
+          <span class="align-bottom">bottom</span>
+          <span class="align-text-top">text-top</span>
+          <span class="align-text-bottom">text-bottom</span>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <p class="mt-3">
+        With table cells:
+      </p>
+
+      <div class="guide-example-block mt-3">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample">
+          <table style="height: 100px;">
+            <tbody>
+              <tr>
+                <td class="align-baseline">baseline</td>
+                <td class="align-top">top</td>
+                <td class="align-middle">middle</td>
+                <td class="align-bottom">bottom</td>
+                <td class="align-text-top">text-top</td>
+                <td class="align-text-bottom">text-bottom</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#verticalAlignment").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}
