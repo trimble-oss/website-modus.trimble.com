@@ -28,17 +28,17 @@ const swapStyleSheet = id => {
   document.getElementById("pagestyles").setAttribute("href", id);
 };
 
-const initiate = () => {
-  console.log("Script Initialized");
-  var toggle = document.getElementById("style-switch");
-  toggle.onchange = function (e) {
-    if (e.target.checked) {
-      swapStyleSheet("../assets/ether-dark.min.css");
-    } else {
-      swapStyleSheet("../assets/ether.min.css");
-    }
-  };
-};
+// const initiate = () => {
+//   console.log("Script Initialized");
+//   var toggle = document.getElementById("style-switch");
+//   toggle.onchange = function (e) {
+//     if (e.target.checked) {
+//       swapStyleSheet("../assets/ether-dark.min.css");
+//     } else {
+//       swapStyleSheet("../assets/ether.min.css");
+//     }
+//   };
+// };
 
 const PrevNext = (current, future) => {
   var list = [];
@@ -99,4 +99,4 @@ $(document).ready(function () {
 
 });
 
-window.onload = initiate;
+// window.onload = initiate;

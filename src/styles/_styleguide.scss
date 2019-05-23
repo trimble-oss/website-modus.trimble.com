@@ -14,7 +14,7 @@ table {
   max-width: 100%;
   margin-bottom: 1rem;
   border-collapse: collapse;
-  background-color: #ffffff;
+  background-color: #f8f9fa;
 }
 
 th, td {
@@ -71,11 +71,12 @@ th, td {
 
   .guide-sample {
     padding: 20px;
+    background-color: #ffffff;
+    border-bottom: none;
   }
 
   .guide-code {
-    background-color: #fff;
-    border-top: none;
+    background-color: #f8f9fa;
     padding-bottom: 30px;
 
     code {
@@ -239,7 +240,7 @@ pre[class*="language-"] {
   height: 5rem;
   width: 5rem;
   display: inline-block;
-  background-color: #ffffff;
+  background-color: #F3F3F7;
   margin-right: 1rem;
 }
 
@@ -257,6 +258,10 @@ pre[class*="language-"] {
 .highlighted {
   background-color: rgba(86,61,124,.15);
   border: 1px solid rgba(86,61,124,.15);
+}
+
+.ether-content {
+  overflow-y: auto;
 }
 
 #snackbar {

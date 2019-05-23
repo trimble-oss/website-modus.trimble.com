@@ -59,16 +59,16 @@ ${require(`./header.html`)}
     document.getElementById("pagestyle").setAttribute("href", sheet);
   }
 
-  function initate() {
-    var toggle = document.getElementById("style-switch");
-    toggle.onchange = function (e) {
-      if (e.target.checked) {
-        swapStyleSheet("css/ether-dark.css");
-      } else {
-        swapStyleSheet("css/ether.css");
-      }
-    };
-  }
+  // function initate() {
+  //   var toggle = document.getElementById("style-switch");
+  //   toggle.onchange = function (e) {
+  //     if (e.target.checked) {
+  //       swapStyleSheet("css/ether-dark.css");
+  //     } else {
+  //       swapStyleSheet("css/ether.css");
+  //     }
+  //   };
+  // }
 
   window.onload = initate;
 </script>
