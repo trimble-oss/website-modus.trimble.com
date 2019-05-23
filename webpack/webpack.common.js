@@ -206,6 +206,11 @@ module.exports = {
       inject: true,
       template: Path.resolve(__dirname, '../src/sizing.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'spacing.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/spacing.html')
+    }),
 
 
   ],
