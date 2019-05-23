@@ -47,16 +47,19 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'accordions.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/accordions.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'alerts.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/alerts.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'badges.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/badges.html')
     }),
     new HtmlWebpackPlugin({
@@ -67,16 +70,19 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'buttons.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/buttons.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'cards.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/cards.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'chips.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/chips.html')
     }),
     new HtmlWebpackPlugin({
@@ -88,51 +94,61 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'controls.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/controls.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'dropdowns.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/dropdowns.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'forms.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/forms.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'icons.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/icons.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'input-groups.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/input-groups.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'lists.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/lists.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'maps.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/maps.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'modals.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/modals.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'panel.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/panel.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'progress.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/progress.html')
     }),
     new HtmlWebpackPlugin({
@@ -144,86 +160,103 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'tables.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/tables.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'tabs.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/tabs.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'tooltips.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/tooltips.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'borders.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/borders.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'clearfix.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/clearfix.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'close-icon.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/close-icon.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'display.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/display.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'embed.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/embed.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'flex.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/flex.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'float.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/float.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'overflow.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/overflow.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'position.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/position.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'sizing.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/sizing.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'spacing.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/spacing.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'text.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/text.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'vertical-alignment.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/vertical-alignment.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'visibility.html',
       inject: true,
+      minify: false,
       template: Path.resolve(__dirname, '../src/visibility.html')
     }),
 
