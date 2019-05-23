@@ -201,6 +201,11 @@ module.exports = {
       inject: true,
       template: Path.resolve(__dirname, '../src/position.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'sizing.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/sizing.html')
+    }),
 
 
   ],

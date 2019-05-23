@@ -1,0 +1,104 @@
+${require(`./header.html`)}
+<div class="guide-content">
+  <div class="guide-content-column container">
+
+    <h1>Sizing</h1>
+    <p class="lead">
+      Easily make an element as wide or as tall with our width and height utilities.
+    </p>
+
+    <div class="guide-section">
+
+      <h3 class="mt-5">Relative to the parent</h3>
+      <p>
+        Width and height utilities are generated from the <code>$sizes</code> Sass map in <code>_variables.scss</code>. Includes support for <code>25%</code>, <code>50%</code>, <code>75%</code>, <code>100%</code>, and <code>auto</code> by default. Modify those values as you need to generate different utilities here.
+      </p>
+
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample">
+          <div class="w-25 p-3 bg-dark text-white">Width 25%</div>
+          <div class="w-50 p-3 bg-dark text-white">Width 50%</div>
+          <div class="w-75 p-3 bg-dark text-white">Width 75%</div>
+          <div class="w-100 p-3 bg-dark text-white">Width 100%</div>
+          <div class="w-auto p-3 bg-dark text-white">Width auto</div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <div class="guide-example-block mt-3">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample">
+          <div style="height: 100px; background-color: rgba(255,0,0,0.1);">
+            <div class="h-25 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 25%</div>
+            <div class="h-50 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 50%</div>
+            <div class="h-75 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 75%</div>
+            <div class="h-100 d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height 100%</div>
+            <div class="h-auto d-inline-block" style="width: 120px; background-color: rgba(0,0,255,.1)">Height auto</div>
+          </div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <p class="mt-3">
+        You can also use <code>max-width: 100%;</code> and <code>max-height: 100%;</code> utilities as needed.
+      </p>
+
+      <div class="guide-example-block mt-3">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample">
+          <div class="mw-100 bg-dark text-white d-flex justify-content-center align-items-center" style="height: 100px">Max-width 100%</div>
+        </div>
+        <div class="guide-sample" style="display: none">
+          <img src="..." class="mw-100" alt="...">
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <div class="guide-example-block mt-3">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample">
+          <div style="height: 100px; background-color: rgba(255,0,0,0.1);">
+            <div class="mh-100" style="width: 100px; height: 200px; background-color: rgba(0,0,255,0.1);">Max-height 100%</div>
+          </div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-3">Relative to the Viewport</h3>
+      <p>
+        You can also use utilities to set the width and height relative to the viewport.
+      </p>
+
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample" style="display: none">
+          <div class="min-vw-100">Min-width 100vw</div>
+          <div class="min-vh-100">Min-height 100vh</div>
+          <div class="vw-100">Width 100vw</div>
+          <div class="vh-100">Height 100vh</div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#sizing").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}
