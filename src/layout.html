@@ -6,28 +6,40 @@ ${require(`./header.html`)}
       Besides the aesthetics and UI elements, the Ether Framework has an optional layout you can use for your web
       applications.
     </p>
+
     <div class="guide-section">
-      <h2>Basic Structure</h2>
-      <p>The page should be wrapped in a <code>&lt;div class="ether-layout"&gt;</code> to set up the overall
-        structure.</p>
-      <p>The top nav bar is a standard Bootstrap <code>&lt;nav class="navbar navbar-expand-lg"&gt;</code> with an
-        additional class of <code>ether-header</code> to apply the aesthetics.</p>
-      <p>The navbar should be followed by <code>&lt;div class="ether-body"&gt;</code> to set up the left nav
+
+      <h3>Basic Structure</h3>
+      <p>
+        The page should be wrapped in a <code>&lt;div class="ether-layout"&gt;</code> to set up the overall
+        structure.
+      </p>
+      <p>
+        The top nav bar is a standard Bootstrap <code>&lt;nav class="navbar navbar-expand-lg"&gt;</code> with an
+        additional class of <code>ether-header</code> to apply the aesthetics.
+      </p>
+      <p>
+        The navbar should be followed by <code>&lt;div class="ether-body"&gt;</code> to set up the left nav
         area and main
-        content area.</p>
-      <p>The left nav is another Bootstrap <code>&lt;nav class="nav flex-column"&gt;</code> to create vertical nav
+        content area.
+      </p>
+      <p>
+        The left nav is another Bootstrap <code>&lt;nav class="nav flex-column"&gt;</code> to create vertical nav
         along with an additional class of <code>ether-sidebar</code> for the proper aesthetics. Within each
         <code>navlink</code>
-        it is important to have and icon or image with a class of <code>icon</code></p>
-      <p>The next sibling element after the left nav will automatically become the main content area. The
-        <code>ether-content-area</code>
-        should be closed after this.</p>
-      <p>After the <code>ether-body</code> the next element should be the <code>&lt;div
-          class="ether-footer"&gt;</code>. Each sibling element will be spaced automatically.</p>
+        it is important to have an icon or image with a class of <code>icon</code>
+      </p>
+      <p>
+        The next sibling element after the left nav can be <code>ether-content</code>, which serves as a general purpose content container.
+      </p>
+      <p>
+        After the <code>ether-body</code> the next element should be the <code>&lt;div
+        class="ether-footer"&gt;</code>. Each sibling element will be spaced automatically.
+      </p>
+
       <!-- Needs info about layout css, js -->
       <div class="guide-example-block">
-        <div class="guide-sample position-relative p-0" style="height: 500px; z-index: 10; border-width: 7px;"
-          id="example-block">
+        <div class="guide-sample position-relative p-0 border" style="height: 500px; z-index: 10;" id="example-block">
           <!-- Ether Layout Page Wrapper -->
           <div class="ether-layout">
 
@@ -55,7 +67,7 @@ ${require(`./header.html`)}
                   </div>
                 </div>
               </div>
-            </nav>
+            </nav><!-- End Ether Header -->
 
             <!-- Ether Body Wrapper -->
             <div class="ether-body sidebar-open" data-ether-item="body">
@@ -101,16 +113,15 @@ ${require(`./header.html`)}
                       Nav Item (PNG Image, 24x24)
                     </a>
                   </li>
-
                 </ul>
-
-              </nav>
+              </nav><!-- End Ether Sidebar-->
 
               <!-- Ether Content -->
-              <div class="ether-content-area p-2">
-                <h3>Content Area</h3>
+              <div class="ether-content">
+                <h3>Content</h3>
               </div>
-            </div>
+
+            </div><!-- End Ether Body Wrapper -->
 
             <!-- Ether Footer -->
             <div class="ether-footer">
@@ -121,21 +132,142 @@ ${require(`./header.html`)}
         <div class="guide-code" style="max-width: 100%;"></div>
         <button class="btn btn-link guide-copy-code">Click to copy</button>
       </div>
-      <!-- <h3>States</h3>
-      <p>Sidebar, left panel states
+
+      <h3 class="mt-5">With Toolbar</h3>
+      <p>
+        Our framework includes an all purpose toolbar that can be inserted inside your layout. Simply create an <code>ether-content-rows</code> directly after the <code>ether-sidebar</code> and insert an <code>ether-toolbar</code> container to apply the appropriate styles.
       </p>
-      <h3>Responsiveness</h3>
-      <p>Ether layout is currently responsive to various desktop and tablet sizes. The breakpoint for tablet is 100px.
+      <p>
+        You can use our other components, such as buttons and form groups, inside the <code>ether-toolbar</code> to add functionality to your application.
       </p>
-      <h3>Flex Layout</h3>
-      <p>Ether layout is built using grid layout.
-      </p>
-      <h3>Browser Compatibility</h3>
-      <p>Ether layout is currently responsive to various desktop and tablet sizes. The breakpoint for tablet is 100px.
-      </p> -->
+
+      <div class="guide-example-block">
+        <div class="guide-sample position-relative p-0 border" style="height: 500px; z-index: 10;">
+          <!-- Ether Layout Page Wrapper -->
+          <div class="ether-layout">
+
+            <!-- Ether Header -->
+            <nav class="navbar navbar-expand-lg ether-header">
+              <a data-ether-item="menu-btn"><i class="ether-icons menu-btn">menu</i></a>
+              <a class="navbar-brand" href="#">
+                BRAND
+              </a>
+              <div class="navbar-text">
+                <span class="h3 m-0">Application Name</span>
+              </div>
+              <div class="collapse navbar-collapse">
+                <div class="h4 navbar-nav m-auto">
+                  Center Text
+                </div>
+                <div class="navbar-nav">
+                  <div class="pr-3 py-2">
+                    <a href="#">
+                      <i class="ether-icons" style="font-size: 24px">account_circle</i>
+                    </a>
+                  </div>
+                  <div class="border-left pl-3 py-2">
+                    <a href="#"><i class="ether-icons" style="font-size: 24px">apps</i></a>
+                  </div>
+                </div>
+              </div>
+            </nav><!-- End Ether Header -->
+
+            <!-- Ether Body Wrapper -->
+            <div class="ether-body ex-sidebar-closed" data-ether-item="body">
+
+              <!-- Ether Sidebar -->
+              <nav class="nav flex-column ether-sidebar">
+                <ul>
+                  <li>
+                    <a class="nav-link active" href="#">
+                      <span class="left-nav-icon">
+                        <i class="material-icons">home</i>
+                      </span>
+                      Nav Item
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="nav-link" href="#">
+                      <span class="left-nav-icon">
+                        <svg height="24" width="24">
+                          <circle cx="12" cy="12" r="12" fill="#363545"></circle>
+                          <text fill="#ffffff" text-anchor="middle" font-size="9" font-weight="700" font-family="Open Sans" x="12" y="15">SVG</text>
+                        </svg>
+                      </span>
+                      Nav Item
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="nav-link" href="#">
+                      <span class="left-nav-icon">
+                        <img src="src/img/route.svg">
+                      </span>
+                      Nav Item
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="nav-link" href="#">
+                      <span class="left-nav-icon">
+                        <img src="src/img/check-mark-orange.png" style="min-width: 24px">
+                      </span>
+                      Nav Item
+                    </a>
+                  </li>
+                </ul>
+              </nav><!-- End Ether Sidebar-->
+
+              <!-- Ether Content -->
+              <div class="ether-content-rows">
+                <div class="ether-toolbar">
+                  <form class="form-inline ml-3 mr-5">
+                    <div class="form-group">
+                      <label class="mr-2" for=""><strong>Profile</strong></label>
+                      <select class="form-control" name="" id="">
+                        <option>Profile 1</option>
+                        <option>Profile 2</option>
+                        <option>Profile 3</option>
+                      </select>
+                    </div>
+                  </form>
+
+                  <button class="btn btn-text-dark btn-lg btn-icon-only"><i class="ether-icons">color_lens</i></button>
+                  <button class="btn btn-text-dark btn-lg btn-icon-only"><i class="ether-icons">date_range</i></button>
+                  <button class="btn btn-text-dark btn-lg btn-icon-only"><i class="ether-icons">settings</i></button>
+
+                  <form class="form-inline ml-5">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <button class="btn btn-text-dark btn-lg btn-icon-only ml-2"><i class="ether-icons">search</i></button>
+                  </form>
+                </div>
+              </div>
+
+            </div><!-- End Ether Body Wrapper -->
+
+            <!-- Ether Footer -->
+            <div class="ether-footer">
+              <div class="small">Footer Text</div>
+            </div>
+          </div>
+        </div>
+        <div class="guide-sample" style="display: none">
+          <!-- Insert After Ether Sidebar -->
+          <div class="ether-content-rows">
+            <div class="ether-toolbar">
+
+              <!-- Your Toolbar Content Goes Here -->
+
+            </div>
+          </div>
+        </div>
+        <div class="guide-code" style="max-width: 100%;"></div>
+        <button class="btn btn-link guide-copy-code">Click to copy</button>
+      </div>
+
     </div>
   </div>
-</div>
 </div>
 </div>
 <script>
