@@ -221,6 +221,11 @@ module.exports = {
       inject: true,
       template: Path.resolve(__dirname, '../src/vertical-alignment.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'visibility.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/visibility.html')
+    }),
 
 
   ],

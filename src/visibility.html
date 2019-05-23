@@ -1,0 +1,40 @@
+${require(`./header.html`)}
+<div class="guide-content">
+  <div class="guide-content-column container">
+
+    <h1>Visibility</h1>
+    <p class="lead">
+      Control the visibility, without modifying the display, of elements with visibility utilities.
+    </p>
+
+    <div class="guide-section">
+
+      <p>
+        Set the <code>visibility</code> of elements with our visibility utilities. These utility classes do not modify the <code>display</code> value at all and do not affect layout – <code>.invisible</code> elements still take up space in the page. Content will be hidden both visually and for assistive technology/screen reader users.
+      </p>
+      <p>
+        Apply <code>.visible</code> or <code>.invisible</code> as needed.
+      </p>
+
+      <div class="guide-example-block">
+
+        <!-- ADD CODE HERE -->
+        <div class="guide-sample">
+          <div class="visible">Visible</div>
+          <div class="invisible">Invisible</div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").removeClass("active");
+    $("#visibility").addClass("active");
+  });
+</script>
+${require(`./footer.html`)}
