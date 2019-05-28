@@ -7,10 +7,11 @@ ${require(`./header.html`)}
       Use custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and
       more.
     </p>
+
     <div class="guide-section">
-      <h2>Code Structure & Usage</h2>
+      <h3>Code Structure & Usage</h3>
       <p>
-        The .btn classes are designed to be used with the
+        The <code>.btn</code> classes are designed to be used with the
         <code>&lt;button&gt;</code> element. However, you can also use these classes
         on <code>&lt;a&gt;</code> or
         <code>&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).
@@ -23,12 +24,9 @@ ${require(`./header.html`)}
         readers.
       </p>
 
+      <h3 class="mt-5">Design Specs</h3>
       <div class="specs">
-        <h3 class="mt-5">Design Specs</h5>
-          <img src="${require(`./img/btn-specs.jpg`)}" /></br>
-          <!-- <p class="lead">
-            links to XD dev
-          </p> -->
+        <img src="${require(`./img/btn-specs.jpg`)}" style="max-width: 100%"><br>
       </div>
 
       <h3 class="mt-5">Regular Buttons</h3>
@@ -107,20 +105,58 @@ ${require(`./header.html`)}
           </table>
         </div>
       </div>
+
+      <h3 class="mt-5">Toggle States</h3>
+      <p><code>data-toggle="button"</code></p>
+      <div class="guide-example-block">
+        <div class="guide-sample ">
+          <button class="btn btn-primary" data-toggle="button">BUTTON</button>
+          <button class="btn btn-raised btn-secondary" data-toggle="button">BUTTON</button>
+          <button class="btn btn-outline-dark" data-toggle="button">BUTTON</button>
+          <button class="btn btn-reverse-danger" data-toggle="button">BUTTON</button>
+          <button class="btn btn-text-success" data-toggle="button">BUTTON</button>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
       <h3 class="mt-5">Button Group</h3>
       <p><code>class="btn-group btn-group-toggle"</code></p>
-
       <div class="guide-example-block">
         <div class="guide-sample">
           <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-primary active">
+              <input type="radio" name="options" id="option1" autocomplete="off" checked>Active
+            </label>
+            <label class="btn btn-primary">
+              <input type="radio" name="options" id="option2" autocomplete="off">Radio
+            </label>
+            <label class="btn btn-primary">
+              <input type="radio" name="options" id="option3" autocomplete="off">Radio
+            </label>
+          </div>
+
+          <div class="btn-group btn-group-toggle ml-3" data-toggle="buttons">
             <label class="btn btn-secondary active">
-              <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+              <input type="radio" name="options" id="option4" autocomplete="off" checked>Active
             </label>
             <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+              <input type="radio" name="options" id="option5" autocomplete="off">Radio
             </label>
             <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+              <input type="radio" name="options" id="option6" autocomplete="off">Radio
+            </label>
+          </div>
+
+          <div class="btn-group btn-group-toggle ml-3" data-toggle="buttons">
+            <label class="btn btn-dark active">
+              <input type="radio" name="options" id="option7" autocomplete="off" checked>Active
+            </label>
+            <label class="btn btn-dark">
+              <input type="radio" name="options" id="option8" autocomplete="off">Radio
+            </label>
+            <label class="btn btn-dark">
+              <input type="radio" name="options" id="option9" autocomplete="off">Radio
             </label>
           </div>
         </div>
@@ -131,11 +167,11 @@ ${require(`./header.html`)}
       <p><code>class="btn-raised"</code></p>
       <div class="guide-example-block">
         <div class="guide-sample">
-          <button class="btn btn-raised btn-primary"> BUTTON </button>
-          <button class="btn btn-raised btn-secondary"> BUTTON</button>
-          <button class="btn btn-raised btn-dark"> BUTTON</button>
-          <button class="btn btn-raised btn-danger"> BUTTON</button>
-          <button class="btn btn-raised btn-success"> BUTTON</button>
+          <button class="btn btn-raised btn-primary">BUTTON</button>
+          <button class="btn btn-raised btn-secondary">BUTTON</button>
+          <button class="btn btn-raised btn-dark">BUTTON</button>
+          <button class="btn btn-raised btn-danger">BUTTON</button>
+          <button class="btn btn-raised btn-success">BUTTON</button>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
@@ -145,11 +181,11 @@ ${require(`./header.html`)}
       <p><code>class="btn-sm"</code></p>
       <div class="guide-example-block">
         <div class="guide-sample">
-          <button class="btn btn-sm btn-primary"> BUTTON </button>
-          <button class="btn btn-sm btn-secondary"> BUTTON</button>
-          <button class="btn btn-sm btn-dark"> BUTTON</button>
-          <button class="btn btn-sm btn-danger"> BUTTON</button>
-          <button class="btn btn-sm btn-success"> BUTTON</button>
+          <button class="btn btn-sm btn-primary">BUTTON</button>
+          <button class="btn btn-sm btn-secondary">BUTTON</button>
+          <button class="btn btn-sm btn-dark">BUTTON</button>
+          <button class="btn btn-sm btn-danger">BUTTON</button>
+          <button class="btn btn-sm btn-success">BUTTON</button>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
@@ -159,40 +195,25 @@ ${require(`./header.html`)}
       <p><code>class="btn-lg"</code></p>
       <div class="guide-example-block">
         <div class="guide-sample">
-          <button class="btn btn-lg btn-primary"> BUTTON </button>
-          <button class="btn btn-lg btn-secondary"> BUTTON</button>
+          <button class="btn btn-lg btn-primary">BUTTON</button>
+          <button class="btn btn-lg btn-secondary">BUTTON</button>
           <button class="btn btn-lg btn-dark">BUTTON</button>
-          <button class="btn btn-lg btn-danger"> BUTTON</button>
-          <button class="btn btn-lg btn-success"> BUTTON</button>
-        </div>
-        <div class="guide-code"></div>
-        <button class="btn btn-link guide-copy-code">Click to Copy</button>
-      </div>
-      <h3 class="mt-5">Large Buttons with icons</h3>
-      <div class="guide-example-block">
-        <div class="guide-sample">
-          <button class="btn btn-lg btn-primary"> <i class="ether-icons left-icon icon-on-btn">settings</i>
-            BUTTON </button>
-          <button class="btn btn-lg btn-secondary"><i class="ether-icons left-icon icon-on-btn">settings</i>
-            BUTTON</button>
-          <button class="btn btn-lg btn-danger"> BUTTON<i class="ether-icons right-icon icon-on-btn">done</i>
-          </button>
-          <button class="btn btn-lg btn-success">BUTTON<i class="ether-icons right-icon icon-on-btn">done</i></button>
+          <button class="btn btn-lg btn-danger">BUTTON</button>
+          <button class="btn btn-lg btn-success">BUTTON</button>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
 
-      <h3 class="mt-5">Large Buttons with icons</h3>
+      <h3 class="mt-5">Block Level Buttons</h3>
+      <p><code>class="btn-block"</code></p>
       <div class="guide-example-block">
-        <div class="guide-sample">
-          <button class="btn btn-sm btn-primary"> <i class="ether-icons left-icon icon-on-btn">settings</i>
-            BUTTON </button>
-          <button class="btn btn-sm btn-secondary"><i class="ether-icons left-icon icon-on-btn">settings</i>
-            BUTTON</button>
-          <button class="btn btn-sm btn-danger"> BUTTON<i class="ether-icons right-icon icon-on-btn">done</i>
-          </button>
-          <button class="btn btn-sm btn-success">BUTTON<i class="ether-icons right-icon icon-on-btn">done</i></button>
+        <div class="guide-sample ">
+          <button class="m-0 my-1 btn btn-block btn-primary">BUTTON</button>
+          <button class="m-0 my-1 btn btn-block btn-secondary">BUTTON</button>
+          <button class="m-0 my-1 btn btn-block btn-dark">BUTTON</button>
+          <button class="m-0 my-1 btn btn-block btn-danger">BUTTON</button>
+          <button class="m-0 my-1 btn btn-block btn-success">BUTTON</button>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
@@ -218,7 +239,7 @@ ${require(`./header.html`)}
         <div class="guide-sample">
           <button class="btn btn-reverse-primary">BUTTON</button>
           <button class="btn btn-reverse-secondary">BUTTON</button>
-          <button class="btn btn-outline-dark">BUTTON</button>
+          <button class="btn btn-reverse-dark">BUTTON</button>
           <button class="btn btn-reverse-danger">BUTTON</button>
           <button class="btn btn-reverse-success">BUTTON</button>
         </div>
@@ -232,7 +253,7 @@ ${require(`./header.html`)}
         <div class="guide-sample">
           <button class="btn btn-text-primary">BUTTON</button>
           <button class="btn btn-text-secondary">BUTTON</button>
-          <button class="btn btn-outline-dark">BUTTON</button>
+          <button class="btn btn-text-dark">BUTTON</button>
           <button class="btn btn-text-danger">BUTTON</button>
           <button class="btn btn-text-success">BUTTON</button>
         </div>
@@ -243,11 +264,8 @@ ${require(`./header.html`)}
       <h3 class="mt-5">Buttons with Icons on left</h3>
       <div class="guide-example-block">
         <div class="guide-sample">
-          <button class="btn  btn-primary"> <i class="ether-icons left-icon icon-on-btn">settings</i>
-            BUTTON </button>
-          <button class="btn  btn-secondary"><i class="ether-icons left-icon icon-on-btn">settings</i>
-            BUTTON</button>
-
+          <button class="btn btn-primary"><i class="ether-icons left-icon">settings</i>BUTTON</button>
+          <button class="btn btn-secondary"><i class="ether-icons left-icon">settings</i>BUTTON</button>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
@@ -256,10 +274,34 @@ ${require(`./header.html`)}
       <h3 class="mt-5">Buttons with Icons on Right</h3>
       <div class="guide-example-block">
         <div class="guide-sample">
-          <button class="btn  btn-primary"> BUTTON<i class="ether-icons right-icon icon-on-btn">done</i>
-          </button>
-          <button class="btn  btn-secondary">BUTTON<i class="ether-icons right-icon icon-on-btn">done</i></button>
+          <button class="btn btn-primary">BUTTON<i class="ether-icons right-icon">settings</i></button>
+          <button class="btn btn-secondary">BUTTON<i class="ether-icons right-icon">settings</i></button>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
 
+      <h3 class="mt-5">Small Buttons with icons</h3>
+      <div class="guide-example-block">
+        <div class="guide-sample">
+          <button class="btn btn-sm btn-primary"><i class="ether-icons left-icon">settings</i>BUTTON</button>
+          <button class="btn btn-sm btn-secondary"><i class="ether-icons left-icon">settings</i>BUTTON</button>
+
+          <button class="btn btn-sm btn-danger">BUTTON<i class="ether-icons right-icon">settings</i></button>
+          <button class="btn btn-sm btn-success">BUTTON<i class="ether-icons right-icon">settings</i></button>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <h3 class="mt-5">Large Buttons with icons</h3>
+      <div class="guide-example-block">
+        <div class="guide-sample">
+          <button class="btn btn-lg btn-primary"><i class="ether-icons left-icon">settings</i>BUTTON</button>
+          <button class="btn btn-lg btn-secondary"><i class="ether-icons left-icon">settings</i>BUTTON</button>
+
+          <button class="btn btn-lg btn-danger">BUTTON<i class="ether-icons right-icon">settings</i></button>
+          <button class="btn btn-lg btn-success">BUTTON<i class="ether-icons right-icon">settings</i></button>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
@@ -269,24 +311,21 @@ ${require(`./header.html`)}
       <p><code>class="btn-icon-only"</code></p>
       <div class="guide-example-block">
         <div class="guide-sample">
+          <button class="btn btn-lg btn-icon-only btn-primary"><i class="ether-icons ">settings</i></button>
+          <button class="btn btn-lg btn-icon-only btn-secondary"><i class="ether-icons">settings</i></button>
+          <button class="btn btn-lg btn-icon-only btn-dark"><i class="ether-icons">settings</i></button>
 
-          <button class="btn btn-primary btn-lg btn-icon-only"><i class="ether-icons ">settings</i></button>
-          <button class="btn btn-secondary btn-lg btn-icon-only"><i class="ether-icons">settings</i></button>
-          <button class="btn btn-dark btn-lg btn-icon-only"><i class="ether-icons">settings</i></button>
+          <button class="btn btn-lg btn-icon-only btn-outline-primary"><i class="ether-icons">settings</i></button>
+          <button class="btn btn-lg btn-icon-only btn-outline-secondary"><i class="ether-icons">settings</i></button>
+          <button class="btn btn-lg btn-icon-only btn-outline-dark"><i class="ether-icons">settings</i></button>
 
-          <button class="btn btn-outline-primary btn-lg btn-icon-only"><i class="ether-icons">settings</i></button>
-          <button class="btn btn-outline-secondary btn-lg btn-icon-only"><i class="ether-icons">settings</i></button>
-          <button class="btn btn-outline-dark btn-lg btn-icon-only"><i class="ether-icons">settings</i></button>
+          <button class="btn btn-lg btn-icon-only btn-reverse-primary"><i class="ether-icons">settings</i></button>
+          <button class="btn btn-lg btn-icon-only btn-reverse-secondary"><i class="ether-icons">settings</i></button>
+          <button class="btn btn-lg btn-icon-only btn-reverse-dark"><i class="ether-icons">settings</i></button>
 
-          <button class="btn btn-reverse-primary btn-lg btn-icon-only"><i class="ether-icons">settings</i></button>
-          <button class="btn btn-reverse-secondary btn-lg btn-icon-only"><i class="ether-icons">settings</i></button>
-          <button class="btn btn-reverse-dark btn-lg btn-icon-only"><i class="ether-icons">settings</i></button>
-
-          <button class="btn btn-text-primary btn-lg btn-icon-only"><i class="ether-icons">settings</i></button>
-          <button class="btn btn-text-secondary btn-lg btn-icon-only"><i class="ether-icons">settings</i></button>
-          <button class="btn btn-text-dark btn-lg btn-icon-only"><i class="ether-icons">settings</i></button>
-
-
+          <button class="btn btn-lg btn-icon-only btn-text-primary"><i class="ether-icons">settings</i></button>
+          <button class="btn btn-lg btn-icon-only btn-text-secondary"><i class="ether-icons">settings</i></button>
+          <button class="btn btn-lg btn-icon-only btn-text-dark"><i class="ether-icons">settings</i></button>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
