@@ -1,7 +1,7 @@
 {
   "name": "ether-framework-styleguide",
   "version": "1.0.0",
-  "description": "The Project Ether Framework was developed as a common platform for all of Trimble MAPS web applications, with the additional goal of sharing with other groups within Trimble.",
+  "description": "The Ether Framework was developed as a common platform for all of Trimble MAPS web applications, with the additional goal of sharing with other groups within Trimble.",
   "scripts": {
     "build": "webpack --config webpack/webpack.config.prod.js --colors",
     "deploy": "cross-env s3-deploy './build/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './build/' --region us-east-1 --bucket prod-styles-trimblemaps --cache 0",

@@ -1,27 +1,26 @@
-# Webpack Frontend Starterkit
+# Ether Framework Guide
 
-A lightweight foundation for your next webpack based frontend project.
+The Ether Framework was developed as a common platform for all of Trimble MAPS web applications, with the additional goal of sharing with other groups within Trimble.
 
+## Installation
 
-### Installation
-
-```
+```bash
 npm install
 ```
 
-### Start Dev Server
+## Start Dev Server
 
-```
+```bash
 npm start
 ```
 
-### Build Prod Version
+## Build Prod Version
 
-```
+```bash
 npm run build
 ```
 
-### Features:
+### Features
 
 * ES6 Support via [babel](https://babeljs.io/) (v7)
 * SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
