@@ -26,6 +26,12 @@ module.exports = {
       inject: true,
       template: Path.resolve(__dirname, '../src/index.html')
     }),
+    
+    new HtmlWebpackPlugin({
+      filename: 'changes.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/changes.html')
+    }),
     new HtmlWebpackPlugin({
       filename: 'layout.html',
       inject: true,
