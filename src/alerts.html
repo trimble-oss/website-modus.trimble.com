@@ -37,31 +37,48 @@ ${require(`./header.html`)}
           <div class="alert alert-warning" role="alert">
             A simple warning alert—check it out!
           </div>
-        </div>
-        <div class="guide-code"></div>
-        <button class="btn btn-link guide-copy-code">Click to Copy</button>
-      </div>
-
-      <h3 class="mt-5">Condensed Alerts </h3>
-      <p>Add <code>class="condensed"</code> to condense the alerts for smaller screens or when there is limited space
-      </p>
-      <div class="guide-example-block">
-        <div class="guide-sample hover-dimensions">
-          <div class="alert condensed alert-success" role="alert">
-            A simple primary alert—check it out!
+          <div class="alert alert-info" role="alert">
+            A simple info alert—check it out!
+          </div>
+          <div class="alert alert-dark" role="alert">
+            A simple dark alert—check it out!
           </div>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
 
-      <h3 class="mt-5">Link Color in Alerts</h3>
+      <h3 class="mt-5">Alerts with Links</h3>
       <p>Use the <code>.alert-link</code> utility class to quickly provide matching colored links within any alert.
       </p>
 
       <div class="guide-example-block">
-        <div class="guide-sample hover-dimensions">
+        <div class="guide-sample">
           <div class="alert alert-primary" role="alert">
+            This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+            like.
+          </div>
+          <div class="alert alert-secondary" role="alert">
+            This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+            like.
+          </div>
+          <div class="alert alert-success" role="alert">
+            This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+            like.
+          </div>
+          <div class="alert alert-danger" role="alert">
+            This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+            like.
+          </div>
+          <div class="alert alert-warning" role="alert">
+            This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+            like.
+          </div>
+          <div class="alert alert-info" role="alert">
+            This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+            like.
+          </div>
+          <div class="alert alert-dark" role="alert">
             This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
             like.
           </div>
@@ -70,32 +87,62 @@ ${require(`./header.html`)}
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
 
-      <h3 class="mt-5"> Alerts with Action</h3>
-      <!-- <p>Add <code>class="condensed"</code> to condense the alerts for smaller screens or when there is limited space
-      </p> -->
+      <h3 class="mt-5"> Alerts with Buttons</h3>
+      <p>
+        You can add a button to an alert using any button style. For best results with single line alerts, use <code>.btn-sm</code>.
+      </p>
+      <p>
+        In these examples, we use the <code>.float-right</code> class to pull the button to the right and <code>.clearfix</code> on the alert to make sure the button is inside the alert correctly.
+      </p>
       <div class="guide-example-block">
-        <div class="guide-sample hover-dimensions">
-          <div class="alert alert-success" role="alert">
-            A simple primary alert—check it out!
-            <button class="btn btn-md btn-tertiary pull-right">BUTTON</button>
+        <div class="guide-sample">
+          <div class="alert clearfix alert-primary" role="alert">
+            A basic primary alert with a button. <a href="#" class=" float-right btn btn-sm btn-primary">BUTTON</a>
+          </div>
+          <div class="alert clearfix alert-secondary" role="alert">
+            A basic secondary alert with a button. <a href="#" class=" float-right btn btn-sm btn-outline-secondary">BUTTON</a>
+          </div>
+          <div class="alert clearfix alert-success" role="alert">
+            A basic success alert with a button. <a href="#" class=" float-right btn btn-sm btn-reverse-success">BUTTON</a>
+          </div>
+          <div class="alert clearfix alert-danger" role="alert">
+            A basic danger alert with a button. <a href="#" class=" float-right btn btn-sm btn-text-danger">BUTTON</a>
           </div>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
 
-      <h3 class="mt-5"> Dismissable</h3>
-      <p>Add <code>class="alert-dismissible fade show"</code> to the alert and add a button with attributes <code>
-          class="close" data-dismiss="alert" </code> to add dismissable alerts
+      <h3 class="mt-5">Dismissible Alerts</h3>
+      <p>
+        Add <code>class="alert-dismissible fade show"</code> to the alert and add a button with attributes <code>class="close" data-dismiss="alert"</code> to add dismissible alerts
       </p>
-      <p>To use this, please review Bootstrap documentaion <a
-          href="https://getbootstrap.com/docs/4.0/components/alerts/#dismissing" target="_blank">here</a> </p>
+      <p>To use this, please review Bootstrap documentation <a
+        href="https://getbootstrap.com/docs/4.0/components/alerts/#dismissing" target="_blank">here</a> </p>
       <div class="guide-example-block">
-        <div class="guide-sample hover-dimensions">
-          <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            A simple warning alert—check it out!
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
+        <div class="guide-sample">
+          <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            A dismissible primary alert.
+            <button type="button" class=" close" data-dismiss="alert" aria-label="Close">
+              <i class="ether-icons">close</i>
+            </button>
+          </div>
+          <div class="alert alert-secondary alert-dismissible fade show" role="alert">
+            A dismissible secondary alert.
+            <button type="button" class=" close" data-dismiss="alert" aria-label="Close">
+              <i class="ether-icons">close</i>
+            </button>
+          </div>
+          <div class="alert alert-success alert-dismissible fade show" role="alert">
+            A dismissible success alert.
+            <button type="button" class=" close" data-dismiss="alert" aria-label="Close">
+              <i class="ether-icons">close</i>
+            </button>
+          </div>
+          <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            A dismissible danger alert.
+            <button type="button" class=" close" data-dismiss="alert" aria-label="Close">
+              <i class="ether-icons">close</i>
             </button>
           </div>
         </div>
@@ -103,15 +150,20 @@ ${require(`./header.html`)}
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
 
-      <h3 class="mt-5"> Alerts with additional content</h3>
+      <h3 class="mt-5">Alerts with Additional Content</h3>
       <p>Alerts can also contain additional HTML elements like headings, paragraphs and dividers.</p>
 
-      <p>Wrap the alert heading in a <code>h tag (h1-h6)</code> followed by the content.
-      </p>
+      <p>Wrap the alert heading in a <code>h tag (h1-h6)</code> with an <code>.alert-heading</code> class followed by the content.</p>
       <div class="guide-example-block">
-        <div class="guide-sample hover-dimensions">
-          <div class="alert alert-danger" role="alert">
-            <h6>Error!!!</h6> A simple error alert!
+        <div class="guide-sample">
+          <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <button type="button" class=" close" data-dismiss="alert" aria-label="Close">
+              <i class="ether-icons">close</i>
+            </button>
+            <h4 class="alert-heading">Well Done!</h4>
+            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+            <hr>
+            <p class="mb-0"><strong>Whenever you need to,</strong> be sure to use <a class="alert-link" href="/spacing.html">margin utilities</a> to keep things nice and tidy.</p>
           </div>
         </div>
         <div class="guide-code"></div>
@@ -119,7 +171,7 @@ ${require(`./header.html`)}
       </div>
 
       <p class="mt-5">For additional documentation on Javascript behavior on Bootstrap's Alerts, click <a
-          href="https://getbootstrap.com/docs/4.0/components/alerts/#javascript-behavior" target="_blank">here</a> </p>
+        href="https://getbootstrap.com/docs/4.0/components/alerts/#javascript-behavior" target="_blank">here</a> </p>
     </div>
   </div>
 </div>
