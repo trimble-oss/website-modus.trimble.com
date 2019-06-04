@@ -13,4 +13,3 @@ yarn.lock
 .yarnclean
 .vscode
 .vscode/settings.json
-src/change-content.html
