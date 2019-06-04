@@ -407,3 +407,10 @@ pre[class*="language-"] {
     font-size: 1.25em;
   }
 }
+
+.menu-example {
+  .dropdown-menu {
+    display: block;
+    position: static;
+  }
+}
