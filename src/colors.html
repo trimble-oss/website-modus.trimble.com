@@ -10,8 +10,8 @@ ${require(`./header.html`)}
 
     <!-- Theme Colors -->
     <h3 class="mt-5">Theme Colors</h3>
-    <div class="guide-example-block chips-block">
-      <p>These can be changed to define app theme</p>
+    <p>These can be changed to define the app theme.</p>
+    <div class="guide-example-block">
       <div class="guide-sample">
         <div class="color-swatches">
 
@@ -79,6 +79,32 @@ ${require(`./header.html`)}
               </div>
             </div>
           </div>
+
+          <div class="card shadow-1">
+              <div class="card-img-top bg-info"></div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h6>Info Color</h6>
+                  <p class="card-subtitle">
+                    #408AC9
+                  </p>
+                  <p><code>.bg-info</code></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card shadow-1">
+                <div class="card-img-top bg-warning"></div>
+                <div class="card-body">
+                  <div class="card-title">
+                    <h6>Warning Color</h6>
+                    <p class="card-subtitle">
+                      #DEA702
+                    </p>
+                    <p><code>.bg-warning</code></p>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
 
@@ -89,14 +115,16 @@ ${require(`./header.html`)}
         <p class="indent"><code> "dark": #363545,</code></p>
         <p class="indent"><code> "success": #5E9331,</code></p>
         <p class="indent"><code> "danger": #C81922,</code></p>
+        <p class="indent"><code> "info": #408AC9,</code></p>
+        <p class="indent"><code> "warning": #DEA702,</code></p>
         <p><code> );</code></p>
       </div>
     </div>
 
     <!-- UI Colors -->
     <h3 class="mt-5">UI Colors</h3>
-    <div class="guide-example-block chips-block">
-      <p>These can be changed to define app theme</p>
+    <p>These can be changed to define the app theme.</p>
+    <div class="guide-example-block">
       <div class="guide-sample">
         <div class="color-swatches">
 
@@ -183,8 +211,123 @@ ${require(`./header.html`)}
       </div>
     </div>
 
+    <!-- Trimble Brand Colors -->
+    <h3 class="mt-5">Trimble Brand Colors</h3>
+    <p>These are our Trimble Brand Colors and are not intended to be changed.</p>
+    <div class="guide-example-block">
+      <div class="guide-sample">
+        <div class="color-swatches">
+
+          <div class="card shadow-1">
+            <div class="card-img-top bg-trimble-blue-dark"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Trimble Blue Dark</h6>
+                <p class="card-subtitle">
+                  #002D5B
+                </p>
+                <p><code>.bg-trimble-blue-dark</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card shadow-1">
+            <div class="card-img-top bg-trimble-blue"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Trimble Blue</h6>
+                <p class="card-subtitle">
+                  #00437B
+                </p>
+                <p><code>.bg-trimble-blue</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card shadow-1">
+            <div class="card-img-top bg-trimble-blue-mid"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Trimble Blue Mid</h6>
+                <p class="card-subtitle">
+                  #005F9E
+                </p>
+                <p><code>.bg-trimble-blue-mid</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card shadow-1">
+            <div class="card-img-top bg-trimble-blue-light"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Trimble Blue Light</h6>
+                <p class="card-subtitle">
+                  #009AD9
+                </p>
+                <p><code>.bg-trimble-blue-light</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card shadow-1">
+            <div class="card-img-top bg-trimble-yellow"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Trimble Yellow</h6>
+                <p class="card-subtitle">
+                  #FFBE00
+                </p>
+                <p><code>.bg-trimble-yellow</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card shadow-1">
+            <div class="card-img-top bg-trimble-green"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Trimble Green</h6>
+                <p class="card-subtitle">
+                  #4D6F33
+                </p>
+                <p><code>.bg-trimble-green</code></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card shadow-1">
+            <div class="card-img-top bg-trimble-red"></div>
+            <div class="card-body">
+              <div class="card-title">
+                <h6>Trimble Red</h6>
+                <p class="card-subtitle">
+                  #A51D25
+                </p>
+                <p><code>.bg-trimble-red</code></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="guide-sample" style="background-color: #f8f9fa">
+        <p><code>$theme-colors: (</code></p>
+        <p class="indent"><code> "trimble-blue-dark": #002D5B,</code></p>
+        <p class="indent"><code> "trimble-blue": #00437B,</code></p>
+        <p class="indent"><code> "trimble-blue-mid": #005F9E,</code></p>
+        <p class="indent"><code> "trimble-blue-light": #009AD9,</code></p>
+        <p class="indent"><code> "trimble-yellow": #FFBE00,</code></p>
+        <p class="indent"><code> "trimble-green": #4D6F33,</code></p>
+        <p class="indent"><code> "trimble-red": #A51D25,</code></p>
+        <p><code> );</code></p>
+      </div>
+    </div>
+
     <!-- Gray Palette -->
     <h3 class="mt-5">Gray Palette</h3>
+    <p>Various shades of gray for utility.</p>
     <div class="guide-example-block chips-block">
 
       <!-- TODO: remove display none when bg gray variants are available -->
