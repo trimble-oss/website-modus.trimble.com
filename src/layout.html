@@ -10,33 +10,53 @@ ${require(`./header.html`)}
     <div class="guide-section">
 
       <h3>Basic Structure</h3>
+
+      <p>
+        The basic structure for our Ether Layout, including the sidebar, toolbar, and panel, is as follows:
+      </p>
+      <pre><code class="plaintext language-plaintext">  div.ether-layout
+        ├── nav.ether-header
+        ├── div.ether-body
+        |   ├── nav.ether-sidebar
+        |   └── div.ether-content-rows
+        |       ├── div.ether-toolbar(optional)
+        |       └── div.ether-content-columns
+        |           ├── div.ether-panel(optional)
+        |           └── div.ether-content
+        └── div.ether-footer
+      </code></pre>
       <p>
         The page should be wrapped in a <code>&lt;div class="ether-layout"&gt;</code> to set up the overall
         structure.
       </p>
       <p>
         The top nav bar is a standard Bootstrap <code>&lt;nav class="navbar navbar-expand-lg"&gt;</code> with an
-        additional class of <code>ether-header</code> to apply the aesthetics.
+        additional class of <code>.ether-header</code> to apply the aesthetics. Please refer to the <a href="https://getbootstrap.com/docs/4.2/components/navbar/">Bootstrap Navbar Docs</a> for more
+        information.
       </p>
       <p>
-        The navbar should be followed by <code>&lt;div class="ether-body"&gt;</code> to set up the left nav
-        area and main
-        content area.
+        The <code>.ether-header</code> should be followed by <code>&lt;div class="ether-body"&gt;</code> to set up the left nav area and main content area.
       </p>
       <p>
-        The left nav is another Bootstrap <code>&lt;nav class="nav flex-column"&gt;</code> to create vertical nav
-        along with an additional class of <code>ether-sidebar</code> for the proper aesthetics. Within each
-        <code>navlink</code>
-        it is important to have an icon or image with a class of <code>icon</code>
+        The left nav is a Bootstrap <code>&lt;nav class="nav flex-column"&gt;</code> to create a vertical nav
+        along with an additional class of <code>.ether-sidebar</code> for the proper styling. Within each
+        <code>.navlink</code>, it is important to have an icon or image with a class of <code>.left-nav-icon</code>
       </p>
       <p>
-        The next sibling element after the left nav can be <code>ether-content</code>, which serves as a general purpose content container.
+        The next sibling element after the <code>.ether-sidebar</code> should be <code>.ether-content-rows</code>. An optional child of <code>.ether-toolbar</code>.
       </p>
       <p>
-        After the <code>ether-body</code> the next element should be the <code>&lt;div
-        class="ether-footer"&gt;</code>. Each sibling element will be spaced automatically.
+        After <code>.ether-content-rows</code> should be <code>.ether-content-columns</code> with an optional child of <code>.ether-panel</code>.
+      </p>
+      <p>
+        Your main content is housed within <code>.ether-content</code> inside of <code>.ether-content-columns</code>.
+      </p>
+      <p>
+        After the <code>.ether-body</code>, the next element should be <code>&lt;div class="ether-footer"&gt;</code>.
       </p>
 
+
+      <h3 class="mt-5">Ether Sidebar Example</h3>
       <div class="guide-example-block">
         <div class="guide-sample position-relative p-0 border" style="height: 500px; z-index: 10;" id="example-block">
           <!-- Ether Layout Page Wrapper -->
@@ -45,20 +65,18 @@ ${require(`./header.html`)}
             <!-- Ether Header -->
             <nav class="navbar navbar-expand-lg ether-header">
               <a data-ether-item="menu-btn"><i class="ether-icons menu-btn">menu</i></a>
-              <a class="navbar-brand" href="#">
-                BRAND
-              </a>
-              <div class="navbar-text">
-                <span class="h3 m-0">Application Name</span>
+              <a href="#" class="navbar-brand">BRAND</a>
+
+              <div class="navbar-nav mr-auto">
+                <div class="navbar-text">
+                  <span class="h3">Application Name</span>
+                </div>
               </div>
               <div class="collapse navbar-collapse">
-                <div class="h4 navbar-nav m-auto">
-                  Center Text
-                </div>
-                <div class="navbar-nav">
+                <div class="navbar-nav ml-auto">
                   <div class="pr-3 py-2">
                     <a href="#">
-                      <i class="ether-icons" style="font-size: 24px">account_circle</i>
+                      <i class="ether-icons" style="font-size: 24px">account</i>
                     </a>
                   </div>
                   <div class="border-left pl-3 py-2">
@@ -115,12 +133,21 @@ ${require(`./header.html`)}
                 </ul>
               </nav><!-- End Ether Sidebar-->
 
-              <!-- Ether Content -->
-              <div class="ether-content p-5">
-                <h3>Content</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem esse aut quas, animi dolore voluptates laborum obcaecati quibusdam quod, molestiae, debitis accusantium praesentium dicta veniam temporibus iure enim recusandae laudantium.</p>
-                <p>Similique minus at, nesciunt eveniet facilis architecto aliquam autem adipisci possimus delectus distinctio? Eaque sed corrupti, id consectetur perspiciatis obcaecati omnis ipsam repellat voluptatem praesentium est dolorum? Distinctio, natus molestias.</p>
-                <p>Recusandae nemo molestiae alias laudantium dolore dolorum necessitatibus quas blanditiis, amet architecto temporibus rem, aliquid perferendis sapiente minus exercitationem et voluptatum quia modi. Cumque aperiam vitae dolore, distinctio esse error!</p>
+              <div class="ether-content-rows">
+
+                <div class="ether-content-columns">
+
+                  <!-- Ether Content -->
+                  <div class="ether-content">
+                    <div class="ether-content-rows ether-content p-5">
+                      <h3>Content</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem esse aut quas, animi dolore voluptates laborum obcaecati quibusdam quod, molestiae, debitis accusantium praesentium dicta veniam temporibus iure enim recusandae laudantium.</p>
+                      <p>Similique minus at, nesciunt eveniet facilis architecto aliquam autem adipisci possimus delectus distinctio? Eaque sed corrupti, id consectetur perspiciatis obcaecati omnis ipsam repellat voluptatem praesentium est dolorum? Distinctio, natus molestias.</p>
+                      <p>Recusandae nemo molestiae alias laudantium dolore dolorum necessitatibus quas blanditiis, amet architecto temporibus rem, aliquid perferendis sapiente minus exercitationem et voluptatum quia modi. Cumque aperiam vitae dolore, distinctio esse error!</p>
+                    </div>
+                  </div>
+                </div>
+
               </div>
 
             </div><!-- End Ether Body Wrapper -->
@@ -134,56 +161,82 @@ ${require(`./header.html`)}
       </div>
       <div class="guide-example-block">
 
-        <!-- CODE EXAMPLE -->
+        <!-- BASIC LAYOUT CODE EXAMPLE -->
 
         <div class="guide-sample" style="display: none">
-          <!-- Ether Layout Page Wrapper -->
-          <div class="ether-layout">
+<!-- Ether Layout Page Wrapper -->
+<div class="ether-layout">
 
-            <!-- Ether Header -->
-            <nav class="navbar navbar-expanded-lg ether-header">
+  <!-- Ether Header -->
+  <nav class="navbar navbar-expand-lg ether-header">
 
-              <!-- Your Navbar Content -->
-              <a data-ether-item="menu-btn"><i class="ether-icons menu-btn">menu</i></a>
-              <a href="#" class="navbar-brand">BRAND</a>
-              <div class="navbar-text"><span class="h3 m-0">APPLICATION NAME</span></div>
-              <div class="collapse navbar-collapse">
-                <div class="h4 navbar-nav m-auto">CENTER TEXT</div>
-              </div>
+    <!-- Menu Button -->
+    <a data-ether-item="menu-btn"><i class="ether-icons menu-btn">menu</i></a>
 
-            </nav>
+    <!-- Navbar Brand -->
+    <a href="#" class="navbar-brand">BRAND</a>
 
-            <!-- Ether Body Wrapper -->
-            <div class="ether-body sidebar-open" data-ether-item="body">
+    <div class="navbar-nav mr-auto">
+      <div class="navbar-text">
+        <span class="h3">APPLICATION NAME</span>
+      </div>
+    </div>
 
-              <!-- Ether Sidebar -->
-              <nav class="nav flex-column ether-sidebar">
-                <ul>
-                  <li>
-                    <a href="#" class="nav-link"><span class="left-nav-icon"><i class="material-icons">home</i></span></a>
-                    Nav Item
-                  </li>
-                </ul>
-              </nav>
-
-              <!-- Ether Content -->
-              <div class="ether-content">...</div>
-
-              <!-- Ether Footer -->
-              <div class="ether-footer">...</div>
-            </div>
-          </div>
+    <!-- Navbar Nav -->
+    <div class="collapse navbar-collapse">
+      <div class="navbar-nav ml-auto">
+        <div class="pr-3 py-2">
+          <a href="#"><i class="ether-icons" style="font-size: 24px">account</i></a>
         </div>
+        <div class="border-left pl-3 py-2">
+          <a href="#"><i class="ether-icons" style="font-size: 24px">apps</i></a>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- Ether Body Wrapper -->
+  <div class="ether-body sidebar-open" data-ether-item="body">
+
+    <!-- Ether Sidebar -->
+    <nav class="nav flex-column ether-sidebar">
+      <ul>
+        <li>
+          <a href="#" class="nav-link active"><span class="left-nav-icon"><i class="ether-icons">apps</i></span>Nav Item 1</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link"><span class="left-nav-icon"><i class="ether-icons">settings</i></span>Nav Item 2</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="ether-content-rows">
+
+      <div class="ether-content-columns">
+
+        <!-- Ether Content -->
+        <div class="ether-content">Content</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Ether Footer -->
+  <div class="ether-footer">Footer</div>
+</div>
+        </div> <!-- BASIC LAYOUT CODE EXAMPLE END -->
         <div class="guide-code" style="max-width: 100%;"></div>
         <button class="btn btn-link guide-copy-code">Click to copy</button>
       </div>
 
-      <h3 class="mt-5">With Toolbar</h3>
+      <h3 class="mt-5">Ether Toolbar Example</h3>
       <p>
-        Our framework includes an all purpose toolbar that can be inserted inside your layout. Simply create an <code>ether-content-rows</code> directly after the <code>ether-sidebar</code> and insert an <code>ether-toolbar</code> container to apply the appropriate styles.
+        Our framework includes an all purpose toolbar that can be inserted inside your layout.
+        Simply add <code>.ether-toolbar</code> inside <code>.ether-content-rows</code> and begin adding your elements.
       </p>
       <p>
-        You can use our other components, such as buttons and form groups, inside the <code>ether-toolbar</code> to add functionality to your application.
+        You can use our other components, such as buttons and form groups, inside <code>.ether-toolbar</code> to add functionality to your application.
       </p>
 
       <div class="guide-example-block">
@@ -197,17 +250,16 @@ ${require(`./header.html`)}
               <a class="navbar-brand" href="#">
                 BRAND
               </a>
-              <div class="navbar-text">
-                <span class="h3 m-0">Application Name</span>
+              <div class="navbar-nav mr-auto">
+                <div class="navbar-text">
+                  <span class="h3 m-0">Application Name</span>
+                </div>
               </div>
               <div class="collapse navbar-collapse">
-                <div class="h4 navbar-nav m-auto">
-                  Center Text
-                </div>
-                <div class="navbar-nav">
+                <div class="navbar-nav ml-auto">
                   <div class="pr-3 py-2">
                     <a href="#">
-                      <i class="ether-icons" style="font-size: 24px">account_circle</i>
+                      <i class="ether-icons" style="font-size: 24px">account</i>
                     </a>
                   </div>
                   <div class="border-left pl-3 py-2">
@@ -218,7 +270,7 @@ ${require(`./header.html`)}
             </nav><!-- End Ether Header -->
 
             <!-- Ether Body Wrapper -->
-            <div class="ether-body sidebar-closed" data-ether-item="body">
+            <div class="ether-body sidebar-open ex-sidebar-closed" data-ether-item="body">
 
               <!-- Ether Sidebar -->
               <nav class="nav flex-column ether-sidebar">
@@ -282,16 +334,19 @@ ${require(`./header.html`)}
                   <button class="btn btn-text-dark btn-lg btn-icon-only"><i class="ether-icons">date_range</i></button>
                   <button class="btn btn-text-dark btn-lg btn-icon-only"><i class="ether-icons">settings</i></button>
 
-                  <form class="form-inline ml-5">
+                  <form class="form-inline ml-5" onsubmit="return false;">
                     <input type="text" class="form-control" placeholder="Search...">
                     <button class="btn btn-text-dark btn-lg btn-icon-only ml-2"><i class="ether-icons">search</i></button>
                   </form>
                 </div>
-                <div class="ether-content p-5">
-                  <h3>Content</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem esse aut quas, animi dolore voluptates laborum obcaecati quibusdam quod, molestiae, debitis accusantium praesentium dicta veniam temporibus iure enim recusandae laudantium.</p>
-                  <p>Similique minus at, nesciunt eveniet facilis architecto aliquam autem adipisci possimus delectus distinctio? Eaque sed corrupti, id consectetur perspiciatis obcaecati omnis ipsam repellat voluptatem praesentium est dolorum? Distinctio, natus molestias.</p>
-                  <p>Recusandae nemo molestiae alias laudantium dolore dolorum necessitatibus quas blanditiis, amet architecto temporibus rem, aliquid perferendis sapiente minus exercitationem et voluptatum quia modi. Cumque aperiam vitae dolore, distinctio esse error!</p>
+
+                <div class="ether-content-columns">
+                  <div class="ether-content p-5">
+                    <h3>Content</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem esse aut quas, animi dolore voluptates laborum obcaecati quibusdam quod, molestiae, debitis accusantium praesentium dicta veniam temporibus iure enim recusandae laudantium.</p>
+                    <p>Similique minus at, nesciunt eveniet facilis architecto aliquam autem adipisci possimus delectus distinctio? Eaque sed corrupti, id consectetur perspiciatis obcaecati omnis ipsam repellat voluptatem praesentium est dolorum? Distinctio, natus molestias.</p>
+                    <p>Recusandae nemo molestiae alias laudantium dolore dolorum necessitatibus quas blanditiis, amet architecto temporibus rem, aliquid perferendis sapiente minus exercitationem et voluptatum quia modi. Cumque aperiam vitae dolore, distinctio esse error!</p>
+                  </div>
                 </div>
               </div>
 
@@ -306,57 +361,352 @@ ${require(`./header.html`)}
       </div>
       <div class="guide-example-block">
 
-        <!-- CODE EXAMPLE -->
+        <!-- TOOLBAR CODE EXAMPLE -->
 
         <div class="guide-sample" style="display: none">
+<!-- Ether Layout Page Wrapper -->
+<div class="ether-layout">
 
+  <!-- Ether Header -->
+  <nav class="navbar navbar-expand-lg ether-header">
+
+    <!-- Menu Button -->
+    <a data-ether-item="menu-btn"><i class="ether-icons menu-btn">menu</i></a>
+
+    <!-- Navbar Brand -->
+    <a href="#" class="navbar-brand">BRAND</a>
+
+    <div class="navbar-nav mr-auto">
+      <div class="navbar-text">
+        <span class="h3">APPLICATION NAME</span>
+      </div>
+    </div>
+
+    <!-- Navbar Nav -->
+    <div class="collapse navbar-collapse">
+      <div class="navbar-nav ml-auto">
+        <div class="pr-3 py-2">
+          <a href="#"><i class="ether-icons" style="font-size: 24px">account</i></a>
+        </div>
+        <div class="border-left pl-3 py-2">
+          <a href="#"><i class="ether-icons" style="font-size: 24px">apps</i></a>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- Ether Body Wrapper -->
+  <div class="ether-body sidebar-open" data-ether-item="body">
+
+    <!-- Ether Sidebar -->
+    <nav class="nav flex-column ether-sidebar">
+      <ul>
+        <li>
+          <a href="#" class="nav-link active"><span class="left-nav-icon"><i class="ether-icons">apps</i></span>Nav Item 1</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link"><span class="left-nav-icon"><i class="ether-icons">settings</i></span>Nav Item 2</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="ether-content-rows">
+
+      <!-- Ether Toolbar -->
+      <div class="ether-toolbar">Toolbar</div>
+
+      <div class="ether-content-columns">
+
+        <!-- Ether Content -->
+        <div class="ether-content">Content</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Ether Footer -->
+  <div class="ether-footer">Footer</div>
+</div>
+
+        </div>
+        <!-- TOOLBAR CODE EXAMPLE END -->
+        <div class="guide-code" style="max-width: 100%;"></div>
+        <button class="btn btn-link guide-copy-code">Click to copy</button>
+      </div>
+
+
+      <h3 class="mt-5">With Panel</h3>
+      <p>
+        Our framework also includes panels that can be inserted into your layout. Simply add <code>.ether-panel</code> inside of <code>.ether-content-columns</code> before <code>.ether-content</code>.
+      </p>
+      <p>
+        The panels come with <code>.panel-header</code>, <code>.panel-body</code>, and <code>.panel-footer</code> classes for additional layout options.
+      </p>
+      <p>
+        You also have the option of including <code>.static-container</code> and <code>.scroll-container</code> inside the <code>.panel-body</code> for additional functionality.
+      </p>
+      <p>
+        <strong>Note:</strong> Ether Panels must be given a <code>width</code> using any of the following classes:
+        <ul>
+          <li><code>.panel-sm</code> (250px)</li>
+          <li><code>.panel-md</code> (350px)</li>
+          <li><code>.panel-lg</code> (450px)</li>
+        </ul>
+      </p>
+
+      <div class="guide-example-block">
+        <div class="guide-sample position-relative p-0 border" style="height: 500px; z-index: 10;" id="example-block3">
           <!-- Ether Layout Page Wrapper -->
           <div class="ether-layout">
 
             <!-- Ether Header -->
-            <nav class="navbar navbar-expanded-lg ether-header">
-
-              <!-- Your Navbar Content -->
+            <nav class="navbar navbar-expand-lg ether-header">
               <a data-ether-item="menu-btn"><i class="ether-icons menu-btn">menu</i></a>
-              <a href="#" class="navbar-brand">BRAND</a>
-              <div class="navbar-text"><span class="h3 m-0">APPLICATION NAME</span></div>
-              <div class="collapse navbar-collapse">
-                <div class="h4 navbar-nav m-auto">CENTER TEXT</div>
+              <a class="navbar-brand" href="#">
+                BRAND
+              </a>
+              <div class="navbar-text">
+                <span class="h3 m-0">Application Name</span>
               </div>
-
-            </nav>
+              <div class="collapse navbar-collapse">
+                <div class="h4 navbar-nav m-auto">
+                  Center Text
+                </div>
+                <div class="navbar-nav">
+                  <div class="pr-3 py-2">
+                    <a href="#">
+                      <i class="ether-icons" style="font-size: 24px">account</i>
+                    </a>
+                  </div>
+                  <div class="border-left pl-3 py-2">
+                    <a href="#"><i class="ether-icons" style="font-size: 24px">apps</i></a>
+                  </div>
+                </div>
+              </div>
+            </nav><!-- End Ether Header -->
 
             <!-- Ether Body Wrapper -->
-            <div class="ether-body sidebar-open" data-ether-item="body">
+            <div class="ether-body sidebar-open ex-sidebar-closed" data-ether-item="body">
 
               <!-- Ether Sidebar -->
               <nav class="nav flex-column ether-sidebar">
                 <ul>
                   <li>
-                    <a href="#" class="nav-link"><span class="left-nav-icon"><i class="material-icons">home</i></span></a>
-                    Nav Item
+                    <a class="nav-link active" href="#">
+                      <span class="left-nav-icon">
+                        <i class="material-icons">home</i>
+                      </span>
+                      Nav Item
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="nav-link" href="#">
+                      <span class="left-nav-icon">
+                        <svg height="24" width="24">
+                          <circle cx="12" cy="12" r="12" fill="#363545"></circle>
+                          <text fill="#ffffff" text-anchor="middle" font-size="9" font-weight="700" font-family="Open Sans" x="12" y="15">SVG</text>
+                        </svg>
+                      </span>
+                      Nav Item
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="nav-link" href="#">
+                      <span class="left-nav-icon">
+                        <img src="src/img/route.svg">
+                      </span>
+                      Nav Item
+                    </a>
+                  </li>
+
+                  <li>
+                    <a class="nav-link" href="#">
+                      <span class="left-nav-icon">
+                        <img src="src/img/check-mark-orange.png" style="min-width: 24px">
+                      </span>
+                      Nav Item
+                    </a>
                   </li>
                 </ul>
-              </nav>
+              </nav><!-- End Ether Sidebar-->
 
+              <!-- Ether Content -->
               <div class="ether-content-rows">
-
-                <!-- Ether Toolbar -->
                 <div class="ether-toolbar">
-                  <!-- Toolbar Content -->
+                  <form class="form-inline ml-3 mr-5">
+                    <div class="form-group">
+                      <label class="mr-2" for=""><strong>Profile</strong></label>
+                      <select class="form-control" name="" id="">
+                        <option>Profile 1</option>
+                        <option>Profile 2</option>
+                        <option>Profile 3</option>
+                      </select>
+                    </div>
+                  </form>
+
+                  <button class="btn btn-text-dark btn-lg btn-icon-only"><i class="ether-icons">color_lens</i></button>
+                  <button class="btn btn-text-dark btn-lg btn-icon-only"><i class="ether-icons">date_range</i></button>
+                  <button class="btn btn-text-dark btn-lg btn-icon-only"><i class="ether-icons">settings</i></button>
+
+                  <form class="form-inline ml-5" onsubmit="return false;">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <button class="btn btn-text-dark btn-lg btn-icon-only ml-2"><i class="ether-icons">search</i></button>
+                  </form>
                 </div>
+                <div class="ether-content-columns">
+                  <div class="ether-panel panel-lg shadow-1">
+                    <div class="panel-header">
+                      <div class="left-items ml-2">
+                        <div class="custom-control custom-switch">
+                          <input type="checkbox" checked="" class="custom-control-input" id="customSwitch" name="example1">
+                          <label class="custom-control-label" for="customSwitch"></label>
+                        </div>
+                      </div>
+                      <h5>Panel Header</h5>
+                      <div class="right-items mr-2">
+                        <button class="btn btn-icon-only btn-text-dark"><i class="ether-icons">unloaded_orders</i></button>
+                      </div>
+                    </div>
 
-                <!-- Ether Content -->
-                <div class="ether-content">...</div>
+                    <div class="panel-body" style="flex-grow: 1">
+                      <div class="static-container">
+                        <div class="d-flex">
+                          <button class="btn btn-icon-only btn-text-dark"><i class="ether-icons">filter</i></button>
+                          <button class="btn btn-icon-only btn-text-dark"><i class="ether-icons">layout</i></button>
+                          <button class="btn btn-icon-only btn-text-dark"><i class="ether-icons">create_route</i></button>
+                          <button class="btn btn-icon-only btn-text-dark disabled"><i class="ether-icons">finalize_route</i></button>
+                          <button class="btn btn-icon-only btn-text-dark disabled"><i class="ether-icons">trim_fake_orders</i></button>
+                        </div>
+                        <div class="d-flex">
+                          <button class="btn btn-icon-only btn-text-dark align-self-end"><i class="ether-icons">sort</i></button>
+                        </div>
+                      </div>
+                      <div class="scroll-container p-2">
+                        <div class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Panel Content</h5>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo asperiores doloremque dolorum qui ducimus quae eius alias perspiciatis, quod, libero fuga recusandae quidem molestias nobis non soluta. Doloremque, in iusto?
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
+                    <div class="panel-footer">Panel Footer</div>
+                  </div>
+                  <div class="ether-content p-5">
+                    <h3>Content</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem esse aut quas, animi dolore voluptates laborum obcaecati quibusdam quod, molestiae, debitis accusantium praesentium dicta veniam temporibus iure enim recusandae laudantium.</p>
+                    <p>Similique minus at, nesciunt eveniet facilis architecto aliquam autem adipisci possimus delectus distinctio? Eaque sed corrupti, id consectetur perspiciatis obcaecati omnis ipsam repellat voluptatem praesentium est dolorum? Distinctio, natus molestias.</p>
+                    <p>Recusandae nemo molestiae alias laudantium dolore dolorum necessitatibus quas blanditiis, amet architecto temporibus rem, aliquid perferendis sapiente minus exercitationem et voluptatum quia modi. Cumque aperiam vitae dolore, distinctio esse error!</p>
+                  </div>
+                </div>
               </div>
 
-              <!-- Ether Footer -->
-              <div class="ether-footer">...</div>
+            </div><!-- End Ether Body Wrapper -->
+
+            <!-- Ether Footer -->
+            <div class="ether-footer">
+              <div class="small">Footer Text</div>
             </div>
           </div>
-
         </div>
+      </div>
+      <div class="guide-example-block">
+
+        <!-- PANEL CODE EXAMPLE -->
+
+        <div class="guide-sample" style="display: none">
+<!-- Ether Layout Page Wrapper -->
+<div class="ether-layout">
+
+  <!-- Ether Header -->
+  <nav class="navbar navbar-expand-lg ether-header">
+
+    <!-- Menu Button -->
+    <a data-ether-item="menu-btn"><i class="ether-icons menu-btn">menu</i></a>
+
+    <!-- Navbar Brand -->
+    <a href="#" class="navbar-brand">BRAND</a>
+
+    <div class="navbar-nav mr-auto">
+      <div class="navbar-text">
+        <span class="h3">APPLICATION NAME</span>
+      </div>
+    </div>
+
+    <!-- Navbar Nav -->
+    <div class="collapse navbar-collapse">
+      <div class="navbar-nav ml-auto">
+        <div class="pr-3 py-2">
+          <a href="#"><i class="ether-icons" style="font-size: 24px">account</i></a>
+        </div>
+        <div class="border-left pl-3 py-2">
+          <a href="#"><i class="ether-icons" style="font-size: 24px">apps</i></a>
+        </div>
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- Ether Body Wrapper -->
+  <div class="ether-body sidebar-open" data-ether-item="body">
+
+    <!-- Ether Sidebar -->
+    <nav class="nav flex-column ether-sidebar">
+      <ul>
+        <li>
+          <a href="#" class="nav-link active"><span class="left-nav-icon"><i class="ether-icons">apps</i></span>Nav Item 1</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link"><span class="left-nav-icon"><i class="ether-icons">settings</i></span>Nav Item 2</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="ether-content-rows">
+
+      <!-- Ether Toolbar -->
+      <div class="ether-toolbar">Toolbar</div>
+
+      <div class="ether-content-columns">
+
+        <!-- Ether Panel -->
+        <div class="ether-panel panel-lg shadow-1">
+
+          <!-- Panel Header -->
+          <div class="panel-header">
+            <div class="left-items ml-2">Left</div>
+            <h5>Panel Header</h5>
+            <div class="right-items mr-2">Right</div>
+          </div>
+
+          <!-- Panel Body -->
+          <div class="panel-body">
+            <div class="static-container">Static Container</div>
+            <div class="scroll-container">Panel Body</div>
+          </div>
+
+          <!-- Panel Footer -->
+          <div class="panel-footer">Panel Footer</div>
+        </div>
+
+        <!-- Ether Content -->
+        <div class="ether-content">Content</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Ether Footer -->
+  <div class="ether-footer">Footer</div>
+</div>
+        </div>
+        <!-- PANEL CODE EXAMPLE END -->
         <div class="guide-code" style="max-width: 100%;"></div>
         <button class="btn btn-link guide-copy-code">Click to copy</button>
       </div>
@@ -367,7 +717,7 @@ ${require(`./header.html`)}
 </div>
 <script>
   $(document).ready(function () {
-    $('.nav-link').removeClass('active');
+    $('#mainSidebar').removeClass('active');
     $('#layout').addClass('active');
   });
   var doc = document.getElementById('example-block');
@@ -380,10 +730,29 @@ ${require(`./header.html`)}
     var e = doc2.querySelector("[data-ether-item='body']");
     e.classList.toggle('ex-sidebar-closed');
   });
+  var doc3 = document.getElementById('example-block3');
+  doc3.querySelector('[data-ether-item="menu-btn"]').addEventListener('click', function () {
+    var e = doc3.querySelector("[data-ether-item='body']");
+    e.classList.toggle('ex-sidebar-closed');
+  });
   var navLinks = doc.querySelectorAll('.nav-link');
+  var navLinks2 = doc2.querySelectorAll('.nav-link');
+  var navLinks2 = doc3.querySelectorAll('.nav-link');
   [].forEach.call(navLinks, (link) => {
     link.addEventListener('click', (e) => {
       navLinks.forEach((el) => {el.classList.remove('active');});
+      e.target.classList.toggle('active');
+    });
+  });
+  [].forEach.call(navLinks2, (link) => {
+    link.addEventListener('click', (e) => {
+      navLinks2.forEach((el) => {el.classList.remove('active');});
+      e.target.classList.toggle('active');
+    });
+  });
+  [].forEach.call(navLinks3, (link) => {
+    link.addEventListener('click', (e) => {
+      navLinks3.forEach((el) => {el.classList.remove('active');});
       e.target.classList.toggle('active');
     });
   });
