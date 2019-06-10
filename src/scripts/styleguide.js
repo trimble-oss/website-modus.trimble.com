@@ -68,6 +68,21 @@ $(document).ready(function () {
     }, 3000);
   });
 
+  $('#copyExampleButton').on('click', () => {
+    var str = $('#interactiveExample').html();
+    copyToClipboard(str);
+    // Get the snackbar DIV
+    var snack = $("#snackbar");
+
+    // Add the "show" class to DIV
+    snack.text("Code copied to clipboard.").addClass("show");
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function () {
+      snack.removeClass("show");
+    }, 3000);
+  });
+
   const close_popovers = () => {
     $(".hover-dimensions").find('*').removeClass("pop-highlight").popover("dispose");
   };

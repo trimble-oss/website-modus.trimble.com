@@ -334,56 +334,58 @@ pre[class*="language-"] {
   }
 }
 
-.ex-sidebar-open {
-  .ether-sidebar {
-    ul {
-      padding: 0;
+.guide-sample {
+  .sidebar-open {
+    .ether-sidebar {
+      ul {
+        padding: 0;
 
-      li {
-        list-style: none;
-        .collapsed {
-          .expand-icon {
-            transform: rotate(180deg);
-            -webkit-transform: rotate(180deg);
+        li {
+          list-style: none;
+
+          .collapsed {
+            .expand-icon {
+              transform: rotate(180deg);
+              -webkit-transform: rotate(180deg);
+            }
           }
         }
-      }
-
-      .sub-nav {
-        .nav-link {
-          border: none;
-          padding-left: 3rem;
-          //&.collapse:not(.show)
-        }
-      }
-
-    }
-  }
-}
-
-.ex-sidebar-closed {
-  .ether-sidebar {
-    flex: 0 0 60px;
-
-    ul {
-      padding: 0;
-
-      li {
-        list-style: none;
 
         .sub-nav {
-          display: none;
+          .nav-link {
+            border: none;
+            padding-left: 3rem;
+          }
         }
 
-        &.has-subnav:hover {
-          .sub-nav {
-            display: block;
-            position: absolute;
-            left: 60px;
-            margin-top: -48px;
+      }
+    }
+  }
 
-            .nav-link {
-              padding-right: 1rem;
+  .sidebar-closed {
+    .ether-sidebar {
+      flex: 0 0 60px;
+
+      ul {
+        padding: 0;
+
+        li {
+          list-style: none;
+
+          .sub-nav {
+            display: none;
+          }
+
+          &.has-subnav:hover {
+            .sub-nav {
+              display: block;
+              position: absolute;
+              left: 60px;
+              margin-top: -48px;
+
+              .nav-link {
+                padding-right: 1rem;
+              }
             }
           }
         }
@@ -409,4 +411,16 @@ pre[class*="language-"] {
     display: block;
     position: static;
   }
+}
+
+*::-webkit-scrollbar {
+  width: .5em;
+}
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+}
+*::-webkit-scrollbar-thumb {
+background-color: #d0d0d7;
+border-radius: .25em;
+outline: 1px solid #363545;
 }
