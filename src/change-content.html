@@ -1,7 +1,21 @@
 <h1 id="changelog">Changelog</h1>
 <p>All notable changes to this project will be documented in this file.</p>
-<h2 id="v03120190605">v0.3.1 - 2019-06-05</h2>
+<h2 id="v032comingchanges">v0.3.2 - Coming Changes</h2>
 <h3 id="layoutfixes">Layout Fixes</h3>
+<ul>
+<li>Fixed issue with <code>.ether-content-columns</code> not behaving correctly in Firefox (related to bug with <code>flex-shrink</code> property)</li>
+</ul>
+<h3 id="components">Components</h3>
+<ul>
+<li>Changed ether content background color to panel background color (#F3F3F7)</li>
+<li>Updated badge font-size and padding. Badge heights are now equal to the relative font size of their containers</li>
+<li>Changed chip font color to <code>$gray-600</code> (#595868)</li>
+<li>Changed chip base color to <code>$gray-200</code> (#E2E2E7)</li>
+<li>Updated Accordion styles and added <code>accordion-sm</code> variant</li>
+<li>Reduced font-size for <code>tooltip</code></li>
+</ul>
+<h2 id="v03120190605">v0.3.1 - 2019-06-05</h2>
+<h3 id="layoutfixes-1">Layout Fixes</h3>
 <ul>
 <li>Panel widths added: <code>panel-sm</code> (250px), <code>panel-md</code> (350px), and <code>panel-lg</code>  (450px)</li>
 <li>Fixed z-index for layout to avoid modals</li>
@@ -10,7 +24,7 @@
 <ul>
 <li>Added Trimble Brand Colors and their <code>.bg-</code> and <code>.text-</code> variants</li>
 </ul>
-<h3 id="components">Components</h3>
+<h3 id="components-1">Components</h3>
 <ul>
 <li>Updated Nav Tabs styles</li>
 <li>Updated tooltip styles</li>
@@ -28,7 +42,7 @@
   ├── nav.ether-header
   ├── div.ether-body
   |   ├── nav.ether-sidebar
-  |   └── div.ether-content-rows.ether-main-content.with-left-panel(optional)
+  |   └── div.ether-content-rows
   |       ├── div.ether-toolbar(optional)
   |       └── div.ether-content-columns
   |           ├── div.ether-panel(optional)
