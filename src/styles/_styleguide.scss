@@ -141,37 +141,6 @@ th, td {
   }
 }
 
-.input-block {
-  //display: flex;
-  display: inherit;
-  flex-wrap: wrap;
-
-
-  .form-group {
-    width: 300px;
-    margin: 5px 20px;
-  }
-
-  .input-group {
-    width: 300px;
-  }
-}
-
-.state-examples {
-  .guide-sample {
-    display: inherit;
-    flex-wrap: wrap;
-
-    .state-sample {
-      width: 450px;
-
-      .form-group {
-        margin: 5px 0px;
-      }
-    }
-  }
-}
-
 .specs {
   padding: 10px;
   border-bottom: 1px solid #ddd;
