@@ -115,3 +115,43 @@ $(document).ready(function () {
 });
 
 // window.onload = initiate;
+
+$(function() {
+  function findAnchorElement(path) {
+    const anchors = $("a[href]").toArray();
+    return anchors.find(node => node.href.endsWith(path));
+  }
+
+  function findNavGroup(anchorElement) {
+    if (!anchorElement) {
+      return [];
+    }
+
+    const parentElement = $(anchorElement).parent("div");
+    if (!parentElement || parentElement.length < 1) {
+      return [];
+    }
+
+    const parentElementId = parentElement[0].id;
+    return parentElementId === "componentsSubnav"
+      ? [$("#components"), $("#componentsSubnav")]
+      : parentElementId === "utilitiesSubnav"
+      ? [$("#utilities"), $("#utilitiesSubnav")]
+      : [];
+  }
+
+  function expandNavGroup([nav, subnav]) {
+    if (!nav || !subnav) {
+      return;
+    }
+
+    nav.removeClass("collapsed").attr("aria-expanded", true);
+    subnav.addClass("show");
+  }
+
+  (function() {
+    const anchorElement = findAnchorElement(window.location.pathname);
+    const navGroup = findNavGroup(anchorElement);
+    expandNavGroup(navGroup);
+  })();
+});
