@@ -98,6 +98,13 @@ th, td {
   }
 }
 
+.card-inverse {
+  background-color: #1B1A26;
+  .card-subtitle {
+    color: #fff;
+  }
+}
+
 .button-container {
   .btn {
     margin: 0px 20px;
