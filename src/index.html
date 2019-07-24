@@ -5,29 +5,29 @@ ${require(`./header.html`)}
 
       <p class="lead">The Ether Framework was developed as a common platform for all of Trimble MAPS web applications, with the additional goal of sharing with other groups within Trimble. It leverages the Trimble brand as well as some of the work done by other groups, specifically Project Origin by the SketchUp team.</p>
 
-      <h2 id="background">Background</h2>
+      <h2 id="background" class="mt-5">Background</h2>
 
       <p>The Ether Framework is built upon and extends the Bootstrap 4 code framework. It is a responsive framework for web and mobile uses. You can use the CSS files as is, or integrate the SASS files into your own application if you wish to modify it further.</p>
 
-      <h2 id="cdn">CDN</h2>
+      <h2 id="cdn" class="mt-5">CDN</h2>
 
       <p>The Ether Framework can be used as is from our public CDN:</p>
 
-      <pre><code class="html language-html">&lt;link rel="stylesheet" href="https://styles.trimblemaps.com/css/ether.min-0.3.1.css" /&gt;</code></pre>
+      <pre><code class="language-html">&lt;link rel="stylesheet" href="https://styles.trimblemaps.com/css/ether.min-0.3.1.css"&gt;</code></pre>
 
       <!-- TODO: uncomment when dark theme is finished -->
       <!-- <p>A dark theme is also available:</p>
 
-      <pre><code class="html language-html">&lt;link rel="stylesheet" href="https://styles.trimblemaps.com/css/ether-dark.min-0.3.1.css" /&gt;</code></pre> -->
+      <pre><code class="html language-html">&lt;link rel="stylesheet" href="https://styles.trimblemaps.com/css/ether-dark.min-0.3.1.css"&gt;</code></pre> -->
 
       <p>If you want to also use the Ether Framework layout (top nav, left nav, and content area) you will need to add these additional references:</p>
 
-      <pre><code class="html language-html">&lt;link rel="stylesheet" href="https://styles.trimblemaps.com/css/ether-layout.min-0.3.1.css" /&gt;
+      <pre><code class="language-html">&lt;link rel="stylesheet" href="https://styles.trimblemaps.com/css/ether-layout.min-0.3.1.css"&gt;
 &lt;script src="https://styles.trimblemaps.com/css/ether-layout.min-0.3.1.js"&gt;&lt;/script&gt;</code></pre>
 
-      <p>You do not (and should not) include additional references to Bootstrap CSS other than their Javascript links for component functions.  If you are using Angular, React, or other framework you should use an appropriate Bootstrap library.</p>
+      <p>You do not (and should not) include additional references to Bootstrap CSS other than their JavaScript links for component functions.  If you are using Angular, React, or other framework you should use an appropriate Bootstrap library.</p>
 
-      <pre><code class="html language-html">&lt;script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      <pre><code class="language-html">&lt;script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"&gt;
 &lt;/script&gt;
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
@@ -37,41 +37,39 @@ ${require(`./header.html`)}
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"&gt;
 &lt;/script&gt;</code></pre>
 
-      <h2 id="installwithnpm">Install with NPM</h2>
+      <h2 id="installwithnpm" class="mt-5">Install with NPM</h2>
 
       <p>Install the Ether Framework in your Node.js powered apps with our NPM package:</p>
 
-      <blockquote>
-        <p><code>$ npm install --save-dev @trimblemaps/ether-framework</code></p>
-      </blockquote>
+      <pre><code class="language-bash">$ npm install --save-dev @trimblemaps/ether-framework</code></pre>
 
       <p>The compiled CSS files will be found in the <code>./node_modules/@trimblemaps/ether-framework/dist</code> directory.</p>
 
-      <h2 id="customizeusingsass">Customize using SASS</h2>
+      <h2 id="customizeusingsass" class="mt-5">Customize using SASS</h2>
 
       <p>The SASS files will be found in the <code>/scss</code> directory.</p>
 
-      <h2 id="development">Development</h2>
+      <h2 id="development" class="mt-5">Development</h2>
 
       <p>Build CSS, run dev server, and watch for changes</p>
 
-      <pre><code class="bash language-bash">npm run dev</code></pre>
+      <pre><code class="language-bash">npm run dev</code></pre>
 
       <p>Sample page found at <a href="http://localhost:3030/">http://localhost:3030/</a></p>
 
-      <h2 id="buildpackage">Build Package</h2>
+      <h2 id="buildpackage" class="mt-5">Build Package</h2>
 
       <p>Builds the CSS files to <code>/dist</code></p>
 
-      <pre><code class="bash language-bash">npm run build</code></pre>
+      <pre><code class="language-bash">npm run build</code></pre>
 
-      <h2 id="filestructure">File structure</h2>
+      <h2 id="filestructure" class="mt-5">File structure</h2>
 
       <p><strong>Whenever possible, avoid modifying Ether or Bootstrap core files.</strong></p>
 
       <p>For Sass, that means creating your own stylesheet that imports Ether and Bootstrap so you can modify and extend it. Assuming you’re using a package manager like npm, you’ll have a file structure that looks like this:</p>
 
-      <pre><code class="plaintext language-plaintext">your-project/
+      <pre><code class="language-plaintext">your-project/
       ├── scss
       │   └── custom.scss
       └── node_modules/
@@ -83,7 +81,7 @@ ${require(`./header.html`)}
                   └── scss
       </code></pre>
 
-      <h2 id="importing">Importing</h2>
+      <h2 id="importing" class="mt-5">Importing</h2>
 
       <p>In your custom.scss, you’ll import Ether and Bootstrap’s source Sass files. With that setup in place, you can begin to modify any of the Sass variables and maps in your custom.scss.</p>
 
@@ -95,7 +93,7 @@ ${require(`./header.html`)}
 
       <p>This example shows you how you should structure your main file. The order in which files are imported matters.</p>
 
-      <pre><code class="sass language-sass">// Bootstrap functions
+      <pre><code class="language-sass">// Bootstrap functions
 @import "../node_modules/bootstrap/scss/functions";
 // Ether functions
 @import "../node_modules/@trimblemaps/ether-framework/scss/components/functions";

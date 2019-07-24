@@ -99,6 +99,13 @@ th, td {
   }
 }
 
+.card-inverse {
+  background-color: #1B1A26;
+  .card-subtitle {
+    color: #fff;
+  }
+}
+
 .button-container {
   .btn {
     margin: 0px 20px;
@@ -139,36 +146,6 @@ th, td {
     margin: 20px 50px;
     widows: 14rem;
     ;
-  }
-}
-
-.input-block {
-  //display: flex;
-  display: inherit;
-  flex-wrap: wrap;
-
-  .form-group {
-    width: 300px;
-    margin: 5px 20px;
-  }
-
-  .input-group {
-    width: 300px;
-  }
-}
-
-.state-examples {
-  .guide-sample {
-    display: inherit;
-    flex-wrap: wrap;
-
-    .state-sample {
-      width: 450px;
-
-      .form-group {
-        margin: 5px 0px;
-      }
-    }
   }
 }
 
@@ -332,6 +309,10 @@ pre[class*="language-"] {
     bottom: 0;
     opacity: 0;
   }
+}
+
+.ether-content {
+  background-color: #F3F3F7;
 }
 
 .guide-sample {

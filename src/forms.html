@@ -6,18 +6,16 @@ ${require(`./header.html`)}
     <p class="lead">
       Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide
       variety of forms.b </p>
-    <div class="alert alert-warning" role="alert">
-      WIP: This page is not complete.
-    </div>
-    <div class="guide-section input-block">
-      <h2>Forms</h2>
+
+    <div class="guide-section">
+      <h2>Overview</h2>
       <p>
         Use these tags & classes to opt into their customized displays for a more consistent rendering across browsers
         and devices.
       </p>
       <p>
         Textual form controls—like <code>&lt;input&gt;, &lt;select&gt;, and &lt;textarea&gt; </code>—are styled with
-        the .form-control class. Included are styles for general appearance, focus state, sizing, and more.
+        the <code>.form-control</code> class. Included are styles for general appearance, focus state, sizing, and more.
       </p>
       <p>
         To use an icon with the input, wrap the <code>&lt;input&gt;</code> and the icon inside a
@@ -27,141 +25,120 @@ ${require(`./header.html`)}
         respectively.</p>
 
       <p>
-        Be sure to use an appropriate type attribute on all inputs (e.g., email for email address or number for
+        Be sure to use an appropriate <code>type</code> attribute on all inputs (e.g., <code>email</code> for email address or <code>number</code> for
         numerical information) to take advantage of newer input controls like email verification, number selection, and
         more.</p>
       <p>
         Here’s a quick example to demonstrate form styles. Keep reading for documentation on required
         classes, form layout, and more.
       </p>
-      <!-- <h3 class="mt-5">Basic Form</h3>
+
+      <h3 class="mt-5">Basic Form</h3>
       <div class="guide-example-block">
-        <div class="guide-sample input-block">
+        <div class="guide-sample">
           <form>
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              <label for="Input1">Regular Input</label>
+              <input class="form-control" id="Input1" placeholder="Placeholder Text" />
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <label for="Input2">Input with icon on right</label>
+              <div class="input-with-icon-right">
+                <input class="form-control" placeholder="Placeholder Text" id="Input2" />
+                <div class="input-icon">
+                  <i class="ether-icons">visibility</i>
+                </div>
+              </div>
             </div>
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
+            <div class="form-group">
+              <label for="Input3">Input with icon on left</label>
+              <div class="input-with-icon-left">
+                <input class="form-control" placeholder="Placeholder Text" id="Input3" />
+                <div class="input-icon">
+                  <i class="ether-icons">search</i>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="Input4">Input with a button</label>
+              <div class="input-group">
+                <input class="form-control" placeholder="Placeholder Text" id="Input4" />
+                <div class="input-group-append">
+                  <button class="btn btn-reverse-secondary">
+                    Go
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Custom Select Outlined</label>
+              <select class="custom-select form-control" id="exampleFormControlSelect2">
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+                <option>Option 4</option>
+                <option>Option 5</option>
+              </select>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
-      </div> -->
-
-      <h3 class="mt-5">Basic Inputs</h3>
-      <div class="guide-example-block">
-        <div class="guide-sample input-block">
-          <div class="form-group">
-            <label for="Input2">Regular Input</label>
-            <input class="form-control" id="Input2" placeholder="Placeholder Text" />
-          </div>
-          <div class="form-group">
-            <label for="Input1">Input with icon on right</label>
-            <div class="input-with-icon-right">
-              <input class="form-control" placeholder="Placeholder Text" id="Input1" />
-              <div class="input-icon">
-                <i class="ether-icons">visibility</i>
-              </div>
-            </div>
-          </div>
-
-          <div class="form-group">
-            <label for="Input1">Input with icon on left</label>
-            <div class="input-with-icon-left">
-              <input class="form-control" placeholder="Placeholder Text" id="Input1" />
-              <div class="input-icon">
-                <i class="ether-icons">search</i>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="Input1">Input with a button</label>
-            <div class="input-group">
-              <input class="form-control" placeholder="Placeholder Text" id="Input1" />
-              <div class="input-group-append">
-                <button class="btn btn-reverse-secondary">
-                  Go
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlSelect1">Custom Select Outlined</label>
-            <select class="custom-select form-control" id="exampleFormControlSelect2">
-              <option>Option 1</option>
-              <option>Option 2</option>
-              <option>Option 3</option>
-              <option>Option 4</option>
-              <option>Option 5</option>
-            </select>
-          </div>
-        </div>
-        <div class="guide-code"></div>
-        <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
 
       <h3 class="mt-5">Input States</h3>
-      <p>Can be applied to all the input types</p>
+      <p>States can be applied to all input types.</p>
 
-      <div class="guide-example-block state-examples">
+      <div class="guide-example-block">
         <div class="guide-sample">
-          <div class="state-sample">
+          <div>
             <h5>On Focus</h5>
             <p><code>class="focus"</code></p>
             <div class="form-group">
               <label for="Input1">Label</label>
               <div class="input-with-icon-left">
-                <input class="form-control focus" value="Input Text" id="Input1" />
+                <input class="form-control focus" value="Focus" id="Input1" />
                 <div class="input-icon">
                   <i class="ether-icons">search</i>
                 </div>
               </div>
             </div>
           </div>
-          <div class="state-sample">
+          <div>
             <h5>Is Valid State</h5>
             <p><code>class="is-valid"</code></p>
             <div class="form-group">
-              <label for="Input1">Label</label>
+              <label for="Input6">Label</label>
               <div class="input-with-icon-right">
-                <input class="form-control is-valid" value="Input Text" id="Input1" />
+                <input class="form-control is-valid" value="Valid" id="Input2" />
                 <div class="input-icon">
                   <i class="ether-icons">visibility</i>
                 </div>
               </div>
             </div>
           </div>
-          <div class="state-sample">
+          <div>
             <h5>Is Invalid State</h5>
             <p><code>class="is-invalid"</code></p>
             <div class="form-group">
-              <label for="Input1">Label</label>
-              <div class="input-with-icon-right">
-                <input class="form-control is-invalid" value="Input Text" id="Input1" />
+              <label for="Input3">Label</label>
+              <div class="input-with-icon-left">
+                <input class="form-control is-invalid" value="Invalid" id="Input3" />
                 <div class="input-icon">
-                  <i class="ether-icons">visibility</i>
+                  <i class="ether-icons">search</i>
                 </div>
               </div>
             </div>
           </div>
-          <div class="state-sample">
+          <div>
             <h5>Disabled State</h5>
             <p>attribute : <code>disabled</code></p>
             <div class="form-group">
-              <label for="Input1">Label</label>
+              <label for="Input4">Label</label>
               <div class="input-with-icon-right">
-                <input class="form-control" value="Input Text" id="Input1" />
+                <input class="form-control" value="Disabled" id="Input4" disabled />
                 <div class="input-icon">
                   <i class="ether-icons">visibility</i>
                 </div>
@@ -172,20 +149,43 @@ ${require(`./header.html`)}
       </div>
     </div>
 
-
-    <h3 class="mt-5"> Borderless Inputs (border-0)</h3>
-    <p>Can be applied to all the input types</p>
+    <h3 class="mt-5">Form Feedback</h3>
+    <p>Feedback text can be added after your form inputs with the <code>.valid-feedback</code> or <code>.invalid-feeback</code> classes.</p>
     <div class="guide-example-block">
-      <p><code>class="border-0"</code></p>
-      <div class="guide-sample input-block">
+      <div class="guide-sample">
+        <form>
+          <div class="form-group">
+            <label for="valid">Valid Feedback</label>
+            <input type="text" class="form-control is-valid" id="valid" value="This is valid">
+            <div class="valid-feedback">
+              This is valid feedback.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="invalid">Invalid Feedback</label>
+            <input type="text" class="form-control is-invalid" id="invalid" value="This is invalid">
+            <div class="invalid-feedback">
+              This is invalid feedback.
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="guide-code"></div>
+      <button class="btn btn-link guide-copy-code">Click to Copy</button>
+    </div>
+
+    <h3 class="mt-5">Large Inputs</h3>
+    <p>For large input variants, add <code>.form-control-lg</code> to the input and <code>.label-lg</code> to the label.</p>
+    <div class="guide-example-block">
+      <div class="guide-sample">
         <div class="form-group">
-          <label for="Input2">Regular Input</label>
-          <input class="form-control" id="Input2" placeholder="Placeholder Text" />
+          <label class="label-lg" for="Input1">Regular Input</label>
+          <input class="form-control form-control-lg" id="Input1" placeholder="Placeholder Text" />
         </div>
         <div class="form-group">
-          <label for="Input1">Input with icon on right</label>
+          <label class="label-lg" for="Input2">Input with icon on right</label>
           <div class="input-with-icon-right">
-            <input class="form-control" placeholder="Placeholder Text" id="Input1" />
+            <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input2" />
             <div class="input-icon">
               <i class="ether-icons">visibility</i>
             </div>
@@ -193,18 +193,18 @@ ${require(`./header.html`)}
         </div>
 
         <div class="form-group">
-          <label for="Input1">Input with icon on left</label>
+          <label class="label-lg" for="Input3">Input with icon on left</label>
           <div class="input-with-icon-left">
-            <input class="form-control" placeholder="Placeholder Text" id="Input1" />
+            <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input3" />
             <div class="input-icon">
               <i class="ether-icons">search</i>
             </div>
           </div>
         </div>
         <div class="form-group">
-          <label for="Input1">Input with a button</label>
+          <label class="label-lg" for="Input4">Input with a button</label>
           <div class="input-group">
-            <input class="form-control" placeholder="Placeholder Text" id="Input1" />
+            <input class="form-control form-control-lg" placeholder="Placeholder Text" id="Input4" />
             <div class="input-group-append">
               <button class="btn btn-reverse-secondary">
                 Go
@@ -213,8 +213,8 @@ ${require(`./header.html`)}
           </div>
         </div>
         <div class="form-group">
-          <label for="exampleFormControlSelect1">Custom Select Outlined</label>
-          <select class="custom-select form-control" id="exampleFormControlSelect2">
+          <label class="label-lg" for="exampleFormControlSelect1">Custom Select Outlined</label>
+          <select class="custom-select form-control form-control-lg" id="exampleFormControlSelect2">
             <option>Option 1</option>
             <option>Option 2</option>
             <option>Option 3</option>
@@ -227,84 +227,23 @@ ${require(`./header.html`)}
       <button class="btn btn-link guide-copy-code">Click to Copy</button>
     </div>
 
-    <h3 class="mt-5"> Large Input</h3>
-    <p><code>class="form-control-lg"</code></p>
-    <p>Can be applied to all the input types</p>
+    <h3 class="mt-5">Text Area</h3>
     <div class="guide-example-block">
-      <div class="guide-sample input-block">
+      <div class="guide-sample">
         <div class="form-group">
-          <label for="Input2">Regular Input</label>
-          <input class="form-control" id="Input2" placeholder="Placeholder Text" />
-        </div>
-        <div class="form-group">
-          <label for="Input1">Input with icon on right</label>
-          <div class="input-with-icon-right">
-            <input class="form-control" placeholder="Placeholder Text" id="Input1" />
-            <div class="input-icon">
-              <i class="ether-icons">visibility</i>
-            </div>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label for="Input1">Input with icon on left</label>
-          <div class="input-with-icon-left">
-            <input class="form-control" placeholder="Placeholder Text" id="Input1" />
-            <div class="input-icon">
-              <i class="ether-icons">search</i>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="Input1">Input with a button</label>
-          <div class="input-group">
-            <input class="form-control" placeholder="Placeholder Text" id="Input1" />
-            <div class="input-group-append">
-              <button class="btn btn-reverse-secondary">
-                Go
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="exampleFormControlSelect1">Custom Select Outlined</label>
-          <select class="custom-select form-control" id="exampleFormControlSelect2">
-            <option>Option 1</option>
-            <option>Option 2</option>
-            <option>Option 3</option>
-            <option>Option 4</option>
-            <option>Option 5</option>
-          </select>
-        </div>
-      </div>
-      <div class="guide-code"></div>
-      <button class="btn btn-link guide-copy-code">Click to Copy</button>
-    </div>
-
-    <h3 class="mt-5"> Text Area</h3>
-    <div class="guide-example-block">
-      <div class="guide-sample input-block">
-        <div class="form-group">
-          <label for="Input2">Normal Text Area</label>
-          <textarea class="form-control" id="Input1">Some Text
-                </textarea>
+          <label for="Input1">Normal Text Area</label>
+          <textarea class="form-control" id="Input1">Some Text</textarea>
         </div>
         <div class="form-group">
           <label class="label-lg" for="Input2">Large Text Area</label>
-          <textarea class="form-control form-control-lg" id="Input1">Some Text
-                  </textarea>
+          <textarea class="form-control form-control-lg" id="Input2">Some Text</textarea>
         </div>
       </div>
       <div class="guide-code"></div>
       <button class="btn btn-link guide-copy-code">Click to Copy</button>
     </div>
+
   </div>
-
-
-
-</div>
-</div>
-</div>
 </div>
 </div>
 <script>
