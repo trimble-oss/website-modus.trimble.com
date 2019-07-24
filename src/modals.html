@@ -6,122 +6,140 @@ ${require(`./header.html`)}
     <p class="lead">
       Use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or
       completely custom content. </p>
-    <div class="alert alert-warning" role="alert">
-      WIP: This page is not complete.
-    </div>
-    <div class="guide-section">
-      <h2>Classes & Usage</h2>
-      <p>
-        Please read this article when using modals menu for more styles and Javascript calls.
-        <a href="https://getbootstrap.com/docs/4.0/components/dropdowns/#overview">Bootstrap Dropdown</a>
-      </p>
-      <h3 class="mt-5">Script to enable Modals</h3>
-      <div class="guide-example-block">
-        <div class="guide-sample border">
-          <figure class="highlight">
-            <pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">'#myModal'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s1">'shown.bs.modal'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
-              <span class="nx">$</span><span class="p">(</span><span class="s1">'#myInput'</span><span class="p">).</span><span class="nx">trigger</span><span class="p">(</span><span class="s1">'focus'</span><span class="p">)</span>
-            <span class="p">})</span></code></pre>
-          </figure>
-        </div>
-      </div>
 
-      <h3 class="mt-5">Modal components</h3>
-      <div class="guide-example-block">
-        <div class="guide-sample modal-static hover-dimensions">
-          <div class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <p>Modal body text goes here.</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="guide-code"></div>
-        <button class="btn btn-link guide-copy-code">Click to Copy</button>
-      </div>
+    <h2 class="mt-5">Overview</h2>
+    <p>
+      Modals are built with HTML, CSS, and JavaScript. They’re positioned over everything else in the document and remove
+      scroll from the <code>&lt;body&gt;</code> so that modal content scrolls instead.
+    </p>
+    <p>Clicking on the modal “backdrop” will automatically close the modal.</p>
+    <p>
+      Bootstrap only supports one modal window at a time. Nested modals aren’t supported as we believe them to be poor
+      user experiences.
+    </p>
+    <p>
+      Modals use <code>position: fixed</code>, which can sometimes be a bit particular about its rendering. Whenever
+      possible, place your modal HTML in a top-level position to avoid potential interference from other elements. You’ll
+      likely run into issues when nesting a <code>.modal</code> within another fixed element.
+    </p>
+    <p>
+      Due to <code>position: fixed</code>, there are some caveats with using modals on mobile devices.
+      <a href="/docs/4.3/getting-started/browsers-devices/#modals-and-dropdowns-on-mobile"
+        >See Bootstrap's browser support docs</a
+      >
+      for details.
+    </p>
+    <p>
+      Due to how HTML5 defines its semantics,
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#attr-autofocus"
+        >the <code>autofocus</code> HTML attribute</a
+      >
+      has no effect in Bootstrap modals. To achieve the same effect, use some custom JavaScript:
+    </p>
 
-      <h3 class="mt-5">Modal Demo - Position Centered</h3>
-      <div class="guide-example-block">
+    <div class="guide-example-block">
         <div class="guide-sample">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-            Launch demo modal
-          </button>
+          <pre><code class="language-js">$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})</code></pre>
+        </div>
+      </div>
 
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  ...
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+    <h3 class="mt-5">Basic Modal</h3>
+    <div class="guide-example-block">
+      <div class="guide-sample modal-static hover-dimensions">
+        <div class="modal" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Modal body text goes here.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
         </div>
-        <div class="guide-code"></div>
-        <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
-
-      <h3 class="mt-5">Modal Demo - Position Top</h3>
-      <div class="guide-example-block">
-        <div class="guide-sample">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
-            Launch demo modal
-          </button>
-
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  ...
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="guide-code"></div>
-        <button class="btn btn-link guide-copy-code">Click to Copy</button>
-      </div>
-
+      <div class="guide-code"></div>
+      <button class="btn btn-link guide-copy-code">Click to Copy</button>
     </div>
+
+    <h3 class="mt-5">Modal Demo - Position Centered</h3>
+    <div class="guide-example-block">
+      <div class="guide-sample">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="guide-code"></div>
+      <button class="btn btn-link guide-copy-code">Click to Copy</button>
+    </div>
+
+    <h3 class="mt-5">Modal Demo - Position Top</h3>
+    <div class="guide-example-block">
+      <div class="guide-sample">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+          Launch demo modal
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="guide-code"></div>
+      <button class="btn btn-link guide-copy-code">Click to Copy</button>
+    </div>
+
   </div>
 </div>
 </div>

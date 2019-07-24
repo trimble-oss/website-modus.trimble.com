@@ -132,16 +132,24 @@ ${require(`./header.html`)}
         </div>
       </div>
 
-      <div class="guide-sample" style="background-color: #f8f9fa">
-        <p><code>$theme-colors: (</code></p>
-        <p class="indent"><code> "primary": #005F9E,</code></p>
-        <p class="indent"><code> "secondary": #8C8B96,</code></p>
-        <p class="indent"><code> "dark": #363545,</code></p>
-        <p class="indent"><code> "success": #5E9331,</code></p>
-        <p class="indent"><code> "danger": #C81922,</code></p>
-        <p class="indent"><code> "info": #408AC9,</code></p>
-        <p class="indent"><code> "warning": #DEA702,</code></p>
-        <p><code> );</code></p>
+      <div class="guide-sample">
+        <pre><code class="language-sass">$theme-colors: (
+
+  "primary": #005F9E,
+
+  "secondary": #8C8B96,
+
+  "dark": #363545,
+
+  "success": #5E9331,
+
+  "danger": #C81922,
+
+  "info": #408AC9,
+
+  "warning": #DEA702,
+
+);</code></pre>
       </div>
     </div>
 
@@ -221,14 +229,20 @@ ${require(`./header.html`)}
         </div>
       </div>
 
-      <div class="guide-sample" style="background-color: #f8f9fa">
-        <p><code>$ui-colors: (</code></p>
-        <p class="indent"><code> "main-background": #FFFFFF,</code></p>
-        <p class="indent"><code> "panel-background": #F3F3F7,</code></p>
-        <p class="indent"><code> "active": #009AD9,</code></p>
-        <p class="indent"><code> "hover": #EAEAEF,</code></p>
-        <p class="indent"><code> "selected": #D0D0D7</code></p>
-        <p><code>);</code></p>
+      <div class="guide-sample">
+        <pre><code class="language-sass">$ui-colors: (
+
+  "main-background": #FFFFFF,
+
+  "panel-background": #F3F3F7,
+
+  "active": #009AD9,
+
+  "hover": #EAEAEF,
+
+  "selected": #D0D0D7
+
+);</code></pre>
       </div>
     </div>
 
@@ -340,16 +354,24 @@ ${require(`./header.html`)}
         </div>
       </div>
 
-      <div class="guide-sample" style="background-color: #f8f9fa">
-        <p class="m-0"><code>$theme-colors: (</code></p>
-        <p class="indent"><code> "trimble-blue-dark": #002D5B,</code></p>
-        <p class="indent"><code> "trimble-blue": #00437B,</code></p>
-        <p class="indent"><code> "trimble-blue-mid": #005F9E,</code></p>
-        <p class="indent"><code> "trimble-blue-light": #009AD9,</code></p>
-        <p class="indent"><code> "trimble-yellow": #FFBE00,</code></p>
-        <p class="indent"><code> "trimble-green": #4D6F33,</code></p>
-        <p class="indent"><code> "trimble-red": #A51D25,</code></p>
-        <p><code> );</code></p>
+      <div class="guide-sample">
+        <pre><code class="language-sass">$trimble-brand-colors: (
+
+  "trimble-blue-dark": #002D5B,
+
+  "trimble-blue": #00437B,
+
+  "trimble-blue-mid": #005F9E,
+
+  "trimble-blue-light": #009AD9,
+
+  "trimble-yellow": #FFBE00,
+
+  "trimble-green": #4D6F33,
+
+  "trimble-red": #A51D25,
+
+);</code></pre>
       </div>
     </div>
 
@@ -589,23 +611,38 @@ ${require(`./header.html`)}
         </div>
       </div>
 
-      <div class="guide-sample" style="background-color: #f8f9fa">
-        <p><code>$gray-50: #F9F9Fb;   // col_gray_half</code></p>
-        <p><code> $gray-100: #F3F3F7; // col_gray_light</code></p>
-        <p><code> $gray-150: #EAEAEF; // col_gray_0</code></p>
-        <p><code> $gray-200: #E2E2E7; // col_gray_1</code></p>
-        <p><code> $gray-250: #D0D0D7; // col_gray_2</code></p>
-        <p><code> $gray-300: #BFBFC6; // col_gray_3</code></p>
-        <p><code> $gray-350: #AEAEB6; // col_gray_4</code></p>
-        <p><code> $gray-400: #9D9DA6; // col_gray_5</code></p>
-        <p><code> $gray-450: #8C8B96; // col_gray_6</code></p>
-        <p><code> $gray-500: #7B7A86; // col_gray_7</code></p>
-        <p><code> $gray-550: #6A6976; // col_gray_8</code></p>
-        <p><code> $gray-600: #595868; // col_gray_9</code></p>
-        <p><code> $gray-700: #363545; // col_trimble_gray</code></p>
-        <p><code> $gray-750: #262533; // col_gray_dark_1</code></p>
-        <p><code> $gray-800: #1B1A26; // col_gray_dark_2</code></p>
-        <p><code> $gray-900: #0B0A12; // col_gray_dark_3</code></p>
+      <div class="guide-sample">
+        <pre><code class="language-sass">$gray-50: #F9F9Fb; // col_gray_half
+
+$gray-100: #F3F3F7; // col_gray_light
+
+$gray-150: #EAEAEF; // col_gray_0
+
+$gray-200: #E2E2E7; // col_gray_1
+
+$gray-250: #D0D0D7; // col_gray_2
+
+$gray-300: #BFBFC6; // col_gray_3
+
+$gray-350: #AEAEB6; // col_gray_4
+
+$gray-400: #9D9DA6; // col_gray_5
+
+$gray-450: #8C8B96; // col_gray_6
+
+$gray-500: #7B7A86; // col_gray_7
+
+$gray-550: #6A6976; // col_gray_8
+
+$gray-600: #595868; // col_gray_9
+
+$gray-700: #363545; // col_trimble_gray
+
+$gray-750: #262533; // col_gray_dark_1
+
+$gray-800: #1B1A26; // col_gray_dark_2
+
+$gray-900: #0B0A12; // col_gray_dark_3</code></pre>
       </div>
     </div>
   </div>

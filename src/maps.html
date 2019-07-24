@@ -11,29 +11,21 @@ ${require(`./header.html`)}
         Developer Guide
       </a>
     </p>
-    <div class="alert alert-warning" role="alert">
-      WIP: This page is not complete.
-    </div>
-    <div class="guide-section">
-      <h2>Trimble Maps</h2>
-      <div id="map" style="height: 700px"></div>
-      <!-- <h3 class="mt-5">Regular Buttons</h3> -->
-      <div class="guide-example-block">
-        <div class="guide-sample">
-          <link rel="stylesheet" href="https://alk-qa-public.s3.amazonaws.com/alkmaps-web-gl/alkmapsgl.css" />
-          <script src="https://alk-qa-public.s3.amazonaws.com/alkmaps-web-gl/alkmapsgl.js"></script>
-          .
-          .
-          .
-          .
-          <div id="map"></div>
-        </div>
-        <div class="guide-code"></div>
-        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+
+    <h2 class="mt-5">Trimble Maps</h2>
+    <div id="map" style="height: 700px"></div>
+    <div class="guide-example-block">
+      <div class="guide-sample d-none">
+        <link rel="stylesheet" href="https://alk-qa-public.s3.amazonaws.com/alkmaps-web-gl/alkmapsgl.css" />
+        <script src="https://alk-qa-public.s3.amazonaws.com/alkmaps-web-gl/alkmapsgl.js"></script>
+        ....
+        <div id="map"></div>
       </div>
+      <div class="guide-code"></div>
+      <button class="btn btn-link guide-copy-code">Click to Copy</button>
     </div>
+
   </div>
-</div>
 </div>
 </div>
 <script>
@@ -42,6 +34,7 @@ ${require(`./header.html`)}
     $("#maps").addClass("active");
   });
 </script>
+<script src="https://alk-qa-public.s3.amazonaws.com/alkmaps-web-gl/alkmapsgl.js"></script>
 <script>
   ALKMapsGL.APIKey = '68B06901AF7DA34884CE5FB7A202A743';
 

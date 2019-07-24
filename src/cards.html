@@ -13,7 +13,8 @@ ${require(`./header.html`)}
         <code>&lt;button&gt;</code> element. However, you can also use these classes
         on <code>&lt;a&gt;</code> or
         <code>&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).
-
+      </p>
+      <p>
         When using button classes on
         <code>&lt;a&gt;</code> elements that are used to trigger in-page functionality (like collapsing
         content), rather than linking to new pages or sections within the current page, these links should be
@@ -21,28 +22,18 @@ ${require(`./header.html`)}
         readers.
       </p>
 
-      <!-- <h3 class="mt-5">Regular Cards</h3>
+      <h3 class="mt-5">Card</h3>
       <div class="guide-example-block">
-        <div class="guide-sample hover-dimensions">
-
-        </div>
-        <div class="guide-code"></div>
-        <button class="btn btn-link guide-copy-code">Click to Copy</button>
-      </div> -->
-      <h3 class="mt-5">Floating Card</h3>
-      <div class="guide-example-block">
-        <div class="guide-sample hover-dimensions bg-light">
-          <div class="card-row">
-            <div class="card" style="width: 14rem;">
-              <div class="card-body">
-                <h5 class="card-title">Shadow Depth 1</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
+        <div class="guide-sample bg-light d-flex justify-content-center">
+          <div class="card" style="width: 14rem;">
+            <div class="card-body">
+              <h5 class="card-title">Card Title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
             </div>
           </div>
         </div>
@@ -52,17 +43,15 @@ ${require(`./header.html`)}
 
       <h3 class="mt-5">Card with Image</h3>
       <div class="guide-example-block">
-        <div class="guide-sample hover-dimensions bg-light">
-          <div class="card-row">
-            <div class="card mb-2" style="width: 18rem;">
-              <img class="card-img-top" src="https://fakeimg.pl/286x150/" alt="Card image cap">
-              <div class="card-body">
-                <h4 class="card-title">Card Title</h4>
-                <h5 class="card-subtitle mb-2 text-muted">Card Subtitle</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the
-                  bulk of the
-                  card's content.</p>
-              </div>
+        <div class="guide-sample bg-light d-flex justify-content-center">
+          <div class="card mb-2" style="width: 18rem;">
+            <img class="card-img-top" src="https://fakeimg.pl/286x150/" alt="Card image cap" />
+            <div class="card-body">
+              <h4 class="card-title">Card Title</h4>
+              <h5 class="card-subtitle mb-2 text-muted">Card Subtitle</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
             </div>
           </div>
         </div>
@@ -70,75 +59,83 @@ ${require(`./header.html`)}
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
 
-      <h3 class="mt-5">Card Shadow & depth</h3>
-
-      <div class="guide-example-block chips-block">
-        <div class="guide-sample hover-dimensions">
-          <div class="card-row">
-            <div class="card shadow-1" style="width: 14rem;">
-              <div class="card-body">
-                <h5 class="card-title">Shadow Depth 1</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-            <div class="card shadow-2" style="width: 14rem;">
-              <div class="card-body">
-                <h5 class="card-title">Shadow Depth 2</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
+      <h3 class="mt-5">Card Shadow & Depth</h3>
+      <div class="guide-example-block">
+        <div
+          class="guide-sample bg-light"
+          style="display: grid; grid-template-columns: repeat(3, 1fr); justify-items: center; grid-gap: 2rem;"
+        >
+          <div class="card" style="width: 14rem;">
+            <div class="card-body">
+              <h5 class="card-title">No Shadow Depth</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
             </div>
           </div>
-          <div class="card-row">
-            <div class="card shadow-3" style="width: 14rem;">
-              <div class="card-body">
-                <h5 class="card-title">Shadow Depth 3</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-            <div class="card shadow-4" style="width: 14rem;">
-              <div class="card-body">
-                <h5 class="card-title">Shadow Depth 4</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
+          <div class="card shadow-1" style="width: 14rem;">
+            <div class="card-body">
+              <h5 class="card-title">Shadow Depth 1</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
             </div>
           </div>
-          <div class="card-row">
-            <div class="card shadow-5" style="width: 14rem;">
-              <div class="card-body">
-                <h5 class="card-title">Shadow Depth 5</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                  card's
-                  content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
+          <div class="card shadow-2" style="width: 14rem;">
+            <div class="card-body">
+              <h5 class="card-title">Shadow Depth 2</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+          <div class="card shadow-3" style="width: 14rem;">
+            <div class="card-body">
+              <h5 class="card-title">Shadow Depth 3</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+          <div class="card shadow-4" style="width: 14rem;">
+            <div class="card-body">
+              <h5 class="card-title">Shadow Depth 4</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+          <div class="card shadow-5" style="width: 14rem;">
+            <div class="card-body">
+              <h5 class="card-title">Shadow Depth 5</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
             </div>
           </div>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
+
     </div>
   </div>
 </div>

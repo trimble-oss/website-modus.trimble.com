@@ -1,6 +1,7 @@
 var Pretty = require('pretty');
 var Prism = require('prismjs');
 require('prismjs/components/prism-sass');
+require('prismjs/components/prism-bash');
 
 const copyToClipboard = str => {
   const el = document.createElement('textarea'); // Create a <textarea> element
