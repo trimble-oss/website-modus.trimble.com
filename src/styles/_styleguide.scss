@@ -1,4 +1,4 @@
-// @import '/node_modules/prismjs/themes/prism.css';
+
 $panel-background-color: #F3F3F7;
 
 html {
@@ -7,6 +7,7 @@ html {
 
 body {
   height: 100%;
+  overflow: hidden;
 }
 
 table {
@@ -145,7 +146,6 @@ th, td {
   //display: flex;
   display: inherit;
   flex-wrap: wrap;
-
 
   .form-group {
     width: 300px;
