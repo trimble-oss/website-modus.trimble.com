@@ -2,6 +2,7 @@ const Path = require('path');
 const Webpack = require('webpack');
 const merge = require('webpack-merge');
 const common = require('./webpack.common.js');
+const variables = require('./variables');
 
 module.exports = merge(common, {
   mode: 'development',
@@ -14,7 +15,13 @@ module.exports = merge(common, {
   },
   plugins: [
     new Webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify('development')
+      'process.env.NODE_ENV': JSON.stringify('development'),
+      'etherVersion': JSON.stringify(variables.ether.etherVersion),
+      'etherIconsVersion': JSON.stringify(variables.ether.etherIconsVersion),
+      'etherIcons': JSON.stringify(variables.ether.devLinks.etherIcons),
+      'etherCSS': JSON.stringify(variables.ether.devLinks.etherCSS),
+      'etherLayoutCSS': JSON.stringify(variables.ether.devLinks.etherLayoutCSS),
+      'etherLayoutJS': JSON.stringify(variables.ether.devLinks.etherLayoutJS),
     })
   ],
   module: {

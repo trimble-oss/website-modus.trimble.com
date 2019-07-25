@@ -1,7 +1,9 @@
 const Path = require('path');
+const Webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const variables = require('./variables');
 
 module.exports = {
   entry: {
@@ -18,6 +20,10 @@ module.exports = {
     }
   },
   plugins: [
+    new Webpack.DefinePlugin({
+      'etherVersion': JSON.stringify(variables.ether.etherVersion),
+      'etherIconsVersion': JSON.stringify(variables.ether.etherIconsVersion)
+    }),
     new CleanWebpackPlugin(['build'], {
       root: Path.resolve(__dirname, '..')
     }),

@@ -3,6 +3,7 @@ const Webpack = require('webpack');
 const merge = require('webpack-merge');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const common = require('./webpack.common.js');
+const variables = require('./variables');
 
 module.exports = merge(common, {
   mode: 'production',
@@ -15,7 +16,13 @@ module.exports = merge(common, {
   },
   plugins: [
     new Webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify('production')
+      'process.env.NODE_ENV': JSON.stringify('production'),
+      'etherVersion': JSON.stringify(variables.ether.etherVersion),
+      'etherIconsVersion': JSON.stringify(variables.ether.etherIconsVersion),
+      'etherIcons': JSON.stringify(variables.ether.prodLinks.etherIcons),
+      'etherCSS': JSON.stringify(variables.ether.prodLinks.etherCSS),
+      'etherLayoutCSS': JSON.stringify(variables.ether.prodLinks.etherLayoutCSS),
+      'etherLayoutJS': JSON.stringify(variables.ether.prodLinks.etherLayoutJS),
     }),
     new Webpack.optimize.ModuleConcatenationPlugin(),
     new MiniCssExtractPlugin({
