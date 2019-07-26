@@ -8,7 +8,7 @@
     "deploy": "cross-env s3-deploy './build/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './build/' --region us-east-1 --bucket prod-styles-trimblemaps --cache 0",
     "deploy:dev": "cross-env s3-deploy './build/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './build/' --region us-east-1 --bucket dev-styles-trimblemaps --cache 0",
     "start": "npm run changelog && webpack-dev-server --open --config webpack/webpack.config.dev.js",
-    "preview": "npm run changelog && webpack-dev-server --open --config webpack/webpack.config.prod.js",
+    "start:prod": "npm run changelog && webpack-dev-server --open --config webpack/webpack.config.prod.js",
     "changelog": "shx mkdir -p temp && git-file.bat",
     "changelog:convert": "decompress --plugin=tar --out-dir=./temp ./temp/CHANGELOG.tar && showdown makehtml -i ./temp/CHANGELOG.md -o ./src/change-content.html && shx rm -rf ./temp"
   },

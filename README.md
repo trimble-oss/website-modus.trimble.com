@@ -14,15 +14,15 @@ npm install
 npm start
 ```
 
-## Preview Production Build
+## Start Prod Server
 
 Starts a local server that uses `webpack.config.prod.js`
 
 ```bash
-npm run preview
+npm run start:prod
 ```
 
-## Build Prod Version
+## Build Dev Version
 
 ```bash
 npm run build:dev
