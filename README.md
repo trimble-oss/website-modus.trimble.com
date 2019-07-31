@@ -1,6 +1,6 @@
 # Ether Framework Guide
 
-The Ether Framework was developed as a common platform for all of Trimble MAPS web applications, with the additional goal of sharing with other groups within Trimble.
+The Ether Framework was developed as a common, open source platform for all of Trimble's web applications.
 
 ## Installation
 
