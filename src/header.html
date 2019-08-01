@@ -65,20 +65,24 @@
 
   <body>
     <div class="guide-layout d-flex flex-fill flex-column">
-      <nav class="guide-header navbar navbar-dark bg-gray-750 navbar-expand-lg flex-grow-0">
+      <nav
+        class="guide-header navbar bg-gray-50 navbar-expand-lg flex-grow-0 align-items-center"
+      >
+        <button class="btn btn-text-dark btn-lg btn-icon-only mr-3 navbar-toggler"  type="button" data-toggle="collapse" data-target="#mainSidebar" aria-controls="mainSidebar" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="ether-icons menu-btn">menu</i></button>
         <a class="navbar-brand" href="/index.html">
           <img
-            src="${require(`./img/trimble-logo-rev.svg`)}"
+            src="${require(`./img/trimble-logo.svg`)}"
             alt="Trimble"
-            class="d-inline-block align-middle"
-            height="30px"
+            class="d-inline-block"
+            height="25px"
           />
         </a>
-        <div class="navbar-text">
-          <span class="display-4 text-gray-300 m-0">Style Guide and CSS Library</span>
+        <div class="navbar-text ml-1">
+          <h4 class="text-primary m-0">Style Guide and CSS Library</h4>
         </div>
-        <div class="collapse navbar-collapse">
-          <div class="navbar-nav m-auto"></div>
+        <div class="ml-auto">
+          
           <button id="issueButton" class="btn btn-warning mr-2">
             Report an Issue
           </button>
@@ -88,34 +92,37 @@
         </div>
       </nav>
       <div class="guide-body d-flex flex-row flex-fill">
-        <nav class="guide-nav border-right bg-gray-150 p-2" id="mainSidebar">
+        <nav class="guide-nav pl-3 mt-3" id="mainSidebar">
           <ul class="nav flex-column">
             <li class="nav-item">
               <a id="home" class="nav-link" href="/index.html"> Introduction</a>
             </li>
-            <!-- <li  class="nav-item">
-            <a id="layout" class="nav-link" href="/layout.html">
-                            Ether Layout</a>
-          </li> -->
-            <li class="nav-item">
-              <a id="colors" class="nav-link" href="/colors.html">
-                Color Palette</a
+            <li class="has-subnav">
+              <a
+                id="foundations"
+                href="#"
+                class="nav-link collapsed "
+                data-toggle="collapse"
+                data-target="#foundationsSubnav"
               >
+                Foundations <i class="ether-icons">expand_more</i>
+              </a>
+
+              <div class="collapse" id="foundationsSubnav">
+                <ul class="nav sub-nav flex-column pl-2">
+                  <li class="nav-item">
+                    <a id="colors" class="nav-link" href="/colors.html">
+                      Color Palette</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a id="typography" class="nav-link" href="/typography.html">
+                      Typography</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </li>
-            <li class="nav-item">
-              <a id="icons" class="nav-link" href="/icons.html">
-                Icon Library</a
-              >
-            </li>
-            <li class="nav-item">
-              <a id="typography" class="nav-link" href="/typography.html">
-                Typography</a
-              >
-            </li>
-            <!-- <li  class="nav-item">
-            <a id="tokens" class="nav-link" href="">
-                            Design Tokens</a>
-          </li> -->
             <li class="has-subnav">
               <a
                 id="components"
@@ -128,94 +135,54 @@
               </a>
 
               <div class="collapse" id="componentsSubnav">
-                <ul class="nav flex-column pl-2">
+                <ul class="nav sub-nav flex-column pl-2">
                   <li class="nav-item">
-                    <a
-                      id="accordions"
-                      href="/accordions.html"
-                      class="nav-link"
-                    >
+                    <a id="accordions" href="/accordions.html" class="nav-link">
                       Accordions
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      id="alerts"
-                      href="/alerts.html"
-                      class="nav-link"
-                    >
+                    <a id="alerts" href="/alerts.html" class="nav-link">
                       Alerts
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      id="badges"
-                      href="/badges.html"
-                      class="nav-link"
-                    >
+                    <a id="badges" href="/badges.html" class="nav-link">
                       Badges
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      id="buttons"
-                      href="/buttons.html"
-                      class="nav-link"
-                    >
+                    <a id="buttons" href="/buttons.html" class="nav-link">
                       Buttons
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      id="chips"
-                      href="/chips.html"
-                      class="nav-link"
-                    >
+                    <a id="chips" href="/chips.html" class="nav-link">
                       Chips
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      id="cards"
-                      href="cards.html"
-                      class="nav-link"
-                    >
+                    <a id="cards" href="cards.html" class="nav-link">
                       Cards
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      id="dropdowns"
-                      href="/dropdowns.html"
-                      class="nav-link"
-                    >
+                    <a id="dropdowns" href="/dropdowns.html" class="nav-link">
                       Dropdowns
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      id="forms"
-                      href="/forms.html"
-                      class="nav-link"
-                    >
+                    <a id="forms" href="/forms.html" class="nav-link">
                       Forms
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      id="controls"
-                      href="/controls.html"
-                      class="nav-link"
-                    >
+                    <a id="controls" href="/controls.html" class="nav-link">
                       Input Controls
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      id="lists"
-                      href="/lists.html"
-                      class="nav-link"
-                    >
+                    <a id="lists" href="/lists.html" class="nav-link">
                       Lists
                     </a>
                   </li>
@@ -225,47 +192,27 @@
                 </a>
 </li> -->
                   <li class="nav-item">
-                    <a
-                      id="modals"
-                      href="/modals.html"
-                      class="nav-link"
-                    >
+                    <a id="modals" href="/modals.html" class="nav-link">
                       Modals
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      id="shadows"
-                      href="shadows.html"
-                      class="nav-link"
-                    >
+                    <a id="shadows" href="shadows.html" class="nav-link">
                       Shadows
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      id="tables"
-                      href="/tables.html"
-                      class="nav-link"
-                    >
+                    <a id="tables" href="/tables.html" class="nav-link">
                       Tables
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      id="tabs"
-                      href="/tabs.html"
-                      class="nav-link"
-                    >
+                    <a id="tabs" href="/tabs.html" class="nav-link">
                       Tabs
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      id="tooltips"
-                      href="/tooltips.html"
-                      class="nav-link"
-                    >
+                    <a id="tooltips" href="/tooltips.html" class="nav-link">
                       Tooltips
                     </a>
                   </li>
@@ -283,128 +230,74 @@
                 CSS Library <i class="ether-icons">expand_more</i>
               </a>
               <div class="collapse" id="utilitiesSubnav">
-                <ul class="nav flex-column pl-2">
-                  
-                    <li class="nav-item">
-                        <a
-                          href="/setup.html"
-                          id="setup"
-                          class="nav-link"
-                        >Getting Started
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a
-                          href="/layout.html"
-                          id="layout"
-                          class="nav-link"
-                        >Application Layout
-                        </a>
-                      </li>
+                <ul class="nav sub-nav flex-column pl-2">
                   <li class="nav-item">
-                    <a
-                      href="/borders.html"
-                      id="borders"
-                      class="nav-link"
-                    >Borders
+                    <a href="/setup.html" id="setup" class="nav-link"
+                      >Getting Started
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      href="/clearfix.html"
-                      id="clearfix"
-                      class="nav-link"
-                    >
+                    <a href="/layout.html" id="layout" class="nav-link"
+                      >Application Layout
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/borders.html" id="borders" class="nav-link"
+                      >Borders
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="/clearfix.html" id="clearfix" class="nav-link">
                       Clearfix
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      href="/close-icon.html"
-                      id="closeIcon"
-                      class="nav-link"
-                    >
+                    <a href="/close-icon.html" id="closeIcon" class="nav-link">
                       Close Icon
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      href="/display.html"
-                      id="display"
-                      class="nav-link"
-                    >
+                    <a href="/display.html" id="display" class="nav-link">
                       Display
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      href="/embed.html"
-                      id="embed"
-                      class="nav-link"
-                    >
+                    <a href="/embed.html" id="embed" class="nav-link">
                       Embed
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      href="/flex.html"
-                      id="flex"
-                      class="nav-link"
-                    >
+                    <a href="/flex.html" id="flex" class="nav-link">
                       Flex
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      href="/float.html"
-                      id="float"
-                      class="nav-link"
-                    >
+                    <a href="/float.html" id="float" class="nav-link">
                       Float
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      href="/overflow.html"
-                      id="overflow"
-                      class="nav-link"
-                    >
+                    <a href="/overflow.html" id="overflow" class="nav-link">
                       Overflow
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      href="/position.html"
-                      id="position"
-                      class="nav-link"
-                    >
+                    <a href="/position.html" id="position" class="nav-link">
                       Position
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      href="/sizing.html"
-                      id="sizing"
-                      class="nav-link"
-                    >
+                    <a href="/sizing.html" id="sizing" class="nav-link">
                       Sizing
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      href="/spacing.html"
-                      id="spacing"
-                      class="nav-link"
-                    >
+                    <a href="/spacing.html" id="spacing" class="nav-link">
                       Spacing
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      href="/text.html"
-                      id="text"
-                      class="nav-link"
-                    >
+                    <a href="/text.html" id="text" class="nav-link">
                       Text
                     </a>
                   </li>
@@ -418,32 +311,23 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      href="/visibility.html"
-                      id="visibility"
-                      class="nav-link"
-                    >
+                    <a href="/visibility.html" id="visibility" class="nav-link">
                       Visibility
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a
-                      href="/changes.html"
-                      id="changeLog"
-                      class="nav-link"
-                    >
+                    <a href="/changes.html" id="changeLog" class="nav-link">
                       Change Log
                     </a>
                   </li>
                 </ul>
               </div>
             </li>
-            <!-- TODO: Reinstate Branding section once content is available -->
-            <!-- <li  class="nav-item">
-            <a id="branding" class="nav-link" href="/branding.html">
-
-                            Branding</a>
-          </li> -->
+            <li class="nav-item">
+              <a id="icons" class="nav-link" href="/icons.html">
+                Icon Library</a
+              >
+            </li>
           </ul>
         </nav>
         <div

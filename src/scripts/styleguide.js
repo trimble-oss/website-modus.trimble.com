@@ -140,6 +140,8 @@ $(function() {
       ? [$("#components"), $("#componentsSubnav")]
       : parentElementId === "utilitiesSubnav"
       ? [$("#utilities"), $("#utilitiesSubnav")]
+      : parentElementId === "foundationsSubnav"
+      ? [$("#foundations"), $("#foundationsSubnav")]
       : [];
   }
 
