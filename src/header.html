@@ -1,277 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ether Framework Guide</title>
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="${etherIcons}" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="${require(`./img/favicon.ico`)}"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ether Framework Guide</title>
-  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="${etherIcons}">
-  <link rel="icon" type="image/x-icon" href="${require(`./img/favicon.ico`)}" />
+    <link rel="stylesheet" href="${etherCSS}" />
+    <link rel="stylesheet" href="${etherLayoutCSS}" />
+    <script src="${etherLayoutJS}"></script>
 
-  <link rel="stylesheet" href="${etherCSS}" />
-  <link rel="stylesheet" href="${etherLayoutCSS}" />
-  <script src="${etherLayoutJS}"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-  </script>
+    <script
+      type="text/javascript"
+      src="https://jira.trimble.tools/s/3437519aa7c48d4bde2062c82e260064-T/obnrbp/76010/9d85737751e6b339a2967c1b0989fc67/2.0.27/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=9127b19e"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://jira.trimble.tools/s/3437519aa7c48d4bde2062c82e260064-T/obnrbp/76010/9d85737751e6b339a2967c1b0989fc67/2.0.27/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=eac08567"
+    ></script>
 
-  <script type="text/javascript"
-    src="https://jira.trimble.tools/s/3437519aa7c48d4bde2062c82e260064-T/obnrbp/76010/9d85737751e6b339a2967c1b0989fc67/2.0.27/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=9127b19e">
-  </script>
-  <script type="text/javascript"
-    src="https://jira.trimble.tools/s/3437519aa7c48d4bde2062c82e260064-T/obnrbp/76010/9d85737751e6b339a2967c1b0989fc67/2.0.27/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=eac08567">
-  </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-787590-52"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-787590-52"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag()
-  {dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('js', new Date());
+      gtag('config', 'UA-787590-52');
+    </script>
+  </head>
 
-  gtag('config', 'UA-787590-52');
-  </script>
-</head>
-
-<body>
-  <div class="ether-layout">
-    <nav class="navbar navbar-expand-lg ether-header">
-      <a data-ether-item="menu-btn"><i class="material-icons menu-btn">menu</i></a>
-      <a class="navbar-brand" href="/index.html">
-        <img src="${require(`./img/trimble-logo.svg`)}" alt="Trimble" class="d-inline-block align-middle" height="30px" />
-
-      </a>
-      <div class="navbar-text">
-        <span class="h2 m-0">Ether Framework Guide</span>
-      </div>
-      <div class="collapse navbar-collapse">
-        <div class="navbar-nav m-auto">
+  <body>
+    <div class="guide-layout d-flex flex-fill flex-column">
+      <nav class="guide-header navbar navbar-dark bg-gray-750 navbar-expand-lg flex-grow-0">
+        <a class="navbar-brand" href="/index.html">
+          <img
+            src="${require(`./img/trimble-logo-rev.svg`)}"
+            alt="Trimble"
+            class="d-inline-block align-middle"
+            height="30px"
+          />
+        </a>
+        <div class="navbar-text">
+          <span class="display-4 text-gray-300 m-0">Style Guide and CSS Library</span>
         </div>
-        <button id="issueButton" class="btn btn-warning mr-2">Report an Issue</button>
-        <button id="featureButton" class="btn btn-primary">Request a Feature</button>
-      </div>
-    </nav>
-    <div class="ether-body sidebar-open" data-ether-item="body">
-      <nav id="mainSidebar" class="nav flex-column ether-sidebar">
-        <ul>
-          <li>
-            <a id="home" class="nav-link" href="/index.html">
-              <span class="left-nav-icon">
-                <i class="icon material-icons">home</i>
-              </span>
-              Introduction</a>
-          </li>
-          <li>
+        <div class="collapse navbar-collapse">
+          <div class="navbar-nav m-auto"></div>
+          <button id="issueButton" class="btn btn-warning mr-2">
+            Report an Issue
+          </button>
+          <button id="featureButton" class="btn btn-primary">
+            Request a Feature
+          </button>
+        </div>
+      </nav>
+      <div class="guide-body d-flex flex-row flex-fill">
+        <nav class="guide-nav border-right bg-gray-150 p-2" id="mainSidebar">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a id="home" class="nav-link" href="/index.html"> Introduction</a>
+            </li>
+            <!-- <li  class="nav-item">
             <a id="layout" class="nav-link" href="/layout.html">
-              <span class="left-nav-icon">
-                <i class="icon material-icons">view_quilt</i>
-              </span>
-              Ether Layout</a>
-          </li>
-          <li>
-            <a id="colors" class="nav-link" href="/colors.html">
-              <span class="left-nav-icon">
-                <i class="icon material-icons">color_lens</i>
-              </span>
-              Color Palette</a>
-          </li>
-          <li>
-            <a id="icons" class="nav-link" href="/icons.html">
-              <span class="left-nav-icon">
-                <i class="icon material-icons">sentiment_satisfied_alt</i>
-              </span>
-              Icon Library</a>
-          </li>
-          <li>
-            <a id="typography" class="nav-link" href="/typography.html">
-              <span class="left-nav-icon">
-                <i class="material-icons">text_fields</i>
-              </span>
-              Typography</a>
-          </li>
-          <!-- <li>
-            <a id="tokens" class="nav-link" href="">
-              <span class="left-nav-icon">
-                <i class="material-icons">loyalty</i>
-              </span>
-              Design Tokens</a>
+                            Ether Layout</a>
           </li> -->
-          <li class="has-subnav">
-            <a id="components" href="#" class="nav-link collapsed " data-toggle="collapse" data-target="#componentsSubnav">
-              <span class="left-nav-icon">
-                <i class="icon material-icons">ballot</i>
-              </span>
-              Components <i class="ether-icons expand-icon">expand_less</i>
-            </a>
+            <li class="nav-item">
+              <a id="colors" class="nav-link" href="/colors.html">
+                Color Palette</a
+              >
+            </li>
+            <li class="nav-item">
+              <a id="icons" class="nav-link" href="/icons.html">
+                Icon Library</a
+              >
+            </li>
+            <li class="nav-item">
+              <a id="typography" class="nav-link" href="/typography.html">
+                Typography</a
+              >
+            </li>
+            <!-- <li  class="nav-item">
+            <a id="tokens" class="nav-link" href="">
+                            Design Tokens</a>
+          </li> -->
+            <li class="has-subnav">
+              <a
+                id="components"
+                href="#"
+                class="nav-link collapsed "
+                data-toggle="collapse"
+                data-target="#componentsSubnav"
+              >
+                UI Elements <i class="ether-icons">expand_more</i>
+              </a>
 
-            <div class="collapse sub-nav" id="componentsSubnav">
-
-                <a id="accordions" href="/accordions.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Accordions
-                </a>
-                <a id="alerts" href="/alerts.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Alerts
-                </a>
-                <a id="badges" href="/badges.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Badges
-                </a>
-                <a id="buttons" href="/buttons.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Buttons
-                </a>
-                <a id="chips" href="/chips.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Chips
-                </a>
-                <a id="cards" href="cards.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Cards
-                </a>
-                <a id="dropdowns" href="/dropdowns.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Dropdowns
-                </a>
-                <a id="forms" href="/forms.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Forms
-                </a>
-                <a id="controls" href="/controls.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Input Controls
-                </a>
-                <a id="lists" href="/lists.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Lists
-                </a>
-                <!-- <a id="maps" href="/maps.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
+              <div class="collapse" id="componentsSubnav">
+                <ul class="nav flex-column pl-2">
+                  <li class="nav-item">
+                    <a
+                      id="accordions"
+                      href="/accordions.html"
+                      class="nav-link"
+                    >
+                      Accordions
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      id="alerts"
+                      href="/alerts.html"
+                      class="nav-link"
+                    >
+                      Alerts
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      id="badges"
+                      href="/badges.html"
+                      class="nav-link"
+                    >
+                      Badges
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      id="buttons"
+                      href="/buttons.html"
+                      class="nav-link"
+                    >
+                      Buttons
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      id="chips"
+                      href="/chips.html"
+                      class="nav-link"
+                    >
+                      Chips
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      id="cards"
+                      href="cards.html"
+                      class="nav-link"
+                    >
+                      Cards
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      id="dropdowns"
+                      href="/dropdowns.html"
+                      class="nav-link"
+                    >
+                      Dropdowns
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      id="forms"
+                      href="/forms.html"
+                      class="nav-link"
+                    >
+                      Forms
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      id="controls"
+                      href="/controls.html"
+                      class="nav-link"
+                    >
+                      Input Controls
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      id="lists"
+                      href="/lists.html"
+                      class="nav-link"
+                    >
+                      Lists
+                    </a>
+                  </li>
+                  <!-- <li class="nav-item">
+<a id="maps" href="/maps.html" class="nav-link">
                   Maps
-                </a> -->
-                <a id="modals" href="/modals.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Modals
                 </a>
-                <a id="shadows" href="shadows.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Shadows
-                </a>
-                <a id="tables" href="/tables.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Tables
-                </a>
-                <a id="tabs" href="/tabs.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Tabs
-                </a>
-                <a id="tooltips" href="/tooltips.html" class="list-group-item nav-link">
-                  <span class="left-nav-icon"></span>
-                  Tooltips
-                </a>
-
-            </div>
-          </li>
-
-          <li class="has-subnav">
-            <a id="utilities" href="#controls-subnav" class="nav-link collapsed " data-toggle="collapse" data-target="#utilitiesSubnav">
-              <span class="left-nav-icon">
-                <i class="icon material-icons">build</i>
-              </span>
-              Utilities <i class="ether-icons expand-icon">expand_less</i>
-            </a>
-            <div class="collapse sub-nav" id="utilitiesSubnav">
-
-              <a href="/borders.html" id="borders" class="list-group-item nav-link">
-                <span class="left-nav-icon"></span>
-                Borders
+</li> -->
+                  <li class="nav-item">
+                    <a
+                      id="modals"
+                      href="/modals.html"
+                      class="nav-link"
+                    >
+                      Modals
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      id="shadows"
+                      href="shadows.html"
+                      class="nav-link"
+                    >
+                      Shadows
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      id="tables"
+                      href="/tables.html"
+                      class="nav-link"
+                    >
+                      Tables
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      id="tabs"
+                      href="/tabs.html"
+                      class="nav-link"
+                    >
+                      Tabs
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      id="tooltips"
+                      href="/tooltips.html"
+                      class="nav-link"
+                    >
+                      Tooltips
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="has-subnav">
+              <a
+                id="utilities"
+                href="#controls-subnav"
+                class="nav-link collapsed "
+                data-toggle="collapse"
+                data-target="#utilitiesSubnav"
+              >
+                CSS Library <i class="ether-icons">expand_more</i>
               </a>
-              <a href="/clearfix.html" id="clearfix" class="list-group-item nav-link">
-                <span class="left-nav-icon"></span>
-                Clearfix
-              </a>
-              <a href="/close-icon.html" id="closeIcon" class="list-group-item nav-link">
-                <span class="left-nav-icon"></span>
-                Close Icon
-              </a>
-              <a href="/display.html" id="display" class="list-group-item nav-link">
-                <span class="left-nav-icon"></span>
-                Display
-              </a>
-              <a href="/embed.html" id="embed" class="list-group-item nav-link">
-                <span class="left-nav-icon"></span>
-                Embed
-              </a>
-              <a href="/flex.html" id="flex" class="list-group-item nav-link">
-                <span class="left-nav-icon"></span>
-                Flex
-              </a>
-              <a href="/float.html" id="float" class="list-group-item nav-link">
-                <span class="left-nav-icon"></span>
-                Float
-              </a>
-              <a href="/overflow.html" id="overflow" class="list-group-item nav-link">
-                <span class="left-nav-icon"></span>
-                Overflow
-              </a>
-              <a href="/position.html" id="position" class="list-group-item nav-link">
-                <span class="left-nav-icon"></span>
-                Position
-              </a>
-              <a href="/sizing.html" id="sizing" class="list-group-item nav-link">
-                <span class="left-nav-icon"></span>
-                Sizing
-              </a>
-              <a href="/spacing.html" id="spacing" class="list-group-item nav-link">
-                <span class="left-nav-icon"></span>
-                Spacing
-              </a>
-              <a href="/text.html" id="text" class="list-group-item nav-link">
-                <span class="left-nav-icon"></span>
-                Text
-              </a>
-              <a href="/vertical-alignment.html" id="verticalAlignment" class="list-group-item nav-link">
-                <span class="left-nav-icon"></span>
-                Vertical Alignment
-              </a>
-              <a href="/visibility.html" id="visibility" class="list-group-item nav-link">
-                <span class="left-nav-icon"></span>
-                Visibility
-              </a>
-
-            </div>
-          </li>
-
-          <li>
-            <a id="changes" class="nav-link" href="/changes.html">
-              <span class="left-nav-icon">
-                <i class="icon material-icons">change_history</i>
-              </span>
-              Change Log</a>
-          </li>
-          <!-- TODO: Reinstate Branding section once content is available -->
-          <!-- <li>
+              <div class="collapse" id="utilitiesSubnav">
+                <ul class="nav flex-column pl-2">
+                  
+                    <li class="nav-item">
+                        <a
+                          href="/setup.html"
+                          id="setup"
+                          class="nav-link"
+                        >Getting Started
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          href="/layout.html"
+                          id="layout"
+                          class="nav-link"
+                        >Application Layout
+                        </a>
+                      </li>
+                  <li class="nav-item">
+                    <a
+                      href="/borders.html"
+                      id="borders"
+                      class="nav-link"
+                    >Borders
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/clearfix.html"
+                      id="clearfix"
+                      class="nav-link"
+                    >
+                      Clearfix
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/close-icon.html"
+                      id="closeIcon"
+                      class="nav-link"
+                    >
+                      Close Icon
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/display.html"
+                      id="display"
+                      class="nav-link"
+                    >
+                      Display
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/embed.html"
+                      id="embed"
+                      class="nav-link"
+                    >
+                      Embed
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/flex.html"
+                      id="flex"
+                      class="nav-link"
+                    >
+                      Flex
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/float.html"
+                      id="float"
+                      class="nav-link"
+                    >
+                      Float
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/overflow.html"
+                      id="overflow"
+                      class="nav-link"
+                    >
+                      Overflow
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/position.html"
+                      id="position"
+                      class="nav-link"
+                    >
+                      Position
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/sizing.html"
+                      id="sizing"
+                      class="nav-link"
+                    >
+                      Sizing
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/spacing.html"
+                      id="spacing"
+                      class="nav-link"
+                    >
+                      Spacing
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/text.html"
+                      id="text"
+                      class="nav-link"
+                    >
+                      Text
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/vertical-alignment.html"
+                      id="verticalAlignment"
+                      class="nav-link"
+                    >
+                      Vertical Alignment
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/visibility.html"
+                      id="visibility"
+                      class="nav-link"
+                    >
+                      Visibility
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href="/changes.html"
+                      id="changeLog"
+                      class="nav-link"
+                    >
+                      Change Log
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <!-- TODO: Reinstate Branding section once content is available -->
+            <!-- <li  class="nav-item">
             <a id="branding" class="nav-link" href="/branding.html">
 
-              <span class="left-nav-icon">
-                <img src="${require(`./img/favicon.ico`)}" />
-              </span>
-              Branding</a>
+                            Branding</a>
           </li> -->
-        </ul>
-
-      </nav>
-      <div class="ether-content-rows ether-content">
+          </ul>
+        </nav>
+        <div
+          class="guide-scroll-container d-flex flex-fill overflow-auto"
+        >

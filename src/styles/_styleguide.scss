@@ -1,5 +1,7 @@
-// @import '/node_modules/prismjs/themes/prism.css';
-$panel-background-color: #F3F3F7;
+@import './node_modules/@trimblemaps/ether-framework/scss/components/functions';
+@import './node_modules/@trimblemaps/ether-framework/scss/components/mixins';
+@import './node_modules/@trimblemaps/ether-framework/scss/components/theme';
+@import './node_modules/@trimblemaps/ether-framework/scss/components/variables';
 
 html {
   height: 100%;
@@ -7,6 +9,7 @@ html {
 
 body {
   height: 100%;
+  background-color: ui-color('panel-background');
 }
 
 table {
@@ -17,16 +20,36 @@ table {
   background-color: #f8f9fa;
 }
 
-th, td {
-  padding: .75rem;
+th,
+td {
+  padding: 0.75rem;
   vertical-align: top;
   border: 1px solid #dee3e6;
+}
+
+.guide-layout {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.guide-header {
+
+  .navbar-brand > img {
+    height: 40px;
+  }
+
+
+}
+
+.guide-body {
+  flex: 2;
+  overflow-y: auto;
 }
 
 .guide-content {
   //overflow-y: auto;
   padding: 20px;
-  background-color: $panel-background-color;
 }
 
 .guide-content-column {
@@ -34,26 +57,12 @@ th, td {
   //  min-width: 960px;
 }
 
-.guide-header {
-  height: 70px;
-  background-color: #fff;
-
-  &>img {
-    max-height: 30px;
-    max-width: 200px;
-    float: left;
-    margin: 20px;
-  }
-
-  &>h1 {
-    display: inline-block;
-    font-size: 2rem;
-    margin-top: 12px;
-  }
-}
-
 .guide-section {
   margin: 40px 0 80px;
+}
+
+.guide-footer {
+  min-height: 24px;
 }
 
 .guide-example-block {
@@ -62,7 +71,7 @@ th, td {
   // min-width: 900px;
   position: relative;
 
-  &>div {
+  & > div {
     border: 1px solid #ddd;
   }
 
@@ -99,7 +108,7 @@ th, td {
 }
 
 .card-inverse {
-  background-color: #1B1A26;
+  background-color: #1b1a26;
   .card-subtitle {
     color: #fff;
   }
@@ -110,7 +119,7 @@ th, td {
     margin: 0px 20px;
   }
 
-  .btn-group>.btn {
+  .btn-group > .btn {
     margin: unset;
   }
 }
@@ -144,7 +153,6 @@ th, td {
   .card {
     margin: 20px 50px;
     widows: 14rem;
-    ;
   }
 }
 
@@ -161,8 +169,8 @@ th, td {
   }
 }
 
-:not(pre)>code[class*="language-"],
-pre[class*="language-"] {
+:not(pre) > code[class*='language-'],
+pre[class*='language-'] {
   background: #fff;
 }
 
@@ -215,7 +223,7 @@ pre[class*="language-"] {
   height: 5rem;
   width: 5rem;
   display: inline-block;
-  background-color: #F3F3F7;
+  background-color: #f3f3f7;
   margin-right: 1rem;
 }
 
@@ -231,8 +239,8 @@ pre[class*="language-"] {
 }
 
 .highlighted {
-  background-color: rgba(86,61,124,.15);
-  border: 1px solid rgba(86,61,124,.15);
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.15);
 }
 
 #snackbar {
@@ -310,65 +318,18 @@ pre[class*="language-"] {
   }
 }
 
-.ether-content {
-  background-color: #F3F3F7;
-}
-
-.guide-sample {
-  .sidebar-open {
-    .ether-sidebar {
-      ul {
-        padding: 0;
-
-        li {
-          list-style: none;
-
-          .collapsed {
-            .expand-icon {
-              transform: rotate(180deg);
-              -webkit-transform: rotate(180deg);
-            }
-          }
-        }
-
-        .sub-nav {
-          .nav-link {
-            border: none;
-            padding-left: 3rem;
-          }
-        }
-
+.guide-layout {
+  .guide-nav {
+    .nav-link[data-toggle]:not(.collapsed) {
+      & > i {
+        transform: rotate(180deg);
+        transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
       }
     }
-  }
-
-  .sidebar-closed {
-    .ether-sidebar {
-      flex: 0 0 60px;
-
-      ul {
-        padding: 0;
-
-        li {
-          list-style: none;
-
-          .sub-nav {
-            display: none;
-          }
-
-          &.has-subnav:hover {
-            .sub-nav {
-              display: block;
-              position: absolute;
-              left: 60px;
-              margin-top: -48px;
-
-              .nav-link {
-                padding-right: 1rem;
-              }
-            }
-          }
-        }
+    .nav-link[data-toggle].collapsed {
+      & > i {
+        transform: rotate(0deg);
+        transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
       }
     }
   }
@@ -394,13 +355,13 @@ pre[class*="language-"] {
 }
 
 *::-webkit-scrollbar {
-  width: .5em;
+  width: 0.5em;
 }
 *::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
 }
 *::-webkit-scrollbar-thumb {
-background-color: #d0d0d7;
-border-radius: .25em;
-outline: 1px solid #363545;
+  background-color: #d0d0d7;
+  border-radius: 0.25em;
+  outline: 1px solid #363545;
 }

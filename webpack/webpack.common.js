@@ -32,7 +32,6 @@ module.exports = {
       inject: true,
       template: Path.resolve(__dirname, '../src/index.html')
     }),
-
     new HtmlWebpackPlugin({
       filename: 'changes.html',
       inject: true,
@@ -96,12 +95,6 @@ module.exports = {
       inject: true,
       minify: false,
       template: Path.resolve(__dirname, '../src/chips.html')
-    }),
-    new HtmlWebpackPlugin({
-      filename: 'components.html',
-      inject: true,
-      minify: false,
-      template: Path.resolve(__dirname, '../src/components.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'controls.html',
@@ -168,6 +161,12 @@ module.exports = {
       inject: true,
       minify: false,
       template: Path.resolve(__dirname, '../src/tooltips.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'setup.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/setup.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'borders.html',

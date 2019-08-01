@@ -120,7 +120,9 @@ $(document).ready(function () {
 $(function() {
   function findAnchorElement(path) {
     const anchors = $("a[href]").toArray();
-    return anchors.find(node => node.href.endsWith(path));
+    const currentAnchor = anchors.find(node => node.href.endsWith(path));
+    $(currentAnchor).addClass("active");
+    return currentAnchor;
   }
 
   function findNavGroup(anchorElement) {
@@ -128,7 +130,7 @@ $(function() {
       return [];
     }
 
-    const parentElement = $(anchorElement).parent("div");
+    const parentElement = $(anchorElement).parents("div");
     if (!parentElement || parentElement.length < 1) {
       return [];
     }
@@ -152,7 +154,9 @@ $(function() {
 
   (function() {
     const anchorElement = findAnchorElement(window.location.pathname);
+    console.log(anchorElement);
     const navGroup = findNavGroup(anchorElement);
+    console.log(navGroup);
     expandNavGroup(navGroup);
   })();
 });
