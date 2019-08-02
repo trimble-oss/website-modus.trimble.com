@@ -331,6 +331,66 @@ ${require(`./header.html`)}
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
 
+      <h3 class="mt-5">Light Buttons</h3>
+      <p>
+        Light button variants are also available for specific use cases where a light colored button is needed against a dark background. Light buttons are available in the following variants:
+      </p>
+      <ul>
+        <li><p><code>.btn-light</code></p></li>
+        <li><p><code>.btn-outline-light</code></p></li>
+        <li><p><code>.btn-text-light</code></p></li>
+      </ul>
+      <div class="guide-example-block">
+        <div class="guide-sample bg-dark">
+          <button type="button" data-toggle="button" class="btn btn-light">Button</button>
+          <button type="button" data-toggle="button" class="btn btn-outline-light">Button</button>
+          <button type="button" data-toggle="button" class="btn btn-text-light">Button</button>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+      <p class="mt-5">
+        <strong>Use case examples for light buttons.</strong>
+      </p>
+      <div class="guide-example-block">
+        <div class="guide-sample">
+          <div class="row">
+            <div class="col">
+              <div class="toast toast-dark show" role="alert" aria-live="assertive" aria-atomic="true">
+                A Dark Toast
+                <button type="button" data-toggle="button" class="btn btn-light" data-dismiss="toast" aria-label="Close">
+                  Close
+                </button>
+              </div>
+              <div class="toast toast-dark show" role="alert" aria-live="assertive" aria-atomic="true">
+                A Dark Toast
+                <button type="button" data-toggle="button" class="btn btn-outline-light" data-dismiss="toast" aria-label="Close">
+                  Close
+                </button>
+              </div>
+              <div class="toast toast-dark show" role="alert" aria-live="assertive" aria-atomic="true">
+                A Dark Toast
+                <button type="button" data-toggle="button" class="btn btn-text-light" data-dismiss="toast" aria-label="Close">
+                  Close
+                </button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card-body bg-trimble-blue-dark text-light">
+                <h5 class="card-title text-light">Dark Element</h5>
+                <p class="card-text">
+                  This can be any element with a dark colored background.
+                </p>
+                <a href="#" class="btn btn-light">Regular</a>
+                <a href="#" class="btn btn-outline-light">Outline</a>
+                <a href="#" class="btn btn-text-light">Text</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
