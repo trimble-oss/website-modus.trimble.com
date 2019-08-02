@@ -14,11 +14,34 @@ npm install
 npm start
 ```
 
+## Start Prod Server
+
+Starts a local server that uses `webpack.config.prod.js`
+
+```bash
+npm run start:prod
+```
+
+## Build Dev Version
+
+```bash
+npm run build:dev
+```
+
 ## Build Prod Version
 
 ```bash
 npm run build
 ```
+
+---
+## Developer Notes
+
+The links to Ether's Development and Production builds can be found in `webpack/variables.js`. Simply changing the `etherVersion` and `etherIconsVersion` variables will change both the example texts in the style guide and the actual `<link>` and `<script>` tags used in the production builds.
+
+The Development build of the style guide will always point towards the versionless development build of Ether.
+
+---
 
 ### Features
 
