@@ -1,7 +1,7 @@
 'use-strict';
 
-const etherVersion = '0.3.1';
-const etherIconsVersion = '1.0.0';
+const etherVersion = '0.3.2';
+const etherIconsVersion = '1.1.0';
 
 exports.ether = {
   etherVersion: etherVersion,

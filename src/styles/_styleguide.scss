@@ -263,6 +263,13 @@ pre[class*='language-'] {
   padding-left: 1rem;
 }
 
+.column-30 {
+  background: white;
+  td{
+    width: 30%;
+  }
+} 
+
 .border-sample > div {
   height: 5rem;
   width: 5rem;
@@ -361,6 +368,8 @@ pre[class*='language-'] {
     opacity: 0;
   }
 }
+
+
 
 
 .change-log {

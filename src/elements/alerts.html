@@ -2,13 +2,70 @@ ${require(`../partials/header.html`)}
 <div class="guide-content">
   <div class="guide-content-column container">
 
-    <h1>Alerts</h1>
+    <h1>Alerts & Toasts</h1>
     <p class="lead">
-      Provide contextual feedback messages for typical user actions with the handful of available and flexible alert
+      Alerts contextual feedback messages for typical user actions with the handful of available and flexible alert
       messages.
+      Toasts are temporary popup messages such as success message for save.
     </p>
+    <h3 class="mt-5">Differences</h3>
+    <h5>Toasts</h6>
+      <table class="column-30">
+          <tr>
+              <td>
+                <h6>Priority</h6>Low priority.
+              </td>
+              <td>
+                  <h6>User Action</h6>Disappear automatically.
+                </td>
+              <td>
+                <h6>UI Specs</h6>Floating Elements, have shadows.
+              </td>
+  
+            </tr>
+        <tr>
+          <td>
+            <h6>Informational</h6>Provide updates on app's processes
+          </td>
+          <td>
+            <h6>Temporary</h6>Appear temporarily with a short message and mostly non-interractive.
+          </td>
+          <td>
+            <h6>Contextual</h6>Placed in the most suitable area of the UI.
+          </td>
+
+        </tr>
+
+      </table>
+      <h5>Alerts</h6>
+        <table class="column-30">
+            <tr>
+                <td> <h6>Priority</h6>Prominent, medium priority.</td>
+                <td>
+                   <h6>User Action</h6>Remain until dismissed by the user, or if the state that caused the banner is
+                   resolved.
+                 </td>
+                 <td>
+                   <h6>UI Specs</h6>Inline Elements, no shadows.
+                 </td>
+               </tr>
+          <tr>
+            <td>
+              <h6>Appropriately interruptive
+              </h6>Their level of interruption should match the information they contain and the context in which they
+              appear.
+            <td>
+              <h6>Clear</h6>Communicate a succinct message and what will happen if users interact with them.
+            </td>
+            <td>
+              <h6>Focused</h6>Contain a single message and specific actions a user can take.
+            </td>
+
+          </tr>
+
+        </table>
     <div class="guide-section">
-      <h2>Code Structure & Usage</h2>
+      <h2>Alerts Code Structure & Usage</h2>
       <p>
         Alerts are available for any length of text, as well as an optional dismiss button. For proper styling,
         use one of the eight required contextual classes (e.g., .<code>alert-success</code>). For inline dismissal, use
@@ -23,25 +80,33 @@ ${require(`../partials/header.html`)}
       <div class="guide-example-block">
         <div class="guide-sample hover-dimensions">
           <div class="alert alert-primary" role="alert">
-            A simple primary alert—check it out!
-          </div>
-          <div class="alert alert-secondary" role="alert">
-            A simple secondary alert—check it out!
-          </div>
-          <div class="alert alert-success" role="alert">
-            A simple success alert—check it out!
-          </div>
-          <div class="alert alert-danger" role="alert">
-            A simple danger alert—check it out!
-          </div>
-          <div class="alert alert-warning" role="alert">
-            A simple warning alert—check it out!
+            <i class="ether-icons alert-icon">info</i> A basic Primary alert
           </div>
           <div class="alert alert-info" role="alert">
-            A simple info alert—check it out!
+            <i class="ether-icons alert-icon">info</i>
+            <div>A basic information alert </div>
+            <button type="button" class="close" data-dismiss="alert"><i class="ether-icons">close</i></button>
           </div>
-          <div class="alert alert-dark" role="alert">
-            A simple dark alert—check it out!
+          <div class="alert alert-secondary" role="alert" data-original-title="" title="">
+            <i class="ether-icons alert-icon">help</i> A basic secondary alert
+            <button type="button" class="close" data-dismiss="alert"><i class="ether-icons">close</i></button>
+          </div>
+          <div class="alert alert-success" role="alert" data-original-title="" title="">
+            <i class="ether-icons alert-icon">check_circle</i> A basic success alert.
+            <button type="button" class="close" data-dismiss="alert"><i class="ether-icons">close</i></button>
+          </div>
+          <div class="alert alert-danger alert-dismissable fade show" role="alert" data-original-title="" title="">
+            <i class="material-icons alert-icon">error</i> A basic error alert with a dismiss icon
+            <button type="button" class="close" data-dismiss="alert"><i class="ether-icons">close</i></button>
+          </div>
+          <div class="alert alert-warning" role="alert" data-original-title="" title="">
+            <i class="ether-icons alert-icon">warning</i>
+            A basic warning alert
+            <button type="button" class="close" data-dismiss="alert"><i class="ether-icons">close</i></button>
+          </div>
+          <div class="alert alert-dark" role="alert" data-original-title="" title="">
+            A boring non-contextual alert without an icon
+            <button type="button" class="close" data-dismiss="alert"><i class="ether-icons">close</i></button>
           </div>
         </div>
         <div class="guide-code"></div>
@@ -55,58 +120,29 @@ ${require(`../partials/header.html`)}
       <div class="guide-example-block">
         <div class="guide-sample">
           <div class="alert alert-primary" role="alert">
-            This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
-            like.
-          </div>
-          <div class="alert alert-secondary" role="alert">
-            This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
-            like.
-          </div>
-          <div class="alert alert-success" role="alert">
-            This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
-            like.
-          </div>
-          <div class="alert alert-danger" role="alert">
-            This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
-            like.
-          </div>
-          <div class="alert alert-warning" role="alert">
-            This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
-            like.
-          </div>
-          <div class="alert alert-info" role="alert">
-            This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
-            like.
-          </div>
-          <div class="alert alert-dark" role="alert">
-            This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you
+            <i class="ether-icons alert-icon">info</i>
+            This is a primary alert with <a href="#" class="alert-link">&nbsp;an example link</a>. Give it a click if
+            you
             like.
           </div>
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
-
       <h3 class="mt-5"> Alerts with Buttons</h3>
       <p>
-        You can add a button to an alert using any button style. For best results with single line alerts, use <code>.btn-sm</code>.
+        You can add a button to an alert using any button style. For best results with single line alerts, use
+        <code>.btn-sm</code>.
       </p>
       <p>
-        In these examples, we use the <code>.float-right</code> class to pull the button to the right and <code>.clearfix</code> on the alert to make sure the button is inside the alert correctly.
+        In these examples, we use the <code>.float-right</code> class to pull the button to the right and
+        <code>.clearfix</code> on the alert to make sure the button is inside the alert correctly.
       </p>
       <div class="guide-example-block">
         <div class="guide-sample">
-          <div class="alert clearfix alert-primary" role="alert">
-            A basic primary alert with a button. <a href="#" class=" float-right btn btn-sm btn-primary">BUTTON</a>
-          </div>
-          <div class="alert clearfix alert-secondary" role="alert">
-            A basic secondary alert with a button. <a href="#" class=" float-right btn btn-sm btn-outline-secondary">BUTTON</a>
-          </div>
-          <div class="alert clearfix alert-success" role="alert">
-            A basic success alert with a button. <a href="#" class=" float-right btn btn-sm btn-reverse-success">BUTTON</a>
-          </div>
           <div class="alert clearfix alert-danger" role="alert">
-            A basic danger alert with a button. <a href="#" class=" float-right btn btn-sm btn-text-danger">BUTTON</a>
+            <i class="material-icons alert-icon">error</i>
+            A basic error alert with a button. <a href="#" class=" float-right btn btn-sm btn-text-danger">BUTTON</a>
           </div>
         </div>
         <div class="guide-code"></div>
@@ -115,32 +151,16 @@ ${require(`../partials/header.html`)}
 
       <h3 class="mt-5">Dismissible Alerts</h3>
       <p>
-        Add <code>class="alert-dismissible fade show"</code> to the alert and add a button with attributes <code>class="close" data-dismiss="alert"</code> to add dismissible alerts
+        Add <code>class="alert-dismissible fade show"</code> to the alert and add a button with attributes
+        <code>class="close" data-dismiss="alert"</code> to add dismissible alerts
       </p>
       <p>To use this, please review Bootstrap documentation <a
-        href="https://getbootstrap.com/docs/4.0/components/alerts/#dismissing" target="_blank">here</a> </p>
+          href="https://getbootstrap.com/docs/4.0/components/alerts/#dismissing" target="_blank">here</a> </p>
       <div class="guide-example-block">
         <div class="guide-sample">
-          <div class="alert alert-primary alert-dismissible fade show" role="alert">
-            A dismissible primary alert.
-            <button type="button" class=" close" data-dismiss="alert" aria-label="Close">
-              <i class="ether-icons">close</i>
-            </button>
-          </div>
-          <div class="alert alert-secondary alert-dismissible fade show" role="alert">
-            A dismissible secondary alert.
-            <button type="button" class=" close" data-dismiss="alert" aria-label="Close">
-              <i class="ether-icons">close</i>
-            </button>
-          </div>
-          <div class="alert alert-success alert-dismissible fade show" role="alert">
-            A dismissible success alert.
-            <button type="button" class=" close" data-dismiss="alert" aria-label="Close">
-              <i class="ether-icons">close</i>
-            </button>
-          </div>
-          <div class="alert alert-danger alert-dismissible fade show" role="alert">
-            A dismissible danger alert.
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <i class="ether-icons alert-icon">warning</i>
+            A dismissible warning alert with button.
             <button type="button" class=" close" data-dismiss="alert" aria-label="Close">
               <i class="ether-icons">close</i>
             </button>
@@ -150,7 +170,7 @@ ${require(`../partials/header.html`)}
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
 
-      <h3 class="mt-5">Alerts with Additional Content</h3>
+      <!-- <h3 class="mt-5">Alerts with Additional Content</h3>
       <p>Alerts can also contain additional HTML elements like headings, paragraphs and dividers.</p>
 
       <p>Wrap the alert heading in a <code>h tag (h1-h6)</code> with an <code>.alert-heading</code> class followed by the content.</p>
@@ -168,10 +188,80 @@ ${require(`../partials/header.html`)}
         </div>
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
-      </div>
+      </div> -->
 
       <p class="mt-5">For additional documentation on Javascript behavior on Bootstrap's Alerts, click <a
-        href="https://getbootstrap.com/docs/4.0/components/alerts/#javascript-behavior" target="_blank">here</a> </p>
+          href="https://getbootstrap.com/docs/4.0/components/alerts/#javascript-behavior" target="_blank">here</a> </p>
+    </div>
+    <div class="guide-section">
+      <h2>Toasts Code Structure & Usage</h2>
+      <p>
+        Alerts are available for any length of text, as well as an optional dismiss button. For proper styling,
+        use one of the eight required contextual classes (e.g., .<code>toast-success</code>). For inline dismissal, use
+        the alerts jQuery plugin.
+      </p>
+      <p>
+        Add <code>class="toast"</code> along with contextual classes and <code>role="alert"</code> to a div to create an
+        toast.
+      </p>
+
+      <h3 class="mt-5">Toasts</h3>
+      <div class="guide-example-block">
+        <div class="guide-sample hover-dimensions">
+          <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+            Aww yeah, you read a toast.
+            <button type="button" class="btn btn-text-primary" data-dismiss="toast" aria-label="Close">
+              Close
+            </button>
+          </div>
+          <div class="toast toast-dark show" role="alert" aria-live="assertive" aria-atomic="true">
+            Aww yeah, you read a toast.
+            <button type="button" class="btn btn-text-light" data-dismiss="toast" aria-label="Close">
+              Close
+            </button>
+          </div>
+          <div class="toast toast-primary show" role="alert" aria-live="assertive" aria-atomic="true">
+            Aww yeah, you read a toast.
+            <button type="button" class="btn btn-text-light" data-dismiss="toast" aria-label="Close">
+              Close
+            </button>
+          </div>
+          <div class="toast toast-info show" role="alert" aria-live="assertive" aria-atomic="true">
+            Aww yeah, you read a toast.
+            <button type="button" class="btn btn-text-light" data-dismiss="toast" aria-label="Close">
+              Close
+            </button>
+          </div>
+          <div class="toast toast-secondary show" role="alert" aria-live="assertive" aria-atomic="true">
+            Aww yeah, you read a toast.
+            <button type="button" class="btn btn-text-light" data-dismiss="toast" aria-label="Close">
+              Close
+            </button>
+          </div>
+          <div class="toast toast-danger show" role="alert" aria-live="assertive" aria-atomic="true">
+            Aww yeah, you read a toast.
+            <button type="button" class="btn btn-text-light" data-dismiss="toast" aria-label="Close">
+              Close
+            </button>
+          </div>
+          <div class="toast toast-warning show" role="alert" aria-live="assertive" aria-atomic="true">
+            Aww yeah, you read a toast.
+            <button type="button" class="btn btn-text-light" data-dismiss="toast" aria-label="Close">
+              Close
+            </button>
+          </div>
+          <div class="toast toast-success show" role="alert" aria-live="assertive" aria-atomic="true">
+            Aww yeah, you read a toast.
+            <button type="button" class="btn btn-text-light" data-dismiss="toast" aria-label="Close">
+              Close
+            </button>
+          </div>
+        </div>
+        <div class="guide-code"></div>
+        <button class="btn btn-link guide-copy-code">Click to Copy</button>
+      </div>
+
+
     </div>
   </div>
 </div>
