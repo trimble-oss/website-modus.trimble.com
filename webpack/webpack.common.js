@@ -47,7 +47,7 @@ module.exports = {
       filename: 'colors.html',
       inject: true,
       minify: false,
-      template: Path.resolve(__dirname, '../src/colors.html')
+      template: Path.resolve(__dirname, '../src/foundations/colors.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'typography.html',
