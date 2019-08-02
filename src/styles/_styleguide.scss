@@ -125,7 +125,7 @@ td {
   .guide-code {
     background-color: #f8f9fa;
     padding-bottom: 30px;
-
+    position: relative;
     code {
       text-align: left;
     }
@@ -142,6 +142,12 @@ td {
     position: absolute;
     bottom: 0px;
     right: 0px;
+  }
+
+  .codepen-mover-button {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
   }
 }
 

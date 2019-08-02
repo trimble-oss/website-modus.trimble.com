@@ -46,12 +46,60 @@ const PrevNext = (current, future) => {
   //find current
   // href current + 1 or current - 1;
 };
+
+const codePen = (elem) => {
+
+  let el = $(elem[0]),
+      HTML = "",
+      CSS = "",
+      JS = "";
+    
+  HTML = el.text();
+
+  var data = {
+    title              : "Ether Pen",
+    description        : "",
+    html               : HTML,
+    html_pre_processor : "none",
+    css                : "body {padding: 40px}",
+    css_pre_processor  : "none",
+    css_starter        : "neither",
+    css_prefix_free    : false,
+    js                 : JS,
+    js_pre_processor   : "none",
+    js_modernizr       : false,
+    js_library         : "",
+    html_classes       : "",
+    css_external       : "https://styles.trimblemaps.com/css/ether.min-0.3.1.css;https://styles.trimblemaps.com/assets/1.0.0/fonts/ether-icons.css;https://fonts.googleapis.com/icon?family=Material+Icons",
+    js_external        : "",
+  template           : true
+  };
+
+  var JSONstring = 
+    JSON.stringify(data)
+    // Quotes will screw up the JSON
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+
+  var form = 
+    '<form action="https://codepen.io/pen/define" method="POST" target="_blank">' + 
+      '<input type="hidden" name="data" value=\'' + 
+        JSONstring + 
+        '\'>' + 
+      '<button type="submit" value="Open in CodePen" class="btn btn-link codepen-mover-button">Open in CodePen</button>' +
+    '</form>';
+
+  el.after(form);
+
+};
+
 $(document).ready(function () {
   $(".guide-code").each(function (i, block) {
     var prev_html = Pretty($(block).prev().html());
     var html_code = Prism.highlight(prev_html, Prism.languages.markup, "markup");
-    var elem = $("<pre>").html(html_code).appendTo("<code>");
+    var elem = $("<pre>").addClass("codepen-able").html(html_code).appendTo("<code>");
     $(block).append(elem);
+    codePen(elem);
   });
 
   $(".guide-copy-code,.guide-code").on("click", (e) => {
@@ -153,6 +201,8 @@ $(function() {
     nav.removeClass("collapsed").attr("aria-expanded", true);
     subnav.addClass("show");
   }
+
+  
 
   (function() {
     const anchorElement = findAnchorElement(window.location.pathname);
