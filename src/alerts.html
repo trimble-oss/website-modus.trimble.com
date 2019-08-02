@@ -8,6 +8,62 @@ ${require(`./header.html`)}
       messages.
       Toasts are temporary popup messages such as success message for save.
     </p>
+    <h3 class="mt-5">Differences</h3>
+    <h5>Toasts</h6>
+      <table class="column-30">
+          <tr>
+              <td>
+                <h6>Priority</h6>Low priority.
+              </td>
+              <td>
+                  <h6>User Action</h6>Disappear automatically.
+                </td>
+              <td>
+                <h6>UI Specs</h6>Floating Elements, have shadows.
+              </td>
+  
+            </tr>
+        <tr>
+          <td>
+            <h6>Informational</h6>Provide updates on app's processes
+          </td>
+          <td>
+            <h6>Temporary</h6>Appear temporarily with a short message and mostly non-interractive.
+          </td>
+          <td>
+            <h6>Contextual</h6>Placed in the most suitable area of the UI.
+          </td>
+
+        </tr>
+
+      </table>
+      <h5>Alerts</h6>
+        <table class="column-30">
+            <tr>
+                <td> <h6>Priority</h6>Prominent, medium priority.</td>
+                <td>
+                   <h6>User Action</h6>Remain until dismissed by the user, or if the state that caused the banner is
+                   resolved.
+                 </td>
+                 <td>
+                   <h6>UI Specs</h6>Inline Elements, no shadows.
+                 </td>
+               </tr>
+          <tr>
+            <td>
+              <h6>Appropriately interruptive
+              </h6>Their level of interruption should match the information they contain and the context in which they
+              appear.
+            <td>
+              <h6>Clear</h6>Communicate a succinct message and what will happen if users interact with them.
+            </td>
+            <td>
+              <h6>Focused</h6>Contain a single message and specific actions a user can take.
+            </td>
+
+          </tr>
+
+        </table>
     <div class="guide-section">
       <h2>Alerts Code Structure & Usage</h2>
       <p>
@@ -205,9 +261,6 @@ ${require(`./header.html`)}
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
 
-      <!-- <h3 class="mt-5">Differences between Toasts & Alerts</h3>
-      
-      A toast is a small message that shows up in its own box near the bottom of the screen, and disappears on its own after a few seconds. It's usually a response to an action you've just performed,  -->
 
     </div>
   </div>
