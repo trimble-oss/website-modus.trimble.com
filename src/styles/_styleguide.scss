@@ -47,6 +47,7 @@ td {
       font-weight: 600;
       margin: 4px 0px;
       display: flex;
+      align-items: center;
       &.active, &:hover {
         color: ui-color('active') !important;
       }
@@ -147,13 +148,13 @@ td {
   .guide-copy-code {
     position: absolute;
     bottom: 0px;
-    right: 0px;
+    right: -20px;
   }
 
   .codepen-mover-button {
     position: absolute;
-    bottom: 5px;
-    left: 8px;
+    bottom: 0px;
+    left: -20px;
   }
 }
 
