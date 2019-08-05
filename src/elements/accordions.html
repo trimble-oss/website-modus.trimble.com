@@ -1,39 +1,37 @@
 ${require(`../partials/header.html`)}
 
 <div class="guide-content">
-  <div class="guide-content-column container">
+  <div class="guide-content-top">
     <h1>Accordions</h1>
     <p class="lead">
       Accordions are mutually exclusive collapsing sections. When one opens all
       others are closed.
     </p>
     ${require(`../partials/guide_tabs.html`)}
-    <div class="tab-content py-3" id="TabContentArea">
-      <div
-        class="tab-pane fade active show"
-        id="guide-content"
-        role="tabpanel"
-        aria-labelledby="guide-tab"
-      >
-        ${require(`./accordions_guide.md`)}
+  </div>
+  <div class="tab-content py-3" id="TabContentArea">
+    <div
+      class="tab-pane fade active show"
+      id="guide-content"
+      role="tabpanel"
+      aria-labelledby="guide-tab"
+    >
+      <div class="guide-scroll-container d-flex flex-fill overflow-auto">
+        <div class="tab-section">
+          ${require(`./accordions_guide.md`)}
+        </div>
       </div>
-      <div
-        class="tab-pane fade"
-        id="code-content"
-        role="tabpanel"
-        aria-labelledby="code-tab"
-      >
+    </div>
+    <div
+      class="tab-pane fade"
+      id="code-content"
+      role="tabpanel"
+      aria-labelledby="code-tab"
+    >
+      <div class="guide-scroll-container d-flex flex-fill overflow-auto">
         ${require(`./accordions_code.html`)}
       </div>
     </div>
-
   </div>
 </div>
-</div>
-<script>
-  $(document).ready(function() {
-    $('.nav-link').removeClass('active');
-    $('#accordions').addClass('active');
-  });
-</script>
 ${require(`../partials/footer.html`)}

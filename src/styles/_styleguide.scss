@@ -41,7 +41,7 @@ td {
   height: 100%;
   overflow: hidden;
   .guide-nav {
-    width: 200px;
+    min-width: 200px;
     a.nav-link {
       color: theme-color('dark');
       font-weight: 600;
@@ -90,20 +90,41 @@ td {
 .guide-body {
   flex: 2;
   overflow-y: auto;
+  max-width: 1600px;
+}
+
+.guide-content-column {
+  padding: 16px;
 }
 
 .guide-content {
   padding-top: 32px;
+  display: flex;
+    flex-direction: column;
 }
 
-
-.guide-content-column {
-  padding: 16px;
-  //  min-width: 960px;
-}
-
-.guide-section {
+.guide-section, .tab-section {
   margin: 40px 0 80px;
+}
+
+.tab-content {
+  display:flex;
+  flex-direction: column;
+  overflow: auto;
+  .tab-pane {
+    position: relative;
+  }
+  .tab-pane>.active {
+    display:flex;
+  }
+}
+
+.guide-right-nav {
+  min-width:200px;
+}
+
+.guide-scroll-container {
+  padding-right: 40px;
 }
 
 .guide-footer {
@@ -148,13 +169,13 @@ td {
   .guide-copy-code {
     position: absolute;
     bottom: 0px;
-    right: -20px;
+    right: 8px;
   }
 
   .codepen-mover-button {
     position: absolute;
     bottom: 0px;
-    left: -20px;
+    left: 8px;
   }
 }
 
