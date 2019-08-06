@@ -1,30 +1,36 @@
 ${require(`../partials/header.html`)}
 <div class="guide-content">
-  <div class="guide-content-column container">
-
+  <div class="guide-content-top border-bottom">
     <h1>Tables</h1>
     <p class="lead">
-      Documentation and examples for opt-in styling of tables (given their prevalent use in JavaScript plugins) with
-      Bootstrap.
+      Documentation and examples for opt-in styling of tables (given their
+      prevalent use in JavaScript plugins) with Bootstrap.
     </p>
     <div class="alert alert-warning" role="alert">
       WIP: This page is not complete.
     </div>
+  </div>
+  <div class="guide-scroll-container">
     <div class="guide-section">
       <h2>Classes & Usage</h2>
       <p>
-        Due to the widespread use of tables across third-party widgets like calendars and date pickers, we’ve designed
-        our tables to be opt-in.
-        Just add the base class .table to any <code>&lt;table&gt;
-        </code>, then extend with custom styles or our various included modifier
-        classes.
+        Due to the widespread use of tables across third-party widgets like
+        calendars and date pickers, we’ve designed our tables to be opt-in. Just
+        add the base class .table to any <code>&lt;table&gt; </code>, then
+        extend with custom styles or our various included modifier classes.
       </p>
-      <p>Using the most basic table markup, here’s how <code>.table</code>-based tables look in Bootstrap.
-        All table styles are inherited in Bootstrap 4, meaning any nested tables will be styled in the same manner as
-        the parent. <a href="https://getbootstrap.com/docs/4.0/content/tables/" target="_blank"> Read More</a></p>
-
-
-
+      <p>
+        Using the most basic table markup, here’s how <code>.table</code>-based
+        tables look in Bootstrap. All table styles are inherited in Bootstrap 4,
+        meaning any nested tables will be styled in the same manner as the
+        parent.
+        <a
+          href="https://getbootstrap.com/docs/4.0/content/tables/"
+          target="_blank"
+        >
+          Read More</a
+        >
+      </p>
 
       <h3 class="mt-5">Basic Table</h3>
       <div class="guide-example-block">
@@ -101,15 +107,8 @@ ${require(`../partials/header.html`)}
         <div class="guide-code"></div>
         <button class="btn btn-link guide-copy-code">Click to Copy</button>
       </div>
-
     </div>
   </div>
 </div>
-</div>
-<script>
-  $(document).ready(function () {
-    $(".nav-link").removeClass("active");
-    $("#tables").addClass("active");
-  });
-</script>
+
 ${require(`../partials/footer.html`)}

@@ -56,7 +56,7 @@ td {
       a.nav-link {
         color: $gray-500;
         font-weight: 400;
-        margin-left: 8px;
+        margin: 0 0 0 8px;
         display: flex;
         &.active {
           border-left: 2px solid;
@@ -129,10 +129,17 @@ td {
 
 .guide-right-nav {
   min-width:200px;
+  display: flex;
+  flex-direction: column;
+  &>nav {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    flex-wrap: nowrap;
+  }
   a.nav-link {
     color: $gray-500;
     font-weight: 400;
-    margin-left: 8px;
     display: flex;
     &.active, &:hover {
       color: ui-color('active') !important;
@@ -146,11 +153,14 @@ td {
 }
 
 .guide-scroll-container {
-  overflow: scroll;
+  overflow-y: auto;
   display: flex;
   padding-right: 40px;
   position: relative;
   height: 100%;
+  .guide-section > *:last-child {
+    margin-bottom: 600px;
+  }
 }
 
 .guide-footer {
@@ -269,7 +279,7 @@ td {
 
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
-  background: #fff;
+  background: ui-color('panel-background');
 }
 
 .pop-highlight {

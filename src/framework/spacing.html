@@ -1,15 +1,17 @@
 ${require(`../partials/header.html`)}
 <div class="guide-content">
-  <div class="guide-content-column container">
+  <div class="guide-content-top border-bottom">
 
     <h1>Spacing</h1>
     <p class="lead">
       Bootstrap includes a wide range of shorthand responsive margin and padding utility classes to modify an element’s appearance.
     </p>
 
-    <div class="guide-section">
+    </div>
+  <div class="guide-scroll-container" >
+  <div class="guide-section">
 
-      <h3 class="mt-5">How it works</h3>
+      <h3>How it works</h3>
       <p>
         Assign responsive-friendly <code>margin</code> or <code>padding</code> values to an element or a subset of its sides with shorthand classes. Includes support for individual properties, all properties, and vertical and horizontal properties. Classes are built from a default Sass map ranging from <code>.25rem</code> to <code>3rem</code>.
       </p>
@@ -130,11 +132,4 @@ ${require(`../partials/header.html`)}
     </div>
   </div>
 </div>
-</div>
-<script>
-  $(document).ready(function () {
-    $(".nav-link").removeClass("active");
-    $("#spacing").addClass("active");
-  });
-</script>
 ${require(`../partials/footer.html`)}

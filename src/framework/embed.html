@@ -1,13 +1,15 @@
 ${require(`../partials/header.html`)}
 <div class="guide-content">
-  <div class="guide-content-column container">
+  <div class="guide-content-top border-bottom">
 
     <h1>Embed</h1>
     <p class="lead">
       Create responsive video or slideshow embeds based on the width of the parent by creating an intrinsic ratio that scales on any device.
     </p>
-    <div class="guide-section">
-      <h3 class="mt-5">About</h3>
+    </div>
+  <div class="guide-scroll-container" >
+  <div class="guide-section">
+      <h3>About</h3>
       <p>
         Rules are directly applied to <code>&lt;iframe&gt;</code>, <code>&lt;embed&gt;</code>, <code>&lt;video&gt;</code>, and <code>&lt;object&gt;</code> elements; optionally use an explicit descendant class <code>.embed-responsive-item</code> when you want to match the styling for other attributes.
       </p>
@@ -67,11 +69,4 @@ ${require(`../partials/header.html`)}
     </div>
   </div>
 </div>
-</div>
-<script>
-  $(document).ready(function () {
-    $(".nav-link").removeClass("active");
-    $("#embed").addClass("active");
-  });
-</script>
 ${require(`../partials/footer.html`)}

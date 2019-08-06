@@ -1,6 +1,6 @@
 ${require(`../partials/header.html`)}
 <div class="guide-content">
-  <div class="guide-content-column container">
+  <div class="guide-content-top border-bottom">
 
     <h1>Maps</h1>
     <p class="lead">
@@ -27,13 +27,7 @@ ${require(`../partials/header.html`)}
 
   </div>
 </div>
-</div>
-<script>
-  $(document).ready(function () {
-    $(".nav-link").removeClass("active");
-    $("#maps").addClass("active");
-  });
-</script>
+
 <script src="https://alk-qa-public.s3.amazonaws.com/alkmaps-web-gl/alkmapsgl.js"></script>
 <script>
   ALKMapsGL.APIKey = '68B06901AF7DA34884CE5FB7A202A743';
@@ -67,4 +61,5 @@ ${require(`../partials/header.html`)}
 </script>
 
 
+</div>
 ${require(`../partials/footer.html`)}

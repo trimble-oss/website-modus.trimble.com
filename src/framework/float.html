@@ -1,14 +1,16 @@
 ${require(`../partials/header.html`)}
 <div class="guide-content">
-  <div class="guide-content-column container">
+  <div class="guide-content-top border-bottom">
 
     <h1>Float</h1>
     <p class="lead">
       Toggle floats on any element, across any breakpoint, using these responsive float utilities.
     </p>
-    <div class="guide-section">
+    </div>
+  <div class="guide-scroll-container" >
+  <div class="guide-section">
 
-      <h3 class="mt-5">Overview</h3>
+      <h3>Overview</h3>
       <p>
         These utility classes float an element to the left or right, or disable floating, based on the current viewport size using the CSS float property. <code>!important</code> is included to avoid specificity issues. These use the same viewport breakpoints as our grid system. Please be aware float utilities have no affect on flex items.
       </p>
@@ -70,11 +72,4 @@ ${require(`../partials/header.html`)}
     </div>
   </div>
 </div>
-</div>
-<script>
-  $(document).ready(function () {
-    $(".nav-link").removeClass("active");
-    $("#float").addClass("active");
-  });
-</script>
 ${require(`../partials/footer.html`)}

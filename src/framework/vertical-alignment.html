@@ -1,13 +1,15 @@
 ${require(`../partials/header.html`)}
 <div class="guide-content">
-  <div class="guide-content-column container">
+  <div class="guide-content-top border-bottom">
 
     <h1>Vertical Alignment</h1>
     <p class="lead">
       Easily change the vertical alignment of inline, inline-block, inline-table, and table cell elements.
     </p>
 
-    <div class="guide-section">
+    </div>
+  <div class="guide-scroll-container" >
+  <div class="guide-section">
 
       <p>
         Change the alignment of elements with the <code>vertical-alignment</code> utilities. Please note that vertical-align only affects inline, inline-block, inline-table, and table cell elements.
@@ -62,11 +64,4 @@ ${require(`../partials/header.html`)}
     </div>
   </div>
 </div>
-</div>
-<script>
-  $(document).ready(function () {
-    $(".nav-link").removeClass("active");
-    $("#verticalAlignment").addClass("active");
-  });
-</script>
 ${require(`../partials/footer.html`)}

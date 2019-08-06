@@ -1,6 +1,6 @@
 ${require(`../partials/header.html`)}
 <div class="guide-content">
-  <div class="guide-content-column container">
+  <div class="guide-content-top border-bottom">
 
     <h1>Clearfix</h1>
     <p class="lead">
@@ -9,7 +9,9 @@ ${require(`../partials/header.html`)}
     <p>
       Easily clear <code>floats</code> by adding <code>.clearfix</code> <strong>to the parent element.</strong>
     </p>
-    <div class="guide-section">
+    </div>
+  <div class="guide-scroll-container" >
+  <div class="guide-section">
 
       <div class="guide-example-block">
 
@@ -38,11 +40,4 @@ ${require(`../partials/header.html`)}
     </div>
   </div>
 </div>
-</div>
-<script>
-  $(document).ready(function () {
-    $(".nav-link").removeClass("active");
-    $("#clearfix").addClass("active");
-  });
-</script>
 ${require(`../partials/footer.html`)}

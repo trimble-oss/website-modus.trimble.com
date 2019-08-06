@@ -1,15 +1,17 @@
 ${require(`../partials/header.html`)}
 <div class="guide-content">
-  <div class="guide-content-column container">
+  <div class="guide-content-top border-bottom">
 
     <h1>Sizing</h1>
     <p class="lead">
       Easily make an element as wide or as tall with our width and height utilities.
     </p>
 
-    <div class="guide-section">
+    </div>
+  <div class="guide-scroll-container" >
+  <div class="guide-section">
 
-      <h3 class="mt-5">Relative to the parent</h3>
+      <h3>Relative to the parent</h3>
       <p>
         Width and height utilities are generated from the <code>$sizes</code> Sass map in <code>_variables.scss</code>. Includes support for <code>25%</code>, <code>50%</code>, <code>75%</code>, <code>100%</code>, and <code>auto</code> by default. Modify those values as you need to generate different utilities here.
       </p>
@@ -94,11 +96,4 @@ ${require(`../partials/header.html`)}
     </div>
   </div>
 </div>
-</div>
-<script>
-  $(document).ready(function () {
-    $(".nav-link").removeClass("active");
-    $("#sizing").addClass("active");
-  });
-</script>
 ${require(`../partials/footer.html`)}

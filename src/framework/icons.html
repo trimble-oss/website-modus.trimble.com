@@ -1,14 +1,16 @@
 ${require(`../partials/header.html`)}
 <div class="guide-content">
-  <div class="guide-content-column container">
+  <div class="guide-content-top border-bottom">
 
     <h1>Icons</h1>
     <p class="lead">
       Guidance and suggestions for using external Ether icon library.
     </p>
-    <div class="guide-section">
+    </div>
+  <div class="guide-scroll-container" >
+  <div class="guide-section">
 
-      <h3 class="mt-5">Usage Guidelines</h3>
+      <h3>Usage Guidelines</h3>
       <p>
         The easiest way to start using our icons is to include the following code in the <code>&lt;head&gt;</code> of your page.
       </p>
@@ -33,11 +35,4 @@ ${require(`../partials/header.html`)}
     </div>
   </div>
 </div>
-</div>
-<script>
-  $(document).ready(function () {
-    $(".nav-link").removeClass("active");
-    $("#icons").addClass("active");
-  });
-</script>
 ${require(`../partials/footer.html`)}

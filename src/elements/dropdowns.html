@@ -1,12 +1,14 @@
 ${require(`../partials/header.html`)}
 <div class="guide-content">
-  <div class="guide-content-column container">
+  <div class="guide-content-top border-bottom">
 
     <h1>Dropdowns</h1>
     <p class="lead">
       Toggle contextual overlays for displaying lists of links and more with the Bootstrap dropdown plugin.
     </p>
-    <div class="guide-section">
+    </div>
+  <div class="guide-scroll-container" >
+  <div class="guide-section">
       <h2>Overview</h2>
       <p>
         Please read this article when using dropdown menu for more styles and Javascript calls.
@@ -630,13 +632,7 @@ ${require(`../partials/header.html`)}
     </div>
   </div>
 </div>
-</div>
 <script>
-  $(document).ready(function () {
-    $(".nav-link").removeClass("active");
-    $("#dropdowns").addClass("active");
-  });
-
   $('.dropdown-toggle').dropdown({
     display: 'static'
   });
