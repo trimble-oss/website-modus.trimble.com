@@ -16,6 +16,8 @@ module.exports = merge(common, {
   plugins: [
     new Webpack.DefinePlugin({
       'process.env.NODE_ENV': process.env.NODE_ENV || JSON.stringify('development'),
+      'guideVersion': JSON.stringify(variables.ether.guideVersion),
+      'guideBuildDate': JSON.stringify(variables.ether.guideBuildDate),
       'etherVersion': JSON.stringify(variables.ether.etherVersion),
       'etherIconsVersion': JSON.stringify(variables.ether.etherIconsVersion),
       'etherIcons': JSON.stringify(variables.ether.devLinks.etherIcons),

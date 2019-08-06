@@ -137,7 +137,7 @@ module.exports = {
       filename: 'shadows.html',
       inject: true,
       minify: false,
-      template: Path.resolve(__dirname, '../src/framework/shadows.html')
+      template: Path.resolve(__dirname, '../src/elements/shadows.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'tables.html',
