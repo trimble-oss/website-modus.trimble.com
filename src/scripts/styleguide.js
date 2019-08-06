@@ -179,14 +179,16 @@ $(document).ready(function() {
       elem.popover('dispose');
     });
 
-    const buildRightNav = (navItems, navId)=> {   
-      
+    const buildRightNav = (navItems, navId)=> {         
       $(navItems).each((i, e) => {
         const elem = $(e);
         elem.wrapInner('<a name="' + $(elem).text() + '" />');
         const navItem = $('<li class="nav-item"></li>').appendTo($('#' + navId));
         $('<a class="nav-link" href="#' + $(elem).text() + '"></a>').text( $(elem).text()).appendTo(navItem);
       });
+      // $('[data-spy="scroll"]').each(function () {
+      //   var $spy = $(this).scrollspy('refresh');
+      // });
     };
 
   $('.tab-pane.active').each((idx, t) => {
@@ -194,18 +196,20 @@ $(document).ready(function() {
     const thisNav = $(t).attr("id") + '-nav';
     $(".guide-right-nav").append('<nav class="nav flex-column" id="' + thisNav + '"><h5 class="border-bottom border-primary">Contents</h5></nav>');
     const navItems = $(t).find('h2,h3,h4');
+    $($(t).attr("id") + ' .guide-scroll-container').scrollspy({ target: '#' + thisNav });
     buildRightNav(navItems, thisNav);
   });
 
   $('#ContentTabs .nav-link').on('click', e => {
     if($(e.currentTarget).hasClass('active')){ 
-      return 
+      return;
     } else {
       const elem = $('.tab-pane').not('.active');
       $(".guide-right-nav").find('.nav').remove();
       const thisNav = $(elem).attr("id") + '-nav';
       $(".guide-right-nav").append('<nav class="nav flex-column" id="' + thisNav + '"><h5 class="border-bottom border-primary">Contents</h5></nav>');
       const navItems = $(elem).find('h2,h3,h4');
+      $($(elem).attr("id") + ' .guide-scroll-container').scrollspy({ target: '#' + thisNav });
       buildRightNav(navItems, thisNav);
     }
   });
@@ -214,8 +218,22 @@ $(document).ready(function() {
     $(".guide-right-nav").css("margin-top", $(t).offset().top - 60);
     $(".guide-right-nav").append('<nav class="nav flex-column" id="section-nav"><h5 class="border-bottom border-primary">Contents</h5></nav>');
     const navItems = $(t).children('h2,h3,h4');
+    $($(t).attr("id") + ' .guide-scroll-container').scrollspy({ target: '#' + 'section-nav' });
     buildRightNav(navItems, 'section-nav');
   });
+
+  $('.guide-scroll-container').on('scroll', e =>{
+    $(e.currentTarget).find('h2,h3,h4').each((i,t)=>{
+      let elemOffset = ($(t).offset().top - $(e.currentTarget).offset().top);
+      if(  elemOffset > -20 &&  elemOffset < 60) {
+        const thisName = $(t).find('a').attr('name');
+        $('.guide-right-nav a').removeClass('active');
+        $('.guide-right-nav [href="#' + thisName + '"]').addClass('active');
+      }
+      // console.log($(t).find('a').attr('name') + ': ' + ($(t).offset().top - $(e.currentTarget).offset().top));
+    });
+  });
+
 });
 
 // window.onload = initiate;

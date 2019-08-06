@@ -61,6 +61,7 @@ td {
         &.active {
           border-left: 2px solid;
           border-left-color: ui-color('active');
+          padding-left: 14px;
         }
       }
     }
@@ -95,16 +96,23 @@ td {
 
 .guide-content-column {
   padding: 16px;
+  padding-bottom: 0;
 }
 
 .guide-content {
   padding-top: 32px;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.guide-content-top {
+  border-bottom-color: $gray-100;
 }
 
 .guide-section, .tab-section {
   margin: 40px 0 80px;
+  flex: 1;
 }
 
 .tab-content {
@@ -121,10 +129,28 @@ td {
 
 .guide-right-nav {
   min-width:200px;
+  a.nav-link {
+    color: $gray-500;
+    font-weight: 400;
+    margin-left: 8px;
+    display: flex;
+    &.active, &:hover {
+      color: ui-color('active') !important;
+    }
+    &.active {
+      border-left: 2px solid;
+      border-left-color: ui-color('active');
+      padding-left: 14px;
+    }
+  }
 }
 
 .guide-scroll-container {
+  overflow: scroll;
+  display: flex;
   padding-right: 40px;
+  position: relative;
+  height: 100%;
 }
 
 .guide-footer {
