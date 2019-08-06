@@ -199,7 +199,7 @@ $(document).ready(function() {
   };
 
   $('.guide-tab-panes .tab-pane.active').each((idx, t) => {
-    $(".guide-right-nav").css("margin-top", $(t).parent().offset().top - 60);
+    $(".guide-right-nav").css("margin-top", $(t).parent().offset().top - 108);
     const thisNav = $(t).attr("id") + '-nav';
     const navItems = $(t).find('h2,h3,h4');
     buildRightNav(navItems, thisNav);
@@ -217,7 +217,7 @@ $(document).ready(function() {
   });
 
   $('.guide-section').each((idx, t) => {
-    $(".guide-right-nav").css("margin-top", $(t).offset().top - 60);
+    $(".guide-right-nav").css("margin-top", $(t).offset().top - 150);
     const navItems = $(t).children('h2,h3,h4');
     buildRightNav(navItems, 'section-nav');
   });
