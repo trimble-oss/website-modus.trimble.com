@@ -69,8 +69,8 @@ const codePen = elem => {
     js_library: '',
     html_classes: '',
     css_external:
-      'https://styles.trimblemaps.com/css/ether.min-0.3.2.css;https://styles.trimblemaps.com/assets/1.1.0/fonts/ether-icons.css;https://fonts.googleapis.com/icon?family=Material+Icons',
-    js_external: '',
+      'https://styles.trimblemaps.com/css/ether.min-0.3.2.css;https://styles.trimblemaps.com/css/ether-layout.min-0.3.2.css;https://styles.trimblemaps.com/assets/1.1.0/fonts/ether-icons.css;https://fonts.googleapis.com/icon?family=Material+Icons',
+    js_external: 'https://styles.trimblemaps.com/css/ether-layout.min-0.3.2.js',
     template: true,
   };
 
