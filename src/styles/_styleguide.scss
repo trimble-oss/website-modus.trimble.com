@@ -125,6 +125,7 @@ td {
 .tab-content {
   display:flex;
   flex-direction: column;
+  overflow: auto;
   .tab-pane {
     position: relative;
   }
@@ -345,7 +346,7 @@ pre[class*='language-'] {
   td{
     width: 30%;
   }
-} 
+}
 
 .border-sample > div {
   height: 5rem;
@@ -477,14 +478,14 @@ pre[class*='language-'] {
   outline: 1px solid #363545;
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
   .external-collapse.navbar-collapse {
     display: flex!important;
     align-items: flex-start;
   }
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   .guide-right-nav {
     display: flex!important;
   }
