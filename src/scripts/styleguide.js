@@ -129,7 +129,7 @@ $(document).ready(function() {
 
   $('.bg-color-select').on('change', e => {
     const thisColor = $(e.currentTarget).val();
-    $(e.currentTarget).siblings('.guide-sample').css('background-color',thisColor);
+    $(e.currentTarget).parent().siblings('.guide-sample').css('background-color',thisColor);
   });
 
   $('#copyExampleButton').on('click', () => {
