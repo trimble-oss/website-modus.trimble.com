@@ -1,6 +1,7 @@
 const Path = require('path');
 const Webpack = require('webpack');
 const merge = require('webpack-merge');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const common = require('./webpack.common.js');
 const variables = require('./variables');
 
@@ -24,6 +25,9 @@ module.exports = merge(common, {
       'etherCSS': JSON.stringify(variables.ether.devLinks.etherCSS),
       'etherLayoutCSS': JSON.stringify(variables.ether.devLinks.etherLayoutCSS),
       'etherLayoutJS': JSON.stringify(variables.ether.devLinks.etherLayoutJS),
+    }),
+    new MiniCssExtractPlugin({
+      filename: 'styles.css'
     })
   ],
   module: {
@@ -44,7 +48,26 @@ module.exports = merge(common, {
       },
       {
         test: /\.s?css$/i,
-        use: ['style-loader', 'css-loader?sourceMap=true', 'sass-loader']
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              hmr: true
+            }
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: true
+            }
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: true
+            }
+          }
+        ]
       }
     ]
   }
