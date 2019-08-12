@@ -172,8 +172,9 @@ td {
   padding-right: 40px;
   position: relative;
   height: 100%;
+  .tab-section > *:last-child,
   .guide-section > *:last-child {
-    margin-bottom: 600px;
+    margin-bottom: 70vh;
   }
 }
 

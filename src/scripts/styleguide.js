@@ -189,15 +189,17 @@ $(document).ready(function() {
     <nav class="nav flex-column" id="${id}"></nav>`;
   };
 
-  const buildRightNav = (navItems, navId)=> {   
-    $('.guide-right-nav').children().remove();  
+  const buildRightNav = (navItems, navId)=> {
+    $('.guide-right-nav').children().remove();
+    const navPrefix = navId.substr(0, navId.indexOf('-') + 1);
     if(navItems.length > 0) {
       $('.guide-right-nav').append(rightNavTemplate(navId));
       $(navItems).each((i, e) => {
         const elem = $(e);
-        elem.wrapInner('<a name="' + $(elem).text() + '" />');
+        const elemName = $(elem).text().replace(/\s+/g, '-').toLowerCase();
+        elem.wrapInner('<a name="' + navPrefix + elemName + '" />');
         const navItem = $('<li class="nav-item"></li>').appendTo($('#' + navId));
-        $('<a class="nav-link" href="#' + $(elem).text() + '"></a>').text( $(elem).text()).appendTo(navItem);
+        $('<a class="nav-link" href="#' + navPrefix + elemName + '"></a>').text( $(elem).text()).appendTo(navItem);
       });
       $('.guide-right-nav .nav li:first-child a').addClass('active');
     }
@@ -211,7 +213,7 @@ $(document).ready(function() {
   });
 
   $('#ContentTabs .nav-link').on('click', e => {
-    if($(e.currentTarget).hasClass('active')){ 
+    if($(e.currentTarget).hasClass('active')){
       return;
     } else {
       const elem = $('.tab-pane').not('.active');
@@ -227,18 +229,16 @@ $(document).ready(function() {
     buildRightNav(navItems, 'section-nav');
   });
 
-  $('.guide-scroll-container').on('scroll', e =>{
-    $(e.currentTarget).find('h2,h3,h4').each((i,t)=>{
+  $('.guide-scroll-container, .guide-tab-panes').on('scroll', e =>{
+    $(e.currentTarget).find('.tab-section, .guide-section').children('h2,h3,h4').each((i,t)=>{
       let elemOffset = ($(t).offset().top - $(e.currentTarget).offset().top);
       if(  elemOffset > -20 &&  elemOffset < 60) {
         const thisName = $(t).find('a').attr('name');
         $('.guide-right-nav a').removeClass('active');
         $('.guide-right-nav [href="#' + thisName + '"]').addClass('active');
       }
-      // console.log($(t).find('a').attr('name') + ': ' + ($(t).offset().top - $(e.currentTarget).offset().top));
     });
   });
-
 });
 
 // window.onload = initiate;
