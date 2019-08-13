@@ -250,12 +250,10 @@ $(document).ready(function() {
 
       if(guideContent.scrollTop() + $('.guide-header').outerHeight() >= pos) {
         //stick tabs
-        // console.log(true);
         tabs.addClass('sticky');
         scrollContainer.addClass('has-sticky');
       } else {
         //unstick tabs
-        // console.log(false);
         tabs.removeClass('sticky');
         scrollContainer.removeClass('has-sticky');
       }
