@@ -1,0 +1,139 @@
+<h3>Guidelines</h3>
+
+<h4>Use when</h4>
+
+<ul>
+  <li>
+    Use when some content can be hidden because it is not critical to the user’s
+    task.
+  </li>
+
+  <li>You want to declutter the interface.</li>
+
+  <li>You want to simplify a complex process.</li>
+
+  <li>There are options dependent upon a prior selection.</li>
+
+  <li>All options and information are not critical to see at first.</li>
+
+  <li>
+    Allowing a user to hide controls and content so they can better focus on
+    their task.
+  </li>
+</ul>
+
+<h4>Don’t use when</h4>
+
+<ul>
+  <li>
+    Providing an introductory element to a set of content which doesn’t need an
+    expand and collapse functionality. Instead, use a Header.
+  </li>
+
+  <li>Hide critical content solely to clean up the interface.</li>
+
+  <li>Hide an action if the user can easily do it without additional input.</li>
+
+  <li>Hide primary actions on the page.</li>
+
+  <li>Reveal content that is not contextually relevant to the user’s input.</li>
+
+  <li>
+    Nest too many layers. In other words, don’t place accordions within
+    accordions.
+  </li>
+
+  <li>
+    Creating a set of visibly contained content which doesn’t need an expand and
+    collapse functionality. Instead, use a Module Container.
+  </li>
+</ul>
+
+<h4>Visual language</h4>
+
+<h6>To inform judgment about color, type, space, and more</h6>
+
+<ul>
+  <li>
+    The arrow icon acts as an affordance to indicate the functionality of the
+    accordion, as well as a visual marker of the state of the accordion through
+    its rotation and direction.
+  </li>
+
+  <li>
+    When stacking multiple accordions, use stack space constants to add
+    margin-bottom to the block element.
+  </li>
+</ul>
+
+<table>
+  <tr>
+    <td>
+      <p><img src="${require(`../img/guide/Accordian_1.svg`)}" /></p>
+    </td>
+    <td>
+      <p><img src="${require(`../img/guide/Accordian_2.svg`)}" /></p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>
+        <strong>Do </strong>use the without border variation to omit the border
+        from the first accordion in a stack when it may conflict with other
+        visual elements, like a Module Container.
+      </p>
+    </td>
+    <td>
+      <p>
+        <strong>Don’t </strong>use an unnecessary border to avoid visual noise.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<h4>Behaviors</h4>
+
+<h6>To cover how to cope with events, outcomes, and transitions</h6>
+
+<ul>
+  <li>
+    When an accordion expands and collapses only its height should change, its
+    width should stay consistent.
+  </li>
+
+  <li>Expand and collapse functionality should never be triggered on hover</li>
+
+  <li>
+    The expand and collapse functionality of an accordion is tied to the entire
+    header of the component, with additional actions being triggered only by
+    interaction within the bounds of their related UI components.
+  </li>
+
+  <li>
+    Avoid “nested” accordions—that is, collapsible content within collapsible
+    content. This type of pattern goes against UX best practices.
+  </li>
+</ul>
+
+<table>
+  <tr>
+    <td>
+      <p><img src="${require(`../img/guide/Accordian_3.svg`)}" /></p>
+    </td>
+  </tr>
+  <tr>
+    <td><p>Interactive areas within an accordion.</p></td>
+  </tr>
+</table>
+
+<h4>Editorial</h4>
+
+<h6>
+  Voice and tone, advice covering copy and images flowing into each element
+</h6>
+
+<ul>
+  <li>Keep titles to five words, if possible, to avoid wrapping.</li>
+
+  <li>Use title case and capitalize prepositions of four letters or more.</li>
+</ul>

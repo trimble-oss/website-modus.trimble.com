@@ -167,6 +167,25 @@ $guide-body-max-width: 1600px;
   }
 }
 
+#guide-content {
+  ul > li {
+    margin-bottom: 8px;
+  }
+  h4 {
+    margin-top: 24px;
+  }
+  table {
+    display: flex;
+    background-color: transparent;
+    tr:last-child td {
+      p {
+        max-width: 300px;
+        color: theme-color('primary');
+      }
+    }
+  }
+}
+
 .guide-example-block {
   display: flex;
   flex-direction: column;
