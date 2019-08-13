@@ -64,13 +64,13 @@
   </head>
 
   <body>
-    <div class="guide-layout d-flex flex-fill flex-column">
+    <div class="guide-layout">
       <nav
-        class="guide-header navbar navbar-expand-lg bg-gray-50 flex-grow-0 align-items-center"
+        class="guide-header navbar navbar-expand-lg"
       >
         <button class="btn btn-text-dark btn-lg btn-icon-only mr-3 navbar-toggler"  type="button" data-toggle="collapse" data-target="#mainSidebar" aria-controls="mainSidebar" aria-expanded="false" aria-label="Toggle navigation">
           <i class="ether-icons menu-btn">menu</i></button>
-        <a class="navbar-brand" href="/index.html">
+        <a class="navbar-brand d-none d-lg-block" href="/index.html">
           <img
             src="${require(`../img/trimble-logo.svg`)}"
             alt="Trimble"
@@ -78,11 +78,11 @@
             height="25px"
           />
         </a>
-        <div class="navbar-text ml-1">
+        <div class="navbar-text mr-auto">
           <h4 class="text-primary m-0">Style Guide 2.0 and CSS Library</h4>
         </div>
-        <div class="ml-auto">
 
+        <div class="ml-auto">
           <button id="issueButton" class="btn btn-warning mr-2">
             Report an Issue
           </button>
@@ -90,9 +90,10 @@
             Request a Feature
           </button>
         </div>
+
       </nav>
-      <div class="guide-body d-flex flex-row flex-fill">
-        <nav class="guide-nav pl-3 mt-5 collapse navbar-collapse external-collapse" id="mainSidebar" >
+      <div class="guide-body">
+        <nav class="guide-nav collapse navbar-collapse external-collapse" id="mainSidebar" >
           <ul class="nav flex-column">
             <li class="nav-item">
               <a id="home" class="nav-link" href="/index.html"> Introduction</a>
@@ -331,5 +332,5 @@
           </ul>
         </nav>
         <div
-          class="guide-content-column d-flex flex-fill "
+          class="guide-content-column"
         >

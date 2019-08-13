@@ -206,7 +206,7 @@ $(document).ready(function() {
   };
 
   $('.guide-tab-panes .tab-pane.active').each((idx, t) => {
-    $(".guide-right-nav").css("margin-top", $(t).parent().offset().top - 108);
+    // $(".guide-right-nav").css("margin-top", $(t).parent().offset().top - 108);
     const thisNav = $(t).attr("id") + '-nav';
     const navItems = $(t).find('h2,h3,h4');
     buildRightNav(navItems, thisNav);
@@ -224,12 +224,12 @@ $(document).ready(function() {
   });
 
   $('.guide-section').each((idx, t) => {
-    $(".guide-right-nav").css("margin-top", $(t).offset().top - 150);
+    // $(".guide-right-nav").css("margin-top", $(t).offset().top - 150);
     const navItems = $(t).children('h2,h3,h4');
     buildRightNav(navItems, 'section-nav');
   });
 
-  $('.guide-scroll-container, .guide-tab-panes').on('scroll', e =>{
+  $('.guide-content').on('scroll', e =>{
     $(e.currentTarget).find('.tab-section, .guide-section').children('h2,h3,h4').each((i,t)=>{
       let elemOffset = ($(t).offset().top - $(e.currentTarget).offset().top);
       if(  elemOffset > -20 &&  elemOffset < 60) {
@@ -239,6 +239,28 @@ $(document).ready(function() {
       }
     });
   });
+
+  if ($('#ContentTabs').length !== 0) {
+    const tabs = $('#ContentTabs');
+    const scrollContainer = $('.guide-scroll-container');
+    const guideContent = $('.guide-content');
+    const pos = tabs.offset().top;
+
+    guideContent.on('scroll', () => {
+
+      if(guideContent.scrollTop() + $('.guide-header').outerHeight() >= pos) {
+        //stick tabs
+        // console.log(true);
+        tabs.addClass('sticky');
+        scrollContainer.addClass('has-sticky');
+      } else {
+        //unstick tabs
+        // console.log(false);
+        tabs.removeClass('sticky');
+        scrollContainer.removeClass('has-sticky');
+      }
+    });
+  }
 });
 
 // window.onload = initiate;

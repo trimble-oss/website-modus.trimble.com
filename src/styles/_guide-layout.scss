@@ -1,0 +1,216 @@
+$guide-header-height: 60px;
+$guide-header-bg: $gray-50;
+$guide-footer-bg: $gray-50;
+$guide-body-max-width: 1600px;
+
+.guide-layout {
+  margin: 0;
+  min-height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .guide-header {
+    min-height: $guide-header-height;
+    max-height: $guide-header-height;
+    background-color: $guide-header-bg;
+    .navbar-brand {
+      width: calc(200px - 16px);
+    }
+  }
+
+  .guide-body {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    max-width: $guide-body-max-width;
+  }
+
+  .guide-footer {
+    background-color: $guide-footer-bg;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    min-height: 24px;
+  }
+
+  .guide-nav {
+    min-width: 200px;
+    max-width: 200px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    &.collapse.show, &.collapsing {
+      position: absolute;
+      z-index: 100;
+      max-height: 80vh;
+      background-color: #fff;
+      box-shadow: $shadow-depth-1;
+    }
+    a.nav-link {
+      color: theme-color('dark');
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      &.active, &:hover {
+        color: ui-color('active') !important;
+      }
+    }
+    .sub-nav {
+      a.nav-link {
+        color: $gray-500;
+        font-weight: 400;
+        margin: 0 0 0 8px;
+        display: flex;
+        &.active {
+          border-left: 2px solid;
+          border-left-color: ui-color('active');
+          padding-left: 14px;
+        }
+      }
+    }
+    .nav-link[data-toggle]:not(.collapsed) {
+      & > i {
+        transform: rotate(180deg);
+        transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+      }
+    }
+    .nav-link[data-toggle].collapsed {
+      & > i {
+        transform: rotate(0deg);
+        transition: transform cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+      }
+    }
+  }
+
+  .guide-content-column {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    position: relative;
+  }
+  .guide-content {
+    padding: 1rem;
+    padding-bottom: 0;
+    overflow-y: auto;
+    height: 100%;
+  }
+
+  .guide-right-nav {
+    min-width:200px;
+    display: none;
+    flex-direction: column;
+    &>nav {
+      display: flex;
+      flex-direction: column;
+      overflow: auto;
+      flex-wrap: nowrap;
+    }
+    a.nav-link {
+      color: $gray-500;
+      font-weight: 400;
+      display: flex;
+      &.active, &:hover {
+        color: ui-color('active') !important;
+      }
+      &.active {
+        border-left: 2px solid;
+        border-left-color: ui-color('active');
+        padding-left: 14px;
+      }
+    }
+  }
+}
+
+#ContentTabs.sticky {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  right: 1rem;
+  background-color: white;
+  z-index: 99;
+}
+
+.guide-scroll-container {
+  .tab-section > *:last-child,
+  .guide-section > *:last-child {
+    margin-bottom: 70vh;
+  }
+}
+
+.guide-scroll-container.has-sticky {
+  margin-top: 48px;
+}
+
+.guide-section, .tab-section {
+  margin: 40px 0 80px;
+  flex: 1;
+}
+
+.tab-content {
+  display:flex;
+  flex-direction: column;
+  // overflow: auto;
+  .tab-pane {
+    position: relative;
+  }
+  &>.active {
+    display:flex !important;
+    flex: 1;
+  }
+}
+
+.tab-section {
+  img {
+    max-width: 100%;
+  }
+}
+
+.guide-example-block {
+  display: flex;
+  flex-direction: column;
+  // min-width: 900px;
+  position: relative;
+
+  & > div {
+    border: 1px solid #ddd;
+  }
+
+  .ether-page-layout {
+    height: 100%;
+  }
+
+  .guide-sample {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+
+  .guide-code {
+    background-color: #f8f9fa;
+    padding-bottom: 30px;
+    position: relative;
+    code {
+      text-align: left;
+    }
+
+    pre {
+      margin-top: -10px;
+      margin: 1rem;
+      color: #333;
+      white-space: pre-wrap;
+    }
+  }
+
+  .guide-copy-code {
+    position: absolute;
+    bottom: 0px;
+    right: 8px;
+  }
+
+  .codepen-mover-button {
+    position: absolute;
+    bottom: 0px;
+    left: 8px;
+  }
+}
