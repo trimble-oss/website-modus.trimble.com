@@ -203,6 +203,10 @@ $guide-body-max-width: 1600px;
   .guide-sample {
     padding: 20px;
     background-color: #ffffff;
+
+    > .progress + .progress {
+      margin-top: 1rem;
+    }
   }
 
   .guide-code {

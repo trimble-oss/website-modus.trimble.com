@@ -247,6 +247,12 @@ module.exports = {
       minify: false,
       template: Path.resolve(__dirname, '../src/framework/visibility.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'progress.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/elements/progress.html')
+    }),
 
 
   ],
