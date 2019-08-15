@@ -116,6 +116,12 @@ module.exports = {
       template: Path.resolve(__dirname, '../src/framework/icons.html')
     }),
     new HtmlWebpackPlugin({
+      filename: 'status.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/framework/status.html')
+    }),
+    new HtmlWebpackPlugin({
       filename: 'lists.html',
       inject: true,
       minify: false,
