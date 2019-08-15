@@ -116,6 +116,12 @@ module.exports = {
       template: Path.resolve(__dirname, '../src/framework/icons.html')
     }),
     new HtmlWebpackPlugin({
+      filename: 'status.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/framework/status.html')
+    }),
+    new HtmlWebpackPlugin({
       filename: 'lists.html',
       inject: true,
       minify: false,
@@ -246,6 +252,18 @@ module.exports = {
       inject: true,
       minify: false,
       template: Path.resolve(__dirname, '../src/framework/visibility.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'progress.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/elements/progress.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'spinners.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/elements/spinners.html')
     }),
 
 

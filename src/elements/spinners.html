@@ -1,0 +1,204 @@
+${require(`../partials/header.html`)}
+<div class="guide-content">
+  <div class="guide-content-top border-bottom">
+    <h1>Spinners</h1>
+    <p class="lead">
+      Spinners indicate progress by showing users a loading state.
+    </p>
+  </div>
+  <div class="guide-scroll-container">
+    <div class="guide-section">
+      <h2>Overview</h2>
+      <p>
+        Our spinners are built entirely using HTML and CSS. You can toggle their
+        visibility using JavaScript in you project. Their appearance, alignment,
+        and sizing can be easily customized with our utility classes.
+      </p>
+      <p>
+        For accessibility purposes, each loader here includes
+        <code>role="status"</code> and a nested
+        <code>&lt;span class="sr-only"&gt;Loading...&lt;/span&gt;</code>.
+      </p>
+
+      <h3 class="mt-5">Border Spinner</h3>
+      <p>
+        Use the border spinnes for a lightweight loading indicator.
+      </p>
+      <div class="guide-example-block">
+        <div class="guide-sample">
+          <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+        ${require(`../partials/guide-code.html`)}
+      </div>
+
+      <p class="mt-3">
+        The border spinner uses <code>currentcColor</code> for its
+        <code>border-color</code>, meaning you can customize the color with
+        <a href="colors.html">text color utilities</a>. You can use any of our
+        text color utilities on the standard spinner.
+      </p>
+      <div class="guide-example-block">
+        <div class="guide-sample">
+          <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-border text-secondary" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-border text-success" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-border text-danger" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-border text-warning" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-border text-info" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-border text-light" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-border text-dark" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+        ${require(`../partials/guide-code.html`)}
+      </div>
+
+      <h3 class="mt-5">Growing Spinner</h3>
+      <p>
+        If you don't fancy a border spinner, switch to the grow spinner. While
+        it doesn't technically spin, it does repeatedly grow!
+      </p>
+      <div class="guide-example-block">
+        <div class="guide-sample">
+          <div class="spinner-grow" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+        ${require(`../partials/guide-code.html`)}
+      </div>
+
+      <p class="mt-3">
+        This spinner is built with <code>currentColor</code>, so you can easily change its appearance with <a href="colors.html">text color utilities</a>.
+      </p>
+      <div class="guide-example-block">
+        <div class="guide-sample">
+          <div class="spinner-grow text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-grow text-secondary" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-grow text-success" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-grow text-danger" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-grow text-warning" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-grow text-info" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-grow text-light" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <div class="spinner-grow text-dark" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+        ${require(`../partials/guide-code.html`)}
+      </div>
+
+      <h3 class="mt-5">Rectangle Bounce</h3>
+      <p>
+        This is a custom spinner not found in Bootstrap. The <code>&lt;div&gt;</code> tags inside the <code>.spinner-rectangle-bounce</code> dictate the number of bars in the spinner.
+      </p>
+      <div class="guide-example-block">
+        <div class="guide-sample">
+          <div class="spinner-rectangle-bounce">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        ${require(`../partials/guide-code.html`)}
+      </div>
+
+      <p class="mt-3">
+        This spinner is built with <code>currentColor</code>, so you can easily change its appearance with <a href="colors.html">text color utilities</a>.
+      </p>
+      <div class="guide-example-block">
+        <div class="guide-sample d-flex">
+          <div class="spinner-rectangle-bounce text-primary">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="spinner-rectangle-bounce text-secondary">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="spinner-rectangle-bounce text-success">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="spinner-rectangle-bounce text-danger">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="spinner-rectangle-bounce text-warning">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="spinner-rectangle-bounce text-info">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="spinner-rectangle-bounce text-light">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <div class="spinner-rectangle-bounce text-dark">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        ${require(`../partials/guide-code.html`)}
+      </div>
+    </div>
+  </div>
+</div>
+
+${require(`../partials/footer.html`)}
