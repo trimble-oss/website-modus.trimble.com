@@ -196,10 +196,14 @@ $(document).ready(function() {
       $('.guide-right-nav').append(rightNavTemplate(navId));
       $(navItems).each((i, e) => {
         const elem = $(e);
-        const elemName = $(elem).text().replace(/\s+/g, '-').toLowerCase();
+        const elemName = $(elem).text().replace(/\s+/g, '-').toLowerCase();        
         elem.wrapInner('<a name="' + navPrefix + elemName + '" />');
         const navItem = $('<li class="nav-item"></li>').appendTo($('#' + navId));
-        $('<a class="nav-link" href="#' + navPrefix + elemName + '"></a>').text( $(elem).text()).appendTo(navItem);
+        const linkItem = $('<a class="nav-link" href="#' + navPrefix + elemName + '"></a>').text( $(elem).text());
+        if(elem.prop('tagName') == "H2"){
+          linkItem.wrapInner('<strong />');
+        }
+        linkItem.appendTo(navItem);
       });
       $('.guide-right-nav .nav li:first-child a').addClass('active');
     }
