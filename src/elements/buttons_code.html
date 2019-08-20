@@ -15,7 +15,7 @@
     technologies such as screen readers.
   </p>
 
-  <h3>Colors and Styles</h3>
+  <h2 class="mt-5">Colors and Styles</h2>
   <p>
     Buttons have both a style class and a color class which when combined give a
     wide area of uses and connotations.
@@ -682,43 +682,33 @@
   <p><code>class="btn-icon-only"</code></p>
   <div class="guide-example-block">
     <div class="guide-sample">
-      <button class="btn btn-lg btn-icon-only btn-primary">
+      <button class="btn btn-icon-only btn-primary">
         <i class="ether-icons">gear</i>
       </button>
-      <button class="btn btn-lg btn-icon-only btn-secondary">
+      <button class="btn btn-icon-only btn-secondary">
         <i class="ether-icons">gear</i>
       </button>
-      <button class="btn btn-lg btn-icon-only btn-dark">
-        <i class="ether-icons">gear</i>
-      </button>
-
-      <button class="btn btn-lg btn-icon-only btn-outline-primary">
-        <i class="ether-icons">gear</i>
-      </button>
-      <button class="btn btn-lg btn-icon-only btn-outline-secondary">
-        <i class="ether-icons">gear</i>
-      </button>
-      <button class="btn btn-lg btn-icon-only btn-outline-dark">
+      <button class="btn btn-icon-only btn-dark">
         <i class="ether-icons">gear</i>
       </button>
 
-      <button class="btn btn-lg btn-icon-only btn-reverse-primary">
+      <button class="btn btn-icon-only btn-reverse-primary">
         <i class="ether-icons">gear</i>
       </button>
-      <button class="btn btn-lg btn-icon-only btn-reverse-secondary">
+      <button class="btn btn-icon-only btn-reverse-secondary">
         <i class="ether-icons">gear</i>
       </button>
-      <button class="btn btn-lg btn-icon-only btn-reverse-dark">
+      <button class="btn btn-icon-only btn-reverse-dark">
         <i class="ether-icons">gear</i>
       </button>
 
-      <button class="btn btn-lg btn-icon-only btn-text-primary">
+      <button class="btn btn-icon-only btn-text-primary">
         <i class="ether-icons">gear</i>
       </button>
-      <button class="btn btn-lg btn-icon-only btn-text-secondary">
+      <button class="btn btn-icon-only btn-text-secondary">
         <i class="ether-icons">gear</i>
       </button>
-      <button class="btn btn-lg btn-icon-only btn-text-dark">
+      <button class="btn btn-icon-only btn-text-dark">
         <i class="ether-icons">gear</i>
       </button>
     </div>
@@ -726,87 +716,89 @@
   </div>
 
   <h2 class="mt-5">Button Sizes</h2>
+  <p>Buttons default to "medium" size but there are also large and small options.</p>
+  <table class="table" style="width: max-content">
+    <thead>
+      <tr class="text-center">
+        <th scope="col"></th>
+        <th scope="col">Solid</th>
+        <th scope="col">Outline</th>
+        <th scope="col">Reverse</th>
+        <th scope="col">Text</th>
+        <th scope="col">With Icon</th>
+        <th scope="col">Icon Only</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Small: 24px high</th>
+        <td><button class="btn btn-sm btn-primary">BUTTON</button></td>
+        <td><button class="btn btn-sm btn-outline-primary">BUTTON</button></td>
+        <td><button class="btn btn-sm btn-reverse-primary">BUTTON</button></td>
+        <td><button class="btn btn-sm btn-text-primary">BUTTON</button></td>
+        <td><button class="btn btn-sm btn-primary"><i class="ether-icons left-icon">gear</i>BUTTON</button></td>
+        <td><button class="btn btn-sm btn-icon-only btn-primary"><i class="ether-icons">gear</i></button></td>
+      </tr>
+      <tr>
+        <th scope="row">Default (medium): 32px high</th>
+        <td><button class="btn btn-primary">BUTTON</button></td>
+        <td><button class="btn btn-outline-primary">BUTTON</button></td>
+        <td><button class="btn btn-reverse-primary">BUTTON</button></td>
+        <td><button class="btn btn-text-primary">BUTTON</button></td>
+        <td><button class="btn btn-primary"><i class="ether-icons left-icon">gear</i>BUTTON</button></td>
+        <td><button class="btn btn-icon-only btn-primary"><i class="ether-icons">gear</i></button></td>
+      </tr>
+      <tr>
+        <th scope="row">Large: 48px high</th>
+        <td><button class="btn btn-lg btn-primary">BUTTON</button></td>
+        <td><button class="btn btn-lg btn-outline-primary">BUTTON</button></td>
+        <td><button class="btn btn-lg btn-reverse-primary">BUTTON</button></td>
+        <td><button class="btn btn-lg btn-text-primary">BUTTON</button></td>
+        <td><button class="btn btn-lg btn-primary"><i class="ether-icons left-icon">gear</i>BUTTON</button></td>
+        <td><button class="btn btn-lg btn-icon-only btn-primary"><i class="ether-icons">gear</i></button></td>
+      </tr>
+    </tbody>
+  </table>
 
   <h3 class="mt-5">Small Buttons</h3>
-  <p><code>class="btn-sm"</code></p>
+  <p><code>class="btn btn-sm"</code></p>
   <div class="guide-example-block">
     <div class="guide-sample">
-      <button class="btn btn-sm btn-primary">BUTTON</button>
-      <button class="btn btn-sm btn-secondary">BUTTON</button>
-      <button class="btn btn-sm btn-dark">BUTTON</button>
-      <button class="btn btn-sm btn-danger">BUTTON</button>
-      <button class="btn btn-sm btn-success">BUTTON</button>
+      <td><button class="btn btn-sm btn-primary">BUTTON</button></td>
+        <td><button class="btn btn-sm btn-outline-primary">BUTTON</button></td>
+        <td><button class="btn btn-sm btn-reverse-primary">BUTTON</button></td>
+        <td><button class="btn btn-sm btn-text-primary">BUTTON</button></td>
+        <td><button class="btn btn-sm btn-primary"><i class="ether-icons left-icon">gear</i>BUTTON</button></td>
+        <td><button class="btn btn-sm btn-icon-only btn-primary"><i class="ether-icons">gear</i></button></td>
+      </tr>
     </div>
     ${require(`../partials/guide-code.html`)}
   </div>
 
   <h3 class="mt-5">Large Buttons</h3>
-  <p><code>class="btn-lg"</code></p>
+  <p><code>class="btn btn-lg"</code></p>
   <div class="guide-example-block">
     <div class="guide-sample">
-      <button class="btn btn-lg btn-primary">BUTTON</button>
-      <button class="btn btn-lg btn-secondary">BUTTON</button>
-      <button class="btn btn-lg btn-dark">BUTTON</button>
-      <button class="btn btn-lg btn-danger">BUTTON</button>
-      <button class="btn btn-lg btn-success">BUTTON</button>
+      <td><button class="btn btn-lg btn-primary">BUTTON</button></td>
+        <td><button class="btn btn-lg btn-outline-primary">BUTTON</button></td>
+        <td><button class="btn btn-lg btn-reverse-primary">BUTTON</button></td>
+        <td><button class="btn btn-lg btn-text-primary">BUTTON</button></td>
+        <td><button class="btn btn-lg btn-primary"><i class="ether-icons left-icon">gear</i>BUTTON</button></td>
+        <td><button class="btn btn-lg btn-icon-only btn-primary"><i class="ether-icons">gear</i></button></td>
     </div>
     ${require(`../partials/guide-code.html`)}
   </div>
 
-  <h3 class="mt-5">Block Level Buttons</h3>
+  <h3 class="mt-5">Full-width (Block) Buttons</h3>
   <p><code>class="btn-block"</code></p>
   <div class="guide-example-block">
     <div class="guide-sample ">
-      <button class="m-0 my-1 btn btn-block btn-primary">BUTTON</button>
-      <button class="m-0 my-1 btn btn-block btn-secondary">BUTTON</button>
-      <button class="m-0 my-1 btn btn-block btn-dark">BUTTON</button>
-      <button class="m-0 my-1 btn btn-block btn-danger">BUTTON</button>
-      <button class="m-0 my-1 btn btn-block btn-success">BUTTON</button>
+      <button class="btn btn-block btn-primary">BUTTON</button>
     </div>
     ${require(`../partials/guide-code.html`)}
   </div>
 
-  <h3 class="mt-5">Small Buttons with icons</h3>
-  <div class="guide-example-block">
-    <div class="guide-sample">
-      <button class="btn btn-sm btn-primary">
-        <i class="ether-icons left-icon">gear</i>BUTTON
-      </button>
-      <button class="btn btn-sm btn-secondary">
-        <i class="ether-icons left-icon">gear</i>BUTTON
-      </button>
-
-      <button class="btn btn-sm btn-danger">
-        BUTTON<i class="ether-icons right-icon">gear</i>
-      </button>
-      <button class="btn btn-sm btn-success">
-        BUTTON<i class="ether-icons right-icon">gear</i>
-      </button>
-    </div>
-    ${require(`../partials/guide-code.html`)}
-  </div>
-
-  <h3 class="mt-5">Large Buttons with icons</h3>
-  <div class="guide-example-block">
-    <div class="guide-sample">
-      <button class="btn btn-lg btn-primary">
-        <i class="ether-icons left-icon">gear</i>BUTTON
-      </button>
-      <button class="btn btn-lg btn-secondary">
-        <i class="ether-icons left-icon">gear</i>BUTTON
-      </button>
-
-      <button class="btn btn-lg btn-danger">
-        BUTTON<i class="ether-icons right-icon">gear</i>
-      </button>
-      <button class="btn btn-lg btn-success">
-        BUTTON<i class="ether-icons right-icon">gear</i>
-      </button>
-    </div>
-    ${require(`../partials/guide-code.html`)}
-  </div>
-
-  
+  <h2 class="mt-5">Special Buttons</h2>
 
   <h3 class="mt-5">Light Buttons</h3>
   <p>
@@ -912,5 +904,18 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <h3 class="mt-5">Yellow Button</h3>
+  <p>A yellow button for the Trimble brand color is provided for special use cases.</p>
+  <p><code>class="btn btn-yellow"</code></p>
+  <div class="guide-example-block">
+    <div class="guide-sample ">
+      <button class="btn btn-yellow">BUTTON</button>
+      <button class="btn btn-outline-yellow">BUTTON</button>
+      <button class="btn btn-reverse-yellow">BUTTON</button>
+      <button class="btn btn-text-yellow">BUTTON</button>
+    </div>
+    ${require(`../partials/guide-code.html`)}
   </div>
 </div>
