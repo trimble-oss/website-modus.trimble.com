@@ -26,14 +26,15 @@ table {
   max-width: 100%;
   margin-bottom: 1rem;
   border-collapse: collapse;
-  background-color: #f8f9fa;
+  // background-color: #f8f9fa;
+  &.table tbody tr:hover { background-color: unset; }
 }
 
 th,
 td {
-  padding: 0.75rem;
+  // padding: 0.75rem;
   vertical-align: top;
-  border: 1px solid #dee3e6;
+  // border: 1px solid #dee3e6;
 }
 
 .card-inverse {
