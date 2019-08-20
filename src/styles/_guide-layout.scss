@@ -1,7 +1,7 @@
 $guide-header-height: 60px;
 $guide-header-bg: $gray-50;
 $guide-footer-bg: $gray-50;
-$guide-body-max-width: 1600px;
+$guide-body-max-width: 1200px;
 
 .guide-layout {
   margin: 0;
@@ -15,8 +15,12 @@ $guide-body-max-width: 1600px;
     min-height: $guide-header-height;
     max-height: $guide-header-height;
     background-color: $guide-header-bg;
+    .navbar {      
+      max-width: 1600px;
+      margin: 0 auto;
+    }
     .navbar-brand {
-      width: calc(200px - 16px);
+      width: 200px;
     }
   }
 
@@ -25,7 +29,8 @@ $guide-body-max-width: 1600px;
     display: flex;
     flex-direction: row;
     flex: 1 1 auto;
-    max-width: $guide-body-max-width;
+    justify-content: center;
+    // margin: 0 auto;
   }
 
   .guide-footer {
@@ -37,6 +42,8 @@ $guide-body-max-width: 1600px;
   }
 
   .guide-nav {
+    position: sticky;
+    top: 0;
     min-width: 200px;
     max-width: 200px;
     padding-top: 1rem;
@@ -86,19 +93,24 @@ $guide-body-max-width: 1600px;
   }
 
   .guide-content-column {
+    display: flex;
     flex: 1 1 auto;
-    overflow-y: auto;
+    // overflow-y: auto;
     position: relative;
+    
+    max-width: $guide-body-max-width;
   }
   .guide-content {
-    padding: 1rem;
+    padding: 1rem 3rem;
     padding-bottom: 0;
-    overflow-y: auto;
     height: 100%;
   }
 
   .guide-right-nav {
+    position: sticky;
+    top: 0;
     min-width:200px;
+    max-width:200px;
     display: none;
     flex-direction: column;
     &>nav {
