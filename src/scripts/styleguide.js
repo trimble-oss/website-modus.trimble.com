@@ -233,7 +233,7 @@ $(document).ready(function() {
     buildRightNav(navItems, 'section-nav');
   });
 
-  $('.guide-content').on('scroll', e =>{
+  $('.guide-body').on('scroll', e =>{
     $(e.currentTarget).find('.tab-section, .guide-section').children('h2,h3,h4').each((i,t)=>{
       let elemOffset = ($(t).offset().top - $(e.currentTarget).offset().top);
       if(  elemOffset > -20 &&  elemOffset < 60) {
