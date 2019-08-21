@@ -91,6 +91,14 @@ const codePen = elem => {
 };
 
 $(document).ready(function() {
+  if (window.localStorage.getItem('color')) {
+    const thisColor = window.localStorage.getItem('color');
+    $('.bg-color-select').val(thisColor);
+    $('.guide-code-options').siblings('.guide-sample').css('background-color', thisColor);
+  } else {
+    window.localStorage.setItem('color', 'White');
+  }
+
   $('.guide-code').each(function(i, block) {
     var prev_html = Pretty(
       $(block)
@@ -129,7 +137,9 @@ $(document).ready(function() {
 
   $('.bg-color-select').on('change', e => {
     const thisColor = $(e.currentTarget).val();
-    $(e.currentTarget).parent().siblings('.guide-sample').css('background-color',thisColor);
+    $('.bg-color-select').val(thisColor);
+    $('.guide-code-options').siblings('.guide-sample').css('background-color',thisColor);
+    window.localStorage.setItem('color', thisColor);
   });
 
   $('#copyExampleButton').on('click', () => {
