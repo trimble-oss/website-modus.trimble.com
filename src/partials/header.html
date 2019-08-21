@@ -65,33 +65,27 @@
 
   <body>
     <div class="guide-layout">
-      <nav
-        class="guide-header navbar navbar-expand-lg"
-      >
-        <button class="btn btn-text-dark btn-lg btn-icon-only mr-3 navbar-toggler"  type="button" data-toggle="collapse" data-target="#mainSidebar" aria-controls="mainSidebar" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="ether-icons menu-btn">menu</i></button>
-        <a class="navbar-brand d-none d-lg-block" href="/index.html">
-          <img
-            src="${require(`../img/trimble-logo.svg`)}"
-            alt="Trimble"
-            class="d-inline-block"
-            height="25px"
-          />
-        </a>
-        <div class="navbar-text mr-auto">
-          <h4 class="text-primary m-0">Style Guide 2.0 and CSS Library</h4>
-        </div>
-
-        <div class="ml-auto">
-          <button id="issueButton" class="btn btn-warning mr-2">
-            Report an Issue
-          </button>
-          <button id="featureButton" class="btn btn-primary">
-            Request a Feature
-          </button>
-        </div>
-
-      </nav>
+      <div class="guide-header">
+          <nav
+          class="navbar navbar-expand-lg"
+        >
+          <button class="btn btn-text-dark btn-lg btn-icon-only mr-3 navbar-toggler"  type="button" data-toggle="collapse" data-target="#mainSidebar" aria-controls="mainSidebar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="ether-icons menu-btn">menu</i></button>
+          <a class="navbar-brand d-none d-lg-block" href="/index.html">
+            <img
+              src="${require(`../img/trimble-logo.svg`)}"
+              alt="Trimble"
+              class="d-inline-block"
+              height="25px"
+            />
+          </a>
+          <div class="navbar-text mr-auto ml-3">
+            <h4 class="text-primary m-0">Style Guide 2.0 and CSS Library</h4>
+          </div>  
+  
+        </nav>
+      </div>
+      
       <div class="guide-body">
         <nav class="guide-nav collapse navbar-collapse external-collapse" id="mainSidebar" >
           <ul class="nav flex-column">
