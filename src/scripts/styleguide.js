@@ -71,7 +71,7 @@ const codePen = elem => {
     css_external:
       'https://styles.trimblemaps.com/css/ether.min-0.3.2.css;https://styles.trimblemaps.com/css/ether-layout.min-0.3.2.css;https://styles.trimblemaps.com/assets/1.1.0/fonts/ether-icons.css;https://fonts.googleapis.com/icon?family=Material+Icons',
     js_external: 'https://styles.trimblemaps.com/css/ether-layout.min-0.3.2.js',
-    template: true,
+    template: true
   };
 
   var JSONstring = JSON.stringify(data)
@@ -94,7 +94,9 @@ $(document).ready(function() {
   if (window.localStorage.getItem('color')) {
     const thisColor = window.localStorage.getItem('color');
     $('.bg-color-select').val(thisColor);
-    $('.guide-code-options').siblings('.guide-sample').css('background-color', thisColor);
+    $('.guide-code-options')
+      .siblings('.guide-sample')
+      .css('background-color', thisColor);
   } else {
     window.localStorage.setItem('color', 'White');
   }
@@ -105,11 +107,7 @@ $(document).ready(function() {
         .siblings('.guide-sample')
         .html()
     );
-    var html_code = Prism.highlight(
-      prev_html,
-      Prism.languages.markup,
-      'markup'
-    );
+    var html_code = Prism.highlight(prev_html, Prism.languages.markup, 'markup');
     var elem = $('<pre>')
       .addClass('codepen-able')
       .html(html_code)
@@ -138,7 +136,9 @@ $(document).ready(function() {
   $('.bg-color-select').on('change', e => {
     const thisColor = $(e.currentTarget).val();
     $('.bg-color-select').val(thisColor);
-    $('.guide-code-options').siblings('.guide-sample').css('background-color',thisColor);
+    $('.guide-code-options')
+      .siblings('.guide-sample')
+      .css('background-color', thisColor);
     window.localStorage.setItem('color', thisColor);
   });
 
@@ -181,7 +181,7 @@ $(document).ready(function() {
         <p class="small mb-0"><strong>Padding:</strong> ${elem.css('padding')}</p>
         <p class="small mb-0"><strong>Border:</strong> ${elem.css('border-width')}</p>
         `,
-        html: true,
+        html: true
       });
       elem.popover('show');
     });
@@ -194,23 +194,276 @@ $(document).ready(function() {
       elem.popover('dispose');
     });
 
+  $('.hover-display')
+    .find('*')
+    .not('p')
+    .on('mouseenter', e => {
+      drawHover(e, false);
+    });
+
+  const hexDigits = new Array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f');
+
+  const rgbToHex = rgb => {
+    if (!rgb.startsWith('rgba')) {
+      var rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+      return '#' + hex(rgb[1]) + hex(rgb[2]) + hex(rgb[3]);
+    }
+  };
+
+  const hex = x => {
+    return isNaN(x) ? '00' : hexDigits[(x - (x % 16)) / 16] + hexDigits[x % 16];
+  };
+
+  const drawHover = (e, perm) => {
+    // hover-display-perm class adds a permanent ouline
+    // hover-display class adds a on hover outline
+    if (e.currentTarget) {
+      var elem = $(e.currentTarget);
+    } else {
+      var elem = $(e);
+      elem.parent().css({ position: 'relative' });
+    }
+
+    const h = elem.outerHeight();
+    const w = elem.outerWidth();
+    const pos = elem.position();
+    const b = {
+      top: parseInt(elem.css('border-top-width'), 10),
+      bottom: parseInt(elem.css('border-bottom-width'), 10),
+      left: parseInt(elem.css('border-left-width'), 10),
+      right: parseInt(elem.css('border-right-width'), 10)
+    };
+    const m = {
+      top: parseInt(elem.css('margin-top'), 10),
+      bottom: parseInt(elem.css('margin-bottom'), 10),
+      left: parseInt(elem.css('margin-left'), 10),
+      right: parseInt(elem.css('margin-right'), 10)
+    };
+    const p = {
+      top: parseInt(elem.css('padding-top'), 10),
+      bottom: parseInt(elem.css('padding-bottom'), 10),
+      left: parseInt(elem.css('padding-left'), 10),
+      right: parseInt(elem.css('padding-right'), 10)
+    };
+
+    var classes = 'hover-div';
+    if (!perm) {
+      classes += ' not-perm';
+    }
+
+    var mainDiv = $('<div/>', { class: classes, id: 'hover-div' })
+      .width(w)
+      .height(h)
+      .css({ top: m.top + pos.top, left: m.left + pos.left });
+    if (p.top > 0 || p.bottom > 0 || p.left > 0 || p.right > 0) {
+      mainDiv.css({ border: 'rgba(51, 168, 47, 0.5) solid 2px', background: 'rgba(51, 168, 47, 0.3)' });
+    }
+    elem.parent().append(mainDiv);
+
+    var innerLine = $('<div/>', { class: 'hover-div-inner' })
+      .width(w - (p.left + p.right))
+      .height(h - (p.top + p.bottom))
+      .css({ top: p.top - 2, left: p.left - 2 });
+    mainDiv.append(innerLine);
+
+    if (p.top > 0) {
+      var pTopLine = $('<div/>', { class: 'hover-line-padding-vert' })
+        .height(p.top)
+        .css({ top: -2, left: w / 2 - 2 });
+      mainDiv.append(pTopLine);
+      var pTopLabel = $('<span/>', { class: 'hover-padding-text' })
+        .css({ top: -18, left: w / 2 - 2 })
+        .text(p.top + 'px');
+      mainDiv.append(pTopLabel);
+    }
+
+    if (p.bottom > 0) {
+      var pBottomLine = $('<div/>', { class: 'hover-line-padding-vert' })
+        .height(p.bottom)
+        .css({ top: h - p.bottom - 2, left: w / 2 - 2 });
+      mainDiv.append(pBottomLine);
+      var pBottomLabel = $('<span/>', { class: 'hover-padding-text' })
+        .css({ top: h - 2, left: w / 2 - 2 })
+        .text(p.bottom + 'px');
+      mainDiv.append(pBottomLabel);
+    }
+
+    if (p.left > 0) {
+      var pLeftLine = $('<div/>', { class: 'hover-line-padding-horz' })
+        .width(p.left)
+        .css({ top: h / 2 - 2, left: -2 });
+      mainDiv.append(pLeftLine);
+      var pLeftLabel = $('<span/>', { class: 'hover-padding-text' })
+        .css({ top: h / 2 - 2 - 8, left: -30 })
+        .text(p.left + 'px');
+      mainDiv.append(pLeftLabel);
+    }
+
+    if (p.right > 0) {
+      var pRightLine = $('<div/>', { class: 'hover-line-padding-horz' })
+        .width(p.right)
+        .css({ top: h / 2 - 2, left: w - p.right - 2 });
+      mainDiv.append(pRightLine);
+      var pRightLabel = $('<span/>', { class: 'hover-padding-text' })
+        .css({ top: h / 2 - 2 - 8, left: w })
+        .text(p.right + 'px');
+      mainDiv.append(pRightLabel);
+    }
+
+    if (m.top > 0) {
+      var mBox = $('<div/>', { class: 'hover-div-margin' })
+        .width(w)
+        .height(m.top)
+        .css({ top: -m.top - 2, left: -2 });
+      mainDiv.append(mBox);
+      var mTopLine = $('<div/>', { class: 'hover-line-margin-vert' })
+        .height(m.top)
+        .css({ top: -m.top - 2, left: 2 * (w / 3) - 2 });
+      mainDiv.append(mTopLine);
+      var mTopLabel = $('<span/>', { class: 'hover-margin-text' })
+        .css({ top: -m.top - 18, left: 2 * (w / 3) - 2 })
+        .text(m.top + 'px');
+      mainDiv.append(mTopLabel);
+    }
+
+    if (m.bottom > 0) {
+      var mBox = $('<div/>', { class: 'hover-div-margin' })
+        .width(w)
+        .height(m.bottom)
+        .css({ top: h - 2, left: -2 });
+      mainDiv.append(mBox);
+      var mBottomLine = $('<div/>', { class: 'hover-line-margin-vert' })
+        .height(m.bottom)
+        .css({ top: h - 2, left: 2 * (w / 3) - 2 });
+      mainDiv.append(mBottomLine);
+      var mBottomLabel = $('<span/>', { class: 'hover-margin-text' })
+        .css({ top: h + m.bottom - 2, left: 2 * (w / 3) - 2 })
+        .text(m.bottom + 'px');
+      mainDiv.append(mBottomLabel);
+    }
+
+    if (m.left > 0) {
+      var mBox = $('<div/>', { class: 'hover-div-margin' })
+        .width(m.left)
+        .height(h)
+        .css({ top: -2, left: -m.left - 2 });
+      mainDiv.append(mBox);
+      var mLeftLine = $('<div/>', { class: 'hover-line-margin-horz' })
+        .width(m.left)
+        .css({ top: 3 * (h / 4) - 2, left: -m.left });
+      mainDiv.append(mLeftLine);
+      var mLeftLabel = $('<span/>', { class: 'hover-margin-text' })
+        .css({ top: 3 * (h / 4) - 2 - 8, left: -m.left - 30 })
+        .text(m.left + 'px');
+      mainDiv.append(mLeftLabel);
+    }
+
+    if (m.right > 0) {
+      var mBox = $('<div/>', { class: 'hover-div-margin' })
+        .width(m.right)
+        .height(h)
+        .css({ top: -2, left: w - 2 });
+      mainDiv.append(mBox);
+      var mRightLine = $('<div/>', { class: 'hover-line-margin-horz' })
+        .width(m.right)
+        .css({ top: 3 * (h / 4) - 2, left: w });
+      mainDiv.append(mRightLine);
+      var mRightLabel = $('<span/>', { class: 'hover-margin-text' })
+        .css({ top: 3 * (h / 4) - 2 - 8, left: w + m.right - 2 })
+        .text(m.right + 'px');
+      mainDiv.append(mRightLabel);
+    }
+
+    var hLine = $('<div/>', { class: 'hover-line-height-vert' })
+      .height(h)
+      .css({ top: -2, left: w + p.right + m.right + 15 });
+    mainDiv.append(hLine);
+    var hTopLine = $('<div/>', { class: 'hover-line-height-horz' })
+      .width(10)
+      .css({ top: -2, left: w + p.right + m.right + 5 });
+    mainDiv.append(hTopLine);
+    var hBottomLine = $('<div/>', { class: 'hover-line-height-horz' })
+      .width(10)
+      .css({ top: h - 4, left: w + p.right + m.right + 5 });
+    mainDiv.append(hBottomLine);
+    var hLabel = $('<span/>', { class: 'hover-height-text' })
+      .css({ top: h / 2 - 2 - 8, left: w + p.right + m.right + 19 })
+      .text(h + 'px');
+    mainDiv.append(hLabel);
+
+    if ($('.hover-div.not-perm')[1] && !perm) {
+      $('.hover-div.not-perm')[1].remove();
+    }
+
+    var place = 'top';
+    if (perm) {
+      place = 'right';
+    }
+    const offset = 'top: ' + (p.top + m.top + 15) + ',';
+    var pop = elem.popover({
+      placement: place,
+      content: `
+      <p class="small text-primary font-weight-bold m-0">${'.' + elem.prop('class').replace(' ', '.').replace('hover-display-perm', '')}</p>
+      <p class="small mb-0" id="popover-bgc"><strong>background-color:</strong> ${rgbToHex(elem.css('background-color'))}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css('background-color')}"></span></p>
+      <p class="small mb-0" id="popover-bc"><strong>border-color:</strong> ${rgbToHex(elem.css('border-color'))}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css('border-color')}"></span></p>
+      <p class="small mb-0" id="popover-c"><strong>color:</strong> ${rgbToHex(elem.css('color'))}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css('color')}"></span></p>
+      <p class="small mb-0"><strong>font-size:</strong> ${elem.css('font-size')}</p>
+      `,
+      html: true,
+      offset: offset,
+    });
+
+    elem.popover('show');
+
+    if (!perm) {
+      const popovers = $('.popover');
+      const popover = popovers[popovers.length - 1];
+      $(popover).addClass('not-perm');
+    }
+
+    const popovers = $('.popover.not-perm');
+    for (let i = 0; i < popovers.length - 1; i++) {
+      const popover = $(popovers[i]);
+      popover.remove();
+    }
+
+    if (!perm) {
+      elem.on('mouseleave', e => {
+        $('.hover-div.not-perm').remove();
+        elem.popover('dispose');
+      });
+    }
+  };
+
+  $('.hover-display-perm')
+    .find('*')
+    .prevObject.map(e => {
+      e = $('.hover-display-perm').find('*').prevObject[e];
+      drawHover(e, true);
+    });
+
   const rightNavTemplate = id => {
     return `<h5 class="border-bottom border-primary">Contents</h5>
     <nav class="nav flex-column" id="${id}"></nav>`;
   };
 
-  const buildRightNav = (navItems, navId)=> {
-    $('.guide-right-nav').children().remove();
+  const buildRightNav = (navItems, navId) => {
+    $('.guide-right-nav')
+      .children()
+      .remove();
     const navPrefix = navId.substr(0, navId.indexOf('-') + 1);
-    if(navItems.length > 0) {
+    if (navItems.length > 0) {
       $('.guide-right-nav').append(rightNavTemplate(navId));
       $(navItems).each((i, e) => {
         const elem = $(e);
-        const elemName = $(elem).text().replace(/\s+/g, '-').toLowerCase();        
+        const elemName = $(elem)
+          .text()
+          .replace(/\s+/g, '-')
+          .toLowerCase();
         elem.wrapInner('<a name="' + navPrefix + elemName + '" />');
         const navItem = $('<li class="nav-item"></li>').appendTo($('#' + navId));
-        const linkItem = $('<a class="nav-link" href="#' + navPrefix + elemName + '"></a>').text( $(elem).text());
-        if(elem.prop('tagName') == "H2"){
+        const linkItem = $('<a class="nav-link" href="#' + navPrefix + elemName + '"></a>').text($(elem).text());
+        if (elem.prop('tagName') == 'H2') {
           linkItem.wrapInner('<strong />');
         }
         linkItem.appendTo(navItem);
@@ -221,17 +474,17 @@ $(document).ready(function() {
 
   $('.guide-tab-panes .tab-pane.active').each((idx, t) => {
     // $(".guide-right-nav").css("margin-top", $(t).parent().offset().top - 108);
-    const thisNav = $(t).attr("id") + '-nav';
+    const thisNav = $(t).attr('id') + '-nav';
     const navItems = $(t).find('h2,h3,h4');
     buildRightNav(navItems, thisNav);
   });
 
   $('#ContentTabs .nav-link').on('click', e => {
-    if($(e.currentTarget).hasClass('active')){
+    if ($(e.currentTarget).hasClass('active')) {
       return;
     } else {
       const elem = $('.tab-pane').not('.active');
-      const thisNav = $(elem).attr("id") + '-nav';
+      const thisNav = $(elem).attr('id') + '-nav';
       const navItems = $(elem).find('h2,h3,h4');
       buildRightNav(navItems, thisNav);
     }
@@ -243,15 +496,20 @@ $(document).ready(function() {
     buildRightNav(navItems, 'section-nav');
   });
 
-  $('.guide-body').on('scroll', e =>{
-    $(e.currentTarget).find('.tab-section, .guide-section').children('h2,h3,h4').each((i,t)=>{
-      let elemOffset = ($(t).offset().top - $(e.currentTarget).offset().top);
-      if(  elemOffset > -20 &&  elemOffset < 60) {
-        const thisName = $(t).find('a').attr('name');
-        $('.guide-right-nav a').removeClass('active');
-        $('.guide-right-nav [href="#' + thisName + '"]').addClass('active');
-      }
-    });
+  $('.guide-body').on('scroll', e => {
+    $(e.currentTarget)
+      .find('.tab-section, .guide-section')
+      .children('h2,h3,h4')
+      .each((i, t) => {
+        let elemOffset = $(t).offset().top - $(e.currentTarget).offset().top;
+        if (elemOffset > -20 && elemOffset < 60) {
+          const thisName = $(t)
+            .find('a')
+            .attr('name');
+          $('.guide-right-nav a').removeClass('active');
+          $('.guide-right-nav [href="#' + thisName + '"]').addClass('active');
+        }
+      });
   });
 
   if ($('#ContentTabs').length !== 0) {
@@ -261,8 +519,7 @@ $(document).ready(function() {
     const pos = tabs.offset().top;
 
     guideContent.on('scroll', () => {
-
-      if(guideContent.scrollTop() + $('.guide-header').outerHeight() >= pos) {
+      if (guideContent.scrollTop() + $('.guide-header').outerHeight() >= pos) {
         //stick tabs
         tabs.addClass('sticky');
         scrollContainer.addClass('has-sticky');
