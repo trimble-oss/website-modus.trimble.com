@@ -136,10 +136,10 @@ $guide-body-max-width: 1200px;
 }
 
 #ContentTabs.sticky {
-  position: absolute;
-  top: 0;
-  left: 1rem;
-  right: 1rem;
+  position: fixed;
+  top: 60px;
+  // left: 1rem;
+  // right: 1rem;
   background-color: white;
   z-index: 99;
 }
@@ -160,6 +160,42 @@ $guide-body-max-width: 1200px;
   flex: 1;
 }
 
+
+.guide-tab-content {
+  table:not(.table) {
+    @extend .card;
+    display: flex;
+    background-color: transparent;
+    width: max-content;
+    box-shadow: $shadow-depth-1;
+    td, th {
+      padding: 16px;
+      background-color: white;      
+      border-left: 1px solid $gray-300;
+      &:first-child {
+        border-left-width: 0;
+      }
+      p {        
+        margin-bottom: 0;
+      }
+    }
+    tr:last-child td {
+      border-top: 1px solid $gray-300;
+      p {
+        max-width: 300px;
+        color: theme-color('dark');
+      }
+    }
+  }
+
+  ul > li {
+    margin-bottom: 8px;
+  }
+  h4 {
+    margin-top: 24px;
+  }
+}
+
 .tab-content {
   display:flex;
   flex-direction: column;
@@ -176,25 +212,6 @@ $guide-body-max-width: 1200px;
 .tab-section {
   img {
     max-width: 100%;
-  }
-}
-
-#guide-content {
-  ul > li {
-    margin-bottom: 8px;
-  }
-  h4 {
-    margin-top: 24px;
-  }
-  table {
-    display: flex;
-    background-color: transparent;
-    tr:last-child td {
-      p {
-        max-width: 300px;
-        color: theme-color('primary');
-      }
-    }
   }
 }
 

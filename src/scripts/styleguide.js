@@ -94,10 +94,14 @@ $(document).ready(function() {
   if (window.localStorage.getItem('color')) {
     const thisColor = window.localStorage.getItem('color');
     $('.bg-color-select').val(thisColor);
-    $('.guide-code-options').siblings('.guide-sample').css('background-color', thisColor);
+    $('.guide-sample').css('background-color', thisColor);
   } else {
     window.localStorage.setItem('color', 'White');
   }
+
+  $('.guide-tabs .nav-item a').on('click', (e) => {
+    $('.guide-code-options').toggleClass('invisible');
+  });
 
   $('.guide-code').each(function(i, block) {
     var prev_html = Pretty(
@@ -138,7 +142,7 @@ $(document).ready(function() {
   $('.bg-color-select').on('change', e => {
     const thisColor = $(e.currentTarget).val();
     $('.bg-color-select').val(thisColor);
-    $('.guide-code-options').siblings('.guide-sample').css('background-color',thisColor);
+    $('.guide-sample').css('background-color',thisColor);
     window.localStorage.setItem('color', thisColor);
   });
 
@@ -195,15 +199,16 @@ $(document).ready(function() {
     });
 
   const rightNavTemplate = id => {
-    return `<h5 class="border-bottom border-primary">Contents</h5>
+    return `<h6 class="pl-3">Contents</h6>
     <nav class="nav flex-column" id="${id}"></nav>`;
   };
 
   const buildRightNav = (navItems, navId)=> {
     $('.guide-right-nav').children().remove();
-    const navPrefix = navId.substr(0, navId.indexOf('-') + 1);
+    const navPrefix = navId.substr(0, navId.indexOf('-') + 1);    
     if(navItems.length > 0) {
       $('.guide-right-nav').append(rightNavTemplate(navId));
+      $('<li class="nav-item"><a class="nav-link" href="#top">Top</a></li>').appendTo($('#' + navId));
       $(navItems).each((i, e) => {
         const elem = $(e);
         const elemName = $(elem).text().replace(/\s+/g, '-').toLowerCase();        
@@ -254,25 +259,25 @@ $(document).ready(function() {
     });
   });
 
-  if ($('#ContentTabs').length !== 0) {
-    const tabs = $('#ContentTabs');
-    const scrollContainer = $('.guide-scroll-container');
-    const guideContent = $('.guide-content');
-    const pos = tabs.offset().top;
+  // if ($('#ContentTabs').length !== 0) {
+  //   const tabs = $('#ContentTabs');
+  //   const scrollContainer = $('.guide-scroll-container');
+  //   const guideContent = $('.guide-body');
+  //   const pos = tabs.offset().top;
 
-    guideContent.on('scroll', () => {
+  //   guideContent.on('scroll', () => {
 
-      if(guideContent.scrollTop() + $('.guide-header').outerHeight() >= pos) {
-        //stick tabs
-        tabs.addClass('sticky');
-        scrollContainer.addClass('has-sticky');
-      } else {
-        //unstick tabs
-        tabs.removeClass('sticky');
-        scrollContainer.removeClass('has-sticky');
-      }
-    });
-  }
+  //     if(guideContent.scrollTop() + $('.guide-header').outerHeight() >= pos) {
+  //       //stick tabs
+  //       tabs.addClass('sticky');
+  //       scrollContainer.addClass('has-sticky');
+  //     } else {
+  //       //unstick tabs
+  //       tabs.removeClass('sticky');
+  //       scrollContainer.removeClass('has-sticky');
+  //     }
+  //   });
+  // }
 });
 
 // window.onload = initiate;

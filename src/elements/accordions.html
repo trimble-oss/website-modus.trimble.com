@@ -10,23 +10,91 @@ ${require(`../partials/header.html`)}
         constraints of the accordion. Accordions work especially well on mobile
         interfaces or whenever vertical space is at a premium.
     </p>
+    <div class="card shadow-1 bg-gray-100 p-5 my-4">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+            aria-controls="collapseOne">
+              <h5 class="mb-0" >
+                Collapsible Group Item #1
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                richardson ad squid. 3
+                wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum
+                eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                single-origin coffee nulla
+                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                anderson cred
+                nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of
+                them accusamus
+                labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+            aria-controls="collapseTwo">
+              <h5 class="mb-0">
+                Collapsible Group Item #2
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                richardson ad squid. 3
+                wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum
+                eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                single-origin coffee nulla
+                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                anderson cred
+                nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of
+                them accusamus
+                labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+            aria-controls="collapseThree">
+              <h5 class="mb-0">
+                Collapsible Group Item #3
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                richardson ad squid. 3
+                wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum
+                eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                single-origin coffee nulla
+                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes
+                anderson cred
+                nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+                occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of
+                them accusamus
+                labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     ${require(`../partials/guide_tabs.html`)}
   </div>
   <div class="guide-tab-panes tab-content" id="TabContentArea">
     <div
-      class="tab-pane fade active show"
-      id="code-content"
-      role="tabpanel"
-      aria-labelledby="code-tab"
-    >
-      <div class="guide-scroll-container">
-        <div class="tab-section">
-          ${require(`./accordions_code.html`)}
-        </div>
-      </div>
-    </div>
-    <div
-      class="tab-pane fade"
+      class="tab-pane guide-tab-content fade active show"
       id="guide-content"
       role="tabpanel"
       aria-labelledby="guide-tab"
@@ -34,6 +102,18 @@ ${require(`../partials/header.html`)}
       <div class="guide-scroll-container">
         <div class="tab-section">
           ${require(`./accordions_guide.html`)}
+        </div>
+      </div>
+    </div>
+    <div
+      class="tab-pane code-tab-content fade"
+      id="code-content"
+      role="tabpanel"
+      aria-labelledby="code-tab"
+    >
+      <div class="guide-scroll-container">
+        <div class="tab-section">
+          ${require(`./accordions_code.html`)}
         </div>
       </div>
     </div>
