@@ -194,7 +194,7 @@ $(document).ready(function() {
       elem.popover('dispose');
     });
 
-  $('.hover-display')
+  $('.anatomy-display')
     .find('*')
     .not('p')
     .on('mouseenter', e => {
@@ -215,8 +215,8 @@ $(document).ready(function() {
   };
 
   const drawHover = (e, perm) => {
-    // hover-display-perm class adds a permanent ouline
-    // hover-display class adds a on hover outline
+    // anatomy-display-static class adds a permanent ouline
+    // anatomy-display class adds a on hover outline
     if (e.currentTarget) {
       var elem = $(e.currentTarget);
     } else {
@@ -403,7 +403,7 @@ $(document).ready(function() {
     var pop = elem.popover({
       placement: place,
       content: `
-      <p class="small text-primary font-weight-bold m-0">${'.' + elem.prop('class').replace(' ', '.').replace('hover-display-perm', '')}</p>
+      <p class="small text-primary font-weight-bold m-0">${'.' + elem.prop('class').replace(' ', '.').replace('anatomy-display-static', '')}</p>
       <p class="small mb-0" id="popover-bgc"><strong>background-color:</strong> ${rgbToHex(elem.css('background-color'))}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css('background-color')}"></span></p>
       <p class="small mb-0" id="popover-bc"><strong>border-color:</strong> ${rgbToHex(elem.css('border-color'))}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css('border-color')}"></span></p>
       <p class="small mb-0" id="popover-c"><strong>color:</strong> ${rgbToHex(elem.css('color'))}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css('color')}"></span></p>
@@ -435,10 +435,10 @@ $(document).ready(function() {
     }
   };
 
-  $('.hover-display-perm')
+  $('.anatomy-display-static')
     .find('*')
     .prevObject.map(e => {
-      e = $('.hover-display-perm').find('*').prevObject[e];
+      e = $('.anatomy-display-static').find('*').prevObject[e];
       drawHover(e, true);
     });
 
