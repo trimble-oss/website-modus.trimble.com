@@ -140,10 +140,10 @@ module.exports = {
       template: Path.resolve(__dirname, '../src/elements/modals.html')
     }),
     new HtmlWebpackPlugin({
-      filename: 'shadows.html',
+      filename: 'depth.html',
       inject: true,
       minify: false,
-      template: Path.resolve(__dirname, '../src/elements/shadows.html')
+      template: Path.resolve(__dirname, '../src/foundations/depth.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'tables.html',
