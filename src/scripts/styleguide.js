@@ -348,9 +348,9 @@ $(document).ready(function() {
     }
 
     var place = 'top';
-    // if (perm) {
-    //   place = 'right';
-    // }
+    if (perm) {
+      place = 'left';
+    }
     var popoverClasses =
       '.' +
       elem
@@ -361,7 +361,7 @@ $(document).ready(function() {
     if (popoverClasses === '.') {
       popoverClasses = 'No Classes';
     }
-    const offset = 'top: ' + (m.top + 15) + ',';
+    const offset = (perm)?'left: ' + (m.left + 36) + ',':'top: ' + (m.top + 15) + ',';
     var pop = elem.popover({
       placement: place,
       content: `

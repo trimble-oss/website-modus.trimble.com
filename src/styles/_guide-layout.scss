@@ -228,6 +228,9 @@ $guide-body-max-width: 1200px;
 
   .guide-content-sample {
     padding: 40px 160px;
+    &.anatomy-display-container {
+      padding-left: 300px;
+    }
   }
 
   .guide-sample {
