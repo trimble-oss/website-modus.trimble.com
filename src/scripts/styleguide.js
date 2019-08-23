@@ -294,11 +294,11 @@ $(document).ready(function() {
           <span class="hover-padding-text" style="top: ${h - 2}px; left: ${w / 2 - 2}px">${p.bottom}px</span>
         </div>
         <div style="position: relative; ${p.left <= 0 ? 'display: none' : ''}">
-          <div class="hover-line-padding-vert" style="width: ${p.left}px; top: ${h / 2 - 2}px; left: -2px"></div>
+          <div class="hover-line-padding-horz" style="width: ${p.left}px; top: ${h / 2 - 2}px; left: -2px"></div>
           <span class="hover-padding-text" style="top: ${h / 2 - 10}px; left: -30px">${p.left}px</span>
         </div>
         <div style="position: relative; ${p.right <= 0 ? 'display: none' : ''}">
-          <div class="hover-line-padding-vert" style="width: ${p.right}px; top: ${h / 2 - 2}px; left: ${w - p.right - 2}px"></div>
+          <div class="hover-line-padding-horz" style="width: ${p.right}px; top: ${h / 2 - 2}px; left: ${w - p.right - 2}px"></div>
           <span class="hover-padding-text" style="top: ${h / 2 - 10}px; left: ${w}px">${p.right}px</span>
         </div>
         <div style="position: relative; ${m.top <= 0 ? 'display: none' : ''}">
@@ -313,17 +313,15 @@ $(document).ready(function() {
         </div>
         <div style="position: relative; ${m.left <= 0 ? 'display: none' : ''}">
           <div class="hover-div-margin" style="width: ${m.left}px; height: ${h}px; top: -2px; left: ${-m.left - 2}px"></div>
-          <div class="hover-line-margin-vert" style="width: ${m.left}px; top: ${3 * (h / 4) - 2}px; left: ${-m.left}px"></div>
+          <div class="hover-line-margin-horz" style="width: ${m.left}px; top: ${3 * (h / 4) - 2}px; left: ${-m.left}px"></div>
           <span class="hover-margin-text" style="top: ${3 * (h / 4) - 10}px; left: ${-m.left - 30}px">${m.left}px</span>
         </div>
         <div style="position: relative; ${m.right <= 0 ? 'display: none' : ''}">
           <div class="hover-div-margin" style="width: ${m.right}px; height: ${h}px; top: -2px; left: ${w - 2}px"></div>
-          <div class="hover-line-margin-vert" style="width: ${m.right}px; top: ${3 * (h / 4) - 2}px; left: ${w}px"></div>
+          <div class="hover-line-margin-horz" style="width: ${m.right}px; top: ${3 * (h / 4) - 2}px; left: ${w}px"></div>
           <span class="hover-margin-text" style="top: ${3 * (h / 4) - 10}px; left: ${w + m.right - 2}px">${m.right}px</span>
         </div>
-        <div class="hover-line-height-vert" style="height: ${h}px; top: -2px; left: ${w + p.right + m.right + 15}px"></div>
-        <div class="hover-line-height-horz" style="width: 10px; top: -2px; left: ${w + p.right + m.right + 5}px"></div>
-        <div class="hover-line-height-horz" style="width: 10px; top: ${h - 4}px; left: ${w + p.right + m.right + 5}px"></div>
+        <div class="hover-line-height" style="height: ${h}px; width: 10px; top: -2px; left: ${w + p.right + m.right + 7}px"></div>
         <span class="hover-height-text" style="top: ${h / 2 - 10}px; left: ${w + p.right + m.right + 19}px">${h}px</div>
       </div>
     `;

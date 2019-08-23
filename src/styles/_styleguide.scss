@@ -375,14 +375,10 @@ pre[class*='language-'] {
     text-align: center;
   }
 
-  .hover-line-height-vert {
-    border-left: rgba(87, 155, 218, 0.5) solid 2px;
-    position: absolute;
-    pointer-events: none;
-  }
-
-  .hover-line-height-horz {
+  .hover-line-height {
     border-top: rgba(87, 155, 218, 0.5) solid 2px;
+    border-bottom: rgba(87, 155, 218, 0.5) solid 2px;
+    border-right: rgba(87, 155, 218, 0.5) solid 2px;
     position: absolute;
     pointer-events: none;
   }
