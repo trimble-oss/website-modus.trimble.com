@@ -166,7 +166,7 @@ $guide-body-max-width: 1200px;
     @extend .card;
     display: flex;
     background-color: transparent;
-    width: max-content;
+    width: fit-content;
     box-shadow: $shadow-depth-1;
     td, th {
       padding: 16px;

@@ -426,7 +426,7 @@ $(document).ready(function() {
     const navPrefix = navId.substr(0, navId.indexOf('-') + 1);    
     if(navItems.length > 0) {
       $('.guide-right-nav').append(rightNavTemplate(navId));
-      $('<li class="nav-item"><a class="nav-link" href="#top">Top</a></li>').appendTo($('#' + navId));
+      $('<li class="nav-item"><a class="nav-link font-weight-bold" href="#top">Top <i class="material-icons">vertical_align_top</i></a></li>').appendTo($('#' + navId));
       $(navItems).each((i, e) => {
         const elem = $(e);
         const elemName = $(elem)
