@@ -244,6 +244,7 @@ $(document).ready(function() {
     if (e.currentTarget) {
       var elem = $(e.currentTarget);
       if (
+        $(e.currentTarget).attr('class') &&
         !$(e.currentTarget)
           .attr('class')
           .includes('anatomy-display-element')
