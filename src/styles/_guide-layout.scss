@@ -219,14 +219,15 @@ $guide-body-max-width: 1200px;
   display: flex;
   flex-direction: column;
   // min-width: 900px;
-  position: relative;
-
-  & > div {
-    border: 1px solid #ddd;
-  }
+  position: relative;  
+  box-shadow: $shadow-depth-1;
 
   .ether-page-layout {
     height: 100%;
+  }
+
+  .guide-content-sample {
+    padding: 40px 160px;
   }
 
   .guide-sample {
