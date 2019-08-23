@@ -215,6 +215,12 @@ $(document).ready(function() {
       drawHover(e, false);
     });
 
+  $('.anatomy-display-element')
+    .not('.anatomy-exclude')
+    .on('mouseenter', e => {
+      drawHover(e, false);
+    });
+
   const hexDigits = new Array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f');
 
   const rgbToHex = rgb => {
@@ -229,21 +235,29 @@ $(document).ready(function() {
   };
 
   const drawHover = (e, perm) => {
-    // anatomy-display-static class adds a permanent outline
-    // anatomy-display class adds a on hover outline
-    // anatomy-display-table is used for tables, only things inside the table can be hovered over
-    // anatomy-exclude prevents that element from being hovered over
+    // classes to use:
+    //  anatomy-display: used on an element with multiple children, like a guide-sample
+    //  anatomy-display-element: used on a single element, like a button
+    //  anatomy-display-static: used on a single element, but does not need to be hovered over to activate, always on
+    //  anatomy-display-table: used on a table, ignores all the table elements and gets only elements like buttons in it
+    //  anatomy-exclude: ignores an element, use if you don't want the display to appear on an element that is a child of any of the classes above
     if (e.currentTarget) {
       var elem = $(e.currentTarget);
-      var parent = elem.parent();
-      while (
-        $(parent).attr('class') === undefined ||
-        !$(parent)
+      if (
+        !$(e.currentTarget)
           .attr('class')
-          .includes('anatomy-display')
+          .includes('anatomy-display-element')
       ) {
-        $(parent).css({ position: 'relative' });
-        parent = $(parent).parent();
+        var parent = elem.parent();
+        while (
+          $(parent).attr('class') === undefined ||
+          !$(parent)
+            .attr('class')
+            .includes('anatomy-display')
+        ) {
+          $(parent).css({ position: 'relative' });
+          parent = $(parent).parent();
+        }
       }
     } else {
       var elem = $(e);
@@ -341,7 +355,8 @@ $(document).ready(function() {
       elem
         .prop('class')
         .replace(' ', '.')
-        .replace('anatomy-display-static', '');
+        .replace('anatomy-display-static', '')
+        .replace('anatomy-display-element', '');
     if (popoverClasses === '.') {
       popoverClasses = 'No Classes';
     }
