@@ -194,9 +194,23 @@ $(document).ready(function() {
       elem.popover('dispose');
     });
 
+  $('.anatomy-display-table')
+    .find('*')
+    // .not('p')
+    .not('tr')
+    .not('td')
+    .not('th')
+    .not('table')
+    .not('thead')
+    .not('tbody')
+    .not('.anatomy-exclude')
+    .on('mouseenter', e => {
+      drawHover(e, false);
+    });
+
   $('.anatomy-display')
     .find('*')
-    .not('p')
+    .not('.anatomy-exclude')
     .on('mouseenter', e => {
       drawHover(e, false);
     });
@@ -215,10 +229,22 @@ $(document).ready(function() {
   };
 
   const drawHover = (e, perm) => {
-    // anatomy-display-static class adds a permanent ouline
+    // anatomy-display-static class adds a permanent outline
     // anatomy-display class adds a on hover outline
+    // anatomy-display-table is used for tables, only things inside the table can be hovered over
+    // anatomy-exclude prevents that element from being hovered over
     if (e.currentTarget) {
       var elem = $(e.currentTarget);
+      var parent = elem.parent();
+      while (
+        $(parent).attr('class') === undefined ||
+        !$(parent)
+          .attr('class')
+          .includes('anatomy-display')
+      ) {
+        $(parent).css({ position: 'relative' });
+        parent = $(parent).parent();
+      }
     } else {
       var elem = $(e);
       elem.parent().css({ position: 'relative' });
@@ -251,166 +277,94 @@ $(document).ready(function() {
       classes += ' not-perm';
     }
 
-    var mainDiv = $('<div/>', { class: classes, id: 'hover-div' })
-      .width(w)
-      .height(h)
-      .css({ top: m.top + pos.top, left: m.left + pos.left });
+    var extraCSS = '';
     if (p.top > 0 || p.bottom > 0 || p.left > 0 || p.right > 0) {
-      mainDiv.css({ border: 'rgba(51, 168, 47, 0.5) solid 2px', background: 'rgba(51, 168, 47, 0.3)' });
-    }
-    elem.parent().append(mainDiv);
-
-    var innerLine = $('<div/>', { class: 'hover-div-inner' })
-      .width(w - (p.left + p.right))
-      .height(h - (p.top + p.bottom))
-      .css({ top: p.top - 2, left: p.left - 2 });
-    mainDiv.append(innerLine);
-
-    if (p.top > 0) {
-      var pTopLine = $('<div/>', { class: 'hover-line-padding-vert' })
-        .height(p.top)
-        .css({ top: -2, left: w / 2 - 2 });
-      mainDiv.append(pTopLine);
-      var pTopLabel = $('<span/>', { class: 'hover-padding-text' })
-        .css({ top: -18, left: w / 2 - 2 })
-        .text(p.top + 'px');
-      mainDiv.append(pTopLabel);
+      extraCSS = 'border: rgba(51, 168, 47, 0.5) solid 2px; background: rgba(51, 168, 47, 0.3)';
     }
 
-    if (p.bottom > 0) {
-      var pBottomLine = $('<div/>', { class: 'hover-line-padding-vert' })
-        .height(p.bottom)
-        .css({ top: h - p.bottom - 2, left: w / 2 - 2 });
-      mainDiv.append(pBottomLine);
-      var pBottomLabel = $('<span/>', { class: 'hover-padding-text' })
-        .css({ top: h - 2, left: w / 2 - 2 })
-        .text(p.bottom + 'px');
-      mainDiv.append(pBottomLabel);
-    }
-
-    if (p.left > 0) {
-      var pLeftLine = $('<div/>', { class: 'hover-line-padding-horz' })
-        .width(p.left)
-        .css({ top: h / 2 - 2, left: -2 });
-      mainDiv.append(pLeftLine);
-      var pLeftLabel = $('<span/>', { class: 'hover-padding-text' })
-        .css({ top: h / 2 - 2 - 8, left: -30 })
-        .text(p.left + 'px');
-      mainDiv.append(pLeftLabel);
-    }
-
-    if (p.right > 0) {
-      var pRightLine = $('<div/>', { class: 'hover-line-padding-horz' })
-        .width(p.right)
-        .css({ top: h / 2 - 2, left: w - p.right - 2 });
-      mainDiv.append(pRightLine);
-      var pRightLabel = $('<span/>', { class: 'hover-padding-text' })
-        .css({ top: h / 2 - 2 - 8, left: w })
-        .text(p.right + 'px');
-      mainDiv.append(pRightLabel);
-    }
-
-    if (m.top > 0) {
-      var mBox = $('<div/>', { class: 'hover-div-margin' })
-        .width(w)
-        .height(m.top)
-        .css({ top: -m.top - 2, left: -2 });
-      mainDiv.append(mBox);
-      var mTopLine = $('<div/>', { class: 'hover-line-margin-vert' })
-        .height(m.top)
-        .css({ top: -m.top - 2, left: 2 * (w / 3) - 2 });
-      mainDiv.append(mTopLine);
-      var mTopLabel = $('<span/>', { class: 'hover-margin-text' })
-        .css({ top: -m.top - 18, left: 2 * (w / 3) - 2 })
-        .text(m.top + 'px');
-      mainDiv.append(mTopLabel);
-    }
-
-    if (m.bottom > 0) {
-      var mBox = $('<div/>', { class: 'hover-div-margin' })
-        .width(w)
-        .height(m.bottom)
-        .css({ top: h - 2, left: -2 });
-      mainDiv.append(mBox);
-      var mBottomLine = $('<div/>', { class: 'hover-line-margin-vert' })
-        .height(m.bottom)
-        .css({ top: h - 2, left: 2 * (w / 3) - 2 });
-      mainDiv.append(mBottomLine);
-      var mBottomLabel = $('<span/>', { class: 'hover-margin-text' })
-        .css({ top: h + m.bottom - 2, left: 2 * (w / 3) - 2 })
-        .text(m.bottom + 'px');
-      mainDiv.append(mBottomLabel);
-    }
-
-    if (m.left > 0) {
-      var mBox = $('<div/>', { class: 'hover-div-margin' })
-        .width(m.left)
-        .height(h)
-        .css({ top: -2, left: -m.left - 2 });
-      mainDiv.append(mBox);
-      var mLeftLine = $('<div/>', { class: 'hover-line-margin-horz' })
-        .width(m.left)
-        .css({ top: 3 * (h / 4) - 2, left: -m.left });
-      mainDiv.append(mLeftLine);
-      var mLeftLabel = $('<span/>', { class: 'hover-margin-text' })
-        .css({ top: 3 * (h / 4) - 2 - 8, left: -m.left - 30 })
-        .text(m.left + 'px');
-      mainDiv.append(mLeftLabel);
-    }
-
-    if (m.right > 0) {
-      var mBox = $('<div/>', { class: 'hover-div-margin' })
-        .width(m.right)
-        .height(h)
-        .css({ top: -2, left: w - 2 });
-      mainDiv.append(mBox);
-      var mRightLine = $('<div/>', { class: 'hover-line-margin-horz' })
-        .width(m.right)
-        .css({ top: 3 * (h / 4) - 2, left: w });
-      mainDiv.append(mRightLine);
-      var mRightLabel = $('<span/>', { class: 'hover-margin-text' })
-        .css({ top: 3 * (h / 4) - 2 - 8, left: w + m.right - 2 })
-        .text(m.right + 'px');
-      mainDiv.append(mRightLabel);
-    }
-
-    var hLine = $('<div/>', { class: 'hover-line-height-vert' })
-      .height(h)
-      .css({ top: -2, left: w + p.right + m.right + 15 });
-    mainDiv.append(hLine);
-    var hTopLine = $('<div/>', { class: 'hover-line-height-horz' })
-      .width(10)
-      .css({ top: -2, left: w + p.right + m.right + 5 });
-    mainDiv.append(hTopLine);
-    var hBottomLine = $('<div/>', { class: 'hover-line-height-horz' })
-      .width(10)
-      .css({ top: h - 4, left: w + p.right + m.right + 5 });
-    mainDiv.append(hBottomLine);
-    var hLabel = $('<span/>', { class: 'hover-height-text' })
-      .css({ top: h / 2 - 2 - 8, left: w + p.right + m.right + 19 })
-      .text(h + 'px');
-    mainDiv.append(hLabel);
+    const html = `
+      <div class="${classes}" style="width: ${w}px; height: ${h}px; top: ${m.top + pos.top}px; left: ${m.left + pos.left}px; ${extraCSS}">
+        <div class="hover-div-inner" style="width: ${w - (p.left + p.right)}px; height: ${h - (p.top + p.bottom)}px; top: ${p.top - 2}px; left: ${p.left - 2}px"></div>
+        <div style="position: relative; ${p.top <= 0 ? 'display: none' : ''}">
+          <div class="hover-line-padding-vert" style="height: ${p.top}px; top: -2px; left: ${w / 2 - 2}px"></div>
+          <span class="hover-padding-text" style="top: -18px; left: ${w / 2 - 2}px">${p.top}px</span>
+        </div>
+        <div style="position: relative; ${p.bottom <= 0 ? 'display: none' : ''}">
+          <div class="hover-line-padding-vert" style="height: ${p.bottom}px; top: ${h - p.bottom - 2}px; left: ${w / 2 - 2}px"></div>
+          <span class="hover-padding-text" style="top: ${h - 2}px; left: ${w / 2 - 2}px">${p.bottom}px</span>
+        </div>
+        <div style="position: relative; ${p.left <= 0 ? 'display: none' : ''}">
+          <div class="hover-line-padding-vert" style="width: ${p.left}px; top: ${h / 2 - 2}px; left: -2px"></div>
+          <span class="hover-padding-text" style="top: ${h / 2 - 10}px; left: -30px">${p.left}px</span>
+        </div>
+        <div style="position: relative; ${p.right <= 0 ? 'display: none' : ''}">
+          <div class="hover-line-padding-vert" style="width: ${p.right}px; top: ${h / 2 - 2}px; left: ${w - p.right - 2}px"></div>
+          <span class="hover-padding-text" style="top: ${h / 2 - 10}px; left: ${w}px">${p.right}px</span>
+        </div>
+        <div style="position: relative; ${m.top <= 0 ? 'display: none' : ''}">
+          <div class="hover-div-margin" style="width: ${w}px; height: ${m.top}px; top: ${-m.top - 2}px; left: -2px"></div>
+          <div class="hover-line-margin-vert" style="height: ${m.top}px; top: ${-m.top - 2}px; left: ${2 * (w / 3) - 2}px"></div>
+          <span class="hover-margin-text" style="top: ${-m.top - 18}px; left: ${2 * (w / 3) - 2}px">${m.top}px</span>
+        </div>
+        <div style="position: relative; ${m.bottom <= 0 ? 'display: none' : ''}">
+          <div class="hover-div-margin" style="width: ${w}px; height: ${m.bottom}px; top: ${h - 2}px; left: -2px"></div>
+          <div class="hover-line-margin-vert" style="height: ${m.bottom}px; top: ${h - 2}px; left: ${2 * (w / 3) - 2}px"></div>
+          <span class="hover-margin-text" style="top: ${h + m.bottom - 2}px; left: ${2 * (w / 3) - 2}px">${m.bottom}px</span>
+        </div>
+        <div style="position: relative; ${m.left <= 0 ? 'display: none' : ''}">
+          <div class="hover-div-margin" style="width: ${m.left}px; height: ${h}px; top: -2px; left: ${-m.left - 2}px"></div>
+          <div class="hover-line-margin-vert" style="width: ${m.left}px; top: ${3 * (h / 4) - 2}px; left: ${-m.left}px"></div>
+          <span class="hover-margin-text" style="top: ${3 * (h / 4) - 10}px; left: ${-m.left - 30}px">${m.left}px</span>
+        </div>
+        <div style="position: relative; ${m.right <= 0 ? 'display: none' : ''}">
+          <div class="hover-div-margin" style="width: ${m.right}px; height: ${h}px; top: -2px; left: ${w - 2}px"></div>
+          <div class="hover-line-margin-vert" style="width: ${m.right}px; top: ${3 * (h / 4) - 2}px; left: ${w}px"></div>
+          <span class="hover-margin-text" style="top: ${3 * (h / 4) - 10}px; left: ${w + m.right - 2}px">${m.right}px</span>
+        </div>
+        <div class="hover-line-height-vert" style="height: ${h}px; top: -2px; left: ${w + p.right + m.right + 15}px"></div>
+        <div class="hover-line-height-horz" style="width: 10px; top: -2px; left: ${w + p.right + m.right + 5}px"></div>
+        <div class="hover-line-height-horz" style="width: 10px; top: ${h - 4}px; left: ${w + p.right + m.right + 5}px"></div>
+        <span class="hover-height-text" style="top: ${h / 2 - 10}px; left: ${w + p.right + m.right + 19}px">${h}px</div>
+      </div>
+    `;
+    elem.parent().append(html);
 
     if ($('.hover-div.not-perm')[1] && !perm) {
       $('.hover-div.not-perm')[1].remove();
     }
 
     var place = 'top';
-    if (perm) {
-      place = 'right';
-    }
+    // if (perm) {
+    //   place = 'right';
+    // }
     const offset = 'top: ' + (p.top + m.top + 15) + ',';
     var pop = elem.popover({
       placement: place,
       content: `
-      <p class="small text-primary font-weight-bold m-0">${'.' + elem.prop('class').replace(' ', '.').replace('anatomy-display-static', '')}</p>
-      <p class="small mb-0" id="popover-bgc"><strong>background-color:</strong> ${rgbToHex(elem.css('background-color'))}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css('background-color')}"></span></p>
-      <p class="small mb-0" id="popover-bc"><strong>border-color:</strong> ${rgbToHex(elem.css('border-color'))}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css('border-color')}"></span></p>
-      <p class="small mb-0" id="popover-c"><strong>color:</strong> ${rgbToHex(elem.css('color'))}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css('color')}"></span></p>
+      <p class="small text-primary font-weight-bold m-0">${'.' +
+        elem
+          .prop('class')
+          .replace(' ', '.')
+          .replace('anatomy-display-static', '')}</p>
+      <p class="small mb-0" id="popover-bgc"><strong>background-color:</strong> ${rgbToHex(
+        elem.css('background-color')
+      )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
+        'background-color'
+      )}"></span></p>
+      <p class="small mb-0" id="popover-bc"><strong>border-color:</strong> ${rgbToHex(
+        elem.css('border-color')
+      )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
+        'border-color'
+      )}"></span></p>
+      <p class="small mb-0" id="popover-c"><strong>color:</strong> ${rgbToHex(
+        elem.css('color')
+      )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
+        'color'
+      )}"></span></p>
       <p class="small mb-0"><strong>font-size:</strong> ${elem.css('font-size')}</p>
       `,
       html: true,
-      offset: offset,
+      offset: offset
     });
 
     elem.popover('show');
