@@ -284,7 +284,8 @@ $(document).ready(function() {
 
     const html = `
       <div class="${classes}" style="width: ${w}px; height: ${h}px; top: ${m.top + pos.top}px; left: ${m.left + pos.left}px; ${extraCSS}">
-        <div class="hover-div-inner" style="width: ${w - (p.left + p.right)}px; height: ${h - (p.top + p.bottom)}px; top: ${p.top - 2}px; left: ${p.left - 2}px"></div>
+        <div class="hover-div-inner" style="width: ${w - (p.left + p.right)}px; height: ${h - (p.top + p.bottom)}px; top: ${p.top -
+      2}px; left: ${p.left - 2}px"></div>
         <div style="position: relative; ${p.top <= 0 ? 'display: none' : ''}">
           <div class="hover-line-padding-vert" style="height: ${p.top}px; top: -2px; left: ${w / 2 - 2}px"></div>
           <span class="hover-padding-text" style="top: -18px; left: ${w / 2 - 2}px">${p.top}px</span>
@@ -335,15 +336,20 @@ $(document).ready(function() {
     // if (perm) {
     //   place = 'right';
     // }
-    const offset = 'top: ' + (p.top + m.top + 15) + ',';
+    var popoverClasses =
+      '.' +
+      elem
+        .prop('class')
+        .replace(' ', '.')
+        .replace('anatomy-display-static', '');
+    if (popoverClasses === '.') {
+      popoverClasses = 'No Classes';
+    }
+    const offset = 'top: ' + (m.top + 15) + ',';
     var pop = elem.popover({
       placement: place,
       content: `
-      <p class="small text-primary font-weight-bold m-0">${'.' +
-        elem
-          .prop('class')
-          .replace(' ', '.')
-          .replace('anatomy-display-static', '')}</p>
+      <p class="small text-primary font-weight-bold m-0">${popoverClasses}</p>
       <p class="small mb-0" id="popover-bgc"><strong>background-color:</strong> ${rgbToHex(
         elem.css('background-color')
       )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
