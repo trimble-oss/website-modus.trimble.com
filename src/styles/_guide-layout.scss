@@ -52,6 +52,8 @@ $guide-body-max-width: 1200px;
     &.collapse.show, &.collapsing {
       position: absolute;
       z-index: 100;
+      left: 0;
+      top: 62px;
       max-height: 80vh;
       background-color: #fff;
       box-shadow: $shadow-depth-1;
@@ -96,15 +98,20 @@ $guide-body-max-width: 1200px;
     display: flex;
     flex: 1 1 auto;
     // overflow-y: auto;
-    position: relative;
-    
+    position: relative;    
     max-width: $guide-body-max-width;
+    min-width: 100px;
   }
   .guide-content {
     padding: 1rem 3rem;
     padding-bottom: 0;
     height: 100%;
+    width: 100%;
   }
+
+  .guide-scroll-container {
+    width: 100%;
+}
 
   .guide-right-nav {
     position: sticky;
