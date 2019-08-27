@@ -291,6 +291,7 @@ pre[class*='language-'] {
 
 .change-log {
   max-width: 800px;
+  flex-direction: column;
   h2 {
     margin-top: 24px;
     padding-top: 24px;
