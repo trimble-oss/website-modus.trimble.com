@@ -22,7 +22,7 @@ ${require(`../partials/header.html`)}
       <h2 id="background">Background</h2>
 
       <p>
-        The Ether Framework is built upon and extends the Bootstrap 4 code
+        The Modus Framework is built upon and extends the Bootstrap 4 code
         framework. It is a responsive framework for web and mobile uses. You can
         use the CSS files as is, or integrate the SASS files into your own
         application if you wish to modify it further.
@@ -30,7 +30,7 @@ ${require(`../partials/header.html`)}
 
       <h2 id="cdn" class="mt-5">CDN</h2>
 
-      <p>The Ether Framework can be used as is from our public CDN:</p>
+      <p>The Modus Framework can be used as is from our public CDN:</p>
 
       <pre><code class="language-html">&lt;link rel="stylesheet" href="https://styles.trimblemaps.com/css/ether.min-${etherVersion}.css"&gt;</code></pre>
 
@@ -40,7 +40,7 @@ ${require(`../partials/header.html`)}
       <pre><code class="html language-html">&lt;link rel="stylesheet" href="https://styles.trimblemaps.com/css/ether-dark.min-0.3.1.css"&gt;</code></pre> -->
 
       <p>
-        If you want to also use the Ether Framework layout (top nav, left nav,
+        If you want to also use the Modus Framework layout (top nav, left nav,
         and content area) you will need to add these additional references:
       </p>
 
@@ -67,7 +67,7 @@ ${require(`../partials/header.html`)}
       <h2 id="installwithnpm" class="mt-5">Install with NPM</h2>
 
       <p>
-        Install the Ether Framework in your Node.js powered apps with our NPM
+        Install the Modus Framework in your Node.js powered apps with our NPM
         package:
       </p>
 
@@ -103,13 +103,13 @@ ${require(`../partials/header.html`)}
 
       <p>
         <strong
-          >Whenever possible, avoid modifying Ether or Bootstrap core
+          >Whenever possible, avoid modifying Modus or Bootstrap core
           files.</strong
         >
       </p>
 
       <p>
-        For Sass, that means creating your own stylesheet that imports Ether and
+        For Sass, that means creating your own stylesheet that imports Modus and
         Bootstrap so you can modify and extend it. Assuming you’re using a
         package manager like npm, you’ll have a file structure that looks like
         this:
@@ -130,7 +130,7 @@ ${require(`../partials/header.html`)}
       <h2 id="importing" class="mt-5">Importing</h2>
 
       <p>
-        In your custom.scss, you’ll import Ether and Bootstrap’s source Sass
+        In your custom.scss, you’ll import Modus and Bootstrap’s source Sass
         files. With that setup in place, you can begin to modify any of the Sass
         variables and maps in your custom.scss.
       </p>
@@ -150,7 +150,7 @@ ${require(`../partials/header.html`)}
       <p>
         You should copy this file from
         <code>/node_modules/@trimblemaps/ether-framework/scss/components</code>
-        to your own SASS directory and import your copy instead of the Ether
+        to your own SASS directory and import your copy instead of the Modus
         Framework version in your main SASS file.
       </p>
 
@@ -161,12 +161,12 @@ ${require(`../partials/header.html`)}
 
       <pre><code class="language-sass">// Bootstrap functions
 @import "../node_modules/bootstrap/scss/functions";
-// Ether functions
+// Modus functions
 @import "../node_modules/@trimblemaps/ether-framework/scss/components/functions";
 
 // **** YOUR CUSTOM THEME GOES HERE ****
 @import "your_custom_sass_directory/your_copy_of_ether_theme_file";
-// Ether variables
+// Modus variables
 @import "../node_modules/@trimblemaps/ether-framework/scss/components/variables";
 // OPTIONAL - use your own variables:
 // @import "your_custom_sass_directory/copy_of_ether_variables_file";
@@ -175,7 +175,7 @@ ${require(`../partials/header.html`)}
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
 
-// Ether mixins
+// Modus mixins
 @import "../node_modules/@trimblemaps/ether-framework/scss/components/mixins";
 
 // Bootstrap components (you can leave some of these out if you don't need them)
@@ -213,7 +213,7 @@ ${require(`../partials/header.html`)}
 @import "../node_modules/bootstrap/scss/utilities";
 @import "../node_modules/bootstrap/scss/print";
 
-// Ether components
+// Modus components
 @import "../node_modules/@trimblemaps/ether-framework/scss/components/controls";
 @import "../node_modules/@trimblemaps/ether-framework/scss/components/base";
 

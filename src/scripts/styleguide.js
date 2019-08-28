@@ -55,7 +55,7 @@ const codePen = elem => {
   HTML = el.text();
 
   var data = {
-    title: 'Ether Pen',
+    title: 'Modus Pen',
     description: '',
     html: HTML,
     html_pre_processor: 'none',
@@ -294,7 +294,7 @@ $(document).ready(function() {
 
     var extraCSS = '';
     if (p.top > 0 || p.bottom > 0 || p.left > 0 || p.right > 0) {
-      extraCSS = 'border: rgba(51, 168, 47, 0.5) solid 2px; background: rgba(51, 168, 47, 0.3)';
+      extraCSS = 'border: rgba(51, 168, 47, 0.2) solid 2px; background: rgba(51, 168, 47, 0.2)';
     }
 
     const html = `
