@@ -1,7 +1,7 @@
 {
-  "name": "ether-framework-styleguide",
+  "name": "modus-framework-styleguide",
   "version": "1.0.0",
-  "description": "The Ether Framework was developed as a common open source platform for all of Trimble's web applications",
+  "description": "The Modus Framework was developed as a common open source platform for all of Trimble's web applications",
   "scripts": {
     "build": "webpack --config webpack/webpack.config.prod.js --colors",
     "build:dev": "webpack --config webpack/webpack.config.dev.js --colors",

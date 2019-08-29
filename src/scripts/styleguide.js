@@ -55,7 +55,7 @@ const codePen = elem => {
   HTML = el.text();
 
   var data = {
-    title: 'Ether Pen',
+    title: 'Modus Pen',
     description: '',
     html: HTML,
     html_pre_processor: 'none',
@@ -297,7 +297,7 @@ $(document).ready(function() {
 
     var extraCSS = '';
     if (p.top > 0 || p.bottom > 0 || p.left > 0 || p.right > 0) {
-      extraCSS = 'border: rgba(51, 168, 47, 0.5) solid 2px; background: rgba(51, 168, 47, 0.3)';
+      extraCSS = 'border: rgba(51, 168, 47, 0.2) solid 2px; background: rgba(51, 168, 47, 0.2)';
     }
 
     const html = `
@@ -435,7 +435,7 @@ $(document).ready(function() {
     if (navItems.length > 0) {
       $('.guide-right-nav').append(rightNavTemplate(navId));
       $(
-        '<li class="nav-item"><a class="nav-link font-weight-bold" href="#top">Top <i class="material-icons">vertical_align_top</i></a></li>'
+        '<li class="nav-item"><a class="nav-link font-weight-bold" href="#top">Top <i class="ml-auto material-icons">vertical_align_top</i></a></li>'
       ).appendTo($('#' + navId));
       $(navItems).each((i, e) => {
         const elem = $(e);
