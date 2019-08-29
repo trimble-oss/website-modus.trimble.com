@@ -3,29 +3,83 @@ ${require(`../partials/header.html`)}
   <div class="guide-content-top border-bottom">
     <h1>Depth</h1>
     <p class="lead">
-      Use layering to create depth and focus the user’s attention on a task, provide temporary
-      supplementary information, or define spatial relationships between content.
+      Depth is defined trhough a combination of z-index, overlays, and drop shadows. Use it to focus
+      the user’s attention on a task, provide temporary supplementary information, or define spatial
+      relationships between content.
     </p>
   </div>
   <div class="guide-scroll-container">
     <div class="guide-section">
       <h2>Overview</h2>
+
+      <h3>Z-index</h3>
+      <p>
+        Z-index is a CSS property that specifies the stack order of an element. An element with
+        greater stack order is always in front of an element with a lower stack order.
+      </p>
+
+      <table class="table table-bordered bg-white">
+        <thead class="thead-dark">
+          <tr>
+            <th>Z-index</th>
+            <th>Use</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row" class="font-weight-bold">1000</td>
+            <td>Dropdowns</td>
+          </tr>
+          <tr>
+            <td scope="row" class="font-weight-bold">1020</td>
+            <td>Sticky Elements</td>
+          </tr>
+          <tr>
+            <td scope="row" class="font-weight-bold">1030</td>
+            <td>Fixed Elements</td>
+          </tr>
+          <tr>
+            <td scope="row" class="font-weight-bold">1040</td>
+            <td>Modal Backdrops</td>
+          </tr>
+          <tr>
+            <td scope="row" class="font-weight-bold">1050</td>
+            <td>Modal Dialogs</td>
+          </tr>
+          <tr>
+            <td scope="row" class="font-weight-bold">1060</td>
+            <td>Popovers</td>
+          </tr>
+          <tr>
+            <td scope="row" class="font-weight-bold">1070</td>
+            <td>Tooltips</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Overlays</h3>
+      <p>
+        Overlays work in concert with Modals and Dialogs to temporarily obstruct a user’s access to
+        the underlying page and focus their attention on the content above the overlay.
+      </p>
+
+      <h3>Drop Shadows</h3>
       <p>
         Shadows provide cues about depth, direction of movement, and surface edges. A surface’s
         shadow is determined by its elevation and relationship to other surfaces.
       </p>
       <p>
         Because shadows express the degree of elevation between surfaces, they must be used
-        consistently throughout your product.
+        consistently throughout your product. Higher shadows must be positioned above lower shadows
+        in the z-index.
       </p>
       <p>
-        For other elements such as <code>cards</code>, <code>modals</code>, <code>tables</code> etc,
-        use one of the following classes to add depth; <code>shadow-1</code>, <code>shadow-2</code>,
-        <code>shadow-3</code>, <code>shadow-4</code>, <code>shadow-5</code>
+        Use one of the following classes to add shadow depth; <code>shadow-1</code>,
+        <code>shadow-2</code>, <code>shadow-3</code>, <code>shadow-4</code>, <code>shadow-5</code>
       </p>
 
-      <h3 class="mt-5">Shadow Depths</h3>
-      <div class="guide-example-block border">
+      <h3>Shadow Depths</h3>
+      <div class="guide-example-block">
         <div
           class="guide-sample"
           style="padding: 2rem; display: grid; grid-template-columns: repeat(3, 1fr); justify-items: center; grid-gap: 2rem;"
@@ -80,94 +134,170 @@ ${require(`../partials/header.html`)}
         Below are a few examples of shadows being used to create depth with our UI Elements.
       </p>
 
-      <h3 class="mt-5">Raised Buttons</h3>
+      <h3>Raised Buttons</h3>
       <p>
         For <code>button</code> elements, use <code>shadow-1</code> to add shadows. The button
         active/pressed state will not cast any shadows.
       </p>
-      <div class="guide-example-block border">
-        <div class="guide-sample">
-          <table class="table table-bordered bg-white">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Primary</th>
-                <th scope="col">Secondary</th>
-                <th scope="col">Danger</th>
-                <th scope="col">Success</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">Regular</th>
-                <td><button class="btn btn-primary shadow-1">Button</button></td>
-                <td><button class="btn btn-secondary shadow-1">Button</button></td>
-                <td><button class="btn btn-danger shadow-1">Button</button></td>
-                <td><button class="btn btn-success shadow-1">Button</button></td>
-              </tr>
-              <tr>
-                <th scope="row">Outline</th>
-                <td><button class="btn btn-outline-primary shadow-1">Button</button></td>
-                <td><button class="btn btn-outline-secondary shadow-1">Button</button></td>
-                <td><button class="btn btn-outline-danger shadow-1">Button</button></td>
-                <td><button class="btn btn-outline-success shadow-1">Button</button></td>
-              </tr>
-              <tr>
-                <th scope="row">Text</th>
-                <td><button class="btn btn-text-primary shadow-1">Button</button></td>
-                <td><button class="btn btn-text-secondary shadow-1">Button</button></td>
-                <td><button class="btn btn-text-danger shadow-1">Button</button></td>
-                <td><button class="btn btn-text-success shadow-1">Button</button></td>
-              </tr>
-              <tr>
-                <th scope="row">Icon</th>
-                <td>
-                  <button class="btn btn-primary btn-icon-only shadow-1">
-                    <i class="ether-icons">gear</i>
+      <table class="table table-bordered bg-white">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Primary</th>
+            <th scope="col">Secondary</th>
+            <th scope="col">Danger</th>
+            <th scope="col">Success</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Regular</th>
+            <td><button class="btn btn-primary shadow-1">Button</button></td>
+            <td><button class="btn btn-secondary shadow-1">Button</button></td>
+            <td><button class="btn btn-danger shadow-1">Button</button></td>
+            <td><button class="btn btn-success shadow-1">Button</button></td>
+          </tr>
+          <tr>
+            <th scope="row">Outline</th>
+            <td><button class="btn btn-outline-primary shadow-1">Button</button></td>
+            <td><button class="btn btn-outline-secondary shadow-1">Button</button></td>
+            <td><button class="btn btn-outline-danger shadow-1">Button</button></td>
+            <td><button class="btn btn-outline-success shadow-1">Button</button></td>
+          </tr>
+          <tr>
+            <th scope="row">Text</th>
+            <td><button class="btn btn-text-primary shadow-1">Button</button></td>
+            <td><button class="btn btn-text-secondary shadow-1">Button</button></td>
+            <td><button class="btn btn-text-danger shadow-1">Button</button></td>
+            <td><button class="btn btn-text-success shadow-1">Button</button></td>
+          </tr>
+          <tr>
+            <th scope="row">Icon</th>
+            <td>
+              <button class="btn btn-primary btn-icon-only shadow-1">
+                <i class="ether-icons">gear</i>
+              </button>
+              <button class="btn btn-outline-primary btn-icon-only shadow-1">
+                <i class="ether-icons">gear</i>
+              </button>
+              <button class="btn btn-text-primary btn-icon-only shadow-1">
+                <i class="ether-icons">gear</i>
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-secondary btn-icon-only shadow-1">
+                <i class="ether-icons">gear</i>
+              </button>
+              <button class="btn btn-outline-secondary btn-icon-only shadow-1">
+                <i class="ether-icons">gear</i>
+              </button>
+              <button class="btn btn-text-secondary btn-icon-only shadow-1">
+                <i class="ether-icons">gear</i>
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-danger btn-icon-only shadow-1">
+                <i class="ether-icons">gear</i>
+              </button>
+              <button class="btn btn-outline-danger btn-icon-only shadow-1">
+                <i class="ether-icons">gear</i>
+              </button>
+              <button class="btn btn-text-danger btn-icon-only shadow-1">
+                <i class="ether-icons">gear</i>
+              </button>
+            </td>
+            <td>
+              <button class="btn btn-success btn-icon-only shadow-1">
+                <i class="ether-icons">gear</i>
+              </button>
+              <button class="btn btn-outline-success btn-icon-only shadow-1">
+                <i class="ether-icons">gear</i>
+              </button>
+              <button class="btn btn-text-success btn-icon-only shadow-1">
+                <i class="ether-icons">gear</i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Cards</h3>
+      <p>
+        Use shadows to make card elements pop based on importance.
+      </p>
+      <div class="guide-example-block">
+        <div
+          class="guide-sample"
+          style="display: grid; grid-template-columns: repeat(3, 1fr); justify-items: center; grid-gap: 2rem;"
+        >
+          <div class="card shadow-1">
+            <div class="card-header">
+              Card Header
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Card Title</h3>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional content.
+              </p>
+              <a href="#" class="btn btn-primary shadow-1">Raised button</a>
+            </div>
+          </div>
+          <div class="card shadow-3">
+            <div class="card-header">
+              Card Header
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Card Title</h3>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional content.
+              </p>
+              <a href="#" class="btn btn-primary shadow-1">Raised button</a>
+            </div>
+          </div>
+          <div class="card shadow-5">
+            <div class="card-header">
+              Card Header
+            </div>
+            <div class="card-body">
+              <h3 class="card-title">Card Title</h3>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional content.
+              </p>
+              <a href="#" class="btn btn-primary shadow-1">Raised button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Modals</h3>
+      <p>
+        Use shadows to separate modal dialogs from the main content layer.
+      </p>
+      <div class="guide-example-block">
+        <div class="guide-sample modal-static">
+          <div class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog shadow-5" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
                   </button>
-                  <button class="btn btn-outline-primary btn-icon-only shadow-1">
-                    <i class="ether-icons">gear</i>
+                </div>
+                <div class="modal-body">
+                  <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">
+                    Save changes
                   </button>
-                  <button class="btn btn-text-primary btn-icon-only shadow-1">
-                    <i class="ether-icons">gear</i>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                    Close
                   </button>
-                </td>
-                <td>
-                  <button class="btn btn-secondary btn-icon-only shadow-1">
-                    <i class="ether-icons">gear</i>
-                  </button>
-                  <button class="btn btn-outline-secondary btn-icon-only shadow-1">
-                    <i class="ether-icons">gear</i>
-                  </button>
-                  <button class="btn btn-text-secondary btn-icon-only shadow-1">
-                    <i class="ether-icons">gear</i>
-                  </button>
-                </td>
-                <td>
-                  <button class="btn btn-danger btn-icon-only shadow-1">
-                    <i class="ether-icons">gear</i>
-                  </button>
-                  <button class="btn btn-outline-danger btn-icon-only shadow-1">
-                    <i class="ether-icons">gear</i>
-                  </button>
-                  <button class="btn btn-text-danger btn-icon-only shadow-1">
-                    <i class="ether-icons">gear</i>
-                  </button>
-                </td>
-                <td>
-                  <button class="btn btn-success btn-icon-only shadow-1">
-                    <i class="ether-icons">gear</i>
-                  </button>
-                  <button class="btn btn-outline-success btn-icon-only shadow-1">
-                    <i class="ether-icons">gear</i>
-                  </button>
-                  <button class="btn btn-text-success btn-icon-only shadow-1">
-                    <i class="ether-icons">gear</i>
-                  </button>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
