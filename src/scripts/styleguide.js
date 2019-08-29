@@ -99,7 +99,7 @@ $(document).ready(function() {
     window.localStorage.setItem('color', 'White');
   }
 
-  $('.guide-tabs .nav-item a').on('click', (e) => {
+  $('.guide-tabs .nav-item a').on('click', e => {
     $('.guide-code-options').toggleClass('invisible');
   });
 
@@ -138,7 +138,7 @@ $(document).ready(function() {
   $('.bg-color-select').on('change', e => {
     const thisColor = $(e.currentTarget).val();
     $('.bg-color-select').val(thisColor);
-    $('.guide-sample').css('background-color',thisColor);
+    $('.guide-sample').css('background-color', thisColor);
     window.localStorage.setItem('color', thisColor);
   });
 
@@ -241,6 +241,7 @@ $(document).ready(function() {
     //  anatomy-display-static: used on a single element, but does not need to be hovered over to activate, always on
     //  anatomy-display-table: used on a table, ignores all the table elements and gets only elements like buttons in it
     //  anatomy-exclude: ignores an element, use if you don't want the display to appear on an element that is a child of any of the classes above
+    //  adding data, data-anatomy-popover="false", will have no popover
     if (e.currentTarget) {
       var elem = $(e.currentTarget);
       if (
@@ -361,9 +362,10 @@ $(document).ready(function() {
     if (popoverClasses === '.') {
       popoverClasses = 'No Classes';
     }
-    const offset = (perm)?'left: ' + (m.left + 36) + ',':'top: ' + (m.top + 15) + ',';
+    const offset = perm ? 'left: ' + (m.left + 36) + ',' : 'top: ' + (m.top + 15) + ',';
     var pop = elem.popover({
       placement: place,
+      container: elem.parent(),
       content: `
       <p class="small text-primary font-weight-bold m-0">${popoverClasses}</p>
       <p class="small mb-0" id="popover-bgc"><strong>background-color:</strong> ${rgbToHex(
@@ -387,18 +389,20 @@ $(document).ready(function() {
       offset: offset
     });
 
-    elem.popover('show');
+    if (elem.data('anatomy-popover') || elem.data('anatomy-popover') === undefined) {
+      elem.popover('show');
 
-    if (!perm) {
-      const popovers = $('.popover');
-      const popover = popovers[popovers.length - 1];
-      $(popover).addClass('not-perm');
-    }
+      if (!perm) {
+        const popovers = $('.popover');
+        const popover = popovers[popovers.length - 1];
+        $(popover).addClass('not-perm');
+      }
 
-    const popovers = $('.popover.not-perm');
-    for (let i = 0; i < popovers.length - 1; i++) {
-      const popover = $(popovers[i]);
-      popover.remove();
+      const popovers = $('.popover.not-perm');
+      for (let i = 0; i < popovers.length - 1; i++) {
+        const popover = $(popovers[i]);
+        popover.remove();
+      }
     }
 
     if (!perm) {
@@ -421,12 +425,16 @@ $(document).ready(function() {
     <nav class="nav flex-column" id="${id}"></nav>`;
   };
 
-  const buildRightNav = (navItems, navId)=> {
-    $('.guide-right-nav').children().remove();
-    const navPrefix = navId.substr(0, navId.indexOf('-') + 1);    
-    if(navItems.length > 0) {
+  const buildRightNav = (navItems, navId) => {
+    $('.guide-right-nav')
+      .children()
+      .remove();
+    const navPrefix = navId.substr(0, navId.indexOf('-') + 1);
+    if (navItems.length > 0) {
       $('.guide-right-nav').append(rightNavTemplate(navId));
-      $('<li class="nav-item"><a class="nav-link font-weight-bold" href="#top">Top <i class="material-icons">vertical_align_top</i></a></li>').appendTo($('#' + navId));
+      $(
+        '<li class="nav-item"><a class="nav-link font-weight-bold" href="#top">Top <i class="material-icons">vertical_align_top</i></a></li>'
+      ).appendTo($('#' + navId));
       $(navItems).each((i, e) => {
         const elem = $(e);
         const elemName = $(elem)
@@ -453,6 +461,9 @@ $(document).ready(function() {
   });
 
   $('#ContentTabs .nav-link').on('click', e => {
+    setTimeout(() => {
+      $('.anatomy-display-static').popover('update');
+    }, 200);
     if ($(e.currentTarget).hasClass('active')) {
       return;
     } else {

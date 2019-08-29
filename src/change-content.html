@@ -1,8 +1,40 @@
 <h1 id="changelog">Changelog</h1>
 <p>All notable changes to this project will be documented in this file.</p>
 <h2 id="v100betafuturechanges">v1.0.0-beta - Future Changes</h2>
-<h2 id="components">Components</h2>
+<h3 id="general">General</h3>
 <ul>
+<li>Updated to Bootstrap v4.3.1</li>
+<li>Enabled customizability via <code>!default</code> tags in variable overrides</li>
+</ul>
+<h3 id="colorpalette">Color Palette</h3>
+<ul>
+<li>Added <code>$trimble-grays</code> <code>.bg-</code> color classes</li>
+<li>Removed <code>light</code> color from <code>$theme-colors</code></li>
+<li>Removed <code>info</code> color from <code>$theme-colors</code></li>
+<li>Added <code>tertiary</code> color to <code>$theme-colors</code> based on Trimble Gray 0 (#EAEAEF)</li>
+<li>Added <code>yellow</code> color to <code>$theme-colors</code> based on Trimble Yellow (#FFBE00)</li>
+<li>Changed <code>secondary</code> color in <code>$theme-colors</code> to #009AD9</li>
+<li>Changed <code>warning</code> color in <code>$theme-colors</code> to #FFA500</li>
+<li>Changed <code>active</code> color in <code>$ui-colors</code> to #0C77BE</li>
+<li>Renamed gray colors to Trimble Gray naming scheme</li>
+</ul>
+<h3 id="typography">Typography</h3>
+<ul>
+<li>Added <code>$trimble-grays</code> <code>.text-</code> color classes</li>
+<li>Removed <code>Roboto</code> as heading font-family (now Open Sans)</li>
+<li>Removed <code>.display-</code> variable overrides</li>
+</ul>
+<h3 id="components">Components</h3>
+<ul>
+<li>Revised list group styles (normal heigh 48px, small height 32px)</li>
+<li>Added <code>.badge-text</code> theme color variants</li>
+<li>Removed <code>.btn-raised</code> classes</li>
+<li>Changed <code>btn-outline</code> variants to match <code>btn-reverse</code> (which is now deprecated)</li>
+<li>Removed uppercase text transformation from button classes</li>
+<li>Added <code>.active</code> and <code>.selected</code> button classes to toggle "Active" state (different than <code>:active</code>)</li>
+<li>Text only and outline button variants now use opacity for styling rather than lighter colors</li>
+<li>Changed tab styling</li>
+<li>Changed accordion styling</li>
 <li>Added custom breadcrumb styles</li>
 <li>Added gray border classes (<code>.border-gray-200</code> etc…)</li>
 <li>Changed opacity of <code>.nav-tabs .nav-link</code> in disabled state to 0.3</li>
@@ -35,7 +67,7 @@
 <li>Updated Form Control's disabled state opacity to 0.7</li>
 <li>updated <code>.custom-control-label</code> font to match with form label font size and fixed vertical align. </li>
 </ul>
-<h3 id="colorpalette">Color Palette</h3>
+<h3 id="colorpalette-1">Color Palette</h3>
 <ul>
 <li>Added <code>light</code> color (#EAEAEF) to <code>$theme-colors</code></li>
 <li>Changed <code>selected</code> color in theme <code>ui-colors</code> to #E5F0F8</li>
@@ -46,7 +78,7 @@
 <li>Panel widths added: <code>.panel-sm</code> (250px), <code>.panel-md</code> (350px), and <code>.panel-lg</code>  (450px)</li>
 <li>Fixed z-index for layout to avoid modals</li>
 </ul>
-<h3 id="colorpalette-1">Color Palette</h3>
+<h3 id="colorpalette-2">Color Palette</h3>
 <ul>
 <li>Added Trimble Brand Colors and their <code>.bg-</code> and <code>.text-</code> variants</li>
 </ul>

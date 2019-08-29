@@ -389,6 +389,17 @@ pre[class*='language-'] {
   }
 }
 
+.popover {
+  width: max-content;
+  margin-bottom: 16px;
+}
+
+.popover-header {
+  height: 0;
+  padding: 0;
+  border: 0;
+}
+
 *::-webkit-scrollbar {
   width: 0.5em;
 }
