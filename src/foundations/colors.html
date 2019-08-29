@@ -3,7 +3,7 @@ ${require(`../partials/header.html`)}
   <div class="guide-content-top border-bottom">
     <h1>Color Palette</h1>
     <p class="lead">
-      The Modus Framework palette is based on the Trimble brand colors.
+      The Modus palette is based on the Trimble brand colors.
     </p>
   </div>
   <div class="guide-scroll-container">
@@ -11,7 +11,7 @@ ${require(`../partials/header.html`)}
       <h2>Overview</h2>
       <p>Our framework includes 4 sets of colors:</p>
       <ol>
-        <li><a href="#themeColors">Theme Colors</a></li>
+        <li><a href="#themeColors">Modus Colors</a></li>
         <li><a href="#uiColors">UI Colors</a></li>
         <li><a href="#trimbleBrandColors">Trimble Brand Colors</a></li>
         <li><a href="#grayColors">Gray Colors</a></li>
@@ -21,14 +21,8 @@ ${require(`../partials/header.html`)}
         background color, font color, and border color. You can reference the
         available utility classes below:
       </p>
-      <p>
-        You can modify the colors in
-        <code>_theme.scss</code>
-        and <code>_theme-dark.scss</code> when using the SASS implementation.
-      </p>
       <!-- Theme Colors -->
-      <h3 id="themeColors" class="mt-5">Theme Colors</h3>
-      <p>These can be changed to define the app theme.</p>
+      <h3 id="themeColors" class="mt-5">Modus Colors</h3>
       <div class="guide-example-block">
         <div class="guide-sample">
           <div class="color-swatches">
@@ -58,6 +52,21 @@ ${require(`../partials/header.html`)}
                   <p class="m-0"><code>.bg-secondary</code></p>
                   <p class="m-0"><code>.text-secondary</code></p>
                   <p class="m-0"><code>.border-secondary</code></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card shadow-1 border-tertiary card-inverse">
+              <div class="card-img-top bg-tertiary"></div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h6 class="text-tertiary">Tertiary Color</h6>
+                  <p class="card-subtitle font-weight-bold">
+                    #EAEAEF
+                  </p>
+                  <p class="m-0"><code>.bg-tertiary</code></p>
+                  <p class="m-0"><code>.text-tertiary</code></p>
+                  <p class="m-0"><code>.border-tertiary</code></p>
                 </div>
               </div>
             </div>
@@ -92,36 +101,6 @@ ${require(`../partials/header.html`)}
               </div>
             </div>
 
-            <div class="card shadow-1 border-danger">
-              <div class="card-img-top bg-danger"></div>
-              <div class="card-body">
-                <div class="card-title">
-                  <h6 class="text-danger">Danger Color</h6>
-                  <p class="card-subtitle font-weight-bold">
-                    #C81922
-                  </p>
-                  <p class="m-0"><code>.bg-danger</code></p>
-                  <p class="m-0"><code>.text-danger</code></p>
-                  <p class="m-0"><code>.border-danger</code></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="card shadow-1 border-info">
-              <div class="card-img-top bg-info"></div>
-              <div class="card-body">
-                <div class="card-title">
-                  <h6 class="text-info">Info Color</h6>
-                  <p class="card-subtitle font-weight-bold">
-                    #408AC9
-                  </p>
-                  <p class="m-0"><code>.bg-info</code></p>
-                  <p class="m-0"><code>.text-info</code></p>
-                  <p class="m-0"><code>.border-info</code></p>
-                </div>
-              </div>
-            </div>
-
             <div class="card shadow-1 border-warning">
               <div class="card-img-top bg-warning"></div>
               <div class="card-body">
@@ -137,35 +116,24 @@ ${require(`../partials/header.html`)}
               </div>
             </div>
 
-            <div class="card shadow-1 border-light card-inverse">
-              <div class="card-img-top bg-light"></div>
+            <div class="card shadow-1 border-danger">
+              <div class="card-img-top bg-danger"></div>
               <div class="card-body">
                 <div class="card-title">
-                  <h6 class="text-light">Light Color</h6>
+                  <h6 class="text-danger">Danger Color</h6>
                   <p class="card-subtitle font-weight-bold">
-                    #EAEAEF
+                    #C81922
                   </p>
-                  <p class="m-0"><code>.bg-light</code></p>
-                  <p class="m-0"><code>.text-light</code></p>
-                  <p class="m-0"><code>.border-light</code></p>
+                  <p class="m-0"><code>.bg-danger</code></p>
+                  <p class="m-0"><code>.text-danger</code></p>
+                  <p class="m-0"><code>.border-danger</code></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div
-          class="guide-code-options d-flex align-items-center p-2 border-bottom-0 border-top-0"
-        >
-          <label class="mr-2 mb-0">Background</label>
-          <select class="bg-color-select custom-select w-25">
-            <option value="#ffffff">White</option>
-            <option value="#F3F3F7">Panel Background (col_gray_light)</option>
-            <option value="#363545">Trimble Gray</option>
-            <option value="#005F9E">Trimble Blue</option>
-          </select>
-        </div>
 
-        <div class="guide-sample p-0 bg-gray-100">
+        <div class="guide-sample p-0 bg-gray-light">
           <pre><code class="language-sass">$theme-colors: (
 
   "primary": #005F9E,
@@ -190,7 +158,6 @@ ${require(`../partials/header.html`)}
 
       <!-- UI Colors -->
       <h3 id="uiColors" class="mt-5">UI Colors</h3>
-      <p>These can be changed to define the app theme.</p>
       <div class="guide-example-block">
         <div class="guide-sample">
           <div class="color-swatches">
@@ -274,7 +241,7 @@ ${require(`../partials/header.html`)}
           </select>
         </div>
 
-        <div class="guide-sample p-0 bg-gray-100">
+        <div class="guide-sample p-0 bg-gray-light">
           <pre><code class="language-sass">$ui-colors: (
 
   "main-background": #FFFFFF,
@@ -293,9 +260,6 @@ ${require(`../partials/header.html`)}
 
       <!-- Trimble Brand Colors -->
       <h3 id="trimbleBrandColors" class="mt-5">Trimble Brand Colors</h3>
-      <p>
-        These are our Trimble Brand Colors and are not intended to be changed.
-      </p>
       <div class="guide-example-block">
         <div class="guide-sample">
           <div class="color-swatches">
@@ -398,19 +362,8 @@ ${require(`../partials/header.html`)}
             </div>
           </div>
         </div>
-        <div
-          class="guide-code-options d-flex align-items-center p-2 border-bottom-0 border-top-0"
-        >
-          <label class="mr-2 mb-0">Background</label>
-          <select class="bg-color-select custom-select w-25">
-            <option value="#ffffff">White</option>
-            <option value="#F3F3F7">Panel Background (col_gray_light)</option>
-            <option value="#363545">Trimble Gray</option>
-            <option value="#005F9E">Trimble Blue</option>
-          </select>
-        </div>
 
-        <div class="guide-sample p-0 bg-gray-100">
+        <div class="guide-code-static border-top border-gray-1">
           <pre><code class="language-sass">$trimble-brand-colors: (
 
   "trimble-blue-dark": #002D5B,
@@ -437,291 +390,295 @@ ${require(`../partials/header.html`)}
       <div class="guide-example-block">
         <div class="guide-sample">
           <div class="color-swatches">
-            <div class="card shadow-1 border-gray-50">
-              <div class="card-img-top bg-gray-50"></div>
+            <div class="card shadow-1 border-gray-half">
+              <div class="card-img-top bg-gray-half"></div>
               <div class="card-body card-inverse">
                 <div class="card-title">
-                  <h6 class="text-gray-50">Gray 50</h6>
+                  <h6 class="text-gray-half">Gray Half</h6>
                   <p class="card-subtitle font-weight-bold">
                     #F9F9FB
                   </p>
-                  <p class="m-0"><code>.bg-gray-50</code></p>
-                  <p class="m-0"><code>.text-gray-50</code></p>
-                  <p class="m-0"><code>.border-gray-50</code></p>
+                  <p class="m-0"><code>.bg-gray-half</code></p>
+                  <p class="m-0"><code>.text-gray-half</code></p>
+                  <p class="m-0"><code>.border-gray-half</code></p>
                 </div>
               </div>
             </div>
 
-            <div class="card shadow-1 border-gray-100">
-              <div class="card-img-top bg-gray-100"></div>
+            <div class="card shadow-1 border-gray-light">
+              <div class="card-img-top bg-gray-light"></div>
               <div class="card-body card-inverse">
                 <div class="card-title">
-                  <h6 class="text-gray-100">Gray 100</h6>
+                  <h6 class="text-gray-light">Gray Light</h6>
                   <p class="card-subtitle font-weight-bold">
                     #F3F3F7
                   </p>
-                  <p class="m-0"><code>.bg-gray-100</code></p>
-                  <p class="m-0"><code>.text-gray-100</code></p>
-                  <p class="m-0"><code>.border-gray-100</code></p>
+                  <p class="m-0"><code>.bg-gray-light</code></p>
+                  <p class="m-0"><code>.text-gray-light</code></p>
+                  <p class="m-0"><code>.border-gray-light</code></p>
                 </div>
               </div>
             </div>
 
-            <div class="card shadow-1 border-gray-150">
-              <div class="card-img-top bg-gray-150"></div>
+            <div class="card shadow-1 border-gray-0">
+              <div class="card-img-top bg-gray-0"></div>
               <div class="card-body card-inverse">
                 <div class="card-title">
-                  <h6 class="text-gray-150">Gray 150</h6>
+                  <h6 class="text-gray-0">Gray 0</h6>
                   <p class="card-subtitle font-weight-bold">
                     #EAEAEF
                   </p>
-                  <p class="m-0"><code>.bg-gray-150</code></p>
-                  <p class="m-0"><code>.text-gray-150</code></p>
-                  <p class="m-0"><code>.border-gray-150</code></p>
+                  <p class="m-0"><code>.bg-gray-0</code></p>
+                  <p class="m-0"><code>.text-gray-0</code></p>
+                  <p class="m-0"><code>.border-gray-0</code></p>
                 </div>
               </div>
             </div>
 
-            <div class="card shadow-1 border-gray-200">
-              <div class="card-img-top bg-gray-200"></div>
+            <div class="card shadow-1 border-gray-1">
+              <div class="card-img-top bg-gray-1"></div>
               <div class="card-body card-inverse">
                 <div class="card-title">
-                  <h6 class="text-gray-200">Gray 200</h6>
+                  <h6 class="text-gray-1">Gray 1</h6>
                   <p class="card-subtitle font-weight-bold">
                     #E2E2E7
                   </p>
-                  <p class="m-0"><code>.bg-gray-200</code></p>
-                  <p class="m-0"><code>.text-gray-200</code></p>
-                  <p class="m-0"><code>.border-gray-200</code></p>
+                  <p class="m-0"><code>.bg-gray-1</code></p>
+                  <p class="m-0"><code>.text-gray-1</code></p>
+                  <p class="m-0"><code>.border-gray-1</code></p>
                 </div>
               </div>
             </div>
 
-            <div class="card shadow-1 border-gray-250">
-              <div class="card-img-top bg-gray-250"></div>
+            <div class="card shadow-1 border-gray-2">
+              <div class="card-img-top bg-gray-2"></div>
               <div class="card-body">
                 <div class="card-title">
-                  <h6 class="text-gray-250">Gray 250</h6>
+                  <h6 class="text-gray-2">Gray 2</h6>
                   <p class="card-subtitle font-weight-bold">
                     #D0D0D7
                   </p>
-                  <p class="m-0"><code>.bg-gray-250</code></p>
-                  <p class="m-0"><code>.text-gray-250</code></p>
-                  <p class="m-0"><code>.border-gray-250</code></p>
+                  <p class="m-0"><code>.bg-gray-2</code></p>
+                  <p class="m-0"><code>.text-gray-2</code></p>
+                  <p class="m-0"><code>.border-gray-2</code></p>
                 </div>
               </div>
             </div>
 
-            <div class="card shadow-1 border-gray-300">
-              <div class="card-img-top bg-gray-300"></div>
+            <div class="card shadow-1 border-gray-3">
+              <div class="card-img-top bg-gray-3"></div>
               <div class="card-body">
                 <div class="card-title">
-                  <h6 class="text-gray-300">Gray 300</h6>
+                  <h6 class="text-gray-3">Gray 3</h6>
                   <p class="card-subtitle font-weight-bold">
                     #BFBFC6
                   </p>
-                  <p class="m-0"><code>.bg-gray-300</code></p>
-                  <p class="m-0"><code>.text-gray-300</code></p>
-                  <p class="m-0"><code>.border-gray-300</code></p>
+                  <p class="m-0"><code>.bg-gray-3</code></p>
+                  <p class="m-0"><code>.text-gray-3</code></p>
+                  <p class="m-0"><code>.border-gray-3</code></p>
                 </div>
               </div>
             </div>
 
-            <div class="card shadow-1 border-gray-350">
-              <div class="card-img-top bg-gray-350"></div>
+            <div class="card shadow-1 border-gray-4">
+              <div class="card-img-top bg-gray-4"></div>
               <div class="card-body">
                 <div class="card-title">
-                  <h6 class="text-gray-350">Gray 350</h6>
+                  <h6 class="text-gray-4">Gray 4</h6>
                   <p class="card-subtitle font-weight-bold">
                     #AEAEB6
                   </p>
-                  <p class="m-0"><code>.bg-gray-350</code></p>
-                  <p class="m-0"><code>.text-gray-350</code></p>
-                  <p class="m-0"><code>.border-gray-350</code></p>
+                  <p class="m-0"><code>.bg-gray-4</code></p>
+                  <p class="m-0"><code>.text-gray-4</code></p>
+                  <p class="m-0"><code>.border-gray-4</code></p>
                 </div>
               </div>
             </div>
 
-            <div class="card shadow-1 border-gray-400">
-              <div class="card-img-top bg-gray-400"></div>
+            <div class="card shadow-1 border-gray-5">
+              <div class="card-img-top bg-gray-5"></div>
               <div class="card-body">
                 <div class="card-title">
-                  <h6 class="text-gray-400">Gray 400</h6>
+                  <h6 class="text-gray-5">Gray 5</h6>
                   <p class="card-subtitle font-weight-bold">
                     #9D9DA6
                   </p>
-                  <p class="m-0"><code>.bg-gray-400</code></p>
-                  <p class="m-0"><code>.text-gray-400</code></p>
-                  <p class="m-0"><code>.border-gray-400</code></p>
+                  <p class="m-0"><code>.bg-gray-5</code></p>
+                  <p class="m-0"><code>.text-gray-5</code></p>
+                  <p class="m-0"><code>.border-gray-5</code></p>
                 </div>
               </div>
             </div>
 
-            <div class="card shadow-1 border-gray-450">
-              <div class="card-img-top bg-gray-450"></div>
+            <div class="card shadow-1 border-gray-6">
+              <div class="card-img-top bg-gray-6"></div>
               <div class="card-body">
                 <div class="card-title">
-                  <h6 class="text-gray-450">Gray 450</h6>
+                  <h6 class="text-gray-6">Gray 6</h6>
                   <p class="card-subtitle font-weight-bold">
                     #8C8B96
                   </p>
-                  <p class="m-0"><code>.bg-gray-450</code></p>
-                  <p class="m-0"><code>.text-gray-450</code></p>
-                  <p class="m-0"><code>.border-gray-450</code></p>
+                  <p class="m-0"><code>.bg-gray-6</code></p>
+                  <p class="m-0"><code>.text-gray-6</code></p>
+                  <p class="m-0"><code>.border-gray-6</code></p>
                 </div>
               </div>
             </div>
 
-            <div class="card shadow-1 border-gray-500">
-              <div class="card-img-top bg-gray-500"></div>
+            <div class="card shadow-1 border-gray-7">
+              <div class="card-img-top bg-gray-7"></div>
               <div class="card-body">
                 <div class="card-title">
-                  <h6 class="text-gray-500">Gray 500</h6>
+                  <h6 class="text-gray-7">Gray 7</h6>
                   <p class="card-subtitle font-weight-bold">
                     #7B7A86
                   </p>
-                  <p class="m-0"><code>.bg-gray-500</code></p>
-                  <p class="m-0"><code>.text-gray-500</code></p>
-                  <p class="m-0"><code>.border-gray-500</code></p>
+                  <p class="m-0"><code>.bg-gray-7</code></p>
+                  <p class="m-0"><code>.text-gray-7</code></p>
+                  <p class="m-0"><code>.border-gray-7</code></p>
                 </div>
               </div>
             </div>
 
             <div class="card shadow-1 border-gray-55">
-              <div class="card-img-top bg-gray-550"></div>
+              <div class="card-img-top bg-gray-8"></div>
               <div class="card-body">
                 <div class="card-title">
-                  <h6 class="text-gray-550">Gray 550</h6>
+                  <h6 class="text-gray-8">Gray 8</h6>
                   <p class="card-subtitle font-weight-bold">
                     #6A6976
                   </p>
-                  <p class="m-0"><code>.bg-gray-550</code></p>
-                  <p class="m-0"><code>.text-gray-550</code></p>
-                  <p class="m-0"><code>.border-gray-550</code></p>
+                  <p class="m-0"><code>.bg-gray-8</code></p>
+                  <p class="m-0"><code>.text-gray-8</code></p>
+                  <p class="m-0"><code>.border-gray-8</code></p>
                 </div>
               </div>
             </div>
 
-            <div class="card shadow-1 border-gray-600">
-              <div class="card-img-top bg-gray-600"></div>
+            <div class="card shadow-1 border-gray-9">
+              <div class="card-img-top bg-gray-9"></div>
               <div class="card-body">
                 <div class="card-title">
-                  <h6 class="text-gray-600">Gray 600</h6>
+                  <h6 class="text-gray-9">Gray 9</h6>
                   <p class="card-subtitle font-weight-bold">
                     #595868
                   </p>
-                  <p class="m-0"><code>.bg-gray-600</code></p>
-                  <p class="m-0"><code>.text-gray-600</code></p>
-                  <p class="m-0"><code>.border-gray-600</code></p>
+                  <p class="m-0"><code>.bg-gray-9</code></p>
+                  <p class="m-0"><code>.text-gray-9</code></p>
+                  <p class="m-0"><code>.border-gray-9</code></p>
                 </div>
               </div>
             </div>
 
-            <div class="card shadow-1 border-gray-700">
-              <div class="card-img-top bg-gray-700"></div>
+            <div class="card shadow-1 border-gray-10">
+              <div class="card-img-top bg-gray-10"></div>
               <div class="card-body">
                 <div class="card-title">
-                  <h6 class="text-gray-700">Gray 700</h6>
+                  <h6 class="text-gray-10">Gray 10</h6>
+                  <p class="card-subtitle font-weight-bold">
+                    #474655
+                  </p>
+                  <p class="m-0"><code>.bg-gray-10</code></p>
+                  <p class="m-0"><code>.text-gray-10</code></p>
+                  <p class="m-0"><code>.border-gray-10</code></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card shadow-1 border-gray-trimble-gray">
+              <div class="card-img-top bg-gray-trimble-gray"></div>
+              <div class="card-body">
+                <div class="card-title">
+                  <h6 class="text-gray-trimble-gray">Trimble Gray</h6>
                   <p class="card-subtitle font-weight-bold">
                     #363545
                   </p>
-                  <p class="m-0"><code>.bg-gray-700</code></p>
-                  <p class="m-0"><code>.text-gray-700</code></p>
-                  <p class="m-0"><code>.border-gray-700</code></p>
+                  <p class="m-0"><code>.bg-gray-trimble-gray</code></p>
+                  <p class="m-0"><code>.text-gray-trimble-gray</code></p>
+                  <p class="m-0"><code>.border-gray-trimble-gray</code></p>
                 </div>
               </div>
             </div>
 
-            <div class="card shadow-1 border-gray-750">
-              <div class="card-img-top bg-gray-750"></div>
+            <div class="card shadow-1 border-gray-dark-1">
+              <div class="card-img-top bg-gray-dark-1"></div>
               <div class="card-body">
                 <div class="card-title">
-                  <h6 class="text-gray-750">Gray 750</h6>
+                  <h6 class="text-gray-dark-1">Gray Dark 1</h6>
                   <p class="card-subtitle font-weight-bold">
                     #262533
                   </p>
-                  <p class="m-0"><code>.bg-gray-750</code></p>
-                  <p class="m-0"><code>.text-gray-750</code></p>
-                  <p class="m-0"><code>.border-gray-750</code></p>
+                  <p class="m-0"><code>.bg-gray-dark-1</code></p>
+                  <p class="m-0"><code>.text-gray-dark-1</code></p>
+                  <p class="m-0"><code>.border-gray-dark-1</code></p>
                 </div>
               </div>
             </div>
 
-            <div class="card shadow-1 border-gray-800">
-              <div class="card-img-top bg-gray-800"></div>
+            <div class="card shadow-1 border-gray-dark-2">
+              <div class="card-img-top bg-gray-dark-2"></div>
               <div class="card-body">
                 <div class="card-title">
-                  <h6 class="text-gray-800">Gray 800</h6>
+                  <h6 class="text-gray-dark-2">Gray Dark 2</h6>
                   <p class="card-subtitle font-weight-bold">
                     #1B1A26
                   </p>
-                  <p class="m-0"><code>.bg-gray-800</code></p>
-                  <p class="m-0"><code>.text-gray-800</code></p>
-                  <p class="m-0"><code>.border-gray-800</code></p>
+                  <p class="m-0"><code>.bg-gray-dark-2</code></p>
+                  <p class="m-0"><code>.text-gray-dark-2</code></p>
+                  <p class="m-0"><code>.border-gray-dark-2</code></p>
                 </div>
               </div>
             </div>
 
-            <div class="card shadow-1 border-gray-900">
-              <div class="card-img-top bg-gray-900"></div>
+            <div class="card shadow-1 border-gray-dark-3">
+              <div class="card-img-top bg-gray-dark-3"></div>
               <div class="card-body">
                 <div class="card-title">
-                  <h6 class="text-gray-900">Gray 900</h6>
+                  <h6 class="text-gray-dark-3">Gray Dark 3</h6>
                   <p class="card-subtitle font-weight-bold">
                     #0B0A12
                   </p>
-                  <p class="m-0"><code>.bg-gray-900</code></p>
-                  <p class="m-0"><code>.text-gray-900</code></p>
-                  <p class="m-0"><code>.border-gray-900</code></p>
+                  <p class="m-0"><code>.bg-gray-dark-3</code></p>
+                  <p class="m-0"><code>.text-gray-dark-3</code></p>
+                  <p class="m-0"><code>.border-gray-dark-3</code></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div
-          class="guide-code-options d-flex align-items-center p-2 border-bottom-0 border-top-0"
-        >
-          <label class="mr-2 mb-0">Background</label>
-          <select class="bg-color-select custom-select w-25">
-            <option value="#ffffff">White</option>
-            <option value="#F3F3F7">Panel Background (col_gray_light)</option>
-            <option value="#363545">Trimble Gray</option>
-            <option value="#005F9E">Trimble Blue</option>
-          </select>
-        </div>
 
-        <div class="guide-sample p-0 bg-gray-100">
+        <div class="guide-sample p-0 bg-gray-light">
           <pre><code class="language-sass">$gray-50: #F9F9Fb; // col_gray_half
 
-$gray-100: #F3F3F7; // col_gray_light
+$gray-light: #F3F3F7; // col_gray_light
 
-$gray-150: #EAEAEF; // col_gray_0
+$gray-0: #EAEAEF; // col_gray_0
 
-$gray-200: #E2E2E7; // col_gray_1
+$gray-1: #E2E2E7; // col_gray_1
 
-$gray-250: #D0D0D7; // col_gray_2
+$gray-2: #D0D0D7; // col_gray_2
 
-$gray-300: #BFBFC6; // col_gray_3
+$gray-3: #BFBFC6; // col_gray_3
 
-$gray-350: #AEAEB6; // col_gray_4
+$gray-4: #AEAEB6; // col_gray_4
 
-$gray-400: #9D9DA6; // col_gray_5
+$gray-5: #9D9DA6; // col_gray_5
 
-$gray-450: #8C8B96; // col_gray_6
+$gray-6: #8C8B96; // col_gray_6
 
-$gray-500: #7B7A86; // col_gray_7
+$gray-7: #7B7A86; // col_gray_7
 
-$gray-550: #6A6976; // col_gray_8
+$gray-8: #6A6976; // col_gray_8
 
-$gray-600: #595868; // col_gray_9
+$gray-9: #595868; // col_gray_9
 
-$gray-700: #363545; // col_trimble_gray
+$gray-trimble-gray: #363545; // col_trimble_gray
 
-$gray-750: #262533; // col_gray_dark_1
+$gray-dark-1: #262533; // col_gray_dark_1
 
-$gray-800: #1B1A26; // col_gray_dark_2
+$gray-dark-2: #1B1A26; // col_gray_dark_2
 
-$gray-900: #0B0A12; // col_gray_dark_3</code></pre>
+$gray-dark-3: #0B0A12; // col_gray_dark_3</code></pre>
         </div>
       </div>
     </div>
