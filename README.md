@@ -1,6 +1,6 @@
-# Ether Framework Guide
+# Modus Framework Guide
 
-The Ether Framework was developed as a common, open source platform for all of Trimble's web applications.
+The Modus Framework was developed as a common, open source platform for all of Trimble's web applications.
 
 ## Installation
 
@@ -37,9 +37,9 @@ npm run build
 ---
 ## Developer Notes
 
-The links to Ether's Development and Production builds can be found in `webpack/variables.js`. Simply changing the `etherVersion` and `etherIconsVersion` variables will change both the example texts in the style guide and the actual `<link>` and `<script>` tags used in the production builds.
+The links to Modus's Development and Production builds can be found in `webpack/variables.js`. Simply changing the `etherVersion` and `etherIconsVersion` variables will change both the example texts in the style guide and the actual `<link>` and `<script>` tags used in the production builds.
 
-The Development build of the style guide will always point towards the versionless development build of Ether.
+The Development build of the style guide will always point towards the versionless development build of Modus.
 
 ---
 

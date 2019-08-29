@@ -2,7 +2,7 @@
 
 const etherVersion = '0.3.2';
 const etherIconsVersion = '1.1.0';
-const guideVersion = '2.0.0';
+const guideVersion = '1.0.0';
 const dateOptions = {year: 'numeric', month: 'long', day: 'numeric'};
 
 exports.ether = {

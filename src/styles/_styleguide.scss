@@ -109,7 +109,8 @@ code {
 
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
-  background: ui-color('panel-background');
+  background: #f8f9fa;
+  // box-shadow: $shadow-depth-1;
 }
 
 .pop-highlight {
@@ -302,13 +303,22 @@ pre[class*='language-'] {
   }
 }
 
+.status-table {
+  th {
+    font-size: 16px;
+  }
+  td {
+    font-size: 24px;
+  }
+}
+
 .hover-div {
   position: absolute;
   pointer-events: none;
 
   .hover-div-inner {
-    border: rgba(87, 155, 218, 0.5) solid 1px;
-    background: rgba(87, 155, 218, 0.3);
+    border: rgba(87, 155, 218, 0.2) solid 1px;
+    background: rgba(87, 155, 218, 0.2);
     position: absolute;
     pointer-events: none;
   }
@@ -417,5 +427,3 @@ pre[class*='language-'] {
     display: flex !important;
   }
 }
-
-
