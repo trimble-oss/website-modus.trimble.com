@@ -263,7 +263,13 @@ module.exports = {
       filename: 'spacing.html',
       inject: true,
       minify: false,
-      template: Path.resolve(__dirname, '../src/framework/spacing.html')
+      template: Path.resolve(__dirname, '../src/foundations/spacing.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'padding_margin.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/framework/padding_margin.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'text.html',
