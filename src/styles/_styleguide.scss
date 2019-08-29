@@ -14,42 +14,35 @@ body {
   background-color: ui-color('panel-background');
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-.display-1,
-.display-1,
-.display-1,
-.display-4 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+code {
+  font-size: inherit;
 }
 
-table {
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 1rem;
-  border-collapse: collapse;
-  // background-color: #f8f9fa;
-  &.table tbody tr:hover {
-    background-color: unset;
+.guide-content,
+.guide-content-top,
+.guide-section,
+.tab-section {
+  & > h1 {
+    font-size: 3rem;
+    font-weight: 600;
   }
-}
-
-th,
-td {
-  // padding: 0.75rem;
-  vertical-align: top;
-  // border: 1px solid #dee3e6;
+  & > h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1.75rem;
+  }
+  & > h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+  & > p:not(.lead),
+  & > ul > li {
+    font-size: 1rem;
+  }
+  & > img {
+    max-width: 100%;
+  }
 }
 
 .card-inverse {

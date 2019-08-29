@@ -97,6 +97,8 @@ $(document).ready(function() {
     $('.guide-sample').css('background-color', thisColor);
   } else {
     window.localStorage.setItem('color', 'White');
+    $('.bg-color-select').val('#ffffff');
+    $('.guide-sample').css('background-color', '#ffffff');
   }
 
   $('.guide-tabs .nav-item a').on('click', e => {
@@ -241,6 +243,7 @@ $(document).ready(function() {
     //  anatomy-display-static: used on a single element, but does not need to be hovered over to activate, always on
     //  anatomy-display-table: used on a table, ignores all the table elements and gets only elements like buttons in it
     //  anatomy-exclude: ignores an element, use if you don't want the display to appear on an element that is a child of any of the classes above
+    //  adding data, data-anatomy-popover="false", will have no popover
     if (e.currentTarget) {
       var elem = $(e.currentTarget);
       if (
@@ -388,18 +391,20 @@ $(document).ready(function() {
       offset: offset
     });
 
-    elem.popover('show');
+    if (elem.data('anatomy-popover') || elem.data('anatomy-popover') === undefined) {
+      elem.popover('show');
 
-    if (!perm) {
-      const popovers = $('.popover');
-      const popover = popovers[popovers.length - 1];
-      $(popover).addClass('not-perm');
-    }
+      if (!perm) {
+        const popovers = $('.popover');
+        const popover = popovers[popovers.length - 1];
+        $(popover).addClass('not-perm');
+      }
 
-    const popovers = $('.popover.not-perm');
-    for (let i = 0; i < popovers.length - 1; i++) {
-      const popover = $(popovers[i]);
-      popover.remove();
+      const popovers = $('.popover.not-perm');
+      for (let i = 0; i < popovers.length - 1; i++) {
+        const popover = $(popovers[i]);
+        popover.remove();
+      }
     }
 
     if (!perm) {

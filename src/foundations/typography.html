@@ -3,66 +3,225 @@ ${require(`../partials/header.html`)}
   <div class="guide-content-top border-bottom">
     <h1>Typography</h1>
     <p class="lead">
-      Documentation and examples for typography, including global settings,
-      headings, body text, lists, and more.
+      Typography can help create clear hierarchies, organize information, and guide users through a
+      product or experience.
     </p>
   </div>
   <div class="guide-scroll-container">
     <div class="guide-section">
-      <h2>Typefaces</h2>
+      <h2>Open Sans</h2>
       <p>
-        Most text uses
-        <a
-          target="_blank"
-          href="https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans"
-          class="badge badge-primary"
-          >Open Sans</a
-        >, but headings are set in
-        <a
-          href="https://fonts.google.com/specimen/Roboto"
-          class="badge badge-primary"
-          >Roboto</a
-        >. The typefaces can be customized in the SASS implementation.
+        Trimble uses
+        <a href="https://fonts.google.com/specimen/Open+Sans">Open Sans</a>, a humanist sans-serif
+        typeface with good legibility and warmth. Featuring a tall x-height and open forms, it is
+        ideal for on-screen consumption. Open Sans supports ISO Latin 1, Latin CE, Greek and
+        Cyrillic character sets.
+      </p>
+      <p>
+        For Internationalization, support is included for RTL (right-to-left) languages. Asian
+        Syllabic, Abjad, Indic and other script languages will be supported by sans-serif system
+        font.
       </p>
 
-      <h3 class="mt-5">Headings</h3>
+      <h2>Base Sizing</h2>
+      <ul>
+        <li>The root font size is defined as <code>16px (1rem)</code></li>
+        <li>Base body text is sized at <code>14px (.875rem)</code></li>
+        <li>Small body text is sized at <code>12px (.75rem)</code></li>
+      </ul>
+
+      <h2>Hierarcy and Intent</h2>
+      <p>
+        Consistency is key to creating an easily scannable interface for users. Each level in the
+        Trimble type hierarchy is defined with a specific color and intent. Associating the
+        typographic style to the intent in the interface provides a visual pattern that is easy for
+        users to skim.
+      </p>
+      <p>
+        The variations help keep type styles to a minimum, so consistency is easier to achieve. Too
+        many type styles make a layout unbalanced and difficult to manage.
+      </p>
+
+      <h2>Line Length</h2>
+      <p>
+        Line lengths affect both aesthetics and readability. If a line of text is too short, it
+        causes the reader's eyes to jump too frequently from one line to the next. If it's too long,
+        it causes the reader's eyes to double back. Both instances negatively affect user
+        experience, Ideally, line lengths for body text should be between 80 to 100 characters.
+      </p>
+      <img src="${require(`../img/guide/typography--line-length.png`)}" alt="Typography Line Length Example">
+
+      <h3 class="guide-heading-3">Type Scale</h3>
+      <table class="table table-bordered bg-white">
+        <thead class="thead-dark">
+          <tr>
+            <th>Category</th>
+            <th>Classes</th>
+            <th>Font Weight</th>
+            <th>Size</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td scope="row">
+              <h1>H1 Heading</h1>
+            </td>
+            <td>
+              <code>.h1</code>
+            </td>
+            <td>Regular</td>
+            <td>24px</td>
+          </tr>
+          <tr>
+            <td scope="row">
+              <h2>H2 Heading</h2>
+            </td>
+            <td>
+              <code>.h2</code>
+            </td>
+            <td>Regular</td>
+            <td>20px</td>
+          </tr>
+          <tr>
+            <td scope="row">
+              <h3>H3 Heading</h3>
+            </td>
+            <td>
+              <code>.h3</code>
+            </td>
+            <td>Semi-Bold</td>
+            <td>18px</td>
+          </tr>
+          <tr>
+            <td scope="row">
+              <h4>H4 Heading</h4>
+            </td>
+            <td>
+              <code>.h4</code>
+            </td>
+            <td>Semi-Bold</td>
+            <td>16px</td>
+          </tr>
+          <tr>
+            <td scope="row">
+              <h5>H5 Heading</h5>
+            </td>
+            <td>
+              <code>.h5</code>
+            </td>
+            <td>Bold</td>
+            <td>14px</td>
+          </tr>
+          <tr>
+            <td scope="row">
+              <h6>H6 Heading</h6>
+            </td>
+            <td>
+              <code>.h6</code>
+            </td>
+            <td>Bold</td>
+            <td>12px</td>
+          </tr>
+          <tr>
+            <td scope="row">
+              <p class="lead lead-text">Lead Text</p>
+            </td>
+            <td>
+              <code>.lead</code>
+              <code>.lead-text</code>
+            </td>
+            <td>Regular</td>
+            <td>20px</td>
+          </tr>
+          <tr>
+            <td scope="row">
+              <p class="body-text">Body Text</p>
+            </td>
+            <td>
+              <code>.body-text</code>
+            </td>
+            <td>Regular</td>
+            <td>14px</td>
+          </tr>
+          <tr>
+            <td scope="row">
+              <p class="card-text">Card Text</p>
+            </td>
+            <td>
+              <code>.card-text</code>
+            </td>
+            <td>Regular</td>
+            <td>16px</td>
+          </tr>
+          <tr>
+            <td scope="row">
+              <p class="card-text-2">Card Text 2</p>
+            </td>
+            <td>
+              <code>.card-text-2</code>
+            </td>
+            <td>Semi-Bold</td>
+            <td>12px</td>
+          </tr>
+          <tr>
+            <td scope="row">
+              <p class="card-subtitle-1">Card Subtitle 1</p>
+            </td>
+            <td>
+              <code>.card-subtitle-1</code>
+            </td>
+            <td>Regular</td>
+            <td>16px</td>
+          </tr>
+          <tr>
+            <td scope="row">
+              <p class="card-subtitle-2">Card Subtitle 2</p>
+            </td>
+            <td>
+              <code>.card-subtitle-2</code>
+            </td>
+            <td>Bold</td>
+            <td>10px</td>
+          </tr>
+          <tr>
+            <td scope="row">
+              <p class="form-labels card-caption">
+                Form Labels & Card Captions
+              </p>
+            </td>
+            <td>
+              <code>.form-labels</code>
+              <code>.card-caption</code>
+            </td>
+            <td>Regular</td>
+            <td>12px</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 class="guide-heading-3">Headings</h3>
       <div class="guide-example-block">
         <div class="guide-sample anatomy-display">
-          <h1>h1. Modus heading</h1>
-          <h2>h2. Modus heading</h2>
-          <h3>h3. Modus heading</h3>
-          <h4>h4. Modus heading</h4>
-          <h5>h5. Modus heading</h5>
-          <h6>h6. Modus heading</h6>
+          <h1>H1 Heading</h1>
+          <h2>H2 Heading</h2>
+          <h3>H3 Heading</h3>
+          <h4>H4 Heading</h4>
+          <h5>H5 Heading</h5>
+          <h6>H6 Heading</h6>
         </div>
         ${require(`../partials/guide-code.html`)}
       </div>
 
-      <h3 class="mt-5">Display Headings</h3>
+      <h3 class="guide-heading-3">Text Styles</h3>
       <div class="guide-example-block">
         <div class="guide-sample anatomy-display">
-          <h1 class="display-1">Display 1</h1>
-          <h1 class="display-2">Display 2</h1>
-          <h1 class="display-3">Display 3</h1>
-          <h1 class="display-4">Display 4</h1>
-        </div>
-        ${require(`../partials/guide-code.html`)}
-      </div>
-
-      <h3 class="mt-5">Text Styles</h3>
-      <div class="guide-example-block">
-        <div class="guide-sample anatomy-display">
-          <p id="leadtext" class="lead-text">Lead Text / Open Sans Regular</p>
+          <p class="lead-text">Lead Text / Open Sans Regular</p>
           <p class="body-text">Body / Open Sans Regular</p>
           <p class="card-text">Card Text / Open Sans Regular</p>
-          <p class="card-text-2">Card Text 2 / Open Sans Semibold</p>
+          <p class="card-text-2">Card Text 2 / Open Sans Semi-Bold</p>
           <p class="card-subtitle-1">Card Subtitle 1 / Open Sans Regular</p>
-          <p class="card-subtitle-2">
-            Card Subtitle 2 / Open Sans Bold (All Caps)
-          </p>
-          <p class="form-labels card-caption">
-            Form Labels + Card Caption / Open SansRegular
-          </p>
+          <p class="card-subtitle-2">Card Subtitle 2 / Open Sans Bold</p>
+          <p class="form-labels card-caption">Form Labels + Card Caption / Open Sans Regular</p>
         </div>
         ${require(`../partials/guide-code.html`)}
       </div>
