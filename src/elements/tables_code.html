@@ -1,0 +1,91 @@
+<div class="tab-section">
+  <h2>Overview</h2>
+  <p>
+    Due to the widespread use of tables across third-party widgets like
+    calendars and date pickers, we’ve designed our tables to be opt-in. Just
+    add the base class .table to any <code>&lt;table&gt; </code>, then
+    extend with custom styles or our various included modifier classes.
+  </p>
+  <p>
+    Using the most basic table markup, here’s how <code>.table</code>-based
+    tables look in Bootstrap. All table styles are inherited in Bootstrap 4,
+    meaning any nested tables will be styled in the same manner as the
+    parent.
+    <a href="https://getbootstrap.com/docs/4.0/content/tables/" target="_blank">
+      Read More</a>
+  </p>
+
+  <h3 class="mt-5">Basic Table</h3>
+  <div class="guide-example-block">
+    <div class="guide-sample">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    ${require(`../partials/guide-code.html`)}
+  </div>
+
+  <h3 class="mt-5">Bordered Table</h3>
+  <div class="guide-example-block">
+    <div class="guide-sample">
+      <table class="table table-bordered table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    ${require(`../partials/guide-code.html`)}
+  </div>
+</div>

@@ -74,6 +74,12 @@ module.exports = {
       template: Path.resolve(__dirname, '../src/elements/badges.html')
     }),
     new HtmlWebpackPlugin({
+      filename: 'breadcrumbs.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/elements/breadcrumbs.html')
+    }),
+    new HtmlWebpackPlugin({
       filename: 'buttons.html',
       inject: true,
       minify: false,
@@ -84,6 +90,12 @@ module.exports = {
       inject: true,
       minify: false,
       template: Path.resolve(__dirname, '../src/elements/cards.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'checkboxes.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/elements/checkboxes.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'chips.html',
@@ -138,6 +150,24 @@ module.exports = {
       inject: true,
       minify: false,
       template: Path.resolve(__dirname, '../src/elements/modals.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'pagination.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/elements/pagination.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'radio.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/elements/radio.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'sliders.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/elements/sliders.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'depth.html',
