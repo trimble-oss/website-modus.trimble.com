@@ -97,6 +97,8 @@ $(document).ready(function() {
     $('.guide-sample').css('background-color', thisColor);
   } else {
     window.localStorage.setItem('color', 'White');
+    $('.bg-color-select').val('#ffffff');
+    $('.guide-sample').css('background-color', '#ffffff');
   }
 
   $('.guide-tabs .nav-item a').on('click', e => {
