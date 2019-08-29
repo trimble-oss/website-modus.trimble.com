@@ -430,7 +430,7 @@ $(document).ready(function() {
     if (navItems.length > 0) {
       $('.guide-right-nav').append(rightNavTemplate(navId));
       $(
-        '<li class="nav-item"><a class="nav-link font-weight-bold" href="#top">Top <i class="material-icons">vertical_align_top</i></a></li>'
+        '<li class="nav-item"><a class="nav-link font-weight-bold" href="#top">Top <i class="ml-auto material-icons">vertical_align_top</i></a></li>'
       ).appendTo($('#' + navId));
       $(navItems).each((i, e) => {
         const elem = $(e);

@@ -116,7 +116,8 @@ td {
 
 :not(pre) > code[class*='language-'],
 pre[class*='language-'] {
-  background: ui-color('panel-background');
+  background: #f8f9fa;
+  // box-shadow: $shadow-depth-1;
 }
 
 .pop-highlight {
@@ -306,6 +307,15 @@ pre[class*='language-'] {
   .dropdown-menu {
     display: block;
     position: static;
+  }
+}
+
+.status-table {
+  th {
+    font-size: 16px;
+  }
+  td {
+    font-size: 24px;
   }
 }
 
