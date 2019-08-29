@@ -1,113 +1,100 @@
 ${require(`../partials/header.html`)}
 <div class="guide-content">
   <div class="guide-content-top border-bottom">
-    <h1>Shadows Depth</h1>
+    <h1>Depth</h1>
     <p class="lead">
-      In the Material Design environment, virtual lights illuminate the UI. Key lights create sharper, directional
-      shadows,
-      called key shadows. Ambient light appears from all angles to create diffused, soft shadows, called ambient
-      shadows. </p>
-    <!-- <div class="alert alert-warning" role="alert">
-      WIP: This page is not complete.
-    </div> -->
-    </div>
-  <div class="guide-scroll-container" >
-  <div class="guide-section">
+      Use layering to create depth and focus the user’s attention on a task, provide temporary
+      supplementary information, or define spatial relationships between content.
+    </p>
+  </div>
+  <div class="guide-scroll-container">
+    <div class="guide-section">
       <h2>Overview</h2>
       <p>
-        Shadows provide cues about depth, direction of movement, and surface edges. A surface’s shadow is determined by
-        its elevation and relationship to other surfaces.
+        Shadows provide cues about depth, direction of movement, and surface edges. A surface’s
+        shadow is determined by its elevation and relationship to other surfaces.
       </p>
       <p>
-        Because shadows express the degree of elevation between surfaces, they must be used consistently throughout your
-        product.
+        Because shadows express the degree of elevation between surfaces, they must be used
+        consistently throughout your product.
       </p>
       <p>
-        For <code>button</code> elements, use <code>shadow-1</code> to add shadows. The button active/pressed state
-        will not cast any shadows.
+        For other elements such as <code>cards</code>, <code>modals</code>, <code>tables</code> etc,
+        use one of the following classes to add depth; <code>shadow-1</code>, <code>shadow-2</code>,
+        <code>shadow-3</code>, <code>shadow-4</code>, <code>shadow-5</code>
       </p>
-      <p>
-        For other elements such as <code>cards</code>, <code>modals</code>,
-        <code>tables</code> etc, use one of the following classes to add depth; <code>shadow-1</code>,
-        <code>shadow-2</code>, <code>shadow-3</code>, <code>shadow-4</code>, <code>shadow-5</code>
-      </p>
-
 
       <h3 class="mt-5">Shadow Depths</h3>
       <div class="guide-example-block border">
         <div
           class="guide-sample"
-          style="display: grid; grid-template-columns: repeat(3, 1fr); justify-items: center; grid-gap: 2rem;"
+          style="padding: 2rem; display: grid; grid-template-columns: repeat(3, 1fr); justify-items: center; grid-gap: 2rem;"
         >
+          <div class="card" style="width: 14rem;">
+            <div class="card-body">
+              <h2 class="text-center font-weight-bold">
+                Shadow Depth 0
+              </h2>
+            </div>
+          </div>
           <div class="card shadow-1" style="width: 14rem;">
             <div class="card-body">
-              <h5 class="card-title">Shadow Depth 1</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h2 class="text-center font-weight-bold">
+                Shadow Depth 1
+              </h2>
             </div>
           </div>
           <div class="card shadow-2" style="width: 14rem;">
             <div class="card-body">
-              <h5 class="card-title">Shadow Depth 2</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h2 class="text-center font-weight-bold">
+                Shadow Depth 2
+              </h2>
             </div>
           </div>
           <div class="card shadow-3" style="width: 14rem;">
             <div class="card-body">
-              <h5 class="card-title">Shadow Depth 3</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h2 class="text-center font-weight-bold">
+                Shadow Depth 3
+              </h2>
             </div>
           </div>
           <div class="card shadow-4" style="width: 14rem;">
             <div class="card-body">
-              <h5 class="card-title">Shadow Depth 4</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h2 class="text-center font-weight-bold">
+                Shadow Depth 4
+              </h2>
             </div>
           </div>
           <div class="card shadow-5" style="width: 14rem;">
             <div class="card-body">
-              <h5 class="card-title">Shadow Depth 5</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h2 class="text-center font-weight-bold">
+                Shadow Depth 5
+              </h2>
             </div>
           </div>
         </div>
       </div>
 
+      <h2>UI Examples</h2>
+      <p>
+        Below are a few examples of shadows being used to create depth with our UI Elements.
+      </p>
+
       <h3 class="mt-5">Raised Buttons</h3>
+      <p>
+        For <code>button</code> elements, use <code>shadow-1</code> to add shadows. The button
+        active/pressed state will not cast any shadows.
+      </p>
       <div class="guide-example-block border">
-        <div class="guide-sample anatomy-display-table">
-          <table class="table">
-            <thead>
+        <div class="guide-sample">
+          <table class="table table-bordered bg-white">
+            <thead class="thead-dark">
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">Primary </th>
-                <th scope="col">Secondary </th>
-                <th scope="col">Danger </th>
-                <th scope="col">Success </th>
+                <th scope="col">Primary</th>
+                <th scope="col">Secondary</th>
+                <th scope="col">Danger</th>
+                <th scope="col">Success</th>
               </tr>
             </thead>
             <tbody>
@@ -117,7 +104,6 @@ ${require(`../partials/header.html`)}
                 <td><button class="btn btn-secondary shadow-1">Button</button></td>
                 <td><button class="btn btn-danger shadow-1">Button</button></td>
                 <td><button class="btn btn-success shadow-1">Button</button></td>
-
               </tr>
               <tr>
                 <th scope="row">Outline</th>
@@ -136,36 +122,48 @@ ${require(`../partials/header.html`)}
               <tr>
                 <th scope="row">Icon</th>
                 <td>
-                  <button class="btn btn-primary btn-icon-only shadow-1"><i
-                      class="ether-icons">gear</i></button>
-                  <button class="btn btn-outline-primary btn-icon-only shadow-1"><i
-                      class="ether-icons">gear</i></button>
-                  <button class="btn btn-text-primary btn-icon-only shadow-1"><i
-                      class="ether-icons">gear</i></button>
+                  <button class="btn btn-primary btn-icon-only shadow-1">
+                    <i class="ether-icons">gear</i>
+                  </button>
+                  <button class="btn btn-outline-primary btn-icon-only shadow-1">
+                    <i class="ether-icons">gear</i>
+                  </button>
+                  <button class="btn btn-text-primary btn-icon-only shadow-1">
+                    <i class="ether-icons">gear</i>
+                  </button>
                 </td>
                 <td>
-                  <button class="btn btn-secondary btn-icon-only shadow-1"><i
-                      class="ether-icons">gear</i></button>
-                  <button class="btn btn-outline-secondary btn-icon-only shadow-1"><i
-                      class="ether-icons">gear</i></button>
-                  <button class="btn btn-text-secondary btn-icon-only shadow-1"><i
-                      class="ether-icons">gear</i></button>
+                  <button class="btn btn-secondary btn-icon-only shadow-1">
+                    <i class="ether-icons">gear</i>
+                  </button>
+                  <button class="btn btn-outline-secondary btn-icon-only shadow-1">
+                    <i class="ether-icons">gear</i>
+                  </button>
+                  <button class="btn btn-text-secondary btn-icon-only shadow-1">
+                    <i class="ether-icons">gear</i>
+                  </button>
                 </td>
                 <td>
-                  <button class="btn btn-danger btn-icon-only shadow-1"><i
-                      class="ether-icons">gear</i></button>
-                  <button class="btn btn-outline-danger btn-icon-only shadow-1"><i
-                      class="ether-icons">gear</i></button>
-                  <button class="btn btn-text-danger btn-icon-only shadow-1"><i
-                      class="ether-icons">gear</i></button>
+                  <button class="btn btn-danger btn-icon-only shadow-1">
+                    <i class="ether-icons">gear</i>
+                  </button>
+                  <button class="btn btn-outline-danger btn-icon-only shadow-1">
+                    <i class="ether-icons">gear</i>
+                  </button>
+                  <button class="btn btn-text-danger btn-icon-only shadow-1">
+                    <i class="ether-icons">gear</i>
+                  </button>
                 </td>
                 <td>
-                  <button class="btn btn-success btn-icon-only shadow-1"><i
-                      class="ether-icons">gear</i></button>
-                  <button class="btn btn-outline-success btn-icon-only shadow-1"><i
-                      class="ether-icons">gear</i></button>
-                  <button class="btn btn-text-success btn-icon-only shadow-1"><i
-                      class="ether-icons">gear</i></button>
+                  <button class="btn btn-success btn-icon-only shadow-1">
+                    <i class="ether-icons">gear</i>
+                  </button>
+                  <button class="btn btn-outline-success btn-icon-only shadow-1">
+                    <i class="ether-icons">gear</i>
+                  </button>
+                  <button class="btn btn-text-success btn-icon-only shadow-1">
+                    <i class="ether-icons">gear</i>
+                  </button>
                 </td>
               </tr>
             </tbody>
