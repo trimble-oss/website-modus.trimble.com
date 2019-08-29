@@ -1,83 +1,48 @@
 <div class="tab-section">
   <h2>Alerts Overview</h2>
   <p>
-    Alerts are available for any length of text, as well as an optional dismiss
-    button. For proper styling, use one of the eight required contextual classes
-    (e.g., .<code>alert-success</code>). For inline dismissal, use the alerts
-    jQuery plugin.
+    Alerts are available for any length of text, as well as an optional dismiss button. For proper
+    styling, use one of the eight required contextual classes (e.g., .<code>alert-success</code>).
+    For inline dismissal, use the alerts jQuery plugin.
   </p>
   <p>
-    Add <code>class="alert"</code> along with contextual classes and
-    <code>role="alert"</code> to a div to create an alert.
+    Add <code>class="alert"</code> along with contextual classes and <code>role="alert"</code> to a
+    div to create an alert.
   </p>
 
   <h3 class="mt-5">Basic Alerts</h3>
   <div class="guide-example-block">
-    <div class="guide-sample anatomy-display">
+    <div class="guide-sample">
       <div class="alert alert-primary" role="alert">
-        <i class="ether-icons alert-icon">info</i> A basic Primary alert
-      </div>
-      <div class="alert alert-info" role="alert">
         <i class="ether-icons alert-icon">info</i>
-        <div>A basic information alert</div>
+        <div>A basic Primary alert</div>
+      </div>
+      <div class="alert alert-secondary" role="alert">
+        <i class="ether-icons alert-icon">help</i>
+        <div>A basic secondary alert with a button</div>
+        <a href="#" class="btn btn-sm btn-text-secondary">Button</a>
+      </div>
+      <div class="alert alert-dark" role="alert">
+        <i class="ether-icons alert-icon">info</i>
+        <div>A basic <u>dark alert</u> with <em>text formatting</em></div>
+      </div>
+      <div class="alert alert-success fade show" role="alert">
+        <i class="material-icons alert-icon">check_circle</i>
+        <div>Success! A basic success alert with a dismiss icon</div>
         <button type="button" class="close" data-dismiss="alert">
           <i class="ether-icons">close</i>
         </button>
       </div>
-      <div
-        class="alert alert-secondary"
-        role="alert"
-        data-original-title=""
-        title=""
-      >
-        <i class="ether-icons alert-icon">help</i> A basic secondary alert
+      <div class="alert alert-danger fade show" role="alert">
+        <i class="material-icons alert-icon">error</i>
+        <div>Error! A basic error alert with a dismiss icon</div>
         <button type="button" class="close" data-dismiss="alert">
           <i class="ether-icons">close</i>
         </button>
       </div>
-      <div
-        class="alert alert-success"
-        role="alert"
-        data-original-title=""
-        title=""
-      >
-        <i class="ether-icons alert-icon">check_circle</i> A basic success
-        alert.
-        <button type="button" class="close" data-dismiss="alert">
-          <i class="ether-icons">close</i>
-        </button>
-      </div>
-      <div
-        class="alert alert-danger alert-dismissable fade show"
-        role="alert"
-        data-original-title=""
-        title=""
-      >
-        <i class="material-icons alert-icon">error</i> A basic error alert with
-        a dismiss icon
-        <button type="button" class="close" data-dismiss="alert">
-          <i class="ether-icons">close</i>
-        </button>
-      </div>
-      <div
-        class="alert alert-warning"
-        role="alert"
-        data-original-title=""
-        title=""
-      >
+      <div class="alert alert-warning fade show" role="alert">
         <i class="ether-icons alert-icon">warning</i>
-        A basic warning alert
-        <button type="button" class="close" data-dismiss="alert">
-          <i class="ether-icons">close</i>
-        </button>
-      </div>
-      <div
-        class="alert alert-dark"
-        role="alert"
-        data-original-title=""
-        title=""
-      >
-        A boring non-contextual alert without an icon
+        <div>Warning! A basic warning alert with a dismiss icon</div>
         <button type="button" class="close" data-dismiss="alert">
           <i class="ether-icons">close</i>
         </button>
@@ -88,38 +53,34 @@
 
   <h3 class="mt-5">Alerts with Links</h3>
   <p>
-    Use the <code>.alert-link</code> utility class to quickly provide matching
-    colored links within any alert.
+    Use the <code>.alert-link</code> utility class to quickly provide matching colored links within
+    any alert.
   </p>
 
   <div class="guide-example-block">
     <div class="guide-sample">
       <div class="alert alert-primary" role="alert">
         <i class="ether-icons alert-icon">info</i>
-        This is a primary alert with
-        <a href="#" class="alert-link">&nbsp;an example link</a>. Give it a
-        click if you like.
+        <div>
+          This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a
+          click if you like.
+        </div>
       </div>
     </div>
     ${require(`../partials/guide-code.html`)}
   </div>
   <h3 class="mt-5">Alerts with Buttons</h3>
   <p>
-    You can add a button to an alert using any button style. For best results
-    with single line alerts, use
+    You can add a button to an alert using any button style. For best results with single line
+    alerts, use
     <code>.btn-sm</code>.
-  </p>
-  <p>
-    In these examples, we use the <code>.float-right</code> class to pull the
-    button to the right and <code>.clearfix</code> on the alert to make sure the
-    button is inside the alert correctly.
   </p>
   <div class="guide-example-block">
     <div class="guide-sample">
-      <div class="alert clearfix alert-danger" role="alert">
-        <i class="material-icons alert-icon">error</i>
-        A basic error alert with a button.
-        <a href="#" class=" float-right btn btn-sm btn-text-danger">Button</a>
+      <div class="alert alert-primary" role="alert">
+        <i class="ether-icons alert-icon">info</i>
+        <div>A basic primary alert with a button</div>
+        <a href="#" class="btn btn-sm btn-text-primary">Button</a>
       </div>
     </div>
     ${require(`../partials/guide-code.html`)}
@@ -127,29 +88,21 @@
 
   <h3 class="mt-5">Dismissible Alerts</h3>
   <p>
-    Add <code>class="alert-dismissible fade show"</code> to the alert and add a
-    button with attributes <code>class="close" data-dismiss="alert"</code> to
-    add dismissible alerts
+    Add <code>class="fade show"</code> to the alert and add a button with attributes
+    <code>class="close" data-dismiss="alert"</code> to add dismissible alerts
   </p>
   <p>
     To use this, please review Bootstrap documentation
-    <a
-      href="https://getbootstrap.com/docs/4.0/components/alerts/#dismissing"
-      target="_blank"
+    <a href="https://getbootstrap.com/docs/4.0/components/alerts/#dismissing" target="_blank"
       >here</a
     >
   </p>
   <div class="guide-example-block">
     <div class="guide-sample">
-      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+      <div class="alert alert-warning fade show" role="alert">
         <i class="ether-icons alert-icon">warning</i>
-        A dismissible warning alert with button.
-        <button
-          type="button"
-          class=" close"
-          data-dismiss="alert"
-          aria-label="Close"
-        >
+        <div>Warning! A basic warning alert with a dismiss icon</div>
+        <button type="button" class="close" data-dismiss="alert">
           <i class="ether-icons">close</i>
         </button>
       </div>
@@ -157,28 +110,8 @@
     ${require(`../partials/guide-code.html`)}
   </div>
 
-  <!-- <h3 class="mt-5">Alerts with Additional Content</h3>
-      <p>Alerts can also contain additional HTML elements like headings, paragraphs and dividers.</p>
-
-      <p>Wrap the alert heading in a <code>h tag (h1-h6)</code> with an <code>.alert-heading</code> class followed by the content.</p>
-      <div class="guide-example-block">
-        <div class="guide-sample">
-          <div class="alert alert-success alert-dismissible fade show" role="alert">
-            <button type="button" class=" close" data-dismiss="alert" aria-label="Close">
-              <i class="ether-icons">close</i>
-            </button>
-            <h4 class="alert-heading">Well Done!</h4>
-            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-            <hr>
-            <p class="mb-0"><strong>Whenever you need to,</strong> be sure to use <a class="alert-link" href="/spacing.html">margin utilities</a> to keep things nice and tidy.</p>
-          </div>
-        </div>
-        ${require(`../partials/guide-code.html`)}
-      </div> -->
-
   <p class="mt-5">
-    For additional documentation on Javascript behavior on Bootstrap's Alerts,
-    click
+    For additional documentation on Javascript behavior on Bootstrap's Alerts, click
     <a
       href="https://getbootstrap.com/docs/4.0/components/alerts/#javascript-behavior"
       target="_blank"
@@ -188,144 +121,68 @@
 
   <h2>Toasts Overview</h2>
   <p>
-    Alerts are available for any length of text, as well as an optional dismiss
-    button. For proper styling, use one of the eight required contextual classes
-    (e.g., .<code>toast-success</code>). For inline dismissal, use the alerts
-    jQuery plugin.
+    Alerts are available for any length of text, as well as an optional dismiss button. For proper
+    styling, use one of the eight required contextual classes (e.g., .<code>toast-success</code>).
+    For inline dismissal, use the alerts jQuery plugin.
   </p>
   <p>
-    Add <code>class="toast"</code> along with contextual classes and
-    <code>role="alert"</code> to a div to create an toast.
+    Add <code>class="toast"</code> along with contextual classes and <code>role="alert"</code> to a
+    div to create an toast.
   </p>
 
   <h3 class="mt-5">Toasts</h3>
   <div class="guide-example-block">
-    <div class="guide-sample anatomy-display">
-      <div
-        class="toast show"
-        role="alert"
-        aria-live="assertive"
-        aria-atomic="true"
-      >
+    <div class="guide-sample">
+      <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
         Aww yeah, you read a toast.
-        <button
-          type="button"
-          class="btn btn-text-primary"
-          data-dismiss="toast"
-          aria-label="Close"
-        >
+        <button type="button" class="btn btn-text-primary" data-dismiss="toast" aria-label="Close">
+          Close
+        </button>
+      </div>
+      <div class="toast toast-dark show" role="alert" aria-live="assertive" aria-atomic="true">
+        Aww yeah, you read a dark toast.
+        <button type="button" class="btn btn-text-tertiary" data-dismiss="toast" aria-label="Close">
+          Close
+        </button>
+      </div>
+      <div class="toast toast-primary show" role="alert" aria-live="assertive" aria-atomic="true">
+        Aww yeah, you read a primary toast.
+        <button type="button" class="btn btn-text-tertiary" data-dismiss="toast" aria-label="Close">
+          Close
+        </button>
+      </div>
+      <div class="toast toast-secondary show" role="alert" aria-live="assertive" aria-atomic="true">
+        Aww yeah, you read a secondary toast.
+        <button type="button" class="btn btn-text-tertiary" data-dismiss="toast" aria-label="Close">
           Close
         </button>
       </div>
       <div
-        class="toast toast-dark show"
+        class="toast toast-tertiary show text-dark"
         role="alert"
         aria-live="assertive"
         aria-atomic="true"
       >
-        Aww yeah, you read a toast.
-        <button
-          type="button"
-          class="btn btn-text-light"
-          data-dismiss="toast"
-          aria-label="Close"
-        >
+        Aww yeah, you read a tertiary toast.
+        <button type="button" class="btn btn-text-dark" data-dismiss="toast" aria-label="Close">
           Close
         </button>
       </div>
-      <div
-        class="toast toast-primary show"
-        role="alert"
-        aria-live="assertive"
-        aria-atomic="true"
-      >
-        Aww yeah, you read a toast.
-        <button
-          type="button"
-          class="btn btn-text-light"
-          data-dismiss="toast"
-          aria-label="Close"
-        >
+      <div class="toast toast-danger show" role="alert" aria-live="assertive" aria-atomic="true">
+        Aww yeah, you read a danger toast.
+        <button type="button" class="btn btn-text-tertiary" data-dismiss="toast" aria-label="Close">
           Close
         </button>
       </div>
-      <div
-        class="toast toast-info show"
-        role="alert"
-        aria-live="assertive"
-        aria-atomic="true"
-      >
-        Aww yeah, you read a toast.
-        <button
-          type="button"
-          class="btn btn-text-light"
-          data-dismiss="toast"
-          aria-label="Close"
-        >
+      <div class="toast toast-warning show" role="alert" aria-live="assertive" aria-atomic="true">
+        Aww yeah, you read a warning toast.
+        <button type="button" class="btn btn-text-tertiary" data-dismiss="toast" aria-label="Close">
           Close
         </button>
       </div>
-      <div
-        class="toast toast-secondary show"
-        role="alert"
-        aria-live="assertive"
-        aria-atomic="true"
-      >
-        Aww yeah, you read a toast.
-        <button
-          type="button"
-          class="btn btn-text-light"
-          data-dismiss="toast"
-          aria-label="Close"
-        >
-          Close
-        </button>
-      </div>
-      <div
-        class="toast toast-danger show"
-        role="alert"
-        aria-live="assertive"
-        aria-atomic="true"
-      >
-        Aww yeah, you read a toast.
-        <button
-          type="button"
-          class="btn btn-text-light"
-          data-dismiss="toast"
-          aria-label="Close"
-        >
-          Close
-        </button>
-      </div>
-      <div
-        class="toast toast-warning show"
-        role="alert"
-        aria-live="assertive"
-        aria-atomic="true"
-      >
-        Aww yeah, you read a toast.
-        <button
-          type="button"
-          class="btn btn-text-light"
-          data-dismiss="toast"
-          aria-label="Close"
-        >
-          Close
-        </button>
-      </div>
-      <div
-        class="toast toast-success show"
-        role="alert"
-        aria-live="assertive"
-        aria-atomic="true"
-      >
-        Aww yeah, you read a toast.
-        <button
-          type="button"
-          class="btn btn-text-light"
-          data-dismiss="toast"
-          aria-label="Close"
-        >
+      <div class="toast toast-success show" role="alert" aria-live="assertive" aria-atomic="true">
+        Aww yeah, you read a success toast.
+        <button type="button" class="btn btn-text-tertiary" data-dismiss="toast" aria-label="Close">
           Close
         </button>
       </div>
