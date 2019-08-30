@@ -25,7 +25,7 @@ module.exports = merge(common, {
       'guideVersion': JSON.stringify(variables.ether.guideVersion),
       'guideBuildDate': JSON.stringify(variables.ether.guideBuildDate),
       'etherVersion': JSON.stringify(variables.ether.etherVersion),
-      'etherIconsVersion': JSON.stringify(variables.ether.etherIconsVersion),
+      'modusIconsVersion': JSON.stringify(variables.ether.modusIconsVersion),
       'etherIcons': JSON.stringify(variables.ether.prodLinks.etherIcons),
       'etherCSS': JSON.stringify(variables.ether.prodLinks.etherCSS),
       'etherLayoutCSS': JSON.stringify(variables.ether.prodLinks.etherLayoutCSS),

@@ -22,7 +22,7 @@ module.exports = {
   plugins: [
     new Webpack.DefinePlugin({
       'etherVersion': JSON.stringify(variables.ether.etherVersion),
-      'etherIconsVersion': JSON.stringify(variables.ether.etherIconsVersion)
+      'modusIconsVersion': JSON.stringify(variables.ether.modusIconsVersion)
     }),
     new CleanWebpackPlugin(['build'], {
       root: Path.resolve(__dirname, '..')
