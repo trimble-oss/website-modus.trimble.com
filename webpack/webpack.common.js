@@ -21,7 +21,7 @@ module.exports = {
   },
   plugins: [
     new Webpack.DefinePlugin({
-      'etherVersion': JSON.stringify(variables.ether.etherVersion),
+      'modusVersion': JSON.stringify(variables.ether.modusVersion),
       'modusIconsVersion': JSON.stringify(variables.ether.modusIconsVersion)
     }),
     new CleanWebpackPlugin(['build'], {

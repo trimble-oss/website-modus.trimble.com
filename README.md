@@ -37,7 +37,7 @@ npm run build
 ---
 ## Developer Notes
 
-The links to Modus's Development and Production builds can be found in `webpack/variables.js`. Simply changing the `etherVersion` and `modusIconsVersion` variables will change both the example texts in the style guide and the actual `<link>` and `<script>` tags used in the production builds.
+The links to Modus's Development and Production builds can be found in `webpack/variables.js`. Simply changing the `modusVersion` and `modusIconsVersion` variables will change both the example texts in the style guide and the actual `<link>` and `<script>` tags used in the production builds.
 
 The Development build of the style guide will always point towards the versionless development build of Modus.
 

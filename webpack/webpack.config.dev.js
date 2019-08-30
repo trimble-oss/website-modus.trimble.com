@@ -19,12 +19,12 @@ module.exports = merge(common, {
       'process.env.NODE_ENV': process.env.NODE_ENV || JSON.stringify('development'),
       'guideVersion': JSON.stringify(variables.ether.guideVersion),
       'guideBuildDate': JSON.stringify(variables.ether.guideBuildDate),
-      'etherVersion': JSON.stringify(variables.ether.etherVersion),
+      'modusVersion': JSON.stringify(variables.ether.modusVersion),
       'modusIconsVersion': JSON.stringify(variables.ether.modusIconsVersion),
-      'etherIcons': JSON.stringify(variables.ether.devLinks.etherIcons),
-      'etherCSS': JSON.stringify(variables.ether.devLinks.etherCSS),
-      'etherLayoutCSS': JSON.stringify(variables.ether.devLinks.etherLayoutCSS),
-      'etherLayoutJS': JSON.stringify(variables.ether.devLinks.etherLayoutJS),
+      'modusIcons': JSON.stringify(variables.ether.devLinks.modusIcons),
+      'modusCSS': JSON.stringify(variables.ether.devLinks.modusCSS),
+      'modusLayoutCSS': JSON.stringify(variables.ether.devLinks.modusLayoutCSS),
+      'modusLayoutJS': JSON.stringify(variables.ether.devLinks.modusLayoutJS),
     }),
     new MiniCssExtractPlugin({
       filename: 'styles.css'
