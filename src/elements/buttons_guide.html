@@ -32,6 +32,77 @@
   </li>
 </ul>
 
+<table class="table table-bordered bg-white">
+  <thead class="thead-dark">
+    <tr>
+      <th>Type</th>
+      <th>Example</th>
+      <th>Emphasis</th>
+      <th>When to use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Primary</th>
+      <td><button class="btn btn-primary">Button</button></td>
+      <td>High</td>
+      <td>
+        Use to draw attention to the primary action on a screen. There should be only one Primary
+        Button on a page at a time. Not all screens require a Primary Button.
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Secondary</th>
+      <td><button class="btn btn-secondary">Button</button></td>
+      <td>Medium</td>
+      <td>
+        Use for secondary actions on a screen. Secondary Buttons can be used on most pages without
+        constrictions. They appear most often in high volume use cases like Tables, or in an Action
+        Bar. Consider using an Outline Button on gray backgrounds.
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Text Only</th>
+      <td><button class="btn btn-text-primary">Button</button></td>
+      <td>Low</td>
+      <td>
+        Use in complex applications that require a minimal impact from button color on the
+        interface. They need to be offset from the rest of the UI to promote visual prominence.
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Outline</th>
+      <td><button class="btn btn-outline-primary">Button</button></td>
+      <td>Medium</td>
+      <td>
+        Use as an alternative to Secondary Buttons. Outline Buttons work well on colored, dark, or
+        image backgrounds. Consider how the style of an Outline Button might better suit the page.
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Icon Only</th>
+      <td>
+        <button class="btn btn-icon-only btn-primary"><i class="modus-icons">gear</i></button>
+      </td>
+      <td>Medium</td>
+      <td>
+        Primary use is in-line or in “Button Groups.”
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Danger</th>
+      <td><button class="btn btn-danger">Button</button></td>
+      <td>High</td>
+      <td>
+        Danger buttons have a different visual style to inform users of potentially destructive
+        actions they are about to take. If using the danger button as a standalone, we recommend
+        styling it as a secondary button. Within a set, the danger button should be styled as a
+        primary button.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 <h4>When NOT to use</h4>
 
 <ul>
@@ -88,6 +159,7 @@
       <th></th>
       <th>Example</th>
       <th>Height</th>
+      <th>Use Case</th>
     </tr>
   </thead>
   <tbody>
@@ -95,16 +167,19 @@
       <th scope="row">Small</th>
       <td><button class="btn btn-sm btn-primary">Button</button></td>
       <td>24px</td>
+      <td>Tables</td>
     </tr>
     <tr>
       <th scope="row">Default</th>
       <td><button class="btn btn-primary">Button</button></td>
       <td>32px</td>
+      <td>Action Bars</td>
     </tr>
     <tr>
       <th scope="row">Large</th>
       <td><button class="btn btn-lg btn-primary">Button</button></td>
       <td>48px</td>
+      <td>Dialogs</td>
     </tr>
   </tbody>
 </table>
