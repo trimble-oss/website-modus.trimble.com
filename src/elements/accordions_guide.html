@@ -1,3 +1,100 @@
+<div class="guide-example-block mb-5">
+  <div class="guide-content-sample anatomy-display-container">
+    <div class="accordion" id="accordionExample">
+      <div class="card" style="overflow: unset">
+        <div
+          class="card-header anatomy-display-static"
+          id="headingOne"
+          data-toggle="collapse"
+          data-target="#collapseOne"
+          aria-expanded="true"
+          aria-controls="collapseOne"
+        >
+          <h5 class="mb-0">
+            Collapsible Group Item #1
+          </h5>
+        </div>
+
+        <div
+          id="collapseOne"
+          class="collapse show"
+          aria-labelledby="headingOne"
+          data-parent="#accordionExample"
+        >
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+            quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+            squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+            craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+            nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div
+          class="card-header"
+          id="headingTwo"
+          data-toggle="collapse"
+          data-target="#collapseTwo"
+          aria-expanded="false"
+          aria-controls="collapseTwo"
+        >
+          <h5 class="mb-0">
+            Collapsible Group Item #2
+          </h5>
+        </div>
+        <div
+          id="collapseTwo"
+          class="collapse"
+          aria-labelledby="headingTwo"
+          data-parent="#accordionExample"
+        >
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+            quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+            squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+            craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+            nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div
+          class="card-header"
+          id="headingThree"
+          data-toggle="collapse"
+          data-target="#collapseThree"
+          aria-expanded="false"
+          aria-controls="collapseThree"
+        >
+          <h5 class="mb-0">
+            Collapsible Group Item #3
+          </h5>
+        </div>
+        <div
+          id="collapseThree"
+          class="collapse"
+          aria-labelledby="headingThree"
+          data-parent="#accordionExample"
+        >
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+            quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+            squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+            craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+            nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <h2>Guidelines</h2>
 
@@ -5,8 +102,7 @@
 
 <ul>
   <li>
-    Use when some content can be hidden because it is not critical to the user’s
-    task.
+    Use when some content can be hidden because it is not critical to the user’s task.
   </li>
 
   <li>You want to declutter the interface.</li>
@@ -18,8 +114,7 @@
   <li>All options and information are not critical to see at first.</li>
 
   <li>
-    Allowing a user to hide controls and content so they can better focus on
-    their task.
+    Allowing a user to hide controls and content so they can better focus on their task.
   </li>
 </ul>
 
@@ -27,8 +122,8 @@
 
 <ul>
   <li>
-    Providing an introductory element to a set of content which doesn’t need an
-    expand and collapse functionality. Instead, use a Header.
+    Providing an introductory element to a set of content which doesn’t need an expand and collapse
+    functionality. Instead, use a Header.
   </li>
 
   <li>Hide critical content solely to clean up the interface.</li>
@@ -40,13 +135,12 @@
   <li>Reveal content that is not contextually relevant to the user’s input.</li>
 
   <li>
-    Nest too many layers. In other words, don’t place accordions within
-    accordions.
+    Nest too many layers. In other words, don’t place accordions within accordions.
   </li>
 
   <li>
-    Creating a set of visibly contained content which doesn’t need an expand and
-    collapse functionality. Instead, use a Module Container.
+    Creating a set of visibly contained content which doesn’t need an expand and collapse
+    functionality. Instead, use a Module Container.
   </li>
 </ul>
 
@@ -56,14 +150,13 @@
 
 <ul>
   <li>
-    The arrow icon acts as an affordance to indicate the functionality of the
-    accordion, as well as a visual marker of the state of the accordion through
-    its rotation and direction.
+    The arrow icon acts as an affordance to indicate the functionality of the accordion, as well as
+    a visual marker of the state of the accordion through its rotation and direction.
   </li>
 
   <li>
-    When stacking multiple accordions, use stack space constants to add
-    margin-bottom to the block element.
+    When stacking multiple accordions, use stack space constants to add margin-bottom to the block
+    element.
   </li>
 </ul>
 
@@ -79,15 +172,13 @@
   <tr>
     <td>
       <p>
-        <strong>Do </strong>use the without border variation to omit the border
-        from the first accordion in a stack when it may conflict with other
-        visual elements, like a Module Container.
+        <strong>Do </strong>use the without border variation to omit the border from the first
+        accordion in a stack when it may conflict with other visual elements, like a Module
+        Container.
       </p>
     </td>
     <td>
-      <p>
-        <strong>Don’t </strong>use an unnecessary border to avoid visual noise.
-      </p>
+      <p><strong>Don’t </strong>use an unnecessary border to avoid visual noise.</p>
     </td>
   </tr>
 </table>
@@ -98,21 +189,21 @@
 
 <ul>
   <li>
-    When an accordion expands and collapses only its height should change, its
-    width should stay consistent.
+    When an accordion expands and collapses only its height should change, its width should stay
+    consistent.
   </li>
 
   <li>Expand and collapse functionality should never be triggered on hover</li>
 
   <li>
-    The expand and collapse functionality of an accordion is tied to the entire
-    header of the component, with additional actions being triggered only by
-    interaction within the bounds of their related UI components.
+    The expand and collapse functionality of an accordion is tied to the entire header of the
+    component, with additional actions being triggered only by interaction within the bounds of
+    their related UI components.
   </li>
 
   <li>
-    Avoid “nested” accordions—that is, collapsible content within collapsible
-    content. This type of pattern goes against UX best practices.
+    Avoid “nested” accordions—that is, collapsible content within collapsible content. This type of
+    pattern goes against UX best practices.
   </li>
 </ul>
 
