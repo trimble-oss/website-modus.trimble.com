@@ -3,96 +3,33 @@ ${require(`../partials/header.html`)}
   <div class="guide-content-top border-bottom">
     <h1>Badges</h1>
     <p class="lead">
-      Documentation and examples for badges, our small count and labeling
-      component.
+      Badges are labels which hold small amounts of information.
     </p>
+    ${require(`../partials/guide_tabs.html`)}
   </div>
-  <div class="guide-scroll-container d-flex overflow-auto">
-    <div class="guide-section">
-      <h2>Overview</h2>
-      <p>
-        Badges scale to match the size of the immediate parent element by using
-        relative font sizing and em units.
-      </p>
-      <p>
-        Use classes <code>badge</code> along with contexual classes in a
-        <code>span</code>
-      </p>
-      <p>
-        Badges can be used as part of links or buttons to provide a counter.
-      </p>
-      <p>
-        Using the contextual <code>.badge-*</code> classes on an
-        <code>&lt;a&gt; </code> element quickly provide actionable badges with
-        hover and focus states.
-      </p>
-      <p>
-        Available contextual classes: <code>badge-primary</code>
-        <code>badge-secondary</code> <code>badge-success</code>
-        <code>badge-info</code> <code>badge-warning</code>
-        <code>badge-danger</code> <code>badge-light</code>
-        <code>badge-dark</code>
-      </p>
-
-      <h3 class="mt-5">Examples - Contextual</h3>
-
-      <div class="guide-example-block chips-block">
-        <div class="guide-sample anatomy-display">
-          <h1>Heading <span class="badge badge-primary">Primary</span></h1>
-          <h2>Overview</h2>
-          <h3>Heading <span class="badge badge-success">Success</span></h3>
-          <h4>Heading <span class="badge badge-info">Info</span></h4>
-          <h5>Heading <span class="badge badge-warning">Warning</span></h5>
-          <h6>Heading <span class="badge badge-danger">Danger</span></h6>
-          <span class="badge badge-light">New</span>
-          <span class="badge badge-dark">Dark</span>
+  <div class="guide-tab-panes tab-content" id="TabContentArea">
+    <div
+      class="tab-pane guide-tab-content fade active show"
+      id="guide-content"
+      role="tabpanel"
+      aria-labelledby="guide-tab"
+    >
+      <div class="guide-scroll-container">
+        <div class="tab-section">
+          ${require(`./badges_guide.html`)}
         </div>
-        ${require(`../partials/guide-code.html`)}
       </div>
-      <h3 class="mt-5">Pills</h3>
-      <p>
-        Use the <code>.badge-pill</code> modifier class to make badges more
-        rounded
-      </p>
-      <div class="guide-example-block chips-block">
-        <div class="guide-sample anatomy-display">
-          <span class="badge badge-pill badge-primary">New</span>
-          <span class="badge badge-pill badge-dark">Dark</span>
+    </div>
+    <div
+      class="tab-pane code-tab-content fade"
+      id="code-content"
+      role="tabpanel"
+      aria-labelledby="code-tab"
+    >
+      <div class="guide-scroll-container">
+        <div class="tab-section">
+          ${require(`./badges_code.html`)}
         </div>
-        ${require(`../partials/guide-code.html`)}
-      </div>
-
-      <h3 class="mt-5">Badge inside button</h3>
-      <p>
-        Use the <code>.badge-pill</code> modifier class to make badges more
-        rounded
-      </p>
-      <div class="guide-example-block chips-block">
-        <div class="guide-sample anatomy-display">
-          <button type="button" class="btn btn-primary">
-            Notifications <span class="badge badge-light">4</span>
-          </button>
-        </div>
-        ${require(`../partials/guide-code.html`)}
-      </div>
-
-      <h3 class="mt-5">Badge as list item</h3>
-      <p>
-        Use the <code>.badge-pill</code> modifier class to make badges more
-        rounded
-      </p>
-      <div class="guide-example-block chips-block">
-        <div class="guide-sample anatomy-display">
-          <ul class="list-group">
-            <li
-              class="list-group-item d-flex justify-content-between align-items-center"
-            >
-              List with Badge
-              <span class="badge badge-primary badge-pill">14</span>
-            </li>
-          </ul>
-        </div>
-        ${require(`../partials/guide-code.html`)}
       </div>
     </div>
   </div>
