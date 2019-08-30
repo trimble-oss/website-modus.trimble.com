@@ -517,6 +517,17 @@ $(document).ready(function() {
   //     }
   //   });
   // }
+  const oghref = window.location.href.toString();
+  const href = oghref.substring(oghref.indexOf('#'), oghref.length - 1);
+  if (href.includes('code-')) {
+    const elem = $('.tab-pane').not('.active');
+    const thisNav = $(elem).attr('id') + '-nav';
+    const navItems = $(elem).find('h2,h3,h4');
+    buildRightNav(navItems, thisNav);
+    $('.guide-code-options').toggleClass('invisible');
+    $('#code-tab').tab('show');
+  }
+  window.location.href = oghref;
 });
 
 // window.onload = initiate;
