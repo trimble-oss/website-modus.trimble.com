@@ -526,13 +526,19 @@ $(document).ready(function() {
     buildRightNav(navItems, thisNav);
     $('.guide-code-options').toggleClass('invisible');
     $('#code-tab').tab('show');
+    window.location.href = oghref;
   } else if (href.includes('guide-')) {
     const elem = $('.tab-pane.active');
     const thisNav = $(elem).attr('id') + '-nav';
     const navItems = $(elem).find('h2,h3,h4');
     buildRightNav(navItems, thisNav);
+    window.location.href = oghref;
+  } else {
+    const elem = $('.tab-pane.active');
+    const thisNav = $(elem).attr('id') + '-nav';
+    const navItems = $(elem).find('h2,h3,h4');
+    buildRightNav(navItems, thisNav);
   }
-  window.location.href = oghref;
 });
 
 // window.onload = initiate;
