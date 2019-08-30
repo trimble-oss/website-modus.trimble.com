@@ -537,8 +537,19 @@ $(document).ready(function() {
     setTimeout(() => {
       window.location.href = oghref;
     }, 200);
+  } else if (href.includes('foundations-')) {
+    let elem = $('.guide-section');
+    const thisNav = $(elem).attr('id') + '-nav';
+    const navItems = $(elem).find('h2,h3,h4');
+    buildRightNav(navItems, thisNav);
+    setTimeout(() => {
+      window.location.href = oghref;
+    }, 200);
   } else {
-    const elem = $('.tab-pane.active');
+    let elem = $('.tab-pane.active');
+    if (elem.length === 0) {
+      elem = $('.guide-section');
+    }
     const thisNav = $(elem).attr('id') + '-nav';
     const navItems = $(elem).find('h2,h3,h4');
     buildRightNav(navItems, thisNav);
