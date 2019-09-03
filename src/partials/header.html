@@ -10,16 +10,16 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="${etherIcons}" />
+    <link rel="stylesheet" href="${modusIcons}" />
     <link
       rel="icon"
       type="image/x-icon"
       href="${require(`../img/favicon.ico`)}"
     />
 
-    <link rel="stylesheet" href="${etherCSS}" />
-    <link rel="stylesheet" href="${etherLayoutCSS}" />
-    <script src="${etherLayoutJS}"></script>
+    <link rel="stylesheet" href="${modusCSS}" />
+    <link rel="stylesheet" href="${modusLayoutCSS}" />
+    <script src="${modusLayoutJS}"></script>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -51,6 +51,7 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-787590-52"
     ></script>
+    <script src="https://kit.fontawesome.com/bbe67f2190.js"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -70,7 +71,7 @@
           class="navbar navbar-expand-lg"
         >
           <button class="btn btn-text-dark btn-lg btn-icon-only mr-3 navbar-toggler"  type="button" data-toggle="collapse" data-target="#mainSidebar" aria-controls="mainSidebar" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="ether-icons menu-btn">menu</i></button>
+            <i class="modus-icon material-icons menu-btn">menu</i></button>
           <a class="navbar-brand d-none d-lg-block" href="/index.html">
             <img
               src="${require(`../img/trimble-logo.svg`)}"
@@ -100,7 +101,7 @@
                 data-toggle="collapse"
                 data-target="#foundationsSubnav"
               >
-                Foundations <i class="ether-icons">expand_more</i>
+                Foundations <i class="modus-icon material-icons">expand_more</i>
               </a>
 
               <div class="collapse" id="foundationsSubnav">
@@ -120,6 +121,11 @@
                       Depth
                     </a>
                   </li>
+                  <li class="nav-item">
+                    <a id="spacing" href="spacing.html" class="nav-link">
+                      Spacing
+                    </a>
+                  </li>
                 </ul>
               </div>
             </li>
@@ -131,7 +137,7 @@
                 data-toggle="collapse"
                 data-target="#componentsSubnav"
               >
-                UI Elements <i class="ether-icons">expand_more</i>
+                Elements <i class="modus-icon material-icons">expand_more</i>
               </a>
 
               <div class="collapse" id="componentsSubnav">
@@ -262,7 +268,7 @@
                 data-toggle="collapse"
                 data-target="#utilitiesSubnav"
               >
-                CSS Library <i class="ether-icons">expand_more</i>
+                Framework <i class="modus-icon material-icons">expand_more</i>
               </a>
               <div class="collapse" id="utilitiesSubnav">
                 <ul class="nav sub-nav flex-column pl-2">
@@ -327,8 +333,8 @@
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="/spacing.html" id="spacing" class="nav-link">
-                      Spacing
+                    <a href="/padding_margin.html" id="padding_margin" class="nav-link">
+                      Padding and Margin
                     </a>
                   </li>
                   <li class="nav-item">

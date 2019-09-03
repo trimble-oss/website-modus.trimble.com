@@ -1,87 +1,113 @@
-<h3>Guidelines
-</h3>
+<h2>Guidelines</h2>
 
-<h4>Use when
-</h4>
+<h4>When to use</h4>
 
-<ul><li>When you need to inform the user of where they are.
-</li>
+<ul>
+  <li>When you need to inform the user of where they are.</li>
 
-<li>When the user may need to navigate back to a higher level.
-</li>
+  <li>When the user may need to navigate back to a higher level.</li>
 
-<li>When the application has multi-layer architecture.
-</li></ul>
+  <li>When the application has multi-layer architecture.</li>
+</ul>
 
+<h4>When NOT to use</h4>
 
-<h4>Don’t use when
-</h4>
+<ul>
+  <li>Employing a vertical model tree component.</li>
 
-<ul><li>Employing a vertical model tree component. 
-</li>
+  <li>
+    If a lower-level page is (or can be put) in more than one parent category, breadcrumb trails
+    become ineffective, inaccurate and will confuse the user.
+  </li>
+</ul>
 
-<li>If a lower-level page is (or can be put) in more than one parent category, breadcrumb trails become ineffective, inaccurate and will confuse the user.
-</li></ul>
+<h4>Visual language</h4>
+<h6>To inform judgment about color, type, space, and more</h6>
 
+<ul>
+  <li>All links, except the last one, in a breadcrumb should be clickable.</li>
 
-<h4>Visual language
-</h4>
+  <li>Breadcrumbs are placed in horizontal form</li>
 
-<h6>To inform judgment about color, type, space, and more
-</h6>
+  <li>
+    Breadcrumb trails are displayed in the top half of the page, below the primary navigation menu
+    if a horizontal menu layout is used.
+  </li>
 
+  <li>
+    The commonly accepted and most recognizable symbol for separating hyperlinks in breadcrumb
+    trails is the “greater than” symbol (>). Typically, the > sign is used to denote hierarchy, as
+    in the format of Parent category > Child category.
+  </li>
+</ul>
 
-<ul><li>All links in a breadcrumb should be clickable.
-</li>
+<div class="guide-example-block d-inline-block">
+  <div class="guide-sample">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-0">
+        <li class="breadcrumb-item"><a href="#">Root</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+      </ol>
+    </nav>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-0">
+        <li class="breadcrumb-item"><a href="#">Root</a></li>
+        <li class="breadcrumb-item"><a href="#">Subpage </a></li>
+        <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+      </ol>
+    </nav>
+  </div>
+</div>
 
-<li>Breadcrumbs are placed in horizontal form
-</li>
+<h4>Behaviors</h4>
+<h6>To cover how to cope with events, outcomes, and transitions</h6>
 
-<li>Breadcrumb trails are displayed in the top half of the page, below the primary navigation menu if a horizontal menu layout is used.
-</li>
+<ul>
+  <li>
+    For implementations with large numbers of sub-directories, make use of ellipses and drop downs
+    as shown in the example below
+  </li>
+</ul>
 
-<li>The commonly accepted and most recognizable symbol for separating hyperlinks in breadcrumb trails is the “greater than” symbol (>). Typically, the > sign is used to denote hierarchy, as in the format of Parent category > Child category.
-</li></ul>
+<div class="guide-example-block d-inline-block">
+  <div class="guide-sample" style="padding-bottom: 125px">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-0">
+        <li class="breadcrumb-item"><a href="#">Root</a></li>
+        <li class="breadcrumb-item">
+          <div class="dropdown">
+            <button
+              type="button"
+              id="breadcrumbDropdown"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              ...
+            </button>
+            <div class="dropdown-menu show" aria-labelledby="breadcrumbDropdown">
+              <a href="" class="dropdown-item">Subpage</a>
+              <a href="" class="dropdown-item">Subpage</a>
+              <a href="" class="dropdown-item">Subpage</a>
+            </div>
+          </div>
+        </li>
+        <li class="breadcrumb-item"><a href="#">Subpage</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+      </ol>
+    </nav>
+  </div>
+</div>
 
+<h4>Editorial</h4>
 
-<table><tr><td><p><img src="cid:Image_0.png" />
-</p>
-</td>
-</tr>
-</table>
+<h6>Voice and tone, advice covering copy and images flowing into each element</h6>
 
+<ul>
+  <li>Editorial will be provided by the hierarchy in a location based breadcrumb.</li>
 
-<h4>Behaviors
-</h4>
-
-<h6>To cover how to cope with events, outcomes, and transitions
-</h6>
-
-
-<ul><li>For implementations with large numbers of sub-directories, make use of ellipses and drop downs as shown in the example below 
-</li>
-
-
-
-<table><tr><td><p><img src="cid:Image_1.png" />
-</p>
-</td>
-</tr>
-<tr><td></td>
-</tr>
-</table>
-
-
-<h4>Editorial
-</h4>
-
-<h6>Voice and tone, advice covering copy and images flowing into each element
-</h6>
-
-
-<ul><li>Editorial will be provided by the hierarchy in a location based breadcrumb.
-</li>
-
-<li>Editorial for path-based breadcrumbs are always dynamically generated by the steps taken in a workflow.
-</li></ul>
-
+  <li>
+    Editorial for path-based breadcrumbs are always dynamically generated by the steps taken in a
+    workflow.
+  </li>
+</ul>

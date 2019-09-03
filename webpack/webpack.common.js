@@ -21,8 +21,8 @@ module.exports = {
   },
   plugins: [
     new Webpack.DefinePlugin({
-      'etherVersion': JSON.stringify(variables.ether.etherVersion),
-      'etherIconsVersion': JSON.stringify(variables.ether.etherIconsVersion)
+      'modusVersion': JSON.stringify(variables.ether.modusVersion),
+      'modusIconsVersion': JSON.stringify(variables.ether.modusIconsVersion)
     }),
     new CleanWebpackPlugin(['build'], {
       root: Path.resolve(__dirname, '..')
@@ -263,7 +263,13 @@ module.exports = {
       filename: 'spacing.html',
       inject: true,
       minify: false,
-      template: Path.resolve(__dirname, '../src/framework/spacing.html')
+      template: Path.resolve(__dirname, '../src/foundations/spacing.html')
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'padding_margin.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/framework/padding_margin.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'text.html',

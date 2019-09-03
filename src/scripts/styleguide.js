@@ -517,6 +517,43 @@ $(document).ready(function() {
   //     }
   //   });
   // }
+  const oghref = window.location.href.toString();
+  const href = oghref.substring(oghref.indexOf('#'), oghref.length - 1);
+  if (href.includes('code-')) {
+    const elem = $('.tab-pane').not('.active');
+    const thisNav = $(elem).attr('id') + '-nav';
+    const navItems = $(elem).find('h2,h3,h4');
+    buildRightNav(navItems, thisNav);
+    $('.guide-code-options').toggleClass('invisible');
+    $('#code-tab').tab('show');
+    setTimeout(() => {
+      window.location.href = oghref;
+    }, 200);
+  } else if (href.includes('guide-')) {
+    const elem = $('.tab-pane.active');
+    const thisNav = $(elem).attr('id') + '-nav';
+    const navItems = $(elem).find('h2,h3,h4');
+    buildRightNav(navItems, thisNav);
+    setTimeout(() => {
+      window.location.href = oghref;
+    }, 200);
+  } else if (href.includes('foundations-')) {
+    let elem = $('.guide-section');
+    const thisNav = $(elem).attr('id') + '-nav';
+    const navItems = $(elem).find('h2,h3,h4');
+    buildRightNav(navItems, thisNav);
+    setTimeout(() => {
+      window.location.href = oghref;
+    }, 200);
+  } else {
+    let elem = $('.tab-pane.active');
+    if (elem.length === 0) {
+      elem = $('.guide-section');
+    }
+    const thisNav = $(elem).attr('id') + '-nav';
+    const navItems = $(elem).find('h2,h3,h4');
+    buildRightNav(navItems, thisNav);
+  }
 });
 
 // window.onload = initiate;

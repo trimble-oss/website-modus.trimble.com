@@ -1,11 +1,376 @@
-<h2>Example</h2>
-<div class="guide-example-block">
-    <div class="guide-content-sample anatomy-display-container">
-      <div class="mb-5">
-          <button class="btn btn-primary">Button</button>
-        </div>
-      <div>
-          <button class="btn btn-primary anatomy-display-static">Button</button>
-        </div>
-    </div>
+<h2>Guidelines</h2>
+
+<h4>When to use</h4>
+
+<ul>
+  <li>
+    Affording interaction to key behaviors and features.
+  </li>
+  <li>
+    Confirming or submitting information entered into a form.
+  </li>
+  <li>
+    Cancelling and action.
+  </li>
+  <li>
+    Resetting a form or dataset.
+  </li>
+  <li>
+    Closing a container or section.
+  </li>
+  <li>
+    Opening a menu.
+  </li>
+  <li>
+    Moving forward or backward through a wizard-type workflow.
+  </li>
+  <li>
+    Creating an object within a group.
+  </li>
+  <li>
+    Applying a non-critical action to a dataset.
+  </li>
+</ul>
+
+<table class="table table-bordered bg-white">
+  <thead class="thead-dark">
+    <tr>
+      <th>Type</th>
+      <th>Example</th>
+      <th>Emphasis</th>
+      <th>When to use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Primary</th>
+      <td><button class="btn btn-primary">Button</button></td>
+      <td>High</td>
+      <td>
+        Use to draw attention to the primary action on a screen. There should be only one Primary
+        Button on a page at a time. Not all screens require a Primary Button.
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Secondary</th>
+      <td><button class="btn btn-secondary">Button</button></td>
+      <td>Medium</td>
+      <td>
+        Use for secondary actions on a screen. Secondary Buttons can be used on most pages without
+        constrictions. They appear most often in high volume use cases like Tables, or in an Action
+        Bar. Consider using an Outline Button on gray backgrounds.
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Text Only</th>
+      <td><button class="btn btn-text-primary">Button</button></td>
+      <td>Low</td>
+      <td>
+        Use in complex applications that require a minimal impact from button color on the
+        interface. They need to be offset from the rest of the UI to promote visual prominence.
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Outline</th>
+      <td><button class="btn btn-outline-primary">Button</button></td>
+      <td>Medium</td>
+      <td>
+        Use as an alternative to Secondary Buttons. Outline Buttons work well on colored, dark, or
+        image backgrounds. Consider how the style of an Outline Button might better suit the page.
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Icon Only</th>
+      <td>
+        <button class="btn btn-icon-only btn-primary"><i class="modus-icons">gear</i></button>
+      </td>
+      <td>Medium</td>
+      <td>
+        Primary use is in-line or in “Button Groups.”
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Danger</th>
+      <td><button class="btn btn-danger">Button</button></td>
+      <td>High</td>
+      <td>
+        Danger buttons have a different visual style to inform users of potentially destructive
+        actions they are about to take. If using the danger button as a standalone, we recommend
+        styling it as a secondary button. Within a set, the danger button should be styled as a
+        primary button.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>When NOT to use</h4>
+
+<ul>
+  <li>
+    Displaying a collection of links to sections. Use links instead.
+  </li>
+  <li>
+    Linking to an external site. Use links instead.
+  </li>
+  <li>
+    In dense environments. Consider using an Icon Button instead.
+  </li>
+  <li>
+    For actions that are less important, consider using a Text Button.
+  </li>
+  <li>
+    Consider using an Action Bar when presenting the user with one or more high or medium-high
+    actions specific to a task.
+  </li>
+</ul>
+
+<h4>Visual language</h4>
+<h6>To inform judgment about color, type, space, and more</h6>
+
+<ul>
+  <li>
+    Buttons should indicate an action.
+  </li>
+
+  <li>
+    They should be discoverable, easy to identify, and specific.
+  </li>
+
+  <li>
+    Always have a text label within the button container. Icons are optional.
+  </li>
+
+  <li>
+    Make buttons look and feel clickable.
+  </li>
+
+  <li>
+    If using multiple buttons, style and label them distinctly.
+  </li>
+
+  <li>
+    The size of the buttons should be used in proportion to the context and content around it.
+  </li>
+</ul>
+
+<table class="table table-bordered bg-white" style="width: max-content">
+  <thead class="thead-dark">
+    <tr>
+      <th></th>
+      <th>Example</th>
+      <th>Height</th>
+      <th>Use Case</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Small</th>
+      <td><button class="btn btn-sm btn-primary">Button</button></td>
+      <td>24px</td>
+      <td>Tables</td>
+    </tr>
+    <tr>
+      <th scope="row">Default</th>
+      <td><button class="btn btn-primary">Button</button></td>
+      <td>32px</td>
+      <td>Action Bars</td>
+    </tr>
+    <tr>
+      <th scope="row">Large</th>
+      <td><button class="btn btn-lg btn-primary">Button</button></td>
+      <td>48px</td>
+      <td>Dialogs</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Behaviors</h4>
+<h6>To cover how to cope with events, outcomes, and transitions</h6>
+
+<ul>
+  <li>
+    All buttons should have the following states:
+    <ul>
+      <li>Default</li>
+      <li>Hover</li>
+      <li>Pressed</li>
+      <li>Disabled</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="d-flex flex-wrap justify-content-around">
+  <div>
+    <div class="h5">Solid Buttons</div>
+    <table class="table table-bordered bg-white" style="width: max-content">
+      <thead class="thead-dark">
+        <tr>
+          <th></th>
+          <th>Primary</th>
+          <th>Secondary</th>
+          <th>Dark</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Default</th>
+          <td><button class="btn btn-primary">Button</button></td>
+          <td><button class="btn btn-secondary">Button</button></td>
+          <td><button class="btn btn-dark">Button</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Hover</th>
+          <td><button class="btn hover btn-primary">Button</button></td>
+          <td><button class="btn hover btn-secondary">Button</button></td>
+          <td><button class="btn hover btn-dark">Button</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Pressed</th>
+          <td><button class="btn display-active btn-primary">Button</button></td>
+          <td><button class="btn display-active btn-secondary">Button</button></td>
+          <td><button class="btn display-active btn-dark">Button</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Disabled</th>
+          <td><button disabled class="btn btn-primary">Button</button></td>
+          <td><button disabled class="btn btn-secondary">Button</button></td>
+          <td><button disabled class="btn btn-dark">Button</button></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
+
+  <div>
+    <div class="h5">Outline Buttons</div>
+    <table class="table table-bordered bg-white" style="width: max-content">
+      <thead class="thead-dark">
+        <tr>
+          <th></th>
+          <th>Primary</th>
+          <th>Secondary</th>
+          <th>Dark</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Default</th>
+          <td><button class="btn btn-outline-primary">Button</button></td>
+          <td><button class="btn btn-outline-secondary">Button</button></td>
+          <td><button class="btn btn-outline-dark">Button</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Hover</th>
+          <td><button class="btn hover btn-outline-primary">Button</button></td>
+          <td><button class="btn hover btn-outline-secondary">Button</button></td>
+          <td><button class="btn hover btn-outline-dark">Button</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Pressed</th>
+          <td><button class="btn display-active btn-outline-primary">Button</button></td>
+          <td><button class="btn display-active btn-outline-secondary">Button</button></td>
+          <td><button class="btn display-active btn-outline-dark">Button</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Disabled</th>
+          <td><button disabled class="btn btn-outline-primary">Button</button></td>
+          <td><button disabled class="btn btn-outline-secondary">Button</button></td>
+          <td><button disabled class="btn btn-outline-dark">Button</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div>
+    <div class="h5">Text Buttons</div>
+    <table class="table table-bordered bg-white" style="width: max-content">
+      <thead class="thead-dark">
+        <tr>
+          <th></th>
+          <th>Primary</th>
+          <th>Secondary</th>
+          <th>Dark</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Default</th>
+          <td><button class="btn btn-text-primary">Button</button></td>
+          <td><button class="btn btn-text-secondary">Button</button></td>
+          <td><button class="btn btn-text-dark">Button</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Hover</th>
+          <td><button class="btn hover btn-text-primary">Button</button></td>
+          <td><button class="btn hover btn-text-secondary">Button</button></td>
+          <td><button class="btn hover btn-text-dark">Button</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Pressed</th>
+          <td><button class="btn display-active btn-text-primary">Button</button></td>
+          <td><button class="btn display-active btn-text-secondary">Button</button></td>
+          <td><button class="btn display-active btn-text-dark">Button</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Disabled</th>
+          <td><button disabled class="btn btn-text-primary">Button</button></td>
+          <td><button disabled class="btn btn-text-secondary">Button</button></td>
+          <td><button disabled class="btn btn-text-dark">Button</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<h4>Editorial</h4>
+<h6>
+  Voice and tone, advice covering copy and images flowing into each element
+</h6>
+
+<ul>
+  <li>
+    All buttons in the Modus system employ sentence case.
+  </li>
+</ul>
+
+<div class="guide-example-block d-inline-block mb-3 ml-5">
+  <div class="guide-sample">
+    <button class="btn btn-primary">Sentence case example</button>
+  </div>
+</div>
+
+<ul>
+  <li>
+    Label a button with a verb, like “Copy”, or verb-phrase, like “Copy document”.
+  </li>
+
+  <li>
+    Strive for short button labels that clearly describe an action.
+  </li>
+
+  <li>
+    Try to limit button labels to three words or less. Using one or two words, if possible, is
+    ideal.
+  </li>
+
+  <li>
+    When writing buttons, you can remove most prepositions and articles (a, an, the).
+  </li>
+
+  <li>
+    If a question is asked in a dialog, use button labels that match the question. Keep in mind the
+    following guidelines as well:
+    <ul>
+      <li>
+        Don't use OK/Cancel to answer yes or no questions.
+      </li>
+
+      <li>
+        Make sure you keep "your" and "my" consistent.
+      </li>
+
+      <li>
+        Avoid saying "click" when referring to buttons (and other other UI elements).
+      </li>
+    </ul>
+  </li>
+</ul>
