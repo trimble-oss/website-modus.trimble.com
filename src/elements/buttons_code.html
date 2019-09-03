@@ -22,9 +22,9 @@
   The following are the three main types of buttons available:
 </p>
 <ul>
-  <li><code>.btn-{theme-color}</code></li>
-  <li><code>.btn-outline-{theme-color}</code></li>
-  <li><code>.btn-text-{theme-color}</code></li>
+  <li>Solid: <code>.btn-{theme-color}</code></li>
+  <li>Outline: <code>.btn-outline-{theme-color}</code></li>
+  <li>Text: <code>.btn-text-{theme-color}</code></li>
 </ul>
 
 <h3>Solid Buttons</h3>
@@ -35,7 +35,7 @@
   <div class="guide-sample">
     <button class="btn btn-primary">Button</button>
     <button class="btn btn-secondary">Button</button>
-    <button class="btn btn-dark">Button</button>
+    <button class="btn btn-tertiary">Button</button>
   </div>
   ${require(`../partials/guide-code.html`)}
 </div>
@@ -87,7 +87,7 @@
       <i class="modus-icon material-icons left-icon">settings</i>Material icon
     </button>
     <button class="btn btn-outline-secondary">
-      SVG icon<i class="modus-icon material-icons right-icon">
+      SVG icon<i class="modus-icon right-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path
             d="M19.65 12.975a7.935 7.935 0 0 0 .064-.975 5.997 5.997 0 0 0-.077-.975l2.173-1.65a.507.507 0 0 0 .129-.637l-2.057-3.463a.53.53 0 0 0-.63-.225l-2.559 1a7.588 7.588 0 0 0-1.736-.975l-.386-2.65A.51.51 0 0 0 14.058 2H9.943a.496.496 0 0 0-.502.425l-.385 2.65a7.791 7.791 0 0 0-1.736.975l-2.559-1a.515.515 0 0 0-.63.225L2.074 8.738a.476.476 0 0 0 .129.637l2.173 1.65a5.73 5.73 0 0 0-.013 1.95l-2.173 1.65a.507.507 0 0 0-.129.637l2.057 3.463a.53.53 0 0 0 .63.225l2.559-1a7.588 7.588 0 0 0 1.736.975l.386 2.65a.519.519 0 0 0 .514.425h4.114a.487.487 0 0 0 .502-.425l.385-2.65a7.791 7.791 0 0 0 1.736-.975l2.559 1a.515.515 0 0 0 .63-.225l2.057-3.463a.476.476 0 0 0-.129-.637zM12 16a4 4 0 1 1 4-4 4.012 4.012 0 0 1-4 4z"
@@ -95,8 +95,8 @@
         </svg>
       </i>
     </button>
-    <button class="btn btn-text-primary">
-      <img class="modus-icon left-icon" src="${require(`../img/gear.png`)}" />PNG icon
+    <button class="btn btn-text-dark">
+      <i class="modus-icon left-icon"><img src="${require(`../img/gear.png`)}" /></i>PNG icon
     </button>
     <button class="btn btn-text-secondary">
       Button<i class="modus-icon material-icons right-icon">settings</i>
@@ -136,7 +136,7 @@
       </i>
     </button>
     <button class="btn btn-icon-only btn-outline-dark">
-      <img class="modus-icon" src="${require(`../img/gear.png`)}" />
+        <i class="modus-icon"><img src="${require(`../img/gear.png`)}" /></i>
     </button>
 
     <button class="btn btn-icon-only btn-text-primary">
