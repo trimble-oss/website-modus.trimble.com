@@ -40,12 +40,6 @@ const swapStyleSheet = id => {
 //   };
 // };
 
-const PrevNext = (current, future) => {
-  var list = [];
-  //find current
-  // href current + 1 or current - 1;
-};
-
 const codePen = elem => {
   let el = $(elem[0]),
     HTML = '',
@@ -90,7 +84,7 @@ const codePen = elem => {
   el.after(form);
 };
 
-$(document).ready(function() {
+$(document).ready(function () {
   if (window.localStorage.getItem('color')) {
     const thisColor = window.localStorage.getItem('color');
     $('.bg-color-select').val(thisColor);
@@ -105,7 +99,7 @@ $(document).ready(function() {
     $('.guide-code-options').toggleClass('invisible');
   });
 
-  $('.guide-code').each(function(i, block) {
+  $('.guide-code').each(function (i, block) {
     var prev_html = Pretty(
       $(block)
         .siblings('.guide-sample')
@@ -132,7 +126,7 @@ $(document).ready(function() {
     snack.text('Code copied to clipboard.').addClass('show');
 
     // After 3 seconds, remove the show class from DIV
-    setTimeout(function() {
+    setTimeout(function () {
       snack.removeClass('show');
     }, 3000);
   });
@@ -154,7 +148,7 @@ $(document).ready(function() {
     snack.text('Code copied to clipboard.').addClass('show');
 
     // After 3 seconds, remove the show class from DIV
-    setTimeout(function() {
+    setTimeout(function () {
       snack.removeClass('show');
     }, 3000);
   });
@@ -455,13 +449,7 @@ $(document).ready(function() {
     }
   };
 
-  $('.guide-tab-panes .tab-pane.active').each((idx, t) => {
-    // $(".guide-right-nav").css("margin-top", $(t).parent().offset().top - 108);
-    const thisNav = $(t).attr('id') + '-nav';
-    const navItems = $(t).find('h2,h3,h4');
-    buildRightNav(navItems, thisNav);
-  });
-
+  // Creates right nav based on active tab section
   $('#ContentTabs .nav-link').on('click', e => {
     setTimeout(() => {
       $('.anatomy-display-static').popover('update');
@@ -474,14 +462,10 @@ $(document).ready(function() {
       const navItems = $(elem).find('h2,h3,h4');
       buildRightNav(navItems, thisNav);
     }
+    console.log('f2');
   });
 
-  $('.guide-section').each((idx, t) => {
-    // $(".guide-right-nav").css("margin-top", $(t).offset().top - 150);
-    const navItems = $(t).children('h2,h3,h4');
-    buildRightNav(navItems, 'section-nav');
-  });
-
+  // Scrollspy for Right Nav
   $('.guide-body').on('scroll', e => {
     $(e.currentTarget)
       .find('.tab-section, .guide-section')
@@ -498,67 +482,62 @@ $(document).ready(function() {
       });
   });
 
-  // if ($('#ContentTabs').length !== 0) {
-  //   const tabs = $('#ContentTabs');
-  //   const scrollContainer = $('.guide-scroll-container');
-  //   const guideContent = $('.guide-body');
-  //   const pos = tabs.offset().top;
-
-  //   guideContent.on('scroll', () => {
-
-  //     if(guideContent.scrollTop() + $('.guide-header').outerHeight() >= pos) {
-  //       //stick tabs
-  //       tabs.addClass('sticky');
-  //       scrollContainer.addClass('has-sticky');
-  //     } else {
-  //       //unstick tabs
-  //       tabs.removeClass('sticky');
-  //       scrollContainer.removeClass('has-sticky');
-  //     }
-  //   });
-  // }
   const oghref = window.location.href.toString();
   const href = oghref.substring(oghref.indexOf('#'), oghref.length - 1);
-  if (href.includes('code-')) {
+
+  // This scrolls the page to an anchor point based on the URL
+  if (href.includes('code-')) { // builds right nav for code tabs
     const elem = $('.tab-pane').not('.active');
     const thisNav = $(elem).attr('id') + '-nav';
-    const navItems = $(elem).find('h2,h3,h4');
+    const navItems = $(elem).find('.tab-section').children('h2,h3,h4');
     buildRightNav(navItems, thisNav);
     $('.guide-code-options').toggleClass('invisible');
     $('#code-tab').tab('show');
     setTimeout(() => {
       window.location.href = oghref;
     }, 200);
-  } else if (href.includes('guide-')) {
+  } else if (href.includes('guide-')) { // builds right nav for guide tabs
     const elem = $('.tab-pane.active');
     const thisNav = $(elem).attr('id') + '-nav';
-    const navItems = $(elem).find('h2,h3,h4');
+    const navItems = $(elem).find('.tab-section').children('h2,h3,h4');
     buildRightNav(navItems, thisNav);
     setTimeout(() => {
       window.location.href = oghref;
     }, 200);
-  } else if (href.includes('foundations-')) {
+  } else if (href.includes('Foundations-')) { // builds right nav for foundations section
     let elem = $('.guide-section');
     const thisNav = $(elem).attr('id') + '-nav';
-    const navItems = $(elem).find('h2,h3,h4');
+    const navItems = $(elem).children('h2,h3,h4');
     buildRightNav(navItems, thisNav);
     setTimeout(() => {
       window.location.href = oghref;
     }, 200);
-  } else {
+  } else if (href.includes('Framework-')) { // builds right nav for framework section
+    let elem = $('.guide-section');
+    const thisNav = $(elem).attr('id') + '-nav';
+    const navItems = $(elem).children('h2,h3,h4');
+    buildRightNav(navItems, thisNav);
+    setTimeout(() => {
+      window.location.href = oghref;
+    }, 200);
+  } else { // builds right nav for other sections not formatted correctly
     let elem = $('.tab-pane.active');
     if (elem.length === 0) {
       elem = $('.guide-section');
+      const thisNav = $(elem).attr('id') + '-nav';
+      const navItems = $(elem).children('h2,h3,h4');
+      buildRightNav(navItems, thisNav);
+      return;
     }
     const thisNav = $(elem).attr('id') + '-nav';
-    const navItems = $(elem).find('h2,h3,h4');
+    const navItems = $(elem).find('.tab-section').children('h2,h3,h4');
     buildRightNav(navItems, thisNav);
   }
 });
 
 // window.onload = initiate;
 
-$(function() {
+$(function () {
   function findAnchorElement(path) {
     const anchors = $('a[href]').toArray();
     const currentAnchor = anchors.find(node => node.href.endsWith(path));
@@ -580,10 +559,10 @@ $(function() {
     return parentElementId === 'componentsSubnav'
       ? [$('#components'), $('#componentsSubnav')]
       : parentElementId === 'utilitiesSubnav'
-      ? [$('#utilities'), $('#utilitiesSubnav')]
-      : parentElementId === 'foundationsSubnav'
-      ? [$('#foundations'), $('#foundationsSubnav')]
-      : [];
+        ? [$('#utilities'), $('#utilitiesSubnav')]
+        : parentElementId === 'foundationsSubnav'
+          ? [$('#foundations'), $('#foundationsSubnav')]
+          : [];
   }
 
   function expandNavGroup([nav, subnav]) {
@@ -595,7 +574,7 @@ $(function() {
     subnav.addClass('show');
   }
 
-  (function() {
+  (function () {
     const anchorElement = findAnchorElement(window.location.pathname);
     // console.log(anchorElement);
     const navGroup = findNavGroup(anchorElement);
