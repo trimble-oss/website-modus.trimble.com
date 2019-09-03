@@ -44,7 +44,7 @@
   <tbody>
     <tr>
       <th scope="row">Primary</th>
-      <td><button class="btn btn-primary">Button</button></td>
+      <td><button class="btn btn-primary">Add New</button></td>
       <td>High</td>
       <td>
         Use to draw attention to the primary action on a screen. There should be only one Primary
@@ -53,7 +53,7 @@
     </tr>
     <tr>
       <th scope="row">Secondary</th>
-      <td><button class="btn btn-secondary">Button</button></td>
+      <td><button class="btn btn-secondary">Import</button></td>
       <td>Medium</td>
       <td>
         Use for secondary actions on a screen. Secondary Buttons can be used on most pages without
@@ -62,17 +62,8 @@
       </td>
     </tr>
     <tr>
-      <th scope="row">Text Only</th>
-      <td><button class="btn btn-text-primary">Button</button></td>
-      <td>Low</td>
-      <td>
-        Use in complex applications that require a minimal impact from button color on the
-        interface. They need to be offset from the rest of the UI to promote visual prominence.
-      </td>
-    </tr>
-    <tr>
       <th scope="row">Outline</th>
-      <td><button class="btn btn-outline-primary">Button</button></td>
+      <td><button class="btn btn-outline-dark">Rename</button></td>
       <td>Medium</td>
       <td>
         Use as an alternative to Secondary Buttons. Outline Buttons work well on colored, dark, or
@@ -80,9 +71,36 @@
       </td>
     </tr>
     <tr>
+      <th scope="row">Tertiary</th>
+      <td><button class="btn btn-tertiary">Select</button></td>
+      <td>Low</td>
+      <td>
+          Use in complex applications that require a minimal impact from button color on the
+          interface. They need to be offset from the rest of the UI to promote visual prominence.
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Text Only</th>
+      <td><button class="btn btn-text-primary">Cancel</button></td>
+      <td>Low</td>
+      <td>
+        Use in complex applications that require a minimal impact from button color on the
+        interface. They need to be offset from the rest of the UI to promote visual prominence.
+      </td>
+    </tr>
+    <tr>
       <th scope="row">Icon Only</th>
       <td>
-        <button class="btn btn-icon-only btn-primary"><i class="modus-icons">gear</i></button>
+        <div class="mb-1">
+            <button class="btn btn-icon-only btn-text-dark"><i class="modus-icons">gear</i></button>
+          </div>
+        <div>
+            <div class="btn-group shadow-1" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-icon-only btn-outline-dark"><i class="modus-icons">calendar</i></button>
+                <button type="button" class="btn btn-icon-only btn-outline-dark active"><i class="modus-icons">edit</i></button>
+                <button type="button" class="btn btn-icon-only btn-outline-dark"><i class="modus-icons">filter</i></button>
+              </div>
+        </div>
       </td>
       <td>Medium</td>
       <td>
@@ -91,7 +109,7 @@
     </tr>
     <tr>
       <th scope="row">Danger</th>
-      <td><button class="btn btn-danger">Button</button></td>
+      <td><button class="btn btn-danger">Delete</button></td>
       <td>High</td>
       <td>
         Danger buttons have a different visual style to inform users of potentially destructive
@@ -124,7 +142,7 @@
   </li>
 </ul>
 
-<h4>Visual language</h4>
+<h2>Visual language</h2>
 <h6>To inform judgment about color, type, space, and more</h6>
 
 <ul>
@@ -184,7 +202,7 @@
   </tbody>
 </table>
 
-<h4>Behaviors</h4>
+<h2>Behaviors</h2>
 <h6>To cover how to cope with events, outcomes, and transitions</h6>
 
 <ul>
@@ -199,16 +217,15 @@
   </li>
 </ul>
 
-<div class="d-flex flex-wrap justify-content-around">
+<div class="">
   <div>
-    <div class="h5">Solid Buttons</div>
     <table class="table table-bordered bg-white" style="width: max-content">
-      <thead class="thead-dark">
+      <thead class="thead-light">
         <tr>
-          <th></th>
+          <th>Solid Buttons</th>
           <th>Primary</th>
           <th>Secondary</th>
-          <th>Dark</th>
+          <th>Tertiary</th>
         </tr>
       </thead>
       <tbody>
@@ -216,64 +233,52 @@
           <th scope="row">Default</th>
           <td><button class="btn btn-primary">Button</button></td>
           <td><button class="btn btn-secondary">Button</button></td>
-          <td><button class="btn btn-dark">Button</button></td>
+          <td><button class="btn btn-tertiary">Button</button></td>
         </tr>
         <tr>
           <th scope="row">Hover</th>
           <td><button class="btn hover btn-primary">Button</button></td>
           <td><button class="btn hover btn-secondary">Button</button></td>
-          <td><button class="btn hover btn-dark">Button</button></td>
+          <td><button class="btn hover btn-tertiary">Button</button></td>
         </tr>
         <tr>
           <th scope="row">Pressed</th>
           <td><button class="btn display-active btn-primary">Button</button></td>
           <td><button class="btn display-active btn-secondary">Button</button></td>
-          <td><button class="btn display-active btn-dark">Button</button></td>
+          <td><button class="btn display-active btn-tertiary">Button</button></td>
         </tr>
         <tr>
           <th scope="row">Disabled</th>
           <td><button disabled class="btn btn-primary">Button</button></td>
           <td><button disabled class="btn btn-secondary">Button</button></td>
-          <td><button disabled class="btn btn-dark">Button</button></td>
+          <td><button disabled class="btn btn-tertiary">Button</button></td>
         </tr>
       </tbody>
     </table>
   </div>
 
   <div>
-    <div class="h5">Outline Buttons</div>
     <table class="table table-bordered bg-white" style="width: max-content">
-      <thead class="thead-dark">
+      <thead class="thead-light">
         <tr>
-          <th></th>
-          <th>Primary</th>
-          <th>Secondary</th>
-          <th>Dark</th>
+          <th colspan="2">Outline Button</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row">Default</th>
-          <td><button class="btn btn-outline-primary">Button</button></td>
-          <td><button class="btn btn-outline-secondary">Button</button></td>
           <td><button class="btn btn-outline-dark">Button</button></td>
         </tr>
         <tr>
           <th scope="row">Hover</th>
-          <td><button class="btn hover btn-outline-primary">Button</button></td>
-          <td><button class="btn hover btn-outline-secondary">Button</button></td>
           <td><button class="btn hover btn-outline-dark">Button</button></td>
         </tr>
         <tr>
           <th scope="row">Pressed</th>
-          <td><button class="btn display-active btn-outline-primary">Button</button></td>
-          <td><button class="btn display-active btn-outline-secondary">Button</button></td>
           <td><button class="btn display-active btn-outline-dark">Button</button></td>
         </tr>
         <tr>
           <th scope="row">Disabled</th>
-          <td><button disabled class="btn btn-outline-primary">Button</button></td>
-          <td><button disabled class="btn btn-outline-secondary">Button</button></td>
           <td><button disabled class="btn btn-outline-dark">Button</button></td>
         </tr>
       </tbody>
@@ -281,40 +286,28 @@
   </div>
 
   <div>
-    <div class="h5">Text Buttons</div>
     <table class="table table-bordered bg-white" style="width: max-content">
-      <thead class="thead-dark">
+      <thead class="thead-light">
         <tr>
-          <th></th>
-          <th>Primary</th>
-          <th>Secondary</th>
-          <th>Dark</th>
+            <th colspan="2">Text Button</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th scope="row">Default</th>
           <td><button class="btn btn-text-primary">Button</button></td>
-          <td><button class="btn btn-text-secondary">Button</button></td>
-          <td><button class="btn btn-text-dark">Button</button></td>
         </tr>
         <tr>
           <th scope="row">Hover</th>
           <td><button class="btn hover btn-text-primary">Button</button></td>
-          <td><button class="btn hover btn-text-secondary">Button</button></td>
-          <td><button class="btn hover btn-text-dark">Button</button></td>
         </tr>
         <tr>
           <th scope="row">Pressed</th>
           <td><button class="btn display-active btn-text-primary">Button</button></td>
-          <td><button class="btn display-active btn-text-secondary">Button</button></td>
-          <td><button class="btn display-active btn-text-dark">Button</button></td>
         </tr>
         <tr>
           <th scope="row">Disabled</th>
           <td><button disabled class="btn btn-text-primary">Button</button></td>
-          <td><button disabled class="btn btn-text-secondary">Button</button></td>
-          <td><button disabled class="btn btn-text-dark">Button</button></td>
         </tr>
       </tbody>
     </table>

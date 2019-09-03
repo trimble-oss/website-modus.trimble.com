@@ -1,0 +1,124 @@
+<h2>Guidelines</h2>
+
+<h4>Use when</h4>
+
+<ul>
+  <li>
+    Providing a user contextual information or status of an action they’re trying to complete in a
+    specific element on the visible page.
+  </li>
+</ul>
+
+<h4>Don’t use when</h4>
+
+<ul>
+  <li>
+    Providing a user with a message related to a page-level or out-of-view event, like completion of
+    a report generation. Instead, use a Notification.
+  </li>
+
+  <li>
+    Providing a user with a system-level message, like a network outage or browser incompatibility.
+  </li>
+
+  <li>
+    Attaching an error message to an input. Instead, use a Field Error.
+  </li>
+</ul>
+
+<h4>Visual language</h4>
+<h6>To inform judgment about color, type, space, and more</h6>
+
+<div class="guide-example-block my-3">
+  <div class="guide-sample">
+    <div class="border">
+      <div class="p-3 bg-primary text-white d-flex">
+        <i class="material-icons">menu</i>
+        <span class="h1 text-white ml-3 mb-0">App Title</span>
+      </div>
+      <div class="alert alert-danger" role="alert">
+        <i class="modus-icon material-icons alert-icon">warning</i>
+        <div>A basic error alert!</div>
+      </div>
+      <div class="p-3">
+        <span class="h3">Content</span>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet culpa animi aut voluptas
+          dolorum atque deserunt consequatur aperiam, cum similique quidem, voluptates
+          necessitatibus rerum suscipit. Quam distinctio expedita dolorum ratione.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ul>
+  <li>
+    Stretch horizontally to fill 100% of the container they are placed in.
+    <ul>
+      <li>
+        Always follow Typography line length guidelines when displaying alerts. Pair with another
+        component, like a Form, or place in a fixed-width container to ensure alerts don't get too
+        wide.
+      </li>
+    </ul>
+  </li>
+
+  <li>Push other content down to make room for an alert on a page.</li>
+
+  <li>
+    Apply tint to add extra emphasis or to increase contrast with page content.
+  </li>
+</ul>
+
+<h4>Behaviors</h4>
+<h6>To cover how to cope with events, outcomes, and transitions</h6>
+
+<ul>
+  <li>
+    Never include a dismiss action in errors. They can only be dismissed by resolving the error.
+  </li>
+
+  <li>
+    When applicable, dismiss by clicking the Icon-Only Button with a close icon.
+  </li>
+  <li>
+    When dismissed or resolved, alerts slide up and fade out, relinquishing their space.
+  </li>
+</ul>
+
+<h4>Editorial</h4>
+<h6>
+  Voice and tone, advice covering copy and images flowing into each element
+</h6>
+
+<ul>
+  <li>
+    Keep titles three to five words if possible.
+  </li>
+  <li>
+    For titles, use title case and capitalize prepositions of four letters or more.
+  </li>
+  <li>
+    Messages should tell the user what’s happening and whether they need to act to successfully keep
+    moving through a task, if applicable. Warning alerts might tell a user what could happen if they
+    don’t address what they’re being warned about.
+  </li>
+  <li>
+    For messages, use full sentences with punctuation. Use sentence case.
+  </li>
+  <li>
+    Unordered lists offer a structured format to present:
+    <ul>
+      <li>
+        Items needing resolution
+      </li>
+      <li>
+        Guidelines to successful completion
+      </li>
+      <li>
+        Ways to resolve problems
+      </li>
+    </ul>
+  </li>
+</ul>
