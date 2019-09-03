@@ -184,6 +184,13 @@ pre[class*='language-'] {
   }
 }
 
+.do {
+  border-top: 3px solid #5E9331 !important;
+}
+.dont {
+  border-top: 3px solid #C81922 !important;
+}
+
 .no {
   position: relative;
   &::after {
