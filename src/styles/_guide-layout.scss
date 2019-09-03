@@ -15,7 +15,7 @@ $guide-body-max-width: 1200px;
     min-height: $guide-header-height;
     max-height: $guide-header-height;
     background-color: $guide-header-bg;
-    .navbar {      
+    .navbar {
       max-width: 1600px;
       margin: 0 auto;
     }
@@ -38,7 +38,7 @@ $guide-body-max-width: 1200px;
     display: flex;
     align-items: center;
     padding-left: 8px;
-    min-height: 24px;
+    //min-height: 24px;
   }
 
   .guide-nav {
@@ -98,9 +98,21 @@ $guide-body-max-width: 1200px;
     display: flex;
     flex: 1 1 auto;
     // overflow-y: auto;
-    position: relative;    
+    position: relative;
     max-width: $guide-body-max-width;
     min-width: 100px;
+  }
+  .guide-content-home {
+    //padding: 1rem 3rem;
+    padding-bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .guide-content-top-home{
+    padding: 1rem 3rem;
+    padding-bottom: 0;
+    height: 100%;
+    width: 100%;
   }
   .guide-content {
     padding: 1rem 3rem;
@@ -177,12 +189,12 @@ $guide-body-max-width: 1200px;
     box-shadow: $shadow-depth-1;
     td, th {
       padding: 16px;
-      background-color: white;      
+      background-color: white;
       border-left: 1px solid $gray-300;
       &:first-child {
         border-left-width: 0;
       }
-      p {        
+      p {
         margin-bottom: 0;
       }
     }
@@ -226,7 +238,7 @@ $guide-body-max-width: 1200px;
   display: flex;
   flex-direction: column;
   // min-width: 900px;
-  position: relative;  
+  position: relative;
   box-shadow: $shadow-depth-1;
 
   .ether-page-layout {
