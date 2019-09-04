@@ -109,7 +109,9 @@ $guide-body-max-width: 1200px;
     width: 100%;
       .header{
         background-image: url(/src/img/diamond-gradient-bg.png);
-        background-size: cover;
+        background-size: contain;
+        background-position: right top;
+        background-repeat: no-repeat;
         width:100%;
         h1{font-size: 3rem;}}
   }
