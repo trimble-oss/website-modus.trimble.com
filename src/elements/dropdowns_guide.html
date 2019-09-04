@@ -1,90 +1,110 @@
-<h3>Guidelines
-</h3>
+<h3>Guidelines</h3>
 
-<h4>Use when
-</h4>
+<h4>Use when</h4>
 
 <ul>
-  <li> Use the dropdown component to filter or sort content on a page.
+  <li>Use the dropdown component to filter or sort content on a page.</li>
+</ul>
+
+<h4>Don’t use when</h4>
+<ul>
+  <li>Providing more than 10 options.</li>
+
+  <li>Providing only two options. Instead, use a Radio Group or a Switch.</li>
+</ul>
+
+<h4>Visual language</h4>
+<h6>To inform judgment about color, type, space, and more</h6>
+
+<ul>
+  <li>
+    Dropdown selects are ideal for lists with more than 15 items, but be careful not to overdo it.
+  </li>
+</ul>
+
+<div class="guide-example-block d-inline-block mb-3">
+  <div class="guide-sample" style="padding-bottom: 160px; padding-right: 90px;">
+    <div class="dropdown">
+      <button
+        class="btn btn-primary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        Dropdown
+      </button>
+      <div
+        class="dropdown-menu dropdown-menu-sm show"
+        aria-labelledby="dropdownMenuButton"
+        x-placement="bottom-start"
+        style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 32px, 0px);"
+      >
+        <a class="dropdown-item active" href="#">Active item</a>
+        <a class="dropdown-item" href="#">Menu item</a>
+        <a class="dropdown-item" href="#">Menu item</a>
+        <a class="dropdown-item" href="#">Menu item</a>
+        <a class="dropdown-item" href="#">Menu item</a>
+        <a class="dropdown-item" href="#">Menu item</a>
+        <a class="dropdown-item" href="#">Menu item</a>
+        <a class="dropdown-item" href="#">Menu item</a>
+      </div>
+    </div>
+  </div>
+</div>
+<p>
+  <strong>Do:</strong> make the list a reasonable size for users to filter
+</p>
+<p>
+  <strong>Don't:</strong> give them thousands of items to
+  choose from.
+</p>
+
+<h4>Behaviors</h4>
+
+<h6>To cover how to cope with events, outcomes, and transitions</h6>
+
+<ul>
+  <li>
+    Make sure the items in the list are in logical order (alphabetical, chronological, order of
+    importance, etc.)
   </li>
 
+  <li>
+    If no item is preselected, use something like “Select a vendor” or “Select an account” in ghost
+    or hint text format. If you can’t gray out the text, you can use some kind of indicator, like
+    parentheses.
+  </li>
 
+  <li>
+    If you need to, you can display ”None” as one of the options. It should have the same text
+    formatting as the other options in the list.
+  </li>
+</ul>
 
-  <h4>Don’t use when
-  </h4>
+<h4>Editorial</h4>
 
-  <ul>
-    <li>Providing more than 10 options.
-    </li>
+<h6>Voice and tone, advice covering copy and images flowing into each element</h6>
 
-    <li>Providing only two options. Instead, use a Radio Group or a Switch.
-    </li>
-  </ul>
+<ul>
+  <li>
+    Present drop-down selections in sentence case (“Select an account”). If the drop-down list
+    contains formal names, such as customer names or accounts, then those selections will appear in
+    title case.
+  </li>
 
+  <li>
+    Don’t use “deselect.” Instead, use “clear.” The term “deselect” causes a problem for
+    localization.
+  </li>
 
-  <h4>Visual language
-  </h4>
+  <li>
+    The list of options should be sorted in a consistent order (alphabetical, chronological, the
+    most selected option, or by order of importance).
+  </li>
 
-  <h6>To inform judgment about color, type, space, and more
-  </h6>
+  <li>Don’t end text in a select with a period.</li>
 
-
-  <p>Lookup select is ideal for lists with more than 15 items, but be careful not to overdo it.
-  </p>
-
-
-  <p><img src="cid:Image_0.png" />
-    <img src="cid:Image_1.png" />
-  </p>
-
-  <p>Do:make the list a reasonable size for users to filter Don't: give them thousands of items to choose from.
-  </p>
-
-
-  <h4>Behaviors
-  </h4>
-
-  <h6>To cover how to cope with events, outcomes, and transitions
-  </h6>
-
-
-  <ul>
-    <li>Make sure the items in the list are in logical order (alphabetical, chronological, order of importance, etc.)
-    </li>
-
-    <li>If no item is preselected, use something like “Select a vendor” or “Select an account” in ghost or hint text
-      format. If you can’t gray out the text, you can use some kind of indicator, like parentheses.
-    </li>
-
-    <li>If you need to, you can display ”None” as one of the options. It should have the same text formatting as the
-      other options in the list.
-    </li>
-  </ul>
-
-
-
-  <h4>Editorial
-  </h4>
-
-  <h6>Voice and tone, advice covering copy and images flowing into each element
-  </h6>
-
-
-  <ul>
-    <li>Present drop-down selections in sentence case (“Select an account”). If the drop-down list contains formal
-      names, such as customer names or accounts, then those selections will appear in title case.
-    </li>
-
-    <li>Don’t use “deselect.” Instead, use “clear.” The term “deselect” causes a problem for localization.
-    </li>
-
-    <li>The list of options should be sorted in a consistent order (alphabetical, chronological, the most selected
-      option, or by order of importance).
-    </li>
-
-    <li>Don’t end text in a select with a period.
-    </li>
-
-    <li>Keep option names as brief as possible - aim for under 5 words.
-    </li>
-  </ul>
+  <li>Keep option names as brief as possible - aim for under 5 words.</li>
+</ul>
