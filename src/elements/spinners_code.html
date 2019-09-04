@@ -1,0 +1,48 @@
+<h2>Overview</h2>
+<p>
+  Our spinners are built entirely using HTML and CSS. You can toggle their
+  visibility using JavaScript in you project. Their appearance, alignment, and
+  sizing can be easily customized with our utility classes.
+</p>
+<p>
+  For accessibility purposes, each loader here includes
+  <code>role="status"</code> and a nested
+  <code>&lt;span class="sr-only"&gt;Loading...&lt;/span&gt;</code>.
+</p>
+
+<h3>Border Spinner</h3>
+<p>
+  Use the border spinnes for a lightweight loading indicator.
+</p>
+<div class="guide-example-block">
+  <div class="guide-sample">
+    <div class="spinner-border" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  ${require(`../partials/guide-code.html`)}
+</div>
+
+<h3>Color Variants</h3>
+<p>
+  The border spinner uses <code>currentColor</code> for its
+  <code>border-color</code>, meaning you can customize the color with
+  <a href="colors.html">text color utilities</a>.
+</p>
+<p>
+  However, we recommend refraining from using too many different colored spinners. We recommend using our primary, dark, and tertiary colors for your use cases.
+</p>
+<div class="guide-example-block">
+  <div class="guide-sample">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-dark" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+    <div class="spinner-border text-tertiary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  ${require(`../partials/guide-code.html`)}
+</div>

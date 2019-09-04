@@ -1,0 +1,73 @@
+<h2>Guidelines</h2>
+
+<h4>When to use</h4>
+
+<ul>
+  <li>
+    To indicate to the user that loading is occurring in the background.
+  </li>
+</ul>
+
+<h4>When NOT to use</h4>
+
+<ul>
+  <li>
+    When a loading scenario needs to indicate progress, usually with
+    particularly long load times. Use a dynamically updating progress indicator
+    instead.
+  </li>
+
+  <li>
+    For a main loading state, such as an app initialization, forego our simple
+    spinner and opt to use a custom, branded one instead.
+  </li>
+</ul>
+
+<h4>Visual language</h4>
+<h6>To inform judgment about color, type, space, and more</h6>
+
+<ul>
+  <li>
+    A spinner should usually be centered within its container unless inside of
+    another element like a button.
+  </li>
+</ul>
+
+<div class="guide-example-block d-inline-block">
+  <div class="guide-sample">
+    <button type="button" class="btn btn-primary display-active">
+      <span
+        class="spinner-border mr-1"
+        style="height: 16px; width: 16px;"
+      ></span>
+      Loading
+    </button>
+  </div>
+</div>
+
+<h4>Behaviors</h4>
+<h6>To cover how to cope with events, outcomes, and transitions</h6>
+
+<ul>
+  <li>
+    A spinner spins indefinitely until loading is complete.
+  </li>
+</ul>
+
+<div class="guide-example-block d-inline-block">
+  <div class="guide-sample text-center text-primary">
+    <div class="spinner-border"></div>
+    <div class="h1 text-primary mt-3">Loading...</div>
+  </div>
+</div>
+
+<h4>Editorial</h4>
+<h6>
+  Voice and tone, advice covering copy and images flowing into each element
+</h6>
+
+<ul>
+  <li>
+    Avoid using basic spinners for larger loading scenarios such as when loading an entire UI.
+  </li>
+</ul>
