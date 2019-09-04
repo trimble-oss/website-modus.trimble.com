@@ -1,0 +1,176 @@
+<h2>Overview</h2>
+<p>
+  Things to know when using the tooltip plugin:
+</p>
+<ul>
+  <li>
+    Tooltips rely on the 3rd party library
+    <a href="https://popper.js.org/">Popper.js</a> for positioning. You must
+    include
+    <a
+      href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      >popper.min.js</a
+    >
+    before bootstrap.js or use
+    <code>bootstrap.bundle.min.js</code> /
+    <code>bootstrap.bundle.js</code> which contains Popper.js in order for
+    tooltips to work!
+  </li>
+  <li>
+    If you’re building our JavaScript from source, it
+    <a href="/docs/4.3/getting-started/javascript/#util"
+      >requires <code>util.js</code></a
+    >.
+  </li>
+  <li>
+    Tooltips are opt-in for performance reasons, so
+    <strong>you must initialize them yourself</strong>.
+  </li>
+  <li>Tooltips with zero-length titles are never displayed.</li>
+  <li>
+    Specify <code>container: 'body'</code> to avoid rendering problems in more
+    complex components (like our input groups, button groups, etc).
+  </li>
+  <li>Triggering tooltips on hidden elements will not work.</li>
+  <li>
+    Tooltips for <code>.disabled</code> or <code>disabled</code> elements must
+    be triggered on a wrapper element.
+  </li>
+  <li>
+    When triggered from hyperlinks that span multiple lines, tooltips will be
+    centered. Use <code>white-space: nowrap;</code> on your
+    <code>&lt;a&gt;</code>s to avoid this behavior.
+  </li>
+  <li>
+    Tooltips must be hidden before their corresponding elements have been
+    removed from the DOM.
+  </li>
+  <li>Tooltips can be triggered thanks to an element inside a shadow DOM.</li>
+</ul>
+
+<h3>Enable Tooltips Everywhere</h3>
+<p>
+  One way to initialize all tooltips on a page would be to select them by their
+  <code>data-toggle</code> attribute:
+</p>
+<div class="guide-example-block">
+  <div class="guide-sample">
+    <figure class="highlight">
+      <pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="nx">$</span><span class="p">(</span><span class="s1">'[data-toggle="tooltip"]'</span><span class="p">).</span><span class="nx">tooltip</span><span class="p">()</span>
+<span class="p">})</span></code></pre>
+    </figure>
+  </div>
+</div>
+
+<h3>Tooltip Examples</h3>
+<p>
+  Tooltips can be used with a variety of different components.
+</p>
+<div class="guide-example-block">
+  <div class="guide-sample d-flex align-items-center">
+    <button
+      class="btn btn-primary"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Button Tooltip"
+    >
+      Button
+    </button>
+
+    <div
+      class="chip chip-solid chip-input ml-3"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Chip Tooltip"
+    >
+      <div class="chip-thumbnail"><img src="src/img/headshot.png" /></div>
+      <div class="chip-text">Clifford</div>
+      <div class="chip-delete-right"><i class="material-icons">cancel</i></div>
+    </div>
+
+    <i
+      class="modus-icon material-icons ml-3"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Icon Tooltip"
+      >settings</i
+    >
+
+    <p class="ml-3 mb-0">
+      Tooltips can even be used with
+      <strong data-toggle="tooltip" data-placement="top" title="Text Tooltip"
+        >text</strong
+      >
+    </p>
+  </div>
+  ${require(`../partials/guide-code.html`)}
+</div>
+
+<h3>Tooltip Placement</h3>
+<p>
+  Use the <code>data-placement</code> attribute to specify the tooltip's
+  location.
+</p>
+<div class="guide-example-block">
+  <div class="guide-sample">
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Tooltip on top"
+    >
+      Tooltip on top
+    </button>
+    <button
+      type="button"
+      class="btn btn-primary ml-3"
+      data-toggle="tooltip"
+      data-placement="right"
+      title="Tooltip on right"
+    >
+      Tooltip on right
+    </button>
+    <button
+      type="button"
+      class="btn btn-primary ml-3"
+      data-toggle="tooltip"
+      data-placement="bottom"
+      title="Tooltip on bottom"
+    >
+      Tooltip on bottom
+    </button>
+    <button
+      type="button"
+      class="btn btn-primary ml-3"
+      data-toggle="tooltip"
+      data-placement="left"
+      title="Tooltip on left"
+    >
+      Tooltip on left
+    </button>
+  </div>
+  ${require(`../partials/guide-code.html`)}
+</div>
+
+<h3>Tooltips with HTML</h3>
+<p>
+  To use custom HTML inside a tooltip, enable <code>data-html="true"</code> and
+  place your HTML in the <code>title</code> attribute.
+</p>
+<div class="guide-example-block">
+  <div class="guide-sample">
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-toggle="tooltip"
+      data-html="true"
+      data-placement="top"
+      title="<em>Tooltip</em> <u>with</u> <b>HTML</b>"
+    >
+      Tooltip with HTML
+    </button>
+  </div>
+  ${require(`../partials/guide-code.html`)}
+</div>
