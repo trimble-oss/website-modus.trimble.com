@@ -28,18 +28,6 @@ const swapStyleSheet = id => {
   document.getElementById('pagestyles').setAttribute('href', id);
 };
 
-// const initiate = () => {
-//   console.log("Script Initialized");
-//   var toggle = document.getElementById("style-switch");
-//   toggle.onchange = function (e) {
-//     if (e.target.checked) {
-//       swapStyleSheet("../assets/ether-dark.min.css");
-//     } else {
-//       swapStyleSheet("../assets/ether.min.css");
-//     }
-//   };
-// };
-
 const codePen = elem => {
   let el = $(elem[0]),
     HTML = '',
@@ -119,7 +107,7 @@ $(document).ready(function () {
 
   $('.guide-copy-code').on('click', e => {
     var str = $(e.currentTarget)
-      .siblings('.guide-sample')
+      .parent().siblings('.guide-sample')
       .html();
     copyToClipboard(str);
     // Get the snackbar DIV
@@ -139,21 +127,6 @@ $(document).ready(function () {
     $('.bg-color-select').val(thisColor);
     $('.guide-sample').css('background-color', thisColor);
     window.localStorage.setItem('color', thisColor);
-  });
-
-  $('#copyExampleButton').on('click', () => {
-    var str = $('#interactiveExample').html();
-    copyToClipboard(str);
-    // Get the snackbar DIV
-    var snack = $('#snackbar');
-
-    // Add the "show" class to DIV
-    snack.text('Code copied to clipboard.').addClass('show');
-
-    // After 3 seconds, remove the show class from DIV
-    setTimeout(function () {
-      snack.removeClass('show');
-    }, 3000);
   });
 
   const close_popovers = () => {
