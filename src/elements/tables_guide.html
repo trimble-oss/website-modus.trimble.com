@@ -1,4 +1,5 @@
-<h3>Guidelines</h3>
+<h2>Guidelines</h2>
+
 <h4>Use when</h4>
 
 <ul>
@@ -7,7 +8,6 @@
   <li>Manipulate and navigate through a large amount of data</li>
   <li>Preview data before drilling down further</li>
 </ul>
-
 
 <h4>Don’t use when</h4>
 
@@ -18,12 +18,13 @@
 </ul>
 
 <h4>Visual language</h4>
-
 <h6>To inform judgment about color, type, space, and more</h6>
 
 <h5>Alignment</h5>
-
-<p>Column content types are built into the component props so the following alignment rules are followed:</p>
+<p>
+  Column content types are built into the component props so the following alignment rules are
+  followed:
+</p>
 
 <ul>
   <li>Numerical = Right aligned</li>
@@ -32,10 +33,106 @@
   <li>Center align images/elements/icons and buttons when in their own columns</li>
 </ul>
 
-<p><img src="cid:Image_0.png"/></p>
+<table class="table table-bordered bg-white">
+  <thead class="thead-dark">
+    <tr>
+      <th class="icon-only"></th>
+      <th>Name</th>
+      <th class="text-right">Date</th>
+      <th class="text-right">Sales Revenue</th>
+      <th class="icon-only"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row" class="icon-only">
+        <div class="custom-control custom-checkbox">
+          <input
+            type="checkbox"
+            checked=""
+            class="custom-control-input"
+            id="tableCheckbox3"
+            name="example1"
+          />
+          <label class="custom-control-label" for="tableCheckbox3"></label>
+        </div>
+      </th>
+      <td>John Doe</td>
+      <td class="text-right">06/10/19</td>
+      <td class="text-right text-success">$100</td>
+      <td scope="row" class="icon-only">
+        <div class="dropdown">
+          <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="modus-icons">more_vertical</i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td scope="row" class="icon-only">
+        <div class="custom-control custom-checkbox">
+          <input
+            type="checkbox"
+            class="custom-control-input"
+            id="tableCheckbox3"
+            name="example1"
+          />
+          <label class="custom-control-label" for="tableCheckbox3"></label>
+        </div>
+      </td>
+      <td>Jane Doe</td>
+      <td class="text-right">08/01/19</td>
+      <td class="text-right text-success">$150</td>
+      <td scope="row" class="icon-only">
+        <div class="dropdown">
+          <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="modus-icons">more_vertical</i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td scope="row" class="icon-only">
+        <div class="custom-control custom-checkbox">
+          <input
+            type="checkbox"
+            class="custom-control-input"
+            id="tableCheckbox3"
+            name="example1"
+          />
+          <label class="custom-control-label" for="tableCheckbox3"></label>
+        </div>
+      </td>
+      <td>Bob Smith</td>
+      <td class="text-right">09/04/19</td>
+      <td class="text-right text-danger">-$50</td>
+      <td scope="row" class="icon-only">
+        <div class="dropdown">
+          <button class="btn btn-icon-only btn-text-dark rounded-circle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="modus-icons">more_vertical</i>
+          </button>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <h5>Data tables should:</h5>
-
 <ul>
   <li>Show values across multiple categories and measures.</li>
   <li>Allow for filtering and ordering when comparison is not a priority.</li>
@@ -47,10 +144,7 @@
   <li>Focus on minimizing header titles.</li>
 </ul>
 
-<h4><img src="cid:Image_1.png" /></h4>
-
 <h4>Editorial</h4>
-
 <h6>Voice and tone, advice covering copy and images flowing into each element</h6>
 
 <h5>Headers should</h5>
@@ -63,16 +157,12 @@
 
 <h5>Column content should</h5>
 <ul>
-  <li>Be concise and scannable
-  </li>
-  <li>Not include units of measurement symbols (put those symbols in the headers)
-  </li>
-  <li>Use sentence case (first word capitalized, rest lowercase)
-  </li>
+  <li>Be concise and scannable</li>
+  <li>Not include units of measurement symbols (put those symbols in the headers)</li>
+  <li>Use sentence case (first word capitalized, rest lowercase)</li>
 </ul>
 
 <h5>Decimals</h5>
 <ul>
-  <li>Keep decimals consistent. For example, don’t use 3 decimals in one row and 2 in others.
-  </li>
+  <li>Keep decimals consistent. For example, don’t use 3 decimals in one row and 2 in others.</li>
 </ul>
