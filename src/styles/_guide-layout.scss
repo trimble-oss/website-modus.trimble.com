@@ -251,9 +251,9 @@ $guide-body-max-width: 1200px;
   }
 
   .guide-content-sample {
-    padding: 40px 160px;
+    padding: 40px 100px;
     &.anatomy-display-container {
-      padding-left: 300px;
+      padding-left: 200px;
     }
   }
 
@@ -297,4 +297,10 @@ $guide-body-max-width: 1200px;
   //   bottom: 0px;
   //   left: 8px;
   // }
+}
+
+td.anatomy-cell {
+  height: 120px;
+  padding: 20px 80px 20px 230px;
+  vertical-align: middle;
 }

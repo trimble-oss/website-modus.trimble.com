@@ -2,7 +2,7 @@
 
 const modusVersion = '0.9.0';
 const modusIconsVersion = '0.5.0';
-const guideVersion = '1.0.0';
+const guideVersion = '0.9.0 Beta';
 const dateOptions = {year: 'numeric', month: 'long', day: 'numeric'};
 
 exports.ether = {

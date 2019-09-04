@@ -197,8 +197,8 @@ $(document).ready(function () {
 
   const rgbToHex = rgb => {
     if (!rgb.startsWith('rgba')) {
-      var rgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
-      return '#' + hex(rgb[1]) + hex(rgb[2]) + hex(rgb[3]);
+      var newrgb = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+      return '#' + hex(newrgb[1]) + hex(newrgb[2]) + hex(newrgb[3]);
     }
   };
 
@@ -213,16 +213,18 @@ $(document).ready(function () {
     //  anatomy-display-static: used on a single element, but does not need to be hovered over to activate, always on
     //  anatomy-display-table: used on a table, ignores all the table elements and gets only elements like buttons in it
     //  anatomy-exclude: ignores an element, use if you don't want the display to appear on an element that is a child of any of the classes above
-    //  adding data, data-anatomy-popover="false", will have no popover
+    //  adding data-anatomy-popover="false", will have no popover
+    //  adding data-anatomy-color="false", will have no color attributes
+    let elem = null;
     if (e.currentTarget) {
-      var elem = $(e.currentTarget);
+      elem = $(e.currentTarget);
       if (
         $(e.currentTarget).attr('class') &&
         !$(e.currentTarget)
           .attr('class')
           .includes('anatomy-display-element')
       ) {
-        var parent = elem.parent();
+        let parent = elem.parent();
         while (
           $(parent).attr('class') === undefined ||
           !$(parent)
@@ -234,7 +236,7 @@ $(document).ready(function () {
         }
       }
     } else {
-      var elem = $(e);
+      elem = $(e);
       elem.parent().css({ position: 'relative' });
     }
 
@@ -259,13 +261,14 @@ $(document).ready(function () {
       left: parseInt(elem.css('padding-left'), 10),
       right: parseInt(elem.css('padding-right'), 10)
     };
+    const br = parseInt(elem.css('border-radius'), 10);
 
-    var classes = 'hover-div';
+    let classes = 'hover-div';
     if (!perm) {
       classes += ' not-perm';
     }
 
-    var extraCSS = '';
+    let extraCSS = '';
     if (p.top > 0 || p.bottom > 0 || p.left > 0 || p.right > 0) {
       extraCSS = 'border: rgba(51, 168, 47, 0.2) solid 2px; background: rgba(51, 168, 47, 0.2)';
     }
@@ -314,7 +317,39 @@ $(document).ready(function () {
         <span class="hover-height-text" style="top: ${h / 2 - 10}px; left: ${w + p.right + m.right + 19}px">${h}px</div>
       </div>
     `;
-    elem.parent().append(html);
+
+    const htmlStatic = `
+      <div class="${classes}" style="width: ${w}px; height: ${h}px; top: ${m.top + pos.top}px; left: ${m.left + pos.left}px; border-radius: ${br}px; border: 1px dashed #e06cd2cc;">
+        <div style="position: relative; ${p.left <= 0 ? 'display: none' : ''}">
+          <div class="hover-padding-horz" style="width: ${p.left}px; left: 0; height: ${h}px;"></div>
+          <div class="hover-line-padding-horz" style="width: ${p.left}px; top: ${h / 2 - 2}px; left: -2px"></div>
+          <span class="hover-padding-text" style="top: ${h / 2 - 10}px; right: ${w}px">${p.left}px</span>
+        </div>
+        <div style="position: relative; ${p.right <= 0 ? 'display: none' : ''}">
+          <div class="hover-padding-horz" style="width: ${p.right}px; right: 0; height: ${h}px;"></div>
+          <div class="hover-line-padding-horz" style="width: ${p.right}px; top: ${h / 2 - 2}px; left: ${w - p.right - 2}px"></div>
+          <span class="hover-padding-text" style="top: ${h / 2 - 10}px; left: ${w}px">${p.right}px</span>
+        </div>
+        <div style="position: relative; ${m.left <= 0 ? 'display: none' : ''}">
+          <div class="hover-div-margin" style="width: ${m.left}px; height: ${h}px; top: -2px; left: ${-m.left - 2}px"></div>
+          <div class="hover-line-margin-horz" style="width: ${m.left}px; top: ${3 * (h / 4) - 2}px; left: ${-m.left}px"></div>
+          <span class="hover-margin-text" style="top: ${3 * (h / 4) - 10}px; left: ${-m.left - 30}px">${m.left}px</span>
+        </div>
+        <div style="position: relative; ${m.right <= 0 ? 'display: none' : ''}">
+          <div class="hover-div-margin" style="width: ${m.right}px; height: ${h}px; top: -2px; left: ${w - 2}px"></div>
+          <div class="hover-line-margin-horz" style="width: ${m.right}px; top: ${3 * (h / 4) - 2}px; left: ${w}px"></div>
+          <span class="hover-margin-text" style="top: ${3 * (h / 4) - 10}px; left: ${w + m.right - 2}px">${m.right}px</span>
+        </div>
+        <div class="hover-line-height" style="height: ${h}px; width: 10px; top: -2px; left: ${w + p.right + m.right + 7}px"></div>
+        <span class="hover-height-text" style="top: ${h / 2 - 10}px; left: ${w + p.right + m.right + 19}px">${h}px</div>
+      </div>
+    `;
+
+    if(perm){
+      elem.parent().append(htmlStatic);
+    } else {
+      elem.parent().append(html);
+    }
 
     if ($('.hover-div.not-perm')[1] && !perm) {
       $('.hover-div.not-perm')[1].remove();
@@ -324,7 +359,7 @@ $(document).ready(function () {
     if (perm) {
       place = 'left';
     }
-    var popoverClasses =
+    let popoverClasses =
       '.' +
       elem
         .prop('class')
@@ -334,28 +369,38 @@ $(document).ready(function () {
     if (popoverClasses === '.') {
       popoverClasses = 'No Classes';
     }
-    const offset = perm ? 'left: ' + (m.left + 36) + ',' : 'top: ' + (m.top + 15) + ',';
-    var pop = elem.popover({
-      placement: place,
-      container: elem.parent(),
-      content: `
-      <p class="small text-primary font-weight-bold m-0">${popoverClasses}</p>
-      <p class="small mb-0" id="popover-bgc"><strong>background-color:</strong> ${rgbToHex(
+    const showColors = (elem.data('anatomy-colors') || elem.data('anatomy-colors') === undefined);
+    const offset = perm ?   8 + ',' + (m.left + 36) : 'top: ' + (m.top + 15) + ',';
+    const popHeader = (perm) ? '' : `<p class="small text-primary font-weight-bold m-0">${popoverClasses}</p>`;
+    const popBackground = (elem.css('background-color') !== 'rgba(0, 0, 0, 0)' && showColors ) ? 
+      `<p class="small mb-0" id="popover-bgc"><strong>background-color:</strong> ${rgbToHex(
         elem.css('background-color')
       )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
         'background-color'
-      )}"></span></p>
-      <p class="small mb-0" id="popover-bc"><strong>border-color:</strong> ${rgbToHex(
+      )}"></span></p>` : '';
+    const popBorder = (elem.css('border-width') !== '0px' && showColors) ? 
+      `<p class="small mb-0" id="popover-bc"><strong>border-color:</strong> ${rgbToHex(
         elem.css('border-color')
       )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
         'border-color'
-      )}"></span></p>
-      <p class="small mb-0" id="popover-c"><strong>color:</strong> ${rgbToHex(
+      )}"></span></p>` : '';
+    const popFontColor = (showColors) ? `<p class="small mb-0" id="popover-c"><strong>${(perm)?'font-':''}color:</strong> ${rgbToHex(
         elem.css('color')
       )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
         'color'
-      )}"></span></p>
-      <p class="small mb-0"><strong>font-size:</strong> ${elem.css('font-size')}</p>
+      )}"></span></p>`  : '';
+      const popBorderRadius = (elem.css('border-radius') !== '0px') ? 
+      `<p class="small mb-0"><strong>border-radius:</strong> ${elem.css('border-radius')}</p>` : '';
+    const popFontSize = `<p class="small mb-0"><strong>font-size:</strong> ${elem.css('font-size')}</p>`;
+    let pop = elem.popover({
+      placement: place,
+      container: elem.parent(),
+      content: `${popHeader}
+      ${popBackground}
+      ${popBorder}
+      ${popFontColor}
+      ${popFontSize}           
+      ${popBorderRadius}
       `,
       html: true,
       offset: offset

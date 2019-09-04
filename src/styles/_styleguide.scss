@@ -25,16 +25,17 @@ code {
   & > h1 {
     font-size: 3rem;
     font-weight: 600;
+    margin-top: 2rem;
   }
   & > h2 {
     font-size: 2rem;
     font-weight: 600;
-    margin-top: 1.75rem;
+    margin-top: 3rem;
   }
   & > h3 {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   & > p:not(.lead),
   & > ul > li {
@@ -329,25 +330,33 @@ pre[class*='language-'] {
     pointer-events: none;
   }
 
+  .hover-padding-horz {
+    top: 0px;
+    background-color: #ee00ff4b;
+    position: absolute;
+    pointer-events: none;
+  }
+
   .hover-line-padding-vert {
-    border-left: rgba(51, 168, 47, 0.5) dotted 1px;
+    border-left: #e06cd2 dotted 1px;
     position: absolute;
     pointer-events: none;
   }
 
   .hover-line-padding-horz {
-    border-top: rgba(51, 168, 47, 0.5) dotted 1px;
+    border-top: #e06cd2 dotted 1px;
     position: absolute;
     pointer-events: none;
   }
 
   .hover-padding-text {
-    color: rgb(51, 168, 47);
+    color: #e06cd2;
     background: rgba(255, 255, 255, 0.65);
     position: absolute;
     font-size: 11px;
     font-weight: 700;
-    pointer-events: none;
+    pointer-events: none;    
+    line-height: 1.4;
   }
 
   .hover-div-margin {
@@ -394,7 +403,8 @@ pre[class*='language-'] {
     font-size: 11px;
     font-weight: 700;
     pointer-events: none;
-    text-align: center;
+    text-align: center;    
+    line-height: 1.4;
   }
 }
 
