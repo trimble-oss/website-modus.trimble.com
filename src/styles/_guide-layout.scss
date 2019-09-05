@@ -11,6 +11,7 @@ $guide-body-max-width: 1200px;
   flex-direction: column;
   position: relative;
 
+
   .guide-header {
     min-height: $guide-header-height;
     max-height: $guide-header-height;
@@ -31,6 +32,7 @@ $guide-body-max-width: 1200px;
     flex: 1 1 auto;
     justify-content: center;
     // margin: 0 auto;
+    overflow-x: hidden;
   }
 
   .guide-footer {
@@ -107,17 +109,24 @@ $guide-body-max-width: 1200px;
     padding-bottom: 0;
     height: 100%;
     width: 100%;
-    .home-background{
-      position: absolute;
-      right: -40vw;
-      width: 50vw;
+    right:-200px;
+    .background-container{
+      width: 100%;
+      .home-background{
+        position: absolute;
+        // right: -24vw;
+        width: 60vw;
+        right:-26vw;
+        max-width: 100%;
+      overflow-x: hidden;
+      }
     }
       .header{
         // background-image: url(/src/img/diamond-gradient-bg.png);
         // background-size: contain;
         // background-position: right top;
         // background-repeat: no-repeat;
-        width:100%;
+        // width:100%;
         h1{font-size: 3rem;}}
   }
   .guide-content-top-home{
