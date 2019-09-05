@@ -86,10 +86,6 @@ $(document).ready(function () {
     $('.guide-sample').css('background-color', '#ffffff');
   }
 
-  $('.guide-tabs .nav-item a').on('click', e => {
-    // $('.guide-code-options').toggleClass('invisible');
-  });
-
   $('.guide-code').each(function (i, block) {
     var prev_html = Pretty(
       $(block)
@@ -577,7 +573,9 @@ $(function () {
     }
 
     const parentElementId = parentElement[0].id;
-    return parentElementId === 'componentsSubnav'
+    return parentElementId === 'startSubnav'
+    ? [$('#start'), $('#startSubnav')]
+      : parentElementId === 'componentsSubnav'
       ? [$('#components'), $('#componentsSubnav')]
       : parentElementId === 'utilitiesSubnav'
         ? [$('#utilities'), $('#utilitiesSubnav')]

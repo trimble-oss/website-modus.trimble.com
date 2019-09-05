@@ -33,6 +33,11 @@ module.exports = {
       template: Path.resolve(__dirname, '../src/index.html')
     }),
     new HtmlWebpackPlugin({
+      filename: 'designers.html',
+      inject: true,
+      template: Path.resolve(__dirname, '../src/foundations/designers.html')
+    }),
+    new HtmlWebpackPlugin({
       filename: 'changes.html',
       inject: true,
       template: Path.resolve(__dirname, '../src/framework/changes.html')
