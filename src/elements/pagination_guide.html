@@ -21,8 +21,77 @@
   <li>Using lazy load to load content as the user scrolls.</li>
 </ul>
 
-<h4>Visual language</h4>
+<h3>Visual language</h3>
 <h5>To inform judgment about color, type, space, and more</h5>
+
+<div class="guide-example-block my-3">
+  <div class="guide-content-sample anatomy-display-container bg-white">
+    <nav aria-label="...">
+      <ul
+        class="pagination anatomy-display-static anatomy display"
+        data-anatomy-colors="false"
+      >
+        <li class="page-item">
+          <a class="page-link" href="#">
+            <i class="modus-icons">chevron_left</i>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            <i class="modus-icons">more_horizontal</i>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            3
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            4
+          </a>
+        </li>
+        <li class="page-item active" aria-current="page">
+          <a class="page-link" href="#"
+            >5 <span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            6
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            7
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            <i class="modus-icons">more_horizontal</i>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            <i class="modus-icons">chevron_right</i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <nav aria-label="...">
+      <ul class="pagination m-0 mt-5">
+        <li class="page-item">
+          <a
+            href="#"
+            class="page-link anatomy-display-static anatomy-display"
+            data-anatomy-colors="false"
+            >1</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
 
 <ul>
   <li>Use no arrows when number of pages is eight or fewer.</li>
@@ -36,7 +105,7 @@
   <li>Distinctive highlight for current page.</li>
 </ul>
 
-<h4>Behaviors</h4>
+<h3>Behaviors</h3>
 <h5>To cover how to cope with events, outcomes, and transitions</h5>
 
 <ul>
@@ -44,14 +113,124 @@
     Disable the first and previous arrow icons (and their labels) when the first
     page is selected.
   </li>
+</ul>
 
+<div class="guide-example-block">
+  <div class="guide-sample">
+    <nav aria-label="...">
+      <ul class="pagination m-0">
+        <li class="page-item disabled">
+          <a class="page-link" href="#">
+            <i class="modus-icons">chevron_left</i>
+          </a>
+        </li>
+        <li class="page-item disabled">
+          <a class="page-link" href="#">
+            <i class="modus-icons">more_horizontal</i>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            3
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            4
+          </a>
+        </li>
+        <li class="page-item active" aria-current="page">
+          <a class="page-link" href="#"
+            >5 <span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            6
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            7
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            <i class="modus-icons">more_horizontal</i>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            <i class="modus-icons">chevron_right</i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<ul>
   <li>
     Disable the next and last arrow icons (and their labels) when the last page
     is selected.
   </li>
 </ul>
 
-<h4>Editorial</h4>
+<div class="guide-example-block">
+  <div class="guide-sample">
+    <nav aria-label="...">
+      <ul class="pagination m-0">
+        <li class="page-item">
+          <a class="page-link" href="#">
+            <i class="modus-icons">chevron_left</i>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            <i class="modus-icons">more_horizontal</i>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            3
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            4
+          </a>
+        </li>
+        <li class="page-item active" aria-current="page">
+          <a class="page-link" href="#"
+            >5 <span class="sr-only">(current)</span></a
+          >
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            6
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            7
+          </a>
+        </li>
+        <li class="page-item disabled">
+          <a class="page-link" href="#">
+            <i class="modus-icons">more_horizontal</i>
+          </a>
+        </li>
+        <li class="page-item disabled">
+          <a class="page-link" href="#">
+            <i class="modus-icons">chevron_right</i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<h3>Editorial</h3>
 <h5>
   Voice and tone, advice covering copy and images flowing into each element
 </h5>
