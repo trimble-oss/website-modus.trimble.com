@@ -446,3 +446,20 @@ pre[class*='language-'] {
     display: flex !important;
   }
 }
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  75% {
+    width: 100%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+#progressExample {
+  animation: progress 3s infinite ease-in-out;
+  animation-delay: 1s
+}
