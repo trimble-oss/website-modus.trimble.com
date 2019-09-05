@@ -1,136 +1,149 @@
-<h3>Guidelines
-</h3>
+<h2>Guidelines</h2>
 
-<h4>Use when
-</h4>
+<h4>Use when</h4>
 
-<ul><li>Providing supplemental tasks required by the underlying page.
-</li>
+<ul>
+  <li>Providing supplemental tasks required by the underlying page.</li>
 
-<li>Providing non-essential information related to the underlying page.
-</li>
+  <li>Providing non-essential information related to the underlying page.</li>
 
-<li>Content requires full attention.
-</li></ul>
+  <li>Content requires full attention.</li>
+</ul>
 
+<h4>Don’t use when</h4>
 
-<h4>Don’t use when
-</h4>
+<ul>
+  <li>
+    Requesting a simple action, like saving changes. Instead, use a Dialog.
+  </li>
 
-<ul><li>Requesting a simple action, like saving changes. Instead, use a Dialog.
-</li>
+  <li>
+    Conveying brief thoughts or status changes. Instead, use a Notification.
+  </li>
 
-<li>Conveying brief thoughts or status changes. Instead, use a Notification.
-</li>
+  <li>
+    The modal content can be incorporated into the underlying page without
+    complicating the page’s intent.
+  </li>
+</ul>
 
-<li>The modal content can be incorporated into the underlying page without complicating the page’s intent.
-</li></ul>
+<h4>Visual language</h4>
 
+<h6>To inform judgment about color, type, space, and more</h6>
 
-<h4>Visual language
-</h4>
+<h5>Modals consist of three elements:</h5>
 
-<h6>To inform judgment about color, type, space, and more
-</h6>
+<ul>
+  <li>Header, which holds the title and controls.</li>
 
+  <li>Content area, which holds the information being presented.</li>
 
-<h5>Modals consist of three elements:
-</h5>
+  <li>
+    Page overlay, which partially blocks out the underlying page to focus
+    attention on the modal content.
+  </li>
+</ul>
 
-
-<ul><li>Header, which holds the title and controls.
-</li>
-
-<li>Content area, which holds the information being presented.
-</li>
-
-<li>Page overlay, which partially blocks out the underlying page to focus attention on the modal content.
-</li></ul>
-
-
-
-<table><tr><td><p><img src="cid:Image_0.png" />
-</p>
-</td>
-</tr>
+<table>
+  <tr>
+    <td>
+      <p><img src="cid:Image_0.png" /></p>
+    </td>
+  </tr>
 </table>
 
+<ul>
+  <li>
+    Controls, which are usually Buttons, are always placed on the bottom right
+    side of the modal header.
+  </li>
 
+  <li>
+    Place icon-only buttons to the left of standard primary and secondary
+    buttons.
+  </li>
 
-<ul><li>Controls, which are usually Buttons, are always placed on the bottom right side of the modal header.
-</li>
+  <li>
+    When placing text in the content area element, define typography as custom
+    styles within your product. The modal’s content area does not include any
+    default text styling.
+  </li>
 
-<li>Place icon-only buttons to the left of standard primary and secondary buttons.
-</li>
+  <li>
+    Consider applying a custom z-index value when you compose this component
+    with other layered components (e.g., Dialogs, Tooltips, or Notifications) to
+    meet your product requirements.
+  </li>
+</ul>
 
-<li>When placing text in the content area element, define typography as custom styles within your product. The modal’s content area does not include any default text styling.
-</li>
+<h4>Behaviors</h4>
 
-<li>Consider applying a custom z-index value when you compose this component with other layered components (e.g., Dialogs, Tooltips, or Notifications) to meet your product requirements.
-</li></ul>
+<h6>To cover how to cope with events, outcomes, and transitions</h6>
 
+<ul>
+  <li>
+    Action-required modals can only be closed by choosing an action provided
+    (e.g., Save or Cancel). They cannot be dismissed by pressing escape or
+    clicking outside of the modal.
+  </li>
 
+  <li>
+    Modals that do not require an explicit action of a user can be closed by:
+  </li>
 
-<h4>Behaviors
-</h4>
+  <li>Clicking the close button</li>
 
-<h6>To cover how to cope with events, outcomes, and transitions
+  <li>Pressing the escape key</li>
+
+  <li>Clicking outside the modal</li>
+
+  <li>
+    Once a modal reaches its maximum height, the header will remain fixed and
+    content will scroll within the container.
+  </li>
+
+  <li>Modals are centered horizontally and vertically in the viewport.</li>
+</ul>
+
+<h4>Editorial</h4>
+
+<h6>
+  Voice and tone, advice covering copy and images flowing into each element
 </h6>
 
-
-<ul><li>Action-required modals can only be closed by choosing an action provided (e.g., Save or Cancel). They cannot be dismissed by pressing escape or clicking outside of the modal.
-</li>
-
-<li>Modals that do not require an explicit action of a user can be closed by:
-</li>
-
-<li>Clicking the close button
-</li>
-
-<li>Pressing the escape key
-</li>
-
-<li>Clicking outside the modal
-</li>
-
-<li>Once a modal reaches its maximum height, the header will remain fixed and content will scroll within the container.
-</li>
-
-<li>Modals are centered horizontally and vertically in the viewport.
-</li></ul>
-
-
-<h4>Editorial
-</h4>
-
-<h6>Voice and tone, advice covering copy and images flowing into each element
-</h6>
-
-
-<h5>Use title case for titles. (This means capitalize prepositions and conjunctions of four or more letters and all primary words.)
+<h5>
+  Use title case for titles. (This means capitalize prepositions and
+  conjunctions of four or more letters and all primary words.)
 </h5>
 
+<h5>Dismissable Modals</h5>
 
-<h5>Dismissable Modals
-</h5>
+<ul>
+  <li>
+    Titles should tell you what’s inside the modal. Consider using words from
+    the link that launched the modal. Titles can also be questions.
+  </li>
 
+  <li>
+    Content can scroll in the modal if need be, but the shorter, the better.
+  </li>
+</ul>
 
-<ul><li>Titles should tell you what’s inside the modal. Consider using words from the link that launched the modal. Titles can also be questions.
-</li>
+<h5>Action-is-Required Modals</h5>
 
-<li>Content can scroll in the modal if need be, but the shorter, the better.
-</li></ul>
+<ul>
+  <li>
+    Titles should tell the user what they need to do. Consider starting with
+    words from the link that launched the modal, and add other words to express
+    a complete thought. Avoid questions.
+  </li>
 
+  <li>
+    Content should tell users why they’re doing something, how to do it, and the
+    consequences of not doing it, if applicable.
+  </li>
 
-<h5>Action-is-Required Modals
-</h5>
-
-
-<ul><li>Titles should tell the user what they need to do. Consider starting with words from the link that launched the modal, and add other words to express a complete thought. Avoid questions.
-</li>
-
-<li>Content should tell users why they’re doing something, how to do it, and the consequences of not doing it, if applicable.
-</li>
-
-<li>Content can scroll in the modal if need be, but the shorter, the better.
-</li></ul>
+  <li>
+    Content can scroll in the modal if need be, but the shorter, the better.
+  </li>
+</ul>

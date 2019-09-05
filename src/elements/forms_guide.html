@@ -1,0 +1,127 @@
+<h2>Guidelines</h2>
+
+<h4>When to use</h4>
+
+<ul>
+  <li>
+    To gather, validate, and format user data.
+  </li>
+</ul>
+
+<h4>Visual language</h4>
+<h6>To inform judgment about color, type, space, and more</h6>
+
+<ul>
+  <li>
+    Default form inputs should have a height of 32px and a font-size of 12px (.75rem).
+  </li>
+  <li>
+    Larger variants should have a height of 48px and a font-size of 14px (.875rem).
+  </li>
+</ul>
+
+<table class="table table-bordered bg-white">
+  <thead class="thead-dark">
+    <tr>
+      <th></th>
+      <th>Example</th>
+      <th>Height</th>
+      <th>Font Size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Default</th>
+      <td><input class="form-control" placeholder="Default Input" /></td>
+      <td>32px</td>
+      <td>12px (.75rem)</td>
+    </tr>
+    <tr>
+      <th scope="row">Large</th>
+      <td><input class="form-control form-control-lg" placeholder="Large Input" /></td>
+      <td>48px</td>
+      <td>14px (.875rem)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4>Behaviors</h4>
+<h6>To cover how to cope with events, outcomes, and transitions</h6>
+
+<ul>
+  <li>
+    Form inputs that are in focus should have a 2px bottom border using our active color
+    <span class="bg-active text-white">#0C77BE</span>.
+  </li>
+
+  <li>
+    Form inputs that are <strong class="text-success">valid</strong> should have a 2px bottom border
+    using our success color <span class="bg-success text-white">#5E9331</span>.
+  </li>
+
+  <li>
+    Form inputs that are <strong class="text-danger">invalid</strong> should have a 2px bottom
+    border using our danger color <span class="bg-danger text-white">#C81922</span>.
+  </li>
+
+  <li>
+    Form inputs that are <strong>disabled</strong> should use our Gray 1 color
+    <span class="bg-gray-1">#E2E2E7</span> as a background color
+  </li>
+</ul>
+
+<div class="guide-example-block d-inline-block">
+  <div class="guide-sample">
+    <div class="form-group">
+      <label for="focusInput">In Focus</label>
+      <input class="form-control focus" id="focusInput" placeholder="In focus" />
+      <small class="text-muted">Helper Text</small>
+    </div>
+
+    <div class="form-group">
+      <label for="validInput">Valid Input</label>
+      <input class="form-control is-valid" id="validInput" placeholder="Valid" />
+      <div class="valid-feedback">Valid Feedback</div>
+    </div>
+
+    <div class="form-group">
+      <label for="invalidInput">Invalid Input</label>
+      <input class="form-control is-invalid" id="invalidInput" placeholder="Invalid" />
+      <div class="invalid-feedback">Invalid Feedback</div>
+    </div>
+
+    <div class="form-group">
+      <label for="disabledInput">Disabled Input</label>
+      <input class="form-control" disabled placeholder="Disabled" />
+    </div>
+  </div>
+</div>
+
+<h4>Editorial</h4>
+<h6>
+  Voice and tone, advice covering copy and images flowing into each element
+</h6>
+
+<ul>
+  <li>
+    When possile, add helper text below an input to further clarify selections or validation errors.
+  </li>
+
+  <li>
+    Always mark <strong class="text-danger">required</strong> fields with an
+    <span class="text-danger">*</span>
+  </li>
+
+  <li>
+    Provide input constraints, such as a character limit within a text entry box, to provide users
+    with guidelines and improve form efficiency.
+  </li>
+
+  <li>
+    Use multi-step forms when necessary by breaking up inputs into distinct categories.
+  </li>
+
+  <li>
+    Provide clear and obvious action buttons.
+  </li>
+</ul>
