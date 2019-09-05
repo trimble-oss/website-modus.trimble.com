@@ -321,22 +321,22 @@ $(document).ready(function () {
     const htmlStatic = `
       <div class="${classes}" style="width: ${w}px; height: ${h}px; top: ${m.top + pos.top}px; left: ${m.left + pos.left}px; border-radius: ${br}px; border: 1px dashed #e06cd2cc;">
         <div style="position: relative; ${p.left <= 0 ? 'display: none' : ''}">
-          <div class="hover-padding-horz" style="width: ${p.left}px; left: 0; height: ${h}px;"></div>
+          <div class="hover-padding-horz" style="width: ${p.left}px; left: 0; height: ${h - 2}px;"></div>
           <div class="hover-line-padding-horz" style="width: ${p.left}px; top: ${h / 2 - 2}px; left: -2px"></div>
           <span class="hover-padding-text" style="top: ${h / 2 - 10}px; right: ${w}px">${p.left}px</span>
         </div>
         <div style="position: relative; ${p.right <= 0 ? 'display: none' : ''}">
-          <div class="hover-padding-horz" style="width: ${p.right}px; right: 0; height: ${h}px;"></div>
+          <div class="hover-padding-horz" style="width: ${p.right}px; right: 0; height: ${h - 2}px;"></div>
           <div class="hover-line-padding-horz" style="width: ${p.right}px; top: ${h / 2 - 2}px; left: ${w - p.right - 2}px"></div>
           <span class="hover-padding-text" style="top: ${h / 2 - 10}px; left: ${w}px">${p.right}px</span>
         </div>
         <div style="position: relative; ${m.left <= 0 ? 'display: none' : ''}">
-          <div class="hover-div-margin" style="width: ${m.left}px; height: ${h}px; top: -2px; left: ${-m.left - 2}px"></div>
+          <div class="hover-div-margin" style="width: ${m.left}px; height: ${h}px; top: -1px; left: ${-m.left - 1}px"></div>
           <div class="hover-line-margin-horz" style="width: ${m.left}px; top: ${3 * (h / 4) - 2}px; left: ${-m.left}px"></div>
           <span class="hover-margin-text" style="top: ${3 * (h / 4) - 10}px; left: ${-m.left - 30}px">${m.left}px</span>
         </div>
         <div style="position: relative; ${m.right <= 0 ? 'display: none' : ''}">
-          <div class="hover-div-margin" style="width: ${m.right}px; height: ${h}px; top: -2px; left: ${w - 2}px"></div>
+          <div class="hover-div-margin" style="width: ${m.right}px; height: ${h}px; top: -1px; left: ${w - 2}px"></div>
           <div class="hover-line-margin-horz" style="width: ${m.right}px; top: ${3 * (h / 4) - 2}px; left: ${w}px"></div>
           <span class="hover-margin-text" style="top: ${3 * (h / 4) - 10}px; left: ${w + m.right - 2}px">${m.right}px</span>
         </div>
@@ -372,13 +372,13 @@ $(document).ready(function () {
     const showColors = (elem.data('anatomy-colors') || elem.data('anatomy-colors') === undefined);
     const offset = perm ?   8 + ',' + (m.left + 36) : 'top: ' + (m.top + 15) + ',';
     const popHeader = (perm) ? '' : `<p class="small text-primary font-weight-bold m-0">${popoverClasses}</p>`;
-    const popBackground = (elem.css('background-color') !== 'rgba(0, 0, 0, 0)' && showColors ) ? 
+    const popBackground = (elem.css('background-color') !== 'rgba(0, 0, 0, 0)' && showColors ) ?
       `<p class="small mb-0" id="popover-bgc"><strong>background-color:</strong> ${rgbToHex(
         elem.css('background-color')
       )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
         'background-color'
       )}"></span></p>` : '';
-    const popBorder = (elem.css('border-width') !== '0px' && showColors) ? 
+    const popBorder = (elem.css('border-width') !== '0px' && showColors) ?
       `<p class="small mb-0" id="popover-bc"><strong>border-color:</strong> ${rgbToHex(
         elem.css('border-color')
       )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
@@ -389,7 +389,7 @@ $(document).ready(function () {
       )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
         'color'
       )}"></span></p>`  : '';
-      const popBorderRadius = (elem.css('border-radius') !== '0px') ? 
+      const popBorderRadius = (elem.css('border-radius') !== '0px') ?
       `<p class="small mb-0"><strong>border-radius:</strong> ${elem.css('border-radius')}</p>` : '';
     const popFontSize = `<p class="small mb-0"><strong>font-size:</strong> ${elem.css('font-size')}</p>`;
     let pop = elem.popover({
@@ -399,7 +399,7 @@ $(document).ready(function () {
       ${popBackground}
       ${popBorder}
       ${popFontColor}
-      ${popFontSize}           
+      ${popFontSize}
       ${popBorderRadius}
       `,
       html: true,
