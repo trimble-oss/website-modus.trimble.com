@@ -316,9 +316,13 @@ pre[class*='language-'] {
 .status-table {
   th {
     font-size: 16px;
+    line-height: 1.2;
+    p {
+      line-height: 1.8;
+    }
   }
   td {
-    font-size: 24px;
+    font-size: 16px;
   }
 }
 
