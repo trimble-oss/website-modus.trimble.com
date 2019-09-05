@@ -107,11 +107,16 @@ $guide-body-max-width: 1200px;
     padding-bottom: 0;
     height: 100%;
     width: 100%;
+    .home-background{
+      position: absolute;
+      right: -40vw;
+      width: 50vw;
+    }
       .header{
-        background-image: url(/src/img/diamond-gradient-bg.png);
-        background-size: contain;
-        background-position: right top;
-        background-repeat: no-repeat;
+        // background-image: url(/src/img/diamond-gradient-bg.png);
+        // background-size: contain;
+        // background-position: right top;
+        // background-repeat: no-repeat;
         width:100%;
         h1{font-size: 3rem;}}
   }

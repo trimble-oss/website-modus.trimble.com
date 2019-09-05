@@ -1,6 +1,6 @@
 {
   "name": "modus-framework-styleguide",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "The Modus Framework was developed as a common open source platform for all of Trimble's web applications",
   "scripts": {
     "build": "webpack --config webpack/webpack.config.prod.js --colors",
