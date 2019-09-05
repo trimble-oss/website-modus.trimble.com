@@ -3,324 +3,36 @@ ${require(`../partials/header.html`)}
   <div class="guide-content-top border-bottom">
     <h1>Progress</h1>
     <p class="lead">
-      Progress indicators express an unspecified wait time or display the length of a process.
+      Progress indicators express an unspecified wait time or display the length
+      of a process.
     </p>
+    ${require(`../partials/guide_tabs.html`)}
   </div>
-  <div class="guide-scroll-container">
-    <div class="guide-section">
-      <h2>Overview</h2>
-      <p>
-        Progress components are built with two HTML elements, some CSS to set
-        the width, and a few attributes. We don't use the HTML5
-        <code>&lt;progress&gt;</code> element, ensuring you can stack progress
-        bars, animate them, and place text labels over them.
-      </p>
-      <ul>
-        <li>
-          We use the <code>.progress</code> as a wrapper to indicate the max
-          value of the progress bar.
-        </li>
-        <li>
-          We use the inner <code>.progress-bar</code> to indicate the progress
-          so far.
-        </li>
-        <li>
-          The <code>.progress-bar</code> requires an inline style, utility
-          class, or custom CSS to set their width.
-        </li>
-        <li>
-          The <code>.progress-bar</code> also requires some
-          <code>role</code> and <code>aria</code> attributes to make it
-          accessible.
-        </li>
-      </ul>
-      <p>
-        Put that all together, and you have the following examples.
-      </p>
-
-      <h3 class="mt-5">Default Examples</h3>
-      <div class="guide-example-block">
-        <div class="guide-sample">
-          <div class="progress">
-            <div
-              class="progress-bar"
-              role="progressbar"
-              aria-valuenow="0"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-          <div class="progress">
-            <div
-              class="progress-bar"
-              role="progressbar"
-              style="width: 25%"
-              aria-valuenow="25"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-          <div class="progress">
-            <div
-              class="progress-bar"
-              role="progressbar"
-              style="width: 50%"
-              aria-valuenow="50"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-          <div class="progress">
-            <div
-              class="progress-bar"
-              role="progressbar"
-              style="width: 75%"
-              aria-valuenow="75"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-          <div class="progress">
-            <div
-              class="progress-bar"
-              role="progressbar"
-              style="width: 100%"
-              aria-valuenow="100"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
+  <div class="guide-tab-panes tab-content" id="TabContentArea">
+    <div
+      class="tab-pane guide-tab-content fade active show"
+      id="guide-content"
+      role="tabpanel"
+      aria-labelledby="guide-tab"
+    >
+      <div class="guide-scroll-container">
+        <div class="tab-section">
+          ${require(`./progress_guide.html`)}
         </div>
-        ${require(`../partials/guide-code.html`)}
       </div>
-
-      <h3 class="mt-5">Labels</h3>
-      <p>
-        Add labels to your progress bars by placing text within the
-        <code>.progress-bar</code>.
-      </p>
-      <div class="guide-example-block">
-        <div class="guide-sample">
-          <div class="progress">
-            <div
-              class="progress-bar"
-              role="progressbar"
-              style="width: 25%;"
-              aria-valuenow="25"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            >
-              25%
-            </div>
-          </div>
+    </div>
+    <div
+      class="tab-pane code-tab-content fade"
+      id="code-content"
+      role="tabpanel"
+      aria-labelledby="code-tab"
+    >
+      <div class="guide-scroll-container">
+        <div class="tab-section">
+          ${require(`./progress_code.html`)}
         </div>
-        ${require(`../partials/guide-code.html`)}
-      </div>
-
-      <h3 class="mt-5">Height</h3>
-      <p>
-        We only set a <code>height</code> value on the <code>.progress</code>,
-        so if you change that value the inner <code>.progress-bar</code> will
-        automatically resize accordingly.
-      </p>
-      <div class="guide-example-block">
-        <div class="guide-sample">
-          <div class="progress" style="height: 1px;">
-            <div
-              class="progress-bar"
-              role="progressbar"
-              style="width: 25%;"
-              aria-valuenow="25"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-          <div class="progress" style="height: 20px;">
-            <div
-              class="progress-bar"
-              role="progressbar"
-              style="width: 25%;"
-              aria-valuenow="25"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-        </div>
-        ${require(`../partials/guide-code.html`)}
-      </div>
-
-      <h3 class="mt-5">Backgrounds</h3>
-      <p>
-        Use background utility classes to change the appearance of individual
-        progress bars.
-      </p>
-      <div class="guide-example-block">
-        <div class="guide-sample">
-          <div class="progress">
-            <div
-              class="progress-bar bg-success"
-              role="progressbar"
-              style="width: 25%"
-              aria-valuenow="25"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-          <div class="progress">
-            <div
-              class="progress-bar bg-info"
-              role="progressbar"
-              style="width: 50%"
-              aria-valuenow="50"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-          <div class="progress">
-            <div
-              class="progress-bar bg-warning"
-              role="progressbar"
-              style="width: 75%"
-              aria-valuenow="75"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-          <div class="progress">
-            <div
-              class="progress-bar bg-danger"
-              role="progressbar"
-              style="width: 100%"
-              aria-valuenow="100"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-        </div>
-        ${require(`../partials/guide-code.html`)}
-      </div>
-
-      <h3 class="mt-5">Multiple Bars</h3>
-      <p>
-        Include multiple progress bars in a progress component if you need.
-      </p>
-      <div class="guide-example-block">
-        <div class="guide-sample">
-          <div class="progress">
-            <div
-              class="progress-bar"
-              role="progressbar"
-              style="width: 15%"
-              aria-valuenow="15"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-            <div
-              class="progress-bar bg-success"
-              role="progressbar"
-              style="width: 30%"
-              aria-valuenow="30"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-            <div
-              class="progress-bar bg-info"
-              role="progressbar"
-              style="width: 20%"
-              aria-valuenow="20"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-        </div>
-        ${require(`../partials/guide-code.html`)}
-      </div>
-
-      <h3 class="mt-5">Striped</h3>
-      <p>
-        Add <code>.progress-bar-striped</code> to any
-        <code>.progress-bar</code> to apply a stripe via CSS gradient over the
-        progress bar’s background color.
-      </p>
-      <div class="guide-example-block">
-        <div class="guide-sample">
-          <div class="progress">
-            <div
-              class="progress-bar progress-bar-striped"
-              role="progressbar"
-              style="width: 10%"
-              aria-valuenow="10"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-          <div class="progress">
-            <div
-              class="progress-bar progress-bar-striped bg-success"
-              role="progressbar"
-              style="width: 25%"
-              aria-valuenow="25"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-          <div class="progress">
-            <div
-              class="progress-bar progress-bar-striped bg-info"
-              role="progressbar"
-              style="width: 50%"
-              aria-valuenow="50"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-          <div class="progress">
-            <div
-              class="progress-bar progress-bar-striped bg-warning"
-              role="progressbar"
-              style="width: 75%"
-              aria-valuenow="75"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-          <div class="progress">
-            <div
-              class="progress-bar progress-bar-striped bg-danger"
-              role="progressbar"
-              style="width: 100%"
-              aria-valuenow="100"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
-          </div>
-        </div>
-        ${require(`../partials/guide-code.html`)}
-      </div>
-
-      <h3 class="mt-5">Animated Stripes</h3>
-      <p>
-        The striped gradient can also be animated. Add
-        <code>.progress-bar-animated</code> to <code>.progress-bar</code> to
-        animate the stripes right to left via CSS3 animations.
-      </p>
-      <div class="guide-example-block">
-        <div class="guide-sample">
-          <div class="progress">
-            <div
-              class="progress-bar progress-bar-striped progress-bar-animated"
-              role="progressbar"
-              aria-valuenow="75"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: 75%"
-            ></div>
-          </div>
-        </div>
-        ${require(`../partials/guide-code.html`)}
       </div>
     </div>
   </div>
 </div>
-
 ${require(`../partials/footer.html`)}
