@@ -3,14 +3,16 @@
   Basic code structure involves using unordered lists. Add
   <code>.list-group</code> to the <code>&lt;ul&gt;</code>
   and
-  <code>.list-group-item</code> to the <code>&lt;li&gt;</code> tag. Add <code>.active </code>to a
-  <code>.list-group-item</code> to indicate the current active selection.
+  <code>.list-group-item</code> to the <code>&lt;li&gt;</code> tag. Add
+  <code>.active </code>to a <code>.list-group-item</code> to indicate the
+  current active selection.
 </p>
 
 <h3>Basic List</h3>
 <p>
-  The most basic list group is an unordered list with list items and the proper classes. Build upon
-  it with the options that follow, or with your own CSS as needed.
+  The most basic list group is an unordered list with list items and the proper
+  classes. Build upon it with the options that follow, or with your own CSS as
+  needed.
 </p>
 <div class="guide-example-block">
   <div class="guide-sample">
@@ -26,10 +28,18 @@
   ${require(`../partials/guide-code.html`)}
 </div>
 
-<h3>Types of List items</h3>
+<h3>List Items</h3>
 <p>
-  The most basic list group is an unordered list with list items and the proper classes. Build upon
-  it with the options that follow, or with your own CSS as needed.
+  The most basic list group is an unordered list with list items and the proper
+  classes. Build upon it with the options that follow, or with your own CSS as
+  needed.
+</p>
+<p>
+  Use <code>.list-item-left-control</code>,
+  <code>.list-item-right-control</code>, and
+  <code>.list-item-leftright-control</code> to add custom controls, buttons, or
+  icons to list items. Be sure to include <code>.modus-icon</code> for 3rd party
+  icons.
 </p>
 <div class="guide-example-block">
   <div class="guide-sample">
@@ -38,7 +48,12 @@
       <li class="list-group-item active">List Item (active)</li>
       <li class="list-group-item list-item-left-control">
         <div class="custom-control custom-switch custom-control-inline">
-          <input type="checkbox" checked class="custom-control-input" id="listSwitch1" />
+          <input
+            type="checkbox"
+            checked
+            class="custom-control-input"
+            id="listSwitch1"
+          />
           <label class="custom-control-label" for="listSwitch1"></label>
         </div>
         <span>Left Switch</span>
@@ -46,7 +61,12 @@
       <li class="list-group-item list-item-right-control">
         <span>Right Switch</span>
         <div class="custom-control custom-switch custom-control-inline">
-          <input type="checkbox" checked class="custom-control-input" id="listSwitch2" />
+          <input
+            type="checkbox"
+            checked
+            class="custom-control-input"
+            id="listSwitch2"
+          />
           <label class="custom-control-label" for="listSwitch2"></label>
         </div>
       </li>
@@ -105,7 +125,9 @@
         <span>Both Icons</span>
         <i class="icon modus-icons">check</i>
       </li>
-      <li class="list-group-item d-flex justify-content-between align-items-center">
+      <li
+        class="list-group-item d-flex justify-content-between align-items-center"
+      >
         List with Badge
         <span class="badge badge-primary badge-pill">14</span>
       </li>
@@ -114,7 +136,115 @@
   ${require(`../partials/guide-code.html`)}
 </div>
 
-<h3>List Items - Condensed</h3>
+<h3>Borderless Lists</h3>
+<p>
+  Add a class of <code>.list-group-borderless</code> to your List Group for a
+  borderless variant.
+</p>
+<div class="guide-example-block">
+  <div class="guide-sample">
+    <h6>List Items</h6>
+    <ul class="list-group list-group-borderless">
+      <li class="list-group-item active">List Item (active)</li>
+      <li class="list-group-item list-item-left-control">
+        <div class="custom-control custom-switch custom-control-inline">
+          <input
+            type="checkbox"
+            checked
+            class="custom-control-input"
+            id="listSwitch-borderless1"
+          />
+          <label
+            class="custom-control-label"
+            for="listSwitch-borderless1"
+          ></label>
+        </div>
+        <span>Left Switch</span>
+      </li>
+      <li class="list-group-item list-item-right-control">
+        <span>Right Switch</span>
+        <div class="custom-control custom-switch custom-control-inline">
+          <input
+            type="checkbox"
+            checked
+            class="custom-control-input"
+            id="listSwitch-borderless2"
+          />
+          <label
+            class="custom-control-label"
+            for="listSwitch-borderless2"
+          ></label>
+        </div>
+      </li>
+      <li class="list-group-item list-item-left-control">
+        <div class="custom-control custom-checkbox">
+          <input
+            type="checkbox"
+            checked
+            class="custom-control-input"
+            id="customCheck-borderless1"
+            name="borderless1"
+          />
+          <label
+            class="custom-control-label"
+            for="customCheck-borderless1"
+          ></label>
+        </div>
+        <span>Left Checkbox</span>
+      </li>
+      <li class="list-group-item list-item-left-control">
+        <div class="custom-control custom-radio">
+          <input
+            type="radio"
+            checked
+            class="custom-control-input"
+            id="customRadio-borderless1"
+            name="borderless2"
+            value="customEx"
+          />
+          <label
+            class="custom-control-label"
+            for="customRadio-borderless1"
+          ></label>
+        </div>
+        <span>Left Radio Button</span>
+      </li>
+      <li class="list-group-item list-item-left-control">
+        <div class="custom-control custom-radio">
+          <input
+            type="radio"
+            class="custom-control-input"
+            id="customRadio-borderless2"
+            name="borderless2"
+            value="customEx"
+          />
+          <label
+            class="custom-control-label"
+            for="customRadio-borderless2"
+          ></label>
+        </div>
+        <span>Left Radio Button</span>
+      </li>
+      <li class="list-group-item list-item-left-control">
+        <i class="modus-icon material-icons">settings</i>
+        <span>Left Icon</span>
+      </li>
+      <li class="list-group-item list-item-right-control">
+        <span>Right Icon</span>
+        <i class="modus-icon material-icons">settings</i>
+      </li>
+      <li class="list-group-item list-item-leftright-control">
+        <i class="modus-icon material-icons">settings</i>
+        <span>Both Icons</span>
+        <i class="icon modus-icons">check</i>
+      </li>
+    </ul>
+  </div>
+  ${require(`../partials/guide-code.html`)}
+</div>
+
+<h3>Condensed Lists</h3>
+<p>Add a class of <code>.list-group-condensed</code> for a smaller variant.</p>
 <div class="guide-example-block">
   <div class="guide-sample">
     <h6>List Items</h6>
@@ -122,7 +252,12 @@
       <li class="list-group-item active">List Item (active)</li>
       <li class="list-group-item list-item-left-control">
         <div class="custom-control custom-switch custom-control-inline">
-          <input type="checkbox" checked class="custom-control-input" id="listSwitch-cond" />
+          <input
+            type="checkbox"
+            checked
+            class="custom-control-input"
+            id="listSwitch-cond"
+          />
           <label class="custom-control-label" for="listSwitch-cond"></label>
         </div>
         <span>Left Switch</span>
@@ -130,7 +265,12 @@
       <li class="list-group-item list-item-right-control">
         <span>Right Switch</span>
         <div class="custom-control custom-switch custom-control-inline">
-          <input type="checkbox" checked class="custom-control-input" id="listSwitch-cond2" />
+          <input
+            type="checkbox"
+            checked
+            class="custom-control-input"
+            id="listSwitch-cond2"
+          />
           <label class="custom-control-label" for="listSwitch-cond2"></label>
         </div>
       </li>
@@ -171,162 +311,6 @@
             value="customEx"
           />
           <label class="custom-control-label" for="customRadio-list5"></label>
-        </div>
-        <span>Left Radio Button</span>
-      </li>
-      <li class="list-group-item list-item-left-control">
-        <i class="modus-icon material-icons">settings</i>
-        <span>Left Icon</span>
-      </li>
-      <li class="list-group-item list-item-right-control">
-        <span>Right Icon</span>
-        <i class="modus-icon material-icons">settings</i>
-      </li>
-      <li class="list-group-item list-item-leftright-control">
-        <i class="modus-icon material-icons">settings</i>
-        <span>Both Icons</span>
-        <i class="icon modus-icons">check</i>
-      </li>
-    </ul>
-  </div>
-  ${require(`../partials/guide-code.html`)}
-</div>
-
-<h3>List Items - Outlined</h3>
-<div class="guide-example-block">
-  <div class="guide-sample">
-    <h6>List Items</h6>
-    <ul class="list-group list-group-outlined">
-      <li class="list-group-item active">List Item (active)</li>
-      <li class="list-group-item list-item-left-control">
-        <div class="custom-control custom-switch custom-control-inline">
-          <input type="checkbox" checked class="custom-control-input" id="listSwitch-outline1" />
-          <label class="custom-control-label" for="listSwitch-outline1"></label>
-        </div>
-        <span>Left Switch</span>
-      </li>
-      <li class="list-group-item list-item-right-control">
-        <span>Right Switch</span>
-        <div class="custom-control custom-switch custom-control-inline">
-          <input type="checkbox" checked class="custom-control-input" id="listSwitch-outline2" />
-          <label class="custom-control-label" for="listSwitch-outline2"></label>
-        </div>
-      </li>
-      <li class="list-group-item list-item-left-control">
-        <div class="custom-control custom-checkbox">
-          <input
-            type="checkbox"
-            checked
-            class="custom-control-input"
-            id="customCheck--outline1"
-            name="outline1"
-          />
-          <label class="custom-control-label" for="customCheck--outline1"></label>
-        </div>
-        <span>Left Checkbox</span>
-      </li>
-      <li class="list-group-item list-item-left-control">
-        <div class="custom-control custom-radio">
-          <input
-            type="radio"
-            checked
-            class="custom-control-input"
-            id="customRadio--outline1"
-            name="outline2"
-            value="customEx"
-          />
-          <label class="custom-control-label" for="customRadio--outline1"></label>
-        </div>
-        <span>Left Radio Button</span>
-      </li>
-      <li class="list-group-item list-item-left-control">
-        <div class="custom-control custom-radio">
-          <input
-            type="radio"
-            class="custom-control-input"
-            id="customRadio--outline2"
-            name="outline2"
-            value="customEx"
-          />
-          <label class="custom-control-label" for="customRadio--outline2"></label>
-        </div>
-        <span>Left Radio Button</span>
-      </li>
-      <li class="list-group-item list-item-left-control">
-        <i class="modus-icon material-icons">settings</i>
-        <span>Left Icon</span>
-      </li>
-      <li class="list-group-item list-item-right-control">
-        <span>Right Icon</span>
-        <i class="modus-icon material-icons">settings</i>
-      </li>
-      <li class="list-group-item list-item-leftright-control">
-        <i class="modus-icon material-icons">settings</i>
-        <span>Both Icons</span>
-        <i class="icon modus-icons">check</i>
-      </li>
-    </ul>
-  </div>
-  ${require(`../partials/guide-code.html`)}
-</div>
-
-<h3>List Items - Chromeless</h3>
-<div class="guide-example-block">
-  <div class="guide-sample">
-    <h6>List Items</h6>
-    <ul class="list-group list-group-chromeless">
-      <li class="list-group-item active">List Item (active)</li>
-      <li class="list-group-item list-item-left-control">
-        <div class="custom-control custom-switch custom-control-inline">
-          <input type="checkbox" checked class="custom-control-input" id="listSwitch-chromeless1" />
-          <label class="custom-control-label" for="listSwitch-chromeless1"></label>
-        </div>
-        <span>Left Switch</span>
-      </li>
-      <li class="list-group-item list-item-right-control">
-        <span>Right Switch</span>
-        <div class="custom-control custom-switch custom-control-inline">
-          <input type="checkbox" checked class="custom-control-input" id="listSwitch-chromeless2" />
-          <label class="custom-control-label" for="listSwitch-chromeless2"></label>
-        </div>
-      </li>
-      <li class="list-group-item list-item-left-control">
-        <div class="custom-control custom-checkbox">
-          <input
-            type="checkbox"
-            checked
-            class="custom-control-input"
-            id="customCheck-chromeless1"
-            name="chromeless1"
-          />
-          <label class="custom-control-label" for="customCheck-chromeless1"></label>
-        </div>
-        <span>Left Checkbox</span>
-      </li>
-      <li class="list-group-item list-item-left-control">
-        <div class="custom-control custom-radio">
-          <input
-            type="radio"
-            checked
-            class="custom-control-input"
-            id="customRadio-chromeless1"
-            name="chromeless2"
-            value="customEx"
-          />
-          <label class="custom-control-label" for="customRadio-chromeless1"></label>
-        </div>
-        <span>Left Radio Button</span>
-      </li>
-      <li class="list-group-item list-item-left-control">
-        <div class="custom-control custom-radio">
-          <input
-            type="radio"
-            class="custom-control-input"
-            id="customRadio-chromeless2"
-            name="chromeless2"
-            value="customEx"
-          />
-          <label class="custom-control-label" for="customRadio-chromeless2"></label>
         </div>
         <span>Left Radio Button</span>
       </li>

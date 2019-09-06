@@ -333,6 +333,7 @@ pre[class*='language-'] {
 .hover-div {
   position: absolute;
   pointer-events: none;
+  z-index: 9999;
 
   .hover-div-inner {
     border: rgba(87, 155, 218, 0.2) solid 1px;
