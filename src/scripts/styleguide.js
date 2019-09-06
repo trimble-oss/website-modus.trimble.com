@@ -563,6 +563,49 @@ $(document).ready(function () {
 // window.onload = initiate;
 
 $(function () {
+  // $('[data-toggle="popover"]').popover();
+
+   $('#feedback-button').popover({
+    content: `
+    <h5>Feedback</h5>
+    <button id="issueButton" class="btn btn-warning mr-2">
+          Report an Issue
+        </button>
+        <button id="featureButton" class="btn btn-primary">
+          Request a Feature
+        </button>
+    `,
+    container: 'body',
+    html: true,
+    trigger: 'click',
+    placement: 'bottom',
+    offset: '-50,0'
+  });
+
+  $('#feedback-button').on('shown.bs.popover', function () {
+    // Init JIRA buttons
+    window.ATL_JQ_PAGE_PROPS = $.extend(window.ATL_JQ_PAGE_PROPS, {
+      '9127b19e' : {
+        triggerFunction:
+        function(showCollectorDialog) {
+          $("#issueButton").click(function(e) {
+            e.preventDefault();
+            showCollectorDialog();
+          });
+        }
+      },
+      'eac08567' : {
+        triggerFunction:
+        function(showCollectorDialog) {
+          $("#featureButton").click(function(e) {
+            e.preventDefault();
+            showCollectorDialog();
+          });
+        }
+      }
+    });
+  });
+
   function findAnchorElement(path) {
     const anchors = $('a[href]').toArray();
     const currentAnchor = anchors.find(node => node.href.endsWith(path));
