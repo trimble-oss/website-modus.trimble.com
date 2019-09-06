@@ -86,10 +86,6 @@ $(document).ready(function () {
     $('.guide-sample').css('background-color', '#ffffff');
   }
 
-  $('.guide-tabs .nav-item a').on('click', e => {
-    // $('.guide-code-options').toggleClass('invisible');
-  });
-
   $('.guide-code').each(function (i, block) {
     var prev_html = Pretty(
       $(block)
@@ -525,6 +521,14 @@ $(document).ready(function () {
     setTimeout(() => {
       window.location.href = oghref;
     }, 200);
+  } else if (href.includes('Start-')) { // builds right nav for foundations section
+    let elem = $('.guide-section');
+    const thisNav = $(elem).attr('id') + '-nav';
+    const navItems = $(elem).children('h2,h3,h4');
+    buildRightNav(navItems, thisNav);
+    setTimeout(() => {
+      window.location.href = oghref;
+    }, 200);
   } else if (href.includes('Foundations-')) { // builds right nav for foundations section
     let elem = $('.guide-section');
     const thisNav = $(elem).attr('id') + '-nav';
@@ -577,7 +581,9 @@ $(function () {
     }
 
     const parentElementId = parentElement[0].id;
-    return parentElementId === 'componentsSubnav'
+    return parentElementId === 'startSubnav'
+    ? [$('#start'), $('#startSubnav')]
+      : parentElementId === 'componentsSubnav'
       ? [$('#components'), $('#componentsSubnav')]
       : parentElementId === 'utilitiesSubnav'
         ? [$('#utilities'), $('#utilitiesSubnav')]
