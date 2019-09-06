@@ -16,28 +16,12 @@ ${require(`../partials/header.html`)}
       <table class="table table-striped status-table">
         <thead>
           <tr>
-            <th scope="col" rowspan="2" class="align-top">Element</th>
-            <th scope="col" rowspan="2" class="align-top">
-              Style Definition
-              <p class="m-0 font-weight-normal"><span class="badge badge-success badge-pill">Stable</span> = Design published</p>
-              <p class="m-0 font-weight-normal"><span class="badge badge-warning badge-pill">Beta</span> = Design still in progress</p>
-              <p class="m-0 font-weight-normal"><span class="badge badge-danger badge-pill">U/C</span> = Under Construction</p>
-            </th>
-            <th scope="col" rowspan="2" class="align-top">
-              HTML/CSS
-              <p class="m-0 font-weight-normal"><span class="badge badge-success badge-pill">#</span> = Stable Version</p>
-              <p class="m-0 font-weight-normal"><span class="badge badge-danger badge-pill">U/C</span> = Under Construction</p>
-              <p class="m-0 font-weight-normal">&nbsp;</p>
-            </th>
-            <th scope="col" class="align-top" style="border-bottom: 0">Vanilla JS</th>
-            <th scope="col" class="align-top" style="border-bottom: 0">Angular<br>(ngx-bootstrap)</th>
-            <th scope="col" class="align-top" style="border-bottom: 0">React<br>(react-bootstrap)</th>
-          </tr>
-          <tr>
-            <th colspan="3" class="text-center" style="border-top: 0">              
-                <p class="m-0 font-weight-normal"><span class="badge badge-secondary badge-pill">Available</span> = 3rd Party Exists</p>
-                <p class="m-0 font-weight-normal"><span class="badge badge-tertiary badge-pill">N/R</span> = Code component not required</p>
-            </th>
+            <th scope="col" class="align-bottom">Element</th>
+            <th scope="col" class="align-bottom">Style Definition</th>
+            <th scope="col" class="align-bottom">HTML/CSS</th>
+            <th scope="col" class="align-bottom">Vanilla JS</th>
+            <th scope="col" class="align-bottom">Angular<br>(ngx-bootstrap)</th>
+            <th scope="col" class="align-bottom">React<br>(react-bootstrap)</th>
           </tr>
         </thead>
         <tbody>
@@ -278,7 +262,7 @@ ${require(`../partials/header.html`)}
             <td><span class="badge badge-warning badge-pill">Beta</span></td>
             <td><span class="badge badge-warning badge-pill">Beta</span></td>
             <td><span class="badge badge-secondary badge-pill">Available</span></td>
-            <td><span class="badge badge-danger badge-pill">U/C</span></td>
+            <td><span class="badge badge-secondary badge-pill">ngx-toastr</span></td>
             <td><span class="badge badge-secondary badge-pill">Available</span></td>
           </tr>
           <tr>
@@ -320,6 +304,23 @@ ${require(`../partials/header.html`)}
             <td><span class="badge badge-secondary badge-pill">Available</span></td>
             <td><span class="badge badge-secondary badge-pill">Available</span></td>
             <td><span class="badge badge-secondary badge-pill">Available</span></td>
+          </tr>
+          <tr>
+            <th scope="col" class="align-top"></th>
+            <th scope="col" class="align-top">
+              <p class="m-0 font-weight-normal"><span class="badge badge-success badge-pill">Stable</span> = Design published</p>
+              <p class="m-0 font-weight-normal"><span class="badge badge-warning badge-pill">Beta</span> = Design still in progress</p>
+              <p class="m-0 font-weight-normal"><span class="badge badge-danger badge-pill">U/C</span> = Under Construction</p>
+            </th>
+            <th scope="col" class="align-top">
+              <p class="m-0 font-weight-normal"><span class="badge badge-success badge-pill">#</span> = Stable Version</p>
+              <p class="m-0 font-weight-normal"><span class="badge badge-danger badge-pill">U/C</span> = Under Construction</p>
+              <p class="m-0 font-weight-normal">&nbsp;</p>
+            </th>
+            <th colspan="3" class="text-center">
+                <p class="m-0 font-weight-normal"><span class="badge badge-secondary badge-pill">Available</span> = 3rd Party Exists</p>
+                <p class="m-0 font-weight-normal"><span class="badge badge-tertiary badge-pill">N/R</span> = Code component not required</p>
+            </th>
           </tr>
         </tbody>
       </table>
