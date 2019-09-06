@@ -1,6 +1,12 @@
 <h1 id="changelog">Changelog</h1>
 <p>All notable changes to this project will be documented in this file.</p>
-<h2 id="v100betafuturechanges">v1.0.0-beta - Future Changes</h2>
+<h2 id="v090">v0.9.0</h2>
+<h3 id="frameworknamechange">Framework Name Change</h3>
+<ul>
+<li>Changed name of framework files from <code>ether*.css</code> to <code>modus*.css</code></li>
+<li>Changed name of layout classes from <code>ether*</code> to <code>modus*</code></li>
+<li>Removed <code>material-icons</code> from <code>$icon-font-classes</code>. Now include the <code>modus-icon</code> class when using <code>material-icons</code>.</li>
+</ul>
 <h3 id="general">General</h3>
 <ul>
 <li>Updated to Bootstrap v4.3.1</li>
@@ -11,11 +17,11 @@
 <li>Added <code>$trimble-grays</code> <code>.bg-</code> color classes</li>
 <li>Removed <code>light</code> color from <code>$theme-colors</code></li>
 <li>Removed <code>info</code> color from <code>$theme-colors</code></li>
-<li>Added <code>tertiary</code> color to <code>$theme-colors</code> based on Trimble Gray 0 (#EAEAEF)</li>
+<li>Added <code>tertiary</code> color to <code>$theme-colors</code> based on Trimble Gray 2 (#D0D0D7)</li>
 <li>Added <code>yellow</code> color to <code>$theme-colors</code> based on Trimble Yellow (#FFBE00)</li>
-<li>Changed <code>secondary</code> color in <code>$theme-colors</code> to #009AD9</li>
+<li>Changed <code>secondary</code> color in <code>$theme-colors</code> to Trimble Gray 6 (#8C8B96)</li>
 <li>Changed <code>warning</code> color in <code>$theme-colors</code> to #FFA500</li>
-<li>Changed <code>active</code> color in <code>$ui-colors</code> to #0C77BE</li>
+<li>Changed <code>active</code> color in <code>$ui-colors</code> to Blue Alt (#0C77BE)</li>
 <li>Renamed gray colors to Trimble Gray naming scheme</li>
 </ul>
 <h3 id="typography">Typography</h3>
@@ -26,6 +32,14 @@
 </ul>
 <h3 id="components">Components</h3>
 <ul>
+<li>Adjusted List Group border color to #EAEAEF (UI hover color)</li>
+<li>Styled <code>.list-group-outlined</code> (deprecated) to match default List Group</li>
+<li>Added <code>.list-group-borderless</code> which matches <code>.list-group-chromeless</code> (deprecated)</li>
+<li>Adjusted Modal Header and Footer to be 3.75rem (60px) in height</li>
+<li>Adjusted Modal Title to be 1rem (16px) bold</li>
+<li>Change modal header and footer internal border color to Trimble Gray 1</li>
+<li>Adjusted badges to have fixed heights (sm: 14px, default: 20px, lg: 28px)</li>
+<li>Adjusted table styles to work with buttons and custom controls</li>
 <li>Changed custom range styles and added hover styles</li>
 <li>Added hover styles to custom switches, radios, and checkboxes</li>
 <li>Revised list group styles (normal heigh 48px, small height 32px)</li>
@@ -44,7 +58,7 @@
 <h2 id="v03220190802">v0.3.2 - 2019-08-02</h2>
 <h3 id="layoutfixes">Layout Fixes</h3>
 <ul>
-<li>Fixed issue with <code>.ether-content-columns</code> not behaving correctly in Firefox (related to bug with <code>flex-shrink</code> property)</li>
+<li>Fixed issue with <code>.ether-content-columns</code> <em>(Note: "ether" class names were changed to "modus" in v0.9.0)</em> not behaving correctly in Firefox (related to bug with <code>flex-shrink</code> property)</li>
 <li>Changed <code>.ether-header</code> height to 56px</li>
 </ul>
 <h3 id="components-1">Components</h3>
@@ -67,7 +81,7 @@
 <li>Updated List style for disabled state</li>
 <li>Updated Tables styles for hover, disabled and selected states</li>
 <li>Updated Form Control's disabled state opacity to 0.7</li>
-<li>updated <code>.custom-control-label</code> font to match with form label font size and fixed vertical align. </li>
+<li>updated <code>.custom-control-label</code> font to match with form label font size and fixed vertical align.</li>
 </ul>
 <h3 id="colorpalette-1">Color Palette</h3>
 <ul>
@@ -109,6 +123,7 @@
   |           └── div.ether-content
   └── div.ether-footer
 </code></pre>
+<p><em>(Note: "ether" class names were changed to "modus" in v0.9.0)</em></p>
 <h2 id="v02020190503">v0.2.0 - 2019-05-03</h2>
 <h3 id="componentupdates">Component Updates</h3>
 <ul>
@@ -118,7 +133,7 @@
 <h2 id="v013320190429">v0.1.33 - 2019-04-29</h2>
 <h3 id="icons">Icons</h3>
 <ul>
-<li>Allow for multiple icon libraries (defaults to <code>ether-icons</code> and <code>material-icons</code>)</li>
+<li>Allow for multiple icon libraries (defaults to <code>ether-icons</code> and <code>material-icons</code>) <em>(Note: "ether-icons" class names were changed to "modus-icons" in v0.9.0)</em></li>
 </ul>
 <h2 id="v013220190429">v0.1.32 - 2019-04-29</h2>
 <h3 id="inputs">Inputs</h3>
