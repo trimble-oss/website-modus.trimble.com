@@ -578,9 +578,9 @@ $(function () {
     content: $('#feedbackPopoverContent'),
     container: 'body',
     html: true,
-    trigger: 'click',
+    trigger: 'focus',
     placement: 'bottom',
-    offset: '-90,0'
+    offset: '-100,0'
   });
 
   $('#feedback-button').on('show.bs.popover', function () {
