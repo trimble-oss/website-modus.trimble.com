@@ -16,21 +16,117 @@
   <li>Add visual consistency</li>
 </ul>
 
-<table class="table table-bordered bg-white" style="max-width: 334px">
+<table class="table table-bordered bg-white">
   <tr>
     <td>
-      <img
-        src="${require('../img/guide/elements--tabs-example.png')}"
-        alt="Tabs example"
-      />
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+          <a
+            class="nav-link active show"
+            id="firstTab"
+            data-toggle="tab"
+            href="#first"
+            role="tab"
+            aria-controls="first"
+            aria-selected="true"
+            >Dogs</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="secondTab"
+            data-toggle="tab"
+            href="#second"
+            role="tab"
+            aria-controls="second"
+            aria-selected="false"
+            >Cats</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            id="thirdTab"
+            data-toggle="tab"
+            href="#third"
+            role="tab"
+            aria-controls="third"
+            aria-selected="false"
+            >Birds</a
+          >
+        </li>
+      </ul>
+      <div class="tab-content py-3" id="myTabContent">
+        <div
+          class="tab-pane fade active show"
+          id="first"
+          role="tabpanel"
+          aria-labelledby="first-tab"
+        >
+          <ul class="m-0">
+            <li>
+              Beagle
+            </li>
+            <li>
+              Bloodhound
+            </li>
+            <li>
+              Maltese
+            </li>
+            <li>
+              Shih Tzu
+            </li>
+          </ul>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="second"
+          role="tabpanel"
+          aria-labelledby="second-tab"
+        >
+          <ul class="m-0">
+            <li>
+              Burmese
+            </li>
+            <li>
+              Siamese
+            </li>
+            <li>
+              Sphynx
+            </li>
+            <li>
+              Snowshoe
+            </li>
+          </ul>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="third"
+          role="tabpanel"
+          aria-labelledby="third-tab"
+        >
+          <ul class="m-0">
+            <li>
+              Parrot
+            </li>
+            <li>
+              Pigeon
+            </li>
+            <li>
+              Chicken
+            </li>
+            <li>
+              Raven
+            </li>
+          </ul>
+        </div>
+      </div>
     </td>
   </tr>
   <tr>
     <td>
-      <p>
-        Tabs should be related to each other and fall under one category (i.e.
-        in-model and browse in SketchUp styles panel)
-      </p>
+      Tabs should be related to each other and fall under one category.
     </td>
   </tr>
 </table>
@@ -54,6 +150,31 @@
 
 <h3>Visual Language</h3>
 <h5>To inform judgment about color, type, space, and more</h5>
+
+<div class="guide-example-block my-3">
+  <div class="guide-content-sample anatomy-display-container bg-white">
+    <ul class="nav nav-tabs mb-5">
+      <li class="nav-item">
+        <a class="nav-link active anatomy-display-static" href="#">Default</a>
+      </li>
+    </ul>
+    <ul class="nav nav-tabs mb-5">
+      <li class="nav-item">
+        <a class="nav-link hover text-decoration-none anatomy-display-static" href="#">Hover</a>
+      </li>
+    </ul>
+    <ul class="nav nav-tabs nav-tabs-sm">
+      <li class="nav-item">
+        <a
+          class="nav-link active anatomy-display-static"
+          href="#"
+          data-anatomy-colors="false"
+          >Small</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
 
 <ul>
   <li>Tabs should always be placed on top of the content they represent</li>
@@ -136,10 +257,13 @@
     <td>
       <ul class="nav nav-tabs">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link" href="#">Active</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-truncate" style="max-width: 200px;" href="#"
+          <a
+            class="nav-link active text-truncate"
+            style="max-width: 200px;"
+            href="#"
             >Really long tab name that's truncated</a
           >
         </li>
