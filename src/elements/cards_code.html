@@ -1,126 +1,120 @@
+<h2>Overview</h2>
+<p>
+  Cards are built with as little markup and styles as possible, but still manage
+  to deliver a ton of control and customization. Built with flexbox, they offer
+  easy alignment and mix well with other Bootstrap components. They have no
+  <code>margin</code> by default, so use
+  <a href="padding_margin.html">spacing utilities</a> as needed.
+</p>
 
-  <h2>Overview</h2>
-  <p>
-    The .btn classes are designed to be used with the
-    <code>&lt;button&gt;</code> element. However, you can also use these classes
-    on <code>&lt;a&gt;</code> or
-    <code>&lt;input&gt;</code> elements (though some browsers may apply a slightly different rendering).
-  </p>
-  <p>
-    When using button classes on
-    <code>&lt;a&gt;</code> elements that are used to trigger in-page functionality (like collapsing
-    content), rather than linking to new pages or sections within the current page, these links should be
-    given a role="button" to appropriately convey their purpose to assistive technologies such as screen
-    readers.
-  </p>
-
-  <h3 class="mt-5">Card</h3>
-  <div class="guide-example-block">
-    <div class="guide-sample bg-light d-flex justify-content-center">
-      <div class="card" style="width: 14rem;">
-        <div class="card-body">
-          <h5 class="card-title">Card Title</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
+<h3>Card Example</h3>
+<p>
+  Cards use a wrapper of class <code>.card</code> followed by a
+  <code>.card-body</code> container.
+</p>
+<p>
+  <code>.card-title</code> and <code>.card-subtitle</code> are used to space out
+  the title and subtitle appropriately.
+</p>
+<div class="guide-example-block">
+  <div class="guide-sample d-flex justify-content-center">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h4 class="card-title">Card title</h4>
+        <h5 class="card-subtitle mb-2 text-muted">Card subtitle</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
-    ${require(`../partials/guide-code.html`)}
   </div>
+  ${require(`../partials/guide-code.html`)}
+</div>
 
-  <h3 class="mt-5">Card with Image</h3>
-  <div class="guide-example-block">
-    <div class="guide-sample bg-light d-flex justify-content-center">
-      <div class="card mb-2" style="width: 18rem;">
-        <img class="card-img-top" src="https://fakeimg.pl/286x150/" alt="Card image cap" />
-        <div class="card-body">
-          <h4 class="card-title">Card Title</h4>
-          <h5 class="card-subtitle mb-2 text-muted">Card Subtitle</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </p>
-        </div>
+<h3>Card with Image</h3>
+<p>To add an image to the top of the card, use <code>.card-img-top</code></p>
+<div class="guide-example-block">
+  <div class="guide-sample d-flex justify-content-center">
+    <div class="card" style="width: 18rem;">
+      <img
+        class="card-img-top"
+        src="https://fakeimg.pl/286x150/"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h4 class="card-title">Card Title</h4>
+        <h5 class="card-subtitle mb-2 text-muted">Card Subtitle</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
       </div>
     </div>
-    ${require(`../partials/guide-code.html`)}
   </div>
+  ${require(`../partials/guide-code.html`)}
+</div>
 
-  <h3 class="mt-5">Card Shadow & Depth</h3>
-  <div class="guide-example-block">
-    <div
-      class="guide-sample bg-light"
-      style="display: grid; grid-template-columns: repeat(3, 1fr); justify-items: center; grid-gap: 2rem;"
-    >
-      <div class="card" style="width: 14rem;">
-        <div class="card-body">
-          <h5 class="card-title">No Shadow Depth</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
+<h3>Header and Footer</h3>
+<p>
+  Cards can also have a header and footer. Simply use the classes
+  <code>.card-header</code> and <code>.card-footer</code>
+</p>
+<div class="guide-example-block">
+  <div class="guide-sample d-flex justify-content-center">
+    <div class="card" style="width: 18rem;">
+      <div class="card-header">Card Header</div>
+      <div class="card-body">
+        <h4 class="card-title">Card Title</h4>
+        <h5 class="card-subtitle mb-2 text-muted">Card Subtitle</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
       </div>
-      <div class="card shadow-1" style="width: 14rem;">
-        <div class="card-body">
-          <h5 class="card-title">Shadow Depth 1</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
+      <div class="card-footer">Card Footer</div>
+    </div>
+  </div>
+  ${require(`../partials/guide-code.html`)}
+</div>
+
+<h3>Customizing Cards</h3>
+<p>
+  Cards primarily serve as containers to organize content for your needs. They
+  can be combined with other UI elements and utility classes for a broad range
+  of customization
+</p>
+<div class="guide-example-block">
+  <div class="guide-sample d-flex justify-content-center">
+    <div class="card border-dark shadow-3" style="width: 18rem;">
+      <img
+        class="card-img-top"
+        src="https://fakeimg.pl/286x150/"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <h3 class="card-title">Card title</h3>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
       </div>
-      <div class="card shadow-2" style="width: 14rem;">
-        <div class="card-body">
-          <h5 class="card-title">Shadow Depth 2</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
-      <div class="card shadow-3" style="width: 14rem;">
-        <div class="card-body">
-          <h5 class="card-title">Shadow Depth 3</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
-      <div class="card shadow-4" style="width: 14rem;">
-        <div class="card-body">
-          <h5 class="card-title">Shadow Depth 4</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
-      </div>
-      <div class="card shadow-5" style="width: 14rem;">
-        <div class="card-body">
-          <h5 class="card-title">Shadow Depth 5</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </p>
-          <a href="#" class="card-link">Card link</a>
-          <a href="#" class="card-link">Another link</a>
-        </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">List Item</li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          List Item with Badge
+          <span class="badge badge-primary badge-pill">14</span>
+        </li>
+        <li class="list-group-item">List Item</li>
+      </ul>
+      <div class="card-footer text-right">
+        <a href="#" class="card-link">Link</a>
+        <a href="#" class="card-link btn btn-primary">Button</a>
       </div>
     </div>
-    ${require(`../partials/guide-code.html`)}
   </div>
+  ${require(`../partials/guide-code.html`)}
+</div>
