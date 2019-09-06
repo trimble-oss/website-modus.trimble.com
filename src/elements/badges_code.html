@@ -1,13 +1,14 @@
 <h2>Overview</h2>
 <p>
-  Badges scale so that their height matches the font-size of their immediate parent element by using
-  relative font sizing and em units.
+  Badges scale so that their height matches the font-size of their immediate
+  parent element by using relative font sizing and em units.
 </p>
 
 <h3>Regular Badges</h3>
 <p>
-  Use <code>.badge</code> class along with a <code>.badge-{theme-color}</code> class to create
-  badges base on our <a href="/colors.html">Theme Colors.</a>
+  Use <code>.badge</code> class along with a
+  <code>.badge-{theme-color}</code> class to create badges base on our
+  <a href="/colors.html">Theme Colors.</a>
 </p>
 <div class="guide-example-block">
   <div class="guide-sample">
@@ -24,8 +25,8 @@
 
 <h3>Text Badges</h3>
 <p>
-  Add a <code>.badge-text-{theme-color}</code> class to your badge for a text variant that maintains
-  the same spacing, just without the background color.
+  Add a <code>.badge-text-{theme-color}</code> class to your badge for a text
+  variant that maintains the same spacing, just without the background color.
 </p>
 <div class="guide-example-block">
   <div class="guide-sample">
@@ -41,7 +42,9 @@
 </div>
 
 <h3>Pills</h3>
-<p>Use the <code>.badge-pill</code> modifier class to make badges more rounded</p>
+<p>
+  Use the <code>.badge-pill</code> modifier class to make badges more rounded
+</p>
 <div class="guide-example-block">
   <div class="guide-sample">
     <div>
@@ -66,10 +69,57 @@
   ${require(`../partials/guide-code.html`)}
 </div>
 
+<h3>Badges with icons</h3>
+<p>
+  When using icons within badges, make sure that the icons have a class of
+  <code>.modus-icon</code> to apply proper styling.
+</p>
+<p>
+  If using our own library of icons, the styling is applied automatically.
+</p>
+<div class="guide-example-block">
+  <div class="guide-sample">
+    <div class="mb-2">
+      <span class="badge badge-sm badge-secondary">
+        <i class="modus-icons">poi</i>
+      </span>
+      <span class="badge badge-sm badge-text-success">
+        <i class="modus-icon material-icons">check</i>
+      </span>
+      <span class="badge badge-sm badge-pill badge-danger">
+        <i class="modus-icon fas fa-exclamation-circle"></i>
+      </span>
+    </div>
+    <div class="mb-2">
+      <span class="badge badge-secondary">
+        <i class="modus-icons">poi</i>
+      </span>
+      <span class="badge badge-text-success">
+        <i class="modus-icon material-icons">check</i>
+      </span>
+      <span class="badge badge-pill badge-danger">
+        <i class="modus-icon fas fa-exclamation-circle"></i>
+      </span>
+    </div>
+    <div>
+      <span class="badge badge-lg badge-secondary">
+        <i class="modus-icons">poi</i>
+      </span>
+      <span class="badge badge-lg badge-text-success">
+        <i class="modus-icon material-icons">check</i>
+      </span>
+      <span class="badge badge-lg badge-pill badge-danger">
+        <i class="modus-icon fas fa-exclamation-circle"></i>
+      </span>
+    </div>
+  </div>
+  ${require(`../partials/guide-code.html`)}
+</div>
+
 <h3>Badges in other elements</h3>
 <p>
-  Badges can be inserted into other elements. Just be sure to utilize our utility classes to
-  position your badges appropriately.
+  Badges can be inserted into other elements. Just be sure to utilize our
+  utility classes to position your badges appropriately.
 </p>
 <div class="guide-example-block">
   <div class="guide-sample">
@@ -82,13 +132,17 @@
       <span class="sr-only">unread messages</span>
     </button>
     <ul class="mt-3 list-group">
-      <li class="list-group-item d-flex justify-content-between align-items-center">
+      <li
+        class="list-group-item d-flex justify-content-between align-items-center"
+      >
         List with Badge
         <span class="badge badge-primary badge-pill">14</span>
       </li>
     </ul>
     <ul class="mt-3 list-group">
-      <li class="list-group-item d-flex justify-content-between align-items-center">
+      <li
+        class="list-group-item d-flex justify-content-between align-items-center"
+      >
         List with Text Badge
         <span class="badge badge-text-primary badge-pill">14</span>
       </li>
