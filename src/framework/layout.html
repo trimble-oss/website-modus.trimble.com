@@ -15,63 +15,63 @@ ${require(`../partials/header.html`)}
         The basic structure for our Modus Layout, including the sidebar,
         toolbar, and panel, is as follows:
       </p>
-      <pre><code class="plaintext language-plaintext">  div.ether-layout
-        ├── nav.ether-header
-        ├── div.ether-body
-        |   ├── nav.ether-sidebar
-        |   └── div.ether-content-rows
-        |       ├── div.ether-toolbar(optional)
-        |       └── div.ether-content-columns
-        |           ├── div.ether-panel(optional)
-        |           └── div.ether-content
-        └── div.ether-footer
+      <pre><code class="plaintext language-plaintext">  div.modus-layout
+        ├── nav.modus-header
+        ├── div.modus-body
+        |   ├── nav.modus-sidebar
+        |   └── div.modus-content-rows
+        |       ├── div.modus-toolbar(optional)
+        |       └── div.modus-content-columns
+        |           ├── div.modus-panel(optional)
+        |           └── div.modus-content
+        └── div.modus-footer
       </code></pre>
       <p>
-        The page should be wrapped in a <code>.ether-layout</code> to set up the
+        The page should be wrapped in a <code>.modus-layout</code> to set up the
         overall structure.
       </p>
       <p>
         The top navbar is a standard Bootstrap
         <code>nav.navbar.navbar-expand-lg</code> with an additional class of
-        <code>.ether-header</code> to apply the aesthetics. Please refer to the
+        <code>.modus-header</code> to apply the aesthetics. Please refer to the
         <a href="https://getbootstrap.com/docs/4.2/components/navbar/"
           >Bootstrap Navbar Docs</a
         >
         for more information.
       </p>
       <p>
-        The <code>.ether-header</code> should be followed by
-        <code>.ether-body</code> to set up the left nav area and main content
+        The <code>.modus-header</code> should be followed by
+        <code>.modus-body</code> to set up the left nav area and main content
         area.
       </p>
       <p>
-        After <code>.ether-body</code> should be
-        <code>nav.ether-sidebar</code> which contains a vertical nav list (more
+        After <code>.modus-body</code> should be
+        <code>nav.modus-sidebar</code> which contains a vertical nav list (more
         info below).
       </p>
       <p>
-        The next sibling element after the <code>.ether-sidebar</code> should be
-        <code>.ether-content-rows</code> with an optional child of
-        <code>.ether-toolbar</code>.
+        The next sibling element after the <code>.modus-sidebar</code> should be
+        <code>.modus-content-rows</code> with an optional child of
+        <code>.modus-toolbar</code>.
       </p>
       <p>
-        After <code>.ether-content-rows</code> should be
-        <code>.ether-content-columns</code> with an optional child of
-        <code>.ether-panel</code>.
+        After <code>.modus-content-rows</code> should be
+        <code>.modus-content-columns</code> with an optional child of
+        <code>.modus-panel</code>.
       </p>
       <p>
-        Your main content is housed within <code>.ether-content</code> inside of
-        <code>.ether-content-columns</code>.
+        Your main content is housed within <code>.modus-content</code> inside of
+        <code>.modus-content-columns</code>.
       </p>
       <p>
-        After the <code>.ether-body</code>, the next element should be
-        <code>.ether-footer</code>.
+        After the <code>.modus-body</code>, the next element should be
+        <code>.modus-footer</code>.
       </p>
 
       <h3 class="mt-5">Interactive Example</h3>
       <p>
         To help illustrate how all the layout elements look when displayed
-        together, we have this interactive example.
+        togmodus, we have this interactive example.
       </p>
       <p>
         Click the switches to toggle the respective layout elements. Click the
@@ -129,14 +129,14 @@ ${require(`../partials/header.html`)}
           style="height: 600px; z-index: 10;"
         >
           <!-- Modus Layout Page Wrapper -->
-          <div class="ether-layout">
+          <div class="modus-layout">
             <!-- Modus Header -->
             <nav
-              class="navbar nav navbar-expand-lg ether-header"
-              id="etherHeader"
+              class="navbar nav navbar-expand-lg modus-header"
+              id="modusHeader"
             >
               <!-- Menu Button -->
-              <a id="menuButton" data-ether-item="menu-btn"
+              <a id="menuButton" data-modus-item="menu-btn"
                 ><i class="modus-icon material-icons menu-btn">menu</i></a
               >
 
@@ -164,25 +164,25 @@ ${require(`../partials/header.html`)}
 
             <!-- Modus Body Wrapper -->
             <div
-              class="ether-body sidebar-closed"
-              data-ether-item="body"
-              id="etherBody"
+              class="modus-body sidebar-closed"
+              data-modus-item="body"
+              id="modusBody"
             >
-              <nav class="nav flex-column ether-sidebar" id="etherSidebar">
+              <nav class="nav flex-column modus-sidebar" id="modusSidebar">
                 <!-- Modus Sidebar -->
 
                 <ul>
                   <li>
                     <a href="#" class="nav-link active"
                       ><span class="left-nav-icon"
-                        ><i class="modus-icon material-icons">3d_buildings</i></span
+                        ><i class="modus-icons">3d_buildings</i></span
                       >Nav Item 1</a
                     >
                   </li>
                   <li>
                     <a href="#" class="nav-link"
                       ><span class="left-nav-icon"
-                        ><i class="modus-icon material-icons">preview</i></span
+                        ><i class="modus-icons">preview</i></span
                       >Nav Item 2</a
                     >
                   </li>
@@ -196,8 +196,8 @@ ${require(`../partials/header.html`)}
                 </ul>
               </nav>
 
-              <div class="ether-content-rows" id="etherContentRows">
-                <div class="ether-toolbar" id="etherToolbar">
+              <div class="modus-content-rows" id="modusContentRows">
+                <div class="modus-toolbar" id="modusToolbar">
                   <!-- Modus Toolbar -->
 
                   <form class="form-inline ml-3 mr-5">
@@ -217,7 +217,7 @@ ${require(`../partials/header.html`)}
                     <i class="modus-icon material-icons">palette</i>
                   </button>
                   <button class="btn btn-text-dark btn-lg btn-icon-only">
-                    <i class="modus-icon material-icons">calendar</i>
+                    <i class="modus-icons">calendar</i>
                   </button>
                   <button class="btn btn-text-dark btn-lg btn-icon-only">
                     <i class="modus-icon material-icons">settings</i>
@@ -235,8 +235,8 @@ ${require(`../partials/header.html`)}
                   </form>
                 </div>
 
-                <div class="ether-content-columns" id="etherContentColumns">
-                  <div class="ether-panel panel-lg shadow-1" id="etherPanel">
+                <div class="modus-content-columns" id="modusContentColumns">
+                  <div class="modus-panel panel-lg shadow-1" id="modusPanel">
                     <!-- Modus Panel -->
 
                     <!-- Panel Header -->
@@ -259,7 +259,7 @@ ${require(`../partials/header.html`)}
                       <h5>Panel Header</h5>
                       <div class="right-items mr-2">
                         <button class="btn btn-icon-only btn-text-dark">
-                          <i class="modus-icon material-icons">unloaded_orders</i>
+                          <i class="modus-icons">unloaded_orders</i>
                         </button>
                       </div>
                     </div>
@@ -269,30 +269,30 @@ ${require(`../partials/header.html`)}
                       <div class="static-container">
                         <div class="d-flex">
                           <button class="btn btn-icon-only btn-text-dark">
-                            <i class="modus-icon material-icons">filter</i>
+                            <i class="modus-icons">filter</i>
                           </button>
                           <button class="btn btn-icon-only btn-text-dark">
-                            <i class="modus-icon material-icons">layout</i>
+                            <i class="modus-icons">layout</i>
                           </button>
                           <button class="btn btn-icon-only btn-text-dark">
-                            <i class="modus-icon material-icons">route_add</i>
+                            <i class="modus-icons">route_add</i>
                           </button>
                           <button
                             class="btn btn-icon-only btn-text-dark disabled"
                           >
-                            <i class="modus-icon material-icons">finalize_route</i>
+                            <i class="modus-icons">finalize_route</i>
                           </button>
                           <button
                             class="btn btn-icon-only btn-text-dark disabled"
                           >
-                            <i class="modus-icon material-icons">trim_fake_orders</i>
+                            <i class="modus-icons">trim_fake_orders</i>
                           </button>
                         </div>
                         <div class="d-flex">
                           <button
                             class="btn btn-icon-only btn-text-dark align-self-end"
                           >
-                            <i class="modus-icon material-icons">sort</i>
+                            <i class="modus-icons">sort</i>
                           </button>
                         </div>
                       </div>
@@ -328,7 +328,7 @@ ${require(`../partials/header.html`)}
                     <div class="panel-footer">Panel Footer</div>
                   </div>
 
-                  <div class="ether-content p-5" id="etherContent">
+                  <div class="modus-content p-5" id="modusContent">
                     <!-- Modus Content -->
 
                     <h1>Content</h1>
@@ -373,7 +373,7 @@ ${require(`../partials/header.html`)}
             </div>
 
             <!-- Modus Footer -->
-            <div class="ether-footer">Modus Footer</div>
+            <div class="modus-footer">Modus Footer</div>
           </div>
         </div>
       </div>
@@ -382,20 +382,20 @@ ${require(`../partials/header.html`)}
       <p>
         The Modus sidebar is a simple Bootstrap
         <code>.nav flex-column</code> element with an additional
-        <code>.ether-sidebar</code> class for styling. Each
+        <code>.modus-sidebar</code> class for styling. Each
         <code>.nav-link</code> should have an icon or image with a class of
         <code>.left-nav-icon</code>.
       </p>
       <p>
-        The <code>.ether-body</code> should have a class of either
+        The <code>.modus-body</code> should have a class of either
         <code>.sidebar-open</code> or <code>.sidebar-closed</code> to open or
         close the sidebar.
       </p>
       <p>
         Toggling the sidebar is done through a menu button icon with an
-        attribute of <code>data-ether-item="menu-btn"</code>. The
-        <code>.ether-body</code> should also have a corresponding attribute of
-        <code>data-ether-item="body"</code>.
+        attribute of <code>data-modus-item="menu-btn"</code>. The
+        <code>.modus-body</code> should also have a corresponding attribute of
+        <code>data-modus-item="body"</code>.
       </p>
       <div class="guide-example-block">
         <div
@@ -404,19 +404,19 @@ ${require(`../partials/header.html`)}
           id="sidebarExample"
         >
           <!-- Modus Layout Page Wrapper -->
-          <div class="ether-layout">
+          <div class="modus-layout">
             <!-- Modus Header -->
-            <nav class="navbar navbar-expand-lg ether-header">
-              <a data-ether-item="menu-btn"
+            <nav class="navbar navbar-expand-lg modus-header">
+              <a data-modus-item="menu-btn"
                 ><i class="modus-icon material-icons menu-btn">menu</i></a
               >
               <a href="#" class="navbar-brand">BRAND</a>
             </nav>
 
             <!-- Modus Body Wrapper -->
-            <div class="ether-body sidebar-open" data-ether-item="body">
+            <div class="modus-body sidebar-open" data-modus-item="body">
               <!-- Modus Sidebar -->
-              <nav class="nav flex-column ether-sidebar">
+              <nav class="nav flex-column modus-sidebar">
                 <ul>
                   <li>
                     <a class="nav-link active" href="#"
@@ -475,19 +475,18 @@ ${require(`../partials/header.html`)}
             </div>
           </div>
         </div>
-        <div class="guide-code" style="max-width: 100%;"></div>
-        <button class="btn btn-link guide-copy-code">Click to copy</button>
+        ${require(`../partials/guide-code.html`)}
       </div>
 
       <h3 class="mt-5">Modus Toolbar</h3>
       <p>
         Our framework includes an all purpose toolbar that can be inserted
-        inside your layout. Simply add <code>.ether-toolbar</code> inside
-        <code>.ether-content-rows</code>.
+        inside your layout. Simply add <code>.modus-toolbar</code> inside
+        <code>.modus-content-rows</code>.
       </p>
       <p>
         You can use our other components, such as buttons and form groups,
-        inside <code>.ether-toolbar</code> to add functionality to your
+        inside <code>.modus-toolbar</code> to add functionality to your
         application.
       </p>
 
@@ -498,12 +497,12 @@ ${require(`../partials/header.html`)}
           id="example-block2"
         >
           <!-- Modus Layout Page Wrapper -->
-          <div class="ether-layout">
+          <div class="modus-layout">
             <!-- Modus Body Wrapper -->
-            <div class="ether-body">
-              <div class="ether-content-rows">
+            <div class="modus-body">
+              <div class="modus-content-rows">
                 <!-- Modus Toolbar -->
-                <div class="ether-toolbar">
+                <div class="modus-toolbar">
                   <form class="form-inline ml-3 mr-5">
                     <div class="form-group">
                       <label class="mr-2" for=""
@@ -521,7 +520,7 @@ ${require(`../partials/header.html`)}
                     <i class="modus-icon material-icons">palette</i>
                   </button>
                   <button class="btn btn-text-dark btn-lg btn-icon-only">
-                    <i class="modus-icon material-icons">calendar</i>
+                    <i class="modus-icons">calendar</i>
                   </button>
                   <button class="btn btn-text-dark btn-lg btn-icon-only">
                     <i class="modus-icon material-icons">settings</i>
@@ -542,15 +541,14 @@ ${require(`../partials/header.html`)}
             </div>
           </div>
         </div>
-        <div class="guide-code" style="max-width: 100%;"></div>
-        <button class="btn btn-link guide-copy-code">Click to copy</button>
+        ${require(`../partials/guide-code.html`)}
       </div>
 
       <h3 class="mt-5">Modus Panel</h3>
       <p>
         Our framework also includes panels that can be inserted into your
-        layout. Simply add <code>.ether-panel</code> inside of
-        <code>.ether-content-columns</code> before <code>.ether-content</code>.
+        layout. Simply add <code>.modus-panel</code> inside of
+        <code>.modus-content-columns</code> before <code>.modus-content</code>.
       </p>
       <p>
         The panels come with <code>.panel-header</code>,
@@ -585,13 +583,13 @@ ${require(`../partials/header.html`)}
           id="example-block3"
         >
           <!-- Modus Layout Page Wrapper -->
-          <div class="ether-layout">
+          <div class="modus-layout">
             <!-- Modus Body Wrapper -->
-            <div class="ether-body">
-              <div class="ether-content-rows">
-                <div class="ether-content-columns">
+            <div class="modus-body">
+              <div class="modus-content-rows">
+                <div class="modus-content-columns">
                   <!-- Modus Panel -->
-                  <div class="ether-panel panel-lg shadow-1">
+                  <div class="modus-panel panel-lg shadow-1">
                     <!-- Panel Header -->
                     <div class="panel-header">
                       <div class="left-items ml-2">
@@ -612,7 +610,7 @@ ${require(`../partials/header.html`)}
                       <h5>Panel Header</h5>
                       <div class="right-items mr-2">
                         <button class="btn btn-icon-only btn-text-dark">
-                          <i class="modus-icon material-icons">unloaded_orders</i>
+                          <i class="modus-icons">unloaded_orders</i>
                         </button>
                       </div>
                     </div>
@@ -623,30 +621,30 @@ ${require(`../partials/header.html`)}
                       <div class="static-container">
                         <div class="d-flex">
                           <button class="btn btn-icon-only btn-text-dark">
-                            <i class="modus-icon material-icons">filter</i>
+                            <i class="modus-icons">filter</i>
                           </button>
                           <button class="btn btn-icon-only btn-text-dark">
-                            <i class="modus-icon material-icons">layout</i>
+                            <i class="modus-icons">layout</i>
                           </button>
                           <button class="btn btn-icon-only btn-text-dark">
-                            <i class="modus-icon material-icons">route_add</i>
+                            <i class="modus-icons">route_add</i>
                           </button>
                           <button
                             class="btn btn-icon-only btn-text-dark disabled"
                           >
-                            <i class="modus-icon material-icons">finalize_route</i>
+                            <i class="modus-icons">finalize_route</i>
                           </button>
                           <button
                             class="btn btn-icon-only btn-text-dark disabled"
                           >
-                            <i class="modus-icon material-icons">trim_fake_orders</i>
+                            <i class="modus-icons">trim_fake_orders</i>
                           </button>
                         </div>
                         <div class="d-flex">
                           <button
                             class="btn btn-icon-only btn-text-dark align-self-end"
                           >
-                            <i class="modus-icon material-icons">sort</i>
+                            <i class="modus-icons">sort</i>
                           </button>
                         </div>
                       </div>
@@ -680,89 +678,80 @@ ${require(`../partials/header.html`)}
                   </div>
 
                   <!-- Modus Content -->
-                  <div class="ether-content"></div>
+                  <div class="modus-content"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="guide-code" style="max-width: 100%;"></div>
-        <button class="btn btn-link guide-copy-code">Click to copy</button>
+        ${require(`../partials/guide-code.html`)}
       </div>
     </div>
   </div>
 </div>
 <script>
   $(document).ready(function() {
-    $('#mainSidebar').removeClass('active');
-    $('#layout').addClass('active');
+    $("#mainSidebar").removeClass("active");
+    $("#layout").addClass("active");
   });
 
-  const sidebar = $('#etherSidebar');
-  const toolbar = $('#etherToolbar');
-  const panel = $('#etherPanel');
-  const menuButton = $('#menuButton');
+  const sidebar = $("#modusSidebar");
+  const toolbar = $("#modusToolbar");
+  const panel = $("#modusPanel");
+  const menuButton = $("#menuButton");
 
   function toggleSidebar() {
-    if ($('#etherSidebar').length) {
-      $('#etherSidebar').remove();
-      $('#menuButton').remove();
+    if ($("#modusSidebar").length) {
+      $("#modusSidebar").remove();
+      $("#menuButton").remove();
     } else {
-      $('#etherContentRows').before(sidebar);
-      $('#etherHeader').prepend(menuButton);
+      $("#modusContentRows").before(sidebar);
+      $("#modusHeader").prepend(menuButton);
     }
   }
 
   function toggleToolbar() {
-    if ($('#etherToolbar').length) {
-      $('#etherToolbar').remove();
+    if ($("#modusToolbar").length) {
+      $("#modusToolbar").remove();
     } else {
-      $('#etherContentColumns').before(toolbar);
+      $("#modusContentColumns").before(toolbar);
     }
   }
 
   function togglePanel() {
-    if ($('#etherPanel').length) {
-      $('#etherPanel').remove();
+    if ($("#modusPanel").length) {
+      $("#modusPanel").remove();
     } else {
-      $('#etherContent').before(panel);
+      $("#modusContent").before(panel);
     }
   }
 
-  var interactiveExample = document.getElementById('interactiveExample');
-  interactiveExample
-    .querySelector('[data-ether-item="menu-btn"]')
-    .addEventListener('click', function() {
-      var e = interactiveExample.querySelector("[data-ether-item='body']");
-      e.classList.toggle('sidebar-closed');
-      e.classList.toggle('sidebar-open');
-    });
-  var sidebarExample = document.getElementById('sidebarExample');
+  var sidebarExample = document.getElementById("sidebarExample");
   sidebarExample
-    .querySelector('[data-ether-item="menu-btn"]')
-    .addEventListener('click', function() {
-      var e = sidebarExample.querySelector("[data-ether-item='body']");
-      e.classList.toggle('sidebar-closed');
-      e.classList.toggle('sidebar-open');
+    .querySelector('[data-modus-item="menu-btn"]')
+    .addEventListener("click", function() {
+      var e = sidebarExample.querySelector("[data-modus-item='body']");
+      e.classList.toggle("sidebar-closed");
+      e.classList.toggle("sidebar-open");
     });
 
-  var exampleLinks = interactiveExample.querySelectorAll('.nav-link');
-  var sidebarLinks = sidebarExample.querySelectorAll('.nav-link');
+  var exampleLinks = interactiveExample.querySelectorAll(".nav-link");
+  var sidebarLinks = sidebarExample.querySelectorAll(".nav-link");
 
   [].forEach.call(exampleLinks, link => {
-    link.addEventListener('click', e => {
+    link.addEventListener("click", e => {
       exampleLinks.forEach(el => {
-        el.classList.remove('active');
+        el.classList.remove("active");
       });
-      e.target.classList.add('active');
+      e.target.classList.add("active");
     });
   });
   [].forEach.call(sidebarLinks, link => {
-    link.addEventListener('click', e => {
+    link.addEventListener("click", e => {
       sidebarLinks.forEach(el => {
-        el.classList.remove('active');
+        el.classList.remove("active");
       });
-      e.target.classList.toggle('active');
+      e.target.classList.toggle("active");
     });
   });
 </script>
