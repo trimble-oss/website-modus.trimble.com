@@ -521,6 +521,14 @@ $(document).ready(function () {
     setTimeout(() => {
       window.location.href = oghref;
     }, 200);
+  } else if (href.includes('Start-')) { // builds right nav for foundations section
+    let elem = $('.guide-section');
+    const thisNav = $(elem).attr('id') + '-nav';
+    const navItems = $(elem).children('h2,h3,h4');
+    buildRightNav(navItems, thisNav);
+    setTimeout(() => {
+      window.location.href = oghref;
+    }, 200);
   } else if (href.includes('Foundations-')) { // builds right nav for foundations section
     let elem = $('.guide-section');
     const thisNav = $(elem).attr('id') + '-nav';
