@@ -75,7 +75,6 @@ ${require(`../partials/header.html`)}
         To use the compiled css files, add the following reference to <code>angular.json</code>.
       </p>
 
-
       <pre><code class="language-javascript">{
 ...
   "styles": [
@@ -86,26 +85,20 @@ ${require(`../partials/header.html`)}
 }
       </code></pre>
 
+      <p>
+        When using core Bootstrap components like Modals and Accordions,
+        include <a href="https://valor-software.com/ngx-bootstrap/" target="_blank">ngx-bootstrap</a>
+        in your application.
+      </p>
+
+      <p>
+        More information about component support of ngx-bootstrap can
+        be found on the <a href="/status.html">Status page</a>.
+      </p>
+
       <h2 id="customizeusingsass" class="mt-5">Customize using SASS</h2>
 
       <p>The SASS files will be found in the <code>/scss</code> directory.</p>
-
-      <h3 id="development" class="mt-5">Development</h3>
-
-      <p>Build CSS, run dev server, and watch for changes</p>
-
-      <pre><code class="language-bash">npm run dev</code></pre>
-
-      <p>
-        Sample page found at
-        <a href="http://localhost:3030/">http://localhost:3030/</a>
-      </p>
-
-      <h3 id="buildpackage" class="mt-5">Build Package</h3>
-
-      <p>Builds the CSS files to <code>/dist</code></p>
-
-      <pre><code class="language-bash">npm run build</code></pre>
 
       <h3 id="filestructure" class="mt-5">File structure</h3>
 

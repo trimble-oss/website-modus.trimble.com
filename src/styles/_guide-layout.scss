@@ -134,6 +134,7 @@ $guide-body-max-width: 1200px;
     padding-bottom: 0;
     height: 100%;
     width: 100%;
+    #second-header{font-size: 2rem;}
   }
   .guide-content {
     padding: 1rem 3rem;
@@ -269,7 +270,7 @@ $guide-body-max-width: 1200px;
   .guide-content-sample {
     padding: 40px 100px;
     &.anatomy-display-container {
-      padding-left: 200px;
+      padding-left: 250px;
     }
   }
 
