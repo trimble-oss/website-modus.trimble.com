@@ -1,39 +1,50 @@
 
-	</div> <!-- closing for .guide-content-column -->
-	<div class="guide-right-nav px-4 pt-4 pb-0"></div>
+  </div> <!-- closing for .guide-content-column -->
+  <div class="guide-right-nav px-4 pt-4 pb-0"></div>
 </div> <!-- closing for .guide-body -->
 
 <div class="guide-footer p-2">
-	<div class="small mr-3">Copyright &copy; 2019, Trimble Inc.</div>
-	<div class="small mr-3"><a href="https://www.trimble.com/Corporate/Terms_of_Use.aspx" target="_blank">Terms of Use</a></div>
-	<div class="small mr-3">Modus Version: ${guideVersion}</div>
-	<div class="small mr-3">Updated: ${guideBuildDate}</div>
+  <div class="small mr-3">Copyright &copy; 2019, Trimble Inc.</div>
+  <div class="small mr-3"><a href="https://www.trimble.com/Corporate/Terms_of_Use.aspx" target="_blank">Terms of Use</a></div>
+  <div class="small mr-3">Modus Version: ${guideVersion}</div>
+  <div class="small mr-3">Updated: ${guideBuildDate}</div>
 </div>
 </div>
 <div id="snackbar"></div>
-<!-- <script type="text/javascript">
 
+<!-- Popup content to allow for JIRA js binding -->
+<div id="feedbackPopoverContent" class="hidden">
+  <h5>Feedback</h5>
+  <button id="issueButton" class="btn btn-warning mr-2">
+    Report an Issue
+  </button>
+  <button id="featureButton" class="btn btn-primary">
+    Request a Feature
+  </button>
+  </div>
+
+<script type="text/javascript">
   window.ATL_JQ_PAGE_PROPS = $.extend(window.ATL_JQ_PAGE_PROPS, {
-	'9127b19e' : {
-		triggerFunction:
-		function(showCollectorDialog) {
-			jQuery("#issueButton").click(function(e) {
-				e.preventDefault();
-				showCollectorDialog();
+  '9127b19e' : {
+    triggerFunction:
+    function(showCollectorDialog) {
+      jQuery("#issueButton").click(function(e) {
+        e.preventDefault();
+        showCollectorDialog();
       });
     }
-	},
-	'eac08567' : {
-		triggerFunction:
-		function(showCollectorDialog) {
-			jQuery("#featureButton").click(function(e) {
-				e.preventDefault();
-				showCollectorDialog();
+  },
+  'eac08567' : {
+    triggerFunction:
+    function(showCollectorDialog) {
+      jQuery("#featureButton").click(function(e) {
+        e.preventDefault();
+        showCollectorDialog();
       });
     }
-	}
+  }
 });
-</script> -->
+</script>
 </body>
 
 </html>

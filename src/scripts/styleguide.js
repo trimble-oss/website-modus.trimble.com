@@ -566,15 +566,16 @@ $(function () {
   // $('[data-toggle="popover"]').popover();
 
    $('#feedback-button').popover({
-    content: `
-    <h5>Feedback</h5>
-    <button id="issueButton" class="btn btn-warning mr-2">
-          Report an Issue
-        </button>
-        <button id="featureButton" class="btn btn-primary">
-          Request a Feature
-        </button>
-    `,
+    // content: `
+    // <h5>Feedback</h5>
+    // <button id="issueButton" class="btn btn-warning mr-2">
+    //       Report an Issue
+    //     </button>
+    //     <button id="featureButton" class="btn btn-primary">
+    //       Request a Feature
+    //     </button>
+    // `,
+    content: $('#feedbackPopoverContent'),
     container: 'body',
     html: true,
     trigger: 'click',
@@ -582,29 +583,35 @@ $(function () {
     offset: '-50,0'
   });
 
-  $('#feedback-button').on('shown.bs.popover', function () {
-    // Init JIRA buttons
-    window.ATL_JQ_PAGE_PROPS = $.extend(window.ATL_JQ_PAGE_PROPS, {
-      '9127b19e' : {
-        triggerFunction:
-        function(showCollectorDialog) {
-          $("#issueButton").click(function(e) {
-            e.preventDefault();
-            showCollectorDialog();
-          });
-        }
-      },
-      'eac08567' : {
-        triggerFunction:
-        function(showCollectorDialog) {
-          $("#featureButton").click(function(e) {
-            e.preventDefault();
-            showCollectorDialog();
-          });
-        }
-      }
-    });
+  $('#feedback-button').on('show.bs.popover', function () {
+    $('#feedbackPopoverContent').removeClass('hidden');
   });
+
+  // $('#feedback-button').on('shown.bs.popover', function () {
+  //   Init JIRA buttons
+  //   window.ATL_JQ_PAGE_PROPS = $.extend(window.ATL_JQ_PAGE_PROPS, {
+  //     '9127b19e' : {
+  //       triggerFunction:
+  //       function(showCollectorDialog) {
+  //         console.log('b');
+  //         $("#issueButton").click(function(e) {
+  //           console.log('c');
+  //           e.preventDefault();
+  //           showCollectorDialog();
+  //         });
+  //       }
+  //     },
+  //     'eac08567' : {
+  //       triggerFunction:
+  //       function(showCollectorDialog) {
+  //         $("#featureButton").click(function(e) {
+  //           e.preventDefault();
+  //           showCollectorDialog();
+  //         });
+  //       }
+  //     }
+  //   });
+  // });
 
   function findAnchorElement(path) {
     const anchors = $('a[href]').toArray();
