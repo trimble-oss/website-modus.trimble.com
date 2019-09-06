@@ -17,9 +17,9 @@ exports.ether = {
     modusLayoutJS: 'https://styles-dev.trimblemaps.com/css/modus-layout.min.js'
   },
   prodLinks: {
-    modusIcons: 'https://styles.trimble.com/assets/' + modusIconsVersion + '/fonts/modus-icons.css',
-    modusCSS: 'https://styles.trimble.com/css/ether.min-' + modusVersion + '.css',
-    modusLayoutCSS: 'https://styles.trimble.com/css/ether-layout.min-' + modusVersion + '.css',
-    modusLayoutJS: 'https://styles.trimble.com/css/ether-layout.min-' + modusVersion + '.js'
+    modusIcons: 'https://modus.trimble.com/assets/' + modusIconsVersion + '/fonts/modus-icons.css',
+    modusCSS: 'https://modus.trimble.com/css/modus.min-' + modusVersion + '.css',
+    modusLayoutCSS: 'https://modus.trimble.com/css/modus-layout.min-' + modusVersion + '.css',
+    modusLayoutJS: 'https://modus.trimble.com/css/modus-layout.min-' + modusVersion + '.js'
   }
 };
