@@ -16,16 +16,16 @@ ${require(`../partials/header.html`)}
         </ul>
       <li>Add the library</li>
       <ul><li>Click on the “Add library to Sketch” button in the lower right of the modal.</li>
-      <img class="mt-4 mb-4" src="${require(`../img/guide/designer_02_add_library@0,1x.png`)}" alt="Designer - Add the library">
+        <a data-toggle="modal" data-target="#designer2"><img class="mt-4 mb-4" src="${require(`../img/guide/designer_02_add_library@0,1x.png`)}" alt="Designer - Add the library"></a>
     </ul>
       <li>The library is now added to your Preferences -> Libraries list.</li>
-      <img class="mt-4 mb-4" src="${require(`../img/guide/designer_03_Modus_library_example_screen@0,33x.png`)}" alt="Designer - Add the library">
+      <a data-toggle="modal" data-target="#designer3"><img class="mt-4 mb-4" src="${require(`../img/guide/designer_03_Modus_library_example_screen@0,33x.png`)}" alt="Designer - Add the library"></a>
     </ol>
     <h5>Great job! You are now ready to start assembling UI’s!</h5>
 
   <h3>Symbols</h3>
   <p class="lead">Modus components, live in the design kit as Sketch symbols.</p>
-  <img class="mt-4 mb-4" src="${require(`../img/guide/designer_04_Symbols_elements@0,1x.png`)}" alt="Designer - Add the library">
+  <a data-toggle="modal" data-target="#designer4"><img class="mt-4 mb-4" src="${require(`../img/guide/designer_04_Symbols_elements@0,1x.png`)}" alt="Designer - Add the library"></a>
   <h5>Library menu navigation</h5>
   <ul>
     <li>There are two kinds of symbols — library symbols and document symbols. Library symbols are available in any Sketch document, while document symbols are specific to the document in which they are found.</li>
@@ -44,7 +44,7 @@ ${require(`../partials/header.html`)}
 
   <h3>Text styles</h3>
   <p class="lead">Text styles are based on typography rules defined by the Modus Design System.</p>
-  <img class="mt-4 mb-4" src="${require(`../img/guide/designer_05_Text_styles@0,1x.png`)}" alt="Designer - Add the library">
+  <a data-toggle="modal" data-target="#designer5"><img class="mt-4 mb-4" src="${require(`../img/guide/designer_05_Text_styles@0,1x.png`)}" alt="Designer - Add the library"></a>
 
   <h5>Library menu navigation</h5>
   <ul>
@@ -59,7 +59,7 @@ ${require(`../partials/header.html`)}
 
   <h3>Layer styles</h3>
   <p class="lead">Layer styles are color selections for any shape in Sketch.</p>
-  <img class="mt-4 mb-4" src="${require(`../img/guide/designer_06_Layer_overrides@0,1x.png`)}" alt="Designer - Add the library">
+  <a data-toggle="modal" data-target="#designer6"><img class="mt-4 mb-4" src="${require(`../img/guide/designer_06_Layer_overrides@0,1x.png`)}" alt="Designer - Add the library"></a>
     <h6>Use predetermined overrides when possible</h6>
 
 
@@ -88,121 +88,127 @@ ${require(`../partials/header.html`)}
 
 <!-- Modals | should be condensed -->
 
-<div class="modal fade" id="designer1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+<div class="modal fade" id="designer1" tabindex="-1" role="dialog" aria-labelledby="addLibrary" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="addLibrary">Add the Library</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          ...
+            <img class="mt-4 mb-4" src="${require(`../img/guide/designer_01_add_librarylrg.png`)}" width="100%" alt="Designer - Add the library">
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                Close
+              </button>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="modal fade" id="designer2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
+  <div class="modal fade" id="designer2" tabindex="-1" role="dialog" aria-labelledby="librarySketch" aria-hidden="true">
+      <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="librarySketch">Add Library to Sketch</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            ...
+              <img class="mt-4 mb-4" src="${require(`../img/guide/designer_02_add_librarylrg.png`)}" width="100%" alt="Designer - Add the library to Sketch">
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                  Close
+                </button>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="modal fade" id="designer3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+    <div class="modal fade" id="designer3" tabindex="-1" role="dialog" aria-labelledby="librariesList" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="librariesList">Libraries List</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              ...
+                <img class="mt-4 mb-4" src="${require(`../img/guide/designer_03_Modus_library_example_screenlrg.png`)}" width="100%" alt="Designer - Libraries List">
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                  </button>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="modal fade" id="designer4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog" role="document">
+      <div class="modal fade" id="designer4" tabindex="-1" role="dialog" aria-labelledby="symbolElements" aria-hidden="true">
+          <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="symbolElements">Symbols Elements</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
-                ...
+                  <img class="mt-4 mb-4" src="${require(`../img/guide/designer_04_Symbols_elementslrg.png`)}" width="100%" alt="Designer - Symbols Elements">
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                      Close
+                    </button>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="modal fade" id="designer5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
+        <div class="modal fade" id="designer5" tabindex="-1" role="dialog" aria-labelledby="textStyles" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <h5 class="modal-title" id="textStyles">Text Styles</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                  ...
+                    <img class="mt-4 mb-4" src="${require(`../img/guide/designer_05_Text_styleslrg.png`)}" width="100%" alt="Designer - Text Styles">
                 </div>
                 <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Close
+                      </button>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="modal fade" id="designer6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog" role="document">
+          <div class="modal fade" id="designer6" tabindex="-1" role="dialog" aria-labelledby="layerStyles" aria-hidden="true">
+              <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="layerStyles">Layer Styles</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
                   </div>
                   <div class="modal-body">
-                    ...
+                      <img class="mt-4 mb-4" src="${require(`../img/guide/designer_06_Layer_overrideslrg.png`)}" width="100%" alt="Designer - Layer Styles">
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                          Close
+                        </button>
                   </div>
                 </div>
               </div>
