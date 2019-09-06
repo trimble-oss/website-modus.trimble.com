@@ -36,10 +36,12 @@ code {
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
   }
   & > p:not(.lead),
   & > ul > li {
     font-size: 1rem;
+    color: #6A6976;
   }
   & > img {
     max-width: 100%;
