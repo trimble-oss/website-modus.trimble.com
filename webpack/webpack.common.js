@@ -121,10 +121,10 @@ module.exports = {
       template: Path.resolve(__dirname, '../src/elements/dropdowns.html')
     }),
     new HtmlWebpackPlugin({
-      filename: 'forms.html',
+      filename: 'inputs.html',
       inject: true,
       minify: false,
-      template: Path.resolve(__dirname, '../src/elements/forms.html')
+      template: Path.resolve(__dirname, '../src/elements/inputs.html')
     }),
     new HtmlWebpackPlugin({
       filename: 'icons.html',
