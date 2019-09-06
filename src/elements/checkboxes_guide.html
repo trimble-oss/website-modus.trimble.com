@@ -1,123 +1,259 @@
-<h3>Guidelines
-</h3>
+<h2>Guidelines</h2>
 
-<h4>Use when
-</h4>
+<h3>Checkboxes vs Switches</h3>
 
 <ul>
-  <li>Affording a binary selection, like accepting terms and conditions.
+  <li>
+    Checkboxes should be used in forms that require submission and processing.
   </li>
 
-  <li>Affording multiple selections from a set of options.
+  <li>
+    Switches are intended for instantaneous actions, such as toggling a
+    feature/functionality within an app.
   </li>
 
-  <li>Enabling selection of an object, such as a Card.
+  <li>
+    Switches can either immediately affect the UI or affect changes in
+    background behavior.
   </li>
 
-  <li>Affording selection of a row within a Data Table.
-  </li>
-
-  <li>If you use only one checkbox, it is the same as using Switch to toggle between two states. The difference is that
-    Switch will trigger the state change directly, but Checkbox just marks the state as changed and this needs to be
-    submitted.
+  <li>
+    If you use only one checkbox, it is the same as using a Switch to toggle
+    between two states. The difference is that a Switch will trigger the state
+    change directly, but a Checkbox just marks the state as changed and needs to
+    be submitted.
   </li>
 </ul>
 
-
-<h4>Don’t use when
-</h4>
+<h3>Use checkboxes when</h3>
 
 <ul>
-  <li>Turning a feature, mode, or functionality on and off. Instead, use a Switch.
+  <li>
+    Affording a binary selection, like accepting terms and conditions.
   </li>
 
-  <li>Checking or unchecking elicits an immediate change in the UI or functionality, such as enabling a disabled field
-    or revealing more controls. Instead, use a Switch.
+  <li>
+    Affording multiple selections from a set of options.
   </li>
 
-  <li>Checking or unchecking elicits a change in background functionality without affecting the UI, like disabling an
-    email notification. Instead, use a Switch.
+  <li>
+    Enabling selection of an object, such as a Card.
+  </li>
+
+  <li>
+    Affording selection of a row within a Data Table.
   </li>
 </ul>
 
-
-<h4>Visual language
-</h4>
-
-<h6>To inform judgment about color, type, space, and more
-</h6>
-
+<h3>Don’t use checkboxes when</h3>
 
 <ul>
-  <li>Uses the same :hover and :active styles as the primary Button when checked.
+  <li>
+    Turning a feature, mode, or functionality on and off. Instead, use a Switch.
   </li>
 
+  <li>
+    Checking or unchecking elicits an immediate change in the UI or
+    functionality, such as enabling a disabled field or revealing more controls.
+    Instead, use a Switch.
+  </li>
 
-  <h4>Behaviors
-  </h4>
+  <li>
+    Checking or unchecking elicits a change in background functionality without
+    affecting the UI, like disabling an email notification. Instead, use a
+    Switch.
+  </li>
+</ul>
 
-  <h6>To cover how to cope with events, outcomes, and transitions
-  </h6>
+<h3>Use switches when</h3>
 
+<ul>
+  <li>
+      Turning on and off a feature, mode, or functionality.
+  </li>
 
-  <ul>
-    <li>Reflects the affirmative (“yes” or “true”) of its label when checked.
-    </li>
+  <li>
+      Toggling elicits an immediate change in the UI.
+  </li>
 
-    <li>Choices made via checkbox should always be submitted or saved using a Button.
-    </li>
+  <li>
+      Toggling elicits a change in background behavior without affecting the UI.
+  </li>
 
-    <li>A checkbox’s label is included in the clickable target area.
-    </li>
+  <li>
+      The difference between Switch and Checkbox is that Switch will trigger a state change directly when you toggle it, while Checkbox is generally used for state marking, which should work in conjunction with submit operation.
+  </li>
+</ul>
 
-    <li>The default view of a set of checkboxes is having no option selected.
-    </li>
-  </ul>
+<h3>Don’t use switches when</h3>
 
+<ul>
+  <li>
+      Requiring user action consent, such as accepting terms and conditions. Instead, use a Form checkbox.
+  </li>
 
-  <h4>Editorial
-  </h4>
+  <li>
+      Requesting multiple choices from a group of options. Instead, use a Form checkbox group.
+  </li>
 
-  <h6>Voice and tone, advice covering copy and images flowing into each element
-  </h6>
+  <li>
+      Users need to select one item from a list of options. Instead, use a radio button
+  </li>
+</ul>
 
+<h3>Visual language</h3>
 
-  <h5>Check box labels may be capitalized in 2 ways, depending on their length and placement on the UI:
-  </h5>
+<h5>To inform judgment about color, type, space, and more</h5>
 
+<ul>
+  <li>
+    Checkboxes use the same <code>:hover</code> and <code>:active</code> styles as the
+    primary Button when checked.
+  </li>
 
-  <ul>
-    <li>Use title case for short labels (fewer than 3 words) that are to the left or above a check box.
-    </li>
+  <li>
+      A Switch must have a visible label that clearly conveys what option a user will turn on or off.
+  </li>
+</ul>
 
-    <li>Use sentence case for longer labels (more than 3 words) that are placed to the right of a check box, especially
-      if the label reads like a phrase.
-    </li>
-  </ul>
+<h3>Behaviors</h3>
+<h5>To cover how to cope with events, outcomes, and transitions</h5>
 
+<ul>
+  <li>
+    Reflects the affirmative (“yes” or “true”) of its label when checked.
+  </li>
 
-  <h5>Default
-  </h5>
+  <li>
+    Choices made via checkbox should always be submitted or saved using a
+    Button.
+  </li>
 
+  <li>
+    A checkbox’s label is included in the clickable target area.
+  </li>
 
-  <ul>
-    <li>Use full sentences with punctuation.
-    </li>
+  <li>
+    The default view of a set of checkboxes is having no option selected.
+  </li>
 
-    <li>If user is consenting to something, start the sentence with “I”, and also run the phrasing you choose by
-      compliance.
-    </li>
-  </ul>
+  <li>
+    Avoid changing the label text based on <em>on</em> and <em>off</em> state.
+  </li>
+</ul>
 
+<table class="table table-bordered bg-white">
+  <tr>
+    <td>
+      <div class="custom-control custom-switch">
+        <input
+          type="checkbox"
+          checked=""
+          class="custom-control-input"
+          id="doSwitch1"
+          name="doSwitch1"
+          value="customEx"
+        />
+        <label class="custom-control-label" for="doSwitch1">
+          Display information
+        </label>
+      </div>
+      <div class="custom-control custom-switch">
+        <input
+          type="checkbox"
+          class="custom-control-input"
+          id="doSwitch2"
+          name="doSwitch2"
+          value="customEx"
+        />
+        <label class="custom-control-label" for="doSwitch2">
+          Display information
+        </label>
+      </div>
+    </td>
+    <td>
+      <div class="custom-control custom-switch">
+        <input
+          type="checkbox"
+          checked=""
+          class="custom-control-input"
+          id="dontSwitch1"
+          name="dontSwitch1"
+          value="customEx"
+        />
+        <label class="custom-control-label" for="dontSwitch1">
+          Display information
+        </label>
+      </div>
+      <div class="custom-control custom-switch">
+        <input
+          type="checkbox"
+          class="custom-control-input"
+          id="dontSwitch2"
+          name="dontSwitch2"
+          value="customEx"
+        />
+        <label class="custom-control-label" for="dontSwitch2">
+          Don't display information
+        </label>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="do">
+      <strong class="text-success">Do</strong> use the same label text for both
+      the on and off state.
+    </td>
+    <td class="dont">
+      <strong class="text-danger">Don't</strong> change label text between
+      states.
+    </td>
+  </tr>
+</table>
 
-  <h5>Groups
-  </h5>
+<h3>Editorial</h3>
+<h5>
+  Voice and tone, advice covering copy and images flowing into each element
+</h5>
 
+<ul>
+  <li>
+    Check box labels may be capitalized in 2 ways, depending on their length and
+    placement on the UI:
+  </li>
 
-  <ul>
-    <li>Use full sentences with punctuation for the checkbox group label.
-    </li>
+  <li>
+    Use title case for short labels (fewer than 3 words) that are to the left or
+    above a check box.
+  </li>
 
-    <li>Try to keep checkbox labels brief and start them with verbs.
-    </li>
-  </ul>
+  <li>
+    Use sentence case for longer labels (more than 3 words) that are placed to
+    the right of a check box, especially if the label reads like a phrase.
+  </li>
+</ul>
+
+<h4>Default</h4>
+
+<ul>
+  <li>
+    Use full sentences with punctuation.
+  </li>
+
+  <li>
+    If user is consenting to something, start the sentence with “I”, and also
+    run the phrasing you choose by compliance.
+  </li>
+</ul>
+
+<h4>Groups</h4>
+
+<ul>
+  <li>
+    Use full sentences with punctuation for the checkbox group label.
+  </li>
+
+  <li>
+    Try to keep checkbox labels brief and start them with verbs.
+  </li>
+</ul>

@@ -1,63 +1,137 @@
-<h3>Checkbox</h3>
-      <div class="guide-example-block">
-        <div class="guide-sample">
-          <div class="custom-control custom-checkbox">
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="customCheck"
-              name="example1"
-            />
-            <label class="custom-control-label" for="customCheck"
-              >Checkbox</label
-            >
-          </div>
-          <div class="custom-control custom-checkbox">
-            <input
-              type="checkbox"
-              checked
-              class="custom-control-input"
-              id="customCheck2"
-              name="example1"
-            />
-            <label class="custom-control-label" for="customCheck2"
-              >Checkbox</label
-            >
-          </div>
-        </div>
-        ${require(`../partials/guide-code.html`)}
-      </div>
+<h2>Overview</h2>
+<p>
+  Both checkboxes and switches use the <code>.custom-control</code> class as a
+  wrapper. They also both use <code>&lt;input type="checkbox"&gt;</code> and
+  have a <code>&lt;label&gt;</code> with a class of
+  <code>.custom-control-label</code>
+</p>
 
-      <h3 class="mt-5">Small Inline Checkbox</h3>
-      <div class="guide-example-block">
-        <div class="guide-sample">
-          <div
-            class="custom-control custom-control-inline custom-control-sm custom-checkbox"
-          >
-            <input
-              type="checkbox"
-              class="custom-control-input"
-              id="customCheck3"
-              name="example1"
-            />
-            <label class="custom-control-label" for="customCheck3"
-              >Checkbox Small</label
-            >
-          </div>
-          <div
-            class="custom-control custom-control-inline custom-control-sm custom-checkbox"
-          >
-            <input
-              type="checkbox"
-              checked
-              class="custom-control-input"
-              id="customCheck4"
-              name="example1"
-            />
-            <label class="custom-control-label" for="customCheck4"
-              >Checkbox Small</label
-            >
-          </div>
-        </div>
-        ${require(`../partials/guide-code.html`)}
+<h3>Checkboxes</h3>
+<p>
+  Checkboxes add the <code>.custom-checkbox</code> class to their
+  <code>.custom-control</code> wrapper.
+</p>
+<div class="guide-example-block">
+  <div class="guide-sample d-flex">
+    <div class="form-group mb-0">
+      <div class="custom-control custom-checkbox">
+        <input
+          type="checkbox"
+          checked=""
+          class="custom-control-input"
+          id="exampleCheckbox"
+          name="exampleCheckbox"
+          value="customEx"
+        />
+        <label class="custom-control-label" for="exampleCheckbox"
+          >Checkbox</label
+        >
       </div>
+      <div class="custom-control custom-checkbox">
+        <input
+          type="checkbox"
+          class="custom-control-input"
+          id="exampleCheckbox2"
+          name="exampleCheckbox"
+          value="customEx"
+        />
+        <label class="custom-control-label" for="exampleCheckbox2"
+          >Checkbox</label
+        >
+      </div>
+    </div>
+    <div class="form-group mb-0 ml-3">
+      <div class="custom-control custom-checkbox">
+        <input
+          type="checkbox"
+          disabled=""
+          checked=""
+          class="custom-control-input"
+          id="exampleCheckbox3"
+          name="exampleCheckbox2"
+          value="customEx"
+        />
+        <label class="custom-control-label" for="exampleCheckbox3"
+          >Disabled</label
+        >
+      </div>
+      <div class="custom-control custom-checkbox">
+        <input
+          type="checkbox"
+          disabled=""
+          class="custom-control-input"
+          id="exampleCheckbox4"
+          name="exampleCheckbox2"
+          value="customEx"
+        />
+        <label class="custom-control-label" for="exampleCheckbox4"
+          >Disabled</label
+        >
+      </div>
+    </div>
+  </div>
+  ${require(`../partials/guide-code.html`)}
+</div>
+
+<h3>Switches</h3>
+<p>
+  Switches add the <code>.custom-switch</code> class to their
+  <code>.custom-control</code> wrapper.
+</p>
+<div class="guide-example-block">
+  <div class="guide-sample d-flex">
+    <div class="form-group mb-0">
+      <div class="custom-control custom-switch">
+        <input
+          type="checkbox"
+          checked=""
+          class="custom-control-input"
+          id="exampleSwitch"
+          name="exampleSwitch"
+          value="customEx"
+        />
+        <label class="custom-control-label" for="exampleSwitch">Switch</label>
+      </div>
+      <div class="custom-control custom-switch">
+        <input
+          type="checkbox"
+          class="custom-control-input"
+          id="exampleSwitch2"
+          name="exampleSwitch"
+          value="customEx"
+        />
+        <label class="custom-control-label" for="exampleSwitch2">Switch</label>
+      </div>
+    </div>
+    <div class="form-group mb-0 ml-3">
+      <div class="custom-control custom-switch">
+        <input
+          type="checkbox"
+          disabled=""
+          checked=""
+          class="custom-control-input"
+          id="exampleSwitch3"
+          name="exampleSwitch2"
+          value="customEx"
+        />
+        <label class="custom-control-label" for="exampleSwitch3"
+          >Disabled</label
+        >
+      </div>
+      <div class="custom-control custom-switch">
+        <input
+          type="checkbox"
+          disabled=""
+          class="custom-control-input"
+          id="exampleSwitch4"
+          name="exampleSwitch2"
+          value="customEx"
+        />
+        <label class="custom-control-label" for="exampleSwitch4"
+          >Disabled</label
+        >
+      </div>
+    </div>
+  </div>
+  ${require(`../partials/guide-code.html`)}
+</div>
