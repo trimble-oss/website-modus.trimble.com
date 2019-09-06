@@ -580,7 +580,7 @@ $(function () {
     html: true,
     trigger: 'click',
     placement: 'bottom',
-    offset: '-50,0'
+    offset: '-90,0'
   });
 
   $('#feedback-button').on('show.bs.popover', function () {

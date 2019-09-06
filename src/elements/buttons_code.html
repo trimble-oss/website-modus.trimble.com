@@ -29,6 +29,9 @@
 
 <h3>Solid Buttons</h3>
 <p>
+  Solid buttons should only be used with the PRimary, Secondary, and Tertiary theme colors.
+</p>
+<p>
   <code>class="btn-{theme-color}</code>
 </p>
 <div class="guide-example-block">
@@ -42,12 +45,14 @@
 
 <h3>Outline Buttons</h3>
 <p>
+    Outline buttons should only be used with the Primary, and Dark theme colors.
+  </p>
+<p>
   <code>class="btn-outline-{theme-color}"</code>
 </p>
 <div class="guide-example-block">
   <div class="guide-sample">
     <button class="btn btn-outline-primary">Button</button>
-    <button class="btn btn-outline-secondary">Button</button>
     <button class="btn btn-outline-dark">Button</button>
   </div>
   ${require(`../partials/guide-code.html`)}
@@ -55,13 +60,14 @@
 
 <h3>Text Buttons</h3>
 <p>
+    Text buttons should only be used with the Primary theme color.
+  </p>
+<p>
   <code>class="btn-text-{theme-color}"</code>
 </p>
 <div class="guide-example-block">
   <div class="guide-sample">
     <button class="btn btn-text-primary">Button</button>
-    <button class="btn btn-text-secondary">Button</button>
-    <button class="btn btn-text-dark">Button</button>
   </div>
   ${require(`../partials/guide-code.html`)}
 </div>
@@ -83,10 +89,10 @@
     <button class="btn btn-secondary">
       Font Awesome Icon<i class="modus-icon fas fa-cog right-icon"></i>
     </button>
-    <button class="btn btn-outline-primary">
+    <button class="btn btn-tertiary">
       <i class="modus-icon material-icons left-icon">settings</i>Material icon
     </button>
-    <button class="btn btn-outline-secondary">
+    <button class="btn btn-outline-primary">
       SVG icon<i class="modus-icon right-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path
@@ -95,10 +101,10 @@
         </svg>
       </i>
     </button>
-    <button class="btn btn-text-dark">
+    <button class="btn btn-outline-dark">
       <i class="modus-icon left-icon"><img src="${require(`../img/gear.png`)}" /></i>PNG icon
     </button>
-    <button class="btn btn-text-secondary">
+    <button class="btn btn-text-primary">
       Button<i class="modus-icon material-icons right-icon">settings</i>
     </button>
   </div>
@@ -111,6 +117,9 @@
   Give the button a class of <code>.btn-icon-only</code> and give the icon a class of
   <code>.modus-icon</code>
 </p>
+<p>
+    <strong>Note</strong>: Text icon-only buttons can be used with the Primary or Dark theme color.
+  </p>
 <div class="guide-example-block">
   <div class="guide-sample">
     <button class="btn btn-icon-only btn-primary">
@@ -119,14 +128,14 @@
     <button class="btn btn-icon-only btn-secondary">
       <i class="modus-icon material-icons">settings</i>
     </button>
-    <button class="btn btn-icon-only btn-dark">
+    <button class="btn btn-icon-only btn-tertiary">
       <i class="modus-icon material-icons">settings</i>
     </button>
 
     <button class="btn btn-icon-only btn-outline-primary">
       <i class="modus-icon fas fa-cog"></i>
     </button>
-    <button class="btn btn-icon-only btn-outline-secondary">
+    <button class="btn btn-icon-only btn-outline-dark">
       <i class="modus-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path
@@ -135,17 +144,11 @@
         </svg>
       </i>
     </button>
-    <button class="btn btn-icon-only btn-outline-dark">
+    <button class="btn btn-icon-only btn-text-dark">
         <i class="modus-icon"><img src="${require(`../img/gear.png`)}" /></i>
     </button>
 
     <button class="btn btn-icon-only btn-text-primary">
-      <i class="modus-icon material-icons">settings</i>
-    </button>
-    <button class="btn btn-icon-only btn-text-secondary">
-      <i class="modus-icon material-icons">settings</i>
-    </button>
-    <button class="btn btn-icon-only btn-text-dark">
       <i class="modus-icon material-icons">settings</i>
     </button>
   </div>
@@ -164,7 +167,10 @@
 <div class="guide-example-block">
   <div class="guide-sample">
     <button class="btn btn-sm btn-primary">Button</button>
+    <button class="btn btn-sm btn-secondary">Button</button>
+    <button class="btn btn-sm btn-tertiary">Button</button>
     <button class="btn btn-sm btn-outline-primary">Button</button>
+    <button class="btn btn-sm btn-outline-dark">Button</button>
     <button class="btn btn-sm btn-text-primary">Button</button>
     <button class="btn btn-sm btn-primary">
       <i class="modus-icon material-icons left-icon">settings</i>Button
@@ -182,15 +188,18 @@
 </p>
 <div class="guide-example-block">
   <div class="guide-sample">
-    <button class="btn btn-lg btn-primary">Button</button>
-    <button class="btn btn-lg btn-outline-primary">Button</button>
-    <button class="btn btn-lg btn-text-primary">Button</button>
-    <button class="btn btn-lg btn-primary">
-      <i class="modus-icon material-icons left-icon">settings</i>Button
-    </button>
-    <button class="btn btn-lg btn-icon-only btn-primary">
-      <i class="modus-icon material-icons">settings</i>
-    </button>
+      <button class="btn btn-lg btn-primary">Button</button>
+      <button class="btn btn-lg btn-secondary">Button</button>
+      <button class="btn btn-lg btn-tertiary">Button</button>
+      <button class="btn btn-lg btn-outline-primary">Button</button>
+      <button class="btn btn-lg btn-outline-dark">Button</button>
+      <button class="btn btn-lg btn-text-primary">Button</button>
+      <button class="btn btn-lg btn-primary">
+        <i class="modus-icon material-icons left-icon">settings</i>Button
+      </button>
+      <button class="btn btn-lg btn-icon-only btn-primary">
+        <i class="modus-icon material-icons">settings</i>
+      </button>
   </div>
   ${require(`../partials/guide-code.html`)}
 </div>
