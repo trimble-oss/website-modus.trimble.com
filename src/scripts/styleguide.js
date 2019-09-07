@@ -211,6 +211,7 @@ $(document).ready(function () {
     //  anatomy-exclude: ignores an element, use if you don't want the display to appear on an element that is a child of any of the classes above
     //  adding data-anatomy-popover="false", will have no popover
     //  adding data-anatomy-color="false", will have no color attributes
+    //  adding data-anatomy-dimensions="false", will have no size attributes
     let elem = null;
     if (e.currentTarget) {
       elem = $(e.currentTarget);
@@ -235,6 +236,8 @@ $(document).ready(function () {
       elem = $(e);
       elem.parent().css({ position: 'relative' });
     }
+    const showColors = (elem.data('anatomy-colors') || elem.data('anatomy-colors') === undefined);
+    const showDimensions = (elem.data('anatomy-dimensions') || elem.data('anatomy-dimensions') === undefined);
 
     const h = elem.outerHeight();
     const w = elem.outerWidth();
@@ -342,7 +345,8 @@ $(document).ready(function () {
     `;
 
     if(perm){
-      elem.parent().append(htmlStatic);
+      if(showDimensions){
+      elem.parent().append(htmlStatic);}
     } else {
       elem.parent().append(html);
     }
@@ -365,8 +369,8 @@ $(document).ready(function () {
     if (popoverClasses === '.') {
       popoverClasses = 'No Classes';
     }
-    const showColors = (elem.data('anatomy-colors') || elem.data('anatomy-colors') === undefined);
-    const offset = perm ?   8 + ',' + (m.left + 36) : 'top: ' + (m.top + 15) + ',';
+
+    const offset = perm ?   8 + ',' + ((showDimensions)? (m.left + 36) : 0) : (m.top + 8) + ',0';
     const popHeader = (perm) ? '' : `<p class="small text-primary font-weight-bold m-0">${popoverClasses}</p>`;
     const popBackground = (elem.css('background-color') !== 'rgba(0, 0, 0, 0)' && showColors ) ?
       `<p class="small mb-0" id="popover-bgc"><strong>background-color:</strong> ${rgbToHex(
@@ -385,9 +389,9 @@ $(document).ready(function () {
       )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
         'color'
       )}"></span></p>`  : '';
-      const popBorderRadius = (elem.css('border-radius') !== '0px') ?
+      const popBorderRadius = (elem.css('border-radius') !== '0px' && showDimensions) ?
       `<p class="small mb-0"><strong>border-radius:</strong> ${elem.css('border-radius')}</p>` : '';
-    const popFontSize = `<p class="small mb-0"><strong>font-size:</strong> ${elem.css('font-size')}</p>`;
+    const popFontSize = (showDimensions)?`<p class="small mb-0"><strong>font-size:</strong> ${elem.css('font-size')}</p>`:'';
     let pop = elem.popover({
       placement: place,
       container: elem.parent(),
@@ -560,21 +564,9 @@ $(document).ready(function () {
   }
 });
 
-// window.onload = initiate;
-
 $(function () {
-  // $('[data-toggle="popover"]').popover();
 
    $('#feedback-button').popover({
-    // content: `
-    // <h5>Feedback</h5>
-    // <button id="issueButton" class="btn btn-warning mr-2">
-    //       Report an Issue
-    //     </button>
-    //     <button id="featureButton" class="btn btn-primary">
-    //       Request a Feature
-    //     </button>
-    // `,
     content: $('#feedbackPopoverContent'),
     container: 'body',
     html: true,
@@ -586,32 +578,6 @@ $(function () {
   $('#feedback-button').on('show.bs.popover', function () {
     $('#feedbackPopoverContent').removeClass('hidden');
   });
-
-  // $('#feedback-button').on('shown.bs.popover', function () {
-  //   Init JIRA buttons
-  //   window.ATL_JQ_PAGE_PROPS = $.extend(window.ATL_JQ_PAGE_PROPS, {
-  //     '9127b19e' : {
-  //       triggerFunction:
-  //       function(showCollectorDialog) {
-  //         console.log('b');
-  //         $("#issueButton").click(function(e) {
-  //           console.log('c');
-  //           e.preventDefault();
-  //           showCollectorDialog();
-  //         });
-  //       }
-  //     },
-  //     'eac08567' : {
-  //       triggerFunction:
-  //       function(showCollectorDialog) {
-  //         $("#featureButton").click(function(e) {
-  //           e.preventDefault();
-  //           showCollectorDialog();
-  //         });
-  //       }
-  //     }
-  //   });
-  // });
 
   function findAnchorElement(path) {
     const anchors = $('a[href]').toArray();
@@ -653,9 +619,7 @@ $(function () {
 
   (function () {
     const anchorElement = findAnchorElement(window.location.pathname);
-    // console.log(anchorElement);
     const navGroup = findNavGroup(anchorElement);
-    // console.log(navGroup);
     expandNavGroup(navGroup);
   })();
 });
