@@ -1,8 +1,9 @@
 @import './node_modules/bootstrap/scss/functions';
-@import './node_modules/@trimblemaps/ether-framework/scss/components/functions';
-@import './node_modules/@trimblemaps/ether-framework/scss/components/mixins';
-@import './node_modules/@trimblemaps/ether-framework/scss/components/theme';
-@import './node_modules/@trimblemaps/ether-framework/scss/components/variables';
+@import './node_modules/@trimbleinc/modus-framework/scss/components/functions';
+@import './node_modules/@trimbleinc/modus-framework/scss/components/trimble-colors';
+@import './node_modules/@trimbleinc/modus-framework/scss/components/light-theme';
+@import './node_modules/@trimbleinc/modus-framework/scss/components/modus-variables';
+@import './node_modules/@trimbleinc/modus-framework/scss/components/mixins';
 @import 'guide-layout';
 
 html {
