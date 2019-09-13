@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@bitbucket.trimble.tools/maps/project-ether-styleguide.git"
+    "url": "ssh://git@bitbucket.trimble.tools/tmds/modus-styleguide.git"
   },
   "author": "Trimble",
   "license": "MIT",
