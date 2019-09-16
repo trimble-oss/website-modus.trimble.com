@@ -4,6 +4,7 @@
 @import './node_modules/@trimbleinc/modus-framework/scss/components/light-theme';
 @import './node_modules/@trimbleinc/modus-framework/scss/components/modus-variables';
 @import './node_modules/@trimbleinc/modus-framework/scss/components/mixins';
+@import 'mixins';
 @import 'guide-layout';
 
 html {
@@ -453,7 +454,7 @@ pre[class*='language-'] {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .guide-right-nav {
     display: flex !important;
   }

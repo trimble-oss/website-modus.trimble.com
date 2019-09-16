@@ -19,9 +19,15 @@ $guide-body-max-width: 1200px;
     .navbar {
       max-width: 1600px;
       margin: 0 auto;
+      padding-left: .5rem;
+      padding-right: .5rem;
     }
     .navbar-brand {
       width: 200px;
+    }
+
+    .navbar-text h1 {
+      font-size: 1.2rem;
     }
   }
 
@@ -38,9 +44,22 @@ $guide-body-max-width: 1200px;
   .guide-footer {
     background-color: $guide-footer-bg;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
     padding-left: 8px;
-    //min-height: 24px;
+
+    div {
+      margin-right: .5rem;
+    }
+
+    @include md {
+      justify-content: flex-start;
+
+      div {
+        margin-right: 1rem;
+      }
+    }
   }
 
   .guide-nav {
@@ -137,7 +156,7 @@ $guide-body-max-width: 1200px;
     #second-header{font-size: 2rem;}
   }
   .guide-content {
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
     padding-bottom: 0;
     height: 100%;
     width: 100%;
