@@ -10,8 +10,9 @@
     "deploy:dev": "cross-env s3-deploy './build/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './build/' --region us-east-1 --bucket dev-styles-trimblemaps --cache 0",
     "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js",
     "start:prod": "webpack-dev-server --open --config webpack/webpack.config.prod.js",
-    "changelog": "shx mkdir -p temp && git-file.bat",
-    "changelog:convert": "decompress --plugin=tar --out-dir=./temp ./temp/CHANGELOG.tar && showdown makehtml -i ./temp/CHANGELOG.md -o ./src/change-content.html && shx rm -rf ./temp",
+    "changelog": "shx mkdir -p .changelog && npm run changelog:fetch && npm run changelog:convert",
+    "changelog:fetch": "git archive --remote=ssh://git@bitbucket.trimble.tools/tmds/modus-framework.git HEAD CHANGELOG.md -o ./.changelog/CHANGELOG.tar",
+    "changelog:convert": "decompress --plugin=tar --out-dir=./.changelog ./.changelog/CHANGELOG.tar && showdown makehtml -i ./.changelog/CHANGELOG.md -o ./src/change-content.html",
     "svgo:base": "svgo --config=_svgo.yml --recursive",
     "svgo": "npm-run-all --parallel \"svgo:base -- --folder=src\""
   },
