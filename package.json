@@ -1,6 +1,6 @@
 {
   "name": "modus-framework-styleguide",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "homepage": "https://modus.trimble.com",
   "description": "The Modus Framework was developed as a common open source platform for all of Trimble's web applications",
   "scripts": {
