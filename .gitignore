@@ -6,6 +6,7 @@ build
 assets
 
 # misc
+.changelog
 .DS_Store
 npm-debug.log
 yarn-error.log

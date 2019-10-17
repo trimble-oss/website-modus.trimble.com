@@ -51,8 +51,8 @@ const codePen = elem => {
     js_library: '',
     html_classes: '',
     css_external:
-      'https://styles.trimblemaps.com/css/ether.min-0.3.2.css;https://styles.trimblemaps.com/css/ether-layout.min-0.3.2.css;https://styles.trimblemaps.com/assets/1.1.0/fonts/ether-icons.css;https://fonts.googleapis.com/icon?family=Material+Icons',
-    js_external: 'https://styles.trimblemaps.com/css/ether-layout.min-0.3.2.js',
+      'https://modus.trimble.com/css/modus.min-0.9.0.css;https://modus.trimble.com/css/modus-layout.min-0.9.0.css;https://modus.trimble.com/assets/0.5.0/fonts/modus-icons.css;https://fonts.googleapis.com/icon?family=Material+Icons',
+    js_external: 'https://modus.trimble.com/css/modus-layout.min-0.9.0.js',
     template: true
   };
 
