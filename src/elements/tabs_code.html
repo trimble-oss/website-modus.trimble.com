@@ -4,8 +4,11 @@
     Tabs are a subset of <code>.nav</code> components. Simply add the
     <code>.nav-tabs</code> class to generate a tabbed interface. Use them to
     create tabbable regions with Bootstrap's tab
-    <a href="https://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior" target="_blank">JavaScript
-      plugin</a>.
+    <a
+      href="https://getbootstrap.com/docs/4.0/components/navs/#javascript-behavior"
+      target="_blank"
+      >JavaScript plugin</a
+    >.
   </p>
 
   <h3 class="mt-5">Basic Tabs</h3>
@@ -22,7 +25,13 @@
           <a class="nav-link" href="#">Longer tab name</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            >Disabled</a
+          >
         </li>
       </ul>
     </div>
@@ -34,17 +43,30 @@
     <div class="guide-sample">
       <ul class="nav nav-tabs">
         <li class="nav-item">
-          <a class="nav-link active" href="#"><i class="modus-icon material-icons">mood</i></a>
+          <a class="nav-link active" href="#"
+            ><i class="modus-icon material-icons">mood</i></a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="modus-icon material-icons">face</i></a>
+          <a class="nav-link" href="#"
+            ><i class="modus-icon material-icons">face</i></a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="modus-icon material-icons">sentiment_satisfied</i></a>
+          <a class="nav-link" href="#"
+            ><i class="modus-icon material-icons">sentiment_satisfied</i></a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i
-              class="modus-icon material-icons">sentiment_very_dissatisfied</i></a>
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            ><i class="modus-icon material-icons"
+              >sentiment_very_dissatisfied</i
+            ></a
+          >
         </li>
       </ul>
     </div>
@@ -69,23 +91,42 @@
           <a class="nav-link" href="#">Longer tab name</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            >Disabled</a
+          >
         </li>
       </ul>
       <br />
       <ul class="nav nav-tabs nav-tabs-sm">
         <li class="nav-item">
-          <a class="nav-link active" href="#"><i class="modus-icon material-icons">mood</i></a>
+          <a class="nav-link active" href="#"
+            ><i class="modus-icon material-icons">mood</i></a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="modus-icon material-icons">face</i></a>
+          <a class="nav-link" href="#"
+            ><i class="modus-icon material-icons">face</i></a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="modus-icon material-icons">sentiment_satisfied</i></a>
+          <a class="nav-link" href="#"
+            ><i class="modus-icon material-icons">sentiment_satisfied</i></a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><i
-              class="modus-icon material-icons">sentiment_very_dissatisfied</i></a>
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            ><i class="modus-icon material-icons"
+              >sentiment_very_dissatisfied</i
+            ></a
+          >
         </li>
       </ul>
     </div>
@@ -95,80 +136,132 @@
   <h3 class="mt-5">Tabs with Content</h3>
   <p>
     Use the tab JavaScript plugin—include it individually or through the
-    compiled <code>bootstrap.js</code> file—to extend our navigational tabs
-    and pills to create tabbable panes of local content, even via dropdown
-    menus.
+    compiled <code>bootstrap.js</code> file—to extend our navigational tabs and
+    pills to create tabbable panes of local content, even via dropdown menus.
   </p>
   <p>
     Dynamic tabbed interfaces, as described in the
-    <a href="https://www.w3.org/TR/wai-aria-practices/#tabpanel"><abbr title="Web Accessibility Initiative">WAI</abbr>
+    <a href="https://www.w3.org/TR/wai-aria-practices/#tabpanel"
+      ><abbr title="Web Accessibility Initiative">WAI</abbr>
       <abbr title="Accessible Rich Internet Applications">ARIA</abbr>
-      Authoring Practices</a>, require <code>role="tablist"</code>, <code>role="tab"</code>,
-    <code>role="tabpanel"</code>, and additional
-    <code>aria-</code> attributes in order to convey their structure,
-    functionality and current state to users of assistive technologies (such
-    as screen readers).
+      Authoring Practices</a
+    >, require <code>role="tablist"</code>, <code>role="tab"</code>,
+    <code>role="tabpanel"</code>, and additional <code>aria-</code> attributes
+    in order to convey their structure, functionality and current state to users
+    of assistive technologies (such as screen readers).
   </p>
   <p>
     You can activate a tab navigation without writing JavaScript by simply
-    specifying <code>data-toggle="tab"</code> on an element. Use this
-    attribute on <code>.nav-tabs</code>.
+    specifying <code>data-toggle="tab"</code> on an element. Use this attribute
+    on <code>.nav-tabs</code>.
   </p>
   <p>
     Your content should be inside a <code>.tab-content</code> element as a
-    sibling to <code>.nav-tabs</code>. The <code>href</code> attribute of
-    each tab should match the <code>id</code> of its corresponding
+    sibling to <code>.nav-tabs</code>. The <code>href</code> attribute of each
+    tab should match the <code>id</code> of its corresponding
     <code>.tab-pane</code>.
   </p>
   <div class="guide-example-block">
     <div class="guide-sample">
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <ul class="nav nav-tabs" id="exampleTab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" id="firstTab" data-toggle="tab" href="#first" role="tab" aria-controls="first"
-            aria-selected="true">First tab</a>
+          <a
+            class="nav-link active"
+            id="exampleFirstTab"
+            data-toggle="tab"
+            href="#exampleFirst"
+            role="tab"
+            aria-controls="exampleFirst"
+            aria-selected="true"
+            >First tab</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="secondTab" data-toggle="tab" href="#second" role="tab" aria-controls="second"
-            aria-selected="false">Second tab</a>
+          <a
+            class="nav-link"
+            id="exampleSecondTab"
+            data-toggle="tab"
+            href="#exampleSecond"
+            role="tab"
+            aria-controls="exampleSecond"
+            aria-selected="false"
+            >Second tab</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="thirdTab" data-toggle="tab" href="#third" role="tab" aria-controls="third"
-            aria-selected="false">Third tab</a>
+          <a
+            class="nav-link"
+            id="exampleThirdTab"
+            data-toggle="tab"
+            href="#exampleThird"
+            role="tab"
+            aria-controls="exampleThird"
+            aria-selected="false"
+            >Third tab</a
+          >
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" id="disabledTab" data-toggle="tab" href="#disabled" role="tab"
-            aria-controls="disabled" aria-selected="false">Disabled tab</a>
+          <a
+            class="nav-link disabled"
+            id="disabledTab"
+            data-toggle="tab"
+            href="#exampleDisabled"
+            role="tab"
+            aria-controls="exampleDisabled"
+            aria-selected="false"
+            >Disabled tab</a
+          >
         </li>
       </ul>
-      <div class="tab-content py-3" id="myTabContent">
-        <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
+      <div class="tab-content py-3" id="exampleTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="exampleFirst"
+          role="tabpanel"
+          aria-labelledby="exampleFirstTab"
+        >
           <h5>First Tab Content</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab
-            totam harum, sed modi iste officiis neque optio eos culpa cumque
-            in voluptatem quaerat at similique est reprehenderit
-            exercitationem, provident unde.
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab totam
+            harum, sed modi iste officiis neque optio eos culpa cumque in
+            voluptatem quaerat at similique est reprehenderit exercitationem,
+            provident unde.
           </p>
         </div>
-        <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
+        <div
+          class="tab-pane fade"
+          id="exampleSecond"
+          role="tabpanel"
+          aria-labelledby="exampleSecondTab"
+        >
           <h5>Second Tab Content</h5>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Necessitatibus cumque numquam, aut ad quibusdam quidem dolorem
-            repudiandae nisi consectetur laboriosam porro dolorum sint
-            debitis! Porro minus quidem non quae tempora.
+            repudiandae nisi consectetur laboriosam porro dolorum sint debitis!
+            Porro minus quidem non quae tempora.
           </p>
         </div>
-        <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
+        <div
+          class="tab-pane fade"
+          id="exampleThird"
+          role="tabpanel"
+          aria-labelledby="exampleThirdTab"
+        >
           <h5>Third Tab Content</h5>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Voluptas quaerat numquam, dolorem aperiam quasi, tenetur qui
-            quae doloribus ullam maiores amet minus aliquam mollitia officia
-            quia eius? Excepturi, cum minus.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas
+            quaerat numquam, dolorem aperiam quasi, tenetur qui quae doloribus
+            ullam maiores amet minus aliquam mollitia officia quia eius?
+            Excepturi, cum minus.
           </p>
         </div>
-        <div class="tab-pane fade" id="disabled" role="tabpanel" aria-labelledby="disabled-tab">
+        <div
+          class="tab-pane fade"
+          id="exampleDisabled"
+          role="tabpanel"
+          aria-labelledby="disabledTab"
+        >
           <h5>Disabled Tab Content</h5>
           <p>
             This content is disabled and unviewable.
