@@ -2,7 +2,7 @@
   "recommendations": [
     "mkaufman.HTMLHint",
     "EditorConfig.EditorConfig",
-    "shinnn.stylelint",
+    "thibaudcolas.stylelint",
     "esbenp.prettier-vscode",
     "streetsidesoftware.code-spell-checker"
   ]
