@@ -477,3 +477,7 @@ pre[class*='language-'] {
   animation: progress 3s infinite ease-in-out;
   animation-delay: 1s
 }
+
+.anchorjs-link:hover {
+  text-decoration: none;
+}
