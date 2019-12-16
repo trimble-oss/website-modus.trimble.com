@@ -73,6 +73,7 @@ $guide-body-max-width: 1200px;
     max-width: 200px;
     padding-top: 1rem;
     padding-left: 1rem;
+    overflow-x: hidden;
     overflow-y: auto;
     &.collapse.show, &.collapsing {
       position: absolute;
@@ -132,6 +133,7 @@ $guide-body-max-width: 1200px;
     padding-bottom: 0;
     height: 100%;
     width: 100%;
+    max-width: $guide-body-max-width;
   }
 
   .guide-scroll-container {
