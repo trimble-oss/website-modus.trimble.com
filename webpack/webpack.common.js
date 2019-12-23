@@ -306,6 +306,12 @@ module.exports = {
       minify: false,
       template: Path.resolve(__dirname, '../src/elements/spinners.html')
     }),
+    new HtmlWebpackPlugin({
+      filename: 'messages.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/elements/messages.html')
+    }),
 
 
   ],
