@@ -1,0 +1,10 @@
+{
+  "extends": ["stylelint-config-standard", "stylelint-config-prettier"],
+  "rules":
+    {
+      "at-rule-no-unknown": null,
+      "color-hex-length": null,
+      "no-descending-specificity": null,
+      "no-duplicate-selectors": null,
+    },
+}
