@@ -13,8 +13,8 @@ $guide-body-max-width: 1200px;
     .navbar {
       max-width: 1600px;
       margin: 0 auto;
-      padding-left: .5rem;
-      padding-right: .5rem;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
     }
     .navbar-brand {
       width: 200px;
@@ -42,7 +42,7 @@ $guide-body-max-width: 1200px;
     padding-left: 8px;
 
     div {
-      margin-right: .5rem;
+      margin-right: 0.5rem;
     }
 
     @include md {
@@ -62,7 +62,8 @@ $guide-body-max-width: 1200px;
     padding-left: 1rem;
     overflow-x: hidden;
     overflow-y: auto;
-    &.collapse.show, &.collapsing {
+    &.collapse.show,
+    &.collapsing {
       position: absolute;
       z-index: 100;
       left: 0;
@@ -72,12 +73,13 @@ $guide-body-max-width: 1200px;
       box-shadow: $shadow-depth-1;
     }
     a.nav-link {
-      color: theme-color('dark');
+      color: theme-color("dark");
       font-weight: 600;
       display: flex;
       align-items: center;
-      &.active, &:hover {
-        color: ui-color('active') !important;
+      &.active,
+      &:hover {
+        color: ui-color("active") !important;
       }
     }
     .sub-nav {
@@ -88,7 +90,7 @@ $guide-body-max-width: 1200px;
         display: flex;
         &.active {
           border-left: 2px solid;
-          border-left-color: ui-color('active');
+          border-left-color: ui-color("active");
           padding-left: 14px;
         }
       }
@@ -123,7 +125,7 @@ $guide-body-max-width: 1200px;
 
   .guide-scroll-container {
     width: 100%;
-   }
+  }
 
   .guide-right-nav {
     top: 0;
@@ -131,7 +133,7 @@ $guide-body-max-width: 1200px;
     max-width: 200px;
     display: none;
     flex-direction: column;
-    &>nav {
+    & > nav {
       display: flex;
       flex-direction: column;
       overflow: auto;
@@ -141,12 +143,13 @@ $guide-body-max-width: 1200px;
       color: $gray-500;
       font-weight: 400;
       display: flex;
-      &.active, &:hover {
-        color: ui-color('active') !important;
+      &.active,
+      &:hover {
+        color: ui-color("active") !important;
       }
       &.active {
         border-left: 2px solid;
-        border-left-color: ui-color('active');
+        border-left-color: ui-color("active");
         padding-left: 14px;
       }
     }
@@ -173,20 +176,22 @@ $guide-body-max-width: 1200px;
   margin-top: 48px;
 }
 
-.guide-section, .tab-section {
+.guide-section,
+.tab-section {
   margin: 40px 0 80px;
   flex: 1;
 }
 
-
 .guide-tab-content {
   table:not(.table) {
     @extend .card;
+
     display: flex;
     background-color: transparent;
     width: fit-content;
     box-shadow: $shadow-depth-1;
-    td, th {
+    td,
+    th {
       padding: 16px;
       background-color: white;
       border-left: 1px solid $gray-300;
@@ -201,7 +206,7 @@ $guide-body-max-width: 1200px;
       border-top: 1px solid $gray-300;
       p {
         max-width: 300px;
-        color: theme-color('dark');
+        color: theme-color("dark");
       }
     }
   }
@@ -215,14 +220,14 @@ $guide-body-max-width: 1200px;
 }
 
 .tab-content {
-  display:flex;
+  display: flex;
   flex-direction: column;
   // overflow: auto;
   .tab-pane {
     position: relative;
   }
-  &>.active {
-    display:flex !important;
+  & > .active {
+    display: flex !important;
     flex: 1;
   }
 }
@@ -264,7 +269,8 @@ $guide-body-max-width: 1200px;
     }
   }
 
-  .guide-code, .guide-code-static {
+  .guide-code,
+  .guide-code-static {
     background-color: #f8f9fa;
     padding-bottom: 30px;
     position: relative;
@@ -273,8 +279,8 @@ $guide-body-max-width: 1200px;
     }
 
     pre {
-      margin-top: -10px;
       margin: 1rem;
+      margin-top: -10px;
       color: #333;
       white-space: pre-wrap;
     }
@@ -300,5 +306,5 @@ td.anatomy-cell {
 }
 
 thead th {
-  background-color: #F3F3F7;
+  background-color: #f3f3f7;
 }
