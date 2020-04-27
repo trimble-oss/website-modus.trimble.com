@@ -1,8 +1,8 @@
 'use-strict';
 
-const modusVersion = '0.9.1';
+const modusVersion = '0.9.5';
 const modusIconsVersion = '0.5.0';
-const guideVersion = '0.9.1 Beta';
+const guideVersion = '0.9.5 Beta';
 const dateOptions = {year: 'numeric', month: 'long', day: 'numeric'};
 
 exports.ether = {
