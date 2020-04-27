@@ -1,6 +1,6 @@
 {
   "name": "modus-framework-styleguide",
-  "version": "0.9.1",
+  "version": "0.9.5",
   "homepage": "https://modus.trimble.com",
   "description": "The Modus Framework was developed as a common open source platform for all of Trimble's web applications",
   "scripts": {
@@ -13,12 +13,16 @@
     "changelog": "shx mkdir -p .changelog && npm run changelog:fetch && npm run changelog:convert",
     "changelog:fetch": "git archive --remote=ssh://git@bitbucket.trimble.tools/tmds/modus-framework.git HEAD CHANGELOG.md -o ./.changelog/CHANGELOG.tar",
     "changelog:convert": "decompress --plugin=tar --out-dir=./.changelog ./.changelog/CHANGELOG.tar && showdown makehtml -i ./.changelog/CHANGELOG.md -o ./src/change-content.html",
+    "css:lint": "stylelint \"src/styles/*.scss\"",
     "svgo:base": "svgo --config=_svgo.yml --recursive",
     "svgo": "npm-run-all --parallel \"svgo:base -- --folder=src\""
   },
   "repository": {
     "type": "git",
     "url": "ssh://git@bitbucket.trimble.tools/tmds/modus-styleguide.git"
+  },
+  "bugs": {
+    "url": "https://jira.trimble.tools/projects/ETHER/issues/"
   },
   "author": "Trimble",
   "license": "MIT",
@@ -27,7 +31,7 @@
     "@babel/plugin-proposal-class-properties": "^7.8.0",
     "@babel/plugin-syntax-dynamic-import": "^7.8.0",
     "@babel/preset-env": "^7.8.2",
-    "@trimbleinc/modus-framework": "^0.9.1",
+    "@trimbleinc/modus-framework": "^0.9.5",
     "@webcomponents/webcomponentsjs": "^2.4.0",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^0.1.19",
