@@ -51,8 +51,8 @@ const codePen = elem => {
     js_library: '',
     html_classes: '',
     css_external:
-      'https://modus.trimble.com/css/modus.min-0.9.1.css;https://modus.trimble.com/css/modus-layout.min-0.9.1.css;https://modus.trimble.com/assets/0.5.0/fonts/modus-icons.css;https://fonts.googleapis.com/icon?family=Material+Icons',
-    js_external: 'https://code.jquery.com/jquery-3.4.1.slim.min.js;https://modus.trimble.com/css/modus-layout.min-0.9.0.js;https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js',
+      'https://modus.trimble.com/css/modus.min-0.9.5.css;https://modus.trimble.com/css/modus-layout.min-0.9.5.css;https://modus.trimble.com/assets/0.5.0/fonts/modus-icons.css;https://fonts.googleapis.com/icon?family=Material+Icons',
+    js_external: 'https://code.jquery.com/jquery-3.4.1.slim.min.js;https://modus.trimble.com/css/modus-layout.min-0.9.5.js;https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js',
     template: true
   };
 
