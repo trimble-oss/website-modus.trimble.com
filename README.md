@@ -2,6 +2,14 @@
 
 The Modus Framework was developed as a common, open source platform for all of Trimble's web applications.
 
+## Setup
+
+You will need
+- [Node](https://nodejs.org/en/download/)
+- [Git](https://git-scm.com/downloads)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- Install recommended VS Code Extensions: `cmd/ctrl-shift-P` "show recommended extensions"
+
 ## Installation
 
 ```bash

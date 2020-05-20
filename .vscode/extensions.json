@@ -4,6 +4,8 @@
     "EditorConfig.EditorConfig",
     "stylelint.vscode-stylelint",
     "esbenp.prettier-vscode",
-    "streetsidesoftware.code-spell-checker"
+    "streetsidesoftware.code-spell-checker",
+    "2gua.rainbow-brackets",
+    "anderseandersen.html-class-suggestions"
   ]
 }
