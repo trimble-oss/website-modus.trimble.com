@@ -28,6 +28,12 @@ module.exports = {
       root: Path.resolve(__dirname, '..')
     }),
     new HtmlWebpackPlugin({
+      filename: '404.html',
+      inject: true,
+      minify: false,
+      template: Path.resolve(__dirname, '../src/404.html')
+    }),
+    new HtmlWebpackPlugin({
       filename: 'index.html',
       inject: true,
       template: Path.resolve(__dirname, '../src/index.html')
