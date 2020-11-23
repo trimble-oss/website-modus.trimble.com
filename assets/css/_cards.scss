@@ -1,0 +1,39 @@
+.card-blog-brief {
+  transition: 0.2s ease-in-out;
+  min-height: 140px;
+}
+
+.card-blog-brief:hover {
+  box-shadow: 0 0 8px #bfbfc6 !important;
+  transition: 0.2s ease-in-out;
+}
+
+.card-blog-brief .card-header {
+  background-color: #eee;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 129px;
+}
+
+.card-blog-brief .card-body .stretched-link {
+  min-height: 44px;
+}
+
+.bg-adobe-xd {
+  background-color: #FF26BE !important;
+}
+
+.bg-figma {
+  background-color: #F24E1E !important;
+}
+
+.bg-sketch {
+  background-color: #F7B500 !important;
+}
+
+.bg-adobe-xd img,
+.bg-figma img,
+.bg-sketch img {
+  opacity: 0.8;
+}

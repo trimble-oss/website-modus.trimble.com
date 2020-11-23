@@ -1,0 +1,33 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{- $hex := .Get "hex" -}}
+<div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
+  <div class="card h-100 w-100 shadow-1">
+    <div class="card-img-top {{ if (.Params.bg) }}{{.Get "bg"}}{{- end -}}" style="background-color: {{ $hex }};">
+      <div class="py-4 py-lg-5"></div>
+    </div>
+    <div class="card-body pb-2 mb-1">
+      <div class="card-title mb-1">
+        <h5 class="mb-0 pb-0">
+          {{- .Inner | print -}}
+        </h5>
+      </div>
+      <div class="text-uppercase text-monospace mb-1 h4 text-secondary font-weight-normal">
+        {{- .Get "hex" -}}
+      </div>
+      {{ if (.Params.note) }}
+      <div class="my-1 small text-muted">
+        {{- .Get "note" -}} &nbsp;
+      </div>
+      {{- end -}}
+      {{ if (.Params.bg) }}
+      <code class="d-block small mr-1">.{{.Get "bg"}}</code>
+      {{- end -}}
+      {{- if (.Params.text) }}
+      <code class="d-block small mr-1">.{{.Get "text"}}</code>
+      {{- end -}}
+      {{- if (.Params.border) }}
+      <code class="d-block small mr-1">.{{.Get "border"}}</code>
+      {{- end -}}
+    </div>
+  </div>
+</div>

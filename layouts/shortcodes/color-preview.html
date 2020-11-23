@@ -1,0 +1,6 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{- $hex := .Get "hex" -}}
+<span class="small border bg-light color-preview mr-1">
+  <span class="border-right border-bottom mb-n1 d-inline-block" style="background-color: {{ $hex }};"></span>
+  <code class="mr-1">{{- .Get "hex" -}}</code>
+</span>

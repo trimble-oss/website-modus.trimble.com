@@ -1,0 +1,103 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+  if (window.location.href.indexOf('d300l1ldk3l61f') > -1) {
+    window.location.href = 'https://styleguide-dev.trimblemaps.com' + window.location.pathname;
+  };
+</script>
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+
+<!-- Faster Loading Google Fonts - https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/ -->
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
+
+<!-- Loads Modus from CDN
+<link rel="stylesheet" href="https://modus.trimble.com/css/modus.min-{{ .Site.Params.modusVersion }}.css">
+-->
+<link rel="stylesheet" href="/css/modus.min.css?{{ now.Format "2006-01-02"}}">
+
+<!-- Compiles and minifies the sites SASS files from /assets/css/ -->
+{{- $sassOptions := (dict "enableSourceMap" true) -}}
+{{ $styles := resources.Get "css/styles.scss" | toCSS $sassOptions | postCSS | minify }}
+<!--  | resources.Fingerprint "md5" -->
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}?{{ now.Format "2006-01-02"}}">
+
+<!--
+<link rel="stylesheet" href="https://modus.trimble.com/css/modus-layout.min-{{ .Site.Params.version }}.css">
+<script src="https://modus.trimble.com/css/modus-layout.min-{{ .Site.Params.modusVersion }}.js"></script>
+-->
+
+{{- if .IsHome -}}{{ hugo.Generator }}
+{{else}}
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet"
+    href="https://modus.trimble.com/assets/{{ .Site.Params.modusIconsVersion }}/fonts/modus-icons.css">
+  {{- end }}
+
+<!-- Load jQuery from CDN with fallback -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"><\/script>')</script>
+
+<script src="/js/bootstrap.bundle.min.js" async></script>
+
+{{ $styleguide := resources.Get "js/style-guide.js" }}
+{{ $js := slice $styleguide | resources.Concat "js/style-guide.js" | resources.Minify }}
+<!-- <script src="{{ $js.Permalink }}"></script> -->
+
+<meta name="description"
+  content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{- end -}}{{- end -}}">
+<!-- OpenGraph Meta tags using Hugo's own built-in template -->
+{{ template "_internal/opengraph.html" . }}
+<meta property="og:locale" content="en_US">
+<meta property="og:image:width" content="64">
+<meta property="og:image:height" content="64">
+<meta property="og:image:alt" content="Trimble icon">
+
+<!-- no need to define additional Twitter card meta tags as fallback to OpenGraph -->
+<!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#twitter-cards-and-open-graph -->
+<meta name="last-modified" content="{{ now.Format "2006-01-02"}}">
+<!-- Theme Color is used for the tab color on Chrome for Android -->
+<meta name="theme-color" content="#005f9e">
+
+{{ if .Site.IsServer }}
+{{ $favicon := resources.Get "/favicon-loc.ico" }}
+<link rel="shortcut icon" href="{{ $favicon.RelPermalink }}">
+{{ end }}
+
+<link rel="canonical" href="{{ .Permalink }}">
+{{- with .OutputFormats.Get "rss" -}}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+{{- `<!--[if IE]><script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
+<![endif]-->` | safeHTML -}}
+
+{{- if not .Params.hideSearch -}}
+<!-- search input is a different form on mobile and desktop -->
+<!-- TODO: Improve this -->
+<script>
+  $(function () {
+    if ($(window).width() >= 768) {
+      $(".search-desktop").attr('id', 'search-by');
+    }
+    else {
+      $(".search-mobile").attr('id', 'search-by');
+    }
+  });
+                            $(function () {
+                              $("#search-by").attr('title', '');
+                            });
+</script>
+
+<script>
+  var baseurl = "{{.Site.BaseURL}}";
+</script>
+
+<!-- Combines and minifies the 3x JS files which are used for the Search -->
+{{ $autocomplete := resources.Get "js/auto-complete.min.js" }}
+{{ $lunr := resources.Get "js/lunr.min.js" }}
+{{ $search := resources.Get "js/search.min.js" }}
+{{ $js := slice $autocomplete $lunr $search | resources.Concat "js/search.js" | resources.Minify }}
+<script src="{{ $js.RelPermalink }}"></script>
+{{- end -}}

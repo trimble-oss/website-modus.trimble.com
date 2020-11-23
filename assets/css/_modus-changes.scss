@@ -1,0 +1,67 @@
+/* Changes to Modus */
+
+// btn-small needs to be 12px (not 11px as it is now)
+
+.btn-text-primary:hover {
+  border: 1px solid #005f9e;
+}
+
+.text-success {
+  color: #4a821f !important;
+}
+
+// accordion > card header  > h5 - font-weight-bold
+
+.accordion .card-header h1,
+.accordion .card-header h2,
+.accordion .card-header h3,
+.accordion .card-header h4,
+.accordion .card-header h5,
+.accordion .card-header h6 {
+  font-weight: bold !important;
+}
+
+.breadcrumb-underline .breadcrumb-item > a {
+  text-decoration: underline;
+}
+
+// cards > card header  >- font-weight-bold
+
+
+// shadow classes should be shadow, shadow-sm and shadow-lg to match Bootstrap
+
+// font-sizes to be updated
+
+.bg-light {
+  background: #f3f3f7 !important;
+}
+
+
+.form-control {
+  font-size: 0.875rem;
+}
+
+.form-control-lg {
+  font-size: 1rem;
+}
+
+h2,
+.h2 {
+  font-weight: 600;
+}
+
+a {
+  color: #0d6aa8;
+}
+
+a:hover {
+  color: #00437b;
+}
+
+// .toasts **//
+
+// 16px padding
+
+// sliders
+// change background so not transparent:
+// $form-range-thumb-active-bg:               lighten($component-active-bg, 35%) !default;

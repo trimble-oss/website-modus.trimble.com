@@ -1,0 +1,99 @@
+<div class="container">
+  <div class="row mt-n4 d-md-none">
+    <div class="col px-0">
+      <form class="form-group px-0" name="search">
+        <label for="search-by" class="sr-only">Search</label>
+        <input data-search-input="" autocorrect="off" spellcheck="false" autocapitalize="off" type="search"
+          class="form-control search-mobile" aria-label="Search" name="query" placeholder="Search..." autocomplete="off"
+          title="" required>
+      </form>
+    </div>
+
+    <div class="col-1 px-1 mx-auto">
+      <button class="btn search-docs-toggle d-md-none mx-auto px-0" type="button" data-toggle="collapse"
+        data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="true" aria-label="Toggle docs navigation"><svg
+          xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false">
+          <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
+            d="M4 7h22M4 15h22M4 23h22"></path>
+        </svg></button>
+    </div>
+  </div>
+</div>
+
+<div class="sticky-top sticky-offset border-bottom">
+  <nav class="bd-links collapse" id="docs-nav">
+    <ul class="list-unstyled" id="menu-left">
+      {{- if .Params.start}}
+      {{ range .Site.Menus.start }}
+      <li><a class="nav-link text-dark" href="{{ .URL }}">
+          {{- .Name -}}
+        </a>
+      </li>
+      {{- end -}}
+      {{- end -}}
+
+      {{ $currentPage := . }}
+      {{- if .Params.foundations }}
+      {{ range .Site.Menus.foundations }}
+      <li><a class="nav-link text-dark{{if ($currentPage.HasMenuCurrent "foundations" .) }} active{{end}}"
+          href="{{ .URL }}">
+          {{- .Name -}}
+        </a>
+      </li>
+      {{- end -}}
+      {{- end -}}
+
+      {{- if .Params.components }}
+      {{ range .Site.Menus.components }}
+      <li><a class="nav-link text-dark" href="{{ .URL }}">
+          {{- .Name -}}
+        </a>
+      </li>
+      {{- end -}}
+      {{- end -}}
+
+      {{- if .Params.community }}
+      {{ range .Site.Menus.community }}
+      <li><a class="nav-link text-dark" href="{{ .URL }}">
+          {{- .Name -}}
+        </a>
+      </li>
+      {{- end -}}
+      {{- end -}}
+
+      {{- if .Params.blog }}
+{{ range .Site.Menus.community }}
+<li><a class="nav-link text-dark" href="{{ .URL }}">
+    {{- .Name -}}
+  </a>
+</li>
+{{- end -}}
+{{- end -}}
+
+    </ul>
+  </nav>
+</div>
+
+<script>
+  $(function () {
+    var nav = document.getElementById("menu-left"),
+      anchor = nav.getElementsByTagName("a"),
+      current = window.location;
+    for (var i = 0; i < anchor.length; i++) {
+      if (anchor[i].href == current) {
+        anchor[i].className = "nav-link text-dark active";
+      }
+    }
+  });
+</script>
+
+<!-- aria-current="page" -->
+<!-- https://gomakethings.com/better-more-accessible-active-link-styling/ -->
+<!--
+<script>
+  $(function () {
+    $('.menu-left a[href$="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+    $('.menu-left a[href$="/' + location.pathname.split("/")[1] + '"]').attr('aria-current', 'page');
+  });
+</script>
+-->

@@ -1,0 +1,9 @@
+div[class*="container-grid-spacing"] {
+  min-height: 120px;
+  line-height: 0.65 !important;
+}
+
+.container-grid-spacing-gutters svg {
+  margin-left: 0;
+  margin-bottom: 2px;
+}

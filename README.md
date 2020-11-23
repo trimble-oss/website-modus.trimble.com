@@ -1,10 +1,11 @@
-# Modus Framework Guide
+# Modus Framework Styleguide
 
 The Modus Framework was developed as a common, open source platform for all of Trimble's web applications.
 
 ## Setup
 
-You will need
+You will need:
+
 - [Node](https://nodejs.org/en/download/)
 - [Git](https://git-scm.com/downloads)
 - [Visual Studio Code](https://code.visualstudio.com/download)
@@ -19,21 +20,7 @@ npm install
 ## Start Dev Server
 
 ```bash
-npm start
-```
-
-## Start Prod Server
-
-Starts a local server that uses `webpack.config.prod.js`
-
-```bash
-npm run start:prod
-```
-
-## Build Dev Version
-
-```bash
-npm run build:dev
+npm run serve
 ```
 
 ## Build Prod Version
@@ -42,19 +29,24 @@ npm run build:dev
 npm run build
 ```
 
----
-## Developer Notes
+## Links
 
-The links to Modus's Development and Production builds can be found in `webpack/variables.js`. Simply changing the `modusVersion` and `modusIconsVersion` variables will change both the example texts in the style guide and the actual `<link>` and `<script>` tags used in the production builds.
+| Resource       | Link                                    |
+| -------------- | --------------------------------------- |
+| CloudFront DEV | https://d300l1ldk3l61f.cloudfront.net/  |
+| DEV            | https://styleguide-dev.trimblemaps.com/ |
+| Prod           | https://modus.trimble.com               |
 
-The Development build of the style guide will always point towards the versionless development build of Modus.
+## Testing and Audits
 
----
-
-### Features
-
-* ES6 Support via [babel](https://babeljs.io/) (v7)
-* SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
-* Linting via [eslint-loader](https://github.com/MoOx/eslint-loader)
-
-When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.
+| Resource           | Link                                                                                  |
+| ------------------ | ------------------------------------------------------------------------------------- |
+| Google Lighthouse  | https://googlechrome.github.io/lighthouse/viewer/?psiurl=https://modus.trimble.com    |
+| OpenGraph Test     | https://opengraphcheck.com/result.php?url=https://modus.trimble.com                   |
+| Page Speed Test    | https://developers.google.com/speed/pagespeed/insights/?url=https://modus.trimble.com |
+| Website Grader     | https://website.grader.com/results/modus.trimble.com                                  |
+| SEO, Social & More | https://www.seoptimer.com/modus.trimble.com                                           |
+| Security           | https://observatory.mozilla.org/analyze/modus.trimble.com                             |
+| Security Headers   | https://securityheaders.com/?q=modus.trimble.com&followRedirects=on                   |
+| SSL Labs           | https://www.ssllabs.com/ssltest/analyze?d=modus.trimble.com                           |
+| Dead Link Checker  | https://www.deadlinkchecker.com/website-dead-link-checker.asp                         |

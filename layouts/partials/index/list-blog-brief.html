@@ -1,0 +1,15 @@
+<div class="container mb-5">
+  <div class="row">
+    {{ range first 3 (where .Site.RegularPages.ByPublishDate.Reverse ".Section" "not in" "addons") }}
+    {{- partial "blog-brief.html" . -}}
+    {{- end -}}
+  </div>
+
+  {{ if .IsHome }}
+  <div class="text-center mt-3">
+    <a href="{{ "/news/" | relURL }}" class="h4">
+      View All
+    </a>
+  </div>
+  {{- end -}}
+</div>

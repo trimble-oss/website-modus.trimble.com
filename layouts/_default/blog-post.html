@@ -1,0 +1,68 @@
+{{ define "main" }}
+
+<header class="container-fluid px-0 py-5 border-bottom header-blog"
+  style="background-image: url({{ .Params.Image | relURL }});{{ with .Params.headerBgColor }}background-color:{{ . }};{{- end -}}">
+</header>
+
+<main role="main" class="my-5 container">
+
+  <div class="row">
+    <div class="col-12 col-md-3 col-lg-2 menu-left">
+      {{ partial "menu-left.html" . }}
+    </div>
+    <div class="col-12 col-md-9 col-lg-10 col-xl-8">
+
+      <article id="main">
+
+        <h1 class="font-weight-bold mb-3">
+          {{- .Title | title -}}
+        </h1>
+        {{ if .Params.Subtitle }}
+        <h2>
+          {{- .Params.Subtitle -}}
+        </h2>
+        {{- end -}}
+
+        <header class="row bg-white bg-transparent">
+          <div class="mx-3">
+            <img src="/img/author/{{ .Params.author | urlize }}.jpg"
+              class="bg-light rounded-circle mx-auto text-center border" height="44" width="44"
+              alt="{{ .Params.author }}">
+          </div>
+          <div>
+            <div class="text-dark font-weight-bold">
+              {{- .Params.author -}}
+            </div>
+            <!--  href="{{ "/author/" | relURL }}{{ .Params.author | urlize }}" -->
+            <div class="text-muted mb-3">
+              <span>Posted on</span>
+              {{ .Date.Format "Jan 2, 2006" -}}
+            </div>
+          </div>
+        </header>
+
+        {{ if and (gt .WordCount 350 ) (not .Params.hideToc) }}
+        <details class="mb-3 d-print-none d-xl-none">
+          <summary class="mb-1 user-select-none">Contents</summary>
+          {{ .TableOfContents }}
+        </details>
+        {{- end -}}
+
+        {{ .Content }}
+
+      </article>
+
+      {{ partial "blog-share" . }}
+
+      {{- partial "related-content.html" . -}}
+
+    </div>
+
+    {{ if and (gt .WordCount 350 ) (not .Params.hideToc) }}
+    <div class="col-12 col-xl-2 d-none d-xl-block">
+      {{ partial "menu-right.html" . }}
+    </div>
+    {{- end -}}
+</main>
+
+{{- end -}}

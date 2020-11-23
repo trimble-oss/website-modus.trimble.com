@@ -1,0 +1,42 @@
+.navbar a {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.navbar .form-control {
+  font-size: 14px;
+}
+
+// 'frosted glass' effect on top navbar
+.navbar.fixed-top {
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(6px);
+  z-index: 11111; // prevents overlapping navbar on mobile as scroll past
+}
+
+.navbar-brand a,
+.navbar-brand a:hover {
+  color: #005f9d;
+}
+
+// sets underline on top navbar on selected section
+body[data-url^="/designers/"] .navbar-nav li a[href^="/start/"],
+body[data-url^="/developers/"] .navbar-nav li a[href^="/start/"],
+body[data-url^="/device-support/"] .navbar-nav li a[href^="/start/"],
+body[data-url^="/start/"] .navbar-nav li a[href^="/start/"],
+body[data-url^="/status/"] .navbar-nav li a[href^="/start/"],
+body[data-url^="/whats-new/"] .navbar-nav li a[href^="/start/"],
+body[data-url^="/foundations/"] .navbar-nav li a[href^="/foundations/"],
+body[data-url^="/components/"] .navbar-nav li a[href^="/components/"],
+body[data-url^="/community/"] .navbar-nav li a[href^="/community/"] {
+  border-bottom: 2px solid #005f9e;
+}
+
+.navbar-nav li a {
+  border-bottom: 2px solid transparent;
+  color: #00437b;
+}
+
+.navbar-nav li a:hover {
+  border-bottom: 2px solid lightgray;
+}

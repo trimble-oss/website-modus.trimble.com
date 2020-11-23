@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" {{ with .width }} width="{{ . }}"{{ end }}{{ with .height }} height="{{ . }}"{{ end }}{{ with .class }} class="{{ . }}"{{ end }} viewBox="0 0 32 32"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(2.000000, 7.000000)" stroke="currentColor">
+            <polyline stroke-width="2" points="3.1104 3.9998 3.1114 0.0008 25.1104 -0.0002 25.1104 7.9998"></polyline>
+            <polyline stroke-width="2.221" points="22.1109 4.9998 25.1109 7.9998 28.1109 4.9998"></polyline>
+            <polyline stroke-width="2" points="25.1109 13.9998 25.1099 17.9988 3.1109 17.9998 3.1109 9.9998"></polyline>
+            <polyline stroke-width="2.221" points="6.1104 12.9998 3.1104 9.9998 0.1104 12.9998"></polyline>
+        </g>
+    </g>
+</svg>
