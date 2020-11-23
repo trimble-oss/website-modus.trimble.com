@@ -5,8 +5,8 @@
   "description": "The Modus Framework styleguide static site built with Hugo",
   "scripts": {
     "build": "npx hugo --minify",
-    "deploy": "cross-env s3-deploy './build/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './build/' --region us-east-1 --bucket prod-styles-trimblemaps --cache 0",
-    "deploy:dev": "cross-env s3-deploy './build/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './build/' --region us-east-1 --bucket dev-styles-trimblemaps --cache 0",
+    "deploy": "cross-env s3-deploy './public/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './public/' --region us-east-1 --bucket prod-styles-trimblemaps --cache 0",
+    "deploy:dev": "cross-env s3-deploy './public/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './public/' --region us-east-1 --bucket dev-styles-trimblemaps --cache 0",
     "css:lint": "stylelint \"assets/css/*.scss\"",
     "serve": "npx hugo serve",
     "svgo:base": "svgo --config=_svgo.yml --recursive",

@@ -1,5 +1,5 @@
-# baseurl: https://modus.trimble.com
-baseurl: https://styleguide-dev.trimblemaps.com/
+# baseurl: https://styleguide-dev.trimblemaps.com/
+baseurl: https://modus.trimble.com/
 title: Trimble Modus Design System
 languageCode: en-US
 locale: en-US
@@ -16,7 +16,7 @@ params:
   modusIconsVersion: "0.5.0"
   author: "Trimble"
   images:
-    - https://styleguide-dev.trimblemaps.com/icon.png
+    - https://modus.trimble.com/icon.png
 
 publishdir: "/public/"
 
