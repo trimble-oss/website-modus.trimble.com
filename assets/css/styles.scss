@@ -1,0 +1,79 @@
+// @import "modus";
+
+// @import "modus-changes"; // CSS changes to be upstreamed to Modus
+
+@import "anatomy-css";
+@import "autocomplete";
+@import "homepage";
+@import "article";
+@import "cards";
+@import "color-preview";
+@import "codefences";
+@import "foundations";
+@import "list-js";
+@import "menu-left";
+@import "menu-right"; // optimizations for xxs mobile screens
+@import "mobile"; // optimizations for xxs mobile screens
+@import "navbar";
+@import "posts";
+@import "ribbon-coming-soon";
+@import "rfs";
+@import "status";
+@import "skippy"; // skip to content accessibility
+@import "tables";
+@import "footer";
+@import "utilities";
+
+// underline links
+a {
+  text-decoration: underline;
+}
+
+.bg-light {
+  background: #f3f3f7 !important;
+}
+
+.form-control {
+  border-bottom: 1px solid !important;
+}
+
+// don't underline links in buttons or navbar
+.menu-left a,
+.guide-example-block a,
+table a,
+nav a,
+.btn {
+  text-decoration: none;
+}
+
+.guide-example-block .breadcrumb-item a:hover {
+  text-decoration: underline !important;
+}
+
+.popover-body small {
+  line-height: 100%;
+}
+
+code {
+  font-size: inherit;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-xl {
+    max-width: 1250px;
+  }
+}
+
+main {
+  min-height: 60vh;
+}
+
+.highlight {
+  background-color: #fff;
+}
+
+.menu-left,
+.search-docs-toggle {
+  z-index: 2222;
+}

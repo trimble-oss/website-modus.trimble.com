@@ -1,0 +1,48 @@
+{{ define "main" }}
+
+<header class="container-fluid px-0 border-bottom">
+  <div class="container py-md-3">
+    <div class="row py-lg-3">
+      <div class="col-12 py-4 text-center">
+        <h1 class="display-2 font-weight-bold pt-4 mt-5 text-white">
+          {{- .Title | title -}}
+        </h1>
+        <h2 class="mt-4 col-12 col-sm-11 mx-auto text-white">
+          {{- .Params.description -}}
+        </h2>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main role="main" class="my-5 container">
+
+  <div class="container mb-5">
+
+    <div class="row">
+      <div class="col">
+        <form class="w-100 mb-2">
+          <label for="search" class="sr-only">Search for components</label>
+          <input class="form-control form-control-lg w-100 search" id="search" placeholder="Start typing to filter..."
+            inputmode="search" autocomplete="off" title="" >
+        </form>
+      </div>
+    </div>
+
+    <div class="row list" id="listjs-list">
+      {{ range first 29 (where .Site.RegularPages ".Section" "components") }}
+      {{- partial "card-component.html" . -}}
+      {{- end -}}
+    </div>
+  </div>
+
+  <script src="/js/list.min.js"></script>
+  <script>
+    new List('listjs-body', {
+      valueNames: ['name', { data: ['tags'] }]
+    });
+  </script>
+
+</main>
+
+{{- end -}}

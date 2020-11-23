@@ -1,0 +1,36 @@
+.footer {
+  background-color: #07599b;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 1441 334' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%2307599B' d='M0 0h1440v332H0z'/%3E%3Cpath fill='%2300437B' d='M0 334V0h886z'/%3E%3Cpath fill='%23197CB6' d='M1437.605 245l3.395 87H615z'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  background-position: center;
+  content-visibility: auto; /* stylelint-disable-line */
+  contain-intrinsic-size: 333px; /* stylelint-disable-line */
+  font-size: 14px;
+  min-height: 333px;
+}
+
+.footer p {
+  font-size: 14px !important;
+}
+
+.footer h5,
+.footer .h5 {
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+body[data-url="/community/contribute/"] .card-blog-brief {
+ min-height: 306px;
+}
+
+body[data-url="/community/contribute/"] .card-blog-brief:hover {
+ box-shadow: 0 0 2px rgba(0,0,0,.25) !important;
+}
+
+body[data-url="/community/contribute/"] .card-blog-brief h3 {
+  font-size: 0.98rem;
+}

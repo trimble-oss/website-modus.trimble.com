@@ -3,7 +3,8 @@ node_modules
 
 # production
 build
-assets
+public/
+resources/
 
 # misc
 .changelog
@@ -12,5 +13,4 @@ npm-debug.log
 yarn-error.log
 yarn.lock
 .yarnclean
-.vscode
 .vscode/settings.json

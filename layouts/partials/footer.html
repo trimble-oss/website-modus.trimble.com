@@ -1,0 +1,50 @@
+<footer class="p-2 footer py-4">
+  <div class="container text-white">
+
+    <div class="row pt-2">
+      <div class="col-12 mb-4 mt-2">
+        <img src="/img/trimble-logo-rev.svg" width="107" height="25" alt="Trimble">
+      </div>
+    </div>
+
+    <div class="row py-2">
+      <div class="col-11 col-md-5 col-lg-4">
+        <p>Trimble is transforming the way the world works by delivering products and services that connect the physical
+          and digital worlds.</p>
+      </div>
+      <div class="col-12 col-sm-1 col-lg-4">
+
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <p class="h5">About Modus</p>
+        <ul class="list-unstyled">
+          <li class="my-3 my-sm-2"><a href="/start/" class="py-2">Introduction</a></li>
+          <li class="my-3 my-sm-2"><a href="/news/" class="py-2">News & Articles</a></li>
+          <li class="my-3 my-sm-2"><a href="/system-status/" class="py-2">System Status</a></li>
+          <li class="my-3 my-sm-2"><a href="/community/" class="py-2">Community</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md-3 col-lg-2">
+        <p class="h5">Help</p>
+        <ul class="list-unstyled">
+          <li class="my-3 my-sm-2"><a href="/community/tiger-teams/" class="py-2">Join a Tiger Team</a></li>
+          <li class="my-3 my-sm-2"><a href="/community/contribute/" class="py-2">Contribute</a></li>
+          <li class="my-3 my-sm-2"><a href="/community/contact/" class="py-2">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row p-3">
+      <div class="col-12 border-top border-light opacity-50">
+      </div>
+    </div>
+    <div class="row pt-2">
+      <div class="col-12 col-sm-6 small">
+        Copyright &copy; {{ now.Format "2006" }}, Trimble Inc.
+      </div>
+      <div class="col-12 col-sm-6 text-sm-right small">
+        <a href="https://www.trimble.com/Corporate/Terms_of_Use.aspx" rel="noopener" target="_blank">Terms of Use</a>
+        - Modus Version: {{ .Site.Params.modusVersion }}
+      </div>
+    </div>
+  </div>
+</footer>
