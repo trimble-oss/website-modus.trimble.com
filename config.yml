@@ -18,7 +18,7 @@ params:
   images:
     - https://modus.trimble.com/icon.png
 
-publishdir: "/build/"
+publishdir: "./build/"
 
 disableKinds: ["taxonomy", "taxonomyTerm", "RSS", "404"]
 
