@@ -12,13 +12,13 @@ buildFuture: true
 
 params:
   title: Trimble Modus Design System
-  modusVersion: "0.9.5"
+  modusVersion: "1.0.0"
   modusIconsVersion: "0.5.0"
   author: "Trimble"
   images:
     - https://modus.trimble.com/icon.png
 
-publishdir: "/public/"
+publishdir: "/build/"
 
 disableKinds: ["taxonomy", "taxonomyTerm", "RSS", "404"]
 
