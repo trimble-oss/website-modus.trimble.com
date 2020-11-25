@@ -1,32 +1,40 @@
 {
   "name": "modus-framework-styleguide",
   "version": "1.0.0",
-  "homepage": "https://modus.trimble.com",
+  "private": true,
   "description": "The Modus Framework styleguide static site built with Hugo",
-  "scripts": {
-    "build": "npx hugo --minify",
-    "deploy": "cross-env s3-deploy './build/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './build/' --region us-east-1 --bucket prod-styles-trimblemaps --cache 0",
-    "deploy:dev": "cross-env s3-deploy './build/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './build/' --region us-east-1 --bucket dev-styles-trimblemaps --cache 0",
-    "css:lint": "stylelint \"assets/css/*.scss\"",
-    "serve": "npx hugo serve",
-    "svgo:base": "svgo --config=_svgo.yml --recursive",
-    "svgo": "npm-run-all --parallel \"svgo:base -- --folder=static\"",
-    "test": "npm-run-all css:lint"
+  "homepage": "https://modus.trimble.com",
+  "bugs": {
+    "url": "https://jira.trimble.tools/projects/ETHER/issues/"
   },
   "repository": {
     "type": "git",
     "url": "ssh://git@bitbucket.trimble.tools/tmds/modus-styleguide.git"
   },
-  "bugs": {
-    "url": "https://jira.trimble.tools/projects/ETHER/issues/"
-  },
+  "license": "private",
   "author": "Trimble",
-  "license": "MIT",
+  "scripts": {
+    "build": "npm-run-all lint-css && npx hugo && npm run lint-html && npm run lint-links",
+    "deploy": "cross-env s3-deploy './build/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './build/' --region us-east-1 --bucket prod-styles-trimblemaps --preventUpdates --immutable",
+    "deploy:dev": "cross-env s3-deploy './build/**/*.{css,js,map,ico,png,jpg,svg,html}' --cwd './build/' --region us-east-1 --bucket dev-styles-trimblemaps --preventUpdates --immutable",
+    "lint-css": "stylelint \"assets/css/*.scss\"",
+    "lint-html": "htmlhint \"build/**/*.html\"",
+    "lint-links": "linkinator build --recurse --silent --skip styleguide-dev.trimblemaps.com",
+    "lint-markdown": "npx markdownlint-cli content/**/*.md",
+    "lint-spellcheck": "npx cspell \"content/**/*.md\"",
+    "prettier": "npx prettier --write \"assets/**/*.*\"",
+    "serve": "npx hugo serve",
+    "svgo": "npm-run-all --parallel \"svgo:base -- --folder=static\"",
+    "svgo:base": "svgo --config=_svgo.yml --recursive",
+    "test": "npm-run-all lint-css lint-markdown lint-html lint-links"
+  },
   "devDependencies": {
     "@trimbleinc/modus-framework": "^0.9.5",
     "autoprefixer": "^10.0.2",
     "cross-env": "^7.0.2",
+    "htmlhint": "^0.14.2",
     "hugo-bin": "^0.66.2",
+    "linkinator": "^2.2.2",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.1.10",
     "postcss-cli": "^8.3.0",

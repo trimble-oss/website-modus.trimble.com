@@ -11,19 +11,19 @@
 @import "../../node_modules/bootstrap/scss/functions";
 
 // Modus functions
-@import "../../node_modules/@trimbleinc/modus-framework/scss/components/functions";
+@import "../../node_modules/@trimbleinc/modus-framework/scss/elements/functions";
 
 // Modus variables
-@import "../../node_modules/@trimbleinc/modus-framework/scss/components/trimble-colors";
-@import "../../node_modules/@trimbleinc/modus-framework/scss/components/light-theme";
-@import "../../node_modules/@trimbleinc/modus-framework/scss/components/modus-variables";
+@import "../../node_modules/@trimbleinc/modus-framework/scss/elements/trimble-colors";
+@import "../../node_modules/@trimbleinc/modus-framework/scss/elements/light-theme";
+@import "../../node_modules/@trimbleinc/modus-framework/scss/elements/modus-variables";
 
 // Bootstrap variables
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/mixins";
 
 // Modus mixins
-@import "../../node_modules/@trimbleinc/modus-framework/scss/components/mixins";
+@import "../../node_modules/@trimbleinc/modus-framework/scss/elements/mixins";
 
 // Bootstrap components
 @import "../../node_modules/bootstrap/scss/root";
@@ -62,6 +62,6 @@
 @import "../../node_modules/bootstrap/scss/print";
 
 // Modus components
-@import "../../node_modules/@trimbleinc/modus-framework/scss/components/controls";
-@import "../../node_modules/@trimbleinc/modus-framework/scss/components/base";
-@import "../../node_modules/@trimbleinc/modus-framework/scss/components/scrollbars";
+@import "../../node_modules/@trimbleinc/modus-framework/scss/elements/controls";
+@import "../../node_modules/@trimbleinc/modus-framework/scss/elements/base";
+@import "../../node_modules/@trimbleinc/modus-framework/scss/elements/scrollbars";

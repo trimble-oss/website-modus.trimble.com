@@ -36,8 +36,8 @@ Description of the Design Pattern
 - **Overview:** Brief outline of what the pattern is and how it’s used
 - **Target User**: Does the pattern solve a problem for a particular user, persona, or archetype?
 - **Usage**:
-   - Use when (bullet points)
-   - Don’t use when (bullet points)
+  - Use when (bullet points)
+  - Don’t use when (bullet points)
 - **Pattern Design**: Visual representation of what the pattern looks like (Sketch, Figma, inVision, etc.)
 - **Specifications**: Details about what the pattern looks like, colors, measurements, typography, etc. What are the required and optional components?
 - **Types**: If you are identifying different types of the pattern, list them here with a brief description and visual example.

@@ -15,7 +15,7 @@
 <!-- Loads Modus from CDN
 <link rel="stylesheet" href="https://modus.trimble.com/css/modus.min-{{ .Site.Params.modusVersion }}.css">
 -->
-<link rel="stylesheet" href="/css/modus.min.css?{{ now.Format "2006-01-02"}}">
+<link rel="stylesheet" href="/css/modus.min.css?{{ .Site.Params.modusVersion }}">
 
 <!-- Compiles and minifies the sites SASS files from /assets/css/ -->
 {{- $sassOptions := (dict "enableSourceMap" true) -}}
@@ -85,9 +85,9 @@
       $(".search-mobile").attr('id', 'search-by');
     }
   });
-                            $(function () {
-                              $("#search-by").attr('title', '');
-                            });
+  $(function () {
+$("#search-by").attr('title', '');
+});
 </script>
 
 <script>

@@ -1,5 +1,5 @@
 *.css
-*.mdx
 *.min.js
 *.min.js.map
 *.html
+postcss.config.js
