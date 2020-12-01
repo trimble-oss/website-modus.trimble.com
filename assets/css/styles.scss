@@ -1,10 +1,6 @@
-// @import "modus";
-
-// @import "modus-changes"; // CSS changes to be upstreamed to Modus
 
 @import "anatomy-css";
 @import "autocomplete";
-@import "homepage";
 @import "article";
 @import "cards";
 @import "color-preview";
@@ -33,10 +29,6 @@ a {
   background: #f3f3f7 !important;
 }
 
-.form-control {
-  border-bottom: 1px solid !important;
-}
-
 // don't underline links in buttons or navbar
 .menu-left a,
 .guide-example-block a,
@@ -44,10 +36,6 @@ table a,
 nav a,
 .btn {
   text-decoration: none;
-}
-
-.guide-example-block .breadcrumb-item a:hover {
-  text-decoration: underline !important;
 }
 
 .popover-body small {

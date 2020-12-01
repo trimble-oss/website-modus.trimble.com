@@ -1,5 +1,5 @@
-# baseurl: https://styleguide-dev.trimblemaps.com/
-baseurl: https://modus.trimble.com/
+# baseurl: https://modus.trimble.com/
+baseurl: https://styleguide-dev.trimblemaps.com/
 title: Trimble Modus Design System
 languageCode: en-US
 locale: en-US
@@ -13,6 +13,7 @@ buildFuture: true
 params:
   title: Trimble Modus Design System
   modusVersion: "1.0.0"
+  modusLayoutVersion: "0.9.5"
   modusIconsVersion: "0.5.0"
   author: "Trimble"
   images:
@@ -44,8 +45,8 @@ menu:
     - name: Foundations
       url: "/foundations/"
       weight: 2
-    - name: Components
-      url: "/components/"
+    - name: Elements
+      url: "/elements/"
       weight: 3
     - Name: Community
       url: "/community/"
@@ -93,51 +94,51 @@ menu:
 
   components:
     - name: Accordions
-      url: /components/accordions/
+      url: /elements/accordions/
     - name: Alerts
-      url: /components/alerts/
+      url: /elements/alerts/
     - name: Badges
-      url: /components/badges/
+      url: /elements/badges/
     - name: Breadcrumbs
-      url: /components/breadcrumbs/
+      url: /elements/breadcrumbs/
     - name: Buttons
-      url: /components/buttons/
+      url: /elements/buttons/
     - name: Cards
-      url: /components/cards/
+      url: /elements/cards/
     - name: Chips
-      url: /components/chips/
+      url: /elements/chips/
     - name: Checkboxes
-      url: /components/checkboxes/
+      url: /elements/checkboxes/
     - name: Dialogs
-      url: /components/dialogs/
+      url: /elements/dialogs/
     - name: Dropdowns
-      url: /components/dropdowns/
+      url: /elements/dropdowns/
     - name: Inputs
-      url: /components/inputs/
+      url: /elements/inputs/
     - name: Lists
-      url: /components/lists/
+      url: /elements/lists/
     - name: Messages
-      url: /components/messages/
+      url: /elements/messages/
     - name: Pagination
-      url: /components/pagination/
+      url: /elements/pagination/
     - name: Progress Bars
-      url: /components/progress-bars/
+      url: /elements/progress-bars/
     - name: Radio Buttons
-      url: /components/radio-buttons/
+      url: /elements/radio-buttons/
     - name: Sliders
-      url: /components/sliders/
+      url: /elements/sliders/
     - name: Spinners
-      url: /components/spinners/
+      url: /elements/spinners/
     - name: Switches
-      url: /components/switches/
+      url: /elements/switches/
     - name: Tables
-      url: /components/tables/
+      url: /elements/tables/
     - name: Tabs
-      url: /components/tabs/
+      url: /elements/tabs/
     - name: Toasts
-      url: /components/toasts/
+      url: /elements/toasts/
     - name: Tooltips
-      url: /components/tooltips/
+      url: /elements/tooltips/
 
   resources:
     - name: "News & Articles"

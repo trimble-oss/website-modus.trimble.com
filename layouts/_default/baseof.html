@@ -8,10 +8,11 @@
 
 {{- if and (gt .WordCount 350 ) (not .Params.hideToc) -}}
 
-<body data-url="{{ .RelPermalink }}" data-spy="scroll" data-target="#TableOfContents" data-offset="126" {{ if .Params.listjs }}id="listjs-body"{{- end -}}>
+<body data-url="{{ .RelPermalink }}" data-spy="scroll" data-target="#TableOfContents" data-offset="126"
+  {{ if .Params.listJS }}id="listjs-body" {{- end -}}>
   {{ else }}
 
-  <body data-url="{{ .RelPermalink }}" {{ if .Params.listjs }}id="listjs-body"{{- end -}}>
+  <body data-url="{{ .RelPermalink }}" {{ if .Params.listJS }}id="listjs-body" {{- end -}}>
     {{- end -}}
 
     {{ partial "navbar" . }}
