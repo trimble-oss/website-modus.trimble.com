@@ -2,8 +2,7 @@
 title: "Developers"
 layout: "single"
 description: "The Modus Front-end Framework is an HTML/CSS library developed as a common, open source platform for all
-of Trimble's web applications. The framework is designed and managed
-by the Trimble UX Council."
+of Trimble's web applications. The framework is designed and managed by the Trimble UX Council."
 start: true
 ---
 
@@ -13,7 +12,7 @@ start: true
 
 {{</ card-start >}}
 
-{{< card-start title="Modus Angular Material Site" url="#" class="bg-danger py-4 bg-coming-soon" header="angular.svg" >}}
+{{< card-start title="Modus Angular Material Site" class="bg-danger py-4 bg-coming-soon" header="angular.svg" >}}
 
 {{</ card-start >}}
 

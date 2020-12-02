@@ -1,14 +1,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script>
-  if (window.location.href.indexOf('d300l1ldk3l61f') > -1) {
-    window.location.href = 'https://styleguide-dev.trimblemaps.com' + window.location.pathname;
-  };
-</script>
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 
 <!-- Faster Loading Google Fonts - https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/ -->
-<link rel="dns-prefetch" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
 
@@ -61,11 +55,6 @@
 <!-- Theme Color is used for the tab color on Chrome for Android -->
 <meta name="theme-color" content="#005f9e">
 
-{{ if .Site.IsServer }}
-{{ $favicon := resources.Get "/favicon-loc.ico" }}
-<link rel="shortcut icon" href="{{ $favicon.RelPermalink }}">
-{{ end }}
-
 <link rel="canonical" href="{{ .Permalink }}">
 {{- with .OutputFormats.Get "rss" -}}
 {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
@@ -101,3 +90,9 @@ $("#search-by").attr('title', '');
 {{ $js := slice $autocomplete $lunr $search | resources.Concat "js/search.js" | resources.Minify }}
 <script src="{{ $js.RelPermalink }}"></script>
 {{- end -}}
+
+<!-- Show custom 'LOC' favicon for serving locally -->
+{{- if .Site.IsServer -}}
+{{ $favicon := resources.Get "/static/favicon-loc.ico" }}
+<link rel="shortcut icon" href="{{ $favicon.RelPermalink }}">
+{{ end }}

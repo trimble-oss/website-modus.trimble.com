@@ -28,24 +28,12 @@ Input fields or text fields allow users to enter text into a UI. They typically 
       </div>
     </div>
   </div>
-
   <div class="form-group">
     <label for="Input3">Input with icon on left</label>
     <div class="input-with-icon-left">
       <input class="form-control" placeholder="Placeholder Text" id="Input3">
       <div class="input-icon">
         <i class="modus-icon material-icons">search</i>
-      </div>
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="Input4">Input with a button</label>
-    <div class="input-group">
-      <input class="form-control" placeholder="Placeholder Text" id="Input4">
-      <div class="input-group-append">
-        <button class="btn btn-outline-secondary">
-          Go
-        </button>
       </div>
     </div>
   </div>

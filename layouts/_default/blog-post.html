@@ -14,7 +14,7 @@
 
       <article id="main">
 
-        <h1 class="font-weight-bold mb-3">
+        <h1 class="font-weight-bold mb-3" {{ if .Params.TitleNoTranslate }}translate="no" {{- end -}}>
           {{- .Title | title -}}
         </h1>
         {{ if .Params.Subtitle }}
@@ -63,6 +63,7 @@
       {{ partial "menu-right.html" . }}
     </div>
     {{- end -}}
+  </div>
 </main>
 
 {{- end -}}

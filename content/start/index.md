@@ -42,7 +42,7 @@ At Trimble, there are hundreds of products being developed worldwide. In order t
 
 As the design system matures, you can expect to see an increased emphasis on modularity and [atomic design methodology](https://atomicdesign.bradfrost.com/) in order for the system to be more sustainable.
 
-**Components** are our most basic elements (buttons, cards, spinners, tables, etc.). Soon, we will be adding **patterns** (headers, footers, splash pages, etc.). And finally **templates** that will include layouts for pages (search results page, gallery page, etc.)
+**Elements** are our most basic elements (buttons, cards, spinners, tables, etc.). Soon, we will be adding **patterns** (headers, footers, splash pages, etc.). And finally **templates** that will include layouts for pages (search results page, gallery page, etc.)
 
 ## Who Can Benefit from Modus
 
@@ -58,7 +58,7 @@ Product owners, designers, and developers are the primary audience for this syst
 
 With Modus Design System we are aiming to accomplish two main goals in line with Trimble business strategy of standardization and scale:
 
-1. **Systematize the Trimble product interfaces**
+### 1. Systematize the Trimble product interfaces
 
 - Define guiding design principles and foundations.
 - Define and standardize reusable design components.
@@ -67,7 +67,7 @@ With Modus Design System we are aiming to accomplish two main goals in line with
 - Set up master design files with up-to-date patterns in Sketch, Figma, and Adobe XD.
 - Refactor code and front-end architecture to support the modular approach for Bootstrap, Angular Material, and React.
 
-2. **Establish shared processes and governance**
+### 2. Establish shared processes and governance
 
 - Set up knowledge-sharing processes through conversations, collaboration, pairing, and training.
 - Encourage contribution and collaboration with the Tiger Team approach.
@@ -88,7 +88,7 @@ Interested in contributing?
 
 <p class="mx-auto text-center">
   <a href="/community/tiger-teams/" class="btn btn-lg bg-white border m-2">Join a Tiger Team</a>
-  <a href="/community/contribution-process/" class="btn btn-lg bg-white border m-2">Submit a component</a>
+  <a href="/community/contribution-process/" class="btn btn-lg bg-white border m-2">Submit a UI Pattern</a>
   <a href="/community/contact/" class="btn btn-lg bg-white border m-2">Ask a question</a>
 </p>
 

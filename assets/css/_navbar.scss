@@ -28,7 +28,8 @@ body[data-url^="/status/"] .navbar-nav li a[href^="/start/"],
 body[data-url^="/whats-new/"] .navbar-nav li a[href^="/start/"],
 body[data-url^="/foundations/"] .navbar-nav li a[href^="/foundations/"],
 body[data-url^="/elements/"] .navbar-nav li a[href^="/elements/"],
-body[data-url^="/community/"] .navbar-nav li a[href^="/community/"] {
+body[data-url^="/community/"] .navbar-nav li a[href^="/community/"],
+body[data-url^="/news/"] .navbar-nav li a[href^="/community/"] {
   border-bottom: 2px solid #005f9e;
 }
 

@@ -23,8 +23,9 @@ Trimble uses three levels of elevation specified by different depths of drop sha
       <h3>Level 1</h3>
       </div>
       <div class="card-body py-1">
-        <p>box-shadow: 0px 0px 2px #D0D0D7;
-<br>Used for: dropdowns, tooltips, default cards</p>
+      <code>box-shadow:<br>
+      0 0 2px rgba(0,95,158,.4);</code>
+        <p class="mt-2">Used for: dropdowns, tooltips, default cards</p>
       </div>
     </div>
   </div>
@@ -34,7 +35,9 @@ Trimble uses three levels of elevation specified by different depths of drop sha
       <div class="card-header py-4 bg-light"><h3>Level 2</h3>
       </div>
       <div class="card-body py-1">
-        <p>box-shadow: 0px 0px 5px #D0D0D7;<br>
+      <code>box-shadow:<br>
+      0 0 5px rgba(0,95,158,.4);</code>
+        <p class="mt-2">
 Used for: sticky elements, cards active</p>
       </div>
     </div>
@@ -45,8 +48,9 @@ Used for: sticky elements, cards active</p>
       <div class="card-header py-4 bg-light"><h3>Level 3</h3>
       </div>
       <div class="card-body py-1">
-        <p>box-shadow: 0px 0px 8px #D0D0D7;<br>
-Used for: dialogs, modals, cards hover</p>
+      <code>box-shadow:<br>
+      0 0 8px rgba(0,95,158,.4);</code>
+        <p class="mt-2">Used for: dialogs, modals, cards hover</p>
       </div>
     </div>
   </div>

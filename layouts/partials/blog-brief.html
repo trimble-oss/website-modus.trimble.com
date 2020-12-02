@@ -21,8 +21,8 @@
       style="background-image: url({{ .Params.Image | relURL }});">
     </div>
     <div class="card-body bg-white border-0 pb-0">
-      <h3 class="card-title px-2 ml-n2 name">
-        {{- .Title | title -}}
+      <h3 class="card-title px-2 ml-n2 name" {{ if .Params.TitleNoTranslate }}translate="no" {{- end -}}>
+        {{- .Title -}}
       </h3>
       <p class="px-2 ml-n2">
         <a href="{{ .RelPermalink }}" class="stretched-link text-decoration-none text-muted">

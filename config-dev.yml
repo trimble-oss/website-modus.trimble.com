@@ -1,0 +1,11 @@
+baseurl: https://styleguide-dev.trimblemaps.com/
+disableKinds: ["section", "taxonomy", "taxonomyTerm", "404", "sitemap"]
+
+module:
+  mounts:
+    - source: static
+      target: static
+    - source: assets/static/favicon-dev.ico
+      target: static/favicon.ico
+    - source: assets/static/robots-dev.txt
+      target: static/robots.txt

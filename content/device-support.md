@@ -6,23 +6,13 @@ url: "/device-support/"
 start: true
 ---
 
-The Trimble suite of products spans a plethora of business sectors, technology platforms (e.g. mobile, desktop app, desktop SW, etc), front end languages and technology stacks (e.g. Angular, Java, HTML/CSS, etc), work applications, (in office, in the field, in a machine, etc) and devices (tablets, phones, laptops, desktops, and Trimble HW). In order to ensure different teams can build beautiful user experiences, Modus currently targeted at the supported environments.
+The Trimble suite of products spans a plethora of business sectors, technology platforms (e.g. mobile, desktop app, desktop SW, etc), front end languages and technology stacks (e.g. Angular, Java, HTML/CSS, etc), work applications, (in office, in the field, in a machine, etc) and devices (tablets, phones, laptops, desktops, and Trimble HW). In the spirit of Agile development and modularity, this first release of Modus is targeted at the supported environments outlined below.
 
 ## Currently Supported
 
 ### Web-based Software
 
 Software that is built to be viewed on a web-browser on a desktop, tablet, and/or other mobile device. The content adapts to different screen sizes. Modus provides a responsive grid and design patterns that reflect best usability practices for all breakpoints.
-
-The Modus Framework supports the following browser versions:
-
-- Chrome >= 60
-- Firefox >= 60
-- Edge >= 16
-- iOS >= 10
-- Safari >= 10
-- Android >= 6
-- Explorer 11
 
 ### Desktop Software
 

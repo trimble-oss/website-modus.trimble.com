@@ -14,3 +14,7 @@
 .menu-left a.active {
   font-weight: bold;
 }
+
+body[data-url^="/news/"] .menu-left a[href^="/news/"] {
+  font-weight: bold;
+}
