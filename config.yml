@@ -1,10 +1,8 @@
-# baseurl: https://modus.trimble.com/
-baseurl: https://styleguide-dev.trimblemaps.com/
+baseurl: https://modus.trimble.com/
 title: Trimble Modus Design System
 languageCode: en-US
 locale: en-US
 
-defaultContentLanguageInSubdir: true
 enableInlineShortcodes: true
 enableGitInfo: true
 
@@ -62,8 +60,8 @@ menu:
     - name: Device Support
       url: "/device-support/"
       weight: 3
-    - name: System Status
-      url: "/system-status/"
+    - name: Status
+      url: "/status/"
       weight: 4
 
   foundations:
@@ -167,6 +165,15 @@ menu:
     - name: Contact Us
       url: /community/contact/
       weight: 6
+
+module:
+  mounts:
+    - source: static
+      target: static
+    - source: assets/static/favicon.ico
+      target: static/favicon.ico
+    - source: assets/static/robots.txt
+      target: static/robots.txt
 
 markup:
   goldmark:

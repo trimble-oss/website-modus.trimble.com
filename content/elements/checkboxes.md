@@ -70,7 +70,25 @@ Checkboxes should be used in forms that require submission and processing. The c
         >
       </div>
     </div>
+    <div class="form-group ml-3">
+      <div class="custom-control custom-checkbox">
+        <input
+          type="checkbox"
+          class="custom-control-input"
+          id="exampleCheckbox5"
+          name="exampleCheckbox5"
+          value="customEx">
+        <label class="custom-control-label" for="exampleCheckbox5"
+         >Indeterminate State</label
+         >
+      </div>
+    </div>
   </div>
+</div>
+
+<script>
+  $('#exampleCheckbox5').prop('indeterminate', true)
+</script>
 
 ## Usage
 

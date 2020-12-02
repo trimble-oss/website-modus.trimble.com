@@ -1,0 +1,17 @@
+{
+  "name": "Modus Style Guide",
+  "short_name": "Modus",
+  "lang": "en-us",
+  "description": "The One Trimble Design System",
+  "background_color": "#fff",
+  "theme_color": "#005F9E",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/?utm_source=a2hs",
+  "url": "https://modus.trimble.com"
+}

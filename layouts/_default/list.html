@@ -4,7 +4,7 @@
   <div class="container py-md-3">
     <div class="row py-lg-3">
       <div class="col-12 py-4 text-center">
-        <h1 class="display-2 font-weight-bold pt-4 mt-5 text-white">
+        <h1 class="display-2 font-weight-bold pt-4 mt-5 text-white" {{ if .Params.TitleNoTranslate }}translate="no" {{- end -}}>
           {{- .Title | title -}}
         </h1>
         <h2 class="mt-4 col-12 col-sm-11 mx-auto text-white">

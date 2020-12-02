@@ -264,7 +264,7 @@ All buttons (including icon buttons) should have the following states:
         <tr>
           <th>State</th>
           <th>Primary</th>
-          <th>Secondary</th>
+          <th>Default</th>
           <th>Outline</th>
           <th>Text Only</th>
           <th>Danger</th>

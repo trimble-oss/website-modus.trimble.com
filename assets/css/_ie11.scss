@@ -1,0 +1,7 @@
+// IE11
+
+@media all and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  nav .justify-content-end {
+    justify-content: space-between !important;
+  }
+}
