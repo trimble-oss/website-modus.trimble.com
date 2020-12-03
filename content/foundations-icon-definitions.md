@@ -12,6 +12,8 @@ Icons are visual symbols representing tools, functions, or content. They quickly
 
 Based on the metaphor they reflect, icons can be divided into three categories ([Jacob Nielsen](https://www.nngroup.com/articles/classifying-icons/)):
 
+{{% img src="/img/icons-samples.svg" height="100" width="300" alt="icons" %}}
+
 **Resemblance** icons are the symbols directly depicting a physical object the icon represents. Examples include the magnifier for search, the shopping cart, or the envelope for mail. In order for these icons to be easily recognizable, they need to look like the object they intend to represent.
 
 **Reference** icons are the symbols depicting an object on the basis of analogy. For instance, a picture of scissors to represent cutting. For reference icons to be successful, the two concepts being linked need to be sufficiently closely related so that the users understand the reference.
