@@ -18,7 +18,7 @@ Trimble uses three levels of elevation specified by different depths of drop sha
 <div class="row mb-3">
 
   <div class="col-12 col-sm-6 col-md-4 h-100">
-    <div class="card border shadow-sm">
+    <div class="card shadow-sm">
       <div class="card-header py-4 bg-light">
       <h3>Level 1</h3>
       </div>
@@ -31,12 +31,12 @@ Trimble uses three levels of elevation specified by different depths of drop sha
   </div>
 
   <div class="col-12 col-sm-6 col-md-4 h-100">
-    <div class="card border shadow">
+    <div class="card shadow">
       <div class="card-header py-4 bg-light"><h3>Level 2</h3>
       </div>
       <div class="card-body py-1">
       <code>box-shadow:<br>
-      0 0 5px rgba(0,95,158,.4);</code>
+      0 0 4px rgba(0,95,158,.4);</code>
         <p class="mt-2">
 Used for: sticky elements, cards active</p>
       </div>
@@ -44,7 +44,7 @@ Used for: sticky elements, cards active</p>
   </div>
 
   <div class="col-12 col-sm-6 col-md-4 h-100">
-    <div class="card border shadow-lg">
+    <div class="card shadow-lg">
       <div class="card-header py-4 bg-light"><h3>Level 3</h3>
       </div>
       <div class="card-body py-1">
