@@ -60,10 +60,18 @@ There are two button progressions you can choose from: structural and color prog
     </tr>
     <tr>
       <th scope="row">Default</th>
-      <td><button class="btn btn-outline-dark">Rename</button></td>
+      <td><button class="btn btn-outline-primary">Rename</button></td>
       <td>Medium</td>
       <td>
         Use for secondary actions on a screen. Outline-style buttons work well on colored, dark, or image backgrounds. Consider how the style of an outline button might better suit the page.
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Secondary</th>
+      <td><button class="btn btn-outline-dark">Cancel</button></td>
+      <td>Medium</td>
+      <td>
+        Used for secondary actions to establish additional visual hierarchy.
       </td>
     </tr>
     <tr>
@@ -258,8 +266,7 @@ All buttons (including icon buttons) should have the following states:
 - Pressed
 - Disabled
 
-<div class="">
-    <table class="table table-bordered bg-white" style="width: max-content">
+<table class="table table-bordered bg-white" style="width: max-content">
       <thead class="thead-light">
         <tr>
           <th>State</th>
@@ -324,8 +331,7 @@ All buttons (including icon buttons) should have the following states:
           <td><button disabled class="btn btn-danger">Button</button></td>
         </tr>
       </tbody>
-    </table>
-  </div>
+</table>
 
 Icon button state colors may vary based on product. Always make sure the colors of all states (except for disabled) meet [color contrast accessibility standards](/foundations/accessibility/).
 
