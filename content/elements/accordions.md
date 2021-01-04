@@ -62,7 +62,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           data-parent="#accordionCodeExample"
         >
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor wes anderson cred nets serpent ea president. Ad vegan except butcher vice lemons. Leggings course craft beer farm-to-table, raw denim aesthetic synth braking you probably haven't heard of them accuse abort sustainable VHS.
           </div>
         </div>
       </div>
@@ -86,8 +86,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           data-parent="#accordionCodeExample"
         >
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor wes anderson cred nets serpent ea president. Ad vegan except butcher vice lemons. Leggings course craft beer farm-to-table, raw denim aesthetic synth braking you probably haven't heard of them accuse abort sustainable VHS.
           </div>
         </div>
       </div>
@@ -111,8 +110,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           data-parent="#accordionCodeExample"
         >
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor wes anderson cred nets serpent ea president. Ad vegan except butcher vice lemons. Leggings course craft beer farm-to-table, raw denim aesthetic synth braking you probably haven't heard of them accuse abort sustainable VHS.
           </div>
         </div>
       </div>
@@ -144,7 +142,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           data-parent="#smallAccordionCodeExample"
         >
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry  richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor wes anderson cred nets serpent ea president. Ad vegan except butcher vice lemons. Leggings course craft beer farm-to-table, raw denim aesthetic synth braking you probably haven't heard of them accuse abort sustainable VHS.
           </div>
         </div>
       </div>
@@ -168,7 +166,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           data-parent="#smallAccordionCodeExample"
         >
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor wes anderson cred nets serpent ea president. Ad vegan except butcher vice lemons. Leggings course craft beer farm-to-table, raw denim aesthetic synth braking you probably haven't heard of them accuse abort sustainable VHS.
           </div>
         </div>
       </div>
@@ -192,8 +190,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           data-parent="#smallAccordionCodeExample"
         >
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor wes anderson cred nets serpent ea president. Ad vegan except butcher vice lemons. Leggings course craft beer farm-to-table, raw denim aesthetic synth braking you probably haven't heard of them accuse abort sustainable VHS.
           </div>
         </div>
       </div>
@@ -243,7 +240,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           data-parent="#accordionExample"
         >
           <div class="card-body">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta accusamus perspiciatis, id, ab dignissimos veniam non aliquam magni reiciendis laborum eos laudantium, dolorem necessitatibus. Perspiciatis, maiores accusantium! Voluptatem, consectetur natus!
+            Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
           </div>
         </div>
       </div>
@@ -266,7 +263,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           data-parent="#accordionExample"
         >
           <div class="card-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae veniam consequuntur cum, voluptas voluptatem consectetur corrupti quis assumenda laborum suscipit? Eveniet, dolore quaerat delectus distinctio adipisci assumenda est nostrum vitae!
+            High life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
           </div>
         </div>
       </div>
@@ -289,7 +286,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           data-parent="#accordionExample"
         >
           <div class="card-body">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quis nihil, aut repellendus repellat et expedita laudantium deserunt consequatur sed exercitationem eligendi molestiae ipsam voluptates eveniet mollitia quod repudiandae iusto?
+            Non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
           </div>
         </div>
       </div>
@@ -325,10 +322,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
             data-parent="#accordionCodeExample"
           >
             <div class="card-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa
-              temporibus, veniam exercitationem iste velit, alias neque cumque
-              commodi corporis vel optio, ipsam deleniti laborum dolores eveniet
-              maxime praesentium recusandae.
+              high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
             </div>
           </div>
         </div>
@@ -351,10 +345,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
             data-parent="#accordionCodeExample"
           >
             <div class="card-body">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed ad
-              facilis harum debitis sit? Ut aut consectetur est praesentium
-              nihil blanditiis laborum omnis tempora laboriosam ad. Porro, iure
-              accusantium? Ipsam.
+              high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
             </div>
           </div>
         </div>
@@ -377,10 +368,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
             data-parent="#accordionCodeExample"
           >
             <div class="card-body">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
-              nihil commodi accusantium, ea tenetur ex in quia. Nemo molestias
-              aliquam mollitia modi similique laboriosam iusto numquam, est
-              ipsum quia quis?
+              high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
             </div>
           </div>
         </div>
@@ -407,10 +395,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
             data-parent="#accordionCodeExample"
           >
             <div class="card-body">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa
-              temporibus, veniam exercitationem iste velit, alias neque cumque
-              commodi corporis vel optio, ipsam deleniti laborum dolores eveniet
-              maxime praesentium recusandae.
+              high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
             </div>
           </div>
         </div>
@@ -433,10 +418,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
             data-parent="#accordionCodeExample"
           >
             <div class="card-body">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed ad
-              facilis harum debitis sit? Ut aut consectetur est praesentium
-              nihil blanditiis laborum omnis tempora laboriosam ad. Porro, iure
-              accusantium? Ipsam.
+              high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
             </div>
           </div>
         </div>
@@ -459,10 +441,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
             data-parent="#accordionCodeExample"
           >
             <div class="card-body">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod
-              nihil commodi accusantium, ea tenetur ex in quia. Nemo molestias
-              aliquam mollitia modi similique laboriosam iusto numquam, est
-              ipsum quia quis?
+              high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
             </div>
           </div>
         </div>
@@ -505,7 +484,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
 - If the accordion panel associated with an accordion header is visible, the header `button` element has `aria-expanded` set to `true`. If the panel is not visible, `aria-expanded` is set to `false`.
 - The accordion header `button` element has `aria-controls` set to the ID of the element containing the accordion panel content.
 - If the accordion panel associated with an accordion header is visible, and if the accordion does not permit the panel to be collapsed, the header `button` element has `aria-disabled` set to `true`.
-- "Enter" or "Space" key should expand and collapse headers. "Tab" key moves focus to the next focusable element; all focusable eleents in the accordion should be included in the page tab sequence. "Shift" + "Tab" moves focus to the previous focusable element.
+- "Enter" or "Space" key should expand and collapse headers. "Tab" key moves focus to the next focusable element; all focusable elements in the accordion should be included in the page tab sequence. "Shift" + "Tab" moves focus to the previous focusable element.
 - Avoid keyboard traps when adding components to the accordion panel. For example, the user expands an accordion, but is unable to tab to the next focusable element.
 - Although the accordion component passes accessibility testing, content authors need to ensure the content that is added to the accordion is accessible. For example, if you add an image to the accordion header or panel you need to include alternative text to pass accessibility testing.
 

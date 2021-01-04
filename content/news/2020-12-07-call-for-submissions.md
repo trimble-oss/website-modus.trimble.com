@@ -1,8 +1,8 @@
 ---
 title: Call for Submissions
-date: 2020-11-30
+date: 2020-12-07
 description: "Do you have mad design skills? Contribute a pattern to the Modus library and win big!"
-image: "/img/blog/headers/2020-11-30-call-for-submissions.jpg"
+image: "/img/blog/headers/2020-12-07-call-for-submissions.jpg"
 headerBgColor: "#ECEAED"
 tags: ["modus", "design"]
 keywords: ["modus", "design"]

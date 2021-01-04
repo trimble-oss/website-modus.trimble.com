@@ -93,15 +93,15 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
 ## Specifications
 
 - Container (Height: 56px; Radius: 2px; Color: white background, 1px border, 8px indicator line same color as border on the left; Padding: 16px; Margin: 16px) _required_
-- Alert text (Font: Open Sans Semibold 14px) _required_
+- Alert text (Font: Open Sans Bold 14px) _required_
 - Leading Non-Interactive Icon/ Charm (16x16px) _optional_
 - Button (text only, right aligned) or trailing close icon (16px16px) _optional_
 - Link (underlined, only one per alert) _optional_
 
 <div class="p-5 my-3 pr-5 bg-light">
   <div class="alert alert-success" style="max-width: 460px" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="right" data-content="<small><b>Height:</b> 56px<br><b>Background:</b> White<br><b>Border-radius:</b> 2px<br></small>">
-      <i class="modus-icon material-icons alert-icon">check</i>
-      <div data-toggle="popover" data-trigger="manual" data-html="true" data-placement="bottom" data-offset="19" data-content="<small><b>Font:</b> Open Sans Semibold 14px</small>">You have completed a task.</div>
+      <i class="material-icons alert-icon">check_circle</i>
+      <div data-toggle="popover" data-trigger="manual" data-html="true" data-placement="bottom" data-offset="19" data-content="<small><b>Font:</b> Open Sans Bold 14px</small>">You have completed a task.</div>
     </div>
 </div>
 

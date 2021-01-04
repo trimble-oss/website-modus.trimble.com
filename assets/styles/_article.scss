@@ -3,7 +3,6 @@ header.container-fluid {
   background-position: center;
   background-size: cover;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 1441 334' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%2307599B' d='M0 0h1440v332H0z'/%3E%3Cpath fill='%2300437B' d='M0 334V0h886z'/%3E%3Cpath fill='%23197CB6' d='M1437.605 245l3.395 87H615z'/%3E%3C/g%3E%3C/svg%3E");
-  opacity: 0.9;
 }
 
 header .anchorjs-link {
@@ -26,6 +25,14 @@ article li {
  // font-size: 1rem;
 }
 
+td.do {
+  border-top: 2px solid #4a821f !important;
+}
+
+td.dont {
+  border-top: 2px solid #c81922 !important;
+}
+
 .sticky-offset {
   top: 80px;
 }
@@ -38,14 +45,6 @@ article h3:target::before {
   height: 80px;
   margin-top: -80px;
   visibility: hidden;
-}
-
-td.do {
-  border-top: 2px solid #4a821f !important;
-}
-
-td.dont {
-  border-top: 2px solid #c81922 !important;
 }
 
 #main::before {

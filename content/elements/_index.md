@@ -6,5 +6,5 @@ components: true
 listJS: true
 layout: components
 aliases:
-  - "/elements/"
+  - "/components.html"
 ---

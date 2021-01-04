@@ -23,7 +23,7 @@ Sketch is a vector graphics editor for macOS. It is primarily used for user inte
 
 ## 2. Get the library.
 
-   Download the [Modus Design System library](https://sketch.cloud/s/D8Q12).
+   Download the [Modus Design System library](https://drive.google.com/file/d/1PszMnpntQCsLPJfI58vqmfLETRtm4Q1k/view?usp=sharing).
 
 ![Get the library](/img/guide/designer_01_add_library.png)
 

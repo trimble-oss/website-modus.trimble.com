@@ -6,7 +6,9 @@ components: true
 keywords: forms, form
 aliases:
   - "/elements/forms/"
+  - "/forms.html"
   - "/inputs.html"
+  - "/input-groups.html"
 ---
 
 ## Overview

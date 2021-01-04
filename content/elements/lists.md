@@ -13,11 +13,11 @@ Lists are used to present information in well-formed and semantic way. The most 
 
 <h6 id="list-items">List Items</h6>
 <ul class="list-group">
-  <li class="list-group-item active">Cras justo odio</li>
-  <li class="list-group-item">Dapibus ac facilisis in</li>
-  <li class="list-group-item">Morbi leo risus</li>
-  <li class="list-group-item">Porta ac consectetur ac</li>
-  <li class="list-group-item">Vestibulum at eros</li>
+  <li class="list-group-item active">Crate just odor</li>
+  <li class="list-group-item">Daffodil ac facility in</li>
+  <li class="list-group-item">Morbid leo risus</li>
+  <li class="list-group-item">Port ac consecutive</li>
+  <li class="list-group-item">Vestibule at eros</li>
 </ul>
 
 ## Usage
@@ -99,22 +99,22 @@ Lists are available in two sizes: default and condensed.
   <li class="list-group-item active">List Item (active)</li>
   <li class="list-group-item list-item-left-control">
     <div class="custom-control custom-switch custom-control-inline">
-      <input type="checkbox" checked="" class="custom-control-input" id="listSwitch-cond">
-      <label class="custom-control-label" for="listSwitch-cond"></label>
+      <input type="checkbox" checked class="custom-control-input" id="listSwitch-condensed">
+      <label class="custom-control-label" for="listSwitch-condensed"></label>
     </div>
     <span>Left Switch</span>
   </li>
   <li class="list-group-item list-item-right-control">
     <span>Right Switch</span>
     <div class="custom-control custom-switch custom-control-inline">
-      <input type="checkbox" checked="" class="custom-control-input" id="listSwitch-cond2">
-      <label class="custom-control-label" for="listSwitch-cond2"></label>
+      <input type="checkbox" checked class="custom-control-input" id="listSwitch-condensed2">
+      <label class="custom-control-label" for="listSwitch-condensed2"></label>
     </div>
   </li>
   <li class="list-group-item list-item-left-control">
     <div class="custom-control custom-checkbox">
-      <input type="checkbox" checked="" class="custom-control-input" id="customCheck-cond1" name="cond1">
-      <label class="custom-control-label" for="customCheck-cond1"></label>
+      <input type="checkbox" checked class="custom-control-input" id="customCheck-condensed3">
+      <label class="custom-control-label" for="customCheck-condensed3"></label>
     </div>
     <span>Left Checkbox</span>
   </li>

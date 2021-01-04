@@ -78,7 +78,7 @@ Tabs serve as a form of navigation between related content.
               Maltese
             </li>
             <li>
-              Shih Tzu
+              Shi Tzu
             </li>
           </ul>
         </div>
@@ -96,7 +96,7 @@ Tabs serve as a form of navigation between related content.
               Siamese
             </li>
             <li>
-              Sphynx
+              Sphinx
             </li>
             <li>
               Snowshoe

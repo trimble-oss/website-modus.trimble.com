@@ -4,6 +4,7 @@ layout: "single"
 description: "The purpose of typography is to make content legible, readable, and visually appealing."
 foundations: true
 aliases:
+  - "/text.html"
   - "/typography.html"
 url: "/foundations/typography/"
 ---
