@@ -11,11 +11,11 @@ aliases:
 
 Cards are containers for displaying relevant and actionable information on a single topic. A card serves as a single, contained unit and is independent of surrounding content. It cannot be nested within cards and cannot divide into multiple cards.
 
-<div class="card border shadow" style="width: 18rem;">
+<div class="card shadow" style="width: 18rem;">
   <div class="card-header">Card Header</div>
   <div class="card-body">
-    <h4 class="card-title" id="card-title-2">Card Title</h4>
-    <h5 class="card-subtitle mb-2 text-muted" id="card-subtitle-2">Card Subtitle</h5>
+    <h4 class="card-title">Card Title</h4>
+    <h5 class="card-subtitle mb-2 text-muted">Card Subtitle</h5>
     <p class="card-text">
       Some quick example text to build on the card title and make up the
       bulk of the card's content.

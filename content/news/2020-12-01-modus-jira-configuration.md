@@ -1,8 +1,8 @@
 ---
 title: Modus Jira Configuration
-date: 2020-11-19
+date: 2020-12-01
 description: "How is the Modus Digital Design System project set up in Jira and, based on the roadmap, what is the initial release schedule."
-image: "/img/blog/headers/2020-11-19-modus-jira-configuration.jpg"
+image: "/img/blog/headers/2020-12-01-modus-jira-configuration.jpg"
 headerBgColor: "#F1F1F1"
 tags: ["jira", "modus", "roadmap"]
 author: Ewa Nowak

@@ -6,6 +6,7 @@ image: "/img/headers/shadows-and-depth.jpg"
 foundations: true
 aliases:
   - "/depth.html"
+  - "/shadows.html"
 url: "/foundations/shadows-and-depth/"
 ---
 

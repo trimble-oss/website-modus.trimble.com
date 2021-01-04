@@ -3,7 +3,7 @@
 
 <head>
   {{ partial "meta" . }}
-  {{ partial "analytics" . }}
+  {{ partialCached "analytics" . }}
 </head>
 
 {{- if and (gt .WordCount 350 ) (not .Params.hideToc) -}}
@@ -15,12 +15,12 @@
   <body data-url="{{ .RelPermalink }}" {{ if .Params.listJS }}id="listjs-body" {{- end -}}>
     {{- end -}}
 
-    {{ partial "navbar" . }}
+    {{ partialCached "navbar" . }}
 
     {{ block "body" . }} {{ block "main" . }} {{- end -}}
     {{- end -}}
 
-    {{ block "footer" . }} {{ partial "footer" . }} {{- end -}}
+    {{ block "footer" . }} {{ partialCached "footer" . }} {{- end -}}
 
     <!-- <script
     src="https://jira.trimble.tools/s/3437519aa7c48d4bde2062c82e260064-T/obnrbp/76010/9d85737751e6b339a2967c1b0989fc67/2.0.27/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=9127b19e"></script>

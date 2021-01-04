@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://modus.trimble.com/sitemap.xml

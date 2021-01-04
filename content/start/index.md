@@ -1,8 +1,8 @@
 ---
-title: "Start"
-layout: "single"
-description: "New to Modus? Get started with this introduction to our guidelines, components, and key concepts."
-url: "/start/"
+title: Start
+layout: single
+description: 'New to Modus? Get started with this introduction to our guidelines, components, and key concepts.'
+url: /start/
 start: true
 ---
 
@@ -98,11 +98,11 @@ There are several existing design systems in Trimble that currently live outside
 
 ### Rosetta
 
-[Rosetta](https://rosetta.ctct.com/), the CTCT design system, is primarily focused on in-field experiences found in touchscreen machine displays, installation/configuration/service utilities, etc.  Due to the unique environments, users, and use cases these interfaces/experiences need to be accounted for in the Trimble Modus design system independently from desktop software and web systems. By offering Rosetta to be the in-field part of Modus, similar in-field experiences (CCFS, Ag, etc.) using Trimble’s design system should benefit from CTCT’s efforts through improved consistency with less independent effort.
+[Rosetta](https://rosetta.ctct.com/), the CTCT design system, is primarily focused on in-field experiences found in touchscreen machine displays, installation/configuration/service utilities, etc.  Due to the unique environments, users, and use cases these interfaces/experiences need to be accounted for in the Trimble Modus design system independently from desktop software and web systems. By offering Rosetta to be the in-field part of Modus, similar in-field experiences (CCFS, Ag, etc.) using Trimble’s design system should benefit from CTCT's efforts through improved consistency with less independent effort.
 
 Like Modus, Rosetta includes a standardized collection of design principles, user interface components, layout templates, visual styles, and UI patterns that in-field products can be built from. This includes (but is not limited to) style documentation, design assets, code snippets, and component libraries.
 
-The Rosetta design system is documented in Storybook and hosted on CTCT servers (https://rosetta.ctct.com/).  This resource is generally intended to serve developers and includes documentation for both Web (Angular) and Android components.  Likewise, CTCT UX hosts a Google Site (link) for the less technical aspects of Rosetta (design principles, mission/vision/philosophy, etc.)
+The Rosetta design system is documented in Storybook and hosted on CTCT servers (https://rosetta.ctct.com/). This resource is generally intended to serve developers and includes documentation for both Web (Angular) and Android components.  Likewise, CTCT UX hosts a Google Site (link) for the less technical aspects of Rosetta (design principles, mission/vision/philosophy, etc.)
 
 For questions related to the Rosetta design system please contact Mathew Johns, CTCT.
 
@@ -122,6 +122,6 @@ For more information about North Star, please contact Michelle Casale, Trimble P
 
 ### Terra
 
-[Terra](https://terradesignsystem.com/) is based on Trimble branded foundations very similar to Modus. It was created to style web based marketing pages, such as product descriptions, and e-commerce pages. The scale of its components does not include complex tables and elements that are needed to create web based products. Use Terra for marketing pages and Modus for the design of Trimble branded software products, applications, and services.
+[Terra](https://terradesignsystem.com) is based on Trimble branded foundations very similar to Modus. It was created to style web based marketing pages, such as product descriptions, and e-commerce pages. The scale of its components does not include complex tables and elements that are needed to create web based products. Use Terra for marketing pages and Modus for the design of Trimble branded software products, applications, and services.
 
 For more information about Terra, please contact Sean Ortiz.

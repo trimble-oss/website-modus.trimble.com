@@ -1,8 +1,8 @@
 ---
 title: Welcome to Modus 1.0
-date: 2020-12-01
+date: 2020-12-08
 description: "Modus 1.0 is finally here! Release notes, contest announcement, updates, and more. See what's new."
-image: "/img/blog/headers/2020-12-01-welcome-to-modus-1.jpg"
+image: "/img/blog/headers/2020-12-08-welcome-to-modus-1.jpg"
 headerBgColor: "#F6F6F6"
 tags: ["modus"]
 author: Ewa Nowak
@@ -56,4 +56,4 @@ We want to hear from you, our users, so we can curate Modus to meet your needs: 
 
 ## Call for Submissions
 
-Do you have a pattern you’d like to add to Modus? Send us your submissions and win a prize! [Learn more about our contest](/news/2020-11-30-call-for-submissions/).
+Do you have a pattern you’d like to add to Modus? Send us your submissions and win a prize! [Learn more about our contest](/news/2020-12-07-call-for-submissions/).

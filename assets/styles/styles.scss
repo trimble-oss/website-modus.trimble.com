@@ -1,15 +1,15 @@
 
 @import "anatomy-css";
-@import "autocomplete";
+@import "autocomplete"; // search autocomplete dropdown
 @import "article";
 @import "cards";
-@import "color-preview";
-@import "codefences";
+@import "color-preview"; // color swatches
+@import "codefences"; // code syntax highlighting
 @import "foundations";
-@import "ie11";
+@import "ie11"; // IE 11 flexbox layout fixes
 @import "list-js";
 @import "menu-left";
-@import "menu-right"; // optimizations for xxs mobile screens
+@import "menu-right"; // 'On this page' menu
 @import "mobile"; // optimizations for xxs mobile screens
 @import "navbar";
 @import "posts";
