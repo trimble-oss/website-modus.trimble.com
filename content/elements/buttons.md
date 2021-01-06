@@ -34,7 +34,7 @@ Buttons express what action will occur when the user clicks or touches it. Butto
 
 ## Types
 
-There are two button progressions you can choose from: structural and color progression. The choice should be based on the particular needs of the product's intended usage, aesthetic, and/or target user's needs. **Use only one color progression in a single product.** Ancillary button types can be used in either progression.
+There are two button progressions you can choose from: structural and color progression. The choice should be based on the particular needs of the product's intended usage, aesthetic, and/or target user's needs. **Use only one button progression in a single product.** Ancillary button types can be used in either progression.
 
 ### Structural Progression
 
@@ -349,7 +349,7 @@ Icon button state colors may vary based on product. Always make sure the colors 
 
 ### Accessibility
 
-- Buttons have role of `button`. Using a native HTML `button` or `input type="submit"`> element is a better choice than creating a custom ARIA button.
+- Buttons have role of `button`. Using a native HTML `button` or `input type="submit"` element is a better choice than creating a custom ARIA button.
 - Buttons should have accessible labels. By default, the accessible name is computed from any text content inside the button element.
 - A button should be triggered by pressing "Spacebar," "Enter," or "Return."
 - Make sure the mouse cursor is an arrow pointer, not a text selector or a hand icon.

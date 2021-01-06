@@ -166,7 +166,7 @@ Radio buttons are used to afford a single selection from two or more options.
 
 ### Editorial
 
-- If necessary, a heading can accompany a set of radio buttons to provide further clarity for the user. Use sentence-style capitalization (only the first word in a phrase and any proper nouns capitalized).
+- If necessary, a heading can accompany a set of radio buttons to provide further clarity for the user. Use sentence-case (only the first word in a phrase and any proper nouns capitalized).
 - Always use a clear and concise label for radio buttons. Be explicit about the action that will follow if the radio button is selected. Labels appear to the right of radio buttons. Use sentence-style capitalization (only the first word in a phrase and any proper nouns capitalized) and no more than three words.
 
 ### Accessibility

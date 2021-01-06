@@ -9,7 +9,7 @@ aliases:
 
 ## Overview
 
-Tabs serve as a form of navigation between related content.
+Tabs are a set of layered sections of content, known as tab panels, that display one panel of content at a time. Each tab panel has an associated tab element, that when activated, displays the panel. The list of tab elements is arranged along one edge of the currently displayed panel, most commonly horizontally, at the top edge. When a tabbed interface is initialized, one tab panel is always displayed.
 
 ## Usage
 
@@ -125,11 +125,6 @@ Tabs serve as a form of navigation between related content.
           </ul>
         </div>
       </div>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Tabs are a set of layered sections of content, known as tab panels, that display one panel of content at a time. Each tab panel has an associated tab element, that when activated, displays the panel. The list of tab elements is arranged along one edge of the currently displayed panel, most commonly horizontally, at the top edge. When a tabbed interface is initialized, one tab panel is always displayed.
     </td>
   </tr>
 </table>

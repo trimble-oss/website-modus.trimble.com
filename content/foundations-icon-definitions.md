@@ -114,7 +114,7 @@ Other design considerations:
 - To keep angle consistent, it is recommended to keep diagonal lines on a 45 or 25 degree angle, if possible.
 - To ensure exchangeability of vector code, stroke should be converted to outline stroke.
   Icons cannot change from solid to line or line to solid when changing states.
-- All icons should comply with our accessibility guidelines.
+- All icons should comply with our [accessibility guidelines](/foundations/accessibility).
 
 ## Mobile Tap Targeting
 
@@ -122,7 +122,7 @@ When designing for mobile, space around each icon (margin), should allow for a *
 
 ## Colors
 
-Icons should appear in a single color with no background shape, and should be high contrast. All icons should meet accessibility standards. Web Content Accessibility Guidelines factor in font size and contrast for determining accessibility.
+Icons should appear in a single color with no background shape, and should be high contrast. All icons should meet [accessibility standards](/foundations/accessibility). Web Content Accessibility Guidelines factor in font size and contrast for determining accessibility.
 
 Generally speaking, color should be avoided and icon sets should be designed to appear neutral. They can be two-tone with the use of transparency to make the fill lighter. Some icons may be required to be reversed out for health and human safety, particularly in the case of field hardware. If an icon or indicator cannot be designed using a single color, please follow the below guidelines. If integrating color, never use it as the sole differentiator between functions (e.g. addition or subtraction icon).
 
@@ -132,7 +132,7 @@ Add-ons and indicators provide more specificity to a standard icon or indicate a
 
 {{% img src="/img/addon.png" height="200" width="200" alt="icon grid" %}}
 
-Indicators appear in the upper right corner of the icon and usually represent an alert or notification related to the icon’s meaning. On a 32 x 32px canvas the indicator measures 8px in diameter with a 1-pixel margin to the edges of the canvas and the icon proper.
+Indicators appear in the upper right corner of the icon and usually represent an alert or notification related to the icon’s meaning. On a 32 x 32px canvas the indicator measures 8px in diameter flush with the edges of the canvas.
 
 {{% img src="/img/indicator.png" height="200" width="200" alt="indicator" %}}
 

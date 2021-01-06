@@ -125,7 +125,7 @@ White
 
 ## Yellow Progression
 
-Yellow progressions are used as a secondary color in applications. They can be used for a high-visibility primary buttons. **Use sparingly as highlights** to draw attention. **Yellow Dark is used as the primary warning color**. Yellow should never be used as text color. Yellow Pale can be used as a background color for warning containers.
+Yellow progressions are used as a secondary color in applications. They can be used for a high-visibility primary button. **Use sparingly as highlights** to draw attention. **Yellow Dark is used as the primary warning color**. Yellow should never be used as text color. Yellow Pale can be used as a background color for warning containers.
 
 <div class="row">
 

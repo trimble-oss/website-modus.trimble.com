@@ -30,11 +30,11 @@ When writing content for your product also consider the different cognitive or r
 
 ## Organizing Information
 
-Once you know who the users are and what they want to do, you can start to organize content logically and in a ay that users will recognize. Good organization helps users to navigate through the software easily, without creative excessive cognitive load.
+Once you know who the users are and what they want to do, you can start to organize content logically and in a way that users will recognize. Good organization helps users to navigate through the software easily, without creating excessive cognitive load.
 
 ## Writing Style Guide
 
-The following writing style guide was first developed in 1997, when we were a new team and we wanted to ensure consistency across all the publications we were developing for various products.
+The following writing style guide was first developed in 1997 to ensure consistency across all the publications we were developing for various products.
 
 Our main references are:
 

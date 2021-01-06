@@ -13,7 +13,7 @@ Badges notify the user of a status, for example that there are new or unread mes
 
 ## Usage
 
-**You when**
+**Use when**
 
 - In proximity to notifications or user avatars with eye-catching appeal (e.g. displaying unread messages count).
 - Use for displaying quick, easily digestible bits of information.
@@ -45,7 +45,7 @@ Used when more emphasis is needed. **Default badges can look like [Buttons](/ele
 
 ### Text Badges
 
-Used to display a more subtle label. **Text badges can look like text [Buttons](/elements/buttons/). Avoid using text button colors to make sure the user can tell the difference.** Do not use a text badge on backgrounds other than white. Do not use a text badge for warning (yellow): it does not meet the required contrast ratios for [accessibility](/foundations/accessibility/).
+Used to display a more subtle label. **Text badges can look like text [Buttons](/elements/buttons/). Avoid using text button colors to make sure the user can tell the difference.** Do not use a text badge for warning (yellow): it does not meet the required contrast ratios for [accessibility](/foundations/accessibility/).
 
 <div class="guide-example-block">
   <div class="guide-sample">

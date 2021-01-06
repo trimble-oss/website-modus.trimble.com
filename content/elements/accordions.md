@@ -1,7 +1,7 @@
 ---
 title: "Accordions"
 layout: "single"
-description: "The accordion component delivers large amounts of content in a small space through progressive disclosure."
+description: "The accordion element delivers large amounts of content in a small space through progressive disclosure."
 components: true
 aliases:
   - "/accordions.html"
@@ -466,7 +466,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
 - Accordions can allow a single section to expand at one time, while automatically collapsing the section that loses focus (default behavior), or it can allow for all sections to expand at the same time.
 - When an accordion expands and collapses only its height should change; its width should stay consistent.
 - Expand-and-collapse functionality should never be triggered on hover.
-- The expand-and-collapse functionality of an accordion is tied to the entire header of the component, with additional actions being triggered only by interaction within the bounds of their related UI components.
+- The expand-and-collapse functionality of an accordion is tied to the entire header of the element, with additional actions being triggered only by interaction within the bounds of their related UI element.
 - Avoid “nested” accordions—that is, collapsible content within collapsible content. This type of pattern goes against UX best practices.
 
 ### Editorial
@@ -486,7 +486,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
 - If the accordion panel associated with an accordion header is visible, and if the accordion does not permit the panel to be collapsed, the header `button` element has `aria-disabled` set to `true`.
 - "Enter" or "Space" key should expand and collapse headers. "Tab" key moves focus to the next focusable element; all focusable elements in the accordion should be included in the page tab sequence. "Shift" + "Tab" moves focus to the previous focusable element.
 - Avoid keyboard traps when adding components to the accordion panel. For example, the user expands an accordion, but is unable to tab to the next focusable element.
-- Although the accordion component passes accessibility testing, content authors need to ensure the content that is added to the accordion is accessible. For example, if you add an image to the accordion header or panel you need to include alternative text to pass accessibility testing.
+- Although the accordion element passes accessibility testing, content authors need to ensure the content that is added to the accordion is accessible. For example, if you add an image to the accordion header or panel you need to include alternative text to pass accessibility testing.
 
 {{< whats-changed-table >}}
 | Date       | Version | Notes          | Contributors |

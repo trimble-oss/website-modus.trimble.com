@@ -60,7 +60,7 @@ Used for: sticky elements, cards active</p>
 
 **Never use drop shadows on text, buttons, chips, sliders, or any other elements that do not include shadows in their guidelines.**
 
-A different color (usually blue) may be used sometimes to designate active or hover state. Always adjust color opacity to retain a maximum contrast ratio of 1.5:1. **Avoid dark shadows.**
+Standard drop shadow color is blue. Always adjust color opacity to retain a maximum contrast ratio of 1.5:1. **Avoid dark shadows.**
 
 ## Z-Index
 
