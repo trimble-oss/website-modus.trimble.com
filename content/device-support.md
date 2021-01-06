@@ -20,7 +20,7 @@ A desktop application runs on a computer or device locally and is built to be in
 
 ## Technology Stacks
 
-Modus currently supports developers who can leverage HTML/CSS. Stacks and technologies such as …. Are currently out of scope and will be included at a later date.
+Modus currently supports developers who can leverage HTML/CSS. Stacks and technologies such as Angular Material and React are currently out of scope and will be included at a later date.
 
 ### Mobile Applications
 
