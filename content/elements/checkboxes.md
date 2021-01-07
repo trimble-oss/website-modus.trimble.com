@@ -96,8 +96,8 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 - Affording a binary selection, like accepting terms and conditions.
 - Affording multiple selections from a set of options.
-- Enabling selection of an object, such as a Card.
-- Affording selection of a row within a Data Table.
+- Enabling selection of an object, such as a [Card](/elements/cards/).
+- Affording selection of a row within a data [Table](/elements/tables/).
 
 <table class="table table-bordered bg-white">
   <tbody>
@@ -177,7 +177,7 @@ Checkboxes should be used in forms that require submission and processing. The c
 **Don't use when**
 
 - Turning a feature, mode, or functionality on and off. Instead, use a [Switch](/elements/switches/).
-- Checking or unchecking elicits an immediate change in the UI or functionality, such as enabling a disabled field or revealing more controls. Instead, use a Switch [Switch](/elements/switches/).
+- Checking or unchecking elicits an immediate change in the UI or functionality, such as enabling a disabled field or revealing more controls. Instead, use a [Switch](/elements/switches/).
 - Checking or unchecking elicits a change in background functionality without affecting the UI, like disabling an email notification. Instead, use a [Switch](/elements/switches/).
 
 <table class="table table-bordered bg-white">
@@ -266,12 +266,12 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 ## Specifications
 
-- Checkboxes use the same `:hover` and `:active` styles as the primary Button when checked.
+- Checkboxes use the same `:hover` and `:active` styles as the primary [Button](/elements/buttons/) when checked.
 
 ### Behaviors
 
 - Reflects the affirmative (“yes” or “true”) of its label when checked.
-- Choices made via checkbox should always be submitted or saved using a Button.
+- Choices made via checkbox should always be submitted or saved using a [Button](/elements/buttons/).
 - A checkbox’s label is included in the clickable target area.
 - The default view of a set of checkboxes is having no option selected.
 

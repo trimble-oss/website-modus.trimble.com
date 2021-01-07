@@ -77,7 +77,7 @@ Dropdowns (also known as a dropdown menu, drop menu, pull-down list, picklist) i
 - Don’t use “deselect.” Instead, use “clear.” The term “deselect” causes a problem for localization.
 - The list of options should be sorted in a consistent order (alphabetical, chronological, the most selected option, or by order of importance).
 - Don’t end text in a select with a period.
-- Keep option names as brief as possible - aim for under 5 words.
+- Keep option names as brief as possible. Aim for under 5 words.
 
 ### Accessibility
 

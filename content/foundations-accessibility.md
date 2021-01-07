@@ -10,11 +10,11 @@ url: "/foundations/accessibility/"
 
 All components in Modus are built with accessibility in mind. Studies estimate that about one fifth (20%) of the population has some kind of disability. Even though that number might be significantly lower for our users, keeping accessibility in mind is not only a good practice, but it also may have serious legal implications especially as it relates to government contracts.
 
-In an effort to be inclusive, here at Trimble we want to build products for everyone and to be compliant with the law. To that end, Modus’ components are compliant with [The Americans with Disabilities Act (ADA)](https://webaim.org/articles/laws/usa/ada) and the [Rehabilitation Act of 1973 (Sections 504 and Section 508)](https://webaim.org/articles/laws/usa/rehab) and follows the [Web Content Accessibility Guidelines (WCAG 2.0)](https://webaim.org/standards/wcag/).
+In an effort to be inclusive, here at Trimble we want to build products for everyone and to be compliant with the law. To that end, Modus components are compliant with [The Americans with Disabilities Act (ADA)](https://webaim.org/articles/laws/usa/ada) and the [Rehabilitation Act of 1973 (Sections 504 and Section 508)](https://webaim.org/articles/laws/usa/rehab) and follows the [Web Content Accessibility Guidelines (WCAG 2.0)](https://webaim.org/standards/wcag/).
 
 Major categories of disabilities include visual, hearing, motor, and cognitive, with each category requiring a certain type of adaptation in the design of web and desktop products. For help with implementation, we include a checklist that you can add to the acceptance criteria.
 
-For more information or questions about accessibility, visit https://webaim.org/ or contact us for training and support. Also see a list of useful accessibility tools for web products below.
+For more information or questions about accessibility, visit https://webaim.org/ or [contact us](/community/contact/) for training and support. Also see a list of useful accessibility tools for web products below.
 
 ## Tools & Resources
 

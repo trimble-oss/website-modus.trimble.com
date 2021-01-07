@@ -43,13 +43,14 @@ When a story moves from the backlog into the Discovery column on the DDS Kanban 
 AND
 
 - have some time you can devote to the project (2-4 hours per week).
-  Once you express your interest, the Modus Product Manager will contact your manager to secure his/ her permission to divide your time between your team and the design system.
+
+Once you express your interest, the Modus Product Manager will contact your manager to secure his/ her permission to divide your time between your team and the design system.
 
 ### 2. UX Board review of candidates
 
 The board will review the volunteers to make sure the team has a good representation from different divisions, and it will choose a leader for the team.
 
-### 3. Kick-Off meeting
+### 3. Kick-off meeting
 
 The Modus Product Manager will schedule an introductory kick-off meeting to discuss the problem the team is going to solve, acceptance criteria, responsibilities, [submission guidelines](/community/submission-guidelines/), set up a schedule for regular meetings, and agree on a tentative deadline.
 

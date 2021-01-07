@@ -10,11 +10,11 @@ hideDate: true
 
 ## Modus is a Community Effort
 
-Modus is owned and created by the Development Community of Trimble.  With your contributions,  the system can constantly get updated and improved.  Contributions can include for example, a new design component, a set of icons, the expression of the existing components in a pattern library for a  new  design  tool, or the addition of modus components in a new development  stack, or even just your feedback and request for features that would make Modus more useful to you. Trimble community member contributions are what make Modus great! Thank you for your continued support!
+Modus is owned and created by the Development Community of Trimble.  With your contributions,  the system can constantly get updated and improved. Contributions may include a new design element, a set of icons, an expression of an existing element in a pattern library for a new design tool, or the addition of Modus components in a new development stack. Your contribution may also be in a form of feedback or a request for features that would make Modus more useful to you. Trimble community member contributions are what make Modus great! Thank you for your continued support!
 
 ## The Modus Community
 
-The Modus design system strives to follow a distributed model in order to foster collaboration and knowledge-sharing. The Trimble community of enthusiastic and knowledgeable designers and developers are an essential and intrinsic part of the design system, and it relies on your active contributions. Modus design guidelines run an open-source model, where everyone is allowed and encouraged to contribute, but contributions are managed and curated by a design system product manager and a community sources set of advisors, the curators.
+The Modus design system strives to follow a distributed model in order to foster collaboration and knowledge-sharing. The Trimble community of enthusiastic and knowledgeable designers and developers are an essential and intrinsic part of the design system, and it relies on your active contributions. Modus design guidelines run an open-source model, where everyone is allowed and encouraged to contribute, but contributions are managed and curated by a design system product manager and a community-sourced set of advisors, the curators.
 
 ### Users
 
@@ -43,7 +43,7 @@ Contributors are members of the Trimble community, who contribute their time and
 
 ### The Trimble UX Board
 
-The members of the [Trimble UX Board](https://sites.google.com/trimble.com/trimble-ux/ux-council/ux-council-board?authuser=0) are elected by the community of UX practitioners. The represent the diverse community and help elevate and organize the growing user experience practice, by overseeing horizontal initiatives, such as community engagement, best practice development, design standardization (both styles as well as process), mentorship, career development, and the representation of the UX practice to the greater product development organizations of Trimble.  The Trimble UX board oversees the Modus design system as one of its key initiatives.
+The members of the [Trimble UX Board](https://sites.google.com/trimble.com/trimble-ux/ux-council/ux-council-board?authuser=0) are elected by the community of UX practitioners. They represent the diverse community and help elevate and organize the growing user experience practice, by overseeing horizontal initiatives, such as community engagement, best practice development, design standardization (both styles as well as process), mentorship, career development, and the representation of the UX practice to the greater product development organizations of Trimble.  The Trimble UX board oversees the Modus design system as one of its key initiatives.
 
 ## Transparency of Progress
 

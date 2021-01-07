@@ -19,7 +19,7 @@ Sketch is a vector graphics editor for macOS. It is primarily used for user inte
 
 ## 1. Install Sketch.
 
-   To design with Modus you must have the most recent version of Sketch installed.
+   To design with the Modus Sketch UI Kit you should have the most recent version of Sketch installed.
 
 ## 2. Get the library.
 
