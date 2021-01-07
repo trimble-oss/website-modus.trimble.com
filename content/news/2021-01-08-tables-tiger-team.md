@@ -14,4 +14,4 @@ We are searching for contributors to help improve the Table element in Modus. Is
 
 Joining is easy! Volunteer by filling out the form below by **January 22, 2021**. [Learn more about the Tiger Team process](/community/tiger-teams/).
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffzk5w_WddTu5Y1PLczoK90s9Bq-VnpFKzSy8ArCuIfvRsGQ/viewform?embedded=true" width="640" height="768" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSffzk5w_WddTu5Y1PLczoK90s9Bq-VnpFKzSy8ArCuIfvRsGQ/viewform?embedded=true" width="850" height="850" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

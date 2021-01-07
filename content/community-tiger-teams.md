@@ -22,7 +22,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
   <tbody>
       <tr>
       <td>Tables</td>
-      <td><strong>Recruiting contributors until January 22, 2021! <a href="">Join here!</a></strong></td>
+      <td><strong>Recruiting contributors until January 22, 2021! <a href="/news/2021-01-08-tables-tiger-team/">Join here!</a></strong></td>
       <td>01/25/2021</td>
     </tr>
     <tr>
