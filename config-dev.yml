@@ -1,7 +1,7 @@
 baseurl: https://styleguide-dev.trimblemaps.com/
 disableKinds: ["section", "taxonomy", "taxonomyTerm", "404", "sitemap"]
 googleAnalytics: "disabled"
-
+buildFuture: true
 module:
   mounts:
     - source: static
