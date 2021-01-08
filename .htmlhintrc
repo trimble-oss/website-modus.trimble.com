@@ -38,7 +38,6 @@
     "onFocus",
     "onKeyUp",
     "onLoad",
-    "Params",
     "pathLength",
     "patternContentUnits",
     "patternTransform",
@@ -93,5 +92,5 @@
   "tag-pair": false,
   "tag-self-close": false,
   "tagname-lowercase": true,
-  "title-require": false
+  "title-require": true
 }

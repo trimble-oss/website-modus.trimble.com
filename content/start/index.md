@@ -1,14 +1,14 @@
 ---
 title: Start
 layout: single
-description: 'New to Modus? Get started with this introduction to our guidelines, components, and key concepts.'
+description: "New to Modus? Get started with this introduction to our guidelines, components, and key concepts."
 url: /start/
 start: true
 ---
 
 ## Introduction
 
-The Modus design system is part of the evolving Trimble Operating System. To create an environment in which we can improve our customer’s work and productivity through innovative and connected products and services, the Trimble OS offers a number of initiatives that help scale and standardize our offerings. Our customers’ needs are at the center of this, as it aims at making interacting with our company and products easy and effective.  Modus aims at creating standardized user interface components that enable product development to innovate and connect new services more seamlessly and faster.
+The Modus design system is part of the evolving Trimble Operating System. To create an environment in which we can improve our customer’s work and productivity through innovative and connected products and services, the Trimble OS offers a number of initiatives that help scale and standardize our offerings. Our customers’ needs are at the center of this, as it aims at making interacting with our company and products easy and effective. Modus aims at creating standardized user interface components that enable product development to innovate and connect new services more seamlessly and faster.
 
 Modus is a shared source of truth--a place to reference official Trimble patterns and styles. It includes components and guidelines. It serves product managers, designers, and developers as a repository of everything they need to plan, prototype, and develop better products. Modus resources include
 
@@ -36,7 +36,7 @@ At Trimble, there are hundreds of products being developed worldwide. In order t
 
 - It supports agile methodologies, since multiple teams can design and build modules in parallel.
 - It’s cost-effective, because all modules can be reused.
-- It’s relatively easy to maintain: fixing  a problem in one module doesn’t affect the others.
+- It’s relatively easy to maintain: fixing a problem in one module doesn’t affect the others.
 - It’s adaptable, because modules can be assembled in the ways that meet different user needs.
 - It promotes and encourages innovation, since you can create entirely new outcomes by introducing new combinations of components and patterns.
 
@@ -98,11 +98,11 @@ There are several other design systems at Trimble that currently exist outside o
 
 ### Rosetta
 
-[Rosetta](https://rosetta.ctct.com/), the CTCT design system, is primarily focused on in-field experiences found in touchscreen machine displays, installation/configuration/service utilities, etc.  Due to the unique environments, users, and use cases these interfaces/experiences need to be accounted for in the Trimble Modus design system independently from desktop software and web systems. By offering Rosetta to be the in-field part of Modus, similar in-field experiences (CCFS, Ag, etc.) using Trimble’s design system should benefit from CTCT's efforts through improved consistency with less independent effort.
+[Rosetta](https://rosetta.ctct.com/), the CTCT design system, is primarily focused on in-field experiences found in touchscreen machine displays, installation/configuration/service utilities, etc. Due to the unique environments, users, and use cases these interfaces/experiences need to be accounted for in the Trimble Modus design system independently from desktop software and web systems. By offering Rosetta to be the in-field part of Modus, similar in-field experiences (CCFS, Ag, etc.) using Trimble’s design system should benefit from CTCT's efforts through improved consistency with less independent effort.
 
 Like Modus, Rosetta includes a standardized collection of design principles, user interface components, layout templates, visual styles, and UI patterns that in-field products can be built from. This includes (but is not limited to) style documentation, design assets, code snippets, and component libraries.
 
-The Rosetta design system is documented in Storybook and hosted on CTCT servers (https://rosetta.ctct.com/). This resource is generally intended to serve developers and includes documentation for both Web (Angular) and Android components.  Likewise, CTCT UX hosts a Google Site (link) for the less technical aspects of Rosetta (design principles, mission/vision/philosophy, etc.)
+The Rosetta design system is documented in Storybook and hosted on CTCT servers (https://rosetta.ctct.com/). This resource is generally intended to serve developers and includes documentation for both Web (Angular) and Android components. Likewise, CTCT UX hosts a Google Site (link) for the less technical aspects of Rosetta (design principles, mission/vision/philosophy, etc.)
 
 For questions related to the Rosetta design system please contact Mathew Johns, CTCT.
 

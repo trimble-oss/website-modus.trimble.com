@@ -56,7 +56,7 @@ Once published, your library will be available to your team! Congratulations!
 Typically the library will be enabled in all the new files that are created. However, if it is not, here is how you fix it.
 
 - Go back to the main “files” page and select your Profile.
--  Under the “Settings” tab you will find a section titled “Library”
+- Under the “Settings” tab you will find a section titled “Library”
 - Select “Enable Libraries”
 - Toggle on the “Modus Design System”
 - Congrats!
@@ -66,4 +66,3 @@ Typically the library will be enabled in all the new files that are created. How
 The file you copied will not receive any updates or changes to the Figma file. We will push any changes to the larger community, so you can copy over the new components.
 
 _Note:_ This is a temporary solution as our Licensing team is working on a larger Enterprise license to make this process seamless. Look out for updates!
-
