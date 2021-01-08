@@ -54,4 +54,4 @@ d.) Review usability tests or any other submitted research data.
 
 ### 4. Prioritization and recommendation
 
-When the pattern is approved, it is prioritized and scheduled for a release. The design systems team will make sure your pattern is added to all supported code  and design libraries, conduct ongoing maintenance of your pattern, and monitor its usage.
+When the pattern is approved, it is prioritized and scheduled for a release. The design systems team will make sure your pattern is added to all supported code and design libraries, conduct ongoing maintenance of your pattern, and monitor its usage.

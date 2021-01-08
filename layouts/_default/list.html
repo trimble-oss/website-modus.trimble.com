@@ -24,15 +24,16 @@
     </div>
 
     <div class="col-12 col-md-9 col-lg-10">
-      {{ partial "index/list-blog-brief" . }}
-      <div>
-        {{- partial "never-miss-an-update.html" . -}}
+      <div class="container mb-5">
+        <div class="row">
+          {{ range first 99 (where .Site.RegularPages.ByPublishDate.Reverse ".Section" "not in" "elements") }}
+          {{- partial "blog-brief.html" . -}}
+          {{- end -}}
+        </div>
       </div>
-
     </div>
 
   </div>
-
 </main>
 
 {{- end -}}

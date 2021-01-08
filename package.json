@@ -16,8 +16,8 @@
   "scripts": {
     "build": "npm-run-all lint-css && npx hugo && npm run lint-html",
     "build-dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run lint-html",
-    "deploy": "cross-env s3-deploy './build/**/*.{css,html,ico,jpg,js,json,webmanifest,map,png,svg}' --cwd './build/' --region us-east-1 --bucket prod-styles-trimblemaps",
-    "deploy:dev": "cross-env s3-deploy './build/**/*.{css,html,ico,jpg,js,json,webmanifest,map,png,svg}' --cwd './build/' --region us-east-1 --bucket dev-styles-trimblemaps",
+    "deploy": "cross-env s3-deploy './build/**/*.{css,html,ico,jpg,js,json,webmanifest,map,png,svg}' --cwd './build/' --region us-east-1 --bucket prod-styles-trimblemaps --cache 31557600 --invalidate '/*.html'",
+    "deploy:dev": "cross-env s3-deploy './build/**/*.{css,html,ico,jpg,js,json,webmanifest,map,png,svg}' --cwd './build/' --region us-east-1 --bucket dev-styles-trimblemaps --cache 0 --invalidate '/*.html'",
     "lint-css": "stylelint \"assets/styles/*.scss\"",
     "lint-html": "htmlhint \"build/**/*.html\"",
     "lint-js": "npx eslint \"assets/js/*.js\"",
@@ -31,13 +31,14 @@
     "test": "npm-run-all lint-css lint-js lint-markdown lint-html lint-links"
   },
   "devDependencies": {
-    "@trimbleinc/modus-framework": "^0.9.5",
-    "autoprefixer": "^10.1.0",
+    "@trimbleinc/modus-bootstrap": "^1.0.0",
+    "autoprefixer": "^10.2.1",
     "cross-env": "^7.0.3",
     "htmlhint": "^0.14.2",
     "hugo-bin": "^0.68.0",
+    "list.js": "^2.3.0",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.2.2",
+    "postcss": "^8.2.3",
     "postcss-cli": "^8.3.1",
     "s3-deploy": "^1.4.0",
     "stylelint": "^13.8.0",

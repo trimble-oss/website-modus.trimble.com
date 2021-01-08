@@ -61,7 +61,7 @@ A design pattern should always be user-centric. The pattern should take under co
 
 ### 3.) Context is critical
 
-The context of use of the pattern is critical to the success of the solution. Every solution can both succeed  and fail, depending on context. For example, a nutcracker can be great at cracking nuts but terrible at tenderizing meat; an off-roading vehicle can be great for tackling difficult terrain but terrible on the highway; a pair of skis can be great sliding down the hill in the winter but terrible in the summer.
+The context of use of the pattern is critical to the success of the solution. Every solution can both succeed and fail, depending on context. For example, a nutcracker can be great at cracking nuts but terrible at tenderizing meat; an off-roading vehicle can be great for tackling difficult terrain but terrible on the highway; a pair of skis can be great sliding down the hill in the winter but terrible in the summer.
 
 ### 4.) A pattern is not a design
 

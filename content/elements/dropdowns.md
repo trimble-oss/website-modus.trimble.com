@@ -10,7 +10,7 @@ aliases:
 
 ## Overview
 
-Dropdowns (also known as a dropdown menu, drop menu, pull-down list, picklist) is a graphical control element, similar to a list box, that allows the user to choose one value from a list. When activated, it displays (drops down) a list of values, from which the user may select one. They can  be used in menus and tabs.
+Dropdowns (also known as a dropdown menu, drop menu, pull-down list, picklist) is a graphical control element, similar to a list box, that allows the user to choose one value from a list. When activated, it displays (drops down) a list of values, from which the user may select one. They can be used in menus and tabs.
 
 ## Usage
 
@@ -30,7 +30,6 @@ Dropdowns (also known as a dropdown menu, drop menu, pull-down list, picklist) i
 - Dropdown functionality is indicated by a small trailing arrow or an ellipsis (not applicable to icon dropdowns).
 - Dropdown selects are ideal for lists with more than 15 items, but be careful not to overdo it.
 - Within a dropdown, you can separate groups of related menu items with a divider.
-
 
 <div class="guide-example-block d-inline-block mb-3">
   <div class="guide-sample" style="padding-bottom: 120px; padding-right: 90px;">

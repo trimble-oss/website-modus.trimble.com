@@ -38,7 +38,6 @@ Lists are available in two sizes: default and condensed.
 - Default list: 48px in height; 16px font size.
 - Condensed list: 32px in height; 12 px font size.
 
-
 <div class="guide-example-block my-2 py-4 bg-light pr-5">
   <div class="guide-content-sample anatomy-display-container pr-3">
     <ul class="list-group">
