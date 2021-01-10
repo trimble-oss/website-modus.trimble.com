@@ -18,7 +18,7 @@ aliases:
 
 {{</ card-start >}}
 
-{{< card-start title="Adobe XD Library" class="py-4 bg-adobe-xd bg-coming-soon" header="adobe-xd.svg" >}}
+{{< card-start title="Adobe XD Library" url="/adobe-xd/" class="py-4 bg-adobe-xd" header="adobe-xd.svg" >}}
 
 {{</ card-start >}}
 
