@@ -3,6 +3,8 @@ title: "Switches"
 layout: "single"
 description: "Switches are used to toggle functionality."
 components: true
+images:
+  - "/img/headers/elements/switches.png"
 keywords: forms, form
 ---
 

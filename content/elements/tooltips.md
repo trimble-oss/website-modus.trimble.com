@@ -3,6 +3,8 @@ title: "Tooltips"
 layout: "single"
 description: "Tooltips provide a short description of a page element or control."
 components: true
+images:
+  - "/img/headers/elements/tooltips.png"
 aliases:
   - "/tooltips.html"
 ---

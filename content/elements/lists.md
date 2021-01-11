@@ -3,6 +3,8 @@ title: "Lists"
 layout: "single"
 description: "A list can be used to display content related to a single subject."
 components: true
+images:
+  - "/img/headers/elements/lists.png"
 aliases:
   - "/lists.html"
 ---

@@ -3,6 +3,8 @@ title: "Radio Buttons"
 layout: "single"
 description: "Radio buttons are used when options are mutually exclusive."
 components: true
+images:
+  - "/img/headers/elements/radio-buttons.png"
 keywords: forms, form
 aliases:
   - "/radio.html"

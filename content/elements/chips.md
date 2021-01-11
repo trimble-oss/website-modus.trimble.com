@@ -3,6 +3,8 @@ title: "Chips"
 layout: "single"
 description: "Chips represent small blocks of information and are commonly used for input or filtering."
 components: true
+images:
+  - "/img/headers/elements/chips.png"
 aliases:
   - "/chips.html"
 ---

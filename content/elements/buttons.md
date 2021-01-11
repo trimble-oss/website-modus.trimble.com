@@ -3,6 +3,8 @@ title: "Buttons"
 layout: "single"
 description: "Buttons are interactive elements that trigger an action or an event."
 components: true
+images:
+  - "/img/headers/elements/buttons.png"
 aliases:
   - "/buttons.html"
 ---

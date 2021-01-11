@@ -3,6 +3,8 @@ title: "Pagination"
 layout: "single"
 description: "Pagination affords navigation between pages of content, and it highlights the page currently in view."
 components: true
+images:
+  - "/img/headers/elements/pagination.png"
 aliases:
   - "/pagination.html"
 ---

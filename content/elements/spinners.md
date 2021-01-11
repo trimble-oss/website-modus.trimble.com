@@ -3,6 +3,8 @@ title: "Spinners"
 layout: "single"
 description: "Spinners indicate progress by showing users a loading state."
 components: true
+images:
+  - "/img/headers/elements/spinners.png"
 aliases:
   - "/spinners.html"
 ---

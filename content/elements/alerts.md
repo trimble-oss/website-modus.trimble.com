@@ -4,6 +4,8 @@ menuTitle: "Alerts"
 layout: "single"
 description: "Alerts provide contextual information about system status that persists until dismissed or resolved."
 components: true
+images:
+  - "/img/headers/elements/alerts.png"
 aliases:
   - "/alerts.html"
 ---

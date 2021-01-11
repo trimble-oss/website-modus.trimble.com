@@ -3,6 +3,8 @@ title: "Sliders"
 layout: "single"
 description: "Sliders allow users to make selections from a range of values."
 components: true
+images:
+  - "/img/headers/elements/sliders.png"
 keywords: forms, form, range
 aliases:
   - "/sliders.html"

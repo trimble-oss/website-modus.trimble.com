@@ -3,6 +3,8 @@ title: "Messages"
 layout: "single"
 description: "Messages provide the user with contextual static information. They have a lower priority than an alert."
 components: true
+images:
+  - "/img/headers/elements/messages.png"
 aliases:
   - "/messages.html"
 ---
