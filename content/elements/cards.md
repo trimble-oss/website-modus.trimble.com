@@ -3,6 +3,8 @@ title: "Cards"
 layout: "single"
 description: "Cards provide a set of content which acts as an entry point to more detailed information."
 components: true
+images:
+  - "/img/headers/elements/cards.png"
 aliases:
   - "/cards.html"
 ---

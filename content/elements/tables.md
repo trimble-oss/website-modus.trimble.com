@@ -3,6 +3,8 @@ title: "Tables"
 layout: "single"
 description: "Tables display information in a grid-like format of rows and columns. "
 components: true
+images:
+  - "/img/headers/elements/tables.png"
 aliases:
   - "/tables.html"
 ---

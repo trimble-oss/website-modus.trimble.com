@@ -3,6 +3,8 @@ title: "Inputs"
 layout: "single"
 description: "Input fields collect information from users."
 components: true
+images:
+  - "/img/headers/elements/inputs.png"
 keywords: forms, form
 aliases:
   - "/elements/forms/"

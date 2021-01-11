@@ -4,6 +4,8 @@ menuTitle: "Toasts"
 layout: "single"
 description: "Toasts provide non-intrusive, short-lasting contextual feedback to the user."
 components: true
+images:
+  - "/img/headers/elements/toasts.png"
 keywords: alert
 aliases:
   - "/toasts.html"
