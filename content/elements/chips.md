@@ -37,13 +37,9 @@ Chips represent a complex piece of information in a compact form, such as an ent
 ## Specifications
 
 <div class="bg-light mb-5 shadow-sm">
-<div class="guide-example-block pb-4">
-  <div class="guide-content-sample anatomy-display-container pt-3">
-    <div>
-      <div
-        data-anatomy-colors="false"
-        class="chip chip-solid chip-input anatomy-display-static"
-      >
+  <div class="guide-example-block pb-4 pt-2">
+    <div class="guide-content-sample ml-5 pt-3">
+      <div class="chip chip-solid chip-input" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="right" data-content="<small><b>font-size:</b> 13px<br><b>border-radius:</b> 16px<br></small>">
         <div class="chip-thumbnail">
           <img src="/img/headshot.png" height="24" width="24" alt="" />
         </div>
@@ -55,7 +51,12 @@ Chips represent a complex piece of information in a compact form, such as an ent
     </div>
   </div>
 </div>
-</div>
+
+<script>
+$(function () {
+  $('[data-toggle="popover"]').popover('show')
+})
+</script>
 
 Input chips can be in any of the following states:
 
