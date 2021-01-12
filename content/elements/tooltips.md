@@ -13,9 +13,9 @@ aliases:
 
 A tooltip is a popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it. It typically appears after a small delay and disappears when "Escape" is pressed or on mouse out.
 
-   <div style="max-width: max-content">
-      <div class="guide-sample">
-      <div class="btn-group-vertical">
+<div style="max-width: max-content">
+  <div class="guide-sample">
+    <div class="btn-group-vertical">
       <button id="tooltipExample" class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" data-original-title="Zoom in">
       <i class="modus-icons">zoom_in</i>
       </button>
@@ -28,9 +28,9 @@ A tooltip is a popup that displays information related to an element when the el
       <button class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" data-original-title="Toggle layers">
       <i class="modus-icons">map_layers</i>
       </button>
-       </div>
-      </div>
     </div>
+  </div>
+</div>
 
 ## Usage
 

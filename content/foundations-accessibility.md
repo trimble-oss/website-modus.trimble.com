@@ -24,7 +24,7 @@ For more information or questions about accessibility, visit https://webaim.org/
 - [Color-Reliant Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/)
 - [CommonLook Section 508 Plugin for Adobe Acrobat](https://webaim.org/resources/commonlook/)
 - [WAVE](https://wave.webaim.org/): a suite of evaluation tools that identify accessibility and Web Content Accessibility Guideline (WCAG) errors.
-- [Web Developer Extension for Mozilla-Based Browsers](https://webaim.org/resources/webdev/)
+- [Web Developer Extension for Mozilla-Based Browsers](https://wave.webaim.org/extension/)
 
 <style>
 article li a {
