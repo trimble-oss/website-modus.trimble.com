@@ -33,8 +33,8 @@ npm run build
 
 | Resource       | Link                                    |
 | -------------- | --------------------------------------- |
-| CloudFront DEV | https://d300l1ldk3l61f.cloudfront.net/  |
-| DEV            | https://styleguide-dev.trimblemaps.com/ |
+| Dev            | https://styleguide-dev.trimblemaps.com/ |
+| Pre-Prod       | https://styles-dev.trimblemaps.com/     |
 | Prod           | https://modus.trimble.com               |
 
 ## Testing and Audits

@@ -1,0 +1,135 @@
+// Typography
+
+.small-body {
+  font-size: 12px;
+}
+
+// #web
+
+.web-lead {
+  font-weight: 400;
+}
+
+.web-mini {
+  font-size: 12px;
+}
+
+// #mobile-applications-scale
+
+.mobile-heading-1 {
+  font-size: 20px;
+}
+
+.mobile-heading-2 {
+  font-size: 18px;
+}
+
+.mobile-heading-3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.mobile-heading-4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.mobile-heading-5 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.mobile-heading-6 {
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.mobile-lead {
+  font-size: 18px;
+}
+
+.mobile-body {
+  font-size: 12px;
+}
+
+.mobile-mini {
+  font-size: 10px;
+}
+
+// #desktop-applications-scale
+
+p[class^="desktop-"] {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.desktop-heading-1 {
+  font-size: 24px;
+}
+
+.desktop-heading-2 {
+  font-size: 20px;
+}
+
+.desktop-heading-3 {
+  font-size: 16px;
+}
+
+.desktop-heading-4 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.desktop-heading-5 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.desktop-heading-6 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.desktop-heading-7 {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.desktop-body-1 {
+  font-size: 14px;
+}
+
+.desktop-body-2 {
+  font-size: 12px;
+}
+
+.desktop-body-3 {
+  font-size: 11px;
+}
+
+.desktop-body-4 {
+  font-size: 10px;
+}
+
+.desktop-mini {
+  font-size: 9px;
+}
+
+// #display-headings
+
+.display-h1 {
+  font-size: 72px;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+}
+
+.display-h2 {
+  font-size: 40px;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+}
+
+.display-h3 {
+  font-size: 32px;
+  letter-spacing: 0.283px;
+  font-weight: 600;
+}

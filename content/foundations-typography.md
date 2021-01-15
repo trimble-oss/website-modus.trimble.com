@@ -56,7 +56,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
       <tbody>
         <tr>
           <td scope="row">
-           Heading 1
+          <p class="h1">
+           Heading&nbsp;1
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -71,7 +73,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="h2">
            Heading 2
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -86,7 +90,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+          <p class="h3">
            Heading 3
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -101,7 +107,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+          <p class="h4">
            Heading 4
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -116,7 +124,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+          <p class="h5">
            Heading 5
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -131,7 +141,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+            <p class="h6">
            Heading 6
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -146,7 +158,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
          <tr>
           <td scope="row">
+           <p class="lead web-lead">
            Lead Text
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -176,7 +190,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+          <p class="small-body">
            Small Body
+          </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -191,7 +207,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+          <p class="web-mini">
            Mini
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -219,7 +237,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
       <tbody>
         <tr>
           <td scope="row">
+          <p class="mobile-heading-1">
            Heading 1
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -232,7 +252,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+          <p class="mobile-heading-2">
            Heading 2
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -246,7 +268,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="mobile-heading-3">
            Heading 3
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -260,7 +284,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="mobile-heading-4">
            Heading 4
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -274,7 +300,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="mobile-heading-5">
            Heading 5
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -288,7 +316,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="mobile-heading-6">
            Heading 6
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -302,7 +332,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="mobile-lead">
            Lead Text
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -315,7 +347,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+          <p class="mobile-body">
            Body
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -329,7 +363,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+          <p class="mobile-mini">
            Mini
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -356,7 +392,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
       <tbody>
       <tr>
           <td scope="row">
+           <p class="desktop-heading-1">
            Heading 1
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Segoe UI
@@ -368,7 +406,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="desktop-heading-2">
            Heading 2
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Segoe UI
@@ -380,7 +420,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="desktop-heading-3">
            Heading 3
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Segoe UI
@@ -393,7 +435,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="desktop-heading-4">
            Heading 4
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Segoe UI
@@ -406,7 +450,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="desktop-heading-5">
            Heading 5
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Segoe UI
@@ -419,7 +465,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="desktop-heading-6">
            Heading 6
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Segoe UI
@@ -432,7 +480,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="desktop-heading-7">
            Heading 7
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Segoe UI
@@ -445,7 +495,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+          <p class="desktop-body-1">
            Body 1
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Segoe UI
@@ -458,7 +510,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="desktop-body-2">
            Body 2
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Segoe UI
@@ -471,7 +525,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="desktop-body-3">
            Body 3
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Segoe UI
@@ -484,7 +540,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
          <tr>
           <td scope="row">
+           <p class="desktop-body-4">
            Body 4
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Segoe UI
@@ -497,7 +555,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
+           <p class="desktop-mini">
            Mini
+           </p>
           </td>
           <td>
             <strong>Font Family:</strong> Segoe UI
@@ -523,7 +583,8 @@ The variations help keep type styles to a minimum, so consistency is easier to a
       <tbody>
         <tr>
           <td scope="row">
-            Display 1
+          <p class="display-h1">Display&nbsp;1
+          </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -538,7 +599,8 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
-            Display 2
+            <p class="display-h2">Display 2
+          </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -553,7 +615,8 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
         <tr>
           <td scope="row">
-            Display 3
+            <p class="display-h3">Display 3
+          </p>
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans
@@ -609,7 +672,7 @@ _Line length is not always manageable since users can set their own device width
 - Do not bold text when a heading is needed.
 
 {{< whats-changed-table >}}
-| Date       | Version | Notes                                              | Contributors                   |
+| Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------------------------------------------- | ------------------------------ |
-| 11/23/2020 | 1.0.0   | Added display fonts, fallback fonts, translated text, and desktop fonts. | M. Heighway, L. Cook, A. Eidam, E. Gunther, E. Bohn, N. Springer, G. Leuhof  |
+| 11/23/2020 | 1.0.0 | Added display fonts, fallback fonts, translated text, and desktop fonts. | M. Heighway, L. Cook, A. Eidam, E. Gunther, E. Bohn, N. Springer, G. Leuhof |
 {{</ whats-changed-table >}}

@@ -33,4 +33,4 @@ We are happy to accept contributions from the community to improve this project.
 
 ## Pull Request Checklist
 
-- Before opening a PR run `npm rpn test` and wait for all tests to pass.
+- Before opening a PR run `npm run test` and wait for all tests to pass.
