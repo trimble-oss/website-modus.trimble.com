@@ -1,7 +1,7 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 {{- $hex := .Get "hex" -}}
 <div class="col-12 col-sm-6 col-lg-4 col-xl-3 mb-4">
-  <div class="card h-100 w-100 shadow-1">
+  <div class="card h-100 w-100 shadow-sm">
     <div class="card-img-top {{ if (.Params.bg) }}{{.Get "bg"}}{{- end -}}" style="background-color: {{ $hex }};">
       <div class="py-4 py-lg-5"></div>
     </div>

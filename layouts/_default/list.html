@@ -26,10 +26,14 @@
     <div class="col-12 col-md-9 col-lg-10">
       <div class="container mb-5">
         <div class="row">
-          {{ range first 99 (where .Site.RegularPages.ByPublishDate.Reverse ".Section" "not in" "elements") }}
+          {{ range first 99 (where .Pages.ByPublishDate.Reverse "Section" "news") }}
           {{- partial "blog-brief.html" . -}}
           {{- end -}}
         </div>
+        <div class="mt-4">
+          {{- partial "never-miss-an-update.html" . -}}
+        </div>
+
       </div>
     </div>
 
