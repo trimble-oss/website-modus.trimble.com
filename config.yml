@@ -14,7 +14,7 @@ params:
   modusIconsVersion: "0.5.0"
   author: "Trimble"
   images:
-    - https://modus.trimble.com/icon.png
+    - https://modus.trimble.com/img/preview.png
 
 publishdir: "./build/"
 
@@ -28,7 +28,6 @@ outputs:
 privacy:
   googleAnalytics:
     anonymizeIP: true
-    respectDoNotTrack: true
   twitter:
     enableDNT: true
   youtube:

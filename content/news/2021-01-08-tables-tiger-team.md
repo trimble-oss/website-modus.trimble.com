@@ -5,6 +5,7 @@ description: "We are searching for Tiger Team members to improve the table eleme
 image: "/img/blog/headers/2021-01-08-tiger-team.jpg"
 headerBgColor: "#F1F1F1"
 tags: ["tiger", "team", "tables"]
+hideHomePages: true
 author: Ewa Nowak
 blog: true
 layout: blog-post
