@@ -7,7 +7,7 @@ community: true
 hideToc: true
 ---
 
-A design pattern has been defined as “a **proven** solution to a **common** problem within **specified context**.” For a design pattern to be trusted and reliable, it had to have been tested by users. The pattern needs to also address a recurring problem that might solve a problem for multiple products and users. The designer or developer who chooses to use this pattern must also have some guidance as to the context of usage: when is this pattern going to be most effective? When should I use it in my product and when should I not?
+A design pattern has been defined as “a **proven** solution to a **common** problem within **specified context**.” For a design pattern to be trusted and reliable, it has to be tested by users. The pattern needs to also address a recurring problem that might solve a problem for multiple products and users. The designer or developer who chooses to use this pattern must also have some guidance as to the context of usage: when is this pattern going to be most effective? When should I use it in my product and when should I not?
 
 ## Core Elements of a Design Pattern
 
@@ -17,35 +17,7 @@ A design pattern has been defined as “a **proven** solution to a **common** pr
 - Specifications
 - Related user research
 
-## Required Information
-
-### Problem Statement
-
-The problem statement is an expression of what the user needs so he can perform a particular action.
-
-### Context
-
-Is the pattern specific to a device, platform, or context of use (e.g. in-cab use, high-contrast).
-
-### Solution
-
-Description of the Design Pattern
-
-- **Name of Pattern/ Component**: what’s the name of the component or pattern?
-- **Tagline**: Short description of what it is
-- **Overview:** Brief outline of what the pattern is and how it’s used
-- **Target User**: Does the pattern solve a problem for a particular user, persona, or archetype?
-- **Usage**:
-  - Use when (bullet points)
-  - Don’t use when (bullet points)
-- **Pattern Design**: Visual representation of what the pattern looks like (Sketch, Figma, inVision, etc.)
-- **Specifications**: Details about what the pattern looks like, colors, measurements, typography, etc. What are the required and optional components?
-- **Types**: If you are identifying different types of the pattern, list them here with a brief description and visual example.
-- **Behavior**: How does it behave when interacted with? How does it behave on different devices?
-- **Editorial**: Does the pattern use specific language? Number of characters? Grammatical forms?
-- **Accessibility**: Consider minimal color contrasts, icon labels, keyboard interaction, screen readers, etc.
-- **Code Component**: Do you have a working, tested code component?
-- **User Research**: How do you know this pattern is effective?
+**Christian: Can we add a "Submit Now" button here and link it to https://docs.google.com/forms/d/e/1FAIpQLSd5evnuux4SE0Bym8QPblwEUTKhYCG7sJzFfiMH0CYtBNTFaw/viewform?usp=sf_link**
 
 ## Guidelines for Creating Patterns
 
