@@ -17,7 +17,9 @@ A design pattern has been defined as “a **proven** solution to a **common** pr
 - Specifications
 - Related user research
 
-**Christian: Can we add a "Submit Now" button here and link it to https://docs.google.com/forms/d/e/1FAIpQLSd5evnuux4SE0Bym8QPblwEUTKhYCG7sJzFfiMH0CYtBNTFaw/viewform?usp=sf_link**
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSd5evnuux4SE0Bym8QPblwEUTKhYCG7sJzFfiMH0CYtBNTFaw/viewform?usp=sf_link" target="_blank" class="btn btn-primary mb-1">
+Submit Now
+</a>
 
 ## Guidelines for Creating Patterns
 
@@ -60,7 +62,3 @@ A pattern is most effective if it can be applied in different contexts, for use 
 Naming is important and should reflect its purpose. Names of patterns become familiar and gain traction as a form of communication between designers, developers, product managers, and stakeholders.
 
 Are you ready to contribute? To submit your recommendations, please [fill out the submission form](https://docs.google.com/forms/d/e/1FAIpQLSd5evnuux4SE0Bym8QPblwEUTKhYCG7sJzFfiMH0CYtBNTFaw/viewform?usp=sf_link).
-
-<!-- obfuscator: https://blog.mailtrap.io/email-obfuscation/
-<script>user = "ewa_nowak";site = "trimble.com";document.write('<a href=\"mailto:' + user + '@' + site + '\">');document.write(user + '@' + site + '</a>');</script>
--->
