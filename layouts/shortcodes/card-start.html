@@ -1,7 +1,7 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
-{{- $title := .Get "title" -}}
+{{ $title := .Get "title" }}
 <div class="col h-100 mb-4">
-  <div class="card card-blog-brief h-100 w-100 shadow-sm">
+  <div class="card card-blog-brief border h-100 w-100 shadow-sm">
     <div class="card-header text-center{{ with .Get "class" }} {{ . }}{{- end -}}">
       <img src="/img/icons/{{.Get "header" | urlize }}" class="mx-auto text-center" width="99" height="99"
         alt="{{.Get "title"}}">
@@ -11,7 +11,10 @@
         <h3>{{.Get "title"}}</h3>
         <p>
           {{- if (.Params.url) -}}
-          <a href="{{.Get "url"}}" class="stretched-link"></a>
+          <a href="{{.Get "url"}}"
+          {{- if (.Params.target) -}}target="{{.Get "target"}}"{{ end }}
+          class="stretched-link">
+        </a>
           {{- end -}}
           {{- .Inner -}}
         </p>
