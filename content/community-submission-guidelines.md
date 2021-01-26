@@ -88,7 +88,3 @@ A pattern is most effective if it can be applied in different contexts, for use 
 Naming is important and should reflect its purpose. Names of patterns become familiar and gain traction as a form of communication between designers, developers, product managers, and stakeholders.
 
 Are you ready to contribute? To submit your recommendations, please [fill out the submission form](https://docs.google.com/forms/d/e/1FAIpQLSd5evnuux4SE0Bym8QPblwEUTKhYCG7sJzFfiMH0CYtBNTFaw/viewform?usp=sf_link).
-
-<!-- obfuscator: https://blog.mailtrap.io/email-obfuscation/
-<script>user = "ewa_nowak";site = "trimble.com";document.write('<a href=\"mailto:' + user + '@' + site + '\">');document.write(user + '@' + site + '</a>');</script>
--->

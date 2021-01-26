@@ -4,7 +4,7 @@
 }
 
 .card-blog-brief:hover {
-  box-shadow: 0 0 8px #bfbfc6 !important;
+  box-shadow: 0 0 8px rgba(48, 60, 68, 0.4) !important;
   transition: 0.2s ease-in-out;
 }
 
@@ -35,5 +35,6 @@
 .bg-adobe-xd img,
 .bg-figma img,
 .bg-sketch img {
-  opacity: 0.8;
+  opacity: 0.9;
+  filter: invert(1);
 }
