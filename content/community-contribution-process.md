@@ -9,6 +9,8 @@ hideToc: true
 
 The Modus team is dedicated to maintaining a consistent, top-quality product. Accordingly, before any component is revised or added, it goes through a process of reviews and approvals.
 
+![Contribution Process](/img/guide/contribution-process.svg)
+
 ### 1. Understanding the design system and the process
 
 During this stage you review our [roadmap](https://miro.com/app/board/o9J_kvewBgE=/), documentation, [submission guidelines](/community/submission-guidelines/), and process. You should also familiarize yourself with our design principles and foundations, which address visual design, UX, content, branding, and accessibility ([Foundations](/foundations/) section of Modus). Soon, you will also be able to review personas and user archetypes, so you can better understand who your design should serve.
