@@ -3,7 +3,7 @@ title: Join the Tables Tiger Team
 date: 2021-01-08
 description: "We are searching for Tiger Team members to improve the table element."
 image: "/img/blog/headers/2021-01-08-tiger-team.jpg"
-headerBgColor: "#F1F1F1"
+headerBgColor: "#E69335"
 tags: ["tiger", "team", "tables"]
 hideHomePages: true
 author: Ewa Nowak

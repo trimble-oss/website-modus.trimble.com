@@ -43,16 +43,13 @@
         </details>
         {{- end -}}
 
-        {{- .Content -}}
-
         {{ if .Params.displayBlogPosts }}
         <div class="mx-n3 px-n4">
           {{ partial "index/list-blog-brief.html" . }}
         </div>
-        <div>
-          {{- partial "never-miss-an-update.html" . -}}
-        </div>
         {{- end -}}
+
+        {{- .Content -}}
 
         <footer class="mt-4 pt-3">
 

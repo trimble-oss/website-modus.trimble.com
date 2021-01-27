@@ -1,9 +1,9 @@
 <div class="col-12 col-lg-6 col-xl-4 my-3">
-  <div class="card card-blog-brief h-100 border bg-light shadow-sm">
+  <div class="card card-blog-brief h-100 border shadow-sm">
     <div class="card-header top-rounded mb-0 pb-0 border-0"
-      style="background-image: url({{ .Params.Image | relURL }});">
+      style="background-image: url({{ .Params.Image | relURL }}); background-color: {{ .Params.headerBgColor }}">
     </div>
-    <div class="card-body bg-white border-0 pb-0">
+    <div class="card-body border-0 pb-0">
       <h3 class="card-title px-2 ml-n2 name" {{ if .Params.TitleNoTranslate }}translate="no" {{- end -}}>
         {{- .Title -}}
       </h3>
@@ -15,11 +15,11 @@
         </a>
       </p>
     </div>
-    <div class="card-footer border-0 bg-white py-0">
+    <div class="card-footer border-0 py-0">
       <div class="row mb-1">
         <div class="mx-3">
           <img src="/img/author/{{ .Params.author | urlize }}.jpg" class="bg-light rounded-circle mx-auto text-center"
-            height="40" width="40" loading="lazy" alt="{{ .Params.author }}">
+            height="40" width="40" alt="{{ .Params.author }}">
         </div>
         <div>
           <p class="text-muted small mb-0">{{ .Params.author }}</p>
