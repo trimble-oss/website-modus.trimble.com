@@ -9,7 +9,7 @@ hideToc: true
 
 The Modus team is dedicated to maintaining a consistent, top-quality product. Accordingly, before any component is revised or added, it goes through a process of reviews and approvals.
 
-![Contribution Process](/img/guide/contribution-process.svg)
+![Contribution Process](/img/guide/contribution-process.png)
 
 ### 1. Understanding the design system and the process
 
