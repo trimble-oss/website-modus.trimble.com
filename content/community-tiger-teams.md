@@ -22,12 +22,12 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
   <tbody>
       <tr>
       <td>Tables</td>
-      <td><strong>Recruiting contributors until January 22, 2021! <a href="/news/2021-01-08-tables-tiger-team/">Join here!</a></strong></td>
-      <td>01/25/2021</td>
+      <td>G. Leuhof, D. Donnell, G. Piltzer, H. Keller, K. Tran, S. Lucey, S. Williams, T. Ortiz</td>
+      <td>02/03/2021</td>
     </tr>
     <tr>
       <td>Navigation Headers</td>
-      <td>S.Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor</td>
+      <td>S. Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor</td>
       <td>10/11/2020</td>
     </tr>
   </tbody>
