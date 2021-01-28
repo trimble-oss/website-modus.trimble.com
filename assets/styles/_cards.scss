@@ -38,3 +38,11 @@
   opacity: 0.9;
   filter: invert(1);
 }
+
+body[data-url="/community/contribute/"] .card-blog-brief {
+  min-height: 306px;
+}
+
+body[data-url="/community/contribute/"] .card-blog-brief h3 {
+ font-size: 0.98rem;
+}
