@@ -16,53 +16,33 @@ Figma is a vector graphics editor and prototyping tool, which is primarily web-b
 
 ![Sign Up](/img/guide/figma/sign-up-screen.png)
 
-## 2. Open the Modus Design System File in Figma
+## 2. Enable the Design System Library
 
-Once you have an account, open the [Modus Design System file](https://www.figma.com/file/QzWETTPdsKuTofdCkw5zJs/Modus-Design-System?node-id=14%3A73)
+Enable the library from the Figma ‘Assets’ Panel - Option+3, then search for “Modus” and enable “Modus - Web.”
 
-## 3. Duplicate Modus Library File
+![Enable the Library](/img/guide/figma/enable-library.png)
 
-![Duplicate Library File](/img/guide/figma/duplicate-draft-screen.png)
+## 3. Learn about the Modus Setup in Figma
 
-## 4. Move the Library to Your Team
+### Themes
 
-![Move the Library](/img/guide/figma/move-library-screen.png)
+In this library, typography is defined through Text Styles, colors are built as Color Styles, and elevations are built as effect styles. Elements are a combination of Text styles, Layer styles and nested elements.
 
-## 5. Open the “Copy” Modus File
+### Assets Panel
 
-And head to the “Assets” section on the left.
+Each element/element family is called out in the assets panel for easy reading. We try to keep elements close to the surface and not nested in too many subfolders. In the case of complex elements, you can find their building blocks in their respective sub-element folder.
 
-![Open Modus File](/img/guide/figma/open-copy-screen.png)
+### Elements
 
-## 6. Select the Library Icon
+Each element is built to be as flat as possible so they are easy to manage and work with.
+Some elements have hidden layers you can toggle on/off to add variations without detaching.
 
-![Select the Library](/img/guide/figma/select-icon-screen.png)
+We use emojis extensively to make the element easier to work with.
 
-## 7. Publish Components to Your Team
+### Swaps
+Swapping elements is an easy way in Figma to use several states of an element in your design. The way we handle swaps is putting together related elements that are more likely to be swapped frequently in a design.
 
-![Publish](/img/guide/figma/publish-screen.png)
+States are added as a ‘modifier’ of the element and are ordered with letters (A., B., etc.).
 
-## 8. Give Your Library Some Context
 
-A good description will help your team maintain a clean and organized document.
 
-## 9. Select “Publish”
-
-This will give a status of the library being published. You will see that on the bottom.
-Once published, your library will be available to your team! Congratulations!
-
-## Enable Library on Files or Drafts
-
-Typically the library will be enabled in all the new files that are created. However, if it is not, here is how you fix it.
-
-- Go back to the main “files” page and select your Profile.
-- Under the “Settings” tab you will find a section titled “Library”
-- Select “Enable Libraries”
-- Toggle on the “Modus Design System”
-- Congrats!
-
-## Enjoy! But Check Back Soon!
-
-The file you copied will not receive any updates or changes to the Figma file. We will push any changes to the larger community, so you can copy over the new components.
-
-_Note:_ This is a temporary solution as our Licensing team is working on a larger Enterprise license to make this process seamless. Look out for updates!
