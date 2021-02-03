@@ -41,8 +41,3 @@ We use emojis extensively to make the element easier to work with.
 
 ### Swaps
 Swapping elements is an easy way in Figma to use several states of an element in your design. The way we handle swaps is putting together related elements that are more likely to be swapped frequently in a design.
-
-States are added as a ‘modifier’ of the element and are ordered with letters (A., B., etc.).
-
-
-
