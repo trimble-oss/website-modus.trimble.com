@@ -1,0 +1,28 @@
+.feedback {
+  border-color: #ddd !important;
+}
+
+.btn-feedback {
+  opacity: 0.7;
+  min-width: 32px;
+}
+
+.btn-feedback svg {
+  margin-top: -3px;
+}
+
+.btn-feedback:hover:enabled {
+  opacity: 1;
+}
+
+.btn-feedback[disabled] {
+  opacity: 0.4;
+  cursor: default;
+  pointer-events: none;
+}
+
+@media (min-width: 1200px) {
+  .feedback-center {
+    display: none;
+  }
+}

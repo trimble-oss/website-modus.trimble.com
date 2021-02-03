@@ -5,9 +5,13 @@
 }
 
 .bg-purple {
-  background-color: #7952B3 !important;
+  background-color: #7952b3 !important;
 }
 
 .img-white {
-  filter: grayscale(100%) brightness(800%)
+  filter: grayscale(100%) brightness(800%);
+}
+
+.img-grayscale {
+  filter: grayscale(100%);
 }
