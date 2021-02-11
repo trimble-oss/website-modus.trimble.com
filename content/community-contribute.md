@@ -37,7 +37,7 @@ Review proposed components and/or sections of the design system and offer feedba
 Contribute by <a href="/community/tiger-teams/">joining a Tiger Team</a> to work on a component or pattern with your fellow UX designers and engineers.
 {{</ card-start >}}
 
-{{< card-start title="Submit a UI Pattern" url="https://modus.trimble.com/community/contribution-process/" class="bg-light py-4" header="design.svg" >}}
+{{< card-start title="Submit a UI pattern" url="https://modus.trimble.com/community/contribution-process/" class="bg-light py-4" header="design.svg" >}}
 Propose a new design pattern to be added to Modus. Learn about <a href="/community/contribution-process/">the contribution process</a>.
 {{</ card-start >}}
 
