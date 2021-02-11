@@ -1,7 +1,7 @@
 ---
-title: Call for Submissions
-date: 2020-12-07
-description: "Do you have mad design skills? Contribute a pattern to the Modus library and win big!"
+title: Call for Submissions - Deadline Extended!
+date: 2021-02-08
+description: "Do you have mad design skills? Contribute a pattern to the Modus library and win big! "
 image: "/img/blog/headers/2020-12-07-call-for-submissions.jpg"
 headerBgColor: "#ECEAED"
 tags: ["modus", "design"]
@@ -23,7 +23,7 @@ Step 2: Review the [contribution process](/community/contribution-process/)
 
 Step 3: Follow the [submission guidelines](/community/submission-guidelines/)
 
-Step 4: Fill out the [submission form](https://docs.google.com/forms/d/e/1FAIpQLSd5evnuux4SE0Bym8QPblwEUTKhYCG7sJzFfiMH0CYtBNTFaw/viewform) and provide documentation and designs
+Step 4: Fill out the [submission form](https://docs.google.com/forms/d/e/1FAIpQLSd5evnuux4SE0Bym8QPblwEUTKhYCG7sJzFfiMH0CYtBNTFaw/viewform)
 
 ## Who can enter the competition?
 
@@ -31,7 +31,7 @@ Anyone at Trimble
 
 ## What’s the deadline for submissions?
 
-**February 1, 2021**
+~~February 1, 2021~~ **EXTENDED: March 31, 2021**
 
 ## What can I win?
 
@@ -42,6 +42,6 @@ Anyone at Trimble
 
 ## Who will review and judge the entries?
 
-The Modus PM along with the UX board will review and pick a winner by **March 1, 2021**.
+The Modus PM along with the UX board will review and pick a winner by **April 30, 2021**.
 
-Thank you for participating! Good luck!
+Thank you for participating! Good luck! If you have any questions, [contact us](/community/contact/)!
