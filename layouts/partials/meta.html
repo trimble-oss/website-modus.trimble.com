@@ -26,10 +26,11 @@
 {{- if .IsHome -}}
 {{ hugo.Generator }}
 {{else}}
+{{- if not .Params.blog -}}
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet"
     href="https://modus.trimble.com/assets/{{ .Site.Params.modusIconsVersion }}/fonts/modus-icons.css">
-
+{{- end }}
 <script src="/js/bootstrap.bundle.min.js"></script>
 {{- end }}
 

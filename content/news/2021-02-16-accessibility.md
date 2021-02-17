@@ -3,9 +3,9 @@ title: How to Design Accessible Products
 date: 2021-02-16
 description: "When we design and develop for accessibility, we focus on building products that can be used by everyone. How do we design for accessibility? Here’s a quick primer on how to get started."
 image: "/img/blog/headers/2021-02-16-accessibility.png"
-headerBgColor: "#ECEAED"
-tags: ["modus", "design"]
-keywords: ["modus", "design"]
+headerBgColor: "#eee"
+tags: ["modus", "design", "accessibility"]
+keywords: ["modus", "design", "accessibility"]
 author: Ewa Nowak
 blog: true
 layout: blog-post
@@ -33,9 +33,11 @@ To check the color contrast in your designs, you can use [Stark](https://develop
 For developers building web-based software, there are some browser extensions you can install for free to help you check for accessibility issues. WebAIM’s [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/) and [Lighthouse](https://developers.google.com/web/tools/lighthouse) offer audits for accessibility, performance, and much more.
 
 ### Include focus states
+
 Browsers by default show outlines or selected elements, which are called focus indicators. As a designer, you might find the default focus states ugly and may be tempted to remove them. **Never remove a default focus state without replacing it with another** (that meets color contrast standards for AA compliance). If you remove the focus state, you exclude people who use screen readers, individuals with limited mobility, and power users who prefer the keyboard as their main way of navigating your product. Make sure your focus state stands out from the other elements around it: it’s clearly visible and has enough contrast. Interactive elements (such as input fields, buttons or icons, and links) all need focus states.
 
 ### Make your forms easy to use
+
 One of the most important elements in your product are forms. They allow users to add input, so they can get a response from your product. Filling out forms is not an easy task for someone with a disability, such as low vision. There are three things you can do to help users with forms:
 
 1. **Always use labels in form fields**
