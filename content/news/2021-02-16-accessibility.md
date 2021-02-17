@@ -4,8 +4,8 @@ date: 2021-02-16
 description: "When we design and develop for accessibility, we focus on building products that can be used by everyone. How do we design for accessibility? Here’s a quick primer on how to get started."
 image: "/img/blog/headers/2021-02-16-accessibility.png"
 headerBgColor: "#ECEAED"
-tags: ["modus", "design"]
-keywords: ["modus", "design"]
+tags: ["modus", "design", "accessibility"]
+keywords: ["modus", "design", "accessibility"]
 author: Ewa Nowak
 blog: true
 layout: blog-post
