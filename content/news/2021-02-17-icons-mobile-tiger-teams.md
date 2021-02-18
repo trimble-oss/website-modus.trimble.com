@@ -2,10 +2,9 @@
 title: Join a Tiger Team
 date: 2021-02-17
 description: "We are searching for Tiger Team members to work on icon implementation and mobile patterns."
-image: "/img/blog/headers/2021-01-08-tiger-team.jpg"
-headerBgColor: "#E69335"
+image: "/img/blog/headers/2021-02-17-icons-mobile-tiger-teams.jpg"
+headerBgColor: "#E0C8A2"
 tags: ["tiger", "team", "icons", "mobile"]
-hideHomePages: true
 author: Ewa Nowak
 blog: true
 layout: blog-post

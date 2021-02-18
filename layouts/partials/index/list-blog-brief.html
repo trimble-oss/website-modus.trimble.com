@@ -1,6 +1,6 @@
 <div class="container mb-5">
   <div class="row">
-    {{ range first 4 (where .Site.RegularPages.ByPublishDate.Reverse ".Section" "not in" "addons") }}
+    {{ range first 3 (where .Site.RegularPages.ByPublishDate.Reverse ".Section" "not in" "addons") }}
     {{- if not .Params.hideHomePages -}}
     {{- partial "blog-brief.html" . -}}
     {{- end -}}
