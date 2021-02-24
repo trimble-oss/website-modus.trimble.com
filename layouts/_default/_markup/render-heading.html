@@ -1,5 +1,5 @@
-<h{{ .Level }} id="{{ .Anchor | safeURL }}" {{- if (eq .Level 2 ) }}class="h1 font-weight-bold mt-5" {{- end -}} {{- if
-  (eq .Level 3 ) }} class="h2 font-weight-bold mt-4" {{- end -}}{{- if (eq .Level 4 ) }}
+<h{{ .Level }} id="{{ .Anchor | safeURL }}" {{- if (eq .Level 2 ) }}class="h1 mt-5" {{- end -}} {{- if (eq .Level 3 ) }}
+  class="h2 mt-4" {{- end -}}{{- if (eq .Level 4 ) }}
   class="h3 font-weight-bold mt-3" {{- end -}}>{{ .Text | safeHTML }}
   <a class="header-link text-light text-decoration-none font-weight-normal" href="#{{ .Anchor | safeURL }}">
     #
