@@ -30,6 +30,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet"
     href="https://modus.trimble.com/assets/{{ .Site.Params.modusIconsVersion }}/fonts/modus-icons.css">
+{{ else }}
+<link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL}}index.xml"
+  title="{{ .Site.Title }} News & Articles" />
 {{- end }}
 <script src="/js/bootstrap.bundle.min.js"></script>
 {{- end }}
@@ -48,9 +51,12 @@
 <meta name="theme-color" content="#005f9e">
 
 <link rel="canonical" href="{{ .Permalink }}">
+
 {{- with .OutputFormats.Get "rss" -}}
 {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
+
+
 {{- `<!--[if IE]><script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
 <![endif]-->` | safeHTML -}}
 
@@ -86,5 +92,7 @@ $("#search-by").attr('title', '');
 <!-- Show custom 'LOC' favicon for serving locally -->
 {{- if .Site.IsServer -}}
 {{ $favicon := resources.Get "/static/favicon-loc.ico" }}
-<link rel="shortcut icon" href="{{ $favicon.RelPermalink }}">
+<link rel="icon" type="image/x-icon" href="{{ $favicon.RelPermalink }}">
+{{ else }}
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 {{ end }}

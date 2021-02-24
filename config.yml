@@ -10,15 +10,16 @@ googleAnalytics: "UA-787590-52"
 params:
   title: Trimble Modus Design System
   modusVersion: "1.0.0"
-  modusLayoutVersion: "0.9.5"
+  modusLayoutVersion: "1.0.0"
   modusIconsVersion: "0.5.0"
   author: "Trimble"
+  copyrightHolder: "Trimble Inc."
   images:
     - https://modus.trimble.com/img/preview.png
 
 publishdir: "./build/"
 
-disableKinds: ["taxonomy", "taxonomyTerm", "RSS", "404"]
+disableKinds: ["taxonomy", "taxonomyTerm", "404"]
 
 pygmentsUseClasses: true
 
