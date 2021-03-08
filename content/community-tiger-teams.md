@@ -22,13 +22,13 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
   <tbody>
     <tr>
       <td>Icon Implementation</td>
-      <td><a href="/content/news/2021-02-17-icons-mobile-tiger-teams.md">Join this Tiger Team</a> by <strong>March 2, 2021</strong></td>
-      <td>03/08/2021</td>
+      <td>T. Manham, S. Kaukomen, N. Vasudevan, T. Ooley, E. Gunther, C. Krieg, S. Ortiz</td>
+      <td>03/12/2021</td>
     </tr>
     <tr>
       <td>Mobile Patterns</td>
-      <td><a href="/content/news/2021-02-17-icons-mobile-tiger-teams.md">Join this Tiger Team</a> by <strong>March 2, 2021</strong></td>
-      <td>03/08/2021</td>
+      <td>D. Bedick, E. Bohn, R. Stillwell, N. Cadsawan, C. Starbird, L. Saenz, B. Goncalves, J. A. Provin Silva</td>
+      <td>03/12/2021</td>
     </tr>
       <tr>
       <td>Tables</td>
