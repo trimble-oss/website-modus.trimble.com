@@ -22,17 +22,17 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
   <tbody>
     <tr>
       <td>Icon Implementation</td>
-      <td>T. Manham, S. Kaukomen, N. Vasudevan, T. Ooley, E. Gunther, C. Krieg, S. Ortiz</td>
+      <td>S. Kaukomen, T. Manham, N. Vasudevan, T. Ooley, E. Gunther, C. Krieg, S. Ortiz</td>
       <td>03/12/2021</td>
     </tr>
     <tr>
       <td>Mobile Patterns</td>
-      <td>D. Bedick, E. Bohn, R. Stillwell, N. Cadsawan, C. Starbird, L. Saenz, B. Goncalves, J. A. Provin Silva</td>
+      <td>D. Bedick, E. Bohn, R. Stillwell, N. Cadsawan, C. Starbird, L. Saenz, E. Gunther, J. A. Provin Silva</td>
       <td>03/12/2021</td>
     </tr>
       <tr>
       <td>Tables</td>
-      <td>G. Leuhof, D. Donnell, G. Piltzer, H. Keller, K. Tran, S. Lucey, S. Williams, T. Ortiz</td>
+      <td>G. Leuhof, D. Donnell, G. Piltzer, H. Keller, K. Tran, S. Lucey, S. Williams, T. Ortiz, T. Manham, Z. Tran Do</td>
       <td>02/03/2021</td>
     </tr>
     <tr>
