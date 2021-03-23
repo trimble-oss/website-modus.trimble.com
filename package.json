@@ -47,5 +47,6 @@
   },
   "hugo-bin": {
     "buildTags": "extended"
-  }
+  },
+  "dependencies": {}
 }

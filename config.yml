@@ -161,9 +161,12 @@ menu:
     - name: Submission Guidelines
       url: /community/submission-guidelines/
       weight: 5
+    - name: Modus Adoption
+      url: /community/adoption/
+      weight: 6
     - name: Contact Us
       url: /community/contact/
-      weight: 6
+      weight: 7
 
 module:
   mounts:
