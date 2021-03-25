@@ -18,6 +18,8 @@ Modus is a shared source of truth--a place to reference official Trimble pattern
 
 The main goal of the design system is to create a cohesive brand experience. It also aims at increased scalability, better management of debt, design consistency, rapid prototyping, quick iteration, and improved user experience. Modus establishes a shared vocabulary between designers and developers and provides guidelines for better branded user interfaces and development resources.
 
+Need help with implementation and prioritization? [Learn about the incremental adoption process here](/community/adoption).
+
 <div class="row">
 
 {{< card-start title="Designers" url="/designers/" header="designers.svg" >}}
