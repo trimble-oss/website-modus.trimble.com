@@ -1,5 +1,5 @@
 ---
-title: Trimble Utility-To-Go Renewal with Modus Design System
+title: Trimble Utility To Go Renewal with Modus Design System
 date: 2021-03-24
 description: "Success story of a Trimble team that adopted Modus for their product."
 image: "/img/blog/headers/2021-03-24-utg-modus-adoption.jpg"
@@ -12,7 +12,7 @@ layout: blog-post
 
 ## Problem and Goal
 
-It was late spring 2020 that we in PD NIS (Energy & Public Administration, Product Development) started pondering what to do with one of our flagship products [Utility to Go](https://utilities.trimble.com/utility-to-go.html) (UTG). It needed a freshen-up, a new top coat as it were. What had started out as a simple tool for field work to coordinate network repairs, locate network objects and faults, and improve data integrity with immediate updates in the field had bloated over the years.
+It was late spring 2020 that we at Utilities and Public Administration, NIS Product Development, started pondering what to do with one of our flagship products [Utility to Go](https://utilities.trimble.com/utility-to-go.html) (UTG). It needed a freshen-up, a new top coat as it were. What had started out as a simple tool for field work to coordinate network repairs, locate network objects and faults, and improve data integrity with immediate updates in the field had bloated over the years.
 
 This product, well-established on the Finnish market, had a stable role in all of the major energy companies, but there hadn’t been much front-end resources spared for keeping the look-and-feel consistent. To fix this, we needed something that would allow for our two-person UX team to handle design work quickly and be confident that, once handed over to development, it would be easily executed according to the specs and design flows. This is where Modus came in. The goal was to test out with UTG, if Modus could get rid of heavy design work, unify styles, and get consistency. This would in turn solidify our plans of expanding the design system to the rest of the NIS product family.
 
@@ -20,27 +20,27 @@ But there was apprehension. Modus was still in beta and only a few teams within 
 
 ## Process
 
-![UTG Process](/img/utg-process.png)
+![UTG Process](/img/utg-process.jpg)
 
 The plan was to execute the migration in the summer, mid-June to early August, when most were on a holiday and no pressing customer projects happened. For our initial planning phase we did it old-school printing screenshots of UTG on big A3 paper and making notes on the sides.
 
-![Old-School](/img/pen-and-paper.png)
+![Old-School](/img/pen-and-paper.jpg)
 
 Next, we split UTG into different parts and UI components. Only after, with Jan Nyberg as the main front-end developer, did we go over these evaluating the engineering requirements and feasibility. To do this we had a simple Google slide deck where each component was examined in terms of functionality, form and use.
 
-![Taking Screenshots](/img/utg-screenshots.png)
+![Taking Screenshots](/img/utg-screenshots.jpg)
 
 We marked green on the slides for pros and red for cons. In the far right corner we indicated the current status of implementation with simple “done," “in progress,” and “not started.” This way we went through all Modus components that would be replaced and its current status and future development in the Modus timeline. By doing this we got a clear understanding of what needed customization until Modus Beta caught up with us and what we could use straight out of the box.
 
 Each week we had a meeting where we’d go through the progress. We had daily meetings when needed based on concerns and next steps. What we had planned in June to be executed in July turned out to be a little longer project running until mid-September. Partially this was due to getting needed assistance from people who’d been on a holiday and approvals for some of the more drastic changes. Also the final merge had to be done in a controlled manner with multiple developers checking that the main branch doesn’t break.
 
-When it came to design work, I felt that Modus gave the terminology to be able to convey ideas easily to the rest of the team. What before had taken custom layout drawings in Sketch was now conveyed in wireframes and referrals to specific Modus components. Communication became easier and Modus Design System enabled this. Design work became more about thinking through user flows and less about simple UI components. By the end of the adoption process we could really start thinking about solving user problems, not just UI problems. It was thrilling to see this change in such a short amount of time.
+When it came to design work, I felt that Modus gave the terminology to be able to convey ideas easily to the rest of the team. What before had taken custom layout drawings in Sketch was now conveyed in wireframes and referrals to specific Modus components. Communication became easier, and the Modus Design System enabled this. Design work became more about thinking through user flows and less about simple UI components. By the end of the adoption process we could really start thinking about solving user problems, not just UI problems. It was thrilling to see this change in such a short amount of time.
 
 ![Before and After Shot 1](/img/utg-screens1.png)
 
 From the developer’s perspective, the whole process seemed a bit scary at first. To make so many changes to a critical application for our business at once in a short amount of time was causing unrest on the team. Some were concerned that the adoption might take so long that the changes would never get merged when customer project development continued in autumn. It was at this point that a decision was made to allocate resources to the review process after summer so that the changes could be properly reviewed and merged to the main development branch. With this, we guaranteed that the changes would not be left hanging and not risk the scenario where the main branch gets so far ahead that the Modus changes couldn’t be merged to it directly.
 
-The Modus adoption development started by creating a new styling branch and Modus was then added to it as a Node Module. We had some difficulties getting Modus properly added to the project at first. This was mainly due to the project's setup. Even though UTG is written in Angular, it doesn’t use the built-in angular builds; instead, it’s built with Webpack. At this time, we also didn’t have a CSS preprocessor in our project, so that needed to be configured as well. Setting things up was probably the most difficult part of the adaptation, development-wise. After everything was set up correctly changes could be done component by component. We started by changing the small and easy components in the application like the login component and the main-menu component and then moved on to the more difficult components. With each change end-to-end tests were run to make sure no features broke in the process.
+The Modus adoption development started by creating a new styling branch, and Modus was then added to it as a Node Module. We had some difficulties getting Modus properly added to the project at first. This was mainly due to the project's setup. Even though UTG is written in Angular, it doesn’t use the built-in angular builds; instead, it’s built with Webpack. At this time, we also didn’t have a CSS preprocessor in our project, so that needed to be configured as well. Setting things up was probably the most difficult part of the adaptation, development-wise. After everything was set up correctly changes could be done component by component. We started by changing the small and easy components in the application like the login component and the main-menu component and then moved on to the more difficult components. With each change end-to-end tests were run to make sure no features broke in the process.
 
 ## Result
 
