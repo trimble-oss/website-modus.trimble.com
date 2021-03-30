@@ -28,15 +28,17 @@ Watch podcast
 ## Adoption
 
 Once Product Management adds the design system work to your roadmap, the team finishes assessing the effort, documents it, and prioritizes the work. You now need to break the work out into stories and add them to your product backlog. To help your team prioritize the design system stories, we developed best practices incremental adoption plan that ensures
+
 - Standards rollout in phases that don’t overwhelm your development;
 - You integrate consumable parts of the design system and style guide incrementally while working on other important product features;
 - Business lines update products at a pace that produces high quality and reduces risk and effort.
 
-The following plan is broken down into four levels of achievement: **Bronze**, **Silver**, **Gold**, and **Platinum**. We suggest 6 months to complete a level. It’s a conservative estimate that will allow your team to work on other features of your product. However, you may choose a different approach and decrease this timeline. [Some teams were able to complete Modus implementation within a few months](/news/2021-03-24-utg-modus-adoption).
+The following plan is broken down into four levels of achievement: **Bronze**, **Silver**, **Gold**, and **Platinum**. We suggest 6 months to complete a level. It’s a conservative estimate that will allow your team to work on other features of your product. However, you may choose a different approach and decrease this timeline. [Some teams were able to complete Modus implementation within a few months](/news/2021-03-24-utg-modus-adoption/).
 
 ### Levels of Achievement
 
 #### BRONZE LEVEL: Foundational Alignment (6 months)
+
  {{< checklist >}}Logo Usage{{</ checklist >}}
  {{< checklist >}}Fonts{{</ checklist >}}
  {{< checklist >}}Color Palette & Variables{{</ checklist >}}
@@ -44,6 +46,7 @@ The following plan is broken down into four levels of achievement: **Bronze**, *
  {{< checklist >}}Icons{{</ checklist >}}
 
 #### SILVER LEVEL: Major Components  (6 months)
+
  {{< checklist >}}Buttons{{</ checklist >}}
  {{< checklist >}}Inputs{{</ checklist >}}
  {{< checklist >}}Checkboxes, Radio Buttons, Switches{{</ checklist >}}
@@ -52,6 +55,7 @@ The following plan is broken down into four levels of achievement: **Bronze**, *
  {{< checklist >}}Responsive Grid & Spacing{{</ checklist >}}
 
 #### GOLD LEVEL: Styles & Accessibility (6 months)
+
  {{< checklist >}}Writing Style{{</ checklist >}}
  {{< checklist >}}Alerts, Messages, Toasts{{</ checklist >}}
  {{< checklist >}}Dialogs{{</ checklist >}}
@@ -60,6 +64,7 @@ The following plan is broken down into four levels of achievement: **Bronze**, *
  {{< checklist >}}Accessibility{{</ checklist >}}
 
 #### PLATINUM LEVEL: Other Minor Elements (6 months)
+
  {{< checklist >}}Tabs or Accordions (whichever is left over){{</ checklist >}}
  {{< checklist >}}Badges{{</ checklist >}}
  {{< checklist >}}Dropdowns{{</ checklist >}}

@@ -8,6 +8,13 @@
         <span class="sr-only">Twitter</span></a>
     </div>
     <div class="d-inline-block mr-2">
+      <a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" class="opacity-75" data-toggle="tooltip"
+        title="Share on Facebook"
+        onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+        {{- partial "icons/fa/brands/facebook-square.svg" (dict "class" "text-dark" "width" "28" "height" "28") -}}
+        <span class="sr-only">Facebook</span></a>
+      </div>
+    <div class="d-inline-block mr-2">
       <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}&summary={{ .Summary }}"
         class="opacity-75" title="Share on LinkedIn" data-toggle="tooltip" data-placement="top"
         onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
@@ -21,10 +28,38 @@
         {{ partial "icons/fa/solid/envelope-square.svg" (dict "class" "text-dark" "width" "28" "height" "28") }}
         <span class="sr-only">Email</span></a>
     </div>
+    <div class="d-inline-block mr-2">
+      <button class="opacity-75 border-0 bg-transparent btn-share-web-api p-0" title="Share" data-toggle="tooltip" data-placement="top">
+        {{- partial "icons/fa/solid/share-alt-square.svg" (dict "class" "text-dark" "width" "28" "height" "28") -}}
+        <span class="sr-only">share</span></button>
+    </div>
   </div>
 </div>
 <script>
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   })
+</script>
+<script type="module">
+  const shareButton = document.querySelector('.btn-share-web-api');
+  const shareDialog = document.querySelector('.share-dialog');
+  const closeButton = document.querySelector('.close-button');
+
+  shareButton.addEventListener('click', event => {
+    if (navigator.share) {
+      navigator.share({
+        title: '{{ .Title }} | {{ .Site.Title }}',
+        url: 'https://modus.trimble.com{{ .RelPermalink }}'
+      }).then(() => {
+        console.log('Thanks for sharing!');
+      })
+        .catch(console.error);
+    } else {
+      shareDialog.classList.add('is-open');
+    }
+  });
+
+  closeButton.addEventListener('click', event => {
+    shareDialog.classList.remove('is-open');
+  });
 </script>

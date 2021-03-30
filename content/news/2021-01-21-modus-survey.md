@@ -3,6 +3,8 @@ title: Take Our Survey
 date: 2021-01-21
 description: "Go on! Tell us what you think! Provide your feedback by Friday, January 29. "
 image: "/img/blog/headers/2021-01-21-modus-survey.png"
+images:
+  - img/blog/headers/2021-01-21-modus-survey.png
 headerBgColor: "#FFD973"
 tags: ["modus", "design"]
 keywords: ["modus", "design"]

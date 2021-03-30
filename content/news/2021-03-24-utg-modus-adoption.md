@@ -3,7 +3,9 @@ title: Trimble Utility To Go Renewal with Modus Design System
 date: 2021-03-24
 description: "Success story of a Trimble team that adopted Modus for their product."
 image: "/img/blog/headers/2021-03-24-utg-modus-adoption.jpg"
-headerBgColor: "#E0C8A2"
+images:
+  - img/blog/headers/2021-03-24-utg-modus-adoption.jpg
+headerBgColor: "#025E9F"
 tags: ["adoption","success story","case study","UTG"]
 author: Laura Meskanen-Kundu
 blog: true

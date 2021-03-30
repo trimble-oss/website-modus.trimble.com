@@ -27,9 +27,9 @@
 {{ hugo.Generator }}
 {{else}}
 {{- if not .Params.blog -}}
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet"
-    href="https://modus.trimble.com/assets/{{ .Site.Params.modusIconsVersion }}/fonts/modus-icons.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet"
+  href="https://modus.trimble.com/assets/{{ .Site.Params.modusIconsVersion }}/fonts/modus-icons.css">
 {{ else }}
 <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL}}index.xml"
   title="{{ .Site.Title }} News & Articles" />
@@ -56,9 +56,8 @@
 {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 {{ end -}}
 
-
-{{- `<!--[if IE]><script src="https://cdn.jsdelivr.net/g/html5shiv@3.7.3"></script>
-<![endif]-->` | safeHTML -}}
+<!-- Polyfill for Internet Explorer stuff -->
+<script nomodule crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
 {{- if not .Params.hideSearch -}}
 <!-- search input is a different form on mobile and desktop -->
@@ -73,8 +72,8 @@
     }
   });
   $(function () {
-$("#search-by").attr('title', '');
-});
+    $("#search-by").attr('title', '');
+  });
 </script>
 
 <script>
