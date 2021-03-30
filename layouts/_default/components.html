@@ -24,7 +24,7 @@
         <form class="w-100 mb-2">
           <label for="search" class="sr-only">Search for components</label>
           <input class="form-control form-control-lg w-100 search" id="search" placeholder="Start typing to filter..."
-            inputmode="search" autocomplete="off" title="" >
+            inputmode="search" autocomplete="off" title="">
         </form>
       </div>
     </div>
@@ -38,8 +38,27 @@
 
   <script src="/js/list.min.js"></script>
   <script>
-    new List('listjs-body', {
+    var searchInput = document.querySelector('#listjs-body input#search')
+    var filter = new URLSearchParams(window.location.search).get('filter')
+    var exampleList = new List('listjs-body', {
       valueNames: ['name', { data: ['tags'] }]
+    })
+
+    if (filter !== null) {
+      searchInput.value = filter
+      exampleList.search(filter)
+    }
+
+    exampleList.on('searchComplete', function () {
+      var searchTerm = searchInput.value
+      var newUrl = new URL(location)
+
+      if (searchTerm.length > 0) {
+        newUrl.searchParams.set('filter', searchTerm)
+      } else {
+        newUrl.searchParams.delete('filter')
+      }
+      history.replaceState(null, null, newUrl)
     });
   </script>
 

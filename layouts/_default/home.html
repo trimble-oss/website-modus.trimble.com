@@ -22,7 +22,29 @@
     </div>
   </div>
 
-  <div class="container-fluid bg-light">
+  <div class="container-fluid bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto">
+          <h2 class="mt-5 h1 font-weight-bold text-trimble-gray text-center">
+            What's New
+          </h2>
+          <p class="card-text">The latest updates on Modus guidelines, components, documentation across platforms,
+            calls to <a href="/community/tiger-teams/"> join Tiger Teams</a>, and other Modus-related news.</p>
+        </div>
+      </div>
+      <div>
+        {{- partial "index/list-blog-brief.html" . -}}
+      </div>
+      <div>
+        {{- partial "never-miss-an-update.html" . -}}
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid bg-white">
     <div class="container py-5">
 
       <div class="row mb-5">
@@ -120,45 +142,23 @@
             </div>
           </div>
         </div>
-        </div>
-
-        <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto mt-4">
-          <p class="card-text">
-            Modus is a shared source of truth–a place to reference official Trimble patterns and styles. It includes
-            foundational guidelines and components. It serves product managers, designers, and developers as a
-            repository of everything they need to plan, prototype, and develop better products. It’s a living system and
-            at its core are <a href="/community/contribute/"> your contributions</a>.
-          </p>
-
-          <div class="mt-5 text-center w-100">
-            <a href="/start/" class="btn btn-primary btn-lg rounded text-center">
-              Get started »
-            </a>
-          </div>
-        </div>
-
       </div>
-    </div>
-  </div>
 
-  <div class="container-fluid bg-white py-5">
-    <div class="container">
-      <div class="row">
+      <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto mt-4">
+        <p class="card-text">
+          Modus is a shared source of truth–a place to reference official Trimble patterns and styles. It includes
+          foundational guidelines and components. It serves product managers, designers, and developers as a
+          repository of everything they need to plan, prototype, and develop better products. It’s a living system and
+          at its core are <a href="/community/contribute/"> your contributions</a>.
+        </p>
 
-        <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto">
-          <h2 class="mt-5 h1 font-weight-bold text-trimble-gray text-center">
-            What's New
-          </h2>
-          <p class="card-text">The latest updates on Modus guidelines, components, documentation across platforms,
-            calls to <a href="/community/tiger-teams/"> join Tiger Teams</a>, and other Modus-related news.</p>
+        <div class="mt-5 text-center w-100">
+          <a href="/start/" class="btn btn-primary btn-lg rounded text-center">
+            Get started »
+          </a>
         </div>
       </div>
-      <div>
-        {{- partial "index/list-blog-brief.html" . -}}
-      </div>
-      <div>
-        {{- partial "never-miss-an-update.html" . -}}
-      </div>
+
     </div>
   </div>
 
@@ -170,8 +170,11 @@
           <h2 class="mt-5 h1 font-weight-bold text-trimble-gray text-center">
             How to Contribute
           </h2>
-          <p class="card-text">Trimble Modus Design System is the result of community contributions, and we are constantly working
-            to make it better. We welcome your feedback as well as design patterns, code, ideas, articles, and user research.
+          <p class="card-text">Trimble Modus Design System is the result of community contributions, and we are
+            constantly
+            working
+            to make it better. We welcome your feedback as well as design patterns, code, ideas, articles, and user
+            research.
             Explore some <a href="/community/contribute/">ways to contribute to Modus</a>.</p>
 
           <p class="card-text">Interested in contributing?
@@ -186,6 +189,9 @@
         </div>
       </div>
     </div>
+  </div>
+
+
   </div>
 
 </main>

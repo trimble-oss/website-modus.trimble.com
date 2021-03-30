@@ -3,6 +3,8 @@ title: Welcome to Modus 1.0
 date: 2020-12-08
 description: "Modus 1.0 is finally here! Release notes, contest announcement, updates, and more. See what's new."
 image: "/img/blog/headers/2020-12-08-welcome-to-modus-1.jpg"
+images:
+  - img/blog/headers/2020-12-08-welcome-to-modus-1.jpg
 headerBgColor: "#F6F6F6"
 tags: ["modus"]
 author: Ewa Nowak
@@ -13,7 +15,7 @@ layout: blog-post
 <style>
 #whats-new {padding-top: 25px;}
 </style>
-<br><br>
+<br>
 Modus 1.0 is finally here! The official release of Modus, the Trimble Design System has much to offer for designers, engineers, and product managers. We have listened to you and made significant improvements based on your feedback.
 
 ## What’s New

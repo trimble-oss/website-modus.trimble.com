@@ -1,12 +1,4 @@
 baseurl: https://styles-dev.trimblemaps.com/
-disableKinds: ["section", "taxonomy", "taxonomyTerm", "404", "sitemap"]
+disableKinds: ["taxonomy", "taxonomyTerm", "404", "sitemap"]
 googleAnalytics: "disabled"
 buildFuture: true
-module:
-  mounts:
-    - source: static
-      target: static
-    - source: assets/static/favicon-dev.ico
-      target: static/favicon.ico
-    - source: assets/static/robots-dev.txt
-      target: static/robots.txt
