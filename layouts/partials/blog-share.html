@@ -2,14 +2,14 @@
   <div class="share py-2 float-right">
     <div class="d-inline-block mr-2">
       <a href="https://twitter.com/intent/tweet?via=TrimbleCorpNews&text={{ .Title }}&url={{ .Permalink }}"
-        class="opacity-75" title="Share on Twitter" data-toggle="tooltip" data-placement="top"
+        class="opacity-75" title="Share on Twitter" data-toggle="tooltip"
         onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
         {{ partial "icons/fa/brands/twitter-square.svg" (dict "class" "text-dark" "width" "28" "height" "28") }}
         <span class="sr-only">Twitter</span></a>
     </div>
     <div class="d-inline-block mr-2">
-      <a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" class="opacity-75" data-toggle="tooltip"
-        title="Share on Facebook"
+      <a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" class="opacity-75" title="Share on Facebook"
+        data-toggle="tooltip" data-placement="top"
         onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
         {{- partial "icons/fa/brands/facebook-square.svg" (dict "class" "text-dark" "width" "28" "height" "28") -}}
         <span class="sr-only">Facebook</span></a>
@@ -29,37 +29,35 @@
         <span class="sr-only">Email</span></a>
     </div>
     <div class="d-inline-block mr-2">
-      <button class="opacity-75 border-0 bg-transparent btn-share-web-api p-0" title="Share" data-toggle="tooltip" data-placement="top">
+      <button class="opacity-75 border-0 bg-transparent btn-share-web-api p-0 d-none" title="Share" data-toggle="tooltip"
+        data-placement="top">
         {{- partial "icons/fa/solid/share-alt-square.svg" (dict "class" "text-dark" "width" "28" "height" "28") -}}
-        <span class="sr-only">share</span></button>
+        <span class="sr-only">Share</span></button>
     </div>
   </div>
 </div>
 <script>
   $(function () {
     $('[data-toggle="tooltip"]').tooltip()
-  })
+  });
 </script>
-<script type="module">
+<script>
   const shareButton = document.querySelector('.btn-share-web-api');
-  const shareDialog = document.querySelector('.share-dialog');
-  const closeButton = document.querySelector('.close-button');
+
+  if (navigator.share) {
+    shareButton.classList.remove('d-none');
+  };
 
   shareButton.addEventListener('click', event => {
     if (navigator.share) {
       navigator.share({
         title: '{{ .Title }} | {{ .Site.Title }}',
-        url: 'https://modus.trimble.com{{ .RelPermalink }}'
+        text: '{{ .Description }}',
+        url: '{{ .Permalink }}'
       }).then(() => {
         console.log('Thanks for sharing!');
       })
         .catch(console.error);
-    } else {
-      shareDialog.classList.add('is-open');
-    }
-  });
-
-  closeButton.addEventListener('click', event => {
-    shareDialog.classList.remove('is-open');
+    };
   });
 </script>
