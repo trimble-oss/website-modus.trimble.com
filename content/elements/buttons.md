@@ -43,7 +43,6 @@ There are two button progressions you can choose from: structural and color prog
 <table class="table table-bordered bg-white">
   <thead class="thead-light">
     <tr>
-      <th>Type</th>
       <th>Example</th>
       <th>Emphasis</th>
       <th>When to use</th>
@@ -51,7 +50,6 @@ There are two button progressions you can choose from: structural and color prog
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Primary</th>
       <td><button class="btn btn-primary">Add New</button></td>
       <td>High</td>
       <td>
@@ -61,7 +59,6 @@ There are two button progressions you can choose from: structural and color prog
       </td>
     </tr>
     <tr>
-      <th scope="row">Default</th>
       <td><button class="btn btn-outline-primary">Rename</button></td>
       <td>Medium</td>
       <td>
@@ -69,7 +66,6 @@ There are two button progressions you can choose from: structural and color prog
       </td>
     </tr>
     <tr>
-      <th scope="row">Secondary</th>
       <td><button class="btn btn-outline-dark">Cancel</button></td>
       <td>Medium</td>
       <td>
@@ -77,7 +73,6 @@ There are two button progressions you can choose from: structural and color prog
       </td>
     </tr>
     <tr>
-      <th scope="row">Text Only</th>
       <td><button class="btn btn-text-primary">Cancel</button></td>
       <td>Low</td>
       <td>
@@ -94,7 +89,6 @@ There are two button progressions you can choose from: structural and color prog
 <table class="table table-bordered bg-white">
   <thead class="thead-light">
     <tr>
-      <th>Type</th>
       <th>Example</th>
       <th>Emphasis</th>
       <th>When to use</th>
@@ -102,7 +96,6 @@ There are two button progressions you can choose from: structural and color prog
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Primary</th>
       <td><button class="btn btn-primary">Add New</button></td>
       <td>High</td>
       <td>
@@ -112,7 +105,6 @@ There are two button progressions you can choose from: structural and color prog
       </td>
     </tr>
     <tr>
-      <th scope="row">Default</th>
       <td><button class="btn btn-secondary">Import</button></td>
       <td>Medium</td>
       <td>
@@ -123,13 +115,17 @@ There are two button progressions you can choose from: structural and color prog
       </td>
     </tr>
     <tr>
-      <th scope="row">Text Only</th>
+      <td><button class="btn btn-tertiary">Cancel</button></td>
+      <td>Medium</td>
+      <td>
+        Used for secondary actions to establish additional visual hierarchy or to use a secondary button that provides less emphasis.
+      </td>
+    </tr>
+    <tr>
       <td><button class="btn btn-text-primary">Cancel</button></td>
       <td>Low</td>
       <td>
-        Use in complex applications or smaller containers that require a minimal impact from button
-        color on the interface. They need to be offset from the rest of the UI
-        to promote visual prominence.
+        Use in complex applications or smaller containers that require a minimal impact from button color on the interface. They need to be offset from the rest of the UI to promote visual prominence.
       </td>
     </tr>
   </tbody>
@@ -268,15 +264,77 @@ All buttons (including icon buttons) should have the following states:
 - Pressed
 - Disabled
 
+
+#### Structural Progression States
+
 <table class="table table-bordered bg-white" style="width: max-content">
       <thead class="thead-light">
         <tr>
           <th>State</th>
           <th>Primary</th>
-          <th>Default</th>
-          <th>Outline</th>
-          <th>Text Only</th>
-          <th>Danger</th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Default</th>
+          <td>
+            <button class="btn btn-primary">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-outline-primary">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-outline-dark">Button</button>
+          </td>
+          <td>
+            <button class="btn btn-text-primary">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Hover</th>
+          <td><button class="btn hover btn-primary">Button</button></td>
+          <td><button class="btn hover btn-outline-primary">Button</button></td>
+          <td><button class="btn hover btn-outline-dark">Button</button></td>
+          <td><button class="btn hover btn-text-primary">Button</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Pressed</th>
+          <td>
+            <button class="btn display-active btn-primary">Button</button>
+          </td>
+          <td>
+            <button class="btn display-active btn-outline-primary">Button</button>
+          </td>
+          <td>
+            <button class="btn display-active btn-outline-dark">Button</button>
+          </td>
+          <td>
+            <button class="btn display-active btn-text-primary">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Disabled</th>
+          <td><button disabled class="btn btn-primary">Button</button></td>
+          <td><button disabled class="btn btn-outline-primary">Button</button></td>
+          <td><button disabled class="btn btn-outline-dark">Button</button></td>
+          <td><button disabled class="btn btn-text-primary">Button</button></td>
+        </tr>
+      </tbody>
+</table>
+
+#### Color Progression States
+
+<table class="table table-bordered bg-white" style="width: max-content">
+      <thead class="thead-light">
+        <tr>
+          <th>State</th>
+          <th>Primary</th>
+          <th></th>
+          <th></th>
+          <th></th>
         </tr>
       </thead>
       <tbody>
@@ -289,22 +347,18 @@ All buttons (including icon buttons) should have the following states:
             <button class="btn btn-secondary">Button</button>
           </td>
           <td>
-            <button class="btn btn-outline-dark">Button</button>
+            <button class="btn btn-tertiary">Button</button>
           </td>
           <td>
             <button class="btn btn-text-primary">Button</button>
-          </td>
-          <td>
-            <button class="btn btn-danger">Button</button>
           </td>
         </tr>
         <tr>
           <th scope="row">Hover</th>
           <td><button class="btn hover btn-primary">Button</button></td>
           <td><button class="btn hover btn-secondary">Button</button></td>
-          <td><button class="btn hover btn-outline-dark">Button</button></td>
+          <td><button class="btn hover btn-tertiary">Button</button></td>
           <td><button class="btn hover btn-text-primary">Button</button></td>
-          <td><button class="btn hover btn-danger">Button</button></td>
         </tr>
         <tr>
           <th scope="row">Pressed</th>
@@ -315,10 +369,57 @@ All buttons (including icon buttons) should have the following states:
             <button class="btn display-active btn-secondary">Button</button>
           </td>
           <td>
-            <button class="btn display-active btn-outline-dark">Button</button>
+            <button class="btn display-active btn-tertiary">Button</button>
           </td>
           <td>
             <button class="btn display-active btn-text-primary">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Disabled</th>
+          <td><button disabled class="btn btn-primary">Button</button></td>
+          <td><button disabled class="btn btn-secondary">Button</button></td>
+          <td><button disabled class="btn btn-tertiary">Button</button></td>
+          <td><button disabled class="btn btn-text-primary">Button</button></td>
+        </tr>
+      </tbody>
+</table>
+
+#### Auxiliary Button States
+
+<table class="table table-bordered bg-white" style="width: max-content">
+      <thead class="thead-light">
+        <tr>
+          <th>State</th>
+          <th>Icon Only</th>
+          <th>Danger</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Default</th>
+          <td>
+            <button class="btn btn-icon-only btn-text-dark">
+            <i class="modus-icons">gear</i>
+            </button>
+          </td>
+          <td>
+            <button class="btn btn-danger">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Hover</th>
+          <td><button class="btn hover btn-icon-only btn-text-dark">
+            <i class="modus-icons">gear</i>
+          </button></td>
+          <td><button class="btn hover btn-danger">Button</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Pressed</th>
+          <td>
+            <button class="btn display-active btn-icon-only btn-text-dark">
+            <i class="modus-icons">gear</i>
+          </button>
           </td>
           <td>
             <button class="btn display-active btn-danger">Button</button>
@@ -326,10 +427,10 @@ All buttons (including icon buttons) should have the following states:
         </tr>
         <tr>
           <th scope="row">Disabled</th>
-          <td><button disabled class="btn btn-primary">Button</button></td>
-          <td><button disabled class="btn btn-secondary">Button</button></td>
-          <td><button disabled class="btn btn-outline-dark">Button</button></td>
-          <td><button disabled class="btn btn-text-primary">Button</button></td>
+          <td>
+          <button disabled class="btn btn-icon-only btn-text-dark">
+            <i class="modus-icons">gear</i>
+          </button></td>
           <td><button disabled class="btn btn-danger">Button</button></td>
         </tr>
       </tbody>
@@ -362,4 +463,5 @@ Icon button state colors may vary based on product. Always make sure the colors 
 | Date       | Version | Notes          | Contributors |
 | ---------- | ------- | -------------- | ------------ |
 | 11/23/2020 | 1.0.0   | Two progressions identified for clarity of use. Custom focus states added for accessibility.  | E. Bohn, E. Gunther, L. Cook, L. Kause, S. Williams    |
+| 04/07/2020 | 1.0.1   | Light gray button added to the color progression.  | E. Bohn, E. Gunther, L. Cook    |
 {{</ whats-changed-table >}}
