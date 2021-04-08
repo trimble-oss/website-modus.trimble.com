@@ -462,6 +462,6 @@ Icon button state colors may vary based on product. Always make sure the colors 
 {{< whats-changed-table >}}
 | Date       | Version | Notes          | Contributors |
 | ---------- | ------- | -------------- | ------------ |
-| 11/23/2020 | 1.0.0   | Two progressions identified for clarity of use. Custom focus states added for accessibility.  | E. Bohn, E. Gunther, L. Cook, L. Kause, S. Williams    |
 | 04/07/2020 | 1.0.1   | Light gray button added to the color progression.  | E. Bohn, E. Gunther, L. Cook    |
+| 11/23/2020 | 1.0.0   | Two progressions identified for clarity of use. Custom focus states added for accessibility.  | E. Bohn, E. Gunther, L. Cook, L. Kause, S. Williams    |
 {{</ whats-changed-table >}}
