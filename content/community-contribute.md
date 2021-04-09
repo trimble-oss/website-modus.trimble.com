@@ -29,27 +29,27 @@ How to Get Involved</h2>
 
 <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3">
 
-{{< card-start title="Review & Provide Feedback" url="https://modus.trimble.com/community/contact/" class="bg-light py-4" header="review.svg" >}}
+{{< card-start title="Review & Provide Feedback" url="/community/contact/" class="bg-light py-4" header="review.svg" >}}
 Review proposed components and/or sections of the design system and offer feedback.
 {{</ card-start >}}
 
-{{< card-start title="Join a Tiger Team" url="https://modus.trimble.com/community/tiger-teams/" class="bg-light py-4" header="team.svg" >}}
+{{< card-start title="Join a Tiger Team" url="/community/tiger-teams/" class="bg-light py-4" header="team.svg" >}}
 Contribute by <a href="/community/tiger-teams/">joining a Tiger Team</a> to work on a component or pattern with your fellow UX designers and engineers.
 {{</ card-start >}}
 
-{{< card-start title="Submit a UI pattern" url="https://modus.trimble.com/community/contribution-process/" class="bg-light py-4" header="design.svg" >}}
+{{< card-start title="Submit a UI pattern" url="/community/contribution-process/" class="bg-light py-4" header="design.svg" >}}
 Propose a new design pattern to be added to Modus. Learn about <a href="/community/contribution-process/">the contribution process</a>.
 {{</ card-start >}}
 
-{{< card-start title="Contribute Code" url="https://modus.trimble.com/community/contact/" class="bg-light py-4" header="code.svg" >}}
+{{< card-start title="Contribute Code" url="/community/contact/" class="bg-light py-4" header="code.svg" >}}
 Contribute code for an existing pattern. Submission guidelines will be published soon!
 {{</ card-start >}}
 
-{{< card-start title="Share Research Findings" url="https://modus.trimble.com/community/contact/" class="bg-light py-4" header="research.svg" >}}
+{{< card-start title="Share Research Findings" url="/community/contact/" class="bg-light py-4" header="research.svg" >}}
 Contribute UX research relevant to an existing pattern. Submission guidelines will be published soon!
 {{</ card-start >}}
 
-{{< card-start title="Submit an Icon" url="https://modus.trimble.com/community/contact/" class="bg-light py-4" header="icon.svg" >}}
+{{< card-start title="Submit an Icon" url="/community/contact/" class="bg-light py-4" header="icon.svg" >}}
 Submit an icon consistent with Modus <a href="/foundations/icon-definitions/">icon definitions</a> to our icon library.
 {{</ card-start >}}
 
