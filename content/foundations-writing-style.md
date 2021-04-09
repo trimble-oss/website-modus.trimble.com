@@ -41,7 +41,7 @@ Our main references are:
 - _The Chicago Manual of Style_: (https://www.chicagomanualofstyle.org/)
 - _The Merriam Webster Dictionary_: (https://www.merriam-webster.com)
 
-The full reference for the writing style guide is located [here](https://docs.google.com/document/d/1IZTPa-BqcrOchKu8HpKDnGPqjlxNtOosmQN8ogswKGo/edit#) and maintained by Trimble New Zealand Marcom.
+The full reference for the writing style guide is located [here](https://docs.google.com/document/d/1IZTPa-BqcrOchKu8HpKDnGPqjlxNtOosmQN8ogswKGo/edit#) and maintained by TNZ Technical Publications. For more information contact Dianne MacCormick, TNZ TechPubs Team Leader.
 
 ### Abbreviations
 
