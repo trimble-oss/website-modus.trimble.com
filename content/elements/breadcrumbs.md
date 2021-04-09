@@ -19,7 +19,7 @@ Breadcrumb is a one-line navigational element that supports wayfinding: it aids 
 
 - You need to inform the user where they are in the hierarchy of the site.
 - The user needs to navigate back to a higher level page.
-- The application has a complex, multi-layer architecture.
+- The application has a complex, multi-layer architecture that's more than 2 levels deep.
 
 **Don't use when**
 
@@ -27,6 +27,7 @@ Breadcrumb is a one-line navigational element that supports wayfinding: it aids 
 - Employing a vertical model tree component.
 - If a lower-level page is (or can be put) in more than one parent category.
 - You want to show the user's history, path.
+- Your product has a flat hierarchy that's only 1 or 2 levels deep.
 
 ## Specifications
 
@@ -35,6 +36,7 @@ Breadcrumb is a one-line navigational element that supports wayfinding: it aids 
 - All links, **except the last one**, in a breadcrumb should be clickable.
 - Breadcrumb trails are displayed horizontally before a page's main content, in the top half of the page, below the primary navigation menu if a horizontal menu layout is used.
 - The commonly accepted and most recognizable symbol for separating hyperlinks in breadcrumb trails is the “greater than” symbol (>). Typically, the > sign is used to denote hierarchy, as in the format of Parent category > Child category.
+- Nothing should go on the same line as the breadcrumb navigation.
 
 ### Default
 
@@ -129,5 +131,6 @@ Breadcrumb is a one-line navigational element that supports wayfinding: it aids 
 {{< whats-changed-table >}}
 | Date       | Version | Notes          | Contributors |
 | ---------- | ------- | -------------- | ------------ |
+| 04/08/2021 | 1.0.1   | More guidance added based on best practices. | J. Wittmeyer  |
 | 11/23/2020 | 1.0.0   | Accessible option added.  | E. Bohn, L. Kause, N. Springer    |
 {{</ whats-changed-table >}}
