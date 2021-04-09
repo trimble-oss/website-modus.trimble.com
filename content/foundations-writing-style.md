@@ -38,8 +38,8 @@ The following writing style guide was first developed in 1997 to ensure consiste
 
 Our main references are:
 
-- _The Chicago Manual of Style_: (https://www.chicagomanualofstyle.org/)
-- _The Merriam Webster Dictionary_: (https://www.merriam-webster.com)
+- _[The Chicago Manual of Style](https://www.chicagomanualofstyle.org/)_
+- _[The Merriam Webster Dictionary](https://www.merriam-webster.com)_
 
 The full reference for the writing style guide is located [here](https://docs.google.com/document/d/1IZTPa-BqcrOchKu8HpKDnGPqjlxNtOosmQN8ogswKGo/edit#) and maintained by TNZ Technical Publications. For more information contact Dianne MacCormick, TNZ TechPubs Team Leader.
 
