@@ -35,7 +35,7 @@ article li {
 }
 
 //external links have an icon
-article a[href^="http"]::after
+article a:not(.stretched-link)[href^="http"]::after
 {
   content: "";
   width: 11px;

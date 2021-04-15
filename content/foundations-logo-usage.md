@@ -76,4 +76,4 @@ C. The registration mark does not overlap the “e”
 ![Trimble Logo with Spacing](/img/Trimble-Logo-Spacing.png)
 
 Download here: [Logo Dispensary](https://href.li/?https://www.google.com/url?q=https%3A%2F%2Fintranet.trimble.com%2Flogodispenser%2F&sa=D&sntz=1&usg=AFQjCNHgssWpZPsiZGtp0yH628wnjWX4Gg)
-Contact [Corporate Marketing Communications](mailto:OneTrimble@Trimble.com) for additional information.
+Contact {{< cloakemail address="OneTrimble@Trimble.com" display="Corporate Marketing Communications" >}} for additional information.
