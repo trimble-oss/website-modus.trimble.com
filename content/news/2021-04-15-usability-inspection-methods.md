@@ -1,6 +1,6 @@
 ---
 title: Usability Inspection Methods
-date: 2021-04-14
+date: 2021-04-15
 description: "Do you feel like you don’t have enough time to do usability testing? Usability inspection methods can help you out."
 image: "/img/blog/headers/2021-04-15-usability-inspection-methods.png"
 images:
