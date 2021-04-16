@@ -8,6 +8,15 @@ url: "/community/"
 hideDate: true
 ---
 
+## Join the Modus Chat Room
+
+As a Modus subscriber, you are invited to the Modus chat room, where you can ask questions, lead discussions, and learn more about the design system.
+
+  <a href="https://chat.google.com/room/AAAAexugR1k"
+    class="btn btn-lg bg-white border m-2" target="_blank" rel="nofollow noreferrer">Join the Chat Room</a>
+
+Not a subscriber yet? No problem! [Subscribe here](https://docs.google.com/forms/d/e/1FAIpQLSc5-PBOzJjT2Q8r5Pg7BPYzae-rz5fg5ySSBcHwfhBneUkvWg/viewform?usp=sf_link)!
+
 ## Modus is a Community Effort
 
 Modus is owned and created by the Development Community of Trimble.  With your contributions,  the system can constantly get updated and improved. Contributions may include a new design element, a set of icons, an expression of an existing element in a pattern library for a new design tool, or the addition of Modus components in a new development stack. Your contribution may also be in a form of feedback or a request for features that would make Modus more useful to you. Trimble community member contributions are what make Modus great! Thank you for your continued support!
