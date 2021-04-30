@@ -18,6 +18,7 @@ Thank you for entering our competition! We would like to announce that the prize
 <br><br>
 
 ## **Joey de Wit** for his submission of a pattern for side panels!
+
 <br>
 
 Joey will not only bask in the glory of becoming a **Modus Hero** but he will also receive some sweet Modus swag! Congratulations, Joey!
