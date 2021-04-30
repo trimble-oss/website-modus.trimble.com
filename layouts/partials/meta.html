@@ -21,7 +21,7 @@
 
 <!-- Load jQuery from CDN with fallback -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"><\/script>');</script>
 
 {{- if .IsHome -}}
 {{ hugo.Generator }}
@@ -39,6 +39,7 @@
 
 <meta name="description"
   content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{- end -}}{{- end -}}">
+
 <!-- OpenGraph Meta tags using Hugo's own built-in template -->
 {{ template "_internal/opengraph.html" . }}
 <meta property="og:locale" content="en_US">
