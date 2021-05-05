@@ -12,5 +12,5 @@ community: true
 <!-- Calendly badge widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/modusdds/modus-office-hours', text: 'Schedule time with me', color: '#00a2ff', textColor: '#ffffff', branding: true }); }</script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/modusdds/modus-office-hours', text: 'Schedule time to chat', color: '#00a2ff', textColor: '#ffffff', branding: true }); }</script>
 <!-- Calendly badge widget end -->
