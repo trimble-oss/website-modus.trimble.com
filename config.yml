@@ -94,6 +94,8 @@ menu:
       url: /elements/accordions/
     - name: Alerts
       url: /elements/alerts/
+    - name: App Header
+      url: /elements/app-header/
     - name: Badges
       url: /elements/badges/
     - name: Breadcrumbs
