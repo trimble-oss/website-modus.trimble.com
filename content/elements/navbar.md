@@ -1,21 +1,21 @@
 ---
-title: "App Header"
+title: "Navbar"
 layout: "single"
-description: "The app header provides context through globally accessible menu options."
+description: "The navbar provides context through globally accessible menu options."
 images:
-  - "/img/headers/elements/app-header.png"
+  - "/img/headers/elements/navbar.png"
 components: true
 aliases:
-  - "/app-header.html"
+  - "/navbar.html"
 contributors: ""
 ---
 
 ## Overview
 
-The app header provides context through globally accessible menu options and positions a consistent component to connect various Trimble applications. It contains the main navigation for your application.
+The navbar or the app header provides context through globally accessible menu options and positions a consistent component to connect various Trimble applications. It contains the main navigation for your application.
 
 
-![App Header](/img/app-header.svg)
+![Navbar](/img/app-header.svg)
 
 ## Usage
 
@@ -37,7 +37,7 @@ The app header provides context through globally accessible menu options and pos
 
 ## Specifications
 
-- **Header background color should be white.**
+- **Navbar background color should be white.**
 - **Divider line:** use a 1px bottom border when there is a sub-header or side panel or when page background is white (rather than the standard Trimble Gray Light).
 - **Shadow:** use [Level 2 shadow](/foundations/shadows-and-depth/) in the event page content scrolls behind and underneath the header. [Level 3](/foundations/shadows-and-depth/) shadow should be used for menu overlays.
 - Product logo and Profile avatar are the only required elements. Other elements are optional and contextual.
@@ -147,8 +147,8 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
 
 ### Behavior
 
-- The header bar is a fixed element. Fixed or "sticky" content fixes itself to the browser viewport as content is scrolled.
-- Responsive design: app header follows the Modus breakpoint guidelines in [Grid & Spacing](/foundations/grid-and-spacing/).
+- The navbar is a fixed element. Fixed or "sticky" content fixes itself to the browser viewport as content is scrolled.
+- Responsive design: navbar follows the Modus breakpoint guidelines in [Grid & Spacing](/foundations/grid-and-spacing/).
 
 #### Key States
 
@@ -330,12 +330,10 @@ Specific to each product's implementation
 
 #### App Tile Guidelines
 
-- App tiles may belong to a software suite family (e.g., Connect Suite or Tekla Suite)
-- Use the relevant app tile or modified app tile for the suite
-- Position branded family app tiles next to each other in the app switcher list
-- Reference the latest Buildings App Icon Standards document for more detail
-
-Last known iteration of [App Tile guidelines](https://drive.google.com/file/d/1GVZedDrxKA9hGiiAgmTl4PPQ-uiINmlh/view?usp=sharing)
+- App tiles may belong to a software suite family (e.g., Connect Suite or Tekla Suite).
+- Use the relevant app tile or modified app tile for the suite.
+- Position branded family app tiles next to each other in the app switcher list.
+- Reference the latest [Buildings App Icon Standards](https://drive.google.com/file/d/1GVZedDrxKA9hGiiAgmTl4PPQ-uiINmlh/view?usp=sharing) document for more detail.
 
 #### Profile
 
