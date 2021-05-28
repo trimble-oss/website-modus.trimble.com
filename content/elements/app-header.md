@@ -21,19 +21,19 @@ The app header provides context through globally accessible menu options and pos
 
 **Use when**
 
-- Designing hybrid and web applications
-- Positioning a primary navigation menu
-- Branding an application
+- Designing hybrid and web applications.
+- Positioning a primary navigation menu.
+- Branding an application.
 - Providing access to
-  - An account profile, other applications, help content, notifications, and search
-  - Positioning a consistent component to connect various Trimble applications
+  - An account profile, other applications, help content, notifications, and search.
+  - Positioning a consistent component to connect various Trimble applications.
 
 **Don’t use when**
 
-- Building native applications following platform specific user interface guidelines
-- Building desktop applications employing frameworks similar to Windows Ribbon
-- Building marketing websites
-- Building email templates
+- Building native applications following platform specific user interface guidelines.
+- Building desktop applications employing frameworks similar to Windows Ribbon.
+- Building marketing websites.
+- Building email templates.
 
 ## Specifications
 
@@ -148,7 +148,7 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
 ### Behavior
 
 - The header bar is a fixed element. Fixed or "sticky" content fixes itself to the browser viewport as content is scrolled.
-- Responsive design: app header follows the Modus breakpoint guidelines in [Grid & Spacing](/foundations/grid-and-spacing).
+- Responsive design: app header follows the Modus breakpoint guidelines in [Grid & Spacing](/foundations/grid-and-spacing/).
 
 #### Key States
 
@@ -364,15 +364,15 @@ Used only for "global" MyTrimble account items. Appears consistently everywhere 
 ### Editorial
 
 - Header bar uses icons to visually communicate meaning. See [Tooltips](/elements/tooltips/) guidelines.
-- Capitalize proper nouns
-- Use title case for menu titles (e.g. Notifications)
-- Use sentence case for app descriptions and buttons (while preserving proper nouns)
+- Capitalize proper nouns.
+- Use title case for menu titles (e.g. Notifications).
+- Use sentence case for app descriptions and buttons (while preserving proper nouns).
 
 
 ### Accessibility
 
-- Provide alt text for product logo
-- Provide tooltips for icons
+- Provide alt text for product logo.
+- Provide tooltips for icons.
 
 #### "Skip to Main Content" Link
 
