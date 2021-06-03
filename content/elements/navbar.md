@@ -50,8 +50,6 @@ The navbar or the app header provides context through globally accessible menu o
 - Solid icon style should be used in the header (for consistency across apps).
 - Display order of app header elements:
 
-![Framework](/img/app-header-framework.svg)
-
 For left-to-right languages:
 
 1. Main menu: contains primary navigation for the current application.
@@ -70,6 +68,8 @@ For right-to-left languages display order should be reversed.
   - Navigation elements such as breadcrumbs, tabs, horizontal menu items, etc.
 
 ### Key Measurements
+
+![Framework](/img/app-header-framework.svg)
 
 <table class="table table-bordered bg-white" style="width: max-content">
       <thead class="thead-light">
@@ -178,7 +178,7 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
         </tr>
         <tr>
           <td>Icon/profile button fill effect</td>
-          <td colspan="2">[image]</td>
+          <td colspan="2"><img src="/img/button-states-header-icon.svg" alt="Button States"></td>
         </tr>
         <tr>
           <td>&nbsp;</td>
@@ -188,7 +188,7 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
         <tr>
           <td>&nbsp;</td>
           <td>Hover</td>
-          <td>Gray Light</td>
+          <td>Gray 0</td>
         </tr>
         <tr>
           <td>&nbsp;</td>
@@ -198,7 +198,7 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
         <tr>
           <td>&nbsp;</td>
           <td>Active</td>
-          <td>Pale Blue</td>
+          <td>Gray 2</td>
         </tr>
         <tr>
           <td>App row fill effect</td>
@@ -212,7 +212,7 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
         <tr>
           <td>&nbsp;</td>
           <td>Hover</td>
-          <td>Gray Light</td>
+          <td>Gray 0</td>
         </tr>
         <tr>
           <td>&nbsp;</td>
