@@ -21,6 +21,11 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
   </thead>
   <tbody>
     <tr>
+      <td>Side Navigation</td>
+      <td><a href="/news/2021-06-04-side-nav-tiger-team.md">Join this Tiger Team</a> by <strong>Wednesday, June 16!</strong>!</td>
+      <td>06/21/2021</td>
+    </tr>
+    <tr>
       <td>Icon Implementation</td>
       <td>S. Kaukomen, T. Manham, N. Vasudevan, T. Ooley, E. Gunther, C. Krieg, S. Ortiz</td>
       <td>03/12/2021</td>
@@ -34,11 +39,6 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
       <td>Tables</td>
       <td>G. Leuhof, D. Donnell, G. Piltzer, H. Keller, K. Tran, S. Lucey, S. Williams, T. Ortiz, T. Manham, Z. Tran Do</td>
       <td>02/03/2021</td>
-    </tr>
-    <tr>
-      <td>Navigation Headers</td>
-      <td>S. Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor</td>
-      <td>10/11/2020</td>
     </tr>
   </tbody>
 </table>
