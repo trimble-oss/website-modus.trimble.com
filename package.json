@@ -20,7 +20,7 @@
     "deploy:dev": "cross-env s3-deploy './build/**/*.{css,html,ico,jpg,js,json,webmanifest,map,png,svg,xml}' --cwd './build/' --region us-east-1 --bucket dev-styles-trimblemaps --cache 0",
     "imagemin": "npx imagemin-cli static/img/headers/elements/*.png --out-dir=static/img/headers/elements",
     "lint-css": "stylelint \"assets/styles/*.scss\"",
-    "lint-html": "htmlhint \"build/**/*.html\"",
+    "lint-html": "htmlhint \"build/**/index.html\"",
     "lint-js": "npx eslint \"assets/js/*.js\"",
     "lint-links": "npx linkinator build --recurse --silent --skip styleguide-dev.trimblemaps.com",
     "lint-markdown": "npx markdownlint-cli content/**/*.md",
