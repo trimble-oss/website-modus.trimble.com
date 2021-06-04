@@ -116,6 +116,8 @@ menu:
       url: /elements/lists/
     - name: Messages
       url: /elements/messages/
+    - name: Navbar
+      url: /elements/navbar/
     - name: Pagination
       url: /elements/pagination/
     - name: Progress Bars
@@ -136,6 +138,8 @@ menu:
       url: /elements/toasts/
     - name: Tooltips
       url: /elements/tooltips/
+#    - name: Transactional Email
+#      url: /elements/transactional-email/
 
   resources:
     - name: "News & Articles"
