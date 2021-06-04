@@ -138,8 +138,8 @@ menu:
       url: /elements/toasts/
     - name: Tooltips
       url: /elements/tooltips/
-    - name: Transactional Email
-      url: /elements/transactional-email/
+#    - name: Transactional Email
+#      url: /elements/transactional-email/
 
   resources:
     - name: "News & Articles"

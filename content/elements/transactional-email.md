@@ -5,8 +5,8 @@ description: "An email message that follows an action carried out by a subscribe
 components: true
 images:
   - "/img/headers/elements/transactional-email.png"
-aliases:
-  - "/transactional-email.html"
+draft: true
+private: true
 ---
 
 ## Overview
@@ -91,7 +91,7 @@ A successful transactional email is
 
 - **Use meaningful link text:** Make sure a link text or a button tells your users what they're clicking on. Avoid vague link text. Do not use "Click Here"; Instead, tell the user what to expect when they click the link (e.g. “Change your password here”).
 
-<a href="/static/email.html" target="_blank" class="btn btn-primary mb-1">
+<a href="/email/transactional-email.html" target="_blank" class="btn btn-primary mb-1" download>
 Download the template
 </a>
 
