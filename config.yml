@@ -116,6 +116,8 @@ menu:
       url: /elements/lists/
     - name: Messages
       url: /elements/messages/
+    - name: Navbar
+      url: /elements/navbar/
     - name: Pagination
       url: /elements/pagination/
     - name: Progress Bars
