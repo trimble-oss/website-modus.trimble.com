@@ -88,6 +88,9 @@ menu:
     - name: Shadows & Depth
       url: /foundations/shadows-and-depth/
       weight: 8
+    - name: Data Visualization
+      url: /foundations/data-vis/
+      weight: 9
 
   components:
     - name: Accordions
