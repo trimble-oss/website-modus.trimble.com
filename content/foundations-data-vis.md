@@ -1,7 +1,7 @@
 ---
 title: "Data Visualization"
 layout: "single"
-description: "Space helps organize content, permitting consistent density and visual order that telegraphs our brand. Space is a way to unify the padding, margins, and heights."
+description: "Data visualization helps to communicate complex quantitative information."
 foundations: true
 aliases:
   - "/data-vis.html"
