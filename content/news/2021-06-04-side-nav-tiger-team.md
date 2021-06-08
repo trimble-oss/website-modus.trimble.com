@@ -2,9 +2,9 @@
 title: Join the Side Navigation Tiger Team
 date: 2021-06-04
 description: "We are searching for Tiger Team members to outline, design, and add the side navigation panel pattern to Modus."
-image: "/img/blog/headers/2021-01-08-tiger-team.jpg"
+image: "/img/blog/headers/2021-06-04-tiger-team.jpg"
 images:
-  - /img/blog/headers/2021-01-08-tiger-team.jpg
+  - /img/blog/headers/2021-06-04-tiger-team.jpg
 headerBgColor: "#E69335"
 tags: ["tiger", "team", "side navigation"]
 author: Ewa Nowak
