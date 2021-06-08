@@ -83,6 +83,8 @@ The height of a bar varies based on the value for that data increment. The width
 
 A grouped bar graph follows the same width and height rules for a single bar graph data set. Spacing between groups of bars is larger than bars within a group. Maintain a minimum of 4px between bars within a group to meet color contrast standards.
 
+![Grouped Bar Chart Exmaple](/img/data-vis-bar-grouped.png)
+
 ### Line Graphs
 
 Line graphs connect individual data values together to show the continuity from one value to the next, making it a great way to display the shape of values as they change over time. When displaying time-series, always place time on the x-axis, so it reads chronologically from left to right.
