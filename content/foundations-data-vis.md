@@ -13,6 +13,7 @@ url: "/foundations/data-vis/"
 Graphs, charts, and gauges express data visually to reveal patterns and trends that text or a table alone cannot. A data visualization story displays the relationship between a set of values--quantitative values or a quantitative and categorical value. An effective data visualization provides enough context to show the graph or chart’s purpose, whether it is to analyze, communicate, monitor, or plan.
 
 ## Colors
+
 Use the following color sequences based on the number of data points.
 
 ![Color Sequences for Data Visualization](/img/data-vis-color-sequences.png)
@@ -83,7 +84,7 @@ The height of a bar varies based on the value for that data increment. The width
 
 A grouped bar graph follows the same width and height rules for a single bar graph data set. Spacing between groups of bars is larger than bars within a group. Maintain a minimum of 4px between bars within a group to meet color contrast standards.
 
-![Grouped Bar Chart Exmaple](/img/data-vis-bar-grouped.png)
+![Grouped Bar Chart Example](/img/data-vis-bar-grouped.png)
 
 ### Line Graphs
 
@@ -98,7 +99,14 @@ Scatter plots are used to determine whether there is a relationship between two 
 ![Scatter Plot Graph Example](/img/data-vis-scatter.png)
 
 ### Gauges
+
 Gauge graphs show the part-to-whole relationship of one value compared to its total.
+
+<style>
+img[alt="Gauge Example"] {
+  width: 200px !important;
+}
+</style>
 
 ![Gauge Example](/img/data-vis-gauge.png)
 
@@ -117,6 +125,7 @@ Make sure there is 3:1 contrast ratio maintained between different values on a c
 ### Alt Text and Tooltips
 
 When possible offer alternative text to supplement the data visualization in the form of
+
 - Titles
 - Key
 - Axis labels
@@ -128,6 +137,7 @@ Make sure the text alternatives are available to be read by a screen reader.
 ### Animations
 
 Sometimes a well-designed animation can enhance the usability of a graph or chart. An animated chart has the ability to convey content that cannot adequately be presented by a static image. To prevent triggering a seizure in a user with photosensitive epilepsy, make sure your animation
+
 - Does not flash more than 3 times per second,
 - Is very small and low contrast (a very small flashing image, such as a cursor, will not cause a seizure),
 - Does not loop or can be disabled by the user.
