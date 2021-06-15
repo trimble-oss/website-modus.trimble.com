@@ -5,15 +5,12 @@ description: "The navbar provides context through globally accessible menu optio
 images:
   - "/img/headers/elements/navbar.png"
 components: true
-aliases:
-  - "/navbar.html"
 contributors: ""
 ---
 
 ## Overview
 
 The navbar or the app header provides context through globally accessible menu options and positions a consistent component to connect various Trimble applications. It contains the main navigation for your application.
-
 
 ![Navbar](/img/app-header.svg)
 
@@ -279,7 +276,7 @@ Tooltips display on hover. Follow the [Tooltip guidelines](/elements/tooltips) f
 ![Search](/img/app-header-search.svg)
 
 - On hover, display a tooltip reading "Search."
-- Expose he search overlay.
+- Expose the search overlay.
 - Search overlay:
   - Follow the [Inputs](/elements/inputs) guidelines.
   - Clicking or tapping input field "x" icon removes user-entered text.
@@ -341,9 +338,9 @@ Used only for "global" MyTrimble account items. Appears consistently everywhere 
 * Individual product navigation and preferences/settings will need to live in a "local" component/environment
 
 - On hover, display a tooltip reading:
-  - MyTrimble:
-  Firstname Lastname
-  email@address.com
+  - MyTrimble:<br>
+  Firstname Lastname<br>
+  email&#64;address.com
 - Display the Profile Menu when clicked or tapped
 - Profile Menu:
   - Contents:

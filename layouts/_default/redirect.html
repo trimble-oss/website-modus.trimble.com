@@ -8,12 +8,11 @@
   <script>
     var anchor = window.location.hash.substr(1)
     location.href = '{{ .Page.Params.redirect | relURL }}' +
-      (anchor ? '#' + anchor : '')
+      (anchor ? '#' + anchor : '');
   </script>
   <!-- fallback redirect is JavaScript is not available-->
   <meta http-equiv="refresh" content="0; url={{ .Page.Params.redirect | relURL }}">
   <title>{{ .Title }}</title>
-  {{ hugo.Generator }}
 </head>
 
 </html>
