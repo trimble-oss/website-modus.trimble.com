@@ -86,4 +86,4 @@ As the design system evolves to expand its components, elements, patterns, and c
 
 When your team adopts the Modus Design System, we encourage you to provide feedback to improve the system and also to become an advocate and share with other teams your success story. We would also like to learn about your process, challenges, and experience in adopting the design system, so that we can continually improve the system to meet your needs. If your team has already begun adoption, we would like you to track your progress in [this spreadsheet](https://docs.google.com/spreadsheets/d/1VtOaE6x8slBvT3Xy3eJL_nKHWprIq-VEXw1YxuPH4Bo/edit#gid=0).
 
-[Contact us](/community/contact/) with any questions and/ or Modus training requests! Read the [Modus implementation success story](/news/2021-03-24-utg-modus-adoption)!
+[Contact us](/community/contact/) with any questions and/ or Modus training requests! Read the [Modus implementation success story](/news/2021-03-24-utg-modus-adoption/)!
