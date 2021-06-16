@@ -21,7 +21,7 @@ Blue and neutral progression colors are used as primary UI colors in Trimble pro
 
 <div class="row">
 
-{{< card-color hex="#002D58" >}}
+{{< card-color hex="#002D5B" >}}
 Trimble Blue Dark
 {{</ card-color >}}
 
