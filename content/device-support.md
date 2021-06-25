@@ -32,6 +32,6 @@ Modus is currently targeted at in-office and low contrast working conditions. Mo
 
 ## Future Support
 
-Modus currently does not provide support for software run on in-cab hardware or field solutions such as freight, fleet, earthmoving, marine or agriculture. Modus does not provide guidance for Trimble built HW,  and/or mixed-reality devices, such as the Microsoft HoloLens. There are, however, other work groups [addressing such initiatives](/start).
+Modus currently does not provide support for software run on in-cab hardware or field solutions such as freight, fleet, earthmoving, marine or agriculture. Modus does not provide guidance for Trimble built HW,  and/or mixed-reality devices, such as the Microsoft HoloLens. There are, however, other work groups [addressing such initiatives](/start/).
 
 Please, visit the Trimble Digital Design System [backlog](https://jira.trimble.tools/secure/RapidBoard.jspa?rapidView=5332&projectKey=DDS&view=planning&issueLimit=100) in Jira or [sign up for the Modus updates](/community/contribute/) to learn more.
