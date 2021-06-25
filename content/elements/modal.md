@@ -5,10 +5,9 @@ description: "Modal dialogs interrupt workflows and require user interaction."
 components: true
 images:
   - "/img/headers/elements/modal.png"
-keywords: modal
+keywords: "modal, dialog"
 aliases:
-  - "/dialog.html"
-  - "/elements/dialog/"
+  - "/elements/dialogs/"
 ---
 
 ## Overview
