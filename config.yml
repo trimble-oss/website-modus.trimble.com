@@ -117,8 +117,8 @@ menu:
       url: /elements/lists/
     - name: Messages
       url: /elements/messages/
-    - name: Modal
-      url: /elements/modal/
+    - name: Modals
+      url: /elements/modals/
     - name: Navbar
       url: /elements/navbar/
     - name: Pagination

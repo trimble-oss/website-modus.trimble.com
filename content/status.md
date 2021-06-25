@@ -50,15 +50,15 @@ and the React components can be found at <a href="https://react-bootstrap.github
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <tr>
+      <th class="align-middle" scope="row">Button Groups</th>
+      <td><span class="badge badge-danger">U/C</span></td>
+      <td><span class="badge badge-danger">U/C</span></td>
+    </tr>
+    <tr>
       <th class="align-middle" scope="row"><a href="/elements/buttons/">Buttons</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">1.0.0</span></td>
     </tr>
-    <!--<tr>
-      <th class="align-middle" scope="row">Button Groups</th>
-      <td><span class="badge badge-danger">U/C</span></td>
-      <td><span class="badge badge-danger">U/C</span></td>
-    </tr>-->
     <tr>
       <th class="align-middle" scope="row"><a href="/elements/cards/">Cards</a></th>
       <td><span class="badge badge-success">Stable</span></td>
@@ -79,11 +79,6 @@ and the React components can be found at <a href="https://react-bootstrap.github
             <td><span class="badge badge-danger">U/C</span></td>
             <td><span class="badge badge-danger">U/C</span></td>
           </tr> -->
-    <tr>
-      <th class="align-middle" scope="row"><a href="/elements/modal/">Dialogs and Modals</a></th>
-      <td><span class="badge badge-success">Stable</span></td>
-      <td><span class="badge badge-success">1.0.0</span></td>
-    </tr>
     <tr>
       <th class="align-middle" scope="row"><a href="/elements/dropdowns/">Dropdowns</a></th>
       <td><span class="badge badge-success">Stable</span></td>
@@ -125,6 +120,11 @@ and the React components can be found at <a href="https://react-bootstrap.github
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <tr>
+      <th class="align-middle" scope="row"><a href="/elements/modal/">Modals</a></th>
+      <td><span class="badge badge-success">Stable</span></td>
+      <td><span class="badge badge-success">1.0.0</span></td>
+    </tr>
+    <tr>
         <th class="align-middle" scope="row"><a href="/elements/navbar/">Navbar</a></th>
         <td><span class="badge badge-success">Stable</span></td>
         <td><span class="badge badge-danger">U/C</span></td>
@@ -133,12 +133,7 @@ and the React components can be found at <a href="https://react-bootstrap.github
             <th class="align-middle" scope="row"><a href="/elements/Module Containers/">Module Containers</a></th>
             <td><span class="badge badge-danger">U/C</span></td>
             <td><span class="badge badge-danger">U/C</span></td>
-          </tr>
-          <tr>
-            <th class="align-middle" scope="row"><a href="/elements/Navigation/">Navigation</a></th>
-            <td><span class="badge badge-danger">U/C</span></td>
-            <td><span class="badge badge-danger">U/C</span></td>
-          </tr> -->
+          </tr>-->
     <tr>
       <th class="align-middle" scope="row"><a href="/elements/pagination/">Pagination</a></th>
       <td><span class="badge badge-success">Stable</span></td>
@@ -155,9 +150,14 @@ and the React components can be found at <a href="https://react-bootstrap.github
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/foundations/shadows-and-depth/">Shadows</a></th>
+    <th class="align-middle" scope="row"><a href="/foundations/shadows-and-depth/">Shadows</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">1.0.0</span></td>
+    </tr>
+    <tr>
+    <th class="align-middle" scope="row">Side Navigation Panel</th>
+      <td><span class="badge badge-danger">U/C</span></td>
+      <td><span class="badge badge-danger">U/C</span></td>
     </tr>
     <tr>
       <th class="align-middle" scope="row"><a href="/elements/sliders/">Sliders</a></th>
