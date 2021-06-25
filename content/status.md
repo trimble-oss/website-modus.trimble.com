@@ -120,7 +120,7 @@ and the React components can be found at <a href="https://react-bootstrap.github
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/modal/">Modals</a></th>
+      <th class="align-middle" scope="row"><a href="/elements/modals/">Modals</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">1.0.0</span></td>
     </tr>

@@ -445,7 +445,7 @@ The variations help keep type styles to a minimum, so consistency is easier to a
             <br><strong>Size:</strong> 14 px
             <br><strong>Case:</strong> Title, Sentence
             <br><strong>Line Height:</strong> 18 px
-            <br><strong>Use:</strong> Start screen, dialogue and window headlines.
+            <br><strong>Use:</strong> Start screen, dialog and window headlines.
           </td>
         </tr>
         <tr>
@@ -460,7 +460,7 @@ The variations help keep type styles to a minimum, so consistency is easier to a
             <br><strong>Size:</strong> 12 px
             <br><strong>Case:</strong> Title
             <br><strong>Line Height:</strong> 16 px
-            <br><strong>Use:</strong> Dialogues, side pane and property pane headlines.
+            <br><strong>Use:</strong> Modals, side pane and property pane headlines.
           </td>
         </tr>
         <tr>
@@ -520,7 +520,7 @@ The variations help keep type styles to a minimum, so consistency is easier to a
             <br><strong>Size:</strong> 12 px
             <br><strong>Case:</strong> Sentence
             <br><strong>Line Height:</strong> 16 px
-            <br><strong>Use:</strong> Back stage, start screen, dialogues.
+            <br><strong>Use:</strong> Back stage, start screen, dialogs.
           </td>
         </tr>
         <tr>
@@ -535,7 +535,7 @@ The variations help keep type styles to a minimum, so consistency is easier to a
             <br><strong>Size:</strong> 11 px
             <br><strong>Case:</strong> Sentence
             <br><strong>Line Height:</strong> 14 px
-            <br><strong>Use:</strong> Dialogues if needed, side pane, property pane, tool-tips.
+            <br><strong>Use:</strong> Dialogs if needed, side pane, property pane, tool-tips.
           </td>
         </tr>
          <tr>

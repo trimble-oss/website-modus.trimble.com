@@ -76,7 +76,7 @@ Do not use ampersand in regular or paragraph text as a replacement for _and_. Yo
 
 Capitalize proper nouns, specific geographical regions, headings, composition titles, first word of a document, and the first word after a period. Avoid using all uppercase.
 
-Use **title case** for page titles, dialog titles, menu/ navigation items, and form field labels. When using title case,
+Use **title case** for page titles, modal/ dialog titles, menu/ navigation items, and form field labels. When using title case,
 
 - Capitalize the title’s first and last word.
 - Capitalize all adjectives, adverbs, and nouns.
