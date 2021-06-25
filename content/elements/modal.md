@@ -1,14 +1,14 @@
 ---
-title: "Dialogs"
+title: "Modal"
 layout: "single"
 description: "Modal dialogs interrupt workflows and require user interaction."
 components: true
 images:
-  - "/img/headers/elements/dialogs.png"
+  - "/img/headers/elements/modal.png"
 keywords: modal
 aliases:
-  - "/modals.html"
-  - "/elements/modals/"
+  - "/dialog.html"
+  - "/elements/dialog/"
 ---
 
 ## Overview

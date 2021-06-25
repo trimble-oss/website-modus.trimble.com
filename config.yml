@@ -109,8 +109,6 @@ menu:
       url: /elements/chips/
     - name: Checkboxes
       url: /elements/checkboxes/
-    - name: Dialogs
-      url: /elements/dialogs/
     - name: Dropdowns
       url: /elements/dropdowns/
     - name: Inputs
@@ -119,6 +117,8 @@ menu:
       url: /elements/lists/
     - name: Messages
       url: /elements/messages/
+    - name: Modal
+      url: /elements/modal/
     - name: Navbar
       url: /elements/navbar/
     - name: Pagination
