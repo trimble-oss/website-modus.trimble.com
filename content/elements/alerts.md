@@ -89,7 +89,7 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
 **Don’t use when**
 
 - Providing a user with a message related to a page-level or out-of-view event, like completion of a report generation. Instead, use a [Toast](/elements/toasts/).
-- Providing a user with a system-level message, like a network outage or browser incompatibility. Instead, use a [Modal](/elements/modal/)
+- Providing a user with a system-level message, like a network outage or browser incompatibility. Instead, use a [Modal](/elements/modals/)
 - Attaching an error message to an input.
 
 ## Specifications

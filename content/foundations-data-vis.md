@@ -34,7 +34,7 @@ Typical graphs (with the exception of pie charts and gauges) have two axes: the 
 
 ### Axis Label
 
-An axis label describes the quantitative or categorical value of an axis. For a quantitative label, make sure to include the usit, either in the label name or in parentheses after it. For example, “Cost in Dollars” is the y-axi label title and “Time” is the x-axis label. Y-axis labels should always appear on the left of the chart. Axes labels should display at least 8 pixels from their corresponding axis.
+An axis label describes the quantitative or categorical value of an axis. For a quantitative label, make sure to include the units, either in the label name or in parentheses after it. For example, “Cost in Dollars” is the y-axi label title and “Time” is the x-axis label. Y-axis labels should always appear on the left of the chart. Axes labels should display at least 8 pixels from their corresponding axis.
 
 ### Grid Lines
 

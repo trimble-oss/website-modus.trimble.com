@@ -7,7 +7,7 @@ images:
   - "/img/headers/elements/modals.png"
 keywords: "modal, dialog"
 aliases:
-  - "/elements/modals/"
+  - "/elements/modal/"
 ---
 
 ## Overview
