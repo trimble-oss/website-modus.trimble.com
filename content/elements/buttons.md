@@ -250,7 +250,7 @@ There are two button progressions you can choose from: structural and color prog
         </button>
       </td>
       <td>48px</td>
-      <td>Dialogs</td>
+      <td>Modals</td>
     </tr>
   </tbody>
 </table>
@@ -445,7 +445,7 @@ Icon button state colors may vary based on product. Always make sure the colors 
 - Strive for short button labels that clearly describe an action.
 - Try to limit button labels to three words or less. Using one or two words, if possible, is ideal.
 - When writing buttons, you can remove most prepositions and articles (e.g. a, an, the).
-- If a question is asked in a dialog, use button labels that match the question. Keep in mind the following guidelines as well:
+- If a question is asked in a modal, use button labels that match the question. Keep in mind the following guidelines as well:
   - Don't use OK/Cancel to answer yes or no questions.
   - Make sure you keep "your" and "my" consistent.
   - Avoid saying "click" when referring to buttons (and other UI elements).

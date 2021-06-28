@@ -58,7 +58,7 @@ The following plan is broken down into four levels of achievement: **Bronze**, *
 
  {{< checklist >}}Writing Style{{</ checklist >}}
  {{< checklist >}}Alerts, Messages, Toasts{{</ checklist >}}
- {{< checklist >}}Dialogs{{</ checklist >}}
+ {{< checklist >}}Modals{{</ checklist >}}
  {{< checklist >}}Tabs or Accordions (prioritize based on prominence in your product){{</ checklist >}}
  {{< checklist >}}Cards or Tables (whichever is left over){{</ checklist >}}
  {{< checklist >}}Accessibility{{</ checklist >}}
