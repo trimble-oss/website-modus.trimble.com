@@ -20,8 +20,8 @@ Input fields or text fields allow users to enter text into a UI. They typically 
 
 <form>
   <div class="form-group">
-    <label for="Input1">Regular Input</label>
-    <input class="form-control" id="Input1" placeholder="Placeholder Text">
+    <label for="RegularInput">Regular Input</label>
+    <input class="form-control" id="RegularInput" placeholder="Placeholder Text">
   </div>
   <div class="form-group">
     <label for="Input2">Input with icon on right</label>
@@ -52,8 +52,8 @@ Input fields or text fields allow users to enter text into a UI. They typically 
     </select>
   </div>
   <div class="form-group">
-  <label for="Input1">Normal Text Area</label>
-  <textarea class="form-control" id="Input1">Some Text</textarea>
+  <label for="Textarea">Normal Text Area</label>
+  <textarea class="form-control" id="Textarea">Some Text</textarea>
 </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>

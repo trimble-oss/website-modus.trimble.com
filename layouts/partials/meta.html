@@ -2,6 +2,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 
+<script>document.documentElement.classList.remove('no-js');</script>
+
 <!-- Faster Loading Google Fonts - https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/ -->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">

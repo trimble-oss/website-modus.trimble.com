@@ -23,8 +23,8 @@
 <div class="sticky-top sticky-offset border-bottom">
   <nav class="bd-links collapse" id="docs-nav">
     <ul class="list-unstyled" id="menu-left">
-      {{- if .Params.start}}
-      {{ range .Site.Menus.start }}
+      {{- if .Params.start -}}
+      {{ range .Site.Menus.start -}}
       <li><a class="nav-link text-dark" href="{{ .URL }}">
           {{- .Name -}}
         </a>
@@ -32,19 +32,8 @@
       {{- end -}}
       {{- end -}}
 
-      {{ $currentPage := . }}
-      {{- if .Params.foundations }}
-      {{ range .Site.Menus.foundations }}
-      <li><a class="nav-link text-dark{{if ($currentPage.HasMenuCurrent "foundations" .) }} active{{end}}"
-          href="{{ .URL }}">
-          {{- .Name -}}
-        </a>
-      </li>
-      {{- end -}}
-      {{- end -}}
-
-      {{- if .Params.components }}
-      {{ range .Site.Menus.components }}
+      {{- if .Params.foundations -}}
+      {{ range .Site.Menus.foundations -}}
       <li><a class="nav-link text-dark" href="{{ .URL }}">
           {{- .Name -}}
         </a>
@@ -52,8 +41,8 @@
       {{- end -}}
       {{- end -}}
 
-      {{- if .Params.community }}
-      {{ range .Site.Menus.community }}
+      {{- if .Params.components -}}
+      {{ range .Site.Menus.components -}}
       <li><a class="nav-link text-dark" href="{{ .URL }}">
           {{- .Name -}}
         </a>
@@ -61,19 +50,23 @@
       {{- end -}}
       {{- end -}}
 
-      {{- if .Params.blog }}
-{{ range .Site.Menus.community }}
-<li><a class="nav-link text-dark" href="{{ .URL }}">
-    {{- .Name -}}
-  </a>
-</li>
-{{- end -}}
-{{- end -}}
+      {{- if .Params.community -}}
+      {{- range .Site.Menus.community -}}
+      <li><a class="nav-link text-dark" href="{{ .URL }}">
+          {{- .Name -}}
+        </a>
+      </li>
+      {{- end -}}
+      {{- end -}}
 
-    </ul>
-  </nav>
-</div>
-
+      {{- if .Params.blog -}}
+      {{- range .Site.Menus.community -}}
+      <li><a class="nav-link text-dark" href="{{ .URL }}">
+          {{- .Name -}}
+        </a>
+      </li>
+      {{- end -}}
+      {{- end -}}
 <script>
   $(function () {
     var nav = document.getElementById("menu-left"),
@@ -82,18 +75,11 @@
     for (var i = 0; i < anchor.length; i++) {
       if (anchor[i].href == current) {
         anchor[i].className = "nav-link text-dark active";
+        anchor[i].setAttribute("aria-current", "page");
       }
     }
   });
 </script>
-
-<!-- aria-current="page" -->
-<!-- https://gomakethings.com/better-more-accessible-active-link-styling/ -->
-<!--
-<script>
-  $(function () {
-    $('.menu-left a[href$="/' + location.pathname.split("/")[1] + '"]').addClass('active');
-    $('.menu-left a[href$="/' + location.pathname.split("/")[1] + '"]').attr('aria-current', 'page');
-  });
-</script>
--->
+    </ul>
+    </nav>
+    </div>

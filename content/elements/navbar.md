@@ -339,7 +339,7 @@ Used only for "global" MyTrimble account items. Appears consistently everywhere 
 
 - On hover, display a tooltip reading:
   - MyTrimble:<br>
-  Firstname Lastname<br>
+  First-name Last-name<br>
   email&#64;address.com
 - Display the Profile Menu when clicked or tapped
 - Profile Menu:
