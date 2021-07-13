@@ -5,6 +5,7 @@ description: "Elements are the building blocks of the design system designed wit
 components: true
 listJS: true
 layout: components
+disableScrollSpy: true
 aliases:
   - "/components.html"
 ---
