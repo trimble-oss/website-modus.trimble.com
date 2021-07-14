@@ -4,39 +4,19 @@ layout: "single"
 description: "Collaborative, specialized teams to solve real design and usability problems."
 url: "/community/tiger-teams/"
 community: true
-hideToc: true
+# hideToc: true
 ---
 
 Thank you for your interest in joining a Tiger Team! A Tiger Team is "a specialized, cross-functional team brought together to solve or investigate a specific problem or critical issue." [What is a Tiger Team?](https://www.lucidchart.com/blog/what-is-a-tiger-team)
 
 ## Active Tiger Teams
 
-<table class="table table-bordered bg-white">
-  <thead class="thead-light">
-    <tr>
-      <th>Team Name</th>
-      <th>Team Members</th>
-      <th>Start Date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Side Navigation</td>
-      <td>J. Wittmeyer, C. D. Savio Lazaro, S. Taylor, J. de Wit, E. Gunther, T. Manham, N. Cadsawan, P. Karukkuvel, E. Deleon, A. Tucker, L. Meskanen-Kundu</td>
-      <td>06/21/2021</td>
-    </tr>
-    <tr>
-      <td>Mobile Patterns</td>
-      <td>D. Bedick, E. Bohn, R. Stillwell, N. Cadsawan, C. Starbird, L. Saenz, E. Gunther, J. A. Provin Silva</td>
-      <td>03/12/2021</td>
-    </tr>
-      <tr>
-      <td>Tables</td>
-      <td>G. Leuhof, D. Donnell, G. Piltzer, H. Keller, K. Tran, S. Lucey, S. Williams, T. Ortiz, T. Manham, Z. Tran Do</td>
-      <td>02/03/2021</td>
-    </tr>
-  </tbody>
-</table>
+| Team Name            | Team Members                                                                                                                                       | Start Date |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| Side Navigation      | J. Wittmeyer, C. D. Savio Lazaro, S. Taylor, J. de Wit, E. Gunther, T. Manham, N. Cadsawan, P. Karukkuvel, E. Deleon, A. Tucker, L. Meskanen-Kundu | 06/21/2021 |
+| Mobile&nbsp;Patterns | D. Bedick, E. Bohn, R. Stillwell, N. Cadsawan, C. Starbird, L. Saenz, E. Gunther, J. A. Provin Silva                                               | 03/12/2021 |
+| Tables               | G. Leuhof, D. Donnell, G. Piltzer, H. Keller, K. Tran, S. Lucey, S. Williams, T. Ortiz, T. Manham, Z. Tran Do                                      | 02/03/2021 |
+{class="table table-bordered"}
 
 ![Tiger Team Process](/img/guide/tiger-team-process.png)
 
