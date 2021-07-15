@@ -17,3 +17,14 @@ start: true
 {{</ card-start >}}
 
 </div>
+<div class="row">
+
+{{< card-start title="Modus React Site" class="bg-react py-4 bg-coming-soon" header="react.svg" >}}
+
+{{</ card-start >}}
+
+{{< card-start title="Modus Web Components Site" class="bg-web-components py-4 bg-coming-soon" header="web-components.svg" >}}
+
+{{</ card-start >}}
+
+</div>

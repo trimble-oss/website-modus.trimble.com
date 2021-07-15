@@ -203,7 +203,9 @@ markup:
       taskList: true
       typographer: true
     parser:
-      attribute: true
+      attribute:
+        block: true
+        title: true
       autoHeadingID: true
     renderer:
       unsafe: true
