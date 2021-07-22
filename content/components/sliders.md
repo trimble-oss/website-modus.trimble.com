@@ -4,10 +4,10 @@ layout: "single"
 description: "Sliders allow users to make selections from a range of values."
 components: true
 images:
-  - "/img/headers/elements/sliders.png"
+  - "/img/headers/components/sliders.png"
 keywords: forms, form, range
 aliases:
-  - "/sliders.html"
+  - "/elements/sliders/"
 ---
 
 ## Overview
@@ -29,7 +29,7 @@ Sliders select a numeric value or range of values by moving a handle or set of h
 
 **Don’t use when**
 
-- Gathering information in a form (e.g, age or salary). Instead, use an [Input](/elements/inputs/) box.
+- Gathering information in a form (e.g, age or salary). Instead, use an [Input](/components/inputs/) box.
 - Precise amount is needed and the scale is too large to afford precise interaction with the slider.
 - Adjusting settings with any delay in providing user feedback.
 

@@ -4,9 +4,9 @@ layout: "single"
 description: "Badges are non-interactive labels which hold small amounts of information."
 components: true
 images:
-  - "/img/headers/elements/badges.png"
+  - "/img/headers/components/badges.png"
 aliases:
-  - "/badges.html"
+  - "/elements/badges/"
 ---
 
 ## Overview
@@ -23,7 +23,7 @@ Badges notify the user of a status, for example that there are new or unread mes
 **Don't use when**
 
 - Displaying long strings of text.
-- An interactive element is needed, such as a [Button](/elements/buttons/) or [Chip](/elements/chips/).
+- An interactive element is needed, such as a [Button](/components/buttons/) or [Chip](/components/chips/).
 
 ## Types
 
@@ -31,7 +31,7 @@ There are three types of badges: default, text, and counter badges. They are ava
 
 ### Default Badges
 
-Used when more emphasis is needed. **Default badges can look like [Buttons](/elements/buttons/). Avoid using button colors to make sure the user can tell the difference.**
+Used when more emphasis is needed. **Default badges can look like [Buttons](/components/buttons/). Avoid using button colors to make sure the user can tell the difference.**
 
 <div class="guide-example-block">
   <div class="guide-sample">
@@ -47,7 +47,7 @@ Used when more emphasis is needed. **Default badges can look like [Buttons](/ele
 
 ### Text Badges
 
-Used to display a more subtle label. **Text badges can look like text [Buttons](/elements/buttons/). Avoid using text button colors to make sure the user can tell the difference.** Do not use a text badge for warning (yellow): it does not meet the required contrast ratios for [accessibility](/foundations/accessibility/).
+Used to display a more subtle label. **Text badges can look like text [Buttons](/components/buttons/). Avoid using text button colors to make sure the user can tell the difference.** Do not use a text badge for warning (yellow): it does not meet the required contrast ratios for [accessibility](/foundations/accessibility/).
 
 <div class="guide-example-block">
   <div class="guide-sample">
@@ -61,7 +61,7 @@ Used to display a more subtle label. **Text badges can look like text [Buttons](
 
 ### Counter Badges
 
-Used to display up to 3 characters (usually a number in a counter). Counter badges can look like [Chips](/elements/chips/), when too many characters are used. **Use a maximum of 3 characters or numbers.**
+Used to display up to 3 characters (usually a number in a counter). Counter badges can look like [Chips](/components/chips/), when too many characters are used. **Use a maximum of 3 characters or numbers.**
 
 <div class="guide-sample">
     <div>

@@ -4,7 +4,7 @@ layout: "single"
 description: "An email message that follows an action carried out by a subscriber or user."
 components: true
 images:
-  - "/img/headers/elements/transactional-email.png"
+  - "/img/headers/components/transactional-email.png"
 draft: true
 private: true
 ---

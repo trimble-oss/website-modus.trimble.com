@@ -6,7 +6,7 @@ We are happy to accept contributions from the community to improve this project.
 
 1. Open the [Bitbucket site](https://bitbucket.trimble.tools/projects/TMDS/repos/modus-styleguide/browse) in your browser.
 2. Navigate to the section and page you'd like to edit. The folder structure matches the site navigation. If you would like to edit a page in the Elements section for example, click on **content** > **elements** and select the page you would like to edit.
-3. To edit, first click the grey 'Show source' button in the top-right of the content preview pane.
+3. To edit, first click the gray 'Show source' button in the top-right of the content preview pane.
 4. Make your text changes. When you've finished, click the blue 'Commit' button in the bottom-right.
 5. In the 'Commit file' popup modal, enter a descriptive title of the change you're making and check the 'Create a pull request for this change' checkbox (you don't need to change the branch name).
 6. On the 'Create pull request' screen you can enter a description for the change (if needed).

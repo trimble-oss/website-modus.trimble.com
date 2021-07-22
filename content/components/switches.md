@@ -4,7 +4,7 @@ layout: "single"
 description: "Switches are used to toggle functionality."
 components: true
 images:
-  - "/img/headers/elements/switches.png"
+  - "/img/headers/components/switches.png"
 keywords: forms, form
 ---
 
@@ -131,9 +131,9 @@ Switches are selection controls that yield instantaneous actions. They have an o
 
 **Don't use when**
 
-- Requiring user action consent, such as accepting terms and conditions. Instead, use a [Checkbox](/elements/checkboxes/).
-- Requesting multiple choices from a group of options. Instead, use a [Checkbox](/elements/checkboxes/) group.
-- Users need to select one item from a list of options. Instead, use a [Radio Button](/elements/radio/).
+- Requiring user action consent, such as accepting terms and conditions. Instead, use a [Checkbox](/components/checkboxes/).
+- Requesting multiple choices from a group of options. Instead, use a [Checkbox](/components/checkboxes/) group.
+- Users need to select one item from a list of options. Instead, use a [Radio Button](/components/radio/).
 
 <table class="table table-bordered bg-white">
   <tbody>

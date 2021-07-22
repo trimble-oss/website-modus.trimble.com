@@ -30,7 +30,7 @@
     </div>
 
     <div class="row list" id="listjs-list">
-      {{ range first 29 (where .Site.RegularPages ".Section" "elements") }}
+      {{ range first 29 (where .Site.RegularPages ".Section" "components") }}
       {{- partial "card-component.html" . -}}
       {{- end -}}
     </div>

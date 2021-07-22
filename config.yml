@@ -42,8 +42,8 @@ menu:
     - name: Foundations
       url: "/foundations/"
       weight: 2
-    - name: Elements
-      url: "/elements/"
+    - name: Components
+      url: "/components/"
       weight: 3
     - Name: Community
       url: "/community/"

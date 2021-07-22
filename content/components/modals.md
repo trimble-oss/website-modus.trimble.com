@@ -4,10 +4,10 @@ layout: "single"
 description: "Modal dialogs interrupt workflows and require user interaction."
 components: true
 images:
-  - "/img/headers/elements/modals.png"
+  - "/img/headers/components/modals.png"
 keywords: "modal, dialog"
 aliases:
-  - "/elements/modal/"
+  - "/components/modal/"
 ---
 
 ## Overview
@@ -27,7 +27,7 @@ A dialog or a modal is a window overlaid on the primary window. It interrupts th
 
 - Providing non-essential information related to the underlying page.
 - Interrupting high-stake processes such as checkout flows.
-- Conveying brief thoughts or status changes. Instead, use an [Alert](/elements/alerts/). [Toast](/elements/toasts/), or [Message](/elements/messages/), depending on priority.
+- Conveying brief thoughts or status changes. Instead, use an [Alert](/components/alerts/). [Toast](/components/toasts/), or [Message](/components/messages/), depending on priority.
 - Complex decision-making is needed by the user that requires additional sources of information unavailable in the modal.
 - The modal content can be incorporated into the underlying page without complicating the page’s intent.
 
@@ -77,7 +77,7 @@ Dialogs consist of the following elements:
 - Header, a brief title.
 - Content area, which provides instructions.
 - Page overlay, which partially blocks out the underlying page to focus attention on the modal content.
-- Controls, which are usually [Buttons](/elements/buttons/) placed on the bottom right side of the modal header. A dialog should **always include a single Primary button**. Primary button is often paired with an Outline or Text Only button. Primary button, representing the desired user action, should always appear to the right of other buttons.
+- Controls, which are usually [Buttons](/components/buttons/) placed on the bottom right side of the modal header. A dialog should **always include a single Primary button**. Primary button is often paired with an Outline or Text Only button. Primary button, representing the desired user action, should always appear to the right of other buttons.
 - Close icon button, which closes the dialog and cancels user action. **Always include a close icon button on a modal.** It should display in the top right corner.
 
 ### Behaviors

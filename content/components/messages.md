@@ -4,9 +4,9 @@ layout: "single"
 description: "Messages provide the user with contextual static information. They have a lower priority than an alert."
 components: true
 images:
-  - "/img/headers/elements/messages.png"
+  - "/img/headers/components/messages.png"
 aliases:
-  - "/messages.html"
+  - "/elements/messages/"
 ---
 
 ## Overview
@@ -41,8 +41,8 @@ Messages display low priority content directly on the page and are not dismissab
 
 **Don't use when**
 
-- Alerting the user of a high priority error. Instead, use an [Alert](/elements/alerts/).
-- Alerting the user of an out-of-context event. Instead, use a [Toast](/elements/toasts/).
+- Alerting the user of a high priority error. Instead, use an [Alert](/components/alerts/).
+- Alerting the user of an out-of-context event. Instead, use a [Toast](/components/toasts/).
 
 ## Specifications
 

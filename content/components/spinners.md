@@ -4,9 +4,9 @@ layout: "single"
 description: "Spinners indicate progress by showing users a loading state."
 components: true
 images:
-  - "/img/headers/elements/spinners.png"
+  - "/img/headers/components/spinners.png"
 aliases:
-  - "/spinners.html"
+  - "/elements/spinners/"
 ---
 
 ## Overview
@@ -22,7 +22,7 @@ Spinners are used as indeterminate progress indicators to show the user that the
 
 **Don't use when**
 
-- A loading scenario needs to indicate progress, usually with particularly long load times. Use a dynamically updating [Progress Bar](/elements/progress-bars/) instead.
+- A loading scenario needs to indicate progress, usually with particularly long load times. Use a dynamically updating [Progress Bar](/components/progress-bars/) instead.
 - A main loading state is needed, such as an app initialization. In this case, forego our simple spinner, and opt to use a custom, branded one instead.
 
 ## Specifications
