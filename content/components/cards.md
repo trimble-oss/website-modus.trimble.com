@@ -4,9 +4,9 @@ layout: "single"
 description: "Cards provide a set of content which acts as an entry point to more detailed information."
 components: true
 images:
-  - "/img/headers/elements/cards.png"
+  - "/img/headers/components/cards.png"
 aliases:
-  - "/cards.html"
+  - "/elements/cards/"
 ---
 
 ## Overview
@@ -99,7 +99,7 @@ A card may contain any of the following elements (with the minimum of one), but 
 
 **Action**
 
-- Follow the editorial guidelines for [Buttons](/elements/buttons/), [Chips](/elements/chips/), etc. when using those elements.
+- Follow the editorial guidelines for [Buttons](/components/buttons/), [Chips](/components/chips/), etc. when using those elements.
 
 **Metadata**
 

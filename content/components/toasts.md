@@ -5,10 +5,10 @@ layout: "single"
 description: "Toasts provide non-intrusive, short-lasting contextual feedback to the user."
 components: true
 images:
-  - "/img/headers/elements/toasts.png"
+  - "/img/headers/components/toasts.png"
 keywords: alert
 aliases:
-  - "/toasts.html"
+  - "/elements/toasts/"
 ---
 
 ## Overview
@@ -135,7 +135,7 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
 
 **Don't use when**
 
-- Displaying critical information that require immediate user action. Instead, use an [alert](/elements/alerts/)
+- Displaying critical information that require immediate user action. Instead, use an [alert](/components/alerts/)
 - The information being displayed is highly contextual to the user action.
 
 ## Specifications
@@ -143,7 +143,7 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
 - Container (Height: 42px; Radius: 2px; Padding: 16px; Margin: 16px; solid color; no border; [level 3 shadow](/foundations/shadows-and-depth/)) _required_
 - Toast text (Font: Open Sans Semibold 14px) _required_
 - Leading non-interactive icon (16x16px) _optional_
-- Trailing close icon (16x16px) or a Text Only [Button](/elements/buttons/)  _optional_
+- Trailing close icon (16x16px) or a Text Only [Button](/components/buttons/)  _optional_
 
 <div class="guide-example-block my-3 py-3 bg-light">
   <div class="guide-content-sample anatomy-display-container">
@@ -231,7 +231,7 @@ Basic Toasts
 - Keep titles three to five words if possible.
 - For titles, use title case and capitalize prepositions of four letters or more.
 - Messages should tell the user what’s happening in friendly, non-technical language.
-- If the message requires a user to take action in order to continue or successfully complete a task, use an [alert](/elements/alerts/)
+- If the message requires a user to take action in order to continue or successfully complete a task, use an [alert](/components/alerts/)
   instead.
 - For messages, use full sentences with punctuation. Use sentence case.
 

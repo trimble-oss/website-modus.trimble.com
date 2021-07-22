@@ -4,9 +4,9 @@ layout: "single"
 description: "Tabs are used to quickly navigate between views within the same context."
 components: true
 images:
-  - "/img/headers/elements/tabs.png"
+  - "/img/headers/components/tabs.png"
 aliases:
-  - "/tabs.html"
+  - "/elements/tabs/"
 ---
 
 ## Overview

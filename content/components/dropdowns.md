@@ -4,10 +4,10 @@ layout: "single"
 description: "Dropdowns present a list of options that can be used to filter or sort existing content."
 components: true
 images:
-  - "/img/headers/elements/dropdowns.png"
+  - "/img/headers/components/dropdowns.png"
 keywords: menu
 aliases:
-  - "/dropdowns.html"
+  - "/elements/dropdowns/"
 ---
 
 ## Overview
@@ -24,11 +24,11 @@ Dropdowns (also known as a dropdown menu, drop menu, pull-down list, picklist) i
 **Don’t use when**
 
 - Providing more than 10 options.
-- Providing only two options. Instead, use a [Radio](/elements/radio/) Group or a [Switch](/elements/switches/).
+- Providing only two options. Instead, use a [Radio](/components/radio/) Group or a [Switch](/components/switches/).
 
 ## Specifications
 
-- Dropdowns can be activated by clicking a button, an icon, or a header. See [Inputs](/elements/inputs/) for dropdowns in form input fields.
+- Dropdowns can be activated by clicking a button, an icon, or a header. See [Inputs](/components/inputs/) for dropdowns in form input fields.
 - Dropdown functionality is indicated by a small trailing arrow or an ellipsis (not applicable to icon dropdowns).
 - Dropdown selects are ideal for lists with more than 15 items, but be careful not to overdo it.
 - Within a dropdown, you can separate groups of related menu items with a divider.

@@ -4,10 +4,10 @@ layout: "single"
 description: "Checkboxes are used for a list of options where the user may select multiple options, including all or none."
 components: true
 images:
-  - "/img/headers/elements/checkboxes.png"
+  - "/img/headers/components/checkboxes.png"
 keywords: forms, form
 aliases:
-  - "/checkboxes.html"
+  - "/elements/checkboxes/"
 ---
 
 ## Overview
@@ -98,8 +98,8 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 - Affording a binary selection, like accepting terms and conditions.
 - Affording multiple selections from a set of options.
-- Enabling selection of an object, such as a [Card](/elements/cards/).
-- Affording selection of a row within a data [Table](/elements/tables/).
+- Enabling selection of an object, such as a [Card](/components/cards/).
+- Affording selection of a row within a data [Table](/components/tables/).
 
 <table class="table table-bordered bg-white">
   <tbody>
@@ -178,9 +178,9 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 **Don't use when**
 
-- Turning a feature, mode, or functionality on and off. Instead, use a [Switch](/elements/switches/).
-- Checking or unchecking elicits an immediate change in the UI or functionality, such as enabling a disabled field or revealing more controls. Instead, use a [Switch](/elements/switches/).
-- Checking or unchecking elicits a change in background functionality without affecting the UI, like disabling an email notification. Instead, use a [Switch](/elements/switches/).
+- Turning a feature, mode, or functionality on and off. Instead, use a [Switch](/components/switches/).
+- Checking or unchecking elicits an immediate change in the UI or functionality, such as enabling a disabled field or revealing more controls. Instead, use a [Switch](/components/switches/).
+- Checking or unchecking elicits a change in background functionality without affecting the UI, like disabling an email notification. Instead, use a [Switch](/components/switches/).
 
 <table class="table table-bordered bg-white">
   <tbody>
@@ -268,12 +268,12 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 ## Specifications
 
-- Checkboxes use the same `:hover` and `:active` styles as the primary [Button](/elements/buttons/) when checked.
+- Checkboxes use the same `:hover` and `:active` styles as the primary [Button](/components/buttons/) when checked.
 
 ### Behaviors
 
 - Reflects the affirmative (“yes” or “true”) of its label when checked.
-- Choices made via checkbox should always be submitted or saved using a [Button](/elements/buttons/).
+- Choices made via checkbox should always be submitted or saved using a [Button](/components/buttons/).
 - A checkbox’s label is included in the clickable target area.
 - The default view of a set of checkboxes is having no option selected.
 

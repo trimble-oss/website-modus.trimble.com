@@ -4,9 +4,9 @@ layout: "single"
 description: "A list can be used to display content related to a single subject."
 components: true
 images:
-  - "/img/headers/elements/lists.png"
+  - "/img/headers/components/lists.png"
 aliases:
-  - "/lists.html"
+  - "/elements/lists/"
 ---
 
 ## Overview
@@ -31,7 +31,7 @@ Lists are used to present information in well-formed and semantic way. The most 
 
 **Don't use when**
 
-- Displaying tabular data. Instead, use a [Table](/elements/tables/).
+- Displaying tabular data. Instead, use a [Table](/components/tables/).
 
 ## Specifications
 
@@ -132,7 +132,7 @@ Lists are available in two sizes: default and condensed.
 
 **Length**
 
-- Generally, lists should be used to present simple pieces of information. For more complex sets of data, consider using a [Table](/elements/tables/).
+- Generally, lists should be used to present simple pieces of information. For more complex sets of data, consider using a [Table](/components/tables/).
 
 **Order**
 

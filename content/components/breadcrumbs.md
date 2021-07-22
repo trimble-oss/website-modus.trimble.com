@@ -4,9 +4,9 @@ layout: "single"
 description: "The breadcrumb element is a secondary navigation pattern that shows hierarchy among content."
 components: true
 images:
-  - "/img/headers/elements/breadcrumbs.png"
+  - "/img/headers/components/breadcrumbs.png"
 aliases:
-  - "/breadcrumbs.html"
+  - "/elements/breadcrumbs/"
 ---
 
 ## Overview

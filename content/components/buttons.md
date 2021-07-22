@@ -4,9 +4,9 @@ layout: "single"
 description: "Buttons are interactive elements that trigger an action or an event."
 components: true
 images:
-  - "/img/headers/elements/buttons.png"
+  - "/img/headers/components/buttons.png"
 aliases:
-  - "/buttons.html"
+  - "/elements/buttons/"
 ---
 
 ## Overview

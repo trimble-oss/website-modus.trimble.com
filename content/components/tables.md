@@ -4,9 +4,9 @@ layout: "single"
 description: "Tables display information in a grid-like format of rows and columns. "
 components: true
 images:
-  - "/img/headers/elements/tables.png"
+  - "/img/headers/components/tables.png"
 aliases:
-  - "/tables.html"
+  - "/elements/tables/"
 ---
 
 ## Overview
@@ -37,7 +37,7 @@ Column content types are built into the component props so the following alignme
 - Numerical = Right aligned
 - Textual data = Left aligned
 - Align headers with their related data
-- Center align images/elements/icons and buttons when in their own columns
+- Center align images/components/icons and buttons when in their own columns
 
 <table class="table table-bordered bg-white">
   <thead class="thead-light">

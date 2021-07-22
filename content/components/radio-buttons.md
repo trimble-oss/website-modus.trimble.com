@@ -4,11 +4,11 @@ layout: "single"
 description: "Radio buttons are used when options are mutually exclusive."
 components: true
 images:
-  - "/img/headers/elements/radio-buttons.png"
+  - "/img/headers/components/radio-buttons.png"
 keywords: forms, form
 aliases:
-  - "/radio.html"
   - "/elements/radio/"
+  - "/components/radio/"
 ---
 
 ## Overview
@@ -47,15 +47,15 @@ Radio buttons are used to afford a single selection from two or more options.
 
 **Don’t use when**
 
-- User can make multiple selections. Instead, use [Checkboxes](/elements/checkboxes/).
+- User can make multiple selections. Instead, use [Checkboxes](/components/checkboxes/).
 - You are providing more than 7 options.
-- You are attempting to highlight a preferred choice. Instead, use a [Dropdown](/elements/dropdowns/).
+- You are attempting to highlight a preferred choice. Instead, use a [Dropdown](/components/dropdowns/).
 - When a large number of familiar options is available.
 
 ## Specifications
 
 - Always stack radio buttons vertically. Horizontal variation should not be used.
-- Uses the same `:hover` and `:active` styles as the primary [Button](/elements/buttons/).
+- Uses the same `:hover` and `:active` styles as the primary [Button](/components/buttons/).
 - A set of radio buttons should not default to having one option selected.
 - A heading much accompany a set of radio buttons.
 

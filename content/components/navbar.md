@@ -3,7 +3,7 @@ title: "Navbar"
 layout: "single"
 description: "The navbar provides context through globally accessible menu options."
 images:
-  - "/img/headers/elements/navbar.png"
+  - "/img/headers/components/navbar.png"
 components: true
 contributors: ""
 ---
@@ -258,7 +258,7 @@ At smaller viewpoints, the product logo may
 
 #### Tooltips
 
-Tooltips display on hover. Follow the [Tooltip guidelines](/elements/tooltips) for further reference.
+Tooltips display on hover. Follow the [Tooltip guidelines](/components/tooltips) for further reference.
 
 ![Tooltips](/img/app-header-tooltips.svg)
 
@@ -278,7 +278,7 @@ Tooltips display on hover. Follow the [Tooltip guidelines](/elements/tooltips) f
 - On hover, display a tooltip reading "Search."
 - Expose the search overlay.
 - Search overlay:
-  - Follow the [Inputs](/elements/inputs) guidelines.
+  - Follow the [Inputs](/components/inputs) guidelines.
   - Clicking or tapping input field "x" icon removes user-entered text.
   - Clicking or tapping search tray "x" icon hides the search tray.
 - Search
@@ -358,7 +358,7 @@ Used only for "global" MyTrimble account items. Appears consistently everywhere 
 
 ### Editorial
 
-- Header bar uses icons to visually communicate meaning. See [Tooltips](/elements/tooltips/) guidelines.
+- Header bar uses icons to visually communicate meaning. See [Tooltips](/components/tooltips/) guidelines.
 - Capitalize proper nouns.
 - Use title case for menu titles (e.g. Notifications).
 - Use sentence case for app descriptions and buttons (while preserving proper nouns).

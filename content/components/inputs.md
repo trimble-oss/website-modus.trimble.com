@@ -4,10 +4,10 @@ layout: "single"
 description: "Input fields collect information from users."
 components: true
 images:
-  - "/img/headers/elements/inputs.png"
+  - "/img/headers/components/inputs.png"
 keywords: forms, form
 aliases:
-  - "/elements/forms/"
+  - "/components/forms/"
   - "/forms.html"
   - "/inputs.html"
   - "/input-groups.html"
@@ -15,7 +15,7 @@ aliases:
 
 ## Overview
 
-Input fields or text fields allow users to enter text into a UI. They typically appear in forms, often with [checkboxes](/elements/checkboxes/), [radio buttons](/elements/radio/), and [buttons](/elements/buttons/). The user input is most often sent to a server for processing.
+Input fields or text fields allow users to enter text into a UI. They typically appear in forms, often with [checkboxes](/components/checkboxes/), [radio buttons](/components/radio/), and [buttons](/components/buttons/). The user input is most often sent to a server for processing.
 
 
 <form>
@@ -289,7 +289,7 @@ There are two sizes of input fields defined:
 - Always mark **required** fields with an \* .
 - Provide input constraints, such as a character limit within a text entry box, to provide users with guidelines and improve form efficiency.
 - Use multi-step forms when necessary by breaking up inputs into distinct categories.
-- Provide clear and obvious action buttons. Form submission [buttons](/elements/buttons/) should be primary.
+- Provide clear and obvious action buttons. Form submission [buttons](/components/buttons/) should be primary.
 
 ### Accessibility
 

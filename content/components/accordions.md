@@ -3,10 +3,10 @@ title: "Accordions"
 layout: "single"
 description: "The accordion element delivers large amounts of content in a small space through progressive disclosure."
 images:
-  - "/img/headers/elements/accordions.png"
+  - "/img/headers/components/accordions.png"
 components: true
 aliases:
-  - "/accordions.html"
+  - "/elements/accordions/"
 contributors: ""
 ---
 
@@ -33,11 +33,11 @@ Accordions are containers that expand to reveal content progressively to limit t
 - Hiding primary actions on the page.
 - Revealing content that is not contextually relevant to the user.
 - Nesting too many layers. In other words, don’t place accordions within accordions.
-- Creating a set of visibly contained content, which doesn’t need an expand-and-collapse functionality. Instead, use a [Card](/elements/cards/).
+- Creating a set of visibly contained content, which doesn’t need an expand-and-collapse functionality. Instead, use a [Card](/components/cards/).
 
 ## Types
 
-Accordions come in two sizes to accommodate space availability on the page or within a [Card](/elements/cards/). Default size should be used when accordions display directly in the main content container on the page. Compact size is useful, when the accordion displays within a smaller container (e.g. card) or smaller section of the page.
+Accordions come in two sizes to accommodate space availability on the page or within a [Card](/components/cards/). Default size should be used when accordions display directly in the main content container on the page. Compact size is useful, when the accordion displays within a smaller container (e.g. card) or smaller section of the page.
 
 ### Default
 

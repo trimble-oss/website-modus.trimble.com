@@ -30,22 +30,22 @@ and the React components can be found at <a href="https://react-bootstrap.github
   </thead>
   <tbody>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/accordions/">Accordions</a></th>
+      <th class="align-middle" scope="row"><a href="/components/accordions/">Accordions</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/alerts/">Alerts</a></th>
+      <th class="align-middle" scope="row"><a href="/components/alerts/">Alerts</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">1.0.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/badges/">Badges</a></th>
+      <th class="align-middle" scope="row"><a href="/components/badges/">Badges</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/breadcrumbs/">Breadcrumbs</a></th>
+      <th class="align-middle" scope="row"><a href="/components/breadcrumbs/">Breadcrumbs</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
@@ -55,97 +55,97 @@ and the React components can be found at <a href="https://react-bootstrap.github
       <td><span class="badge badge-danger">U/C</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/buttons/">Buttons</a></th>
+      <th class="align-middle" scope="row"><a href="/components/buttons/">Buttons</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">1.0.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/cards/">Cards</a></th>
+      <th class="align-middle" scope="row"><a href="/components/cards/">Cards</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/checkboxes/">Checkboxes</a></th>
+      <th class="align-middle" scope="row"><a href="/components/checkboxes/">Checkboxes</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/chips/">Chips</a></th>
+      <th class="align-middle" scope="row"><a href="/components/chips/">Chips</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">1.0.0</span></td>
     </tr>
     <!-- <tr>
-            <th class="align-middle" scope="row"><a href="/elements/Date Picker/">Date Picker</a></th>
+            <th class="align-middle" scope="row"><a href="/components/Date Picker/">Date Picker</a></th>
             <td><span class="badge badge-danger">U/C</span></td>
             <td><span class="badge badge-danger">U/C</span></td>
           </tr> -->
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/dropdowns/">Dropdowns</a></th>
+      <th class="align-middle" scope="row"><a href="/components/dropdowns/">Dropdowns</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <!-- <tr>
-            <th class="align-middle" scope="row"><a href="/elements/Empty States/">Empty States</a></th>
+            <th class="align-middle" scope="row"><a href="/components/Empty States/">Empty States</a></th>
             <td><span class="badge badge-danger">U/C</span></td>
             <td>---</td>
           </tr>
           <tr>
-            <th class="align-middle" scope="row"><a href="/elements/Filters/">Filters</a></th>
+            <th class="align-middle" scope="row"><a href="/components/Filters/">Filters</a></th>
             <td><span class="badge badge-danger">U/C</span></td>
             <td>---</td>
           </tr> -->
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/inputs/">Inputs</a></th>
+      <th class="align-middle" scope="row"><a href="/components/inputs/">Inputs</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <!--    <tr>
-            <th class="align-middle" scope="row"><a href="/elements/Links/">Links</a></th>
+            <th class="align-middle" scope="row"><a href="/components/Links/">Links</a></th>
             <td><span class="badge badge-danger">U/C</span></td>
             <td><span class="badge badge-success">0.9.0</span></td>
           </tr> -->
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/lists/">Lists</a></th>
+      <th class="align-middle" scope="row"><a href="/components/lists/">Lists</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
         <!-- <tr>
-            <th class="align-middle" scope="row"><a href="/elements/Menus/">Menus</a></th>
+            <th class="align-middle" scope="row"><a href="/components/Menus/">Menus</a></th>
             <td><span class="badge badge-danger ">U/C</span></td>
             <td><span class="badge badge-danger">U/C</span></td>
           </tr>-->
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/messages/">Messages</a></th>
+      <th class="align-middle" scope="row"><a href="/components/messages/">Messages</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/modals/">Modals</a></th>
+      <th class="align-middle" scope="row"><a href="/components/modals/">Modals</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">1.0.0</span></td>
     </tr>
     <tr>
-        <th class="align-middle" scope="row"><a href="/elements/navbar/">Navbar</a></th>
+        <th class="align-middle" scope="row"><a href="/components/navbar/">Navbar</a></th>
         <td><span class="badge badge-success">Stable</span></td>
         <td><span class="badge badge-danger">U/C</span></td>
     </tr>
     <!-- <tr>
-            <th class="align-middle" scope="row"><a href="/elements/Module Containers/">Module Containers</a></th>
+            <th class="align-middle" scope="row"><a href="/components/Module Containers/">Module Containers</a></th>
             <td><span class="badge badge-danger">U/C</span></td>
             <td><span class="badge badge-danger">U/C</span></td>
           </tr>-->
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/pagination/">Pagination</a></th>
+      <th class="align-middle" scope="row"><a href="/components/pagination/">Pagination</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/progress/">Progress Bars</a></th>
+      <th class="align-middle" scope="row"><a href="/components/progress/">Progress Bars</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">1.0.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/radio-buttons/">Radio Buttons</a></th>
+      <th class="align-middle" scope="row"><a href="/components/radio-buttons/">Radio Buttons</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
@@ -160,52 +160,52 @@ and the React components can be found at <a href="https://react-bootstrap.github
       <td><span class="badge badge-danger">U/C</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/sliders/">Sliders</a></th>
+      <th class="align-middle" scope="row"><a href="/components/sliders/">Sliders</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/spinners/">Spinners</a></th>
+      <th class="align-middle" scope="row"><a href="/components/spinners/">Spinners</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/switches/">Switches</a></th>
+      <th class="align-middle" scope="row"><a href="/components/switches/">Switches</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <!-- <tr>
-            <th class="align-middle" scope="row"><a href="/elements/Panels/">Panels</a></th>
+            <th class="align-middle" scope="row"><a href="/components/Panels/">Panels</a></th>
             <td><span class="badge badge-danger">U/C</span></td>
             <td><span class="badge badge-danger">U/C</span></td>
           </tr> -->
     <!-- <tr>
-            <th class="align-middle" scope="row"><a href="/elements/Search Fields/">Search Fields</a></th>
+            <th class="align-middle" scope="row"><a href="/components/Search Fields/">Search Fields</a></th>
             <td><span class="badge badge-danger">U/C</span></td>
             <td><span class="badge badge-danger">U/C</span></td>
           </tr> -->
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/tables/">Tables</a></th>
+      <th class="align-middle" scope="row"><a href="/components/tables/">Tables</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/tabs/">Tabs</a></th>
+      <th class="align-middle" scope="row"><a href="/components/tabs/">Tabs</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/alerts/">Toasts</a></th>
+      <th class="align-middle" scope="row"><a href="/components/alerts/">Toasts</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">1.0.0</span></td>
     </tr>
     <!-- <tr>
-            <th class="align-middle" scope="row"><a href="/elements/Toolbar/">Toolbar</a></th>
+            <th class="align-middle" scope="row"><a href="/components/Toolbar/">Toolbar</a></th>
             <td><span class="badge badge-danger">U/C</span></td>
             <td><span class="badge badge-danger">U/C</span></td>
           </tr> -->
     <tr>
-      <th class="align-middle" scope="row"><a href="/elements/tooltips/">Tooltips</a></th>
+      <th class="align-middle" scope="row"><a href="/components/tooltips/">Tooltips</a></th>
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
