@@ -75,6 +75,35 @@ Used to display up to 3 characters (usually a number in a counter). Counter badg
     </div>
 </div>
 
+### Badges in other elements
+
+Badges can be inserted into other elements.
+
+<div class="guide-example-block">
+  <div class="guide-sample">
+    <button type="button" class="btn btn-outline-primary">
+    Button <span class="badge badge-primary">9</span>
+    <span class="sr-only">unread messages</span>
+    </button>
+    <button type="button" class="btn btn-primary">
+    Button <span class="badge badge-text-tertiary">9</span>
+    <span class="sr-only">unread messages</span>
+    </button>
+    <ul class="mt-3 list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        List with Badge
+        <span class="badge badge-primary badge-pill">14</span>
+      </li>
+    </ul>
+    <ul class="mt-3 list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        List with Text Badge
+        <span class="badge badge-text-primary badge-pill">14</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
 ## Specifications
 
 - Badges come in 3 defined heights:
@@ -138,7 +167,7 @@ Used to display up to 3 characters (usually a number in a counter). Counter badg
 - When displaying a badge on any color other than white, make sure it meets [required contrast ratios](/foundations/accessibility/).
 
 {{< whats-changed-table >}}
-| Date       | Version | Notes          | Contributors |
+| Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------- | ------------ |
-| 11/23/2020 | 1.0.0   | Warning badge text color changed to be accessible. Warning text badge removed. |  E. Bohn, L. Kause, N. Springer   |
+| 11/23/2020 | 1.0.0 | Warning badge text color changed to be accessible. Warning text badge removed. | E. Bohn, L. Kause, N. Springer |
 {{</ whats-changed-table >}}
