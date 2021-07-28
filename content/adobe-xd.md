@@ -44,7 +44,6 @@ The library will be published, and you will be prompted to share the library. Yo
 
 Open a new or existing XD file. Switch panel view to "Assets" (if not already displayed) by clicking on the "Assets" icon in the bottom left (see Fig. A below). In the Assets panel, click "Document Assets" (see Fig. B below). Select the Modus UI Kit from the library list (see Fig C). The library of components is added to your document.
 
-
 ![Add the Library to Your Assets](/img/guide/xd/add_library_to_assets.png)
 
 ## 7. Start Designing and Prototyping!

@@ -292,7 +292,7 @@ Switches are selection controls that yield instantaneous actions. They have an o
 - Use a `fieldset` to create a switch group.
 
 {{< whats-changed-table >}}
-| Date       | Version | Notes          | Contributors |
+| Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------- | ------------ |
-| 11/23/2020 | 1.0.0   | Border color changed to be accessible. White background added for emphasis. | E. Bohn, L. Kause, N. Springer     |
+| 11/23/2020 | 1.0.0 | Border color changed to be accessible. White background added for emphasis. | E. Bohn, L. Kause, N. Springer |
 {{</ whats-changed-table >}}

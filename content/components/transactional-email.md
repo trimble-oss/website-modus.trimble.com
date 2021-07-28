@@ -51,14 +51,13 @@ Benton Sans as the official typeface for emails (Open Sans is the fallback font)
 
 **Header:** Contains the start of the primary page structure, logo, and graphics.
 
-*(Add language to specify how to create own image header: send them along to Tyler. Add dimensions! Add info about submitting for approval. Create illustrator/ Photoshop template.)*
+_(Add language to specify how to create own image header: send them along to Tyler. Add dimensions! Add info about submitting for approval. Create illustrator/ Photoshop template.)_
 
 **Content:** The message to the user that provides information about the system’s status and any additional actions he needs to take to complete the action. The content of the email includes a salutation, message, and optionally buttons or links.
 
 **Footer:** Contains the end of the primary page structure, alongside our standard Trimble sign-off and content. The footer contains links to privacy policy, terms of use, and copyright information.
 
 It is recommended that your system is constructed in a way to allow for the header and footer to be maintained separately from the content. If you need additional images hosted under the trimble.com domain, please get in touch with your main divisional Marcom team member.
-
 
 ### Behaviors
 
@@ -67,11 +66,13 @@ A transactional email is triggered automatically by the user’s action within t
 ### Editorial
 
 **Subject Line:** Make sure the subject line is informative, clear, free of jargon, and refers to the relevant system/ product. Clearly identify the source and reason the user is receiving the email.
+
 - GOOD: "Device 2 needs calibration - Product Name"
 - BAD: "Trimble Product Name - Device calibration alert"
 
 **Preheader and Email Content:**
 A successful transactional email is
+
 - Easy to view and comprehend
 - Focused on the primary action
 
@@ -95,9 +96,8 @@ A successful transactional email is
 Download the template
 </a>
 
-
 {{< whats-changed-table >}}
-| Date       | Version | Notes          | Contributors |
+| Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------- | ------------ |
-| 06/02/2021 | 1.1.0   | Newly added element. | Z. Kulpa, J. Dong |
+| 06/02/2021 | 1.1.0 | Newly added element. | Z. Kulpa, J. Dong |
 {{</ whats-changed-table >}}

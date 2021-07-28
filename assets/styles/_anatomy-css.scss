@@ -1,102 +1,102 @@
 // Anatomy CSS is only visible on desktop viewports
 @media (min-width: 768px) {
-.guide-example-block .guide-content-sample.anatomy-display-container {
-  padding-left: 250px;
-}
-
-td.anatomy-cell {
-  height: 120px;
-  padding: 20px 80px 20px 230px;
-  vertical-align: middle;
-}
-
-.hover-div {
-  position: absolute;
-  pointer-events: none;
-  z-index: 9999;
-
-  .hover-div-inner {
-    border: rgba(87, 155, 218, 0.2) solid 1px;
-    background: rgba(87, 155, 218, 0.2);
-    position: absolute;
-    pointer-events: none;
+  .guide-example-block .guide-content-sample.anatomy-display-container {
+    padding-left: 250px;
   }
 
-  .hover-padding-horz {
-    top: 0;
-    background-color: #ee00ff4b;
-    position: absolute;
-    pointer-events: none;
+  td.anatomy-cell {
+    height: 120px;
+    padding: 20px 80px 20px 230px;
+    vertical-align: middle;
   }
 
-  .hover-line-padding-vert {
-    border-left: #e06cd2 dotted 1px;
+  .hover-div {
     position: absolute;
     pointer-events: none;
-  }
+    z-index: 9999;
 
-  .hover-line-padding-horz {
-    border-top: #e06cd2 dotted 1px;
-    position: absolute;
-    pointer-events: none;
-  }
+    .hover-div-inner {
+      border: rgba(87, 155, 218, 0.2) solid 1px;
+      background: rgba(87, 155, 218, 0.2);
+      position: absolute;
+      pointer-events: none;
+    }
 
-  .hover-padding-text {
-    color: #e06cd2;
-    background: rgba(255, 255, 255, 0.65);
-    position: absolute;
-    font-size: 11px;
-    font-weight: 700;
-    pointer-events: none;
-    line-height: 1.4;
-  }
+    .hover-padding-horz {
+      top: 0;
+      background-color: #ee00ff4b;
+      position: absolute;
+      pointer-events: none;
+    }
 
-  .hover-div-margin {
-    border: rgba(241, 170, 77, 0.5) solid 1px;
-    background: rgba(241, 170, 77, 0.3);
-    position: absolute;
-    pointer-events: none;
-  }
+    .hover-line-padding-vert {
+      border-left: #e06cd2 dotted 1px;
+      position: absolute;
+      pointer-events: none;
+    }
 
-  .hover-line-margin-vert {
-    border-left: rgba(241, 170, 77, 0.5) dotted 1px;
-    position: absolute;
-    pointer-events: none;
-  }
+    .hover-line-padding-horz {
+      border-top: #e06cd2 dotted 1px;
+      position: absolute;
+      pointer-events: none;
+    }
 
-  .hover-line-margin-horz {
-    border-top: rgba(241, 170, 77, 0.5) dotted 1px;
-    position: absolute;
-    pointer-events: none;
-  }
+    .hover-padding-text {
+      color: #e06cd2;
+      background: rgba(255, 255, 255, 0.65);
+      position: absolute;
+      font-size: 11px;
+      font-weight: 700;
+      pointer-events: none;
+      line-height: 1.4;
+    }
 
-  .hover-margin-text {
-    color: rgb(241, 170, 77);
-    // background: rgba(255, 255, 255, 0.65);
-    position: absolute;
-    font-size: 11px;
-    font-weight: 700;
-    pointer-events: none;
-    text-align: center;
-  }
+    .hover-div-margin {
+      border: rgba(241, 170, 77, 0.5) solid 1px;
+      background: rgba(241, 170, 77, 0.3);
+      position: absolute;
+      pointer-events: none;
+    }
 
-  .hover-line-height {
-    border-top: rgba(87, 155, 218, 0.5) solid 2px;
-    border-bottom: rgba(87, 155, 218, 0.5) solid 2px;
-    border-right: rgba(87, 155, 218, 0.5) solid 2px;
-    position: absolute;
-    pointer-events: none;
-  }
+    .hover-line-margin-vert {
+      border-left: rgba(241, 170, 77, 0.5) dotted 1px;
+      position: absolute;
+      pointer-events: none;
+    }
 
-  .hover-height-text {
-    color: rgb(87, 155, 218);
-    // background: rgba(255, 255, 255, 0.8);
-    position: absolute;
-    font-size: 11px;
-    font-weight: 700;
-    pointer-events: none;
-    text-align: center;
-    line-height: 1.4;
+    .hover-line-margin-horz {
+      border-top: rgba(241, 170, 77, 0.5) dotted 1px;
+      position: absolute;
+      pointer-events: none;
+    }
+
+    .hover-margin-text {
+      color: rgb(241, 170, 77);
+      // background: rgba(255, 255, 255, 0.65);
+      position: absolute;
+      font-size: 11px;
+      font-weight: 700;
+      pointer-events: none;
+      text-align: center;
+    }
+
+    .hover-line-height {
+      border-top: rgba(87, 155, 218, 0.5) solid 2px;
+      border-bottom: rgba(87, 155, 218, 0.5) solid 2px;
+      border-right: rgba(87, 155, 218, 0.5) solid 2px;
+      position: absolute;
+      pointer-events: none;
+    }
+
+    .hover-height-text {
+      color: rgb(87, 155, 218);
+      // background: rgba(255, 255, 255, 0.8);
+      position: absolute;
+      font-size: 11px;
+      font-weight: 700;
+      pointer-events: none;
+      text-align: center;
+      line-height: 1.4;
+    }
   }
-}
 }

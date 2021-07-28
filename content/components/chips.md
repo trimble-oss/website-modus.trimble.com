@@ -13,7 +13,6 @@ aliases:
 
 Chips represent a complex piece of information in a compact form, such as an entity (person, place, or thing) or text. They allow users to enter information, make selections, filter content, or trigger actions. Unlike buttons, chips should appear dynamically as a group of multiple interactive elements.
 
-
 <img
   class="img-fluid bg-light border border-light"
   width="400"
@@ -232,7 +231,7 @@ Input chips can be in any of the following states:
 - When the chip has focus, pressing the "Space" key selects it or activates an action.
 
 {{< whats-changed-table >}}
-| Date       | Version | Notes          | Contributors |
+| Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------- | ------------ |
-| 11/23/2020 | 1.0.0   | Colors adjusted to be accessible.  |  E. Gunther  |
+| 11/23/2020 | 1.0.0 | Colors adjusted to be accessible. | E. Gunther |
 {{</ whats-changed-table >}}

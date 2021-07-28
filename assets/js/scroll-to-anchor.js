@@ -20,11 +20,7 @@ var scrolltoanchor = (function () {
         })
         .filter(function (t) {
           return (function (t) {
-            return (
-              t.pathname == window.location.pathname ||
-              ("/" + t.pathname == window.location.pathname &&
-                t.search == location.search)
-            );
+            return t.pathname == window.location.pathname || ("/" + t.pathname == window.location.pathname && t.search == location.search);
           })(t);
         });
     document.addEventListener("click", function (t) {
@@ -47,17 +43,11 @@ var scrolltoanchor = (function () {
             s = !1,
             m = null,
             h = function (t) {
-              if (s)
-                return (
-                  (document.documentElement.scrollTop = d),
-                  u.focus(),
-                  void window.history.pushState("", "", i)
-                );
+              if (s) return (document.documentElement.scrollTop = d), u.focus(), void window.history.pushState("", "", i);
               (l == d || t - m >= o) && (s = !0);
               var n = r((t - m) / o),
                 e = l + (d - l) * n;
-              (document.documentElement.scrollTop = e),
-                requestAnimationFrame(h);
+              (document.documentElement.scrollTop = e), requestAnimationFrame(h);
             };
           requestAnimationFrame(function (t) {
             (m = t), h(t);

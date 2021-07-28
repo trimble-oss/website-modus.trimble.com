@@ -44,15 +44,15 @@ One of the most important elements in your product are forms. They allow users t
 
 1. **Always use labels in form fields**
 
-    One of the biggest mistakes you can make when designing forms is using placeholder text in place of a label. Resist the temptation! You might argue that your form is going to look cleaner, since you are removing one extra element, but placeholder text is hard to read because it’s usually gray, and it disappears after the user clicks in the field. When the text disappears, the user might have trouble remembering what the expected input should be. This is not only a problem for users with cognitive disabilities, but also for someone who is interrupted when filling out the form or momentarily steps away from the form, for example to go to the bathroom. Always associate form controls with a text label.
+   One of the biggest mistakes you can make when designing forms is using placeholder text in place of a label. Resist the temptation! You might argue that your form is going to look cleaner, since you are removing one extra element, but placeholder text is hard to read because it’s usually gray, and it disappears after the user clicks in the field. When the text disappears, the user might have trouble remembering what the expected input should be. This is not only a problem for users with cognitive disabilities, but also for someone who is interrupted when filling out the form or momentarily steps away from the form, for example to go to the bathroom. Always associate form controls with a text label.
 
 2. **Add keyboard interactions**
 
-    Provide a logical reading and navigation order and ensure the form can be completed and submitted using a keyboard. Make sure that the user can tab into the form, navigate through it successfully using the keyboard, and submit the form with a return. Make sure you add focus states so the user can see, which element is in focus (see above).
+   Provide a logical reading and navigation order and ensure the form can be completed and submitted using a keyboard. Make sure that the user can tab into the form, navigate through it successfully using the keyboard, and submit the form with a return. Make sure you add focus states so the user can see, which element is in focus (see above).
 
 3. **Add appropriate form validation and error recovery**
 
-    Provide all necessary instructions and cues of how to avoid errors. Alert the user of any validation errors. Make sure the error message is in close visual proximity to the field (usually under the field) and can be read by a screen reader. And provide informative feedback: make sure the feedback is friendly and written in a language the user can understand. Avoid jargon (“Error 22: Exception processing message 27ccue388dje89”) or messages that do not provide any clues as to how the user can fix the error (“An unexpected error has occurred”).
+   Provide all necessary instructions and cues of how to avoid errors. Alert the user of any validation errors. Make sure the error message is in close visual proximity to the field (usually under the field) and can be read by a screen reader. And provide informative feedback: make sure the feedback is friendly and written in a language the user can understand. Avoid jargon (“Error 22: Exception processing message 27ccue388dje89”) or messages that do not provide any clues as to how the user can fix the error (“An unexpected error has occurred”).
 
 ### Add visual clues
 
@@ -75,7 +75,6 @@ Adding alternative (alt) text for images is the first principle of web accessibi
 - ### Request accessibility training
 
   Make sure your team understands how to design and develop products that are accessible. Modus will offer accessibility training that you can sign up for to get better acquainted with WCAG. You can [request it here](/community/contact/)!
-
 
 Designing for accessibility is easier and more important than you might think. Let’s make Trimble products usable to all humans, regardless of their abilities, economic status, age, education, or geographic location. Let’s design for everyone!
 
