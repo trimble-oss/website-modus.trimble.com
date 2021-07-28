@@ -335,7 +335,7 @@ Specific to each product's implementation
 #### Profile
 
 Used only for "global" MyTrimble account items. Appears consistently everywhere for anyone with a Trimble ID (should not be product specific).
-* Individual product navigation and preferences/settings will need to live in a "local" component/environment
+- Individual product navigation and preferences/settings will need to live in a "local" component/environment
 
 - On hover, display a tooltip reading:
   - MyTrimble:<br>

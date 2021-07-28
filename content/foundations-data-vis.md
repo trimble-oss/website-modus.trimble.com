@@ -110,7 +110,7 @@ img[alt="Gauge Example"] {
 
 ![Gauge Example](/img/data-vis-gauge.png)
 
-[Additional Resources](https://knowledge.domo.com/Training/Self-Service_Training/Best_Practices_Resource_Guide/Best_Practices_for_Choosing_Chart_Types)
+[Additional Resources](https://domohelp.domo.com/hc/en-us/articles/360042935294-Best-Practices-for-Choosing-Chart-Types)
 
 ## Accessibility
 

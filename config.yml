@@ -94,55 +94,55 @@ menu:
 
   components:
     - name: Accordions
-      url: /elements/accordions/
+      url: /components/accordions/
     - name: Alerts
-      url: /elements/alerts/
+      url: /components/alerts/
     - name: Badges
-      url: /elements/badges/
+      url: /components/badges/
     - name: Breadcrumbs
-      url: /elements/breadcrumbs/
+      url: /components/breadcrumbs/
     - name: Buttons
-      url: /elements/buttons/
+      url: /components/buttons/
     - name: Cards
-      url: /elements/cards/
+      url: /components/cards/
     - name: Chips
-      url: /elements/chips/
+      url: /components/chips/
     - name: Checkboxes
-      url: /elements/checkboxes/
+      url: /components/checkboxes/
     - name: Dropdowns
-      url: /elements/dropdowns/
+      url: /components/dropdowns/
     - name: Inputs
-      url: /elements/inputs/
+      url: /components/inputs/
     - name: Lists
-      url: /elements/lists/
+      url: /components/lists/
     - name: Messages
-      url: /elements/messages/
+      url: /components/messages/
     - name: Modals
-      url: /elements/modals/
+      url: /components/modals/
     - name: Navbar
-      url: /elements/navbar/
+      url: /components/navbar/
     - name: Pagination
-      url: /elements/pagination/
+      url: /components/pagination/
     - name: Progress Bars
-      url: /elements/progress-bars/
+      url: /components/progress-bars/
     - name: Radio Buttons
-      url: /elements/radio-buttons/
+      url: /components/radio-buttons/
     - name: Sliders
-      url: /elements/sliders/
+      url: /components/sliders/
     - name: Spinners
-      url: /elements/spinners/
+      url: /components/spinners/
     - name: Switches
-      url: /elements/switches/
+      url: /components/switches/
     - name: Tables
-      url: /elements/tables/
+      url: /components/tables/
     - name: Tabs
-      url: /elements/tabs/
+      url: /components/tabs/
     - name: Toasts
-      url: /elements/toasts/
+      url: /components/toasts/
     - name: Tooltips
-      url: /elements/tooltips/
+      url: /components/tooltips/
 #    - name: Transactional Email
-#      url: /elements/transactional-email/
+#      url: /components/transactional-email/
 
   resources:
     - name: "News & Articles"
