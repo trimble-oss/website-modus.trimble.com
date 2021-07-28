@@ -143,7 +143,7 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
 - Container (Height: 42px; Radius: 2px; Padding: 16px; Margin: 16px; solid color; no border; [level 3 shadow](/foundations/shadows-and-depth/)) _required_
 - Toast text (Font: Open Sans Semibold 14px) _required_
 - Leading non-interactive icon (16x16px) _optional_
-- Trailing close icon (16x16px) or a Text Only [Button](/components/buttons/)  _optional_
+- Trailing close icon (16x16px) or a Text Only [Button](/components/buttons/) _optional_
 
 <div class="guide-example-block my-3 py-3 bg-light">
   <div class="guide-content-sample anatomy-display-container">
@@ -246,8 +246,7 @@ Basic Toasts
 - Toasts should be used sparingly and only in instances that warrant removing the user from their current task. Too many toasts can be disorienting to users with cognitive issues.
 
 {{< whats-changed-table >}}
-| Date       | Version | Notes          | Contributors |
+| Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------- | ------------ |
-| 11/23/2020 | 1.0.0   | Background colors changed to be accessible. | E. Bohn, L. Kause, N. Springer     |
+| 11/23/2020 | 1.0.0 | Background colors changed to be accessible. | E. Bohn, L. Kause, N. Springer |
 {{</ whats-changed-table >}}
-

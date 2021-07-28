@@ -80,7 +80,7 @@ Progress indicators inform users about the status of ongoing processes, such as 
   - The intervals are announced to screen reader users via an `aria-live` region. Don't overwhelm screen reader users with continuous reading of every instant in a progress bar's trajectory. Announcing the progress at certain timed intervals (e.g. every 5 seconds), or at certain percentage intervals (e.g. every 10% or every 20%) is best.
 
 {{< whats-changed-table >}}
-| Date       | Version | Notes          | Contributors |
+| Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------- | ------------ |
-| 11/23/2020 | 1.0.0   | Background color changed to be accessible.  | E. Bohn, L. Kause, N. Springer     |
+| 11/23/2020 | 1.0.0 | Background color changed to be accessible. | E. Bohn, L. Kause, N. Springer |
 {{</ whats-changed-table >}}

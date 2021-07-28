@@ -183,7 +183,7 @@ Radio buttons are used to afford a single selection from two or more options.
 - If the focused radio button is not selected, "Space" key deselects the currently selected radio button and selects the focused radio button. It the focused radio button is selected, pressing the "Space" key does nothing.
 
 {{< whats-changed-table >}}
-| Date       | Version | Notes          | Contributors |
+| Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------- | ------------ |
-| 11/23/2020 | 1.0.0   | Border color changed to be accessible. White background added for emphasis. | E. Bohn, L. Kause, N. Springer     |
+| 11/23/2020 | 1.0.0 | Border color changed to be accessible. White background added for emphasis. | E. Bohn, L. Kause, N. Springer |
 {{</ whats-changed-table >}}

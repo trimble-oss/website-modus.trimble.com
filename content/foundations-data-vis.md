@@ -52,7 +52,7 @@ Categorical values should be labeled in logical increments, such as consecutive 
 
 ### Key
 
-A key explains what the plotted data in a graph represents. We recommend using no more than  five datasets in any given graph: any more will affect the comparative value of graphs. The key is generally located to the right of a graph. However, if the amount of items listed in the key exceeds that space or the span of the graph is limited, place the key below.
+A key explains what the plotted data in a graph represents. We recommend using no more than five datasets in any given graph: any more will affect the comparative value of graphs. The key is generally located to the right of a graph. However, if the amount of items listed in the key exceeds that space or the span of the graph is limited, place the key below.
 
 ### Tooltips
 

@@ -39,42 +39,42 @@ The following plan is broken down into four levels of achievement: **Bronze**, *
 
 #### BRONZE LEVEL: Foundational Alignment (6 months)
 
- {{< checklist >}}Logo Usage{{</ checklist >}}
- {{< checklist >}}Fonts{{</ checklist >}}
- {{< checklist >}}Color Palette & Variables{{</ checklist >}}
- {{< checklist >}}Header{{</ checklist >}}
- {{< checklist >}}Icons{{</ checklist >}}
+{{< checklist >}}Logo Usage{{</ checklist >}}
+{{< checklist >}}Fonts{{</ checklist >}}
+{{< checklist >}}Color Palette & Variables{{</ checklist >}}
+{{< checklist >}}Header{{</ checklist >}}
+{{< checklist >}}Icons{{</ checklist >}}
 
-#### SILVER LEVEL: Major Components  (6 months)
+#### SILVER LEVEL: Major Components (6 months)
 
- {{< checklist >}}Buttons{{</ checklist >}}
- {{< checklist >}}Inputs{{</ checklist >}}
- {{< checklist >}}Checkboxes, Radio Buttons, Switches{{</ checklist >}}
- {{< checklist >}}Cards or Tables (prioritize based on prominence in your product){{</ checklist >}}
- {{< checklist >}}Typography Classes{{</ checklist >}}
- {{< checklist >}}Responsive Grid & Spacing{{</ checklist >}}
+{{< checklist >}}Buttons{{</ checklist >}}
+{{< checklist >}}Inputs{{</ checklist >}}
+{{< checklist >}}Checkboxes, Radio Buttons, Switches{{</ checklist >}}
+{{< checklist >}}Cards or Tables (prioritize based on prominence in your product){{</ checklist >}}
+{{< checklist >}}Typography Classes{{</ checklist >}}
+{{< checklist >}}Responsive Grid & Spacing{{</ checklist >}}
 
 #### GOLD LEVEL: Styles & Accessibility (6 months)
 
- {{< checklist >}}Writing Style{{</ checklist >}}
- {{< checklist >}}Alerts, Messages, Toasts{{</ checklist >}}
- {{< checklist >}}Modals{{</ checklist >}}
- {{< checklist >}}Tabs or Accordions (prioritize based on prominence in your product){{</ checklist >}}
- {{< checklist >}}Cards or Tables (whichever is left over){{</ checklist >}}
- {{< checklist >}}Accessibility{{</ checklist >}}
+{{< checklist >}}Writing Style{{</ checklist >}}
+{{< checklist >}}Alerts, Messages, Toasts{{</ checklist >}}
+{{< checklist >}}Modals{{</ checklist >}}
+{{< checklist >}}Tabs or Accordions (prioritize based on prominence in your product){{</ checklist >}}
+{{< checklist >}}Cards or Tables (whichever is left over){{</ checklist >}}
+{{< checklist >}}Accessibility{{</ checklist >}}
 
 #### PLATINUM LEVEL: Other Minor Elements (6 months)
 
- {{< checklist >}}Tabs or Accordions (whichever is left over){{</ checklist >}}
- {{< checklist >}}Badges{{</ checklist >}}
- {{< checklist >}}Dropdowns{{</ checklist >}}
- {{< checklist >}}Chips{{</ checklist >}}
- {{< checklist >}}Sliders{{</ checklist >}}
- {{< checklist >}}Progress Bars, Spinners{{</ checklist >}}
- {{< checklist >}}Pagination{{</ checklist >}}
- {{< checklist >}}Tooltips{{</ checklist >}}
- {{< checklist >}}Breadcrumbs{{</ checklist >}}
- {{< checklist >}}Lists{{</ checklist >}}
+{{< checklist >}}Tabs or Accordions (whichever is left over){{</ checklist >}}
+{{< checklist >}}Badges{{</ checklist >}}
+{{< checklist >}}Dropdowns{{</ checklist >}}
+{{< checklist >}}Chips{{</ checklist >}}
+{{< checklist >}}Sliders{{</ checklist >}}
+{{< checklist >}}Progress Bars, Spinners{{</ checklist >}}
+{{< checklist >}}Pagination{{</ checklist >}}
+{{< checklist >}}Tooltips{{</ checklist >}}
+{{< checklist >}}Breadcrumbs{{</ checklist >}}
+{{< checklist >}}Lists{{</ checklist >}}
 
 If each stage takes 6 months to complete, your product should be fully aligned with Modus in two years.
 

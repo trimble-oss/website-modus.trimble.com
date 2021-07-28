@@ -124,6 +124,6 @@ For more information about North Star, please contact Michelle Casale, Trimble P
 
 ### Terra
 
-[Terra](https://terradesignsystem.com) is based on Trimble branded foundations very similar to Modus. It was created to style web-based marketing pages, such as product descriptions and e-commerce pages.  The scale of its components does not include complex tables and elements that are needed to create web-based products. Use Terra for marketing pages and Modus for the design of Trimble branded software products, applications, and services.
+[Terra](https://terradesignsystem.com) is based on Trimble branded foundations very similar to Modus. It was created to style web-based marketing pages, such as product descriptions and e-commerce pages. The scale of its components does not include complex tables and elements that are needed to create web-based products. Use Terra for marketing pages and Modus for the design of Trimble branded software products, applications, and services.
 
 For more information about Terra, please contact Sean Ortiz.

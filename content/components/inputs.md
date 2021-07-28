@@ -17,7 +17,6 @@ aliases:
 
 Input fields or text fields allow users to enter text into a UI. They typically appear in forms, often with [checkboxes](/components/checkboxes/), [radio buttons](/components/radio/), and [buttons](/components/buttons/). The user input is most often sent to a server for processing.
 
-
 <form>
   <div class="form-group">
     <label for="RegularInput">Regular Input</label>
@@ -57,7 +56,6 @@ Input fields or text fields allow users to enter text into a UI. They typically 
 </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-
 
 ## Usage
 
@@ -310,8 +308,7 @@ There are two sizes of input fields defined:
 - Allow resubmission and revalidation of the form information.
 
 {{< whats-changed-table >}}
-| Date       | Version | Notes          | Contributors |
+| Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------- | ------------ |
-| 11/23/2020 | 1.0.0   | Formatting adjusted to be accessible. | E. Bohn, L. Kause, N. Springer     |
+| 11/23/2020 | 1.0.0 | Formatting adjusted to be accessible. | E. Bohn, L. Kause, N. Springer |
 {{</ whats-changed-table >}}
-

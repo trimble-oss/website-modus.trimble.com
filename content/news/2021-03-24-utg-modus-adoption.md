@@ -6,7 +6,7 @@ image: "/img/blog/headers/2021-03-24-utg-modus-adoption.jpg"
 images:
   - img/blog/headers/2021-03-24-utg-modus-adoption.jpg
 headerBgColor: "#025E9F"
-tags: ["adoption","success story","case study","UTG"]
+tags: ["adoption", "success story", "case study", "UTG"]
 author: Laura Meskanen-Kundu
 blog: true
 layout: blog-post
@@ -62,4 +62,4 @@ By fully adopting Modus (we achieved “Platinum Level” adoption) into Trimble
 
 ![Before and After Shot 4](/img/utg-screens4.png)
 
-*Co-authored by Jan Nyberg*
+_Co-authored by Jan Nyberg_

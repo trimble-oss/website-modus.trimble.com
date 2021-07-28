@@ -19,28 +19,27 @@ Sketch is a vector graphics editor for macOS. It is primarily used for user inte
 
 ## 1. Install Sketch.
 
-   To design with the Modus Sketch UI Kit you should have the most recent version of Sketch installed.
+To design with the Modus Sketch UI Kit you should have the most recent version of Sketch installed.
 
 ## 2. Get the library.
 
-   Download the [Modus Design System library](https://drive.google.com/file/d/1PszMnpntQCsLPJfI58vqmfLETRtm4Q1k/view?usp=sharing).
+Download the [Modus Design System library](https://drive.google.com/file/d/1PszMnpntQCsLPJfI58vqmfLETRtm4Q1k/view?usp=sharing).
 
 ![Get the library](/img/guide/designer_01_add_library.png)
 
 ## 3. Add the library
 
-   Click on the “Add library to Sketch” button in the lower right of the modal.
+Click on the “Add library to Sketch” button in the lower right of the modal.
 
 ![Add the Library](/img/guide/designer_02_add_librarylrg.png)
 
 ## 4. Ready to go!
 
-   The library is now added to your Preferences -> Libraries list.
+The library is now added to your Preferences -> Libraries list.
 
 ![Modus Library Example](/img/guide/designer_03_Modus_library_example_screen.png)
 
-   Great job! You are now ready to start assembling UI’s!
-
+Great job! You are now ready to start assembling UI’s!
 
 ### Symbols
 

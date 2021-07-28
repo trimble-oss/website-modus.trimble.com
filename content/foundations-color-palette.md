@@ -213,9 +213,8 @@ Green Pale
 
 - [Full brand color palette](https://href.li/?https://sites.google.com/a/trimble.com/onetrimblebrand/color-palette/digital-colors)
 
-
 {{< whats-changed-table >}}
-| Date       | Version | Notes                                              | Contributors                   |
+| Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------------------------------------------- | ------------------------------ |
-| 11/23/2020 | 1.0.0   | Neutral progression reduced; yellow, red, and green progressions added. | M. Heighway, E. Bohn, L. Cook, A. Eidam |
+| 11/23/2020 | 1.0.0 | Neutral progression reduced; yellow, red, and green progressions added. | M. Heighway, E. Bohn, L. Cook, A. Eidam |
 {{</ whats-changed-table >}}
