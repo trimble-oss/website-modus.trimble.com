@@ -35,10 +35,29 @@ Chips represent a complex piece of information in a compact form, such as an ent
 
 ## Specifications
 
-<div class="bg-light mb-5 shadow-sm">
-  <div class="guide-example-block pb-4 pt-2">
-    <div class="guide-content-sample ml-5 pt-3">
-      <div class="chip chip-solid chip-input" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="right" data-content="<small><b>font-size:</b> 13px<br><b>border-radius:</b> 16px<br></small>">
+<script>
+$(function () {
+  $('[data-toggle="popover"]').popover('show')
+})
+</script>
+There are two sizes of Chips:
+
+- By default, Chips should have a height of 30px, border radius 16px  and a font size 13px
+- Smaller variant will have a height of 24px, border radius 16px and a font size 12px
+
+<table class="table table-bordered bg-white">
+  <thead class="thead-light">
+    <tr>
+      <th></th>
+      <th>Example</th>
+      <th>Height</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Default</th>
+      <td class="anatomy-cell">
+        <div class="chip chip-solid chip-input  anatomy-display-static" data-anatomy-colors="false" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="left" data-content="<small><b>font-size:</b> 13px<br><b>border-radius:</b> 16px<br></small>">
         <div class="chip-thumbnail">
           <img src="/img/headshot.png" height="24" width="24" alt="" />
         </div>
@@ -47,15 +66,24 @@ Chips represent a complex piece of information in a compact form, such as an ent
           <i class="material-icons">cancel</i>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-
-<script>
-$(function () {
-  $('[data-toggle="popover"]').popover('show')
-})
-</script>
+      </td>
+      <td>30px</td>
+    </tr>
+    <tr>
+      <th scope="row">Small</th>
+      <td class="anatomy-cell">
+        <div class="chip chip-sm chip-solid chip-input anatomy-display-static" data-anatomy-colors="false" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="left" data-content="<small><b>font-size:</b> 12px<br><b>border-radius:</b> 16px<br></small>">
+        <div class="chip-thumbnail">
+          <img src="/img/headshot.png" alt="">
+        </div>
+        <div class="chip-text">Jane</div>
+        <div class="chip-delete-right"><i class="modus-icon material-icons">cancel</i></div>
+      </div>
+      </td>
+      <td>24px</td>
+    </tr>
+  </tbody>
+</table>
 
 Input chips can be in any of the following states:
 
