@@ -69,3 +69,16 @@ main {
 .search-docs-toggle {
   z-index: 2222;
 }
+
+// temporary box shadow CSS rules until next release of Modus Bootstrap ships
+.shadow-sm {
+  box-shadow: 0 0 2px rgba(36, 35, 45, 0.3) !important;
+}
+
+.shadow {
+  box-shadow: 0 0 4px rgba(36, 35, 45, 0.3) !important;
+}
+
+.shadow-lg {
+  box-shadow: 0 0 8px rgba(36, 35, 45, 0.3) !important;
+}

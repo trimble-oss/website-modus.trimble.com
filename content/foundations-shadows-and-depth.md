@@ -25,7 +25,7 @@ Trimble uses three levels of elevation specified by different depths of drop sha
       </div>
       <div class="card-body py-1">
       <code>box-shadow:<br>
-      0 0 2px rgba(0,95,158,.3);</code>
+      0 0 2px rgba(36,35,45,.3);</code>
         <p class="mt-2">Used for: dropdowns, tooltips, default cards</p>
       </div>
     </div>
@@ -37,7 +37,7 @@ Trimble uses three levels of elevation specified by different depths of drop sha
       </div>
       <div class="card-body py-1">
       <code>box-shadow:<br>
-      0 0 4px rgba(0,95,158,.3);</code>
+      0 0 4px rgba(36,35,45,.3);</code>
         <p class="mt-2">
 Used for: sticky elements, cards active</p>
       </div>
@@ -50,7 +50,7 @@ Used for: sticky elements, cards active</p>
       </div>
       <div class="card-body py-1">
       <code>box-shadow:<br>
-      0 0 8px rgba(0,95,158,.3);</code>
+      0 0 8px rgba(36,35,45,.3);</code>
         <p class="mt-2">Used for: dialogs, modals, cards hover</p>
       </div>
     </div>
@@ -60,7 +60,7 @@ Used for: sticky elements, cards active</p>
 
 **Never use drop shadows on text, buttons, chips, sliders, or any other elements that do not include shadows in their guidelines.**
 
-Standard drop shadow color is blue. Always adjust color opacity to retain a maximum contrast ratio of 1.5:1. **Avoid dark shadows.**
+Standard drop shadow color is gray. Always adjust color opacity to retain a maximum contrast ratio of 1.5:1. **Avoid dark shadows.**
 
 ## Z-Index
 
