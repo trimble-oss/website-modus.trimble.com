@@ -28,79 +28,139 @@ Pagination allows the user to easily find and navigate through large amounts of 
 
 ## Specifications
 
-- Height: 32px
-- Font size: 14px
-
-<div class="bg-light p-4">
-<div class="guide-example-block my-3 py-2 mr-4">
-  <div class="guide-content-sample anatomy-display-container">
-    <nav aria-label="...">
-      <ul
-        class="pagination anatomy-display-static anatomy display"
-        data-anatomy-colors="false"
-      >
-        <li class="page-item">
-          <a class="page-link" href="#">
-            <i class="modus-icons">chevron_left</i>
-          </a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">
-            <i class="modus-icons">more_horizontal</i>
-          </a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">
-            3
-          </a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">
-            4
-          </a>
-        </li>
-        <li class="page-item active" aria-current="page">
-          <a class="page-link" href="#"
-            >5 <span class="sr-only">(current)</span></a
-          >
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">
-            6
-          </a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">
-            7
-          </a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">
-            <i class="modus-icons">more_horizontal</i>
-          </a>
-        </li>
-        <li class="page-item">
-          <a class="page-link" href="#">
-            <i class="modus-icons">chevron_right</i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <nav aria-label="...">
-      <ul class="pagination m-0 mt-5">
-        <li class="page-item">
-          <a
-            href="#"
-            class="page-link anatomy-display-static anatomy-display"
-            data-anatomy-colors="false"
-            >1</a
-          >
-        </li>
-      </ul>
-    </nav>
-  </div>
-  </div>
-</div>
+<table class="table table-bordered bg-white">
+  <thead class="thead-light">
+    <tr>
+      <th></th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Small</th>
+      <td class="anatomy-cell">
+        <nav aria-label="..." >
+          <ul class="pagination pagination-sm anatomy-display-static anatomy display" data-anatomy-colors="false"  style="font-size:12px">
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <i class="modus-icons">chevron_left</i>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <i class="modus-icons">more_horizontal</i>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#"> 3 </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#"> 4 </a>
+            </li>
+            <li class="page-item active" aria-current="page">
+              <a class="page-link" href="#">5 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#"> 6 </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#"> 7 </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <i class="modus-icons">more_horizontal</i>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <i class="modus-icons">chevron_right</i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Default</th>
+      <td class="anatomy-cell">
+        <nav aria-label="..." style="width: 300px">
+          <ul class="pagination anatomy-display-static anatomy display" data-anatomy-colors="false">
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <i class="modus-icons">chevron_left</i>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <i class="modus-icons">more_horizontal</i>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#"> 3 </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#"> 4 </a>
+            </li>
+            <li class="page-item active" aria-current="page">
+              <a class="page-link" href="#">5 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#"> 6 </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#"> 7 </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <i class="modus-icons">more_horizontal</i>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <i class="modus-icons">chevron_right</i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Large</th>
+      <td class="anatomy-cell">
+        <nav aria-label="..." style="width: 400px">
+          <ul class="pagination pagination-lg anatomy-display-static anatomy display" data-anatomy-colors="false"  style="font-size:16px">
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <i class="modus-icons">chevron_left</i>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <i class="modus-icons">more_horizontal</i>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#"> 3 </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#"> 4 </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <i class="modus-icons">more_horizontal</i>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#">
+                <i class="modus-icons">chevron_right</i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
