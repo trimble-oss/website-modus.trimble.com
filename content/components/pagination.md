@@ -313,9 +313,3 @@ Pagination allows the user to easily find and navigate through large amounts of 
 
 - Use a wrapping `<nav>` element to identify it as a navigation section to screen readers and other assistive technologies.
 - Pagination is built with the ordered list `ol` HTML elements, so screen readers can announce the number of available links.
-
-<style>
-.popover-body {
-  min-width: 120px;
-}
-</style>
