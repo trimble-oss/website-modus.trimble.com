@@ -39,8 +39,8 @@ Pagination allows the user to easily find and navigate through large amounts of 
     <tr>
       <th scope="row">Small</th>
       <td class="anatomy-cell">
-        <nav aria-label="..." >
-          <ul class="pagination pagination-sm anatomy-display-static anatomy display" data-anatomy-colors="false"  style="font-size:12px">
+        <nav aria-label="...">
+          <ul class="pagination pagination-sm anatomy-display-static" data-anatomy-colors="false" style="font-size: 12px">
             <li class="page-item">
               <a class="page-link" href="#">
                 <i class="modus-icons">chevron_left</i>
@@ -75,60 +75,76 @@ Pagination allows the user to easily find and navigate through large amounts of 
               <a class="page-link" href="#">
                 <i class="modus-icons">chevron_right</i>
               </a>
+            </li>
+          </ul>
+        </nav>
+        <nav aria-label="...">
+          <ul class="pagination pagination-sm m-0 mt-5">
+            <li class="page-item">
+              <a href="#" class="page-link anatomy-display-static" data-anatomy-colors="false" data-anatomy-popover="false">1</a>
             </li>
           </ul>
         </nav>
       </td>
     </tr>
-    <tr>
+    <tr st>
       <th scope="row">Default</th>
       <td class="anatomy-cell">
-        <nav aria-label="..." style="width: 300px">
-          <ul class="pagination anatomy-display-static anatomy display" data-anatomy-colors="false">
-            <li class="page-item">
-              <a class="page-link" href="#">
-                <i class="modus-icons">chevron_left</i>
-              </a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">
-                <i class="modus-icons">more_horizontal</i>
-              </a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#"> 3 </a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#"> 4 </a>
-            </li>
-            <li class="page-item active" aria-current="page">
-              <a class="page-link" href="#">5 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#"> 6 </a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#"> 7 </a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">
-                <i class="modus-icons">more_horizontal</i>
-              </a>
-            </li>
-            <li class="page-item">
-              <a class="page-link" href="#">
-                <i class="modus-icons">chevron_right</i>
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <div>
+          <nav aria-label="..." style="width: 300px">
+            <ul class="pagination anatomy-display-static" data-anatomy-colors="false">
+              <li class="page-item">
+                <a class="page-link" href="#">
+                  <i class="modus-icons">chevron_left</i>
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">
+                  <i class="modus-icons">more_horizontal</i>
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#"> 3 </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#"> 4 </a>
+              </li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">5 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#"> 6 </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#"> 7 </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">
+                  <i class="modus-icons">more_horizontal</i>
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">
+                  <i class="modus-icons">chevron_right</i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <nav aria-label="...">
+            <ul class="pagination m-0 mt-5">
+              <li class="page-item">
+                <a href="#" class="page-link anatomy-display-static" data-anatomy-colors="false" data-anatomy-popover="false">1</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </td>
     </tr>
     <tr>
       <th scope="row">Large</th>
       <td class="anatomy-cell">
         <nav aria-label="..." style="width: 400px">
-          <ul class="pagination pagination-lg anatomy-display-static anatomy display" data-anatomy-colors="false"  style="font-size:16px">
+          <ul class="pagination pagination-lg anatomy-display-static" data-anatomy-colors="false" style="font-size: 16px">
             <li class="page-item">
               <a class="page-link" href="#">
                 <i class="modus-icons">chevron_left</i>
@@ -154,6 +170,13 @@ Pagination allows the user to easily find and navigate through large amounts of 
               <a class="page-link" href="#">
                 <i class="modus-icons">chevron_right</i>
               </a>
+            </li>
+          </ul>
+        </nav>
+        <nav aria-label="...">
+          <ul class="pagination pagination-lg m-0 mt-5">
+            <li class="page-item">
+              <a href="#" class="page-link anatomy-display-static" data-anatomy-colors="false" data-anatomy-popover="false">1</a>
             </li>
           </ul>
         </nav>
@@ -290,3 +313,9 @@ Pagination allows the user to easily find and navigate through large amounts of 
 
 - Use a wrapping `<nav>` element to identify it as a navigation section to screen readers and other assistive technologies.
 - Pagination is built with the ordered list `ol` HTML elements, so screen readers can announce the number of available links.
+
+<style>
+.popover-body {
+  min-width: 120px;
+}
+</style>
