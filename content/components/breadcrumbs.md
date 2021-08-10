@@ -58,6 +58,20 @@ Breadcrumb is a one-line navigational element that supports wayfinding: it aids 
   </div>
 </div>
 
+### Breadcrumbs with Icons
+
+<div class="guide-example-block d-inline-block">
+  <div class="guide-sample">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><i class="modus-icons">dashboard</i><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><i class="material-icons">local_library</i><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><i class="modus-icons">clipboard</i>Data</li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
 ### Accessible Option
 
 <div class="guide-example-block d-inline-block">
@@ -129,8 +143,8 @@ Breadcrumb is a one-line navigational element that supports wayfinding: it aids 
 - Make sure the tab order matches the hierarchy.
 
 {{< whats-changed-table >}}
-| Date       | Version | Notes          | Contributors |
+| Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------- | ------------ |
-| 04/08/2021 | 1.0.1   | More guidance added based on best practices. | J. Wittmeyer  |
-| 11/23/2020 | 1.0.0   | Accessible option added.  | E. Bohn, L. Kause, N. Springer    |
+| 04/08/2021 | 1.0.1 | More guidance added based on best practices. | J. Wittmeyer |
+| 11/23/2020 | 1.0.0 | Accessible option added. | E. Bohn, L. Kause, N. Springer |
 {{</ whats-changed-table >}}
