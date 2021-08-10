@@ -87,7 +87,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
         </nav>
       </td>
     </tr>
-    <tr st>
+    <tr>
       <th scope="row">Default</th>
       <td class="anatomy-cell">
         <div>
