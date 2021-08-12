@@ -8,7 +8,7 @@ url: "/foundations/logo-usage/"
 
 <img src="/img/trimble-logo.svg" width="320" class="mb-2" alt="Trimble Logo">
 
-The [Trimble Logo](https://drive.google.com/a/trimble.com/folderview?id=0B_MIeXemKnpCTXVmRU1Db3R1Tms&usp=sharing) Guidelines policy covers the usage and treatment of the Trimble logo and its component pieces (i.e. the Globe/Triangle symbol and the Trimble name logo). The policy applies throughout the Trimble organization, worldwide. In the event that an individual applying this policy is not current on graphic techniques, it is always good practice to seek help from one of Trimble’s marketing communications professionals, who can help in interpreting the guidelines.
+The [Trimble Logo](https://sites.google.com/trimble.com/brand-refresh-2021/resources?authuser=0) Guidelines policy covers the usage and treatment of the Trimble logo and its component pieces (i.e. the Globe/Triangle symbol and the Trimble name logo). The policy applies throughout the Trimble organization, worldwide. In the event that an individual applying this policy is not current on graphic techniques, it is always good practice to seek help from one of Trimble’s marketing communications professionals, who can help in interpreting the guidelines.
 
 ## Purpose
 
@@ -51,7 +51,7 @@ The globe/triangle symbol is also a Trimble registered trademark. Therefore, the
 
 In all instances:
 
-- The [artwork provided](https://href.li/?https://drive.google.com/a/trimble.com/folderview?id=0B_MIeXemKnpCTXVmRU1Db3R1Tms&usp=sharing) is to be used – the artwork is not to be recreated or copied.
+- The [artwork provided](https://brandfolder.com/trimble-brandfolder/trimble) is to be used – the artwork is not to be recreated or copied.
 - The elements must be specifically positioned as shown below.
 - The globe/triangle symbol should not be used alone, except as noted above.
 
@@ -75,5 +75,5 @@ C. The registration mark does not overlap the “e”
 
 ![Trimble Logo with Spacing](/img/Trimble-Logo-Spacing.png)
 
-Download here: [Logo Dispensary](https://href.li/?https://www.google.com/url?q=https%3A%2F%2Fintranet.trimble.com%2Flogodispenser%2F&sa=D&sntz=1&usg=AFQjCNHgssWpZPsiZGtp0yH628wnjWX4Gg)
+Download here: [Logo Dispensary](https://brandfolder.com/trimble-brandfolder/trimble)
 Contact {{< cloakemail address="OneTrimble@Trimble.com" display="Corporate Marketing Communications" >}} for additional information.
