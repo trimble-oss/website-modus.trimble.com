@@ -5,8 +5,6 @@ description: "Auto-response emails that follow an action by a subscriber or user
 components: true
 images:
   - "/img/headers/elements/transactional-email.png"
-draft: false
-private: true
 ---
 
 ## Overview
@@ -45,7 +43,7 @@ One of the main goals of sending transactional emails is to instantaneously conn
   - Education/ training email series
   - Upsell or cross-sell emails
   - Product announcements or promotions
-  - Webinar, trashow, or event invitations and registration confirmations
+  - Webinar, tradeshow, or event invitations and registration confirmations
   - Welcome or onboarding emails
   - Trial expiration
 

@@ -31,12 +31,12 @@ npm run build
 
 ## Links
 
-| Resource       | Link                                    |
-| -------------- | --------------------------------------- |
-| Dev            | https://styleguide-dev.trimblemaps.com/ |
-| Pre-Prod       | https://styles-dev.trimblemaps.com/     |
-| Prod           | https://modus.trimble.com               |
-| Jenkins        | http://pri-dev-ub03:8080/view/Modus/    |
+| Resource | Link                                    |
+| -------- | --------------------------------------- |
+| Dev      | https://styleguide-dev.trimblemaps.com/ |
+| Pre-Prod | https://styles-dev.trimblemaps.com/     |
+| Prod     | https://modus.trimble.com               |
+| Jenkins  | http://pri-dev-ub03:8080/view/Modus/    |
 
 ## Testing and Audits
 
