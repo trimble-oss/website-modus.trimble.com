@@ -141,8 +141,8 @@ menu:
       url: /components/toasts/
     - name: Tooltips
       url: /components/tooltips/
-#    - name: Transactional Email
-#      url: /components/transactional-email/
+    - name: Transactional Emails
+      url: /components/transactional-emails/
 
   resources:
     - name: "News & Articles"
