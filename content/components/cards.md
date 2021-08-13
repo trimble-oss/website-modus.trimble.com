@@ -43,7 +43,7 @@ Cards are containers for displaying relevant and actionable information on a sin
 
 ## Specifications
 
-A card may contain any of the following elements (with the minimum of one), but they are all optional:
+A Card may contain any of the following elements (with the minimum of one), but they are all optional:
 
 - Card Container (with 1px border, 2px radius, 16px padding, and hover state with [Level 3 shadow](/foundations/shadows-and-depth/)) _required_
 - Image (top of card, no padding) _optional_
@@ -52,6 +52,7 @@ A card may contain any of the following elements (with the minimum of one), but 
 - Card Text _optional_
 - Button _optional_
 - Chips _optional_
+- Lists _optional_
 
 <br>
 
@@ -113,7 +114,7 @@ A card may contain any of the following elements (with the minimum of one), but 
 - Although the card element passes accessibility testing, content authors need to ensure the content within the card is accessible. For example, if you add an image to the card you need to include alternative text to pass accessibility testing.
 
 {{< whats-changed-table >}}
-| Date       | Version | Notes          | Contributors |
+| Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------- | ------------ |
-| 11/23/2020 | 1.0.0   | Shadow depth identified for hover state. Padding adjusted to fit the grid.  | E. Bohn, E. Gunther, L. Cook |
+| 11/23/2020 | 1.0.0 | Shadow depth identified for hover state. Padding adjusted to fit the grid. | E. Bohn, E. Gunther, L. Cook |
 {{</ whats-changed-table >}}
