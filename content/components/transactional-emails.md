@@ -4,8 +4,15 @@ layout: "single"
 description: "Auto-response emails that follow an action by a subscriber or user."
 components: true
 images:
-  - "/img/headers/elements/transactional-email.png"
+  - "/img/headers/elements/transactional-emails.png"
 ---
+
+<style>
+a[href^="mailto:"] {
+  text-decoration: none;
+  pointer-events: none;
+}
+</style>
 
 ## Overview
 
