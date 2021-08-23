@@ -24,7 +24,7 @@ Dropdowns (also known as a dropdown menu, drop menu, pull-down list, picklist) i
 **Don’t use when**
 
 - Providing more than 10 options.
-- Providing only two options. Instead, use a [Radio](/components/radio/) Group or a [Switch](/components/switches/).
+- Providing only two options. Instead, use a [Radio](/components/radio-buttons/) Group or a [Switch](/components/switches/).
 
 ## Specifications
 

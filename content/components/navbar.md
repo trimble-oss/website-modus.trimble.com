@@ -50,13 +50,13 @@ The navbar or the app header provides context through globally accessible menu o
 For left-to-right languages:
 
 1. Main menu: contains primary navigation for the current application.
-2. Product logo *(required)*
+2. Product logo _(required)_
 3. Dropdown: used for global content only (e.g. selecting a project)
 4. Search: global search for the app (not section or feature specific); any additional buttons should be placed in-between Search and Notifications
 5. Notifications
 6. Help
 7. Apps
-8. Profile *(required)*
+8. Profile _(required)_
 
 For right-to-left languages display order should be reversed.
 
@@ -241,11 +241,13 @@ At smaller viewpoints, some header elements consolidate into the overflow menu.
 ![Responsive Design](/img/app-header-responsive.svg)
 
 **Consolidate**
+
 - Applications
 - Help
 - Notifications
 
 **Don't consolidate**
+
 - Profile avatar
 - Search
 - Main menu
@@ -253,12 +255,13 @@ At smaller viewpoints, some header elements consolidate into the overflow menu.
 #### Logo Adaptations
 
 At smaller viewpoints, the product logo may
+
 - Reduce down to only the logomark;
 - For smallest width header, omit the logo entirely (when the header dropdown exists).
 
 #### Tooltips
 
-Tooltips display on hover. Follow the [Tooltip guidelines](/components/tooltips) for further reference.
+Tooltips display on hover. Follow the [Tooltip guidelines](/components/tooltips/) for further reference.
 
 ![Tooltips](/img/app-header-tooltips.svg)
 
@@ -278,7 +281,7 @@ Tooltips display on hover. Follow the [Tooltip guidelines](/components/tooltips)
 - On hover, display a tooltip reading "Search."
 - Expose the search overlay.
 - Search overlay:
-  - Follow the [Inputs](/components/inputs) guidelines.
+  - Follow the [Inputs](/components/inputs/) guidelines.
   - Clicking or tapping input field "x" icon removes user-entered text.
   - Clicking or tapping search tray "x" icon hides the search tray.
 - Search
@@ -335,12 +338,13 @@ Specific to each product's implementation
 #### Profile
 
 Used only for "global" MyTrimble account items. Appears consistently everywhere for anyone with a Trimble ID (should not be product specific).
+
 - Individual product navigation and preferences/settings will need to live in a "local" component/environment
 
 - On hover, display a tooltip reading:
   - MyTrimble:<br>
-  First-name Last-name<br>
-  email&#64;address.com
+    First-name Last-name<br>
+    email&#64;address.com
 - Display the Profile Menu when clicked or tapped
 - Profile Menu:
   - Contents:
@@ -363,7 +367,6 @@ Used only for "global" MyTrimble account items. Appears consistently everywhere 
 - Use title case for menu titles (e.g. Notifications).
 - Use sentence case for app descriptions and buttons (while preserving proper nouns).
 
-
 ### Accessibility
 
 - Provide alt text for product logo.
@@ -381,9 +384,9 @@ Used only for "global" MyTrimble account items. Appears consistently everywhere 
 
 Reference for more detail: [https://webaim.org/techniques/skipnav/](https://webaim.org/techniques/skipnav/)
 
-
 {{< whats-changed-table >}}
-| Date       | Version | Notes          | Contributors |
-| ---------- | ------- | -------------- | ------------ |
-| 05/26/21 | 1.1.0   | New pattern added.  | S. Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor  |
+
+| Date     | Version | Notes              | Contributors                                                                     |
+| -------- | ------- | ------------------ | -------------------------------------------------------------------------------- |
+| 05/26/21 | 1.1.0   | New pattern added. | S. Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor |
 {{</ whats-changed-table >}}

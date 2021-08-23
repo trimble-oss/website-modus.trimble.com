@@ -1,9 +1,13 @@
 @media (min-width: 768px) {
-  .bd-links {
+  #docs-nav {
     display: block !important;
   }
   .menu-left .sticky-top {
     border-bottom: 0 !important;
+  }
+  .sticky-offset {
+    overflow-y: auto;
+    max-height: 90vh;
   }
 }
 
