@@ -41,6 +41,17 @@ Input fields or text fields allow users to enter text into a UI. They typically 
     </div>
   </div>
   <div class="form-group">
+    <label for="Input4">Input with a button</label>
+    <div class="input-group">
+      <input class="form-control" placeholder="Placeholder Text" id="Input4">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary">
+          Go
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
     <label for="exampleFormControlSelect1">Custom Select Outlined</label>
     <select class="custom-select form-control" id="exampleFormControlSelect2">
       <option>Option 1</option>
@@ -301,7 +312,7 @@ There are two sizes of input fields defined:
 - When performing form validation, apply the `aria-invalid="true"` attribute to a form control. It will cause the screen reader to announce "invalid" when that control gets the focus.
 - Use `aria-labelledby` to overcome the 1:1 limitations of `label`.
 - Use `aria-describedby` (in addition to a `label`) to associate descriptive text to the form control.
-- Make sure the form is keyboard accessible. The "Tab" sequence needs to be logical and intuitive.
+- Make sure the form is keyboard accessible: all input fields need to be focusable. The “Tab” sequence needs to be logical and intuitive.
 - Do not rely on JavaScript alone for form submission, validation, and error recovery.
 - Alert the user of any validation errors in an apparent and accessible manner. Provide informative feedback messages.
 - Allow the user to easily access the form controls that need to be modified.
