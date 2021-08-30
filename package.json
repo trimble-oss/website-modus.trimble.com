@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@trimbleinc/modus-bootstrap": "^1.1.0",
-    "autoprefixer": "^10.3.1",
+    "autoprefixer": "^10.3.3",
     "cross-env": "^7.0.3",
     "htmlhint": "^0.15.1",
     "hugo-bin": "^0.75.0",
