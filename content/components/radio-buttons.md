@@ -9,6 +9,7 @@ keywords: forms, form
 aliases:
   - "/elements/radio/"
   - "/components/radio/"
+bootstrapURL: "/components/radio-buttons/"
 ---
 
 ## Overview

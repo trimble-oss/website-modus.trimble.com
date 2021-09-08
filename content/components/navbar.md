@@ -6,6 +6,7 @@ images:
   - "/img/headers/components/navbar.png"
 components: true
 contributors: ""
+bootstrapURL: "/components/navbars/"
 ---
 
 ## Overview

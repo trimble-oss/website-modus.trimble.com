@@ -6,6 +6,7 @@ components: true
 images:
   - "/img/headers/components/switches.png"
 keywords: forms, form
+bootstrapURL: "/components/switches/"
 ---
 
 ## Overview

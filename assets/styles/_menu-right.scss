@@ -19,6 +19,18 @@
   border-left: 1px solid transparent;
 }
 
+.menu-right a {
+  font-size: 13px;
+}
+
+hr {
+  opacity: 0.4;
+}
+
+.menu-right a[href^="http"]::after {
+  filter: saturate(0%);
+}
+
 #TableOfContents li a:hover {
   color: #00437b;
 }

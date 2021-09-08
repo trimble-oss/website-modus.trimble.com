@@ -8,6 +8,7 @@ components: true
 aliases:
   - "/elements/accordions/"
 contributors: ""
+bootstrapURL: "/components/accordions/"
 ---
 
 ## Overview
@@ -491,7 +492,9 @@ Accordions come in two sizes to accommodate space availability on the page or wi
 - Although the accordion element passes accessibility testing, content authors need to ensure the content that is added to the accordion is accessible. For example, if you add an image to the accordion header or panel you need to include alternative text to pass accessibility testing.
 
 {{< whats-changed-table >}}
-| Date       | Version | Notes          | Contributors |
-| ---------- | ------- | -------------- | ------------ |
-| 11/23/2020 | 1.0.0   | Spacing and typography adjustments.  | E. Gunther     |
+
+| Date       | Version | Notes                               | Contributors |
+| ---------- | ------- | ----------------------------------- | ------------ |
+| 11/23/2020 | 1.0.0   | Spacing and typography adjustments. | E. Gunther   |
+
 {{</ whats-changed-table >}}

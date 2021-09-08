@@ -7,6 +7,7 @@ images:
   - "/img/headers/components/tooltips.png"
 aliases:
   - "/elements/tooltips/"
+bootstrapURL: "/components/tooltips/"
 ---
 
 ## Overview

@@ -8,6 +8,7 @@ images:
 keywords: menu
 aliases:
   - "/elements/dropdowns/"
+bootstrapURL: "/components/dropdowns/"
 ---
 
 ## Overview

@@ -7,6 +7,7 @@ images:
   - "/img/headers/components/lists.png"
 aliases:
   - "/elements/lists/"
+bootstrapURL: "/components/lists/"
 ---
 
 ## Overview

@@ -1,11 +1,10 @@
 {
   "recommendations": [
-    "mkaufman.HTMLHint",
     "EditorConfig.EditorConfig",
-    "stylelint.vscode-stylelint",
     "esbenp.prettier-vscode",
+    "mkaufman.HTMLHint",
     "streetsidesoftware.code-spell-checker",
-    "2gua.rainbow-brackets",
+    "stylelint.vscode-stylelint",
     "anderseandersen.html-class-suggestions"
   ]
 }

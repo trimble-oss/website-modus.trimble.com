@@ -7,6 +7,5 @@ listJS: true
 layout: components
 disableScrollSpy: true
 aliases:
-  - "/components.html"
   - "/elements/"
 ---

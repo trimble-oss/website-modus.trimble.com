@@ -11,6 +11,7 @@ aliases:
   - "/forms.html"
   - "/inputs.html"
   - "/input-groups.html"
+bootstrapURL: "/components/inputs/"
 ---
 
 ## Overview

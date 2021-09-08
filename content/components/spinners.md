@@ -7,6 +7,7 @@ images:
   - "/img/headers/components/spinners.png"
 aliases:
   - "/elements/spinners/"
+bootstrapURL: "/components/spinners/"
 ---
 
 ## Overview

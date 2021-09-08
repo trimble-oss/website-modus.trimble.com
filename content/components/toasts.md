@@ -9,6 +9,7 @@ images:
 keywords: alert
 aliases:
   - "/elements/toasts/"
+bootstrapURL: "/components/toasts/"
 ---
 
 ## Overview

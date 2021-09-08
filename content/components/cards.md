@@ -7,6 +7,7 @@ images:
   - "/img/headers/components/cards.png"
 aliases:
   - "/elements/cards/"
+bootstrapURL: "/components/cards/"
 ---
 
 ## Overview

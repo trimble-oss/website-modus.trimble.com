@@ -7,6 +7,7 @@ images:
   - "/img/headers/components/chips.png"
 aliases:
   - "/elements/chips/"
+bootstrapURL: "/components/chips/"
 ---
 
 ## Overview

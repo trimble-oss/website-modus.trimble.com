@@ -7,6 +7,7 @@ images:
   - "/img/headers/components/tabs.png"
 aliases:
   - "/elements/tabs/"
+bootstrapURL: "/components/tabs/"
 ---
 
 ## Overview
