@@ -7,6 +7,7 @@ aliases:
   - "/colors.html"
   - "/foundations/color/"
 url: "/foundations/color-palette/"
+bootstrapURL: "/foundations/color-palette/"
 ---
 
 The following colors can be used for UI elements. When using colors, make sure the color contrast is high enough to meet [accessibility standards](/foundations/accessibility/).

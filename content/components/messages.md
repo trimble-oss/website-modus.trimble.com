@@ -7,6 +7,7 @@ images:
   - "/img/headers/components/messages.png"
 aliases:
   - "/elements/messages/"
+bootstrapURL: "/components/messages/"
 ---
 
 ## Overview

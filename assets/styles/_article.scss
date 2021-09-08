@@ -35,6 +35,7 @@ article li {
 }
 
 //external links have an icon
+.menu-right a[href^="http"]::after,
 article a:not(.stretched-link)[href^="http"]::after {
   content: "";
   width: 11px;
@@ -76,4 +77,16 @@ article h3:target::before {
   margin-top: -80px;
   visibility: hidden;
   top: 80px;
+}
+
+// anchors # for deep links within docs
+a.header-link {
+  opacity: 0;
+  pointer-events: none;
+}
+
+a.header-link::after {
+  content: "#";
+  min-width: 20px;
+  display: inline-block;
 }

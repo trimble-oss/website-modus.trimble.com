@@ -7,6 +7,7 @@ aliases:
   - "/text.html"
   - "/typography.html"
 url: "/foundations/typography/"
+bootstrapURL: "/foundations/typography/"
 ---
 
 ## Font Family

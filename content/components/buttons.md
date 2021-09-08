@@ -7,6 +7,7 @@ images:
   - "/img/headers/components/buttons.png"
 aliases:
   - "/elements/buttons/"
+bootstrapURL: "/components/buttons/"
 ---
 
 ## Overview

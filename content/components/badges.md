@@ -7,6 +7,7 @@ images:
   - "/img/headers/components/badges.png"
 aliases:
   - "/elements/badges/"
+bootstrapURL: "/components/badges/"
 ---
 
 ## Overview
@@ -167,7 +168,9 @@ Badges can be inserted into other elements.
 - When displaying a badge on any color other than white, make sure it meets [required contrast ratios](/foundations/accessibility/).
 
 {{< whats-changed-table >}}
-| Date | Version | Notes | Contributors |
-| ---------- | ------- | -------------- | ------------ |
-| 11/23/2020 | 1.0.0 | Warning badge text color changed to be accessible. Warning text badge removed. | E. Bohn, L. Kause, N. Springer |
+
+| Date       | Version | Notes                                                                          | Contributors                   |
+| ---------- | ------- | ------------------------------------------------------------------------------ | ------------------------------ |
+| 11/23/2020 | 1.0.0   | Warning badge text color changed to be accessible. Warning text badge removed. | E. Bohn, L. Kause, N. Springer |
+
 {{</ whats-changed-table >}}

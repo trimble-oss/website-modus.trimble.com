@@ -8,6 +8,7 @@ images:
   - "/img/headers/components/alerts.png"
 aliases:
   - "/elements/alerts/"
+bootstrapURL: "/components/alerts/"
 ---
 
 ## Overview
@@ -189,7 +190,9 @@ $(function () {
   - When describing a date or time range use “to” instead of “–”.
 
 {{< whats-changed-table >}}
+
 | Date       | Version | Notes                                              | Contributors                   |
 | ---------- | ------- | -------------------------------------------------- | ------------------------------ |
 | 11/23/2020 | 1.0.0   | Warning alert text color changed to be accessible. | E. Bohn, L. Kause, N. Springer |
+
 {{</ whats-changed-table >}}

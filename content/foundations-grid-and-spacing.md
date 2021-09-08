@@ -5,7 +5,8 @@ description: "Responsive grid and spacing guidelines create layout flexibility a
 foundations: true
 url: "/foundations/grid-and-spacing/"
 aliases:
-  - "/spacing.html"
+  - "/foundations/spacing/"
+bootstrapURL: "/foundations/grid-and-spacing/"
 ---
 
 Utilizing a responsive layout grid as a basis for design and development provides guidance for placement of components and consistency across devices enhancing user experience across multiple devices.

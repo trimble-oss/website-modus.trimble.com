@@ -8,6 +8,7 @@ images:
 aliases:
   - "/progress.html"
   - "/components/progress/"
+bootstrapURL: "/components/progress-bars/"
 ---
 
 ## Overview

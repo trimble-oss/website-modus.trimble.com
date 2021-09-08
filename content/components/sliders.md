@@ -8,6 +8,7 @@ images:
 keywords: forms, form, range
 aliases:
   - "/elements/sliders/"
+bootstrapURL: "/components/sliders/"
 ---
 
 ## Overview

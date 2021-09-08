@@ -8,6 +8,7 @@ images:
 keywords: forms, form
 aliases:
   - "/elements/checkboxes/"
+bootstrapURL: "/components/checkboxes/"
 ---
 
 ## Overview

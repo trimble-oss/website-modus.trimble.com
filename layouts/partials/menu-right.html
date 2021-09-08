@@ -9,5 +9,16 @@
     jQuery('#TableOfContents a').addClass('nav-link text-dark');
   });
 </script>
-  {{ partial "was-this-page-helpful.html" . }}
+<hr>
+
+{{- if .Params.bootstrapURL -}}
+<h5 class="pt-2 ml-3">
+Implementations
+</h5>
+<ul class="list-unstyled pl-0 ml-0">
+<li><a href="https://modus-bootstrap.trimble.com{{- .Params.bootstrapURL -}}" class="nav-link text-dark text-decoration-none" target="_blank" rel="noopener">Modus Bootstrap</a></li>
+</ul>
+{{- end -}}
+
+{{ partial "was-this-page-helpful.html" . }}
 </div>

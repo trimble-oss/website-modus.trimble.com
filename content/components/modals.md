@@ -8,6 +8,7 @@ images:
 keywords: "modal, dialog"
 aliases:
   - "/components/modal/"
+bootstrapURL: "/components/modals/"
 ---
 
 ## Overview

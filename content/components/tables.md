@@ -7,6 +7,7 @@ images:
   - "/img/headers/components/tables.png"
 aliases:
   - "/elements/tables/"
+bootstrapURL: "/components/tables/"
 ---
 
 ## Overview

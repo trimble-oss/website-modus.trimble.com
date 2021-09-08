@@ -7,6 +7,7 @@ images:
   - "/img/headers/components/breadcrumbs.png"
 aliases:
   - "/elements/breadcrumbs/"
+bootstrapURL: "/components/breadcrumbs/"
 ---
 
 ## Overview

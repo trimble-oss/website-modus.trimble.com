@@ -7,6 +7,7 @@ images:
   - "/img/headers/components/pagination.png"
 aliases:
   - "/elements/pagination/"
+bootstrapURL: "/components/pagination/"
 ---
 
 ## Overview
