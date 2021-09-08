@@ -26,7 +26,7 @@ For more information or questions about accessibility, visit https://webaim.org/
 - [WAVE](https://wave.webaim.org/): a suite of evaluation tools that identify accessibility and Web Content Accessibility Guideline (WCAG) errors.
 - [Web Developer Extension for Mozilla-Based Browsers](https://wave.webaim.org/extension/)
 - [What is Dyslexia?](https://www.bdadyslexia.org.uk/dyslexia/about-dyslexia/what-is-dyslexia)
-- [Dyslexia Style Guide from the British Dyslexia Association](/img/Dyslexia_Style_Guide_2018.pdf)
+- [Dyslexia Style Guide from the British Dyslexia Association](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide)
 - [Quick Guide to Making Your Content Accessible](https://www.dyslexic.com/blog/quick-guide-making-content-accessible/)
 
 <style>
