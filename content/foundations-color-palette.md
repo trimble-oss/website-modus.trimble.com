@@ -70,11 +70,11 @@ Blue Pale
 
 ## Neutral Progression
 
-Neutral progressions are used as background and text colors, borders, and button colors. **Trimble Gray is the primary** [text color](/foundations/typography/). Gray 8 is used as a secondary text color and default icon color. Gray Light is a background color for panels.
+Neutral progressions are used as background and text colors, borders, and button colors. **Trimble Gray is the primary** [text color](/foundations/typography/). Gray 6 is used as a secondary text color and default icon color. Gray Light is a background color for panels.
 
 <div class="row">
 
-{{< card-color hex="#363545">}}
+{{< card-color hex="#252a2e">}}
 Trimble Gray
 {{</ card-color >}}
 
