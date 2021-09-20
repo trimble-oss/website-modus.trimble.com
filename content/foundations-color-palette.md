@@ -38,7 +38,7 @@ Trimble Yellow
 Trimble Gray Light
 {{</ card-color >}}
 
-{{< card-color hex="#363545">}}
+{{< card-color hex="#252A2E">}}
 Trimble Gray
 {{</ card-color >}}
 
