@@ -22,23 +22,15 @@ Blue and neutral progression colors are used as primary UI colors in Trimble pro
 
 <div class="row">
 
-{{< card-color hex="#002D5B" >}}
+{{< card-color hex="#004F83" >}}
 Trimble Blue Dark
 {{</ card-color >}}
 
-{{< card-color hex="#00437B">}}
+{{< card-color hex="#0063A3">}}
 Trimble Blue
 {{</ card-color >}}
 
-{{< card-color hex="#005F9E">}}
-Trimble Blue Mid
-{{</ card-color >}}
-
-{{< card-color hex="#009AD9">}}
-Trimble Blue Light
-{{</ card-color >}}
-
-{{< card-color hex="#FFBE00">}}
+{{< card-color hex="#FBAD26">}}
 Trimble Yellow
 {{</ card-color >}}
 
@@ -46,7 +38,7 @@ Trimble Yellow
 Trimble Gray Light
 {{</ card-color >}}
 
-{{< card-color hex="#363545">}}
+{{< card-color hex="#252A2E">}}
 Trimble Gray
 {{</ card-color >}}
 
@@ -58,19 +50,19 @@ Trimble default color theme are based on blues and grays. Blue progressions are 
 
 <div class="row">
 
-{{< card-color hex="#07599B">}}
+{{< card-color hex="#0E416C">}}
 Blue Dark
 {{</ card-color >}}
 
-{{< card-color hex="#0D6AA8">}}
+{{< card-color hex="#0063A3">}}
 Blue
 {{</ card-color >}}
 
-{{< card-color hex="#197CB6">}}
+{{< card-color hex="#217CBB">}}
 Blue Light
 {{</ card-color >}}
 
-{{< card-color hex="#CFE1EE">}}
+{{< card-color hex="#DCEDF9">}}
 Blue Pale
 {{</ card-color >}}
 
@@ -82,40 +74,56 @@ Neutral progressions are used as background and text colors, borders, and button
 
 <div class="row">
 
-{{< card-color hex="#1B1A26">}}
-Gray Dark 2
-{{</ card-color >}}
-
 {{< card-color hex="#363545">}}
 Trimble Gray
 {{</ card-color >}}
 
-{{< card-color hex="#6A6976">}}
+{{< card-color hex="#171C1E">}}
+Gray 10
+{{</ card-color >}}
+
+{{< card-color hex="#353A40">}}
+Gray 9
+{{</ card-color >}}
+
+{{< card-color hex="#464B52">}}
 Gray 8
 {{</ card-color >}}
 
-{{< card-color hex="#8C8B96">}}
+{{< card-color hex="#585C65">}}
+Gray 7
+{{</ card-color >}}
+
+{{< card-color hex="#6A6E79">}}
 Gray 6
 {{</ card-color >}}
 
-{{< card-color hex="#AEAEB6">}}
+{{< card-color hex="#7D808D">}}
+Gray 5
+{{</ card-color >}}
+
+{{< card-color hex="#90939F">}}
 Gray 4
 {{</ card-color >}}
 
-{{< card-color hex="#D0D0D7">}}
+{{< card-color hex="#A3A6B1">}}
+Gray 3
+{{</ card-color >}}
+
+{{< card-color hex="#B7B9C3">}}
 Gray 2
 {{</ card-color >}}
 
-{{< card-color hex="#EAEAEF">}}
+{{< card-color hex="#CBCDD6">}}
+Gray 1
+{{</ card-color >}}
+
+{{< card-color hex="#E0E1E9">}}
 Gray 0
 {{</ card-color >}}
 
-{{< card-color hex="#F3F3F7" note="Trimble brand color, panel background">}}
+{{< card-color hex="#F1F1F6" note="Trimble brand color, panel background">}}
 Gray Light
-{{</ card-color >}}
-
-{{< card-color hex="#F9F9FB">}}
-Gray Half
 {{</ card-color >}}
 
 {{< card-color hex="#ffffff">}}
@@ -130,19 +138,19 @@ Yellow progressions are used as a secondary color in applications. They can be u
 
 <div class="row">
 
-{{< card-color hex="#FFA500" note="Warning Color">}}
+{{< card-color hex="#E49325" note="Warning Color">}}
 Yellow Dark
 {{</ card-color >}}
 
-{{< card-color hex="#FFBE00">}}
-Trimble Yellow
+{{< card-color hex="#FBAD26">}}
+Yellow
 {{</ card-color >}}
 
-{{< card-color hex="#FFD200">}}
+{{< card-color hex="#FEC157">}}
 Yellow Light
 {{</ card-color >}}
 
-{{< card-color hex="#FFF2CC">}}
+{{< card-color hex="#FFF5E4">}}
 Yellow Pale
 {{</ card-color >}}
 
@@ -154,19 +162,19 @@ Red progression should be used sparingly as **a warning color to indicate critic
 
 <div class="row">
 
-{{< card-color hex="#BC0911">}}
+{{< card-color hex="#AB1F26">}}
 Red Dark
 {{</ card-color >}}
 
-{{< card-color hex="#C81922" note="Danger/ Error Color">}}
+{{< card-color hex="#DA212C" note="Danger/ Error Color">}}
 Red
 {{</ card-color >}}
 
-{{< card-color hex="#D52A33">}}
+{{< card-color hex="#E86363">}}
 Red Light
 {{</ card-color >}}
 
-{{< card-color hex="#F4D1D3">}}
+{{< card-color hex="#FBD4D7">}}
 Red Pale
 {{</ card-color >}}
 
@@ -178,19 +186,19 @@ Green progression should be used sparingly **as a color indicating success**, po
 
 <div class="row">
 
-{{< card-color hex="#4A821F" note="Success Color">}}
+{{< card-color hex="#006638" note="Success Color">}}
 Green Dark
 {{</ card-color >}}
 
-{{< card-color hex="#5E9331">}}
+{{< card-color hex="#1E8A44">}}
 Green
 {{</ card-color >}}
 
-{{< card-color hex="#72A544">}}
+{{< card-color hex="#4EA646">}}
 Green Light
 {{</ card-color >}}
 
-{{< card-color hex="#DFE9D6">}}
+{{< card-color hex="#E0ECCF">}}
 Green Pale
 {{</ card-color >}}
 
