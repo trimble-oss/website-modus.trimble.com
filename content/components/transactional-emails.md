@@ -50,7 +50,7 @@ One of the main goals of sending transactional emails is to instantaneously conn
   - Education/ training email series
   - Upsell or cross-sell emails
   - Product announcements or promotions
-  - Webinar, tradeshow, or event invitations and registration confirmations
+  - Webinar, trade show, or event invitations and registration confirmations
   - Welcome or onboarding emails
   - Trial expiration
 
