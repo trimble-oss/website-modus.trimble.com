@@ -22,7 +22,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 | Active  | Mobile&nbsp;Patterns | D. Bedick, E. Bohn, R. Stillwell, N. Cadsawan, C. Starbird, L. Saenz, E. Gunther, J. A. Provin Silva                                               | 03/12/2021 |
 | Active  | Tables               | G. Leuhof, D. Donnell, G. Piltzer, H. Keller, K. Tran, S. Lucey, S. Williams, T. Ortiz, T. Manham, Z. Tran Do                                      | 02/03/2021 |
 | Active  | Icon Implementation  | S. Kaukomen, T. Manham, A. Shchegoleva, C. Krieg, E. Deleon, E. Gunther, N. Vasudevan, S. Ortiz | 08/18/2021 (reactivated) |
-| Inactive | Header/ Topnav  | S. Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor | Complete |
+| Inactive | Header/ Top nav  | S. Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor | Complete |
 | Inactive | Email Templates | Z. Kulpa, J. Dong, T. Barnard, T. Saunders | Complete |
 | Inactive | Data Visualization | E. Nowak, C. Willis, E. Bohn, T. Barnard | Complete |
 | Inactive | Icon Definitions | S. Kaukomen, S. Bali, T. Manham, M. Heighway, E. Nowak | Complete |
