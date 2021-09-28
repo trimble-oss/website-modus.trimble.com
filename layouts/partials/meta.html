@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
 
 <!-- Loads Modus from CDN -->
-<link rel="stylesheet" href="https://modus.trimble.com/css/modus.min-1.1.0.css">
+<link rel="stylesheet" href="https://modus.trimble.com/css/modus.min-1.2.0.css">
 
 <!-- Compiles and minifies the sites SASS files from /assets/css/ -->
 {{- $sassOptions := (dict "enableSourceMap" true) -}}
@@ -25,10 +25,10 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"><\/script>');</script>
 
-{{- if .IsHome -}}
+{{ if .IsHome -}}
 {{ hugo.Generator }}
 {{else}}
-{{- if not .Params.blog -}}
+{{ if not .Params.blog -}}
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet"
   href="https://modus.trimble.com/assets/{{ .Site.Params.modusIconsVersion }}/fonts/modus-icons.css">
