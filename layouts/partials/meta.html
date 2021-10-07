@@ -36,8 +36,9 @@
 <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL}}index.xml"
   title="{{ .Site.Title }} News & Articles" />
 {{- end }}
-<script src="/js/bootstrap.bundle.min.js"></script>
 {{- end }}
+
+<script src="/js/bootstrap.bundle.min.js"></script>
 
 <meta name="description"
   content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{- end -}}{{- end -}}">

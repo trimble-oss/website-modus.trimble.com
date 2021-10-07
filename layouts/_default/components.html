@@ -18,7 +18,7 @@
 <main role="main" class="my-5 container">
 
   <div class="container mb-5">
-
+    {{ if .Params.listJS }}
     <div class="row">
       <div class="col">
         <form class="w-100 mb-2">
@@ -28,14 +28,38 @@
         </form>
       </div>
     </div>
+    {{ end }}
 
     <div class="row list" id="listjs-list">
-      {{ range first 29 (where .Site.RegularPages ".Section" "components") }}
+
+      {{ if .Params.web }}
+      {{ range first 30 (where .Site.RegularPages ".Section" "components") }}
       {{- partial "card-component.html" . -}}
-      {{- end -}}
+      {{- end }}
+      {{- end }}
+
+      {{ if .Params.infield }}
+      {{ range first 30 (where .Site.RegularPages ".Section" "in-field") }}
+      {{- partial "card-component.html" . -}}
+      {{- end }}
+      {{- end }}
+
+      {{ if .Params.mobile}}
+      {{ range first 30 (where .Site.RegularPages ".Section" "mobile") }}
+      {{- partial "card-component.html" . -}}
+      {{- end }}
+      {{- end }}
+
+      {{ if .Params.desktop}}
+      {{ range first 30 (where .Site.RegularPages ".Section" "desktop") }}
+      {{- partial "card-component.html" . -}}
+      {{- end }}
+      {{- end }}
+
     </div>
   </div>
 
+  {{ if .Params.listJS }}
   <script src="/js/list.min.js"></script>
   <script>
     var searchInput = document.querySelector('#listjs-body input#search')
@@ -61,7 +85,7 @@
       history.replaceState(null, null, newUrl)
     });
   </script>
-
+  {{ end }}
 </main>
 
 {{- end -}}

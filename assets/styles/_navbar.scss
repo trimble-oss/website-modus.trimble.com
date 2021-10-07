@@ -33,6 +33,15 @@ body[data-url^="/news/"] .navbar-nav li a[href^="/community/"] {
   border-bottom: 2px solid #005f9e;
 }
 
+.navbar .dropdown-menu a {
+  border: 0;
+}
+
+.navbar .dropdown-menu.bg-white:focus,
+.navbar .dropdown-menu.bg-white:hover {
+  background-color: #fff !important;
+}
+
 .navbar-nav li a {
   border-bottom: 2px solid transparent;
   color: #00437b;
