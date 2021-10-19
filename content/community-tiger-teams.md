@@ -17,7 +17,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 | Upcoming  | Microinteractions & Animations | Calling candidates soon! |   |
 | Upcoming  | Side Panel | J. de Wit; Calling for more candidates soon! |   |
 | Upcoming  | Maps & Location Management | D. Murugan, E. Gunther; Calling for more candidates soon! |    |
-| **Upcoming**  | **Dark Mode** | **Join this Tiger Team!** [Volunteer here by September 10th!](/news/2021-08-26-dark-mode-tiger-team/) | 09/15/2021  |
+| Active  | Dark Mode | S. Kaukomen, A. C. Sivaraman, E. Gunther, J. de Wit, K. Phillips, M. Johns, P. Borgstein, T. Willimas, U. Meza | 09/15/2021  |
 | Active  | Side Navigation      | J. Wittmeyer, C. D. Savio Lazaro, S. Taylor, J. de Wit, E. Gunther, T. Manham, N. Cadsawan, P. Karukkuvel, E. Deleon, A. Tucker, L. Meskanen-Kundu | 06/21/2021 |
 | Active  | Mobile&nbsp;Patterns | D. Bedick, E. Bohn, R. Stillwell, N. Cadsawan, C. Starbird, L. Saenz, E. Gunther, J. A. Provin Silva                                               | 03/12/2021 |
 | Active  | Tables               | G. Leuhof, D. Donnell, G. Piltzer, H. Keller, K. Tran, S. Lucey, S. Williams, T. Ortiz, T. Manham, Z. Tran Do                                      | 02/03/2021 |
