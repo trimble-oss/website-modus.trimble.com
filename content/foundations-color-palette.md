@@ -204,7 +204,7 @@ Green Pale
 
 ![Text Color](/img/text-color.svg)
 
-## Download Swatch Files
+<!--## Download Swatch Files
 
 - [Adobe – ASE](https://drive.google.com/open?id=0B44_OKHenyj3UUp3V2dTNzc3UTA)
 - [SCSS](https://drive.google.com/open?id=0B44_OKHenyj3XzJLV1lxclFTYTg)
@@ -212,14 +212,15 @@ Green Pale
 - [Spreadsheet](https://drive.google.com/open?id=1kZZYozwWd_8Z_UeSQ_OpzPPB5pUX1BYTsudEQ47O78Q)
 - [Google Slides](https://drive.google.com/open?id=1nYtCUZ_dI6RsG_RVXAlA0THZZsah3fGFTnger3YVHMM)
 - [Paint.net](https://drive.google.com/file/d/0B44_OKHenyj3NDBPMkFQUms0dTA/view?usp=sharing)
-- [Sketch](https://drive.google.com/open?id=0B44_OKHenyj3blR1azhOTW41RzA)
+- [Sketch](https://drive.google.com/open?id=0B44_OKHenyj3blR1azhOTW41RzA)-->
 
 ## Extended Trimble Color Palette
 
-- [Full brand color palette](https://href.li/?https://sites.google.com/a/trimble.com/onetrimblebrand/color-palette/digital-colors)
+- [Full brand color palette](https://brandfolder.com/trimble-brandfolder/trimble)
 
 {{< whats-changed-table >}}
 | Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------------------------------------------- | ------------------------------ |
+| 10/19/2021 | 1.2.0 | New brand colors published.  | T. Bernard, E. Bohn, E. Gunther |
 | 11/23/2020 | 1.0.0 | Neutral progression reduced; yellow, red, and green progressions added. | M. Heighway, E. Bohn, L. Cook, A. Eidam |
 {{</ whats-changed-table >}}

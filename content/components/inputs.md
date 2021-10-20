@@ -77,10 +77,10 @@ Input fields or text fields allow users to enter text into a UI. They typically 
 
 ## Specifications
 
-- Label Text Color: {{< color-preview hex="#6A6976">}}
-- Input Text Color: {{< color-preview hex="#363545">}}
-- Placeholder Text Color: {{< color-preview hex="#D0D0D7">}}
-- Border Color: {{< color-preview hex="#EAEAEF">}} (bottom border {{< color-preview hex="#8C8B96">}})
+- Label Text Color: {{< color-preview hex="#464b52">}}
+- Input Text Color: {{< color-preview hex="#252a2e">}}
+- Placeholder Text Color: {{< color-preview hex="#B7b9c3">}}
+- Border Color: {{< color-preview hex="#e0e1e9">}} (bottom border {{< color-preview hex="#6a6e79">}})
 
 There are two sizes of input fields defined:
 
@@ -253,9 +253,9 @@ There are two sizes of input fields defined:
 ### Behaviors
 
 - Form inputs that are in focus should have a 2px bottom border using our active color {{< color-preview hex="#0C77BE">}}.
-- Form inputs that are <strong class="text-success">valid</strong> should have a 2px bottom border using our success color {{< color-preview hex="#4A821F">}}.
-- Form inputs that are <strong class="text-danger">invalid</strong> should have a 2px bottom border using our danger color {{< color-preview hex="#C81922">}}.
-- Form inputs that are <strong>disabled</strong> should use our Gray Light color {{< color-preview hex="#F3F3F7">}} as a background color
+- Form inputs that are <strong class="text-success">valid</strong> should have a 2px bottom border using our success color {{< color-preview hex="#006638">}}.
+- Form inputs that are <strong class="text-danger">invalid</strong> should have a 2px bottom border using our danger color {{< color-preview hex="#da212c">}}.
+- Form inputs that are <strong>disabled</strong> should use our Gray Light color {{< color-preview hex="#f1f1f6">}} as a background color
 
 <div class="guide-example-block d-inline-block">
   <div class="guide-sample">
