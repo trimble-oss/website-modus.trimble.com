@@ -20,7 +20,7 @@ The Tables Tiger Team has proposed improvements to the existing table component.
 
 - [Tables component guidelines](https://docs.google.com/document/d/1JwHy6Hqrj5EJY6deM5382STvM4InvV3OTdci4f1b9Ac/edit?usp=sharing)
 
-- [Figma file](https://www.figma.com/file/zfiaGJwNydBPVc4eVMwKeA/Tiger-Team-Table-Component?node-id=14%3A73)
+- [Figma file](https://www.figma.com/file/ZefO0mphKBer3MMDPGtQbY/Tiger-Team-Table-Component-Draft?node-id=14%3A73)
 
 When reviewing the documentation, take under consideration the needs of your product as well as other products at Trimble. Some questions you may want to ask during your review:
 
