@@ -13,15 +13,18 @@
   },
   "license": "private",
   "author": "Trimble",
+  "engines": {
+    "node": ">=12"
+  },
   "scripts": {
     "build": "npm-run-all lint-css && npx hugo && npm run lint-html",
     "build-dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run lint-html",
     "deploy": "cross-env s3-deploy './build/**/*.{css,html,ico,jpg,js,json,webmanifest,map,png,svg,xml}' --cwd './build/' --region us-east-1 --bucket prod-styles-trimblemaps --cache 31557600",
     "deploy:dev": "cross-env s3-deploy './build/**/*.{css,html,ico,jpg,js,json,webmanifest,map,png,svg,xml}' --cwd './build/' --region us-east-1 --bucket dev-styles-trimblemaps --cache 0",
     "imagemin": "npx imagemin-cli static/img/headers/components/*.png --out-dir=static/img/headers/components",
-    "lint-css": "stylelint \"assets/styles/*.scss\"",
+    "lint-css": "stylelint \"assets/styles/*.scss\" --fix",
     "lint-html": "htmlhint \"build/**/index.html\"",
-    "lint-js": "npx eslint \"assets/js/*.js\"",
+    "lint-js": "npx eslint \"assets/js/*.js\" --fix",
     "lint-links": "npx linkinator build --recurse --silent --skip styleguide-dev.trimblemaps.com",
     "lint-markdown": "npx markdownlint-cli content/**/*.md",
     "lint-spellcheck": "npx cspell \"content/**/*.md\"",
@@ -39,11 +42,11 @@
     "list.js": "^2.3.1",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.3.9",
-    "postcss-cli": "9.0.1",
+    "postcss-cli": "8.3.1",
     "prettier": "^2.4.1",
     "s3-deploy": "^1.4.0",
     "stylelint": "^13.13.1",
-    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^22.0.0"
   },
   "hugo-bin": {
