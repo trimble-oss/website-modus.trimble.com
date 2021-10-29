@@ -10,7 +10,7 @@ googleAnalytics: "UA-787590-52"
 params:
   title: Trimble Modus Design System
   modusVersion: "1.2"
-  modusBootstrapVersion: "1.2.0"
+  modusBootstrapVersion: "1.3.0"
   modusIconsVersion: "0.5.1"
   author: "Trimble"
   copyrightHolder: "Trimble Inc."

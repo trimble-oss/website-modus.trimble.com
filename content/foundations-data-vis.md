@@ -3,8 +3,6 @@ title: "Data Visualization"
 layout: "single"
 description: "Data visualization helps to communicate complex quantitative information."
 foundations: true
-aliases:
-  - "/data-vis.html"
 url: "/foundations/data-vis/"
 ---
 
