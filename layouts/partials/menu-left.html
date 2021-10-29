@@ -43,9 +43,11 @@
 
       {{- if .Params.components -}}
       {{ range first 30 (where .Site.RegularPages ".Section" "components") }}
+      {{- if not .Params.hidden -}}
       <li><a class="nav-link text-dark" href="{{ .URL }}">
           {{- .Name -}}
         </a></li>
+      {{- end }}
       {{- end }}
       {{- end -}}
 
