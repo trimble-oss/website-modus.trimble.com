@@ -3,8 +3,16 @@
 
 /* prettier-ignore */
 /* stylelint-disable */
+.highlight {
+  background-color: rgba(0, 0, 0, .05);
+  padding: 4px;
+  margin-bottom: 8px;
+}
 .highlight .hll {
   background-color: #ffc;
+}
+.highlight pre {
+  margin-bottom: 0;
 }
 .highlight .c {
   color: #60a0b0;
