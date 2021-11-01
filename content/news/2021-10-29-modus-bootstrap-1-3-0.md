@@ -2,10 +2,10 @@
 title: Modus Bootstrap v1.3.0
 date: 2021-10-29
 description: "Latest release brings improvements and fixes"
-image: "/img/blog/headers/2021-10-27-bootstrap-update.png"
+image: "/img/blog/headers/2021-10-29-bootstrap-update.png"
 images:
-  - /img/blog/headers/2021-10-27-bootstrap-update.png
-headerBgColor: "#F3F3F7"
+  - /img/blog/headers/2021-10-29-bootstrap-update.png
+headerBgColor: "#ECD8EB"
 author: Christian Oliff
 blog: true
 layout: blog-post
