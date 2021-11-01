@@ -1,7 +1,7 @@
 // blog posts
 header.header-blog {
   background-size: cover;
-  padding-top: 30% !important;
+  padding-top: 33% !important;
   background-position: center top;
 }
 
@@ -11,4 +11,8 @@ header.header-blog {
 
 .share svg:hover {
   opacity: 0.6;
+}
+
+body[data-url^="/news/"] h3 {
+  color: #000;
 }

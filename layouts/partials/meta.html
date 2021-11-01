@@ -28,7 +28,7 @@
 {{ if .IsHome -}}
 {{ hugo.Generator }}
 {{else}}
-{{ if not .Params.blog -}}
+{{ if not .Params.noIcons -}}
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet"
   href="https://modus.trimble.com/assets/{{ .Site.Params.modusIconsVersion }}/fonts/modus-icons.css">
