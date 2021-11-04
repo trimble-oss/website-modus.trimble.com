@@ -70,27 +70,30 @@ menu:
     - name: Writing Style
       url: /foundations/writing-style/
       weight: 2
+    - name: Voice & Tone
+      url: /foundations/voice-and-tone/
+      weight: 3
     - name: Typography
       url: /foundations/typography/
-      weight: 3
+      weight: 4
     - name: Color Palette
       url: /foundations/color-palette/
-      weight: 4
+      weight: 5
     - name: Icon Definitions
       url: /foundations/icon-definitions/
-      weight: 5
+      weight: 6
     - name: Accessibility
       url: /foundations/accessibility/
-      weight: 6
+      weight: 7
     - name: Grid & Spacing
       url: /foundations/grid-and-spacing/
-      weight: 7
+      weight: 8
     - name: Shadows & Depth
       url: /foundations/shadows-and-depth/
-      weight: 8
+      weight: 9
     - name: Data Visualization
       url: /foundations/data-vis/
-      weight: 9
+      weight: 10
 
   components:
     - name: Accordions
