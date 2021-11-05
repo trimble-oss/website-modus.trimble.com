@@ -17,8 +17,8 @@ aliases:
 </style>
 
 The "Vanilla" JS is the Bootstrap JavaScript include (see the <a href="/developers/">Developer Start</a> page).
-The Angular components can be found at <a href="https://valor-software.com/ngx-bootstrap/#/">ngx-bootstrap</a>
-and the React components can be found at <a href="https://react-bootstrap.github.io/">react-bootstrap</a>.
+The Angular components can be found at [ngx-bootstrap](https://valor-software.com/ngx-bootstrap/#/)
+and the React components can be found at [react-bootstrap](https://modus-react-bootstrap.trimble.com/).
 
 <table class="table table-striped status-table mt-4">
   <thead class="border-0 bg-white">
