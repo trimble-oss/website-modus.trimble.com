@@ -8,22 +8,22 @@ start: true
 
 <div class="row">
 
-{{< card-start title="Modus Bootstrap Guide" url="https://modus-bootstrap.trimble.com/" target="_blank" header="bootstrap.svg" class="bg-purple text-white py-4" >}}
+{{< card-start title="Modus Bootstrap" url="https://modus-bootstrap.trimble.com/" target="_blank" header="bootstrap.svg" class="bg-purple text-white py-4" >}}
 
 {{</ card-start >}}
 
-{{< card-start title="Modus Angular Material Site" class="bg-danger py-4 bg-coming-soon" header="angular.svg" >}}
+{{< card-start title="Modus React Bootstrap" url="https://modus-react-bootstrap.trimble.com/" target="_blank" class="bg-react py-4" header="react.svg" >}}
 
 {{</ card-start >}}
 
 </div>
 <div class="row">
 
-{{< card-start title="Modus React Site" class="bg-react py-4 bg-coming-soon" header="react.svg" >}}
+{{< card-start title="Modus Web Components" class="bg-web-components py-4 bg-coming-soon" header="web-components.svg" >}}
 
 {{</ card-start >}}
 
-{{< card-start title="Modus Web Components Site" class="bg-web-components py-4 bg-coming-soon" header="web-components.svg" >}}
+{{< card-start title="Modus Angular" class="bg-danger py-4 bg-coming-soon" header="angular.svg" >}}
 
 {{</ card-start >}}
 
