@@ -20,14 +20,16 @@ future communities.
 As you can hear and read from Life’s Work, our voice is empowering to the user, and
 resonates with partners, and future customers. We as a company listen first and solve problems next. Our brand voice does that as well. Speak about the user first through insightful language, and Trimble second, as an enabling support.
 
-Our voice projects *empathy, confidence and pride*.
+Our voice projects _empathy, confidence and pride_.
 
-<table  style="border: 1px solid #353645; padding: 15px;" border=1 padding=15>
-  <tr bgcolor=#efefef>
-    <th>&nbsp;</th>
-    <th><strong>Our voice is</strong></th>
-    <th><strong>Our voice is not</strong></th>
-  </tr>
+<table class="table table-bordered bg-white">
+ <thead class="thead-light">
+        <tr>
+        <th>&nbsp;</th>
+          <th>Our voice is</th>
+          <th>Our voice is not</th>
+        </tr>
+      </thead>
   <tr>
     <td><strong>Empathy</strong><br>Trimble is empathetic, and understanding of the work, challenges and wins of our customers.</td>
     <td>• Humane and generous<br>• Forthcoming with knowledge and problem solving<br>• That of a partner</td>
@@ -80,6 +82,7 @@ Microcopy refers to the short sentences and phrases that guide and engage users 
 Trimble microscopy uses our brand voice to project empathy, confidence and pride. Its tone is helpful and supportive, while prioritizing benefits over capabilities.
 
 Successful microcopy is
+
 - Simple. Uses language that is easily understood.
 - Clear. Has an obvious purpose.
 - Useful. Fulfills a need.
@@ -89,18 +92,21 @@ Successful microcopy is
 - Helpful. Indicates what to do next.
 
 ### Additional considerations:
+
 - Clever or witty writing is encouraged, as long it does not distract from or obfuscate the message.
 - When possible, suggest an action with clear benefits and results rather than commanding users to do something.
 - Convey the purpose of the message in the copy. Do not rely on images or visuals to provide context.
 - It is not necessary to be overly polite. It is more important to succinctly guide users onward with confidence.
 
-*Examples:*
+_Examples:_
 
-<table style="border: 1px solid #353645; padding: 15px;" border=1>
-  <tr style="background-color: #efefef;">
-    <th><strong>Yes</strong></th>
-    <th><strong>No</strong></th>
-  </tr>
+<table class="table table-bordered bg-white">
+  <thead class="thead-light">
+        <tr>
+          <th>Yes</th>
+          <th>No</th>
+        </tr>
+      </thead>
   <tr>
     <td>Sign in</td>
     <td>Let’s get started</td>
