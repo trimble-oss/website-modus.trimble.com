@@ -22,14 +22,14 @@ resonates with partners, and future customers. We as a company listen first and 
 
 Our voice projects _empathy, confidence and pride_.
 
-<table class="table table-bordered bg-white">
- <thead class="thead-light">
-        <tr>
-        <th>&nbsp;</th>
-          <th>Our voice is</th>
-          <th>Our voice is not</th>
-        </tr>
-      </thead>
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th class="w-50">&nbsp;</th>
+      <th class="w-25">Our voice is</th>
+      <th class="w-25">Our voice is not</th>
+    </tr>
+  </thead>
   <tr>
     <td><strong>Empathy</strong><br>Trimble is empathetic, and understanding of the work, challenges and wins of our customers.</td>
     <td>• Humane and generous<br>• Forthcoming with knowledge and problem solving<br>• That of a partner</td>
@@ -100,13 +100,13 @@ Successful microcopy is
 
 _Examples:_
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
-        <tr>
-          <th>Yes</th>
-          <th>No</th>
-        </tr>
-      </thead>
+    <tr>
+      <th class="w-50">Yes</th>
+      <th class="w-50">No</th>
+    </tr>
+  </thead>
   <tr>
     <td>Sign in</td>
     <td>Let’s get started</td>

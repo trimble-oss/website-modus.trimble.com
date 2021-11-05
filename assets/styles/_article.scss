@@ -34,7 +34,7 @@ article li {
   // font-size: 1rem;
 }
 
-//external links have an icon
+// external links have an icon
 .menu-right a[href^="http"]::after,
 article a:not(.stretched-link)[href^="http"]::after {
   content: "";
@@ -89,4 +89,24 @@ a.header-link::after {
   content: "#";
   min-width: 20px;
   display: inline-block;
+}
+
+.docs-callout {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #eee;
+  border-left-width: 0.25rem !important;
+  border-radius: 0.25rem;
+}
+
+.docs-callout-danger {
+  border-left-color: #c81922;
+}
+
+.docs-callout-warning {
+  border-left-color: #ffa500 !important;
+}
+
+.docs-callout-info {
+  border-left-color: #cfe1ee !important;
 }

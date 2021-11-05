@@ -5,12 +5,12 @@ node_modules
 build
 public/
 resources/
+web/
 
 # misc
-.changelog
 .DS_Store
+.hugo_build.lock
 npm-debug.log
 yarn-error.log
 yarn.lock
 .yarnclean
-.vscode/settings.json
