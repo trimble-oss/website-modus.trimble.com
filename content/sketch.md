@@ -23,7 +23,7 @@ To design with the Modus Sketch UI Kit you should have the most recent version o
 
 ## 2. Get the library.
 
-Download the [Modus Design System library](https://drive.google.com/file/d/1PszMnpntQCsLPJfI58vqmfLETRtm4Q1k/view?usp=sharing).
+Download the [Modus Design System library](https://drive.google.com/file/d/1exGAlPMJR4ivrtP7OrMlcpTsKJobK1io/view?usp=sharing).
 
 ![Get the library](/img/guide/designer_01_add_library.png)
 
