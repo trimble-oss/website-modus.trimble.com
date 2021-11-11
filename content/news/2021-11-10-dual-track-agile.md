@@ -5,7 +5,7 @@ description: "The art of fitting design into Agile development"
 image: "/img/blog/headers/2021-11-10-dual-track-agile.png"
 images:
   - /img/blog/headers/2021-11-10-dual-track-agile.png
-headerBgColor: "#ECD8EB"
+headerBgColor: "#F5C501"
 author: Kathy Davies
 blog: true
 layout: blog-post
