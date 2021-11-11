@@ -56,7 +56,7 @@ The members of the [Trimble UX Board](https://sites.google.com/trimble.com/trimb
 
 ## Transparency of Progress
 
-Modus aims to maintain open communication as to its progress. We readily share updates, [the backlog](https://jira.trimble.tools/secure/RapidBoard.jspa?rapidView=5332&projectKey=DDS&view=planning&issueLimit=100), and [the roadmap](https://miro.com/app/board/o9J_kvewBgE=/) with the community.
+Modus aims to maintain open communication as to its progress. We readily share updates, [the backlog](https://jira.trimble.tools/secure/RapidBoard.jspa?rapidView=5332&projectKey=DDS&view=planning&issueLimit=100), and [the roadmap](https://confluence.trimble.tools/display/DDS/Modus+Roadmap) with the community.
 
 ## Other UX Resources at Trimble
 
