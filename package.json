@@ -34,18 +34,18 @@
     "test": "npm-run-all lint-css lint-js lint-markdown lint-html lint-links"
   },
   "devDependencies": {
-    "@trimbleinc/modus-bootstrap": "^1.3.0",
+    "@trimbleinc/modus-bootstrap": "^1.3.1",
     "autoprefixer": "10.4.0",
     "cross-env": "7.0.3",
-    "htmlhint": "0.16.0",
-    "hugo-bin": "0.77.2",
+    "htmlhint": "0.16.1",
+    "hugo-bin": "0.77.4",
     "list.js": "2.3.1",
     "npm-run-all": "4.1.5",
     "postcss": "8.3.11",
     "postcss-cli": "9.0.2",
     "prettier": "^2.4.1",
     "s3-deploy": "^1.4.0",
-    "stylelint": "14.0.1",
+    "stylelint": "14.1.0",
     "stylelint-config-prettier": "9.0.3",
     "stylelint-config-standard-scss": "2.0.1"
   },
