@@ -54,7 +54,8 @@ A story is broken into repeatable steps (columns). As the story is completed, it
 - Backlog
 - To Do
 - In Progress
-- Selected for Development (we will add this type of column once we start working with other dev teams)
+- Selected for Development
+- In Review & QA
 - Done
 
 The DDS kanban board is set up with 5 columns:
@@ -67,7 +68,7 @@ The DDS kanban board is set up with 5 columns:
 
 ## Epics
 
-Epics organize stories into well understood categories for filtering and scanning. The DDS epics are loosely based on the initial categories of work outlined in the [Modus Roadmap](https://href.li/?https://miro.com/app/board/o9J_kvewBgE=/). They are represented as “swimlanes” on the boards. Our epics can be divided into three categories: evergreen epics, formative epics for early growth, and epics representing growth and change.
+Epics organize stories into well understood categories for filtering and scanning. The DDS epics are loosely based on the initial categories of work outlined in the [Modus Roadmap](https://confluence.trimble.tools/display/DDS/Modus+Roadmap). They are represented as “swimlanes” on the boards. Our epics can be divided into three categories: evergreen epics, formative epics for early growth, and epics representing growth and change.
 
 ### Evergreen Epics
 

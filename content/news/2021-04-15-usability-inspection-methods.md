@@ -14,7 +14,7 @@ layout: blog-post
 ---
 
 <br><br>
-Do you feel like you don’t have enough time to do usability testing including the recruitment of participants, performing the test, analysing… Pfff… and finally writing a report with results to improve the User Interface? Do you feel like you need to quickly find major usability issues that could cause big problems within a short period of time? No worries, usability inspection methods can help you out.
+Do you feel like you don’t have enough time to do usability testing including the recruitment of participants, performing the test, analysing… and finally writing a report with results to improve the User Interface? Do you feel like you need to quickly find major usability issues that could cause big problems within a short period of time? No worries, usability inspection methods can help you out.
 
 ![Involving the User](/img/usability-inspection-1.jpg)
 
