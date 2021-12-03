@@ -31,7 +31,23 @@ Tables are ideal for displaying data in rows and columns. They organize informat
 
 ## Specifications
 
-**Alignment**
+Data tables should
+- Show values across multiple categories and measures.
+- Allow for filtering and ordering when comparison is not a priority.
+- Help users visualize and scan many values from an entire data set.
+- Help users find other values in the data hierarchy through use of links.
+- Minimize clutter by only including values that support the data’s purpose.
+- Include a summary row to surface the column totals (if applicable).
+- Not include calculations within the summary row.
+
+### Style
+
+#### Typography
+
+#### Alignment
+
+### Structure
+
 
 Column content types are built into the component props so the following alignment rules are followed:
 
