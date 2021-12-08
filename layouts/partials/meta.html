@@ -14,7 +14,7 @@
 <!-- Compiles and minifies the sites SASS files from /assets/css/ -->
 {{- $sassOptions := (dict "enableSourceMap" true) -}}
 {{ $styles := resources.Get "styles/styles.scss" | toCSS $sassOptions | postCSS | minify }}
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}?v{{ .Hugo.Version }}">
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}?v{{ hugo.Version }}">
 
 <!--
 <link rel="stylesheet" href="https://modus.trimble.com/css/modus-layout.min-{{ .Site.Params.version }}.css">
