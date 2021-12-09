@@ -31,136 +31,248 @@ Tables are ideal for displaying data in rows and columns. They organize informat
 
 ## Specifications
 
-**Alignment**
-
-Column content types are built into the component props so the following alignment rules are followed:
-
-- Numerical = Right aligned
-- Textual data = Left aligned
-- Align headers with their related data
-- Center align images/components/icons and buttons when in their own columns
+### Typography
 
 <table class="table table-bordered bg-white">
   <thead class="thead-light">
     <tr>
-      <th class="icon-only"></th>
-      <th>Name</th>
-      <th class="text-right">Date</th>
-      <th class="text-right">Sales Revenue</th>
-      <th class="icon-only"></th>
+      <th>Class</th>
+      <th>Font Size</th>
+      <th>Font Weight</th>
+      <th>Font Color</th>
+      <th>Text Transform</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row" class="icon-only">
-        <div class="custom-control custom-checkbox">
-          <input
-            type="checkbox"
-            checked=""
-            class="custom-control-input"
-            id="tableCheckbox1"
-            name="example1"
-          />
-          <label class="custom-control-label" for="tableCheckbox1"></label>
-        </div>
-      </th>
-      <td>John Doe</td>
-      <td class="text-right">06/10/19</td>
-      <td class="text-right text-success">$100</td>
-      <td scope="row" class="icon-only">
-        <div class="dropdown">
-          <button
-            class="btn btn-icon-only btn-text-dark rounded-circle"
-            type="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <i class="modus-icons">more_vertical</i>
-          </button>
-          <div class="dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </div>
-      </td>
+      <td>Header</td>
+      <td>Body-1/ 14px</td>
+      <td>SemiBold/ 600</td>
+      <td>Gray 8 #464B52/td>
+      <td>Title Case</td>
     </tr>
     <tr>
-      <td scope="row" class="icon-only">
-        <div class="custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input" id="tableCheckbox2" name="example2" />
-          <label class="custom-control-label" for="tableCheckbox2"></label>
-        </div>
-      </td>
-      <td>Jane Doe</td>
-      <td class="text-right">08/01/19</td>
-      <td class="text-right text-success">$150</td>
-      <td scope="row" class="icon-only">
-        <div class="dropdown">
-          <button
-            class="btn btn-icon-only btn-text-dark rounded-circle"
-            type="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <i class="modus-icons">more_vertical</i>
-          </button>
-          <div class="dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </div>
-      </td>
+      <td>Row</td>
+      <td>Body-1/ 14px</td>
+      <td>SemiBold/ 600</td>
+      <td>Trimble Gray #252A2E</td>
+      <td>None</td>
     </tr>
     <tr>
-      <td scope="row" class="icon-only">
-        <div class="custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input" id="tableCheckbox3" name="example3" />
-          <label class="custom-control-label" for="tableCheckbox3"></label>
-        </div>
-      </td>
-      <td>Bob Smith</td>
-      <td class="text-right">09/04/19</td>
-      <td class="text-right text-danger">-$50</td>
-      <td scope="row" class="icon-only">
-        <div class="dropdown">
-          <button
-            class="btn btn-icon-only btn-text-dark rounded-circle"
-            type="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            <i class="modus-icons">more_vertical</i>
-          </button>
-          <div class="dropdown-menu dropdown-menu-right">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </div>
-      </td>
+      <td>Link Text</td>
+      <td>Body-1/14px</td>
+      <td>SemiBold/ 600</td>
+      <td>Blue Light #217CBB</td>
+      <td>Underline on hover</td>
     </tr>
   </tbody>
 </table>
 
-**Data tables should**
+### Alignment
 
-- Show values across multiple categories and measures.
-- Allow for filtering and ordering when comparison is not a priority.
-- Help users visualize and scan many values from an entire data set.
-- Help users find other values in the data hierarchy through use of links.
-- Minimize clutter by only including values that supports the data’s purpose.
-- Include a summary row to surface the column totals.
-- Not include calculations within the summary row.
-- Focus on minimizing header titles.
+Follow these rules, when aligning alphanumeric and numeric input types in a column:
+- Numerical data - right-aligned
+- Textual data - left-aligned
+- Align headers with their respective data
+- Center-align images, components, icons, and buttons when in their own columns.
 
-<!--### Behaviors-->
+### Structure
 
-### Editorial
+<table class="table table-bordered bg-white">
+  <thead class="thead-light">
+    <tr>
+      <th>Class</th>
+      <th>Height</th>
+      <th>Min Width</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header Default</td>
+      <td>48px</td>
+      <td>16px</td>
+    </tr>
+    <tr>
+      <td>Header Condensed</td>
+      <td>32px</td>
+      <td>16px</td>
+    </tr>
+    <tr>
+      <td>Row Default</td>
+      <td>48px</td>
+      <td>16px</td>
+    </tr>
+    <tr>
+      <td>Row Condensed</td>
+      <td>32px</td>
+      <td>16px</td>
+    </tr>
+  </tbody>
+</table>
+
+### Background Color
+
+<table class="table table-bordered bg-white">
+  <thead class="thead-light">
+    <tr>
+      <th>Class</th>
+      <th>Color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Header</td>
+      <td>Gray Light #F1F1F6</td>
+    </tr>
+    <tr>
+      <td>List Table Row</td>
+      <td>White #FFFFFF</td>
+    </tr>
+    <tr>
+      <td>Row Stripe</td>
+      <td>Row striping is not recommended. It should be used as a last resort to increase contrast between data rows. Make sure to retain appropriate contrast ratios (<a href="/foundations/accessibility">Accessibility</a>), if you need to use row striping.</td>
+    </tr>
+    <tr>
+      <td>Selected Row</td>
+      <td>Blue Pale #DCEDF9</td>
+    </tr>
+    <tr>
+      <td>Row Hover</td>
+      <td>Blue Pale #DCEDF9</td>
+    </tr>
+    <tr>
+      <td>Data Table Read-Only Row</td>
+      <td>Gray 0 #E0E1E9</td>
+    </tr>
+    <tr>
+      <td>Data Table Editable Row</td>
+      <td>White #FFFFFF</td>
+    </tr>
+  </tbody>
+</table>
+
+### Custom Border/ Background Color
+
+Consider using labels/ icons to highlight the cell rather than border/ background. If use dictates, the need for border/ background color, follow color palette guidelines.
+
+![Table Colors](img/table-colors.png)
+
+## Types
+
+There are three types of tables:
+1. **List Table**. Read-only table. Values cannot be edited or manipulated; table actions are available but not cell actions (see below).
+2. **Data Table**. Most (or all) cells are editable; Both table and cell actions are available (see below).
+3. **Hybrid Table**. A list table with in-row actions, such as dropdown fields & text input fields.
+
+## Behavior
+
+There are two categories of actions available in tables:
+
+1. Table Actions:
+  - **Row Selection**: for a list table, clicking anywhere in the row will select it; for data tables, the left most column contains a checkbox that selects the row when checked (see Cell Actions below).
+  - **Column Sorting**:
+    - Ascending order (A-Z, 1-9), indicated by arrow facing up ↑
+    - Descending order (Z-A, 9-1), indicated by arrow facing down ↓
+    - Sorted column: Use arrow symbol indicator in column header
+    - Column with no sort: No symbol
+    - Sorting Behavior:
+          - When no sort is present: on-hover, display arrow symbol with tooltip “Sort ascending”
+      - Click once: Sort ascending, arrow symbol persists
+      - On-hover: Display sort descending symbol with tooltip, “Sort descending”
+      - Click again: Sort descending, arrow symbol persists
+      - On-hover: Hide arrow symbol with tooltip, “Remove sort”
+      - Click again: Remove sort, remove arrow symbol entirely
+<br><br>
+      ![Changing a Sort Type](/img/changing-sort.png)
+<br><br>
+    - **Column/ Row Reordering:**
+      - User should be able to left click and hold the column header to drag and drop the column in a new order. A visual indicator should be used between the header cells where the column will be dropped.
+      - A separate menu for column order can be utilized in conjunction with but not without the drag and drop function. i.e. if there is a column order menu, you must also retain drag-and-drop functionality
+      - Draggable rows should use the “Drag 2” icon located before the first cell of the table.
+    - **Changing Width:**
+      - When hovering above the dividing line between two columns, there should be a visual indicator that the column is adjustable. Recommend indicator:  Border becomes thicker (>2) and/or changes to the primary action color.
+      - Auto-Fit: User should be able to double click the adjustable border in order to fit content to the column.
+    - **Hiding/ Showing Columns:**
+      - Right clicking on a column header should give the user a context menu option to collapse/show columns. When a column is collapsed, the border between headers should be increased to 3px. Single clicking the visual indicator will show the column. Right clicking the visual indicator will open the context menu.
+      - Unless use case dictates, Hiding a column does NOT “deactivate” a column and its content. Meaning that even though a column is hidden, the table will still use its content in filters, groups, sorts, etc.
+    - **Changing Views:** A view is a default or custom table layout that is saved based on the user’s last selection. User should have a way to reset a view and/or to choose from a list of default views.
+    - **Global Search:**
+      - Search field should be located above the table header and/or collocated with any horizontal toolbar.
+      - Search field should use the Modus “Input with icon on left,” and utilize the magnifying glass icon.
+      - Once a string is entered, the “content close” icon should appear at the right internal edge of the field, allowing the user to cancel the search / delete the string.
+      - App Specific: It is at the product team's discretion to update the table real time as a string is entered or after a return.
+      - Optional: Magnifying glass icon can be used on its own, upon a user clicking the icon it should expand into the input field state prescribed above.
+    - **Pagination:**
+      - Pagination should appear at the bottom of the table
+      - Use Modus icons “Arrow Left” & “Arrow Right” for page # “up” and page # “down” respectively.
+    - **Filtering:**
+      - Indicate what filters are currently active
+      - Provide the user with a central location to control all filters
+      - Loading ( If a user lands on/at a table that needs time to load )
+      - If a "skeleton state" table is feasible, this is ideal, though Modus does not have guidelines around this. Designers are expected to use their best judgment for style until guidelines are released. Please share your product's use of skeleton states with Modus so we may use it as input in future guidelines.
+      - If a skeleton state is not feasible, the modus spinner should be used over the area of the table.
+<br><br>
+      ![Filtering Options](/img/tables-filtering.png)
+<br><br>
+    - **Sticky Columns / Rows:**
+      - System driven fixed or “sticky” columns and rows are allowed in all table types. Use the read-only styling for these rows' backgrounds. Additionally, any table utilizing this type of behavior should also have grid lines to clearly distinguish between columns.
+      - User driven fixed columns and rows should utilize a 2x wide border between the fixed content and the rest of the table.
+
+2. Table Actions *(available for data tables only)*:
+  - **Row Selection:** The left most column contains a checkbox that selects the row when checked. In a data table, row selection Table Action is not available (see above).
+    - The checkbox would be the first row on the left of the table
+    - User cannot hide this column
+    - User cannot change the order of this column (move it from being the first column)
+    - User cannot resize this column
+    - The checkbox used is the Modus standard [checkbox](/components/checkboxes/).
+    - Clicking the checkbox selects row
+    - There needs to be a checkbox in header that allows the user to select all or to deselect all
+  - **Inline Editing:** Values can be selected (by clicking once into a cell) and overwritten (by typing over the selected values). When the text is selected and clicked again, the text will unselect and the cursor will move to the end of the line of text in that cell. User can then type to add text to the current text in the cell.
+    - Cell Error State: When user exits out of the cell, his input will be validated and if the input is invalid, the cell borders become red to indicate an error and, while the user is in the field, the error message will also display to provide additional information about the error and how to correct it. When the user is correcting the error, the validation only runs again, when he exits the cell (not while typing in the cell).
+
+<table class="table table-bordered bg-white">
+  <thead class="thead-light">
+    <tr>
+      <th>&nbsp;</th>
+      <th>Background</th>
+      <th>Border</th>
+      <th>Cell Text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Selected Cell</td>
+      <td>White #FFFFFF</td>
+      <td>Blue Light #217CBB, 2px</td>
+      <td>Body 2</td>
+    </tr>
+    <tr>
+      <td>Invalid Cell Data</td>
+      <td>White #FFFFFF</td>
+      <td>Red #DA212C, 2px
+      <td>Body 2</td>
+    </tr>
+  </tbody>
+</table>
+
+*Examples:*
+
+![Selecting Example](/img/tables-selecting.png)
+<br><br>
+![Error State](/img/tables-error.png)
+<br><br>
+
+  - **Forced Data Formatting:** If user inputs incorrect data format then follow error handling guidelines
+  - **Undo:** If auto commit is enabled, user must have at least one mechanism to undo. Ex. ctrl+z, snack bar, icon action button, etc.
+  - **Deleting Rows:**
+    - Inline Trash Can icon, must be located to the right of all content cells
+    - More Button, Must be located to the right of all content cells and any other icons / actions/ buttons
+    - Trash Can icon located in an action / toolbar.
+  - **Interactive Elements:**
+    - [Buttons](/components/buttons/): Use an icon button in lieu of a regular button, whenever possible. If a label on a button is required, use a text button.
+    - [Chips](/components/chips/): Chips must be actionable with either active/ inactive states or a “close” (x) icon. If no action is required, use a [badge](/components/badge/).
+
+## Editorial
 
 **Headers**
 
