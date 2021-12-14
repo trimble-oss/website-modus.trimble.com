@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="555" height="252" viewBox="0 0 555 252">
+  <g id="navbar-btn-states" transform="translate(-506 -939)">
+    <g id="Rectangle_3462" data-name="Rectangle 3462" transform="translate(506 939)" fill="#f1f1f6" stroke="#cbcdd6" stroke-width="1">
+      <rect width="555" height="252" stroke="none"/>
+      <rect x="0.5" y="0.5" width="554" height="251" fill="none"/>
+    </g>
+    <g id="Group_8328" data-name="Group 8328">
+      <rect id="Rectangle_3460" data-name="Rectangle 3460" width="264" height="56" transform="translate(631 1112)" fill="#004f83"/>
+      <rect id="Rectangle_3459" data-name="Rectangle 3459" width="264" height="56" transform="translate(631 1050)" fill="#fff"/>
+      <rect id="Rectangle_3458" data-name="Rectangle 3458" width="264" height="56" transform="translate(631 988)" fill="#fff"/>
+      <text id="DISABLED" transform="translate(857 975)" fill="#252a2e" font-size="10" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0.016em" opacity="0.48"><tspan x="-24.806" y="0">DISABLED</tspan></text>
+      <text id="Active_Pressed_" data-name="Active(Pressed)" transform="translate(794 964)" fill="#252a2e" font-size="10" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0.016em" opacity="0.48"><tspan x="-17.636" y="0">ACTIVE</tspan><tspan x="-25.279" y="14">(PRESSED)</tspan></text>
+      <text id="HOVER" transform="translate(726.558 975)" fill="#252a2e" font-size="10" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0.016em" opacity="0.48"><tspan x="-17.476" y="0">HOVER</tspan></text>
+      <text id="Default" transform="translate(667.116 975)" fill="#252a2e" font-size="10" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0.016em" opacity="0.48"><tspan x="-22.675" y="0">DEFAULT</tspan></text>
+      <g id="Group_8326" data-name="Group 8326" transform="translate(0 67)">
+        <g id="header-menu-btn-reversed" transform="translate(834 1049)">
+          <rect id="BG" width="48" height="48" rx="2" fill="#d7d7da" opacity="0"/>
+          <g id="Icon" transform="translate(12 12)" opacity="0.3">
+            <path id="Path_1109" data-name="Path 1109" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Path_1110" data-name="Path 1110" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" fill="#fff"/>
+          </g>
+        </g>
+        <g id="header-menu-btn-reversed-2" data-name="header-menu-btn-reversed" transform="translate(770 1049)">
+          <rect id="BG-2" data-name="BG" width="48" height="48" rx="2" fill="#0e416c"/>
+          <g id="Icon-2" data-name="Icon" transform="translate(12 12)">
+            <path id="Path_1109-2" data-name="Path 1109" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Path_1110-2" data-name="Path 1110" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" fill="#fff"/>
+          </g>
+        </g>
+        <g id="header-menu-btn-reversed-3" data-name="header-menu-btn-reversed" transform="translate(706 1049)">
+          <rect id="BG-3" data-name="BG" width="48" height="48" rx="2" fill="#217cbb"/>
+          <g id="Icon-3" data-name="Icon" transform="translate(12 12)">
+            <path id="Path_1109-3" data-name="Path 1109" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Path_1110-3" data-name="Path 1110" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" fill="#fff"/>
+          </g>
+        </g>
+        <g id="header-menu-btn-reversed-4" data-name="header-menu-btn-reversed" transform="translate(642 1049)">
+          <rect id="BG-4" data-name="BG" width="48" height="48" rx="2" fill="#d7d7da" opacity="0"/>
+          <g id="Icon-4" data-name="Icon" transform="translate(12 12)">
+            <path id="Path_1109-4" data-name="Path 1109" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Path_1110-4" data-name="Path 1110" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_8324" data-name="Group 8324" transform="translate(0 67)">
+        <g id="header-menu-btn" transform="translate(834 925)">
+          <rect id="BG-5" data-name="BG" width="48" height="48" rx="2" fill="#d6d5db" opacity="0"/>
+          <g id="Icon-5" data-name="Icon" transform="translate(12.25 11.618)">
+            <path id="Path_1109-5" data-name="Path 1109" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Path_1110-5" data-name="Path 1110" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" fill="#b7b9c3"/>
+          </g>
+        </g>
+        <g id="header-menu-btn-2" data-name="header-menu-btn" transform="translate(770 925)">
+          <rect id="BG-6" data-name="BG" width="48" height="48" rx="2" fill="#d6d5db"/>
+          <g id="Icon-6" data-name="Icon" transform="translate(12.25 11.618)">
+            <path id="Path_1109-6" data-name="Path 1109" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Path_1110-6" data-name="Path 1110" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" fill="#252a2e"/>
+          </g>
+        </g>
+        <g id="header-menu-btn-3" data-name="header-menu-btn" transform="translate(706 925)">
+          <rect id="BG-7" data-name="BG" width="48" height="48" rx="2" fill="#dedfe0"/>
+          <g id="Icon-7" data-name="Icon" transform="translate(12.25 11.618)">
+            <path id="Path_1109-7" data-name="Path 1109" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Path_1110-7" data-name="Path 1110" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" fill="#252a2e"/>
+          </g>
+        </g>
+        <g id="header-menu-btn-4" data-name="header-menu-btn" transform="translate(642 925)">
+          <rect id="BG-8" data-name="BG" width="48" height="48" rx="2" fill="#d7d7da" opacity="0"/>
+          <g id="Icon-8" data-name="Icon" transform="translate(12.25 11.618)">
+            <path id="Path_1109-8" data-name="Path 1109" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Path_1110-8" data-name="Path 1110" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" fill="#363545"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_8325" data-name="Group 8325" transform="translate(0 67)">
+        <g id="header-menu-btn-gray" transform="translate(834 987)">
+          <rect id="BG-9" data-name="BG" width="48" height="48" rx="2" fill="#d7d7da" opacity="0"/>
+          <g id="Icon-9" data-name="Icon" transform="translate(12 12)">
+            <path id="Path_1109-9" data-name="Path 1109" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Path_1110-9" data-name="Path 1110" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" fill="#6a6e79" opacity="0.3"/>
+          </g>
+        </g>
+        <g id="header-menu-btn-gray-2" data-name="header-menu-btn-gray" transform="translate(770 987)">
+          <rect id="BG-10" data-name="BG" width="48" height="48" rx="2" fill="#cbcdd6"/>
+          <g id="Icon-10" data-name="Icon" transform="translate(12 12)">
+            <path id="Path_1109-10" data-name="Path 1109" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Path_1110-10" data-name="Path 1110" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" fill="#2b2a37"/>
+          </g>
+        </g>
+        <g id="header-menu-btn-gray-3" data-name="header-menu-btn-gray" transform="translate(706 987)">
+          <rect id="BG-11" data-name="BG" width="48" height="48" rx="2" fill="#e7e9ed"/>
+          <g id="Icon-11" data-name="Icon" transform="translate(12 12)">
+            <path id="Path_1109-11" data-name="Path 1109" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Path_1110-11" data-name="Path 1110" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" fill="#6a6e79"/>
+          </g>
+        </g>
+        <g id="header-menu-btn-gray-4" data-name="header-menu-btn-gray" transform="translate(642 987)">
+          <rect id="BG-12" data-name="BG" width="48" height="48" rx="2" fill="#d7d7da" opacity="0"/>
+          <g id="Icon-12" data-name="Icon" transform="translate(12 12)">
+            <path id="Path_1109-12" data-name="Path 1109" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Path_1110-12" data-name="Path 1110" d="M3,18H21V16H3Zm0-5H21V11H3ZM3,6V8H21V6Z" fill="#6a6e79"/>
+          </g>
+        </g>
+      </g>
+      <text id="Trimble_Gray" data-name="Trimble Gray" transform="translate(530 1022)" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">TRIMBLE GRAY</tspan></text>
+      <text id="Gray_Gray_6_" data-name="Gray (Gray 6)" transform="translate(530 1083)" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">GRAY (GRAY 6)</tspan></text>
+      <text id="Reversed" transform="translate(530 1144)" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">REVERSED</tspan></text>
+    </g>
+  </g>
+</svg>

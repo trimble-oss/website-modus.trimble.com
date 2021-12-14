@@ -35,7 +35,7 @@ The navbar or the app header provides context through globally accessible menu o
 
 ## Specifications
 
-- **Navbar background color should be white.**
+- **Navbar background color should be white or Trimble Dark Blue.**
 - **Divider line:** use a 1px bottom border when there is a sub-header or side panel or when page background is white (rather than the standard Trimble Gray Light).
 - **Shadow:** use [Level 2 shadow](/foundations/shadows-and-depth/) in the event page content scrolls behind and underneath the header. [Level 3](/foundations/shadows-and-depth/) shadow should be used for menu overlays.
 - Product logo and Profile avatar are the only required elements. Other elements are optional and contextual.
@@ -48,7 +48,7 @@ The navbar or the app header provides context through globally accessible menu o
 - Solid icon style should be used in the header (for consistency across apps).
 - Display order of app header elements:
 
-For left-to-right languages:
+**For left-to-right languages:**
 
 1. Main menu: contains primary navigation for the current application.
 2. Product logo _(required)_
@@ -59,11 +59,18 @@ For left-to-right languages:
 7. Apps
 8. Profile _(required)_
 
-For right-to-left languages display order should be reversed.
+**For right-to-left languages display order should be reversed.**
 
 - Disallowed Content: information that should not appear within the app header bar.
   - Page titles
   - Navigation elements such as breadcrumbs, tabs, horizontal menu items, etc.
+
+### Color Options
+
+Navbar background color can be white or Trimble Dark Blue.
+
+![Framework](/img/app-header-color-examples.svg)
+
 
 ### Key Measurements
 
@@ -89,14 +96,14 @@ For right-to-left languages display order should be reversed.
           <td>24px (max-height 32px)</td>
         </tr>
         <tr>
-          <td>Icon area (and mobile tap target)</td>
+          <td>Nav Bar button target area</td>
           <td>48px</td>
           <td>48px</td>
         </tr>
         <tr>
           <td>Icon button fill effect (border-radius 2px)</td>
-          <td>40px</td>
-          <td>40px</td>
+          <td>48px</td>
+          <td>48px</td>
         </tr>
         <tr>
           <td>Profile avatar</td>
@@ -148,92 +155,26 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
 - The navbar is a fixed element. Fixed or "sticky" content fixes itself to the browser viewport as content is scrolled.
 - Responsive design: navbar follows the Modus breakpoint guidelines in [Grid & Spacing](/foundations/grid-and-spacing/).
 
-#### Key States
+#### Nav Bar Button examples
 
-<table class="table table-bordered bg-white" style="width: max-content">
-      <thead class="thead-light">
-        <tr>
-          <th>Element</th>
-          <th>State</th>
-          <th>Color</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Header</td>
-          <td>n/a</td>
-          <td>White</td>
-        </tr>
-        <tr>
-          <td>Profile initials background</td>
-          <td>n/a</td>
-          <td>Gray 0</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>Default/Hover/Pressed</td>
-          <td>Trimble Blue Mid</td>
-        </tr>
-        <tr>
-          <td>Icon/profile button fill effect</td>
-          <td colspan="2"><img src="/img/button-states-header-icon.svg" alt="Button States"></td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>Default</td>
-          <td>n/a</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>Hover</td>
-          <td>Gray 0</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>Pressed</td>
-          <td>Gray 2</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>Active</td>
-          <td>Gray 2</td>
-        </tr>
-        <tr>
-          <td>App row fill effect</td>
-          <td colspan="2"><img src="/img/app-header-app-switcher.svg" alt="App Switcher" width="100%" style="max-width: 500px"></td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>Default</td>
-          <td>n/a</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>Hover</td>
-          <td>Gray 0</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>Pressed</td>
-          <td>Gray 2</td>
-        </tr>
-        <tr>
-          <td>Text</td>
-          <td>n/a</td>
-          <td>Trimble Gray</td>
-        </tr>
-        <tr>
-          <td>Divider line (when used)</td>
-          <td>n/a</td>
-          <td>Gray 2</td>
-        </tr>
-        <tr>
-          <td>Menu overlays</td>
-          <td>&nbsp;</td>
-          <td>White with <a href="/foundations/shadows-and-depth/">Level 3</a> shadow</td>
-        </tr>
-      </tbody>
-</table>
+- Three color options are available; Trimble Gray, Gray (Gray 6), and reversed (to be used with Trimble Dark Blue Nav bars).
+- Common Nav Bar button options include but are not limited to:
+  - Menu button
+  - Search
+  - Notification
+  - Help
+  - App Switcher
+  - Profile
+
+<img src="/img/navbar-btn-examples.svg" alt="Nav Bar Button Examples">
+
+
+#### Nav Bar Button State Examples
+
+
+<img src="/img/navbar-btn-states.svg" alt="Nav Bar Button Examples">
+
+
 
 #### Element Consolidation
 
