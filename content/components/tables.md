@@ -48,7 +48,7 @@ Tables are ideal for displaying data in rows and columns. They organize informat
       <td>Header</td>
       <td>Body-1/ 14px</td>
       <td>SemiBold/ 600</td>
-      <td>Gray 8 #464B52/td>
+      <td>Gray 8 #464B52</td>
       <td>Title Case</td>
     </tr>
     <tr>
@@ -155,7 +155,7 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
 
 Consider using labels/ icons to highlight the cell rather than border/ background. If use dictates, the need for border/ background color, follow color palette guidelines.
 
-![Table Colors](img/table-colors.png)
+![Table Colors](/img/table-colors.png)
 
 ## Types
 
@@ -212,7 +212,7 @@ There are two categories of actions available in tables:
       - If a "skeleton state" table is feasible, this is ideal, though Modus does not have guidelines around this. Designers are expected to use their best judgment for style until guidelines are released. Please share your product's use of skeleton states with Modus so we may use it as input in future guidelines.
       - If a skeleton state is not feasible, the modus spinner should be used over the area of the table.
 <br><br>
-      ![Filtering Options](/img/tables-filtering.png)
+      ![Filtering Options](/img/table-filters.png)
 <br><br>
     - **Sticky Columns / Rows:**
       - System driven fixed or “sticky” columns and rows are allowed in all table types. Use the read-only styling for these rows' backgrounds. Additionally, any table utilizing this type of behavior should also have grid lines to clearly distinguish between columns.
@@ -263,7 +263,7 @@ There are two categories of actions available in tables:
 <br><br>
 
   - **Forced Data Formatting:** If user inputs incorrect data format then follow error handling guidelines
-  - **Undo:** If auto commit is enabled, user must have at least one mechanism to undo. Ex. ctrl+z, snack bar, icon action button, etc.
+  - **Undo:** User must have at least one mechanism to undo. Ex. ctrl+z, snack bar, icon action button, etc.
   - **Deleting Rows:**
     - Inline Trash Can icon, must be located to the right of all content cells
     - More Button, Must be located to the right of all content cells and any other icons / actions/ buttons
