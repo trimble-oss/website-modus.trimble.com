@@ -48,21 +48,21 @@ Tables are ideal for displaying data in rows and columns. They organize informat
       <td>Header</td>
       <td>Body-1/ 14px</td>
       <td>SemiBold/ 600</td>
-      <td>Gray 8 #464B52</td>
+      <td>Gray 8 {{< color-preview hex="#464B52">}}</td>
       <td>Title Case</td>
     </tr>
     <tr>
       <td>Row</td>
       <td>Body-1/ 14px</td>
       <td>SemiBold/ 600</td>
-      <td>Trimble Gray #252A2E</td>
+      <td>Trimble Gray {{< color-preview hex="#252A2E">}}</td>
       <td>None</td>
     </tr>
     <tr>
       <td>Link Text</td>
       <td>Body-1/14px</td>
       <td>SemiBold/ 600</td>
-      <td>Blue Light #217CBB</td>
+      <td>Blue Light {{< color-preview hex="#217CBB">}}</td>
       <td>Underline on hover</td>
     </tr>
   </tbody>
@@ -122,31 +122,31 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
   <tbody>
     <tr>
       <td>Header</td>
-      <td>Gray Light #F1F1F6</td>
+      <td>Gray Light {{< color-preview hex="#F1F1F6">}}</td>
     </tr>
     <tr>
       <td>List Table Row</td>
-      <td>White #FFFFFF</td>
+      <td>White {{< color-preview hex="#ffffff">}}</td>
     </tr>
     <tr>
       <td>Row Stripe</td>
-      <td>Row striping is not recommended. It should be used as a last resort to increase contrast between data rows. Make sure to retain appropriate contrast ratios (<a href="/foundations/accessibility">Accessibility</a>), if you need to use row striping.</td>
+      <td>Row striping is not recommended. It should be used as a last resort to increase contrast between data rows. Make sure to retain appropriate contrast ratios (<a href="/foundations/accessibility/">Accessibility</a>), if you need to use row striping.</td>
     </tr>
     <tr>
       <td>Selected Row</td>
-      <td>Blue Pale #DCEDF9</td>
+      <td>Blue Pale {{< color-preview hex="#DCEDF9">}}</td>
     </tr>
     <tr>
       <td>Row Hover</td>
-      <td>Blue Pale #DCEDF9</td>
+      <td>Blue Pale {{< color-preview hex="#DCEDF9">}}</td>
     </tr>
     <tr>
       <td>Data Table Read-Only Row</td>
-      <td>Gray 0 #E0E1E9</td>
+      <td>Gray 0 {{< color-preview hex="#E0E1E9">}}</td>
     </tr>
     <tr>
       <td>Data Table Editable Row</td>
-      <td>White #FFFFFF</td>
+      <td>White {{< color-preview hex="#ffffff">}}</td>
     </tr>
   </tbody>
 </table>
@@ -230,30 +230,11 @@ There are two categories of actions available in tables:
   - **Inline Editing:** Values can be selected (by clicking once into a cell) and overwritten (by typing over the selected values). When the text is selected and clicked again, the text will unselect and the cursor will move to the end of the line of text in that cell. User can then type to add text to the current text in the cell.
     - Cell Error State: When user exits out of the cell, his input will be validated and if the input is invalid, the cell borders become red to indicate an error and, while the user is in the field, the error message will also display to provide additional information about the error and how to correct it. When the user is correcting the error, the validation only runs again, when he exits the cell (not while typing in the cell).
 
-<table class="table table-bordered bg-white">
-  <thead class="thead-light">
-    <tr>
-      <th>&nbsp;</th>
-      <th>Background</th>
-      <th>Border</th>
-      <th>Cell Text</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Selected Cell</td>
-      <td>White #FFFFFF</td>
-      <td>Blue Light #217CBB, 2px</td>
-      <td>Body 2</td>
-    </tr>
-    <tr>
-      <td>Invalid Cell Data</td>
-      <td>White #FFFFFF</td>
-      <td>Red #DA212C, 2px
-      <td>Body 2</td>
-    </tr>
-  </tbody>
-</table>
+|                   | Background                               | Border                                             | Cell Text |
+| ----------------- | ---------------------------------------- | -------------------------------------------------- | ----------|
+| Selected Cell     | White {{< color-preview hex="#ffffff">}} | Blue Light {{< color-preview hex="#217CBB">}}, 2px | Body 2    |
+| Invalid Cell Data | White {{< color-preview hex="#ffffff">}} | Red {{< color-preview hex="#DA212C">}}, 2px        | Body 2    |
+{.table .table-bordered}
 
 *Examples:*
 
