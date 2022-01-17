@@ -1,0 +1,53 @@
+/* Cookies title */
+#ot-pc-desc,
+#ot-pc-title,
+#onetrust-policy-title,
+#onetrust-policy-text {
+  color: #252a2e !important;
+}
+
+#onetrust-policy-text {
+  font-size: 14px !important;
+}
+
+/** Accept All Cookies button **/
+.onetrust-close-btn-handler,
+#accept-recommended-btn-handler,
+#onetrust-accept-btn-handler {
+  background-color: #0063a3 !important;
+  border-color: #0063a3 !important;
+  padding: .1875rem 1rem;
+  font-size: .8rem !important;
+  font-weight: 600 !important;
+  user-select: none !important;
+}
+
+/** 'Cookie Settings' button **/
+#onetrust-pc-btn-handler {
+  color: #0063a3 !important;
+  border: 1px solid #0063a3 !important;
+  font-size: .8rem !important;
+  font-weight: 600 !important;
+  // padding: .1875rem 1rem;
+  text-decoration: none !important;
+}
+
+.ot-pc-footer-logo a {
+  opacity: .7;
+}
+
+.ot-pc-logo {
+  opacity: 0;
+}
+
+#onetrust-pc-sdk .ot-tgl input:checked+.ot-switch .ot-switch-nob {
+  border-color: #0063a3 !important;
+}
+
+#onetrust-pc-sdk .ot-tgl input:checked+.ot-switch .ot-switch-nob:before {
+  background-color: #0063a3 !important;
+}
+
+#onetrust-pc-sdk .ot-cat-grp .ot-always-active {
+  color: #0063a3 !important;
+}

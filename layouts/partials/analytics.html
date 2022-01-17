@@ -1,3 +1,8 @@
 {{- if not .Site.IsServer -}}
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-language="en" charset="UTF-8"
+  data-domain-script="c79b1710-a71a-49ff-b5b1-6ed558b04a4a"></script>
+<script>
+  function OptanonWrapper() { }
+</script>
 {{ template "_internal/google_analytics_async.html" . }}
 {{- end -}}
