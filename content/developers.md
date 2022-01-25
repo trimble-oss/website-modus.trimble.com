@@ -19,7 +19,7 @@ start: true
 </div>
 <div class="row">
 
-{{< card-start title="Modus Web Components" class="bg-web-components py-4 bg-coming-soon" header="web-components.svg" >}}
+{{< card-start title="Modus Web Components" url="https://modus-web-components.trimble.com/" class="bg-web-components py-4" beta="true" header="web-components.svg" >}}
 
 {{</ card-start >}}
 
