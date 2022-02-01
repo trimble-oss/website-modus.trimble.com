@@ -28,3 +28,7 @@ hideToc: true
 [npm Download Stats](https://npm-stat.com/charts.html?package=%40trimbleinc%2Fmodus-react-bootstrap&from=2021-11-01&to=2022-02-06)
 
 [CDN Downloads](https://www.jsdelivr.com/package/npm/@trimbleinc/modus-react-bootstrap)
+
+## Modus Web Components
+
+[npm Downloads](https://github.com/trimble-oss/modus-web-components/packages/827579)
