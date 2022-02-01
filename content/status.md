@@ -1,13 +1,11 @@
 ---
 title: "Status"
 layout: "single"
-description: "The status of each element is divided into the style definition (colors, sizes, etc) and the HTML/CSS
+description: "The status of each component is divided into the style definition (colors, sizes, etc) and the HTML/CSS
 framework code."
 url: "/status/"
 start: true
 hideToc: true
-aliases:
-- "/status.html"
 ---
 
 <style>
@@ -23,7 +21,7 @@ and the React components can be found at [react-bootstrap](https://modus-react-b
 <table class="table table-striped status-table mt-4">
   <thead class="border-0 bg-white">
     <tr class="bg-white">
-      <th width="16%" scope="col" class="align-bottom bg-white border-0 sticky-top sticky-offset">Element</th>
+      <th width="16%" scope="col" class="align-bottom bg-white border-0 sticky-top sticky-offset">Component</th>
       <th width="16%" scope="col" class="align-bottom bg-white border-0 sticky-top sticky-offset">Style Definition</th>
       <th width="16%" scope="col" class="align-bottom bg-white border-0 sticky-top sticky-offset">Modus Bootstrap</th>
     </tr>
@@ -109,11 +107,6 @@ and the React components can be found at [react-bootstrap](https://modus-react-b
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
-        <!-- <tr>
-            <th class="align-middle" scope="row"><a href="/components/Menus/">Menus</a></th>
-            <td><span class="badge badge-danger ">U/C</span></td>
-            <td><span class="badge badge-danger">U/C</span></td>
-          </tr>-->
     <tr>
       <th class="align-middle" scope="row"><a href="/components/messages/">Messages</a></th>
       <td><span class="badge badge-success">Stable</span></td>
@@ -129,11 +122,6 @@ and the React components can be found at [react-bootstrap](https://modus-react-b
         <td><span class="badge badge-success">Stable</span></td>
         <td><span class="badge badge-danger">U/C</span></td>
     </tr>
-    <!-- <tr>
-            <th class="align-middle" scope="row"><a href="/components/Module Containers/">Module Containers</a></th>
-            <td><span class="badge badge-danger">U/C</span></td>
-            <td><span class="badge badge-danger">U/C</span></td>
-          </tr>-->
     <tr>
       <th class="align-middle" scope="row"><a href="/components/pagination/">Pagination</a></th>
       <td><span class="badge badge-success">Stable</span></td>
@@ -174,16 +162,6 @@ and the React components can be found at [react-bootstrap](https://modus-react-b
       <td><span class="badge badge-success">Stable</span></td>
       <td><span class="badge badge-success">0.9.0</span></td>
     </tr>
-    <!-- <tr>
-            <th class="align-middle" scope="row"><a href="/components/Panels/">Panels</a></th>
-            <td><span class="badge badge-danger">U/C</span></td>
-            <td><span class="badge badge-danger">U/C</span></td>
-          </tr> -->
-    <!-- <tr>
-            <th class="align-middle" scope="row"><a href="/components/Search Fields/">Search Fields</a></th>
-            <td><span class="badge badge-danger">U/C</span></td>
-            <td><span class="badge badge-danger">U/C</span></td>
-          </tr> -->
     <tr>
       <th class="align-middle" scope="row"><a href="/components/tables/">Tables</a></th>
       <td><span class="badge badge-success">Stable</span></td>
