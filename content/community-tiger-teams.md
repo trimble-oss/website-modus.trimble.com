@@ -16,14 +16,14 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 | Upcoming  | Indicators & Selected States  | Calling candidates soon! |   |
 | Upcoming  | Microinteractions & Animations | Calling candidates soon! |   |
 | Upcoming  | Side Panel | J. de Wit; Calling for more candidates soon! |   |
-| Upcoming  | Maps & Location Management | D. Murugan, E. Gunther; Calling for more candidates soon! |    |
-| [Join Now!](/news/2022-01-05-3d-tiger-team/) | 3D Design Patterns | Join the 3D Tiger Team by **January 17**! | 01/24/2022 |
+| [Join Now!](/news/2022-02-08-help-menu-tiger-team/) | Help Menu Navigation | Join the Help Menu Tiger Team by **February 28**! | 03/04/2022 |
+| Active | 3D Design Patterns | P. Borgstein, A. Komninos, J. Oczkowski, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, T. Sippola, E. Pilke, S. Sidhu | 01/24/2022 |
 | Active  | Dark Mode | S. Kaukomen, A. C. Sivaraman, E. Gunther, J. de Wit, K. Phillips, M. Johns, P. Borgstein, T. Willimas, U. Meza | 09/15/2021  |
-| Active  | Side Navigation      | J. Wittmeyer, C. D. Savio Lazaro, S. Taylor, J. de Wit, E. Gunther, T. Manham, N. Cadsawan, P. Karukkuvel, E. Deleon, A. Tucker, L. Meskanen-Kundu | 06/21/2021 |
-| Active  | Mobile&nbsp;Patterns | D. Bedick, E. Bohn, R. Stillwell, N. Cadsawan, C. Starbird, L. Saenz, E. Gunther, J. A. Provin Silva                                               | 03/12/2021 |
-| Active  | Tables               | G. Leuhof, D. Donnell, G. Piltzer, H. Keller, K. Tran, S. Lucey, S. Williams, T. Ortiz, T. Manham, Z. Tran Do                                      | 02/03/2021 |
-| Active  | Icon Implementation  | S. Kaukomen, T. Manham, A. Shchegoleva, C. Krieg, E. Deleon, E. Gunther, N. Vasudevan, S. Ortiz | 08/18/2021 (reactivated) |
-| Inactive | Header/ Top nav  | S. Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor | Complete |
+| Active  | Mobile&nbsp;Patterns | D. Bedick, E. Bohn, R. Stillwell, N. Cadsawan, C. Starbird, L. Saenz, E. Gunther, J. A. Provin Silva | 03/12/2021 |
+| Inactive  | Icon Implementation  | S. Kaukomen, T. Manham, A. Shchegoleva, C. Krieg, E. Deleon, E. Gunther, N. Vasudevan, S. Ortiz | In Production |
+| Inactive  | Side Navigation      | J. Wittmeyer, C. D. Savio Lazaro, S. Taylor, J. de Wit, E. Gunther, T. Manham, N. Cadsawan, P. Karukkuvel, E. Deleon, A. Tucker, L. Meskanen-Kundu | In Production |
+| Inactive  | Tables  | G. Leuhof, D. Donnell, G. Piltzer, H. Keller, K. Tran, S. Lucey, S. Williams, T. Ortiz, T. Manham, Z. Tran Do | In Production |
+| Inactive | Header/ Top Nav  | S. Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor | Complete |
 | Inactive | Email Templates | Z. Kulpa, J. Dong, T. Barnard, T. Saunders | Complete |
 | Inactive | Data Visualization | E. Nowak, C. Willis, E. Bohn, T. Barnard | Complete |
 | Inactive | Icon Definitions | S. Kaukomen, S. Bali, T. Manham, M. Heighway, E. Nowak | Complete |
