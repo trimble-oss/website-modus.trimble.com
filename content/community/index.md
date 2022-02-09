@@ -36,7 +36,7 @@ Contributors are members of the Trimble community, who contribute their time and
 - [reporting bugs](/community/contact/),
 - [suggesting new features](/community/contact/),
 - [submitting new components and patterns](/community/contribution-process/),
-- submitting code components,
+- [submitting code components](https://trimble-oss.github.io/contribute/),
 - [joining Tiger Teams](/community/tiger-teams/),
 - and [improving documentation](/community/contact/).
 
