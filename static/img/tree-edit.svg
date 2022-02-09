@@ -1,0 +1,221 @@
+<svg id="tree-edit" xmlns="http://www.w3.org/2000/svg" width="790" height="773" viewBox="0 0 790 773">
+  <g id="Rectangle_3463" data-name="Rectangle 3463" fill="#f1f1f6" stroke="#cbcdd6" stroke-width="1">
+    <rect width="790" height="773" stroke="none"/>
+    <rect x="0.5" y="0.5" width="789" height="772" fill="none"/>
+  </g>
+  <text id="Editing_a_tree_item" data-name="Editing a tree item" transform="translate(37 43)" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">EDITING A TREE ITEM</tspan></text>
+  <g id="Group_156752" data-name="Group 156752" transform="translate(-693 -5605)">
+    <g id="Group_156699" data-name="Group 156699" transform="translate(496 2196)">
+      <g id="tree-item-checkbox-level_1" data-name="tree-item-checkbox-level 1" transform="translate(235 3991.5)">
+        <rect id="Rectangle_3345" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+        <text id="Tree_Item_" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
+        <g id="Arrow_down" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+          <path id="Path_3872" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+          <path id="Path_3871" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+        </g>
+        <g id="Checkbox" transform="translate(48 12)">
+          <rect id="box" width="24" height="24" fill="none"/>
+          <g id="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
+            <rect width="16" height="16" rx="2" stroke="none"/>
+            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="tree-item-checkbox-level_1-2" data-name="tree-item-checkbox-level 1" transform="translate(235 3943)">
+        <rect id="Rectangle_3345-2" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+        <line id="bottom_border" data-name="bottom border" x2="320" transform="translate(0 48.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+        <line id="top_border" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+        <text id="Tree_Item_2" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
+        <g id="Arrow_down-2" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+          <path id="Path_3872-2" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+          <path id="Path_3871-2" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+        </g>
+        <g id="Checkbox-2" data-name="Checkbox" transform="translate(48 12)">
+          <rect id="box-2" data-name="box" width="24" height="24" fill="none"/>
+          <g id="BG-2" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
+            <rect width="16" height="16" rx="2" stroke="none"/>
+            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="tree-item-checkbox-level_1-3" data-name="tree-item-checkbox-level 1" transform="translate(235 3895)">
+        <rect id="Rectangle_3345-3" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+        <text id="Tree_Item" data-name="Tree Item" transform="translate(174 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
+        <g id="Arrow_down-3" data-name="Arrow down" transform="translate(80 12)" opacity="0">
+          <path id="Path_3872-3" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+          <path id="Path_3871-3" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+        </g>
+        <g id="Checkbox-3" data-name="Checkbox" transform="translate(142 12)">
+          <rect id="box-3" data-name="box" width="24" height="24" fill="none"/>
+          <g id="BG-3" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
+            <rect width="16" height="16" rx="2" stroke="none"/>
+            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="tree-item-checkbox-level_1-4" data-name="tree-item-checkbox-level 1" transform="translate(235 3847)">
+        <rect id="Rectangle_3345-4" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+        <text id="Tree_Item-2" data-name="Tree Item" transform="translate(174 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
+        <g id="Arrow_down-4" data-name="Arrow down" transform="translate(110 36) rotate(-90)" opacity="0">
+          <path id="Path_3872-4" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+          <path id="Path_3871-4" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+        </g>
+        <g id="Checkbox-4" data-name="Checkbox" transform="translate(142 12)">
+          <rect id="box-4" data-name="box" width="24" height="24" fill="none"/>
+          <rect id="BG-4" data-name="BG" width="16" height="16" rx="2" transform="translate(4 4)" fill="#217cbb"/>
+          <path id="Check" d="M4,8.335l-4-4L1.128,3.208,4,6.072,10.071,0,11.2,1.136Z" transform="translate(6.4 7.622)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="tree-item-checkbox-level_1-5" data-name="tree-item-checkbox-level 1" transform="translate(235 3799)">
+        <rect id="Rectangle_3345-5" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+        <text id="Tree_Item-3" data-name="Tree Item" transform="translate(174 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
+        <g id="Arrow_down-5" data-name="Arrow down" transform="translate(80 12)" opacity="0">
+          <path id="Path_3872-5" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+          <path id="Path_3871-5" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+        </g>
+        <g id="Checkbox-5" data-name="Checkbox" transform="translate(142 12)">
+          <rect id="box-5" data-name="box" width="24" height="24" fill="none"/>
+          <g id="BG-5" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
+            <rect width="16" height="16" rx="2" stroke="none"/>
+            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="tree-item-checkbox-level_1-6" data-name="tree-item-checkbox-level 1" transform="translate(235 3751)">
+        <rect id="Rectangle_3345-6" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+        <text id="Tree_Item-4" data-name="Tree Item" transform="translate(144 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
+        <g id="Arrow_down-6" data-name="Arrow down" transform="translate(80 12)">
+          <path id="Path_3872-6" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+          <path id="Path_3871-6" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+        </g>
+        <g id="Checkbox-6" data-name="Checkbox" transform="translate(112 12)">
+          <rect id="box-6" data-name="box" width="24" height="24" fill="none"/>
+          <g id="BG-6" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
+            <rect width="16" height="16" rx="2" stroke="none"/>
+            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="tree-item-checkbox-level_1-7" data-name="tree-item-checkbox-level 1" transform="translate(235 3703)">
+        <rect id="Rectangle_3345-7" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+        <text id="Tree_Item-5" data-name="Tree Item" transform="translate(112 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
+        <g id="Arrow_down-7" data-name="Arrow down" transform="translate(48 12)">
+          <path id="Path_3872-7" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+          <path id="Path_3871-7" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+        </g>
+        <g id="Checkbox-7" data-name="Checkbox" transform="translate(80 12)">
+          <rect id="box-7" data-name="box" width="24" height="24" fill="none"/>
+          <g id="BG-7" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
+            <rect width="16" height="16" rx="2" stroke="none"/>
+            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="tree-item-checkbox-level_1-8" data-name="tree-item-checkbox-level 1" transform="translate(235 3655)">
+        <rect id="Rectangle_3345-8" data-name="Rectangle 3345" width="320" height="48" fill="#dcedf9"/>
+        <text id="Tree_Item_Expanded_" data-name="Tree Item Expanded " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em" opacity="0"><tspan x="0" y="0">Tree Item Expanded </tspan></text>
+        <g id="Arrow_down-8" data-name="Arrow down" transform="translate(16 12)">
+          <path id="Path_3872-8" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+          <path id="Path_3871-8" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+        </g>
+        <g id="Checkbox-8" data-name="Checkbox" transform="translate(48 12)">
+          <rect id="box-8" data-name="box" width="24" height="24" fill="none"/>
+          <rect id="BG-8" data-name="BG" width="16" height="16" rx="2" transform="translate(4 4)" fill="#217cbb"/>
+          <path id="Check-2" data-name="Check" d="M4,8.335l-4-4L1.128,3.208,4,6.072,10.071,0,11.2,1.136Z" transform="translate(6.4 7.622)" fill="#fff"/>
+        </g>
+        <g id="Input" transform="translate(80 -16)">
+          <g id="Group_6710" data-name="Group 6710" transform="translate(0 54)">
+            <path id="Rectangle_3444" data-name="Rectangle 3444" d="M2,0H206a2,2,0,0,1,2,2V32a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(0 -30)" fill="#fff"/>
+            <rect id="Bottom_Line" data-name="Bottom Line" width="208" height="2" fill="#217cbb"/>
+          </g>
+          <text id="Tree_Item_123" data-name="Tree Item 123" transform="translate(8 44)" fill="#252a2e" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">Tree Item 123</tspan></text>
+          <line id="Line_532" data-name="Line 532" y2="20" transform="translate(105 29)" fill="none" stroke="#252a2e" stroke-width="1"/>
+        </g>
+      </g>
+      <g id="tree-item-checkbox-level_1-9" data-name="tree-item-checkbox-level 1" transform="translate(235 3607)">
+        <rect id="Rectangle_3345-9" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+        <text id="Tree_Item_3" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
+        <g id="Arrow_down-9" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+          <path id="Path_3872-9" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+          <path id="Path_3871-9" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+        </g>
+        <g id="Checkbox-9" data-name="Checkbox" transform="translate(48 12)">
+          <rect id="box-9" data-name="box" width="24" height="24" fill="none"/>
+          <g id="BG-9" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
+            <rect width="16" height="16" rx="2" stroke="none"/>
+            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="tree-item-checkbox-level_1-10" data-name="tree-item-checkbox-level 1" transform="translate(235 3559)">
+        <rect id="Rectangle_3345-10" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+        <line id="top_border-2" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+        <text id="Tree_Item_4" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
+        <g id="Arrow_down-10" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+          <path id="Path_3872-10" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+          <path id="Path_3871-10" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+        </g>
+        <g id="Checkbox-10" data-name="Checkbox" transform="translate(48 12)">
+          <rect id="box-10" data-name="box" width="24" height="24" fill="none"/>
+          <g id="BG-10" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
+            <rect width="16" height="16" rx="2" stroke="none"/>
+            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="scrollbar" transform="translate(707 5739)">
+      <rect id="Rectangle_3435" data-name="Rectangle 3435" width="8" height="480" transform="translate(336 16)" fill="#fff"/>
+      <rect id="Rectangle_3434" data-name="Rectangle 3434" width="8" height="96" rx="4" transform="translate(336 128)" fill="#90939f"/>
+    </g>
+    <g id="content_bar" data-name="content bar" transform="translate(116 4293)">
+      <rect id="Rectangle_3441" data-name="Rectangle 3441" width="321" height="80" transform="translate(614 1382)" fill="#fff"/>
+      <g id="drag_indicator_black_24dp_2_" data-name="drag_indicator_black_24dp (2)" transform="translate(863 1430)">
+        <path id="Path_6572" data-name="Path 6572" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_6573" data-name="Path 6573" d="M11,18a2,2,0,1,1-2-2A2.006,2.006,0,0,1,11,18ZM9,10a2,2,0,1,0,2,2A2.006,2.006,0,0,0,9,10ZM9,4a2,2,0,1,0,2,2A2.006,2.006,0,0,0,9,4Zm6,4a2,2,0,1,0-2-2A2.006,2.006,0,0,0,15,8Zm0,2a2,2,0,1,0,2,2A2.006,2.006,0,0,0,15,10Zm0,6a2,2,0,1,0,2,2A2.006,2.006,0,0,0,15,16Z" fill="#252a2e"/>
+      </g>
+      <g id="Search_Input" data-name="Search Input" transform="translate(622 1390)">
+        <g id="Rectangle_1841" data-name="Rectangle 1841" fill="#fff" stroke="#e0e1e9" stroke-width="1">
+          <path d="M2,0H303a2,2,0,0,1,2,2V32a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" stroke="none"/>
+          <path d="M2,.5H303A1.5,1.5,0,0,1,304.5,2V31.5a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V2A1.5,1.5,0,0,1,2,.5Z" fill="none"/>
+        </g>
+        <rect id="Bottom_Line-2" data-name="Bottom Line" width="305" height="1" transform="translate(0 31)" fill="#6a6e79"/>
+        <g id="Search_Icon" data-name="Search Icon" transform="translate(8 6)">
+          <path id="Path_6175" data-name="Path 6175" d="M0,0H20V20H0Z" fill="none"/>
+          <path id="Path_6176" data-name="Path 6176" d="M12.641,11.484h-.609l-.216-.208a5.021,5.021,0,1,0-.54.54l.208.216v.609l3.856,3.849,1.149-1.149Zm-4.628,0a3.471,3.471,0,1,1,3.471-3.471A3.466,3.466,0,0,1,8.013,11.484Z" fill="#6a6e79"/>
+        </g>
+        <text id="Search" transform="translate(36 20)" fill="#b7b9c3" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Search</tspan></text>
+        <g id="search-clear-icon" transform="translate(277 8)" opacity="0">
+          <rect id="icon-box" width="16" height="16" fill="none"/>
+          <path id="close" d="M68,228.8l-.8-.8L64,231.2,60.8,228l-.8.8,3.2,3.2L60,235.2l.8.8,3.2-3.2,3.2,3.2.8-.8L64.8,232Z" transform="translate(-56 -224)" fill="#6a6e79"/>
+        </g>
+      </g>
+      <g id="unfold_less_black_24dp" transform="translate(903 1430)">
+        <path id="Path_6566" data-name="Path 6566" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_6567" data-name="Path 6567" d="M7.41,18.59,8.83,20,12,16.83,15.17,20l1.41-1.41L12,14ZM16.59,5.41,15.17,4,12,7.17,8.83,4,7.41,5.41,12,10Z" fill="#252a2e"/>
+      </g>
+      <g id="add_black_24dp" transform="translate(825.026 1430)">
+        <path id="Path_6564" data-name="Path 6564" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_6565" data-name="Path 6565" d="M19,13H13v6H11V13H5V11h6V5h2v6h6Z" fill="#252a2e"/>
+      </g>
+      <g id="delete_black_24dp_2_" data-name="delete_black_24dp (2)" transform="translate(707.789 1430)">
+        <path id="Path_6570" data-name="Path 6570" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_6571" data-name="Path 6571" d="M6,19a2.006,2.006,0,0,0,2,2h8a2.006,2.006,0,0,0,2-2V7H6ZM19,4H15.5l-1-1h-5l-1,1H5V6H19Z" fill="#252a2e"/>
+      </g>
+      <g id="content_copy_black_24dp" transform="translate(746.868 1430)">
+        <path id="Path_6576" data-name="Path 6576" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_6577" data-name="Path 6577" d="M16,1H4A2.006,2.006,0,0,0,2,3V17H4V3H16Zm3,4H8A2.006,2.006,0,0,0,6,7V21a2.006,2.006,0,0,0,2,2H19a2.006,2.006,0,0,0,2-2V7A2.006,2.006,0,0,0,19,5Zm0,16H8V7H19Z" fill="#252a2e"/>
+      </g>
+      <g id="edit-btn" transform="translate(782 1426)">
+        <rect id="bg-11" data-name="bg" width="32" height="32" rx="2" fill="#d6d5db"/>
+        <g id="icon" transform="translate(4 4)">
+          <g id="icon-box-2" data-name="icon-box" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0">
+            <rect width="24" height="24" stroke="none"/>
+            <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+          </g>
+          <path id="edit" d="M227,297.22V301h3.78l11.07-11.07-3.78-3.78Zm17.73-10.17a1.093,1.093,0,0,0,0-1.44l-2.34-2.34a1.093,1.093,0,0,0-1.44,0l-1.8,1.8,3.78,3.78Z" transform="translate(-224 -280)" fill="#2b2a37"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

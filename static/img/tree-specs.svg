@@ -1,0 +1,249 @@
+<svg id="tree-specs" xmlns="http://www.w3.org/2000/svg" width="790" height="249" viewBox="0 0 790 249">
+  <g id="Rectangle_3463" data-name="Rectangle 3463" fill="#f1f1f6" stroke="#cbcdd6" stroke-width="1">
+    <rect width="790" height="249" stroke="none"/>
+    <rect x="0.5" y="0.5" width="789" height="248" fill="none"/>
+  </g>
+  <g id="Group_156724" data-name="Group 156724" transform="translate(416.5 118.226)">
+    <g id="tree-item-icon-32" transform="translate(23 0.319)">
+      <rect id="Rectangle_3345" data-name="Rectangle 3345" width="320" height="32" fill="#fff"/>
+      <line id="top_border" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <g id="check" transform="translate(288 4.399)">
+        <rect id="icon-box" width="24" height="24" fill="none"/>
+        <path id="check-2" data-name="check" d="M343.84,69.08l-2.82-2.82-1.02.96,3.84,3.84L352,62.84l-.96-.96Z" transform="translate(-334 -54.47)" fill="#252a2e"/>
+      </g>
+      <g id="drag_indicator_black_24dp" transform="translate(0 8)">
+        <path id="Path_6260" data-name="Path 6260" d="M0,0H16V16H0Z" fill="none"/>
+        <path id="Path_6261" data-name="Path 6261" d="M9.684,13.393a1.342,1.342,0,1,1-1.342-1.342A1.346,1.346,0,0,1,9.684,13.393ZM8.342,8.026A1.342,1.342,0,1,0,9.684,9.368,1.346,1.346,0,0,0,8.342,8.026ZM8.342,4A1.342,1.342,0,1,0,9.684,5.342,1.346,1.346,0,0,0,8.342,4Zm4.026,2.684a1.342,1.342,0,1,0-1.342-1.342A1.346,1.346,0,0,0,12.368,6.684Zm0,1.342a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,8.026Zm0,4.026a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,12.051Z" transform="translate(-2.355 -1.316)" fill="#252a2e"/>
+      </g>
+      <g id="Group_156710" data-name="Group 156710" transform="translate(0 6)">
+        <text id="Tree_Item_" data-name="Tree Item " transform="translate(100 15.073)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
+        <g id="folder_icon" data-name="folder icon" transform="translate(72)">
+          <path id="Path_2521" data-name="Path 2521" d="M0,0H20V20H0Z" fill="none"/>
+          <path id="Path_2522" data-name="Path 2522" d="M6.8,4H3.2A1.111,1.111,0,0,0,2.006,5L2,11a1.117,1.117,0,0,0,1.2,1h9.6A1.117,1.117,0,0,0,14,11V6a1.117,1.117,0,0,0-1.2-1H8Z" transform="translate(2 2)" fill="#252a2e"/>
+        </g>
+        <g id="Checkbox" transform="translate(44 1)">
+          <rect id="box" width="20" height="20" fill="none"/>
+          <rect id="BG" width="12" height="12" rx="2" transform="translate(4 4)" fill="#217cbb"/>
+          <path id="Check-3" data-name="Check" d="M3.333,6.946,0,3.613l.94-.94L3.333,5.06,8.393,0l.94.947Z" transform="translate(5.4 6.622)" fill="#fff"/>
+        </g>
+        <g id="Arrow_down" data-name="Arrow down" transform="translate(16 26) rotate(-90)">
+          <path id="Path_3872" data-name="Path 3872" d="M0,0H20V20H0Z" transform="translate(6 0)" fill="none"/>
+          <path id="Path_3871" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(10.076 6.938)" fill="#8c8b96"/>
+        </g>
+      </g>
+    </g>
+    <g id="_16px" data-name="16px" transform="translate(59 0)">
+      <rect id="Rectangle_3282" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.319)" fill="rgba(255,120,237,0.6)"/>
+      <text id="_8" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
+    </g>
+    <g id="_16px-2" data-name="16px" transform="translate(87 0)">
+      <rect id="Rectangle_3282-2" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.319)" fill="rgba(255,120,237,0.6)"/>
+      <text id="_8-2" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
+    </g>
+    <g id="_16px-3" data-name="16px" transform="translate(115 0)">
+      <rect id="Rectangle_3282-3" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.319)" fill="rgba(255,120,237,0.6)"/>
+      <text id="_8-3" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
+    </g>
+    <g id="_16px-4" data-name="16px" transform="translate(335 0)">
+      <rect id="Rectangle_3282-4" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.319)" fill="rgba(255,120,237,0.6)"/>
+      <text id="_8-4" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
+    </g>
+    <g id="_32_px" data-name="32 px">
+      <g id="Group_6260" data-name="Group 6260" transform="translate(12.143)">
+        <path id="Path_4788" data-name="Path 4788" d="M4684.286-95v32" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
+        <path id="Path_4789" data-name="Path 4789" d="M4680.143-95h8.143" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
+        <path id="Path_4790" data-name="Path 4790" d="M4680.143-95h8.143" transform="translate(-4680.143 127)" fill="none" stroke="#f0d" stroke-width="1"/>
+      </g>
+      <text id="_32" data-name="32" transform="translate(6 20.319)" fill="#f0d" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.708" y="0">32</tspan></text>
+    </g>
+  </g>
+  <g id="Group_156723" data-name="Group 156723" transform="translate(415.5 68.208)">
+    <rect id="Rectangle_3345-2" data-name="Rectangle 3345" width="320" height="32" transform="translate(23 0.337)" fill="#fff"/>
+    <g id="icon_left" data-name="icon left" transform="translate(23 8)">
+      <g id="Icon" transform="translate(0 0.337)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+        <rect width="16" height="16" stroke="none"/>
+        <rect x="0.5" y="0.5" width="15" height="15" fill="none"/>
+      </g>
+      <text id="_16" data-name="16" transform="translate(8 11.558)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">16</tspan></text>
+    </g>
+    <g id="Group_156709" data-name="Group 156709" transform="translate(23 6)">
+      <text id="Tree_Item_2" data-name="Tree Item " transform="translate(100 15.073)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
+      <g id="icon_left_20" data-name="icon left 20" transform="translate(72)">
+        <g id="Icon-2" data-name="Icon" transform="translate(0 0.337)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+          <rect width="20" height="20" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+        </g>
+        <text id="_20" data-name="20" transform="translate(10 13.636)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">20</tspan></text>
+      </g>
+      <g id="icon_left_20-2" data-name="icon left 20" transform="translate(44)">
+        <g id="Icon-3" data-name="Icon" transform="translate(0 0.337)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+          <rect width="20" height="20" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+        </g>
+        <text id="_20-2" data-name="20" transform="translate(10 13.636)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">20</tspan></text>
+      </g>
+      <g id="icon_left_20-3" data-name="icon left 20" transform="translate(16)">
+        <g id="Icon-4" data-name="Icon" transform="translate(0 0.337)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+          <rect width="20" height="20" stroke="none"/>
+          <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+        </g>
+        <text id="_20-3" data-name="20" transform="translate(10 13.636)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">20</tspan></text>
+      </g>
+    </g>
+    <g id="_16px-5" data-name="16px" transform="translate(59 0)">
+      <rect id="Rectangle_3282-5" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.337)" fill="rgba(255,120,237,0.6)"/>
+      <text id="_8-5" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
+    </g>
+    <g id="_16px-6" data-name="16px" transform="translate(87 0)">
+      <rect id="Rectangle_3282-6" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.337)" fill="rgba(255,120,237,0.6)"/>
+      <text id="_8-6" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
+    </g>
+    <g id="_16px-7" data-name="16px" transform="translate(115 0)">
+      <rect id="Rectangle_3282-7" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.337)" fill="rgba(255,120,237,0.6)"/>
+      <text id="_8-7" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
+    </g>
+    <g id="_16px-8" data-name="16px" transform="translate(335 0)">
+      <rect id="Rectangle_3282-8" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.337)" fill="rgba(255,120,237,0.6)"/>
+      <text id="_8-8" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
+    </g>
+    <g id="icon_left_20-4" data-name="icon left 20" transform="translate(315 6)">
+      <g id="Icon-5" data-name="Icon" transform="translate(0 0.337)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+        <rect width="20" height="20" stroke="none"/>
+        <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+      </g>
+      <text id="_20-4" data-name="20" transform="translate(10 13.636)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">20</tspan></text>
+    </g>
+    <g id="_32_px-2" data-name="32 px">
+      <g id="Group_6260-2" data-name="Group 6260" transform="translate(12.143)">
+        <path id="Path_4788-2" data-name="Path 4788" d="M4684.286-95v32" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
+        <path id="Path_4789-2" data-name="Path 4789" d="M4680.143-95h8.143" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
+        <path id="Path_4790-2" data-name="Path 4790" d="M4680.143-95h8.143" transform="translate(-4680.143 127)" fill="none" stroke="#f0d" stroke-width="1"/>
+      </g>
+      <text id="_32-2" data-name="32" transform="translate(6 20.337)" fill="#f0d" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.708" y="0">32</tspan></text>
+    </g>
+  </g>
+  <g id="Group_156725" data-name="Group 156725" transform="translate(20.214 151)">
+    <g id="Group_156721" data-name="Group 156721" transform="translate(26.286)">
+      <g id="tree-item-icons-level_1" data-name="tree-item-icons-level 1" transform="translate(0 -0.455)">
+        <rect id="Rectangle_3345-3" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+        <line id="top_border-2" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+        <line id="bottom_border" data-name="bottom border" x2="320" transform="translate(0 47.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+        <g id="Arrow_down-2" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+          <path id="Path_3872-2" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+          <path id="Path_3871-2" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#8c8b96"/>
+        </g>
+        <g id="check-4" data-name="check" transform="translate(280 11.6)">
+          <rect id="icon-box-2" data-name="icon-box" width="24" height="24" fill="none"/>
+          <path id="check-5" data-name="check" d="M343.84,69.08l-2.82-2.82-1.02.96,3.84,3.84L352,62.84l-.96-.96Z" transform="translate(-334 -54.47)" fill="#252a2e"/>
+        </g>
+        <g id="drag_indicator_black_24dp-2" data-name="drag_indicator_black_24dp" transform="translate(0 16)">
+          <path id="Path_6260-2" data-name="Path 6260" d="M0,0H16V16H0Z" fill="none"/>
+          <path id="Path_6261-2" data-name="Path 6261" d="M9.684,13.393a1.342,1.342,0,1,1-1.342-1.342A1.346,1.346,0,0,1,9.684,13.393ZM8.342,8.026A1.342,1.342,0,1,0,9.684,9.368,1.346,1.346,0,0,0,8.342,8.026ZM8.342,4A1.342,1.342,0,1,0,9.684,5.342,1.346,1.346,0,0,0,8.342,4Zm4.026,2.684a1.342,1.342,0,1,0-1.342-1.342A1.346,1.346,0,0,0,12.368,6.684Zm0,1.342a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,8.026Zm0,4.026a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,12.051Z" transform="translate(-2.355 -1.316)" fill="#252a2e"/>
+        </g>
+        <g id="Group_156708" data-name="Group 156708" transform="translate(0 12)">
+          <text id="Tree_Item_3" data-name="Tree Item " transform="translate(112 18.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
+          <g id="folder_icon-2" data-name="folder icon" transform="translate(80)">
+            <path id="Path_2521-2" data-name="Path 2521" d="M0,0H24V24H0Z" fill="none"/>
+            <path id="Path_2522-2" data-name="Path 2522" d="M8.4,4H3.6A1.55,1.55,0,0,0,2.008,5.5L2,14.5A1.557,1.557,0,0,0,3.6,16H16.4A1.557,1.557,0,0,0,18,14.5V7a1.557,1.557,0,0,0-1.6-1.5H10Z" transform="translate(2 2)" fill="#252a2e"/>
+          </g>
+          <g id="Checkbox-2" data-name="Checkbox" transform="translate(48)">
+            <rect id="box-2" data-name="box" width="24" height="24" fill="none"/>
+            <rect id="BG-2" data-name="BG" width="16" height="16" rx="2" transform="translate(4 4)" fill="#217cbb"/>
+            <path id="Check-6" data-name="Check" d="M4,8.335l-4-4L1.128,3.208,4,6.072,10.071,0,11.2,1.136Z" transform="translate(6.4 7.622)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+      <g id="_16px-9" data-name="16px" transform="translate(40)">
+        <rect id="Rectangle_3282-9" data-name="Rectangle 3282" width="8" height="48" transform="translate(0 -0.455)" fill="rgba(255,120,237,0.6)"/>
+        <text id="_8-9" data-name="8" transform="translate(4 28.086)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
+      </g>
+      <g id="_16px-10" data-name="16px" transform="translate(72)">
+        <rect id="Rectangle_3282-10" data-name="Rectangle 3282" width="8" height="48" transform="translate(0 -0.455)" fill="rgba(255,120,237,0.6)"/>
+        <text id="_8-10" data-name="8" transform="translate(4 28.148)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
+      </g>
+      <g id="_16px-11" data-name="16px" transform="translate(104)">
+        <rect id="Rectangle_3282-11" data-name="Rectangle 3282" width="8" height="48" transform="translate(0 -0.455)" fill="rgba(255,120,237,0.6)"/>
+        <text id="_8-11" data-name="8" transform="translate(4 28.148)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
+      </g>
+      <g id="_16px-12" data-name="16px" transform="translate(304)">
+        <rect id="Rectangle_3282-12" data-name="Rectangle 3282" width="16" height="48" transform="translate(0 -0.455)" fill="rgba(255,120,237,0.6)"/>
+        <text id="_16-2" data-name="16" transform="translate(8 28.148)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">16</tspan></text>
+      </g>
+    </g>
+    <g id="_40px" data-name="40px" transform="translate(0 1)">
+      <g id="Group_6260-3" data-name="Group 6260" transform="translate(12.143)">
+        <path id="Path_4788-3" data-name="Path 4788" d="M4684.286-95v48" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
+        <path id="Path_4789-3" data-name="Path 4789" d="M4680.143-95h8.143" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
+        <path id="Path_4790-3" data-name="Path 4790" d="M4680.143-95h8.143" transform="translate(-4680.143 143)" fill="none" stroke="#f0d" stroke-width="1"/>
+      </g>
+      <text id="_48" data-name="48" transform="translate(6 28)" fill="#f0d" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.708" y="0">48</tspan></text>
+    </g>
+  </g>
+  <g id="Group_156722" data-name="Group 156722" transform="translate(20.214 70.131)">
+    <rect id="Rectangle_3345-4" data-name="Rectangle 3345" width="320" height="48" transform="translate(27.286 0.414)" fill="#fff"/>
+    <g id="icon_right" data-name="icon right" transform="translate(308.286 12)">
+      <g id="Icon-6" data-name="Icon" transform="translate(0 0.414)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+        <rect width="24" height="24" stroke="none"/>
+        <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+      </g>
+      <text id="_24" data-name="24" transform="translate(12 15.714)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">24</tspan></text>
+    </g>
+    <g id="icon_left-2" data-name="icon left" transform="translate(27.286 16)">
+      <g id="Icon-7" data-name="Icon" transform="translate(0 0.414)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+        <rect width="16" height="16" stroke="none"/>
+        <rect x="0.5" y="0.5" width="15" height="15" fill="none"/>
+      </g>
+      <text id="_16-3" data-name="16" transform="translate(8 11.558)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">16</tspan></text>
+    </g>
+    <g id="Group_156707" data-name="Group 156707" transform="translate(27.286 12)">
+      <text id="Tree_Item_4" data-name="Tree Item " transform="translate(112 18.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
+      <g id="icon_left-3" data-name="icon left" transform="translate(-471)">
+        <g id="Icon-8" data-name="Icon" transform="translate(551 0.414)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+          <rect width="24" height="24" stroke="none"/>
+          <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+        </g>
+        <text id="_24-2" data-name="24" transform="translate(563 15.714)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">24</tspan></text>
+      </g>
+      <g id="icon_left-4" data-name="icon left" transform="translate(-503)">
+        <g id="Icon-9" data-name="Icon" transform="translate(551 0.414)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+          <rect width="24" height="24" stroke="none"/>
+          <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+        </g>
+        <text id="_24-3" data-name="24" transform="translate(563 15.714)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">24</tspan></text>
+      </g>
+      <g id="icon_left-5" data-name="icon left" transform="translate(-535)">
+        <g id="Icon-10" data-name="Icon" transform="translate(551 0.414)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+          <rect width="24" height="24" stroke="none"/>
+          <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+        </g>
+        <text id="_24-4" data-name="24" transform="translate(563 15.714)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">24</tspan></text>
+      </g>
+    </g>
+    <g id="_16px-13" data-name="16px" transform="translate(331.286 0)">
+      <rect id="Rectangle_3282-13" data-name="Rectangle 3282" width="16" height="48" transform="translate(0 0.414)" fill="rgba(255,120,237,0.6)"/>
+      <text id="_16-4" data-name="16" transform="translate(8 28.148)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">16</tspan></text>
+    </g>
+    <g id="_16px-14" data-name="16px" transform="translate(67.286 0)">
+      <rect id="Rectangle_3282-14" data-name="Rectangle 3282" width="8" height="48" transform="translate(0 0.414)" fill="rgba(255,120,237,0.6)"/>
+      <text id="_8-12" data-name="8" transform="translate(4 28.086)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
+    </g>
+    <g id="_16px-15" data-name="16px" transform="translate(99.286 0)">
+      <rect id="Rectangle_3282-15" data-name="Rectangle 3282" width="8" height="48" transform="translate(0 0.414)" fill="rgba(255,120,237,0.6)"/>
+      <text id="_8-13" data-name="8" transform="translate(4 28.148)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
+    </g>
+    <g id="_16px-16" data-name="16px" transform="translate(131.286 0)">
+      <rect id="Rectangle_3282-16" data-name="Rectangle 3282" width="8" height="48" transform="translate(0 0.414)" fill="rgba(255,120,237,0.6)"/>
+      <text id="_8-14" data-name="8" transform="translate(4 28.148)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
+    </g>
+    <g id="_40px-2" data-name="40px">
+      <g id="Group_6260-4" data-name="Group 6260" transform="translate(12.143)">
+        <path id="Path_4788-4" data-name="Path 4788" d="M4684.286-95v48" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
+        <path id="Path_4789-4" data-name="Path 4789" d="M4680.143-95h8.143" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
+        <path id="Path_4790-4" data-name="Path 4790" d="M4680.143-95h8.143" transform="translate(-4680.143 143)" fill="none" stroke="#f0d" stroke-width="1"/>
+      </g>
+      <text id="_48-2" data-name="48" transform="translate(6 28)" fill="#f0d" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.708" y="0">48</tspan></text>
+    </g>
+  </g>
+  <text id="Default" transform="translate(20.214 46.131)" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">DEFAULT</tspan></text>
+  <text id="Condensed" transform="translate(416 47)" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">CONDENSED</tspan></text>
+</svg>
