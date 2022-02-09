@@ -1,0 +1,265 @@
+<svg id="tree-item-states" xmlns="http://www.w3.org/2000/svg" width="790" height="749" viewBox="0 0 790 749">
+  <g id="Rectangle_3463" data-name="Rectangle 3463" fill="#f1f1f6" stroke="#cbcdd6" stroke-width="1">
+    <rect width="790" height="749" stroke="none"/>
+    <rect x="0.5" y="0.5" width="789" height="748" fill="none"/>
+  </g>
+  <g id="Group_156737" data-name="Group 156737" transform="translate(-161 -288)">
+    <g id="tree_item_-_level_1" data-name="tree item - level 1" transform="translate(202 564)">
+      <rect id="Rectangle_3345" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+      <line id="bottom_border" data-name="bottom border" x2="320" transform="translate(0 47.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <line id="top_border" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <text id="Tree_Item_Disabled_" data-name="Tree Item Disabled " transform="translate(48 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em" opacity="0.3"><tspan x="0" y="0">Tree Item Disabled </tspan></text>
+      <g id="Arrow_down" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+        <path id="Path_3872" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f" opacity="0.3"/>
+      </g>
+    </g>
+    <g id="tree_item_-_level_1-2" data-name="tree item - level 1" transform="translate(202 512)">
+      <rect id="Rectangle_3345-2" data-name="Rectangle 3345" width="320" height="48" fill="#dcedf9"/>
+      <line id="bottom_border-2" data-name="bottom border" x2="320" transform="translate(0 47.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <line id="top_border-2" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <text id="Tree_Item_Selected" data-name="Tree Item Selected" transform="translate(48 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item Selected</tspan></text>
+      <g id="Arrow_down-2" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+        <path id="Path_3872-2" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871-2" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+      </g>
+      <g id="check" transform="translate(288 12.6)">
+        <rect id="icon-box" width="24" height="24" fill="none"/>
+        <path id="check-2" data-name="check" d="M343.84,69.08l-2.82-2.82-1.02.96,3.84,3.84L352,62.84l-.96-.96Z" transform="translate(-334 -54.47)" fill="#252a2e"/>
+      </g>
+    </g>
+    <g id="tree_item_-_level_1-3" data-name="tree item - level 1" transform="translate(202 460)">
+      <rect id="Rectangle_3345-3" data-name="Rectangle 3345" width="320" height="48" fill="#e0e1e9"/>
+      <line id="top_border-3" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <g id="Group_156741" data-name="Group 156741">
+        <text id="Tree_Item_Hover_with_Drag_Icon_" data-name="Tree Item Hover (with Drag Icon) " transform="translate(48 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item Hover (with Drag Icon) </tspan></text>
+        <g id="Arrow_down-3" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+          <path id="Path_3872-3" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+          <path id="Path_3871-3" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+        </g>
+      </g>
+      <g id="drag_indicator_black_24dp" transform="translate(0 16)">
+        <path id="Path_6260" data-name="Path 6260" d="M0,0H16V16H0Z" fill="none"/>
+        <path id="Path_6261" data-name="Path 6261" d="M9.684,13.393a1.342,1.342,0,1,1-1.342-1.342A1.346,1.346,0,0,1,9.684,13.393ZM8.342,8.026A1.342,1.342,0,1,0,9.684,9.368,1.346,1.346,0,0,0,8.342,8.026ZM8.342,4A1.342,1.342,0,1,0,9.684,5.342,1.346,1.346,0,0,0,8.342,4Zm4.026,2.684a1.342,1.342,0,1,0-1.342-1.342A1.346,1.346,0,0,0,12.368,6.684Zm0,1.342a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,8.026Zm0,4.026a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,12.051Z" transform="translate(-2.355 -1.316)" fill="#252a2e"/>
+      </g>
+    </g>
+    <g id="tree_item_-_level_1-4" data-name="tree item - level 1" transform="translate(202 408)">
+      <rect id="Rectangle_3345-4" data-name="Rectangle 3345" width="320" height="48" fill="#e0e1e9"/>
+      <line id="top_border-4" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <text id="Tree_Item_Hover_" data-name="Tree Item Hover " transform="translate(48 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item Hover </tspan></text>
+      <g id="Arrow_down-4" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+        <path id="Path_3872-4" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871-4" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+      </g>
+    </g>
+    <g id="tree_item_-_level_1-5" data-name="tree item - level 1" transform="translate(202 356)">
+      <rect id="Rectangle_3345-5" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+      <line id="bottom_border-3" data-name="bottom border" x2="320" transform="translate(0 47.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <line id="top_border-5" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <text id="Tree_Item_" data-name="Tree Item " transform="translate(48 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
+      <g id="Arrow_down-5" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+        <path id="Path_3872-5" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871-5" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+      </g>
+    </g>
+  </g>
+  <g id="Group_156738" data-name="Group 156738" transform="translate(180 -581)">
+    <g id="tree-item-icons-level_1" data-name="tree-item-icons-level 1" transform="translate(235 857)">
+      <rect id="Rectangle_3345-6" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+      <line id="top_border-6" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <line id="bottom_border-4" data-name="bottom border" x2="320" transform="translate(0 47.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <text id="Tree_Item_Disabled_2" data-name="Tree Item Disabled " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em" opacity="0.3"><tspan x="0" y="0">Tree Item Disabled </tspan></text>
+      <g id="Arrow_down-6" data-name="Arrow down" transform="translate(16 36) rotate(-90)" opacity="0.3">
+        <path id="Path_3872-6" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871-6" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+      </g>
+      <g id="icon_left" data-name="icon left" transform="translate(-503 -1661)" opacity="0.3">
+        <g id="Icon" transform="translate(551 1673)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+          <rect width="24" height="24" stroke="none"/>
+          <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+        </g>
+        <text id="_24" data-name="24" transform="translate(563 1688.714)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">24</tspan></text>
+      </g>
+    </g>
+    <g id="tree-item-icons-level_1-2" data-name="tree-item-icons-level 1" transform="translate(235 805)">
+      <rect id="Rectangle_3345-7" data-name="Rectangle 3345" width="320" height="48" fill="#dcedf9"/>
+      <line id="top_border-7" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <line id="bottom_border-5" data-name="bottom border" x2="320" transform="translate(0 47.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <text id="Tree_Item_Selected-2" data-name="Tree Item Selected" transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item Selected</tspan></text>
+      <g id="Arrow_down-7" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+        <path id="Path_3872-7" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871-7" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+      </g>
+      <g id="check-3" data-name="check" transform="translate(288 11.6)">
+        <rect id="icon-box-2" data-name="icon-box" width="24" height="24" fill="none"/>
+        <path id="check-4" data-name="check" d="M343.84,69.08l-2.82-2.82-1.02.96,3.84,3.84L352,62.84l-.96-.96Z" transform="translate(-334 -54.47)" fill="#252a2e"/>
+      </g>
+      <g id="icon_left-2" data-name="icon left" transform="translate(-503 -1661)">
+        <g id="Icon-2" data-name="Icon" transform="translate(551 1673)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+          <rect width="24" height="24" stroke="none"/>
+          <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+        </g>
+        <text id="_24-2" data-name="24" transform="translate(563 1688.714)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">24</tspan></text>
+      </g>
+    </g>
+    <g id="tree-item-icons-level_1-3" data-name="tree-item-icons-level 1" transform="translate(235 753)">
+      <rect id="Rectangle_3345-8" data-name="Rectangle 3345" width="320" height="48" fill="#e0e1e9"/>
+      <g id="drag_indicator_black_24dp-2" data-name="drag_indicator_black_24dp" transform="translate(0 16)">
+        <path id="Path_6260-2" data-name="Path 6260" d="M0,0H16V16H0Z" fill="none"/>
+        <path id="Path_6261-2" data-name="Path 6261" d="M9.684,13.393a1.342,1.342,0,1,1-1.342-1.342A1.346,1.346,0,0,1,9.684,13.393ZM8.342,8.026A1.342,1.342,0,1,0,9.684,9.368,1.346,1.346,0,0,0,8.342,8.026ZM8.342,4A1.342,1.342,0,1,0,9.684,5.342,1.346,1.346,0,0,0,8.342,4Zm4.026,2.684a1.342,1.342,0,1,0-1.342-1.342A1.346,1.346,0,0,0,12.368,6.684Zm0,1.342a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,8.026Zm0,4.026a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,12.051Z" transform="translate(-2.355 -1.316)" fill="#252a2e"/>
+      </g>
+      <g id="Group_156740" data-name="Group 156740">
+        <text id="Tree_Item_Hover_with_Dra..._" data-name="Tree Item Hover (with Dra...  " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0" xml:space="preserve">Tree Item Hover (with Dra...  </tspan></text>
+        <g id="icon_left-3" data-name="icon left" transform="translate(-503 -1661)">
+          <g id="Icon-3" data-name="Icon" transform="translate(551 1673)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+            <rect width="24" height="24" stroke="none"/>
+            <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+          </g>
+          <text id="_24-3" data-name="24" transform="translate(563 1688.714)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">24</tspan></text>
+        </g>
+        <g id="Arrow_down-8" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+          <path id="Path_3872-8" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+          <path id="Path_3871-8" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+        </g>
+      </g>
+    </g>
+    <g id="tree-item-icons-level_1-4" data-name="tree-item-icons-level 1" transform="translate(235 701)">
+      <rect id="Rectangle_3345-9" data-name="Rectangle 3345" width="320" height="48" fill="#e0e1e9"/>
+      <text id="Tree_Item_Hover_2" data-name="Tree Item Hover " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item Hover </tspan></text>
+      <g id="Arrow_down-9" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+        <path id="Path_3872-9" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871-9" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+      </g>
+      <g id="icon_left-4" data-name="icon left" transform="translate(-503 -1661)">
+        <g id="Icon-4" data-name="Icon" transform="translate(551 1673)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+          <rect width="24" height="24" stroke="none"/>
+          <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+        </g>
+        <text id="_24-4" data-name="24" transform="translate(563 1688.714)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">24</tspan></text>
+      </g>
+    </g>
+    <g id="tree-item-icons-level_1-5" data-name="tree-item-icons-level 1" transform="translate(235 649)">
+      <rect id="Rectangle_3345-10" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+      <line id="top_border-8" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <line id="bottom_border-6" data-name="bottom border" x2="320" transform="translate(0 47.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <text id="Tree_Item_2" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
+      <g id="Arrow_down-10" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+        <path id="Path_3872-10" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871-10" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+      </g>
+      <g id="icon_left-5" data-name="icon left" transform="translate(-503 -1661)">
+        <g id="Icon-5" data-name="Icon" transform="translate(551 1673)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
+          <rect width="24" height="24" stroke="none"/>
+          <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+        </g>
+        <text id="_24-5" data-name="24" transform="translate(563 1688.714)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">24</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g id="Group_156739" data-name="Group 156739" transform="translate(-194 -509)">
+    <g id="tree-item-checkbox-level_1" data-name="tree-item-checkbox-level 1" transform="translate(235 1172)">
+      <rect id="Rectangle_3345-11" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+      <line id="bottom_border-7" data-name="bottom border" x2="320" transform="translate(0 48.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <line id="top_border-9" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <text id="Tree_Item_Checkbox_Selected_" data-name="Tree Item Checkbox Selected " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item Checkbox Selected </tspan></text>
+      <g id="Arrow_down-11" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+        <path id="Path_3872-11" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871-11" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+      </g>
+      <g id="Checkbox" transform="translate(48 12)">
+        <rect id="box" width="24" height="24" fill="none"/>
+        <rect id="BG" width="16" height="16" rx="2" transform="translate(4 4)" fill="#217cbb"/>
+        <path id="Check-5" data-name="Check" d="M4,8.335l-4-4L1.128,3.208,4,6.072,10.071,0,11.2,1.136Z" transform="translate(6.4 7.622)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="tree-item-checkbox-level_1-2" data-name="tree-item-checkbox-level 1" transform="translate(235 1124)">
+      <rect id="Rectangle_3345-12" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+      <line id="top_border-10" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <text id="Tree_Item_Disabled_3" data-name="Tree Item Disabled " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em" opacity="0.3"><tspan x="0" y="0">Tree Item Disabled </tspan></text>
+      <g id="Arrow_down-12" data-name="Arrow down" transform="translate(16 36) rotate(-90)" opacity="0.3">
+        <path id="Path_3872-12" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871-12" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+      </g>
+      <g id="Checkbox-2" data-name="Checkbox" transform="translate(48 12)">
+        <rect id="box-2" data-name="box" width="24" height="24" fill="none"/>
+        <g id="BG-2" data-name="BG" transform="translate(4 4)" fill="none" stroke="rgba(144,147,159,0.3)" stroke-width="2">
+          <rect width="16" height="16" rx="2" stroke="none"/>
+          <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="tree-item-checkbox-level_1-3" data-name="tree-item-checkbox-level 1" transform="translate(235 1076)">
+      <rect id="Rectangle_3345-13" data-name="Rectangle 3345" width="320" height="48" fill="#dcedf9"/>
+      <line id="top_border-11" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <text id="Tree_Item_Selected_" data-name="Tree Item Selected " transform="translate(80 30)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item Selected </tspan></text>
+      <g id="Arrow_down-13" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+        <path id="Path_3872-13" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871-13" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+      </g>
+      <g id="check-6" data-name="check" transform="translate(288 12)">
+        <rect id="icon-box-3" data-name="icon-box" width="24" height="24" fill="none"/>
+        <path id="check-7" data-name="check" d="M343.84,69.08l-2.82-2.82-1.02.96,3.84,3.84L352,62.84l-.96-.96Z" transform="translate(-334 -54.47)" fill="#252a2e"/>
+      </g>
+      <g id="Checkbox-3" data-name="Checkbox" transform="translate(48 12)">
+        <rect id="box-3" data-name="box" width="24" height="24" fill="none"/>
+        <rect id="BG-3" data-name="BG" width="16" height="16" rx="2" transform="translate(4 4)" fill="#217cbb"/>
+        <path id="Check-8" data-name="Check" d="M4,8.335l-4-4L1.128,3.208,4,6.072,10.071,0,11.2,1.136Z" transform="translate(6.4 7.622)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="tree-item-checkbox-level_1-4" data-name="tree-item-checkbox-level 1" transform="translate(235 1028)">
+      <rect id="Rectangle_3345-14" data-name="Rectangle 3345" width="320" height="48" fill="#e0e1e9"/>
+      <line id="top_border-12" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <text id="Tree_Item_Hover_with_Drag..." data-name="Tree Item Hover (with Drag..." transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item Hover (with Drag...</tspan></text>
+      <g id="Arrow_down-14" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+        <path id="Path_3872-14" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871-14" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+      </g>
+      <g id="drag_indicator_black_24dp-3" data-name="drag_indicator_black_24dp" transform="translate(0 16)">
+        <path id="Path_6260-3" data-name="Path 6260" d="M0,0H16V16H0Z" fill="none"/>
+        <path id="Path_6261-3" data-name="Path 6261" d="M9.684,13.393a1.342,1.342,0,1,1-1.342-1.342A1.346,1.346,0,0,1,9.684,13.393ZM8.342,8.026A1.342,1.342,0,1,0,9.684,9.368,1.346,1.346,0,0,0,8.342,8.026ZM8.342,4A1.342,1.342,0,1,0,9.684,5.342,1.346,1.346,0,0,0,8.342,4Zm4.026,2.684a1.342,1.342,0,1,0-1.342-1.342A1.346,1.346,0,0,0,12.368,6.684Zm0,1.342a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,8.026Zm0,4.026a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,12.051Z" transform="translate(-2.355 -1.316)" fill="#252a2e"/>
+      </g>
+      <g id="Checkbox-4" data-name="Checkbox" transform="translate(48 12)">
+        <rect id="box-4" data-name="box" width="24" height="24" fill="none"/>
+        <g id="BG-4" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
+          <rect width="16" height="16" rx="2" stroke="none"/>
+          <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="tree-item-checkbox-level_1-5" data-name="tree-item-checkbox-level 1" transform="translate(235 980)">
+      <rect id="Rectangle_3345-15" data-name="Rectangle 3345" width="320" height="48" fill="#e0e1e9"/>
+      <line id="top_border-13" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <text id="Tree_Item_Hover" data-name="Tree Item Hover" transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item Hover</tspan></text>
+      <g id="Arrow_down-15" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+        <path id="Path_3872-15" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871-15" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+      </g>
+      <g id="Checkbox-5" data-name="Checkbox" transform="translate(48 12)">
+        <rect id="box-5" data-name="box" width="24" height="24" fill="none"/>
+        <g id="BG-5" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
+          <rect width="16" height="16" rx="2" stroke="none"/>
+          <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="tree-item-checkbox-level_1-6" data-name="tree-item-checkbox-level 1" transform="translate(235 932)">
+      <rect id="Rectangle_3345-16" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+      <line id="top_border-14" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <text id="Tree_Item_3" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
+      <g id="Arrow_down-16" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+        <path id="Path_3872-16" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871-16" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+      </g>
+      <g id="Checkbox-6" data-name="Checkbox" transform="translate(48 12)">
+        <rect id="box-6" data-name="box" width="24" height="24" fill="none"/>
+        <g id="BG-6" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
+          <rect width="16" height="16" rx="2" stroke="none"/>
+          <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <text id="Basic_Tree_Item" data-name="Basic Tree Item" transform="translate(41 43)" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">BASIC TREE ITEM</tspan></text>
+  <text id="Checkbox_Tree_Item" data-name="Checkbox Tree Item" transform="translate(41 404)" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">CHECKBOX TREE ITEM</tspan></text>
+  <text id="ICON_Tree_Item" data-name="ICON Tree Item" transform="translate(415 43)" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">ICON TREE ITEM</tspan></text>
+</svg>

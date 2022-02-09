@@ -1,0 +1,106 @@
+<svg id="anatomy" xmlns="http://www.w3.org/2000/svg" width="790" height="249" viewBox="0 0 790 249">
+  <g id="Rectangle_3463" data-name="Rectangle 3463" fill="#f1f1f6" stroke="#cbcdd6" stroke-width="1">
+    <rect width="790" height="249" stroke="none"/>
+    <rect x="0.5" y="0.5" width="789" height="248" fill="none"/>
+  </g>
+  <g id="Group_156720" data-name="Group 156720" transform="translate(36 9)">
+    <g id="tree-item-icons-level_1" data-name="tree-item-icons-level 1" transform="translate(194 87)">
+      <rect id="Rectangle_3345" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
+      <line id="top_border" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <line id="bottom_border" data-name="bottom border" x2="320" transform="translate(0 47.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
+      <g id="Arrow_down" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
+        <path id="Path_3872" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+        <path id="Path_3871" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
+      </g>
+      <g id="check" transform="translate(280 11.6)">
+        <rect id="icon-box" width="24" height="24" fill="none"/>
+        <path id="check-2" data-name="check" d="M343.84,69.08l-2.82-2.82-1.02.96,3.84,3.84L352,62.84l-.96-.96Z" transform="translate(-334 -54.47)" fill="#252a2e"/>
+      </g>
+      <g id="drag_indicator_black_24dp" transform="translate(0 16)">
+        <path id="Path_6260" data-name="Path 6260" d="M0,0H16V16H0Z" fill="none"/>
+        <path id="Path_6261" data-name="Path 6261" d="M9.684,13.393a1.342,1.342,0,1,1-1.342-1.342A1.346,1.346,0,0,1,9.684,13.393ZM8.342,8.026A1.342,1.342,0,1,0,9.684,9.368,1.346,1.346,0,0,0,8.342,8.026ZM8.342,4A1.342,1.342,0,1,0,9.684,5.342,1.346,1.346,0,0,0,8.342,4Zm4.026,2.684a1.342,1.342,0,1,0-1.342-1.342A1.346,1.346,0,0,0,12.368,6.684Zm0,1.342a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,8.026Zm0,4.026a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,12.051Z" transform="translate(-2.355 -1.316)" fill="#252a2e"/>
+      </g>
+      <g id="Group_156708" data-name="Group 156708">
+        <text id="Tree_Item_" data-name="Tree Item " transform="translate(112 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
+        <g id="folder_icon" data-name="folder icon" transform="translate(80 12)">
+          <path id="Path_2521" data-name="Path 2521" d="M0,0H24V24H0Z" fill="none"/>
+          <path id="Path_2522" data-name="Path 2522" d="M8.4,4H3.6A1.55,1.55,0,0,0,2.008,5.5L2,14.5A1.557,1.557,0,0,0,3.6,16H16.4A1.557,1.557,0,0,0,18,14.5V7a1.557,1.557,0,0,0-1.6-1.5H10Z" transform="translate(2 2)" fill="#252a2e"/>
+        </g>
+        <g id="Checkbox" transform="translate(48 12)">
+          <rect id="box" width="24" height="24" fill="none"/>
+          <g id="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
+            <rect width="16" height="16" rx="2" stroke="none"/>
+            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="Drag_icon_size:_16_x_16_px_color:_Trimble_Gray_252a2e_" data-name="Drag icon
+size: 16 x 16 px
+color: Trimble Gray
+(#252a2e)" transform="translate(72 76)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="45.482" y="11">Drag icon</tspan><tspan x="19.808" y="26">size: 16 x 16 px</tspan><tspan x="0.926" y="41">color: Trimble Gray</tspan><tspan x="43.539" y="56">(#252a2e)</tspan></text>
+    <g id="Group_156711" data-name="Group 156711" transform="translate(24 -57)">
+      <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(162 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581" data-name="Path 6581" d="M286-1974H266.5" transform="translate(-124 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+    <g id="Group_156713" data-name="Group 156713">
+      <g id="Group_156712" data-name="Group 156712" transform="translate(86.25 291.25) rotate(-90)">
+        <g id="Ellipse_2-2" data-name="Ellipse 2" transform="translate(162 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3.5" fill="none"/>
+        </g>
+        <path id="Path_6581-2" data-name="Path 6581" d="M286-1974H266.5" transform="translate(-124 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+      </g>
+      <text id="Checkbox-2" data-name="Checkbox" transform="translate(231 149)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="0" y="11">Checkbox</tspan></text>
+    </g>
+    <g id="Group_156715" data-name="Group 156715" transform="translate(119.5 291.25) rotate(-90)">
+      <g id="Ellipse_2-3" data-name="Ellipse 2" transform="translate(162 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581-3" data-name="Path 6581" d="M306.583-1974H266.5" transform="translate(-144.583 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+    <g id="Group_156716" data-name="Group 156716">
+      <g id="Group_156714" data-name="Group 156714" transform="translate(389.25 -57.417) rotate(90)">
+        <g id="Ellipse_2-4" data-name="Ellipse 2" transform="translate(144 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3.5" fill="none"/>
+        </g>
+        <path id="Path_6581-4" data-name="Path 6581" d="M282.084-1974H266.5" transform="translate(-138.084 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+      </g>
+      <text id="Tree_Arrow_24x24_Gray_4_" data-name="Tree Arrow24x24(Gray 4)" transform="translate(194 24)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="1.106" y="11">Tree Arrow</tspan><tspan x="12.935" y="26">24x24</tspan><tspan x="8.884" y="41">(Gray 4)</tspan></text>
+    </g>
+    <g id="Group_156718" data-name="Group 156718" transform="translate(264)">
+      <g id="Group_156714-2" data-name="Group 156714" transform="translate(389.25 -57.417) rotate(90)">
+        <g id="Ellipse_2-5" data-name="Ellipse 2" transform="translate(144 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3.5" fill="none"/>
+        </g>
+        <path id="Path_6581-5" data-name="Path 6581" d="M282.084-1974H266.5" transform="translate(-138.084 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+      </g>
+      <text id="Action_Icons_or_Check_24x24_Trimble_Gray_" data-name="Action Icons or Check24x24 (Trimble Gray)" transform="translate(151 38)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="16.548" y="11">Action Icons or Check</tspan><tspan x="18.003" y="26">24x24 (Trimble Gray)</tspan></text>
+    </g>
+    <text id="Item_Icon_24x24_Trimble_Gray_" data-name="Item Icon24x24 (Trimble Gray)" transform="translate(220 171)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="46.203" y="11">Item Icon</tspan><tspan x="19.503" y="26">24x24 (Trimble Gray)</tspan></text>
+    <g id="Group_156717" data-name="Group 156717" transform="translate(119)">
+      <g id="Group_156714-3" data-name="Group 156714" transform="translate(389.25 -57.417) rotate(90)">
+        <g id="Ellipse_2-6" data-name="Ellipse 2" transform="translate(144 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+          <circle cx="4" cy="4" r="4" stroke="none"/>
+          <circle cx="4" cy="4" r="3.5" fill="none"/>
+        </g>
+        <path id="Path_6581-6" data-name="Path 6581" d="M282.084-1974H266.5" transform="translate(-138.084 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+      </g>
+      <text id="Text_Trimble_Gray_Body_Text_" data-name="Text(Trimble Gray Body Text)" transform="translate(156 40)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="55.536" y="11">Text</tspan><tspan x="7.95" y="26">(Trimble Gray Body Text)</tspan></text>
+    </g>
+    <g id="Group_156719" data-name="Group 156719" transform="translate(662.208 303) rotate(180)">
+      <g id="Ellipse_2-7" data-name="Ellipse 2" transform="translate(144 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581-7" data-name="Path 6581" d="M282.084-1974H266.5" transform="translate(-138.084 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+    <text id="Borders_1px_solid_Gray_0_" data-name="Borders 1px solid(Gray 0)" transform="translate(538 121)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="0" y="11">Borders 1px solid</tspan><tspan x="0" y="26">(Gray 0)</tspan></text>
+  </g>
+</svg>
