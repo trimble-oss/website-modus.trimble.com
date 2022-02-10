@@ -5,10 +5,6 @@ description: "A content tree provides users with a way to navigate nested hierar
 images:
   - "/img/headers/components/content-tree.png"
 components: true
-aliases:
-  - "/elements/content-tree/"
-contributors: ""
-bootstrapURL: "/components/content-tree/"
 ---
 
 ## Overview
@@ -34,7 +30,7 @@ A content tree provides users with a way to navigate nested hierarchical informa
 
 A content tree should be located on the left side of the screen and should consist of the following elements:
 
-<img src="/img/anatomy.svg" alt="Anatomy"></br>
+<img src="/img/anatomy.svg" class="img-fluid" alt="Anatomy"></br>
 
 **Tree item:**
 
@@ -48,8 +44,7 @@ A content tree view is text-only by default. This option is best used when a hie
 - **Icon:** Icons can be used to add clarification about tree view items. They help to differentiate content types visually. Choose icons that relate to the object type being represented in the content tree. These icons can be unique to specific data types to add better clarification for users. Size: 16x16px, color: Trimble Gray. _optional_
 - **Action icon(s):** Action icons may appear next to the tree item or above the content tree in an action bar. _optional_
 
-<img src="/img/tree-specs.svg" alt="Tree Specifications">
-
+<img src="/img/tree-specs.svg" class="img-fluid" alt="Tree Specifications">
 
 ### Behavior
 
@@ -69,46 +64,46 @@ A content tree view is text-only by default. This option is best used when a hie
 
 #### States of Tree Items
 
-<img src="/img/tree-item-states.svg" alt="Tree Item States"></br>
+<img src="/img/tree-item-states.svg" class="img-fluid bg-light" width="792" height="751" loading="lazy" alt="Tree Item States"></br>
 
 
 <table class="table table-bordered bg-white">
   <thead class="thead-light">
     <tr>
       <th>State</th>
-      <th>Background Color</th>
-      <th>Top/Bottom Border</th>
-      <th>Font</th>
-      <th>Notes</th>
+      <th width="20%">Background Color</th>
+      <th width="21%">Top/Bottom Border</th>
+      <th width="21%">Font</th>
+      <th width="21%">Notes</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Default</td>
-      <td>White (#ffffff)</td>
-      <td>1px solid, Gray 0 (#e0e1e9)</td>
-      <td>Trimble Gray (#252a2e); Regular, 400</td>
+      <td>White<br>{{< color-preview hex="#ffffff">}}</td>
+      <td>1px solid, Gray 0<br>{{< color-preview hex="#e0e1e9">}}</td>
+      <td>Trimble Gray<br>{{< color-preview hex="#252a2e">}} Regular, 400</td>
       <td>Body text for default size; Small body text for condensed size</td>
     </tr>
     <tr>
       <td>Hover</td>
-      <td>Gray 0 (#e0e1e9)</td>
-      <td>1px solid, Gray 0 (#e0e1e9)</td>
-      <td>Trimble Gray (#252a2e); Regular, 400</td>
+      <td>Gray 0<br>{{< color-preview hex="#e0e1e9">}}</td>
+      <td>1px solid, Gray 0<br>{{< color-preview hex="#e0e1e9">}}</td>
+      <td>Trimble Gray<br>{{< color-preview hex="#252a2e">}} Regular, 400</td>
       <td>&nbsp;</td>
     </tr>
     <tr>
       <td>Selected</td>
-      <td>Blue Pale (#dcedf9)</td>
-      <td>1px solid, Gray 0 (#e0e1e9)</td>
-      <td>Trimble Gray (#252a2e); Regular, 400</td>
+      <td>Blue Pale<br>{{< color-preview hex="#dcedf9">}}</td>
+      <td>1px solid, Gray 0<br>{{< color-preview hex="#e0e1e9">}}</td>
+      <td>Trimble Gray<br>{{< color-preview hex="#252a2e">}} Regular, 400</td>
       <td>Checkmark appears at the end if action icons are not used</td>
     </tr>
     <tr>
       <td>Disabled</td>
-      <td>White (#ffffff)</td>
-      <td>1px solid, Gray 0 (#e0e1e9)</td>
-      <td>Gray 2 (#b7b9c3); Regular, 400</td>
+      <td>White<br>{{< color-preview hex="#ffffff">}}</td>
+      <td>1px solid, Gray 0<br>{{< color-preview hex="#e0e1e9">}}</td>
+      <td>Gray 2<br>{{< color-preview hex="#b7b9c3">}} Regular, 400</td>
       <td>See <a href="/components/checkboxes/">Checkboxes</a> for specifications</td>
     </td>
   </tbody>
@@ -120,13 +115,13 @@ A content tree view is text-only by default. This option is best used when a hie
 - Clicking the chevron expands the folder but does not select it. Click a tree item selects it and expands it.
 - User can click the "Collapse all" icon/button in the action bar to have all the open folders in the tree collapse.
 
-<img src="/img/tree-open-close.svg" alt="Collapse and Expand"></br>
+<img src="/img/tree-open-close.svg" class="img-fluid" alt="Collapse and Expand"></br>
 
 ### Text Overflow
 
 When a label's length is too long to display within the tree view, the text should be truncated at the end using an ellipsis. Hovering over or focusing on the truncated tree view item should reveal a tooltip that shows the full text of the label.
 
-<img src="/img/tree-text-overflow.svg" alt="Text Overflow"></br>
+<img src="/img/tree-text-overflow.svg" class="img-fluid" alt="Text Overflow"></br>
 
 <!-- ### Adjustable Layout
 
@@ -145,11 +140,11 @@ When tree views are very large, use a progress circle or a "show more" affordanc
 
 If system processes are delaying the display of child tree view items when a parent tree view item is expanded, show a clear indication that the items are in the process of loading (see [Spinners](/components/spinners/)).
 
-<img src="/img/tree-lrg-loading.svg" alt="Large Tree Views"></br>
+<img src="/img/tree-lrg-loading.svg" class="img-fluid" alt="Large Tree Views"></br>
 
 ### Content Tree Action bar
 
-<img src="/img/tree-content-br.svg" alt="Content Tree Action bar"></br>
+<img src="/img/tree-content-br.svg" class="img-fluid" alt="Content Tree Action bar"></br>
 
 The content tree may include an action bar that contains a variety of icons that turn on a content tree functionality:
 
@@ -161,7 +156,7 @@ The content tree may include an action bar that contains a variety of icons that
 
 **Duplicate**
 
-<img src="/img/tree-duplicating.svg" alt="Duplicate Tree"></br>
+<img src="/img/tree-duplicating.svg" class="img-fluid" alt="Duplicate Tree"></br>
 
 When a folder is selected, the duplicate icon in the toolbar becomes active.
 - The user clicks the duplicate icon.
@@ -171,7 +166,7 @@ When a folder is selected, the duplicate icon in the toolbar becomes active.
 
 **Drag and Drop**
 
-<img src="/img/tree-drag-drop.svg" alt="Drag & Drop"></br>
+<img src="/img/tree-drag-drop.svg" class="img-fluid" alt="Drag & Drop"></br>
 
 The Drag & Drop icon (and functionality) is hidden by default. The user needs to click the icon in the action bar above the content Tree.
 
@@ -193,7 +188,7 @@ If a drag operation is not allowed, the line indicating the drop location will b
 
 **Edit Tree Item Name**
 
-<img src="/img/tree-edit.svg" alt="Edit"></br>
+<img src="/img/tree-edit.svg" class="img-fluid" alt="Edit"></br>
 
 When a tree item is selected, the edit icon in the toolbar becomes active.
 - User clicks the edit icon.
@@ -229,8 +224,8 @@ Filter shows all the tree items matching the user's search term. Tree items are 
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
+| Date       | Version | Notes                | Contributors                                 |
+| ---------- | ------- | -------------------- | -------------------------------------------- |
 | 02/04/2022 | 1.3.0   | New component added. | J. Wittmeyer, E. Gunther, L. Meskanen-Kundu  |
 
 {{</ whats-changed-table >}}
