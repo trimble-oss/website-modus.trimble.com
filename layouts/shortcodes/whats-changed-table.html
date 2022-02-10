@@ -1,5 +1,5 @@
 {{ $htmlTable := .Inner | markdownify }}
 {{ $old := "<table>" }}
-{{ $new := printf "<h5 class=\"mt-4\">What's Changed</h5><table class=\"table table-whats-new table-sm\">" }}
+{{ $new := printf "<h5 class=\"mt-4\">What's Changed</h5><table class=\"table table-whats-new border table-sm\">" }}
 {{ $htmlTable := replace $htmlTable $old $new }}
 {{ $htmlTable | safeHTML }}
