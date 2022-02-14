@@ -4,8 +4,6 @@ layout: "single"
 description: "Rapidly build beautiful and accessible experiences. The Modus kit contains
 all assets you need to get started."
 start: true
-aliases:
-  - "/designers.html"
 ---
 
 <div class="row">

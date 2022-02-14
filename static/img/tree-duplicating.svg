@@ -1,448 +1,1143 @@
-<svg id="tree-duplicating" xmlns="http://www.w3.org/2000/svg" width="790" height="773" viewBox="0 0 790 773">
-  <g id="Rectangle_3463" data-name="Rectangle 3463" fill="#f1f1f6" stroke="#cbcdd6" stroke-width="1">
-    <rect width="790" height="773" stroke="none"/>
-    <rect x="0.5" y="0.5" width="789" height="772" fill="none"/>
-  </g>
-  <text id="Duplicating_a_tree_item" data-name="Duplicating a tree item" transform="translate(37 43)" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">DUPLICATING A TREE ITEM</tspan></text>
-  <g id="Group_156750" data-name="Group 156750" transform="translate(-693 -5605)">
-    <g id="Group_156699" data-name="Group 156699" transform="translate(496 2196)">
-      <g id="tree-item-checkbox-level_1" data-name="tree-item-checkbox-level 1" transform="translate(235 3991.5)">
-        <rect id="Rectangle_3345" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item_" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
-        <g id="Arrow_down" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
-          <path id="Path_3872" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox" transform="translate(48 12)">
-          <rect id="box" width="24" height="24" fill="none"/>
-          <g id="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-2" data-name="tree-item-checkbox-level 1" transform="translate(235 3943)">
-        <rect id="Rectangle_3345-2" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <line id="bottom_border" data-name="bottom border" x2="320" transform="translate(0 48.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
-        <line id="top_border" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
-        <text id="Tree_Item_2" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
-        <g id="Arrow_down-2" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
-          <path id="Path_3872-2" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-2" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-2" data-name="Checkbox" transform="translate(48 12)">
-          <rect id="box-2" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-2" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-3" data-name="tree-item-checkbox-level 1" transform="translate(235 3895)">
-        <rect id="Rectangle_3345-3" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item" data-name="Tree Item" transform="translate(174 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
-        <g id="Arrow_down-3" data-name="Arrow down" transform="translate(80 12)" opacity="0">
-          <path id="Path_3872-3" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-3" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-3" data-name="Checkbox" transform="translate(142 12)">
-          <rect id="box-3" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-3" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-4" data-name="tree-item-checkbox-level 1" transform="translate(235 3847)">
-        <rect id="Rectangle_3345-4" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item-2" data-name="Tree Item" transform="translate(174 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
-        <g id="Arrow_down-4" data-name="Arrow down" transform="translate(110 36) rotate(-90)" opacity="0">
-          <path id="Path_3872-4" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-4" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-4" data-name="Checkbox" transform="translate(142 12)">
-          <rect id="box-4" data-name="box" width="24" height="24" fill="none"/>
-          <rect id="BG-4" data-name="BG" width="16" height="16" rx="2" transform="translate(4 4)" fill="#217cbb"/>
-          <path id="Check" d="M4,8.335l-4-4L1.128,3.208,4,6.072,10.071,0,11.2,1.136Z" transform="translate(6.4 7.622)" fill="#fff"/>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-5" data-name="tree-item-checkbox-level 1" transform="translate(235 3799)">
-        <rect id="Rectangle_3345-5" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item-3" data-name="Tree Item" transform="translate(174 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
-        <g id="Arrow_down-5" data-name="Arrow down" transform="translate(80 12)" opacity="0">
-          <path id="Path_3872-5" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-5" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-5" data-name="Checkbox" transform="translate(142 12)">
-          <rect id="box-5" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-5" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-6" data-name="tree-item-checkbox-level 1" transform="translate(235 3751)">
-        <rect id="Rectangle_3345-6" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item-4" data-name="Tree Item" transform="translate(144 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
-        <g id="Arrow_down-6" data-name="Arrow down" transform="translate(80 12)">
-          <path id="Path_3872-6" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-6" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-6" data-name="Checkbox" transform="translate(112 12)">
-          <rect id="box-6" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-6" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-7" data-name="tree-item-checkbox-level 1" transform="translate(235 3703)">
-        <rect id="Rectangle_3345-7" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item-5" data-name="Tree Item" transform="translate(112 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
-        <g id="Arrow_down-7" data-name="Arrow down" transform="translate(48 12)">
-          <path id="Path_3872-7" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-7" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-7" data-name="Checkbox" transform="translate(80 12)">
-          <rect id="box-7" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-7" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-8" data-name="tree-item-checkbox-level 1" transform="translate(235 3655)">
-        <rect id="Rectangle_3345-8" data-name="Rectangle 3345" width="320" height="48" fill="#dcedf9"/>
-        <text id="Tree_Item-6" data-name="Tree Item" transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
-        <g id="Arrow_down-8" data-name="Arrow down" transform="translate(16 12)">
-          <path id="Path_3872-8" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-8" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-8" data-name="Checkbox" transform="translate(48 12)">
-          <rect id="box-8" data-name="box" width="24" height="24" fill="none"/>
-          <rect id="BG-8" data-name="BG" width="16" height="16" rx="2" transform="translate(4 4)" fill="#217cbb"/>
-          <path id="Check-2" data-name="Check" d="M4,8.335l-4-4L1.128,3.208,4,6.072,10.071,0,11.2,1.136Z" transform="translate(6.4 7.622)" fill="#fff"/>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-9" data-name="tree-item-checkbox-level 1" transform="translate(235 3607)">
-        <rect id="Rectangle_3345-9" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item_3" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
-        <g id="Arrow_down-9" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
-          <path id="Path_3872-9" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-9" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-9" data-name="Checkbox" transform="translate(48 12)">
-          <rect id="box-9" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-9" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-10" data-name="tree-item-checkbox-level 1" transform="translate(235 3559)">
-        <rect id="Rectangle_3345-10" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <line id="top_border-2" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
-        <text id="Tree_Item_4" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
-        <g id="Arrow_down-10" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
-          <path id="Path_3872-10" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-10" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-10" data-name="Checkbox" transform="translate(48 12)">
-          <rect id="box-10" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-10" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-    </g>
-    <g id="scrollbar" transform="translate(707 5739)">
-      <rect id="Rectangle_3435" data-name="Rectangle 3435" width="8" height="480" transform="translate(336 16)" fill="#fff"/>
-      <rect id="Rectangle_3434" data-name="Rectangle 3434" width="8" height="96" rx="4" transform="translate(336 128)" fill="#90939f"/>
-    </g>
-    <g id="content_bar" data-name="content bar" transform="translate(116 4293)">
-      <rect id="Rectangle_3441" data-name="Rectangle 3441" width="321" height="80" transform="translate(614 1382)" fill="#fff"/>
-      <g id="drag_indicator_black_24dp_2_" data-name="drag_indicator_black_24dp (2)" transform="translate(863 1430)">
-        <path id="Path_6572" data-name="Path 6572" d="M0,0H24V24H0Z" fill="none"/>
-        <path id="Path_6573" data-name="Path 6573" d="M11,18a2,2,0,1,1-2-2A2.006,2.006,0,0,1,11,18ZM9,10a2,2,0,1,0,2,2A2.006,2.006,0,0,0,9,10ZM9,4a2,2,0,1,0,2,2A2.006,2.006,0,0,0,9,4Zm6,4a2,2,0,1,0-2-2A2.006,2.006,0,0,0,15,8Zm0,2a2,2,0,1,0,2,2A2.006,2.006,0,0,0,15,10Zm0,6a2,2,0,1,0,2,2A2.006,2.006,0,0,0,15,16Z" fill="#252a2e"/>
-      </g>
-      <g id="Search_Input" data-name="Search Input" transform="translate(622 1390)">
-        <g id="Rectangle_1841" data-name="Rectangle 1841" fill="#fff" stroke="#e0e1e9" stroke-width="1">
-          <path d="M2,0H303a2,2,0,0,1,2,2V32a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" stroke="none"/>
-          <path d="M2,.5H303A1.5,1.5,0,0,1,304.5,2V31.5a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V2A1.5,1.5,0,0,1,2,.5Z" fill="none"/>
-        </g>
-        <rect id="Bottom_Line" data-name="Bottom Line" width="305" height="1" transform="translate(0 31)" fill="#6a6e79"/>
-        <g id="Search_Icon" data-name="Search Icon" transform="translate(8 6)">
-          <path id="Path_6175" data-name="Path 6175" d="M0,0H20V20H0Z" fill="none"/>
-          <path id="Path_6176" data-name="Path 6176" d="M12.641,11.484h-.609l-.216-.208a5.021,5.021,0,1,0-.54.54l.208.216v.609l3.856,3.849,1.149-1.149Zm-4.628,0a3.471,3.471,0,1,1,3.471-3.471A3.466,3.466,0,0,1,8.013,11.484Z" fill="#6a6e79"/>
-        </g>
-        <text id="Search" transform="translate(36 20)" fill="#b7b9c3" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Search</tspan></text>
-        <g id="search-clear-icon" transform="translate(277 8)" opacity="0">
-          <rect id="icon-box" width="16" height="16" fill="none"/>
-          <path id="close" d="M68,228.8l-.8-.8L64,231.2,60.8,228l-.8.8,3.2,3.2L60,235.2l.8.8,3.2-3.2,3.2,3.2.8-.8L64.8,232Z" transform="translate(-56 -224)" fill="#6a6e79"/>
-        </g>
-      </g>
-      <g id="unfold_less_black_24dp" transform="translate(903 1430)">
-        <path id="Path_6566" data-name="Path 6566" d="M0,0H24V24H0Z" fill="none"/>
-        <path id="Path_6567" data-name="Path 6567" d="M7.41,18.59,8.83,20,12,16.83,15.17,20l1.41-1.41L12,14ZM16.59,5.41,15.17,4,12,7.17,8.83,4,7.41,5.41,12,10Z" fill="#252a2e"/>
-      </g>
-      <g id="add_black_24dp" transform="translate(825.026 1430)">
-        <path id="Path_6564" data-name="Path 6564" d="M0,0H24V24H0Z" fill="none"/>
-        <path id="Path_6565" data-name="Path 6565" d="M19,13H13v6H11V13H5V11h6V5h2v6h6Z" fill="#252a2e"/>
-      </g>
-      <g id="edit-btn" transform="translate(742 1426)">
-        <rect id="bg-11" data-name="bg" width="32" height="32" rx="2" fill="#d6d5db"/>
-      </g>
-      <g id="delete_black_24dp_2_" data-name="delete_black_24dp (2)" transform="translate(707.789 1430)">
-        <path id="Path_6570" data-name="Path 6570" d="M0,0H24V24H0Z" fill="none"/>
-        <path id="Path_6571" data-name="Path 6571" d="M6,19a2.006,2.006,0,0,0,2,2h8a2.006,2.006,0,0,0,2-2V7H6ZM19,4H15.5l-1-1h-5l-1,1H5V6H19Z" fill="#252a2e"/>
-      </g>
-      <g id="content_copy_black_24dp" transform="translate(746.868 1430)">
-        <path id="Path_6576" data-name="Path 6576" d="M0,0H24V24H0Z" fill="none"/>
-        <path id="Path_6577" data-name="Path 6577" d="M16,1H4A2.006,2.006,0,0,0,2,3V17H4V3H16Zm3,4H8A2.006,2.006,0,0,0,6,7V21a2.006,2.006,0,0,0,2,2H19a2.006,2.006,0,0,0,2-2V7A2.006,2.006,0,0,0,19,5Zm0,16H8V7H19Z" fill="#252a2e"/>
-      </g>
-      <g id="edit-btn-2" data-name="edit-btn" transform="translate(782 1426)">
-        <rect id="bg-12" data-name="bg" width="32" height="32" rx="2" fill="none"/>
-        <g id="icon" transform="translate(4 4)">
-          <g id="icon-box-2" data-name="icon-box" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0">
-            <rect width="24" height="24" stroke="none"/>
-            <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
-          </g>
-          <path id="edit" d="M227,297.22V301h3.78l11.07-11.07-3.78-3.78Zm17.73-10.17a1.093,1.093,0,0,0,0-1.44l-2.34-2.34a1.093,1.093,0,0,0-1.44,0l-1.8,1.8,3.78,3.78Z" transform="translate(-224 -280)" fill="#363545"/>
-        </g>
-      </g>
-    </g>
-  </g>
-  <g id="Group_156751" data-name="Group 156751" transform="translate(-326 -5605)">
-    <g id="Group_156699-2" data-name="Group 156699" transform="translate(496 2196)">
-      <g id="tree-item-checkbox-level_1-11" data-name="tree-item-checkbox-level 1" transform="translate(235 4039.5)">
-        <rect id="Rectangle_3345-11" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item_5" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
-        <g id="Arrow_down-11" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
-          <path id="Path_3872-11" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-11" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-11" data-name="Checkbox" transform="translate(48 12)">
-          <rect id="box-11" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-13" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-12" data-name="tree-item-checkbox-level 1" transform="translate(235 3991)">
-        <rect id="Rectangle_3345-12" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <line id="bottom_border-2" data-name="bottom border" x2="320" transform="translate(0 48.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
-        <line id="top_border-3" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
-        <text id="Tree_Item_6" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
-        <g id="Arrow_down-12" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
-          <path id="Path_3872-12" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-12" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-12" data-name="Checkbox" transform="translate(48 12)">
-          <rect id="box-12" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-14" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-13" data-name="tree-item-checkbox-level 1" transform="translate(235 3943)">
-        <rect id="Rectangle_3345-13" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item_7" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em" opacity="0"><tspan x="0" y="0">Tree Item </tspan></text>
-        <g id="Arrow_down-13" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
-          <path id="Path_3872-13" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-13" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-13" data-name="Checkbox" transform="translate(48 12)">
-          <rect id="box-13" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-15" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-        <g id="Input" transform="translate(80 -16)">
-          <g id="Group_6710" data-name="Group 6710" transform="translate(0 54)">
-            <path id="Rectangle_3444" data-name="Rectangle 3444" d="M2,0H206a2,2,0,0,1,2,2V32a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(0 -30)" fill="#fff"/>
-            <rect id="Bottom_Line-2" data-name="Bottom Line" width="208" height="2" fill="#217cbb"/>
-          </g>
-          <text id="Copy_of_Tree_Item_123" data-name="Copy of Tree Item 123" transform="translate(8 44)" fill="#252a2e" font-size="14" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">Copy of Tree Item 123</tspan></text>
-          <line id="Line_532" data-name="Line 532" y2="20" transform="translate(164 29)" fill="none" stroke="#252a2e" stroke-width="1"/>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-14" data-name="tree-item-checkbox-level 1" transform="translate(235 3895)">
-        <rect id="Rectangle_3345-14" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item-7" data-name="Tree Item" transform="translate(174 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
-        <g id="Arrow_down-14" data-name="Arrow down" transform="translate(80 12)" opacity="0">
-          <path id="Path_3872-14" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-14" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-14" data-name="Checkbox" transform="translate(142 12)">
-          <rect id="box-14" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-16" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-15" data-name="tree-item-checkbox-level 1" transform="translate(235 3847)">
-        <rect id="Rectangle_3345-15" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item-8" data-name="Tree Item" transform="translate(174 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
-        <g id="Arrow_down-15" data-name="Arrow down" transform="translate(110 36) rotate(-90)" opacity="0">
-          <path id="Path_3872-15" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-15" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-15" data-name="Checkbox" transform="translate(142 12)">
-          <rect id="box-15" data-name="box" width="24" height="24" fill="none"/>
-          <rect id="BG-17" data-name="BG" width="16" height="16" rx="2" transform="translate(4 4)" fill="#217cbb"/>
-          <path id="Check-3" data-name="Check" d="M4,8.335l-4-4L1.128,3.208,4,6.072,10.071,0,11.2,1.136Z" transform="translate(6.4 7.622)" fill="#fff"/>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-16" data-name="tree-item-checkbox-level 1" transform="translate(235 3799)">
-        <rect id="Rectangle_3345-16" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item-9" data-name="Tree Item" transform="translate(174 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
-        <g id="Arrow_down-16" data-name="Arrow down" transform="translate(80 12)" opacity="0">
-          <path id="Path_3872-16" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-16" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-16" data-name="Checkbox" transform="translate(142 12)">
-          <rect id="box-16" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-18" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-17" data-name="tree-item-checkbox-level 1" transform="translate(235 3751)">
-        <rect id="Rectangle_3345-17" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item-10" data-name="Tree Item" transform="translate(144 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
-        <g id="Arrow_down-17" data-name="Arrow down" transform="translate(80 12)">
-          <path id="Path_3872-17" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-17" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-17" data-name="Checkbox" transform="translate(112 12)">
-          <rect id="box-17" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-19" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-18" data-name="tree-item-checkbox-level 1" transform="translate(235 3703)">
-        <rect id="Rectangle_3345-18" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item-11" data-name="Tree Item" transform="translate(112 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
-        <g id="Arrow_down-18" data-name="Arrow down" transform="translate(48 12)">
-          <path id="Path_3872-18" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-18" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-18" data-name="Checkbox" transform="translate(80 12)">
-          <rect id="box-18" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-20" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-19" data-name="tree-item-checkbox-level 1" transform="translate(235 3655)">
-        <rect id="Rectangle_3345-19" data-name="Rectangle 3345" width="320" height="48" fill="#dcedf9"/>
-        <text id="Tree_Item-12" data-name="Tree Item" transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">Tree Item</tspan></text>
-        <g id="Arrow_down-19" data-name="Arrow down" transform="translate(16 12)">
-          <path id="Path_3872-19" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-19" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-19" data-name="Checkbox" transform="translate(48 12)">
-          <rect id="box-19" data-name="box" width="24" height="24" fill="none"/>
-          <rect id="BG-21" data-name="BG" width="16" height="16" rx="2" transform="translate(4 4)" fill="#217cbb"/>
-          <path id="Check-4" data-name="Check" d="M4,8.335l-4-4L1.128,3.208,4,6.072,10.071,0,11.2,1.136Z" transform="translate(6.4 7.622)" fill="#fff"/>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-20" data-name="tree-item-checkbox-level 1" transform="translate(235 3607)">
-        <rect id="Rectangle_3345-20" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <text id="Tree_Item_8" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
-        <g id="Arrow_down-20" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
-          <path id="Path_3872-20" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-20" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-20" data-name="Checkbox" transform="translate(48 12)">
-          <rect id="box-20" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-22" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-      <g id="tree-item-checkbox-level_1-21" data-name="tree-item-checkbox-level 1" transform="translate(235 3559)">
-        <rect id="Rectangle_3345-21" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <line id="top_border-4" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
-        <text id="Tree_Item_9" data-name="Tree Item " transform="translate(80 30.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
-        <g id="Arrow_down-21" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
-          <path id="Path_3872-21" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-21" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#90939f"/>
-        </g>
-        <g id="Checkbox-21" data-name="Checkbox" transform="translate(48 12)">
-          <rect id="box-21" data-name="box" width="24" height="24" fill="none"/>
-          <g id="BG-23" data-name="BG" transform="translate(4 4)" fill="#fff" stroke="#90939f" stroke-width="2">
-            <rect width="16" height="16" rx="2" stroke="none"/>
-            <rect x="1" y="1" width="14" height="14" rx="1" fill="none"/>
-          </g>
-        </g>
-      </g>
-    </g>
-    <g id="scrollbar-2" data-name="scrollbar" transform="translate(707 5739)">
-      <rect id="Rectangle_3435-2" data-name="Rectangle 3435" width="8" height="480" transform="translate(336 16)" fill="#fff"/>
-      <rect id="Rectangle_3434-2" data-name="Rectangle 3434" width="8" height="96" rx="4" transform="translate(336 128)" fill="#90939f"/>
-    </g>
-    <g id="content_bar-2" data-name="content bar" transform="translate(116 4293)">
-      <rect id="Rectangle_3441-2" data-name="Rectangle 3441" width="321" height="80" transform="translate(614 1382)" fill="#fff"/>
-      <g id="drag_indicator_black_24dp_2_2" data-name="drag_indicator_black_24dp (2)" transform="translate(863 1430)">
-        <path id="Path_6572-2" data-name="Path 6572" d="M0,0H24V24H0Z" fill="none"/>
-        <path id="Path_6573-2" data-name="Path 6573" d="M11,18a2,2,0,1,1-2-2A2.006,2.006,0,0,1,11,18ZM9,10a2,2,0,1,0,2,2A2.006,2.006,0,0,0,9,10ZM9,4a2,2,0,1,0,2,2A2.006,2.006,0,0,0,9,4Zm6,4a2,2,0,1,0-2-2A2.006,2.006,0,0,0,15,8Zm0,2a2,2,0,1,0,2,2A2.006,2.006,0,0,0,15,10Zm0,6a2,2,0,1,0,2,2A2.006,2.006,0,0,0,15,16Z" fill="#252a2e"/>
-      </g>
-      <g id="Search_Input-2" data-name="Search Input" transform="translate(622 1390)">
-        <g id="Rectangle_1841-2" data-name="Rectangle 1841" fill="#fff" stroke="#e0e1e9" stroke-width="1">
-          <path d="M2,0H303a2,2,0,0,1,2,2V32a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" stroke="none"/>
-          <path d="M2,.5H303A1.5,1.5,0,0,1,304.5,2V31.5a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V2A1.5,1.5,0,0,1,2,.5Z" fill="none"/>
-        </g>
-        <rect id="Bottom_Line-3" data-name="Bottom Line" width="305" height="1" transform="translate(0 31)" fill="#6a6e79"/>
-        <g id="Search_Icon-2" data-name="Search Icon" transform="translate(8 6)">
-          <path id="Path_6175-2" data-name="Path 6175" d="M0,0H20V20H0Z" fill="none"/>
-          <path id="Path_6176-2" data-name="Path 6176" d="M12.641,11.484h-.609l-.216-.208a5.021,5.021,0,1,0-.54.54l.208.216v.609l3.856,3.849,1.149-1.149Zm-4.628,0a3.471,3.471,0,1,1,3.471-3.471A3.466,3.466,0,0,1,8.013,11.484Z" fill="#6a6e79"/>
-        </g>
-        <text id="Search-2" data-name="Search" transform="translate(36 20)" fill="#b7b9c3" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Search</tspan></text>
-        <g id="search-clear-icon-2" data-name="search-clear-icon" transform="translate(277 8)" opacity="0">
-          <rect id="icon-box-3" data-name="icon-box" width="16" height="16" fill="none"/>
-          <path id="close-2" data-name="close" d="M68,228.8l-.8-.8L64,231.2,60.8,228l-.8.8,3.2,3.2L60,235.2l.8.8,3.2-3.2,3.2,3.2.8-.8L64.8,232Z" transform="translate(-56 -224)" fill="#6a6e79"/>
-        </g>
-      </g>
-      <g id="unfold_less_black_24dp-2" data-name="unfold_less_black_24dp" transform="translate(903 1430)">
-        <path id="Path_6566-2" data-name="Path 6566" d="M0,0H24V24H0Z" fill="none"/>
-        <path id="Path_6567-2" data-name="Path 6567" d="M7.41,18.59,8.83,20,12,16.83,15.17,20l1.41-1.41L12,14ZM16.59,5.41,15.17,4,12,7.17,8.83,4,7.41,5.41,12,10Z" fill="#252a2e"/>
-      </g>
-      <g id="add_black_24dp-2" data-name="add_black_24dp" transform="translate(825.026 1430)">
-        <path id="Path_6564-2" data-name="Path 6564" d="M0,0H24V24H0Z" fill="none"/>
-        <path id="Path_6565-2" data-name="Path 6565" d="M19,13H13v6H11V13H5V11h6V5h2v6h6Z" fill="#252a2e"/>
-      </g>
-      <g id="edit-btn-3" data-name="edit-btn" transform="translate(742 1426)">
-        <rect id="bg-24" data-name="bg" width="32" height="32" rx="2" fill="#d6d5db" opacity="0"/>
-      </g>
-      <g id="delete_black_24dp_2_2" data-name="delete_black_24dp (2)" transform="translate(707.789 1430)">
-        <path id="Path_6570-2" data-name="Path 6570" d="M0,0H24V24H0Z" fill="none"/>
-        <path id="Path_6571-2" data-name="Path 6571" d="M6,19a2.006,2.006,0,0,0,2,2h8a2.006,2.006,0,0,0,2-2V7H6ZM19,4H15.5l-1-1h-5l-1,1H5V6H19Z" fill="#252a2e"/>
-      </g>
-      <g id="content_copy_black_24dp-2" data-name="content_copy_black_24dp" transform="translate(746.868 1430)">
-        <path id="Path_6576-2" data-name="Path 6576" d="M0,0H24V24H0Z" fill="none"/>
-        <path id="Path_6577-2" data-name="Path 6577" d="M16,1H4A2.006,2.006,0,0,0,2,3V17H4V3H16Zm3,4H8A2.006,2.006,0,0,0,6,7V21a2.006,2.006,0,0,0,2,2H19a2.006,2.006,0,0,0,2-2V7A2.006,2.006,0,0,0,19,5Zm0,16H8V7H19Z" fill="#252a2e"/>
-      </g>
-      <g id="edit-btn-4" data-name="edit-btn" transform="translate(782 1426)">
-        <rect id="bg-25" data-name="bg" width="32" height="32" rx="2" fill="none"/>
-        <g id="icon-2" data-name="icon" transform="translate(4 4)">
-          <g id="icon-box-4" data-name="icon-box" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0">
-            <rect width="24" height="24" stroke="none"/>
-            <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
-          </g>
-          <path id="edit-2" data-name="edit" d="M227,297.22V301h3.78l11.07-11.07-3.78-3.78Zm17.73-10.17a1.093,1.093,0,0,0,0-1.44l-2.34-2.34a1.093,1.093,0,0,0-1.44,0l-1.8,1.8,3.78,3.78Z" transform="translate(-224 -280)" fill="#363545"/>
-        </g>
-      </g>
-    </g>
-  </g>
+
+
+<svg  id="tree-duplicating" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 790 773" style="enable-background:new 0 0 790 773;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F1F1F6;}
+	.st1{fill:none;stroke:#CBCDD6;}
+	.st2{enable-background:new    ;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#252A2E;}
+	.st5{fill:none;}
+	.st6{fill:#90939F;}
+	.st7{fill:none;stroke:#90939F;stroke-width:2;}
+	.st8{fill:none;stroke:#E0E1E9;}
+	.st9{opacity:0;}
+	.st10{fill:#217CBB;}
+	.st11{fill:#DCEDF9;}
+	.st12{fill:#6A6E79;}
+	.st13{fill:#B7B9C3;}
+	.st14{fill:#D6D5DB;}
+	.st15{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st16{fill:#363545;}
+	.st17{fill:none;stroke:#252A2E;}
+	.st18{fill:#D6D5DB;fill-opacity:0;}
+</style>
+<g id="Rectangle_3463">
+	<rect class="st0" width="790" height="773"/>
+	<rect x="0.5" y="0.5" class="st1" width="789" height="772"/>
+</g>
+<g class="st2">
+	<path d="M45.2,38.6c0,1.4-0.4,2.5-1.2,3.2S42,43,40.5,43h-2.4v-8.6h2.7c1.4,0,2.5,0.4,3.3,1.1S45.2,37.3,45.2,38.6z M43.3,38.7
+		c0-1.8-0.8-2.8-2.4-2.8h-1v5.6h0.8C42.4,41.5,43.3,40.6,43.3,38.7z"/>
+	<path d="M53.9,34.4V40c0,0.6-0.1,1.2-0.4,1.7s-0.7,0.8-1.2,1.1s-1.2,0.4-1.9,0.4c-1.1,0-2-0.3-2.6-0.8s-0.9-1.3-0.9-2.3v-5.5h1.8
+		v5.2c0,0.7,0.1,1.1,0.4,1.5s0.7,0.5,1.3,0.5c0.6,0,1-0.2,1.3-0.5s0.4-0.8,0.4-1.5v-5.2H53.9z"/>
+	<path d="M61.9,37.1c0,0.9-0.3,1.6-0.9,2.1S59.7,40,58.6,40h-0.8v3H56v-8.6h2.7c1,0,1.8,0.2,2.4,0.7S61.9,36.2,61.9,37.1z
+		 M57.8,38.5h0.6c0.6,0,1-0.1,1.3-0.3s0.4-0.5,0.4-1c0-0.4-0.1-0.7-0.3-0.9s-0.6-0.3-1.1-0.3h-0.8V38.5z"/>
+	<path d="M63.6,43v-8.6h1.8v7.1h3.5V43H63.6z"/>
+	<path d="M70.3,43v-8.6h1.8V43H70.3z"/>
+	<path d="M78,35.8c-0.7,0-1.2,0.3-1.6,0.8s-0.6,1.2-0.6,2.1c0,1.9,0.7,2.9,2.2,2.9c0.6,0,1.3-0.2,2.2-0.5v1.5
+		c-0.7,0.3-1.5,0.4-2.4,0.4c-1.2,0-2.2-0.4-2.9-1.1s-1-1.8-1-3.3c0-0.9,0.2-1.7,0.5-2.3s0.8-1.2,1.4-1.5s1.3-0.5,2.1-0.5
+		c0.8,0,1.7,0.2,2.5,0.6l-0.6,1.5c-0.3-0.2-0.6-0.3-1-0.4S78.3,35.8,78,35.8z"/>
+	<path d="M87.2,43l-0.6-2h-3.1l-0.6,2h-2l3-8.6h2.2l3,8.6H87.2z M86.2,39.4c-0.6-1.8-0.9-2.9-1-3.1s-0.1-0.4-0.2-0.6
+		c-0.1,0.5-0.5,1.7-1.1,3.7H86.2z"/>
+	<path d="M93.5,43h-1.8v-7.1h-2.3v-1.5h6.5v1.5h-2.3V43z"/>
+	<path d="M97.2,43v-8.6H99V43H97.2z"/>
+	<path d="M108.8,43h-2.3l-3.7-6.5h-0.1c0.1,1.1,0.1,2,0.1,2.4v4h-1.6v-8.6h2.3l3.7,6.4h0c-0.1-1.1-0.1-1.9-0.1-2.4v-4.1h1.6V43z"/>
+	<path d="M114.2,38.2h3.4v4.4c-0.6,0.2-1.1,0.3-1.6,0.4s-1,0.1-1.5,0.1c-1.3,0-2.3-0.4-3-1.1s-1-1.9-1-3.3c0-1.4,0.4-2.5,1.2-3.2
+		s1.9-1.2,3.3-1.2c0.9,0,1.7,0.2,2.5,0.5l-0.6,1.5c-0.6-0.3-1.3-0.5-2-0.5c-0.8,0-1.4,0.3-1.9,0.8s-0.7,1.2-0.7,2.1
+		c0,0.9,0.2,1.6,0.6,2.1s0.9,0.7,1.7,0.7c0.4,0,0.8,0,1.2-0.1v-1.8h-1.6V38.2z"/>
+	<path d="M128,43l-0.6-2h-3.1l-0.6,2h-2l3-8.6h2.2l3,8.6H128z M126.9,39.4c-0.6-1.8-0.9-2.9-1-3.1s-0.1-0.4-0.2-0.6
+		c-0.1,0.5-0.5,1.7-1.1,3.7H126.9z"/>
+	<path d="M137.4,43h-1.8v-7.1h-2.3v-1.5h6.5v1.5h-2.3V43z"/>
+	<path d="M142.9,39.7V43h-1.8v-8.6h2.5c1.2,0,2,0.2,2.6,0.6s0.8,1.1,0.8,1.9c0,0.5-0.1,1-0.4,1.3s-0.7,0.7-1.2,0.9
+		c1.3,1.9,2.1,3.2,2.5,3.7h-2l-2-3.3H142.9z M142.9,38.2h0.6c0.6,0,1-0.1,1.3-0.3s0.4-0.5,0.4-0.9c0-0.4-0.1-0.7-0.4-0.9
+		s-0.7-0.3-1.3-0.3h-0.6V38.2z"/>
+	<path d="M153.9,43H149v-8.6h4.9v1.5h-3.1v1.9h2.9v1.5h-2.9v2.2h3.1V43z"/>
+	<path d="M160.7,43h-4.9v-8.6h4.9v1.5h-3.1v1.9h2.9v1.5h-2.9v2.2h3.1V43z"/>
+	<path d="M165.6,43v-8.6h1.8V43H165.6z"/>
+	<path d="M172.8,43H171v-7.1h-2.3v-1.5h6.5v1.5h-2.3V43z"/>
+	<path d="M181.4,43h-4.9v-8.6h4.9v1.5h-3.1v1.9h2.9v1.5h-2.9v2.2h3.1V43z"/>
+	<path d="M186.8,43l-2.1-6.7h-0.1c0.1,1.4,0.1,2.3,0.1,2.7v4h-1.6v-8.6h2.5l2,6.6h0l2.2-6.6h2.5V43h-1.7v-4.1c0-0.2,0-0.4,0-0.7
+		s0-0.9,0.1-2h-0.1l-2.2,6.7H186.8z"/>
+</g>
+<g id="Group_156750" transform="translate(-693 -5605)">
+	<g id="Group_156699" transform="translate(496 2196)">
+		<g id="tree-item-checkbox-level_1" transform="translate(235 3991.5)">
+			<rect id="Rectangle_3345" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M85.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M94.1,21.5c0.4,0,0.7,0,1,0.1L95,22.8c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C93.1,21.6,93.6,21.5,94.1,21.5z"/>
+				<path class="st4" d="M100.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C101.4,30.3,101,30.3,100.4,30.3z M100,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C101.2,22.8,100.7,22.6,100,22.6z"/>
+				<path class="st4" d="M109.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C110.4,30.3,109.9,30.3,109.4,30.3z M109,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C110.2,22.8,109.7,22.6,109,22.6z"/>
+				<path class="st4" d="M119.1,30.2V18.8h1.3v11.4H119.1z"/>
+				<path class="st4" d="M126.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C125.3,29.1,125.7,29.3,126.1,29.3z"/>
+				<path class="st4" d="M132.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C133.7,30.3,133.2,30.3,132.6,30.3z M132.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C133.4,22.8,132.9,22.6,132.2,22.6z"/>
+				<path class="st4" d="M148.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H138v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H148.9z"/>
+			</g>
+			<g id="Arrow_down" transform="translate(16 36) rotate(-90)">
+				<path id="Path_3872" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox" transform="translate(48 12)">
+				<rect id="box" class="st5" width="24" height="24"/>
+				<g id="BG" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-2" transform="translate(235 3943)">
+			<rect id="Rectangle_3345-2" class="st3" width="320" height="48"/>
+			<line id="bottom_border" class="st8" x1="0" y1="48.5" x2="320" y2="48.5"/>
+			<line id="top_border" class="st8" x1="0" y1="0.5" x2="320" y2="0.5"/>
+			<g class="st2">
+				<path class="st4" d="M85.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M94.1,21.5c0.4,0,0.7,0,1,0.1L95,22.8c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C93.1,21.6,93.6,21.5,94.1,21.5z"/>
+				<path class="st4" d="M100.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C101.4,30.3,101,30.3,100.4,30.3z M100,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C101.2,22.8,100.7,22.6,100,22.6z"/>
+				<path class="st4" d="M109.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C110.4,30.3,109.9,30.3,109.4,30.3z M109,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C110.2,22.8,109.7,22.6,109,22.6z"/>
+				<path class="st4" d="M119.1,30.2V18.8h1.3v11.4H119.1z"/>
+				<path class="st4" d="M126.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C125.3,29.1,125.7,29.3,126.1,29.3z"/>
+				<path class="st4" d="M132.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C133.7,30.3,133.2,30.3,132.6,30.3z M132.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C133.4,22.8,132.9,22.6,132.2,22.6z"/>
+				<path class="st4" d="M148.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H138v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H148.9z"/>
+			</g>
+			<g id="Arrow_down-2" transform="translate(16 36) rotate(-90)">
+				<path id="Path_3872-2" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-2" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-2" transform="translate(48 12)">
+				<rect id="box-2" class="st5" width="24" height="24"/>
+				<g id="BG-2" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-3" transform="translate(235 3895)">
+			<rect id="Rectangle_3345-3" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M179.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M188.1,21.5c0.4,0,0.7,0,1,0.1l-0.2,1.2c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C187.1,21.6,187.6,21.5,188.1,21.5z"/>
+				<path class="st4" d="M194.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C195.4,30.3,195,30.3,194.4,30.3z M194,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C195.2,22.8,194.7,22.6,194,22.6z"/>
+				<path class="st4" d="M203.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C204.4,30.3,203.9,30.3,203.4,30.3z M203,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C204.2,22.8,203.7,22.6,203,22.6z"/>
+				<path class="st4" d="M213.1,30.2V18.8h1.3v11.4H213.1z"/>
+				<path class="st4" d="M220.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C219.3,29.1,219.7,29.3,220.1,29.3z"/>
+				<path class="st4" d="M226.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C227.7,30.3,227.2,30.3,226.6,30.3z M226.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C227.4,22.8,226.9,22.6,226.2,22.6z"/>
+				<path class="st4" d="M242.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H232v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H242.9z"/>
+			</g>
+			<g id="Arrow_down-3" transform="translate(80 12)" class="st9">
+				<path id="Path_3872-3" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-3" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-3" transform="translate(142 12)">
+				<rect id="box-3" class="st5" width="24" height="24"/>
+				<g id="BG-3" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-4" transform="translate(235 3847)">
+			<rect id="Rectangle_3345-4" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M179.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M188.1,21.5c0.4,0,0.7,0,1,0.1l-0.2,1.2c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C187.1,21.6,187.6,21.5,188.1,21.5z"/>
+				<path class="st4" d="M194.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C195.4,30.3,195,30.3,194.4,30.3z M194,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C195.2,22.8,194.7,22.6,194,22.6z"/>
+				<path class="st4" d="M203.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C204.4,30.3,203.9,30.3,203.4,30.3z M203,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C204.2,22.8,203.7,22.6,203,22.6z"/>
+				<path class="st4" d="M213.1,30.2V18.8h1.3v11.4H213.1z"/>
+				<path class="st4" d="M220.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C219.3,29.1,219.7,29.3,220.1,29.3z"/>
+				<path class="st4" d="M226.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C227.7,30.3,227.2,30.3,226.6,30.3z M226.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C227.4,22.8,226.9,22.6,226.2,22.6z"/>
+				<path class="st4" d="M242.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H232v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H242.9z"/>
+			</g>
+			<g id="Arrow_down-4" transform="translate(110 36) rotate(-90)" class="st9">
+				<path id="Path_3872-4" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-4" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-4" transform="translate(142 12)">
+				<rect id="box-4" class="st5" width="24" height="24"/>
+				<path id="BG-4" class="st10" d="M6,4h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H6c-1.1,0-2-0.9-2-2V6C4,4.9,4.9,4,6,4z"/>
+				<path id="Check" class="st3" d="M10.4,16l-4-4l1.1-1.1l2.9,2.9l6.1-6.1l1.1,1.1L10.4,16z"/>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-5" transform="translate(235 3799)">
+			<rect id="Rectangle_3345-5" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M179.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M188.1,21.5c0.4,0,0.7,0,1,0.1l-0.2,1.2c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C187.1,21.6,187.6,21.5,188.1,21.5z"/>
+				<path class="st4" d="M194.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C195.4,30.3,195,30.3,194.4,30.3z M194,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C195.2,22.8,194.7,22.6,194,22.6z"/>
+				<path class="st4" d="M203.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C204.4,30.3,203.9,30.3,203.4,30.3z M203,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C204.2,22.8,203.7,22.6,203,22.6z"/>
+				<path class="st4" d="M213.1,30.2V18.8h1.3v11.4H213.1z"/>
+				<path class="st4" d="M220.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C219.3,29.1,219.7,29.3,220.1,29.3z"/>
+				<path class="st4" d="M226.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C227.7,30.3,227.2,30.3,226.6,30.3z M226.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C227.4,22.8,226.9,22.6,226.2,22.6z"/>
+				<path class="st4" d="M242.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H232v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H242.9z"/>
+			</g>
+			<g id="Arrow_down-5" transform="translate(80 12)" class="st9">
+				<path id="Path_3872-5" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-5" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-5" transform="translate(142 12)">
+				<rect id="box-5" class="st5" width="24" height="24"/>
+				<g id="BG-5" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-6" transform="translate(235 3751)">
+			<rect id="Rectangle_3345-6" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M149.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M158.1,21.5c0.4,0,0.7,0,1,0.1l-0.2,1.2c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C157.1,21.6,157.6,21.5,158.1,21.5z"/>
+				<path class="st4" d="M164.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C165.4,30.3,165,30.3,164.4,30.3z M164,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C165.2,22.8,164.7,22.6,164,22.6z"/>
+				<path class="st4" d="M173.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C174.4,30.3,173.9,30.3,173.4,30.3z M173,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C174.2,22.8,173.7,22.6,173,22.6z"/>
+				<path class="st4" d="M183.1,30.2V18.8h1.3v11.4H183.1z"/>
+				<path class="st4" d="M190.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C189.3,29.1,189.7,29.3,190.1,29.3z"/>
+				<path class="st4" d="M196.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C197.7,30.3,197.2,30.3,196.6,30.3z M196.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C197.4,22.8,196.9,22.6,196.2,22.6z"/>
+				<path class="st4" d="M212.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H202v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H212.9z"/>
+			</g>
+			<g id="Arrow_down-6" transform="translate(80 12)">
+				<path id="Path_3872-6" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-6" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-6" transform="translate(112 12)">
+				<rect id="box-6" class="st5" width="24" height="24"/>
+				<g id="BG-6" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-7" transform="translate(235 3703)">
+			<rect id="Rectangle_3345-7" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M117.5,30.2h-1.9v-9.8h-3.4v-1.6h8.6v1.6h-3.4V30.2z"/>
+				<path class="st4" d="M126.8,21.4c0.4,0,0.7,0,0.9,0.1l-0.2,1.7c-0.3-0.1-0.5-0.1-0.8-0.1c-0.7,0-1.3,0.2-1.8,0.7
+					c-0.5,0.5-0.7,1.1-0.7,1.9v4.5h-1.8v-8.6h1.4l0.2,1.5h0.1c0.3-0.5,0.7-0.9,1.1-1.2S126.2,21.4,126.8,21.4z"/>
+				<path class="st4" d="M133,30.3c-1.3,0-2.4-0.4-3.2-1.2s-1.1-1.9-1.1-3.2c0-1.4,0.4-2.5,1.1-3.3s1.7-1.2,2.9-1.2
+					c1.1,0,2,0.3,2.7,1c0.7,0.7,1,1.6,1,2.9v1h-5.8c0,0.8,0.3,1.5,0.7,1.9c0.4,0.5,1,0.7,1.8,0.7c0.5,0,1,0,1.4-0.1
+					c0.4-0.1,0.9-0.3,1.4-0.5v1.5c-0.4,0.2-0.9,0.4-1.4,0.5C134.2,30.3,133.6,30.3,133,30.3z M132.7,22.8c-0.6,0-1.1,0.2-1.4,0.6
+					s-0.6,0.9-0.6,1.6h3.9c0-0.7-0.2-1.3-0.5-1.6C133.7,23,133.3,22.8,132.7,22.8z"/>
+				<path class="st4" d="M142.3,30.3c-1.3,0-2.4-0.4-3.2-1.2s-1.1-1.9-1.1-3.2c0-1.4,0.4-2.5,1.1-3.3s1.7-1.2,2.9-1.2
+					c1.1,0,2,0.3,2.7,1c0.7,0.7,1,1.6,1,2.9v1h-5.8c0,0.8,0.3,1.5,0.7,1.9c0.4,0.5,1,0.7,1.8,0.7c0.5,0,1,0,1.4-0.1
+					c0.4-0.1,0.9-0.3,1.4-0.5v1.5c-0.4,0.2-0.9,0.4-1.4,0.5C143.4,30.3,142.8,30.3,142.3,30.3z M141.9,22.8c-0.6,0-1.1,0.2-1.4,0.6
+					s-0.6,0.9-0.6,1.6h3.9c0-0.7-0.2-1.3-0.5-1.6C143,23,142.5,22.8,141.9,22.8z"/>
+				<path class="st4" d="M152.1,30.2V18.8h1.9v11.4H152.1z"/>
+				<path class="st4" d="M160,28.9c0.4,0,0.9-0.1,1.3-0.2V30c-0.2,0.1-0.5,0.2-0.8,0.2s-0.7,0.1-1,0.1c-1.7,0-2.6-0.9-2.6-2.8v-4.7
+					h-1.2v-0.8l1.3-0.7l0.6-1.8h1.1v1.9h2.5v1.4h-2.5v4.6c0,0.4,0.1,0.8,0.3,1C159.3,28.8,159.6,28.9,160,28.9z"/>
+				<path class="st4" d="M166.8,30.3c-1.3,0-2.4-0.4-3.2-1.2s-1.1-1.9-1.1-3.2c0-1.4,0.4-2.5,1.1-3.3s1.7-1.2,2.9-1.2
+					c1.1,0,2,0.3,2.7,1c0.7,0.7,1,1.6,1,2.9v1h-5.8c0,0.8,0.3,1.5,0.7,1.9c0.4,0.5,1,0.7,1.8,0.7c0.5,0,1,0,1.4-0.1
+					c0.4-0.1,0.9-0.3,1.4-0.5v1.5c-0.4,0.2-0.9,0.4-1.4,0.5C167.9,30.3,167.4,30.3,166.8,30.3z M166.5,22.8c-0.6,0-1.1,0.2-1.4,0.6
+					s-0.6,0.9-0.6,1.6h3.9c0-0.7-0.2-1.3-0.5-1.6C167.5,23,167.1,22.8,166.5,22.8z"/>
+				<path class="st4" d="M179.5,30.2h-1.8v-5.3c0-0.7-0.1-1.2-0.4-1.5s-0.6-0.5-1.2-0.5c-0.7,0-1.2,0.2-1.6,0.7
+					c-0.3,0.5-0.5,1.2-0.5,2.3v4.3h-1.8v-8.6h1.4l0.3,1.1h0.1c0.2-0.4,0.6-0.7,1-1c0.5-0.2,1-0.3,1.5-0.3c1.3,0,2.2,0.5,2.6,1.4h0.1
+					c0.3-0.4,0.6-0.8,1.1-1c0.5-0.2,1-0.4,1.6-0.4c1,0,1.8,0.3,2.3,0.8c0.5,0.5,0.7,1.3,0.7,2.4v5.6h-1.8v-5.3
+					c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.6-0.5-1.2-0.5c-0.7,0-1.2,0.2-1.6,0.7c-0.3,0.4-0.5,1.1-0.5,2.1V30.2z"/>
+			</g>
+			<g id="Arrow_down-7" transform="translate(48 12)">
+				<path id="Path_3872-7" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-7" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-7" transform="translate(80 12)">
+				<rect id="box-7" class="st5" width="24" height="24"/>
+				<g id="BG-7" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-8" transform="translate(235 3655)">
+			<rect id="Rectangle_3345-8" class="st11" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M85.8,30.2h-2.4v-9.4h-3.1v-2h8.6v2h-3.1V30.2z"/>
+				<path class="st4" d="M95.4,21.3c0.3,0,0.6,0,0.8,0.1L96,23.6c-0.2-0.1-0.4-0.1-0.7-0.1c-0.8,0-1.4,0.2-1.8,0.6
+					c-0.4,0.4-0.6,0.9-0.6,1.6v4.4h-2.4v-8.7h1.8l0.4,1.5h0.1c0.3-0.5,0.6-0.9,1.1-1.2S94.8,21.3,95.4,21.3z"/>
+				<path class="st4" d="M101.7,30.3c-1.4,0-2.5-0.4-3.3-1.2c-0.8-0.8-1.2-1.9-1.2-3.3c0-1.5,0.4-2.6,1.1-3.4c0.7-0.8,1.7-1.2,3-1.2
+					c1.2,0,2.2,0.4,2.9,1.1s1,1.7,1,2.9v1.2h-5.6c0,0.7,0.2,1.2,0.6,1.6s0.9,0.6,1.6,0.6c0.5,0,1-0.1,1.5-0.2s1-0.3,1.5-0.5v1.8
+					c-0.4,0.2-0.9,0.4-1.3,0.5C103,30.3,102.4,30.3,101.7,30.3z M101.4,23c-0.5,0-0.9,0.2-1.2,0.5c-0.3,0.3-0.5,0.8-0.5,1.4h3.3
+					c0-0.6-0.2-1-0.5-1.4S101.9,23,101.4,23z"/>
+				<path class="st4" d="M111.2,30.3c-1.4,0-2.5-0.4-3.3-1.2c-0.8-0.8-1.2-1.9-1.2-3.3c0-1.5,0.4-2.6,1.1-3.4c0.7-0.8,1.7-1.2,3-1.2
+					c1.2,0,2.2,0.4,2.9,1.1s1,1.7,1,2.9v1.2h-5.6c0,0.7,0.2,1.2,0.6,1.6s0.9,0.6,1.6,0.6c0.5,0,1-0.1,1.5-0.2s1-0.3,1.5-0.5v1.8
+					c-0.4,0.2-0.9,0.4-1.3,0.5C112.4,30.3,111.9,30.3,111.2,30.3z M110.9,23c-0.5,0-0.9,0.2-1.2,0.5c-0.3,0.3-0.5,0.8-0.5,1.4h3.3
+					c0-0.6-0.2-1-0.5-1.4S111.4,23,110.9,23z"/>
+				<path class="st4" d="M121,30.2V18.8h2.4v11.4H121z"/>
+				<path class="st4" d="M129.8,28.4c0.4,0,0.9-0.1,1.5-0.3v1.8c-0.6,0.3-1.3,0.4-2.2,0.4c-1,0-1.6-0.2-2.1-0.7
+					c-0.4-0.5-0.7-1.2-0.7-2.2v-4.2h-1.1v-1l1.3-0.8l0.7-1.8h1.5v1.9h2.4v1.8h-2.4v4.2c0,0.3,0.1,0.6,0.3,0.8
+					C129.3,28.4,129.5,28.4,129.8,28.4z"/>
+				<path class="st4" d="M137,30.3c-1.4,0-2.5-0.4-3.3-1.2c-0.8-0.8-1.2-1.9-1.2-3.3c0-1.5,0.4-2.6,1.1-3.4c0.7-0.8,1.7-1.2,3-1.2
+					c1.2,0,2.2,0.4,2.9,1.1s1,1.7,1,2.9v1.2H135c0,0.7,0.2,1.2,0.6,1.6s0.9,0.6,1.6,0.6c0.5,0,1-0.1,1.5-0.2s1-0.3,1.5-0.5v1.8
+					c-0.4,0.2-0.9,0.4-1.3,0.5C138.3,30.3,137.7,30.3,137,30.3z M136.7,23c-0.5,0-0.9,0.2-1.2,0.5c-0.3,0.3-0.5,0.8-0.5,1.4h3.3
+					c0-0.6-0.2-1-0.5-1.4S137.2,23,136.7,23z"/>
+				<path class="st4" d="M150.4,30.2H148v-5.1c0-0.6-0.1-1.1-0.3-1.4s-0.5-0.5-1-0.5c-0.6,0-1.1,0.2-1.3,0.7
+					c-0.3,0.4-0.4,1.2-0.4,2.2v4.1h-2.4v-8.7h1.8l0.3,1.1h0.1c0.2-0.4,0.6-0.7,1-0.9c0.4-0.2,1-0.3,1.5-0.3c1.3,0,2.2,0.4,2.7,1.3
+					h0.2c0.2-0.4,0.6-0.7,1-0.9c0.5-0.2,1-0.3,1.5-0.3c1,0,1.7,0.3,2.2,0.8s0.8,1.3,0.8,2.4v5.7h-2.4v-5.1c0-0.6-0.1-1.1-0.3-1.4
+					s-0.5-0.5-1-0.5c-0.6,0-1,0.2-1.3,0.6s-0.4,1.1-0.4,2V30.2z"/>
+			</g>
+			<g id="Arrow_down-8" transform="translate(16 12)">
+				<path id="Path_3872-8" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-8" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-8" transform="translate(48 12)">
+				<rect id="box-8" class="st5" width="24" height="24"/>
+				<path id="BG-8" class="st10" d="M6,4h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H6c-1.1,0-2-0.9-2-2V6C4,4.9,4.9,4,6,4z"/>
+				<path id="Check-2" class="st3" d="M10.4,16l-4-4l1.1-1.1l2.9,2.9l6.1-6.1l1.1,1.1L10.4,16z"/>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-9" transform="translate(235 3607)">
+			<rect id="Rectangle_3345-9" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M85.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M94.1,21.5c0.4,0,0.7,0,1,0.1L95,22.8c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C93.1,21.6,93.6,21.5,94.1,21.5z"/>
+				<path class="st4" d="M100.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C101.4,30.3,101,30.3,100.4,30.3z M100,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C101.2,22.8,100.7,22.6,100,22.6z"/>
+				<path class="st4" d="M109.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C110.4,30.3,109.9,30.3,109.4,30.3z M109,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C110.2,22.8,109.7,22.6,109,22.6z"/>
+				<path class="st4" d="M119.1,30.2V18.8h1.3v11.4H119.1z"/>
+				<path class="st4" d="M126.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C125.3,29.1,125.7,29.3,126.1,29.3z"/>
+				<path class="st4" d="M132.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C133.7,30.3,133.2,30.3,132.6,30.3z M132.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C133.4,22.8,132.9,22.6,132.2,22.6z"/>
+				<path class="st4" d="M148.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H138v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H148.9z"/>
+			</g>
+			<g id="Arrow_down-9" transform="translate(16 36) rotate(-90)">
+				<path id="Path_3872-9" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-9" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-9" transform="translate(48 12)">
+				<rect id="box-9" class="st5" width="24" height="24"/>
+				<g id="BG-9" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-10" transform="translate(235 3559)">
+			<rect id="Rectangle_3345-10" class="st3" width="320" height="48"/>
+			<line id="top_border-2" class="st8" x1="0" y1="0.5" x2="320" y2="0.5"/>
+			<g class="st2">
+				<path class="st4" d="M85.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M94.1,21.5c0.4,0,0.7,0,1,0.1L95,22.8c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C93.1,21.6,93.6,21.5,94.1,21.5z"/>
+				<path class="st4" d="M100.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C101.4,30.3,101,30.3,100.4,30.3z M100,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C101.2,22.8,100.7,22.6,100,22.6z"/>
+				<path class="st4" d="M109.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C110.4,30.3,109.9,30.3,109.4,30.3z M109,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C110.2,22.8,109.7,22.6,109,22.6z"/>
+				<path class="st4" d="M119.1,30.2V18.8h1.3v11.4H119.1z"/>
+				<path class="st4" d="M126.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C125.3,29.1,125.7,29.3,126.1,29.3z"/>
+				<path class="st4" d="M132.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C133.7,30.3,133.2,30.3,132.6,30.3z M132.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C133.4,22.8,132.9,22.6,132.2,22.6z"/>
+				<path class="st4" d="M148.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H138v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H148.9z"/>
+			</g>
+			<g id="Arrow_down-10" transform="translate(16 36) rotate(-90)">
+				<path id="Path_3872-10" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-10" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-10" transform="translate(48 12)">
+				<rect id="box-10" class="st5" width="24" height="24"/>
+				<g id="BG-10" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g id="scrollbar" transform="translate(707 5739)">
+		<rect id="Rectangle_3435" x="336" y="16" class="st3" width="8" height="480"/>
+		<path id="Rectangle_3434" class="st6" d="M340,128L340,128c2.2,0,4,1.8,4,4v88c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4v-88
+			C336,129.8,337.8,128,340,128z"/>
+	</g>
+	<g id="content_bar" transform="translate(116 4293)">
+		<rect id="Rectangle_3441" x="614" y="1382" class="st3" width="321" height="80"/>
+		<g id="drag_indicator_black_24dp_2_" transform="translate(863 1430)">
+			<path id="Path_6572" class="st5" d="M0,0h24v24H0V0z"/>
+			<path id="Path_6573" class="st4" d="M11,18c0,1.1-0.9,2-2,2s-2-0.9-2-2s0.9-2,2-2C10.1,16,11,16.9,11,18z M9,10c-1.1,0-2,0.9-2,2
+				s0.9,2,2,2s2-0.9,2-2C11,10.9,10.1,10,9,10z M9,4C7.9,4,7,4.9,7,6s0.9,2,2,2s2-0.9,2-2C11,4.9,10.1,4,9,4z M15,8c1.1,0,2-0.9,2-2
+				s-0.9-2-2-2s-2,0.9-2,2C13,7.1,13.9,8,15,8z M15,10c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2C17,10.9,16.1,10,15,10z M15,16
+				c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2C17,16.9,16.1,16,15,16z"/>
+		</g>
+		<g id="Search_Input" transform="translate(622 1390)">
+			<g id="Rectangle_1841">
+				<path class="st3" d="M2,0h301c1.1,0,2,0.9,2,2v30l0,0H0l0,0V2C0,0.9,0.9,0,2,0z"/>
+				<path class="st8" d="M2,0.5h301c0.8,0,1.5,0.7,1.5,1.5v29.5l0,0H0.5l0,0V2C0.5,1.2,1.2,0.5,2,0.5z"/>
+			</g>
+			<rect id="Bottom_Line" y="31" class="st12" width="305" height="1"/>
+			<g id="Search_Icon" transform="translate(8 6)">
+				<path id="Path_6175" class="st5" d="M0,0h20v20H0V0z"/>
+				<path id="Path_6176" class="st12" d="M12.6,11.5H12l-0.2-0.2c1.8-2.1,1.6-5.3-0.5-7.1S6,2.6,4.2,4.7S2.6,10,4.7,11.8
+					c1.9,1.6,4.7,1.6,6.5,0l0.2,0.2v0.6l3.9,3.8l1.1-1.1L12.6,11.5z M8,11.5c-1.9,0-3.5-1.6-3.5-3.5S6.1,4.5,8,4.5s3.5,1.6,3.5,3.5
+					c0,0,0,0,0,0C11.5,9.9,9.9,11.5,8,11.5C8,11.5,8,11.5,8,11.5z"/>
+			</g>
+			<g class="st2">
+				<path class="st13" d="M42,17.7c0,0.8-0.3,1.3-0.8,1.8s-1.3,0.6-2.2,0.6c-1,0-1.8-0.1-2.3-0.4v-1c0.4,0.1,0.7,0.3,1.1,0.4
+					s0.8,0.1,1.2,0.1c0.7,0,1.2-0.1,1.5-0.4s0.5-0.6,0.5-1.1c0-0.3-0.1-0.5-0.2-0.7s-0.3-0.4-0.6-0.5S39.5,16.2,39,16
+					c-0.8-0.3-1.4-0.6-1.7-1s-0.5-0.9-0.5-1.5c0-0.7,0.2-1.2,0.7-1.6s1.2-0.6,2-0.6c0.9,0,1.6,0.2,2.3,0.5l-0.3,0.9
+					c-0.7-0.3-1.4-0.4-2.1-0.4c-0.5,0-0.9,0.1-1.2,0.3s-0.4,0.5-0.4,0.9c0,0.3,0.1,0.5,0.2,0.7s0.3,0.4,0.6,0.5s0.7,0.3,1.2,0.5
+					c0.9,0.3,1.5,0.7,1.9,1S42,17.1,42,17.7z"/>
+				<path class="st13" d="M46.3,20.1c-0.9,0-1.7-0.3-2.2-0.9s-0.8-1.4-0.8-2.4c0-1,0.3-1.9,0.8-2.5s1.2-0.9,2.1-0.9
+					c0.8,0,1.4,0.3,1.9,0.8s0.7,1.2,0.7,2.1V17h-4.4c0,0.8,0.2,1.3,0.6,1.7s0.9,0.6,1.5,0.6c0.7,0,1.4-0.1,2.1-0.4v0.9
+					c-0.3,0.1-0.7,0.3-1,0.3S46.8,20.1,46.3,20.1z M46.1,14.3c-0.5,0-0.9,0.2-1.2,0.5s-0.5,0.8-0.5,1.4h3.4c0-0.6-0.1-1.1-0.4-1.4
+					S46.6,14.3,46.1,14.3z"/>
+				<path class="st13" d="M54.3,20l-0.2-0.9h0c-0.3,0.4-0.6,0.7-1,0.8s-0.7,0.2-1.2,0.2c-0.6,0-1.1-0.2-1.5-0.5s-0.5-0.8-0.5-1.4
+					c0-1.3,1-2,3.1-2l1.1,0v-0.4c0-0.5-0.1-0.9-0.3-1.1s-0.6-0.4-1-0.4c-0.5,0-1.1,0.2-1.8,0.5L50.6,14c0.3-0.2,0.7-0.3,1-0.4
+					s0.8-0.1,1.1-0.1c0.8,0,1.3,0.2,1.7,0.5s0.6,0.9,0.6,1.6V20H54.3z M52.1,19.3c0.6,0,1.1-0.2,1.4-0.5S54,18,54,17.4v-0.6l-1,0
+					c-0.8,0-1.3,0.1-1.7,0.4s-0.5,0.5-0.5,1c0,0.4,0.1,0.6,0.3,0.8S51.7,19.3,52.1,19.3z"/>
+				<path class="st13" d="M60,13.5c0.3,0,0.5,0,0.8,0.1l-0.1,0.9c-0.3-0.1-0.5-0.1-0.7-0.1c-0.5,0-1,0.2-1.3,0.6S58,15.9,58,16.6V20
+					h-1v-6.4h0.8l0.1,1.2h0c0.2-0.4,0.5-0.7,0.9-1S59.6,13.5,60,13.5z"/>
+				<path class="st13" d="M64.5,20.1c-0.9,0-1.6-0.3-2.2-0.9s-0.8-1.4-0.8-2.4c0-1.1,0.3-1.9,0.8-2.5s1.3-0.9,2.2-0.9
+					c0.3,0,0.6,0,0.9,0.1s0.6,0.1,0.7,0.2l-0.3,0.8c-0.2-0.1-0.4-0.2-0.7-0.2s-0.5-0.1-0.7-0.1c-1.3,0-2,0.8-2,2.5
+					c0,0.8,0.2,1.4,0.5,1.8s0.8,0.6,1.4,0.6c0.5,0,1.1-0.1,1.6-0.3v0.9C65.7,20,65.1,20.1,64.5,20.1z"/>
+				<path class="st13" d="M72,20v-4.2c0-0.5-0.1-0.9-0.4-1.2s-0.6-0.4-1.1-0.4c-0.7,0-1.2,0.2-1.5,0.6s-0.5,1-0.5,1.8V20h-1v-9.1h1
+					v2.8c0,0.3,0,0.6,0,0.8h0.1c0.2-0.3,0.5-0.6,0.8-0.7s0.8-0.3,1.2-0.3c0.8,0,1.4,0.2,1.8,0.6s0.6,1,0.6,1.8V20H72z"/>
+			</g>
+			<g id="search-clear-icon" transform="translate(277 8)" class="st9">
+				<rect id="icon-box" class="st5" width="16" height="16"/>
+				<path id="close" class="st12" d="M12,4.8L11.2,4L8,7.2L4.8,4L4,4.8L7.2,8L4,11.2L4.8,12L8,8.8l3.2,3.2l0.8-0.8L8.8,8L12,4.8z"/>
+			</g>
+		</g>
+		<g id="unfold_less_black_24dp" transform="translate(903 1430)">
+			<path id="Path_6566" class="st5" d="M0,0h24v24H0V0z"/>
+			<path id="Path_6567" class="st4" d="M7.4,18.6L8.8,20l3.2-3.2l3.2,3.2l1.4-1.4L12,14L7.4,18.6z M16.6,5.4L15.2,4L12,7.2L8.8,4
+				L7.4,5.4L12,10L16.6,5.4z"/>
+		</g>
+		<g id="add_black_24dp" transform="translate(825.026 1430)">
+			<path id="Path_6564" class="st5" d="M0,0h24v24H0V0z"/>
+			<path id="Path_6565" class="st4" d="M19,13h-6v6h-2v-6H5v-2h6V5h2v6h6V13z"/>
+		</g>
+		<g id="edit-btn" transform="translate(742 1426)">
+			<path id="bg-11" class="st14" d="M2,0h28c1.1,0,2,0.9,2,2v28c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+		</g>
+		<g id="delete_black_24dp_2_" transform="translate(707.789 1430)">
+			<path id="Path_6570" class="st5" d="M0,0h24v24H0V0z"/>
+			<path id="Path_6571" class="st4" d="M6,19c0,1.1,0.9,2,2,2h8c1.1,0,2-0.9,2-2V7H6V19z M19,4h-3.5l-1-1h-5l-1,1H5v2h14V4z"/>
+		</g>
+		<g id="content_copy_black_24dp" transform="translate(746.868 1430)">
+			<path id="Path_6576" class="st5" d="M0,0h24v24H0V0z"/>
+			<path id="Path_6577" class="st4" d="M16,1H4C2.9,1,2,1.9,2,3v14h2V3h12V1z M19,5H8C6.9,5,6,5.9,6,7v14c0,1.1,0.9,2,2,2h11
+				c1.1,0,2-0.9,2-2V7C21,5.9,20.1,5,19,5z M19,21H8V7h11V21z"/>
+		</g>
+		<g id="edit-btn-2" transform="translate(782 1426)">
+			<path id="bg-12" class="st5" d="M2,0h28c1.1,0,2,0.9,2,2v28c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+			<g id="icon" transform="translate(4 4)">
+				<g id="icon-box-2" class="st9">
+					<rect class="st5" width="24" height="24"/>
+					<rect x="0.5" y="0.5" class="st15" width="23" height="23"/>
+				</g>
+				<path id="edit" class="st16" d="M3,17.2V21h3.8L17.9,9.9l-3.8-3.8L3,17.2z M20.7,7c0.4-0.4,0.4-1,0-1.4l-2.3-2.3
+					c-0.4-0.4-1-0.4-1.4,0l-1.8,1.8l3.8,3.8L20.7,7z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Group_156751" transform="translate(-326 -5605)">
+	<g id="Group_156699-2" transform="translate(496 2196)">
+		<g id="tree-item-checkbox-level_1-11" transform="translate(235 4039.5)">
+			<rect id="Rectangle_3345-11" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M85.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M94.1,21.5c0.4,0,0.7,0,1,0.1L95,22.8c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C93.1,21.6,93.6,21.5,94.1,21.5z"/>
+				<path class="st4" d="M100.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C101.4,30.3,101,30.3,100.4,30.3z M100,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C101.2,22.8,100.7,22.6,100,22.6z"/>
+				<path class="st4" d="M109.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C110.4,30.3,109.9,30.3,109.4,30.3z M109,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C110.2,22.8,109.7,22.6,109,22.6z"/>
+				<path class="st4" d="M119.1,30.2V18.8h1.3v11.4H119.1z"/>
+				<path class="st4" d="M126.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C125.3,29.1,125.7,29.3,126.1,29.3z"/>
+				<path class="st4" d="M132.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C133.7,30.3,133.2,30.3,132.6,30.3z M132.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C133.4,22.8,132.9,22.6,132.2,22.6z"/>
+				<path class="st4" d="M148.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H138v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H148.9z"/>
+			</g>
+			<g id="Arrow_down-11" transform="translate(16 36) rotate(-90)">
+				<path id="Path_3872-11" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-11" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-11" transform="translate(48 12)">
+				<rect id="box-11" class="st5" width="24" height="24"/>
+				<g id="BG-13" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-12" transform="translate(235 3991)">
+			<rect id="Rectangle_3345-12" class="st3" width="320" height="48"/>
+			<line id="bottom_border-2" class="st8" x1="0" y1="48.5" x2="320" y2="48.5"/>
+			<line id="top_border-3" class="st8" x1="0" y1="0.5" x2="320" y2="0.5"/>
+			<g class="st2">
+				<path class="st4" d="M85.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M94.1,21.5c0.4,0,0.7,0,1,0.1L95,22.8c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C93.1,21.6,93.6,21.5,94.1,21.5z"/>
+				<path class="st4" d="M100.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C101.4,30.3,101,30.3,100.4,30.3z M100,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C101.2,22.8,100.7,22.6,100,22.6z"/>
+				<path class="st4" d="M109.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C110.4,30.3,109.9,30.3,109.4,30.3z M109,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C110.2,22.8,109.7,22.6,109,22.6z"/>
+				<path class="st4" d="M119.1,30.2V18.8h1.3v11.4H119.1z"/>
+				<path class="st4" d="M126.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C125.3,29.1,125.7,29.3,126.1,29.3z"/>
+				<path class="st4" d="M132.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C133.7,30.3,133.2,30.3,132.6,30.3z M132.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C133.4,22.8,132.9,22.6,132.2,22.6z"/>
+				<path class="st4" d="M148.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H138v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H148.9z"/>
+			</g>
+			<g id="Arrow_down-12" transform="translate(16 36) rotate(-90)">
+				<path id="Path_3872-12" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-12" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-12" transform="translate(48 12)">
+				<rect id="box-12" class="st5" width="24" height="24"/>
+				<g id="BG-14" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-13" transform="translate(235 3943)">
+			<rect id="Rectangle_3345-13" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M85.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M94.1,21.5c0.4,0,0.7,0,1,0.1L95,22.8c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C93.1,21.6,93.6,21.5,94.1,21.5z"/>
+				<path class="st4" d="M100.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C101.4,30.3,101,30.3,100.4,30.3z M100,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C101.2,22.8,100.7,22.6,100,22.6z"/>
+				<path class="st4" d="M109.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C110.4,30.3,109.9,30.3,109.4,30.3z M109,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C110.2,22.8,109.7,22.6,109,22.6z"/>
+				<path class="st4" d="M119.1,30.2V18.8h1.3v11.4H119.1z"/>
+				<path class="st4" d="M126.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C125.3,29.1,125.7,29.3,126.1,29.3z"/>
+				<path class="st4" d="M132.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C133.7,30.3,133.2,30.3,132.6,30.3z M132.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C133.4,22.8,132.9,22.6,132.2,22.6z"/>
+				<path class="st4" d="M148.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H138v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H148.9z"/>
+			</g>
+			<g id="Arrow_down-13" transform="translate(16 36) rotate(-90)">
+				<path id="Path_3872-13" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-13" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-13" transform="translate(48 12)">
+				<rect id="box-13" class="st5" width="24" height="24"/>
+				<g id="BG-15" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+			<g id="Input" transform="translate(80 -16)">
+				<g id="Group_6710" transform="translate(0 54)">
+					<path id="Rectangle_3444" class="st3" d="M2-30h204c1.1,0,2,0.9,2,2V2l0,0H0l0,0v-30C0-29.1,0.9-30,2-30z"/>
+					<rect id="Bottom_Line-2" class="st10" width="208" height="2"/>
+				</g>
+				<g class="st2">
+					<path class="st4" d="M13.5,35.6c-0.8,0-1.4,0.3-1.9,0.9C11.2,37.1,11,38,11,39c0,2.2,0.8,3.3,2.5,3.3c0.7,0,1.6-0.2,2.5-0.5
+						v1.8c-0.8,0.3-1.7,0.5-2.7,0.5c-1.5,0-2.6-0.4-3.3-1.3c-0.8-0.9-1.2-2.1-1.2-3.8c0-1,0.2-1.9,0.6-2.7c0.4-0.8,0.9-1.4,1.6-1.8
+						c0.7-0.4,1.5-0.6,2.5-0.6c1,0,1.9,0.2,2.9,0.7l-0.7,1.7c-0.4-0.2-0.7-0.3-1.1-0.5S13.9,35.6,13.5,35.6z"/>
+					<path class="st4" d="M25,40.2c0,1.2-0.3,2.2-1,2.9s-1.6,1.1-2.7,1.1c-0.7,0-1.4-0.2-1.9-0.5c-0.6-0.3-1-0.8-1.3-1.4
+						s-0.5-1.3-0.5-2.1c0-1.2,0.3-2.2,1-2.9s1.6-1,2.7-1c0.7,0,1.4,0.2,1.9,0.5s1,0.8,1.3,1.4S25,39.4,25,40.2z M19.7,40.2
+						c0,0.8,0.1,1.3,0.4,1.7c0.2,0.4,0.7,0.6,1.2,0.6c0.6,0,1-0.2,1.2-0.6c0.2-0.4,0.4-1,0.4-1.7c0-0.8-0.1-1.3-0.4-1.7
+						s-0.6-0.6-1.2-0.6c-0.6,0-1,0.2-1.2,0.6C19.8,38.8,19.7,39.4,19.7,40.2z"/>
+					<path class="st4" d="M30.9,44.1c-0.9,0-1.6-0.3-2.1-1h-0.1c0.1,0.6,0.1,1,0.1,1.1v3.1h-2.1v-11h1.7l0.3,1h0.1
+						c0.5-0.8,1.2-1.1,2.2-1.1c0.9,0,1.6,0.3,2.1,1s0.8,1.7,0.8,2.9c0,0.8-0.1,1.5-0.4,2.1c-0.2,0.6-0.6,1.1-1,1.4
+						S31.5,44.1,30.9,44.1z M30.3,37.9c-0.5,0-0.9,0.2-1.1,0.5c-0.2,0.3-0.4,0.8-0.4,1.6v0.2c0,0.8,0.1,1.4,0.4,1.8
+						c0.2,0.4,0.6,0.5,1.2,0.5c0.9,0,1.4-0.8,1.4-2.3c0-0.8-0.1-1.3-0.3-1.7C31.1,38.1,30.8,37.9,30.3,37.9z"/>
+					<path class="st4" d="M34.4,36.4h2.3l1.4,4.3c0.1,0.4,0.2,0.8,0.3,1.3h0c0-0.5,0.1-0.9,0.3-1.3l1.4-4.3h2.2L39.2,45
+						c-0.3,0.8-0.7,1.4-1.3,1.8c-0.5,0.4-1.2,0.6-1.9,0.6c-0.4,0-0.7,0-1.1-0.1v-1.7c0.3,0.1,0.5,0.1,0.8,0.1c0.4,0,0.7-0.1,1-0.3
+						c0.3-0.2,0.5-0.6,0.6-1l0.1-0.4L34.4,36.4z"/>
+					<path class="st4" d="M54.1,40.2c0,1.2-0.3,2.2-1,2.9s-1.6,1.1-2.7,1.1c-0.7,0-1.4-0.2-1.9-0.5c-0.6-0.3-1-0.8-1.3-1.4
+						s-0.5-1.3-0.5-2.1c0-1.2,0.3-2.2,1-2.9s1.6-1,2.7-1c0.7,0,1.4,0.2,1.9,0.5s1,0.8,1.3,1.4S54.1,39.4,54.1,40.2z M48.8,40.2
+						c0,0.8,0.1,1.3,0.4,1.7c0.2,0.4,0.7,0.6,1.2,0.6c0.6,0,1-0.2,1.2-0.6c0.2-0.4,0.4-1,0.4-1.7c0-0.8-0.1-1.3-0.4-1.7
+						s-0.6-0.6-1.2-0.6c-0.6,0-1,0.2-1.2,0.6C48.9,38.8,48.8,39.4,48.8,40.2z"/>
+					<path class="st4" d="M60,37.9h-1.8V44h-2.1v-6.1H55v-1l1.1-0.6v-0.6c0-0.9,0.2-1.5,0.6-1.9s1.1-0.6,2.1-0.6
+						c0.7,0,1.4,0.1,1.9,0.3l-0.5,1.5c-0.4-0.1-0.8-0.2-1.2-0.2c-0.3,0-0.5,0.1-0.6,0.3c-0.1,0.2-0.2,0.4-0.2,0.7v0.5H60V37.9z"/>
+					<path class="st4" d="M68.9,44h-2.1v-8.2h-2.7V34h7.5v1.8h-2.7V44z"/>
+					<path class="st4" d="M77.2,36.2c0.3,0,0.5,0,0.7,0.1l-0.2,2c-0.2,0-0.4-0.1-0.6-0.1c-0.7,0-1.2,0.2-1.6,0.5
+						c-0.4,0.3-0.6,0.8-0.6,1.4V44H73v-7.6h1.6l0.3,1.3H75c0.2-0.4,0.6-0.8,1-1C76.3,36.3,76.8,36.2,77.2,36.2z"/>
+					<path class="st4" d="M82.8,44.1c-1.2,0-2.2-0.3-2.9-1s-1-1.6-1-2.9c0-1.3,0.3-2.3,1-3c0.6-0.7,1.5-1,2.7-1
+						c1.1,0,1.9,0.3,2.5,0.9s0.9,1.5,0.9,2.5v1H81c0,0.6,0.2,1.1,0.5,1.4s0.8,0.5,1.4,0.5c0.5,0,0.9,0,1.3-0.1s0.8-0.2,1.3-0.5v1.6
+						c-0.4,0.2-0.8,0.3-1.2,0.4C83.9,44.1,83.4,44.1,82.8,44.1z M82.5,37.7c-0.4,0-0.8,0.1-1,0.4c-0.2,0.3-0.4,0.7-0.4,1.2H84
+						c0-0.5-0.1-0.9-0.4-1.2C83.3,37.8,82.9,37.7,82.5,37.7z"/>
+					<path class="st4" d="M91.1,44.1c-1.2,0-2.2-0.3-2.9-1s-1-1.6-1-2.9c0-1.3,0.3-2.3,1-3c0.6-0.7,1.5-1,2.7-1
+						c1.1,0,1.9,0.3,2.5,0.9s0.9,1.5,0.9,2.5v1h-4.9c0,0.6,0.2,1.1,0.5,1.4s0.8,0.5,1.4,0.5c0.5,0,0.9,0,1.3-0.1s0.8-0.2,1.3-0.5
+						v1.6c-0.4,0.2-0.8,0.3-1.2,0.4C92.2,44.1,91.7,44.1,91.1,44.1z M90.8,37.7c-0.4,0-0.8,0.1-1,0.4c-0.2,0.3-0.4,0.7-0.4,1.2h2.9
+						c0-0.5-0.1-0.9-0.4-1.2C91.6,37.8,91.2,37.7,90.8,37.7z"/>
+					<path class="st4" d="M99.7,44V34h2.1v10H99.7z"/>
+					<path class="st4" d="M107.4,42.5c0.4,0,0.8-0.1,1.3-0.2v1.6c-0.5,0.2-1.2,0.3-1.9,0.3c-0.8,0-1.4-0.2-1.8-0.6
+						c-0.4-0.4-0.6-1.1-0.6-1.9v-3.7h-1V37l1.1-0.7l0.6-1.6h1.3v1.6h2.1v1.6h-2.1v3.7c0,0.3,0.1,0.5,0.2,0.7
+						C106.9,42.4,107.1,42.5,107.4,42.5z"/>
+					<path class="st4" d="M113.7,44.1c-1.2,0-2.2-0.3-2.9-1s-1-1.6-1-2.9c0-1.3,0.3-2.3,1-3c0.6-0.7,1.5-1,2.7-1
+						c1.1,0,1.9,0.3,2.5,0.9s0.9,1.5,0.9,2.5v1h-4.9c0,0.6,0.2,1.1,0.5,1.4s0.8,0.5,1.4,0.5c0.5,0,0.9,0,1.3-0.1s0.8-0.2,1.3-0.5
+						v1.6c-0.4,0.2-0.8,0.3-1.2,0.4C114.8,44.1,114.3,44.1,113.7,44.1z M113.4,37.7c-0.4,0-0.8,0.1-1,0.4c-0.3,0.3-0.4,0.7-0.4,1.2
+						h2.9c0-0.5-0.1-0.9-0.4-1.2C114.2,37.8,113.8,37.7,113.4,37.7z"/>
+					<path class="st4" d="M125.3,44h-2.1v-4.5c0-0.6-0.1-1-0.3-1.2c-0.2-0.3-0.5-0.4-0.9-0.4c-0.5,0-0.9,0.2-1.2,0.6s-0.4,1-0.4,1.9
+						V44h-2.1v-7.6h1.6l0.3,1h0.1c0.2-0.4,0.5-0.6,0.9-0.8c0.4-0.2,0.8-0.3,1.3-0.3c1.1,0,1.9,0.4,2.3,1.1h0.2
+						c0.2-0.4,0.5-0.6,0.9-0.8c0.4-0.2,0.8-0.3,1.4-0.3c0.9,0,1.5,0.2,2,0.7c0.4,0.4,0.7,1.2,0.7,2.1v5H128v-4.5
+						c0-0.6-0.1-1-0.3-1.2c-0.2-0.3-0.5-0.4-0.9-0.4c-0.5,0-0.9,0.2-1.1,0.5c-0.3,0.4-0.4,0.9-0.4,1.7V44z"/>
+					<path class="st4" d="M140.6,44h-2.1v-5.8l0-1l0-1c-0.4,0.4-0.6,0.6-0.7,0.7l-1.1,0.9l-1-1.3l3.2-2.6h1.7V44z"/>
+					<path class="st4" d="M150.3,44h-7v-1.5l2.5-2.5c0.7-0.8,1.2-1.3,1.5-1.6c0.2-0.3,0.4-0.6,0.5-0.8s0.2-0.5,0.2-0.8
+						c0-0.4-0.1-0.7-0.3-0.9c-0.2-0.2-0.5-0.3-0.9-0.3c-0.4,0-0.8,0.1-1.1,0.3s-0.7,0.4-1.1,0.8l-1.1-1.4c0.5-0.4,0.9-0.7,1.2-0.9
+						s0.7-0.3,1.1-0.4c0.4-0.1,0.8-0.1,1.3-0.1c0.6,0,1.2,0.1,1.7,0.3s0.8,0.5,1.1,1s0.4,0.9,0.4,1.4c0,0.5-0.1,0.9-0.2,1.3
+						c-0.2,0.4-0.4,0.8-0.8,1.2c-0.3,0.4-0.9,1-1.8,1.8l-1.3,1.2v0.1h4.4V44z"/>
+					<path class="st4" d="M157.9,36.2c0,0.6-0.2,1.2-0.6,1.6s-0.9,0.7-1.6,0.9v0c0.8,0.1,1.4,0.3,1.8,0.7c0.4,0.4,0.6,0.9,0.6,1.6
+						c0,1-0.3,1.7-1,2.2c-0.7,0.5-1.7,0.8-3,0.8c-1.1,0-2-0.2-2.9-0.5v-1.8c0.4,0.2,0.8,0.4,1.3,0.5s0.9,0.2,1.4,0.2
+						c0.7,0,1.2-0.1,1.5-0.4s0.5-0.6,0.5-1.1c0-0.5-0.2-0.8-0.6-1s-1-0.3-1.8-0.3h-0.8v-1.6h0.8c0.8,0,1.3-0.1,1.7-0.3
+						c0.4-0.2,0.5-0.5,0.5-1c0-0.8-0.5-1.1-1.4-1.1c-0.3,0-0.7,0.1-1,0.2c-0.3,0.1-0.7,0.3-1.1,0.6l-1-1.5c0.9-0.7,2-1,3.3-1
+						c1,0,1.9,0.2,2.5,0.6C157.6,34.9,157.9,35.5,157.9,36.2z"/>
+				</g>
+				<line id="Line_532" class="st17" x1="164" y1="29" x2="164" y2="49"/>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-14" transform="translate(235 3895)">
+			<rect id="Rectangle_3345-14" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M179.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M188.1,21.5c0.4,0,0.7,0,1,0.1l-0.2,1.2c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C187.1,21.6,187.6,21.5,188.1,21.5z"/>
+				<path class="st4" d="M194.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C195.4,30.3,195,30.3,194.4,30.3z M194,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C195.2,22.8,194.7,22.6,194,22.6z"/>
+				<path class="st4" d="M203.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C204.4,30.3,203.9,30.3,203.4,30.3z M203,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C204.2,22.8,203.7,22.6,203,22.6z"/>
+				<path class="st4" d="M213.1,30.2V18.8h1.3v11.4H213.1z"/>
+				<path class="st4" d="M220.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C219.3,29.1,219.7,29.3,220.1,29.3z"/>
+				<path class="st4" d="M226.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C227.7,30.3,227.2,30.3,226.6,30.3z M226.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C227.4,22.8,226.9,22.6,226.2,22.6z"/>
+				<path class="st4" d="M242.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H232v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H242.9z"/>
+			</g>
+			<g id="Arrow_down-14" transform="translate(80 12)" class="st9">
+				<path id="Path_3872-14" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-14" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-14" transform="translate(142 12)">
+				<rect id="box-14" class="st5" width="24" height="24"/>
+				<g id="BG-16" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-15" transform="translate(235 3847)">
+			<rect id="Rectangle_3345-15" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M179.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M188.1,21.5c0.4,0,0.7,0,1,0.1l-0.2,1.2c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C187.1,21.6,187.6,21.5,188.1,21.5z"/>
+				<path class="st4" d="M194.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C195.4,30.3,195,30.3,194.4,30.3z M194,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C195.2,22.8,194.7,22.6,194,22.6z"/>
+				<path class="st4" d="M203.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C204.4,30.3,203.9,30.3,203.4,30.3z M203,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C204.2,22.8,203.7,22.6,203,22.6z"/>
+				<path class="st4" d="M213.1,30.2V18.8h1.3v11.4H213.1z"/>
+				<path class="st4" d="M220.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C219.3,29.1,219.7,29.3,220.1,29.3z"/>
+				<path class="st4" d="M226.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C227.7,30.3,227.2,30.3,226.6,30.3z M226.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C227.4,22.8,226.9,22.6,226.2,22.6z"/>
+				<path class="st4" d="M242.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H232v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H242.9z"/>
+			</g>
+			<g id="Arrow_down-15" transform="translate(110 36) rotate(-90)" class="st9">
+				<path id="Path_3872-15" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-15" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-15" transform="translate(142 12)">
+				<rect id="box-15" class="st5" width="24" height="24"/>
+				<path id="BG-17" class="st10" d="M6,4h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H6c-1.1,0-2-0.9-2-2V6C4,4.9,4.9,4,6,4z"/>
+				<path id="Check-3" class="st3" d="M10.4,16l-4-4l1.1-1.1l2.9,2.9l6.1-6.1l1.1,1.1L10.4,16z"/>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-16" transform="translate(235 3799)">
+			<rect id="Rectangle_3345-16" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M179.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M188.1,21.5c0.4,0,0.7,0,1,0.1l-0.2,1.2c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C187.1,21.6,187.6,21.5,188.1,21.5z"/>
+				<path class="st4" d="M194.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C195.4,30.3,195,30.3,194.4,30.3z M194,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C195.2,22.8,194.7,22.6,194,22.6z"/>
+				<path class="st4" d="M203.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C204.4,30.3,203.9,30.3,203.4,30.3z M203,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C204.2,22.8,203.7,22.6,203,22.6z"/>
+				<path class="st4" d="M213.1,30.2V18.8h1.3v11.4H213.1z"/>
+				<path class="st4" d="M220.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C219.3,29.1,219.7,29.3,220.1,29.3z"/>
+				<path class="st4" d="M226.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C227.7,30.3,227.2,30.3,226.6,30.3z M226.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C227.4,22.8,226.9,22.6,226.2,22.6z"/>
+				<path class="st4" d="M242.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H232v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H242.9z"/>
+			</g>
+			<g id="Arrow_down-16" transform="translate(80 12)" class="st9">
+				<path id="Path_3872-16" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-16" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-16" transform="translate(142 12)">
+				<rect id="box-16" class="st5" width="24" height="24"/>
+				<g id="BG-18" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-17" transform="translate(235 3751)">
+			<rect id="Rectangle_3345-17" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M149.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M158.1,21.5c0.4,0,0.7,0,1,0.1l-0.2,1.2c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C157.1,21.6,157.6,21.5,158.1,21.5z"/>
+				<path class="st4" d="M164.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C165.4,30.3,165,30.3,164.4,30.3z M164,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C165.2,22.8,164.7,22.6,164,22.6z"/>
+				<path class="st4" d="M173.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C174.4,30.3,173.9,30.3,173.4,30.3z M173,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C174.2,22.8,173.7,22.6,173,22.6z"/>
+				<path class="st4" d="M183.1,30.2V18.8h1.3v11.4H183.1z"/>
+				<path class="st4" d="M190.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C189.3,29.1,189.7,29.3,190.1,29.3z"/>
+				<path class="st4" d="M196.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C197.7,30.3,197.2,30.3,196.6,30.3z M196.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C197.4,22.8,196.9,22.6,196.2,22.6z"/>
+				<path class="st4" d="M212.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H202v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H212.9z"/>
+			</g>
+			<g id="Arrow_down-17" transform="translate(80 12)">
+				<path id="Path_3872-17" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-17" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-17" transform="translate(112 12)">
+				<rect id="box-17" class="st5" width="24" height="24"/>
+				<g id="BG-19" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-18" transform="translate(235 3703)">
+			<rect id="Rectangle_3345-18" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M117.5,30.2h-1.9v-9.8h-3.4v-1.6h8.6v1.6h-3.4V30.2z"/>
+				<path class="st4" d="M126.8,21.4c0.4,0,0.7,0,0.9,0.1l-0.2,1.7c-0.3-0.1-0.5-0.1-0.8-0.1c-0.7,0-1.3,0.2-1.8,0.7
+					c-0.5,0.5-0.7,1.1-0.7,1.9v4.5h-1.8v-8.6h1.4l0.2,1.5h0.1c0.3-0.5,0.7-0.9,1.1-1.2S126.2,21.4,126.8,21.4z"/>
+				<path class="st4" d="M133,30.3c-1.3,0-2.4-0.4-3.2-1.2s-1.1-1.9-1.1-3.2c0-1.4,0.4-2.5,1.1-3.3s1.7-1.2,2.9-1.2
+					c1.1,0,2,0.3,2.7,1c0.7,0.7,1,1.6,1,2.9v1h-5.8c0,0.8,0.3,1.5,0.7,1.9c0.4,0.5,1,0.7,1.8,0.7c0.5,0,1,0,1.4-0.1
+					c0.4-0.1,0.9-0.3,1.4-0.5v1.5c-0.4,0.2-0.9,0.4-1.4,0.5C134.2,30.3,133.6,30.3,133,30.3z M132.7,22.8c-0.6,0-1.1,0.2-1.4,0.6
+					s-0.6,0.9-0.6,1.6h3.9c0-0.7-0.2-1.3-0.5-1.6C133.7,23,133.3,22.8,132.7,22.8z"/>
+				<path class="st4" d="M142.3,30.3c-1.3,0-2.4-0.4-3.2-1.2s-1.1-1.9-1.1-3.2c0-1.4,0.4-2.5,1.1-3.3s1.7-1.2,2.9-1.2
+					c1.1,0,2,0.3,2.7,1c0.7,0.7,1,1.6,1,2.9v1h-5.8c0,0.8,0.3,1.5,0.7,1.9c0.4,0.5,1,0.7,1.8,0.7c0.5,0,1,0,1.4-0.1
+					c0.4-0.1,0.9-0.3,1.4-0.5v1.5c-0.4,0.2-0.9,0.4-1.4,0.5C143.4,30.3,142.8,30.3,142.3,30.3z M141.9,22.8c-0.6,0-1.1,0.2-1.4,0.6
+					s-0.6,0.9-0.6,1.6h3.9c0-0.7-0.2-1.3-0.5-1.6C143,23,142.5,22.8,141.9,22.8z"/>
+				<path class="st4" d="M152.1,30.2V18.8h1.9v11.4H152.1z"/>
+				<path class="st4" d="M160,28.9c0.4,0,0.9-0.1,1.3-0.2V30c-0.2,0.1-0.5,0.2-0.8,0.2s-0.7,0.1-1,0.1c-1.7,0-2.6-0.9-2.6-2.8v-4.7
+					h-1.2v-0.8l1.3-0.7l0.6-1.8h1.1v1.9h2.5v1.4h-2.5v4.6c0,0.4,0.1,0.8,0.3,1C159.3,28.8,159.6,28.9,160,28.9z"/>
+				<path class="st4" d="M166.8,30.3c-1.3,0-2.4-0.4-3.2-1.2s-1.1-1.9-1.1-3.2c0-1.4,0.4-2.5,1.1-3.3s1.7-1.2,2.9-1.2
+					c1.1,0,2,0.3,2.7,1c0.7,0.7,1,1.6,1,2.9v1h-5.8c0,0.8,0.3,1.5,0.7,1.9c0.4,0.5,1,0.7,1.8,0.7c0.5,0,1,0,1.4-0.1
+					c0.4-0.1,0.9-0.3,1.4-0.5v1.5c-0.4,0.2-0.9,0.4-1.4,0.5C167.9,30.3,167.4,30.3,166.8,30.3z M166.5,22.8c-0.6,0-1.1,0.2-1.4,0.6
+					s-0.6,0.9-0.6,1.6h3.9c0-0.7-0.2-1.3-0.5-1.6C167.5,23,167.1,22.8,166.5,22.8z"/>
+				<path class="st4" d="M179.5,30.2h-1.8v-5.3c0-0.7-0.1-1.2-0.4-1.5s-0.6-0.5-1.2-0.5c-0.7,0-1.2,0.2-1.6,0.7
+					c-0.3,0.5-0.5,1.2-0.5,2.3v4.3h-1.8v-8.6h1.4l0.3,1.1h0.1c0.2-0.4,0.6-0.7,1-1c0.5-0.2,1-0.3,1.5-0.3c1.3,0,2.2,0.5,2.6,1.4h0.1
+					c0.3-0.4,0.6-0.8,1.1-1c0.5-0.2,1-0.4,1.6-0.4c1,0,1.8,0.3,2.3,0.8c0.5,0.5,0.7,1.3,0.7,2.4v5.6h-1.8v-5.3
+					c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.6-0.5-1.2-0.5c-0.7,0-1.2,0.2-1.6,0.7c-0.3,0.4-0.5,1.1-0.5,2.1V30.2z"/>
+			</g>
+			<g id="Arrow_down-18" transform="translate(48 12)">
+				<path id="Path_3872-18" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-18" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-18" transform="translate(80 12)">
+				<rect id="box-18" class="st5" width="24" height="24"/>
+				<g id="BG-20" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-19" transform="translate(235 3655)">
+			<rect id="Rectangle_3345-19" class="st11" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M85.8,30.2h-2.4v-9.4h-3.1v-2h8.6v2h-3.1V30.2z"/>
+				<path class="st4" d="M95.4,21.3c0.3,0,0.6,0,0.8,0.1L96,23.6c-0.2-0.1-0.4-0.1-0.7-0.1c-0.8,0-1.4,0.2-1.8,0.6
+					c-0.4,0.4-0.6,0.9-0.6,1.6v4.4h-2.4v-8.7h1.8l0.4,1.5h0.1c0.3-0.5,0.6-0.9,1.1-1.2S94.8,21.3,95.4,21.3z"/>
+				<path class="st4" d="M101.7,30.3c-1.4,0-2.5-0.4-3.3-1.2c-0.8-0.8-1.2-1.9-1.2-3.3c0-1.5,0.4-2.6,1.1-3.4c0.7-0.8,1.7-1.2,3-1.2
+					c1.2,0,2.2,0.4,2.9,1.1s1,1.7,1,2.9v1.2h-5.6c0,0.7,0.2,1.2,0.6,1.6s0.9,0.6,1.6,0.6c0.5,0,1-0.1,1.5-0.2s1-0.3,1.5-0.5v1.8
+					c-0.4,0.2-0.9,0.4-1.3,0.5C103,30.3,102.4,30.3,101.7,30.3z M101.4,23c-0.5,0-0.9,0.2-1.2,0.5c-0.3,0.3-0.5,0.8-0.5,1.4h3.3
+					c0-0.6-0.2-1-0.5-1.4S101.9,23,101.4,23z"/>
+				<path class="st4" d="M111.2,30.3c-1.4,0-2.5-0.4-3.3-1.2c-0.8-0.8-1.2-1.9-1.2-3.3c0-1.5,0.4-2.6,1.1-3.4c0.7-0.8,1.7-1.2,3-1.2
+					c1.2,0,2.2,0.4,2.9,1.1s1,1.7,1,2.9v1.2h-5.6c0,0.7,0.2,1.2,0.6,1.6s0.9,0.6,1.6,0.6c0.5,0,1-0.1,1.5-0.2s1-0.3,1.5-0.5v1.8
+					c-0.4,0.2-0.9,0.4-1.3,0.5C112.4,30.3,111.9,30.3,111.2,30.3z M110.9,23c-0.5,0-0.9,0.2-1.2,0.5c-0.3,0.3-0.5,0.8-0.5,1.4h3.3
+					c0-0.6-0.2-1-0.5-1.4S111.4,23,110.9,23z"/>
+				<path class="st4" d="M121,30.2V18.8h2.4v11.4H121z"/>
+				<path class="st4" d="M129.8,28.4c0.4,0,0.9-0.1,1.5-0.3v1.8c-0.6,0.3-1.3,0.4-2.2,0.4c-1,0-1.6-0.2-2.1-0.7
+					c-0.4-0.5-0.7-1.2-0.7-2.2v-4.2h-1.1v-1l1.3-0.8l0.7-1.8h1.5v1.9h2.4v1.8h-2.4v4.2c0,0.3,0.1,0.6,0.3,0.8
+					C129.3,28.4,129.5,28.4,129.8,28.4z"/>
+				<path class="st4" d="M137,30.3c-1.4,0-2.5-0.4-3.3-1.2c-0.8-0.8-1.2-1.9-1.2-3.3c0-1.5,0.4-2.6,1.1-3.4c0.7-0.8,1.7-1.2,3-1.2
+					c1.2,0,2.2,0.4,2.9,1.1s1,1.7,1,2.9v1.2H135c0,0.7,0.2,1.2,0.6,1.6s0.9,0.6,1.6,0.6c0.5,0,1-0.1,1.5-0.2s1-0.3,1.5-0.5v1.8
+					c-0.4,0.2-0.9,0.4-1.3,0.5C138.3,30.3,137.7,30.3,137,30.3z M136.7,23c-0.5,0-0.9,0.2-1.2,0.5c-0.3,0.3-0.5,0.8-0.5,1.4h3.3
+					c0-0.6-0.2-1-0.5-1.4S137.2,23,136.7,23z"/>
+				<path class="st4" d="M150.4,30.2H148v-5.1c0-0.6-0.1-1.1-0.3-1.4s-0.5-0.5-1-0.5c-0.6,0-1.1,0.2-1.3,0.7
+					c-0.3,0.4-0.4,1.2-0.4,2.2v4.1h-2.4v-8.7h1.8l0.3,1.1h0.1c0.2-0.4,0.6-0.7,1-0.9c0.4-0.2,1-0.3,1.5-0.3c1.3,0,2.2,0.4,2.7,1.3
+					h0.2c0.2-0.4,0.6-0.7,1-0.9c0.5-0.2,1-0.3,1.5-0.3c1,0,1.7,0.3,2.2,0.8s0.8,1.3,0.8,2.4v5.7h-2.4v-5.1c0-0.6-0.1-1.1-0.3-1.4
+					s-0.5-0.5-1-0.5c-0.6,0-1,0.2-1.3,0.6s-0.4,1.1-0.4,2V30.2z"/>
+			</g>
+			<g id="Arrow_down-19" transform="translate(16 12)">
+				<path id="Path_3872-19" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-19" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-19" transform="translate(48 12)">
+				<rect id="box-19" class="st5" width="24" height="24"/>
+				<path id="BG-21" class="st10" d="M6,4h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H6c-1.1,0-2-0.9-2-2V6C4,4.9,4.9,4,6,4z"/>
+				<path id="Check-4" class="st3" d="M10.4,16l-4-4l1.1-1.1l2.9,2.9l6.1-6.1l1.1,1.1L10.4,16z"/>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-20" transform="translate(235 3607)">
+			<rect id="Rectangle_3345-20" class="st3" width="320" height="48"/>
+			<g class="st2">
+				<path class="st4" d="M85.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M94.1,21.5c0.4,0,0.7,0,1,0.1L95,22.8c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C93.1,21.6,93.6,21.5,94.1,21.5z"/>
+				<path class="st4" d="M100.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C101.4,30.3,101,30.3,100.4,30.3z M100,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C101.2,22.8,100.7,22.6,100,22.6z"/>
+				<path class="st4" d="M109.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C110.4,30.3,109.9,30.3,109.4,30.3z M109,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C110.2,22.8,109.7,22.6,109,22.6z"/>
+				<path class="st4" d="M119.1,30.2V18.8h1.3v11.4H119.1z"/>
+				<path class="st4" d="M126.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C125.3,29.1,125.7,29.3,126.1,29.3z"/>
+				<path class="st4" d="M132.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C133.7,30.3,133.2,30.3,132.6,30.3z M132.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C133.4,22.8,132.9,22.6,132.2,22.6z"/>
+				<path class="st4" d="M148.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H138v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H148.9z"/>
+			</g>
+			<g id="Arrow_down-20" transform="translate(16 36) rotate(-90)">
+				<path id="Path_3872-20" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-20" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-20" transform="translate(48 12)">
+				<rect id="box-20" class="st5" width="24" height="24"/>
+				<g id="BG-22" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+		<g id="tree-item-checkbox-level_1-21" transform="translate(235 3559)">
+			<rect id="Rectangle_3345-21" class="st3" width="320" height="48"/>
+			<line id="top_border-4" class="st8" x1="0" y1="0.5" x2="320" y2="0.5"/>
+			<g class="st2">
+				<path class="st4" d="M85.1,30.2h-1.3V19.9h-3.6v-1.2h8.6v1.2h-3.6V30.2z"/>
+				<path class="st4" d="M94.1,21.5c0.4,0,0.7,0,1,0.1L95,22.8c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+					v4.6h-1.3v-8.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C93.1,21.6,93.6,21.5,94.1,21.5z"/>
+				<path class="st4" d="M100.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C101.4,30.3,101,30.3,100.4,30.3z M100,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C101.2,22.8,100.7,22.6,100,22.6z"/>
+				<path class="st4" d="M109.4,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C110.4,30.3,109.9,30.3,109.4,30.3z M109,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C110.2,22.8,109.7,22.6,109,22.6z"/>
+				<path class="st4" d="M119.1,30.2V18.8h1.3v11.4H119.1z"/>
+				<path class="st4" d="M126.1,29.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+					c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V22l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+					C125.3,29.1,125.7,29.3,126.1,29.3z"/>
+				<path class="st4" d="M132.6,30.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+					c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+					c-0.5,0.2-0.9,0.3-1.3,0.4C133.7,30.3,133.2,30.3,132.6,30.3z M132.2,22.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.7,1.1-0.7,1.9h4.5
+					c0-0.8-0.2-1.4-0.5-1.9C133.4,22.8,132.9,22.6,132.2,22.6z"/>
+				<path class="st4" d="M148.9,30.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+					c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H138v-8.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+					c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H148.9z"/>
+			</g>
+			<g id="Arrow_down-21" transform="translate(16 36) rotate(-90)">
+				<path id="Path_3872-21" class="st5" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-21" class="st6" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="Checkbox-21" transform="translate(48 12)">
+				<rect id="box-21" class="st5" width="24" height="24"/>
+				<g id="BG-23" transform="translate(4 4)">
+					<path class="st3" d="M2,0h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+					<path class="st7" d="M2,1h12c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1V2C1,1.4,1.4,1,2,1z"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g id="scrollbar-2" transform="translate(707 5739)">
+		<rect id="Rectangle_3435-2" x="336" y="16" class="st3" width="8" height="480"/>
+		<path id="Rectangle_3434-2" class="st6" d="M340,128L340,128c2.2,0,4,1.8,4,4v88c0,2.2-1.8,4-4,4l0,0c-2.2,0-4-1.8-4-4v-88
+			C336,129.8,337.8,128,340,128z"/>
+	</g>
+	<g id="content_bar-2" transform="translate(116 4293)">
+		<rect id="Rectangle_3441-2" x="614" y="1382" class="st3" width="321" height="80"/>
+		<g id="drag_indicator_black_24dp_2_2" transform="translate(863 1430)">
+			<path id="Path_6572-2" class="st5" d="M0,0h24v24H0V0z"/>
+			<path id="Path_6573-2" class="st4" d="M11,18c0,1.1-0.9,2-2,2s-2-0.9-2-2s0.9-2,2-2C10.1,16,11,16.9,11,18z M9,10
+				c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2C11,10.9,10.1,10,9,10z M9,4C7.9,4,7,4.9,7,6s0.9,2,2,2s2-0.9,2-2C11,4.9,10.1,4,9,4z
+				 M15,8c1.1,0,2-0.9,2-2s-0.9-2-2-2s-2,0.9-2,2C13,7.1,13.9,8,15,8z M15,10c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2
+				C17,10.9,16.1,10,15,10z M15,16c-1.1,0-2,0.9-2,2s0.9,2,2,2s2-0.9,2-2C17,16.9,16.1,16,15,16z"/>
+		</g>
+		<g id="Search_Input-2" transform="translate(622 1390)">
+			<g id="Rectangle_1841-2">
+				<path class="st3" d="M2,0h301c1.1,0,2,0.9,2,2v30l0,0H0l0,0V2C0,0.9,0.9,0,2,0z"/>
+				<path class="st8" d="M2,0.5h301c0.8,0,1.5,0.7,1.5,1.5v29.5l0,0H0.5l0,0V2C0.5,1.2,1.2,0.5,2,0.5z"/>
+			</g>
+			<rect id="Bottom_Line-3" y="31" class="st12" width="305" height="1"/>
+			<g id="Search_Icon-2" transform="translate(8 6)">
+				<path id="Path_6175-2" class="st5" d="M0,0h20v20H0V0z"/>
+				<path id="Path_6176-2" class="st12" d="M12.6,11.5H12l-0.2-0.2c1.8-2.1,1.6-5.3-0.5-7.1S6,2.6,4.2,4.7S2.6,10,4.7,11.8
+					c1.9,1.6,4.7,1.6,6.5,0l0.2,0.2v0.6l3.9,3.8l1.1-1.1L12.6,11.5z M8,11.5c-1.9,0-3.5-1.6-3.5-3.5S6.1,4.5,8,4.5s3.5,1.6,3.5,3.5
+					c0,0,0,0,0,0C11.5,9.9,9.9,11.5,8,11.5C8,11.5,8,11.5,8,11.5z"/>
+			</g>
+			<g class="st2">
+				<path class="st13" d="M42,17.7c0,0.8-0.3,1.3-0.8,1.8s-1.3,0.6-2.2,0.6c-1,0-1.8-0.1-2.3-0.4v-1c0.4,0.1,0.7,0.3,1.1,0.4
+					s0.8,0.1,1.2,0.1c0.7,0,1.2-0.1,1.5-0.4s0.5-0.6,0.5-1.1c0-0.3-0.1-0.5-0.2-0.7s-0.3-0.4-0.6-0.5S39.5,16.2,39,16
+					c-0.8-0.3-1.4-0.6-1.7-1s-0.5-0.9-0.5-1.5c0-0.7,0.2-1.2,0.7-1.6s1.2-0.6,2-0.6c0.9,0,1.6,0.2,2.3,0.5l-0.3,0.9
+					c-0.7-0.3-1.4-0.4-2.1-0.4c-0.5,0-0.9,0.1-1.2,0.3s-0.4,0.5-0.4,0.9c0,0.3,0.1,0.5,0.2,0.7s0.3,0.4,0.6,0.5s0.7,0.3,1.2,0.5
+					c0.9,0.3,1.5,0.7,1.9,1S42,17.1,42,17.7z"/>
+				<path class="st13" d="M46.3,20.1c-0.9,0-1.7-0.3-2.2-0.9s-0.8-1.4-0.8-2.4c0-1,0.3-1.9,0.8-2.5s1.2-0.9,2.1-0.9
+					c0.8,0,1.4,0.3,1.9,0.8s0.7,1.2,0.7,2.1V17h-4.4c0,0.8,0.2,1.3,0.6,1.7s0.9,0.6,1.5,0.6c0.7,0,1.4-0.1,2.1-0.4v0.9
+					c-0.3,0.1-0.7,0.3-1,0.3S46.8,20.1,46.3,20.1z M46.1,14.3c-0.5,0-0.9,0.2-1.2,0.5s-0.5,0.8-0.5,1.4h3.4c0-0.6-0.1-1.1-0.4-1.4
+					S46.6,14.3,46.1,14.3z"/>
+				<path class="st13" d="M54.3,20l-0.2-0.9h0c-0.3,0.4-0.6,0.7-1,0.8s-0.7,0.2-1.2,0.2c-0.6,0-1.1-0.2-1.5-0.5s-0.5-0.8-0.5-1.4
+					c0-1.3,1-2,3.1-2l1.1,0v-0.4c0-0.5-0.1-0.9-0.3-1.1s-0.6-0.4-1-0.4c-0.5,0-1.1,0.2-1.8,0.5L50.6,14c0.3-0.2,0.7-0.3,1-0.4
+					s0.8-0.1,1.1-0.1c0.8,0,1.3,0.2,1.7,0.5s0.6,0.9,0.6,1.6V20H54.3z M52.1,19.3c0.6,0,1.1-0.2,1.4-0.5S54,18,54,17.4v-0.6l-1,0
+					c-0.8,0-1.3,0.1-1.7,0.4s-0.5,0.5-0.5,1c0,0.4,0.1,0.6,0.3,0.8S51.7,19.3,52.1,19.3z"/>
+				<path class="st13" d="M60,13.5c0.3,0,0.5,0,0.8,0.1l-0.1,0.9c-0.3-0.1-0.5-0.1-0.7-0.1c-0.5,0-1,0.2-1.3,0.6S58,15.9,58,16.6V20
+					h-1v-6.4h0.8l0.1,1.2h0c0.2-0.4,0.5-0.7,0.9-1S59.6,13.5,60,13.5z"/>
+				<path class="st13" d="M64.5,20.1c-0.9,0-1.6-0.3-2.2-0.9s-0.8-1.4-0.8-2.4c0-1.1,0.3-1.9,0.8-2.5s1.3-0.9,2.2-0.9
+					c0.3,0,0.6,0,0.9,0.1s0.6,0.1,0.7,0.2l-0.3,0.8c-0.2-0.1-0.4-0.2-0.7-0.2s-0.5-0.1-0.7-0.1c-1.3,0-2,0.8-2,2.5
+					c0,0.8,0.2,1.4,0.5,1.8s0.8,0.6,1.4,0.6c0.5,0,1.1-0.1,1.6-0.3v0.9C65.7,20,65.1,20.1,64.5,20.1z"/>
+				<path class="st13" d="M72,20v-4.2c0-0.5-0.1-0.9-0.4-1.2s-0.6-0.4-1.1-0.4c-0.7,0-1.2,0.2-1.5,0.6s-0.5,1-0.5,1.8V20h-1v-9.1h1
+					v2.8c0,0.3,0,0.6,0,0.8h0.1c0.2-0.3,0.5-0.6,0.8-0.7s0.8-0.3,1.2-0.3c0.8,0,1.4,0.2,1.8,0.6s0.6,1,0.6,1.8V20H72z"/>
+			</g>
+			<g id="search-clear-icon-2" transform="translate(277 8)" class="st9">
+				<rect id="icon-box-3" class="st5" width="16" height="16"/>
+				<path id="close-2" class="st12" d="M12,4.8L11.2,4L8,7.2L4.8,4L4,4.8L7.2,8L4,11.2L4.8,12L8,8.8l3.2,3.2l0.8-0.8L8.8,8L12,4.8z"
+					/>
+			</g>
+		</g>
+		<g id="unfold_less_black_24dp-2" transform="translate(903 1430)">
+			<path id="Path_6566-2" class="st5" d="M0,0h24v24H0V0z"/>
+			<path id="Path_6567-2" class="st4" d="M7.4,18.6L8.8,20l3.2-3.2l3.2,3.2l1.4-1.4L12,14L7.4,18.6z M16.6,5.4L15.2,4L12,7.2L8.8,4
+				L7.4,5.4L12,10L16.6,5.4z"/>
+		</g>
+		<g id="add_black_24dp-2" transform="translate(825.026 1430)">
+			<path id="Path_6564-2" class="st5" d="M0,0h24v24H0V0z"/>
+			<path id="Path_6565-2" class="st4" d="M19,13h-6v6h-2v-6H5v-2h6V5h2v6h6V13z"/>
+		</g>
+		<g id="edit-btn-3" transform="translate(742 1426)">
+			<path id="bg-24" class="st18" d="M2,0h28c1.1,0,2,0.9,2,2v28c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+		</g>
+		<g id="delete_black_24dp_2_2" transform="translate(707.789 1430)">
+			<path id="Path_6570-2" class="st5" d="M0,0h24v24H0V0z"/>
+			<path id="Path_6571-2" class="st4" d="M6,19c0,1.1,0.9,2,2,2h8c1.1,0,2-0.9,2-2V7H6V19z M19,4h-3.5l-1-1h-5l-1,1H5v2h14V4z"/>
+		</g>
+		<g id="content_copy_black_24dp-2" transform="translate(746.868 1430)">
+			<path id="Path_6576-2" class="st5" d="M0,0h24v24H0V0z"/>
+			<path id="Path_6577-2" class="st4" d="M16,1H4C2.9,1,2,1.9,2,3v14h2V3h12V1z M19,5H8C6.9,5,6,5.9,6,7v14c0,1.1,0.9,2,2,2h11
+				c1.1,0,2-0.9,2-2V7C21,5.9,20.1,5,19,5z M19,21H8V7h11V21z"/>
+		</g>
+		<g id="edit-btn-4" transform="translate(782 1426)">
+			<path id="bg-25" class="st5" d="M2,0h28c1.1,0,2,0.9,2,2v28c0,1.1-0.9,2-2,2H2c-1.1,0-2-0.9-2-2V2C0,0.9,0.9,0,2,0z"/>
+			<g id="icon-2" transform="translate(4 4)">
+				<g id="icon-box-4" class="st9">
+					<rect class="st5" width="24" height="24"/>
+					<rect x="0.5" y="0.5" class="st15" width="23" height="23"/>
+				</g>
+				<path id="edit-2" class="st16" d="M3,17.2V21h3.8L17.9,9.9l-3.8-3.8L3,17.2z M20.7,7c0.4-0.4,0.4-1,0-1.4l-2.3-2.3
+					c-0.4-0.4-1-0.4-1.4,0l-1.8,1.8l3.8,3.8L20.7,7z"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

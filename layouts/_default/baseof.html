@@ -15,11 +15,7 @@
   <body data-url="{{ .RelPermalink }}" {{ if .Params.listJS }}id="listjs-body" {{- end -}}>
     {{- end -}}
 
-    {{- if .Site.IsServer -}}
-    {{ partialCached "navbar-new" . }}
-    {{ else }}
     {{ partialCached "navbar" . }}
-    {{ end }}
 
     {{ block "body" . }} {{ block "main" . }} {{- end -}}
     {{- end -}}
