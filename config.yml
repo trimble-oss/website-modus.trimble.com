@@ -112,6 +112,8 @@ menu:
       url: /components/chips/
     - name: Checkboxes
       url: /components/checkboxes/
+    - name: Content Tree
+      url: /components/content-tree/
     - name: Dropdowns
       url: /components/dropdowns/
     - name: Inputs

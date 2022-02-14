@@ -1,249 +1,655 @@
-<svg id="tree-specs" xmlns="http://www.w3.org/2000/svg" width="790" height="249" viewBox="0 0 790 249">
-  <g id="Rectangle_3463" data-name="Rectangle 3463" fill="#f1f1f6" stroke="#cbcdd6" stroke-width="1">
-    <rect width="790" height="249" stroke="none"/>
-    <rect x="0.5" y="0.5" width="789" height="248" fill="none"/>
-  </g>
-  <g id="Group_156724" data-name="Group 156724" transform="translate(416.5 118.226)">
-    <g id="tree-item-icon-32" transform="translate(23 0.319)">
-      <rect id="Rectangle_3345" data-name="Rectangle 3345" width="320" height="32" fill="#fff"/>
-      <line id="top_border" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
-      <g id="check" transform="translate(288 4.399)">
-        <rect id="icon-box" width="24" height="24" fill="none"/>
-        <path id="check-2" data-name="check" d="M343.84,69.08l-2.82-2.82-1.02.96,3.84,3.84L352,62.84l-.96-.96Z" transform="translate(-334 -54.47)" fill="#252a2e"/>
-      </g>
-      <g id="drag_indicator_black_24dp" transform="translate(0 8)">
-        <path id="Path_6260" data-name="Path 6260" d="M0,0H16V16H0Z" fill="none"/>
-        <path id="Path_6261" data-name="Path 6261" d="M9.684,13.393a1.342,1.342,0,1,1-1.342-1.342A1.346,1.346,0,0,1,9.684,13.393ZM8.342,8.026A1.342,1.342,0,1,0,9.684,9.368,1.346,1.346,0,0,0,8.342,8.026ZM8.342,4A1.342,1.342,0,1,0,9.684,5.342,1.346,1.346,0,0,0,8.342,4Zm4.026,2.684a1.342,1.342,0,1,0-1.342-1.342A1.346,1.346,0,0,0,12.368,6.684Zm0,1.342a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,8.026Zm0,4.026a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,12.051Z" transform="translate(-2.355 -1.316)" fill="#252a2e"/>
-      </g>
-      <g id="Group_156710" data-name="Group 156710" transform="translate(0 6)">
-        <text id="Tree_Item_" data-name="Tree Item " transform="translate(100 15.073)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
-        <g id="folder_icon" data-name="folder icon" transform="translate(72)">
-          <path id="Path_2521" data-name="Path 2521" d="M0,0H20V20H0Z" fill="none"/>
-          <path id="Path_2522" data-name="Path 2522" d="M6.8,4H3.2A1.111,1.111,0,0,0,2.006,5L2,11a1.117,1.117,0,0,0,1.2,1h9.6A1.117,1.117,0,0,0,14,11V6a1.117,1.117,0,0,0-1.2-1H8Z" transform="translate(2 2)" fill="#252a2e"/>
-        </g>
-        <g id="Checkbox" transform="translate(44 1)">
-          <rect id="box" width="20" height="20" fill="none"/>
-          <rect id="BG" width="12" height="12" rx="2" transform="translate(4 4)" fill="#217cbb"/>
-          <path id="Check-3" data-name="Check" d="M3.333,6.946,0,3.613l.94-.94L3.333,5.06,8.393,0l.94.947Z" transform="translate(5.4 6.622)" fill="#fff"/>
-        </g>
-        <g id="Arrow_down" data-name="Arrow down" transform="translate(16 26) rotate(-90)">
-          <path id="Path_3872" data-name="Path 3872" d="M0,0H20V20H0Z" transform="translate(6 0)" fill="none"/>
-          <path id="Path_3871" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(10.076 6.938)" fill="#8c8b96"/>
-        </g>
-      </g>
-    </g>
-    <g id="_16px" data-name="16px" transform="translate(59 0)">
-      <rect id="Rectangle_3282" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.319)" fill="rgba(255,120,237,0.6)"/>
-      <text id="_8" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
-    </g>
-    <g id="_16px-2" data-name="16px" transform="translate(87 0)">
-      <rect id="Rectangle_3282-2" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.319)" fill="rgba(255,120,237,0.6)"/>
-      <text id="_8-2" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
-    </g>
-    <g id="_16px-3" data-name="16px" transform="translate(115 0)">
-      <rect id="Rectangle_3282-3" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.319)" fill="rgba(255,120,237,0.6)"/>
-      <text id="_8-3" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
-    </g>
-    <g id="_16px-4" data-name="16px" transform="translate(335 0)">
-      <rect id="Rectangle_3282-4" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.319)" fill="rgba(255,120,237,0.6)"/>
-      <text id="_8-4" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
-    </g>
-    <g id="_32_px" data-name="32 px">
-      <g id="Group_6260" data-name="Group 6260" transform="translate(12.143)">
-        <path id="Path_4788" data-name="Path 4788" d="M4684.286-95v32" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
-        <path id="Path_4789" data-name="Path 4789" d="M4680.143-95h8.143" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
-        <path id="Path_4790" data-name="Path 4790" d="M4680.143-95h8.143" transform="translate(-4680.143 127)" fill="none" stroke="#f0d" stroke-width="1"/>
-      </g>
-      <text id="_32" data-name="32" transform="translate(6 20.319)" fill="#f0d" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.708" y="0">32</tspan></text>
-    </g>
-  </g>
-  <g id="Group_156723" data-name="Group 156723" transform="translate(415.5 68.208)">
-    <rect id="Rectangle_3345-2" data-name="Rectangle 3345" width="320" height="32" transform="translate(23 0.337)" fill="#fff"/>
-    <g id="icon_left" data-name="icon left" transform="translate(23 8)">
-      <g id="Icon" transform="translate(0 0.337)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
-        <rect width="16" height="16" stroke="none"/>
-        <rect x="0.5" y="0.5" width="15" height="15" fill="none"/>
-      </g>
-      <text id="_16" data-name="16" transform="translate(8 11.558)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">16</tspan></text>
-    </g>
-    <g id="Group_156709" data-name="Group 156709" transform="translate(23 6)">
-      <text id="Tree_Item_2" data-name="Tree Item " transform="translate(100 15.073)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
-      <g id="icon_left_20" data-name="icon left 20" transform="translate(72)">
-        <g id="Icon-2" data-name="Icon" transform="translate(0 0.337)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
-          <rect width="20" height="20" stroke="none"/>
-          <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
-        </g>
-        <text id="_20" data-name="20" transform="translate(10 13.636)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">20</tspan></text>
-      </g>
-      <g id="icon_left_20-2" data-name="icon left 20" transform="translate(44)">
-        <g id="Icon-3" data-name="Icon" transform="translate(0 0.337)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
-          <rect width="20" height="20" stroke="none"/>
-          <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
-        </g>
-        <text id="_20-2" data-name="20" transform="translate(10 13.636)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">20</tspan></text>
-      </g>
-      <g id="icon_left_20-3" data-name="icon left 20" transform="translate(16)">
-        <g id="Icon-4" data-name="Icon" transform="translate(0 0.337)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
-          <rect width="20" height="20" stroke="none"/>
-          <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
-        </g>
-        <text id="_20-3" data-name="20" transform="translate(10 13.636)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">20</tspan></text>
-      </g>
-    </g>
-    <g id="_16px-5" data-name="16px" transform="translate(59 0)">
-      <rect id="Rectangle_3282-5" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.337)" fill="rgba(255,120,237,0.6)"/>
-      <text id="_8-5" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
-    </g>
-    <g id="_16px-6" data-name="16px" transform="translate(87 0)">
-      <rect id="Rectangle_3282-6" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.337)" fill="rgba(255,120,237,0.6)"/>
-      <text id="_8-6" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
-    </g>
-    <g id="_16px-7" data-name="16px" transform="translate(115 0)">
-      <rect id="Rectangle_3282-7" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.337)" fill="rgba(255,120,237,0.6)"/>
-      <text id="_8-7" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
-    </g>
-    <g id="_16px-8" data-name="16px" transform="translate(335 0)">
-      <rect id="Rectangle_3282-8" data-name="Rectangle 3282" width="8" height="32" transform="translate(0 0.337)" fill="rgba(255,120,237,0.6)"/>
-      <text id="_8-8" data-name="8" transform="translate(4 19.818)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
-    </g>
-    <g id="icon_left_20-4" data-name="icon left 20" transform="translate(315 6)">
-      <g id="Icon-5" data-name="Icon" transform="translate(0 0.337)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
-        <rect width="20" height="20" stroke="none"/>
-        <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
-      </g>
-      <text id="_20-4" data-name="20" transform="translate(10 13.636)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">20</tspan></text>
-    </g>
-    <g id="_32_px-2" data-name="32 px">
-      <g id="Group_6260-2" data-name="Group 6260" transform="translate(12.143)">
-        <path id="Path_4788-2" data-name="Path 4788" d="M4684.286-95v32" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
-        <path id="Path_4789-2" data-name="Path 4789" d="M4680.143-95h8.143" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
-        <path id="Path_4790-2" data-name="Path 4790" d="M4680.143-95h8.143" transform="translate(-4680.143 127)" fill="none" stroke="#f0d" stroke-width="1"/>
-      </g>
-      <text id="_32-2" data-name="32" transform="translate(6 20.337)" fill="#f0d" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.708" y="0">32</tspan></text>
-    </g>
-  </g>
-  <g id="Group_156725" data-name="Group 156725" transform="translate(20.214 151)">
-    <g id="Group_156721" data-name="Group 156721" transform="translate(26.286)">
-      <g id="tree-item-icons-level_1" data-name="tree-item-icons-level 1" transform="translate(0 -0.455)">
-        <rect id="Rectangle_3345-3" data-name="Rectangle 3345" width="320" height="48" fill="#fff"/>
-        <line id="top_border-2" data-name="top border" x2="320" transform="translate(0 0.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
-        <line id="bottom_border" data-name="bottom border" x2="320" transform="translate(0 47.5)" fill="none" stroke="#e0e1e9" stroke-width="1"/>
-        <g id="Arrow_down-2" data-name="Arrow down" transform="translate(16 36) rotate(-90)">
-          <path id="Path_3872-2" data-name="Path 3872" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
-          <path id="Path_3871-2" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(6 9)" fill="#8c8b96"/>
-        </g>
-        <g id="check-4" data-name="check" transform="translate(280 11.6)">
-          <rect id="icon-box-2" data-name="icon-box" width="24" height="24" fill="none"/>
-          <path id="check-5" data-name="check" d="M343.84,69.08l-2.82-2.82-1.02.96,3.84,3.84L352,62.84l-.96-.96Z" transform="translate(-334 -54.47)" fill="#252a2e"/>
-        </g>
-        <g id="drag_indicator_black_24dp-2" data-name="drag_indicator_black_24dp" transform="translate(0 16)">
-          <path id="Path_6260-2" data-name="Path 6260" d="M0,0H16V16H0Z" fill="none"/>
-          <path id="Path_6261-2" data-name="Path 6261" d="M9.684,13.393a1.342,1.342,0,1,1-1.342-1.342A1.346,1.346,0,0,1,9.684,13.393ZM8.342,8.026A1.342,1.342,0,1,0,9.684,9.368,1.346,1.346,0,0,0,8.342,8.026ZM8.342,4A1.342,1.342,0,1,0,9.684,5.342,1.346,1.346,0,0,0,8.342,4Zm4.026,2.684a1.342,1.342,0,1,0-1.342-1.342A1.346,1.346,0,0,0,12.368,6.684Zm0,1.342a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,8.026Zm0,4.026a1.342,1.342,0,1,0,1.342,1.342A1.346,1.346,0,0,0,12.368,12.051Z" transform="translate(-2.355 -1.316)" fill="#252a2e"/>
-        </g>
-        <g id="Group_156708" data-name="Group 156708" transform="translate(0 12)">
-          <text id="Tree_Item_3" data-name="Tree Item " transform="translate(112 18.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
-          <g id="folder_icon-2" data-name="folder icon" transform="translate(80)">
-            <path id="Path_2521-2" data-name="Path 2521" d="M0,0H24V24H0Z" fill="none"/>
-            <path id="Path_2522-2" data-name="Path 2522" d="M8.4,4H3.6A1.55,1.55,0,0,0,2.008,5.5L2,14.5A1.557,1.557,0,0,0,3.6,16H16.4A1.557,1.557,0,0,0,18,14.5V7a1.557,1.557,0,0,0-1.6-1.5H10Z" transform="translate(2 2)" fill="#252a2e"/>
-          </g>
-          <g id="Checkbox-2" data-name="Checkbox" transform="translate(48)">
-            <rect id="box-2" data-name="box" width="24" height="24" fill="none"/>
-            <rect id="BG-2" data-name="BG" width="16" height="16" rx="2" transform="translate(4 4)" fill="#217cbb"/>
-            <path id="Check-6" data-name="Check" d="M4,8.335l-4-4L1.128,3.208,4,6.072,10.071,0,11.2,1.136Z" transform="translate(6.4 7.622)" fill="#fff"/>
-          </g>
-        </g>
-      </g>
-      <g id="_16px-9" data-name="16px" transform="translate(40)">
-        <rect id="Rectangle_3282-9" data-name="Rectangle 3282" width="8" height="48" transform="translate(0 -0.455)" fill="rgba(255,120,237,0.6)"/>
-        <text id="_8-9" data-name="8" transform="translate(4 28.086)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
-      </g>
-      <g id="_16px-10" data-name="16px" transform="translate(72)">
-        <rect id="Rectangle_3282-10" data-name="Rectangle 3282" width="8" height="48" transform="translate(0 -0.455)" fill="rgba(255,120,237,0.6)"/>
-        <text id="_8-10" data-name="8" transform="translate(4 28.148)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
-      </g>
-      <g id="_16px-11" data-name="16px" transform="translate(104)">
-        <rect id="Rectangle_3282-11" data-name="Rectangle 3282" width="8" height="48" transform="translate(0 -0.455)" fill="rgba(255,120,237,0.6)"/>
-        <text id="_8-11" data-name="8" transform="translate(4 28.148)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
-      </g>
-      <g id="_16px-12" data-name="16px" transform="translate(304)">
-        <rect id="Rectangle_3282-12" data-name="Rectangle 3282" width="16" height="48" transform="translate(0 -0.455)" fill="rgba(255,120,237,0.6)"/>
-        <text id="_16-2" data-name="16" transform="translate(8 28.148)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">16</tspan></text>
-      </g>
-    </g>
-    <g id="_40px" data-name="40px" transform="translate(0 1)">
-      <g id="Group_6260-3" data-name="Group 6260" transform="translate(12.143)">
-        <path id="Path_4788-3" data-name="Path 4788" d="M4684.286-95v48" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
-        <path id="Path_4789-3" data-name="Path 4789" d="M4680.143-95h8.143" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
-        <path id="Path_4790-3" data-name="Path 4790" d="M4680.143-95h8.143" transform="translate(-4680.143 143)" fill="none" stroke="#f0d" stroke-width="1"/>
-      </g>
-      <text id="_48" data-name="48" transform="translate(6 28)" fill="#f0d" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.708" y="0">48</tspan></text>
-    </g>
-  </g>
-  <g id="Group_156722" data-name="Group 156722" transform="translate(20.214 70.131)">
-    <rect id="Rectangle_3345-4" data-name="Rectangle 3345" width="320" height="48" transform="translate(27.286 0.414)" fill="#fff"/>
-    <g id="icon_right" data-name="icon right" transform="translate(308.286 12)">
-      <g id="Icon-6" data-name="Icon" transform="translate(0 0.414)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
-        <rect width="24" height="24" stroke="none"/>
-        <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
-      </g>
-      <text id="_24" data-name="24" transform="translate(12 15.714)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">24</tspan></text>
-    </g>
-    <g id="icon_left-2" data-name="icon left" transform="translate(27.286 16)">
-      <g id="Icon-7" data-name="Icon" transform="translate(0 0.414)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
-        <rect width="16" height="16" stroke="none"/>
-        <rect x="0.5" y="0.5" width="15" height="15" fill="none"/>
-      </g>
-      <text id="_16-3" data-name="16" transform="translate(8 11.558)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">16</tspan></text>
-    </g>
-    <g id="Group_156707" data-name="Group 156707" transform="translate(27.286 12)">
-      <text id="Tree_Item_4" data-name="Tree Item " transform="translate(112 18.19)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans" letter-spacing="0em"><tspan x="0" y="0">Tree Item </tspan></text>
-      <g id="icon_left-3" data-name="icon left" transform="translate(-471)">
-        <g id="Icon-8" data-name="Icon" transform="translate(551 0.414)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
-          <rect width="24" height="24" stroke="none"/>
-          <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
-        </g>
-        <text id="_24-2" data-name="24" transform="translate(563 15.714)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">24</tspan></text>
-      </g>
-      <g id="icon_left-4" data-name="icon left" transform="translate(-503)">
-        <g id="Icon-9" data-name="Icon" transform="translate(551 0.414)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
-          <rect width="24" height="24" stroke="none"/>
-          <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
-        </g>
-        <text id="_24-3" data-name="24" transform="translate(563 15.714)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">24</tspan></text>
-      </g>
-      <g id="icon_left-5" data-name="icon left" transform="translate(-535)">
-        <g id="Icon-10" data-name="Icon" transform="translate(551 0.414)" fill="rgba(255,0,213,0.1)" stroke="#ff00d5" stroke-width="1" stroke-dasharray="2 1">
-          <rect width="24" height="24" stroke="none"/>
-          <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
-        </g>
-        <text id="_24-4" data-name="24" transform="translate(563 15.714)" fill="#f0d" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">24</tspan></text>
-      </g>
-    </g>
-    <g id="_16px-13" data-name="16px" transform="translate(331.286 0)">
-      <rect id="Rectangle_3282-13" data-name="Rectangle 3282" width="16" height="48" transform="translate(0 0.414)" fill="rgba(255,120,237,0.6)"/>
-      <text id="_16-4" data-name="16" transform="translate(8 28.148)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.137" y="0">16</tspan></text>
-    </g>
-    <g id="_16px-14" data-name="16px" transform="translate(67.286 0)">
-      <rect id="Rectangle_3282-14" data-name="Rectangle 3282" width="8" height="48" transform="translate(0 0.414)" fill="rgba(255,120,237,0.6)"/>
-      <text id="_8-12" data-name="8" transform="translate(4 28.086)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
-    </g>
-    <g id="_16px-15" data-name="16px" transform="translate(99.286 0)">
-      <rect id="Rectangle_3282-15" data-name="Rectangle 3282" width="8" height="48" transform="translate(0 0.414)" fill="rgba(255,120,237,0.6)"/>
-      <text id="_8-13" data-name="8" transform="translate(4 28.148)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
-    </g>
-    <g id="_16px-16" data-name="16px" transform="translate(131.286 0)">
-      <rect id="Rectangle_3282-16" data-name="Rectangle 3282" width="8" height="48" transform="translate(0 0.414)" fill="rgba(255,120,237,0.6)"/>
-      <text id="_8-14" data-name="8" transform="translate(4 28.148)" fill="#fff" font-size="9" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-2.569" y="0">8</tspan></text>
-    </g>
-    <g id="_40px-2" data-name="40px">
-      <g id="Group_6260-4" data-name="Group 6260" transform="translate(12.143)">
-        <path id="Path_4788-4" data-name="Path 4788" d="M4684.286-95v48" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
-        <path id="Path_4789-4" data-name="Path 4789" d="M4680.143-95h8.143" transform="translate(-4680.143 95)" fill="none" stroke="#f0d" stroke-width="1"/>
-        <path id="Path_4790-4" data-name="Path 4790" d="M4680.143-95h8.143" transform="translate(-4680.143 143)" fill="none" stroke="#f0d" stroke-width="1"/>
-      </g>
-      <text id="_48-2" data-name="48" transform="translate(6 28)" fill="#f0d" font-size="10" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="-5.708" y="0">48</tspan></text>
-    </g>
-  </g>
-  <text id="Default" transform="translate(20.214 46.131)" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">DEFAULT</tspan></text>
-  <text id="Condensed" transform="translate(416 47)" font-size="12" font-family="OpenSans-Bold, Open Sans" font-weight="700" letter-spacing="0em"><tspan x="0" y="0">CONDENSED</tspan></text>
+<svg  id="tree-specs" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 790 249" style="enable-background:new 0 0 790 249;" xml:space="preserve">
+<style type="text/css">
+	.Graphic_x0020_Style_x0020_4{opacity:0.3;fill:#FF00DD;}
+	.Graphic_x0020_Style_x0020_3{opacity:0.5;fill:#FF00DD;}
+	.Graphic_x0020_Style_x0020_6{fill:none;stroke:#E346F5;stroke-dasharray:2,1;}
+	.st0{fill:#F1F1F6;}
+	.st1{fill:none;stroke:#CBCDD6;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:none;stroke:#E0E1E9;}
+	.st4{fill:none;}
+	.st5{fill:#252A2E;}
+	.st6{enable-background:new    ;}
+	.st7{fill:#217CBB;}
+	.st8{fill:#8C8B96;}
+	.st9{fill:none;stroke:#FF00DD;}
+	.st10{fill:#FF00DD;}
+	.st11{fill:none;stroke:#FF00D5;stroke-dasharray:2,1;}
+</style>
+<g id="Rectangle_3463">
+	<rect class="st0" width="790" height="249"/>
+	<rect x="0.5" y="0.5" class="st1" width="789" height="248"/>
+</g>
+<g id="Group_156724" transform="translate(416.5 118.226)">
+	<g id="tree-item-icon-32" transform="translate(23 0.319)">
+		<rect id="Rectangle_3345" y="0" class="st2" width="320" height="32"/>
+		<line id="top_border" class="st3" x1="0" y1="0.5" x2="320" y2="0.5"/>
+		<g id="check" transform="translate(288 4.399)">
+			<rect id="icon-box" y="0" class="st4" width="24" height="24"/>
+			<path id="check-2" class="st5" d="M9.8,14.6L7,11.8l-1,1l3.8,3.8L18,8.4l-1-1L9.8,14.6z"/>
+		</g>
+		<g id="drag_indicator_black_24dp" transform="translate(0 8)">
+			<path id="Path_6260" class="st4" d="M0,0h16v16H0V0z"/>
+			<path id="Path_6261" class="st5" d="M7.3,12.1c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3
+				C6.7,10.7,7.3,11.3,7.3,12.1z M6,6.7c-0.7,0-1.3,0.6-1.3,1.3S5.2,9.4,6,9.4s1.3-0.6,1.3-1.3C7.3,7.3,6.7,6.7,6,6.7z M6,2.7
+				C5.2,2.7,4.6,3.3,4.6,4S5.2,5.4,6,5.4S7.3,4.8,7.3,4C7.3,3.3,6.7,2.7,6,2.7z M10,5.4c0.7,0,1.3-0.6,1.3-1.3S10.8,2.7,10,2.7
+				C9.3,2.7,8.7,3.3,8.7,4C8.7,4.8,9.3,5.4,10,5.4z M10,6.7c-0.7,0-1.3,0.6-1.3,1.3S9.3,9.4,10,9.4c0.7,0,1.3-0.6,1.3-1.3
+				C11.4,7.3,10.8,6.7,10,6.7z M10,10.7c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3c0.7,0,1.3-0.6,1.3-1.3C11.4,11.3,10.8,10.7,10,10.7
+				L10,10.7z"/>
+		</g>
+		<g id="Group_156710" transform="translate(0 6)">
+			<g class="st6">
+				<path class="st5" d="M103.8,15.1h-1V7.4h-2.7V6.5h6.4v0.9h-2.7V15.1z"/>
+				<path class="st5" d="M110.6,8.5c0.3,0,0.5,0,0.8,0.1l-0.1,0.9c-0.3-0.1-0.5-0.1-0.7-0.1c-0.5,0-1,0.2-1.3,0.6s-0.6,0.9-0.6,1.6
+					v3.4h-1V8.7h0.8l0.1,1.2h0c0.2-0.4,0.5-0.7,0.9-1S110.2,8.5,110.6,8.5z"/>
+				<path class="st5" d="M115.3,15.2c-0.9,0-1.7-0.3-2.2-0.9s-0.8-1.4-0.8-2.4c0-1,0.3-1.9,0.8-2.5s1.2-0.9,2.1-0.9
+					c0.8,0,1.4,0.3,1.9,0.8s0.7,1.2,0.7,2.1V12h-4.4c0,0.8,0.2,1.3,0.6,1.7s0.9,0.6,1.5,0.6c0.7,0,1.4-0.1,2.1-0.4v0.9
+					c-0.3,0.1-0.7,0.3-1,0.3S115.7,15.2,115.3,15.2z M115,9.3c-0.5,0-0.9,0.2-1.2,0.5s-0.5,0.8-0.5,1.4h3.4c0-0.6-0.1-1.1-0.4-1.4
+					S115.5,9.3,115,9.3z"/>
+				<path class="st5" d="M122,15.2c-0.9,0-1.7-0.3-2.2-0.9s-0.8-1.4-0.8-2.4c0-1,0.3-1.9,0.8-2.5s1.2-0.9,2.1-0.9
+					c0.8,0,1.4,0.3,1.9,0.8s0.7,1.2,0.7,2.1V12H120c0,0.8,0.2,1.3,0.6,1.7s0.9,0.6,1.5,0.6c0.7,0,1.4-0.1,2.1-0.4v0.9
+					c-0.3,0.1-0.7,0.3-1,0.3S122.4,15.2,122,15.2z M121.8,9.3c-0.5,0-0.9,0.2-1.2,0.5s-0.5,0.8-0.5,1.4h3.4c0-0.6-0.1-1.1-0.4-1.4
+					S122.3,9.3,121.8,9.3z"/>
+				<path class="st5" d="M129.3,15.1V6.5h1v8.6H129.3z"/>
+				<path class="st5" d="M134.6,14.4c0.2,0,0.3,0,0.5,0s0.3-0.1,0.4-0.1V15c-0.1,0.1-0.3,0.1-0.5,0.1s-0.4,0-0.6,0
+					c-1.2,0-1.9-0.7-1.9-2V9.4h-0.9V8.9l0.9-0.4l0.4-1.4h0.6v1.5h1.9v0.8h-1.9v3.8c0,0.4,0.1,0.7,0.3,0.9S134.2,14.4,134.6,14.4z"/>
+				<path class="st5" d="M139.4,15.2c-0.9,0-1.7-0.3-2.2-0.9s-0.8-1.4-0.8-2.4c0-1,0.3-1.9,0.8-2.5s1.2-0.9,2.1-0.9
+					c0.8,0,1.4,0.3,1.9,0.8s0.7,1.2,0.7,2.1V12h-4.4c0,0.8,0.2,1.3,0.6,1.7s0.9,0.6,1.5,0.6c0.7,0,1.4-0.1,2.1-0.4v0.9
+					c-0.3,0.1-0.7,0.3-1,0.3S139.9,15.2,139.4,15.2z M139.2,9.3c-0.5,0-0.9,0.2-1.2,0.5s-0.5,0.8-0.5,1.4h3.4c0-0.6-0.1-1.1-0.4-1.4
+					S139.7,9.3,139.2,9.3z"/>
+				<path class="st5" d="M151.7,15.1v-4.2c0-0.5-0.1-0.9-0.3-1.2s-0.6-0.4-1-0.4c-0.6,0-1.1,0.2-1.3,0.5s-0.4,0.9-0.4,1.6v3.6h-1
+					v-4.2c0-0.5-0.1-0.9-0.3-1.2s-0.6-0.4-1-0.4c-0.6,0-1.1,0.2-1.3,0.5s-0.4,1-0.4,1.8v3.4h-1V8.7h0.8l0.2,0.9h0
+					c0.2-0.3,0.4-0.6,0.8-0.7s0.7-0.3,1.1-0.3c1,0,1.7,0.4,2,1.1h0c0.2-0.3,0.5-0.6,0.8-0.8s0.8-0.3,1.2-0.3c0.7,0,1.3,0.2,1.6,0.6
+					s0.5,1,0.5,1.8v4.2H151.7z"/>
+			</g>
+			<g id="folder_icon" transform="translate(72)">
+				<path id="Path_2521" class="st4" d="M0,0h20v20H0V0z"/>
+				<path id="Path_2522" class="st5" d="M8.8,6H5.2C4.6,6,4.1,6.4,4,7l0,6c0.1,0.6,0.6,1,1.2,1h9.6c0.6,0,1.1-0.4,1.2-1V8
+					c-0.1-0.6-0.6-1-1.2-1H10L8.8,6z"/>
+			</g>
+			<g id="Checkbox" transform="translate(44 1)">
+				<rect id="box" y="0" class="st4" width="20" height="20"/>
+				<path id="BG" class="st7" d="M6,4h8c1.1,0,2,0.9,2,2v8c0,1.1-0.9,2-2,2H6c-1.1,0-2-0.9-2-2V6C4,4.9,4.9,4,6,4z"/>
+				<path id="Check-3" class="st2" d="M8.7,13.6l-3.3-3.3l0.9-0.9l2.4,2.4l5.1-5.1l0.9,0.9L8.7,13.6z"/>
+			</g>
+			<g id="Arrow_down" transform="translate(16 26) rotate(-90)">
+				<path id="Path_3872" class="st4" d="M6,0h20v20H6V0z"/>
+				<path id="Path_3871" class="st8" d="M15.8,13.5c-0.2,0-0.4-0.1-0.6-0.2L10.1,8l1.1-1.1l4.7,4.7l4.7-4.7L21.6,8l-5.2,5.2
+					C16.2,13.4,16,13.5,15.8,13.5z"/>
+			</g>
+		</g>
+	</g>
+	<g id="_16px" transform="translate(59 0)">
+		<rect id="Rectangle_3282" y="0.3" class="Graphic_x0020_Style_x0020_3" width="8" height="32"/>
+		<g class="st6">
+			<path class="st2" d="M4,13.3c0.6,0,1.1,0.1,1.4,0.4C5.8,14,6,14.4,6,14.9c0,0.7-0.4,1.2-1.2,1.6c0.5,0.3,0.9,0.5,1.1,0.8
+				c0.2,0.3,0.3,0.6,0.3,0.9c0,0.5-0.2,1-0.6,1.3S4.7,19.9,4,19.9c-0.7,0-1.2-0.1-1.6-0.4s-0.6-0.7-0.6-1.3c0-0.4,0.1-0.7,0.3-1
+				c0.2-0.3,0.5-0.5,1-0.8c-0.4-0.2-0.7-0.5-0.8-0.7S2,15.2,2,14.8c0-0.5,0.2-0.8,0.5-1.1C2.9,13.4,3.4,13.3,4,13.3z M2.8,18.2
+				c0,0.3,0.1,0.5,0.3,0.7C3.3,19,3.6,19.1,4,19.1c0.4,0,0.7-0.1,0.9-0.3c0.2-0.2,0.3-0.4,0.3-0.7c0-0.2-0.1-0.5-0.3-0.7
+				S4.4,17.1,4,16.9l-0.1-0.1c-0.4,0.2-0.7,0.4-0.8,0.6C2.9,17.7,2.8,17.9,2.8,18.2z M4,14.1c-0.3,0-0.5,0.1-0.7,0.2
+				C3.1,14.5,3,14.7,3,14.9c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.3,0.3C3.5,15.7,3.7,15.9,4,16c0.4-0.2,0.6-0.3,0.7-0.5
+				C4.9,15.3,5,15.1,5,14.9c0-0.2-0.1-0.4-0.3-0.6C4.5,14.2,4.3,14.1,4,14.1z"/>
+		</g>
+	</g>
+	<g id="_16px-2" transform="translate(87 0)">
+		<rect id="Rectangle_3282-2" y="0.3" class="Graphic_x0020_Style_x0020_3" width="8" height="32"/>
+		<g class="st6">
+			<path class="st2" d="M4,13.3c0.6,0,1.1,0.1,1.4,0.4C5.8,14,6,14.4,6,14.9c0,0.7-0.4,1.2-1.2,1.6c0.5,0.3,0.9,0.5,1.1,0.8
+				c0.2,0.3,0.3,0.6,0.3,0.9c0,0.5-0.2,1-0.6,1.3S4.7,19.9,4,19.9c-0.7,0-1.2-0.1-1.6-0.4s-0.6-0.7-0.6-1.3c0-0.4,0.1-0.7,0.3-1
+				c0.2-0.3,0.5-0.5,1-0.8c-0.4-0.2-0.7-0.5-0.8-0.7S2,15.2,2,14.8c0-0.5,0.2-0.8,0.5-1.1C2.9,13.4,3.4,13.3,4,13.3z M2.8,18.2
+				c0,0.3,0.1,0.5,0.3,0.7C3.3,19,3.6,19.1,4,19.1c0.4,0,0.7-0.1,0.9-0.3c0.2-0.2,0.3-0.4,0.3-0.7c0-0.2-0.1-0.5-0.3-0.7
+				S4.4,17.1,4,16.9l-0.1-0.1c-0.4,0.2-0.7,0.4-0.8,0.6C2.9,17.7,2.8,17.9,2.8,18.2z M4,14.1c-0.3,0-0.5,0.1-0.7,0.2
+				C3.1,14.5,3,14.7,3,14.9c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.3,0.3C3.5,15.7,3.7,15.9,4,16c0.4-0.2,0.6-0.3,0.7-0.5
+				C4.9,15.3,5,15.1,5,14.9c0-0.2-0.1-0.4-0.3-0.6C4.5,14.2,4.3,14.1,4,14.1z"/>
+		</g>
+	</g>
+	<g id="_16px-3" transform="translate(115 0)">
+		<rect id="Rectangle_3282-3" y="0.3" class="Graphic_x0020_Style_x0020_3" width="8" height="32"/>
+		<g class="st6">
+			<path class="st2" d="M4,13.3c0.6,0,1.1,0.1,1.4,0.4C5.8,14,6,14.4,6,14.9c0,0.7-0.4,1.2-1.2,1.6c0.5,0.3,0.9,0.5,1.1,0.8
+				c0.2,0.3,0.3,0.6,0.3,0.9c0,0.5-0.2,1-0.6,1.3S4.7,19.9,4,19.9c-0.7,0-1.2-0.1-1.6-0.4s-0.6-0.7-0.6-1.3c0-0.4,0.1-0.7,0.3-1
+				c0.2-0.3,0.5-0.5,1-0.8c-0.4-0.2-0.7-0.5-0.8-0.7S2,15.2,2,14.8c0-0.5,0.2-0.8,0.5-1.1C2.9,13.4,3.4,13.3,4,13.3z M2.8,18.2
+				c0,0.3,0.1,0.5,0.3,0.7C3.3,19,3.6,19.1,4,19.1c0.4,0,0.7-0.1,0.9-0.3c0.2-0.2,0.3-0.4,0.3-0.7c0-0.2-0.1-0.5-0.3-0.7
+				S4.4,17.1,4,16.9l-0.1-0.1c-0.4,0.2-0.7,0.4-0.8,0.6C2.9,17.7,2.8,17.9,2.8,18.2z M4,14.1c-0.3,0-0.5,0.1-0.7,0.2
+				C3.1,14.5,3,14.7,3,14.9c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.3,0.3C3.5,15.7,3.7,15.9,4,16c0.4-0.2,0.6-0.3,0.7-0.5
+				C4.9,15.3,5,15.1,5,14.9c0-0.2-0.1-0.4-0.3-0.6C4.5,14.2,4.3,14.1,4,14.1z"/>
+		</g>
+	</g>
+	<g id="_16px-4" transform="translate(335 0)">
+		<rect id="Rectangle_3282-4" y="0.3" class="Graphic_x0020_Style_x0020_3" width="8" height="32"/>
+		<g class="st6">
+			<path class="st2" d="M4,13.3c0.6,0,1.1,0.1,1.4,0.4C5.8,14,6,14.4,6,14.9c0,0.7-0.4,1.2-1.2,1.6c0.5,0.3,0.9,0.5,1.1,0.8
+				c0.2,0.3,0.3,0.6,0.3,0.9c0,0.5-0.2,1-0.6,1.3S4.7,19.9,4,19.9c-0.7,0-1.2-0.1-1.6-0.4s-0.6-0.7-0.6-1.3c0-0.4,0.1-0.7,0.3-1
+				c0.2-0.3,0.5-0.5,1-0.8c-0.4-0.2-0.7-0.5-0.8-0.7S2,15.2,2,14.8c0-0.5,0.2-0.8,0.5-1.1C2.9,13.4,3.4,13.3,4,13.3z M2.8,18.2
+				c0,0.3,0.1,0.5,0.3,0.7C3.3,19,3.6,19.1,4,19.1c0.4,0,0.7-0.1,0.9-0.3c0.2-0.2,0.3-0.4,0.3-0.7c0-0.2-0.1-0.5-0.3-0.7
+				S4.4,17.1,4,16.9l-0.1-0.1c-0.4,0.2-0.7,0.4-0.8,0.6C2.9,17.7,2.8,17.9,2.8,18.2z M4,14.1c-0.3,0-0.5,0.1-0.7,0.2
+				C3.1,14.5,3,14.7,3,14.9c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.3,0.3C3.5,15.7,3.7,15.9,4,16c0.4-0.2,0.6-0.3,0.7-0.5
+				C4.9,15.3,5,15.1,5,14.9c0-0.2-0.1-0.4-0.3-0.6C4.5,14.2,4.3,14.1,4,14.1z"/>
+		</g>
+	</g>
+	<g id="_32_px">
+		<g id="Group_6260" transform="translate(12.143)">
+			<path id="Path_4788" class="st9" d="M4.1,0v32"/>
+			<path id="Path_4789" class="st9" d="M0,0h8.1"/>
+			<path id="Path_4790" class="st9" d="M0,32h8.1"/>
+		</g>
+		<g class="st6">
+			<path class="st10" d="M5.3,14.8c0,0.5-0.1,0.8-0.4,1.1c-0.3,0.3-0.6,0.5-1.1,0.6v0c0.6,0.1,1,0.2,1.3,0.5
+				c0.3,0.3,0.4,0.7,0.4,1.1c0,0.7-0.2,1.2-0.7,1.6c-0.5,0.4-1.2,0.6-2.1,0.6c-0.8,0-1.5-0.1-2-0.4v-1c0.3,0.1,0.6,0.3,1,0.3
+				s0.7,0.1,1,0.1c0.6,0,1-0.1,1.2-0.3s0.4-0.5,0.4-1c0-0.4-0.2-0.7-0.5-0.8s-0.8-0.3-1.4-0.3H1.8v-0.9h0.6c1.1,0,1.7-0.4,1.7-1.2
+				c0-0.3-0.1-0.5-0.3-0.7S3.3,14,3,14c-0.3,0-0.5,0-0.8,0.1c-0.2,0.1-0.5,0.2-0.9,0.4l-0.6-0.8c0.7-0.5,1.4-0.7,2.3-0.7
+				c0.7,0,1.3,0.2,1.7,0.5S5.3,14.3,5.3,14.8z"/>
+			<path class="st10" d="M11.3,20.3H6.4v-0.9l1.8-1.9c0.5-0.6,0.9-1,1.1-1.2c0.2-0.2,0.3-0.5,0.4-0.7s0.1-0.4,0.1-0.7
+				c0-0.3-0.1-0.6-0.3-0.8c-0.2-0.2-0.5-0.3-0.8-0.3c-0.3,0-0.5,0.1-0.8,0.2c-0.3,0.1-0.6,0.3-0.9,0.5L6.5,14
+				c0.4-0.3,0.8-0.6,1.2-0.7s0.8-0.2,1.2-0.2c0.7,0,1.2,0.2,1.6,0.5c0.4,0.3,0.6,0.8,0.6,1.4c0,0.3-0.1,0.6-0.2,0.9
+				c-0.1,0.3-0.3,0.6-0.5,0.9c-0.2,0.3-0.6,0.7-1.2,1.2l-1.2,1.2v0h3.4V20.3z"/>
+		</g>
+	</g>
+</g>
+<g id="Group_156723" transform="translate(415.5 68.208)">
+	<rect id="Rectangle_3345-2" x="23" y="0.3" class="st2" width="320" height="32"/>
+	<g id="icon_left" transform="translate(23 8)">
+		<g id="Icon" transform="translate(0 0.337)">
+			<rect y="0" class="Graphic_x0020_Style_x0020_4" width="16" height="16"/>
+			<rect x="0.5" y="0.5" class="st11" width="15" height="15"/>
+		</g>
+		<g class="st6">
+			<path class="st10" d="M6.3,11.6h-1V7.4c0-0.5,0-0.9,0-1.2C5.2,6.3,5.1,6.4,5,6.5c-0.1,0.1-0.4,0.4-1,0.8L3.5,6.6l1.9-1.5h0.9
+				V11.6z"/>
+			<path class="st10" d="M8.4,8.8c0-2.5,1-3.8,3.1-3.8c0.3,0,0.6,0,0.8,0.1V6c-0.2-0.1-0.5-0.1-0.8-0.1c-0.7,0-1.2,0.2-1.6,0.6
+				s-0.5,1-0.6,1.8h0.1C9.6,8,9.8,7.8,10,7.7c0.2-0.1,0.5-0.2,0.9-0.2c0.6,0,1,0.2,1.4,0.5s0.5,0.8,0.5,1.5c0,0.7-0.2,1.2-0.6,1.6
+				c-0.4,0.4-0.9,0.6-1.5,0.6c-0.5,0-0.9-0.1-1.2-0.3c-0.3-0.2-0.6-0.5-0.8-1C8.5,9.9,8.4,9.4,8.4,8.8z M10.7,10.8
+				c0.4,0,0.6-0.1,0.8-0.3c0.2-0.2,0.3-0.6,0.3-1c0-0.4-0.1-0.7-0.3-0.9c-0.2-0.2-0.5-0.3-0.8-0.3c-0.2,0-0.4,0-0.6,0.1
+				C9.9,8.5,9.7,8.7,9.6,8.8C9.5,9,9.5,9.2,9.5,9.3c0,0.4,0.1,0.8,0.3,1C10,10.7,10.3,10.8,10.7,10.8z"/>
+		</g>
+	</g>
+	<g id="Group_156709" transform="translate(23 6)">
+		<g class="st6">
+			<path class="st5" d="M103.8,15.1h-1V7.4h-2.7V6.5h6.4v0.9h-2.7V15.1z"/>
+			<path class="st5" d="M110.6,8.5c0.3,0,0.5,0,0.8,0.1l-0.1,0.9c-0.3-0.1-0.5-0.1-0.7-0.1c-0.5,0-1,0.2-1.3,0.6s-0.6,0.9-0.6,1.6
+				v3.4h-1V8.7h0.8l0.1,1.2h0c0.2-0.4,0.5-0.7,0.9-1S110.2,8.5,110.6,8.5z"/>
+			<path class="st5" d="M115.3,15.2c-0.9,0-1.7-0.3-2.2-0.9s-0.8-1.4-0.8-2.4c0-1,0.3-1.9,0.8-2.5s1.2-0.9,2.1-0.9
+				c0.8,0,1.4,0.3,1.9,0.8s0.7,1.2,0.7,2.1V12h-4.4c0,0.8,0.2,1.3,0.6,1.7s0.9,0.6,1.5,0.6c0.7,0,1.4-0.1,2.1-0.4v0.9
+				c-0.3,0.1-0.7,0.3-1,0.3S115.7,15.2,115.3,15.2z M115,9.3c-0.5,0-0.9,0.2-1.2,0.5s-0.5,0.8-0.5,1.4h3.4c0-0.6-0.1-1.1-0.4-1.4
+				S115.5,9.3,115,9.3z"/>
+			<path class="st5" d="M122,15.2c-0.9,0-1.7-0.3-2.2-0.9s-0.8-1.4-0.8-2.4c0-1,0.3-1.9,0.8-2.5s1.2-0.9,2.1-0.9
+				c0.8,0,1.4,0.3,1.9,0.8s0.7,1.2,0.7,2.1V12H120c0,0.8,0.2,1.3,0.6,1.7s0.9,0.6,1.5,0.6c0.7,0,1.4-0.1,2.1-0.4v0.9
+				c-0.3,0.1-0.7,0.3-1,0.3S122.4,15.2,122,15.2z M121.8,9.3c-0.5,0-0.9,0.2-1.2,0.5s-0.5,0.8-0.5,1.4h3.4c0-0.6-0.1-1.1-0.4-1.4
+				S122.3,9.3,121.8,9.3z"/>
+			<path class="st5" d="M129.3,15.1V6.5h1v8.6H129.3z"/>
+			<path class="st5" d="M134.6,14.4c0.2,0,0.3,0,0.5,0s0.3-0.1,0.4-0.1V15c-0.1,0.1-0.3,0.1-0.5,0.1s-0.4,0-0.6,0
+				c-1.2,0-1.9-0.7-1.9-2V9.4h-0.9V8.9l0.9-0.4l0.4-1.4h0.6v1.5h1.9v0.8h-1.9v3.8c0,0.4,0.1,0.7,0.3,0.9S134.2,14.4,134.6,14.4z"/>
+			<path class="st5" d="M139.4,15.2c-0.9,0-1.7-0.3-2.2-0.9s-0.8-1.4-0.8-2.4c0-1,0.3-1.9,0.8-2.5s1.2-0.9,2.1-0.9
+				c0.8,0,1.4,0.3,1.9,0.8s0.7,1.2,0.7,2.1V12h-4.4c0,0.8,0.2,1.3,0.6,1.7s0.9,0.6,1.5,0.6c0.7,0,1.4-0.1,2.1-0.4v0.9
+				c-0.3,0.1-0.7,0.3-1,0.3S139.9,15.2,139.4,15.2z M139.2,9.3c-0.5,0-0.9,0.2-1.2,0.5s-0.5,0.8-0.5,1.4h3.4c0-0.6-0.1-1.1-0.4-1.4
+				S139.7,9.3,139.2,9.3z"/>
+			<path class="st5" d="M151.7,15.1v-4.2c0-0.5-0.1-0.9-0.3-1.2s-0.6-0.4-1-0.4c-0.6,0-1.1,0.2-1.3,0.5s-0.4,0.9-0.4,1.6v3.6h-1
+				v-4.2c0-0.5-0.1-0.9-0.3-1.2s-0.6-0.4-1-0.4c-0.6,0-1.1,0.2-1.3,0.5s-0.4,1-0.4,1.8v3.4h-1V8.7h0.8l0.2,0.9h0
+				c0.2-0.3,0.4-0.6,0.8-0.7s0.7-0.3,1.1-0.3c1,0,1.7,0.4,2,1.1h0c0.2-0.3,0.5-0.6,0.8-0.8s0.8-0.3,1.2-0.3c0.7,0,1.3,0.2,1.6,0.6
+				s0.5,1,0.5,1.8v4.2H151.7z"/>
+		</g>
+		<g id="icon_left_20" transform="translate(72)">
+			<g id="Icon-2" transform="translate(0 0.337)">
+				<rect y="0" class="Graphic_x0020_Style_x0020_4" width="20" height="20"/>
+				<rect x="0.5" y="0.5" class="st11" width="19" height="19"/>
+			</g>
+			<g class="st6">
+				<path class="st10" d="M9.6,13.6H5.3v-0.8l1.7-1.7c0.5-0.5,0.8-0.9,1-1.1C8,9.9,8.2,9.7,8.2,9.5s0.1-0.4,0.1-0.6
+					c0-0.3-0.1-0.5-0.3-0.7C7.9,8.1,7.7,8,7.4,8C7.1,8,6.9,8,6.6,8.1C6.4,8.2,6.2,8.4,5.9,8.6L5.3,7.9c0.4-0.3,0.7-0.5,1-0.6
+					S7,7.1,7.4,7.1c0.6,0,1.1,0.2,1.4,0.5c0.4,0.3,0.5,0.7,0.5,1.3c0,0.3-0.1,0.6-0.2,0.8C9.1,9.9,9,10.2,8.8,10.5
+					c-0.2,0.3-0.6,0.7-1.1,1.1l-1.1,1.1v0h3V13.6z"/>
+				<path class="st10" d="M14.8,10.4c0,1.1-0.2,1.9-0.5,2.5c-0.4,0.5-0.9,0.8-1.6,0.8c-0.7,0-1.3-0.3-1.6-0.8
+					c-0.4-0.6-0.6-1.4-0.6-2.5c0-1.1,0.2-2,0.5-2.5c0.4-0.5,0.9-0.8,1.6-0.8c0.7,0,1.3,0.3,1.6,0.8S14.8,9.3,14.8,10.4z M11.4,10.4
+					c0,0.9,0.1,1.5,0.3,1.9c0.2,0.4,0.5,0.6,0.9,0.6s0.7-0.2,0.9-0.6c0.2-0.4,0.3-1,0.3-1.9c0-0.9-0.1-1.5-0.3-1.9
+					C13.3,8.2,13,8,12.6,8s-0.7,0.2-0.9,0.6C11.5,8.9,11.4,9.5,11.4,10.4z"/>
+			</g>
+		</g>
+		<g id="icon_left_20-2" transform="translate(44)">
+			<g id="Icon-3" transform="translate(0 0.337)">
+				<rect y="0" class="Graphic_x0020_Style_x0020_4" width="20" height="20"/>
+				<rect x="0.5" y="0.5" class="st11" width="19" height="19"/>
+			</g>
+			<g class="st6">
+				<path class="st10" d="M9.6,13.6H5.3v-0.8l1.7-1.7c0.5-0.5,0.8-0.9,1-1.1C8,9.9,8.2,9.7,8.2,9.5s0.1-0.4,0.1-0.6
+					c0-0.3-0.1-0.5-0.3-0.7C7.9,8.1,7.7,8,7.4,8C7.1,8,6.9,8,6.6,8.1C6.4,8.2,6.2,8.4,5.9,8.6L5.3,7.9c0.4-0.3,0.7-0.5,1-0.6
+					S7,7.1,7.4,7.1c0.6,0,1.1,0.2,1.4,0.5c0.4,0.3,0.5,0.7,0.5,1.3c0,0.3-0.1,0.6-0.2,0.8C9.1,9.9,9,10.2,8.8,10.5
+					c-0.2,0.3-0.6,0.7-1.1,1.1l-1.1,1.1v0h3V13.6z"/>
+				<path class="st10" d="M14.8,10.4c0,1.1-0.2,1.9-0.5,2.5c-0.4,0.5-0.9,0.8-1.6,0.8c-0.7,0-1.3-0.3-1.6-0.8
+					c-0.4-0.6-0.6-1.4-0.6-2.5c0-1.1,0.2-2,0.5-2.5c0.4-0.5,0.9-0.8,1.6-0.8c0.7,0,1.3,0.3,1.6,0.8S14.8,9.3,14.8,10.4z M11.4,10.4
+					c0,0.9,0.1,1.5,0.3,1.9c0.2,0.4,0.5,0.6,0.9,0.6s0.7-0.2,0.9-0.6c0.2-0.4,0.3-1,0.3-1.9c0-0.9-0.1-1.5-0.3-1.9
+					C13.3,8.2,13,8,12.6,8s-0.7,0.2-0.9,0.6C11.5,8.9,11.4,9.5,11.4,10.4z"/>
+			</g>
+		</g>
+		<g id="icon_left_20-3" transform="translate(16)">
+			<g id="Icon-4" transform="translate(0 0.337)">
+				<rect y="0" class="Graphic_x0020_Style_x0020_4" width="20" height="20"/>
+				<rect x="0.5" y="0.5" class="st11" width="19" height="19"/>
+			</g>
+			<g class="st6">
+				<path class="st10" d="M9.6,13.6H5.3v-0.8l1.7-1.7c0.5-0.5,0.8-0.9,1-1.1C8,9.9,8.2,9.7,8.2,9.5s0.1-0.4,0.1-0.6
+					c0-0.3-0.1-0.5-0.3-0.7C7.9,8.1,7.7,8,7.4,8C7.1,8,6.9,8,6.6,8.1C6.4,8.2,6.2,8.4,5.9,8.6L5.3,7.9c0.4-0.3,0.7-0.5,1-0.6
+					S7,7.1,7.4,7.1c0.6,0,1.1,0.2,1.4,0.5c0.4,0.3,0.5,0.7,0.5,1.3c0,0.3-0.1,0.6-0.2,0.8C9.1,9.9,9,10.2,8.8,10.5
+					c-0.2,0.3-0.6,0.7-1.1,1.1l-1.1,1.1v0h3V13.6z"/>
+				<path class="st10" d="M14.8,10.4c0,1.1-0.2,1.9-0.5,2.5c-0.4,0.5-0.9,0.8-1.6,0.8c-0.7,0-1.3-0.3-1.6-0.8
+					c-0.4-0.6-0.6-1.4-0.6-2.5c0-1.1,0.2-2,0.5-2.5c0.4-0.5,0.9-0.8,1.6-0.8c0.7,0,1.3,0.3,1.6,0.8S14.8,9.3,14.8,10.4z M11.4,10.4
+					c0,0.9,0.1,1.5,0.3,1.9c0.2,0.4,0.5,0.6,0.9,0.6s0.7-0.2,0.9-0.6c0.2-0.4,0.3-1,0.3-1.9c0-0.9-0.1-1.5-0.3-1.9
+					C13.3,8.2,13,8,12.6,8s-0.7,0.2-0.9,0.6C11.5,8.9,11.4,9.5,11.4,10.4z"/>
+			</g>
+		</g>
+	</g>
+	<g id="_16px-5" transform="translate(59 0)">
+		<rect id="Rectangle_3282-5" y="0.3" class="Graphic_x0020_Style_x0020_3" width="8" height="32"/>
+		<g class="st6">
+			<path class="st2" d="M4,13.3c0.6,0,1.1,0.1,1.4,0.4C5.8,14,6,14.4,6,14.9c0,0.7-0.4,1.2-1.2,1.6c0.5,0.3,0.9,0.5,1.1,0.8
+				c0.2,0.3,0.3,0.6,0.3,0.9c0,0.5-0.2,1-0.6,1.3S4.7,19.9,4,19.9c-0.7,0-1.2-0.1-1.6-0.4s-0.6-0.7-0.6-1.3c0-0.4,0.1-0.7,0.3-1
+				c0.2-0.3,0.5-0.5,1-0.8c-0.4-0.2-0.7-0.5-0.8-0.7S2,15.2,2,14.8c0-0.5,0.2-0.8,0.5-1.1C2.9,13.4,3.4,13.3,4,13.3z M2.8,18.2
+				c0,0.3,0.1,0.5,0.3,0.7C3.3,19,3.6,19.1,4,19.1c0.4,0,0.7-0.1,0.9-0.3c0.2-0.2,0.3-0.4,0.3-0.7c0-0.2-0.1-0.5-0.3-0.7
+				S4.4,17.1,4,16.9l-0.1-0.1c-0.4,0.2-0.7,0.4-0.8,0.6C2.9,17.7,2.8,17.9,2.8,18.2z M4,14.1c-0.3,0-0.5,0.1-0.7,0.2
+				C3.1,14.5,3,14.7,3,14.9c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.3,0.3C3.5,15.7,3.7,15.9,4,16c0.4-0.2,0.6-0.3,0.7-0.5
+				C4.9,15.3,5,15.1,5,14.9c0-0.2-0.1-0.4-0.3-0.6C4.5,14.2,4.3,14.1,4,14.1z"/>
+		</g>
+	</g>
+	<g id="_16px-6" transform="translate(87 0)">
+		<rect id="Rectangle_3282-6" y="0.3" class="Graphic_x0020_Style_x0020_3" width="8" height="32"/>
+		<g class="st6">
+			<path class="st2" d="M4,13.3c0.6,0,1.1,0.1,1.4,0.4C5.8,14,6,14.4,6,14.9c0,0.7-0.4,1.2-1.2,1.6c0.5,0.3,0.9,0.5,1.1,0.8
+				c0.2,0.3,0.3,0.6,0.3,0.9c0,0.5-0.2,1-0.6,1.3S4.7,19.9,4,19.9c-0.7,0-1.2-0.1-1.6-0.4s-0.6-0.7-0.6-1.3c0-0.4,0.1-0.7,0.3-1
+				c0.2-0.3,0.5-0.5,1-0.8c-0.4-0.2-0.7-0.5-0.8-0.7S2,15.2,2,14.8c0-0.5,0.2-0.8,0.5-1.1C2.9,13.4,3.4,13.3,4,13.3z M2.8,18.2
+				c0,0.3,0.1,0.5,0.3,0.7C3.3,19,3.6,19.1,4,19.1c0.4,0,0.7-0.1,0.9-0.3c0.2-0.2,0.3-0.4,0.3-0.7c0-0.2-0.1-0.5-0.3-0.7
+				S4.4,17.1,4,16.9l-0.1-0.1c-0.4,0.2-0.7,0.4-0.8,0.6C2.9,17.7,2.8,17.9,2.8,18.2z M4,14.1c-0.3,0-0.5,0.1-0.7,0.2
+				C3.1,14.5,3,14.7,3,14.9c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.3,0.3C3.5,15.7,3.7,15.9,4,16c0.4-0.2,0.6-0.3,0.7-0.5
+				C4.9,15.3,5,15.1,5,14.9c0-0.2-0.1-0.4-0.3-0.6C4.5,14.2,4.3,14.1,4,14.1z"/>
+		</g>
+	</g>
+	<g id="_16px-7" transform="translate(115 0)">
+		<rect id="Rectangle_3282-7" y="0.3" class="Graphic_x0020_Style_x0020_3" width="8" height="32"/>
+		<g class="st6">
+			<path class="st2" d="M4,13.3c0.6,0,1.1,0.1,1.4,0.4C5.8,14,6,14.4,6,14.9c0,0.7-0.4,1.2-1.2,1.6c0.5,0.3,0.9,0.5,1.1,0.8
+				c0.2,0.3,0.3,0.6,0.3,0.9c0,0.5-0.2,1-0.6,1.3S4.7,19.9,4,19.9c-0.7,0-1.2-0.1-1.6-0.4s-0.6-0.7-0.6-1.3c0-0.4,0.1-0.7,0.3-1
+				c0.2-0.3,0.5-0.5,1-0.8c-0.4-0.2-0.7-0.5-0.8-0.7S2,15.2,2,14.8c0-0.5,0.2-0.8,0.5-1.1C2.9,13.4,3.4,13.3,4,13.3z M2.8,18.2
+				c0,0.3,0.1,0.5,0.3,0.7C3.3,19,3.6,19.1,4,19.1c0.4,0,0.7-0.1,0.9-0.3c0.2-0.2,0.3-0.4,0.3-0.7c0-0.2-0.1-0.5-0.3-0.7
+				S4.4,17.1,4,16.9l-0.1-0.1c-0.4,0.2-0.7,0.4-0.8,0.6C2.9,17.7,2.8,17.9,2.8,18.2z M4,14.1c-0.3,0-0.5,0.1-0.7,0.2
+				C3.1,14.5,3,14.7,3,14.9c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.3,0.3C3.5,15.7,3.7,15.9,4,16c0.4-0.2,0.6-0.3,0.7-0.5
+				C4.9,15.3,5,15.1,5,14.9c0-0.2-0.1-0.4-0.3-0.6C4.5,14.2,4.3,14.1,4,14.1z"/>
+		</g>
+	</g>
+	<g id="_16px-8" transform="translate(335 0)">
+		<rect id="Rectangle_3282-8" y="0.3" class="Graphic_x0020_Style_x0020_3" width="8" height="32"/>
+		<g class="st6">
+			<path class="st2" d="M4,13.3c0.6,0,1.1,0.1,1.4,0.4C5.8,14,6,14.4,6,14.9c0,0.7-0.4,1.2-1.2,1.6c0.5,0.3,0.9,0.5,1.1,0.8
+				c0.2,0.3,0.3,0.6,0.3,0.9c0,0.5-0.2,1-0.6,1.3S4.7,19.9,4,19.9c-0.7,0-1.2-0.1-1.6-0.4s-0.6-0.7-0.6-1.3c0-0.4,0.1-0.7,0.3-1
+				c0.2-0.3,0.5-0.5,1-0.8c-0.4-0.2-0.7-0.5-0.8-0.7S2,15.2,2,14.8c0-0.5,0.2-0.8,0.5-1.1C2.9,13.4,3.4,13.3,4,13.3z M2.8,18.2
+				c0,0.3,0.1,0.5,0.3,0.7C3.3,19,3.6,19.1,4,19.1c0.4,0,0.7-0.1,0.9-0.3c0.2-0.2,0.3-0.4,0.3-0.7c0-0.2-0.1-0.5-0.3-0.7
+				S4.4,17.1,4,16.9l-0.1-0.1c-0.4,0.2-0.7,0.4-0.8,0.6C2.9,17.7,2.8,17.9,2.8,18.2z M4,14.1c-0.3,0-0.5,0.1-0.7,0.2
+				C3.1,14.5,3,14.7,3,14.9c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.3,0.3C3.5,15.7,3.7,15.9,4,16c0.4-0.2,0.6-0.3,0.7-0.5
+				C4.9,15.3,5,15.1,5,14.9c0-0.2-0.1-0.4-0.3-0.6C4.5,14.2,4.3,14.1,4,14.1z"/>
+		</g>
+	</g>
+	<g id="icon_left_20-4" transform="translate(315 6)">
+		<g id="Icon-5" transform="translate(0 0.337)">
+			<rect y="0" class="Graphic_x0020_Style_x0020_4" width="20" height="20"/>
+			<rect x="0.5" y="0.5" class="st11" width="19" height="19"/>
+		</g>
+		<g class="st6">
+			<path class="st10" d="M9.6,13.6H5.3v-0.8l1.7-1.7c0.5-0.5,0.8-0.9,1-1.1C8,9.9,8.2,9.7,8.2,9.5s0.1-0.4,0.1-0.6
+				c0-0.3-0.1-0.5-0.3-0.7C7.9,8.1,7.7,8,7.4,8C7.1,8,6.9,8,6.6,8.1C6.4,8.2,6.2,8.4,5.9,8.6L5.3,7.9c0.4-0.3,0.7-0.5,1-0.6
+				S7,7.1,7.4,7.1c0.6,0,1.1,0.2,1.4,0.5c0.4,0.3,0.5,0.7,0.5,1.3c0,0.3-0.1,0.6-0.2,0.8C9.1,9.9,9,10.2,8.8,10.5
+				c-0.2,0.3-0.6,0.7-1.1,1.1l-1.1,1.1v0h3V13.6z"/>
+			<path class="st10" d="M14.8,10.4c0,1.1-0.2,1.9-0.5,2.5c-0.4,0.5-0.9,0.8-1.6,0.8c-0.7,0-1.3-0.3-1.6-0.8
+				c-0.4-0.6-0.6-1.4-0.6-2.5c0-1.1,0.2-2,0.5-2.5c0.4-0.5,0.9-0.8,1.6-0.8c0.7,0,1.3,0.3,1.6,0.8S14.8,9.3,14.8,10.4z M11.4,10.4
+				c0,0.9,0.1,1.5,0.3,1.9c0.2,0.4,0.5,0.6,0.9,0.6s0.7-0.2,0.9-0.6c0.2-0.4,0.3-1,0.3-1.9c0-0.9-0.1-1.5-0.3-1.9
+				C13.3,8.2,13,8,12.6,8s-0.7,0.2-0.9,0.6C11.5,8.9,11.4,9.5,11.4,10.4z"/>
+		</g>
+	</g>
+	<g id="_32_px-2">
+		<g id="Group_6260-2" transform="translate(12.143)">
+			<path id="Path_4788-2" class="st9" d="M4.1,0v32"/>
+			<path id="Path_4789-2" class="st9" d="M0,0h8.1"/>
+			<path id="Path_4790-2" class="st9" d="M0,32h8.1"/>
+		</g>
+		<g class="st6">
+			<path class="st10" d="M5.3,14.8c0,0.5-0.1,0.8-0.4,1.1c-0.3,0.3-0.6,0.5-1.1,0.6v0c0.6,0.1,1,0.2,1.3,0.5
+				c0.3,0.3,0.4,0.7,0.4,1.1c0,0.7-0.2,1.2-0.7,1.6c-0.5,0.4-1.2,0.6-2.1,0.6c-0.8,0-1.5-0.1-2-0.4v-1c0.3,0.1,0.6,0.3,1,0.3
+				s0.7,0.1,1,0.1c0.6,0,1-0.1,1.2-0.3s0.4-0.5,0.4-1c0-0.4-0.2-0.7-0.5-0.8s-0.8-0.3-1.4-0.3H1.8v-0.9h0.6c1.1,0,1.7-0.4,1.7-1.2
+				c0-0.3-0.1-0.5-0.3-0.7S3.3,14.1,3,14.1c-0.3,0-0.5,0-0.8,0.1c-0.2,0.1-0.5,0.2-0.9,0.4l-0.6-0.8c0.7-0.5,1.4-0.7,2.3-0.7
+				c0.7,0,1.3,0.2,1.7,0.5S5.3,14.3,5.3,14.8z"/>
+			<path class="st10" d="M11.3,20.3H6.4v-0.9l1.8-1.9c0.5-0.6,0.9-1,1.1-1.2c0.2-0.2,0.3-0.5,0.4-0.7s0.1-0.4,0.1-0.7
+				c0-0.3-0.1-0.6-0.3-0.8c-0.2-0.2-0.5-0.3-0.8-0.3c-0.3,0-0.5,0.1-0.8,0.2c-0.3,0.1-0.6,0.3-0.9,0.5L6.5,14
+				c0.4-0.3,0.8-0.6,1.2-0.7s0.8-0.2,1.2-0.2c0.7,0,1.2,0.2,1.6,0.5C10.8,14,11,14.4,11,15c0,0.3-0.1,0.6-0.2,0.9
+				c-0.1,0.3-0.3,0.6-0.5,0.9c-0.2,0.3-0.6,0.7-1.2,1.2l-1.2,1.2v0h3.4V20.3z"/>
+		</g>
+	</g>
+</g>
+<g id="Group_156725" transform="translate(20.214 151)">
+	<g id="Group_156721" transform="translate(26.286)">
+		<g id="tree-item-icons-level_1" transform="translate(0 -0.455)">
+			<rect id="Rectangle_3345-3" y="0" class="st2" width="320" height="48"/>
+			<line id="top_border-2" class="st3" x1="0" y1="0.5" x2="320" y2="0.5"/>
+			<line id="bottom_border" class="st3" x1="0" y1="47.5" x2="320" y2="47.5"/>
+			<g id="Arrow_down-2" transform="translate(16 36) rotate(-90)">
+				<path id="Path_3872-2" class="st4" d="M0,0h24v24H0V0z"/>
+				<path id="Path_3871-2" class="st8" d="M11.8,15.5c-0.2,0-0.4-0.1-0.6-0.2L6,10.1L7.1,9l4.7,4.7L16.4,9l1.1,1.1l-5.2,5.2
+					C12.2,15.5,12,15.5,11.8,15.5z"/>
+			</g>
+			<g id="check-4" transform="translate(280 11.6)">
+				<rect id="icon-box-2" y="0" class="st4" width="24" height="24"/>
+				<path id="check-5" class="st5" d="M9.8,14.6L7,11.8l-1,1l3.8,3.8L18,8.4l-1-1L9.8,14.6z"/>
+			</g>
+			<g id="drag_indicator_black_24dp-2" transform="translate(0 16)">
+				<path id="Path_6260-2" class="st4" d="M0,0h16v16H0V0z"/>
+				<path id="Path_6261-2" class="st5" d="M7.3,12.1c0,0.7-0.6,1.3-1.3,1.3s-1.3-0.6-1.3-1.3s0.6-1.3,1.3-1.3
+					C6.7,10.7,7.3,11.3,7.3,12.1z M6,6.7c-0.7,0-1.3,0.6-1.3,1.3S5.2,9.4,6,9.4s1.3-0.6,1.3-1.3C7.3,7.3,6.7,6.7,6,6.7z M6,2.7
+					C5.2,2.7,4.6,3.3,4.6,4S5.2,5.4,6,5.4S7.3,4.8,7.3,4C7.3,3.3,6.7,2.7,6,2.7z M10,5.4c0.7,0,1.3-0.6,1.3-1.3S10.8,2.7,10,2.7
+					C9.3,2.7,8.7,3.3,8.7,4C8.7,4.8,9.3,5.4,10,5.4z M10,6.7c-0.7,0-1.3,0.6-1.3,1.3S9.3,9.4,10,9.4c0.7,0,1.3-0.6,1.3-1.3
+					C11.4,7.3,10.8,6.7,10,6.7z M10,10.7c-0.7,0-1.3,0.6-1.3,1.3s0.6,1.3,1.3,1.3c0.7,0,1.3-0.6,1.3-1.3
+					C11.4,11.3,10.8,10.7,10,10.7L10,10.7z"/>
+			</g>
+			<g id="Group_156708" transform="translate(0 12)">
+				<g class="st6">
+					<path class="st5" d="M117.1,18.2h-1.3V7.9h-3.6V6.8h8.6v1.2h-3.6V18.2z"/>
+					<path class="st5" d="M126.1,9.5c0.4,0,0.7,0,1,0.1l-0.2,1.2c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+						v4.6h-1.3V9.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C125.1,9.6,125.6,9.5,126.1,9.5z"/>
+					<path class="st5" d="M132.4,18.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+						c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+						c-0.5,0.2-0.9,0.3-1.3,0.4C133.4,18.3,133,18.3,132.4,18.3z M132,10.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+						c0-0.8-0.2-1.4-0.5-1.9C133.2,10.8,132.7,10.6,132,10.6z"/>
+					<path class="st5" d="M141.4,18.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+						c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+						c-0.5,0.2-0.9,0.3-1.3,0.4C142.4,18.3,141.9,18.3,141.4,18.3z M141,10.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+						c0-0.8-0.2-1.4-0.5-1.9C142.2,10.8,141.7,10.6,141,10.6z"/>
+					<path class="st5" d="M151.1,18.2V6.8h1.3v11.4H151.1z"/>
+					<path class="st5" d="M158.1,17.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+						c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V10l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+						C157.3,17.1,157.7,17.3,158.1,17.3z"/>
+					<path class="st5" d="M164.6,18.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+						c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+						c-0.5,0.2-0.9,0.3-1.3,0.4C165.7,18.3,165.2,18.3,164.6,18.3z M164.2,10.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9
+						h4.5c0-0.8-0.2-1.4-0.5-1.9C165.4,10.8,164.9,10.6,164.2,10.6z"/>
+					<path class="st5" d="M180.9,18.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+						c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+						c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H170V9.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+						c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H180.9z"/>
+				</g>
+				<g id="folder_icon-2" transform="translate(80)">
+					<path id="Path_2521-2" class="st4" d="M0,0h24v24H0V0z"/>
+					<path id="Path_2522-2" class="st5" d="M10.4,6H5.6C4.7,6,4,6.6,4,7.5l0,9C4,17.4,4.7,18,5.6,18h12.8c0.9,0,1.6-0.6,1.6-1.5V9
+						c0-0.9-0.7-1.5-1.6-1.5H12L10.4,6z"/>
+				</g>
+				<g id="Checkbox-2" transform="translate(48)">
+					<rect id="box-2" y="0" class="st4" width="24" height="24"/>
+					<path id="BG-2" class="st7" d="M6,4h12c1.1,0,2,0.9,2,2v12c0,1.1-0.9,2-2,2H6c-1.1,0-2-0.9-2-2V6C4,4.9,4.9,4,6,4z"/>
+					<path id="Check-6" class="st2" d="M10.4,16l-4-4l1.1-1.1l2.9,2.9l6.1-6.1l1.1,1.1L10.4,16z"/>
+				</g>
+			</g>
+		</g>
+		<g id="_16px-9" transform="translate(40)">
+			<rect id="Rectangle_3282-9" y="-0.5" class="Graphic_x0020_Style_x0020_3" width="8" height="48"/>
+			<g class="st6">
+				<path class="st2" d="M4,21.6c0.6,0,1.1,0.1,1.4,0.4C5.8,22.3,6,22.7,6,23.1c0,0.7-0.4,1.2-1.2,1.6c0.5,0.3,0.9,0.5,1.1,0.8
+					c0.2,0.3,0.3,0.6,0.3,0.9c0,0.5-0.2,1-0.6,1.3S4.7,28.2,4,28.2c-0.7,0-1.2-0.1-1.6-0.4S1.8,27,1.8,26.5c0-0.4,0.1-0.7,0.3-1
+					c0.2-0.3,0.5-0.5,1-0.8c-0.4-0.2-0.7-0.5-0.8-0.7S2,23.4,2,23.1c0-0.5,0.2-0.8,0.5-1.1C2.9,21.7,3.4,21.6,4,21.6z M2.8,26.4
+					c0,0.3,0.1,0.5,0.3,0.7c0.2,0.2,0.5,0.3,0.9,0.3c0.4,0,0.7-0.1,0.9-0.3c0.2-0.2,0.3-0.4,0.3-0.7c0-0.2-0.1-0.5-0.3-0.7
+					S4.4,25.4,4,25.2l-0.1-0.1c-0.4,0.2-0.7,0.4-0.8,0.6C2.9,25.9,2.8,26.2,2.8,26.4z M4,22.4c-0.3,0-0.5,0.1-0.7,0.2
+					C3.1,22.7,3,22.9,3,23.2c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.3,0.3C3.5,24,3.7,24.1,4,24.3c0.4-0.2,0.6-0.3,0.7-0.5
+					C4.9,23.6,5,23.4,5,23.2c0-0.2-0.1-0.4-0.3-0.6C4.5,22.4,4.3,22.4,4,22.4z"/>
+			</g>
+		</g>
+		<g id="_16px-10" transform="translate(72)">
+			<rect id="Rectangle_3282-10" y="-0.5" class="Graphic_x0020_Style_x0020_3" width="8" height="48"/>
+			<g class="st6">
+				<path class="st2" d="M4,21.6c0.6,0,1.1,0.1,1.4,0.4C5.8,22.3,6,22.7,6,23.2c0,0.7-0.4,1.2-1.2,1.6c0.5,0.3,0.9,0.5,1.1,0.8
+					c0.2,0.3,0.3,0.6,0.3,0.9c0,0.5-0.2,1-0.6,1.3c-0.4,0.3-0.9,0.5-1.6,0.5c-0.7,0-1.2-0.2-1.6-0.4s-0.6-0.7-0.6-1.3
+					c0-0.4,0.1-0.7,0.3-1s0.5-0.5,1-0.8c-0.4-0.2-0.7-0.5-0.8-0.7C2.1,23.8,2,23.5,2,23.2c0-0.5,0.2-0.8,0.5-1.1S3.4,21.6,4,21.6z
+					 M2.8,26.5c0,0.3,0.1,0.5,0.3,0.7c0.2,0.2,0.5,0.3,0.9,0.3c0.4,0,0.7-0.1,0.9-0.3s0.3-0.4,0.3-0.7c0-0.2-0.1-0.5-0.3-0.7
+					c-0.2-0.2-0.5-0.4-0.9-0.5l-0.1-0.1c-0.4,0.2-0.7,0.4-0.8,0.6S2.8,26.2,2.8,26.5z M4,22.4c-0.3,0-0.5,0.1-0.7,0.2S3,23,3,23.2
+					c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.2,0.6,0.4c0.4-0.2,0.6-0.3,0.7-0.5C4.9,23.7,5,23.5,5,23.2
+					c0-0.2-0.1-0.4-0.3-0.6C4.5,22.5,4.3,22.4,4,22.4z"/>
+			</g>
+		</g>
+		<g id="_16px-11" transform="translate(104)">
+			<rect id="Rectangle_3282-11" y="-0.5" class="Graphic_x0020_Style_x0020_3" width="8" height="48"/>
+			<g class="st6">
+				<path class="st2" d="M4,21.6c0.6,0,1.1,0.1,1.4,0.4C5.8,22.3,6,22.7,6,23.2c0,0.7-0.4,1.2-1.2,1.6c0.5,0.3,0.9,0.5,1.1,0.8
+					c0.2,0.3,0.3,0.6,0.3,0.9c0,0.5-0.2,1-0.6,1.3c-0.4,0.3-0.9,0.5-1.6,0.5c-0.7,0-1.2-0.2-1.6-0.4s-0.6-0.7-0.6-1.3
+					c0-0.4,0.1-0.7,0.3-1s0.5-0.5,1-0.8c-0.4-0.2-0.7-0.5-0.8-0.7C2.1,23.8,2,23.5,2,23.2c0-0.5,0.2-0.8,0.5-1.1S3.4,21.6,4,21.6z
+					 M2.8,26.5c0,0.3,0.1,0.5,0.3,0.7c0.2,0.2,0.5,0.3,0.9,0.3c0.4,0,0.7-0.1,0.9-0.3s0.3-0.4,0.3-0.7c0-0.2-0.1-0.5-0.3-0.7
+					c-0.2-0.2-0.5-0.4-0.9-0.5l-0.1-0.1c-0.4,0.2-0.7,0.4-0.8,0.6S2.8,26.2,2.8,26.5z M4,22.4c-0.3,0-0.5,0.1-0.7,0.2S3,23,3,23.2
+					c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.2,0.6,0.4c0.4-0.2,0.6-0.3,0.7-0.5C4.9,23.7,5,23.5,5,23.2
+					c0-0.2-0.1-0.4-0.3-0.6C4.5,22.5,4.3,22.4,4,22.4z"/>
+			</g>
+		</g>
+		<g id="_16px-12" transform="translate(304)">
+			<rect id="Rectangle_3282-12" y="-0.5" class="Graphic_x0020_Style_x0020_3" width="16" height="48"/>
+			<g class="st6">
+				<path class="st2" d="M6.3,28.1h-1V24c0-0.5,0-0.9,0-1.2C5.2,22.9,5.1,23,5,23.1c-0.1,0.1-0.4,0.4-1,0.8l-0.5-0.7l1.9-1.5h0.9
+					V28.1z"/>
+				<path class="st2" d="M8.4,25.4c0-2.5,1-3.8,3.1-3.8c0.3,0,0.6,0,0.8,0.1v0.9c-0.2-0.1-0.5-0.1-0.8-0.1c-0.7,0-1.2,0.2-1.6,0.6
+					s-0.5,1-0.6,1.8h0.1c0.1-0.2,0.3-0.4,0.6-0.6c0.2-0.1,0.5-0.2,0.9-0.2c0.6,0,1,0.2,1.4,0.5s0.5,0.8,0.5,1.5
+					c0,0.7-0.2,1.2-0.6,1.6c-0.4,0.4-0.9,0.6-1.5,0.6c-0.5,0-0.9-0.1-1.2-0.3s-0.6-0.5-0.8-1S8.4,26,8.4,25.4z M10.7,27.4
+					c0.4,0,0.6-0.1,0.8-0.3s0.3-0.6,0.3-1c0-0.4-0.1-0.7-0.3-0.9c-0.2-0.2-0.5-0.3-0.8-0.3c-0.2,0-0.4,0-0.6,0.1
+					c-0.2,0.1-0.3,0.2-0.4,0.4s-0.2,0.3-0.2,0.5c0,0.4,0.1,0.8,0.3,1C10,27.2,10.3,27.4,10.7,27.4z"/>
+			</g>
+		</g>
+	</g>
+	<g id="_40px" transform="translate(0 1)">
+		<g id="Group_6260-3" transform="translate(12.143)">
+			<path id="Path_4788-3" class="st9" d="M4.1,0v48"/>
+			<path id="Path_4789-3" class="st9" d="M0,0h8.1"/>
+			<path id="Path_4790-3" class="st9" d="M0,48h8.1"/>
+		</g>
+		<g class="st6">
+			<path class="st10" d="M5.8,26.4h-1V28H3.7v-1.6H0.5v-0.9l3.3-4.7h1.1v4.6h1V26.4z M3.7,25.5v-1.8c0-0.6,0-1.2,0-1.6h0
+				c-0.1,0.2-0.2,0.5-0.4,0.8l-1.8,2.6H3.7z"/>
+			<path class="st10" d="M8.9,20.8c0.7,0,1.2,0.2,1.6,0.5c0.4,0.3,0.6,0.7,0.6,1.2c0,0.7-0.4,1.3-1.3,1.7c0.6,0.3,1,0.6,1.2,0.9
+				s0.4,0.7,0.4,1c0,0.6-0.2,1.1-0.6,1.4s-1,0.5-1.8,0.5c-0.8,0-1.4-0.2-1.8-0.5s-0.6-0.8-0.6-1.4c0-0.4,0.1-0.8,0.3-1.1
+				c0.2-0.3,0.6-0.6,1.1-0.8c-0.4-0.3-0.7-0.5-0.9-0.8s-0.3-0.6-0.3-1c0-0.5,0.2-0.9,0.6-1.2C7.7,20.9,8.2,20.8,8.9,20.8z M7.5,26.1
+				c0,0.3,0.1,0.6,0.4,0.8c0.2,0.2,0.6,0.3,1,0.3c0.4,0,0.7-0.1,1-0.3c0.2-0.2,0.3-0.5,0.3-0.8c0-0.3-0.1-0.5-0.3-0.7
+				s-0.5-0.4-1-0.6l-0.1-0.1c-0.4,0.2-0.7,0.4-0.9,0.6C7.6,25.6,7.5,25.9,7.5,26.1z M8.8,21.7c-0.3,0-0.6,0.1-0.8,0.2
+				c-0.2,0.2-0.3,0.4-0.3,0.7c0,0.2,0,0.3,0.1,0.5s0.2,0.3,0.3,0.4c0.1,0.1,0.4,0.2,0.7,0.4c0.4-0.2,0.7-0.4,0.8-0.5
+				c0.2-0.2,0.2-0.4,0.2-0.7c0-0.3-0.1-0.5-0.3-0.7C9.4,21.7,9.2,21.7,8.8,21.7z"/>
+		</g>
+	</g>
+</g>
+<g id="Group_156722" transform="translate(20.214 70.131)">
+	<rect id="Rectangle_3345-4" x="27.3" y="0.4" class="st2" width="320" height="48"/>
+	<g id="icon_right" transform="translate(308.286 12)">
+		<g id="Icon-6" transform="translate(0 0.414)">
+			<rect x="0" y="0" class="Graphic_x0020_Style_x0020_4" width="24" height="24"/>
+			<rect x="0.5" y="0.5" class="st11" width="23" height="23"/>
+		</g>
+		<g class="st6">
+			<path class="st10" d="M11.6,15.7H7.3v-0.8l1.7-1.7c0.5-0.5,0.8-0.9,1-1.1c0.2-0.2,0.3-0.4,0.3-0.6s0.1-0.4,0.1-0.6
+				c0-0.3-0.1-0.5-0.3-0.7c-0.2-0.2-0.4-0.3-0.7-0.3c-0.2,0-0.5,0-0.7,0.1c-0.2,0.1-0.5,0.3-0.8,0.5L7.3,10c0.4-0.3,0.7-0.5,1-0.6
+				C8.7,9.3,9,9.2,9.4,9.2c0.6,0,1.1,0.2,1.4,0.5c0.4,0.3,0.5,0.7,0.5,1.3c0,0.3-0.1,0.6-0.2,0.8s-0.3,0.5-0.5,0.8
+				c-0.2,0.3-0.6,0.7-1.1,1.1l-1.1,1.1v0h3V15.7z"/>
+			<path class="st10" d="M17,14.3h-0.9v1.4h-1v-1.4h-2.9v-0.8l2.9-4.2h1v4.2H17V14.3z M15.1,13.5v-1.6c0-0.6,0-1,0-1.4h0
+				c-0.1,0.2-0.2,0.4-0.4,0.7l-1.6,2.3H15.1z"/>
+		</g>
+	</g>
+	<g id="icon_left-2" transform="translate(27.286 16)">
+		<g id="Icon-7" transform="translate(0 0.414)">
+			<rect y="0" class="Graphic_x0020_Style_x0020_6" width="16" height="16"/>
+			<rect x="0.5" y="0.5" class="Graphic_x0020_Style_x0020_4" width="15" height="15"/>
+		</g>
+		<g class="st6">
+			<path class="st10" d="M6.3,11.6h-1V7.4c0-0.5,0-0.9,0-1.2C5.2,6.3,5.1,6.4,5,6.5c-0.1,0.1-0.4,0.4-1,0.8L3.5,6.6l1.9-1.5h0.9
+				V11.6z"/>
+			<path class="st10" d="M8.4,8.8c0-2.5,1-3.8,3.1-3.8c0.3,0,0.6,0,0.8,0.1V6c-0.2-0.1-0.5-0.1-0.8-0.1c-0.7,0-1.2,0.2-1.6,0.6
+				s-0.5,1-0.6,1.8h0.1C9.6,8,9.8,7.8,10,7.7c0.2-0.1,0.5-0.2,0.9-0.2c0.6,0,1,0.2,1.4,0.5c0.3,0.4,0.5,0.8,0.5,1.5
+				c0,0.7-0.2,1.2-0.6,1.6c-0.4,0.4-0.9,0.6-1.5,0.6c-0.5,0-0.9-0.1-1.2-0.3c-0.3-0.2-0.6-0.5-0.8-1C8.5,9.9,8.4,9.4,8.4,8.8z
+				 M10.7,10.8c0.4,0,0.6-0.1,0.8-0.3s0.3-0.6,0.3-1c0-0.4-0.1-0.7-0.3-0.9c-0.2-0.2-0.5-0.3-0.8-0.3c-0.2,0-0.4,0-0.6,0.1
+				C9.9,8.5,9.7,8.7,9.6,8.8C9.5,9,9.5,9.2,9.5,9.3c0,0.4,0.1,0.8,0.3,1C10,10.7,10.3,10.8,10.7,10.8z"/>
+		</g>
+	</g>
+	<g id="Group_156707" transform="translate(27.286 12)">
+		<g class="st6">
+			<path class="st5" d="M117.1,18.2h-1.3V7.9h-3.6V6.8h8.6v1.2h-3.6V18.2z"/>
+			<path class="st5" d="M126.1,9.5c0.4,0,0.7,0,1,0.1l-0.2,1.2c-0.4-0.1-0.7-0.1-0.9-0.1c-0.7,0-1.3,0.3-1.8,0.8s-0.7,1.3-0.7,2.1
+				v4.6h-1.3V9.6h1.1l0.1,1.6h0.1c0.3-0.6,0.7-1,1.1-1.3C125.1,9.6,125.6,9.5,126.1,9.5z"/>
+			<path class="st5" d="M132.4,18.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+				c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+				c-0.5,0.2-0.9,0.3-1.3,0.4C133.4,18.3,133,18.3,132.4,18.3z M132,10.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+				c0-0.8-0.2-1.4-0.5-1.9C133.2,10.8,132.7,10.6,132,10.6z"/>
+			<path class="st5" d="M141.4,18.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+				c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+				c-0.5,0.2-0.9,0.3-1.3,0.4C142.4,18.3,141.9,18.3,141.4,18.3z M141,10.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+				c0-0.8-0.2-1.4-0.5-1.9C142.2,10.8,141.7,10.6,141,10.6z"/>
+			<path class="st5" d="M151.1,18.2V6.8h1.3v11.4H151.1z"/>
+			<path class="st5" d="M158.1,17.3c0.2,0,0.5,0,0.7-0.1c0.2,0,0.4-0.1,0.5-0.1v1c-0.1,0.1-0.3,0.1-0.6,0.2s-0.5,0.1-0.7,0.1
+				c-1.7,0-2.5-0.9-2.5-2.6v-5.1h-1.2V10l1.2-0.5l0.5-1.8h0.8v2h2.5v1h-2.5v5c0,0.5,0.1,0.9,0.4,1.2
+				C157.3,17.1,157.7,17.3,158.1,17.3z"/>
+			<path class="st5" d="M164.6,18.3c-1.3,0-2.3-0.4-3-1.2c-0.7-0.8-1.1-1.8-1.1-3.2c0-1.4,0.3-2.5,1-3.3s1.6-1.2,2.7-1.2
+				c1.1,0,1.9,0.4,2.5,1.1s0.9,1.6,0.9,2.8v0.8h-5.9c0,1,0.3,1.8,0.8,2.3c0.5,0.5,1.2,0.8,2,0.8c0.9,0,1.8-0.2,2.7-0.6v1.2
+				c-0.5,0.2-0.9,0.3-1.3,0.4C165.7,18.3,165.2,18.3,164.6,18.3z M164.2,10.6c-0.7,0-1.2,0.2-1.6,0.7c-0.4,0.4-0.6,1.1-0.7,1.9h4.5
+				c0-0.8-0.2-1.4-0.5-1.9C165.4,10.8,164.9,10.6,164.2,10.6z"/>
+			<path class="st5" d="M180.9,18.2v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+				c-0.4,0.5-0.6,1.2-0.6,2.1v4.8h-1.3v-5.6c0-0.7-0.1-1.2-0.4-1.5c-0.3-0.3-0.7-0.5-1.4-0.5c-0.8,0-1.4,0.2-1.8,0.7
+				c-0.4,0.5-0.6,1.3-0.6,2.4v4.5H170V9.6h1.1l0.2,1.2h0.1c0.2-0.4,0.6-0.7,1-1s0.9-0.4,1.5-0.4c1.3,0,2.2,0.5,2.6,1.5h0.1
+				c0.3-0.4,0.6-0.8,1.1-1.1s1-0.4,1.7-0.4c1,0,1.7,0.2,2.2,0.7c0.5,0.5,0.7,1.3,0.7,2.4v5.6H180.9z"/>
+		</g>
+		<g id="icon_left-3" transform="translate(-471)">
+			<g id="Icon-8" transform="translate(551 0.414)">
+				<rect y="0" class="Graphic_x0020_Style_x0020_4" width="24" height="24"/>
+				<rect x="0.5" y="0.5" class="st11" width="23" height="23"/>
+			</g>
+			<g class="st6">
+				<path class="st10" d="M562.6,15.7h-4.4v-0.8l1.7-1.7c0.5-0.5,0.8-0.9,1-1.1c0.2-0.2,0.3-0.4,0.3-0.6s0.1-0.4,0.1-0.6
+					c0-0.3-0.1-0.5-0.3-0.7c-0.2-0.2-0.4-0.3-0.7-0.3c-0.2,0-0.5,0-0.7,0.1c-0.2,0.1-0.5,0.3-0.8,0.5l-0.6-0.7
+					c0.4-0.3,0.7-0.5,1-0.6s0.7-0.2,1.1-0.2c0.6,0,1.1,0.2,1.4,0.5c0.4,0.3,0.5,0.7,0.5,1.3c0,0.3-0.1,0.6-0.2,0.8s-0.3,0.5-0.5,0.8
+					c-0.2,0.3-0.6,0.7-1.1,1.1l-1.1,1.1v0h3V15.7z"/>
+				<path class="st10" d="M568,14.3h-0.9v1.4h-1v-1.4h-2.9v-0.8l2.9-4.2h1v4.2h0.9V14.3z M566.1,13.5v-1.6c0-0.6,0-1,0-1.4h0
+					c-0.1,0.2-0.2,0.4-0.4,0.7l-1.6,2.3H566.1z"/>
+			</g>
+		</g>
+		<g id="icon_left-4" transform="translate(-503)">
+			<g id="Icon-9" transform="translate(551 0.414)">
+				<rect y="0" class="Graphic_x0020_Style_x0020_4" width="24" height="24"/>
+				<rect x="0.5" y="0.5" class="st11" width="23" height="23"/>
+			</g>
+			<g class="st6">
+				<path class="st10" d="M562.6,15.7h-4.4v-0.8l1.7-1.7c0.5-0.5,0.8-0.9,1-1.1c0.2-0.2,0.3-0.4,0.3-0.6s0.1-0.4,0.1-0.6
+					c0-0.3-0.1-0.5-0.3-0.7c-0.2-0.2-0.4-0.3-0.7-0.3c-0.2,0-0.5,0-0.7,0.1c-0.2,0.1-0.5,0.3-0.8,0.5l-0.6-0.7
+					c0.4-0.3,0.7-0.5,1-0.6s0.7-0.2,1.1-0.2c0.6,0,1.1,0.2,1.4,0.5c0.4,0.3,0.5,0.7,0.5,1.3c0,0.3-0.1,0.6-0.2,0.8s-0.3,0.5-0.5,0.8
+					c-0.2,0.3-0.6,0.7-1.1,1.1l-1.1,1.1v0h3V15.7z"/>
+				<path class="st10" d="M568,14.3h-0.9v1.4h-1v-1.4h-2.9v-0.8l2.9-4.2h1v4.2h0.9V14.3z M566.1,13.5v-1.6c0-0.6,0-1,0-1.4h0
+					c-0.1,0.2-0.2,0.4-0.4,0.7l-1.6,2.3H566.1z"/>
+			</g>
+		</g>
+		<g id="icon_left-5" transform="translate(-535)">
+			<g id="Icon-10" transform="translate(551 0.414)">
+				<rect y="0" class="Graphic_x0020_Style_x0020_4" width="24" height="24"/>
+				<rect x="0.5" y="0.5" class="Graphic_x0020_Style_x0020_6" width="23" height="23"/>
+			</g>
+			<g class="st6">
+				<path class="st10" d="M562.6,15.7h-4.4v-0.8l1.7-1.7c0.5-0.5,0.8-0.9,1-1.1c0.2-0.2,0.3-0.4,0.3-0.6s0.1-0.4,0.1-0.6
+					c0-0.3-0.1-0.5-0.3-0.7c-0.2-0.2-0.4-0.3-0.7-0.3c-0.2,0-0.5,0-0.7,0.1c-0.2,0.1-0.5,0.3-0.8,0.5l-0.6-0.7
+					c0.4-0.3,0.7-0.5,1-0.6s0.7-0.2,1.1-0.2c0.6,0,1.1,0.2,1.4,0.5c0.4,0.3,0.5,0.7,0.5,1.3c0,0.3-0.1,0.6-0.2,0.8s-0.3,0.5-0.5,0.8
+					c-0.2,0.3-0.6,0.7-1.1,1.1l-1.1,1.1v0h3V15.7z"/>
+				<path class="st10" d="M568,14.3h-0.9v1.4h-1v-1.4h-2.9v-0.8l2.9-4.2h1v4.2h0.9V14.3z M566.1,13.5v-1.6c0-0.6,0-1,0-1.4h0
+					c-0.1,0.2-0.2,0.4-0.4,0.7l-1.6,2.3H566.1z"/>
+			</g>
+		</g>
+	</g>
+	<g id="_16px-13" transform="translate(331.286 0)">
+		<rect id="Rectangle_3282-13" x="0" y="0.4" class="Graphic_x0020_Style_x0020_3" width="16" height="48"/>
+		<g class="st6">
+			<path class="st2" d="M6.3,28.1h-1V24c0-0.5,0-0.9,0-1.2C5.2,22.9,5.1,23,5,23.1c-0.1,0.1-0.4,0.4-1,0.8l-0.5-0.7l1.9-1.5h0.9
+				V28.1z"/>
+			<path class="st2" d="M8.4,25.4c0-2.5,1-3.8,3.1-3.8c0.3,0,0.6,0,0.8,0.1v0.9c-0.2-0.1-0.5-0.1-0.8-0.1c-0.7,0-1.2,0.2-1.6,0.6
+				s-0.5,1-0.6,1.8h0.1c0.1-0.2,0.3-0.4,0.6-0.6c0.2-0.1,0.5-0.2,0.9-0.2c0.6,0,1,0.2,1.4,0.5s0.5,0.8,0.5,1.5
+				c0,0.7-0.2,1.2-0.6,1.6c-0.4,0.4-0.9,0.6-1.5,0.6c-0.5,0-0.9-0.1-1.2-0.3c-0.3-0.2-0.6-0.5-0.8-1C8.5,26.5,8.4,26,8.4,25.4z
+				 M10.7,27.4c0.4,0,0.6-0.1,0.8-0.3s0.3-0.6,0.3-1c0-0.4-0.1-0.7-0.3-0.9c-0.2-0.2-0.5-0.3-0.8-0.3c-0.2,0-0.4,0-0.6,0.1
+				c-0.2,0.1-0.3,0.2-0.4,0.4c-0.1,0.2-0.2,0.3-0.2,0.5c0,0.4,0.1,0.8,0.3,1C10,27.2,10.3,27.4,10.7,27.4z"/>
+		</g>
+	</g>
+	<g id="_16px-14" transform="translate(67.286 0)">
+		<rect id="Rectangle_3282-14" x="0" y="0.4" class="Graphic_x0020_Style_x0020_3" width="8" height="48"/>
+		<g class="st6">
+			<path class="st2" d="M4,21.6c0.6,0,1.1,0.1,1.4,0.4C5.8,22.3,6,22.7,6,23.1c0,0.7-0.4,1.2-1.2,1.6c0.5,0.3,0.9,0.5,1.1,0.8
+				c0.2,0.3,0.3,0.6,0.3,0.9c0,0.5-0.2,1-0.6,1.3S4.7,28.2,4,28.2c-0.7,0-1.2-0.1-1.6-0.4S1.8,27,1.8,26.5c0-0.4,0.1-0.7,0.3-1
+				c0.2-0.3,0.5-0.5,1-0.8c-0.4-0.2-0.7-0.5-0.8-0.7S2,23.4,2,23.1c0-0.5,0.2-0.8,0.5-1.1C2.9,21.7,3.4,21.6,4,21.6z M2.8,26.4
+				c0,0.3,0.1,0.5,0.3,0.7c0.2,0.2,0.5,0.3,0.9,0.3c0.4,0,0.7-0.1,0.9-0.3c0.2-0.2,0.3-0.4,0.3-0.7c0-0.2-0.1-0.5-0.3-0.7
+				S4.4,25.4,4,25.2l-0.1-0.1c-0.4,0.2-0.7,0.4-0.8,0.6C2.9,25.9,2.8,26.2,2.8,26.4z M4,22.4c-0.3,0-0.5,0.1-0.7,0.2
+				C3.1,22.7,3,22.9,3,23.2c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.3,0.3C3.5,24,3.7,24.1,4,24.3c0.4-0.2,0.6-0.3,0.7-0.5
+				C4.9,23.6,5,23.4,5,23.2c0-0.2-0.1-0.4-0.3-0.6C4.5,22.4,4.3,22.4,4,22.4z"/>
+		</g>
+	</g>
+	<g id="_16px-15" transform="translate(99.286 0)">
+		<rect id="Rectangle_3282-15" x="0" y="0.4" class="Graphic_x0020_Style_x0020_3" width="8" height="48"/>
+		<g class="st6">
+			<path class="st2" d="M4,21.6c0.6,0,1.1,0.1,1.4,0.4C5.8,22.3,6,22.7,6,23.2c0,0.7-0.4,1.2-1.2,1.6c0.5,0.3,0.9,0.5,1.1,0.8
+				c0.2,0.3,0.3,0.6,0.3,0.9c0,0.5-0.2,1-0.6,1.3S4.7,28.2,4,28.2c-0.7,0-1.2-0.1-1.6-0.4s-0.6-0.7-0.6-1.3c0-0.4,0.1-0.7,0.3-1
+				c0.2-0.3,0.5-0.5,1-0.8c-0.4-0.2-0.7-0.5-0.8-0.7S2,23.5,2,23.2c0-0.5,0.2-0.8,0.5-1.1C2.9,21.8,3.4,21.6,4,21.6z M2.8,26.5
+				c0,0.3,0.1,0.5,0.3,0.7c0.2,0.2,0.5,0.3,0.9,0.3c0.4,0,0.7-0.1,0.9-0.3c0.2-0.2,0.3-0.4,0.3-0.7c0-0.2-0.1-0.5-0.3-0.7
+				S4.4,25.4,4,25.3l-0.1-0.1c-0.4,0.2-0.7,0.4-0.8,0.6C2.9,26,2.8,26.2,2.8,26.5z M4,22.4c-0.3,0-0.5,0.1-0.7,0.2
+				C3.1,22.8,3,23,3,23.2c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.2,0.6,0.4c0.4-0.2,0.6-0.3,0.7-0.5
+				C4.9,23.7,5,23.5,5,23.2c0-0.2-0.1-0.4-0.3-0.6C4.5,22.5,4.3,22.4,4,22.4z"/>
+		</g>
+	</g>
+	<g id="_16px-16" transform="translate(131.286 0)">
+		<rect id="Rectangle_3282-16" x="0" y="0.4" class="Graphic_x0020_Style_x0020_3" width="8" height="48"/>
+		<g class="st6">
+			<path class="st2" d="M4,21.6c0.6,0,1.1,0.1,1.4,0.4C5.8,22.3,6,22.7,6,23.2c0,0.7-0.4,1.2-1.2,1.6c0.5,0.3,0.9,0.5,1.1,0.8
+				c0.2,0.3,0.3,0.6,0.3,0.9c0,0.5-0.2,1-0.6,1.3S4.7,28.2,4,28.2c-0.7,0-1.2-0.1-1.6-0.4s-0.6-0.7-0.6-1.3c0-0.4,0.1-0.7,0.3-1
+				c0.2-0.3,0.5-0.5,1-0.8c-0.4-0.2-0.7-0.5-0.8-0.7S2,23.5,2,23.2c0-0.5,0.2-0.8,0.5-1.1C2.9,21.8,3.4,21.6,4,21.6z M2.8,26.5
+				c0,0.3,0.1,0.5,0.3,0.7c0.2,0.2,0.5,0.3,0.9,0.3c0.4,0,0.7-0.1,0.9-0.3c0.2-0.2,0.3-0.4,0.3-0.7c0-0.2-0.1-0.5-0.3-0.7
+				S4.4,25.4,4,25.3l-0.1-0.1c-0.4,0.2-0.7,0.4-0.8,0.6C2.9,26,2.8,26.2,2.8,26.5z M4,22.4c-0.3,0-0.5,0.1-0.7,0.2
+				C3.1,22.8,3,23,3,23.2c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.2,0.2,0.3,0.3c0.1,0.1,0.3,0.2,0.6,0.4c0.4-0.2,0.6-0.3,0.7-0.5
+				C4.9,23.7,5,23.5,5,23.2c0-0.2-0.1-0.4-0.3-0.6C4.5,22.5,4.3,22.4,4,22.4z"/>
+		</g>
+	</g>
+	<g id="_40px-2">
+		<g id="Group_6260-4" transform="translate(12.143)">
+			<path id="Path_4788-4" class="st9" d="M4.1,0v48"/>
+			<path id="Path_4789-4" class="st9" d="M0,0h8.1"/>
+			<path id="Path_4790-4" class="st9" d="M0,48h8.1"/>
+		</g>
+		<g class="st6">
+			<path class="st10" d="M5.8,26.4h-1V28H3.7v-1.6H0.5v-0.9l3.3-4.7h1.1v4.6h1V26.4z M3.7,25.5v-1.8c0-0.6,0-1.2,0-1.6h0
+				c-0.1,0.2-0.2,0.5-0.4,0.8l-1.8,2.6H3.7z"/>
+			<path class="st10" d="M8.9,20.8c0.7,0,1.2,0.2,1.6,0.5c0.4,0.3,0.6,0.7,0.6,1.2c0,0.7-0.4,1.3-1.3,1.7c0.6,0.3,1,0.6,1.2,0.9
+				s0.4,0.7,0.4,1c0,0.6-0.2,1.1-0.6,1.4s-1,0.5-1.8,0.5c-0.8,0-1.4-0.2-1.8-0.5s-0.6-0.8-0.6-1.4c0-0.4,0.1-0.8,0.3-1.1
+				c0.2-0.3,0.6-0.6,1.1-0.8c-0.4-0.3-0.7-0.5-0.9-0.8s-0.3-0.6-0.3-1c0-0.5,0.2-0.9,0.6-1.2C7.7,20.9,8.2,20.8,8.9,20.8z M7.5,26.1
+				c0,0.3,0.1,0.6,0.4,0.8c0.2,0.2,0.6,0.3,1,0.3c0.4,0,0.7-0.1,1-0.3c0.2-0.2,0.3-0.5,0.3-0.8c0-0.3-0.1-0.5-0.3-0.7
+				s-0.5-0.4-1-0.6l-0.1-0.1c-0.4,0.2-0.7,0.4-0.9,0.6C7.6,25.6,7.5,25.9,7.5,26.1z M8.8,21.7c-0.3,0-0.6,0.1-0.8,0.2
+				c-0.2,0.2-0.3,0.4-0.3,0.7c0,0.2,0,0.3,0.1,0.5s0.2,0.3,0.3,0.4c0.1,0.1,0.4,0.2,0.7,0.4c0.4-0.2,0.7-0.4,0.8-0.5
+				c0.2-0.2,0.2-0.4,0.2-0.7c0-0.3-0.1-0.5-0.3-0.7C9.4,21.7,9.2,21.7,8.8,21.7z"/>
+		</g>
+	</g>
+</g>
+<g class="st6">
+	<path d="M28.4,41.8c0,1.4-0.4,2.5-1.2,3.2s-2,1.1-3.5,1.1h-2.4v-8.6H24c1.4,0,2.5,0.4,3.3,1.1S28.4,40.4,28.4,41.8z M26.5,41.8
+		c0-1.8-0.8-2.8-2.4-2.8h-1v5.6h0.8C25.6,44.6,26.5,43.7,26.5,41.8z"/>
+	<path d="M35.1,46.1h-4.9v-8.6h4.9v1.5H32v1.9h2.9v1.5H32v2.2h3.1V46.1z"/>
+	<path d="M38.7,46.1h-1.8v-8.6h4.9v1.5h-3.1v2.2h2.9v1.5h-2.9V46.1z"/>
+	<path d="M48.7,46.1l-0.6-2H45l-0.6,2h-2l3-8.6h2.2l3,8.6H48.7z M47.7,42.6c-0.6-1.8-0.9-2.9-1-3.1s-0.1-0.4-0.2-0.6
+		c-0.1,0.5-0.5,1.7-1.1,3.7H47.7z"/>
+	<path d="M58.7,37.6v5.5c0,0.6-0.1,1.2-0.4,1.7s-0.7,0.8-1.2,1.1s-1.2,0.4-1.9,0.4c-1.1,0-2-0.3-2.6-0.8s-0.9-1.3-0.9-2.3v-5.5h1.8
+		v5.2c0,0.7,0.1,1.1,0.4,1.5s0.7,0.5,1.3,0.5c0.6,0,1-0.2,1.3-0.5s0.4-0.8,0.4-1.5v-5.2H58.7z"/>
+	<path d="M60.8,46.1v-8.6h1.8v7.1h3.5v1.5H60.8z"/>
+	<path d="M70.9,46.1h-1.8v-7.1h-2.3v-1.5h6.5v1.5h-2.3V46.1z"/>
+</g>
+<g class="st6">
+	<path d="M420.7,39.8c-0.7,0-1.2,0.3-1.6,0.8s-0.6,1.2-0.6,2.1c0,1.9,0.7,2.9,2.2,2.9c0.6,0,1.3-0.2,2.2-0.5v1.5
+		c-0.7,0.3-1.5,0.4-2.4,0.4c-1.2,0-2.2-0.4-2.9-1.1s-1-1.8-1-3.3c0-0.9,0.2-1.7,0.5-2.3s0.8-1.2,1.4-1.5s1.3-0.5,2.1-0.5
+		c0.8,0,1.7,0.2,2.5,0.6l-0.6,1.5c-0.3-0.2-0.6-0.3-1-0.4S421,39.8,420.7,39.8z"/>
+	<path d="M432.5,42.7c0,1.4-0.4,2.5-1.1,3.3s-1.7,1.1-3,1.1s-2.3-0.4-3-1.1s-1.1-1.9-1.1-3.3s0.4-2.5,1.1-3.3s1.7-1.1,3-1.1
+		s2.3,0.4,3,1.1S432.5,41.3,432.5,42.7z M426.2,42.7c0,1,0.2,1.7,0.5,2.2s0.9,0.7,1.6,0.7c1.4,0,2.2-1,2.2-2.9
+		c0-1.9-0.7-2.9-2.2-2.9c-0.7,0-1.3,0.2-1.6,0.7S426.2,41.7,426.2,42.7z"/>
+	<path d="M441.9,47h-2.3l-3.7-6.5h-0.1c0.1,1.1,0.1,2,0.1,2.4v4h-1.6v-8.6h2.3l3.7,6.4h0c-0.1-1.1-0.1-1.9-0.1-2.4v-4.1h1.6V47z"/>
+	<path d="M451.1,42.6c0,1.4-0.4,2.5-1.2,3.2s-2,1.1-3.5,1.1H444v-8.6h2.7c1.4,0,2.5,0.4,3.3,1.1S451.1,41.3,451.1,42.6z M449.3,42.7
+		c0-1.8-0.8-2.8-2.4-2.8h-1v5.6h0.8C448.4,45.5,449.3,44.6,449.3,42.7z"/>
+	<path d="M457.8,47h-4.9v-8.6h4.9v1.5h-3.1v1.9h2.9v1.5h-2.9v2.2h3.1V47z"/>
+	<path d="M467.2,47h-2.3l-3.7-6.5h-0.1c0.1,1.1,0.1,2,0.1,2.4v4h-1.6v-8.6h2.3l3.7,6.4h0c-0.1-1.1-0.1-1.9-0.1-2.4v-4.1h1.6V47z"/>
+	<path d="M474.4,44.6c0,0.8-0.3,1.4-0.8,1.8s-1.3,0.7-2.3,0.7c-0.9,0-1.7-0.2-2.4-0.5v-1.7c0.6,0.3,1.1,0.4,1.5,0.5s0.8,0.2,1.1,0.2
+		c0.4,0,0.7-0.1,0.9-0.2s0.3-0.4,0.3-0.7c0-0.2,0-0.3-0.1-0.4s-0.2-0.3-0.4-0.4s-0.6-0.3-1.1-0.6c-0.5-0.2-0.9-0.5-1.2-0.7
+		s-0.5-0.5-0.6-0.8s-0.2-0.7-0.2-1.1c0-0.8,0.3-1.4,0.8-1.8s1.2-0.7,2.1-0.7c0.4,0,0.9,0.1,1.3,0.2s0.8,0.3,1.3,0.4l-0.6,1.4
+		c-0.5-0.2-0.8-0.3-1.1-0.4s-0.6-0.1-0.9-0.1c-0.3,0-0.6,0.1-0.8,0.2s-0.3,0.4-0.3,0.6c0,0.2,0,0.3,0.1,0.4s0.2,0.2,0.4,0.3
+		s0.5,0.3,1.2,0.6c0.8,0.4,1.3,0.8,1.6,1.2S474.4,44.1,474.4,44.6z"/>
+	<path d="M480.9,47H476v-8.6h4.9v1.5h-3.1v1.9h2.9v1.5h-2.9v2.2h3.1V47z"/>
+	<path d="M489.8,42.6c0,1.4-0.4,2.5-1.2,3.2s-2,1.1-3.5,1.1h-2.4v-8.6h2.7c1.4,0,2.5,0.4,3.3,1.1S489.8,41.3,489.8,42.6z
+		 M487.9,42.7c0-1.8-0.8-2.8-2.4-2.8h-1v5.6h0.8C487.1,45.5,487.9,44.6,487.9,42.7z"/>
+</g>
+<line id="Rectangle_3282-11_00000018217374249054028260000000016493343461415317_" class="Graphic_x0020_Style_x0020_4" x1="130.4" y1="148.6" x2="458.4" y2="148.6"/>
 </svg>

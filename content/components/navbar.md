@@ -5,7 +5,6 @@ description: "The navbar provides context through globally accessible menu optio
 images:
   - "/img/headers/components/navbar.png"
 components: true
-contributors: ""
 bootstrapURL: "/components/navbars/"
 ---
 
