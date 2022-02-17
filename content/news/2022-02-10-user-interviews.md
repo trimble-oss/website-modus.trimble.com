@@ -5,7 +5,7 @@ description: "What is a user interview and how do you approach it to promote tru
 image: "/img/blog/headers/2022-02-10-user-interviews.png"
 images:
   - /img/blog/headers/2022-02-10-user-interviews.png
-headerBgColor: "#eee"
+headerBgColor: "#cbe3ff"
 tags: ["ux research", "user interviews"]
 author: Namita Mehta
 blog: true

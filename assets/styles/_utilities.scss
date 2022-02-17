@@ -19,3 +19,7 @@
 .img-grayscale {
   filter: grayscale(100%);
 }
+
+.pe-none {
+  pointer-events: none;
+}
