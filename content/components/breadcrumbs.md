@@ -138,7 +138,7 @@ Breadcrumb is a one-line navigational element that supports wayfinding: it aids 
 ### Accessibility
 
 - **The default breadcrumb navigation is not accessible.** Use the accessible option for compliance.
-- Place breadcrumb navigation in a `nav` element with `role="navigation"`. The `nav` element should also be marked with `aria-label="breadcrumbs"` to clearly describe the type of navigation.
+- Place breadcrumb navigation in a `nav` element. The `nav` element should also be marked with `aria-label="breadcrumbs"` to clearly describe the type of navigation.
 - Breadcrumbs should remain in the same relative order and location on each page.
 - The link text should be clear, reflect the breadcrumb location accurately, and easy to understand for all users.
 - Make sure the tab order matches the hierarchy.
