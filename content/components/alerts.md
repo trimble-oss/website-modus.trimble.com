@@ -9,6 +9,7 @@ images:
 aliases:
   - "/elements/alerts/"
 bootstrapURL: "/components/alerts/"
+reactBootstrapURL: "/components/alerts/"
 ---
 
 ## Overview

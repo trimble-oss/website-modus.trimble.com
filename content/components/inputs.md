@@ -12,6 +12,7 @@ aliases:
   - "/inputs.html"
   - "/input-groups.html"
 bootstrapURL: "/components/inputs/"
+reactBootstrapURL: "/components/inputs/"
 ---
 
 ## Overview

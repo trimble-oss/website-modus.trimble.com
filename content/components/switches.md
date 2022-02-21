@@ -7,6 +7,7 @@ images:
   - "/img/headers/components/switches.png"
 keywords: forms, form
 bootstrapURL: "/components/switches/"
+reactBootstrapURL: "/components/switches/"
 ---
 
 ## Overview

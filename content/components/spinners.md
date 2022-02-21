@@ -8,6 +8,7 @@ images:
 aliases:
   - "/elements/spinners/"
 bootstrapURL: "/components/spinners/"
+reactBootstrapURL: "/components/spinners/"
 ---
 
 ## Overview

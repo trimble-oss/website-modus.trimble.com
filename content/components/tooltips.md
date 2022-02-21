@@ -8,6 +8,8 @@ images:
 aliases:
   - "/elements/tooltips/"
 bootstrapURL: "/components/tooltips/"
+reactBootstrapURL: "/components/tooltips/"
+
 ---
 
 ## Overview

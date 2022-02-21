@@ -8,6 +8,7 @@ images:
 aliases:
   - "/elements/breadcrumbs/"
 bootstrapURL: "/components/breadcrumbs/"
+reactBootstrapURL: "/components/breadcrumbs/"
 ---
 
 ## Overview

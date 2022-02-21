@@ -9,6 +9,7 @@ aliases:
   - "/progress.html"
   - "/components/progress/"
 bootstrapURL: "/components/progress-bars/"
+reactBootstrapURL: "/components/progress-bars/"
 ---
 
 ## Overview
