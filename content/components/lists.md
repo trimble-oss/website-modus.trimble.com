@@ -8,6 +8,7 @@ images:
 aliases:
   - "/elements/lists/"
 bootstrapURL: "/components/lists/"
+reactBootstrapURL: "/components/lists/"
 ---
 
 ## Overview

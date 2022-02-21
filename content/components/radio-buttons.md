@@ -10,6 +10,7 @@ aliases:
   - "/elements/radio/"
   - "/components/radio/"
 bootstrapURL: "/components/radio-buttons/"
+reactBootstrapURL: "/components/radio-buttons/"
 ---
 
 ## Overview

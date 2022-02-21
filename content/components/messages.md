@@ -8,6 +8,8 @@ images:
 aliases:
   - "/elements/messages/"
 bootstrapURL: "/components/messages/"
+reactBootstrapURL: "/components/messages/"
+
 ---
 
 ## Overview

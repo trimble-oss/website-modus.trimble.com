@@ -9,6 +9,7 @@ aliases:
   - "/shadows.html"
 url: "/foundations/shadows-and-depth/"
 bootstrapURL: "/foundations/shadows-and-depth/"
+reactBootstrapURL: "/foundations/shadows-and-depth/"
 ---
 
 Shadows provide cues about depth, direction of movement, and surface edges. A surface’s shadow is determined by its elevation and relationship to other surfaces.

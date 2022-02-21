@@ -10,6 +10,7 @@ keywords: alert
 aliases:
   - "/elements/toasts/"
 bootstrapURL: "/components/toasts/"
+reactBootstrapURL: "/components/toasts/"
 ---
 
 ## Overview

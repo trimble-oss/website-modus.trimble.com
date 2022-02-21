@@ -9,6 +9,7 @@ keywords: menu
 aliases:
   - "/elements/dropdowns/"
 bootstrapURL: "/components/dropdowns/"
+reactBootstrapURL: "/components/dropdowns/"
 ---
 
 ## Overview

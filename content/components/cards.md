@@ -8,6 +8,7 @@ images:
 aliases:
   - "/elements/cards/"
 bootstrapURL: "/components/cards/"
+reactBootstrapURL: "/components/cards/"
 ---
 
 ## Overview

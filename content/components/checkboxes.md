@@ -9,6 +9,7 @@ keywords: forms, form
 aliases:
   - "/elements/checkboxes/"
 bootstrapURL: "/components/checkboxes/"
+reactBootstrapURL: "/components/checkboxes/"
 ---
 
 ## Overview

@@ -8,6 +8,7 @@ images:
 aliases:
   - "/elements/badges/"
 bootstrapURL: "/components/badges/"
+reactBootstrapURL: "/components/badges/"
 ---
 
 ## Overview

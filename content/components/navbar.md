@@ -6,6 +6,7 @@ images:
   - "/img/headers/components/navbar.png"
 components: true
 bootstrapURL: "/components/navbars/"
+reactBootstrapURL: "/components/navbars/"
 ---
 
 ## Overview

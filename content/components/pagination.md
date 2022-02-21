@@ -8,6 +8,7 @@ images:
 aliases:
   - "/elements/pagination/"
 bootstrapURL: "/components/pagination/"
+reactBootstrapURL: "/components/pagination/"
 ---
 
 ## Overview

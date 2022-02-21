@@ -8,6 +8,7 @@ images:
 aliases:
   - "/elements/tables/"
 bootstrapURL: "/components/tables/"
+reactBootstrapURL: "/components/tables/"
 ---
 
 ## Overview

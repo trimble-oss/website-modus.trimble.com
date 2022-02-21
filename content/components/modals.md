@@ -9,6 +9,7 @@ keywords: "modal, dialog"
 aliases:
   - "/components/modal/"
 bootstrapURL: "/components/modals/"
+reactBootstrapURL: "/components/modals/"
 ---
 
 ## Overview

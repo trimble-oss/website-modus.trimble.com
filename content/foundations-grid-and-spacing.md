@@ -7,6 +7,7 @@ url: "/foundations/grid-and-spacing/"
 aliases:
   - "/foundations/spacing/"
 bootstrapURL: "/foundations/grid-and-spacing/"
+reactBootstrapURL: "/foundations/grid-and-spacing/"
 ---
 
 Utilizing a responsive layout grid as a basis for design and development provides guidance for placement of components and consistency across devices enhancing user experience across multiple devices.
