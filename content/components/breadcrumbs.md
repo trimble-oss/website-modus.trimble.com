@@ -143,6 +143,8 @@ Breadcrumb is a one-line navigational element that supports wayfinding: it aids 
 - Breadcrumbs should remain in the same relative order and location on each page.
 - The link text should be clear, reflect the breadcrumb location accurately, and easy to understand for all users.
 - Make sure the tab order matches the hierarchy.
+- Apply `aria-current="page"` to the last item of the set to indicate that it represents the current page.
+- For more information, see the [WAI-ARIA Authoring Practices for the breadcrumb pattern](https://www.w3.org/TR/wai-aria-practices/#breadcrumb).
 
 {{< whats-changed-table >}}
 | Date | Version | Notes | Contributors |
