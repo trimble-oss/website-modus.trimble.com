@@ -1,7 +1,7 @@
 ---
 title: "Stats"
 layout: "single"
-description: "Download stats for Modus Bootstrap projects"
+description: "Download stats for Modus projects"
 url: "/stats/"
 start: true
 hideToc: true
