@@ -239,7 +239,7 @@ Basic Toasts
 
 ### Accessibility
 
-- Include the `role="alert"` attribute.
+- If it’s an important message like an error, use `role="alert" aria-live="assertive"`, otherwise use `role="status" aria-live="polite"` attributes.
 - Toasts should not be visually hidden if they are not being used. If you do not want a screen reader to pick up a toast, use the `aria-hidden='true'` HTML attribute and/or `{display: none;}` in your CSS.
 - When constructing a toast message, consider how it will be read by a screen reader:
   - Write out dates, e.g., December 1, 2018 and not 12/1/2018.
