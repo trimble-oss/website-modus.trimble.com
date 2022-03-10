@@ -16,7 +16,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 | Upcoming  | Indicators & Selected States  | Calling candidates soon! |   |
 | Upcoming  | Microinteractions & Animations | Calling candidates soon! |   |
 | Upcoming  | Side Panel | J. de Wit; Calling for more candidates soon! |   |
-| [Join Now!](/news/2022-02-08-help-menu-tiger-team/) | Help Menu Navigation | Join the Help Menu Tiger Team by **February 28**! | 03/04/2022 |
+| Active | Help Menu Navigation | C. Christison, R. Pekkinen, A. Chammoth Sivaraman, A. Galstyan, C. Cuellar, D. Bedick, F. Kuipers, J. Wegerer, M. Cowley, C. Starbird, K. Vander Ploeg | 03/09/2022 |
 | Active | 3D Design Patterns | P. Borgstein, A. Komninos, J. Oczkowski, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, T. Sippola, E. Pilke, S. Sidhu | 01/24/2022 |
 | Active  | Dark Mode | S. Kaukomen, A. C. Sivaraman, E. Gunther, J. de Wit, K. Phillips, M. Johns, P. Borgstein, T. Willimas, U. Meza | 09/15/2021  |
 | Active  | Mobile&nbsp;Patterns | D. Bedick, E. Bohn, R. Stillwell, N. Cadsawan, C. Starbird, L. Saenz, E. Gunther, J. A. Provin Silva | 03/12/2021 |

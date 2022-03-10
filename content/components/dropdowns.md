@@ -24,14 +24,12 @@ Dropdowns (also known as a dropdown menu, drop menu, pull-down list, picklist) i
 
 **Don’t use when**
 
-- Providing more than 10 options.
 - Providing only two options. Instead, use a [Radio](/components/radio-buttons/) Group or a [Switch](/components/switches/).
 
 ## Specifications
 
 - Dropdowns can be activated by clicking a button, an icon, or a header. See [Inputs](/components/inputs/) for dropdowns in form input fields.
 - Dropdown functionality is indicated by a small trailing arrow or an ellipsis (not applicable to icon dropdowns).
-- Dropdown selects are ideal for lists with more than 15 items, but be careful not to overdo it.
 - Within a dropdown, you can separate groups of related menu items with a divider.
 
 <div class="guide-example-block d-inline-block mb-3">
