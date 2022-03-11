@@ -88,3 +88,9 @@ Dropdowns (also known as a dropdown menu, drop menu, pull-down list, picklist) i
 - The element that contains the menu items displayed by activating the button has role `menu`.
 - Optionally, the element with role `button` has a value specified for `aria-controls` that refers to the element with role `menu`.
 - With focus on the button, "Enter" or "Space" opens the menu and places focus on the first menu item. Up and down arrows move focus through menu items.
+
+{{< whats-changed-table >}}
+| Date | Version | Notes | Contributors |
+| ---------- | ------- | -------------- | ------------ |
+| 03/14/2022 | 1.3.0 | Removed contradictory directions. | W. Pritchard, E. Gunther |
+{{</ whats-changed-table >}}

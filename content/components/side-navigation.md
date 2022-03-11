@@ -84,7 +84,11 @@ This expanding functionality either a.) overlays the page’s content or b.) pus
 
 There are two color options available and either can be used with the white or blue [Topnav](/components/topnav/).
 
-[Add images here]
+![White Navigation](/img/sidenav-states.png)
+
+![Blue and White Navigation](/img/sidenav-states-2.png)
+
+![Blue Navigation](/img/sidenav-states-3.png)
 
 <table class="table table-bordered bg-white">
   <thead class="thead-light">
@@ -182,7 +186,7 @@ There are two color options available and either can be used with the white or b
   </tbody>
 </table>
 
-[Add image here]
+![Spacing](/img/sidenav-spacing.png)
 
 ### Typography
 
@@ -247,7 +251,6 @@ There are two color options available and either can be used with the white or b
       <th>Value (px/rem)</th>
       <th>Expanded</th>
       <th>Collapsed</th>
-      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -255,21 +258,18 @@ There are two color options available and either can be used with the white or b
       <td>X-Small</td>
       <td>320/20</td>
       <td>Overlay</td>
-      <td>Regular/400</td>
       <td>Hide Menu</td>
     </tr>
     <tr>
       <td>Small</td>
       <td>576/36</td>
       <td>Overlay</td>
-      <td>Regular/400</td>
       <td>Hide Menu</td>
     </tr>
     <tr>
       <td>Medium</td>
       <td>768/48</td>
       <td>Overlay</td>
-      <td>Semi-bold/600</td>
       <td>Hide Menu</td>
     </tr>
     <tr>
@@ -277,31 +277,31 @@ There are two color options available and either can be used with the white or b
       <td>992/62</td>
       <td>Overlay or Push	</td>
       <td>Hide or Collapse</td>
-      <td></td>
     </tr>
     <tr>
       <td>X-Large</td>
       <td>1200/75</td>
       <td>Overlay or Push	</td>
       <td>Hide or Collapse</td>
-      <td></td>
     </tr>
     <tr>
       <td>XX-Large</td>
       <td>1600/100</td>
       <td>Overlay or Push	</td>
       <td>Hide or Collapse</td>
-      <td></td>
     </tr>
   </tbody>
 </table>
 
 ### Accessibility
 
-[Need to add]
+- Use unordered list `<ul>` groups for side navigation.
+- Place side navigation (the list group) in a `nav` element. The `nav` element should also be marked with `aria-label="side navigation"` to clearly describe the type of navigation.
+- Use the `aria-current="true"` attribute to indicate the item that is currently selected, or—in a navigational context—use `aria-current="page"` to indicate the page that is currently selected. The `aria-current` attribute should be updated when the user makes a selection.
+- Make sure the tab order matches the hierarchy and that the user can navigate through all levels and items with a keyboard.
 
 {{< whats-changed-table >}}
 | Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------- | ------------ |
-| 03/10/2022 | 1.3.0 | New component added. | J. Wittmeyer, C. D. Savio Lazaro, S. Taylor, J. de Wit, E. Gunther, T. Manham, N. Cadsawan, P. Karukkuvel, E. Deleon, A. Tucker, L. Meskanen-Kundu |
+| 03/14/2022 | 1.3.0 | New pattern added. | J. Wittmeyer, C. D. Savio Lazaro, S. Taylor, J. de Wit, E. Gunther, T. Manham, <br>N. Cadsawan, P. Karukkuvel, E. Deleon, A. Tucker, L. Meskanen-Kundu |
 {{</ whats-changed-table >}}
