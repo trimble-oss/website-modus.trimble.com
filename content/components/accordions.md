@@ -9,6 +9,7 @@ aliases:
   - "/elements/accordions/"
 contributors: ""
 bootstrapURL: "/components/accordions/"
+reactBootstrapURL: "/components/accordions/"
 ---
 
 ## Overview

@@ -59,9 +59,9 @@
           <!-- this displays date that markdown file was last committed to Git -->
           {{- if not .Params.hideDate -}}
           {{- if ne .Lastmod .Date -}}
-          <span class="text-secondary small"><i>
-              Last updated {{ .Page.Lastmod.Month }} {{ .Page.Lastmod.Day }}, {{ .Page.Lastmod.Year }}.
-            </i></span>
+          <div class="text-secondary small"><em>
+              Last updated {{ .Page.Lastmod.Month }} {{ .Page.Lastmod.Day }}, {{ .Page.Lastmod.Year -}}.
+            </em></div>
           {{- end -}}
           {{- end -}}
 

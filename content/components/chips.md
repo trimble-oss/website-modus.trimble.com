@@ -8,6 +8,7 @@ images:
 aliases:
   - "/elements/chips/"
 bootstrapURL: "/components/chips/"
+reactBootstrapURL: "/components/chips/"
 ---
 
 ## Overview

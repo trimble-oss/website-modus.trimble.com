@@ -9,6 +9,7 @@ keywords: forms, form, range
 aliases:
   - "/elements/sliders/"
 bootstrapURL: "/components/sliders/"
+reactBootstrapURL: "/components/sliders/"
 ---
 
 ## Overview

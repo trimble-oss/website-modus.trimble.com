@@ -8,7 +8,19 @@ images:
 aliases:
   - "/elements/lists/"
 bootstrapURL: "/components/lists/"
+reactBootstrapURL: "/components/lists/"
 ---
+
+<style>
+.list-group .list-group-item {
+  height: 40px;
+  min-height: 40px;
+}
+.list-group-lg .list-group-item {
+  height: 48px;
+  min-height: 48px;
+}
+</style>
 
 ## Overview
 
@@ -36,10 +48,11 @@ Lists are used to present information in well-formed and semantic way. The most 
 
 ## Specifications
 
-Lists are available in two sizes: default and condensed.
+Lists are available in three sizes: default, condensed (small) and large.
 
-- Default list: 48px in height; 16px font size.
-- Condensed list: 32px in height; 12 px font size.
+- Default list: 40px height; 16px font size.
+- Small list: 32px height; 12px font size.
+- Large list: 48px height; 16px font size.
 
 <div class="guide-example-block my-2 py-4 bg-light pr-5">
   <div class="guide-content-sample anatomy-display-container pr-3">
@@ -95,41 +108,68 @@ Lists are available in two sizes: default and condensed.
   </div>
 </div>
 
-### Condensed List
+## Condensed List
 
-<ul class="list-group list-group-condensed">
+<ul class="list-group list-group-sm">
   <li class="list-group-item active">List Item (active)</li>
   <li class="list-group-item list-item-left-control">
     <div class="custom-control custom-switch custom-control-inline">
-      <input type="checkbox" checked class="custom-control-input" id="listSwitch-condensed">
-      <label class="custom-control-label" for="listSwitch-condensed"></label>
+      <input type="checkbox" checked class="custom-control-input" id="listSwitch-sm">
+      <label class="custom-control-label" for="listSwitch-sm"></label>
     </div>
     <span>Left Switch</span>
   </li>
   <li class="list-group-item list-item-right-control">
     <span>Right Switch</span>
     <div class="custom-control custom-switch custom-control-inline">
-      <input type="checkbox" checked class="custom-control-input" id="listSwitch-condensed2">
-      <label class="custom-control-label" for="listSwitch-condensed2"></label>
+      <input type="checkbox" checked class="custom-control-input" id="listSwitch-sm2">
+      <label class="custom-control-label" for="listSwitch-sm2"></label>
     </div>
   </li>
   <li class="list-group-item list-item-left-control">
     <div class="custom-control custom-checkbox">
-      <input type="checkbox" checked class="custom-control-input" id="customCheck-condensed3">
-      <label class="custom-control-label" for="customCheck-condensed3"></label>
+      <input type="checkbox" checked class="custom-control-input" id="customCheck-sm3">
+      <label class="custom-control-label" for="customCheck-sm3"></label>
     </div>
     <span>Left Checkbox</span>
   </li>
 </ul>
 
-### Behaviors
+## Large List
+
+<ul class="list-group list-group-lg">
+  <li class="list-group-item active">List Item (active)</li>
+  <li class="list-group-item list-item-left-control">
+    <div class="custom-control custom-switch custom-control-inline">
+      <input type="checkbox" checked class="custom-control-input" id="listSwitch-lg">
+      <label class="custom-control-label" for="listSwitch-lg"></label>
+    </div>
+    <span>Left Switch</span>
+  </li>
+  <li class="list-group-item list-item-right-control">
+    <span>Right Switch</span>
+    <div class="custom-control custom-switch custom-control-inline">
+      <input type="checkbox" checked class="custom-control-input" id="listSwitch-lg2">
+      <label class="custom-control-label" for="listSwitch-lg2"></label>
+    </div>
+  </li>
+  <li class="list-group-item list-item-left-control">
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" checked class="custom-control-input" id="customCheck-lg3">
+      <label class="custom-control-label" for="customCheck-lg3"></label>
+    </div>
+    <span>Left Checkbox</span>
+  </li>
+</ul>
+
+## Behaviors
 
 - Basic lists contain a set of items displayed in rows. Each item is represented as a text label. Depending on the purpose of the list, each row may also be accompanied by a control, such as a checkbox or radio button. The user can also select a row to perform an action on the corresponding item.
 - Complex lists contain a set of items displayed in rows. Each item is represented as a text label. In addition to the item label, the rows in a complex list contain multiple pieces of information for each item. Depending on the purpose of the list, each row may also be accompanied by a control. The user can also select a row to perform an action on the corresponding item.
   - Use when the user can benefit from viewing more information about each list item without needing to select the item first.
   - Use when the available space in the design does not let us display a table.
 
-### Editorial
+## Editorial
 
 **Length**
 
@@ -147,6 +187,6 @@ Lists are available in two sizes: default and condensed.
 - In instruction copy, use the words, “select” and “clear” to guide users to make selections. Don’t use the word “deselect.” It’s robotic and can’t be translated easily.
 - Don’t use punctuation in list items unless one of the list items includes more than one sentence. In that case, all the list items will have end punctuation.
 
-### Accessibility
+## Accessibility
 
 - Make sure the list is keyboard accessible. The tab order needs to be sequential.

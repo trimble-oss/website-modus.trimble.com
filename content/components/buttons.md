@@ -8,6 +8,7 @@ images:
 aliases:
   - "/elements/buttons/"
 bootstrapURL: "/components/buttons/"
+reactBootstrapURL: "/components/buttons/"
 ---
 
 ## Overview

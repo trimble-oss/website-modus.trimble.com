@@ -9,6 +9,7 @@ aliases:
   - "/progress.html"
   - "/components/progress/"
 bootstrapURL: "/components/progress-bars/"
+reactBootstrapURL: "/components/progress-bars/"
 ---
 
 ## Overview
@@ -71,7 +72,6 @@ Progress indicators inform users about the status of ongoing processes, such as 
 
 ### Accessibility
 
-- Use the standard HTML element `<progress>`.
 - Use `aria-valuetext` to provide more specific information about the content being loaded. For example, “Please wait, this data table is loading…”.
 - Add `aria-busy="true"` to a container or element to indicate the element is loading. Once loaded, change the value from `true` to `false`. For example:
   - If loading an entire page, add the attribute to `<body>` or wrapper.

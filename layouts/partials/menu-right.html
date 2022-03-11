@@ -11,12 +11,17 @@
 </script>
 <hr>
 
-{{- if .Params.bootstrapURL -}}
+{{- if (or (.Params.bootstrapURL)  (.Params.reactBootstrapURL)) -}}
 <h5 class="pt-2 ml-3">
 Implementations
 </h5>
 <ul class="list-unstyled pl-0 ml-0">
-<li><a href="https://modus-bootstrap.trimble.com{{- .Params.bootstrapURL -}}" class="nav-link text-dark text-decoration-none" target="_blank" >Modus Bootstrap</a></li>
+{{- if .Params.bootstrapURL}}
+  <li><a href="https://modus-bootstrap.trimble.com{{- .Params.bootstrapURL -}}" class="nav-link text-dark text-decoration-none" target="_blank" >Modus Bootstrap</a></li>
+{{- end -}}
+{{- if .Params.reactBootstrapURL}}
+  <li><a href="https://modus-react-bootstrap.trimble.com{{- .Params.reactBootstrapURL -}}" class="nav-link text-dark text-decoration-none" target="_blank" >Modus React Bootstrap</a></li>
+{{- end -}}
 </ul>
 {{- end -}}
 

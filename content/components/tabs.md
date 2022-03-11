@@ -8,6 +8,7 @@ images:
 aliases:
   - "/elements/tabs/"
 bootstrapURL: "/components/tabs/"
+reactBootstrapURL: "/components/tabs/"
 ---
 
 ## Overview

@@ -42,36 +42,12 @@
       {{- end -}}
 
       {{- if .Params.components -}}
-      {{ range first 30 (where .Site.RegularPages ".Section" "components") }}
+      {{ range .Site.Menus.components }}
       {{- if not .Params.hidden -}}
       <li><a class="nav-link text-dark" href="{{ .URL }}">
           {{- .Name -}}
         </a></li>
       {{- end }}
-      {{- end }}
-      {{- end -}}
-
-      {{- if .Params.desktop -}}
-      {{ range first 30 (where .Site.RegularPages ".Section" "desktop") }}
-      <li><a class="nav-link text-dark" href="{{ .URL }}">
-          {{- .Name -}}
-        </a></li>
-      {{- end }}
-      {{- end -}}
-
-      {{- if .Params.infield -}}
-      {{ range first 30 (where .Site.RegularPages ".Section" "in-field") }}
-      <li><a class="nav-link text-dark" href="{{ .URL }}">
-          {{- .Name -}}
-        </a></li>
-      {{- end }}
-      {{- end -}}
-
-      {{- if .Params.mobile -}}
-      {{ range first 30 (where .Site.RegularPages ".Section" "mobile") }}
-      <a class="nav-link text-dark" href="{{ .URL }}">
-          {{- .Name -}}
-        </a>
       {{- end }}
       {{- end -}}
 
