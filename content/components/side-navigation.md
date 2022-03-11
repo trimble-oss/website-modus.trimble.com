@@ -17,7 +17,7 @@ The side navigation of an application provides context through accessible menu o
 
 The side navigation is a collapsible side content of the site’s pages. It is located alongside the page’s primary content. The component is designed to add side content to a fullscreen application. It is activated through the "hamburger" menu in the [Navbar](/components/navbar/).
 
-There are other types of navigation that can be used along with the Side Nav:_ [Breadcrumbs](/components/breadcrumbs/), [Navbar](/components/navbar/), [Tabs](/components/tabs/), [Content Tree](/components/content-tree/)
+There are other types of navigation that can be used along with the Side Nav:\_ [Breadcrumbs](/components/breadcrumbs/), [Navbar](/components/navbar/), [Tabs](/components/tabs/), [Content Tree](/components/content-tree/)
 
 ## Usage
 
@@ -86,37 +86,136 @@ There are two color options available and either can be used with the white or b
 
 [Add images here]
 
-|   | White Nav Colors | Blue Nav Colors |
-| ---------- | ------- | -------------- |
-| Background | White | Blue Dark #0E416C|
-| Selected Item Background | Trimble Blue #0063a3 | Blue Light #217cbb |
-| Text Link | Trimble Gray #252a2e | White |
-| Hover Link | Gray 0 #e0e1e9 | Trimble Blue #0063a3 |
-| Icon | Trimble Gray #252a2e | White |
-| Chevron | Trimble Gray #252a2e | White |
+<table class="table table-bordered bg-white">
+  <thead class="thead-light">
+    <tr>
+      <th></th>
+      <th>White Nav Colors</th>
+      <th>Blue Nav Colors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Background</th>
+      <td>White</td>
+      <td>Blue Dark #0E416C</td>
+    </tr>
+    <tr>
+      <th>Selected Item Background</th>
+      <td>Trimble Blue #0063a3</td>
+      <td>Blue Light #217cbb</td>
+    </tr>
+    <tr>
+      <th>Text Link</th>
+      <td>Trimble Gray #252a2e</td>
+      <td>White</td>
+    </tr>
+    <tr>
+      <th>Hover Link</th>
+      <td>Gray 0 #e0e1e9</td>
+      <td>Trimble Blue #0063a3</td>
+    </tr>
+    <tr>
+      <th>Icon</th>
+      <td>Trimble Gray #252a2e</td>
+      <td>White</td>
+    </tr>
+    <tr>
+      <th>Chevron</th>
+      <td>Trimble Gray #252a2e</td>
+      <td>White</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Padding and Spacing
 
-| Class | Property | Size (px/rem) |
-| ---------- | ------- | -------------- |
-| Menu Item | height | 48/3 |
-| Menu Item | padding-left | 20/1.25 |
-| Menu Item Icon | width, height | 24/1.5 |
-| Collapsed Menu Item | width | 64/4 |
-| Collapsed Menu Item Chevron | width, height | 16/1 |
-| Extended Menu Item | width | 256/16 |
-| Extended Menu Item Icon | padding-right | 16/1 |
-| Extended Menu Item Chevron | padding-right | 4/0.25 |
+<table class="table table-bordered bg-white">
+  <thead class="thead-light">
+    <tr>
+      <th>Class</th>
+      <th>Property</th>
+      <th>Size (px/rem)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Menu Item</td>
+      <td>height</td>
+      <td>48/3</td>
+    </tr>
+    <tr>
+      <td>Menu Item</td>
+      <td>padding-left</td>
+      <td>20/1.25</td>
+    </tr>
+    <tr>
+      <td>Menu Item Icon</td>
+      <td>width, height</td>
+      <td>24/1.5</td>
+    </tr>
+    <tr>
+      <td>Collapsed Menu Item</td>
+      <td>width</td>
+      <td>64/4</td>
+    </tr>
+    <tr>
+      <td>Collapsed Menu Item Chevron</td>
+      <td>width, height</td>
+      <td>16/1</td>
+    </tr>
+    <tr>
+      <td>Extended Menu Item</td>
+      <td>width</td>
+      <td>256/16</td>
+    </tr>
+    <tr>
+      <td>Extended Menu Item Icon</td>
+      <td>padding-right</td>
+      <td>16/1</td>
+    </tr>
+    <tr>
+      <td>Extended Menu Item Chevron</td>
+      <td>padding-right	</td>
+      <td>4/0.25</td>
+    </tr>
+  </tbody>
+</table>
 
 [Add image here]
 
 ### Typography
 
-| Class | Type | Size (px/rem) | Font Weight |
-| ---------- | ------- | -------------- | ----------------- |
-| Menu Item | Body 1 | 14/0.875 | Regular/400 |
-| Back Menu Item | Body 2 | 12/0.75 | Regular/400 |
-| Level Header | Heading 4 | 14/0.875 | Semi-bold/600 |
+<table class="table table-bordered bg-white">
+  <thead class="thead-light">
+    <tr>
+      <th>Class</th>
+      <th>Type</th>
+      <th>Size (px/rem)</th>
+      <th>Font Weight</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Menu Item </td>
+      <td>Body 1</td>
+      <td>14/0.875</td>
+      <td>Regular/400</td>
+    </tr>
+    <tr>
+      <td>Back Menu Item</td>
+      <td>Body 2</td>
+      <td>12/0.75 </td>
+      <td>Regular/400</td>
+    </tr>
+    <tr>
+      <td>Level Header</td>
+      <td>Heading 4</td>
+      <td>14/0.875</td>
+      <td>Semi-bold/600</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Behaviors
 
@@ -141,14 +240,61 @@ There are two color options available and either can be used with the white or b
 
 #### Responsiveness
 
-| Breakpoint | Value (px/rem) | Expanded | Collapsed  |
-| ---------- | ------- | -------------- | -------------- |
-| X-Small | 320/20 | Overlay | Regular/400 | Hide Menu |
-| Small | 576/36 | Overlay | Regular/400 | Hide Menu |
-| Medium | 768/48 | Overlay | Semi-bold/600 | Hide Menu |
-| Large | 992/62 | Overlay or Push | Hide or Collapse |
-| X-Large | 1200/75 | Overlay or Push | Hide or Collapse |
-| XX-Large | 1600/100 | Overlay or Push | Hide or Collapse |
+<table class="table table-bordered bg-white">
+  <thead class="thead-light">
+    <tr>
+      <th>Breakpoint</th>
+      <th>Value (px/rem)</th>
+      <th>Expanded</th>
+      <th>Collapsed</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>X-Small</td>
+      <td>320/20</td>
+      <td>Overlay</td>
+      <td>Regular/400</td>
+      <td>Hide Menu</td>
+    </tr>
+    <tr>
+      <td>Small</td>
+      <td>576/36</td>
+      <td>Overlay</td>
+      <td>Regular/400</td>
+      <td>Hide Menu</td>
+    </tr>
+    <tr>
+      <td>Medium</td>
+      <td>768/48</td>
+      <td>Overlay</td>
+      <td>Semi-bold/600</td>
+      <td>Hide Menu</td>
+    </tr>
+    <tr>
+      <td>Large</td>
+      <td>992/62</td>
+      <td>Overlay or Push	</td>
+      <td>Hide or Collapse</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>X-Large</td>
+      <td>1200/75</td>
+      <td>Overlay or Push	</td>
+      <td>Hide or Collapse</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>XX-Large</td>
+      <td>1600/100</td>
+      <td>Overlay or Push	</td>
+      <td>Hide or Collapse</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Accessibility
 
