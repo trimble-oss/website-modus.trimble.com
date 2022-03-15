@@ -4,11 +4,7 @@ layout: "single"
 description: "Vertical, collapsible navigation on the left side of the application."
 components: true
 images:
-  - "/img/headers/components/side-nav.png"
-aliases:
-  - "/side-navigation.html"
-  - "/components/side-navigation/"
-bootstrapURL: "/components/side-navigation/"
+  - "/img/headers/components/side-navigation.png"
 ---
 
 ## Overview
@@ -17,7 +13,7 @@ The side navigation of an application provides context through accessible menu o
 
 The side navigation is a collapsible side content of the site’s pages. It is located alongside the page’s primary content. The component is designed to add side content to a fullscreen application. It is activated through the "hamburger" menu in the [Navbar](/components/navbar/).
 
-There are other types of navigation that can be used along with the Side Nav:\_ [Breadcrumbs](/components/breadcrumbs/), [Navbar](/components/navbar/), [Tabs](/components/tabs/), [Content Tree](/components/content-tree/)
+There are other types of navigation that can be used along with the Side Nav: [Breadcrumbs](/components/breadcrumbs/), [Navbar](/components/navbar/), [Tabs](/components/tabs/), [Content Tree](/components/content-tree/)
 
 ## Usage
 
@@ -49,13 +45,19 @@ This expanding functionality either a.) overlays the page’s content or b.) pus
 
 - Use this type of side nav, when the content on the page is difficult to resize.
 
-[Add Animation Here]
+<video width=300 controls autoplay=false>
+    <source src="/img/side-nav-overlay-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 ### Push Side Nav
 
 - The expanded menu pushes the content of the page.
 
-[Add Animation Here]
+<video width=300 controls autoplay=false>
+    <source src="/img/side-nav-push-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 ## Specifications
 
@@ -82,13 +84,18 @@ This expanding functionality either a.) overlays the page’s content or b.) pus
 
 ### Colors
 
-There are two color options available and either can be used with the white or blue [Topnav](/components/topnav/).
+There are two color options available. They can be used in the following combinations:
+- White [Navbar](/components/navbar/) with white Side Navigation.
 
 ![White Navigation](/img/sidenav-states.png)
 
+- Blue [Navbar](/components/navbar/) with white Side Navigation.
+
 ![Blue and White Navigation](/img/sidenav-states-2.png)
 
-![Blue Navigation](/img/sidenav-states-3.png)
+- White [Navbar](/components/navbar/) with blue Side Navigation.
+
+![White and Blue Navigation](/img/sidenav-states-3.png)
 
 <table class="table table-bordered bg-white">
   <thead class="thead-light">
@@ -233,7 +240,10 @@ There are two color options available and either can be used with the white or b
   - The folder's name appears on top of the side nav to let the user know his/ her location or level.
   - To return to the previous level, the user may use the back button on top of the side nav.
 
-[Add animation/ movie]
+<video width=300 controls autoplay=false>
+    <source src="/img/side-nav-levels-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 #### Animation
 
