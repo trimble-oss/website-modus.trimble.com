@@ -49,13 +49,19 @@ This expanding functionality either a.) overlays the page’s content or b.) pus
 
 - Use this type of side nav, when the content on the page is difficult to resize.
 
-[Add Animation Here]
+<video width=300 controls autoplay=false>
+    <source src="/img/side-nav-overlay-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 ### Push Side Nav
 
 - The expanded menu pushes the content of the page.
 
-[Add Animation Here]
+<video width=300 controls autoplay=false>
+    <source src="/img/side-nav-push-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 ## Specifications
 
@@ -87,8 +93,6 @@ There are two color options available and either can be used with the white or b
 ![White Navigation](/img/sidenav-states.png)
 
 ![Blue and White Navigation](/img/sidenav-states-2.png)
-
-![Blue Navigation](/img/sidenav-states-3.png)
 
 <table class="table table-bordered bg-white">
   <thead class="thead-light">
@@ -233,7 +237,10 @@ There are two color options available and either can be used with the white or b
   - The folder's name appears on top of the side nav to let the user know his/ her location or level.
   - To return to the previous level, the user may use the back button on top of the side nav.
 
-[Add animation/ movie]
+<video width=300 controls autoplay=false>
+    <source src="/img/side-nav-levels-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 #### Animation
 
