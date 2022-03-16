@@ -17,7 +17,7 @@ The side navigation of an application provides context through accessible menu o
 
 The side navigation is a collapsible side content of the site’s pages. It is located alongside the page’s primary content. The component is designed to add side content to a fullscreen application. It is activated through the "hamburger" menu in the [Navbar](/components/navbar/).
 
-There are other types of navigation that can be used along with the Side Nav:\_ [Breadcrumbs](/components/breadcrumbs/), [Navbar](/components/navbar/), [Tabs](/components/tabs/), [Content Tree](/components/content-tree/)
+There are other types of navigation that can be used along with the Side Nav: [Breadcrumbs](/components/breadcrumbs/), [Navbar](/components/navbar/), [Tabs](/components/tabs/), [Content Tree](/components/content-tree/)
 
 ## Usage
 
