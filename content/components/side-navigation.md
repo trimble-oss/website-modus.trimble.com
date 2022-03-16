@@ -94,8 +94,6 @@ There are two color options available and either can be used with the white or b
 
 ![Blue and White Navigation](/img/sidenav-states-2.png)
 
-![White and Blue Navigation](img/slidenav-states-3.png)
-
 <table class="table table-bordered bg-white">
   <thead class="thead-light">
     <tr>
