@@ -1,5 +1,5 @@
 {
-  "name": "modus-framework-styleguide",
+  "name": "modus-styleguide",
   "version": "1.0.0",
   "private": true,
   "description": "The Modus Design System site built with Hugo",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@bitbucket.trimble.tools/tmds/modus-styleguide.git"
+    "url": "git@github.com:trimble-oss/website-modus.trimble.com.git"
   },
   "license": "private",
   "author": "Trimble",

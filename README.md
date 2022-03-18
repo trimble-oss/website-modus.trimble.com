@@ -1,6 +1,6 @@
-# Modus Framework Styleguide
+# Modus Styleguide
 
-The Modus Framework was developed as a common, open source platform for all of Trimble's web applications.
+The Modus design system was developed as a common, open source platform for all of Trimble's web applications.
 
 ## Setup
 
@@ -28,15 +28,6 @@ npm run serve
 ```bash
 npm run build
 ```
-
-## Links
-
-| Resource | Link                                    |
-| -------- | --------------------------------------- |
-| Dev      | https://styleguide-dev.trimblemaps.com/ |
-| Pre-Prod | https://styles-dev.trimblemaps.com/     |
-| Prod     | https://modus.trimble.com               |
-| Jenkins  | http://pri-dev-ub03:8080/view/Modus/    |
 
 ## Testing and Audits
 
