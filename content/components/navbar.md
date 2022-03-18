@@ -311,6 +311,10 @@ Used only for "global" MyTrimble account items. Appears consistently everywhere 
 
 ### Accessibility
 
+- Use unordered list `<ul>` groups for navbar items.
+- Place navbar (the list group) in a `nav` element. The `nav` element should also be marked with `aria-label="main navigation"` to clearly describe the type of navigation.
+- Place the `nav` element within the `<header>` region.
+- Use the `aria-current="true"` attribute to indicate the item that is currently selected, or—in a navigational context—use `aria-current="page"` to indicate the page that is currently selected. The `aria-current` attribute should be updated when the user makes a selection.
 - Provide alt text for product logo.
 - Provide tooltips for icons.
 
@@ -331,4 +335,5 @@ Reference for more detail: [https://webaim.org/techniques/skipnav/](https://weba
 | Date     | Version | Notes              | Contributors                                                                     |
 | -------- | ------- | ------------------ | -------------------------------------------------------------------------------- |
 | 05/26/21 | 1.1.0   | New pattern added. | S. Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor |
+| 03/14/22 | 1.3.0 | Updated accessibility guidelines and example images. | S. Kaukonen, E. Nowak |
 {{</ whats-changed-table >}}
