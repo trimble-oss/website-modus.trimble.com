@@ -8,7 +8,6 @@ images:
 aliases:
   - "/side-navigation.html"
   - "/components/side-navigation/"
-bootstrapURL: "/components/side-navigation/"
 ---
 
 ## Overview
@@ -89,15 +88,15 @@ This expanding functionality either a.) overlays the page’s content or b.) pus
 ### Colors
 
 There are two color options available. They can be used in the following combinations:
-- White [Topnav](/components/topnav/) with white Side Navigation.
+- White [Navbar](/components/navbar/) with white Side Navigation.
 
 ![White Navigation](/img/sidenav-states.png)
 
-- Blue [Topnav](/components/topnav/) with white Side Navigation.
+- Blue [Navbar](/components/navbar/) with white Side Navigation.
 
 ![Blue and White Navigation](/img/sidenav-states-2.png)
 
-- White [Topnav](/components/topnav/) with blue Side Navigation.
+- White [Navbar](/components/navbar/) with blue Side Navigation.
 
 ![White and Blue Navigation](/img/sidenav-states-3.png)
 
