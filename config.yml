@@ -132,6 +132,8 @@ menu:
       url: /components/progress-bars/
     - name: Radio Buttons
       url: /components/radio-buttons/
+    - name: Side Navigation
+      url: /components/side-navigation/
     - name: Sliders
       url: /components/sliders/
     - name: Spinners
