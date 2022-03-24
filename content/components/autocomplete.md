@@ -28,11 +28,11 @@ An autocomplete dropdown allows the user to search and select one option from a 
 
 ## Specifications
 
-- Label Text Color:  #464B52
-- Input Text Color:  #252A2E
-- Placeholder Text Color:  #B7B9C3
-- Border Color:  #E0E1E9 (bottom border  #6A6E79 )
-- List Subcategory Label Color: #8c8b96  `NOT CORRECT`
+- Label Text Color: {{< color-preview hex="#464b52">}}
+- Input Text Color: {{< color-preview hex="#252A2E">}}
+- Placeholder Text Color: {{< color-preview hex="#B7B9C3">}}
+- Border Color: {{< color-preview hex="#E0E1E9">}} (bottom border {{< color-preview hex="#6A6E79">}} )
+- List Subcategory Label Color: {{< color-preview hex="#8c8b96">}} `NOT CORRECT`
 
 There are two sizes of autocomplete input fields defined:
 
@@ -69,11 +69,11 @@ Use a chip to clear the filled selection. Use in the larger variant (48px).
 
 ### Accessibility
 
-- Always use a `label`. Use a hidden label, or a title or `aria-label` attribute when a visible text label is not needed.
+- Always use a `label`. Use a hidden `label`, or a `title` or `aria-label` attribute when a visible text label is not needed.
 - Associate form labels with controls.
-- Never replace labels with placeholder text.
-- Always specify the correct input type (e.g. date, email, tel, number)
-- Match `for` and `id` values that associate the label with its form control. Because `id` attribute values must be unique on each page, a form control can only have one associated label.
+- Never replace `label` with `placeholder` text.
+- Always specify the correct input type (e.g. `date`, `email`, `tel`, `number`)
+- Match `for` and `id` values that associate the label with its form control. Because `id` attribute values must be unique on each page, a form control can only have one associated `label`.
 - Whenever possible use the `autocomplete` ARIA attribute to help users (especially users with cognitive disabilities) fill out the form: `aria-autocomplete=true` (see additional resources for [Legacy ARIA 1.0 Combobox with Both List and Inline Autocomplete](https://www.w3.org/TR/wai-aria-practices-1.1/examples/combobox/aria1.0pattern/combobox-autocomplete-both.html) and [Editable Combobox with Both List and Inline Autocomplete](https://w3c.github.io/aria-practices/examples/combobox/combobox-autocomplete-both.html).
 - On required fields, use the `required` attribute. It causes screen readers to announce “required” and also triggers the browser to warn the user with a visual tooltip if the user leaves the field blank. Screen readers also announce the tooltip content, when it appears.
 - When performing form validation, apply the `aria-invalid="true"` attribute to a form control. It will cause screen readers to announce “invalid” when that control gets in focus.
