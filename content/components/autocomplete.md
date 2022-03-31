@@ -111,6 +111,6 @@ A chip __can__ be used to clear the filled selection instead of the default “X
 
 | Date       | Version | Notes                               | Contributors |
 | ---------- | ------- | ----------------------------------- | ------------ |
-| 03/30/2022 | 1.3.0   | New component submitted. | S. Edwards  |
+| 03/30/2022 | 1.3.0   | New component submitted. | S. Edwards, E. Gunther  |
 
 {{</ whats-changed-table >}}
