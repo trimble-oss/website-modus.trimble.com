@@ -14,30 +14,48 @@ contributors: ""
 
 An autocomplete dropdown allows the user to search and select one option from a set of choices. When the user enters text into the input field, a list of suggestions are provided.
 
+![Autocomplete Example](/img/autocomplete-overview.svg)
+
 ## Usage
 
 **Use when**
 
-- Gathering and validating user data.
-- Filtering or sorting content on a page.
-- A single selection from a list is necessary.
+- Searching and results can be auto-populated.
+- Application requires predictive, suggestive or instant search results
+- Filtering list items.
+- Single selection from a list is necessary.
 
 **Don’t use when**
 
-- Providing only two options. Instead, use a [Radio Buttons](/components/radio-buttons/) or a [Switch](/components/switches/).
+- Providing only two options. Instead, use [Radio Buttons](/components/radio-buttons/) or a [Switch](/components/switches/).
+
+## Types
+Autocomplete comes in three varieties:
+
+- **Basic Autocomplete**: Typical “search-as-you-type” function that matches what a person is typing, usually the beginning of a word, or a prefix, part of a word or with a word list.
+- **Autocomplete Suggestions**:  Suggestions not only predict user intentions, but they also help users construct more useful searches than they might on their own. Suggestions go beyond matching text strings by including new search items within the suggested results. It is useful during information-seeking tasks, where there isn’t a single “right answer.”
+- **Instant Results**: Sometimes users may prefer to autocomplete actual search results instead of retooling their search phrase. For example, the display of rich information right in the autocomplete instead of a list of suggestions that lead to a search results page.
+
+![Autocomplete Types](/img/autocomplete-types.svg)
 
 ## Specifications
+
+![Anatomy](/img/autocomplete-anatomy.svg)
+
+See [Inputs](/components/inputs/) and [Lists](/components/lists/) for additional specifications.
 
 - Label Text Color: {{< color-preview hex="#464b52">}}
 - Input Text Color: {{< color-preview hex="#252A2E">}}
 - Placeholder Text Color: {{< color-preview hex="#B7B9C3">}}
 - Border Color: {{< color-preview hex="#E0E1E9">}} (bottom border {{< color-preview hex="#6A6E79">}} )
-- List Subcategory Label Color: {{< color-preview hex="#8c8b96">}} `NOT CORRECT`
+- List Subcategory Label Color: {{< color-preview hex="#6a6e79">}}
 
 There are two sizes of autocomplete input fields defined:
 
 - **Default:** default form inputs should have a height of 32px (8px padding) and a font size of 12px (.75rem). Used for most forms.
 - **Large:** larger variant should have a height of 48px (16px padding) and a font size of 14px (.875rem). Used for forms in in-cab applications
+
+![Autocomplete Sizing](/img/autocomplete-sizing.svg)
 
 **Text input field**
 Users input text and they are provided with a list of suggestions to choose from. When the user selects an option, the choice is then displayed in the field.
@@ -45,11 +63,13 @@ Users input text and they are provided with a list of suggestions to choose from
 **Selection menu**
 A list of selectable options that can be grouped into sub-categories. Sub-category titles should be written in all caps. The list of options should appear in alphabetical order by default. In some cases it might be best to list in order of importance.
 
-**Delete text icon**
+**Clear text icon**
 Clears all text from the input field or reverts to the default selection (or previous selection).
 
 **Chip** (optional)
-Use a chip to clear the filled selection. Use in the larger variant (48px).
+A chip __can__ be used to clear the filled selection instead of the default “X” clear icon but only in the larger (48px) variant. **Please use one or the other but never both.**
+
+![Autocomplete Chip](/img/autocomplete-clear.svg)
 
 ### Behaviors
 
@@ -61,10 +81,12 @@ Use a chip to clear the filled selection. Use in the larger variant (48px).
 - When the list exceeds 1,499 options, lazy load the content and provide pagination at the bottom of the list.
 - For validation and states follow the [Inputs](/components/inputs/#behaviors) guidelines.
 
+![No Results Example](/img/autocomplete-noresults.svg)
+
 ### Editorial
 
 - When possible, add helper text below an input field to further clarify selections or validation errors.
-- Always mark required fields with an * .
+- Always mark **required** fields with an * .
 - Provide input constraints, such as a character limit within a text entry box to provide guidelines and improve form efficiency.
 
 ### Accessibility

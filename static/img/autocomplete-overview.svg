@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="790" height="283" viewBox="0 0 790 283">
+  <defs>
+    <filter id="Rectangle_3464" x="72" y="65" width="292" height="180" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3464-2" x="418" y="65" width="292" height="84" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="overview" transform="translate(0 -37)">
+    <g id="Rectangle_3463" data-name="Rectangle 3463" transform="translate(0 37)" fill="#f1f1f6" stroke="#cbcdd6" stroke-width="1">
+      <rect width="790" height="283" stroke="none"/>
+      <rect x="0.5" y="0.5" width="789" height="282" fill="none"/>
+    </g>
+    <g id="search_Menu" data-name="search + Menu" transform="translate(27 -20)">
+      <g id="Search_Input" data-name="Search Input" transform="translate(51 96)">
+        <g id="Rectangle_1841" data-name="Rectangle 1841" fill="#fff" stroke="#e0e1e9" stroke-width="1">
+          <path d="M2,0H278a2,2,0,0,1,2,2V32a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" stroke="none"/>
+          <path d="M2,.5H278A1.5,1.5,0,0,1,279.5,2V31.5a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V2A1.5,1.5,0,0,1,2,.5Z" fill="none"/>
+        </g>
+        <rect id="Bottom_Line" data-name="Bottom Line" width="280" height="2" transform="translate(0 30)" fill="#217cbb"/>
+        <g id="Search_Icon" data-name="Search Icon" transform="translate(8 6)">
+          <path id="Path_6175" data-name="Path 6175" d="M0,0H20V20H0Z" fill="none"/>
+          <path id="Path_6176" data-name="Path 6176" d="M12.641,11.484h-.609l-.216-.208a5.021,5.021,0,1,0-.54.54l.208.216v.609l3.856,3.849,1.149-1.149Zm-4.628,0a3.471,3.471,0,1,1,3.471-3.471A3.466,3.466,0,0,1,8.013,11.484Z" fill="#6a6e79"/>
+        </g>
+        <text id="All_Projects" data-name="All Projects" transform="translate(36 20)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">All Projects</tspan></text>
+        <line id="cursor" y2="18" transform="translate(100.5 6.5)" fill="none" stroke="#252a2e" stroke-width="1"/>
+      </g>
+      <g id="Group_156743" data-name="Group 156743">
+        <g transform="matrix(1, 0, 0, 1, -27, 57)" filter="url(#Rectangle_3464)">
+          <rect id="Rectangle_3464-3" data-name="Rectangle 3464" width="280" height="168" transform="translate(78 71)" fill="#fff"/>
+        </g>
+        <g id="Group_156742" data-name="Group 156742">
+          <g id="List_Item_Condensed" data-name="List Item Condensed" transform="translate(52 256)">
+            <rect id="Rectangle_3286" data-name="Rectangle 3286" width="277" height="32" fill="#fff"/>
+            <text id="UA28_Lighting_Upgrade_PS" data-name="UA28 Lighting Upgrade PS" transform="translate(11 21)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">UA28 Lighting Upgrade PS</tspan></text>
+            <g id="Group_6796" data-name="Group 6796" transform="translate(256.225 8)" opacity="0">
+              <rect id="icon-box" width="14" height="14" transform="translate(-0.225)" fill="none"/>
+              <path id="check" d="M342.955,67.42l-2.17-2.17-.785.739,2.955,2.955,6.279-6.325-.739-.739Z" transform="translate(-337.692 -58.487)" fill="#252a2e"/>
+            </g>
+          </g>
+          <g id="List_Item_Condensed-2" data-name="List Item Condensed" transform="translate(52 224)">
+            <rect id="Rectangle_3286-2" data-name="Rectangle 3286" width="277" height="32" fill="#fff"/>
+            <text id="CP5978_New_Utility_Plant" data-name="CP5978 New Utility Plant" transform="translate(11 21)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">CP5978 New Utility Plant</tspan></text>
+            <g id="Group_6796-2" data-name="Group 6796" transform="translate(256.225 8)" opacity="0">
+              <rect id="icon-box-2" data-name="icon-box" width="14" height="14" transform="translate(-0.225)" fill="none"/>
+              <path id="check-2" data-name="check" d="M342.955,67.42l-2.17-2.17-.785.739,2.955,2.955,6.279-6.325-.739-.739Z" transform="translate(-337.692 -58.487)" fill="#252a2e"/>
+            </g>
+          </g>
+          <g id="List_Item_Condensed-3" data-name="List Item Condensed" transform="translate(52 192)">
+            <rect id="Rectangle_3286-3" data-name="Rectangle 3286" width="277" height="32" fill="#fff"/>
+            <text id="_6020_Independence_High_School" data-name="6020  Independence High School" transform="translate(11 21)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0" xml:space="preserve">6020  Independence High School</tspan></text>
+            <g id="Group_6796-3" data-name="Group 6796" transform="translate(256.225 8)" opacity="0">
+              <rect id="icon-box-3" data-name="icon-box" width="14" height="14" transform="translate(-0.225)" fill="none"/>
+              <path id="check-3" data-name="check" d="M342.955,67.42l-2.17-2.17-.785.739,2.955,2.955,6.279-6.325-.739-.739Z" transform="translate(-337.692 -58.487)" fill="#252a2e"/>
+            </g>
+          </g>
+          <g id="List_Item_Condensed-4" data-name="List Item Condensed" transform="translate(52 160)">
+            <rect id="Rectangle_3286-4" data-name="Rectangle 3286" width="277" height="32" fill="#fff"/>
+            <text id="_2019_Holland_active_project" data-name="2019 Holland active project" transform="translate(11 21)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">2019 Holland active project</tspan></text>
+            <g id="Group_6796-4" data-name="Group 6796" transform="translate(256.225 8)" opacity="0">
+              <rect id="icon-box-4" data-name="icon-box" width="14" height="14" transform="translate(-0.225)" fill="none"/>
+              <path id="check-4" data-name="check" d="M342.955,67.42l-2.17-2.17-.785.739,2.955,2.955,6.279-6.325-.739-.739Z" transform="translate(-337.692 -58.487)" fill="#252a2e"/>
+            </g>
+          </g>
+          <g id="List_Item_Condensed-5" data-name="List Item Condensed" transform="translate(52 128)">
+            <rect id="Rectangle_3286-5" data-name="Rectangle 3286" width="277" height="32" fill="#fff"/>
+            <text id="All_Projects-2" data-name="All Projects" transform="translate(11 21)" fill="#217cbb" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">All Projects</tspan></text>
+            <g id="Group_6796-5" data-name="Group 6796" transform="translate(256.225 8)" opacity="0">
+              <rect id="icon-box-5" data-name="icon-box" width="14" height="14" transform="translate(-0.225)" fill="none"/>
+              <path id="check-5" data-name="check" d="M342.955,67.42l-2.17-2.17-.785.739,2.955,2.955,6.279-6.325-.739-.739Z" transform="translate(-337.692 -58.487)" fill="#252a2e"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="search_Menu-2" data-name="search + Menu" transform="translate(373 -20)">
+      <g id="Search_Input-2" data-name="Search Input" transform="translate(51 96)">
+        <g id="Rectangle_1841-2" data-name="Rectangle 1841" fill="#fff" stroke="#e0e1e9" stroke-width="1">
+          <path d="M2,0H278a2,2,0,0,1,2,2V32a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" stroke="none"/>
+          <path d="M2,.5H278A1.5,1.5,0,0,1,279.5,2V31.5a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V2A1.5,1.5,0,0,1,2,.5Z" fill="none"/>
+        </g>
+        <rect id="Bottom_Line-2" data-name="Bottom Line" width="280" height="2" transform="translate(0 30)" fill="#217cbb"/>
+        <g id="Search_Icon-2" data-name="Search Icon" transform="translate(8 6)">
+          <path id="Path_6175-2" data-name="Path 6175" d="M0,0H20V20H0Z" fill="none"/>
+          <path id="Path_6176-2" data-name="Path 6176" d="M12.641,11.484h-.609l-.216-.208a5.021,5.021,0,1,0-.54.54l.208.216v.609l3.856,3.849,1.149-1.149Zm-4.628,0a3.471,3.471,0,1,1,3.471-3.471A3.466,3.466,0,0,1,8.013,11.484Z" fill="#6a6e79"/>
+        </g>
+        <text id="act" transform="translate(36 20)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">act</tspan></text>
+        <line id="cursor-2" data-name="cursor" y2="18" transform="translate(55.5 6.5)" fill="none" stroke="#252a2e" stroke-width="1"/>
+        <g id="search-clear-icon" transform="translate(252 8)">
+          <rect id="icon-box-6" data-name="icon-box" width="16" height="16" fill="none"/>
+          <path id="close" d="M68,228.8l-.8-.8L64,231.2,60.8,228l-.8.8,3.2,3.2L60,235.2l.8.8,3.2-3.2,3.2,3.2.8-.8L64.8,232Z" transform="translate(-56 -224)" fill="#6a6e79"/>
+        </g>
+      </g>
+      <g id="Group_156743-2" data-name="Group 156743">
+        <g transform="matrix(1, 0, 0, 1, -373, 57)" filter="url(#Rectangle_3464-2)">
+          <rect id="Rectangle_3464-4" data-name="Rectangle 3464" width="280" height="72" transform="translate(424 71)" fill="#fff"/>
+        </g>
+        <g id="Group_156742-2" data-name="Group 156742">
+          <g id="List_Item_Condensed-6" data-name="List Item Condensed" transform="translate(52 160)">
+            <rect id="Rectangle_3286-6" data-name="Rectangle 3286" width="277" height="32" fill="#fff"/>
+            <text id="UA28_Lighting_Upgrade_active_PS" data-name="UA28 Lighting Upgrade active  PS" transform="translate(11 21)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">UA28 Lighting Upgrade </tspan><tspan y="0" font-family="OpenSans-Bold, Open Sans" font-weight="700">act</tspan><tspan y="0" xml:space="preserve">ive  PS</tspan></text>
+            <g id="Group_6796-6" data-name="Group 6796" transform="translate(256.225 8)" opacity="0">
+              <rect id="icon-box-7" data-name="icon-box" width="14" height="14" transform="translate(-0.225)" fill="none"/>
+              <path id="check-6" data-name="check" d="M342.955,67.42l-2.17-2.17-.785.739,2.955,2.955,6.279-6.325-.739-.739Z" transform="translate(-337.692 -58.487)" fill="#252a2e"/>
+            </g>
+          </g>
+          <g id="List_Item_Condensed-7" data-name="List Item Condensed" transform="translate(52 128)">
+            <rect id="Rectangle_3286-7" data-name="Rectangle 3286" width="277" height="32" fill="#fff"/>
+            <text id="_2019_Holland_active_project-2" data-name="2019 Holland active project" transform="translate(11 21)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">2019 Holland </tspan><tspan y="0" font-family="OpenSans-Bold, Open Sans" font-weight="700">act</tspan><tspan y="0">ive project</tspan></text>
+            <g id="Group_6796-7" data-name="Group 6796" transform="translate(256.225 8)" opacity="0">
+              <rect id="icon-box-8" data-name="icon-box" width="14" height="14" transform="translate(-0.225)" fill="none"/>
+              <path id="check-7" data-name="check" d="M342.955,67.42l-2.17-2.17-.785.739,2.955,2.955,6.279-6.325-.739-.739Z" transform="translate(-337.692 -58.487)" fill="#252a2e"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

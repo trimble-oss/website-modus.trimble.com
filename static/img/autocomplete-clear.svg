@@ -1,0 +1,75 @@
+<svg id="autocomplete-clear" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="790" height="327.333" viewBox="0 0 790 327.333">
+  <defs>
+    <filter id="Rectangle_3464" x="237" y="79" width="292" height="212" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="autocomplete-sizing">
+    <g id="Path_6582" data-name="Path 6582" fill="#f1f1f6">
+      <path d="M 789.5 326.8333740234375 L 0.5 326.8333740234375 L 0.5 0.499987006187439 L 789.5 0.499987006187439 L 789.5 326.8333740234375 Z" stroke="none"/>
+      <path d="M 1 1 L 1 326.3333740234375 L 789 326.3333740234375 L 789 1 L 1 1 M 0 0 L 790 0 L 790 327.3333740234375 L 0 327.3333740234375 L 0 0 Z" stroke="none" fill="#cbcdd6"/>
+    </g>
+  </g>
+  <g id="Group_156790" data-name="Group 156790" transform="translate(0 -57)">
+    <g transform="matrix(1, 0, 0, 1, 0, 57)" filter="url(#Rectangle_3464)">
+      <rect id="Rectangle_3464-2" data-name="Rectangle 3464" width="280" height="200" transform="translate(243 85)" fill="#fff"/>
+    </g>
+    <g id="Group_156742" data-name="Group 156742" transform="translate(192 14)">
+      <g id="List_Item_Radio_Button" data-name="List Item Radio Button" transform="translate(52 272)">
+        <rect id="Rectangle_3287" data-name="Rectangle 3287" width="280" height="48" fill="#fff"/>
+        <g id="Group_156762" data-name="Group 156762" transform="translate(7)">
+          <text id="Menu_List_Item" data-name="Menu List Item" transform="translate(9 30)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Menu List Item</tspan></text>
+        </g>
+      </g>
+      <g id="List_Item_Radio_Button-2" data-name="List Item Radio Button" transform="translate(52 224)">
+        <rect id="Rectangle_3287-2" data-name="Rectangle 3287" width="280" height="48" fill="#fff"/>
+        <g id="Group_156762-2" data-name="Group 156762" transform="translate(7)">
+          <text id="Menu_List_Item-2" data-name="Menu List Item" transform="translate(9 30)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Menu List Item</tspan></text>
+        </g>
+      </g>
+      <g id="List_Item_Radio_Button-3" data-name="List Item Radio Button" transform="translate(52 176)">
+        <rect id="Rectangle_3287-3" data-name="Rectangle 3287" width="280" height="48" fill="#fff"/>
+        <g id="Group_156762-3" data-name="Group 156762" transform="translate(7)">
+          <text id="Menu_List_Item-3" data-name="Menu List Item" transform="translate(9 30)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Menu List Item</tspan></text>
+        </g>
+      </g>
+      <g id="List_Item_Radio_Button-4" data-name="List Item Radio Button" transform="translate(52 128)">
+        <rect id="Rectangle_3287-4" data-name="Rectangle 3287" width="280" height="48" fill="#fff"/>
+        <g id="Group_156762-4" data-name="Group 156762" transform="translate(7)">
+          <text id="Menu_List_Item-4" data-name="Menu List Item" transform="translate(9 30)" fill="#252a2e" font-size="16" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Menu List Item</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="Search_Input_-_Lrg" data-name="Search Input - Lrg" transform="translate(243 37)">
+    <g id="Rectangle_1841" data-name="Rectangle 1841" fill="#fff" stroke="#e0e1e9" stroke-width="1">
+      <path d="M2,0H278a2,2,0,0,1,2,2V48a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" stroke="none"/>
+      <path d="M2,.5H278A1.5,1.5,0,0,1,279.5,2V47.5a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V2A1.5,1.5,0,0,1,2,.5Z" fill="none"/>
+    </g>
+    <rect id="Bottom_Line" data-name="Bottom Line" width="280" height="2" transform="translate(0 46)" fill="#217cbb"/>
+    <g id="Search_Icon" data-name="Search Icon" transform="translate(16 12)">
+      <path id="Path_6175" data-name="Path 6175" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_6176" data-name="Path 6176" d="M15.5,14h-.79l-.28-.27a6.51,6.51,0,1,0-.7.7l.27.28v.79l5,4.99L20.49,19Zm-6,0A4.5,4.5,0,1,1,14,9.5,4.494,4.494,0,0,1,9.5,14Z" fill="#6a6e79"/>
+    </g>
+    <text id="Men" transform="translate(56 29.467)" fill="#252a2e" font-size="14" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Men</tspan></text>
+    <g id="search-clear-icon" transform="translate(248 14)" opacity="0">
+      <rect id="icon-box" width="20" height="20" fill="none"/>
+      <path id="close" d="M72,229.2,70.8,228,66,232.8,61.2,228,60,229.2l4.8,4.8L60,238.8l1.2,1.2,4.8-4.8,4.8,4.8,1.2-1.2L67.2,234Z" transform="translate(-56 -224)" fill="#6a6e79"/>
+    </g>
+    <line id="cursor" y2="20" transform="translate(85.5 14.5)" fill="none" stroke="#252a2e" stroke-width="1"/>
+  </g>
+  <g id="Input_Chip" data-name="Input Chip" transform="translate(430 45)">
+    <g id="Group_6327" data-name="Group 6327" transform="translate(-698 -117)">
+      <rect id="Rectangle_3305" data-name="Rectangle 3305" width="87" height="32" rx="16" transform="translate(698 117)" fill="#cbcdd6"/>
+      <g id="icon_delete_chip" transform="translate(753.265 121.164)">
+        <path id="icon_chip_delete" d="M154.389-10.882l-1.271,1.271-3.229-3.229L146.66-9.611l-1.271-1.271,3.229-3.229-3.229-3.229,1.271-1.271,3.229,3.229,3.229-3.229,1.271,1.271-3.229,3.229Zm-4.5-12.229a9,9,0,0,0-9,9,9,9,0,0,0,9,9,9,9,0,0,0,9-9,9,9,0,0,0-9-9Z" transform="translate(-137.942 25.778)" fill="#353a40" fill-rule="evenodd"/>
+        <rect id="Rectangle_3227" data-name="Rectangle 3227" width="24" height="24" transform="translate(0)" fill="none"/>
+      </g>
+    </g>
+    <text id="Clear" transform="translate(12 21)" fill="#353a40" font-size="14" font-family="OpenSans-Semibold, Open Sans" font-weight="600" letter-spacing="-0.008em"><tspan x="0" y="0">Clear</tspan></text>
+  </g>
+</svg>

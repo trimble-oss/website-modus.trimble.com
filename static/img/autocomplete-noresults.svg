@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="790" height="253" viewBox="0 0 790 253">
+  <defs>
+    <filter id="Rectangle_3464" x="251" y="88" width="292" height="117" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="autocomplete-noresults" transform="translate(0 -13)">
+    <g id="autocomplete-clear" transform="translate(0 13)">
+      <g id="autocomplete-sizing">
+        <g id="Path_6582" data-name="Path 6582" fill="#f1f1f6">
+          <path d="M 789.5 252.5 L 0.5 252.5 L 0.5 0.5 L 789.5 0.5 L 789.5 252.5 Z" stroke="none"/>
+          <path d="M 1 1 L 1 252 L 789 252 L 789 1 L 1 1 M 0 0 L 790 0 L 790 253 L 0 253 L 0 0 Z" stroke="none" fill="#cbcdd6"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_156792" data-name="Group 156792">
+      <g transform="matrix(1, 0, 0, 1, 0, 13)" filter="url(#Rectangle_3464)">
+        <rect id="Rectangle_3464-2" data-name="Rectangle 3464" width="280" height="105" transform="translate(257 94)" fill="#fff"/>
+      </g>
+      <g id="Input" transform="translate(257 50)">
+        <g id="Group_6710" data-name="Group 6710" transform="translate(-55 -335)">
+          <g id="Rectangle_1841" data-name="Rectangle 1841" transform="translate(55 359)" fill="#fff" stroke="#e0e1e9" stroke-width="1">
+            <path d="M2,0H278a2,2,0,0,1,2,2V32a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" stroke="none"/>
+            <path d="M2,.5H278A1.5,1.5,0,0,1,279.5,2V31.5a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V2A1.5,1.5,0,0,1,2,.5Z" fill="none"/>
+          </g>
+          <rect id="Bottom_Line" data-name="Bottom Line" width="280" height="2" transform="translate(55 389)" fill="#217cbb"/>
+        </g>
+        <text id="Label" transform="translate(0 13)" fill="#464b52" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Label</tspan></text>
+        <text id="kAbvui" transform="translate(16 44)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">kAbvui</tspan></text>
+        <text id="Helper_Text" data-name="Helper Text" transform="translate(0 69)" fill="#464b52" font-size="10.5" font-family="OpenSans, Open Sans" opacity="0"><tspan x="0" y="0">Helper Text</tspan></text>
+      </g>
+    </g>
+    <line id="cursor" y2="18" transform="translate(313.5 80.5)" fill="none" stroke="#252a2e" stroke-width="1"/>
+    <g id="Group_156791" data-name="Group 156791" transform="translate(16 8)">
+      <g id="Search_Icon" data-name="Search Icon" transform="translate(299 122)">
+        <path id="Path_6175" data-name="Path 6175" d="M0,0H24V24H0Z" fill="none"/>
+        <path id="Path_6176" data-name="Path 6176" d="M15.5,14h-.79l-.28-.27a6.51,6.51,0,1,0-.7.7l.27.28v.79l5,4.99L20.49,19Zm-6,0A4.5,4.5,0,1,1,14,9.5,4.494,4.494,0,0,1,9.5,14Z" fill="#6a6e79"/>
+      </g>
+      <text id="No_results_found" data-name="No results found" transform="translate(331 139)" fill="#6a6e79" font-size="16" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">No results found</tspan></text>
+    </g>
+    <text id="Check_spelling_or_try_a_different_keyword" data-name="Check spelling or try a different keyword" transform="translate(282 174)" fill="#b7b9c3" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Check spelling or try a different keyword</tspan></text>
+  </g>
+</svg>

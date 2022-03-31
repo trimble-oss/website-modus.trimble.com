@@ -1,0 +1,229 @@
+<svg id="anatomy" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="790" height="439" viewBox="0 0 790 439">
+  <defs>
+    <filter id="Rectangle_3464" x="470" y="154" width="292" height="180" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Rectangle_3463" data-name="Rectangle 3463" fill="#f1f1f6" stroke="#cbcdd6" stroke-width="1">
+    <rect width="790" height="439" stroke="none"/>
+    <rect x="0.5" y="0.5" width="789" height="438" fill="none"/>
+  </g>
+  <g id="search_Menu" data-name="search + Menu" transform="translate(425 32)">
+    <g id="Search_Input" data-name="Search Input" transform="translate(51 96)">
+      <g id="Rectangle_1841" data-name="Rectangle 1841" fill="#fff" stroke="#e0e1e9" stroke-width="1">
+        <path d="M2,0H278a2,2,0,0,1,2,2V32a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" stroke="none"/>
+        <path d="M2,.5H278A1.5,1.5,0,0,1,279.5,2V31.5a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V2A1.5,1.5,0,0,1,2,.5Z" fill="none"/>
+      </g>
+      <rect id="Bottom_Line" data-name="Bottom Line" width="280" height="2" transform="translate(0 30)" fill="#217cbb"/>
+      <g id="Search_Icon" data-name="Search Icon" transform="translate(8 6)">
+        <path id="Path_6175" data-name="Path 6175" d="M0,0H20V20H0Z" fill="none"/>
+        <path id="Path_6176" data-name="Path 6176" d="M12.641,11.484h-.609l-.216-.208a5.021,5.021,0,1,0-.54.54l.208.216v.609l3.856,3.849,1.149-1.149Zm-4.628,0a3.471,3.471,0,1,1,3.471-3.471A3.466,3.466,0,0,1,8.013,11.484Z" fill="#6a6e79"/>
+      </g>
+      <text id="All_Projects" data-name="All Projects" transform="translate(36 20)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">All Projects</tspan></text>
+      <line id="cursor" y2="18" transform="translate(100.5 6.5)" fill="none" stroke="#252a2e" stroke-width="1"/>
+    </g>
+    <g id="Group_156743" data-name="Group 156743">
+      <g transform="matrix(1, 0, 0, 1, -425, -32)" filter="url(#Rectangle_3464)">
+        <rect id="Rectangle_3464-2" data-name="Rectangle 3464" width="280" height="168" transform="translate(476 160)" fill="#fff"/>
+      </g>
+      <g id="Group_156742" data-name="Group 156742">
+        <g id="List_Item_Condensed" data-name="List Item Condensed" transform="translate(52 256)">
+          <rect id="Rectangle_3286" data-name="Rectangle 3286" width="277" height="32" fill="#fff"/>
+          <text id="UA28_Lighting_Upgrade_PS" data-name="UA28 Lighting Upgrade PS" transform="translate(11 21)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">UA28 Lighting Upgrade PS</tspan></text>
+          <g id="Group_6796" data-name="Group 6796" transform="translate(256.225 8)" opacity="0">
+            <rect id="icon-box" width="14" height="14" transform="translate(-0.225)" fill="none"/>
+            <path id="check" d="M342.955,67.42l-2.17-2.17-.785.739,2.955,2.955,6.279-6.325-.739-.739Z" transform="translate(-337.692 -58.487)" fill="#252a2e"/>
+          </g>
+        </g>
+        <g id="List_Item_Condensed-2" data-name="List Item Condensed" transform="translate(52 224)">
+          <rect id="Rectangle_3286-2" data-name="Rectangle 3286" width="277" height="32" fill="#fff"/>
+          <text id="CP5978_New_Utility_Plant" data-name="CP5978 New Utility Plant" transform="translate(11 21)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">CP5978 New Utility Plant</tspan></text>
+          <g id="Group_6796-2" data-name="Group 6796" transform="translate(256.225 8)" opacity="0">
+            <rect id="icon-box-2" data-name="icon-box" width="14" height="14" transform="translate(-0.225)" fill="none"/>
+            <path id="check-2" data-name="check" d="M342.955,67.42l-2.17-2.17-.785.739,2.955,2.955,6.279-6.325-.739-.739Z" transform="translate(-337.692 -58.487)" fill="#252a2e"/>
+          </g>
+        </g>
+        <g id="List_Item_Condensed-3" data-name="List Item Condensed" transform="translate(52 192)">
+          <rect id="Rectangle_3286-3" data-name="Rectangle 3286" width="277" height="32" fill="#fff"/>
+          <text id="_6020_Independence_High_School" data-name="6020  Independence High School" transform="translate(11 21)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0" xml:space="preserve">6020  Independence High School</tspan></text>
+          <g id="Group_6796-3" data-name="Group 6796" transform="translate(256.225 8)" opacity="0">
+            <rect id="icon-box-3" data-name="icon-box" width="14" height="14" transform="translate(-0.225)" fill="none"/>
+            <path id="check-3" data-name="check" d="M342.955,67.42l-2.17-2.17-.785.739,2.955,2.955,6.279-6.325-.739-.739Z" transform="translate(-337.692 -58.487)" fill="#252a2e"/>
+          </g>
+        </g>
+        <g id="List_Item_Condensed-4" data-name="List Item Condensed" transform="translate(52 160)">
+          <rect id="Rectangle_3286-4" data-name="Rectangle 3286" width="277" height="32" fill="#fff"/>
+          <text id="_2019_Holland_active_project" data-name="2019 Holland active project" transform="translate(11 21)" fill="#252a2e" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">2019 Holland active project</tspan></text>
+          <g id="Group_6796-4" data-name="Group 6796" transform="translate(256.225 8)" opacity="0">
+            <rect id="icon-box-4" data-name="icon-box" width="14" height="14" transform="translate(-0.225)" fill="none"/>
+            <path id="check-4" data-name="check" d="M342.955,67.42l-2.17-2.17-.785.739,2.955,2.955,6.279-6.325-.739-.739Z" transform="translate(-337.692 -58.487)" fill="#252a2e"/>
+          </g>
+        </g>
+        <g id="List_Item_Condensed-5" data-name="List Item Condensed" transform="translate(52 128)">
+          <rect id="Rectangle_3286-5" data-name="Rectangle 3286" width="277" height="32" fill="#fff"/>
+          <text id="All_Projects-2" data-name="All Projects" transform="translate(11 21)" fill="#6a6e79" font-size="12" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="0" y="0">All Projects</tspan></text>
+          <g id="Group_6796-5" data-name="Group 6796" transform="translate(256.225 8)" opacity="0">
+            <rect id="icon-box-5" data-name="icon-box" width="14" height="14" transform="translate(-0.225)" fill="none"/>
+            <path id="check-5" data-name="check" d="M342.955,67.42l-2.17-2.17-.785.739,2.955,2.955,6.279-6.325-.739-.739Z" transform="translate(-337.692 -58.487)" fill="#252a2e"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="Input" transform="translate(65 103)">
+    <g id="Group_6710" data-name="Group 6710" transform="translate(-55 -335)">
+      <g id="Rectangle_1841-2" data-name="Rectangle 1841" transform="translate(55 359)" fill="#fff" stroke="#e0e1e9" stroke-width="1">
+        <path d="M2,0H278a2,2,0,0,1,2,2V32a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" stroke="none"/>
+        <path d="M2,.5H278A1.5,1.5,0,0,1,279.5,2V31.5a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V2A1.5,1.5,0,0,1,2,.5Z" fill="none"/>
+      </g>
+      <rect id="Bottom_Line-2" data-name="Bottom Line" width="280" height="1" transform="translate(55 390)" fill="#6a6e79"/>
+    </g>
+    <text id="Label" transform="translate(0 13)" fill="#464b52" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Label</tspan></text>
+    <text id="All_projects-3" data-name="All projects" transform="translate(16 44)" fill="#a3a6b1" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">All projects</tspan></text>
+    <text id="Helper_Text" data-name="Helper Text" transform="translate(0 69)" fill="#464b52" font-size="10.5" font-family="OpenSans, Open Sans" opacity="0"><tspan x="0" y="0">Helper Text</tspan></text>
+  </g>
+  <g id="Search_Input-2" data-name="Search Input" transform="translate(65 273)">
+    <g id="Rectangle_1841-3" data-name="Rectangle 1841" fill="#fff" stroke="#e0e1e9" stroke-width="1">
+      <path d="M2,0H278a2,2,0,0,1,2,2V32a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" stroke="none"/>
+      <path d="M2,.5H278A1.5,1.5,0,0,1,279.5,2V31.5a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V2A1.5,1.5,0,0,1,2,.5Z" fill="none"/>
+    </g>
+    <rect id="Bottom_Line-3" data-name="Bottom Line" width="280" height="1" transform="translate(0 31)" fill="#6a6e79"/>
+    <g id="Search_Icon-2" data-name="Search Icon" transform="translate(8 6)">
+      <path id="Path_6175-2" data-name="Path 6175" d="M0,0H20V20H0Z" fill="none"/>
+      <path id="Path_6176-2" data-name="Path 6176" d="M12.641,11.484h-.609l-.216-.208a5.021,5.021,0,1,0-.54.54l.208.216v.609l3.856,3.849,1.149-1.149Zm-4.628,0a3.471,3.471,0,1,1,3.471-3.471A3.466,3.466,0,0,1,8.013,11.484Z" fill="#6a6e79"/>
+    </g>
+    <text id="Search..." transform="translate(36 20)" fill="#b7b9c3" font-size="12" font-family="OpenSans, Open Sans"><tspan x="0" y="0">Search...</tspan></text>
+    <g id="search-clear-icon" transform="translate(252 8)" opacity="0">
+      <rect id="icon-box-6" data-name="icon-box" width="16" height="16" fill="none"/>
+      <path id="close" d="M68,228.8l-.8-.8L64,231.2,60.8,228l-.8.8,3.2,3.2L60,235.2l.8.8,3.2-3.2,3.2,3.2.8-.8L64.8,232Z" transform="translate(-56 -224)" fill="#6a6e79"/>
+    </g>
+  </g>
+  <g id="Group_156744" data-name="Group 156744" transform="translate(-140 4)">
+    <g id="Group_156714" data-name="Group 156714" transform="translate(389.25 -57.417) rotate(90)">
+      <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(144 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581" data-name="Path 6581" d="M282.084-1974H266.5" transform="translate(-138.084 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+    <text id="Label_Optional_Gray_8_" data-name="Label Optional(Gray 8)" transform="translate(181 39)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="7.996" y="11">Label </tspan><tspan y="11" font-family="OpenSans-Italic, Open Sans" font-style="italic">Optional</tspan><tspan y="11"></tspan><tspan x="22.884" y="26">(Gray 8)</tspan></text>
+  </g>
+  <g id="Group_156746" data-name="Group 156746" transform="translate(-8 44.417)">
+    <g id="Group_156714-2" data-name="Group 156714" transform="translate(389.25 -57.417) rotate(90)">
+      <g id="Ellipse_2-2" data-name="Ellipse 2" transform="translate(144 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581-2" data-name="Path 6581" d="M282.084-1974H266.5" transform="translate(-138.084 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+    <text id="Modus_Input_" data-name="Modus Input" transform="translate(181 55)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="11.263" y="11">Modus Input</tspan></text>
+  </g>
+  <g id="Group_156747" data-name="Group 156747" transform="translate(6 191.417)">
+    <g id="Group_156714-3" data-name="Group 156714" transform="translate(389.25 -57.417) rotate(90)">
+      <g id="Ellipse_2-3" data-name="Ellipse 2" transform="translate(144 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581-3" data-name="Path 6581" d="M282.084-1974H266.5" transform="translate(-138.084 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+    <text id="Modus_Search_Input_" data-name="Modus Search Input" transform="translate(164.25 55)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="10.126" y="11">Modus Search Input</tspan></text>
+  </g>
+  <g id="Group_156745" data-name="Group 156745" transform="translate(-101 185.208)">
+    <g id="Group_156714-4" data-name="Group 156714" transform="translate(389.25 -57.417) rotate(90)">
+      <g id="Ellipse_2-4" data-name="Ellipse 2" transform="translate(144 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581-4" data-name="Path 6581" d="M282.084-1974H266.5" transform="translate(-138.084 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+    <text id="Placeholder_Text_Gray_2_" data-name="Placeholder Text(Gray 2)" transform="translate(181 35)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="2.203" y="11">Placeholder Text</tspan><tspan x="22.884" y="26">(Gray 2)</tspan></text>
+  </g>
+  <g id="Group_156713" data-name="Group 156713" transform="translate(-171 174)">
+    <g id="Group_156712" data-name="Group 156712" transform="translate(86.25 291.25) rotate(-90)">
+      <g id="Ellipse_2-5" data-name="Ellipse 2" transform="translate(162 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581-5" data-name="Path 6581" d="M286-1974H266.5" transform="translate(-124 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+    <text id="Icons_20x20_Gray_6_" data-name="Icons 20x20(Gray 6) " transform="translate(213 149)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="13.372" y="11">Icons 20x20</tspan><tspan x="22.884" y="26">(Gray 6) </tspan></text>
+  </g>
+  <g id="Group_156750" data-name="Group 156750" transform="translate(74.667 28)">
+    <g id="Group_156712-2" data-name="Group 156712" transform="translate(86.25 291.25) rotate(-90)">
+      <g id="Ellipse_2-6" data-name="Ellipse 2" transform="translate(162 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581-6" data-name="Path 6581" d="M286-1974H266.5" transform="translate(-124 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+    <text id="Chevron_Optional" data-name="ChevronOptional" transform="translate(213 149)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="21.322" y="11">Chevron</tspan><tspan font-family="OpenSans-Italic, Open Sans" font-style="italic"><tspan x="21.82" y="26">Optional</tspan></tspan></text>
+  </g>
+  <g id="Group_156749" data-name="Group 156749" transform="translate(22 180)">
+    <g id="Group_156712-3" data-name="Group 156712" transform="translate(86.25 291.25) rotate(-90)">
+      <g id="Ellipse_2-7" data-name="Ellipse 2" transform="translate(162 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581-7" data-name="Path 6581" d="M286-1974H266.5" transform="translate(-124 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+    <text id="Bottom_Border_1px_solid_Gray_6_" data-name="Bottom Border 1px solid (Gray 6) " transform="translate(213 149)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="5.999" y="11">Bottom Border </tspan><tspan x="20.14" y="26">1px solid </tspan><tspan x="22.884" y="41">(Gray 6) </tspan></text>
+  </g>
+  <g id="Group_156753" data-name="Group 156753" transform="translate(-16)">
+    <text id="Borders_1px_solid_Gray_0_" data-name="Borders 1px solid(Gray 0)" transform="translate(267 75)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="13.725" y="11">Borders 1px solid</tspan><tspan x="36.384" y="26">(Gray 0)</tspan></text>
+    <g id="Group_156748" data-name="Group 156748" transform="translate(489.5 -20) rotate(90)">
+      <g id="Ellipse_2-8" data-name="Ellipse 2" transform="translate(144 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581-8" data-name="Path 6581" d="M282.084-1974H266.5" transform="translate(-138.084 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+  </g>
+  <g id="Group_156754" data-name="Group 156754" transform="translate(221 4)">
+    <text id="Input_Text_Color_Trimble_Gray_" data-name="Input Text Color(Trimble Gray)" transform="translate(267 75)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="17.048" y="11">Input Text Color</tspan><tspan x="21.372" y="26">(Trimble Gray)</tspan></text>
+    <g id="Group_156748-2" data-name="Group 156748" transform="translate(489.5 -20) rotate(90)">
+      <g id="Ellipse_2-9" data-name="Ellipse 2" transform="translate(144 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581-9" data-name="Path 6581" d="M282.084-1974H266.5" transform="translate(-138.084 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+  </g>
+  <g id="Group_156756" data-name="Group 156756" transform="translate(367 4)">
+    <text id="Focused_bottom_border_2px_Blue_Light_" data-name="Focused bottom border 2px(Blue Light)" transform="translate(267 62)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="16.579" y="11">Focused bottom </tspan><tspan x="28.601" y="26">border 2px</tspan><tspan x="28.403" y="41">(Blue Light)</tspan></text>
+    <g id="Group_156748-3" data-name="Group 156748" transform="translate(489.5 -20) rotate(90)">
+      <g id="Ellipse_2-10" data-name="Ellipse 2" transform="translate(167.213 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581-10" data-name="Path 6581" d="M305.3-1974H266.5" transform="translate(-138.084 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+  </g>
+  <g id="Arrow_down" data-name="Arrow down" transform="translate(313 127.125)">
+    <path id="Path_3872" data-name="Path 3872" d="M0,0H20V20H0Z" transform="translate(5.667 5.667)" fill="none"/>
+    <path id="Path_3871" data-name="Path 3871" d="M5.761,6.542a.778.778,0,0,1-.552-.228L0,1.105,1.105,0,5.761,4.657,10.418,0l1.105,1.105L6.314,6.314A.783.783,0,0,1,5.761,6.542Z" transform="translate(10 13)" fill="#6a6e79"/>
+  </g>
+  <g id="Group_156755" data-name="Group 156755">
+    <text id="Results_menu_Modus_borderless_list_items_" data-name="Results menu(Modus borderless list items)" transform="translate(540 353)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="39.315" y="11">Results menu</tspan><tspan x="3.596" y="26">(Modus borderless list items)</tspan></text>
+    <g id="Group_156711" data-name="Group 156711" transform="translate(444 491.25) rotate(-90)">
+      <g id="Ellipse_2-11" data-name="Ellipse 2" transform="translate(162 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581-11" data-name="Path 6581" d="M286-1974H266.5" transform="translate(-124 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+  </g>
+  <g id="Group_156752" data-name="Group 156752" transform="translate(234 -205)">
+    <text id="Menu_Header_12px_Semibold_Gray_6_" data-name="Menu Header12px /Semibold (Gray 6)" transform="translate(136 360)" fill="#f0d" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.001em"><tspan x="17.068" y="11">Menu Header</tspan><tspan x="8.108" y="26">12px /Semibold </tspan><tspan x="44.769" y="41">(Gray 6)</tspan></text>
+    <g id="Group_156711-2" data-name="Group 156711" transform="translate(78 215)">
+      <g id="Ellipse_2-12" data-name="Ellipse 2" transform="translate(162 164)" fill="rgba(255,0,221,0.19)" stroke="#f0d" stroke-width="1">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="3.5" fill="none"/>
+      </g>
+      <path id="Path_6581-12" data-name="Path 6581" d="M286-1974H266.5" transform="translate(-124 2142)" fill="none" stroke="#f0d" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
