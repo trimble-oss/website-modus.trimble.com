@@ -161,6 +161,24 @@ En dash (–): use in a range of numbers, to represent the word to and as a minu
 
 Em dash (—): use to interrupt a sentence, add new or unfinished information, or emphasize parenthetical expressions.
 
+### Dates
+
+Generally, spell out the day of the week and the month. Abbreviate only if space is an issue.
+
+- Saturday, January 24
+- Sat., Jan. 24
+
+The simplest way to write dates that can be understood by anyone in the world is to write the month portion of the date in words instead of numbers.
+
+- Write "August 5, 2020" or "5 August 2020" instead of "8.5.2020" or "5.8.2020."
+- It doesn't matter if the day comes first ("5 August 2020") or after ("August 5, 2020"). Use whichever arrangement you're most familiar with in your country.
+
+Avoid _st_, _nd_, _rd_, _th_ (as in 1st, 2nd, 3rd, 4th)
+
+Use a hyphen (-) to indicate a range of yours, and always write the full year.
+
+- Write "2015-2016" (not "2015-16" or "2015 to 2016")
+
 ### Ellipses
 
 An ellipsis is a series of dots that usually indicates an intentional omission of a word or section from a text without altering its original meaning.
