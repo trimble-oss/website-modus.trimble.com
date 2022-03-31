@@ -46,7 +46,7 @@ A content tree view is text-only by default. This option is best used when a hie
 
 <img src="/img/tree-specs.svg" class="img-fluid" alt="Tree Specifications">
 
-### Behavior
+### Behaviors
 
 - Expand icon expands the clicked folder and does not collapse any other folders that are open.
 - When a folder expands and collapses only its height should change; its width should remain consistent.

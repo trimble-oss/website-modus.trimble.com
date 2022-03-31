@@ -150,7 +150,7 @@ Navbar background color can be white or Trimble Dark Blue.
 
 For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/) guidelines.
 
-### Behavior
+### Behaviors
 
 - The navbar is a fixed element. Fixed or "sticky" content fixes itself to the browser viewport as content is scrolled.
 - Responsive design: navbar follows the Modus breakpoint guidelines in [Grid & Spacing](/foundations/grid-and-spacing/).

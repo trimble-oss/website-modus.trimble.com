@@ -165,7 +165,7 @@ There are three types of tables:
 2. **Data Table**. Most (or all) cells are editable; Both table and cell actions are available (see below).
 3. **Hybrid Table**. A list table with in-row actions, such as dropdown fields & text input fields.
 
-## Behavior
+## Behaviors
 
 There are two categories of actions available in tables:
 
