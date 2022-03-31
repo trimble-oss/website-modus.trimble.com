@@ -4,10 +4,7 @@ layout: "single"
 description: "Vertical, collapsible navigation on the left side of the application."
 components: true
 images:
-  - "/img/headers/components/side-nav.png"
-aliases:
-  - "/side-navigation.html"
-  - "/components/side-navigation/"
+  - "/img/headers/components/side-navigation.png"
 ---
 
 ## Overview
