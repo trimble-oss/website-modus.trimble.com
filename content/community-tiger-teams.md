@@ -78,4 +78,4 @@ The team will address any objections and provide revisions to their recommendati
 
 Congratulations! You are a Modus hero!
 
-We will reach out to the community, when we need volunteers. Please, visit [the backlog](https://jira.trimble.tools/secure/RapidBoard.jspa?rapidView=5332&projectKey=DDS&view=planning.nodetail&versions=visible&issueLimit=100) to see what's coming up or [contact us](/community/contact/).
+We will reach out to the community, when we need volunteers. Please, visit [the backlog](https://github.com/orgs/trimble-oss/projects/5/views/1) to see what's coming up or [contact us](/community/contact/).
