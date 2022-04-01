@@ -6,7 +6,7 @@ image: "/img/blog/headers/2021-01-08-tiger-team.jpg"
 images:
   - /img/blog/headers/2021-01-08-tiger-team.jpg
 headerBgColor: "#E69335"
-tags: ["tiger", "team", "3D"]
+tags: ["tiger", "team", "Accessibility"]
 author: Ewa Nowak
 blog: true
 layout: blog-post
