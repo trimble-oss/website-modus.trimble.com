@@ -81,7 +81,7 @@ A chip __can__ be used to clear the filled selection instead of the default “X
 - When the list exceeds 1,499 options, lazy load the content and provide pagination at the bottom of the list.
 - For validation and states follow the [Inputs](/components/inputs/#behaviors) guidelines.
 
-![No Results Example](/img/autocomplete-noresults.svg)
+![No Results Example](/img/autocomplete-no-results.svg)
 
 ### Editorial
 
