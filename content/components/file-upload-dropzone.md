@@ -5,11 +5,6 @@ description: "File upload dropzone allows users to upload single or multiple fil
 components: true
 images:
   - "/img/headers/components/file-upload-dropzone.png"
-keywords: menu
-aliases:
-  - "/elements/file-upload-dropzone/"
-bootstrapURL: "/components/file-upload-dropzone/"
-reactBootstrapURL: "/components/file-upload-dropzone/"
 ---
 
 ## Overview
