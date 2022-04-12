@@ -66,7 +66,6 @@ A content tree view is text-only by default. This option is best used when a hie
 
 <img src="/img/tree-item-states.svg" class="img-fluid bg-light" width="792" height="751" loading="lazy" alt="Tree Item States"></br>
 
-
 <table class="table table-bordered bg-white">
   <thead class="thead-light">
     <tr>
