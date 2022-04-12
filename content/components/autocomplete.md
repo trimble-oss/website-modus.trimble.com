@@ -30,6 +30,7 @@ An autocomplete dropdown allows the user to search and select one option from a 
 - Providing only two options. Instead, use [Radio Buttons](/components/radio-buttons/) or a [Switch](/components/switches/).
 
 ## Types
+
 Autocomplete comes in three varieties:
 
 - **Basic Autocomplete**: Typical “search-as-you-type” function that matches what a person is typing, usually the beginning of a word, or a prefix, part of a word or with a word list.

@@ -17,7 +17,7 @@ For Web and mobile user interfaces, Trimble uses <a href="https://fonts.google.c
 
 For Windows desktop applications, Trimble uses Segoe UI as its primary interface font.
 
-**Translated Text:** When dealing with translated text for character sets other than Latin, Greek, Cyrillic please use <a href="https://www.google.com/get/noto">Noto</a> as an option that will cover over 98 languages.
+**Translated Text:** When dealing with translated text for character sets other than Latin, Greek, Cyrillic please use <a href="https://fonts.google.com/noto">Noto</a> as an option that will cover over 98 languages.
 
 **Falling Back to System Fonts**
 
