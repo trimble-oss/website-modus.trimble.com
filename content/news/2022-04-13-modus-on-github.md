@@ -1,10 +1,10 @@
 ---
 title: Modus is now on GitHub
-date: 2022-04-12
+date: 2022-04-13
 description: "Our projects code repositories join the world's biggest development platform."
-image: "/img/blog/headers/2022-04-12-modus-on-github.png"
+image: "/img/blog/headers/2022-04-13-modus-on-github.png"
 images:
-  - /img/blog/headers/2022-04-12-modus-on-github.png
+  - /img/blog/headers/2022-04-13-modus-on-github.png
 headerBgColor: "#000"
 tags: ["github", "open-source"]
 author: Christian Oliff
@@ -23,6 +23,7 @@ There are many benefits to having our projects code hosted on GitHub, for exampl
 - GitHub's integration with **[Netlify Deploy Previews](https://www.netlify.com/products/deploy-previews/)** automatically creates unique URLs so we can review and test site changes before pushing to production.
 - **[GitHub Advanced Security](https://docs.github.com/en/enterprise-server@3.2/get-started/learning-about-github/about-github-advanced-security)** which provides us with code scanning (finds any potential security vulnerabilities and coding errors in your code), secret scanning (Detect secrets, for example keys and tokens, that have been checked into the repository - as well as automated dependency alerts to fix security issues.
 - **Improved Discoverability** - now our projects are on the world's biggest development platform, with many of them open-source making it easier for users to contribute.
+- And the [GitHub Mobile app](https://github.com/mobile) is useful for checking on issues when you're away from your computer!
 
 In the future we plan to setup [Slack integration](https://slack.github.com/) to get automated notifications of build statuses and pull request reviews right from Slack too!
 
