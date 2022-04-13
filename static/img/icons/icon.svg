@@ -1,2 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-<defs><style>.q-1{fill:none;stroke:#363545;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}</style></defs><rect class="q-1" x="2.76" y="4.5" width="26.2" height="22.4"/><polygon class="q-1" points="12.22 13.63 8.58 20.93 23.14 20.93 17.92 10.47 14.29 16.77 12.22 13.63"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.q-1{fill:none;stroke:#363545;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}</style></defs><rect width="26.2" height="22.4" x="2.76" y="4.5" class="q-1"/><polygon points="12.22 13.63 8.58 20.93 23.14 20.93 17.92 10.47 14.29 16.77 12.22 13.63" class="q-1"/></svg>
