@@ -2,10 +2,12 @@
 {{ $title := .Get "title" }}
 <div class="col h-100 mb-4">
   <div class="card card-blog-brief border h-100 w-100 shadow-sm">
+    {{- if (.Params.header) -}}
     <div class="card-header text-center{{ with .Get "class" }} {{ . }}{{- end -}}">
       <img src="/img/icons/{{.Get "header" | urlize }}" class="mx-auto text-center" width="99" height="99"
         alt="{{.Get "title"}}">
     </div>
+    {{- end -}}
     <div class="card-body">
       <div class="card-title">
         {{- if (.Params.beta) -}}
@@ -22,6 +24,18 @@
           {{- end -}}
           {{- .Inner | markdownify -}}
         </p>
+        {{- if (.Params.github) -}}
+        <div class="row">
+          <div class="col-6">
+            <iframe src='https://ghbtns.com/github-btn.html?user=trimble-oss&repo={{.Get "github"}}&type=star&count=true'
+              frameborder="0" class="bg-transparent" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+          </div>
+          <div class="col-6">
+            <iframe src='https://ghbtns.com/github-btn.html?user=trimble-oss&repo={{.Get "github"}}&type=fork&count=true'
+              frameborder="0" class="bg-transparent" scrolling="0" width="150" height="20" title="GitHub"></iframe>
+          </div>
+        </div>
+        {{ end }}
       </div>
     </div>
   </div>
