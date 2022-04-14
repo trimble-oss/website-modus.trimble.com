@@ -81,10 +81,10 @@ Note: The code for the current version of Modus Bootstrap (based on Bootstrap v4
 
 Have a suggestion? Want to report a bug? Would you like to fix an issue that you've discovered? We welcome your contributions!
 
-Feel free to open an issue on any of the the Modus projects. A GitHub account is required, you can [signup for free](https://github.com/).
+[Feel free to open an issue](https://github.com/orgs/trimble-oss/repositories?q=modus&type=source&language=&sort=) on any of the the Modus projects. A GitHub account is required, you can [signup for free](https://github.com/).
 
 ## Wrap-up
 
 If you have any questions you can post them on our new [Modus Discussions channel](https://github.com/trimble-oss/modus/discussions).
 
-Finally - we'd like to give a special thank to [Jeff Doolittle](https://github.com/jeffdoolittle) for his help on setting this up.
+Finally - we'd like to give a special thanks to [Jeff Doolittle](https://github.com/jeffdoolittle) for his help on setting this up.
