@@ -25,7 +25,7 @@
     {{ $feedback := resources.Get "js/was-this-page-helpful.js" }}
     {{ $ga_events := resources.Get "js/g-a-events.min.js" }}
     {{ $js := slice $feedback $ga_events | resources.Concat "js/app.js" | resources.Minify }}
-    <script src="{{ $js.RelPermalink }}" async></script>
+    <script src="{{ $js.RelPermalink }}" fetchpriority="high" async></script>
 
   </body>
 

@@ -5,6 +5,7 @@ description: "File upload dropzone allows users to upload single or multiple fil
 components: true
 images:
   - "/img/headers/components/file-upload-dropzone.png"
+bootstrapURL: "/components/file-upload-dropzone/"
 ---
 
 ## Overview
