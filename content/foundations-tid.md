@@ -33,7 +33,7 @@ _Note: On smaller device screens, only the Trimble logo displays._
 
 ## Responsive Design
 
-The sign-in page is designed to be responsive so the user experience is unified across all devices. The design adheres to Modus [Grid & Spacing](grid-and-spacing.md) guidelines.
+The sign-in page is designed to be responsive so the user experience is unified across all devices. The design adheres to Modus [Grid & Spacing](/foundations/grid-and-spacing/) guidelines.
 
 ### Large Screens
 
