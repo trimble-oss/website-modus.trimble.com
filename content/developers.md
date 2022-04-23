@@ -23,7 +23,7 @@ start: true
 
 {{</ card-start >}}
 
-{{< card-start title="Modus Angular" class="bg-danger py-4 bg-coming-soon" header="angular.svg" >}}
+{{< card-start title="Modus Web Components (Angular)" class="bg-danger py-4" url="https://modus-web-components.trimble.com/?path=/docs/framework-integrations-angular--page" beta="true" header="angular.svg" >}}
 
 {{</ card-start >}}
 
