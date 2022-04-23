@@ -93,6 +93,9 @@ menu:
     - name: Data Visualization
       url: /foundations/data-vis/
       weight: 10
+    - name: Trimble ID (TID)
+      url: /foundations/tid/
+      weight: 10
 
   components:
     - name: Accordions
