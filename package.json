@@ -34,7 +34,7 @@
     "test": "npm-run-all build lint-js lint-markdown lint-links"
   },
   "devDependencies": {
-    "@trimbleinc/modus-bootstrap": "^1.4.0",
+    "@trimbleinc/modus-bootstrap": "^1.4.1",
     "autoprefixer": "10.4.4",
     "cross-env": "7.0.3",
     "htmlhint": "1.1.4",
