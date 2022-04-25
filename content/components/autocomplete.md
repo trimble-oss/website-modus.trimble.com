@@ -5,6 +5,7 @@ description: "The autocomplete is a text input field enhanced by a panel of sugg
 images:
   - "/img/headers/components/autocomplete.png"
 components: true
+keywords: typeahead
 aliases:
   - "/elements/autocomplete/"
 contributors: ""
