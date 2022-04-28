@@ -15,13 +15,7 @@ reactBootstrapURL: "/components/chips/"
 
 Chips represent a complex piece of information in a compact form, such as an entity (person, place, or thing) or text. They allow users to enter information, make selections, filter content, or trigger actions. Unlike buttons, chips should appear dynamically as a group of multiple interactive elements.
 
-<img
-  class="img-fluid bg-light border border-light"
-  width="400"
-  height="213"
-  src="/img/guide/elements--chips-example.png"
-  alt="Input Chips Example"
-/>
+<img class="img-fluid bg-light border border-light" width="400" height="213" src="/img/guide/elements--chips-example.png" alt="Input Chips Example">
 
 ## Usage
 
