@@ -6,6 +6,12 @@ foundations: true
 url: "/foundations/icon-definitions/"
 ---
 
+<style>
+main img {
+  background-color: #fff;
+}
+</style>
+
 ## Overview
 
 Icons are visual symbols representing tools, functions, or content. They quickly communicate ideas or messages through metaphors, draw attention to important information, and are key to usability and intuitive navigation. They can be interactive or informational. In many cases, text labels may be necessary instead of or in addition to unclear or potentially ambiguous icons.
