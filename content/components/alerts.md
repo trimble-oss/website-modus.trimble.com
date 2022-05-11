@@ -33,8 +33,8 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
       <td style="line-height: 1.25" scope="row">
         <div class="border">
           <div class="p-3 bg-primary text-white d-flex">
-            <i class="material-icons">menu</i>
-            <span class="h1 text-white ml-3 mb-0">App Title</span>
+            <i class="material-icons" style="color: #fff;">menu</i>
+            <span class="h1 ml-3 mb-0" style="color: #fff;">App Title</span>
           </div>
           <div class="alert alert-danger mx-3 mt-3 mb-0" role="alert">
             <i class="modus-icon material-icons alert-icon">error</i>

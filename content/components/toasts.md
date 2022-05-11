@@ -35,9 +35,9 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
     <tr>
       <td scope="row">
         <div class="border position-relative">
-          <div class="p-3 bg-primary text-white d-flex">
-            <i class="material-icons">menu</i>
-            <span class="h1 text-white ml-3 mb-0">App Title</span>
+          <div class="p-3 bg-primary d-flex">
+            <i class="material-icons" style="color: #fff;">menu</i>
+            <span class="h1 text-white ml-3 mb-0" style="color: #fff;">App Title</span>
           </div>
           <div class="p-3">
             <div class="list-group">

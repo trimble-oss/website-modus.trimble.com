@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-US" class="no-js">
+<html lang="en-US" class="h-100 no-js">
 
 <head>
   {{ partial "meta" . }}
@@ -23,8 +23,7 @@
     {{ block "footer" . }} {{ partialCached "footer" . }} {{- end -}}
 
     {{ $feedback := resources.Get "js/was-this-page-helpful.js" }}
-    {{ $ga_events := resources.Get "js/g-a-events.min.js" }}
-    {{ $js := slice $feedback $ga_events | resources.Concat "js/app.js" | resources.Minify }}
+    {{ $js := slice $feedback | resources.Concat "js/app.js" | resources.Minify }}
     <script src="{{ $js.RelPermalink }}" fetchpriority="high" async></script>
 
   </body>
