@@ -4,6 +4,13 @@ on: # rebuild any PRs and main branch changes
     branches-ignore:
       - "dependabot/**"
 
+env:
+  FORCE_COLOR: 2
+  NODE: 16
+
+permissions:
+  contents: read
+
 jobs:
   spellcheck: # run the action
     runs-on: ubuntu-latest
