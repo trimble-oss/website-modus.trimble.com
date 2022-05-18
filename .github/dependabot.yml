@@ -2,10 +2,18 @@ version: 2
 updates:
   - package-ecosystem: npm
     directory: "/"
+    reviewers:
+      - coliff
+    labels:
+      - dependencies
     schedule:
       interval: monthly
     versioning-strategy: increase
   - package-ecosystem: github-actions
     directory: "/"
+    reviewers:
+      - coliff
     schedule:
       interval: weekly
+    labels:
+      - github-actions
