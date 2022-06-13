@@ -89,9 +89,9 @@ Trimble Modus Design System is the result of community contributions, and we are
 Interested in contributing?
 
 <p class="mx-auto text-center">
-  <a href="/community/tiger-teams/" class="btn btn-lg bg-white border m-2">Join a Tiger Team</a>
-  <a href="/community/contribution-process/" class="btn btn-lg bg-white border m-2">Submit a UI pattern</a>
-  <a href="/community/contact/" class="btn btn-lg bg-white border m-2">Ask a question</a>
+  <a href="/community/tiger-teams/" class="btn btn-lg btn-outline-primary border m-2">Join a Tiger Team</a>
+  <a href="/community/contribution-process/" class="btn btn-lg btn-outline-primary border m-2">Submit a UI pattern</a>
+  <a href="/community/contact/" class="btn btn-lg btn-outline-primary border m-2">Ask a question</a>
 </p>
 
 ## Other Design Systems at Trimble

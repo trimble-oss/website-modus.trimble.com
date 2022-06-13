@@ -4,6 +4,7 @@
 
 example-code-es*.js
 
+layouts/shortcodes/cloakemail.html
 node_modules/*
 public/*
 resources/*
