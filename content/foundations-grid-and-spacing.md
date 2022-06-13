@@ -10,6 +10,13 @@ bootstrapURL: "/foundations/grid-and-spacing/"
 reactBootstrapURL: "/foundations/grid-and-spacing/"
 ---
 
+<style>
+article table {
+  width: 100%;
+  border: 1px;
+}
+</style>
+
 Utilizing a responsive layout grid as a basis for design and development provides guidance for placement of components and consistency across devices enhancing user experience across multiple devices.
 
 ## Terminology
@@ -82,7 +89,7 @@ Utilizing a responsive layout grid as a basis for design and development provide
 </div>
 </div>
 
-<div class="row">
+<div class="row mb-4">
 <div class="col-12 col-sm-6">
 
 <div class="container container-grid-spacing-gutters rounded-top">
@@ -147,61 +154,18 @@ Utilizing a responsive layout grid as a basis for design and development provide
 </div>
 </div>
 
-<table class="table table-bordered bg-white">
-  <thead class="thead-light">
-    <tr>
-      <th>Breakpoint</th>
-      <th>Value (px/ rem)</th>
-      <th>Columns</th>
-      <th>Size (%)</th>
-      <th>Min Margin</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td scope="row">X-Small</td>
-      <td>320/ 20</td>
-      <td>4</td>
-      <td>25</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td scope="row">Small</td>
-      <td>576/ 36</td>
-      <td>4</td>
-      <td>25</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td scope="row">Medium</td>
-      <td>768/ 48</td>
-      <td>8</td>
-      <td>12.5</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td scope="row">Large</td>
-      <td>992/ 62</td>
-      <td>12</td>
-      <td>8.3</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td scope="row">X-Large</td>
-      <td>1200/ 75</td>
-      <td>12</td>
-      <td>8.3</td>
-      <td>8</td>
-    </tr>
-    <tr>
-      <td scope="row">XX-Large</td>
-      <td>1600/ 100</td>
-      <td>12</td>
-      <td>8.3</td>
-      <td>8</td>
-    </tr>
-  </tbody>
-</table>
+{{< table "class table table-bordered" >}}
+
+| Breakpoint | Value (px/ rem) | Columns | Size (%) | Min Margin |
+| ---------- | --------------- | ------- | -------- | ---------- |
+| X-Small    | 320/ 20         | 4       | 25       | 4          |
+| Small      | 576/ 36         | 4       | 25       | 4          |
+| Medium     | 768/ 48         | 8       | 12.5     | 8          |
+| Large      | 992/ 62         | 12      | 8.3      | 8          |
+| X-Large    | 1200/ 75        | 12      | 8.3      | 8          |
+| XX-Large   | 1600/ 100       | 12      | 8.3      | 8          |
+
+{{</ table >}}
 
 ## Nested Grids
 
@@ -219,44 +183,15 @@ Regions can house modules (or combinations of basic components) such as content,
 
 Spacing is a vital part of visual hierarchy within regions. Spacing is used to align elements within smaller containers in the UI. Trimble uses a baseline spacing of 8px and its multiples (some elements can also utilize an x-small spacing of 4px).
 
-<table class="table table-bordered bg-white">
-  <thead class="thead-light">
-    <tr>
-      <th>Spacing Scale</th>
-      <th>Value (px)</th>
-      <th>Value (rem)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td scope="row">X-Small</td>
-      <td>4</td>
-      <td>0.25</td>
-    </tr>
-    <tr>
-      <td scope="row">Small</td>
-      <td>8</td>
-      <td>0.5</td>
-    </tr>
-    <tr>
-      <td scope="row">Medium</td>
-      <td>16</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <td scope="row">Large</td>
-      <td>24</td>
-      <td>1.5</td>
-    </tr>
-    <tr>
-      <td scope="row">X-Large</td>
-      <td>32</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td scope="row">XX-Large</td>
-      <td>48</td>
-      <td>3</td>
-    </tr>
-  </tbody>
-</table>
+{{< table "class table table-bordered" >}}
+
+| Spacing Scale | Value (px) | Value (rem) |
+| ------------- | ---------- | ----------- |
+| X-Small       | 4          | 0.25        |
+| Small         | 8          | 0.5         |
+| Medium        | 16         | 1           |
+| Large         | 24         | 1.5         |
+| X-Large       | 32         | 2           |
+| XX-Large      | 48         | 3           |
+
+{{</ table >}}
