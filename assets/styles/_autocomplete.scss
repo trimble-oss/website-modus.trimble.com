@@ -3,7 +3,7 @@
   cursor: default;
   border: 1px solid #cbcdd6;
   border-top: 0;
-  background: #fff;
+  background-color: #fff;
   box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.1);
   position: absolute;
   display: none;
@@ -12,6 +12,17 @@
   overflow: hidden;
   overflow-y: auto;
   box-sizing: border-box;
+}
+
+[data-theme="dark"] {
+  .autocomplete-suggestions {
+    background-color: black;
+    color: #f1f1f1 !important;
+  }
+
+  .autocomplete-suggestion {
+    color: #cbcdd6;
+  }
 }
 
 .autocomplete-suggestion {
@@ -31,13 +42,13 @@
 }
 
 .autocomplete-suggestion.selected {
-  background: #333;
-  color: #fff;
+  background-color: #353a40;
+  color: #f1f1f1;
 }
 
 .autocomplete-suggestion:hover {
-  background: #464b52;
-  color: #fff;
+  background-color: #464b52;
+  color: #f1f1f1;
 }
 
 .autocomplete-suggestion > .context {
@@ -46,7 +57,7 @@
 }
 
 .autocomplete-suggestion.selected > .context {
-  color: #ccc;
+  color: #b7b9c3;
 }
 
 /*! purgecss end ignore */

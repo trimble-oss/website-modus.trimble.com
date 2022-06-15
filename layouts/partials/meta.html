@@ -3,13 +3,14 @@
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 
 <script>document.documentElement.classList.remove('no-js');</script>
+<!-- Theme Toggle -->
+{{ $themeToggle := resources.Get "js/theme-toggle.js" }}
+{{ $themeToggleJS := slice $themeToggle | resources.Concat "js/theme-toggle.js" | resources.Minify }}
+<script src="{{ $themeToggleJS.RelPermalink }}" fetchpriority="high"></script>
+<meta name="color-scheme" content="light dark">
 
 <!-- Faster Loading Google Fonts - https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/ -->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=fallback">
-
-<!-- Loads Modus from CDN -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1.4.1/dist/modus.min.css">
 
 <!-- Compiles and minifies the sites SASS files from /assets/css/ -->
 {{- $sassOptions := (dict "enableSourceMap" true) -}}
@@ -29,16 +30,14 @@
 {{ hugo.Generator }}
 {{else}}
 {{ if not .Params.noIcons -}}
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block">
-<link rel="stylesheet"
-  href="https://modus.trimble.com/assets/{{ .Site.Params.modusIconsVersion }}/fonts/modus-icons.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block" fetchpriority="low">
 {{ else }}
 <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL}}index.xml"
   title="{{ .Site.Title }} News & Articles" />
 {{- end }}
 {{- end }}
 
-<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js" fetchpriority="low"></script>
 
 <meta name="description"
   content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{- end -}}{{- end -}}">
@@ -88,7 +87,7 @@
 {{ $lunr := resources.Get "js/lunr.min.js" }}
 {{ $search := resources.Get "js/search.min.js" }}
 {{ $js := slice $autocomplete $lunr $search | resources.Concat "js/search.js" | resources.Minify }}
-<script src="{{ $js.RelPermalink }}"></script>
+<script src="{{ $js.RelPermalink }}" fetchpriority="low"></script>
 {{- end -}}
 
 <!-- Show custom 'LOC' favicon for serving locally -->

@@ -4,10 +4,10 @@
   <div class="container py-md-3">
     <div class="row py-lg-3">
       <div class="col-12 py-4 text-center">
-        <h1 class="display-2 font-weight-bold pt-4 mt-5 text-white">
+        <h1 class="display-2 font-weight-bold pt-4 mt-5">
           {{- .Title | title -}}
         </h1>
-        <h2 class="mt-4 col-12 col-sm-11 mx-auto text-white">
+        <h2 class="mt-4 col-12 col-sm-11 mx-auto">
           {{- .Params.description -}}
         </h2>
       </div>
@@ -35,7 +35,7 @@
     </div>
     {{ end }}
 
-    <div class="row list" id="listjs-list">
+    <div class="row list text-dark" id="listjs-list">
 
       {{ if .Params.web }}
       {{ range first 30 (where .Site.RegularPages ".Section" "components") }}

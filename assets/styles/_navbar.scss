@@ -1,6 +1,11 @@
-.navbar a {
+.navbar-main {
+  color: #fff !important;
+}
+
+.navbar-main a {
+  color: #fff !important;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 14px !important;
 }
 
 .navbar .form-control {
@@ -8,19 +13,18 @@
 }
 
 .fixed-top {
-  z-index: 3046;
+  z-index: 13046;
 }
 
 // 'frosted glass' effect on top navbar
 .fixed-top .navbar {
-  background-color: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(6px);
   z-index: 11111; // prevents overlapping navbar on mobile as scroll past
 }
 
-.navbar-brand a,
-.navbar-brand a:hover {
-  color: #005f9d;
+a.navbar-brand,
+a.navbar-brand:hover {
+  color: #fff !important;
 }
 
 // sets underline on top navbar on selected section

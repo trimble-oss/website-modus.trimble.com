@@ -9,7 +9,6 @@
 }
 
 .card-blog-brief .card-header {
-  background-color: #e0e1e9;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,4 +52,8 @@ body[data-url="/community/contribute/"] .card-blog-brief {
 
 body[data-url="/community/contribute/"] .card-blog-brief h3 {
   font-size: 0.98rem;
+}
+
+[data-theme="dark"] .card {
+  background-color: #171c1e !important;
 }

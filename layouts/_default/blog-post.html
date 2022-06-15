@@ -1,10 +1,10 @@
 {{ define "main" }}
 
-<header class="container-fluid px-0 py-5 border-bottom header-blog"
-  style="background-image: url({{ .Params.Image | relURL }});{{ with .Params.headerBgColor }}background-color:{{ . }};{{- end -}}">
+<header class="container-fluid px-0 pb-5 border-bottom header-blog mt-5 mt-md-0"
+  style="background-image: url({{ .Params.Image | relURL }});{{ with .Params.headerBgColor }}background-color:{{ . }} !important;{{- end -}}">
 </header>
 
-<main role="main" class="my-5 container">
+<main class="my-5 container">
 
   <div class="row">
     <div class="col-12 col-md-3 col-lg-2 menu-left">
@@ -23,7 +23,7 @@
         </h2>
         {{- end -}}
 
-        <header class="row bg-white bg-transparent">
+        <header class="row bg-transparent">
           <div class="mx-3">
             <img src="/img/author/{{ .Params.author | urlize }}.jpg"
               class="bg-light rounded-circle mx-auto text-center border" height="44" width="44"

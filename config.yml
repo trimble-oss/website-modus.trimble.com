@@ -194,14 +194,19 @@ module:
       target: static
     - source: assets/static/favicon.ico
       target: static/favicon.ico
+
     - source: assets/static/robots.txt
       target: static/robots.txt
+
     - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
       target: static/js/bootstrap.bundle.min.js
+
     - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
       target: static/js/bootstrap.bundle.min.js.map
+
     - source: node_modules/list.js/dist/list.min.js
       target: static/js/list.min.js
+
     - source: node_modules/list.js/dist/list.min.js.map
       target: static/js/list.min.js.map
 
@@ -234,5 +239,7 @@ minify:
     html:
       keepEndTags: false
       keepWhitespace: true
+    js:
+      keepVarNames: true
     xml:
       keepWhitespace: true

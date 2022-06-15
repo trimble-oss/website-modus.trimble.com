@@ -13,8 +13,20 @@
   }
 }
 
-.menu-left a:hover {
-  color: #00437b;
+.menu-left a {
+  color: #111;
+}
+
+[data-theme="dark"] {
+  .menu-left a {
+    color: #f1f1f1;
+  }
+}
+
+[data-theme="light"] {
+  .menu-left a:hover {
+    color: #00437b;
+  }
 }
 
 .menu-left a.active {
@@ -23,4 +35,9 @@
 
 body[data-url^="/news/"] .menu-left a[href^="/news/"] {
   font-weight: bold;
+}
+
+.menu-left,
+.search-docs-toggle {
+  z-index: 2222;
 }

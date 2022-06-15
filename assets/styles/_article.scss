@@ -1,10 +1,3 @@
-header.container-fluid {
-  background-color: #206aa5;
-  background-position: center;
-  background-size: cover;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 1441 334' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%2307599B' d='M0 0h1440v332H0z'/%3E%3Cpath fill='%2300437B' d='M0 334V0h886z'/%3E%3Cpath fill='%23197CB6' d='M1437.605 245l3.395 87H615z'/%3E%3C/g%3E%3C/svg%3E");
-}
-
 // anchors # for deep links within docs
 .header-link {
   opacity: 0;
@@ -24,14 +17,6 @@ h5:hover .header-link {
 // title of article shouldn't have margin-top
 #main h2.h1:first-of-type {
   margin-top: 0 !important;
-}
-
-/* stylelint-disable-next-line rule */
-article p,
-article td,
-article th,
-article li {
-  // font-size: 1rem;
 }
 
 // external links have an icon
@@ -57,7 +42,7 @@ td.dont {
 }
 
 .sticky-offset {
-  top: 80px;
+  top: 80px !important;
 }
 
 // offsets the anchors to adjust for the fixed navbar

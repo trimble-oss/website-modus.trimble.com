@@ -1,0 +1,21 @@
+.btn-to-top {
+  font-size: 18px;
+  line-height: 48px !important;
+  background-color: #353a40 !important;
+  width: 48px;
+  bottom: 20px;
+  right: 20px;
+  z-index: 6000;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 1s ease;
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-theme="light"] .showBtn {
+  opacity: 0.9;
+}
