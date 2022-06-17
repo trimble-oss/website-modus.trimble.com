@@ -34,7 +34,7 @@ Tables are ideal for displaying data in rows and columns. They organize informat
 
 ### Typography
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Class</th>
@@ -79,7 +79,7 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
 
 ### Structure
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Class</th>
@@ -113,7 +113,7 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
 
 ### Background Color
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Class</th>

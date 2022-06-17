@@ -76,7 +76,7 @@ Navbar background color can be white or Trimble Dark Blue.
 
 ![Framework](/img/app-header-framework.svg)
 
-<table class="table table-bordered bg-white" style="width: max-content">
+<table class="table table-bordered" style="width: max-content">
       <thead class="thead-light">
         <tr>
           <th>Element</th>
@@ -123,7 +123,7 @@ Navbar background color can be white or Trimble Dark Blue.
 - Elements should be vertically-centered within the header.
 - Icon areas starting from the Profile avatar are flush against each other.
 
-<table class="table table-bordered bg-white" style="width: max-content">
+<table class="table table-bordered" style="width: max-content">
       <tbody>
         <tr>
           <td>X-Small (320px) breakpoint</td>

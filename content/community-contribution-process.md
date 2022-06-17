@@ -7,6 +7,12 @@ community: true
 hideToc: true
 ---
 
+<style>
+article img {
+  background-color: #fff;
+}
+</style>
+
 The Modus team is dedicated to maintaining a consistent, top-quality product. Accordingly, before any component is revised or added, it goes through a process of reviews and approvals.
 
 ![Contribution Process](/img/guide/contribution-process.png)

@@ -22,7 +22,7 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
 
 - Providing a user contextual information or status of an action they’re trying to complete in a specific element on the visible page.
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th scope="col">Example</th>
