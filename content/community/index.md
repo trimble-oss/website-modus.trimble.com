@@ -13,7 +13,7 @@ hideDate: true
 As a Modus subscriber, you are invited to the Modus chat room, where you can ask questions, lead discussions, and learn more about the design system.
 
 <a href="https://chat.google.com/room/AAAAexugR1k"
-    class="btn btn-primary border m-2" target="_blank" rel="nofollow">Join the Chat Room</a>
+    class="btn btn-primary m-2" target="_blank" rel="nofollow">Join the Chat Room</a>
 
 Not a subscriber yet? No problem! [Subscribe here](https://docs.google.com/forms/d/e/1FAIpQLSc5-PBOzJjT2Q8r5Pg7BPYzae-rz5fg5ySSBcHwfhBneUkvWg/viewform?usp=sf_link)!
 

@@ -12,7 +12,6 @@
 
 // right menu
 #TableOfContents li a {
-  color: #fff;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   font-size: 13px;
@@ -21,6 +20,13 @@
 
 .menu-right a {
   font-size: 13px;
+  color: #171c1e;
+}
+
+[data-theme="dark"] {
+  .menu-right a {
+    color: #f1f1f1;
+  }
 }
 
 hr {
@@ -31,8 +37,10 @@ hr {
   filter: saturate(0%);
 }
 
-#TableOfContents li a:hover {
-  color: #00437b;
+[data-theme="light"] {
+  #TableOfContents li a:hover {
+    color: #00437b;
+  }
 }
 
 .menu-right #TableOfContents li.active,

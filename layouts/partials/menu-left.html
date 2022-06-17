@@ -21,11 +21,11 @@
 </div>
 
 <div class="sticky-top sticky-offset border-bottom">
-  <nav class="collapse" id="docs-nav">
+  <nav class="collapse" id="docs-nav" aria-label="Docs navigation">
     <ul class="list-unstyled" id="menu-left">
       {{- if .Params.start -}}
       {{ range .Site.Menus.start -}}
-      <li><a class="nav-link text-dark" href="{{ .URL }}">
+      <li><a class="nav-link" href="{{ .URL }}">
           {{- .Name -}}
         </a>
       </li>
@@ -34,7 +34,7 @@
 
       {{- if .Params.foundations -}}
       {{ range .Site.Menus.foundations -}}
-      <li><a class="nav-link text-dark" href="{{ .URL }}">
+      <li><a class="nav-link" href="{{ .URL }}">
           {{- .Name -}}
         </a>
       </li>
@@ -44,7 +44,7 @@
       {{- if .Params.components -}}
       {{ range .Site.Menus.components }}
       {{- if not .Params.hidden -}}
-      <li><a class="nav-link text-dark" href="{{ .URL }}">
+      <li><a class="nav-link" href="{{ .URL }}">
           {{- .Name -}}
         </a></li>
       {{- end }}
@@ -53,7 +53,7 @@
 
       {{- if .Params.community -}}
       {{- range .Site.Menus.community -}}
-      <li><a class="nav-link text-dark" href="{{ .URL }}">
+      <li><a class="nav-link" href="{{ .URL }}">
           {{- .Name -}}
         </a>
       </li>
@@ -62,7 +62,7 @@
 
       {{- if .Params.blog -}}
       {{- range .Site.Menus.community -}}
-      <li><a class="nav-link text-dark" href="{{ .URL }}">
+      <li><a class="nav-link" href="{{ .URL }}">
           {{- .Name -}}
         </a>
       </li>
@@ -75,7 +75,7 @@
       current = window.location;
     for (var i = 0; i < anchor.length; i++) {
       if (anchor[i].href == current) {
-        anchor[i].className = "nav-link text-dark active";
+        anchor[i].className = "nav-link active";
         anchor[i].setAttribute("aria-current", "page");
       }
     }

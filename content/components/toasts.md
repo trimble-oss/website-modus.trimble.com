@@ -37,7 +37,7 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
         <div class="border position-relative">
           <div class="p-3 bg-primary d-flex">
             <i class="material-icons" style="color: #fff;">menu</i>
-            <span class="h1 text-white ml-3 mb-0" style="color: #fff;">App Title</span>
+            <span class="h1 ml-3 mb-0" style="color: #fff;">App Title</span>
           </div>
           <div class="p-3">
             <div class="list-group">
@@ -106,7 +106,7 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
             </div>
           </div>
           <div
-            class="toast toast-dark show position-absolute"
+            class="toast toast-success show position-absolute"
             style="width: 350px; bottom: 2rem; left: calc(50% - 175px);"
             role="alert"
             aria-live="assertive"
@@ -115,7 +115,7 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
             3 Emails Deleted
             <button
               type="button"
-              class="btn btn-text-tertiary"
+              class="btn btn-text-dark"
               data-dismiss="toast"
               aria-label="Close"
             >

@@ -1,4 +1,5 @@
 <div class="sticky-top sticky-offset">
+{{ if and (gt .WordCount 100 ) (not .Params.hideToc) }}
   <h5 class="pt-2 ml-3 on-this-page">
     On this page
   </h5>
@@ -6,10 +7,11 @@
 <script>
   $(function() {
     jQuery('#TableOfContents ul').addClass('list-unstyled pl-0 ml-0');
-    jQuery('#TableOfContents a').addClass('nav-link text-dark');
+    jQuery('#TableOfContents a').addClass('nav-link');
   });
 </script>
 <hr>
+{{ end }}
 
 {{- if (or (.Params.bootstrapURL)  (.Params.reactBootstrapURL)) -}}
 <h5 class="pt-2 ml-3">
@@ -17,10 +19,10 @@ Implementations
 </h5>
 <ul class="list-unstyled pl-0 ml-0">
 {{- if .Params.bootstrapURL}}
-  <li><a href="https://modus-bootstrap.trimble.com{{- .Params.bootstrapURL -}}" class="nav-link text-dark text-decoration-none" target="_blank" >Modus Bootstrap</a></li>
+  <li><a href="https://modus-bootstrap.trimble.com{{- .Params.bootstrapURL -}}" class="nav-link text-decoration-none" target="_blank" rel="noopener">Modus Bootstrap</a></li>
 {{- end -}}
 {{- if .Params.reactBootstrapURL}}
-  <li><a href="https://modus-react-bootstrap.trimble.com{{- .Params.reactBootstrapURL -}}" class="nav-link text-dark text-decoration-none" target="_blank" >Modus React Bootstrap</a></li>
+  <li><a href="https://modus-react-bootstrap.trimble.com{{- .Params.reactBootstrapURL -}}" class="nav-link text-decoration-none" target="_blank" rel="noopener">Modus React Bootstrap</a></li>
 {{- end -}}
 </ul>
 {{- end -}}

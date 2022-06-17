@@ -1,5 +1,5 @@
 // scroll to anchor
-var scrolltoanchor = (function () {
+var scrollToAnchor = (function () {
   "use strict";
   return function (t) {
     var n = this;

@@ -1,5 +1,5 @@
 <div class="col-12 col-lg-6 col-xl-4 my-3">
-  <div class="card card-blog-brief h-100 border shadow-sm">
+  <div class="card card-blog-brief h-100 shadow-sm">
     <div class="card-header top-rounded mb-0 pb-0 border-0"
       style="background-image: url({{ .Params.Image | relURL }}); background-color: {{ .Params.headerBgColor }}">
     </div>
@@ -15,7 +15,7 @@
         </a>
       </p>
     </div>
-    <div class="card-footer border-0 py-0">
+    <div class="card-footer bg-transparent border-0 py-0">
       <div class="row mb-1">
         <div class="mx-3">
           <img src="/img/author/{{ .Params.author | urlize }}.jpg" class="bg-light rounded-circle mx-auto text-center"

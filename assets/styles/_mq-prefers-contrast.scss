@@ -1,0 +1,10 @@
+// For Chrome and Safari 'Increase Contrast' accessibility mode
+// https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast
+// https://caniuse.com/mdn-css_at-rules_media_prefers-contrast
+
+/* stylelint-disable-next-line */
+@media (prefers-contrast: more) {
+  body {
+    color: #171c1e;
+  }
+}

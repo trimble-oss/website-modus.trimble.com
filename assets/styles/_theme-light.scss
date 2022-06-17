@@ -1,8 +1,5 @@
-[data-theme="light"],
-print {
-  html,
+[data-theme="light"] {
   body {
-    background-color: #fff !important;
     color-scheme: light;
   }
 
@@ -19,12 +16,13 @@ print {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 1441 334' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%2307599B' d='M0 0h1440v332H0z'/%3E%3Cpath fill='%2300437B' d='M0 334V0h886z'/%3E%3Cpath fill='%23197CB6' d='M1437.605 245l3.395 87H615z'/%3E%3C/g%3E%3C/svg%3E");
   }
 
-  .fixed-top .navbar {
-    background-color: rgba(255, 255, 255, 0.95);
+  .bg-light {
+    background-color: #f1f1f6 !important;
   }
 
   .footer {
     background-color: #07599b;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 1441 334' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%2307599B' d='M0 0h1440v332H0z'/%3E%3Cpath fill='%2300437B' d='M0 334V0h886z'/%3E%3Cpath fill='%23197CB6' d='M1437.605 245l3.395 87H615z'/%3E%3C/g%3E%3C/svg%3E");
   }
+  @import "../../node_modules/@trimbleinc/modus-bootstrap/dist/modus";
 }

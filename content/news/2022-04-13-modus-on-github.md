@@ -40,6 +40,9 @@ main li {
 .card-title h3 {
   font-size: 1.05rem;
 }
+article iframe {
+  max-width: 99px;
+}
 </style>
 
 <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">

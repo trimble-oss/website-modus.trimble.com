@@ -1,4 +1,7 @@
 @import "anatomy-css";
+@import "theme-toggle";
+@import "theme-light";
+@import "theme-dark";
 @import "autocomplete"; // search autocomplete dropdown
 @import "article";
 @import "cards";
@@ -11,12 +14,13 @@
 @import "menu-left";
 @import "menu-right"; // 'On this page' menu
 @import "mobile"; // optimizations for xxs mobile screens
+@import "modus-icons"; // modus icons
 @import "navbar";
-@import "onetrust-cookie-banner";
 @import "posts";
 @import "print";
 @import "ribbon-coming-soon";
 @import "rfs";
+@import "scroll-to-top-btn";
 @import "status";
 @import "skippy"; // skip to content accessibility
 @import "tables";
@@ -28,10 +32,6 @@
 // underline links
 a {
   text-decoration: underline;
-}
-
-.bg-light {
-  background: #f3f3f7 !important;
 }
 
 // don't underline links in buttons or navbar
@@ -54,15 +54,10 @@ code {
 @media (min-width: 1200px) {
   .container,
   .container-xl {
-    max-width: 1350px;
+    max-width: 1350px !important;
   }
 }
 
 main {
   min-height: 60vh;
-}
-
-.menu-left,
-.search-docs-toggle {
-  z-index: 2222;
 }
