@@ -48,7 +48,7 @@ The variations help keep type styles to a minimum, so consistency is easier to a
 
 ### Web Applications
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
       <thead class="thead-light">
         <tr>
           <th>Category</th>
@@ -229,7 +229,7 @@ The variations help keep type styles to a minimum, so consistency is easier to a
 
 ### Mobile Application Scale
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
       <thead class="thead-light">
         <tr>
           <th>Category</th>
@@ -384,7 +384,7 @@ The variations help keep type styles to a minimum, so consistency is easier to a
 
 ### Desktop Applications Scale
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
       <thead class="thead-light">
         <tr>
           <th>Category</th>
@@ -575,7 +575,7 @@ The variations help keep type styles to a minimum, so consistency is easier to a
 
 ## Display Headings
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
       <thead class="thead-light">
         <tr>
           <th>Category</th>

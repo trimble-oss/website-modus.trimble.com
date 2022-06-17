@@ -61,7 +61,7 @@ A Card may contain any of the following elements (with the minimum of one), but 
 - Card dimensions are based on its content and the container in which it resides.
 - Apply custom heights and width to meet product requirements.
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <tr>
     <td width="50%">
     <img src="/img/guide/card_04.png" alt="" width="372" height="338" class="img-fluid" loading="lazy">

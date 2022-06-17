@@ -44,7 +44,7 @@ Switches are selection controls that yield instantaneous actions. They have an o
 - Toggling elicits a change in background behavior without affecting the UI.
 - You want to trigger a state change directly when you toggle it.
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th scope="col">Example</th>
@@ -137,7 +137,7 @@ Switches are selection controls that yield instantaneous actions. They have an o
 - Requesting multiple choices from a group of options. Instead, use a [Checkbox](/components/checkboxes/) group.
 - Users need to select one item from a list of options. Instead, use a [Radio Button](/components/radio-buttons/).
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <tbody>
     <tr>
       <td scope="row">
@@ -207,9 +207,9 @@ Switches are selection controls that yield instantaneous actions. They have an o
 
 - Avoid changing the label text based on on and off state.
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <tr>
-    <td>
+    <td width="50%">
       <div class="custom-control custom-switch">
         <input
           type="checkbox"

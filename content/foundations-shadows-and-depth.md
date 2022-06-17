@@ -68,41 +68,16 @@ Standard drop shadow color is gray. Always adjust color opacity to retain a maxi
 
 Z-index is a CSS property that specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order.
 
-<table class="table table-bordered bg-white">
-  <thead class="thead-light">
-    <tr>
-      <th>Z-index</th>
-      <th>Use</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td scope="row" class="font-weight-bold">1000</td>
-      <td>Dropdowns</td>
-    </tr>
-    <tr>
-      <td scope="row" class="font-weight-bold">1020</td>
-      <td>Sticky Elements</td>
-    </tr>
-    <tr>
-      <td scope="row" class="font-weight-bold">1030</td>
-      <td>Fixed Elements</td>
-    </tr>
-    <tr>
-      <td scope="row" class="font-weight-bold">1040</td>
-      <td>Modal Backdrops</td>
-    </tr>
-    <tr>
-      <td scope="row" class="font-weight-bold">1050</td>
-      <td>Modal Dialogs</td>
-    </tr>
-    <tr>
-      <td scope="row" class="font-weight-bold">1060</td>
-      <td>Popovers</td>
-    </tr>
-    <tr>
-      <td scope="row" class="font-weight-bold">1070</td>
-      <td>Tooltips</td>
-    </tr>
-  </tbody>
-</table>
+{{< table "table table-bordered" >}}
+
+| Z-index | Use             |
+| ------- | --------------- |
+| 1000    | Dropdowns       |
+| 1020    | Sticky Elements |
+| 1030    | Fixed Elements  |
+| 1040    | Modal Backdrops |
+| 1050    | Modal Dialogs   |
+| 1060    | Popovers        |
+| 1070    | Tooltips        |
+
+{{</ table >}}

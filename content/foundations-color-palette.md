@@ -203,7 +203,7 @@ Green Pale
 
 ## Text Color Use Examples
 
-![Text Color](/img/text-color.svg)
+<img src="/img/text-color.svg" class="img-fluid text-center mx-auto mb-4" width="670" alt="Text Color Palette" style="background:#fff">
 
 <!--## Download Swatch Files
 

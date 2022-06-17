@@ -42,7 +42,7 @@ There are two button progressions you can choose from: structural and color prog
 
 ### Structural Progression
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Example</th>
@@ -88,7 +88,7 @@ There are two button progressions you can choose from: structural and color prog
 
 ### Color Progression
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Example</th>
@@ -135,7 +135,7 @@ There are two button progressions you can choose from: structural and color prog
 
 ### Ancillary Buttons
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Type</th>
@@ -205,7 +205,7 @@ There are two button progressions you can choose from: structural and color prog
 - If using multiple buttons, label them distinctly.
 - The size of the buttons should be used in proportion to the context and content around it.
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th></th>
@@ -268,7 +268,7 @@ All buttons (including icon buttons) should have the following states:
 
 #### Structural Progression States
 
-<table class="table table-bordered bg-white" style="width: max-content">
+<table class="table table-bordered" style="width: max-content">
       <thead class="thead-light">
         <tr>
           <th>State</th>
@@ -328,7 +328,7 @@ All buttons (including icon buttons) should have the following states:
 
 #### Color Progression States
 
-<table class="table table-bordered bg-white" style="width: max-content">
+<table class="table table-bordered" style="width: max-content">
       <thead class="thead-light">
         <tr>
           <th>State</th>
@@ -388,7 +388,7 @@ All buttons (including icon buttons) should have the following states:
 
 #### Auxiliary Button States
 
-<table class="table table-bordered bg-white" style="width: max-content">
+<table class="table table-bordered" style="width: max-content">
       <thead class="thead-light">
         <tr>
           <th>State</th>

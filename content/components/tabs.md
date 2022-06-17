@@ -23,7 +23,7 @@ Tabs are a set of layered sections of content, known as tab panels, that display
 - You want to organize content into meaningful sections that occupy less screen space.
 - Add visual consistency.
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <tr>
     <td>
       <ul class="nav nav-tabs" id="myTab" role="tablist">

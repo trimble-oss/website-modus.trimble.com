@@ -88,7 +88,7 @@ There are two sizes of input fields defined:
 - Default: default form inputs should have a height of 32px (8px padding) and a font-size of 12px (.75rem). Used for most forms.
 - Large: larger variant should have a height of 48px (16px padding) and a font-size of 14px (.875rem). Used for forms in in-cab applications
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th></th>
@@ -200,7 +200,7 @@ There are two sizes of input fields defined:
 - Default: used for most forms
 - Large: used for forms in in-cab applications
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th></th>

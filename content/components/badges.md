@@ -115,7 +115,7 @@ Badges can be inserted into other elements.
 - Badges should be centered vertically inside of their containing element.
 - Font weight: 700
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th></th>

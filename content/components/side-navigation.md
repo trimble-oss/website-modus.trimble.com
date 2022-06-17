@@ -97,7 +97,7 @@ There are two color options available. They can be used in the following combina
 
 ![White and Blue Navigation](/img/sidenav-states-3.png)
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th></th>
@@ -141,7 +141,7 @@ There are two color options available. They can be used in the following combina
 
 ### Padding and Spacing
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Class</th>
@@ -197,7 +197,7 @@ There are two color options available. They can be used in the following combina
 
 ### Typography
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Class</th>
@@ -254,7 +254,7 @@ There are two color options available. They can be used in the following combina
 
 #### Responsiveness
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Breakpoint</th>

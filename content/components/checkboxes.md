@@ -103,7 +103,7 @@ Checkboxes should be used in forms that require submission and processing. The c
 - Enabling selection of an object, such as a [Card](/components/cards/).
 - Affording selection of a row within a data [Table](/components/tables/).
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <tbody>
     <thead class="thead-light">
       <tr>
@@ -184,7 +184,7 @@ Checkboxes should be used in forms that require submission and processing. The c
 - Checking or unchecking elicits an immediate change in the UI or functionality, such as enabling a disabled field or revealing more controls. Instead, use a [Switch](/components/switches/).
 - Checking or unchecking elicits a change in background functionality without affecting the UI, like disabling an email notification. Instead, use a [Switch](/components/switches/).
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <tbody>
     <tr>
       <td scope="row">

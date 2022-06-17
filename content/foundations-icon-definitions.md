@@ -66,7 +66,7 @@ The cornerstones of consistent icons:
 
 There are a few options for icon sizes that you can choose based on your product, the context in which they are used, digital platform, and/ or user preferences. Use no more than 2-3 sizes in one application.
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Canvas Size/ Icon Size</th>
@@ -90,10 +90,10 @@ There are a few options for icon sizes that you can choose based on your product
       <td>1-2px</td>
       <td>&nbsp;</td>
     </tr>
-    <tr style="background-color: #CFE1EE">
+    <tr>
       <td scope="row"><strong>32x32px</strong></td>
-      <td>2px</td>
-      <td>Primary icon size</td>
+      <td><strong>2px</strong></td>
+      <td><strong>Primary icon size</strong></td>
     </tr>
     <tr>
       <td scope="row">48x48px</td>
@@ -189,7 +189,7 @@ In web and mobile applications, icons can have subtle transitions when changing 
 
 ## Icon File Formats
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Technology</th>

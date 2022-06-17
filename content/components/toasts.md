@@ -25,7 +25,7 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
 - Confirming the success of a global action.
 - Displaying quick snippets of information that disappear on their own after a set amount of time has passed.
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th scope="col">Example</th>

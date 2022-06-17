@@ -36,8 +36,7 @@ Spinners are used as indeterminate progress indicators to show the user that the
     <button type="button" class="btn btn-primary display-active">
       <span
         class="spinner-border mr-1"
-        style="height: 16px; width: 16px;"
-      ></span>
+        style="height: 16px; width: 16px; color: #fff"></span>
       Loading
     </button>
   </div>

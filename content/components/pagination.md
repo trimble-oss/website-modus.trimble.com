@@ -30,7 +30,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
 
 ## Specifications
 
-<table class="table table-bordered bg-white">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th></th>
