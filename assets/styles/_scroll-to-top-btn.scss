@@ -11,11 +11,7 @@
   transition: all 1s ease;
 }
 
-.showBtn {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-[data-theme="light"] .showBtn {
+.btn-to-top-show {
   opacity: 0.9;
+  transform: translateY(0);
 }
