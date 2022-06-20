@@ -5,8 +5,6 @@ description: "Pagination affords navigation between pages of content, and it hig
 components: true
 images:
   - "/img/headers/components/pagination.png"
-aliases:
-  - "/elements/pagination/"
 bootstrapURL: "/components/pagination/"
 reactBootstrapURL: "/components/pagination/"
 ---
@@ -41,11 +39,11 @@ Pagination allows the user to easily find and navigate through large amounts of 
     <tr>
       <th scope="row">Small</th>
       <td class="anatomy-cell">
-        <nav aria-label="...">
+        <nav aria-label="Page Navigation Example">
           <ul class="pagination pagination-sm anatomy-display-static" data-anatomy-colors="false" style="font-size: 12px">
             <li class="page-item">
-              <a class="page-link" href="#">
-                <i class="modus-icons">chevron_left</i>
+              <a class="page-link" href="#" aria-label="Previous">
+                <i class="modus-icons" aria-hidden="true">chevron_left</i>
               </a>
             </li>
             <li class="page-item">
@@ -74,13 +72,13 @@ Pagination allows the user to easily find and navigate through large amounts of 
               </a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="#">
-                <i class="modus-icons">chevron_right</i>
+              <a class="page-link" href="#" aria-label="Next">
+                <i class="modus-icons" aria-hidden="true">chevron_right</i>
               </a>
             </li>
           </ul>
         </nav>
-        <nav aria-label="...">
+        <nav aria-label="Page Navigation Example">
           <ul class="pagination pagination-sm m-0 mt-5">
             <li class="page-item">
               <a href="#" class="page-link anatomy-display-static" data-anatomy-colors="false" data-anatomy-popover="false">1</a>
@@ -96,8 +94,8 @@ Pagination allows the user to easily find and navigate through large amounts of 
           <nav aria-label="..." style="width: 300px">
             <ul class="pagination anatomy-display-static" data-anatomy-colors="false">
               <li class="page-item">
-                <a class="page-link" href="#">
-                  <i class="modus-icons">chevron_left</i>
+                <a class="page-link" href="#" aria-label="Previous">
+                  <i class="modus-icons" aria-hidden="true">chevron_left</i>
                 </a>
               </li>
               <li class="page-item">
@@ -126,13 +124,13 @@ Pagination allows the user to easily find and navigate through large amounts of 
                 </a>
               </li>
               <li class="page-item">
-                <a class="page-link" href="#">
-                  <i class="modus-icons">chevron_right</i>
+                <a class="page-link" href="#" aria-label="Next">
+                  <i class="modus-icons" aria-hidden="true">chevron_right</i>
                 </a>
               </li>
             </ul>
           </nav>
-          <nav aria-label="...">
+          <nav aria-label="Page Navigation Example">
             <ul class="pagination m-0 mt-5">
               <li class="page-item">
                 <a href="#" class="page-link anatomy-display-static" data-anatomy-colors="false" data-anatomy-popover="false">1</a>
@@ -148,8 +146,8 @@ Pagination allows the user to easily find and navigate through large amounts of 
         <nav aria-label="..." style="width: 400px">
           <ul class="pagination pagination-lg anatomy-display-static" data-anatomy-colors="false" style="font-size: 16px">
             <li class="page-item">
-              <a class="page-link" href="#">
-                <i class="modus-icons">chevron_left</i>
+              <a class="page-link" href="#" aria-label="Previous">
+                <i class="modus-icons" aria-hidden="true">chevron_left</i>
               </a>
             </li>
             <li class="page-item">
@@ -169,13 +167,13 @@ Pagination allows the user to easily find and navigate through large amounts of 
               </a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="#">
-                <i class="modus-icons">chevron_right</i>
+              <a class="page-link" href="#" aria-label="Next">
+                <i class="modus-icons" aria-hidden="true">chevron_right</i>
               </a>
             </li>
           </ul>
         </nav>
-        <nav aria-label="...">
+        <nav aria-label="Page Navigation Example">
           <ul class="pagination pagination-lg m-0 mt-5">
             <li class="page-item">
               <a href="#" class="page-link anatomy-display-static" data-anatomy-colors="false" data-anatomy-popover="false">1</a>
@@ -201,11 +199,11 @@ Pagination allows the user to easily find and navigate through large amounts of 
 
 <div class="guide-example-block">
   <div class="guide-sample">
-    <nav aria-label="...">
+    <nav aria-label="Page Navigation Example">
       <ul class="pagination m-0">
         <li class="page-item disabled">
-          <a class="page-link" href="#">
-            <i class="modus-icons">chevron_left</i>
+          <a class="page-link" href="#" aria-label="Previous">
+            <i class="modus-icons" aria-hidden="true">chevron_left</i>
           </a>
         </li>
         <li class="page-item disabled">
@@ -244,8 +242,8 @@ Pagination allows the user to easily find and navigate through large amounts of 
           </a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">
-            <i class="modus-icons">chevron_right</i>
+          <a class="page-link" href="#" aria-label="Next">
+            <i class="modus-icons" aria-hidden="true">chevron_right</i>
           </a>
         </li>
       </ul>
@@ -259,11 +257,11 @@ Pagination allows the user to easily find and navigate through large amounts of 
 
 <div class="guide-example-block">
   <div class="guide-sample">
-    <nav aria-label="...">
+    <nav aria-label="Page Navigation Example">
       <ul class="pagination m-0">
         <li class="page-item">
-          <a class="page-link" href="#">
-            <i class="modus-icons">chevron_left</i>
+          <a class="page-link" href="#" aria-label="Previous">
+            <i class="modus-icons" aria-hidden="true">chevron_left</i>
           </a>
         </li>
         <li class="page-item">
@@ -302,8 +300,8 @@ Pagination allows the user to easily find and navigate through large amounts of 
           </a>
         </li>
         <li class="page-item disabled">
-          <a class="page-link" href="#">
-            <i class="modus-icons">chevron_right</i>
+          <a class="page-link" href="#" aria-label="Next">
+            <i class="modus-icons" aria-hidden="true">chevron_right</i>
           </a>
         </li>
       </ul>
@@ -314,4 +312,6 @@ Pagination allows the user to easily find and navigate through large amounts of 
 ### Accessibility
 
 - Use a wrapping `<nav>` element to identify it as a navigation section to screen readers and other assistive technologies.
-- Pagination is built with the ordered list `ol` HTML elements, so screen readers can announce the number of available links.
+- As pages likely have more than one such navigation section, it’s advisable to provide a descriptive `aria-label` for the `<nav>` to reflect its purpose. For example, if the pagination component is used to navigate between a set of search results, an appropriate label could be `aria-label="Search results pages"`.
+- Pagination is built with the ordered list `ol` HTML elements (only if the number of links exactly matches), so screen readers can announce the number of available links.
+- If you use icons for the next and previous buttons be sure to add the `aria-label="Previous"` and ` aria-label="Next"` attributes to the links.
