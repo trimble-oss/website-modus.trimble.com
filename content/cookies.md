@@ -10,18 +10,10 @@ disableScrollSpy: true
 sitemap_exclude: true
 ---
 
-<p>
-  "Cookies" are pieces of information that a web site transfers to an
-  individual's hard drive for record-keeping purposes.
-</p>
+"Cookies" are pieces of information that a web site transfers to an
+individual's hard drive for record-keeping purposes.
 
-<!-- OneTrust Cookies List -->
-<div id="optanon-cookie-policy" class="text-trimble-gray"></div>
-
-<!-- OneTrust Cookies Settings button start -->
-<a class="btn btn-primary mt-3 optanon-show-settings">
-  Cookie Settings
-</a>
+We don't set any cookies.
 
 <style>
 article footer,

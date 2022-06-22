@@ -44,7 +44,7 @@ article ul:not(:first-of-type) li {
 }
 
 .custom-control {
-  height: 100%;
+  height: auto !important;
 }
 </style>
 

@@ -39,7 +39,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
     <tr>
       <th scope="row">Small</th>
       <td class="anatomy-cell">
-        <nav aria-label="Page Navigation Example">
+        <nav aria-label="Page Navigation Example" class="w-75">
           <ul class="pagination pagination-sm anatomy-display-static" data-anatomy-colors="false" style="font-size: 12px">
             <li class="page-item">
               <a class="page-link" href="#" aria-label="Previous">
@@ -47,7 +47,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
               </a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="#">
+              <a class="page-link" href="#" aria-label="view more">
                 <i class="modus-icons">more_horizontal</i>
               </a>
             </li>
@@ -67,7 +67,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
               <a class="page-link" href="#"> 7 </a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="#">
+              <a class="page-link" href="#" aria-label="view more">
                 <i class="modus-icons">more_horizontal</i>
               </a>
             </li>
@@ -99,7 +99,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
                 </a>
               </li>
               <li class="page-item">
-                <a class="page-link" href="#">
+                <a class="page-link" href="#" aria-label="view more">
                   <i class="modus-icons">more_horizontal</i>
                 </a>
               </li>
@@ -119,7 +119,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
                 <a class="page-link" href="#"> 7 </a>
               </li>
               <li class="page-item">
-                <a class="page-link" href="#">
+                <a class="page-link" href="#" aria-label="view more">
                   <i class="modus-icons">more_horizontal</i>
                 </a>
               </li>
