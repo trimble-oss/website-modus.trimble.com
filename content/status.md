@@ -36,9 +36,9 @@ hideToc: true
 | [Cards](/components/cards/)                                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Checkboxes](/components/checkboxes/)                         | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Chips](/components/chips/)                                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
-| [Content Tree](/components/content-tree/)                     | {{< ico-check >}} |                    | U/C                      | U/C                     |
+| [Content Tree](/components/content-tree/)                     | {{< ico-check >}} |                    | {{< ico-check >}}        | U/C                     |
 | [Dropdowns](/components/dropdowns/)                           | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
-| [File Upload Dropzone](/components/file-upload-dropzone/)     | {{< ico-check >}} | {{< ico-check >}}  | U/C                      | U/C                     |
+| [File Upload Dropzone](/components/file-upload-dropzone/)     | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | U/C                     |
 | [Inputs](/components/inputs/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Lists](/components/lists/)                                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Messages](/components/messages/)                             | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
