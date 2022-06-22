@@ -43,6 +43,7 @@
   .sun-and-moon .moon > circle {
     transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
   }
+
   @supports (cx: 1) {
     .sun-and-moon .moon > circle {
       transition: cx 0.25s cubic-bezier(0, 0, 0, 1);
@@ -91,14 +92,11 @@
   --icon-fill: hsl(210deg 10% 70%);
   --icon-fill-hover: hsl(210deg 15% 90%);
 }
+
 @media (hover: none) {
   .theme-toggle {
     --size: 48px;
   }
-}
-
-html {
-  color-scheme: light;
 }
 
 html[data-theme="light"]  {
@@ -108,6 +106,7 @@ html[data-theme="light"]  {
 html[data-theme="dark"] {
   color-scheme: dark;
 }
+
 @supports not (color-scheme: dark) {
   html[data-theme="light"] {
     background-color: #fff;
