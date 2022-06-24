@@ -28,6 +28,7 @@ a.navbar-brand:hover {
 }
 
 // sets underline on top navbar on selected section
+
 /*! purgecss start ignore */
 body[data-url^="/designers/"] .navbar-nav li a[href^="/start/"],
 body[data-url^="/developers/"] .navbar-nav li a[href^="/start/"],
@@ -41,6 +42,7 @@ body[data-url^="/community/"] .navbar-nav li a[href^="/community/"],
 body[data-url^="/news/"] .navbar-nav li a[href^="/community/"] {
   border-bottom: 2px solid #fff;
 }
+
 /*! purgecss end ignore */
 
 .navbar .dropdown-menu a {

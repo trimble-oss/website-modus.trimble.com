@@ -112,6 +112,8 @@ module.exports = {
         "nav-link",
         "navbar",
         "navbar-blue",
+        "navbar-brand",
+        "navbar-nav",
         "opacity-50",
         "opacity-75",
         "open",
