@@ -5,19 +5,23 @@
 
   header.container-fluid h1,
   header.container-fluid h2 {
-    color: #fff;
+    color: #004f83;
   }
 
   header.container-fluid {
-    background-color: #206aa5;
+    background-color: #fff;
     background-position: center;
     background-size: cover;
-    color: #fff !important;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 1441 334' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%2307599B' d='M0 0h1440v332H0z'/%3E%3Cpath fill='%2300437B' d='M0 334V0h886z'/%3E%3Cpath fill='%23197CB6' d='M1437.605 245l3.395 87H615z'/%3E%3C/g%3E%3C/svg%3E");
+    color: #004f83 !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 1441 334' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath fill='%23f1f1f6' d='M0 0h1440v332H0z'/%3E%3Cpath fill='%23e0e1e9' d='M0 334V0h886z'/%3E%3Cpath fill='%23fff' d='M1437.605 245l3.395 87H615z'/%3E%3C/g%3E%3C/svg%3E");
   }
 
   .bg-light {
     background-color: #f1f1f6 !important;
+  }
+
+  article a.btn-primary::after {
+    filter: invert(1);
   }
 
   .footer {
