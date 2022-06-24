@@ -28,6 +28,7 @@ a.navbar-brand:hover {
 }
 
 // sets underline on top navbar on selected section
+/*! purgecss start ignore */
 body[data-url^="/designers/"] .navbar-nav li a[href^="/start/"],
 body[data-url^="/developers/"] .navbar-nav li a[href^="/start/"],
 body[data-url^="/device-support/"] .navbar-nav li a[href^="/start/"],
@@ -38,8 +39,9 @@ body[data-url^="/foundations/"] .navbar-nav li a[href^="/foundations/"],
 body[data-url^="/components/"] .navbar-nav li a[href^="/components/"],
 body[data-url^="/community/"] .navbar-nav li a[href^="/community/"],
 body[data-url^="/news/"] .navbar-nav li a[href^="/community/"] {
-  border-bottom: 2px solid #005f9e;
+  border-bottom: 2px solid #fff;
 }
+/*! purgecss end ignore */
 
 .navbar .dropdown-menu a {
   border: 0;
