@@ -95,3 +95,8 @@ a.header-link::after {
 .docs-callout-info {
   border-left-color: #cfe1ee !important;
 }
+
+// fix bug where popovers appear over the navbar
+.popover {
+  z-index: 1020 !important;
+}
