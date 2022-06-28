@@ -1,8 +1,12 @@
 *.min.js
 *.html
 *.json
+*.md
+*.yml
 
+*.config.js
 example-code-es*.js
+theme-toggle.js
 
 layouts/shortcodes/cloakemail.html
 node_modules/*

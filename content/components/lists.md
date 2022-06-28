@@ -26,7 +26,7 @@ reactBootstrapURL: "/components/lists/"
 
 Lists are used to present information in well-formed and semantic way. The most basic list group is an unordered list.
 
-<h6 id="list-items">List Items</h6>
+<div class="h6" id="list-items">List Items</div>
 <ul class="list-group">
   <li class="list-group-item active">Crate just odor</li>
   <li class="list-group-item">Daffodil ac facility in</li>
