@@ -95,7 +95,10 @@ menu:
       weight: 10
     - name: Trimble ID (TID)
       url: /foundations/tid/
-      weight: 10
+      weight: 11
+    - name: Dark Mode
+      url: /foundations/dark-mode/
+      weight: 12
 
   components:
     - name: Accordions
