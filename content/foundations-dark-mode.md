@@ -25,11 +25,11 @@ The overall idea behind Trimble components in dark mode can be categorized on hi
 
 ![Navbar example](/img/dark-mode-navbar.png)
 
-- A primary (highlight) Trimble Blue #019aeb is the main highlight color and affects the vast majority of controls where the user's attention is crucial, such as buttons, dropdown buttons, checkboxes, radio buttons, switches, etc. It is used for breadcrumbs and tabs text too. Here are few examples:
+- A primary (highlight) Trimble Blue {{< color-preview hex="#019aeb">}} is the main highlight color and affects the vast majority of controls where the user's attention is crucial, such as buttons, dropdown buttons, checkboxes, radio buttons, switches, etc. It is used for breadcrumbs and tabs text too. Here are few examples:
 
 ![Progress bar example](/img/dark-mode-progress-bar.png)
 
-- Components using red/yellow/green text in light mode follow a different design principle in dark mode. In dark mode, white text overlays a solid or semi-transparent red//yellow/green background instead to address readability constraints. Those are mainly alerts, toasts, and input messages. An example:
+- Components using red/yellow/green text in light mode follow a different design principle in dark mode. In dark mode, white text overlays a solid or semi-transparent red/yellow/green background instead to address readability constraints. Those are mainly alerts, toasts, and input messages. An example:
 
 ![Toasts example](/img/dark-mode-toasts.png)
 
