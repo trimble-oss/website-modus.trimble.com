@@ -2,10 +2,7 @@
 title: "Dark Mode"
 layout: "single"
 description: "A system-wide appearance setting that uses a dark color palette to provide a comfortable viewing experience tailored for low-light environments."
-image: "/img/headers/dark-mode.jpg"
 foundations: true
-aliases:
-  - "/dark-mode.html"
 url: "/foundations/dark-mode/"
 ---
 
@@ -23,7 +20,7 @@ The option to switch between light and dark modes in an application ideally shou
 
 The overall idea behind Trimble components in dark mode can be categorized on high level as follows:
 
-- The general UI background is Trimble Gray #252a2e
+- The general UI background is Trimble Gray {{< color-preview hex="#252a2e">}}
 - Other components are shaded within the Trimble Gray palette. Please refer to the Modus components resources in dark mode. An example:
 
 ![Navbar example](/img/dark-mode-navbar.png)
