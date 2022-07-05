@@ -1,6 +1,6 @@
 ---
 title: Modus React Bootstrap v1.1.0
-date: 2022-04-13
+date: 2022-07-05
 description: "More components and features."
 image: "/img/blog/headers/2022-06-30-modus-react-bootstrap-v110.jpg"
 images:
