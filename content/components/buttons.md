@@ -52,7 +52,7 @@ There are two button progressions you can choose from: structural and color prog
   </thead>
   <tbody>
     <tr>
-      <td><button class="btn btn-primary">Add New</button></td>
+      <td><button class="btn btn-primary">Add new</button></td>
       <td>High</td>
       <td>
         Use to draw attention to the primary action on a screen. There should be
@@ -98,7 +98,7 @@ There are two button progressions you can choose from: structural and color prog
   </thead>
   <tbody>
     <tr>
-      <td><button class="btn btn-primary">Add New</button></td>
+      <td><button class="btn btn-primary">Add new</button></td>
       <td>High</td>
       <td>
         Use to draw attention to the primary action on a screen. There should be
