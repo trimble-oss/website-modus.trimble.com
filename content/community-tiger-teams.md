@@ -9,26 +9,41 @@ community: true
 
 Thank you for your interest in joining a Tiger Team! A Tiger Team is "a specialized, cross-functional team brought together to solve or investigate a specific problem or critical issue." [What is a Tiger Team?](https://www.lucidchart.com/blog/what-is-a-tiger-team)
 
-## Tiger Teams
+## Upcoming
 
-| Status     | Team Name            | Team Members                                                                                                                                       | Start Date |
-| ---------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| Upcoming  | Indicators & Selected States  | Calling candidates soon! |   |
-| Upcoming  | Microinteractions & Animations | Calling candidates soon! |   |
-| Upcoming  | Side Panel | J. de Wit; Calling for more candidates soon! |   |
-| Active | Accessibility | C. Koga, D. Bedick, A. Chammoth-Sivaraman, A. Chandroo, K. Davies, J. Gray, G. Jagadeesan, B. Kobloth, F. Kuipers, F. Lira, B. Mergener, C. Oliff, S. Paasch, A. Rodriguez, C. Rodriguez | 04/25/2022 |
-| Active | Help Menu Navigation | C. Christison, R. Pekkinen, A. Chammoth Sivaraman, A. Galstyan, C. Cuellar, D. Bedick, F. Kuipers, J. Wegerer, M. Cowley, C. Starbird, K. Vander Ploeg | 03/09/2022 |
-| Active | 3D Design Patterns | P. Borgstein, A. Komninos, J. Oczkowski, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, T. Sippola, E. Pilke, S. Sidhu, D. Silcock, K. Thurlow | 01/24/2022 |
-| Active  | Mobile&nbsp;Patterns | D. Bedick, E. Bohn, R. Stillwell, N. Cadsawan, C. Starbird, L. Saenz, E. Gunther, J. A. Provin Silva | 03/12/2021 |
-| Inactive  | Dark Mode | S. Kaukomen, A. C. Sivaraman, E. Gunther, J. de Wit, K. Phillips, M. Johns, P. Borgstein, T. Williams, U. Meza | In Production  |
-| Inactive  | Icon Implementation  | S. Kaukomen, T. Manham, A. Shchegoleva, C. Krieg, E. Deleon, E. Gunther, N. Vasudevan, S. Ortiz | In Production |
-| Inactive  | Side Navigation      | J. Wittmeyer, C. D. Savio Lazaro, S. Taylor, J. de Wit, E. Gunther, T. Manham, N. Cadsawan, P. Karukkuvel, E. Deleon, A. Tucker, L. Meskanen-Kundu | In Production |
-| Inactive  | Tables  | G. Leuhof, D. Donnell, G. Piltzer, H. Keller, K. Tran, S. Lucey, S. Williams, T. Ortiz, T. Manham, Z. Tran Do | In Production |
-| Inactive | Header/ Top Nav  | S. Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor | Complete |
-| Inactive | Email Templates | Z. Kulpa, J. Dong, T. Barnard, T. Saunders | Complete |
-| Inactive | Data Visualization | E. Nowak, C. Willis, E. Bohn, T. Barnard | Complete |
-| Inactive | Icon Definitions | S. Kaukomen, S. Bali, T. Manham, M. Heighway, E. Nowak | Complete |
-| Inactive | Typography | L. Cook, M. Heighway, A. Eidam, E. Gunther, E. Bohn, N. Springer, G.Leuhof | Complete |
+| Team Name            | Team Members
+| ---------- | -------------------- |
+| Icon Revision & Review | **E. Gunther**; Calling more candidates soon! |
+| Layout Tiger Team | **N. Cadsawan**; Calling more candidates soon! |
+| Trimble Brand Logos | **T. Barnard**; Calling more candidates soon! |
+| Side Panel | **J. de Wit**; Calling for more candidates soon! |
+| Indicators & Selected States  | Calling candidates soon! |
+| Microinteractions & Animations | Calling candidates soon! |
+{class="table table-bordered"}
+
+## Active
+
+| Team Name            | Team Members | Start Date |
+| ---------- | -------------------- | ----------- |
+| Accessibility | **C. Koga**, D. Bedick, A. Chammoth-Sivaraman, A. Chandroo, K. Davies, J. Gray, G. Jagadeesan, B. Kobloth, F. Kuipers, **F. Lira**, B. Mergener, **C. Oliff**, S. Paasch, A. Rodriguez, C. Rodriguez, I. Perez, S. Kaukonen, H. Sunny, S. Fahad | 04/25/2022 |
+| Help Menu Navigation | **C. Christison**, R. Pekkinen, A. Chammoth Sivaraman, A. Galstyan, C. Cuellar, D. Bedick, F. Kuipers, J. Wegerer, M. Cowley, C. Starbird, K. Vander Ploeg, M. Linja-aho, T. Hautalahti, T. Stryker | 03/09/2022 |
+| 3D Design Patterns | **P. Borgstein**, A. Komninos, J. Oczkowski, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, T. Sippola, E. Pilke, S. Sidhu, D. Silcock, K. Thurlow | 01/24/2022 |
+| Mobile&nbsp;Patterns | **D. Bedick**, E. Bohn, R. Stillwell, N. Cadsawan, C. Starbird, L. Saenz, E. Gunther, J. A. Provin Silva | 03/12/2021 |
+{class="table table-bordered"}
+
+## Completed
+
+| Team Name            | Team Members             | Status |
+| ---------- | -------------------- | --------------- |
+| Dark Mode | **S. Kaukonen**, A. C. Sivaraman, E. Gunther, J. de Wit, K. Phillips, M. Johns, P. Borgstein, T. Williams, U. Meza | In Production  |
+| Icon Implementation  | **S. Kaukomnn**, T. Manham, A. Shchegoleva, C. Krieg, E. Deleon, E. Gunther, N. Vasudevan, S. Ortiz | In Production |
+| Side Navigation      | **J. Wittmeyer**, C. D. Savio Lazaro, S. Taylor, J. de Wit, E. Gunther, T. Manham, N. Cadsawan, P. Karukkuvel, E. Deleon, A. Tucker, L. Meskanen-Kundu | In Production |
+| Tables  | **G. Leuhof**, D. Donnell, G. Piltzer, H. Keller, K. Tran, S. Lucey, S. Williams, T. Ortiz, T. Manham, Z. Tran Do | In Production |
+| Header/ Top Nav  | **S. Williams**, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor | Complete |
+| Email Templates | **Z. Kulpa**, J. Dong, T. Barnard, T. Saunders | Complete |
+| Data Visualization | **E. Nowak**, C. Willis, E. Bohn, T. Barnard | Complete |
+| Icon Definitions | **S. Kaukonen**, S. Bali, T. Manham, M. Heighway, E. Nowak | Complete |
+| Typography | **L. Cook**, M. Heighway, A. Eidam, E. Gunther, E. Bohn, N. Springer, G.Leuhof | Complete |
 {class="table table-bordered"}
 
 ![Tiger Team Process](/img/guide/tiger-team-process.png)
