@@ -23,14 +23,14 @@ Tree view is also accessible by the keyboard navigation.
 
 For more details and demos, please refer to the [documentation](https://modus-react-bootstrap.trimble.com/components/content-tree/) on Content Tree.
 
-### File upload Dropzone
+### File Upload Dropzone
 
 A file upload drop zone component that allows users to upload content from their computer or device into the application by dragging a file (or files) into a target zone.
 `FileUploadDropZone` is the tag needed for creating a drop zone. It supports multiple files upload and it can perform basic validation against the files being uploaded using the API inputs. Custom validation is supported too.
 
 For more details and demos, please refer to the [documentation](https://modus-react-bootstrap.trimble.com/components/file-upload-dropzone/) on File Upload Dropzone.
 
-### DataTable
+### Data Table
 
 In addition to the existing `Table` component we now have a `DataTable` component.
 `DataTable` is a wrapper over the existing `Table` with advanced features. And it works with a wrapper component called `TablePagination` which basically uses `Pagination`. `DataTable` supports sorting, client-side pagination, column resize and reorder, row selection, cell editing, hiding and filtering columns.
