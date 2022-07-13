@@ -13,12 +13,12 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 
 | Team Name            | Team Members
 | ---------- | -------------------- |
-| Icon Revision & Review | **E. Gunther**; Calling more candidates soon! |
-| Layout Tiger Team | **N. Cadsawan**; Calling more candidates soon! |
-| Trimble Brand Logos | **T. Barnard**; Calling more candidates soon! |
-| Side Panel | **J. de Wit**; Calling for more candidates soon! |
+| Icon Revision & Review | _Lead:_ E. Gunther; **Sign up by July 22! [Join Now!](https://forms.gle/UdakACD5B8fF8pca7)** |
+| Layout Tiger Team | _Lead:_ N. Cadsawan; **Sign up by July 22! [Join Now](https://forms.gle/zSNCK6n6emsmDvMd9)** |
+| Trimble Brand Logos | _Lead:_ T. Barnard; **Sign up by July 29! [Join Now!](https://forms.gle/QdWMy2iv7Yai8Zp46)** |
+| Side Panel | _Lead:_ J. De Wit; **Sign up by July 29! [Join Now!](https://forms.gle/Dc78JamBkMDzXp2L6)** |
+| Microinteractions & Animations | _Lead:_ T. Manham; **Sign up by August 5! [Join Now!](https://forms.gle/ERrCZE1CkqrzYMMJ9)** |
 | Indicators & Selected States  | Calling candidates soon! |
-| Microinteractions & Animations | Calling candidates soon! |
 {class="table table-bordered"}
 
 ## Active
@@ -36,7 +36,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 | Team Name            | Team Members             | Status |
 | ---------- | -------------------- | --------------- |
 | Dark Mode | **S. Kaukonen**, A. C. Sivaraman, E. Gunther, J. de Wit, K. Phillips, M. Johns, P. Borgstein, T. Williams, U. Meza | In Production  |
-| Icon Implementation  | **S. Kaukomnn**, T. Manham, A. Shchegoleva, C. Krieg, E. Deleon, E. Gunther, N. Vasudevan, S. Ortiz | In Production |
+| Icon Implementation  | **S. Kaukonen**, T. Manham, A. Shchegoleva, C. Krieg, E. Deleon, E. Gunther, N. Vasudevan, S. Ortiz | In Production |
 | Side Navigation      | **J. Wittmeyer**, C. D. Savio Lazaro, S. Taylor, J. de Wit, E. Gunther, T. Manham, N. Cadsawan, P. Karukkuvel, E. Deleon, A. Tucker, L. Meskanen-Kundu | In Production |
 | Tables  | **G. Leuhof**, D. Donnell, G. Piltzer, H. Keller, K. Tran, S. Lucey, S. Williams, T. Ortiz, T. Manham, Z. Tran Do | In Production |
 | Header/ Top Nav  | **S. Williams**, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor | Complete |
