@@ -38,6 +38,7 @@ Progress indicators inform users about the status of ongoing processes, such as 
         id="progressExample"
         class="progress-bar"
         role="progressbar"
+        aria-label="example progress bar"
         style="width: 0;"
         aria-valuenow="25"
         aria-valuemin="0"
@@ -58,6 +59,7 @@ Progress indicators inform users about the status of ongoing processes, such as 
       <div
         class="progress-bar"
         role="progressbar"
+        aria-label="example progress bar"
         style="width: 75%;"
         aria-valuenow="75"
         aria-valuemin="0"

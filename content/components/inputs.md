@@ -54,8 +54,8 @@ Input fields or text fields allow users to enter text into a UI. They typically 
     </div>
   </div>
   <div class="form-group">
-    <label for="exampleFormControlSelect1">Custom Select Outlined</label>
-    <select class="custom-select form-control" id="exampleFormControlSelect2">
+    <label for="exampleFormControlSelect">Custom Select Outlined</label>
+    <select class="custom-select form-control" id="exampleFormControlSelect">
       <option>Option 1</option>
       <option>Option 2</option>
       <option>Option 3</option>
@@ -132,124 +132,6 @@ There are two sizes of input fields defined:
     </tr>
   </tbody>
 </table>
-
-<!--<hr>
-
-<form>
-  <div class="form-group">
-    <label for="Input1">Regular Input</label>
-    <input class="form-control border-secondary" id="Input1" placeholder="Placeholder Text">
-  </div>
-  <div class="form-group">
-    <label for="Input2">Input with icon on right</label>
-    <div class="input-with-icon-right">
-      <input class="form-control border-secondary" placeholder="Placeholder Text" id="Input2">
-      <div class="input-icon">
-        <i class="modus-icon material-icons">visibility</i>
-      </div>
-    </div>
-  </div>
-
-  <div class="form-group">
-    <label for="Input3">Input with icon on left</label>
-    <div class="input-with-icon-left">
-      <input class="form-control border-secondary" placeholder="Placeholder Text" id="Input3">
-      <div class="input-icon">
-        <i class="modus-icon material-icons">search</i>
-      </div>
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="Input4">Input with a button</label>
-    <div class="input-group">
-      <input class="form-control border-secondary" placeholder="Placeholder Text" id="Input4">
-      <div class="input-group-append">
-        <button class="btn btn-outline-secondary">
-          Go
-        </button>
-      </div>
-    </div>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect1">Custom Select Outlined</label>
-    <select class="custom-select form-control border-secondary" id="exampleFormControlSelect2">
-      <option>Option 1</option>
-      <option>Option 2</option>
-      <option>Option 3</option>
-      <option>Option 4</option>
-      <option>Option 5</option>
-    </select>
-  </div>
-  <div class="form-group">
-  <label for="Input1">Normal Text Area</label>
-  <textarea class="form-control border-secondary" id="Input1">Some Text</textarea>
-</div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-
-## Specifications
-
-- Label Text Color: #6A6976
-- Input Text Color: #363545
-- Placeholder Text Color: #D0D0D7
-
-- 12px padding on both default and large
-
-There are two sizes of input fields defined:
-
-- Default: used for most forms
-- Large: used for forms in in-cab applications
-
-<table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th></th>
-      <th>Example</th>
-      <th>Height</th>
-      <th>Font Size</th>
-    </tr>
-  </thead>
-  <tbody>
-  <tr>
-      <th scope="row">Default</th>
-      <td class="anatomy-cell bg-light">
-        <input class="form-control mb-2" placeholder="Placeholder text" />
-        <input
-          class="form-control anatomy-display-static mb-5"
-          placeholder="Default Input"
-          value="Default Input"
-        />
-      </td>
-      <td>32px</td>
-      <td>12px (0.75 rem)</td>
-    </tr>
-    <tr>
-      <th scope="row">Large</th>
-      <td class="anatomy-cell bg-light">
-        <input
-          class="form-control form-control-lg mb-2"
-          placeholder="Placeholder text"
-        />
-        <input
-          class="form-control form-control-lg anatomy-display-static mb-5"
-          placeholder="Large Input"
-          value="Large Input"
-        />
-      </td>
-      <td>48px</td>
-      <td>14px (0.875 rem)</td>
-    </tr>
-  </tbody>
-</table>-->
-
-<!--### Textarea
-
-<table class="table table">
- <div class="form-group col-12 col-sm-6 col-md-4 pl-0">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-</table>-->
 
 ### Behaviors
 
