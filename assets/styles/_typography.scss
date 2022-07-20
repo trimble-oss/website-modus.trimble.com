@@ -117,19 +117,19 @@ p[class^="desktop-"] {
 // #display-headings
 
 .display-h1 {
-  font-size: 72px;
+  font-size: 72px !important;
   letter-spacing: 0.4px;
   font-weight: 700;
 }
 
 .display-h2 {
-  font-size: 40px;
+  font-size: 40px !important;
   letter-spacing: 0.4px;
   font-weight: 700;
 }
 
 .display-h3 {
-  font-size: 32px;
+  font-size: 32px !important;
   letter-spacing: 0.283px;
   font-weight: 600;
 }
