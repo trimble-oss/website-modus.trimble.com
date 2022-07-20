@@ -39,9 +39,9 @@ Both header and button container should be 64px in height.
 
 <div class="guide-example-block my-3 bg-light pr-n5">
   <div class="guide-content-sample modal-static" style="padding-bottom: 24px;">
-    <div class="modal show d-block ml-5 position-relative" tabindex="-1" role="dialog">
+    <div class="modal show d-block ml-5 position-relative" tabindex="-1" role="dialog" style="z-index:1">
       <div class="modal-dialog show" role="document">
-        <div class="modal-content" style="width: 80%; float: right;">
+        <div class="modal-content float-right" style="width: 80%;">
           <div class="modal-header anatomy-display-static" data-anatomy-colors="false" style="padding-top: 17px; padding-bottom: 18px;">
             <h4 class="modal-title">Modal Header</h4>
             <button
