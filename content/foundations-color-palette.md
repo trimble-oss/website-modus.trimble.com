@@ -201,6 +201,18 @@ Green Pale
 
 </div>
 
+## Special Case Colors
+
+Colors that are only used for particular purposes.
+
+<div class="row">
+
+{{< card-color hex="#019AEB" note="Dark Mode Only">}}
+Highlight Blue
+{{</ card-color >}}
+
+</div>
+
 ## Text Color Use Examples
 
 <img src="/img/text-color.svg" class="img-fluid text-center mx-auto mb-4" width="670" alt="Text Color Palette" style="background:#fff">
