@@ -207,7 +207,7 @@ Colors that are only used for particular purposes.
 
 <div class="row">
 
-{{< card-color hex="#019AEB" note="Dark Mode Only">}}
+{{< card-color hex="#019AEB" note="Replaces Trimble Blue in Dark Mode Only">}}
 Highlight Blue
 {{</ card-color >}}
 
