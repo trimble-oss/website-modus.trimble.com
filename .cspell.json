@@ -128,7 +128,7 @@
     "bixby",
     "blackfriday",
     "blazingly",
-    "bluedot",
+    "blombard",
     "blueimp",
     "BLUETRUCK",
     "bluntzer",
@@ -583,6 +583,7 @@
     "lang",
     "lansdowne",
     "lastquarter",
+    "lastmod",
     "latamspanish",
     "latlon",
     "lazyload",
@@ -820,6 +821,7 @@
     "pcmweb",
     "pcmws",
     "pdfs",
+    "peaceiris",
     "Pekkinen",
     "pendo",
     "peoplenet",
@@ -1251,6 +1253,7 @@
     "zonar",
     "ZOOMRADII"
   ],
+  "allowCompoundWords": true,
   "flagWords": [
     "blacklist",
     "grandfathered",
