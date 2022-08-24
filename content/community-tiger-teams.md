@@ -13,11 +13,6 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 
 | Team Name            | Team Members
 | ---------- | -------------------- |
-| Icon Revision & Review | _Lead:_ E. Gunther; **Sign up by July 22! [Join Now!](https://forms.gle/UdakACD5B8fF8pca7)** |
-| Layout Tiger Team | _Lead:_ N. Cadsawan; **Sign up by July 22! [Join Now](https://forms.gle/zSNCK6n6emsmDvMd9)** |
-| Trimble Brand Logos | _Lead:_ T. Barnard; **Sign up by July 29! [Join Now!](https://forms.gle/QdWMy2iv7Yai8Zp46)** |
-| Side Panel | _Lead:_ J. De Wit; **Sign up by July 29! [Join Now!](https://forms.gle/Dc78JamBkMDzXp2L6)** |
-| Microinteractions & Animations | _Lead:_ T. Manham; **Sign up by August 5! [Join Now!](https://forms.gle/ERrCZE1CkqrzYMMJ9)** |
 | Indicators & Selected States  | Calling candidates soon! |
 {class="table table-bordered"}
 
@@ -25,6 +20,11 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 
 | Team Name            | Team Members | Start Date |
 | ---------- | -------------------- | ----------- |
+| Layout Tiger Team | **N. Cadsawan**, C. Cuellar, C. Oliff, M. Nawaz, Purushothaman G, T. Manham, R. Henness, Q. Le | 08/25/2022 |
+| Microinteractions & Animations | **T. Manham**, B. Choy, C.Pop, D. Zambrano, J. Jyan, S. Kaukonen, T. Ortiz | 08/25/2022 |
+| Trimble Brand Logos | **I. Bixby**, S. Ortiz | 08/17/2022 |
+| Side Panel | **J. de Wit**, A. Galstyan, C. Pop, C. Cuellar, C. Starbird, D. Silcock | 08/17/2022 |
+| Icon Revision & Review | **E. Gunther**, G. Assi, L. Saenz, S. Reda, S. Ortiz, S. Kaukonen, T. Manham | 07/28/2022 |
 | Accessibility | **C. Koga**, D. Bedick, A. Chammoth-Sivaraman, A. Chandroo, K. Davies, J. Gray, G. Jagadeesan, B. Kobloth, F. Kuipers, **F. Lira**, B. Mergener, **C. Oliff**, S. Paasch, A. Rodriguez, C. Rodriguez, I. Perez, S. Kaukonen, H. Sunny, S. Fahad | 04/25/2022 |
 | Help Menu Navigation | **C. Christison**, R. Pekkinen, A. Chammoth Sivaraman, A. Galstyan, C. Cuellar, D. Bedick, F. Kuipers, J. Wegerer, M. Cowley, C. Starbird, K. Vander Ploeg, M. Linja-aho, T. Hautalahti, T. Stryker | 03/09/2022 |
 | 3D Design Patterns | **P. Borgstein**, A. Komninos, J. Oczkowski, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, T. Sippola, E. Pilke, S. Sidhu, D. Silcock, K. Thurlow | 01/24/2022 |
