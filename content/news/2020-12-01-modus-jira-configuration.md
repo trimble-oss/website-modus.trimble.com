@@ -41,7 +41,7 @@ Stories most notably include the following information:
 - **Epic:** which Epic does the story belong to
 - **Comments:** a way to document and keep track of questions, progress, etc.
 
-![Jira Story Example](/img/jira-story.png)
+![Jira Story Example](/img/news/jira-story.png)
 
 I added as much detail as is relevant to the stories. Stories that are being worked on (featured on the kanban board) or about to be moved from the backlog have more details; stories that are further out in the backlog have less details that will be filled in as we move closer to working on them.
 
@@ -95,11 +95,11 @@ Starting a design system at Trimble requires some initial big investments that w
 
 After the formative period, the work will transition into business-as-usual. Nevertheless, the system will evolve and grow creating a need for epics representing new initiatives.
 
-![March 2020 DDS Kanban Board](/img/modus-kanban.png)
+![March 2020 DDS Kanban Board](/img/news/modus-kanban.png)
 
 [DDS Kanban Board](https://jira.trimble.tools/secure/RapidBoard.jspa?projectKey=DDS&rapidView=5332)
 
-![March 2020 DDS Backlog](/img/jira-backlog.png)
+![March 2020 DDS Backlog](/img/news/jira-backlog.png)
 
 [DDS Backlog](https://jira.trimble.tools/secure/RapidBoard.jspa?rapidView=5332&projectKey=DDS&view=planning&issueLimit=100)
 

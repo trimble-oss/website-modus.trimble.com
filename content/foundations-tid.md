@@ -21,7 +21,7 @@ Modus components are used to align Trimble UX guidelines and ensure a cohesive a
 
 ## Anatomy
 
-![Anatomy of the TID sign-in page](/img/tid-anatomy.svg)
+![Anatomy of the TID sign-in page](/img/news/tid-anatomy.svg)
 
 1. **Product Name Space** (customizable): Your product name will appear here.
 
@@ -39,19 +39,19 @@ The sign-in page is designed to be responsive so the user experience is unified 
 
 For larger screens, such as laptops and devices connected to a monitor, the sign-in panel  appears on the screen’s right side.
 
-![Large TID Screen](/img/tid-large.svg)
+![Large TID Screen](/img/news/tid-large.svg)
 
 ### Medium Screens
 
 For medium screens, such as on a tablet, the sign-in panel is centered.
 
-<img alt="Medium TID Screen" src="/img/tid-medium.svg" width="450">
+<img alt="Medium TID Screen" src="/img/news/tid-medium.svg" width="450">
 
 ### Small Screens
 
 For smaller screens, such as on a mobile device, the sign-in panel looks as pictured below:
 
-<img alt="Small TID Screen" src="/img/tid-small.svg" width="250">
+<img alt="Small TID Screen" src="/img/news/tid-small.svg" width="250">
 
 <br>&nbsp;<br>
 Find additional resources for branding your sign in page on the [TID v4 Documentation site](https://docs.trimblecloud.com/identity_v4.0/).

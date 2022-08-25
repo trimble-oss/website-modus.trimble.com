@@ -43,7 +43,7 @@ Before we dive into a definition of what Dual-Track Agile Design is, it’s impo
 
   This process consists of six key phases: **Discover - Define - Prototype - Design - Deliver - Evaluate** - where the ultimate goal for our product teams is to design and develop something useful and usable for their users.
 
-  ![UX Process](/img/ux-process.png)
+  ![UX Process](/img/news/ux-process.png)
 
 - **Product Triad** - Successful products are the results of many factors and at SketchUp we believe having product team alignment and engagement is a key factor to our success.
 
@@ -53,7 +53,7 @@ Now that we have some of the core definitions out of the way - what the heck is 
 
 **Dual-Track Agile Design** is an agile development methodology in which product teams break their daily work into two tracks:
 
-![Dual-Track Agile](/img/dual-track-agile.jpg)
+![Dual-Track Agile](/img/news/dual-track-agile.jpg)
 
 It all starts with an idea - an idea for a product feature that is going to help solve our customers problems. In the Discovery track, product teams at SketchUp are focused on fast learning and validation of ideas - while in the Delivery track - the focus is on development velocity, quality, and shippable product.
 
