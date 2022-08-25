@@ -3,11 +3,11 @@
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
 
 <script>document.documentElement.classList.remove('no-js');</script>
-<!-- Theme Toggle
+<!-- Theme Toggle  -->
 {{ $themeToggle := resources.Get "js/theme-toggle.js" }}
 {{ $themeToggleJS := slice $themeToggle | resources.Concat "js/theme-toggle.js" | resources.Minify }}
 <script src="{{ $themeToggleJS.RelPermalink }}" fetchpriority="high"></script>
-<meta name="color-scheme" content="light dark"> -->
+<meta name="color-scheme" content="light dark">
 
 <!-- Faster Loading Google Fonts - https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/ -->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

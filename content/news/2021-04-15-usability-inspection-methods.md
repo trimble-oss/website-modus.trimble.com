@@ -16,7 +16,7 @@ layout: blog-post
 <br><br>
 Do you feel like you don’t have enough time to do usability testing including the recruitment of participants, performing the test, analysing… and finally writing a report with results to improve the User Interface? Do you feel like you need to quickly find major usability issues that could cause big problems within a short period of time? No worries, usability inspection methods can help you out.
 
-![Involving the User](/img/usability-inspection-1.jpg)
+![Involving the User](/img/news/usability-inspection-1.jpg)
 
 ## So what are Usability Inspection Methods?
 
@@ -30,7 +30,7 @@ Let’s look at both in a bit more detail below.
 
 A heuristic evaluation compares the system against a set of guidelines, the heuristics. The 10 Usability Heuristics for UI Design by Nielsen and Molich identified 10 heuristics (such as heuristic #1. Visibility of System Status, #4. Consistency and Standards, #7. Flexibility and Efficiency of Use… and so on to help you inspect your UI.
 
-![Jakob's Ten Usability Heuristics](/img/usability-inspection-2.jpg)
+![Jakob's Ten Usability Heuristics](/img/news/usability-inspection-2.jpg)
 
 In order to do a heuristic evaluation, first you need to get familiar with each heuristic, check examples online, learn the differences and relations between them. You can even print the heuristics out and remind yourself of them. When you do a heuristic evaluation, you will notice that some issues don’t only relate to one heuristic but often cover two.
 
@@ -45,7 +45,7 @@ It can be helpful to ask yourself a question that is related to a heuristic. For
 The Cognitive Walkthrough (CW) is another very known usability inspection method which was introduced at a conference by Lewis, Polson, Wharton & Rieman in 1990.
 One important difference between the CW and the HE is that the CW focuses on the first time user. Even if the persona you have is a senior or expert user, you need to imagine that your persona is trying to do a task on your UI for the very first time in her life. Talking about tasks, we mention another main difference between CW and HE, which is that the CW is task specific. Task specific means that you need to identify the main user goals (i.e. tasks) and write down the sequence of actions (i.e. steps) that is needed to achieve this goal successfully.
 
-![User Goal](/img/usability-inspection-3.png)
+![User Goal](/img/news/usability-inspection-3.png)
 
 The sequence of actions is based on the ideal path only. For example:
 
@@ -58,16 +58,16 @@ The sequence of actions is based on the ideal path only. For example:
 
 Once you have the persona for your CW, your user goal and steps identified, now it's time for you to ask yourself the following four questions for each step and take notes:
 
-![Four Questions](/img/usability-inspection-4.jpg)
+![Four Questions](/img/news/usability-inspection-4.jpg)
 
 The notes include a “Yes” or “No” answer and a few notes about recommendations.
 If the four questions are too thorough for your purposes, luckily in 2000 Mr. R. Spencer compressed them into two questions:
 
-![Two Questions](/img/usability-inspection-5.jpg)
+![Two Questions](/img/news/usability-inspection-5.jpg)
 
 There are many ways that you can write your results from doing a CW. One common way can be a list format or a table as you can see below.
 
-![Results Example](/img/usability-inspection-6.jpg)
+![Results Example](/img/news/usability-inspection-6.jpg)
 
 ## What if I want to mix parts of both methods HE and CW? Is that ok?
 

@@ -25,7 +25,7 @@ We rarely pause to reflect on the creation and evolution of research methods. It
 
 Trust is the foundation of any qualitative research method. In order to get a richer understanding, it is imperative that research participants feel safe, respected, and valued. [Frances Frei’s trust triangle](https://www.ted.com/talks/frances_frei_how_to_build_and_rebuild_trust?language=en) is a useful framework in thinking about how to create trust. The trust triangle reveals that authenticity, logic, and empathy are all needed to create trust. Let’s dig deeper into each of these aspects and see how these can shift the dynamic of the interview.
 
-![Frances Frei’s Trust Triangle](/img/trust-triangle.png)
+![Frances Frei’s Trust Triangle](/img/news/trust-triangle.png)
 
 Authenticity refers to the experience the interviewee has of you. The other piece that is critical to the foundation is sharing a part of ourselves in the process. It’s difficult to trust someone you know nothing about. This does not mean that you need to share any personal details or information. Sharing refers more to empathizing and recognizing the shared humanity than it is about sharing specific details about your life.
 
@@ -45,4 +45,4 @@ You may be wondering what are some strategies you can use to create an interview
 
 - **Use a concept map.**  Interview scripts are helpful in guiding a conversation, but can sometimes lead to structuring the conversation.  Using a concept map during interviews can allow conversations to stay fluid and for the interviewer to adjust and pivot as needed in order to follow the interviewees’ lead.
 
-![Example of a concept map](/img/concept-map.png)
+![Example of a concept map](/img/news/concept-map.png)
