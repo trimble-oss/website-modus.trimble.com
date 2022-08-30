@@ -55,14 +55,12 @@ A tooltip is a popup that displays information related to an element when the el
 - The container of the tooltip text may be aligned to start, center or end.
 - Do not make the tooltip larger than the element it appears from.
 
-<div class="guide-example-block d-inline-block">
-  <div class="guide-sample">
-    <img
-      src="/img/guide/elements--tooltips-positions.png"
-      alt="Tooltip positions"
-    />
-  </div>
-</div>
+<img src="/img/components/tooltips-positions.svg"  alt="Tooltip positions"/>
+<style>
+[data-theme="dark"] img[src="/img/components/tooltips-positions.svg"] {
+ content: url(/img/components/tooltips-positions-dark.svg);
+}
+</style>
 
 ### Behaviors
 

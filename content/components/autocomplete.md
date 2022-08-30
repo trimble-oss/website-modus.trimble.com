@@ -15,7 +15,7 @@ contributors: ""
 
 An autocomplete dropdown allows the user to search and select one option from a set of choices. When the user enters text into the input field, a list of suggestions are provided.
 
-![Autocomplete Example](/img/autocomplete-overview.svg)
+![Autocomplete Example](/img/components/autocomplete-overview.svg)
 
 ## Usage
 
@@ -38,11 +38,11 @@ Autocomplete comes in three varieties:
 - **Autocomplete Suggestions**:  Suggestions not only predict user intentions, but they also help users construct more useful searches than they might on their own. Suggestions go beyond matching text strings by including new search items within the suggested results. It is useful during information-seeking tasks, where there isn’t a single “right answer.”
 - **Instant Results**: Sometimes users may prefer to autocomplete actual search results instead of retooling their search phrase. For example, the display of rich information right in the autocomplete instead of a list of suggestions that lead to a search results page.
 
-![Autocomplete Types](/img/autocomplete-types.svg)
+![Autocomplete Types](/img/components/autocomplete-types.svg)
 
 ## Specifications
 
-![Anatomy](/img/autocomplete-anatomy.svg)
+![Anatomy](/img/components/autocomplete-anatomy.svg)
 
 See [Inputs](/components/inputs/) and [Lists](/components/lists/) for additional specifications.
 
@@ -57,7 +57,7 @@ There are two sizes of autocomplete input fields defined:
 - **Default:** default form inputs should have a height of 32px (8px padding) and a font size of 12px (.75rem). Used for most forms.
 - **Large:** larger variant should have a height of 48px (16px padding) and a font size of 14px (.875rem). Used for forms in in-cab applications
 
-![Autocomplete Sizing](/img/autocomplete-sizing.svg)
+![Autocomplete Sizing](/img/components/autocomplete-sizing.svg)
 
 **Text input field**
 Users input text and they are provided with a list of suggestions to choose from. When the user selects an option, the choice is then displayed in the field.
@@ -71,7 +71,7 @@ Clears all text from the input field or reverts to the default selection (or pre
 **Chip** (optional)
 A chip __can__ be used to clear the filled selection instead of the default “X” clear icon but only in the larger (48px) variant. **Please use one or the other but never both.**
 
-![Autocomplete Chip](/img/autocomplete-clear.svg)
+![Autocomplete Chip](/img/components/autocomplete-clear.svg)
 
 ### Behaviors
 
@@ -83,7 +83,7 @@ A chip __can__ be used to clear the filled selection instead of the default “X
 - When the list exceeds 1,499 options, lazy load the content and provide pagination at the bottom of the list.
 - For validation and states follow the [Inputs](/components/inputs/#behaviors) guidelines.
 
-![No Results Example](/img/autocomplete-no-results.svg)
+![No Results Example](/img/components/autocomplete-no-results.svg)
 
 ### Editorial
 

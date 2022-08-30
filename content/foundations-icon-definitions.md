@@ -136,11 +136,11 @@ Generally speaking, color should be avoided and icon sets should be designed to 
 
 Add-ons and indicators provide more specificity to a standard icon or indicate an action a user can perform directly related to the action of the icon proper (e.g. add, remove, alert, close, etc.). The add-on icons always appear in a solid circle, ¼ of the icon’s size, in the bottom right corner. On a 32 x 32px canvas, the circle measures 16px in diameter with a 2-pixel margin, flush with the edges of the canvas. The stroke weight of the glyph within the add-on is 2px and the padding is 2px.
 
-{{% img src="/img/addon.png" height="200" width="200" alt="icon grid" %}}
+{{% img src="/img/guide/addon.png" height="200" width="200" alt="icon grid" %}}
 
 Indicators appear in the upper right corner of the icon and usually represent an alert or notification related to the icon’s meaning. On a 32 x 32px canvas the indicator measures 8px in diameter flush with the edges of the canvas.
 
-{{% img src="/img/indicator.png" height="200" width="200" alt="indicator" %}}
+{{% img src="/img/guide/indicator.png" height="200" width="200" alt="indicator" %}}
 
 ## Accessibility
 
