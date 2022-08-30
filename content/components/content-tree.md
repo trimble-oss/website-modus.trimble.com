@@ -44,7 +44,13 @@ A content tree view is text-only by default. This option is best used when a hie
 - **Icon:** Icons can be used to add clarification about tree view items. They help to differentiate content types visually. Choose icons that relate to the object type being represented in the content tree. These icons can be unique to specific data types to add better clarification for users. Size: 16x16px, color: Trimble Gray. _optional_
 - **Action icon(s):** Action icons may appear next to the tree item or above the content tree in an action bar. _optional_
 
-<img src="/img/tree-specs.svg" class="img-fluid" alt="Tree Specifications">
+<img src="/img/components/tree-specs.svg" class="img-fluid" alt="Tree Specifications">
+
+<style>
+[data-theme="dark"] img[src="/img/components/tree-specs.svg"] {
+ content: url(/img/components/tree-specs-dark.svg);
+}
+</style>
 
 ### Behaviors
 
@@ -64,7 +70,13 @@ A content tree view is text-only by default. This option is best used when a hie
 
 #### States of Tree Items
 
-<img src="/img/tree-item-states.svg" class="img-fluid bg-light" width="792" height="751" loading="lazy" alt="Tree Item States"></br>
+<img src="/img/components/tree-item-states.svg" class="img-fluid bg-light" width="792" height="751" loading="lazy" alt="Tree Item States"></br>
+
+<style>
+[data-theme="dark"] img[src="/img/components/tree-item-states.svg"] {
+ content: url(/img/components/tree-item-states-dark.svg);
+}
+</style>
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -114,13 +126,25 @@ A content tree view is text-only by default. This option is best used when a hie
 - Clicking the chevron expands the folder but does not select it. Click a tree item selects it and expands it.
 - User can click the "Collapse all" icon/button in the action bar to have all the open folders in the tree collapse.
 
-<img src="/img/tree-open-close.svg" class="img-fluid" alt="Collapse and Expand"></br>
+<img src="/img/components/tree-open-close.svg" class="img-fluid" alt="Collapse and Expand"></br>
+
+<style>
+[data-theme="dark"] img[src="/img/components/tree-open-close.svg"] {
+ content: url(/img/components/tree-open-close-dark.svg);
+}
+</style>
 
 ### Text Overflow
 
 When a label's length is too long to display within the tree view, the text should be truncated at the end using an ellipsis. Hovering over or focusing on the truncated tree view item should reveal a tooltip that shows the full text of the label.
 
-<img src="/img/tree-text-overflow.svg" class="img-fluid" alt="Text Overflow"></br>
+<img src="/img/components/tree-text-overflow.svg" class="img-fluid" alt="Text Overflow"></br>
+
+<style>
+[data-theme="dark"] img[src="/img/components/tree-text-overflow.svg"] {
+ content: url(/img/components/tree-text-overflow-dark.svg);
+}
+</style>
 
 <!-- ### Adjustable Layout
 
@@ -139,11 +163,23 @@ When tree views are very large, use a progress circle or a "show more" affordanc
 
 If system processes are delaying the display of child tree view items when a parent tree view item is expanded, show a clear indication that the items are in the process of loading (see [Spinners](/components/spinners/)).
 
-<img src="/img/tree-lrg-loading.svg" class="img-fluid" alt="Large Tree Views"></br>
+<img src="/img/components/tree-lrg-loading.svg" class="img-fluid" alt="Large Tree Views"></br>
+
+<style>
+[data-theme="dark"] img[src="/img/components/tree-lrg-loading.svg"] {
+ content: url(/img/components/tree-lrg-loading-dark.svg);
+}
+</style>
 
 ### Content Tree Action bar
 
-<img src="/img/tree-content-br.svg" class="img-fluid" alt="Content Tree Action bar"></br>
+<img src="/img/components/tree-content-br.svg" class="img-fluid" alt="Content Tree Action bar"></br>
+
+<style>
+[data-theme="dark"] img[src="/img/components/tree-content-br.svg"] {
+ content: url(/img/components/tree-content-br-dark.svg);
+}
+</style>
 
 The content tree may include an action bar that contains a variety of icons that turn on a content tree functionality:
 
@@ -155,7 +191,13 @@ The content tree may include an action bar that contains a variety of icons that
 
 **Duplicate**
 
-<img src="/img/tree-duplicating.svg" class="img-fluid" alt="Duplicate Tree"></br>
+<img src="/img/components/tree-duplicating.svg" class="img-fluid" alt="Duplicate Tree"></br>
+
+<style>
+[data-theme="dark"] img[src="/img/components/tree-duplicating.svg"] {
+ content: url(/img/components/tree-duplicating-dark.svg);
+}
+</style>
 
 When a folder is selected, the duplicate icon in the toolbar becomes active.
 - The user clicks the duplicate icon.
@@ -165,7 +207,13 @@ When a folder is selected, the duplicate icon in the toolbar becomes active.
 
 **Drag and Drop**
 
-<img src="/img/tree-drag-drop.svg" class="img-fluid" alt="Drag & Drop"></br>
+<img src="/img/components/tree-drag-drop.svg" class="img-fluid" alt="Drag & Drop"></br>
+
+<style>
+[data-theme="dark"] img[src="/img/components/tree-drag-drop.svg"] {
+ content: url(/img/components/tree-drag-drop-dark.svg);
+}
+</style>
 
 The Drag & Drop icon (and functionality) is hidden by default. The user needs to click the icon in the action bar above the content Tree.
 
@@ -187,7 +235,13 @@ If a drag operation is not allowed, the line indicating the drop location will b
 
 **Edit Tree Item Name**
 
-<img src="/img/tree-edit.svg" class="img-fluid" alt="Edit"></br>
+<img src="/img/components/tree-edit.svg" class="img-fluid" alt="Edit"></br>
+
+<style>
+[data-theme="dark"] img[src="/img/components/tree-edit.svg"] {
+ content: url(/img/components/tree-edit-dark.svg);
+}
+</style>
 
 When a tree item is selected, the edit icon in the toolbar becomes active.
 - User clicks the edit icon.

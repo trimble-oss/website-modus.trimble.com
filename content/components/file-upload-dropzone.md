@@ -12,7 +12,13 @@ bootstrapURL: "/components/file-upload-dropzone/"
 
 File upload dropzone allows users to upload content from their computer or device into the application by dragging a file (or files) into a target zone.
 
-![File Upload Dropzone](/img/dropzone.png)
+![File Upload Dropzone](/img/components/dropzone.png)
+
+<style>
+[data-theme="dark"] img[src="/img/components/dropzone.png"] {
+ content: url(/img/components/dropzone.png);
+}
+</style>
 
 ## Usage
 
@@ -39,11 +45,11 @@ File upload dropzone allows users to upload content from their computer or devic
 
 - When the user drags a file into the dropzone, provide a visual clue to show that the user has hit the target area and that the action is about to perform is valid. For example, when the user hovers over the zone while dragging a file, change the color of the box to blue (to indicate a valid action) or red (to indicate an invalid action).
 
-![Example of Error State](/img/dropzone-states.png)
+![Example of Error State](/img/components/dropzone-states.png)
 
 - To help the user with motor navigation of moving a file into a precise location, the file upload dropzone should be active outside of its borders. It increases the area of the dropzone and provides a feeling of magnetic attraction preventing errors and speeding up interaction with the component.
 
-![Dropzone Active Area](/img/dropzone-active-area.png)
+![Dropzone Active Area](/img/components/dropzone-active-area.png)
 
 - Validate the file(s) to communicate to the user the effectiveness of his action.
 - If the upload might take more than a few seconds, show progress of the upload. You may use a [Progress Bar](/components/progress-bars/) to show remaining time to upload a file or files.
