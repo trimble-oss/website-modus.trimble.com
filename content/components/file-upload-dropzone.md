@@ -12,11 +12,11 @@ bootstrapURL: "/components/file-upload-dropzone/"
 
 File upload dropzone allows users to upload content from their computer or device into the application by dragging a file (or files) into a target zone.
 
-![File Upload Dropzone](/img/components/dropzone.png)
+![File Upload Dropzone](/img/components/file-upload-dropzone.svg)
 
 <style>
-[data-theme="dark"] img[src="/img/components/dropzone.png"] {
- content: url(/img/components/dropzone.png);
+[data-theme="dark"] img[src="/img/components/file-upload-dropzone.svg"] {
+ content: url(/img/components/file-upload-dropzone-dark.svg);
 }
 </style>
 
