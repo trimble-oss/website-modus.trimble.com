@@ -71,4 +71,12 @@
   .card-blog-brief .card-header img {
     filter: invert(1) brightness(111%);
   }
+
+  .theme-d {
+    display: block;
+  }
+
+  .theme-l {
+    display: none !important;
+  }
 }

@@ -34,44 +34,17 @@ Tables are ideal for displaying data in rows and columns. They organize informat
 
 ### Typography
 
-<table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th>Class</th>
-      <th>Font Size</th>
-      <th>Font Weight</th>
-      <th>Font Color</th>
-      <th>Text Transform</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Header</td>
-      <td>Body-1/ 14px</td>
-      <td>SemiBold/ 600</td>
-      <td>Gray 8 {{< color-preview hex="#464B52">}}</td>
-      <td>Title Case</td>
-    </tr>
-    <tr>
-      <td>Row</td>
-      <td>Body-1/ 14px</td>
-      <td>SemiBold/ 600</td>
-      <td>Trimble Gray {{< color-preview hex="#252A2E">}}</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <td>Link Text</td>
-      <td>Body-1/14px</td>
-      <td>SemiBold/ 600</td>
-      <td>Blue Light {{< color-preview hex="#217CBB">}}</td>
-      <td>Underline on hover</td>
-    </tr>
-  </tbody>
-</table>
+| Class     | Font Size    | Font Weight   | Font Color                                                                                            | Text Transform     |
+| --------- | ------------ | ------------- | ----------------------------------------------------------------------------------------------------- | ------------------ |
+| Header    | Body-1/ 14px | SemiBold/ 600 | <div class="theme-l">Gray 8 {{< color-preview hex="#464B52">}}</div><div class="theme-d"></div>       | Title Case         |
+| Row       | Body-1/ 14px | SemiBold/ 600 | <div class="theme-l">Trimble Gray {{< color-preview hex="#252A2E">}}</div><div class="theme-d"></div> | None               |
+| Link Text | Body-1/14px  | SemiBold/ 600 | <div class="theme-l">Blue Light {{< color-preview hex="#217CBB">}}</div><div class="theme-d"></div>   | Underline on hover |
+{class="table table-bordered"}
 
 ### Alignment
 
 Follow these rules, when aligning alphanumeric and numeric input types in a column:
+
 - Numerical data - right-aligned
 - Textual data - left-aligned
 - Align headers with their respective data
@@ -79,37 +52,13 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
 
 ### Structure
 
-<table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th>Class</th>
-      <th>Height</th>
-      <th>Min Width</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Header Default</td>
-      <td>48px</td>
-      <td>16px</td>
-    </tr>
-    <tr>
-      <td>Header Condensed</td>
-      <td>32px</td>
-      <td>16px</td>
-    </tr>
-    <tr>
-      <td>Row Default</td>
-      <td>48px</td>
-      <td>16px</td>
-    </tr>
-    <tr>
-      <td>Row Condensed</td>
-      <td>32px</td>
-      <td>16px</td>
-    </tr>
-  </tbody>
-</table>
+| Class            | Height | Min Width |
+| ---------------- | ------ | --------- |
+| Header Default   | 48px   | 16px      |
+| Header Condensed | 32px   | 16px      |
+| Row Default      | 48px   | 16px      |
+| Row Condensed    | 32px   | 16px      |
+{class="table table-bordered"}
 
 ### Background Color
 
@@ -156,11 +105,12 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
 
 Consider using labels/ icons to highlight the cell rather than border/ background. If use dictates, the need for border/ background color, follow color palette guidelines.
 
-![Table Colors](/img/table-colors.png)
+![Table Colors](/img/components/table-colors.png)
 
 ## Types
 
 There are three types of tables:
+
 1. **List Table**. Read-only table. Values cannot be edited or manipulated; table actions are available but not cell actions (see below).
 2. **Data Table**. Most (or all) cells are editable; Both table and cell actions are available (see below).
 3. **Hybrid Table**. A list table with in-row actions, such as dropdown fields & text input fields.
@@ -184,7 +134,7 @@ There are two categories of actions available in tables:
       - On-hover: Hide arrow symbol with tooltip, “Remove sort”
       - Click again: Remove sort, remove arrow symbol entirely
 <br><br>
-      ![Changing a Sort Type](/img/changing-sort.png)
+      ![Changing a Sort Type](/img/components/tables-changing-sort.png)
 <br><br>
     - **Column/ Row Reordering:**
       - User should be able to left click and hold the column header to drag and drop the column in a new order. A visual indicator should be used between the header cells where the column will be dropped.
@@ -213,7 +163,7 @@ There are two categories of actions available in tables:
       - If a "skeleton state" table is feasible, this is ideal, though Modus does not have guidelines around this. Designers are expected to use their best judgment for style until guidelines are released. Please share your product's use of skeleton states with Modus so we may use it as input in future guidelines.
       - If a skeleton state is not feasible, the modus spinner should be used over the area of the table.
 <br><br>
-      ![Filtering Options](/img/table-filters.png)
+      ![Filtering Options](/img/components/table-filters.png)
 <br><br>
     - **Sticky Columns / Rows:**
       - System driven fixed or “sticky” columns and rows are allowed in all table types. Use the read-only styling for these rows' backgrounds. Additionally, any table utilizing this type of behavior should also have grid lines to clearly distinguish between columns.
@@ -232,27 +182,27 @@ There are two categories of actions available in tables:
     - Cell Error State: When user exits out of the cell, his input will be validated and if the input is invalid, the cell borders become red to indicate an error and, while the user is in the field, the error message will also display to provide additional information about the error and how to correct it. When the user is correcting the error, the validation only runs again, when he exits the cell (not while typing in the cell).
 
 |                   | Background                               | Border                                             | Cell Text |
-| ----------------- | ---------------------------------------- | -------------------------------------------------- | ----------|
+| ----------------- | ---------------------------------------- | -------------------------------------------------- | --------- |
 | Selected Cell     | White {{< color-preview hex="#ffffff">}} | Blue Light {{< color-preview hex="#217CBB">}}, 2px | Body 2    |
 | Invalid Cell Data | White {{< color-preview hex="#ffffff">}} | Red {{< color-preview hex="#DA212C">}}, 2px        | Body 2    |
 {.table .table-bordered}
 
-*Examples:*
+_Examples:_
 
-![Selecting Example](/img/tables-selecting.png)
+![Selecting Example](/img/components/tables-selecting.png)
 <br><br>
-![Error State](/img/tables-error.png)
+![Error State](/img/components/tables-error.png)
 <br><br>
 
-  - **Forced Data Formatting:** If user inputs incorrect data format then follow error handling guidelines
-  - **Undo:** User must have at least one mechanism to undo. Ex. ctrl+z, snack bar, icon action button, etc.
-  - **Deleting Rows:**
-    - Inline Trash Can icon, must be located to the right of all content cells
-    - More Button, Must be located to the right of all content cells and any other icons / actions/ buttons
-    - Trash Can icon located in an action / toolbar.
-  - **Interactive Elements:**
-    - [Buttons](/components/buttons/): Use an icon button in lieu of a regular button, whenever possible. If a label on a button is required, use a text button.
-    - [Chips](/components/chips/): Chips must be actionable with either active/ inactive states or a “close” (x) icon. If no action is required, use a [badge](/components/badge/).
+- **Forced Data Formatting:** If user inputs incorrect data format then follow error handling guidelines
+- **Undo:** User must have at least one mechanism to undo. Ex. ctrl+z, snack bar, icon action button, etc.
+- **Deleting Rows:**
+  - Inline Trash Can icon, must be located to the right of all content cells
+  - More Button, Must be located to the right of all content cells and any other icons / actions/ buttons
+  - Trash Can icon located in an action / toolbar.
+- **Interactive Elements:**
+  - [Buttons](/components/buttons/): Use an icon button in lieu of a regular button, whenever possible. If a label on a button is required, use a text button.
+  - [Chips](/components/chips/): Chips must be actionable with either active/ inactive states or a “close” (x) icon. If no action is required, use a [badge](/components/badge/).
 
 ## Editorial
 
