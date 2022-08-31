@@ -30,7 +30,12 @@ A content tree provides users with a way to navigate nested hierarchical informa
 
 A content tree should be located on the left side of the screen and should consist of the following elements:
 
-<img src="/img/anatomy.svg" class="img-fluid" alt="Anatomy"></br>
+<img src="/img/components/tree-anatomy.svg" class="img-fluid" alt="Tree Anatomy"></br>
+<style>
+[data-theme="dark"] img[src="/img/components/tree-anatomy-dark.svg"] {
+ content: url(/img/components/tree-anatomy-dark.svg);
+}
+</style>
 
 **Tree item:**
 
