@@ -13,7 +13,7 @@ reactBootstrapURL: "/components/navbar/"
 
 The navbar or the app header provides context through globally accessible menu options and positions a consistent component to connect various Trimble applications. It contains the main navigation for your application.
 
-![Navbar](/img/app-header.svg)
+![Navbar](/img/components/navbar.svg)
 
 ## Usage
 
@@ -69,12 +69,12 @@ The navbar or the app header provides context through globally accessible menu o
 
 Navbar background color can be white or Trimble Dark Blue.
 
-![Framework](/img/app-header-color-examples.svg)
+![Framework](/img/components/navbar-color-examples.svg)
 
 
 ### Key Measurements
 
-![Framework](/img/app-header-framework.svg)
+![Framework](/img/components/navbar-framework.svg)
 
 <table class="table table-bordered" style="width: max-content">
       <thead class="thead-light">
@@ -180,7 +180,7 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
 
 At smaller viewpoints, some header elements consolidate into the overflow menu.
 
-![Responsive Design](/img/app-header-responsive.svg)
+![Responsive Design](/img/components/navbar-responsive.svg)
 
 **Consolidate**
 
@@ -205,7 +205,7 @@ At smaller viewpoints, the product logo may
 
 Tooltips display on hover. Follow the [Tooltip guidelines](/components/tooltips/) for further reference.
 
-![Tooltips](/img/app-header-tooltips.svg)
+![Tooltips](/img/components/navbar-tooltips.svg)
 
 #### Main Menu
 
@@ -218,7 +218,7 @@ Tooltips display on hover. Follow the [Tooltip guidelines](/components/tooltips/
 
 #### Search
 
-![Search](/img/app-header-search.svg)
+![Search](/img/components/navbar-search.svg)
 
 - On hover, display a tooltip reading "Search."
 - Expose the search overlay.
@@ -326,7 +326,7 @@ Used only for "global" MyTrimble account items. Appears consistently everywhere 
 - “Skip to main content” wording explains best where people are navigating to.
   Example: `<div id="skiptocontent"><a href="#maincontent">Skip to main content</a></div>`
 
-![Skip to Content](/img/app-header-skip-content.svg)
+![Skip to Content](/img/components/navbar-skip-content.svg)
 
 Reference for more detail: [https://webaim.org/techniques/skipnav/](https://webaim.org/techniques/skipnav/)
 

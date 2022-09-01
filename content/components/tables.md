@@ -62,7 +62,7 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
 
 ### Background Color
 
-<table class="table table-bordered">
+<table class="table table-bordered theme-l">
   <thead class="thead-light">
     <tr>
       <th>Class</th>
@@ -185,7 +185,7 @@ There are two categories of actions available in tables:
 | ----------------- | ---------------------------------------- | -------------------------------------------------- | --------- |
 | Selected Cell     | White {{< color-preview hex="#ffffff">}} | Blue Light {{< color-preview hex="#217CBB">}}, 2px | Body 2    |
 | Invalid Cell Data | White {{< color-preview hex="#ffffff">}} | Red {{< color-preview hex="#DA212C">}}, 2px        | Body 2    |
-{.table .table-bordered}
+{.table .table-bordered .theme-l}
 
 _Examples:_
 
