@@ -90,9 +90,9 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
 - Link (underlined, only one per alert) _optional_
 
 <div class="p-5 my-3 pr-5 bg-light">
-  <div class="alert alert-success" style="max-width: 460px" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="right" data-content="<small><b>Height:</b> 56px<br><b>Background:</b> White<br><b>Border-radius:</b> 2px<br></small>">
+  <div class="alert alert-success" style="max-width: 460px" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="right" data-content="">
       <i class="material-icons alert-icon">check_circle</i>
-      <div data-toggle="popover" data-trigger="manual" data-html="true" data-placement="bottom" data-offset="19" data-content="<small><b>Font:</b> Open Sans Bold 14px</small>">You have completed a task.</div>
+      <div data-toggle="popover" data-trigger="manual" data-html="true" data-placement="bottom" data-offset="19" data-content="<small><b>Font:</b> Open Sans Bold 14px<br><b>Height:</b> 56px<br><b>Border-radius:</b> 2px<br></small>">You have completed a task.</div>
     </div>
 </div>
 

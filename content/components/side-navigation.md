@@ -85,115 +85,44 @@ This expanding functionality either a.) overlays the page’s content or b.) pus
 ### Colors
 
 There are two color options available. They can be used in the following combinations:
+
 - White [Navbar](/components/navbar/) with white Side Navigation.
 
-![White Navigation](/img/sidenav-states.png)
+![White Navigation](/img/components/sidenav-states.png)
 
 - Blue [Navbar](/components/navbar/) with white Side Navigation.
 
-![Blue and White Navigation](/img/sidenav-states-2.png)
+![Blue and White Navigation](/img/components/sidenav-states-2.png)
 
 - White [Navbar](/components/navbar/) with blue Side Navigation.
 
-![White and Blue Navigation](/img/sidenav-states-3.png)
+![White and Blue Navigation](/img/components/sidenav-states-3.png)
 
-<table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th></th>
-      <th>White Nav Colors</th>
-      <th>Blue Nav Colors</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Background</th>
-      <td>White</td>
-      <td>Blue Dark #0E416C</td>
-    </tr>
-    <tr>
-      <th>Selected Item Background</th>
-      <td>Trimble Blue #0063a3</td>
-      <td>Blue Light #217cbb</td>
-    </tr>
-    <tr>
-      <th>Text Link</th>
-      <td>Trimble Gray #252a2e</td>
-      <td>White</td>
-    </tr>
-    <tr>
-      <th>Hover Link</th>
-      <td>Gray 0 #e0e1e9</td>
-      <td>Trimble Blue #0063a3</td>
-    </tr>
-    <tr>
-      <th>Icon</th>
-      <td>Trimble Gray #252a2e</td>
-      <td>White</td>
-    </tr>
-    <tr>
-      <th>Chevron</th>
-      <td>Trimble Gray #252a2e</td>
-      <td>White</td>
-    </tr>
-  </tbody>
-</table>
+|                          | White Nav Colors       | Blue Nav Colors        |
+| ------------------------ | ---------------------- | ---------------------- |
+| Background               | White                  | Blue Dark `#0E416C`    |
+| Selected Item Background | Trimble Blue `#0063a3` | Blue Light `#217cbb`   |
+| Text Link                | Trimble Gray `#252a2e` | White                  |
+| Hover Link               | Gray 0 `#e0e1e9`       | Trimble Blue `#0063a3` |
+| Icon                     | Trimble Gray `#252a2e` | White                  |
+| Chevron                  | Trimble Gray `#252a2e` | White                  |
+{ .table .w-100 .table-bordered .theme-l}
 
 ### Padding and Spacing
 
-<table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th>Class</th>
-      <th>Property</th>
-      <th>Size (px/rem)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Menu Item</td>
-      <td>height</td>
-      <td>48/3</td>
-    </tr>
-    <tr>
-      <td>Menu Item</td>
-      <td>padding-left</td>
-      <td>20/1.25</td>
-    </tr>
-    <tr>
-      <td>Menu Item Icon</td>
-      <td>width, height</td>
-      <td>24/1.5</td>
-    </tr>
-    <tr>
-      <td>Collapsed Menu Item</td>
-      <td>width</td>
-      <td>64/4</td>
-    </tr>
-    <tr>
-      <td>Collapsed Menu Item Chevron</td>
-      <td>width, height</td>
-      <td>16/1</td>
-    </tr>
-    <tr>
-      <td>Extended Menu Item</td>
-      <td>width</td>
-      <td>256/16</td>
-    </tr>
-    <tr>
-      <td>Extended Menu Item Icon</td>
-      <td>padding-right</td>
-      <td>16/1</td>
-    </tr>
-    <tr>
-      <td>Extended Menu Item Chevron</td>
-      <td>padding-right	</td>
-      <td>4/0.25</td>
-    </tr>
-  </tbody>
-</table>
+| Class                       | Property      | Size (px/rem) |
+| --------------------------- | ------------- | ------------- |
+| Menu Item                   | height        | 48/3          |
+| Menu Item                   | padding-left  | 20/1.25       |
+| Menu Item Icon              | width, height | 24/1.5        |
+| Collapsed Menu Item         | width         | 64/4          |
+| Collapsed Menu Item Chevron | width, height | 16/1          |
+| Extended Menu Item          | width         | 256/16        |
+| Extended Menu Item Icon     | padding-right | 16/1          |
+| Extended Menu Item Chevron  | padding-right | 4/0.25        |
+{ .table .w-100 .table-bordered}
 
-![Spacing](/img/sidenav-spacing.png)
+![Spacing](/img/components/sidenav-spacing.png)
 
 ### Typography
 
@@ -241,7 +170,7 @@ There are two color options available. They can be used in the following combina
   - To return to the previous level, the user may use the back button on top of the side nav.
 
 <video width=300 controls autoplay=false>
-    <source src="/img/side-nav-levels-demo.mp4" type="video/mp4">
+    <source src="/img/components/side-nav-levels-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 

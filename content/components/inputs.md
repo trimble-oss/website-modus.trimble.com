@@ -78,10 +78,14 @@ Input fields or text fields allow users to enter text into a UI. They typically 
 
 ## Specifications
 
+<span class="theme-l">
+
 - Label Text Color: {{< color-preview hex="#464b52">}}
 - Input Text Color: {{< color-preview hex="#252a2e">}}
 - Placeholder Text Color: {{< color-preview hex="#B7b9c3">}}
 - Border Color: {{< color-preview hex="#e0e1e9">}} (bottom border {{< color-preview hex="#6a6e79">}})
+
+</span>
 
 There are two sizes of input fields defined:
 

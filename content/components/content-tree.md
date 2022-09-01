@@ -32,7 +32,7 @@ A content tree should be located on the left side of the screen and should consi
 
 <img src="/img/components/tree-anatomy.svg" class="img-fluid" alt="Tree Anatomy"></br>
 <style>
-[data-theme="dark"] img[src="/img/components/tree-anatomy-dark.svg"] {
+[data-theme="dark"] img[src="/img/components/tree-anatomy.svg"] {
  content: url(/img/components/tree-anatomy-dark.svg);
 }
 </style>
@@ -83,7 +83,7 @@ A content tree view is text-only by default. This option is best used when a hie
 }
 </style>
 
-<table class="table table-bordered">
+<table class="table table-bordered theme-l">
   <thead class="thead-light">
     <tr>
       <th>State</th>
