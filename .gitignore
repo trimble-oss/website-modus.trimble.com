@@ -14,7 +14,6 @@ npm-debug.log
 yarn-error.log
 yarn.lock
 .yarnclean
-package-lock.json
 
 # SonarQube Scan
 .scannerwork/

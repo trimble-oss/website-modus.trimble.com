@@ -15,6 +15,12 @@ bootstrapURL: "/components/inputs/"
 reactBootstrapURL: "/components/inputs/"
 ---
 
+<style>
+[data-theme="dark"] .color-preview {
+  display: none !important;
+}
+</style>
+
 ## Overview
 
 Input fields or text fields allow users to enter text into a UI. They typically appear in forms, often with [checkboxes](/components/checkboxes/), [radio buttons](/components/radio-buttons/), and [buttons](/components/buttons/). The user input is most often sent to a server for processing.
@@ -139,10 +145,10 @@ There are two sizes of input fields defined:
 
 ### Behaviors
 
-- Form inputs that are in focus should have a 2px bottom border using our active color {{< color-preview hex="#0C77BE">}}.
-- Form inputs that are <strong class="text-success">valid</strong> should have a 2px bottom border using our success color {{< color-preview hex="#006638">}}.
-- Form inputs that are <strong class="text-danger">invalid</strong> should have a 2px bottom border using our danger color {{< color-preview hex="#da212c">}}.
-- Form inputs that are <strong>disabled</strong> should use our Gray Light color {{< color-preview hex="#f1f1f6">}} as a background color
+- Form inputs that are in focus should have a 2px bottom border <span class="theme-l">using our active color {{< color-preview hex="#0C77BE">}}</span>.
+- Form inputs that are <strong class="text-success">valid</strong> should have a 2px bottom border using our success color<span class="theme-l"> {{< color-preview hex="#006638">}}</span>.
+- Form inputs that are <strong class="text-danger">invalid</strong> should have a 2px bottom border using our danger color<span class="theme-l"> {{< color-preview hex="#da212c">}}</span>.
+- Form inputs that are <strong>disabled</strong> should use our Gray <span class="theme-l">Light</span> color {{< color-preview hex="#f1f1f6">}} as a background color</span>
 
 <div class="guide-example-block d-inline-block">
   <div class="guide-sample">

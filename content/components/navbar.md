@@ -166,15 +166,11 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
   - App Switcher
   - Profile
 
-<img src="/img/navbar-btn-examples.svg" alt="Nav Bar Button Examples">
-
+<img src="/img/components/navbar-btn-examples.svg" alt="Nav Bar Button Examples">
 
 #### Nav Bar Button State Examples
 
-
-<img src="/img/navbar-btn-states.svg" alt="Nav Bar Button Examples">
-
-
+<img src="/img/components/navbar-btn-states.svg" alt="Nav Bar Button Examples">
 
 #### Element Consolidation
 

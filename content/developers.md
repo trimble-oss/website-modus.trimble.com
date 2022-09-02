@@ -6,6 +6,12 @@ of Trimble's web applications. The framework is designed and managed by the Trim
 start: true
 ---
 
+<style>
+.card-header img {
+  filter: none !important;
+}
+</style>
+
 <div class="row">
 
 {{< card-start title="Modus Bootstrap" url="https://modus-bootstrap.trimble.com/" target="_blank" header="bootstrap.svg" class="bg-purple text-white py-4" >}}
