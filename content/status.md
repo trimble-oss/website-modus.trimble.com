@@ -38,7 +38,7 @@ hideToc: true
 | [Chips](/components/chips/)                                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Content Tree](/components/content-tree/)                     | {{< ico-check >}} |                    | {{< ico-check >}}        | U/C                     |
 | [Dropdowns](/components/dropdowns/)                           | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
-| [File Upload Dropzone](/components/file-upload-dropzone/)     | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | U/C                     |
+| [File Upload Dropzone](/components/file-upload-dropzone/)     | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Inputs](/components/inputs/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Lists](/components/lists/)                                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Messages](/components/messages/)                             | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
@@ -51,7 +51,7 @@ hideToc: true
 | [Sliders](/components/sliders/)                               | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Spinners](/components/spinners/)                             | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Switches](/components/switches/)                             | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
-| [Tables](/components/tables/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | U/C                     |
+| [Tables](/components/tables/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Tabs](/components/tabs/)                                     | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Toasts](/components/toasts/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Tooltips](/components/tooltips/)                             | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |

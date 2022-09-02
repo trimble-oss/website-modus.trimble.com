@@ -20,16 +20,16 @@ A tooltip is a popup that displays information related to an element when the el
   <div class="guide-sample">
     <div class="btn-group-vertical">
       <button id="tooltipExample" class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" data-original-title="Zoom in">
-      <i class="modus-icons">zoom_in</i>
+      <i class="modus-icons notranslate">zoom_in</i>
       </button>
       <button class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" data-original-title="Zoom out">
-      <i class="modus-icons">zoom_out</i>
+      <i class="modus-icons notranslate">zoom_out</i>
       </button>
       <button class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" data-original-title="Expand">
-      <i class="modus-icons">expand</i>
+      <i class="modus-icons notranslate">expand</i>
       </button>
       <button class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" data-original-title="Toggle layers">
-      <i class="modus-icons">map_layers</i>
+      <i class="modus-icons notranslate">map_layers</i>
       </button>
     </div>
   </div>

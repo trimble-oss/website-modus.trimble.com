@@ -3,7 +3,9 @@
 <h3 class="mt-5">See Also</h3>
 <ul>
   {{ range . }}
-  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  <li><a href="{{ .RelPermalink }}">
+    {{- .Title -}}
+  </a></li>
   {{- end -}}
 </ul>
 {{- end -}}
