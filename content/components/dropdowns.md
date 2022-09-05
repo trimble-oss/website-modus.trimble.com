@@ -6,8 +6,6 @@ components: true
 images:
   - "/img/headers/components/dropdowns.png"
 keywords: menu
-aliases:
-  - "/elements/dropdowns/"
 bootstrapURL: "/components/dropdowns/"
 reactBootstrapURL: "/components/dropdowns/"
 ---

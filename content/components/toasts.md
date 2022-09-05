@@ -157,7 +157,7 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
       data-anatomy-colors="false">
       Aww yeah, you read a toast.
       <button type="button" class="close" data-dismiss="alert">
-      <i class="modus-icon material-icons">close</i>
+      <i class="modus-icon material-icons notranslate">close</i>
       </button>
     </div>
   </div>
@@ -177,49 +177,49 @@ Basic Toasts
 <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
   Aww yeah, you read a toast.
   <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons">close</i>
+    <i class="modus-icon material-icons notranslate">close</i>
   </button>
 </div>
 <div class="toast toast-dark show" role="alert" aria-live="assertive" aria-atomic="true">
   Aww yeah, you read a dark toast.
   <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons">close</i>
+    <i class="modus-icon material-icons notranslate">close</i>
   </button>
 </div>
 <div class="toast toast-primary show" role="alert" aria-live="assertive" aria-atomic="true">
   Aww yeah, you read a primary toast.
   <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons">close</i>
+    <i class="modus-icon material-icons notranslate">close</i>
   </button>
 </div>
 <div class="toast toast-secondary show" role="alert" aria-live="assertive" aria-atomic="true">
   Aww yeah, you read a secondary toast.
   <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons">close</i>
+    <i class="modus-icon material-icons notranslate">close</i>
   </button>
 </div>
 <div class="toast toast-tertiary show text-dark" role="alert" aria-live="assertive" aria-atomic="true">
   Aww yeah, you read a tertiary toast.
   <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons">close</i>
+    <i class="modus-icon material-icons notranslate">close</i>
   </button>
 </div>
 <div class="toast toast-danger show" role="alert" aria-live="assertive" aria-atomic="true">
   Aww yeah, you read a danger toast.
   <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons">close</i>
+    <i class="modus-icon material-icons notranslate">close</i>
   </button>
 </div>
 <div class="toast toast-warning show" role="alert" aria-live="assertive" aria-atomic="true">
   Aww yeah, you read a warning toast.
   <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons">close</i>
+    <i class="modus-icon material-icons notranslate">close</i>
   </button>
 </div>
 <div class="toast toast-success show" role="alert" aria-live="assertive" aria-atomic="true">
   Aww yeah, you read a success toast.
   <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons">close</i>
+    <i class="modus-icon material-icons notranslate">close</i>
   </button>
 </div>
 

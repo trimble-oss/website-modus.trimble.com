@@ -6,8 +6,6 @@ images:
   - "/img/headers/components/autocomplete.png"
 components: true
 keywords: typeahead
-aliases:
-  - "/elements/autocomplete/"
 contributors: ""
 ---
 

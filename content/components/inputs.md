@@ -35,7 +35,7 @@ Input fields or text fields allow users to enter text into a UI. They typically 
     <div class="input-with-icon-right">
       <input class="form-control" placeholder="Placeholder Text" id="Input2">
       <div class="input-icon">
-        <i class="modus-icon material-icons">visibility</i>
+        <i class="modus-icon material-icons notranslate">visibility</i>
       </div>
     </div>
   </div>
@@ -44,7 +44,7 @@ Input fields or text fields allow users to enter text into a UI. They typically 
     <div class="input-with-icon-left">
       <input class="form-control" placeholder="Placeholder Text" id="Input3">
       <div class="input-icon">
-        <i class="modus-icon material-icons">search</i>
+        <i class="modus-icon material-icons notranslate">search</i>
       </div>
     </div>
   </div>

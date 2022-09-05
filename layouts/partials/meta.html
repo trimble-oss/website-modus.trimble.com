@@ -28,13 +28,13 @@
 
 {{ if .IsHome -}}
 {{ hugo.Generator }}
-{{else}}
+{{ end}}
+
 {{ if not .Params.noIcons -}}
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block" fetchpriority="low">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block">
 {{ else }}
 <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL}}index.xml"
   title="{{ .Site.Title }} News & Articles" />
-{{- end }}
 {{- end }}
 
 <script src="/js/bootstrap.bundle.min.js" fetchpriority="low"></script>

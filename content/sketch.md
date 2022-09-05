@@ -18,7 +18,7 @@ main img {
 Sketch is a vector graphics editor for macOS. It is primarily used for user interface and user experience design of websites and mobile apps. Modus supports and maintains the Sketch UI Kit. Follow the instructions below to obtain it and add it to your library.
 
 <div class="alert alert-primary" role="alert">
-<i class="modus-icon material-icons alert-icon">info</i>
+<i class="modus-icon material-icons notranslate alert-icon">info</i>
 <div>Note: Support for Modus Sketch UI Kit ending December 2022</div>
 </div>
 

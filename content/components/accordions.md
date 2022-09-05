@@ -5,8 +5,6 @@ description: "The accordion element delivers large amounts of content in a small
 images:
   - "/img/headers/components/accordions.png"
 components: true
-aliases:
-  - "/elements/accordions/"
 contributors: ""
 bootstrapURL: "/components/accordions/"
 reactBootstrapURL: "/components/accordions/"
