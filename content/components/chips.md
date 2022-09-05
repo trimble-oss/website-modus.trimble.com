@@ -72,7 +72,7 @@ There are two sizes of Chips:
           <img src="/img/headshot.png" alt="">
         </div>
         <div class="chip-text">Jane</div>
-        <div class="chip-delete-right"><i class="modus-icon material-icons">cancel</i></div>
+        <div class="chip-delete-right"><i class="modus-icon material-icons notranslate">cancel</i></div>
       </div>
       </td>
       <td>24px</td>

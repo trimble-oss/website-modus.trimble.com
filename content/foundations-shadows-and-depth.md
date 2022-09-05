@@ -4,9 +4,6 @@ layout: "single"
 description: "Shadows are used to focus the user’s attention and define spatial relationships."
 image: "/img/headers/shadows-and-depth.jpg"
 foundations: true
-aliases:
-  - "/depth.html"
-  - "/shadows.html"
 url: "/foundations/shadows-and-depth/"
 bootstrapURL: "/foundations/shadows-and-depth/"
 reactBootstrapURL: "/foundations/shadows-and-depth/"

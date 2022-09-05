@@ -5,8 +5,6 @@ description: "Badges are non-interactive labels which hold small amounts of info
 components: true
 images:
   - "/img/headers/components/badges.png"
-aliases:
-  - "/elements/badges/"
 bootstrapURL: "/components/badges/"
 reactBootstrapURL: "/components/badges/"
 ---

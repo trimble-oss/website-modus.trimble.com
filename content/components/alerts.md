@@ -6,8 +6,6 @@ description: "Alerts provide contextual information about system status that per
 components: true
 images:
   - "/img/headers/components/alerts.png"
-aliases:
-  - "/elements/alerts/"
 bootstrapURL: "/components/alerts/"
 reactBootstrapURL: "/components/alerts/"
 ---
@@ -115,37 +113,37 @@ $(function () {
 ### Basic Alerts
 
 <div class="alert alert-primary" role="alert">
-  <i class="modus-icon material-icons alert-icon">info</i>
+  <i class="modus-icon material-icons notranslate alert-icon">info</i>
   <div>A basic Primary alert</div>
 </div>
 <div class="alert alert-secondary" role="alert">
-  <i class="modus-icon material-icons alert-icon">help</i>
+  <i class="modus-icon material-icons notranslate alert-icon">help</i>
   <div>A basic secondary alert with a button</div>
   <a href="#" class="btn btn-sm btn-text-secondary">Button</a>
 </div>
 <div class="alert alert-dark" role="alert">
-  <i class="modus-icon material-icons alert-icon">info</i>
+  <i class="modus-icon material-icons notranslate alert-icon">info</i>
   <div>A basic <u>dark alert</u> with <em>text formatting</em></div>
 </div>
 <div class="alert alert-success fade show" role="alert">
   <i class="material-icons alert-icon">check_circle</i>
   <div>Success! A basic success alert with a dismiss icon</div>
   <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons">close</i>
+    <i class="modus-icon material-icons notranslate">close</i>
   </button>
 </div>
 <div class="alert alert-danger fade show" role="alert">
   <i class="material-icons alert-icon">error</i>
   <div>Error! A basic error alert with a dismiss icon</div>
   <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons">close</i>
+    <i class="modus-icon material-icons notranslate">close</i>
   </button>
 </div>
 <div class="alert alert-warning text-dark fade show" role="alert">
-  <i class="modus-icon material-icons alert-icon">warning</i>
+  <i class="modus-icon material-icons notranslate alert-icon">warning</i>
   <div>Warning! A basic warning alert with a dismiss icon</div>
   <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons">close</i>
+    <i class="modus-icon material-icons notranslate">close</i>
   </button>
 </div>
 

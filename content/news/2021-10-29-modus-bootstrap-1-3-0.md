@@ -35,7 +35,7 @@ A new blue navbar variant is now available.
 
 <nav class="navbar navbar-blue nav navbar-expand-sm modus-header py-1 mb-3">
   <button class="btn btn-lg btn-icon-only btn-text-dark" id="menuButton" data-modus-item="menu-btn" href="#overview" data-toggle="#">
-    <i class="modus-icon material-icons text-white">menu</i>
+    <i class="modus-icon material-icons notranslate text-white">menu</i>
   </button>
   <a href="#navbar-example" class="navbar-brand mr-auto ml-2">
     <img src="https://modus-bootstrap.trimble.com/img/trimble-logo-rev.svg" width="107" height="25" class="img-fluid d-none d-sm-block" alt="home">
@@ -45,15 +45,15 @@ A new blue navbar variant is now available.
     <div class="navbar-nav ml-auto">
       <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
          data-placement="bottom" title="Notifications">
-        <i class="modus-icon material-icons text-white">notifications</i>
+        <i class="modus-icon material-icons notranslate text-white">notifications</i>
       </button>
       <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
          data-placement="bottom" title="Help">
-        <i class="modus-icon material-icons text-white">help</i>
+        <i class="modus-icon material-icons notranslate text-white">help</i>
       </button>
       <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
          data-placement="bottom" title="Applications">
-        <i class="modus-icon material-icons text-white">apps</i>
+        <i class="modus-icon material-icons notranslate text-white">apps</i>
       </button>
     </div>
   </div>
@@ -63,7 +63,7 @@ A new blue navbar variant is now available.
   <button class="btn btn-lg btn-icon-only btn-text-dark bg-transparent ml-2"
          data-toggle="tooltip" data-placement="bottom" data-html="true"
          title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
-         <i class="modus-icon material-icons rounded-circle text-white">account_circle</i>
+         <i class="modus-icon material-icons notranslate rounded-circle text-white">account_circle</i>
   </button>
 </nav>
 

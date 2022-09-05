@@ -6,8 +6,6 @@ components: true
 images:
   - "/img/headers/components/modals.png"
 keywords: "modal, dialog"
-aliases:
-  - "/components/modal/"
 bootstrapURL: "/components/modals/"
 reactBootstrapURL: "/components/modals/"
 ---

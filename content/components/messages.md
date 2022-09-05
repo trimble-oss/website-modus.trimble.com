@@ -5,8 +5,6 @@ description: "Messages provide the user with contextual static information. They
 components: true
 images:
   - "/img/headers/components/messages.png"
-aliases:
-  - "/elements/messages/"
 bootstrapURL: "/components/messages/"
 reactBootstrapURL: "/components/messages/"
 

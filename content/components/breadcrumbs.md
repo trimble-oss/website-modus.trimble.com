@@ -5,8 +5,6 @@ description: "The breadcrumb element is a secondary navigation pattern that show
 components: true
 images:
   - "/img/headers/components/breadcrumbs.png"
-aliases:
-  - "/elements/breadcrumbs/"
 bootstrapURL: "/components/breadcrumbs/"
 reactBootstrapURL: "/components/breadcrumbs/"
 ---
