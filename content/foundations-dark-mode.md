@@ -23,15 +23,15 @@ The overall idea behind Trimble components in dark mode can be categorized on hi
 - The general UI background is Trimble Gray {{< color-preview hex="#252a2e">}}
 - Other components are shaded within the Trimble Gray palette. Please refer to the Modus components resources in dark mode. An example:
 
-![Navbar example](/img/dark-mode-navbar.png)
+![Navbar example](/img/foundations/dark-mode-navbar.png)
 
 - A primary (highlight) Trimble Blue {{< color-preview hex="#019aeb">}} is the main highlight color and affects the vast majority of controls where the user's attention is crucial, such as buttons, dropdown buttons, checkboxes, radio buttons, switches, etc. It is used for breadcrumbs and tabs text too. Here are few examples:
 
-![Progress bar example](/img/dark-mode-progress-bar.png)
+![Progress bar example](/img/foundations/dark-mode-progress-bar.png)
 
 - Components using red/yellow/green text in light mode follow a different design principle in dark mode. In dark mode, white text overlays a solid or semi-transparent red/yellow/green background instead to address readability constraints. Those are mainly alerts, toasts, and input messages. An example:
 
-![Toasts example](/img/dark-mode-toasts.png)
+![Toasts example](/img/foundations/dark-mode-toasts.png)
 
 For detailed components specifications, refer to [the Adobe XD beta UI kit](https://xd.adobe.com/view/6e4719f4-2da4-4db6-9bdb-609bccffcf46-3b14/grid/) in dark mode. **Dark mode will soon be available in the style guide, Figma, and all code components.**
 
