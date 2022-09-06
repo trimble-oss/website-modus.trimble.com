@@ -2,10 +2,7 @@
 title: "Trimble ID (TID)"
 layout: "single"
 description: "Branding the TID Sign-In Page."
-image: "/img/headers/tid.jpg"
 foundations: true
-aliases:
-  - "/tid.html"
 url: "/foundations/tid/"
 ---
 

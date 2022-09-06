@@ -33,10 +33,10 @@ The rules and guidelines established in this policy detail the management of the
 
 The positioning and color specifications called out in the accompanying illustrations should be followed in all instances.
 
-The official Trimble brand color is Trimble Blue Mid from our [color specification page](https://sites.google.com/a/trimble.com/onetrimblebrand/color-palette).
+The official Trimble brand color is Trimble Blue from our [color specification page](https://brandfolder.com/trimble-brandfolder/trimble#!asset/q8g55hvc98w64r6wrt7v7frn).
 
-{{< card-color hex="#005F9E">}}
-Trimble Blue Mid
+{{< card-color hex="#0063a3">}}
+Trimble Blue
 {{</ card-color >}}
 
 The logo should appear in this color whenever possible and the design of materials in which the logo is used should take into account the corporate preference for the logo to appear in blue.

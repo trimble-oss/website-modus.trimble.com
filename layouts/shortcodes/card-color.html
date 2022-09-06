@@ -11,8 +11,8 @@
           {{- .Inner | print -}}
         </h5>
       </div>
-      <div class="text-lowercase text-monospace mb-1 h4 text-secondary font-weight-normal">
-        {{- .Get "hex" -}}
+      <div class="text-monospace mb-1 h4 text-secondary font-weight-normal">
+        {{- .Get "hex" | lower -}}
       </div>
       {{ if (.Params.note) }}
       <div class="my-1 small text-muted">
