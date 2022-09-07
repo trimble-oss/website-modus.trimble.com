@@ -4,9 +4,7 @@ layout: "single"
 description: "Buttons are interactive elements that trigger an action or an event."
 components: true
 images:
-  - "/img/headers/components/buttons.png"
-aliases:
-  - "/elements/buttons/"
+  - "/img/components/headers/buttons.png"
 bootstrapURL: "/components/buttons/"
 reactBootstrapURL: "/components/buttons/"
 ---

@@ -4,10 +4,8 @@ layout: "single"
 description: "Sliders allow users to make selections from a range of values."
 components: true
 images:
-  - "/img/headers/components/sliders.png"
+  - "/img/components/headers/sliders.png"
 keywords: forms, form, range
-aliases:
-  - "/elements/sliders/"
 bootstrapURL: "/components/sliders/"
 reactBootstrapURL: "/components/sliders/"
 ---

@@ -4,9 +4,7 @@ layout: "single"
 description: "Tooltips provide a short description of a page element or control."
 components: true
 images:
-  - "/img/headers/components/tooltips.png"
-aliases:
-  - "/elements/tooltips/"
+  - "/img/components/headers/tooltips.png"
 bootstrapURL: "/components/tooltips/"
 reactBootstrapURL: "/components/tooltips/"
 

@@ -4,7 +4,7 @@ layout: "single"
 description: "Chips represent small blocks of information and are commonly used for input or filtering."
 components: true
 images:
-  - "/img/headers/components/chips.png"
+  - "/img/components/headers/chips.png"
 bootstrapURL: "/components/chips/"
 reactBootstrapURL: "/components/chips/"
 ---

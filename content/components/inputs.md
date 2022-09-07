@@ -4,7 +4,7 @@ layout: "single"
 description: "Input fields collect information from users."
 components: true
 images:
-  - "/img/headers/components/inputs.png"
+  - "/img/components/headers/inputs.png"
 keywords: forms, form
 aliases:
   - "/components/forms/"

@@ -4,7 +4,7 @@ layout: "single"
 description: "Switches are used to toggle functionality."
 components: true
 images:
-  - "/img/headers/components/switches.png"
+  - "/img/components/headers/switches.png"
 keywords: forms, form
 bootstrapURL: "/components/switches/"
 reactBootstrapURL: "/components/switches/"

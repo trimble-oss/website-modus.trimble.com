@@ -3,7 +3,7 @@ title: "Content Tree"
 layout: "single"
 description: "A content tree provides users with a way to navigate nested hierarchical information using a parent-child relationship model"
 images:
-  - "/img/headers/components/content-tree.png"
+  - "/img/components/headers/content-tree.png"
 components: true
 ---
 

@@ -4,7 +4,7 @@ layout: "single"
 description: "The breadcrumb element is a secondary navigation pattern that shows hierarchy among content."
 components: true
 images:
-  - "/img/headers/components/breadcrumbs.png"
+  - "/img/components/headers/breadcrumbs.png"
 bootstrapURL: "/components/breadcrumbs/"
 reactBootstrapURL: "/components/breadcrumbs/"
 ---

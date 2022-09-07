@@ -4,7 +4,7 @@ layout: "single"
 description: "Modal dialogs interrupt workflows and require user interaction."
 components: true
 images:
-  - "/img/headers/components/modals.png"
+  - "/img/components/headers/modals.png"
 keywords: "modal, dialog"
 bootstrapURL: "/components/modals/"
 reactBootstrapURL: "/components/modals/"

@@ -4,7 +4,7 @@ layout: "single"
 description: "Dropdowns present a list of options that can be used to filter or sort existing content."
 components: true
 images:
-  - "/img/headers/components/dropdowns.png"
+  - "/img/components/headers/dropdowns.png"
 keywords: menu
 bootstrapURL: "/components/dropdowns/"
 reactBootstrapURL: "/components/dropdowns/"

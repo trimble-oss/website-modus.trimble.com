@@ -3,7 +3,7 @@ title: "Navbar"
 layout: "single"
 description: "The navbar provides context through globally accessible menu options."
 images:
-  - "/img/headers/components/navbar.png"
+  - "/img/components/headers/navbar.png"
 components: true
 bootstrapURL: "/components/navbars/"
 reactBootstrapURL: "/components/navbar/"

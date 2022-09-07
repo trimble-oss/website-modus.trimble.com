@@ -3,7 +3,7 @@ title: "Autocomplete"
 layout: "single"
 description: "The autocomplete is a text input field enhanced by a panel of suggested options."
 images:
-  - "/img/headers/components/autocomplete.png"
+  - "/img/components/headers/autocomplete.png"
 components: true
 keywords: typeahead
 contributors: ""
