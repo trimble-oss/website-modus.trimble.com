@@ -4,9 +4,7 @@ layout: "single"
 description: "Tables display information in a grid-like format of rows and columns. "
 components: true
 images:
-  - "/img/headers/components/tables.png"
-aliases:
-  - "/elements/tables/"
+  - "/img/components/headers/tables.png"
 bootstrapURL: "/components/tables/"
 reactBootstrapURL: "/components/tables/"
 ---

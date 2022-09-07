@@ -4,10 +4,9 @@ layout: "single"
 description: "Radio buttons are used when options are mutually exclusive."
 components: true
 images:
-  - "/img/headers/components/radio-buttons.png"
+  - "/img/components/headers/radio-buttons.png"
 keywords: forms, form
 aliases:
-  - "/elements/radio/"
   - "/components/radio/"
 bootstrapURL: "/components/radio-buttons/"
 reactBootstrapURL: "/components/radio-buttons/"

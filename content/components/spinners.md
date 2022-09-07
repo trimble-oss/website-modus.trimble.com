@@ -4,9 +4,7 @@ layout: "single"
 description: "Spinners indicate progress by showing users a loading state."
 components: true
 images:
-  - "/img/headers/components/spinners.png"
-aliases:
-  - "/elements/spinners/"
+  - "/img/components/headers/spinners.png"
 bootstrapURL: "/components/spinners/"
 reactBootstrapURL: "/components/spinners/"
 ---

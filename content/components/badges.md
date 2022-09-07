@@ -4,7 +4,7 @@ layout: "single"
 description: "Badges are non-interactive labels which hold small amounts of information."
 components: true
 images:
-  - "/img/headers/components/badges.png"
+  - "/img/components/headers/badges.png"
 bootstrapURL: "/components/badges/"
 reactBootstrapURL: "/components/badges/"
 ---

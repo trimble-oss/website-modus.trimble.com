@@ -7,6 +7,4 @@ web: true
 listJS: true
 layout: components
 disableScrollSpy: true
-aliases:
-  - "/elements/"
 ---

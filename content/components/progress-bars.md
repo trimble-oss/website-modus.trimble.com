@@ -4,7 +4,7 @@ layout: "single"
 description: "Progress indicators express an unspecified wait time or display the length of a process."
 components: true
 images:
-  - "/img/headers/components/progress-bars.png"
+  - "/img/components/headers/progress-bars.png"
 aliases:
   - "/progress.html"
   - "/components/progress/"

@@ -4,9 +4,7 @@ layout: "single"
 description: "A list can be used to display content related to a single subject."
 components: true
 images:
-  - "/img/headers/components/lists.png"
-aliases:
-  - "/elements/lists/"
+  - "/img/components/headers/lists.png"
 bootstrapURL: "/components/lists/"
 reactBootstrapURL: "/components/lists/"
 ---

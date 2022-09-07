@@ -5,7 +5,7 @@ layout: "single"
 description: "Alerts provide contextual information about system status that persists until dismissed or resolved."
 components: true
 images:
-  - "/img/headers/components/alerts.png"
+  - "/img/components/headers/alerts.png"
 bootstrapURL: "/components/alerts/"
 reactBootstrapURL: "/components/alerts/"
 ---

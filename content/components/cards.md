@@ -4,9 +4,7 @@ layout: "single"
 description: "Cards provide a set of content which acts as an entry point to more detailed information."
 components: true
 images:
-  - "/img/headers/components/cards.png"
-aliases:
-  - "/elements/cards/"
+  - "/img/components/headers/cards.png"
 bootstrapURL: "/components/cards/"
 reactBootstrapURL: "/components/cards/"
 ---

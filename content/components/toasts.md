@@ -5,10 +5,8 @@ layout: "single"
 description: "Toasts provide non-intrusive, short-lasting contextual feedback to the user."
 components: true
 images:
-  - "/img/headers/components/toasts.png"
+  - "/img/components/headers/toasts.png"
 keywords: alert
-aliases:
-  - "/elements/toasts/"
 bootstrapURL: "/components/toasts/"
 reactBootstrapURL: "/components/toasts/"
 ---

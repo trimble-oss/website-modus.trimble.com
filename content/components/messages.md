@@ -4,7 +4,7 @@ layout: "single"
 description: "Messages provide the user with contextual static information. They have a lower priority than an alert."
 components: true
 images:
-  - "/img/headers/components/messages.png"
+  - "/img/components/headers/messages.png"
 bootstrapURL: "/components/messages/"
 reactBootstrapURL: "/components/messages/"
 

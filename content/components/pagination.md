@@ -4,7 +4,7 @@ layout: "single"
 description: "Pagination affords navigation between pages of content, and it highlights the page currently in view."
 components: true
 images:
-  - "/img/headers/components/pagination.png"
+  - "/img/components/headers/pagination.png"
 bootstrapURL: "/components/pagination/"
 reactBootstrapURL: "/components/pagination/"
 ---

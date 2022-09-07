@@ -4,9 +4,7 @@ layout: "single"
 description: "Tabs are used to quickly navigate between views within the same context."
 components: true
 images:
-  - "/img/headers/components/tabs.png"
-aliases:
-  - "/elements/tabs/"
+  - "/img/components/headers/tabs.png"
 bootstrapURL: "/components/tabs/"
 reactBootstrapURL: "/components/tabs/"
 ---
