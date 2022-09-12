@@ -23,20 +23,13 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
 - Confirming the success of a global action.
 - Displaying quick snippets of information that disappear on their own after a set amount of time has passed.
 
+## Example
+
 <table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th scope="col">Example</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
       <td scope="row">
         <div class="border position-relative">
-          <div class="p-3 bg-primary d-flex">
-            <i class="material-icons" style="color: #fff;">menu</i>
-            <span class="h1 ml-3 mb-0" style="color: #fff;">App Title</span>
-          </div>
           <div class="p-3">
             <div class="list-group">
               <li class="list-group-item active list-item-left-control">
