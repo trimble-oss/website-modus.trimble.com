@@ -63,7 +63,7 @@ Both header and button container should be 64px in height.
               Close
             </button>
             <button type="button" class="btn btn-primary">
-              Save Changes
+              Save changes
             </button>
           </div>
         </div>
