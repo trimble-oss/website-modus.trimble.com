@@ -24,6 +24,10 @@ Implementations
 {{- if .Params.reactBootstrapURL}}
   <li><a href="https://modus-react-bootstrap.trimble.com{{- .Params.reactBootstrapURL -}}" class="nav-link text-decoration-none" target="_blank" rel="noopener">Modus React Bootstrap</a></li>
 {{- end -}}
+{{- if .Params.webComponentsURL}}
+<li><a href="{{- .Params.webComponentsURL -}}" class="nav-link text-decoration-none" target="_blank"
+    rel="noopener">Modus Web Components</a></li>
+{{- end -}}
 </ul>
 {{- end -}}
 

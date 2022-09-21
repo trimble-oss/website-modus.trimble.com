@@ -10,6 +10,7 @@ aliases:
   - "/components/progress/"
 bootstrapURL: "/components/progress-bars/"
 reactBootstrapURL: "/components/progress-bars/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-progress-bar--default"
 ---
 
 ## Overview

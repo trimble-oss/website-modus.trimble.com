@@ -7,6 +7,7 @@ images:
   - "/img/components/headers/cards.png"
 bootstrapURL: "/components/cards/"
 reactBootstrapURL: "/components/cards/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-card--default"
 ---
 
 ## Overview

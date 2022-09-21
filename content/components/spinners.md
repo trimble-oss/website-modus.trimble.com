@@ -7,6 +7,7 @@ images:
   - "/img/components/headers/spinners.png"
 bootstrapURL: "/components/spinners/"
 reactBootstrapURL: "/components/spinners/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-spinner--default"
 ---
 
 ## Overview

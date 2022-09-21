@@ -8,6 +8,7 @@ images:
 keywords: forms, form, range
 bootstrapURL: "/components/sliders/"
 reactBootstrapURL: "/components/sliders/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-slider--default"
 ---
 
 ## Overview

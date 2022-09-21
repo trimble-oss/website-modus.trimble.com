@@ -7,6 +7,7 @@ images:
   - "/img/components/headers/chips.png"
 bootstrapURL: "/components/chips/"
 reactBootstrapURL: "/components/chips/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-chip--default"
 ---
 
 ## Overview

@@ -8,6 +8,7 @@ images:
 keywords: forms, form
 bootstrapURL: "/components/switches/"
 reactBootstrapURL: "/components/switches/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/user-inputs-switch--default"
 ---
 
 ## Overview
@@ -44,12 +45,9 @@ Switches are selection controls that yield instantaneous actions. They have an o
 - Toggling elicits a change in background behavior without affecting the UI.
 - You want to trigger a state change directly when you toggle it.
 
+## Example
+
 <table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th scope="col">Example</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
       <td scope="row">
@@ -60,7 +58,7 @@ Switches are selection controls that yield instantaneous actions. They have an o
           <li
             class="list-group-item d-flex justify-content-between align-items-center"
           >
-            WiFi
+            Wi-Fi
             <div class="custom-control custom-switch">
               <input
                 type="checkbox"
