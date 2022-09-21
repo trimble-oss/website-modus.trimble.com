@@ -8,6 +8,7 @@ images:
 keywords: forms, form
 bootstrapURL: "/components/checkboxes/"
 reactBootstrapURL: "/components/checkboxes/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/user-inputs-checkbox--default"
 ---
 
 ## Overview

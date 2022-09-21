@@ -7,6 +7,7 @@ images:
   - "/img/components/headers/buttons.png"
 bootstrapURL: "/components/buttons/"
 reactBootstrapURL: "/components/buttons/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-button--default"
 ---
 
 ## Overview

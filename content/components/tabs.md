@@ -7,6 +7,7 @@ images:
   - "/img/components/headers/tabs.png"
 bootstrapURL: "/components/tabs/"
 reactBootstrapURL: "/components/tabs/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-tabs--default"
 ---
 
 ## Overview

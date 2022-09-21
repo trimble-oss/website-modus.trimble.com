@@ -7,7 +7,7 @@ images:
   - "/img/components/headers/messages.png"
 bootstrapURL: "/components/messages/"
 reactBootstrapURL: "/components/messages/"
-
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-message--default"
 ---
 
 ## Overview

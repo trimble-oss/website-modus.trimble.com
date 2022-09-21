@@ -7,6 +7,7 @@ images:
   - "/img/components/headers/lists.png"
 bootstrapURL: "/components/lists/"
 reactBootstrapURL: "/components/lists/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-list--default"
 ---
 
 <style>

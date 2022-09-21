@@ -7,6 +7,7 @@ images:
   - "/img/components/headers/breadcrumbs.png"
 bootstrapURL: "/components/breadcrumbs/"
 reactBootstrapURL: "/components/breadcrumbs/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-breadcrumb--default"
 ---
 
 ## Overview

@@ -8,6 +8,7 @@ images:
 keywords: menu
 bootstrapURL: "/components/dropdowns/"
 reactBootstrapURL: "/components/dropdowns/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-dropdown--default"
 ---
 
 ## Overview

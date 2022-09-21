@@ -9,6 +9,7 @@ images:
 keywords: alert
 bootstrapURL: "/components/toasts/"
 reactBootstrapURL: "/components/toasts/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-toast--default"
 ---
 
 ## Overview

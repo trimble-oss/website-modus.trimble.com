@@ -13,7 +13,7 @@ reactBootstrapURL: "/components/navbar/"
 
 The navbar or the app header provides context through globally accessible menu options and positions a consistent component to connect various Trimble applications. It contains the main navigation for your application.
 
-![Navbar](/img/components/navbar.svg)
+![Navbar Example](/img/components/navbar.svg)
 
 ## Usage
 
@@ -71,52 +71,21 @@ Navbar background color can be white or Trimble Dark Blue.
 
 ![Framework](/img/components/navbar-color-examples.svg)
 
-
 ### Key Measurements
 
 ![Framework](/img/components/navbar-framework.svg)
 
-<table class="table table-bordered" style="width: max-content">
-      <thead class="thead-light">
-        <tr>
-          <th>Element</th>
-          <th>Width</th>
-          <th>Height</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Header block</td>
-          <td>Varies</td>
-          <td>56px</td>
-        </tr>
-        <tr>
-          <td>Product logo</td>
-          <td>Varies</td>
-          <td>24px (max-height 32px)</td>
-        </tr>
-        <tr>
-          <td>Nav Bar button target area</td>
-          <td>48px</td>
-          <td>48px</td>
-        </tr>
-        <tr>
-          <td>Icon button fill effect (border-radius 2px)</td>
-          <td>48px</td>
-          <td>48px</td>
-        </tr>
-        <tr>
-          <td>Profile avatar</td>
-          <td>32px</td>
-          <td>32px</td>
-        </tr>
-        <tr>
-          <td>Icon canvas size</td>
-          <td>24px</td>
-          <td>24px</td>
-        </tr>
-      </tbody>
-</table>
+<!-- prettier-ignore-start -->
+| Element                                     | Width  | Height                 |
+| ------------------------------------------- | ------ | ---------------------- |
+| Header block                                | Varies | 56px                   |
+| Product logo                                | Varies | 24px (max-height 32px) |
+| Navbar button target area                   | 48px   | 48px                   |
+| Icon button fill effect (border-radius 2px) | 48px   | 48px                   |
+| Profile avatar                              | 32px   | 32px                   |
+| Icon canvas size                            | 24px   | 24px                   |
+{.table .table-bordered}
+<!-- prettier-ignore-end -->
 
 ### Spacing
 
@@ -155,10 +124,10 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
 - The navbar is a fixed element. Fixed or "sticky" content fixes itself to the browser viewport as content is scrolled.
 - Responsive design: navbar follows the Modus breakpoint guidelines in [Grid & Spacing](/foundations/grid-and-spacing/).
 
-#### Nav Bar Button examples
+#### Navbar Button examples
 
-- Three color options are available; Trimble Gray, Gray (Gray 6), and reversed (to be used with Trimble Dark Blue Nav bars).
-- Common Nav Bar button options include but are not limited to:
+- Three color options are available; Trimble Gray, Gray (Gray 6), and reversed (to be used with Trimble Dark Blue Navbars).
+- Common Navbar button options include but are not limited to:
   - Menu button
   - Search
   - Notification
@@ -166,17 +135,17 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
   - App Switcher
   - Profile
 
-<img src="/img/components/navbar-btn-examples.svg" alt="Nav Bar Button Examples">
+<img src="/img/components/navbar-btn-examples.svg" alt="Navbar Button Examples">
 
-#### Nav Bar Button State Examples
+#### Navbar Button State Examples
 
-<img src="/img/components/navbar-btn-states.svg" alt="Nav Bar Button Examples">
+<img src="/img/components/navbar-btn-states.svg" alt="Navbar Button State Examples">
 
 #### Element Consolidation
 
 At smaller viewpoints, some header elements consolidate into the overflow menu.
 
-![Responsive Design](/img/components/navbar-responsive.svg)
+![Navbar Responsive Design](/img/components/navbar-responsive.svg)
 
 **Consolidate**
 
@@ -201,7 +170,7 @@ At smaller viewpoints, the product logo may
 
 Tooltips display on hover. Follow the [Tooltip guidelines](/components/tooltips/) for further reference.
 
-![Tooltips](/img/components/navbar-tooltips.svg)
+![Navbar Tooltips](/img/components/navbar-tooltips.svg)
 
 #### Main Menu
 
@@ -214,7 +183,7 @@ Tooltips display on hover. Follow the [Tooltip guidelines](/components/tooltips/
 
 #### Search
 
-![Search](/img/components/navbar-search.svg)
+![Navbar Search](/img/components/navbar-search.svg)
 
 - On hover, display a tooltip reading "Search."
 - Expose the search overlay.
@@ -322,14 +291,15 @@ Used only for "global" MyTrimble account items. Appears consistently everywhere 
 - “Skip to main content” wording explains best where people are navigating to.
   Example: `<div id="skiptocontent"><a href="#maincontent">Skip to main content</a></div>`
 
-![Skip to Content](/img/components/navbar-skip-content.svg)
+![Skip to main content examples](/img/components/navbar-skip-content.svg)
 
 Reference for more detail: [https://webaim.org/techniques/skipnav/](https://webaim.org/techniques/skipnav/)
 
 {{< whats-changed-table >}}
 
-| Date     | Version | Notes              | Contributors                                                                     |
-| -------- | ------- | ------------------ | -------------------------------------------------------------------------------- |
-| 05/26/21 | 1.1.0   | New pattern added. | S. Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor |
-| 03/14/22 | 1.3.0 | Updated accessibility guidelines and example images. | S. Kaukonen, E. Nowak |
+| Date     | Version | Notes                                                | Contributors                                                                     |
+| -------- | ------- | ---------------------------------------------------- | -------------------------------------------------------------------------------- |
+| 05/26/21 | 1.1.0   | New pattern added.                                   | S. Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor |
+| 03/14/22 | 1.3.0   | Updated accessibility guidelines and example images. | S. Kaukonen, E. Nowak                                                            |
+
 {{</ whats-changed-table >}}
