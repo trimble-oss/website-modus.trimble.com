@@ -62,7 +62,7 @@ AND
 
 - have some time you can devote to the project (2-4 hours per week).
 
-Once you express your interest, the Modus Product Manager will contact your manager to secure his/ her permission to divide your time between your team and the design system.
+Once you express your interest, the Modus Product Manager will contact your manager to secure their permission to divide your time between your team and the design system.
 
 ### 2. UX Board review of candidates
 

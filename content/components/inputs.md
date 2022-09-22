@@ -8,18 +8,10 @@ images:
 keywords: forms, form
 aliases:
   - "/components/forms/"
-  - "/forms.html"
-  - "/inputs.html"
-  - "/input-groups.html"
 bootstrapURL: "/components/inputs/"
 reactBootstrapURL: "/components/inputs/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/user-inputs-text-input--default"
 ---
-
-<style>
-[data-theme="dark"] .color-preview {
-  display: none !important;
-}
-</style>
 
 ## Overview
 
@@ -84,14 +76,10 @@ Input fields or text fields allow users to enter text into a UI. They typically 
 
 ## Specifications
 
-<span class="theme-l">
-
-- Label Text Color: {{< color-preview hex="#464b52">}}
-- Input Text Color: {{< color-preview hex="#252a2e">}}
-- Placeholder Text Color: {{< color-preview hex="#B7b9c3">}}
-- Border Color: {{< color-preview hex="#e0e1e9">}} (bottom border {{< color-preview hex="#6a6e79">}})
-
-</span>
+- Label Text Color: {{< color-preview hexL="#464b52" hexD="#B7B9C3">}}
+- Input Text Color: {{< color-preview hexL="#252a2e" hexD="#ffffff">}}
+- Placeholder Text Color: {{< color-preview hexL="#B7b9c3" hexD="#7D808D">}}
+- Border Color: {{< color-preview hexL="#e0e1e9" hexD="#464B52">}} (bottom border {{< color-preview hexL="#6a6e79" hexD="#6A6E79">}})
 
 There are two sizes of input fields defined:
 
@@ -145,10 +133,10 @@ There are two sizes of input fields defined:
 
 ### Behaviors
 
-- Form inputs that are in focus should have a 2px bottom border <span class="theme-l">using our active color {{< color-preview hex="#0C77BE">}}</span>.
-- Form inputs that are <strong class="text-success">valid</strong> should have a 2px bottom border using our success color<span class="theme-l"> {{< color-preview hex="#006638">}}</span>.
-- Form inputs that are <strong class="text-danger">invalid</strong> should have a 2px bottom border using our danger color<span class="theme-l"> {{< color-preview hex="#da212c">}}</span>.
-- Form inputs that are <strong>disabled</strong> should use our Gray <span class="theme-l">Light</span> color {{< color-preview hex="#f1f1f6">}} as a background color</span>
+- Form inputs that are in focus should have a 2px bottom border using {{< color-preview hexL="#217cbb" hexD="#217CBB">}}.
+- Form inputs that are <strong class="text-success">valid</strong> should have a 2px bottom border using our success color {{< color-preview hexL="#006638" hexD="#1E8A44">}}.
+- Form inputs that are <strong class="text-danger">invalid</strong> should have a 2px bottom border using our danger color {{< color-preview hexL="#da212c" hexD="#DA212C">}}.
+- Form inputs that are <strong>disabled</strong> should use {{< color-preview hexL="#f1f1f6" hexD="#171C1E">}} as a background color.
 
 <div class="guide-example-block d-inline-block">
   <div class="guide-sample">

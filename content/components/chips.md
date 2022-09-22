@@ -59,7 +59,7 @@ There are two sizes of Chips:
         </div>
         <div class="chip-text">Clifford</div>
         <div class="chip-delete-right">
-          <i class="material-icons">cancel</i>
+          <i class="material-icons notranslate">cancel</i>
         </div>
       </div>
       </td>
@@ -101,7 +101,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Clifford</div>
           <div class="chip-delete-right">
-            <i class="material-icons">cancel</i>
+            <i class="material-icons notranslate">cancel</i>
           </div>
         </div>
       </td>
@@ -112,7 +112,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Jeff</div>
           <div class="chip-delete-right">
-            <i class="material-icons">cancel</i>
+            <i class="material-icons notranslate">cancel</i>
           </div>
         </div>
       </td>
@@ -126,7 +126,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Clifford</div>
           <div class="chip-delete-right">
-            <i class="material-icons">cancel</i>
+            <i class="material-icons notranslate">cancel</i>
           </div>
         </div>
       </td>
@@ -137,7 +137,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Jeff</div>
           <div class="chip-delete-right">
-            <i class="material-icons">cancel</i>
+            <i class="material-icons notranslate">cancel</i>
           </div>
         </div>
       </td>
@@ -151,7 +151,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Clifford</div>
           <div class="chip-delete-right">
-            <i class="material-icons">cancel</i>
+            <i class="material-icons notranslate">cancel</i>
           </div>
         </div>
       </td>
@@ -162,7 +162,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Jeff</div>
           <div class="chip-delete-right">
-            <i class="material-icons">cancel</i>
+            <i class="material-icons notranslate">cancel</i>
           </div>
         </div>
       </td>
@@ -176,7 +176,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Clifford</div>
           <div class="chip-delete-right">
-            <i class="material-icons">cancel</i>
+            <i class="material-icons notranslate">cancel</i>
           </div>
         </div>
       </td>
@@ -187,7 +187,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Jeff</div>
           <div class="chip-delete-right">
-            <i class="material-icons">cancel</i>
+            <i class="material-icons notranslate">cancel</i>
           </div>
         </div>
       </td>
@@ -201,7 +201,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Clifford</div>
           <div class="chip-delete-right">
-            <i class="material-icons">cancel</i>
+            <i class="material-icons notranslate">cancel</i>
           </div>
         </div>
       </td>
@@ -212,7 +212,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Jeff</div>
           <div class="chip-delete-right">
-            <i class="material-icons">cancel</i>
+            <i class="material-icons notranslate">cancel</i>
           </div>
         </div>
       </td>
@@ -225,7 +225,7 @@ Input chips can be in any of the following states:
   <div class="guide-sample" id="filterChipsExample">
     <span class="h4 d-block">Choose Amenities</span>
     <div class="chip chip-solid chip-filter mr-2 active">
-      <div class="chip-icon-left"><i class="material-icons">done</i></div>
+      <div class="chip-icon-left"><i class="material-icons notranslate">done</i></div>
       <div class="chip-text">Elevator</div>
     </div>
     <div class="chip chip-solid chip-filter mr-2">
@@ -238,7 +238,7 @@ Input chips can be in any of the following states:
       <div class="chip-text">Pool</div>
     </div>
     <div class="chip chip-solid chip-filter mr-2">
-      <div class="chip-text">Free WiFi</div>
+      <div class="chip-text">Free Wi-Fi</div>
     </div>
   </div>
 </div>

@@ -68,7 +68,7 @@ Progress indicators inform users about the status of ongoing processes, such as 
       ></div>
     </div>
     <div class="text-left text-dark">
-      <strong>Completed 30 of 40. </strong>
+      <strong>Completed 30 of 40.</strong>
     </div>
   </div>
 </div>

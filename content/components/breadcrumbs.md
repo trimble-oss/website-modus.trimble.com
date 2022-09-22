@@ -65,9 +65,9 @@ Breadcrumb is a one-line navigational element that supports wayfinding: it aids 
   <div class="guide-sample">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><i class="modus-icons">dashboard</i><a href="#">Home</a></li>
-        <li class="breadcrumb-item"><i class="material-icons">local_library</i><a href="#">Library</a></li>
-        <li class="breadcrumb-item active" aria-current="page"><i class="modus-icons">clipboard</i>Data</li>
+        <li class="breadcrumb-item"><i class="modus-icons notranslate">dashboard</i><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><i class="material-icons notranslate">local_library</i><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><i class="modus-icons notranslate">clipboard</i>Data</li>
       </ol>
     </nav>
   </div>

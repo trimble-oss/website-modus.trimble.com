@@ -46,7 +46,7 @@ This expanding functionality either a.) overlays the page’s content or b.) pus
 - Use this type of side nav, when the content on the page is difficult to resize.
 
 <video width=300 controls autoplay=false>
-    <source src="/img/side-nav-overlay-demo.mp4" type="video/mp4">
+    <source src="/img/components/side-nav-overlay-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
@@ -55,7 +55,7 @@ This expanding functionality either a.) overlays the page’s content or b.) pus
 - The expanded menu pushes the content of the page.
 
 <video width=300 controls autoplay=false>
-    <source src="/img/side-nav-push-demo.mp4" type="video/mp4">
+    <source src="/img/components/side-nav-push-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
@@ -126,36 +126,12 @@ There are two color options available. They can be used in the following combina
 
 ### Typography
 
-<table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th>Class</th>
-      <th>Type</th>
-      <th>Size (px/rem)</th>
-      <th>Font Weight</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Menu Item </td>
-      <td>Body 1</td>
-      <td>14/0.875</td>
-      <td>Regular/400</td>
-    </tr>
-    <tr>
-      <td>Back Menu Item</td>
-      <td>Body 2</td>
-      <td>12/0.75 </td>
-      <td>Regular/400</td>
-    </tr>
-    <tr>
-      <td>Level Header</td>
-      <td>Heading 4</td>
-      <td>14/0.875</td>
-      <td>Semi-bold/600</td>
-    </tr>
-  </tbody>
-</table>
+| Class          | Type      | Size (px/rem) | Font Weight   |
+| -------------- | --------- | ------------- | ------------- |
+| Menu Item      | Body 1    | 14/0.875      | Regular/400   |
+| Back Menu Item | Body 2    | 12/0.75       | Regular/400   |
+| Level Header   | Heading 4 | 14/0.875      | Semi-bold/600 |
+{ .table .w-100 .table-bordered}
 
 ### Behaviors
 
@@ -166,7 +142,7 @@ There are two color options available. They can be used in the following combina
 - When the user has clicked on a side nav link, the side nav collapses and the user is navigated to the specified content. If the user clicks outside of the side nav, the side nav collapses.
 - Hovering over a menu item icon displays a tooltip with the menu item name. When the menu is collapsed, hovering over the icon displays a tooltip. In the expanded view, if the menu item's name is too long (truncated to fit the width of the side nav), display a tooltip with the menu item's full name. Follow the [Tooltip guidelines](/components/tooltips/) for further reference.
 - If the user clicks on a folder, that level of navigation slides out and is replaced with the next level of navigation under that folder.
-  - The folder's name appears on top of the side nav to let the user know his/ her location or level.
+  - The folder's name appears on top of the side nav to let the user know their location or level.
   - To return to the previous level, the user may use the back button on top of the side nav.
 
 <video width=300 controls autoplay=false>

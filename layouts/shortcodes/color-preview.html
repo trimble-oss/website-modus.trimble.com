@@ -1,6 +1,18 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 {{- $hex := .Get "hex" -}}
+{{- $hexL := .Get "hexL" -}}
+{{- $hexD := .Get "hexD" -}}
 <span class="small border bg-light color-preview mr-1">
-  <span class="border-right border-bottom mb-n1 d-inline-block" style="background-color: {{ $hex }};"></span>
-  <code class="text-lowercase">{{- .Get "hex" -}}</code>
+  {{ if $hex }}
+  <span class="border-right border-bottom mb-n1 text-monospace" style="background-color: {{- .Get "hex" -}};"></span>
+  <span>{{ $hex | lower }}</span>
+  {{ end }}
+  {{ if $hexL }}
+  <span class="border-right border-bottom mb-n1 theme-l" style="background-color: {{- .Get "hexL" -}};"></span>
+  <span class="theme-l text-monospace">{{ $hexL | lower }}</span>
+  {{ end }}
+  {{ if $hexD }}
+  <span class="border-right border-bottom mb-n1 theme-d" style="background-color: {{- .Get "hexD" -}};"></span>
+  <span class="theme-d text-monospace">{{ $hexD | lower }}</span>
+  {{ end }}
 </span>

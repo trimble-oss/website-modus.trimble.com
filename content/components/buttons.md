@@ -149,7 +149,7 @@ There are two button progressions you can choose from: structural and color prog
       <td>
         <div class="mb-1">
           <button class="btn btn-icon-only btn-text-dark">
-            <i class="modus-icons">gear</i>
+            <i class="modus-icons notranslate">gear</i>
           </button>
         </div>
         <div>
@@ -159,16 +159,16 @@ There are two button progressions you can choose from: structural and color prog
             aria-label="Basic example"
           >
             <button type="button" class="btn btn-icon-only btn-outline-dark">
-              <i class="modus-icons">calendar</i>
+              <i class="modus-icons notranslate">calendar</i>
             </button>
             <button
               type="button"
               class="btn btn-icon-only btn-outline-dark active"
             >
-              <i class="modus-icons">edit</i>
+              <i class="modus-icons notranslate">edit</i>
             </button>
             <button type="button" class="btn btn-icon-only btn-outline-dark">
-              <i class="modus-icons">filter</i>
+              <i class="modus-icons notranslate">filter</i>
             </button>
           </div>
         </div>
@@ -400,7 +400,7 @@ All buttons (including icon buttons) should have the following states:
           <th scope="row">Default</th>
           <td>
             <button class="btn btn-icon-only btn-text-dark">
-            <i class="modus-icons">gear</i>
+            <i class="modus-icons notranslate">gear</i>
             </button>
           </td>
           <td>
@@ -410,7 +410,7 @@ All buttons (including icon buttons) should have the following states:
         <tr>
           <th scope="row">Hover</th>
           <td><button class="btn hover btn-icon-only btn-text-dark">
-            <i class="modus-icons">gear</i>
+            <i class="modus-icons notranslate">gear</i>
           </button></td>
           <td><button class="btn hover btn-danger">Button</button></td>
         </tr>
@@ -418,7 +418,7 @@ All buttons (including icon buttons) should have the following states:
           <th scope="row">Pressed</th>
           <td>
             <button class="btn display-active btn-icon-only btn-text-dark">
-            <i class="modus-icons">gear</i>
+            <i class="modus-icons notranslate">gear</i>
           </button>
           </td>
           <td>
@@ -429,7 +429,7 @@ All buttons (including icon buttons) should have the following states:
           <th scope="row">Disabled</th>
           <td>
           <button disabled class="btn btn-icon-only btn-text-dark">
-            <i class="modus-icons">gear</i>
+            <i class="modus-icons notranslate">gear</i>
           </button></td>
           <td><button disabled class="btn btn-danger">Button</button></td>
         </tr>
