@@ -72,7 +72,7 @@ Lists are available in three sizes: default, condensed (small) and large.
             aria-haspopup="true"
             aria-expanded="false"
           >
-            <i class="modus-icons">more_vertical</i>
+            <i class="modus-icons notranslate">more_vertical</i>
           </button>
           <div
             class="dropdown-menu dropdown-menu-right"

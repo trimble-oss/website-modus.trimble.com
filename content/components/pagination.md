@@ -49,7 +49,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
             </li>
             <li class="page-item">
               <a class="page-link" href="#" aria-label="view more">
-                <i class="modus-icons">more_horizontal</i>
+                <i class="modus-icons notranslate">more_horizontal</i>
               </a>
             </li>
             <li class="page-item">
@@ -69,7 +69,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
             </li>
             <li class="page-item">
               <a class="page-link" href="#" aria-label="view more">
-                <i class="modus-icons">more_horizontal</i>
+                <i class="modus-icons notranslate">more_horizontal</i>
               </a>
             </li>
             <li class="page-item">
@@ -101,7 +101,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
               </li>
               <li class="page-item">
                 <a class="page-link" href="#" aria-label="view more">
-                  <i class="modus-icons">more_horizontal</i>
+                  <i class="modus-icons notranslate">more_horizontal</i>
                 </a>
               </li>
               <li class="page-item">
@@ -121,7 +121,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
               </li>
               <li class="page-item">
                 <a class="page-link" href="#" aria-label="view more">
-                  <i class="modus-icons">more_horizontal</i>
+                  <i class="modus-icons notranslate">more_horizontal</i>
                 </a>
               </li>
               <li class="page-item">
@@ -153,7 +153,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
             </li>
             <li class="page-item">
               <a class="page-link" href="#">
-                <i class="modus-icons">more_horizontal</i>
+                <i class="modus-icons notranslate">more_horizontal</i>
               </a>
             </li>
             <li class="page-item">
@@ -164,7 +164,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
             </li>
             <li class="page-item">
               <a class="page-link" href="#">
-                <i class="modus-icons">more_horizontal</i>
+                <i class="modus-icons notranslate">more_horizontal</i>
               </a>
             </li>
             <li class="page-item">
@@ -209,7 +209,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
         </li>
         <li class="page-item disabled">
           <a class="page-link" href="#">
-            <i class="modus-icons">more_horizontal</i>
+            <i class="modus-icons notranslate">more_horizontal</i>
           </a>
         </li>
         <li class="page-item">
@@ -239,7 +239,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
         </li>
         <li class="page-item">
           <a class="page-link" href="#">
-            <i class="modus-icons">more_horizontal</i>
+            <i class="modus-icons notranslate">more_horizontal</i>
           </a>
         </li>
         <li class="page-item">
@@ -267,7 +267,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
         </li>
         <li class="page-item">
           <a class="page-link" href="#">
-            <i class="modus-icons">more_horizontal</i>
+            <i class="modus-icons notranslate">more_horizontal</i>
           </a>
         </li>
         <li class="page-item">
@@ -297,7 +297,7 @@ Pagination allows the user to easily find and navigate through large amounts of 
         </li>
         <li class="page-item disabled">
           <a class="page-link" href="#">
-            <i class="modus-icons">more_horizontal</i>
+            <i class="modus-icons notranslate">more_horizontal</i>
           </a>
         </li>
         <li class="page-item disabled">

@@ -73,7 +73,7 @@ Useful, readable, translatable, creates an emotional connection with the audienc
 
 Different audiences have different needs and expectations. At Trimble, there are many variations on tone that will depend on the persona.
 
-Make sure the language used in your product resonates with the user and matches his/ her expectations and level of experience.
+Make sure the language used in your product resonates with the user and matches their expectations and level of experience.
 
 ## Microcopy
 

@@ -31,6 +31,7 @@ A content tree provides users with a way to navigate nested hierarchical informa
 A content tree should be located on the left side of the screen and should consist of the following elements:
 
 <img src="/img/components/tree-anatomy.svg" class="img-fluid" alt="Tree Anatomy"></br>
+
 <style>
 [data-theme="dark"] img[src="/img/components/tree-anatomy.svg"] {
  content: url(/img/components/tree-anatomy-dark.svg);
@@ -40,12 +41,13 @@ A content tree should be located on the left side of the screen and should consi
 **Tree item:**
 
 A content tree view is text-only by default. This option is best used when a hierarchy consists of all of the same content type. Background color: white, font weight: Semi-bold/ 600, font color: Trimble Gray. There are two sizes of available:
-  - **Default:** 48px/3rem in height
-  - **Condensed:** 32px/2rem in height
+
+- **Default:** 48px/3rem in height
+- **Condensed:** 32px/2rem in height
 
 - **Collapse/ expand icon:** Size: 16x16px, color: Trimble Gray. _required_
 - **Drag icon:** Allows the user to rearrange items in the content tree and change their hierarchical relationships. Size: 16x16px, color: Trimble Gray. _optional_
-- **Checkbox:** Checkboxes within the tree view allow users to select items and apply  actions to them. Both single-select and multiselect tree views display checkboxes on the left side of each item. Size: 16x16px (see [Checkboxes)](/components/checkboxes/). _optional_
+- **Checkbox:** Checkboxes within the tree view allow users to select items and apply actions to them. Both single-select and multiselect tree views display checkboxes on the left side of each item. Size: 16x16px (see [Checkboxes)](/components/checkboxes/). _optional_
 - **Icon:** Icons can be used to add clarification about tree view items. They help to differentiate content types visually. Choose icons that relate to the object type being represented in the content tree. These icons can be unique to specific data types to add better clarification for users. Size: 16x16px, color: Trimble Gray. _optional_
 - **Action icon(s):** Action icons may appear next to the tree item or above the content tree in an action bar. _optional_
 
@@ -83,7 +85,7 @@ A content tree view is text-only by default. This option is best used when a hie
 }
 </style>
 
-<table class="table table-bordered theme-l">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>State</th>
@@ -96,14 +98,14 @@ A content tree view is text-only by default. This option is best used when a hie
   <tbody>
     <tr>
       <td>Default</td>
-      <td>White<br>{{< color-preview hex="#ffffff">}}</td>
-      <td>1px solid, Gray 0<br>{{< color-preview hex="#e0e1e9">}}</td>
+      <td>{{< color-preview nameL="white" hexL="#ffffff" nameD="Gray 10" hexD="#171C1E">}}</td>
+      <td>1px solid, Gray 0<br>{{< color-preview name="Gray 0" hex="#e0e1e9">}}</td>
       <td>Trimble Gray<br>{{< color-preview hex="#252a2e">}} Regular, 400</td>
       <td>Body text for default size; Small body text for condensed size</td>
     </tr>
     <tr>
       <td>Hover</td>
-      <td>Gray 0<br>{{< color-preview hex="#e0e1e9">}}</td>
+      <td>{{< color-preview nameL="Gray 0" hexL="#e0e1e9" nameD="Gray 8" hexD="#464B52">}}</td>
       <td>1px solid, Gray 0<br>{{< color-preview hex="#e0e1e9">}}</td>
       <td>Trimble Gray<br>{{< color-preview hex="#252a2e">}} Regular, 400</td>
       <td>&nbsp;</td>
@@ -205,6 +207,7 @@ The content tree may include an action bar that contains a variety of icons that
 </style>
 
 When a folder is selected, the duplicate icon in the toolbar becomes active.
+
 - The user clicks the duplicate icon.
 - The system duplicated that folder and it’s children.
 - The system pastes the duplicate folder below.
@@ -249,6 +252,7 @@ If a drag operation is not allowed, the line indicating the drop location will b
 </style>
 
 When a tree item is selected, the edit icon in the toolbar becomes active.
+
 - User clicks the edit icon.
 - The tree item name becomes an editable input field (see [Inputs](/components/inputs/)).
 - The user types in a new name (see [accessibility](#accessibility) guidelines below for best naming conventions).
@@ -257,6 +261,7 @@ When a tree item is selected, the edit icon in the toolbar becomes active.
 **Add New Tree Item**
 
 Clicking the + will either add a new tree item to the top of the tree structure or if an item is selected above it.
+
 - When the user clicks the + icon, a new tree item is added to the top of the tree or above a selected tree item.
 - The user types in a new tree item name (see [accessibility](#accessibility) guidelines below for best naming conventions).
 - The user can click outside of the input field or press enter to commit the new tree item and its name.
@@ -282,8 +287,8 @@ Filter shows all the tree items matching the user's search term. Tree items are 
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                | Contributors                                 |
-| ---------- | ------- | -------------------- | -------------------------------------------- |
-| 02/04/2022 | 1.3.0   | New component added. | J. Wittmeyer, E. Gunther, L. Meskanen-Kundu  |
+| Date       | Version | Notes                | Contributors                                |
+| ---------- | ------- | -------------------- | ------------------------------------------- |
+| 02/04/2022 | 1.3.0   | New component added. | J. Wittmeyer, E. Gunther, L. Meskanen-Kundu |
 
 {{</ whats-changed-table >}}

@@ -16,20 +16,20 @@ Messages display low priority content directly on the page and are not dismissab
 
 <div class="d-flex flex-column">
   <div class="message message-primary">
-    <i class="modus-icons">info</i>This is a primary message
+    <i class="modus-icons notranslate">info</i>This is a primary message
   </div>
   <div class="message message-secondary">
-    <i class="modus-icons">help</i>This is a secondary message
+    <i class="modus-icons notranslate">help</i>This is a secondary message
   </div>
   <!--
   <div class="message message-success">
-    <i class="modus-icons">check_circle</i>This is a success message
+    <i class="modus-icons notranslate">check_circle</i>This is a success message
   </div>
   <div class="message message-warning">
-    <i class="modus-icons">warning</i>This is a warning message
+    <i class="modus-icons notranslate">warning</i>This is a warning message
   </div>
   <div class="message message-danger">
-    <i class="material-icons">error</i>This is a danger message
+    <i class="material-icons notranslate">error</i>This is a danger message
   </div>
   -->
 </div>
@@ -50,7 +50,7 @@ Messages display low priority content directly on the page and are not dismissab
 <div class="guide-example-block my-3">
   <div class="guide-sample bg-white">
     <div class="message message-primary m-0">
-      <i class="modus-icons">info</i> This is a primary message.
+      <i class="modus-icons notranslate">info</i> This is a primary message.
     </div>
   </div>
 </div>
