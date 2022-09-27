@@ -2,17 +2,27 @@
 {{- $hex := .Get "hex" -}}
 {{- $hexL := .Get "hexL" -}}
 {{- $hexD := .Get "hexD" -}}
-<span class="small border bg-light color-preview mr-1">
-  {{ if $hex }}
-  <span class="border-right border-bottom mb-n1 text-monospace" style="background-color: {{- .Get "hex" -}};"></span>
-  <span>{{ $hex | lower }}</span>
-  {{ end }}
-  {{ if $hexL }}
-  <span class="border-right border-bottom mb-n1 theme-l" style="background-color: {{- .Get "hexL" -}};"></span>
-  <span class="theme-l text-monospace">{{ $hexL | lower }}</span>
-  {{ end }}
-  {{ if $hexD }}
-  <span class="border-right border-bottom mb-n1 theme-d" style="background-color: {{- .Get "hexD" -}};"></span>
-  <span class="theme-d text-monospace">{{ $hexD | lower }}</span>
-  {{ end }}
-</span>
+{{- $nameD := .Get "nameD" -}}
+{{- $nameL := .Get "nameL" -}}
+{{ if $hex }}<span class="mr-1">{{- .Get "name" -}}</span>{{ end }}
+{{ if $nameL }}<span class="theme-l mr-1">{{- .Get "nameL" -}}</span>{{ end }}
+{{ if $nameD }}<span class="theme-d mr-1">{{- .Get "nameD" -}}</span>{{ end }}
+<div class="small color-preview shadow-sm">
+  {{- if $hex -}}
+  <div class="mb-n1 color" style="background-color: {{- .Get "hex" -}};">
+  </div>
+  <div class="text-monospace">{{- $hex | lower -}}</div>
+  {{- end -}}
+  {{- if $hexL -}}<div class="theme-l">
+    <div class="mb-n1 color" style="background-color: {{- .Get "hexL" -}};">
+    </div>
+    <div class="text-monospace">{{- $hexL | lower -}}</div>
+  </div>
+  {{- end -}}
+  {{- if $hexD -}}<div class="theme-d">
+    <div class="mb-n1 color" style="background-color: {{- .Get "hexD" }};">
+    </div>
+    <div class="text-monospace">{{- $hexD | lower -}}</div>
+  </div>
+  {{- end -}}
+</div>
