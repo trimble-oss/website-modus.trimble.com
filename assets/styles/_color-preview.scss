@@ -1,9 +1,21 @@
-.color-preview span {
-  margin-bottom: -0.27rem;
-  padding: 0.44rem;
-  display: inline-block !important;
+.color-preview {
+  padding: 1px;
+  display: inline-block;
+  max-height: 20px;
 }
 
-.color-preview code {
+.color-preview .color{
+  padding-left: 2px;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: text-top;
+}
+
+.color-preview .text-monospace {
   letter-spacing: 1.1px;
+  margin-left: 4px;
+  margin-right: 4px;
+  display: inline-block;
+  vertical-align: middle;
 }

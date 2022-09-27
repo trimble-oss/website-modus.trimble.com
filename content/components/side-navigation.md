@@ -45,7 +45,7 @@ This expanding functionality either a.) overlays the page’s content or b.) pus
 
 - Use this type of side nav, when the content on the page is difficult to resize.
 
-<video width=300 controls autoplay=false>
+<video width=300 controls autoplay=false disablepictureinpicture disableremoteplayback muted="true">
     <source src="/img/components/side-nav-overlay-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
@@ -54,7 +54,7 @@ This expanding functionality either a.) overlays the page’s content or b.) pus
 
 - The expanded menu pushes the content of the page.
 
-<video width=300 controls autoplay=false>
+<video width=300 controls autoplay=false disablepictureinpicture disableremoteplayback muted="true">
     <source src="/img/components/side-nav-push-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
@@ -98,18 +98,21 @@ There are two color options available. They can be used in the following combina
 
 ![White and Blue Navigation](/img/components/sidenav-states-3.png)
 
-|                          | White Nav Colors       | Blue Nav Colors        |
-| ------------------------ | ---------------------- | ---------------------- |
-| Background               | White                  | Blue Dark `#0E416C`    |
-| Selected Item Background | Trimble Blue `#0063a3` | Blue Light `#217cbb`   |
-| Text Link                | Trimble Gray `#252a2e` | White                  |
-| Hover Link               | Gray 0 `#e0e1e9`       | Trimble Blue `#0063a3` |
-| Icon                     | Trimble Gray `#252a2e` | White                  |
-| Chevron                  | Trimble Gray `#252a2e` | White                  |
-{ .table .w-100 .table-bordered .theme-l}
+<!-- prettier-ignore-start -->
+|                          | White Nav Colors                                                                                                                                                     | Blue Nav Colors                                        |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| Background               | {{< color-preview hexL="#ffffff" nameL="White" hexD="#171C1E" nameD="Gray 10" >}}                                                                                    | {{< color-preview hex="#0E416C" name="Blue Dark">}}    |
+| Selected Item Background | {{< color-preview hexL="#0063a3" nameL="Trimble Blue" hexD="#171C1E" nameD="Highlight Blue" >}}                                                                      | {{< color-preview hex="#217cbb" name="Blue Light">}}   |
+| Text Link                | {{< color-preview hexL="#252a2e" nameL="Trimble Gray" hexD="#fff" nameD="White" >}}                                                                                  | {{< color-preview hex="#ffffff" name="White">}}        |
+| Hover Link               | {{< color-preview hexL="#e0e1e9" nameL="Gray 0" hexD="#464B52" nameD="Gray 8" >}}                                                                                    | {{< color-preview hex="#0063a3" name="Trimble Blue">}} |
+| Icon                     | {{< color-preview hexL="#252a2e" nameL="Trimble Gray" hexD="#fff" nameD="White" >}} <span class="theme-d">or {{< color-preview hexD="#7d808d" nameD="Gray 5" >}}</span> | {{< color-preview hex="#ffffff" name="White">}}        |
+| Chevron                  | {{< color-preview hexL="#252a2e" nameL="Trimble Gray" hexD="#fff" nameD="White" >}}                                                                                  | {{< color-preview hex="#ffffff" name="White">}}        |
+{ .table .table-bordered}
+<!-- prettier-ignore-end -->
 
 ### Padding and Spacing
 
+<!-- prettier-ignore-start -->
 | Class                       | Property      | Size (px/rem) |
 | --------------------------- | ------------- | ------------- |
 | Menu Item                   | height        | 48/3          |
@@ -120,18 +123,21 @@ There are two color options available. They can be used in the following combina
 | Extended Menu Item          | width         | 256/16        |
 | Extended Menu Item Icon     | padding-right | 16/1          |
 | Extended Menu Item Chevron  | padding-right | 4/0.25        |
-{ .table .w-100 .table-bordered}
+{ .table .table-bordered}
+<!-- prettier-ignore-end -->
 
 ![Spacing](/img/components/sidenav-spacing.png)
 
 ### Typography
 
+<!-- prettier-ignore-start -->
 | Class          | Type      | Size (px/rem) | Font Weight   |
 | -------------- | --------- | ------------- | ------------- |
 | Menu Item      | Body 1    | 14/0.875      | Regular/400   |
 | Back Menu Item | Body 2    | 12/0.75       | Regular/400   |
 | Level Header   | Heading 4 | 14/0.875      | Semi-bold/600 |
-{ .table .w-100 .table-bordered}
+{ .table .table-bordered}
+<!-- prettier-ignore-end -->
 
 ### Behaviors
 
@@ -159,54 +165,17 @@ There are two color options available. They can be used in the following combina
 
 #### Responsiveness
 
-<table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th>Breakpoint</th>
-      <th>Value (px/rem)</th>
-      <th>Expanded</th>
-      <th>Collapsed</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>X-Small</td>
-      <td>320/20</td>
-      <td>Overlay</td>
-      <td>Hide Menu</td>
-    </tr>
-    <tr>
-      <td>Small</td>
-      <td>576/36</td>
-      <td>Overlay</td>
-      <td>Hide Menu</td>
-    </tr>
-    <tr>
-      <td>Medium</td>
-      <td>768/48</td>
-      <td>Overlay</td>
-      <td>Hide Menu</td>
-    </tr>
-    <tr>
-      <td>Large</td>
-      <td>992/62</td>
-      <td>Overlay or Push	</td>
-      <td>Hide or Collapse</td>
-    </tr>
-    <tr>
-      <td>X-Large</td>
-      <td>1200/75</td>
-      <td>Overlay or Push	</td>
-      <td>Hide or Collapse</td>
-    </tr>
-    <tr>
-      <td>XX-Large</td>
-      <td>1600/100</td>
-      <td>Overlay or Push	</td>
-      <td>Hide or Collapse</td>
-    </tr>
-  </tbody>
-</table>
+<!-- prettier-ignore-start -->
+| Breakpoint | Value (px/rem) | Expanded        | Collapsed        |
+| ---------- | -------------- | --------------- | ---------------- |
+| X-Small    | 320/20         | Overlay         | Hide Menu        |
+| Small      | 576/36         | Overlay         | Hide Menu        |
+| Medium     | 768/48         | Overlay         | Hide Menu        |
+| Large      | 992/62         | Overlay or Push | Hide or Collapse |
+| X-Large    | 1200/75        | Overlay or Push | Hide or Collapse |
+| XX-Large   | 1600/100       | Overlay or Push | Hide or Collapse |
+{ .table .table-bordered}
+<!-- prettier-ignore-end -->
 
 ### Accessibility
 
