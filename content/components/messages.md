@@ -21,17 +21,6 @@ Messages display low priority content directly on the page and are not dismissab
   <div class="message message-secondary">
     <i class="modus-icons notranslate">help</i>This is a secondary message
   </div>
-  <!--
-  <div class="message message-success">
-    <i class="modus-icons notranslate">check_circle</i>This is a success message
-  </div>
-  <div class="message message-warning">
-    <i class="modus-icons notranslate">warning</i>This is a warning message
-  </div>
-  <div class="message message-danger">
-    <i class="material-icons notranslate">error</i>This is a danger message
-  </div>
-  -->
 </div>
 
 ## Usage

@@ -6,7 +6,6 @@ images:
   - "/img/components/headers/autocomplete.png"
 components: true
 keywords: typeahead
-contributors: ""
 ---
 
 ## Overview
@@ -67,7 +66,7 @@ A list of selectable options that can be grouped into sub-categories. Sub-catego
 Clears all text from the input field or reverts to the default selection (or previous selection).
 
 **Chip** (optional)
-A chip __can__ be used to clear the filled selection instead of the default “X” clear icon but only in the larger (48px) variant. **Please use one or the other but never both.**
+A chip *can* be used to clear the filled selection instead of the default “X” clear icon but only in the larger (48px) variant. **Please use one or the other but never both.**
 
 ![Autocomplete Chip](/img/components/autocomplete-clear.svg)
 

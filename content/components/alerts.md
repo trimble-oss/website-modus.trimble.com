@@ -21,20 +21,13 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
 
 - Providing a user contextual information or status of an action they’re trying to complete in a specific element on the visible page.
 
+### Example
+
 <table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th scope="col">Example</th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
       <td style="line-height: 1.25" scope="row">
         <div class="border">
-          <div class="p-3 bg-primary text-white d-flex">
-            <i class="material-icons" style="color: #fff;">menu</i>
-            <span class="h1 ml-3 mb-0" style="color: #fff;">App Title</span>
-          </div>
           <div class="alert alert-danger mx-3 mt-3 mb-0" role="alert">
             <i class="modus-icon material-icons alert-icon">error</i>
             <div>Error! Your username and password were incorrect</div>
@@ -90,7 +83,7 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
 
 <div class="p-5 my-3 pr-5 bg-light">
   <div class="alert alert-success" style="max-width: 460px" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="right" data-content="">
-      <i class="material-icons alert-icon">check_circle</i>
+      <i class="material-icons notranslate alert-icon">check_circle</i>
       <div data-toggle="popover" data-trigger="manual" data-html="true" data-placement="bottom" data-offset="19" data-content="<small><b>Font:</b> Open Sans Bold 14px<br><b>Height:</b> 56px<br><b>Border-radius:</b> 2px<br></small>">You have completed a task.</div>
     </div>
 </div>

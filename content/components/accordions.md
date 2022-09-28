@@ -5,7 +5,6 @@ description: "The accordion element delivers large amounts of content in a small
 images:
   - "/img/components/headers/accordions.png"
 components: true
-contributors: ""
 bootstrapURL: "/components/accordions/"
 reactBootstrapURL: "/components/accordions/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-accordion--default"

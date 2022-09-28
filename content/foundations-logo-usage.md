@@ -7,6 +7,11 @@ url: "/foundations/logo-usage/"
 ---
 
 <img src="/img/trimble-logo.svg" width="320" class="mb-2" alt="Trimble Logo">
+<style>
+html[data-theme="dark"] img {
+  filter: brightness(0) invert(1);
+}
+</style>
 
 The [Trimble Logo](https://brandfolder.com/trimble-brandfolder/trimble) Guidelines policy covers the usage and treatment of the Trimble logo and its component pieces (i.e. the Globe/Triangle symbol and the Trimble name logo). The policy applies throughout the Trimble organization, worldwide. In the event that an individual applying this policy is not current on graphic techniques, it is always good practice to seek help from one of Trimble’s marketing communications professionals, who can help in interpreting the guidelines.
 
