@@ -41,8 +41,8 @@ Contribute by <a href="/community/tiger-teams/">joining a Tiger Team</a> to work
 Propose a new design pattern to be added to Modus. Learn about <a href="/community/contribution-process/">the contribution process</a>.
 {{</ card-start >}}
 
-{{< card-start title="Contribute Code" url="https://trimble-oss.github.io/contribute/" class="bg-light py-4" header="code.svg" >}}
-Contribute code for a new or existing pattern to one of our repositories. <a href="https://trimble-oss.github.io/contribute/">Go to GitHub</a>.
+{{< card-start title="Contribute Code" url="https://github.com/trimble-oss?q=modus&type=public&language=&sort=stargazers" class="bg-light py-4" header="code.svg" >}}
+Contribute code for a new or existing pattern to one of our repositories. <a href="https://github.com/trimble-oss?q=modus&type=public&language=&sort=stargazers">Go to GitHub</a>.
 {{</ card-start >}}
 
 {{< card-start title="Share Research Findings" url="/community/contact/" class="bg-light py-4" header="research.svg" >}}
