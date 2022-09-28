@@ -5,6 +5,8 @@ description: "A content tree provides users with a way to navigate nested hierar
 images:
   - "/img/components/headers/content-tree.png"
 components: true
+reactBootstrapURL: "/components/content-tree/"
+webComponentsURL: https://modus-web-components.trimble.com/?path=/story/components-content-tree--default
 ---
 
 ## Overview
@@ -20,7 +22,7 @@ A content tree provides users with a way to navigate nested hierarchical informa
 
 **Don’t use when**
 
-- You need to navigate between pages of an application. Instead use Side Navigation (coming soon).
+- You need to navigate between pages of an application. Instead use [Side Navigation](/components/side-navigation/).
 - You need to display actions a user may take to manipulate content within an application (ie. edit, erase, rotate, etc.). Instead use a Toolbar (coming soon).
 - You want a folder to collapse when another folder opens (instead, use an [Accordion](/components/accordions/)).
 
