@@ -14,7 +14,81 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/component
 
 The navbar or the app header provides context through globally accessible menu options and positions a consistent component to connect various Trimble applications. It contains the main navigation for your application.
 
-![Navbar Example](/img/components/navbar.svg)
+<!-- prettier-ignore-start -->
+<nav class="navbar nav navbar-expand-sm modus-header border">
+  <button class="btn btn-lg btn-icon-only" id="menuButton" data-modus-item="menu-btn" href="#overview" data-toggle="#" type="button">
+    <i class="modus-icons notranslate">menu</i>
+  </button>
+  <a href="#navbar-example" class="navbar-brand mr-auto ml-2">
+    <img src="https://modus-bootstrap.trimble.com/img/trimble-logo.svg" width="107" height="25" class="img-fluid d-none d-sm-block" alt="home">
+    <img src="https://modus-bootstrap.trimble.com/img/trimble-icon.svg" class="d-block d-sm-none" height="25" width="25" alt="home">
+  </a>
+  <div class="collapse navbar-collapse">
+    <div class="navbar-nav ml-auto">
+      <button type="button" class="btn btn-lg btn-icon-only ml-2 text-gray-6 d-none" data-toggle="tooltip"
+         data-placement="bottom" title="Search">
+        <i class="modus-icon notranslate material-icons text-gray-6">search</i>
+      </button>
+      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
+         data-placement="bottom" title="Notifications">
+        <i class="modus-icon notranslate material-icons text-gray-6">notifications</i>
+      </button>
+      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
+         data-placement="bottom" title="Help">
+        <i class="modus-icons notranslate text-gray-6">help</i>
+      </button>
+      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
+         data-placement="bottom" title="Applications">
+        <i class="modus-icons notranslate text-gray-6">apps</i>
+      </button>
+    </div>
+  </div>
+
+  <div class="dropdown d-block d-md-none">
+  <button type="button" data-toggle="dropdown" aria-label="" class="btn btn-lg btn-icon-only text-gray-6 d-block d-sm-none" aria-expanded="false">
+    <i class="modus-icons notranslate text-gray-6">more_vertical</i>
+  </button>
+  <ul class="dropdown-menu">
+    <li class="bg-tranparent">
+      <a class="dropdown-item" href="#">
+        <button type="button" class="btn bg-transparent pl-0 border-0">
+          Notifications
+        </button>
+      </a>
+    <li>
+      <a class="dropdown-item" href="#">
+        <button type="button" class="btn bg-transparent pl-0 border-0">
+          Help
+        </button>
+      </a>
+    <li>
+      <a class="dropdown-item" href="#">
+        <button type="button" class="btn bg-transparent pl-0 border-0">
+          Applications
+        </button>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <button type="button" class="btn btn-lg btn-icon-only bg-transparent border-white ml-2 border-0"
+         data-toggle="tooltip" data-placement="bottom" data-html="true"
+         title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
+         <i class="modus-icon notranslate material-icons rounded-circle text-gray-6">account_circle</i>
+  </button>
+</nav>
+<!-- prettier-ignore-end -->
+
+<!-- enable tooltips everywhere -->
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+</script>
+<style>
+html[data-theme="dark"] main .navbar-brand img {
+  filter: brightness(0) invert(1);
+}
+</style>
 
 ## Usage
 

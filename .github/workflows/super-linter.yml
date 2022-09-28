@@ -3,12 +3,13 @@ name: Super Linter
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   build:
     name: Lint Code Base
     runs-on: ubuntu-latest
-    if: ${{ github.actor != 'dependabot[bot]' }}
 
     steps:
       - name: Checkout Code
@@ -23,6 +24,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           JAVASCRIPT_DEFAULT_STYLE: prettier
           LINTER_RULES_PATH: /
+          MARKDOWN_CONFIG_FILE: .markdownlint.json
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_EDITORCONFIG: false
-          VALIDATE_MARKDOWN: false
