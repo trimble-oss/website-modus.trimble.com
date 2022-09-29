@@ -39,15 +39,19 @@ Autocomplete comes in three varieties:
 
 ## Specifications
 
+<div class="theme-l">
 ![Anatomy](/img/components/autocomplete-anatomy.svg)
+</div>
 
 See [Inputs](/components/inputs/) and [Lists](/components/lists/) for additional specifications.
 
+<div class="theme-l">
 - Label Text Color: {{< color-preview hex="#464b52">}}
 - Input Text Color: {{< color-preview hex="#252A2E">}}
 - Placeholder Text Color: {{< color-preview hex="#B7B9C3">}}
 - Border Color: {{< color-preview hex="#E0E1E9">}} (bottom border {{< color-preview hex="#6A6E79">}} )
 - List Subcategory Label Color: {{< color-preview hex="#6a6e79">}}
+</div>
 
 There are two sizes of autocomplete input fields defined:
 
