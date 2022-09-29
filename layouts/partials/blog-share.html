@@ -52,7 +52,7 @@
     if (navigator.share) {
       navigator.share({
         title: '{{ .Title }} | {{ .Site.Title }}',
-        text: '{{ .Description }}',
+        text: '{{- .Description -}}',
         url: '{{ .Permalink }}'
       }).then(() => {
         console.log('Thanks for sharing!');

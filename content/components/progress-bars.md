@@ -30,7 +30,7 @@ Progress indicators inform users about the status of ongoing processes, such as 
 
 ## Specifications
 
-- A progress indicator is represented by a white bar that is filled with color over time as loading occurs.
+- A progress indicator is represented by a <span class="theme-l">white</span> bar that is filled with color over time as loading occurs.
 
 <div class="guide-example-block">
   <div class="guide-sample">

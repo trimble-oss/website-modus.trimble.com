@@ -27,5 +27,6 @@ jobs:
           MARKDOWN_CONFIG_FILE: .markdownlint.json
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_EDITORCONFIG: false
+          VALIDATE_HTML: false
           VALIDATE_NATURAL_LANGUAGE: false
           VALIDATE_YAML: false

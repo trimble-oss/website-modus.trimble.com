@@ -75,7 +75,7 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
 
 ## Specifications
 
-- Container (Height: 56px; Radius: 2px; Color: white background, 1px border, 8px indicator line same color as border on the left; Padding: 16px; Margin: 16px) _required_
+- Container (Height: 56px; Radius: 2px; <span class="theme-l">background-color: white;</span> 1px border, 8px indicator line same color as border on the left; Padding: 16px; Margin: 16px) _required_
 - Alert text (Font: Open Sans Bold 14px) _required_
 - Leading Non-Interactive Icon/ Charm (16x16px) _optional_
 - Button (text only, right aligned) or trailing close icon (16px16px) _optional_
