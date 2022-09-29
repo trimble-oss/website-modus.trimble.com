@@ -94,7 +94,7 @@ Color in Modus is carefully considered, and we discourage custom layer styles
 
 ### Info
 
-- If you’re brand new to Sketch, you can review [tutorials and help docs](https://www.sketchapp.com/docs/).
+- If you’re brand new to Sketch, you can review [tutorials and help docs](https://www.sketch.com/docs/).
 
 ### Updates
 

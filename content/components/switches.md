@@ -139,7 +139,7 @@ Switches are selection controls that yield instantaneous actions. They have an o
   <tbody>
     <tr>
       <td scope="row">
-        <div class="d-flex bg-panel-background px-3">
+        <div class="d-flex px-3">
           Your Allergies (click all that apply)
         </div>
         <div class="form-group mb-0 px-3">
@@ -182,8 +182,8 @@ Switches are selection controls that yield instantaneous actions. They have an o
             <label class="custom-control-label" for="dont7">Shellfish</label>
           </div>
         </div>
-        <div class="bg-panel-background px-3 py-2">
-          <button class="btn btn-sm btn-primary">Submit</button>
+        <div class="px-3 py-2">
+          <button class="btn btn-sm btn-primary" type="button">Submit</button>
         </div>
       </td>
     </tr>
