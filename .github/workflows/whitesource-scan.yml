@@ -1,0 +1,23 @@
+name: WhiteSource Scan
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+
+jobs:
+  scan:
+    name: WhiteSource Scan Runner
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Run WhiteSource Scan Action
+        uses: trimble-oss/gh-actions/mend-scanner@main
+
+        with:
+          apiKey: ${{ secrets.WSS_API_KEY }}
+          configFile: "wss-unified-agent.config"
