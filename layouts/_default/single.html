@@ -49,10 +49,19 @@
         </div>
         {{- end -}}
 
-        {{- .Content -}}
+        {{ .Content }}
 
-        <div class="feedback-center">
-          {{ partial "was-this-page-helpful.html" . }}
+        <div class="row">
+          <div class="col-6">
+          <div class="feedback-center">
+            {{ partial "was-this-page-helpful.html" . }}
+          </div>
+          </div>
+          <div class="col-6">
+            <a class="btn btn-sm btn-outline-dark mt-5 text-dark float-right"
+              href="https://github.com/trimble-oss/website-modus.trimble.com/tree/main/content/{{ .Page.File.Path | replaceRE `\\` "/" }}"
+              title="View and edit this file on GitHub" target="_blank" rel="noopener">View on GitHub</a>
+          </div>
         </div>
 
         <footer class="mt-4 pt-3">
