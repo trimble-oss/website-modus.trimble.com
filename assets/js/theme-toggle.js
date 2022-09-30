@@ -1,3 +1,6 @@
+(() => {
+  "use strict";
+
 const storageKey = "theme-preference";
 
 const onClick = () => {
@@ -42,3 +45,4 @@ window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ 
   theme.value = isDark ? "dark" : "light";
   setPreference();
 });
+})();

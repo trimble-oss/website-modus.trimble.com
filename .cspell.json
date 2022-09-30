@@ -1208,13 +1208,7 @@
     "ZOOMRADII"
   ],
   "allowCompoundWords": true,
-  "flagWords": [
-    "blacklist",
-    "grandfathered",
-    "grey",
-    "hte",
-    "whitelist"
-  ],
+  "flagWords": ["blacklist", "grandfathered", "grey", "hte", "whitelist"],
   "language": "en,en-US",
   "ignoreRegExpList": [
     "<!-- prettier-ignore -->\\n(`{3,})\\w*\\n[\\s\\S]+?\\1",
@@ -1232,6 +1226,7 @@
     "*.min.*",
     "{coverage,dist,.cache,.git,.vscode,.DS_Store,tests}/**/*",
     "*.{log,svg,snap}",
+    "CODEOWNERS",
     "test.*"
   ],
   "useGitignore": true

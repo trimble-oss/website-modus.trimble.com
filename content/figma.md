@@ -8,7 +8,7 @@ start: true
 
 ## Overview
 
-Figma is a vector graphics editor and prototyping tool, which is primarily web-based with additional offline features enabled by desktop applications for MacOS and Windows. As we build out the Modus Design System this is one of the many files that will be continually supported and maintained. Follow the instructions below to obtain the kit and add it to your project.
+Figma is a vector graphics editor and prototyping tool, which is primarily web-based with additional offline features enabled by desktop applications for macOS and Windows. As we build out the Modus Design System this is one of the many files that will be continually supported and maintained. Follow the instructions below to obtain the kit and add it to your project.
 
 ## 1. Sign Up for Figma
 
