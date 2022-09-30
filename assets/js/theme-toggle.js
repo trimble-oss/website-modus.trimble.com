@@ -8,8 +8,7 @@ const onClick = () => {
 
 const getColorPreference = () => {
   if (localStorage.getItem(storageKey)) return localStorage.getItem(storageKey);
-  else
-    return window.matchMedia("(prefers-color-scheme: light)").matches ? "dark" : "light";
+  else return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 };
 
 const setPreference = () => {
@@ -20,9 +19,7 @@ const setPreference = () => {
 const reflectPreference = () => {
   document.firstElementChild.setAttribute("data-theme", theme.value);
 
-  document
-    .querySelector("#theme-toggle")
-    ?.setAttribute("aria-label", theme.value);
+  document.querySelector("#theme-toggle")?.setAttribute("aria-label", theme.value);
 };
 
 const theme = {
@@ -41,9 +38,7 @@ window.onload = () => {
 };
 
 // sync with system changes
-window
-  .matchMedia("(prefers-color-scheme: dark)")
-  .addEventListener("change", ({ matches: isDark }) => {
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches: isDark }) => {
   theme.value = isDark ? "dark" : "light";
   setPreference();
 });
