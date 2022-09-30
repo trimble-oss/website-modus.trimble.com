@@ -58,7 +58,7 @@ A new blue navbar variant is now available.
     </div>
   </div>
   <button class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none">
-    <i class="modus-icons text-white">more_vertical</i>
+    <i class="modus-icons notranslate text-white">more_vertical</i>
   </button>
   <button class="btn btn-lg btn-icon-only btn-text-dark bg-transparent ml-2"
          data-toggle="tooltip" data-placement="bottom" data-html="true"

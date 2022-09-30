@@ -4,7 +4,7 @@
   max-height: 20px;
 }
 
-.color-preview .color{
+.color-preview .color {
   padding-left: 2px;
   display: inline-block;
   width: 18px;
@@ -21,5 +21,5 @@
 }
 
 [data-theme="dark"] .color-preview {
-  box-shadow: 0 0 2px rgba(222,222,222,.3)!important;
+  box-shadow: 0 0 2px rgba(222, 222, 222, 0.3) !important;
 }

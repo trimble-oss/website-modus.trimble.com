@@ -46,7 +46,7 @@ The foundations section has expanded to include logo usage guidelines, writing a
 
 ### You can now search Modus
 
-We added a site-wide search with an auto-complete function and filters to make it easier for you to find information. We will also be able to track search keywords to help us understand your needs.
+We added a site-wide search with an autocomplete function and filters to make it easier for you to find information. We will also be able to track search keywords to help us understand your needs.
 
 ### Modus now includes a Figma pattern library
 

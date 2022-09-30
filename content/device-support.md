@@ -6,7 +6,7 @@ url: "/device-support/"
 start: true
 ---
 
-The Trimble suite of products spans a plethora of business sectors, technology platforms (e.g. mobile, desktop app, desktop SW, etc), front end languages and technology stacks (e.g. Angular, Java, HTML/CSS, etc), work applications, (in office, in the field, in a machine, etc) and devices (tablets, phones, laptops, desktops, and Trimble HW). In order to ensure different teams can build beautiful user experiences, this first release of Modus is targeted at the supported environments outlined below.
+The Trimble suite of products spans a plethora of business sectors, technology platforms (e.g. mobile, desktop app, desktop SW, etc), frontend languages and technology stacks (e.g. Angular, Java, HTML/CSS, etc), work applications, (in office, in the field, in a machine, etc) and devices (tablets, phones, laptops, desktops, and Trimble HW). In order to ensure different teams can build beautiful user experiences, this first release of Modus is targeted at the supported environments outlined below.
 
 ## Currently Supported
 
@@ -20,7 +20,7 @@ A desktop application runs on a computer or device locally and is built to be in
 
 ## Technology Stacks
 
-Modus currently supports developers who can leverage HTML/CSS. Stacks and technologies such as Angular Material and React are currently out of scope and will be included at a later date.
+Modus currently supports developers who can leverage HTML/CSS.
 
 ### Mobile Applications
 
