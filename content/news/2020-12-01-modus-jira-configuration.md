@@ -12,8 +12,6 @@ blog: true
 layout: blog-post
 ---
 
-
-
 **NOTE:** _As of March 30, 2022 the Modus Design System backlog has moved to GitHub. View our backlog [here](https://github.com/orgs/trimble-oss/projects/5/views/1)! (March 31, 2022)_
 
 Managing a design system in Jira involves creating a **project**, adding **stories** with a good descriptive **summary** and organization (**Epics**), and iterations (**Sprints**) that contribute towards releases (**Versions**). When stories get too complex or require more granularity and multiple people working on them, we break them down into **Subtasks**. There is no right or wrong way of setting up a Jira board: it comes down to preference and project needs.

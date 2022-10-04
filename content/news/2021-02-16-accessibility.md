@@ -30,7 +30,7 @@ Digesting the WCAG can be a long and daunting process, so here’s **five things
 
 One of the easiest ways to align your designs with WCAG is to use adequate color contrast. People with low vision can have a hard time perceiving the content in your product. [According to the World Health Organization (WHO)](https://www.who.int/en/news-room/fact-sheets/detail/blindness-and-visual-impairment), there are over 1 billion people with vision impairment.
 
-To check the color contrast in your designs, you can use [Stark](https://developer.paciellogroup.com/resources/contrastanalyser/), a plugin for Sketch, Figma, and Adobe XD. You can also use other tools, such as the [Color Contrast Analyser (CCA)](https://developer.paciellogroup.com/resources/contrastanalyser/) (available for free for Windows and MacOS) and [Contrast Checker](https://webaim.org/resources/contrastchecker/), free web-based tool from the folks at [WebAIM (Web Accessibility in Mind)](https://webaim.org/).
+To check the color contrast in your designs, you can use [Stark](https://developer.paciellogroup.com/resources/contrastanalyser/), a plugin for Sketch, Figma, and Adobe XD. You can also use other tools, such as the [Color Contrast Analyser (CCA)](https://developer.paciellogroup.com/resources/contrastanalyser/) (available for free for Windows and macOS) and [Contrast Checker](https://webaim.org/resources/contrastchecker/), free web-based tool from the folks at [WebAIM (Web Accessibility in Mind)](https://webaim.org/).
 
 For developers building web-based software, there are some browser extensions you can install for free to help you check for accessibility issues. WebAIM’s [WAVE (Web Accessibility Evaluation Tool)](https://wave.webaim.org/) and [Lighthouse](https://developers.google.com/web/tools/lighthouse) offer audits for accessibility, performance, and much more.
 
@@ -52,7 +52,7 @@ One of the most important elements in your product are forms. They allow users t
 
 3. **Add appropriate form validation and error recovery**
 
-   Provide all necessary instructions and cues of how to avoid errors. Alert the user of any validation errors. Make sure the error message is in close visual proximity to the field (usually under the field) and can be read by a screen reader. And provide informative feedback: make sure the feedback is friendly and written in a language the user can understand. Avoid jargon (“Error 22: Exception processing message 27ccue388dje89”) or messages that do not provide any clues as to how the user can fix the error (“An unexpected error has occurred”).
+   Provide all necessary instructions and cues of how to avoid errors. Alert the user of any validation errors. Make sure the error message is in close visual proximity to the field (usually under the field) and can be read by a screen reader. And provide informative feedback: make sure the feedback is friendly and written in a language the user can understand. Avoid jargon (“Error 22: Exception processing message 27cue388dje89”) or messages that do not provide any clues as to how the user can fix the error (“An unexpected error has occurred”).
 
 ### Add visual clues
 
