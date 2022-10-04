@@ -7,7 +7,13 @@ community: true
 hideToc: true
 ---
 
-Organizations widely recognize that the adoption of a design system adds substantial value to end-user product experiences by providing consistency, saving costs for design and development, and scalability. Once you recognize the efficacy of a design system and decide to adopt it, how do you implement it?
+<style>
+a:has(> img)::after {
+  display: none !important;
+}
+</style>
+
+Organizations widely recognize that the adoption of a design system adds substantial value to end user product experiences by providing consistency, saving costs for design and development, and scalability. Once you recognize the efficacy of a design system and decide to adopt it, how do you implement it?
 
 ## Planning
 

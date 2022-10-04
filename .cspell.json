@@ -193,6 +193,7 @@
     "combinator",
     "companion",
     "companytype",
+    "componentized",
     "comprehensive",
     "computacenter",
     "cond",
@@ -501,6 +502,7 @@
     "itemprop",
     "jabra",
     "Jagadeesan",
+    "Jakob's",
     "jaspreet",
     "jira",
     "jobsite",
@@ -1227,6 +1229,7 @@
     "{coverage,dist,.cache,.git,.vscode,.DS_Store,tests}/**/*",
     "*.{log,svg,snap}",
     "CODEOWNERS",
+    "community-tiger-teams.md",
     "test.*"
   ],
   "useGitignore": true

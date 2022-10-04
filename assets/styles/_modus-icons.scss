@@ -1,7 +1,6 @@
 @font-face {
   font-family: "modus-icons"; /* stylelint-disable-line */
-  src: url("https://modus.trimble.com/assets/0.5.1/fonts/modus-icons.woff2?50783e4f41ce4a8b1c9426e5c9375829") format("woff2"),
-       url("https://modus.trimble.com/assets/0.5.1/fonts/modus-icons.woff?50783e4f41ce4a8b1c9426e5c9375829") format("woff"),
+  src: url("https://modus.trimble.com/assets/0.5.1/fonts/modus-icons.woff2?50783e4f41ce4a8b1c9426e5c9375829") format("woff2"), url("https://modus.trimble.com/assets/0.5.1/fonts/modus-icons.woff?50783e4f41ce4a8b1c9426e5c9375829") format("woff");
 }
 
 .modus-icons {

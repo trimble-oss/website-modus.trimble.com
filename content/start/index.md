@@ -27,7 +27,7 @@ Rapidly build beautiful and accessible experiences. The Modus kit contains all a
 {{</ card-start >}}
 
 {{< card-start title="Developers" url="/developers/" header="developers.svg" >}}
-The front-end framework is an HTML/CSS library developed as a common, open-source platform for all of Trimble's web applications.
+The frontend framework is an HTML/CSS library developed as a common, open-source platform for all of Trimble's web applications.
 {{</ card-start >}}
 
 </div>
@@ -48,7 +48,7 @@ As the design system matures, you can expect to see an increased emphasis on mod
 
 ## Who Can Benefit from Modus
 
-Product owners, designers, and developers are the primary audience for this system. The result of this alignment is consistency for the end-user.
+Product owners, designers, and developers are the primary audience for this system. The result of this alignment is consistency for the end user.
 
 - [Designers](/designers/) have a library of components at their disposal.
 - [Designers](/designers/) have confidence that components are well tested.
@@ -67,7 +67,7 @@ With Modus Design System we are aiming to accomplish two main goals in line with
 - Establish a pattern library.
 - Establish a culture of inclusive design and development with building accessible components and patterns.
 - Set up master design files with up-to-date patterns in Sketch, Figma, and Adobe XD.
-- Refactor code and front-end architecture to support the modular approach for Bootstrap, Angular Material, and React.
+- Refactor code and frontend architecture to support the modular approach for Bootstrap, Angular Material, and React.
 
 ### 2. Establish shared processes and governance
 
