@@ -401,7 +401,7 @@ The variations help keep type styles to a minimum, so consistency is easier to a
             <br><strong>Size:</strong> 24 px
             <br><strong>Case:</strong> Title
             <br><strong>Line Height:</strong> 30 px
-            <br><strong>Use:</strong> Top level headers. Use sparingly  (ie. on Welcome screen).
+            <br><strong>Use:</strong> Top level headers. Use sparingly  (i.e. on Welcome screen).
         </tr>
         <tr>
           <td scope="row">
@@ -667,7 +667,7 @@ _Line length is not always manageable since users can set their own device width
 
 - **There must be at least one h1 on each page.**
 - If it is unnecessary or not desirable for the h1 to display on the page, hide it from visual presentation by using `.wdn-text-hidden`. It will allow it to be still available to assistive technology and bots. **Do not hide it by using “display: none”**: it will also hide it from AT.
-- Do select heading levels based on the hierarchy, not their appearance: **do not skip levels in html tag headings** (ie. `h1` to `h4`). You can skip styles of headings, as long as the html tags are not skipped and as long as hierarchy is maintained (smaller headings cannot come before larger headings).
+- Do select heading levels based on the hierarchy, not their appearance: **do not skip levels in HTML tag headings** (i.e. `h1` to `h4`). You can skip styles of headings, as long as the HTML tags are not skipped and as long as hierarchy is maintained (smaller headings cannot come before larger headings).
 - Do not bold text when a heading is needed.
 
 {{< whats-changed-table >}}

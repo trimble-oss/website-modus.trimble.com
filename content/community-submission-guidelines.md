@@ -27,7 +27,7 @@ Writing a pattern requires careful balance between generality and specificity. Y
 
 ### 1.) Draw upon principles and best practices
 
-Your pattern needs to first and foremost follow Trimble design principles and foundations (ie. color palette, typography, grid, spacing, accessibility, etc.). The design should be based on best UX practices and usability tests.
+Your pattern needs to first and foremost follow Trimble design principles and foundations (i.e. color palette, typography, grid, spacing, accessibility, etc.). The design should be based on best UX practices and usability tests.
 
 ### 2.) Focus on the user
 

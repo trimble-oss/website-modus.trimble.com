@@ -77,7 +77,7 @@ article ul:not(:first-of-type) li {
 - {{< checklist >}}Large text [24px and 18.5px bold and larger](https://www.w3.org/TR/WCAG21/#dfn-large-scale) must have a contrast ratio of 3:1{{</ checklist >}}
 - {{< checklist >}}Regular text [smaller than 24px and 18.5px bold](https://www.w3.org/TR/WCAG21/#dfn-large-scale) must have a contrast ratio of 4.5:1{{</ checklist >}}
 - {{< checklist >}}Color is not the only means of conveying info, indicating action (links) or prompting a response (error message){{</ checklist >}}
-- {{< checklist >}}Does not meet 3:1 ratio — additional visual cues (font styles, ect) are provided{{</ checklist >}}
+- {{< checklist >}}Does not meet 3:1 ratio — additional visual cues (font styles, etc) are provided{{</ checklist >}}
 - {{< checklist >}}Does meet 3:1 ratio — additional visual cues are provided on focus{{</ checklist >}}
 
 ### User Interface
@@ -131,9 +131,9 @@ article ul:not(:first-of-type) li {
 - {{< checklist >}}Tables are used only for tabular data & data cells are associated with their headers{{</ checklist >}}
 - {{< checklist >}}All code is standards-compliant{{</ checklist >}}
 - {{< checklist >}}ARIA is used appropriately to enhance accessibility when HTML is not sufficient{{</ checklist >}}
-- {{< checklist >}}Use the language attribute on the html element (`<html lang="en">`){{</ checklist >}}
+- {{< checklist >}}Use the language attribute on the HTML element (`<html lang="en">`){{</ checklist >}}
 - {{< checklist >}}The language of page content that is in a different language is identified using the lang attribute{{</ checklist >}}
-- {{< checklist >}}DOM (document object model) order must match visual order (ie. code source){{</ checklist >}}
+- {{< checklist >}}DOM (document object model) order must match visual order (i.e. code source){{</ checklist >}}
 - {{< checklist >}}Focusable components receive focus in visual order{{</ checklist >}}
 - {{< checklist >}}Keyboard focus indicator is visible.{{</ checklist >}}
 - {{< checklist >}}Provide alt tag for all images{{</ checklist >}}

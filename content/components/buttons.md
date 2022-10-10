@@ -193,7 +193,7 @@ There are two button progressions you can choose from: structural and color prog
   </tbody>
 </table>
 
-**Note:** A yellow button in the Trimble brand color can be used **only in special use cases.**.
+**Note:** A yellow button in the Trimble brand color can be used **only in special use cases**.
 
 ## Specifications
 

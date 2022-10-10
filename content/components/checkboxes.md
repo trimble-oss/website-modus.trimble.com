@@ -282,7 +282,7 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 - Checkbox labels may be capitalized in 2 ways, depending on their length and placement on the UI:
   - Use title case for short labels (fewer than 3 words) that are to the left or above a checkbox.
-  - Use sentence case for longer labels (more than 3 words) that are placed to the right of a check box, especially if the label reads like a phrase.
+  - Use sentence case for longer labels (more than 3 words) that are placed to the right of a checkbox, especially if the label reads like a phrase.
 
 **Default**
 
