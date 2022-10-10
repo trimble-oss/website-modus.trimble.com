@@ -1,4 +1,4 @@
-# Modus Styleguide
+# Modus Style Guide
 
 The Modus design system was developed as a common, open source platform for all of Trimble's web applications.
 
