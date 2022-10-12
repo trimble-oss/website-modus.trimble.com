@@ -72,19 +72,19 @@ Use the Date & Time Picker to select a date or a date range from the calendar vi
 
 #### Date Range Picker
 
-- When the user needs to filter/ search for an item (e.g. process, documents, invoice item) created within a specific time range,  provide the ability for the user search within a date range.
+- When the user needs to filter/ search for an item (e.g. process, documents, invoice item) created within a specific time range, provide the ability for the user search within a date range.
 - When the user clicks on the fields, follow the same behavior as date or time toggle.
 - When the user hovers over a date in the future or past, highlight days in between, and highlight the day user's cursor is over.
 - The date in the "From" field will always occur before the date in the "To" field.
 
-*** Invalid date range ***
+**_ Invalid date range _**
 
 - Scenario 1 - When the "From" date occurs after the "To" date: When the user inputs the date in the "From" field that occurs after the date in the "To" field, dynamically clear the "From" field on blur and the field stays focused.
-- Scenario 2 - When the "To" date occurs before the "From" date: When the user inputs the date in the "To" field that occurs before the date in the "From" field,  dynamically clear the "To" field on blur and the field stays focused.
+- Scenario 2 - When the "To" date occurs before the "From" date: When the user inputs the date in the "To" field that occurs before the date in the "From" field, dynamically clear the "To" field on blur and the field stays focused.
 
-*** Updating the date range ***
+**_ Updating the date range _**
 
-- When the user is editing an existing date range and chooses a new date in either field ("From" or "To"),  adjust the timeline to reflect the new date.
+- When the user is editing an existing date range and chooses a new date in either field ("From" or "To"), adjust the timeline to reflect the new date.
 - When the user manually enters the date in either field ("From" or "To"), display the entered date range in the calendar.
 
 ![Date Range](/img/components/date-range-picker.png)
@@ -108,7 +108,6 @@ Use the Date & Time Picker to select a date or a date range from the calendar vi
 }
 </style>
 
-
 ### Editorial
 
 - Label: keep field labels short and informative. Use title case (only capitalize the first letter of each word) and describe the information that is being requested. Place labels directly above the field and align them to the left.
@@ -121,10 +120,12 @@ Use the Date & Time Picker to select a date or a date range from the calendar vi
 - To activate the input, use the `enter`/`return` or `space` keys.
 - Use a wrapping `<nav>` element to identify the calendar popover as a navigation section to screen readers and other assistive technologies. Provide a descriptive `aria-label` (for example, "Pick a date" or "Pick a date range") for the `<nav>` to reflect its purpose.
 - Be sure to add `aria-label="Previous"` and ` aria-label="Next"` attributes to the previous/ next icons in the date picker.
-- Provide clear and informative error messaging to allow user to understand what he needs to do to rectify the problem.
+- Provide clear and informative error messaging to allow user to understand what they need to do to rectify the problem.
 
 {{< whats-changed-table >}}
-| Date | Version | Notes | Contributors |
-| ---------- | ------- | -------------- | ------------ |
-| 10/11/2022 | 1.4.0 | Added new component. | D. Zabrano, E. Gunther |
+
+| Date       | Version | Notes                | Contributors           |
+| ---------- | ------- | -------------------- | ---------------------- |
+| 10/11/2022 | 1.4.0   | Added new component. | D. Zabrano, E. Gunther |
+
 {{</ whats-changed-table >}}
