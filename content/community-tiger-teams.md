@@ -13,7 +13,13 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 
 | Team Name            | Team Members
 | ---------- | -------------------- |
+| Desktop Patterns  | Calling candidates soon! |
 | Indicators & Selected States  | Calling candidates soon! |
+| Skeletons, Placeholders & Empty States  | Calling candidates soon! |
+| Notifications, Alerts & Messages  | Calling candidates soon! |
+| Cards  | Calling candidates soon! |
+| Footers  | Calling candidates soon! |
+| High-Contrast Color Theme  | Calling candidates soon! |
 {class="table table-bordered"}
 
 ## Active
@@ -26,7 +32,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 | Side Panel | **J. de Wit**, A. Galstyan, C. Pop, C. Cuellar, C. Starbird, D. Silcock | 08/17/2022 |
 | Icon Revision & Review | **E. Gunther**, G. Assi, L. Saenz, S. Reda, S. Ortiz, S. Kaukonen, T. Manham | 07/28/2022 |
 | Accessibility | **C. Koga**, D. Bedick, A. Chammoth-Sivaraman, A. Chandroo, K. Davies, J. Gray, G. Jagadeesan, B. Kobloth, F. Kuipers, **F. Lira**, B. Mergener, **C. Oliff**, S. Paasch, A. Rodriguez, C. Rodriguez, I. Perez, S. Kaukonen, H. Sunny, S. Fahad | 04/25/2022 |
-| Help Menu Navigation | **C. Christison**, R. Pekkinen, A. Chammoth Sivaraman, A. Galstyan, C. Cuellar, D. Bedick, F. Kuipers, J. Wegerer, M. Cowley, C. Starbird, K. Vander Ploeg, M. Linja-aho, T. Hautalahti, T. Stryker | 03/09/2022 |
+| Help Menu Navigation | **C. Christison**, D. Bedick, A. Chammoth Sivaraman, M. Cowley, C. Cuellar, F. Kuipers, A. Galstyan, T. Hautalahti, M. Linja-aho, R. Pekkinen, C. Starbird, T. Stryker, K. Vander Ploeg, J. Wegerer | 03/09/2022 |
 | 3D Design Patterns | **P. Borgstein**, A. Komninos, J. Oczkowski, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, T. Sippola, E. Pilke, S. Sidhu, D. Silcock, K. Thurlow | 01/24/2022 |
 | Mobile&nbsp;Patterns | **D. Bedick**, E. Bohn, R. Stillwell, N. Cadsawan, C. Starbird, L. Saenz, E. Gunther, J. A. Provin Silva | 03/12/2021 |
 {class="table table-bordered"}
