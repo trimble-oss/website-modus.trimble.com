@@ -63,9 +63,11 @@ Some disadvantages of dark mode include:
 - Need for rethinking the design of some components, for example, the use of warning or status colors on dark background due to limited readability, especially of text in red, yellow, and green.
 
 {{< whats-changed-table >}}
+
 | Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------------------------------------------- | ------------------------------ |
 | 06/28/2022 | 1.3.0 | New guidelines added. | S. Kaukomen, A. C. Sivaraman, E. Gunther, J. de Wit, K. Phillips, M. Johns, P. Borgstein, T. Williams, U. Meza |
+
 {{</ whats-changed-table >}}
 
 

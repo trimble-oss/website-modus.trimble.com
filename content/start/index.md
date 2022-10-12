@@ -93,37 +93,3 @@ Interested in contributing?
   <a href="/community/contribution-process/" class="btn btn-lg btn-outline-primary border m-2">Submit a UI pattern</a>
   <a href="/community/contact/" class="btn btn-lg btn-outline-primary border m-2">Ask a question</a>
 </p>
-
-## Other Design Systems at Trimble
-
-There are several other design systems at Trimble that currently exist outside of Modus but may be integrated into Modus in the future, when appropriate.
-
-### Rosetta
-
-[Rosetta](https://rosetta.ctct.com/), the CTCT design system, is primarily focused on in-field experiences found in touchscreen machine displays, installation/configuration/service utilities, etc. Due to the unique environments, users, and use cases these interfaces/experiences need to be accounted for in the Trimble Modus design system independently from desktop software and web systems. By offering Rosetta to be the in-field part of Modus, similar in-field experiences (CCFS, Ag, etc.) using Trimble’s design system should benefit from CTCT's efforts through improved consistency with less independent effort.
-
-Like Modus, Rosetta includes a standardized collection of design principles, user interface components, layout templates, visual styles, and UI patterns that in-field products can be built from. This includes (but is not limited to) style documentation, design assets, code snippets, and component libraries.
-
-The Rosetta design system is documented in Storybook and hosted on CTCT servers (https://rosetta.ctct.com/). This resource is generally intended to serve developers and includes documentation for both Web (Angular) and Android components. Likewise, CTCT UX hosts a Google Site (link) for the less technical aspects of Rosetta (design principles, mission/vision/philosophy, etc.)
-
-For questions related to the Rosetta design system please contact Mathew Johns, CTCT.
-
-### Fusion
-
-[Fusion](https://drive.google.com/drive/folders/0B8L-D0MkifmSRUx6dXVCRjE5bUE) is a library for building **desktop** and **mobile** applications. At its core Fusion aims to be a portable, general purpose library of “useful things. It includes frameworks for portable applications (WPF on Windows, Xamarin Forms on mobile HTML/JS on both), modular applications (mostly MVVM patterns for tools and utilities), and common application infrastructure (help integration, crash and restart recovery, external APIs, etc.).
-
-Fusion UI has a custom look-and-feel for standard controls with two themes for Trimble applications. Its general purpose UI library includes overlays for placing WPF elements on top of native controls, navigation controller for mobile style apps, and dockable side panels. The integrated development tools help with diagnostics and performance monitoring and built-in UI testing framework. In the future, Fusion patterns will be integrated into Modus.
-
-### North Star
-
-[North Star](http://sit-northstar.e-builder.net/login) (soon to be renamed Compass) is a design system component library used for Construction Project and Program Management Software Products, e-Builder and ProjectSight. The system precedes the Trimble acquisition and was built in order to maintain consistency within the bundle package of e-Builder and ProjectSight, so that the two can complement each other visually. The applications retain a degree of autonomy because they have different target users and design accommodations in order to prioritize end user value.
-
-North Star includes style extensions built on top of code libraries. This allows benefits of library updates to be incorporated without impact to the style attribute enhancements added. The current libraries included are React and Angular.
-
-For more information about North Star, please contact Michelle Casale, Trimble PPM.
-
-### Terra
-
-[Terra](https://terradesignsystem.com) is based on Trimble branded foundations very similar to Modus. It was created to style web-based marketing pages, such as product descriptions and e-commerce pages. The scale of its components does not include complex tables and elements that are needed to create web-based products. Use Terra for marketing pages and Modus for the design of Trimble branded software products, applications, and services.
-
-For more information about Terra, please contact Sean Ortiz.

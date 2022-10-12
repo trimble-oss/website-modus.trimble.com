@@ -671,7 +671,9 @@ _Line length is not always manageable since users can set their own device width
 - Do not bold text when a heading is needed.
 
 {{< whats-changed-table >}}
+
 | Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------------------------------------------- | ------------------------------ |
 | 11/23/2020 | 1.0.0 | Added display fonts, fallback fonts, translated text, and desktop fonts. | M. Heighway, L. Cook, A. Eidam, E. Gunther, E. Bohn, N. Springer, G. Leuhof |
+
 {{</ whats-changed-table >}}

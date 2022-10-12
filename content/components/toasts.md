@@ -155,7 +155,7 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
   </div>
 </div>
 
-Toasts
+**Toasts**
 
 - Appear on the bottom, relative to the bottom edge of the browser/ device.
 - Fill as much horizontal space as needed.
@@ -164,7 +164,7 @@ Toasts
 - Can sometimes be dismissed with a close icon.
 - Cannot include links.
 
-Basic Toasts
+**Basic Toasts**
 
 <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
   Aww yeah, you read a toast.
@@ -225,7 +225,7 @@ Basic Toasts
 - Keep titles three to five words if possible.
 - For titles, use title case and capitalize prepositions of four letters or more.
 - Messages should tell the user what’s happening in friendly, non-technical language.
-- If the message requires a user to take action in order to continue or successfully complete a task, use an [alert](/components/alerts/)
+- If the message requires a user to take action in order to continue or complete a task, use an [alert](/components/alerts/)
   instead.
 - For messages, use full sentences with punctuation. Use sentence case.
 
@@ -240,7 +240,9 @@ Basic Toasts
 - Toasts should be used sparingly and only in instances that warrant removing the user from their current task. Too many toasts can be disorienting to users with cognitive issues.
 
 {{< whats-changed-table >}}
-| Date | Version | Notes | Contributors |
-| ---------- | ------- | -------------- | ------------ |
-| 11/23/2020 | 1.0.0 | Background colors changed to be accessible. | E. Bohn, L. Kause, N. Springer |
+
+| Date       | Version | Notes                                       | Contributors                   |
+| ---------- | ------- | ------------------------------------------- | ------------------------------ |
+| 11/23/2020 | 1.0.0   | Background colors changed to be accessible. | E. Bohn, L. Kause, N. Springer |
+
 {{</ whats-changed-table >}}

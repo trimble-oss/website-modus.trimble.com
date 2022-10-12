@@ -229,8 +229,10 @@ Highlight Blue
 - [Full brand color palette](https://brandfolder.com/trimble-brandfolder/trimble)
 
 {{< whats-changed-table >}}
-| Date | Version | Notes | Contributors |
-| ---------- | ------- | -------------------------------------------------- | ------------------------------ |
-| 10/19/2021 | 1.2.0 | New brand colors published.  | T. Bernard, E. Bohn, E. Gunther |
-| 11/23/2020 | 1.0.0 | Neutral progression reduced; yellow, red, and green progressions added. | M. Heighway, E. Bohn, L. Cook, A. Eidam |
+
+| Date       | Version | Notes                                                                   | Contributors                            |
+| ---------- | ------- | ----------------------------------------------------------------------- | --------------------------------------- |
+| 10/19/2021 | 1.2.0   | New brand colors published.                                             | T. Bernard, E. Bohn, E. Gunther         |
+| 11/23/2020 | 1.0.0   | Neutral progression reduced; yellow, red, and green progressions added. | M. Heighway, E. Bohn, L. Cook, A. Eidam |
+
 {{</ whats-changed-table >}}

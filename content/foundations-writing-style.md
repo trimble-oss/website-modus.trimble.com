@@ -146,14 +146,14 @@ If a compound word has become commonly used, the trend is to use closed spelling
 
 ### Currency
 
-Use the International Standard:
+Use the [International Standard](https://en.wikipedia.org/wiki/ISO_4217#Active_codes):
 
 - USD: United States dollar
 - NZD: New Zealand dollar
 - GBP: British pound
 - EUR: Euro
 
-Leave a space between the currency abbreviation and the value, eg. NZD 100.
+Leave a space between the currency abbreviation and the value, e.g. NZD 100.
 
 ### Dashes
 
