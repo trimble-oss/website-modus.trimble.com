@@ -12,7 +12,6 @@ images:
 Use the Date & Time Picker to select a date or a date range from the calendar view or by typing in the date and/or time as indicated by the placeholder text.
 
 ![Date Picker](/img/components/single-date-picker.png)
-
 <style>
 [data-theme="dark"] img[src="/img/components/single-date-picker.png"] {
  content: url(/img/components/single-date-picker-dark.png);
