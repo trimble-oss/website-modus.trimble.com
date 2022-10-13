@@ -121,8 +121,8 @@ menu:
       url: /components/checkboxes/
     - name: Content Tree
       url: /components/content-tree/
-    - name: Date & Time Picker
-      url: /components/date-time-picker/
+#    - name: Date & Time Picker
+#      url: /components/date-time-picker/
     - name: Dropdowns
       url: /components/dropdowns/
     - name: File Upload Dropzone
