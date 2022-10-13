@@ -32,7 +32,7 @@ An autocomplete dropdown allows the user to search and select one option from a 
 Autocomplete comes in three varieties:
 
 - **Basic Autocomplete**: Typical “search-as-you-type” function that matches what a person is typing, usually the beginning of a word, or a prefix, part of a word or with a word list.
-- **Autocomplete Suggestions**:  Suggestions not only predict user intentions, but they also help users construct more useful searches than they might on their own. Suggestions go beyond matching text strings by including new search items within the suggested results. It is useful during information-seeking tasks, where there isn’t a single “right answer.”
+- **Autocomplete Suggestions**: Suggestions not only predict user intentions, but they also help users construct more useful searches than they might on their own. Suggestions go beyond matching text strings by including new search items within the suggested results. It is useful during information-seeking tasks, where there isn’t a single “right answer.”
 - **Instant Results**: Sometimes users may prefer to autocomplete actual search results instead of retooling their search phrase. For example, the display of rich information right in the autocomplete instead of a list of suggestions that lead to a search results page.
 
 ![Autocomplete Types](/img/components/autocomplete-types.svg)
@@ -93,7 +93,7 @@ A chip *can* be used to clear the filled selection instead of the default “X�
 ### Editorial
 
 - When possible, add helper text below an input field to further clarify selections or validation errors.
-- Always mark **required** fields with an * .
+- Always mark **required** fields with an \* .
 - Provide input constraints, such as a character limit within a text entry box to provide guidelines and improve form efficiency.
 
 ### Accessibility

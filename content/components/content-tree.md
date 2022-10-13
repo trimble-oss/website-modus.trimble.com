@@ -240,7 +240,7 @@ If a drag operation is not allowed, the line indicating the drop location will b
 **Delete**
 
 - Only enabled when a tree item is selected.
-- When clicked, a modal opens to confirm the delete (see [Modals](/components/modals/)). It warns the user he/she is about to delete x number of items.
+- When clicked, a modal opens to confirm the delete (see [Modals](/components/modals/)). It warns the user they are about to delete x number of items.
 - Deletes everything in the tree item including its children.
 
 **Edit Tree Item Name**

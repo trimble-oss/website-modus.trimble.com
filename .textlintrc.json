@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "common-misspellings": true,
+    "terminology": {
+      "defaultTerms": false,
+      "terms": ".terms.jsonc"
+    }
+  }
+}

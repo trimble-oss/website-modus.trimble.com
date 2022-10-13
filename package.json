@@ -29,6 +29,7 @@
     "lint-links": "npx linkinator build --recurse --silent --skip modus.trimble.com",
     "lint-markdown": "npx markdownlint-cli content/**/*.md",
     "lint-spellcheck": "npx cspell \"content/**/*.md\" --no-progress",
+    "lint:textlint": "textlint **/*.*",
     "prettier": "prettier --write \"assets/**/*.*s\"",
     "serve": "hugo serve --port 4000 --disableFastRender --navigateToChanged",
     "svgo": "npx svgo --folder=\"static/img/icons\"",
@@ -49,7 +50,10 @@
     "s3-deploy": "^1.4.0",
     "stylelint": "14.13.0",
     "stylelint-config-prettier": "9.0.3",
-    "stylelint-config-standard-scss": "5.0.0"
+    "stylelint-config-standard-scss": "5.0.0",
+    "textlint-rule-common-misspellings": "^1.0.1",
+    "textlint-rule-terminology": "^3.0.4",
+    "textlint": "^12.2.2"
   },
   "hugo-bin": {
     "buildTags": "extended"

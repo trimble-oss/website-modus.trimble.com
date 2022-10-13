@@ -54,9 +54,10 @@ For smaller screens, such as on a mobile device, the sign-in panel looks as pict
 Find additional resources for branding your sign in page on the [TID v4 Documentation site](https://docs.trimblecloud.com/identity_v4.0/).
 
 {{< whats-changed-table >}}
-| Date | Version | Notes | Contributors |
-| ---------- | ------- | -------------------------------------------------- | ------------------------------ |
-| 04/25/2022 | 1.3.0 | New guidelines added and linked to TID v4 Documentation. | J. Dong |
-{{</ whats-changed-table >}}
 
+| Date       | Version | Notes                                                    | Contributors |
+| ---------- | ------- | -------------------------------------------------------- | ------------ |
+| 04/25/2022 | 1.3.0   | New guidelines added and linked to TID v4 Documentation. | J. Dong      |
+
+{{</ whats-changed-table >}}
 
