@@ -16,7 +16,8 @@ To design with the Modus XD UI Kit you should have the most recent version of Ad
 
 ## 2. Get the Library
 
-[Download the Modus Adobe XD UI Kit.](https://drive.google.com/file/d/17TFyQ9b5E9NkWidDDG8WQx_YDpKj2JjO/view?usp=sharing)
+- Light Mode - [Modus-UI-Kit-2.1.3.xd](https://drive.google.com/file/d/1TPtepPulED2QHz-ypX6gKw5DqXPcMxTI/view?usp=sharing)
+- Dark Mode - [Modus-UI-Kit-Darkmode-1.0.xd](https://drive.google.com/file/d/1LfcddB8vZFd-wOA-Kzi4YYezyCGMHnIN/view?usp=sharing)
 
 ## 3. Publish the Library
 

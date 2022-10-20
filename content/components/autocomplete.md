@@ -12,7 +12,7 @@ keywords: typeahead
 
 An autocomplete dropdown allows the user to search and select one option from a set of choices. When the user enters text into the input field, a list of suggestions are provided.
 
-![Autocomplete Example](/img/components/autocomplete-overview.svg)
+{{< img src="/img/components/autocomplete-overview.svg" class="w-100" width="790" height="283" alt="Autocomplete Example" lazyload="auto" >}}
 
 ## Usage
 

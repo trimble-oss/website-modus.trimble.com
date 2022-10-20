@@ -1,4 +1,11 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
-<p><img src="{{.Get "src" }}" class="{{.Get "class" }} img-fluid" loading="lazy" {{if .Get "width" }}
-    width="{{.Get "width" }}" {{- end -}} {{if .Get "height" }} height="{{.Get "height" }}" {{- end -}}
-    alt="{{.Get "alt" }}"></p>
+<p><img src="{{- .Get "src" -}}" class="{{.Get "class" }} img-fluid"
+    loading="{{- if .Get "lazyload" -}}auto{{ else }}lazy{{ end }}" {{if .Get "width" }} width="{{- .Get "width" -}}"
+    {{- end -}} {{if .Get "height" }} height="{{- .Get "height" -}}" {{- end -}} alt="{{- .Get "alt" -}}"></p>
+{{- if .Get "dark" -}}
+<style>
+  [data-theme="dark"] img[src="{{- .Get " src" -}}"] {
+    content: url({{- .Get "dark" -}});
+  }
+</style>
+{{- end -}}
