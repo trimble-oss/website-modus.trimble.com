@@ -125,6 +125,6 @@ Use the Date & Time Picker to select a date or a date range from the calendar vi
 
 | Date       | Version | Notes                | Contributors           |
 | ---------- | ------- | -------------------- | ---------------------- |
-| 10/11/2022 | 1.4.0   | Added new component. | D. Zabrano, E. Gunther |
+| 10/11/2022 | 1.4.0   | Added new component. | D. Zambrano, E. Gunther |
 
 {{</ whats-changed-table >}}
