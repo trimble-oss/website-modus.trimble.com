@@ -219,8 +219,8 @@ Can’t find an icon you are looking for? Follow the design principles, specific
 
 {{< whats-changed-table >}}
 
-| Date | Version | Notes | Contributors |
-| ---------- | ------- | -------------------------------------------------- | ------------------------------ |
-| 11/23/2020 | 1.0.0 | Icons and icon usage defined to be consistent. | S. Kaukonen, T. Manham, M. Heighway, S. Bali, K. Ponpandian, S. Nielsen |
+| Date       | Version | Notes                                          | Contributors                                                            |
+| ---------- | ------- | ---------------------------------------------- | ----------------------------------------------------------------------- |
+| 11/23/2020 | 1.0.0   | Icons and icon usage defined to be consistent. | S. Kaukonen, T. Manham, M. Heighway, S. Bali, K. Ponpandian, S. Nielsen |
 
 {{</ whats-changed-table >}}

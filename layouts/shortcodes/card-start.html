@@ -3,7 +3,7 @@
 <div class="col h-100 mb-4">
   <div class="card card-blog-brief border h-100 w-100 shadow-sm">
     {{- if (.Params.header) -}}
-    <div class="card-header text-center{{ with .Get "class" }} {{ . }}{{- end -}}">
+    <div class="card-header text-center{{ with .Get "class" }} {{ . -}}{{- end -}}">
       <img src="/img/icons/{{- .Get "header" | urlize -}}" class="mx-auto text-center" width="99" height="99"
         alt="{{- .Get "title" -}}">
     </div>
@@ -19,8 +19,8 @@
         </h3>
         <p>
           {{- if (.Params.url) -}}
-          <a href="{{.Get "url"}}"
-          {{- if (.Params.target) -}}target="{{.Get "target"}}"{{ end }}
+          <a href="{{- .Get "url" -}}"
+          {{- if (.Params.target) -}}target="{{- .Get "target" -}}"{{ end }}
           class="stretched-link">
         </a>
           {{- end -}}

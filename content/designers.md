@@ -13,7 +13,6 @@ hideDate: true
 <small>&nbsp;</small>
 {{</ card-start >}}
 
-
 {{< card-start title="Figma Library" url="/figma/" class="py-4 bg-figma" header="figma.svg" >}}
 <small>&nbsp;</small>
 {{</ card-start >}}
