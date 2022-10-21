@@ -16,7 +16,7 @@ File upload dropzone allows users to upload content from their computer or devic
 ![File Upload Dropzone](/img/components/file-upload-dropzone.svg)
 
 <style>
-[data-theme="dark"] img[src="/img/components/file-upload-dropzone.svg"] {
+[data-theme="dark"] img[src="/img/components/file-upload-dropzone.png"] {
  content: url(/img/components/file-upload-dropzone-dark.svg);
 }
 </style>
