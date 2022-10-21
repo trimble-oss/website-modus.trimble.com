@@ -48,6 +48,12 @@ File upload dropzone allows users to upload content from their computer or devic
 
 ![Example of Error State](/img/components/dropzone-states.png)
 
+<style>
+[data-theme="dark"] img[src="/img/components/dropzone-states.png"] {
+ content: url(/img/components/dropzone-states-dark.svg);
+}
+</style>
+
 - To help the user with motor navigation of moving a file into a precise location, the file upload dropzone should be active outside of its borders. It increases the area of the dropzone and provides a feeling of magnetic attraction preventing errors and speeding up interaction with the component.
 
 ![File Upload Dropzone Active Area](/img/components/dropzone-active-area.png)
