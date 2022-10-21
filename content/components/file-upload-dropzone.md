@@ -16,7 +16,7 @@ File upload dropzone allows users to upload content from their computer or devic
 ![File Upload Dropzone](/img/components/file-upload-dropzone.svg)
 
 <style>
-[data-theme="dark"] img[src="/img/components/file-upload-dropzone.png"] {
+[data-theme="dark"] img[src="/img/components/file-upload-dropzone.svg"] {
  content: url(/img/components/file-upload-dropzone-dark.svg);
 }
 </style>
@@ -49,7 +49,7 @@ File upload dropzone allows users to upload content from their computer or devic
 ![Example of Error State](/img/components/dropzone-states.png)
 
 <style>
-[data-theme="dark"] img[src="/img/components/dropzone-states-dark.svg"] {
+[data-theme="dark"] img[src="/img/components/dropzone-states.png"] {
  content: url(/img/components/dropzone-states-dark.svg);
 }
 </style>
