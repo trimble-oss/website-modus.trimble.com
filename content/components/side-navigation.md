@@ -94,9 +94,13 @@ There are two color options available. They can be used in the following combina
 
 {{< img src="/img/components/sidenav-states-2.svg" dark="/img/components/sidenav-states-2-dark.svg" alt="Blue & White Navigation" >}}
 
+<span class="theme-l">
+
 - White [Navbar](/components/navbar/) with blue Side Navigation.
 
 {{< img src="/img/components/sidenav-states-3.svg" alt="Blue & White Navigation" >}}
+
+</span>
 
 <!-- prettier-ignore-start -->
 |                          | White Nav Colors                                                                                                                                                     | Blue Nav Colors                                        |
