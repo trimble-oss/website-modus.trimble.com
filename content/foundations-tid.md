@@ -34,7 +34,7 @@ The sign-in page is designed to be responsive so the user experience is unified 
 
 ### Large Screens
 
-For larger screens, such as laptops and devices connected to a monitor, the sign-in panel  appears on the screen’s right side.
+For larger screens, such as laptops and devices connected to a monitor, the sign-in panel appears on the screen’s right side.
 
 ![Large TID Screen](/img/news/tid-large.svg)
 

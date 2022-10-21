@@ -62,7 +62,7 @@ There are two sizes of autocomplete input fields defined:
 - **Default:** default form inputs should have a height of 32px (8px padding) and a font size of 12px (.75rem). Used for most forms.
 - **Large:** larger variant should have a height of 48px (16px padding) and a font size of 14px (.875rem). Used for forms in in-cab applications
 
-![Autocomplete Sizing](/img/components/autocomplete-sizing.svg)
+{{< img src="/img/components/autocomplete-sizing.svg" dark="/img/components/autocomplete-sizing-dark.svg" class="w-100" alt="Autocomplete Sizing" >}}
 
 **Text input field**
 Users input text and they are provided with a list of suggestions to choose from. When the user selects an option, the choice is then displayed in the field.
