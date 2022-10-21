@@ -144,11 +144,11 @@ html[data-theme="dark"] main .navbar-brand img {
 
 Navbar background color can be white or Trimble Dark Blue.
 
-![Framework](/img/components/navbar-color-examples.svg)
+{{< img src="/img/components/navbar-color-examples.svg" dark="/img/components/navbar-color-examples-dark.svg" class="w-100" alt="Color Options" >}}
 
 ### Key Measurements
 
-![Framework](/img/components/navbar-framework.svg)
+{{< img src="/img/components/navbar-framework.svg" dark="/img/components/navbar-framework-dark.svg" class="w-100" alt="Key Measurements" >}}
 
 <!-- prettier-ignore-start -->
 | Element                                     | Width  | Height                 |
@@ -168,8 +168,8 @@ Navbar background color can be white or Trimble Dark Blue.
 - Icon areas starting from the Profile avatar are flush against each other.
 
 <table class="table table-bordered" style="width: max-content">
-      <tbody>
-        <tr>
+  <tbody>
+    <tr>
           <td>X-Small (320px) breakpoint</td>
           <td>Artboard follows 16px margins and gutters</td>
         </tr>
@@ -188,8 +188,8 @@ Navbar background color can be white or Trimble Dark Blue.
         <tr>
           <td>Profile avatar icon area</td>
           <td>16px from right; X-Small breakpoint only: 8px from right</td>
-        </tr>
-      </tbody>
+    </tr>
+  </tbody>
 </table>
 
 For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/) guidelines.
@@ -210,17 +210,17 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
   - App Switcher
   - Profile
 
-<img src="/img/components/navbar-btn-examples.svg" alt="Navbar Button Examples">
+{{< img src="/img/components/navbar-btn-examples.svg" dark="/img/components/navbar-btn-examples-dark.svg" alt="Navbar Button Examples" >}}
 
 #### Navbar Button State Examples
 
-<img src="/img/components/navbar-btn-states.svg" alt="Navbar Button State Examples">
+{{< img src="/img/components/navbar-btn-states.svg" dark="/img/components/navbar-btn-states-dark.svg" class="w-100" alt="Navbar Button State Examples" >}}
 
 #### Element Consolidation
 
 At smaller viewpoints, some header elements consolidate into the overflow menu.
 
-![Navbar Responsive Design](/img/components/navbar-responsive.svg)
+{{< img src="/img/components/navbar-responsive.svg" dark="/img/components/navbar-responsive-dark.svg" class="w-100" alt="Navbar  Responsive Design" >}}
 
 **Consolidate**
 
@@ -245,7 +245,7 @@ At smaller viewpoints, the product logo may
 
 Tooltips display on hover. Follow the [Tooltip guidelines](/components/tooltips/) for further reference.
 
-![Navbar Tooltips](/img/components/navbar-tooltips.svg)
+{{< img src="/img/components/navbar-tooltips.svg" dark="/img/components/navbar-tooltips-dark.svg" class="w-100" alt="Navbar tooltips" >}}
 
 #### Main Menu
 
@@ -366,7 +366,7 @@ Used only for "global" MyTrimble account items. Appears consistently everywhere 
 - “Skip to main content” wording explains best where people are navigating to.
   Example: `<div id="skiptocontent"><a href="#maincontent">Skip to main content</a></div>`
 
-![Skip to main content examples](/img/components/navbar-skip-content.svg)
+{{< img src="/img/components/navbar-skip-content.svg" dark="/img/components/navbar-skip-content-dark.svg" alt="Skip to main content examples" >}}
 
 Reference for more detail: [https://webaim.org/techniques/skipnav/](https://webaim.org/techniques/skipnav/)
 

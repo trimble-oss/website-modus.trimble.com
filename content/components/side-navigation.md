@@ -45,7 +45,7 @@ This expanding functionality either a.) overlays the page’s content or b.) pus
 
 - Use this type of side nav, when the content on the page is difficult to resize.
 
-<video width=300 controls autoplay=false disablepictureinpicture disableremoteplayback muted="true">
+<video width="300" controls autoplay="false" disablepictureinpicture disableremoteplayback muted="true">
     <source src="/img/components/side-nav-overlay-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
@@ -54,7 +54,7 @@ This expanding functionality either a.) overlays the page’s content or b.) pus
 
 - The expanded menu pushes the content of the page.
 
-<video width=300 controls autoplay=false disablepictureinpicture disableremoteplayback muted="true">
+<video width="300" controls autoplay="false" disablepictureinpicture disableremoteplayback muted="true">
     <source src="/img/components/side-nav-push-demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
@@ -88,15 +88,15 @@ There are two color options available. They can be used in the following combina
 
 - White [Navbar](/components/navbar/) with white Side Navigation.
 
-![White Navigation](/img/components/sidenav-states.png)
+{{< img src="/img/components/sidenav-states.svg" dark="/img/components/sidenav-states-dark.svg" alt="White Navigation" >}}
 
 - Blue [Navbar](/components/navbar/) with white Side Navigation.
 
-![Blue and White Navigation](/img/components/sidenav-states-2.png)
+{{< img src="/img/components/sidenav-states-2.svg" dark="/img/components/sidenav-states-2-dark.svg" alt="Blue & White Navigation" >}}
 
 - White [Navbar](/components/navbar/) with blue Side Navigation.
 
-![White and Blue Navigation](/img/components/sidenav-states-3.png)
+{{< img src="/img/components/sidenav-states-3.svg" alt="Blue & White Navigation" >}}
 
 <!-- prettier-ignore-start -->
 |                          | White Nav Colors                                                                                                                                                     | Blue Nav Colors                                        |
@@ -127,6 +127,12 @@ There are two color options available. They can be used in the following combina
 <!-- prettier-ignore-end -->
 
 ![Spacing](/img/components/sidenav-spacing.png)
+
+<style>
+html[data-theme="dark"] img[src="/img/components/sidenav-spacing.png"] {
+  filter: invert(1);
+}
+</style>
 
 ### Typography
 

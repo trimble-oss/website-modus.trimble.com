@@ -13,7 +13,7 @@ layout: blog-post
 ---
 
 <style>
-#whats-new {padding-top: 25px;}
+  #whats-new {padding-top: 25px;}
 </style>
 <br>
 Modus 1.0 is finally here! The official release of Modus, the Trimble Design System has much to offer for designers, engineers, and product managers. We have listened to you and made significant improvements based on your feedback.

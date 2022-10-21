@@ -12,7 +12,7 @@ keywords: typeahead
 
 An autocomplete dropdown allows the user to search and select one option from a set of choices. When the user enters text into the input field, a list of suggestions are provided.
 
-{{< img src="/img/components/autocomplete-overview.svg" class="w-100" width="790" height="283" alt="Autocomplete Example" lazyload="auto" >}}
+{{< img src="/img/components/autocomplete-overview.svg" dark="/img/components/autocomplete-overview-dark.svg" class="w-100" width="790" height="283" alt="Autocomplete Example" lazyload="auto" >}}
 
 ## Usage
 
@@ -35,7 +35,7 @@ Autocomplete comes in three varieties:
 - **Autocomplete Suggestions**: Suggestions not only predict user intentions, but they also help users construct more useful searches than they might on their own. Suggestions go beyond matching text strings by including new search items within the suggested results. It is useful during information-seeking tasks, where there isn’t a single “right answer.”
 - **Instant Results**: Sometimes users may prefer to autocomplete actual search results instead of retooling their search phrase. For example, the display of rich information right in the autocomplete instead of a list of suggestions that lead to a search results page.
 
-![Autocomplete Types](/img/components/autocomplete-types.svg)
+{{< img src="/img/components/autocomplete-types.svg" dark="/img/components/autocomplete-types-dark.svg" class="w-100" alt="Autocomplete Types" >}}
 
 ## Specifications
 
@@ -76,7 +76,7 @@ Clears all text from the input field or reverts to the default selection (or pre
 **Chip** (optional)
 A chip *can* be used to clear the filled selection instead of the default “X” clear icon but only in the larger (48px) variant. **Please use one or the other but never both.**
 
-![Autocomplete Chip](/img/components/autocomplete-clear.svg)
+{{< img src="/img/components/autocomplete-clear.svg" dark="/img/components/autocomplete-clear-dark.svg" class="w-100" alt="Autocomplete Chip" >}}
 
 ### Behaviors
 
@@ -88,7 +88,7 @@ A chip *can* be used to clear the filled selection instead of the default “X�
 - When the list exceeds 1,499 options, lazy load the content and provide pagination at the bottom of the list.
 - For validation and states follow the [Inputs](/components/inputs/#behaviors) guidelines.
 
-![No Results Example](/img/components/autocomplete-no-results.svg)
+{{< img src="/img/components/autocomplete-no-results.svg" dark="/img/components/autocomplete-no-results-dark.svg" class="w-100" alt="No Results Example" >}}
 
 ### Editorial
 
