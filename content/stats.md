@@ -6,6 +6,7 @@ url: "/stats/"
 start: true
 hideDate: true
 hideToc: true
+sitemap_exclude: true
 ---
 
 ## Modus Bootstrap
