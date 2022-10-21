@@ -25,8 +25,8 @@ hideToc: true
 </style>
 
 <!-- prettier-ignore-start -->
-| Component /<br>Pattern                                        | Style<br>Definition  | Modus<br>Bootstrap | Modus<br>React Bootstrap | Modus<br>Web Components |
-| ------------------------------------------------------------- | ----------------- | ------------------ | ------------------------ | ----------------------- |
+| Component /<br>Pattern                                        | Style<br>Definition | Modus<br>Bootstrap | Modus<br>React Bootstrap | Modus<br>Web Components |
+| ------------------------------------------------------------- | ------------------- | ------------------ | ------------------------ | ----------------------- |
 | [Accordions](/components/accordions/)                         | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Alerts](/components/alerts/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Autocomplete](/components/autocomplete/)                     | {{< ico-check >}} |                    | U/C                      | U/C                     |
@@ -37,6 +37,7 @@ hideToc: true
 | [Checkboxes](/components/checkboxes/)                         | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Chips](/components/chips/)                                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Content Tree](/components/content-tree/)                     | {{< ico-check >}} |                    | {{< ico-check >}}        | U/C                     |
+| [Date Picker](/components/date-time-picker/)                  | {{< ico-check >}} |                    |                          |                         |
 | [Dropdowns](/components/dropdowns/)                           | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [File Upload Dropzone](/components/file-upload-dropzone/)     | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Inputs](/components/inputs/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |

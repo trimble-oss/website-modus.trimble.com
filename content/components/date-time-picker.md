@@ -5,6 +5,8 @@ description: "Allows the user to select a single date, a date range, or time."
 components: true
 images:
   - "/img/components/headers/date-time-picker.png"
+aliases:
+  - "/components/date-picker/"
 ---
 
 ## Overview

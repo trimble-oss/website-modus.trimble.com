@@ -13,13 +13,7 @@ webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/compone
 
 File upload dropzone allows users to upload content from their computer or device into the application by dragging a file (or files) into a target zone.
 
-![File Upload Dropzone](/img/components/file-upload-dropzone.svg)
-
-<style>
-[data-theme="dark"] img[src="/img/components/file-upload-dropzone.svg"] {
- content: url(/img/components/file-upload-dropzone-dark.svg);
-}
-</style>
+{{< img src="/img/components/file-upload-dropzone.svg" dark="/img/components/file-upload-dropzone-dark.svg" class="w-100" alt="File Upload Dropzone" >}}
 
 ## Usage
 
@@ -46,17 +40,11 @@ File upload dropzone allows users to upload content from their computer or devic
 
 - When the user drags a file into the dropzone, provide a visual clue to show that the user has hit the target area and that the action is about to perform is valid. For example, when the user hovers over the zone while dragging a file, change the color of the box to blue (to indicate a valid action) or red (to indicate an invalid action).
 
-![Example of Error State](/img/components/dropzone-states.png)
-
-<style>
-[data-theme="dark"] img[src="/img/components/dropzone-states.png"] {
- content: url(/img/components/dropzone-states-dark.svg);
-}
-</style>
+{{< img src="/img/components/dropzone-states.svg" dark="/img/components/dropzone-states-dark.svg" class="w-100 bg-light" alt="Example of Error State" >}}
 
 - To help the user with motor navigation of moving a file into a precise location, the file upload dropzone should be active outside of its borders. It increases the area of the dropzone and provides a feeling of magnetic attraction preventing errors and speeding up interaction with the component.
 
-![File Upload Dropzone Active Area](/img/components/dropzone-active-area.png)
+{{< img src="/img/components/dropzone-active-area.png" dark="/img/components/dropzone-active-area-dark.svg" class="w-100" alt="File Upload Dropzone Active Area" >}}
 
 - Validate the file(s) to communicate to the user the effectiveness of his action.
 - If the upload might take more than a few seconds, show progress of the upload. You may use a [Progress Bar](/components/progress-bars/) to show remaining time to upload a file or files.

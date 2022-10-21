@@ -4,7 +4,7 @@
     {{- end -}} {{if .Get "height" }} height="{{- .Get "height" -}}" {{- end -}} alt="{{- .Get "alt" -}}"></p>
 {{- if .Get "dark" -}}
 <style>
-  [data-theme="dark"] img[src="{{- .Get " src" -}}"] {
+  [data-theme="dark"] img[src="{{- .Get "src" -}}"] {
     content: url({{- .Get "dark" -}});
   }
 </style>
