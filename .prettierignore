@@ -1,5 +1,6 @@
 .vscode\extensions.json
 *.css
+*.json
 *.min.js
 *.min.js.map
 *.html

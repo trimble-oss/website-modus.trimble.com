@@ -19,7 +19,7 @@ An autocomplete dropdown allows the user to search and select one option from a 
 **Use when**
 
 - Searching and results can be auto-populated.
-- Application requires predictive, suggestive or instant search results
+- Application requires predictive, suggestive or instant search results.
 - Filtering list items.
 - Single selection from a list is necessary.
 

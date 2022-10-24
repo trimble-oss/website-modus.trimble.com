@@ -10,7 +10,7 @@ reactBootstrapURL: "/foundations/color-palette/"
 
 The following colors can be used for UI elements. When using colors, make sure the color contrast is high enough to meet [accessibility standards](/foundations/accessibility/).
 
-<img src="/img/color-palette.svg" class="img-fluid w-100 bg-light text-center mx-auto mb-4" height="79" alt="Color Palette">
+{{< img src="/img/foundations/color-palette.svg" class="w-100" width="854" height="384" alt="Color Palette" lazyload="auto" >}}
 
 ## Primary Palette
 
@@ -212,7 +212,7 @@ Highlight Blue
 
 ## Text Color Use Examples
 
-<img src="/img/text-color.svg" class="img-fluid text-center mx-auto mb-4" width="670" alt="Text Color Palette" style="background:#fff">
+{{< img src="/img/foundations/text-color.svg" dark="/img/foundations/text-color-dark.svg" class="w-100" width="854" height="384" alt="Text Color Palette" style="background:#fff" lazyload="auto" >}}
 
 <!--## Download Swatch Files
 
