@@ -40,7 +40,7 @@ sitemap_exclude: true
 - <a href="https://npm-stat.com/charts.html?package=%40trimble-oss%2Fmodus-web-components&from=2021-11-01&to={{< date-today >}}">npm Download Stats</a>
 - [CDN Downloads](https://www.jsdelivr.com/package/npm/@trimble-oss/modus-web-components)
 
-<style>
+<style data-pagefind-ignore>
 a[href^="https://github.com"]::after {
   display: none !important;
   width: 0 !important;

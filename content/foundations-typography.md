@@ -661,7 +661,7 @@ The Web Content Accessibility Guidelines (WCAG 2.0) level AA requires that line 
 
 _Line length is not always manageable since users can set their own device width. It is important to try to design for ideal line lengths under normal controls and allow for the responsive design to modify beyond normal circumstances._
 
-![Typography Line Length Example](/img/guide/typography-line-length.svg)
+{{< img src="/img/foundations/typography-line-length.svg" dark="/img/foundations/typography-line-length-dark.svg" class="w-100" width="854" height="384" alt="Typography Line Length Example" lazyload="auto" >}}
 
 ### Accessibility
 
@@ -672,8 +672,8 @@ _Line length is not always manageable since users can set their own device width
 
 {{< whats-changed-table >}}
 
-| Date | Version | Notes | Contributors |
-| ---------- | ------- | -------------------------------------------------- | ------------------------------ |
-| 11/23/2020 | 1.0.0 | Added display fonts, fallback fonts, translated text, and desktop fonts. | M. Heighway, L. Cook, A. Eidam, E. Gunther, E. Bohn, N. Springer, G. Leuhof |
+| Date       | Version | Notes                                                                    | Contributors                                                                |
+| ---------- | ------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| 11/23/2020 | 1.0.0   | Added display fonts, fallback fonts, translated text, and desktop fonts. | M. Heighway, L. Cook, A. Eidam, E. Gunther, E. Bohn, N. Springer, G. Leuhof |
 
 {{</ whats-changed-table >}}

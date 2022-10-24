@@ -33,7 +33,7 @@ File upload dropzone allows users to upload content from their computer or devic
 - Description (required): explains any limitation as to the file format, number of files, and/ or the maximum size. Provide as much information to the user as you can to help prevent errors.
 - Drag Zone (required): box outlined with a dotted line signifying the target zone for dropping files.
   - Icon (optional): upload icon
-  - Text instructions (required): eg. "Drag files here or browse to upload."
+  - Text instructions (required): e.g. "Drag files here or browse to upload."
   - File picker (required): provide the user an option to open file browser (a link or a button). Make sure the drop zone is focusable and accessible with the keyboard.
 
 ### Behaviors
@@ -50,7 +50,6 @@ File upload dropzone allows users to upload content from their computer or devic
 - If the upload might take more than a few seconds, show progress of the upload. You may use a [Progress Bar](/components/progress-bars/) to show remaining time to upload a file or files.
 - In case of an error, provide clear visual clues (information about the problem that occurred and specific instructions as to how to fix it.
 
-
 ### Editorial
 
 - Label: keep the label short and concise limiting it to a few words and a single line of text.
@@ -64,7 +63,9 @@ To activate the input, use the `enter`/`return` or `space` keys.
 - Provide clear and informative error messaging to help users understand what they needs to do to rectify the problem.
 
 {{< whats-changed-table >}}
+
 | Date | Version | Notes | Contributors |
 | ---------- | ------- | -------------- | ------------ |
 | 04/14/2022 | 1.3.0 | Added new component. | L. Cook, E. Gunther, E. Nowak |
+
 {{</ whats-changed-table >}}
