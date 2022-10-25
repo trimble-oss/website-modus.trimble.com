@@ -6,7 +6,7 @@ foundations: true
 url: "/foundations/icon-definitions/"
 ---
 
-<style>
+<style data-pagefind-ignore>
 main img {
   background-color: #fff;
 }
@@ -18,7 +18,7 @@ Icons are visual symbols representing tools, functions, or content. They quickly
 
 Based on the metaphor they reflect, icons can be divided into three categories ([Jacob Nielsen](https://www.nngroup.com/articles/classifying-icons/)):
 
-{{% img src="/img/icons-samples.svg" height="100" width="300" alt="icons" lazyload="auto" %}}
+{{% img src="/img/foundations/icons-samples.svg" height="100" width="300" alt="icons" lazyload="auto" %}}
 
 **Resemblance** icons are the symbols directly depicting a physical object the icon represents. Examples include the magnifier for search, the shopping cart, or the envelope for mail. In order for these icons to be easily recognizable, they need to look like the object they intend to represent.
 
@@ -32,7 +32,7 @@ These guidelines are intended to be for only desktop, mobile, and web apps. Futu
 
 ## Icon Types
 
-Trimble uses different types of icons to portray relevant information or functionality. Icons can be interactive or informational. Interactive icons have hover and active states. Informational icons (charms) usually provide redundant images that reinforce the meaning of adjacent text in order to provide clarity to the user. They are not interactive and have no hover or active states: hovering or clicking on them does nothing. When using both interactive and informational icons in the same interface, it is best to provide a visual distinction between them, so the user knows which icons he/ she can interact with.
+Trimble uses different types of icons to portray relevant information or functionality. Icons can be interactive or informational. Interactive icons have hover and active states. Informational icons (charms) usually provide redundant images that reinforce the meaning of adjacent text in order to provide clarity to the user. They are not interactive and have no hover or active states: hovering or clicking on them does nothing. When using both interactive and informational icons in the same interface, it is best to provide a visual distinction between them, so the user knows which icons they can interact with.
 
 **Utility**: icons that represent actions a user can perform on a given screen within the interface (e.g. save, download, edit).
 
@@ -62,56 +62,22 @@ The cornerstones of consistent icons:
 - **Optical Sizing**: Icons should be designed to include overshoot for optical sizing. For example, a circle icon sized at 32 x 32 px will appear smaller next to a square icon of the same dimensions. The square icon should be sized down to 30x30 px in order to appear visually balanced with the circular icon. See grid below.
 - **Margin**: negative space around the symbol **outside** of the canvas that contributes to the tap target area. Margins around icons may vary depending on the size of the icon and the UI platform. On web and mobile platforms the size of the margin of the icon should result in a tap target no smaller than 48px (see “Mobile Tap Targeting” below).
 
-{{% img src="/img/icon-grid.svg" height="200" width="200" alt="icon grid" %}}
+{{% img src="/img/foundations/icon-grid.svg" height="200" width="200" alt="icon grid" %}}
 
 There are a few options for icon sizes that you can choose based on your product, the context in which they are used, digital platform, and/ or user preferences. Use no more than 2-3 sizes in one application.
 
-<table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-      <th>Canvas Size/ Icon Size</th>
-      <th>Stroke Weight</th>
-      <th>Note</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td scope="row">12x12 - 14x14px</td>
-      <td>1px</td>
-      <td>Used as charms in browsers, dropdowns, tablets, etc.</td>
-    </tr>
-    <tr>
-      <td scope="row">16x16px</td>
-      <td>1px</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td scope="row">24x24px</td>
-      <td>1-2px</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td scope="row"><strong>32x32px</strong></td>
-      <td><strong>2px</strong></td>
-      <td><strong>Primary icon size</strong></td>
-    </tr>
-    <tr>
-      <td scope="row">48x48px</td>
-      <td>3px</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td scope="row">64x64px</td>
-      <td>4px</td>
-      <td>Use for program logos, toolbars</td>
-    </tr>
-    <tr>
-      <td scope="row">96x96px</td>
-      <td>6px</td>
-      <td>Usually thumbnails, web charms, etc.</td>
-    </tr>
-  </tbody>
-</table>
+<!-- prettier-ignore-start -->
+| Canvas Size/ Icon Size | Stroke Weight | Note                                                 |
+| ---------------------- | ------------- | ---------------------------------------------------- |
+| 12x12 - 14x14px        | 1px           | Used as charms in browsers, dropdowns, tablets, etc. |
+| 16x16px                | 1px           |                                                      |
+| 24x24px                | 1-2px         |                                                      |
+| **32x32px**            | **2px**       | **Primary icon size**                                |
+| 48x48px                | 3px           |                                                      |
+| 64x64px                | 4px           | Use for program logos, toolbars                      |
+| 96x96px                | 6px           | Usually thumbnails, web charms, etc.                 |
+{class="table table-bordered table-thead-light"}
+<!-- prettier-ignore-end -->
 
 Other design considerations:
 

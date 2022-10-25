@@ -1,4 +1,6 @@
 // Utility Classes
+// some borrowed from Bootstrap 5
+// https://getbootstrap.com/docs/5.2/dist/css/bootstrap.css
 
 .opacity-50 {
   opacity: 0.5;
@@ -21,5 +23,5 @@
 }
 
 .pe-none {
-  pointer-events: none;
+  pointer-events: none !important;
 }
