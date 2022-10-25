@@ -3,7 +3,6 @@ title: "Data Visualization"
 layout: "single"
 description: "Data visualization helps to communicate complex quantitative information."
 foundations: true
-url: "/foundations/data-vis/"
 ---
 
 ## Overview
@@ -18,11 +17,11 @@ Use the following color sequences based on the number of data points.
 
 The sequences are designed to show a uniformity between each data point, so that no value appears more important than another. If you need to intentionally differentiate a certain data point, you may want to use a contrasting color to represent it.
 
-[Color sequences for more than 6 data points](/img/foundations/data-vis-color-sequences-full.png)
+![Color sequences for more than 6 data points](/img/foundations/data-vis-color-sequences-full.png)
 
 ## Chart Anatomy
 
-![Chart Specifications](/img/foundations/chart-specs.png)
+{{< img src="/img/foundations/chart-specs.svg" dark="/img/foundations/chart-specs-dark.svg" class="w-100" alt="Chart Specifications" >}}
 
 ### Title
 
@@ -54,7 +53,7 @@ Categorical values should be labeled in logical increments, such as consecutive 
 
 A key explains what the plotted data in a graph represents. We recommend using no more than five datasets in any given graph: any more will affect the comparative value of graphs. The key is generally located to the right of a graph. However, if the amount of items listed in the key exceeds that space or the span of the graph is limited, place the key below.
 
-![Alternate Key](/img/foundations/alternate-key.png)
+{{< img src="/img/foundations/alternate-key.svg" dark="/img/foundations/alternate-key-dark.svg" class="w-100" alt="Alternate key" >}}
 
 ### Tooltips
 
@@ -72,45 +71,39 @@ Pie and donut charts illustrate numerical proportions: individual values that ma
 
 A donut chart is functionally identical to a pie chart with the exception of a blank center and the ability to support multiple statistics at once. Donut charts provide a better data intensity ratio to standard pie charts since the blank center can be used to display additional, related data.
 
-![Pie Chart Examples](/img/foundations/data-vis-pie.png)
+{{< img src="/img/foundations/data-vis-pie.svg" dark="/img/foundations/data-vis-pie-dark.svg" class="w-100" alt="Pie Chart Examples" >}}
 
 ### Bar Charts
 
 Bar charts use rectangles or bars to represent quantitative information. Bars make it easy to identify individual values and compare them as each bar is visually distinct in position, color, and/or length. The width of the bar doesn't hold meaning but its length matches a quantitative value on its axis. The base of every bar should always start at zero, otherwise it's difficult to make relative comparisons between the values. When displaying a time-series, vertical bar graphs are always used to show change over time by placing time on the x-axis so it reads chronologically from left to right.
 
-![Simple Bar Chart Example](/img/foundations/data-vis-bar-simple.png)
+{{< img src="/img/foundations/data-vis-bar-simple.svg" dark="/img/foundations/data-vis-bar-simple-dark.svg" class="w-100" alt="Simple Bar Chart Example" >}}
 
 The height of a bar varies based on the value for that data increment. The width of a bar is calculated based on the width of the graph and the number of bars. In other words, the more bars there are in a graph the thinner the bars will be and vice versa. Use a vertical y-axis on the left and right and evenly-spaced horizontal grid lines corresponding to values represented.
 
-![Stacked Bar Chart Examples](/img/foundations/data-vis-bar-stacked.png)
+{{< img src="/img/foundations/data-vis-bar-stacked.svg" dark="/img/foundations/data-vis-bar-stacked-dark.svg" class="w-100" alt="Stacked Bar Chart Examples" >}}
 
 A grouped bar graph follows the same width and height rules for a single bar graph data set. Spacing between groups of bars is larger than bars within a group. Maintain a minimum of 4px between bars within a group to meet color contrast standards.
 
-![Grouped Bar Chart Example](/img/foundations/data-vis-bar-grouped.png)
+{{< img src="/img/foundations/data-vis-bar-grouped.svg" dark="/img/foundations/data-vis-bar-grouped-dark.svg" class="w-100" alt="Grouped Bar Chart Examples" >}}
 
 ### Line Graphs
 
 Line graphs connect individual data values together to show the continuity from one value to the next, making it a great way to display the shape of values as they change over time. When displaying time-series, always place time on the x-axis, so it reads chronologically from left to right.
 
-![Line Graph Examples](/img/foundations/data-vis-line.png)
+{{< img src="/img/foundations/data-vis-line.svg" dark="/img/foundations/data-vis-line-dark.svg" class="w-100" alt="Line Graph Examples" >}}
 
 ### Scatter Plot Graphs
 
 Scatter plots are used to determine whether there is a relationship between two sets of quantitative values by showing the linear correlation between them. Users can identify an individual value on the x-axis and see what happens to that value in relation to the y-axis. Considering the graph as a whole, users can see the strength and direction of the correlation. A strong correlation has a tighter grouping of values, whereas a weak correlation has a looser grouping. A positive correlation shows values trending upward from left to right, which is the opposite from a negative correlation, where values trend downward from left to right.
 
-![Scatter Plot Graph Example](/img/foundations/data-vis-scatter.png)
+{{< img src="/img/foundations/data-vis-scatter.svg" dark="/img/foundations/data-vis-scatter-dark.svg" class="w-100" alt="Scatter Plot Graph Examples" >}}
 
 ### Gauges
 
 Gauge graphs show the part-to-whole relationship of one value compared to its total.
 
-<style>
-img[alt="Gauge Example"] {
-  width: 200px !important;
-}
-</style>
-
-![Gauge Example](/img/foundations/data-vis-gauge.png)
+{{< img src="/img/foundations/data-vis-gauge.svg" dark="/img/foundations/data-vis-gauge-dark.svg" width="200" alt="Gauge Example" >}}
 
 [Additional Resources](https://domohelp.domo.com/hc/en-us/articles/360042935294-Best-Practices-for-Choosing-Chart-Types)
 

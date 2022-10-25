@@ -221,8 +221,8 @@ When quotation marks are at the end of a sentence:
 
 Use a semicolon:
 
-- to join independent clauses that are not joined by a comma or a conjunction (Example: No-one applied for the position; the job was too difficult).
-- in compound sentences, before transitional words or phrases (that is, for example) that introduce an independent clause (Example: The study group was aware of his position on the issue; that is, he was not going to complete the job).
-- before conjunctive adverbs (therefore, consequently, furthermore, however, otherwise) that connect independent clauses (Example: I won’t finish today; therefore, I doubt that I will finish this week).
-- between two main clauses connected by a coordinating conjunction (for, and, nor, but, or, yet, so) if the clauses are long and contain other punctuation (Example: The system contains various components, both subsystems (a through d) and individual units (1 through 10); but all components interact independently).
-- if items in a series contain commas within them (Example: Among those present were John Howard, president of Omega Paper Company; Carol Martin, president of Alpha Corporation; and Larry Stanley, president of Stanley Papers).
+- To join independent clauses that are not joined by a comma or a conjunction (Example: No-one applied for the position; the job was too difficult).
+- In compound sentences, before transitional words or phrases (that is, for example) that introduce an independent clause (Example: The study group was aware of his position on the issue; that is, he was not going to complete the job).
+- Before conjunctive adverbs (therefore, consequently, furthermore, however, otherwise) that connect independent clauses (Example: I won’t finish today; therefore, I doubt that I will finish this week).
+- Between two main clauses connected by a coordinating conjunction (for, and, nor, but, or, yet, so) if the clauses are long and contain other punctuation (Example: The system contains various components, both subsystems (a through d) and individual units (1 through 10); but all components interact independently).
+- If items in a series contain commas within them (Example: Among those present were John Howard, president of Omega Paper Company; Carol Martin, president of Alpha Corporation; and Larry Stanley, president of Stanley Papers).
