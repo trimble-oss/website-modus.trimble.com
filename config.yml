@@ -63,42 +63,45 @@ menu:
       weight: 4
 
   foundations:
-    - name: Logo Usage
-      url: /foundations/logo-usage/
+    - name: Accessibility
+      url: /foundations/accessibility/
       weight: 1
-    - name: Writing Style
-      url: /foundations/writing-style/
-      weight: 2
-    - name: Voice & Tone
-      url: /foundations/voice-and-tone/
-      weight: 3
-    - name: Typography
-      url: /foundations/typography/
-      weight: 4
     - name: Color Palette
       url: /foundations/color-palette/
+      weight: 2
+    - name: Dark Mode
+      url: /foundations/dark-mode/
+      weight: 3
+    - name: Data Visualization
+      url: /foundations/data-vis/
+      weight: 4
+    - name: Grid & Spacing
+      url: /foundations/grid-and-spacing/
       weight: 5
     - name: Icon Definitions
       url: /foundations/icon-definitions/
       weight: 6
-    - name: Accessibility
-      url: /foundations/accessibility/
+    - name: Logo Usage
+      url: /foundations/logo-usage/
       weight: 7
-    - name: Grid & Spacing
-      url: /foundations/grid-and-spacing/
+    - name: Modus 3D
+      url: /foundations/modus-3d/
       weight: 8
     - name: Shadows & Depth
       url: /foundations/shadows-and-depth/
       weight: 9
-    - name: Data Visualization
-      url: /foundations/data-vis/
+    - name: Voice & Tone
+      url: /foundations/voice-and-tone/
       weight: 10
+    - name: Writing Style
+      url: /foundations/writing-style/
+      weight: 11
     - name: Trimble ID (TID)
       url: /foundations/tid/
-      weight: 11
-    - name: Dark Mode
-      url: /foundations/dark-mode/
       weight: 12
+    - name: Typography
+      url: /foundations/typography/
+      weight: 13
 
   components:
     - name: Accordions
