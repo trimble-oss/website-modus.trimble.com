@@ -42,7 +42,7 @@ menu:
       url: "/foundations/"
       weight: 2
     - name: Components
-      url: "/components/"
+      url: "/components/web/"
       weight: 3
     - Name: Community
       url: "/community/"
@@ -65,105 +65,134 @@ menu:
   foundations:
     - name: Accessibility
       url: /foundations/accessibility/
-      weight: 1
     - name: Color Palette
       url: /foundations/color-palette/
-      weight: 2
     - name: Dark Mode
       url: /foundations/dark-mode/
-      weight: 3
     - name: Data Visualization
       url: /foundations/data-vis/
-      weight: 4
     - name: Grid & Spacing
       url: /foundations/grid-and-spacing/
-      weight: 5
     - name: Icon Definitions
       url: /foundations/icon-definitions/
-      weight: 6
     - name: Logo Usage
       url: /foundations/logo-usage/
-      weight: 7
     - name: Modus 3D
       url: /foundations/modus-3d/
-      weight: 8
     - name: Shadows & Depth
       url: /foundations/shadows-and-depth/
-      weight: 9
-    - name: Voice & Tone
-      url: /foundations/voice-and-tone/
-      weight: 10
-    - name: Writing Style
-      url: /foundations/writing-style/
-      weight: 11
     - name: Trimble ID (TID)
       url: /foundations/tid/
-      weight: 12
     - name: Typography
       url: /foundations/typography/
-      weight: 13
+    - name: Voice & Tone
+      url: /foundations/voice-and-tone/
+    - name: Writing Style
+      url: /foundations/writing-style/
 
-  components:
+  components_web:
     - name: Accordions
-      url: /components/accordions/
+      url: /components/web/accordions/
     - name: Alerts
-      url: /components/alerts/
+      url: /components/web/alerts/
     - name: Autocomplete
-      url: /components/autocomplete/
+      url: /components/web/autocomplete/
     - name: Badges
-      url: /components/badges/
+      url: /components/web/badges/
     - name: Breadcrumbs
-      url: /components/breadcrumbs/
+      url: /components/web/breadcrumbs/
     - name: Buttons
-      url: /components/buttons/
+      url: /components/web/buttons/
     - name: Cards
-      url: /components/cards/
+      url: /components/web/cards/
     - name: Chips
-      url: /components/chips/
+      url: /components/web/chips/
     - name: Checkboxes
-      url: /components/checkboxes/
+      url: /components/web/checkboxes/
     - name: Content Tree
-      url: /components/content-tree/
+      url: /components/web/content-tree/
     - name: Date & Time Picker
-      url: /components/date-time-picker/
+      url: /components/web/date-time-picker/
     - name: Dropdowns
-      url: /components/dropdowns/
+      url: /components/web/dropdowns/
     - name: File Upload Dropzone
-      url: /components/file-upload-dropzone/
+      url: /components/web/file-upload-dropzone/
     - name: Inputs
-      url: /components/inputs/
+      url: /components/web/inputs/
     - name: Lists
-      url: /components/lists/
+      url: /components/web/lists/
     - name: Messages
-      url: /components/messages/
+      url: /components/web/messages/
     - name: Modals
-      url: /components/modals/
+      url: /components/web/modals/
     - name: Navbar
-      url: /components/navbar/
+      url: /components/web/navbar/
     - name: Pagination
-      url: /components/pagination/
+      url: /components/web/pagination/
     - name: Progress Bars
-      url: /components/progress-bars/
+      url: /components/web/progress-bars/
     - name: Radio Buttons
-      url: /components/radio-buttons/
+      url: /components/web/radio-buttons/
     - name: Side Navigation
-      url: /components/side-navigation/
+      url: /components/web/side-navigation/
     - name: Sliders
-      url: /components/sliders/
+      url: /components/web/sliders/
     - name: Spinners
-      url: /components/spinners/
+      url: /components/web/spinners/
     - name: Switches
-      url: /components/switches/
+      url: /components/web/switches/
     - name: Tables
-      url: /components/tables/
+      url: /components/web/tables/
     - name: Tabs
-      url: /components/tabs/
+      url: /components/web/tabs/
     - name: Toasts
-      url: /components/toasts/
+      url: /components/web/toasts/
     - name: Tooltips
-      url: /components/tooltips/
+      url: /components/web/tooltips/
     - name: Transactional Emails
-      url: /components/transactional-emails/
+      url: /components/web/transactional-emails/
+
+  components_infield:
+    - name: Accordions
+      url: /components/in-field/accordions/
+    - name: Alarms
+      url: /components/in-field/alarms/
+    - name: Badges
+      url: /components/in-field/badges/
+    - name: Buttons
+      url: /components/in-field/buttons/
+    - name: Cards
+      url: /components/in-field/cards/
+    - name: Checkboxes
+      url: /components/in-field/checkboxes/
+    - name: Chips
+      url: /components/in-field/chips/
+    - name: Dropdowns
+      url: /components/in-field/dropdowns/
+    - name: Inputs
+      url: /components/in-field/inputs/
+    - name: Lists
+      url: /components/in-field/lists/
+    - name: Messages
+      url: /components/in-field/messages/
+    - name: Modals
+      url: /components/in-field/modals/
+    - name: Navbar
+      url: /components/in-field/navbar/
+    - name: Notifications
+      url: /components/in-field/notifications/
+    - name: Prompts
+      url: /components/in-field/prompts/
+    - name: Radio Buttons
+      url: /components/in-field/radio-buttons/
+    - name: Segmented Controls
+      url: /components/in-field/segmented-controls/
+    - name: Sliders
+      url: /components/in-field/sliders/
+    - name: Switches
+      url: /components/in-field/switches/
+    - name: Tabs
+      url: /components/in-field/tabs/
 
   resources:
     - name: "News & Articles"

@@ -2,6 +2,7 @@
 title: "Foundations"
 description: "Overview of principles that define the Modus style and the Trimble brand."
 foundations: true
+layout: single
 ---
 
 ## Brand Guidelines

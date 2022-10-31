@@ -3,7 +3,6 @@ title: "Icon Definitions"
 layout: "single"
 description: "Trimble guidelines of how to use and design icons."
 foundations: true
-url: "/foundations/icon-definitions/"
 ---
 
 <style data-pagefind-ignore>

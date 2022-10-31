@@ -3,7 +3,6 @@ title: "Shadows & Depth"
 layout: "single"
 description: "Shadows are used to focus the user’s attention and define spatial relationships."
 foundations: true
-url: "/foundations/shadows-and-depth/"
 bootstrapURL: "/foundations/shadows-and-depth/"
 reactBootstrapURL: "/foundations/shadows-and-depth/"
 ---

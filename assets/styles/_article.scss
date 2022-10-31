@@ -21,7 +21,7 @@ h5:hover .header-link {
 
 // external links have an icon
 .menu-right a[href^="http"]::after,
-article a:not(.stretched-link)[href^="http"]::after {
+article a:not(.stretched-link)[href^="https"]::after {
   content: "";
   width: 11px;
   height: 11px;
@@ -103,4 +103,9 @@ a.header-link::after {
 
 kbd {
   opacity: 0.7;
+}
+
+article .nav-tabs .nav-link::after {
+  background-image: none;
+  width: 0;
 }
