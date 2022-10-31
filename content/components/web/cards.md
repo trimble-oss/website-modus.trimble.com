@@ -104,7 +104,7 @@ A Card may contain any of the following elements (with the minimum of one), but 
 
 **Action**
 
-- Follow the editorial guidelines for [Buttons](/components/buttons/), [Chips](/components/chips/), etc. when using those elements.
+- Follow the editorial guidelines for [Buttons](/components/web/buttons/), [Chips](/components/web/chips/), etc. when using those elements.
 
 **Metadata**
 

@@ -27,11 +27,11 @@ Dropdowns (also known as a dropdown menu, drop menu, pull-down list, picklist) i
 
 **Don’t use when**
 
-- Providing only two options. Instead, use a [Radio](/components/radio-buttons/) Group or a [Switch](/components/switches/).
+- Providing only two options. Instead, use a [Radio](/components/web/radio-buttons/) Group or a [Switch](/components/web/switches/).
 
 ## Specifications
 
-- Dropdowns can be activated by clicking a button, an icon, or a header. See [Inputs](/components/inputs/) for dropdowns in form input fields.
+- Dropdowns can be activated by clicking a button, an icon, or a header. See [Inputs](/components/web/inputs/) for dropdowns in form input fields.
 - Dropdown functionality is indicated by a small trailing arrow or an ellipsis (not applicable to icon dropdowns).
 - Within a dropdown, you can separate groups of related menu items with a divider.
 

@@ -9,6 +9,8 @@ images:
 bootstrapURL: "/components/pagination/"
 reactBootstrapURL: "/components/pagination/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-pagination--default"
+aliases:
+  - "/components/pagination/"
 ---
 
 ## Overview

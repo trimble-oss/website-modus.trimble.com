@@ -134,9 +134,9 @@ Switches are selection controls that yield instantaneous actions. They have an o
 
 **Don't use when**
 
-- Requiring user action consent, such as accepting terms and conditions. Instead, use a [Checkbox](/components/checkboxes/).
-- Requesting multiple choices from a group of options. Instead, use a [Checkbox](/components/checkboxes/) group.
-- Users need to select one item from a list of options. Instead, use a [Radio Button](/components/radio-buttons/).
+- Requiring user action consent, such as accepting terms and conditions. Instead, use a [Checkbox](/components/web/checkboxes/).
+- Requesting multiple choices from a group of options. Instead, use a [Checkbox](/components/web/checkboxes/) group.
+- Users need to select one item from a list of options. Instead, use a [Radio Button](/components/web/radio-buttons/).
 
 <table class="table table-bordered">
   <tbody>

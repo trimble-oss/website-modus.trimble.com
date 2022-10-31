@@ -9,6 +9,8 @@ images:
 bootstrapURL: "/components/lists/"
 reactBootstrapURL: "/components/lists/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-list--default"
+aliases:
+  - "/components/lists/"
 ---
 
 <style>
@@ -44,7 +46,7 @@ Lists are used to present information in well-formed and semantic way. The most 
 
 **Don't use when**
 
-- Displaying tabular data. Instead, use a [Table](/components/tables/).
+- Displaying tabular data. Instead, use a [Table](/components/web/tables/).
 
 ## Specifications
 
@@ -173,7 +175,7 @@ Lists are available in three sizes: default, condensed (small) and large.
 
 **Length**
 
-- Generally, lists should be used to present simple pieces of information. For more complex sets of data, consider using a [Table](/components/tables/).
+- Generally, lists should be used to present simple pieces of information. For more complex sets of data, consider using a [Table](/components/web/tables/).
 
 **Order**
 

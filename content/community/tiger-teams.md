@@ -11,20 +11,23 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 
 ## Upcoming
 
-| Team Name            | Team Members
-| ---------- | -------------------- |
-| Indicators & Selected States  | Calling candidates soon! |
-| Skeletons, Placeholders & Empty States  | Calling candidates soon! |
-| Notifications, Alerts & Messages  | Calling candidates soon! |
-| Cards  | Calling candidates soon! |
-| Footers  | Calling candidates soon! |
-| High-Contrast Color Theme  | Calling candidates soon! |
+<!-- prettier-ignore-start -->
+| Team Name                              | Team Members             |
+| -------------------------------------- | ------------------------ |
+| Indicators & Selected States           | Calling candidates soon! |
+| Skeletons, Placeholders & Empty States | Calling candidates soon! |
+| Notifications, Alerts & Messages       | Calling candidates soon! |
+| Cards                                  | Calling candidates soon! |
+| Footers                                | Calling candidates soon! |
+| High-Contrast Color Theme              | Calling candidates soon! |
 {class="table table-bordered"}
+<!-- prettier-ignore-end -->
 
 ## Active
 
-| Team Name            | Team Members | Start Date |
-| ---------- | -------------------- | ----------- |
+<!-- prettier-ignore-start -->
+| Team Name                      | Team Members               | Start Date  |
+| ------------------------------ | -------------------------- | ----------- |
 | Desktop Patterns  | **J. Kerbs**, A. Bikic, P. Borgstein, K. Davies, L. Kause, C. Krieg, T. Sippola | 10/19/2022 |
 | Layout Tiger Team | **N. Cadsawan**, C. Cuellar, R. Henness, Q. Le, T. Manham, M. Nawaz, Purushothaman G., C. Oliff  | 08/25/2022 |
 | Microinteractions & Animations | **T. Manham**, B. Choy, J. Jyan, S. Kaukonen, T. Ortiz, C.Pop, D. Zambrano | 08/25/2022 |
@@ -36,14 +39,16 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 | 3D Design Patterns | **P. Borgstein**, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, A. Komninos, J. Oczkowski, E. Pilke, S. Sidhu, D. Silcock, T. Sippola, K. Thurlow | 01/24/2022 |
 | Mobile&nbsp;Patterns | **D. Bedick**, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell | 03/12/2021 |
 {class="table table-bordered"}
+<!-- prettier-ignore-end -->
 
 ## Completed
 
-| Team Name            | Team Members             | Status |
-| ---------- | -------------------- | --------------- |
+<!-- prettier-ignore-start -->
+| Team Name                      | Team Members               | Start Date  |
+| ------------------------------ | -------------------------- | ----------- |
 | Dark Mode | **S. Kaukonen**, P. Borgstein, E. Gunther, M. Johns, U. Meza, K. Phillips, A. C. Sivaraman, T. Williams, J. de Wit  | In Production  |
-| Icon Implementation  | **S. Kaukonen**, E. Deleon, E. Gunther, C. Krieg, T. Manham, S. Ortiz, A. Shchegoleva, N. Vasudevan | In Production |
-| Side Navigation      | **J. Wittmeyer**, N. Cadsawan, E. Deleon, E. Gunther, P. Karukkuvel, T. Manham, L. Meskanen-Kundu, C. D. Savio Lazaro, S. Taylor, A. Tucker, J. de Wit  | In Production |
+| Icon Implementation | **S. Kaukonen**, E. Deleon, E. Gunther, C. Krieg, T. Manham, S. Ortiz, A. Shchegoleva, N. Vasudevan | In Production |
+| Side Navigation | **J. Wittmeyer**, N. Cadsawan, E. Deleon, E. Gunther, P. Karukkuvel, T. Manham, L. Meskanen-Kundu, C. D. Savio Lazaro, S. Taylor, A. Tucker, J. de Wit  | In Production |
 | Tables  | **G. Leuhof**, D. Donnell, H. Keller, S. Lucey, T. Manham, T. Ortiz, G. Piltzer, K. Tran, Z. Tran Do, S. Williams  | In Production |
 | Header/ Top Nav  | **S. Williams**, N. Cadsawan, C. Christison, J. Dong, E. Gunther, S. Taylor, K. Tran | Complete |
 | Email Templates | **Z. Kulpa**, T. Barnard, J. Dong, T. Saunders | Complete |
@@ -51,6 +56,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 | Icon Definitions | **S. Kaukonen**, S. Bali, M. Heighway, T. Manham, E. Nowak | Complete |
 | Typography | **L. Cook**, E. Bohn, A. Eidam, E. Gunther, M. Heighway, G.Leuhof, N. Springer | Complete |
 {class="table table-bordered"}
+<!-- prettier-ignore-end -->
 
 ![Tiger Team Process](/img/guide/tiger-team-process.png)
 

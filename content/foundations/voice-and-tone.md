@@ -46,7 +46,7 @@ Our voice projects _empathy, confidence and pride_.
   </tr>
 </table>
 
-<br>For examples and more information visit https://brandfolder.com/trimble-brandfolder/trimble.
+For examples and more information visit <https://brandfolder.com/trimble-brandfolder/trimble>.
 
 ## Tone
 

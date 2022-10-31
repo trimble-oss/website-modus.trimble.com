@@ -89,7 +89,7 @@ A chip *can* be used to clear the filled selection instead of the default “X�
 - If the user enters a value that doesn’t exist in the dropdown, notify the user that the value entered returned no results. The message should read: "No results found." Additionally, if possible display tip, "Check spelling or try a different keyword."
 - If the label is longer than the width of the dropdown menu, then expand the menu to fit the longest option. If the menu has a fixed width then truncate the label when the max width is exceeded.
 - When the list exceeds 1,499 options, lazy load the content and provide pagination at the bottom of the list.
-- For validation and states follow the [Inputs](/components/inputs/#behaviors) guidelines.
+- For validation and states follow the [Inputs](/components/web/inputs/#behaviors) guidelines.
 
 {{< img src="/img/components/autocomplete-no-results.svg" dark="/img/components/autocomplete-no-results-dark.svg" class="w-100" alt="No Results Example" >}}
 

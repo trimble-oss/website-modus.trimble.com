@@ -152,7 +152,7 @@ _Examples_
   - Trash Can icon located in an action / toolbar.
 - **Interactive Elements:**
   - [Buttons](/components/web/buttons/): Use an icon button in lieu of a regular button, whenever possible. If a label on a button is required, use a text button.
-  - [Chips](/components/web/chips/): Chips must be actionable with either active/ inactive states or a “close” (x) icon. If no action is required, use a [badge](/components/web/badge/).
+  - [Chips](/components/web/chips/): Chips must be actionable with either active/ inactive states or a “close” (x) icon. If no action is required, use a [badge](/components/web/badges/).
 
 ## Editorial
 

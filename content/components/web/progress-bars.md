@@ -7,8 +7,8 @@ componentsWeb: true
 images:
   - "/img/components/headers/progress-bars.png"
 aliases:
-  - "/progress.html"
   - "/components/progress/"
+  - "/components/progress-bars/"
 bootstrapURL: "/components/progress-bars/"
 reactBootstrapURL: "/components/progress-bars/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-progress-bar--default"
