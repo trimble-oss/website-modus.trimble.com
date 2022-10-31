@@ -11,6 +11,7 @@ reactBootstrapURL: "/components/badges/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-badge--default"
 aliases:
   - "/components/badges/"
+  - "/components/web/badge/"
 ---
 
 ## Overview
@@ -27,7 +28,7 @@ Badges notify the user of a status, for example that there are new or unread mes
 **Don't use when**
 
 - Displaying long strings of text.
-- An interactive element is needed, such as a [Button](/components/buttons/) or [Chip](/components/chips/).
+- An interactive element is needed, such as a [Button](/components/web/buttons/) or [Chip](/components/web/chips/).
 
 ## Types
 
@@ -35,7 +36,7 @@ There are three types of badges: default, text, and counter badges. They are ava
 
 ### Default Badges
 
-Used when more emphasis is needed. **Default badges can look like [Buttons](/components/buttons/). Avoid using button colors to make sure the user can tell the difference.**
+Used when more emphasis is needed. **Default badges can look like [Buttons](/components/web/buttons/). Avoid using button colors to make sure the user can tell the difference.**
 
 <div class="guide-example-block">
   <div class="guide-sample">

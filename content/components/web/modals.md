@@ -10,6 +10,8 @@ keywords: "modal, dialog"
 bootstrapURL: "/components/modals/"
 reactBootstrapURL: "/components/modals/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-modal--default"
+aliases:
+  - "/components/modals/"
 ---
 
 ## Overview

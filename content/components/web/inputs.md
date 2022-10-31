@@ -17,7 +17,7 @@ webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/user-in
 
 ## Overview
 
-Input fields or text fields allow users to enter text into a UI. They typically appear in forms, often with [checkboxes](/components/checkboxes/), [radio buttons](/components/radio-buttons/), and [buttons](/components/buttons/). The user input is most often sent to a server for processing.
+Input fields or text fields allow users to enter text into a UI. They typically appear in forms, often with [checkboxes](/components/web/checkboxes/), [radio buttons](/components/web/radio-buttons/), and [buttons](/components/buttons/). The user input is most often sent to a server for processing.
 
 <form>
   <div class="form-group">
@@ -182,7 +182,7 @@ There are two sizes of input fields defined:
 - Always mark **required** fields with an \* .
 - Provide input constraints, such as a character limit within a text entry box, to provide users with guidelines and improve form efficiency.
 - Use multi-step forms when necessary by breaking up inputs into distinct categories.
-- Provide clear and obvious action buttons. Form submission [buttons](/components/buttons/) should be primary.
+- Provide clear and obvious action buttons. Form submission [buttons](/components/web/buttons/) should be primary.
 
 ### Accessibility
 

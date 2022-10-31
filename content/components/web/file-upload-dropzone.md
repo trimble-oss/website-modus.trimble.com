@@ -48,7 +48,7 @@ File upload dropzone allows users to upload content from their computer or devic
 {{< img src="/img/components/dropzone-active-area.png" dark="/img/components/dropzone-active-area-dark.svg" class="w-100" alt="File Upload Dropzone Active Area" >}}
 
 - Validate the file(s) to communicate to the user the effectiveness of his action.
-- If the upload might take more than a few seconds, show progress of the upload. You may use a [Progress Bar](/components/progress-bars/) to show remaining time to upload a file or files.
+- If the upload might take more than a few seconds, show progress of the upload. You may use a [Progress Bar](/components/web/progress-bars/) to show remaining time to upload a file or files.
 - In case of an error, provide clear visual clues (information about the problem that occurred and specific instructions as to how to fix it.
 
 ### Editorial

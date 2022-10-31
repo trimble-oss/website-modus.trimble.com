@@ -65,7 +65,9 @@ Sliders select a numeric value or range of values by moving a handle or set of h
 - When using a multi-thumb slider, each thumb is in the page tab sequence and has the same keyboard interaction as a single-thumb slider.
 
 {{< whats-changed-table >}}
-| Date | Version | Notes | Contributors |
-| ---------- | ------- | -------------- | ------------ |
-| 11/23/2020 | 1.0.0 | Range bar color adjusted to be accessible. | E. Bohn, L. Kause, N. Springer |
+
+| Date       | Version | Notes                                      | Contributors                   |
+| ---------- | ------- | ------------------------------------------ | ------------------------------ |
+| 11/23/2020 | 1.0.0   | Range bar color adjusted to be accessible. | E. Bohn, L. Kause, N. Springer |
+
 {{</ whats-changed-table >}}

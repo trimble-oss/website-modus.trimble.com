@@ -9,6 +9,8 @@ componentsWeb: true
 bootstrapURL: "/components/navbars/"
 reactBootstrapURL: "/components/navbar/"
 webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-navbar--default
+aliases:
+  - "/components/navbar/"
 ---
 
 ## Overview
