@@ -14,7 +14,7 @@ start: true
 
 <div class="row">
 
-{{< card-start title="Modus Bootstrap" url="https://modus-bootstrap.trimble.com/" target="_blank" header="bootstrap.svg" class="bg-purple text-white py-4" >}}
+{{< card-start title="Modus Bootstrap" url="https://modus-bootstrap.trimble.com/" target="_blank" header="bootstrap.svg" class="bg-primary text-white py-4" >}}
 
 {{</ card-start >}}
 

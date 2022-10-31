@@ -3,7 +3,6 @@ title: "Typography"
 layout: "single"
 description: "The purpose of typography is to make content legible, readable, and visually appealing."
 foundations: true
-url: "/foundations/typography/"
 bootstrapURL: "/foundations/typography/"
 reactBootstrapURL: "/foundations/typography/"
 ---

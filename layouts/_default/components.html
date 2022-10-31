@@ -155,8 +155,12 @@
 
     <div class="row list text-dark" id="listjs-list">
 
-      {{ range first 30 (where .Site.RegularPages ".Section" "components") }}
+      {{ if .Params.componentsWeb }}
+      {{ range first 96 (where .Site.RegularPages ".Section" "components") }}
+      {{ if not (in .Params.tags "in-field" ) }}
       {{- partial "card-component.html" . -}}
+      {{- end }}
+      {{- end }}
       {{- end }}
 
     </div>

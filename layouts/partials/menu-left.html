@@ -46,8 +46,18 @@
       {{- end -}}
       {{- end -}}
 
-      {{- if .Params.components -}}
-      {{ range .Site.Menus.components }}
+      {{- if .Params.componentsWeb -}}
+      {{ range .Site.Menus.components_web }}
+      {{- if not .Params.hidden -}}
+      <li><a class="nav-link" href="{{ .URL }}">
+          {{- .Name -}}
+        </a></li>
+      {{- end }}
+      {{- end }}
+      {{- end -}}
+
+      {{ if in .Params.tags "in-field" }}
+      {{ range .Site.Menus.components_infield }}
       {{- if not .Params.hidden -}}
       <li><a class="nav-link" href="{{ .URL }}">
           {{- .Name -}}

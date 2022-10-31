@@ -1229,7 +1229,7 @@
     "{coverage,dist,.cache,.git,.vscode,.DS_Store,tests}/**/*",
     "*.{log,svg,snap}",
     "CODEOWNERS",
-    "community-tiger-teams.md",
+    "tiger-teams.md",
     "test.*"
   ],
   "useGitignore": true

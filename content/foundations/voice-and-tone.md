@@ -3,7 +3,6 @@ title: "Voice & Tone"
 layout: "single"
 description: "Brand voice is what you say. Brand tone is how you say it."
 foundations: true
-url: "/foundations/voice-and-tone/"
 ---
 
 ## Voice

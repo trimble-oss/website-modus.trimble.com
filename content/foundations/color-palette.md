@@ -3,7 +3,6 @@ title: "Color Palette"
 layout: "single"
 description: "The Modus palette is based on the Trimble brand colors."
 foundations: true
-url: "/foundations/color-palette/"
 bootstrapURL: "/foundations/color-palette/"
 reactBootstrapURL: "/foundations/color-palette/"
 ---

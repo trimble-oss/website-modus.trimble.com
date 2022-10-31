@@ -3,7 +3,6 @@ title: "Grid & Spacing"
 layout: "single"
 description: "Responsive grid and spacing guidelines create layout flexibility and consistency."
 foundations: true
-url: "/foundations/grid-and-spacing/"
 bootstrapURL: "/foundations/grid-and-spacing/"
 reactBootstrapURL: "/foundations/grid-and-spacing/"
 ---
