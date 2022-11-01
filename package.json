@@ -19,8 +19,8 @@
   "scripts": {
     "build": "npm-run-all lint-css && npx hugo",
     "build-dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run lint-html",
-    "deploy": "cross-env s3-deploy './build/**/*.{css,html,ico,jpg,js,json,webmanifest,map,png,svg,xml}' --cwd './build/' --region us-east-1 --bucket prod-styles-trimblemaps --cache 31557600",
-    "deploy:dev": "cross-env s3-deploy './build/**/*.{css,html,ico,jpg,js,json,webmanifest,map,png,svg,xml}' --cwd './build/' --region us-east-1 --bucket dev-styles-trimblemaps --cache 0",
+    "deploy": "cross-env s3-deploy './build/**/*.{css,html,ico,jpg,js,json,webmanifest,map,png,svg,txt,xml}' --cwd './build/' --region us-east-1 --bucket prod-styles-trimblemaps --cache 31557600",
+    "deploy:dev": "cross-env s3-deploy './build/**/*.{css,html,ico,jpg,js,json,webmanifest,map,png,svg,txt,xml}' --cwd './build/' --region us-east-1 --bucket dev-styles-trimblemaps --cache 0",
     "imagemin": "npx imagemin-cli static/img/components/headers/*.png --out-dir=static/img/components/headers/",
     "lint": "npm-run-all prettier build lint-html",
     "lint-css": "stylelint \"assets/styles/*.scss\" --fix",
@@ -51,9 +51,9 @@
     "stylelint": "14.14.0",
     "stylelint-config-prettier": "9.0.3",
     "stylelint-config-standard-scss": "6.0.0",
+    "textlint": "^12.2.2",
     "textlint-rule-common-misspellings": "^1.0.1",
-    "textlint-rule-terminology": "^3.0.4",
-    "textlint": "^12.2.2"
+    "textlint-rule-terminology": "^3.0.4"
   },
   "hugo-bin": {
     "buildTags": "extended"

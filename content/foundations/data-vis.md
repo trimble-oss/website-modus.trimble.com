@@ -13,11 +13,11 @@ Graphs, charts, and gauges express data visually to reveal patterns and trends t
 
 Use the following color sequences based on the number of data points.
 
-![Color Sequences for Data Visualization](/img/foundations/data-vis-color-sequences.png)
+{{< img src="/img/foundations/data-vis-color-sequences.svg" dark="/img/foundations/data-vis-color-sequences-dark.svg" class="w-100" width="854" height="427" alt="Color sequences for data visualization" lazyload="auto" >}}
 
 The sequences are designed to show a uniformity between each data point, so that no value appears more important than another. If you need to intentionally differentiate a certain data point, you may want to use a contrasting color to represent it.
 
-![Color sequences for more than 6 data points](/img/foundations/data-vis-color-sequences-full.png)
+{{< img src="/img/foundations/data-vis-color-sequences-full.svg" dark="/img/foundations/data-vis-color-sequences-full-dark.svg" class="w-100" width="854" height="621" alt="Color sequences for more than 6 data points" lazyload="auto" >}}
 
 ## Chart Anatomy
 
