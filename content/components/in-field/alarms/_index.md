@@ -4,6 +4,8 @@ layout: "single"
 description: "Alarms tell the user of a critical system problem."
 components: true
 component: alarms
+images:
+  - "/img/components/headers/alarms.png"
 tags: [in-field, usage]
 aliases:
   - alarm
@@ -29,7 +31,7 @@ It is likely that the software will not be able to function correctly so the use
 **Don't use when**
 
 - The user should attend to the issue but can carry on working for a time until the issue is resolved and/or the UI can sensibly be rendered while the issue is in play. Use a [Prompt](/components/in-field/prompts/) instead.
-- If there is minor information that is "nice-to-know" but does not require the user to take any action. Use a [Notification](/components/in-field/notification/) for such scenarios where basic information is conveyed to the user, but such information does not require user action.
+- If there is minor information that is "nice-to-know" but does not require the user to take any action. Use a [Notification](/components/in-field/notifications/) for such scenarios where basic information is conveyed to the user, but such information does not require user action.
 
 {{< img src="/img/in-field/alarm-landscape-portrait.svg" dark="/img/in-field/alarm-landscape-portrait-dark.svg" width="100%" class="w-100" alt="Alarms Example" >}}
 

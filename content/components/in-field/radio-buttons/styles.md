@@ -34,6 +34,13 @@ tags: [in-field, styles]
 
 {{< img src="/img/in-field/radios-labels.svg" dark="/img/in-field/radios-labels-dark.svg" width="100%" class="w-100" alt="Radio Buttons labels" >}}
 
+<!-- prettier-ignore-start -->
+| Label Right                                                                                                     | Label Left                                                                                                      |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| {{< img src="/img/in-field/radios-labels.svg" dark="/img/in-field/radios-labels-dark.svg" width="99" alt="" >}} | {{< img src="/img/in-field/radios-labels.svg" dark="/img/in-field/radios-labels-dark.svg" width="99" alt="" >}} |
+{class="table table-bordered table-thead-light d-none"}
+<!-- prettier-ignore-end -->
+
 #### Editorial
 
 - If necessary, a heading can accompany a set of radio buttons to provide further clarity for the user. Use sentence-case (only the first word in a phrase and any proper nouns capitalized).

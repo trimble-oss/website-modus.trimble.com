@@ -17,7 +17,7 @@ tags: [in-field, styles]
 - Border Color: {{< color-preview hexL="#252A2E" hexD="#6A6E79" >}}
 - Container Color: {{< color-preview hexL="#FFFFFF" hexD="#000000" >}}
 
-{{< img src="/img/in-field/input-spec.png" dark="/img/in-field/input-spec-dark.svg" width="1088" height="243" class="w-100" alt="Inputs Specs" lazyload="auto" >}}
+{{< img src="/img/in-field/input-spec.png" dark="/img/in-field/input-spec-dark.png" width="1088" height="243" class="w-100" alt="Inputs Specs" lazyload="auto" >}}
 
 **Note:** Incab sizes only, see mobile for smaller options for in-field.
 
@@ -28,7 +28,7 @@ tags: [in-field, styles]
 - Form inputs that are **disabled** should be: {{< color-preview hexL="#ByB9C3" hexD="#6A6E79" >}} Stroke {{< color-preview hexD="#353A40" >}}
 - Form inputs that are **read only** have background color: {{< color-preview hexL="#E0E1E9" hexD="#353A40" >}}.
 
-{{< img src="/img/in-field/input-states.png" dark="/img/in-field/input-states-dark.svg" width="100%" class="w-100" alt="Input States" >}}
+{{< img src="/img/in-field/input-states.png" dark="/img/in-field/input-states-dark.png" width="100%" class="w-100" alt="Input States" >}}
 
 #### Editorial
 

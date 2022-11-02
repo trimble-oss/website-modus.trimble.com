@@ -5,6 +5,8 @@ description: "Alarms tell the user of a critical system problem."
 components: true
 hidden: true
 component: alarms
+images:
+  - "/img/components/headers/alarms.png"
 tags: [in-field, accessibility]
 ---
 

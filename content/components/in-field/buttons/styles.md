@@ -20,6 +20,16 @@ body[data-url*="/buttons/"] #menu-left a[href*=radio-buttons] {
 
 ### Color Mix Progression
 
+<!-- prettier-ignore-start -->
+| Example                              | Emphasis | When to use                                                          |
+| ------------------------------------ | -------- | -------------------------------------------------------------------- |
+| {{< img src="" width="99" alt="" >}} | High     | Use to draw attention to the primary action on a screen.             |
+| {{< img src="" width="99" alt="" >}} | Medium   | Use for secondary actions on a screen.                               |
+| {{< img src="" width="99" alt="" >}} | Medium   | Used for secondary actions to establish additional visual hierarchy. |
+| {{< img src="" width="99" alt="" >}} | Low      | Used for secondary actions to establish additional visual hierarchy. |
+{class="table table-bordered table-thead-light d-none"}
+<!-- prettier-ignore-end -->
+
 {{< img src="/img/in-field/btn-color-mix-buttons.svg" dark="/img/in-field/btn-color-mix-buttons-dark.svg" alt="Color Mix Progresssion" class="w-100" lazyload="auto" >}}
 
 ### Ancillary Buttons
@@ -52,7 +62,7 @@ All buttons (including icon buttons) should have the following states:
 
 #### Color Mix States
 
-{{< img src="/img/in-field/btn-color-mix-states.svg" dark="/img/in-field/btn-color-mix-states-dark.svg" alt="Color Mix States" >}}
+{{< img src="/img/in-field/btn-color-mix-states.svg" dark="/img/in-field/btn-color-mix-states-dark.svg" class="w-100" alt="Color Mix States" >}}
 
 **Note:** Focus state uses new blue for High contrast.
 

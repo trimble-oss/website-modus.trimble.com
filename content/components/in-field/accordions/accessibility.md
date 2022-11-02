@@ -5,6 +5,8 @@ description: "The accordion element delivers large amounts of content in a small
 components: true
 hidden: true
 component: accordions
+images:
+  - "/img/components/headers/accordions.png"
 tags: [in-field, accessibility]
 ---
 
