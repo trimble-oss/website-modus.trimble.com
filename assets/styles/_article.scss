@@ -106,6 +106,6 @@ kbd {
 }
 
 article .nav-tabs .nav-link::after {
-  background-image: none;
-  width: 0;
+  background-image: none !important;
+  width: 0 !important;
 }

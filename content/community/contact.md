@@ -11,7 +11,7 @@ community: true
     <a class="nav-link" id="nav-calendly-tab" data-toggle="tab" href="#nav-calendly" role="tab" aria-controls="nav-calendly" aria-selected="false">Book a Meeting</a>
   </div>
 </nav>
-<div class="tab-content" id="nav-tabContent">
+<div class="tab-content" id="nav-tabContent" data-pagefind-ignore>
   <div class="tab-pane fade show active" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
     <div class="alert alert-info mt-2">
       Note: If you don't see the contact form below <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOt0n8IhbVBjkE80fB1c25SlAdT7SD2uRHtoLUqbJ1eVWy2Q/viewform?embedded=true" target="_blank" class="ml-1">Open in a new window</a>.
