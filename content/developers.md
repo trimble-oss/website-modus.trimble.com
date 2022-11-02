@@ -14,6 +14,18 @@ start: true
 
 <div class="row">
 
+{{< card-start title="Modus Web Components" url="https://modus-web-components.trimble.com/" class="bg-web-components py-4" header="web-components.svg" >}}
+
+{{</ card-start >}}
+
+{{< card-start title="Modus Web Components (Angular)" class="bg-danger py-4" url="https://modus-web-components.trimble.com/?path=/docs/framework-integrations-angular--page" header="angular.svg" >}}
+
+{{</ card-start >}}
+
+</div>
+
+<div class="row">
+
 {{< card-start title="Modus Bootstrap" url="https://modus-bootstrap.trimble.com/" target="_blank" header="bootstrap.svg" class="bg-primary text-white py-4" >}}
 
 {{</ card-start >}}
@@ -23,14 +35,4 @@ start: true
 {{</ card-start >}}
 
 </div>
-<div class="row">
 
-{{< card-start title="Modus Web Components" url="https://modus-web-components.trimble.com/" class="bg-web-components py-4" beta="true" header="web-components.svg" >}}
-
-{{</ card-start >}}
-
-{{< card-start title="Modus Web Components (Angular)" class="bg-danger py-4" url="https://modus-web-components.trimble.com/?path=/docs/framework-integrations-angular--page" beta="true" header="angular.svg" >}}
-
-{{</ card-start >}}
-
-</div>
