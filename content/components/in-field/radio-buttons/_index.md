@@ -8,7 +8,7 @@ keywords: forms, form
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/radios.svg" dark="/img/in-field/radios-dark.svg" width="100%" class="w-100" alt="Radio Buttons" lazyload="auto" >}}
+{{< img src="/img/in-field/radios.svg" dark="/img/in-field/radios-dark.svg" width="1088" height="158" class="w-100" alt="Radio Buttons" lazyload="auto" >}}
 
 ## Overview
 
@@ -29,10 +29,10 @@ Radio buttons are used to afford a single selection from two or more options.
 
 - User can make multiple selections. Instead, use [Checkboxes](/components/in-field/checkboxes/).
 - You are providing more than 7 options.
-- You are attempting to highlight a preferred choice. Instead, use a [Dropdown](/components/web/dropdowns/).
+- You are attempting to highlight a preferred choice. Instead, use a [Dropdown](/components/in-field/dropdowns/).
 - When a large number of familiar options is available.
 
-{{< img src="/img/in-field/radios-example.svg" dark="/img/in-field/radios-example-dark.svg" width="100%" class="w-100" alt="Radio Buttons Example" >}}
+{{< img src="/img/in-field/radios-example.svg" dark="/img/in-field/radios-example-dark.svg" width="1088" height="239" class="w-100" alt="Radio Buttons Example" >}}
 
 {{< whats-changed-table >}}
 

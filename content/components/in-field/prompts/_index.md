@@ -4,6 +4,8 @@ layout: "single"
 description: "Prompts inform the user about a decision they need to make or a system event they need to know about."
 components: true
 component: prompts
+images:
+  - "/img/components/headers/prompts.png"
 keywords: Prompt, Prompts, Alert, Alerts
 tags: [in-field, usage]
 aliases:
@@ -31,7 +33,7 @@ There are two types of prompt triggering conditions:
 **Don't use when**
 
 - There is a system critical action the user must take. If the user should stop work and immediately attend to a problem or error, do NOT use a Prompt. An alarm is used for such scenarios. See [Alarms](/components/in-field/alarms/) for more information.
-- Do not use a Prompt if there is minor information that is "nice-to-know" but does not require the user to take any action. Use a [Notification](/components/in-field/notification/) for such scenarios where basic information is conveyed to the user, but such information does not require user action.
+- Do not use a Prompt if there is minor information that is "nice-to-know" but does not require the user to take any action. Use a [Notification](/components/in-field/notifications/) for such scenarios where basic information is conveyed to the user, but such information does not require user action.
 
 Basic Prompt message with heading text only.
 

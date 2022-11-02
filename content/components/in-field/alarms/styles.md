@@ -5,6 +5,8 @@ description: "Alarms tell the user of a critical system problem."
 components: true
 hidden: true
 component: alarms
+images:
+  - "/img/components/headers/alarms.png"
 tags: [in-field, styles]
 ---
 
@@ -13,8 +15,8 @@ tags: [in-field, styles]
 {{< img src="/img/in-field/alarm-spec.svg" dark="/img/in-field/alarm-spec-dark.svg" alt="Alarm spec" width="1077" height="848" class="w-100" lazyload="auto" >}}
 
 <!-- prettier-ignore-start -->
-| State    | Example    |
-| -------- | --------------------------- |
+| State    | Example                                                                                                                 |
+| -------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Spacing  | {{< img src="/img/in-field/alarm-spec.svg" dark="/img/in-field/alarm-spec-dark.svg" width="498" height="153" alt="" >}} |
 | Text     | {{< img src="/img/in-field/alarm-spec.svg" dark="/img/in-field/alarm-spec-dark.svg" width="498" height="153" alt="" >}} |
 {class="table table-bordered table-thead-light d-none"}

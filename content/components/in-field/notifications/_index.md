@@ -4,6 +4,8 @@ layout: "single"
 description: "Notifications provide unobtrusive, short-lasting, contextual feedback to the user."
 components: true
 component: notifications
+images:
+  - "/img/components/headers/notifications.png"
 keywords: notifications, notification,
 tags: [in-field, usage]
 ---

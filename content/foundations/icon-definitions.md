@@ -5,7 +5,7 @@ description: "Trimble guidelines of how to use and design icons."
 foundations: true
 ---
 
-<style data-pagefind-ignore>
+<style>
 main img {
   background-color: #fff;
 }

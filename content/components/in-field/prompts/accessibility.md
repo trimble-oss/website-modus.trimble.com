@@ -1,9 +1,11 @@
 ---
 title: "Prompts"
 layout: "single"
-description: ""
+description: "Prompts inform the user about a decision they need to make or a system event they need to know about."
 components: true
 component: prompts
+images:
+  - "/img/components/headers/prompts.png"
 tags: [in-field, accessibility]
 ---
 

@@ -11,7 +11,7 @@ tags: [in-field, styles]
 
 ## Specifications
 
-Badges come in 2 defined heights:
+Badges come in two defined heights:
 
 - Small: 32dp
 - Default: 40dp
@@ -23,3 +23,10 @@ Badges should be centered vertically inside of their containing element
 ### Color Progression
 
 {{< img src="/img/in-field/badges-states.svg" dark="/img/in-field/badges-states-dark.svg" width="100%" class="w-100" alt="Badges states" >}}
+
+<!-- prettier-ignore-start -->
+| State   | Primary | Secondary | Tertiary | Success | Warning | Danger |
+| ------- | ------- | --------- | -------- | ------- | ------- | ------ |
+| Default | Badge   | Badge     | Badge    | Badge   | Badge   | Badge |
+{class="table table-bordered table-thead-light d-none"}
+<!-- prettier-ignore-end -->

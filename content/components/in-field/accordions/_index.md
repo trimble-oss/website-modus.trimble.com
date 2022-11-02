@@ -4,6 +4,8 @@ layout: "single"
 description: "The accordion element delivers large amounts of content in a small space through progressive disclosure."
 components: true
 component: accordions
+images:
+  - "/img/components/headers/accordions.png"
 tags: [in-field, usage]
 ---
 

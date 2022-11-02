@@ -3,18 +3,11 @@ title: "Messages"
 layout: "single"
 description: "Messages provide the user with contextual static information. They have a lower priority than a notification or prompt."
 components: true
-hidden: true
 component: messages
 images:
   - "/img/components/headers/messages.png"
 tags: [in-field, styles]
 ---
-
-<style>
-article img {
- background-color: #f1f1f6;
-}
-</style>
 
 ## Specifications
 
