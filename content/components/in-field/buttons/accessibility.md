@@ -13,7 +13,7 @@ tags: [in-field, accessibility]
 - Disabled buttons should have `aria-disabled` set to true.
 - When placing a button on a color other than standard background colors (Gray Light or White), make sure the colors of all states (except for disabled) still meet [color contrast accessibility standards](/foundations/accessibility/).
 
-<style data-pagefind-ignore>
+<style>
 body[data-url*="/buttons/"] #menu-left a[href*=radio-buttons] {
   background-color: transparent !important;
 }

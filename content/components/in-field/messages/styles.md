@@ -10,7 +10,7 @@ images:
 tags: [in-field, styles]
 ---
 
-<style data-pagefind-ignore>
+<style>
 article img {
  background-color: #f1f1f6;
 }

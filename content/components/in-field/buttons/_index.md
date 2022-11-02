@@ -39,7 +39,7 @@ Buttons are clickable elements that are used to trigger actions. They communicat
 
 {{</ whats-changed-table >}}
 
-<style data-pagefind-ignore>
+<style>
 body[data-url*="/buttons/"] #menu-left a[href*=radio-buttons] {
   background-color: transparent !important;
 }

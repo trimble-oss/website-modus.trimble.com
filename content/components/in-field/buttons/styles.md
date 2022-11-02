@@ -8,7 +8,7 @@ component: buttons
 tags: [in-field, styles]
 ---
 
-<style data-pagefind-ignore>
+<style>
 body[data-url*="/buttons/"] #menu-left a[href*=radio-buttons] {
   background-color: transparent !important;
 }
