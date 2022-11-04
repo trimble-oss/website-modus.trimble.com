@@ -23,12 +23,28 @@ tags: [in-field, styles]
 
 ### Behaviors
 
-- Form inputs that are in **Active** should have a 4dp border using our active color : {{< color-preview hex="#0C77BE" >}}. abled** should be: {{< color-preview hexL="#ByB9C3" hexD="#019AEB" >}}.
+- Form inputs that are in **Active** should have a 4dp border using our active color : {{< color-preview hex="#0C77BE" >}}. abled\*\* should be: {{< color-preview hexL="#ByB9C3" hexD="#019AEB" >}}.
 - Form inputs that are **invalid** should have a 4px border using our danger color: {{< color-preview hex="#da212c" >}}.
 - Form inputs that are **disabled** should be: {{< color-preview hexL="#ByB9C3" hexD="#6A6E79" >}} Stroke {{< color-preview hexD="#353A40" >}}
 - Form inputs that are **read only** have background color: {{< color-preview hexL="#E0E1E9" hexD="#353A40" >}}.
 
 {{< img src="/img/in-field/input-states.png" dark="/img/in-field/input-states-dark.png" width="100%" class="w-100" alt="Input States" >}}
+
+<!-- prettier-ignore-start -->
+| State     | Example                                                                                           |
+| --------- | ------------------------------------------------------------------------------------------------- |
+| Default   | {{< img src="/img/in-field/inputs-default.svg" width="199" alt="Example of a Default Input" >}}   |
+| Filled    | {{< img src="/img/in-field/inputs-filled.svg" width="199" alt="Example of a filled Input" >}}     |
+| Active    | {{< img src="/img/in-field/inputs-active.svg" width="199" alt="Example of an active Input" >}}    |
+| Focus     | {{< img src="/img/in-field/inputs-focus.svg" width="199" alt="Example of a focus Input" >}}       |
+| Info      | {{< img src="/img/in-field/inputs-info.svg" width="199" alt="Example of a info Input" >}}         |
+| Success   | {{< img src="/img/in-field/inputs-success.svg" width="199" alt="Example of a success Input" >}}   |
+| Warning   | {{< img src="/img/in-field/inputs-warning.svg" width="199" alt="Example of a warning Input" >}}   |
+| Error     | {{< img src="/img/in-field/inputs-error.svg" width="199" alt="Example of a error Input" >}}       |
+| Disabled  | {{< img src="/img/in-field/inputs-disabled.svg" width="199" alt="Example of a disabled Input" >}} |
+| Read only | {{< img src="/img/in-field/inputs-readonly.svg" width="199" alt="Example of a readonly Input" >}} |
+{class="table table-bordered table-thead-light d-none"}
+<!-- prettier-ignore-end -->
 
 #### Editorial
 

@@ -3,7 +3,6 @@ title: "Writing Style"
 layout: "single"
 description: "Quality copy is key to a successful user interface performance."
 foundations: true
-url: "/foundations/writing-style/"
 ---
 
 ## Writing Goals & Principles

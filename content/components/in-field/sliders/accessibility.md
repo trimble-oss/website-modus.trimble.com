@@ -5,6 +5,8 @@ description: "Sliders allow users to make selections from a range of values."
 components: true
 keywords: forms, form, range
 component: sliders
+images:
+  - "/img/components/headers/sliders.png"
 tags: [in-field, accessibility]
 ---
 

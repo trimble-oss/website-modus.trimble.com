@@ -4,6 +4,8 @@ layout: "single"
 description: "Tabs are used to quickly navigate between views within the same context."
 components: true
 component: tabs
+images:
+  - "/img/components/headers/tabs.png"
 tags: [in-field, accessibility]
 ---
 

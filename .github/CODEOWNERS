@@ -3,10 +3,11 @@
 
 ## Folders
 
-/assets/    @coliff
-/content/   @coliff @egunther39 @enowak1031 @msankaran0712 @soniakaukonen
-/layouts/   @coliff
-/static/    @coliff @egunther39 @enowak1031 @msankaran0712 @soniakaukonen
+/assets/                        @coliff
+/content/                       @coliff @egunther39 @enowak1031 @msankaran0712 @soniakaukonen
+/contents/components/in-field/  @mjohnsnz
+/layouts/                       @coliff
+/static/                        @coliff @egunther39 @enowak1031 @msankaran0712 @soniakaukonen
 
 ## File Types
 

@@ -3,8 +3,9 @@ title: "Switches"
 layout: "single"
 description: "Switches are used to toggle functionality."
 components: true
-hidden: true
 component: switches
+images:
+  - "/img/components/headers/switches.png"
 tags: [in-field, styles]
 ---
 

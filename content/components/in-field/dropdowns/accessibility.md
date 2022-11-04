@@ -4,7 +4,8 @@ layout: "single"
 description: ""
 components: true
 component: dropdowns
-keywords:
+images:
+  - "/img/components/headers/dropdowns.png"
 tags: [in-field, accessibility]
 ---
 
