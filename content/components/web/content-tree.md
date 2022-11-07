@@ -104,29 +104,29 @@ A content tree view is text-only by default. This option is best used when a hie
     <tr>
       <td>Default</td>
       <td>{{< color-preview nameL="white" hexL="#ffffff" nameD="Gray 10" hexD="#171C1E">}}</td>
-      <td>1px solid, Gray 0<br>{{< color-preview name="Gray 0" hex="#e0e1e9">}}</td>
-      <td>Trimble Gray<br>{{< color-preview hex="#252a2e">}} Regular, 400</td>
+      <td>1px solid <br>{{< color-preview nameL="Gray 0" hexL="#e0e1e9" nameD="Gray 8" hexD="#464B52">}}</td>
+      <td>{{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff">}} Regular, 400</td>
       <td>Body text for default size; Small body text for condensed size</td>
     </tr>
     <tr>
       <td>Hover</td>
       <td>{{< color-preview nameL="Gray 0" hexL="#e0e1e9" nameD="Gray 8" hexD="#464B52">}}</td>
-      <td>1px solid, Gray 0<br>{{< color-preview hex="#e0e1e9">}}</td>
-      <td>Trimble Gray<br>{{< color-preview hex="#252a2e">}} Regular, 400</td>
+      <td>1px solid {{< color-preview nameL="Gray 0" hexL="#e0e1e9" nameD="Gray 8" hexD="#464B52">}}</td>
+      <td>{{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff">}} Regular, 400</td>
       <td>&nbsp;</td>
     </tr>
     <tr>
       <td>Selected</td>
-      <td>Blue Pale<br>{{< color-preview hex="#dcedf9">}}</td>
-      <td>1px solid, Gray 0<br>{{< color-preview hex="#e0e1e9">}}</td>
-      <td>Trimble Gray<br>{{< color-preview hex="#252a2e">}} Regular, 400</td>
+      <td>{{< color-preview nameL="Blue Pale" hexL="#dcedf9" nameD="Trimble Dark" hexD="#019AEB4d">}}</td>
+      <td>1px solid {{< color-preview nameL="Gray 0" hexL="#e0e1e9" nameD="Trimble Dark" hexD="#019AEB">}}</td>
+      <td>{{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff">}} Regular, 400</td>
       <td>Checkmark appears at the end if action icons are not used</td>
     </tr>
     <tr>
       <td>Disabled</td>
-      <td>White<br>{{< color-preview hex="#ffffff">}}</td>
-      <td>1px solid, Gray 0<br>{{< color-preview hex="#e0e1e9">}}</td>
-      <td>Gray 2<br>{{< color-preview hex="#b7b9c3">}} Regular, 400</td>
+      <td>{{< color-preview nameL="White" hexL="#ffffff" nameD="#Gray 10" hexD="#171C1E">}}</td>
+      <td>1px solid {{< color-preview nameL="Gray 0" hexL="#e0e1e9" nameD="Gray 8" hexD="#464B52">}}</td>
+      <td>{{< color-preview nameL="Gray 2" hexL="#b7b9c3" nameD="White (40%)" hexD="#ffffff66">}} Regular, 400</td>
       <td>See <a href="/components/checkboxes/">Checkboxes</a> for specifications</td>
     </td>
   </tbody>
