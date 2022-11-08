@@ -4,6 +4,8 @@ layout: "single"
 description: "Dropdowns present a list of options that can be used to filter or sort existing content."
 components: true
 component: dropdowns
+images:
+  - "/img/components/headers/dropdowns.png"
 keywords: dropdown
 tags: [in-field, usage]
 ---

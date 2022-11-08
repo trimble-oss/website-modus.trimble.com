@@ -4,6 +4,8 @@ layout: "single"
 description: "Lists are made of list items. A list can be used to display content related to a single subject."
 components: true
 component: Lists
+images:
+  - "/img/components/headers/lists.png"
 keywords: Lists, List
 tags: [in-field, styles]
 ---
@@ -27,6 +29,17 @@ Where needed, lists can have groups of sub-categorized list items. Child list it
 - Complex lists contain a set of items displayed in rows. Each item is represented as a text label. In addition to the item label, the rows in a complex list contain multiple pieces of information for each item. Depending on the purpose of the list, each row may also be accompanied by a control. The user can also select a row to perform an action on the corresponding item.
 - Use when the user can benefit from viewing more information about each list item without needing to select the item first.
 - Use when the available space in the design does not let us display a table
+
+<!-- prettier-ignore-start -->
+| State    | Example                                                                                              |
+| -------- | ---------------------------------------------------------------------------------------------------- |
+| Default  | {{< img src="/img/in-field/lists-default.svg" width="199" alt="Example of a Default List Item" >}}   |
+| Pressed  | {{< img src="/img/in-field/lists-pressed.svg" width="199" alt="Example of a Pressed List Item" >}}   |
+| Focus    | {{< img src="/img/in-field/lists-focus.svg" width="199" alt="Example of a Focus List Item" >}}       |
+| Selected | {{< img src="/img/in-field/lists-selected.svg" width="199" alt="Example of a Selected List Item" >}} |
+| Disabled | {{< img src="/img/in-field/lists-disabled.svg" width="199" alt="Example of a Disabled List Item" >}} |
+{class="table table-bordered table-thead-light d-none"}
+<!-- prettier-ignore-end -->
 
 {{< img src="/img/in-field/lists-states.png" dark="/img/in-field/lists-states-dark.png" width="100%" class="w-100" alt="lists States" lazyload="auto" >}}
 

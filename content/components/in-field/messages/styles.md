@@ -13,6 +13,16 @@ tags: [in-field, styles]
 
 {{< img src="/img/in-field/messages-spec.svg" dark="/img/in-field/messages-spec-dark.svg" width="1088" height="343" alt="Messages Behavior messages-spec"  lazyload="auto" >}}
 
+
+<!-- prettier-ignore-start -->
+| State  | Example                                                                                           | Height | Use Case    |
+| ------ | ------------------------------------------------------------------------------------------------- |--------|-------------|
+| Small  | {{< img src="/img/in-field/messages-small.svg" width="199" alt="Example of a small message" >}}   | 48px   | Wizard      |
+| Medium | {{< img src="/img/in-field/messages-medium.svg" width="199" alt="Example of a small message" >}}  | 56px   | Cards       |
+| Large  | {{< img src="/img/in-field/messages-large.svg" width="199" alt="Example of a small message" >}}   | 64px   | Top of Page |
+{class="table table-bordered table-thead-light d-none"}
+<!-- prettier-ignore-end -->
+
 **Note:** Incab sizes only, see mobile for smaller options for in-field.
 
 ### Behaviors

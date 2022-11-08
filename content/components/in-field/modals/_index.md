@@ -4,11 +4,13 @@ layout: "single"
 description: "Modal dialogs interrupt workflows and require user interaction."
 components: true
 component: modals
+images:
+  - "/img/components/headers/modals.png"
 keywords: modal, Dialogs, Dialog
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/modals.png" class="w-100 bg-light" width="1087" height="471" alt="Modals Specifications" lazyload="auto" >}}
+{{< img src="/img/in-field/modals.png" src="/img/in-field/modals-dark.png" class="w-100 bg-light" width="1087" height="471" alt="Modals Specifications" lazyload="auto" >}}
 
 ## Overview
 

@@ -4,6 +4,8 @@ layout: "single"
 description: "Radio buttons are used when options are mutually exclusive."
 components: true
 component: radio-buttons
+images:
+  - "/img/components/headers/radio-buttons.png"
 keywords: forms, form
 tags: [in-field, styles]
 ---

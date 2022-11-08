@@ -8,8 +8,6 @@ images:
   - "/img/components/headers/inputs.png"
 keywords: input
 tags: [in-field, usage]
-private: true
-hidden: true
 ---
 
 {{< img src="/img/in-field/inputs.png" dark="/img/in-field/inputs-dark.png" width="1087" height="1084" alt="inputs example" lazyload="auto" >}}
