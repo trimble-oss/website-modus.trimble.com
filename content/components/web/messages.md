@@ -40,7 +40,7 @@ Messages display low priority content directly on the page and are not dismissab
 ## Specifications
 
 <div class="guide-example-block my-3">
-  <div class="guide-sample bg-white">
+  <div class="guide-sample">
     <div class="message message-primary m-0">
       <i class="modus-icons notranslate">info</i> This is a primary message.
     </div>
