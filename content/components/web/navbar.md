@@ -265,7 +265,7 @@ Tooltips display on hover. Follow the [Tooltip guidelines](/components/web/toolt
 
 #### Search
 
-![Navbar Search](/img/components/navbar-search.svg)
+{{< img src="/img/components/navbar-search.svg" dark="/img/components/navbar-search-dark.svg" width="390" alt="Navbar search" >}}
 
 - On hover, display a tooltip reading "Search."
 - Expose the search overlay.
