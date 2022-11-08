@@ -65,11 +65,11 @@ A Card may contain any of the following elements (with the minimum of one), but 
 
 <table class="table table-bordered">
   <tr>
-    <td width="50%">
-    <img src="/img/guide/card_04.png" alt="" width="372" height="338" class="img-fluid" loading="lazy">
+    <td class="w-50 text-center">
+    {{< img src="/img/components/card_04.svg" dark="/img/components/card_04-dark.svg" class="border bg-light mx-auto text-center mt-2" width="302" alt="card example" >}}
     </td>
-    <td width="50%">
-    <img src="/img/guide/card_03.png" alt="" width="372" height="338" class="img-fluid" loading="lazy">
+    <td class="w-50 text-center">
+    {{< img src="/img/components/card_03.svg" dark="/img/components/card_03-dark.svg" class="border bg-light mx-auto text-center mt-2" width="302" alt="card example" >}}
     </td>
   </tr>
   <tr>

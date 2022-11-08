@@ -86,7 +86,7 @@ Note: Row striping is not recommended. It should be used as a last resort to inc
 
 Consider using labels/ icons to highlight the cell rather than border/ background. If use dictates, the need for border/ background color, follow color palette guidelines.
 
-![Table Colors](/img/components/table-colors.png)
+{{< img src="/img/components/table-colors.svg" dark="/img/components/table-colors-dark.svg" class="w-100" alt="Table Colors" >}}
 
 ## Types
 
@@ -105,7 +105,7 @@ There are two categories of actions available in tables:
 - **Row Selection**: for a list table, clicking anywhere in the row will select it; for data tables, the left most column contains a checkbox that selects the row when checked (see Cell Actions below).
 - **Column Sorting**: - Ascending order (A-Z, 1-9), indicated by arrow facing up ↑ - Descending order (Z-A, 9-1), indicated by arrow facing down ↓ - Sorted column: Use arrow symbol indicator in column header - Column with no sort: No symbol - Sorting Behavior: - When no sort is present: on-hover, display arrow symbol with tooltip “Sort ascending” - Click once: Sort ascending, arrow symbol persists - On-hover: Display sort descending symbol with tooltip, “Sort descending” - Click again: Sort descending, arrow symbol persists - On-hover: Hide arrow symbol with tooltip, “Remove sort” - Click again: Remove sort, remove arrow symbol entirely
   <br><br>
-  ![Changing a Sort Type](/img/components/tables-changing-sort.png)
+  {{< img src="/img/components/tables-changing-sort.svg" dark="/img/components/tables-changing-sort-dark.svg" class="w-100" alt="Changing a Sort Type" >}}
   <br><br> - **Column/ Row Reordering:** - User should be able to left click and hold the column header to drag and drop the column in a new order. A visual indicator should be used between the header cells where the column will be dropped. - A separate menu for column order can be utilized in conjunction with but not without the drag and drop function. i.e. if there is a column order menu, you must also retain drag-and-drop functionality - Draggable rows should use the “Drag 2” icon located before the first cell of the table.
   - **Changing Width:** - When hovering above the dividing line between two columns, there should be a visual indicator that the column is adjustable. Recommend indicator: Border becomes thicker (>2) and/or changes to the primary action color. - Auto-Fit: User should be able to double click the adjustable border in order to fit content to the column.
   - **Hiding/ Showing Columns:** - Right clicking on a column header should give the user a context menu option to collapse/show columns. When a column is collapsed, the border between headers should be increased to 3px. Single clicking the visual indicator will show the column. Right clicking the visual indicator will open the context menu. - Unless use case dictates, Hiding a column does NOT “deactivate” a column and its content. Meaning that even though a column is hidden, the table will still use its content in filters, groups, sorts, etc.
@@ -140,9 +140,9 @@ There are two categories of actions available in tables:
 
 _Examples_
 
-![Selecting Cells Example](/img/components/tables-selecting.png)
+{{< img src="/img/components/tables-selecting.svg" dark="/img/components/tables-selecting-dark.svg" class="w-100" alt="Selecting Cells Example" >}}
 
-![Error State](/img/components/tables-error.png)
+{{< img src="/img/components/tables-error.svg" dark="/img/components/tables-error-dark.svg" class="w-100" alt="Error State" >}}
 
 - **Forced Data Formatting:** If user inputs incorrect data format then follow error handling guidelines
 - **Undo:** User must have at least one mechanism to undo. Ex. <kbd>ctrl</kbd>+<kbd>z</kbd>, snack bar, icon action button, etc.
