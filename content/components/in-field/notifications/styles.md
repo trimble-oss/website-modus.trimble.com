@@ -15,7 +15,7 @@ tags: [in-field, styles]
 
 - A Notification also may be used to convey the resulting status of an action the user has taken. For example, if the user takes some action or undertakes a task, upon submit a Success, Warning, Error, or processing/loading may be communicated to the user via a Notification
 
-{{< img src="/img/in-field/notifications-spec.svg" width="100%" class="w-100 bg-light" alt="Notifications spec" lazyload="auto" >}}
+{{< img src="/img/in-field/notifications-spec.svg" dark="/img/in-field/notifications-spec-dark.svg" width="100%" class="w-100 bg-light" alt="Notifications spec" lazyload="auto" >}}
 
 Note: All items spacing are 20dp. Incab size only, see mobile for smaller options for in-field if required.
 

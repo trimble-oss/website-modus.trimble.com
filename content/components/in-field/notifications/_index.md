@@ -10,7 +10,7 @@ keywords: notifications, notification,
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/notifications.svg" width="961" height="185" class="bg-light" alt="Notifications example" lazyload="auto" >}}
+{{< img src="/img/in-field/notifications.svg" width="961" height="185" class="w-100" alt="Notifications example" lazyload="auto" >}}
 
 ## Overview
 
@@ -29,7 +29,7 @@ A notification displays information that is helpful but not essential. It doesn'
 
 ## Usage
 
-{{< img src="/img/in-field/notifications-progression.svg" width="1052" height="643" class="bg-light w-100" alt="Notifications progression example" >}}
+{{< img src="/img/in-field/notifications-progression.svg" dark="/img/in-field/notifications-progression-dark.svg" width="1052" height="643" class="bg-light w-100" alt="Notifications progression example" >}}
 
 {{< whats-changed-table >}}
 
