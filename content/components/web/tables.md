@@ -114,7 +114,7 @@ There are two categories of actions available in tables:
   - **Pagination:** - Pagination should appear at the bottom of the table - Use Modus icons “Arrow Left” & “Arrow Right” for page # “up” and page # “down” respectively.
   - **Filtering:** - Indicate what filters are currently active - Provide the user with a central location to control all filters - Loading ( If a user lands on/at a table that needs time to load ) - If a "skeleton state" table is feasible, this is ideal, though Modus does not have guidelines around this. Designers are expected to use their best judgment for style until guidelines are released. Please share your product's use of skeleton states with Modus so we may use it as input in future guidelines. - If a skeleton state is not feasible, the modus spinner should be used over the area of the table.
     <br><br>
-    ![Filtering Options](/img/components/table-filters.png)
+    {{< img src="/img/components/table-filters.svg" dark="/img/components/table-filters-dark.svg" class="w-100 border" alt="Filtering Options" >}}
     <br><br> - **Sticky Columns / Rows:** - System driven fixed or “sticky” columns and rows are allowed in all table types. Use the read-only styling for these rows' backgrounds. Additionally, any table utilizing this type of behavior should also have grid lines to clearly distinguish between columns. - User driven fixed columns and rows should utilize a 2x wide border between the fixed content and the rest of the table.
 
 2. Table Actions _(available for data tables only)_:

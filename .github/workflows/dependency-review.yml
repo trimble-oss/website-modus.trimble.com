@@ -1,5 +1,8 @@
 name: "Dependency Review"
-on: [pull_request]
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
 
 permissions:
   contents: read
