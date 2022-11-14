@@ -51,7 +51,7 @@
     "stylelint": "14.15.0",
     "stylelint-config-prettier": "9.0.3",
     "stylelint-config-standard-scss": "6.0.0",
-    "textlint": "^12.2.2",
+    "textlint": "^12.2.3",
     "textlint-rule-common-misspellings": "^1.0.1",
     "textlint-rule-terminology": "^3.0.4"
   },
