@@ -6,7 +6,6 @@ build/
 email/
 public/
 resources/
-web/
 
 # misc
 .DS_Store
