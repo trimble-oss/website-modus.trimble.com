@@ -19,7 +19,7 @@ Badges come in two defined heights:
 Badges should be centered vertically inside of their containing element.
 
 <!-- prettier-ignore-start -->
-| Type    | Example                                                                                                                                | Height |
+| Type     | Example                                                                                                                                | Height |
 |----------| -------------------------------------------------------------------------------------------------------------------------------------- | ------ |
 | Small    | {{< img src="/img/in-field/badge-spec-small.svg" dark="/img/in-field/badge-spec-small-dark.svg" width="298" height="73" alt="" >}}     | 32dp   |
 | Default  | {{< img src="/img/in-field/badge-spec-default.svg" dark="/img/in-field/badge-spec-default-dark.svg" width="298" height="73" alt="" >}} | 40dp   |
