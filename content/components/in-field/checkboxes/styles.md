@@ -12,7 +12,14 @@ tags: [in-field, styles]
 
 - A checkbox must have a visible label that clearly conveys what option a user is choosing.
 
-{{< img src="/img/in-field/checkboxes-spec.svg" dark="/img/in-field/checkboxes-spec-dark.svg" width="981" height="243" class="w-100" alt="Checkboxes spec" lazyload="auto" >}}
+<!-- prettier-ignore-start -->
+| Type      | Example                                                                            | Height |
+|------------| ---------------------------------------------------------------------------------- | ------ |
+| Default    | {{< img src="/img/in-field/checkbox-spec-default.svg" dark="/img/in-field/checkbox-spec-default-dark" height="56" alt="" >}} | 56dp   |
+| Focus      | {{< img src="/img/in-field/checkbox-spec-focus-dark.svg" dark="/img/in-field/checkbox-spec-focus-dark.svg" height=56" alt="" >}} | 56dp   |
+
+{class="table table-bordered table-thead-light d-none"}
+<!-- prettier-ignore-end -->
 
 **Note:** Incab sizes only, see mobile for smaller options for in-field.
 
@@ -34,12 +41,26 @@ All checkboxes should have the following states:
 - Indeterminate Error
 
 #### Checkboxes Progression
-
-{{< img src="/img/in-field/checkboxes-states.svg" dark="/img/in-field/checkboxes-states-dark.svg" width="981" height="243" class="w-100" alt="Checkboxes Progression" >}}
+<!-- prettier-ignore-start -->
+| State    | Active                                                                   | Default                                                                         | Indeterminate |
+| -------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------- |
+| Default  | {{< img src="/img/in-field/checkbox-progression-active-default.svg" dark="/img/in-field/checkbox-progression-active-default-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-not-active-default.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-indeterminate-default.svg" height="56" alt="" >}} |
+| Focus    | {{< img src="/img/in-field/checkbox-progression-focus.svg" dark="/img/in-field/checkbox-progression-focus-dark.svg" height="56" alt="" >}} | {{< img src="/img/checkbox-progression-not-active-focus.svg" height="56" alt="" >}} | {{< img src="/img/checkbox-progression-indeterminate-focus" height="56" alt="" >}} |
+| Error | {{< img src="/img/in-field/checkbox-progression-active-error.svg" dark="/img/in-field/checkbox-progression-active-error-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-not-active-error.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-indeterminate-error.svg" height="56" alt="" >}} |
+| Disabled | {{< img src="/img/in-field/checkbox-progression-active-disabled.svg" dark="/img/in-field/checkbox-progression-active-disabled-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-not-active-disabled.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-indeterminate-disabled.svg" height="56" alt="" >}} |
+{class="table table-bordered table-thead-light d-none"}
+<!-- prettier-ignore-end -->
 
 **Note:** Focus state uses “global blue”.
 
 #### Labels
+<!-- prettier-ignore-start -->
+| Label Right   | Label Left                                                                           
+|------------------------------------------------------| ---------------------------------------------------------------------------------- |
+| {{< img src="/img/in-field/checkbox-label-right.svg" dark="/img/in-field/ccheckbox-label-right-dark.svg" height=56" alt="" >}}     | {{< img src="/img/in-field/checkbox-label-left-dark.svg" dark="/img/in-field/checkbox-label-left-dark.svg" height=56" alt="" >}} | 56dp   |
+
+{class="table table-bordered table-thead-light d-none"}
+<!-- prettier-ignore-end -->
 
 {{< img src="/img/in-field/checkboxes-labels.svg" dark="/img/in-field/checkboxes-labels-dark.svg" width="100%" class="w-100" alt="Checkboxes labels" >}}
 

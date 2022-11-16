@@ -13,10 +13,10 @@ tags: [in-field, styles]
 ## Specifications
 
 <!-- prettier-ignore-start -->
-| State    | Example                                                                                                |
+| Type  | Example                                                                                                |
 | -------- | ------------------------------------------------------------------------------------------------------ |
-| Spacing  | {{< img src="/img/in-field/alarm-spec-spacing.svg" width="498" height="153" alt="" lazyload="auto" >}} |
-| Text     | {{< img src="/img/in-field/alarm-spec-text.svg" width="498" height="153" alt="" lazyload="auto" >}}    |
+| Spacing  | {{< img src="/img/in-field/alarm-spec-spacing.svg" width="471" height="290" alt="" lazyload="auto" >}} |
+| Text     | {{< img src="/img/in-field/alarm-spec-text.svg" width="430" height="328" alt="" lazyload="auto" >}}    |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
