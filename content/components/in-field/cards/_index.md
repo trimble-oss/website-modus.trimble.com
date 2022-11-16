@@ -30,7 +30,6 @@ Cards are used to group similar concepts and tasks together to make Information 
 - You need to display content in a table format.
 - Grouping a large set of related information.
 
-{{< img src="/img/in-field/cards-overview.svg" dark="/img/in-field/cards-overview-dark.svg" class="w-100" width="922" height="844" alt="Cards Overview" >}}
 
 ## Example
 
