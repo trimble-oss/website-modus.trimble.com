@@ -16,11 +16,11 @@ Accordions come in two sizes to accommodate space availability on the page or wi
 ## Specifications
 
 <!-- prettier-ignore-start -->
-| Type     | Example                                                                            | Height |
-|------------| ---------------------------------------------------------------------------------- | ------ |
-| Default    | {{< img src="/img/in-field/accordion-spec-default.svg" dark="/img/in-field/accordion-spec-default-dark.svg" width="498" height="63" alt="" >}} | 54dp   |
-| Focus      | {{< img src="/img/in-field/accordion-spec-focus.svg" dark="/img/in-field/accordion-spec-focus-dark.svg" width="498" height="63" alt="" >}} | 54dp   |
-| Subtitle   | {{< img src="/img/in-field/accordion-spec-subtile.svg" dark="/img/in-field/accordion-spec-subtile-dark.svg" width="498" height="63" alt="" >}} | 72dp   |
+| Type       | Example                                                                                                                                              | Height |
+|------------| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| Default    | {{< img src="/img/in-field/accordion-spec-default.svg" dark="/img/in-field/accordion-spec-default-dark.svg" width="498" height="63" alt="" >}}       | 54dp   |
+| Focus      | {{< img src="/img/in-field/accordion-spec-focus.svg" dark="/img/in-field/accordion-spec-focus-dark.svg" width="498" height="63" alt="" >}}           | 54dp   |
+| Subtitle   | {{< img src="/img/in-field/accordion-spec-subtile.svg" dark="/img/in-field/accordion-spec-subtile-dark.svg" width="498" height="63" alt="" >}}       | 72dp   |
 | Line Below | {{< img src="/img/in-field/accordion-spec-line-below.svg" dark="/img/in-field/accordion-spec-line-below-dark.svg" width="498" height="63" alt="" >}} | 72dp   |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
