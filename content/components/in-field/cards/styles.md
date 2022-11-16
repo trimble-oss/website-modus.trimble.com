@@ -22,10 +22,10 @@ A Card may contain any of the following elements (with the minimum of one), but 
 - Lists _(optional)_
 
 <!-- prettier-ignore-start -->
-| Type     | Example                                                                            | Height |
+| Type       | Example                                                                            | Height |
 |------------| ---------------------------------------------------------------------------------- | ------ |
-|  Horizontal     | {{< img src="/img/in-field/card-spec-horizontal.svg" dark="/img/in-field/card-spec-horizontal-dark.svg" height="72" alt="" >}} | 72dp   |
-| Vertical  | {{< img src="/img/in-field/card-spec-vertical.svg" dark="/img/in-field/card-spec-vertical-dark.svg" height="271" alt="" >}} | 268dp   |
+| Horizontal | {{< img src="/img/in-field/card-spec-horizontal.svg" dark="/img/in-field/card-spec-horizontal-dark.svg" height="72" alt="" >}} | 72dp   |
+| Vertical   | {{< img src="/img/in-field/card-spec-vertical.svg" dark="/img/in-field/card-spec-vertical-dark.svg" height="271" alt="" >}} | 268dp   |
 
 {class="table table-bordered table-thead-light d-none"}
 <!-- prettier-ignore-end -->
@@ -41,15 +41,16 @@ A Card may contain any of the following elements (with the minimum of one), but 
 - A radio button’s label is part of the clickable area of the control.
 
 #### States
+
 <!-- prettier-ignore-start -->
-| State    | Vertical                                                                   | Horizontal                                                                        
+| State    | Vertical                                                                   | Horizontal
 | -------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------- |
-| Default  | {{< img src="/img/in-field/card-vertical-states-default.svg" dark="/img/in-field/card-vertical-states-default-dark.svg" height="156" alt="" >}} | {{< img src="/img/in-field/card-horizontal-states-default.svg" dark="/img/in-field/card-horizontal-states-default-dark.svg" height="72" alt="" >}} | 
-| Pressed    | {{< img src="/img/in-field/card-vertical-states-pressed.svg" dark="/img/in-field/card-vertical-states-pressed-dark.svg" height="156" alt="" >}} | {{< img src="/img/card-horizontal-states-pressed.svg" dark="/img/in-field/card-horizontal-states-pressed-dark.svg" height="72" alt="" >}} | 
+| Default  | {{< img src="/img/in-field/card-vertical-states-default.svg" dark="/img/in-field/card-vertical-states-default-dark.svg" height="156" alt="" >}} | {{< img src="/img/in-field/card-horizontal-states-default.svg" dark="/img/in-field/card-horizontal-states-default-dark.svg" height="72" alt="" >}} |
+| Pressed    | {{< img src="/img/in-field/card-vertical-states-pressed.svg" dark="/img/in-field/card-vertical-states-pressed-dark.svg" height="156" alt="" >}} | {{< img src="/img/card-horizontal-states-pressed.svg" dark="/img/in-field/card-horizontal-states-pressed-dark.svg" height="72" alt="" >}} |
 | Focus | {{< img src="/img/in-field/card-vertical-states-focus.svg" dark="/img/in-field/card-vertical-states-focus-dark.svg" height="156" alt="" >}} | {{< img src="/img/in-field/card-horizontal-states-focus.svg" dark="/img/in-field/card-horizontal-states-focus-dark.svg" height="72" alt="" >}} |
-| Error | {{< img src="/img/in-field/card-vertical-states-error.svg" dark="/img/in-field/card-vertical-states-error-dark.svg" height="156" alt="" >}} | {{< img src="/img/in-field/card-horizontal-states-error.svg" dark="/img/in-field/card-horizontal-states-error-dark.svg" height="72" alt="" >}} | 
-| Disabled| {{< img src="/img/in-field/card-vertical-states-disabled.svg" dark="/img/in-field/card-vertical-states-disabled-dark.svg" height="156" alt="" >}} | {{< img src="/img/in-field/card-horizontal-state-disabled.svg" dark="/img/in-field/card-horizontal-state-disabled-dark.svg" height="72" alt="" >}} | 
-{class="table table-bordered table-thead-light d-none"}
+| Error | {{< img src="/img/in-field/card-vertical-states-error.svg" dark="/img/in-field/card-vertical-states-error-dark.svg" height="156" alt="" >}} | {{< img src="/img/in-field/card-horizontal-states-error.svg" dark="/img/in-field/card-horizontal-states-error-dark.svg" height="72" alt="" >}} |
+| Disabled| {{< img src="/img/in-field/card-vertical-states-disabled.svg" dark="/img/in-field/card-vertical-states-disabled-dark.svg" height="156" alt="" >}} | {{< img src="/img/in-field/card-horizontal-state-disabled.svg" dark="/img/in-field/card-horizontal-state-disabled-dark.svg" height="72" alt="" >}} |
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 **Note:** Focus state uses “global blue”.

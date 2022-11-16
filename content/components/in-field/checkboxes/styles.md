@@ -48,21 +48,19 @@ All checkboxes should have the following states:
 | Focus    | {{< img src="/img/in-field/checkbox-progression-focus.svg" dark="/img/in-field/checkbox-progression-focus-dark.svg" height="56" alt="" >}} | {{< img src="/img/checkbox-progression-not-active-focus.svg" height="56" alt="" >}} | {{< img src="/img/checkbox-progression-indeterminate-focus" height="56" alt="" >}} |
 | Error | {{< img src="/img/in-field/checkbox-progression-active-error.svg" dark="/img/in-field/checkbox-progression-active-error-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-not-active-error.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-indeterminate-error.svg" height="56" alt="" >}} |
 | Disabled | {{< img src="/img/in-field/checkbox-progression-active-disabled.svg" dark="/img/in-field/checkbox-progression-active-disabled-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-not-active-disabled.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-indeterminate-disabled.svg" height="56" alt="" >}} |
-{class="table table-bordered table-thead-light d-none"}
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 **Note:** Focus state uses “global blue”.
 
 #### Labels
+
 <!-- prettier-ignore-start -->
-| Label Right   | Label Left                                                                           
+| Label Right   | Label Left
 |------------------------------------------------------| ---------------------------------------------------------------------------------- |
-| {{< img src="/img/in-field/checkbox-label-right.svg" dark="/img/in-field/ccheckbox-label-right-dark.svg" height=56" alt="" >}}     | {{< img src="/img/in-field/checkbox-label-left-dark.svg" dark="/img/in-field/checkbox-label-left-dark.svg" height=56" alt="" >}} | 56dp   |
-
-{class="table table-bordered table-thead-light d-none"}
+| {{< img src="/img/in-field/checkbox-label-right.svg" dark="/img/in-field/checkbox-label-right-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-label-left-dark.svg" dark="/img/in-field/checkbox-label-left-dark.svg" height=56" alt="" >}} | 56dp   |
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
-
-{{< img src="/img/in-field/checkboxes-labels.svg" dark="/img/in-field/checkboxes-labels-dark.svg" width="100%" class="w-100" alt="Checkboxes labels" >}}
 
 ### OEM Branding
 
