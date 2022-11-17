@@ -25,17 +25,14 @@ There are one size of Chips:
 ### Color Progression
 
 <!-- prettier-ignore-start -->
-| State    | Primay- solid                                                                   | Secondary - solid                                                                         | Alert - solid  | Danger - solid |
+| State    | Primary- solid                                                                   | Secondary - solid                                                                         | Alert - solid  | Danger - solid |
 | ---------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------- | ------------------------ |
 | Default  | {{< img src="/img/in-field/chips-color-progression-primary-default.svg" dark="/img/in-field/chips-color-progression-primary-default-dark.svg" height="48" alt="" >}} | {{< img src="/img/in-field/chips-color-progression-secondary-default.svg" dark="/img/in-field/chips-color-progression-secondary-default-dark.svg"  height="48" alt="" >}} | {{< img src="/img/in-field/chips-color-progression-warning-default.svg" height="48" alt="" >}} |{{< img src="/img/in-field/chips-color-progression-error-default.svg" height="48" alt="" >}} |
 | Pressed   | {{< img src="/img/in-field/chips-color-progression-primary-pressed.svg" dark="/img/in-field/chips-color-progression-primary-pressed-dark.svg"  height="48" alt="" >}} | {{< img src="/img/chips-color-progression-secondary-pressed.svg" dark="/img/in-field/chips-color-progression-secondary-pressed-dark.svg" height="58" alt="" >}} | {{< img src="/img/chips-color-progression-warning-pressed.svg" height="48" alt="" >}} | {{< img src="/img/chips-color-progression-error-pressed.svg" height="48" alt="" >}} |
-| Focus | {{< img src="/img/in-field/chips-color-progression-primary-focus.svg" dark="/img/in-field/achips-color-progression-primary-focus-dark.svg" height="48" alt="" >}} | {{< img src="/img/in-field/chips-color-progression-secondary-focus.svg" dark="/img/in-field/chips-color-progression-secondary-focus-dark.svg" height="48" alt="" >}} | {{< img src="/img/in-field/chips-color-progression-warning-focus.svg" height="48" alt="" >}} | {{< img src="/img/in-field/chips-color-progression-error-focus.svg" height="48" alt="" >}} |
+| Focus | {{< img src="/img/in-field/chips-color-progression-primary-focus.svg" dark="/img/in-field/chips-color-progression-primary-focus-dark.svg" height="48" alt="" >}} | {{< img src="/img/in-field/chips-color-progression-secondary-focus.svg" dark="/img/in-field/chips-color-progression-secondary-focus-dark.svg" height="48" alt="" >}} | {{< img src="/img/in-field/chips-color-progression-warning-focus.svg" height="48" alt="" >}} | {{< img src="/img/in-field/chips-color-progression-error-focus.svg" height="48" alt="" >}} |
 | Disabled | {{< img src="/img/in-field/chips-color-progression-primary-disabled.svg" dark="/img/in-field/chips-color-progression-primary-disabled-dark.svg" height="48" alt="" >}} | {{< img src="/img/in-field/chips-color-progression-secondary-disabled.svg" dark="/img/in-field/chips-color-progression-secondary-disabled-dark.svg" height="48" alt="" >}} | {{< img src="/img/in-field/chips-color-progression-warning-disabled.svg" height="48" alt="" >}} | {{< img src="/img/in-field/chips-color-progression-error-disabled.svg" height="48" alt="" >}} |
-{class="table table-bordered table-thead-light d-none"}
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
-
-
-{{< img src="/img/in-field/chips-state-outline.png" dark="/img/in-field/chips-state-outline-dark.png" width="100%" class="w-100" alt="Chips States outline" >}}
 
 ## Behaviors
 
