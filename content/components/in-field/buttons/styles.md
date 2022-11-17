@@ -96,12 +96,12 @@ All buttons (including icon buttons) should have the following states:
 #### Ancillary Button States
 
 <!-- prettier-ignore-start -->
-| State    | Background                                                                   | Line Below                                                                         |
-| -------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Default  | {{< img src="/img/in-field/accordion-background-default.svg" dark="/img/in-field/accordion-background-default-dark.svg" width="98" height="53" alt="" >}} | {{< img src="/img/in-field/accordion-line-below-default.svg" dark="/img/in-field/accordion-line-below-default-dark.svg" width="98" height="53" alt="" >}} |
-| Pressed   | {{< img src="/img/in-field/accordion-background-focus.svg" dark="/img/in-field/accordion-background-focus-dark.svg" width="98" height="53" alt="" >}} | {{< img src="/img/accordion-line-below-focus.svg" dark="/img/in-field/accordion-line-below-focus-dark.svg" width="98" height="53" alt="" >}} |
-| Focus | {{< img src="/img/in-field/accordion-background-disabled.svg" dark="/img/in-field/accordion-background-disabled-dark.svg" width="98" height="53" alt="" >}} | {{< img src="/img/in-field/accordion-line-below-disabled.svg" dark="/img/in-field/accordion-line-below-disabled-dark.svg" width="98" height="53" alt="" >}} |
-| Disabled| {{< img src="/img/in-field/accordion-background-expanded.svg" dark="/img/in-field/accordion-background-expanded-dark.svg" width="98" height="53" alt="" >}} | {{< img src="/img/in-field/accordion-line-below-expanded.svg" dark="/img/in-field/accordion-line-below-expanded-dark.svg" width="98" height="53" alt="" >}} |
+| State    | Background                                                                         | Line Below                                                                         | 
+| -------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------- |
+| Default  | {{< img src="/img/btn-ancillary-states-icon-default.svg" dark="/img/in-field/btn-ancillary-states-icon-default-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/btn-ancillary-states-danger-default.svg" height="56" alt="" >}} | 
+| Pressed  | {{< img src="/img/in-field/btn-ancillary-states-icon-pressed.svg" dark="/img/in-field/btn-ancillary-states-icon-pressed-dark.svg" height="56" alt="" >}} | {{< img src="/img/btn-ancillary-states-danger-pressed.svg" height="56" alt="" >}} |
+| Focus    | {{< img src="/img/in-field/btn-ancillary-states-icon-focus.svg" dark="/img/in-field/btn-ancillary-states-icon-focus-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/btn-ancillary-states-danger-focused.svg" height="56" alt="" >}} | 
+| Disabled | {{< img src="/img/in-field/accordion-background-expanded.svg" dark="/img/in-field/accordion-background-expanded-dark.svg" height="53" alt="" >}} | {{< img src="/img/in-field/btn-ancillary-states-danger-disabled.svg" height="56" alt="" >}} | 
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
