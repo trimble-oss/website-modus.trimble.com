@@ -28,8 +28,6 @@ tags: [in-field, styles]
 - Form inputs that are **disabled** should be: {{< color-preview hexL="#ByB9C3" hexD="#6A6E79" >}} Stroke {{< color-preview hexD="#353A40" >}}
 - Form inputs that are **read only** have background color: {{< color-preview hexL="#E0E1E9" hexD="#353A40" >}}.
 
-{{< img src="/img/in-field/input-states.png" dark="/img/in-field/input-states-dark.png" width="100%" class="w-100" alt="Input States" >}}
-
 <!-- prettier-ignore-start -->
 | State     | Example                                                                                           |
 | --------- | ------------------------------------------------------------------------------------------------- |
@@ -43,7 +41,7 @@ tags: [in-field, styles]
 | Error     | {{< img src="/img/in-field/inputs-error.svg" dark="/img/in-field/inputs-error-dark.svg" width="468" alt="Example of a error Input" >}}       |
 | Disabled  | {{< img src="/img/in-field/inputs-disabled.svg" dark="/img/in-field/inputs-disabled-dark.svg" width="468" alt="Example of a disabled Input" >}} |
 | Read only | {{< img src="/img/in-field/inputs-readonly.svg" dark="/img/in-field/inputs-readonly-dark.svg" width="468" alt="Example of a readonly Input" >}} |
-{class="table table-bordered table-thead-light d-none"}
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 #### Editorial
