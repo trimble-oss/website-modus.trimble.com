@@ -11,6 +11,12 @@ tags: [in-field, styles]
 
 {{< img src="/img/in-field/navbar-spec.svg" dark="/img/in-field/navbar-spec-dark.svg" class="w-100" width="100%" alt="navbar Specifications" lazyload="auto" >}}
 
+<!-- prettier-ignore-start -->
+| Size  | Example                                                                                           | Height | Use Case    |
+| ------ | ------------------------------------------------------------------------------------------------- |--------|-------------|
+| Default  | {{< img src="/img/in-field/messages-small.svg" dark="/img/in-field/messages-small-dark.svg" width="655" alt="Example of a small message" >}}   | 48px   | Header    |
+
+
 **Note:** When logo is left to the edge Increase padding to 16dp. Incab size only, see mobile for smaller options for in-field.
 
 - Navbar background color should be white or Trimble Blue Dark.

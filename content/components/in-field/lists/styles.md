@@ -33,15 +33,13 @@ Where needed, lists can have groups of sub-categorized list items. Child list it
 <!-- prettier-ignore-start -->
 | State    | Example                                                                                              |
 | -------- | ---------------------------------------------------------------------------------------------------- |
-| Default  | {{< img src="/img/in-field/lists-default.svg" width="199" alt="Example of a Default List Item" >}}   |
-| Pressed  | {{< img src="/img/in-field/lists-pressed.svg" width="199" alt="Example of a Pressed List Item" >}}   |
-| Focus    | {{< img src="/img/in-field/lists-focus.svg" width="199" alt="Example of a Focus List Item" >}}       |
-| Selected | {{< img src="/img/in-field/lists-selected.svg" width="199" alt="Example of a Selected List Item" >}} |
-| Disabled | {{< img src="/img/in-field/lists-disabled.svg" width="199" alt="Example of a Disabled List Item" >}} |
-{class="table table-bordered table-thead-light d-none"}
+| Default  | {{< img src="/img/in-field/lists-default.svg" dark="/img/in-field/lists-default-dark.svg" width="510" alt="Example of a Default List Item" >}}   |
+| Pressed  | {{< img src="/img/in-field/lists-pressed.svg" dark="/img/in-field/lists-pressed-dark.svg" width="510" alt="Example of a Pressed List Item" >}}   |
+| Focus    | {{< img src="/img/in-field/lists-focus.svg" dark="/img/in-field/lists-focus-dark.svg" width="510" alt="Example of a Focus List Item" >}}       |
+| Selected | {{< img src="/img/in-field/lists-selected.svg" dark="/img/in-field/lists-selected-dark.svg" width="510" alt="Example of a Selected List Item" >}} |
+| Disabled | {{< img src="/img/in-field/lists-disabled.svg" dark="/img/in-field/lists-disabled-dark.svg" width="510" alt="Example of a Disabled List Item" >}} |
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
-
-{{< img src="/img/in-field/lists-states.png" dark="/img/in-field/lists-states-dark.png" width="100%" class="w-100" alt="lists States" lazyload="auto" >}}
 
 #### Editorial
 
