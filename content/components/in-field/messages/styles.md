@@ -17,9 +17,9 @@ tags: [in-field, styles]
 <!-- prettier-ignore-start -->
 | State  | Example                                                                                           | Height | Use Case    |
 | ------ | ------------------------------------------------------------------------------------------------- |--------|-------------|
-| Small  | {{< img src="/img/in-field/messages-small.svg" width="199" alt="Example of a small message" >}}   | 48px   | Wizard      |
-| Medium | {{< img src="/img/in-field/messages-medium.svg" width="199" alt="Example of a small message" >}}  | 56px   | Cards       |
-| Large  | {{< img src="/img/in-field/messages-large.svg" width="199" alt="Example of a small message" >}}   | 64px   | Top of Page |
+| Small  | {{< img src="/img/in-field/messages-small.svg" dark="/img/in-field/messages-small-dark.svg" width="655" alt="Example of a small message" >}}   | 48px   | Cards     |
+| Medium | {{< img src="/img/in-field/messages-medium.svg" dark="/img/in-field/messages-medium-dark.svg" width="710" alt="Example of a small message" >}} | 56px   | Wizard         |
+| Large  | {{< img src="/img/in-field/messages-large.svg" dark="/img/in-field/messages-large-dark.svg" width="719" alt="Example of a small message" >}}   | 64px   | Top of Page |
 {class="table table-bordered table-thead-light d-none"}
 <!-- prettier-ignore-end -->
 

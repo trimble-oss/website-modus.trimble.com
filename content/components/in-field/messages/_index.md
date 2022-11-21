@@ -33,10 +33,10 @@ Messages are used within other elements to convey status and helpful information
 <!-- prettier-ignore-start -->
 | Example                                                                                    | Emphasis | When to use                                                                                      |
 | ------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------------------------------------------------ |
-| {{< img src="/img/in-field/message-example-default.svg" width="298" height="53" alt="" >}} | High     | When useful information is required                                                              |
-| {{< img src="/img/in-field/message-example-default.svg" width="298" height="53" alt="" >}} | Medium   | When user needs an inline message that attention.                                                |
-| {{< img src="/img/in-field/message-example-default.svg" width="298" height="53" alt="" >}} | Medium   | When the user needs an alert of very important message on a page.                                |
-| {{< img src="/img/in-field/message-example-default.svg" width="298" height="53" alt="" >}} | Low      | Generic message than can be an action or less important information. Can have an icon if needed. |
+| {{< img src="/img/in-field/message-example-info.svg" dark="/img/in-field/message-example-info-dark.svg" width="552" height="64" alt="" >}} | High     | When useful information is required                                                              |
+| {{< img src="/img/in-field/message-example-warning.svg" dark="/img/in-field/message-example-warning-dark.svg" width="552" height="64" alt="" >}} | Medium   | When user needs an inline message that attention.                                                |
+| {{< img src="/img/in-field/message-example-error.svg" dark="/img/in-field/message-example-error-dark.svg" width="552" height="64" alt="" >}} | Medium   | When the user needs an alert of very important message on a page.                                |
+| {{< img src="/img/in-field/message-example-default.svg" dark="/img/in-field/message-example-default-dark.svg" | Low      | Generic message than can be an action or less important information. Can have an icon if needed. |
 {class="table table-bordered table-thead-light d-none"}
 <!-- prettier-ignore-end -->
 
