@@ -36,7 +36,8 @@ Cards are containers for displaying relevant and actionable information on a sin
 
 - You need to group information in a digestible form.
 - You need to offer a short entry point that is linked to more detailed content or a complex task.
-- Lay out single or multiple sets of related information in the same region of the page. Cards may include an image, a text summary, chips, and actions. Cards typically have similar widths, but heights should accommodate varying content.
+- Laying out single or multiple sets of related information in the same region of the page. Cards may include an image, a text summary, chips, and actions. Cards typically have similar widths, but heights should accommodate varying content.
+- Cards are commonly used on home or dashboard screens.
 
 **Don’t use when**
 

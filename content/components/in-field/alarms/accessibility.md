@@ -12,6 +12,6 @@ tags: [in-field, accessibility]
 
 ## Accessibility
 
-- When constructing an alert message brief and to the point.
+- When constructing an alarm message be brief and to the point. Avoid technical jargon.
 - Avoid non-text symbols like “/” and “+”.
 - When describing a date or time range use “to” instead of “–

@@ -13,7 +13,7 @@ tags: [in-field, styles]
 
 There are one size of Chips:
 
-- By default, Chips should have a height of 48dp, border radius 30dp, a font size 22sp Bold and have use Primary, Secondary, Alert, Error color progressions.
+- By default, Chips should have a height of 48dp, border radius 30dp, a font size 22sp Bold and use Primary, Secondary, Alert, Error color options.
 
 {{< img src="/img/in-field/chips-spec.svg" dark="/img/in-field/chips-spec-dark.svg" width="100%" class="w-100" alt="Chips Specifications" lazyload="auto" >}}
 
@@ -26,4 +26,4 @@ There are one size of Chips:
 ## Behaviors
 
 - Tap a chip to select it.
-- Multiple chips can be selected or unselected.
+- Multiple chips may be selected or unselected.

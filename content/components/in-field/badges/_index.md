@@ -30,7 +30,7 @@ Badges notify the user of a status, for example that there are new or unread mes
 **Don’t use when**
 
 - Displaying long strings of text.
-  An interactive element is needed, such as a [Button](/components/in-field/buttons/) or [Chip](/components/in-field/chip/).
+- An interactive element is needed, such as a [Button](/components/in-field/buttons/) or [Chip](/components/in-field/chip/).
 
 **Example**
 

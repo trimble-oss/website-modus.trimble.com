@@ -26,11 +26,11 @@ Accordions are containers that expand to reveal content progressively to limit t
 - You want to simplify a complex process.
 - There are options dependent upon a prior selection.
 - All options and information are not critical to see at first.
-- Allowing a user to hide controls and content so they can better focus on their task.
+- Allowing users to hide controls and content, so they can better focus on their task.
 
 **Don’t use when**
 
-- Providing an introductory element to a set of content which doesn’t need an expand and collapse functionality. Instead, use a Header (coming soon).
+- Providing an introductory element to a set of content which doesn’t need an expand and collapse functionality. Instead, use a [Navbar](/componets/web/navbar/).
 - Hiding critical content solely to clean up the interface.
 - Hiding an action if the user can easily do it without additional input.
 - Hiding primary actions on the page.
@@ -468,11 +468,10 @@ Accordions come in two sizes to accommodate space availability on the page or wi
 
 ### Behavior
 
-- Accordions can allow a single section to expand at one time, while automatically collapsing the section that loses focus (default behavior), or it can allow for all sections to expand at the same time.
-- When an accordion expands and collapses only its height should change; its width should stay consistent.
-- Expand-and-collapse functionality should never be triggered on hover.
-- The expand-and-collapse functionality of an accordion is tied to the entire header of the element, with additional actions being triggered only by interaction within the bounds of their related UI element.
-- Avoid “nested” accordions—that is, collapsible content within collapsible content. This type of pattern goes against UX best practices.
+- Accordions allow a single section to expand at one time, while automatically collapsing the section that loses focus (default behavior), or they allow for all sections to expand at the same time.
+- When an accordion expands and collapses, only its height should change; its width should stay consistent.
+- The expand-and-collapse functionality of an accordion is tied to the entire header of the element with additional actions being triggered only by interaction within the bounds of their related UI element.
+- Avoid “nested” accordions — that is, collapsible content within collapsible content. This type of pattern goes against UX best practices.
 
 ### Editorial
 

@@ -23,6 +23,11 @@ tags: [in-field, styles]
 
 ### Behaviors
 
+- Always have a label next to the text field, either above, on the left side or login in the input.
+- Label text should always be visible.
+- Display the validation state clearly. The validation message will replace Helper Text.
+- Try to make Label text concise. Where it must be longer (due to language translation), the label text can wrap to a second line. Truncate label at end of second line if absolutely necessary.
+- Don't add validation text under helper text, as its appearance will shift content.
 - Form inputs that are in **Active** should have a 4dp border using our active color : {{< color-preview hex="#0C77BE" >}}. abled\*\* should be: {{< color-preview hexL="#ByB9C3" hexD="#019AEB" >}}.
 - Form inputs that are **invalid** should have a 4px border using our danger color: {{< color-preview hex="#da212c" >}}.
 - Form inputs that are **disabled** should be: {{< color-preview hexL="#ByB9C3" hexD="#6A6E79" >}} Stroke {{< color-preview hexD="#353A40" >}}
@@ -49,7 +54,7 @@ tags: [in-field, styles]
 #### Editorial
 
 - When possible, add helper text below an input to further clarify selections or validation errors.
-- Always mark required fields with an \* .
+- Always mark **required** fields with an \* .
 - Provide input constraints, such as a character limit within a text entry box, to - provide users with guidelines and improve form efficiency.
 - Use multi-step forms when necessary by breaking up inputs into distinct categories.
 - Provide clear and obvious action buttons. Form submission buttons should be primary.

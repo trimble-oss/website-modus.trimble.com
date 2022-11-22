@@ -14,7 +14,7 @@ tags: [in-field, styles]
 
 {{< img src="/img/in-field/checkboxes-spec.svg" dark="/img/in-field/checkboxes-spec-dark.svg" width="981" height="243" class="w-100" alt="Checkboxes spec" lazyload="auto" >}}
 
-**Note:** Incab sizes only, see mobile for smaller options for in-field.
+**Note:** In-cab sizes only. See mobile patterns for smaller options for in-field.
 
 ### Behaviors
 
@@ -37,7 +37,7 @@ All checkboxes should have the following states:
 
 {{< img src="/img/in-field/checkboxes-states.svg" dark="/img/in-field/checkboxes-states-dark.svg" width="981" height="243" class="w-100" alt="Checkboxes Progression" >}}
 
-**Note:** Focus state uses “global blue”.
+**Note:** Focus state uses “global blue.”
 
 #### Labels
 
@@ -45,7 +45,7 @@ All checkboxes should have the following states:
 
 ### OEM Branding
 
-- Checkboxes can be branded based on the Primary color or other complementary colours for the best visibility in the cab.
+- Checkboxes may be branded based on the primary color or other complementary colors for the best visibility in the cab.
 
 {{< img src="/img/in-field/checkboxes-oem.svg" dark="/img/in-field/checkboxes-oem-dark.svg" width="100%" class="w-100" alt="Checkboxes OEM" >}}
 

@@ -11,7 +11,7 @@ tags: [in-field, styles]
 
 ## Types
 
-Accordions come in two sizes to accommodate space availability on the page or within a Card. Default size should be used when accordions display directly in the main content container on the page. Compact size is useful, when the accordion displays within a smaller container (e.g. card) or smaller section of the page.
+Accordions come in two sizes to accommodate space availability on the page or within a [Card](/components/in-field/cards/). Default size should be used when accordions display directly in the main content container on the page. Compact size is useful, when the accordion displays within a smaller container (e.g. card) or smaller section of the page.
 
 ## Specifications
 
@@ -27,13 +27,13 @@ Accordions come in two sizes to accommodate space availability on the page or wi
 {class="table table-bordered table-thead-light d-none"}
 <!-- prettier-ignore-end -->
 
-**Note:** Incab size only, see mobile for smaller options if required.
+**Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
 ### Behaviors
 
-- Accordions can allow a single section to expand at one time, while automatically collapsing the section that loses focus (default behavior), or it can allow for all sections to expand at the same time.
-- When an accordion expands and collapses only its height should change; its width should stay consistent.
-- The expand-and-collapse functionality of an accordion is tied to the entire header of the element, with additional actions being triggered only by interaction within the bounds of their related UI element.
+- Accordions allow a single section to expand at one time, while automatically collapsing the section that loses focus (default behavior), or they allow for all sections to expand at the same time.
+- When an accordion expands and collapses, only its height should change; its width should stay consistent.
+- The expand-and-collapse functionality of an accordion is tied to the entire header of the element with additional actions being triggered only by interaction within the bounds of their related UI element.
 - Avoid “nested” accordions — that is, collapsible content within collapsible content. This type of pattern goes against UX best practices.
 
 ## Progression

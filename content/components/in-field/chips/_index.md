@@ -24,7 +24,7 @@ Chips represent a complex piece of information in a compact form, such as an ent
 **Use when**
 
 - Enabling and verifying user input.
-  Using tags or descriptive words to filter content.
+- Using tags or descriptive words to filter content.
 - Delineating and displaying options in a compact area. They are a good alternative to toggle buttons or checkboxes.
 
 **Don’t use when**

@@ -22,25 +22,23 @@ tags: [in-field, styles]
 {class="table table-bordered table-thead-light d-none"}
 <!-- prettier-ignore-end -->
 
-**Note:** In-cab sizes only, see mobile for smaller options for in-field.
-
-### Behaviors
-
-All buttons (including icon buttons) should have the following states:
-
-- Alarms indicate that a show-stopping condition exists—the operator may NOT continue to work.
-- The system is unable to function until the underlying issue is addressed. Unresolved alarms will also appear in the Alarms & Alerts message tray under the Bell icon in the Action bar.
-- Unresolved alarms that are related to onboard devices, or other configuration errors will result in red Dashboard tiles.
-- Unresolved alarms may also result in error messages in others of the software.
+**Note:** In-cab sizes only. See mobile patterns (coming soon) for smaller options for in-field.
 
 - **Persistent:** Yes.
 - **Visibility:** Full Screen. Remains visible until acknowledged.
-- **Actions:** Can have one button (e.g. OK) or two (rare).
+- **Actions:** May include one button (e.g. OK) or two (rare).
 - **Shade rest of screen:** N/A - alarm is a full screen message.
 - **Audio:** One long continuous beep on entry.
-- **Message Centre:** Recorded in the log. Active until resolved, badge number on bell.
+- **Message Center:** Recorded in the log. Active until resolved, badge number on bell.
+
+### Behaviors
+
+- Alarms indicate that a show-stopping condition exists. The operator may NOT continue to work.
+- The system is unable to function until the underlying issue is addressed. Unresolved alarms will also appear in the Alarms & Alerts message tray under the Bell icon in the Action bar.
+- Unresolved alarms that are related to onboard devices, or other configuration errors will result in red Dashboard tiles.
+- Unresolved alarms may also result in error messages in other sections of the software.
 
 #### Editorial
 
-- Messages should be brief written in full sentences with proper punctuation.
+- Messages should be brief, written in full sentences with proper punctuation.
 - They should provide the user with helpful, contextual information about a possible action or a set of data.

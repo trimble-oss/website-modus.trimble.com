@@ -17,23 +17,26 @@ hidden: true
 
 ## Overview
 
-The user can select or alternatively deselect a checkbox. The user may select none, one, or multiple checkboxes, depending on their needs. A partial select is possible where parent/child checkbox lists occur. The state of the checkbox must be clear to the user. The checkbox should visually appear to depict if it is in a selected vs deselected state, or enabled vs disabled state
+Checkboxes should be used in forms that require submission and processing. The checkbox is shown as a square box that is ticked when it is activated. It allows the user to select one or more options among all the limited choices and requires a button press to confirm the user’s settings before they are committed.
 
-**Note:** Checkboxes for touchscreen apps, this component includes a large, invisible touch target around the Checkbox and Label to ensure high usability.
+**Note:** Checkboxes for touchscreen apps: this component includes a large, invisible touch target around the checkbox and Label to ensure high usability.
 
 ## Usage
 
 **Use when**
 
-- Filtering and batch action in lists and tables, on a full page, in modals, or on side panels.
-- Filtering data either on a page, in a menu, or within a component. Checkboxes are found in the Data table for batch editing purposes.
-- Requiring confirmation of terms and conditions. Selecting or deselecting the checkbox can indicate the user agrees to the terms.
-- There is a parent and child relationship. You can use a parent checkbox to make a bulk selection of all list items. Unchecking the parent deselects all of the list items. Alternatively, you can select children individually when the parent is not selected, which is where the indeterminate state comes in to play.
+- Affording a binary selection, like accepting terms and conditions.
+- Affording multiple selections from a set of options.
+- Enabling selection of an object, such as a [Card](/components/in-field/cards/).
+- Affording selection of a row within a data [Table](/components/in-field/table/).
+- There is a parent and child relationship. User may use a parent checkbox to make a bulk selection of all list items. Unchecking the parent deselects all of the list items. Alternatively, user may select children individually, when the parent is not selected.
 
 **Don't use when**
 
 - A user can select only one option from a list. Use [Radio Buttons](/components/in-field/radio-buttons/) instead. Checkboxes allow the user to select multiple items in a set whereas radio buttons allow the user to select only one option.
-- A function needs to be turned on or off. Use a [Switch](/components/in-field/switches/) instead.
+- Turning a feature, mode, or functionality on and off. Instead, use a [Switch](/components/in-field/switches/).
+- Checking or unchecking elicits an immediate change in the UI or functionality, such as enabling a disabled field or revealing more controls. Instead, use a [Switch](/components/in-field/switches/).
+- Checking or unchecking elicits a change in background functionality without affecting the UI, like disabling an email notification. Instead, use a [Switch](/components/in-field/switches/).
 
   {{< img src="/img/in-field/checkboxes-example.svg" dark="/img/in-field/checkboxes-example-dark.svg" width="100%" class="w-100" alt="Example of Checkboxes in Lists" >}}
 
