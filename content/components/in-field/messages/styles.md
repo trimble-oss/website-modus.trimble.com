@@ -11,9 +11,6 @@ tags: [in-field, styles]
 
 ## Specifications
 
-{{< img src="/img/in-field/messages-spec.svg" dark="/img/in-field/messages-spec-dark.svg" width="1088" height="343" alt="Messages Behavior messages-spec"  lazyload="auto" >}}
-
-
 <!-- prettier-ignore-start -->
 | State  | Example                                                                                           | Height | Use Case    |
 | ------ | ------------------------------------------------------------------------------------------------- |--------|-------------|
