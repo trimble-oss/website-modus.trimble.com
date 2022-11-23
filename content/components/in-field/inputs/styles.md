@@ -21,7 +21,7 @@ tags: [in-field, styles]
 | Size  | Example                                                                                           | Height |
 | ------ | ------------------------------------------------------------------------------------------------- |--------|
 | Default  | {{< img src="/img/in-field/input-spec.svg" dark="/img/in-field/input-spec-dark.svg" width="700" alt="Example Size" >}}   | 56px   |
-{class="table table-bordered table-thead-light d-none"}
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 **Note:** Incab sizes only, see mobile for smaller options for in-field.
