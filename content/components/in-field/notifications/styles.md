@@ -42,8 +42,7 @@ Note: All items spacing are 20dp. Incab size only, see mobile for smaller option
 | Loading    | {{< img src="/img/in-field/notifications-loading.svg"  width="584" alt="Example of an Loading Notification" >}}    |
 | Alert     | {{< img src="/img/in-field/notifications-alert.svg" width="584" alt="Example of a Alert Notification" >}}       |
 | Error      | {{< img src="/img/in-field/notifications-error.svg" width="584" alt="Example of a Error Notification" >}}         |
-
-{class="table table-bordered table-thead-light d-none"}
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 Basic toast message with heading text only.
