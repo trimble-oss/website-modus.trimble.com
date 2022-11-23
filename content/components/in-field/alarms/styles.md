@@ -12,14 +12,12 @@ tags: [in-field, styles]
 
 ## Specifications
 
-{{< img src="/img/in-field/alarm-spec.svg" dark="/img/in-field/alarm-spec-dark.svg" alt="Alarm spec" width="1077" height="848" class="w-100" lazyload="auto" >}}
-
 <!-- prettier-ignore-start -->
-| State    | Example                                                                                                                 |
-| -------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Spacing  | {{< img src="/img/in-field/alarm-spec.svg" dark="/img/in-field/alarm-spec-dark.svg" width="498" height="153" alt="" >}} |
-| Text     | {{< img src="/img/in-field/alarm-spec.svg" dark="/img/in-field/alarm-spec-dark.svg" width="498" height="153" alt="" >}} |
-{class="table table-bordered table-thead-light d-none"}
+| Type    | Example                                                                                                |
+| ------- | ------------------------------------------------------------------------------------------------------ |
+| Spacing | {{< img src="/img/in-field/alarm-spec-spacing.svg" width="471" height="290" alt="" lazyload="auto" >}} |
+| Text    | {{< img src="/img/in-field/alarm-spec-text.svg" width="430" height="328" alt="" lazyload="auto" >}}    |
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 **Note:** In-cab sizes only. See mobile patterns (coming soon) for smaller options for in-field.

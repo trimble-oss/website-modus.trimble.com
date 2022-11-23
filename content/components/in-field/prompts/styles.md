@@ -12,7 +12,12 @@ tags: [in-field, styles]
 
 ## Specifications
 
-{{< img src="/img/in-field/prompts-spec.svg" dark="/img/in-field/prompts-spec-dark.svg" width="1087" height="586" class="w-100" alt="Prompts Specs" lazyload="auto" >}}
+<!-- prettier-ignore-start -->
+| State  | Example                                                                                           | Height |
+| ------ | ------------------------------------------------------------------------------------------------- |--------|
+| Small  | {{< img src="/img/in-field/prompt-spec.svg" dark="/img/in-field/prompt-spec-dark.svg" width="587" alt="Example of a small message" >}}   | 168-260dp  |
+{class="table table-bordered table-thead-light"}
+<!-- prettier-ignore-end -->
 
 ## Prompts
 
@@ -41,18 +46,11 @@ tags: [in-field, styles]
 - Audio: Single beep on entry
 - Can be seen in the message Center and an active Message
 
-Basic toast message with heading text only.
 
-{{< img src="/img/in-field/prompts-example-1.svg" dark="/img/in-field/prompts-example-1-dark.svg" width="100%" class="w-100" alt="Prompts Example 1" >}}
-
-When more information is required add sub-text.
-
-{{< img src="/img/in-field/prompts-example-2.svg" dark="/img/in-field/prompts-example-2-dark.svg" width="100%" class="w-100" alt="Prompts Example 2" >}}
-
-**OEM Branding**
+## OEM Branding
 
 - Primary and secondary buttons can be branded only.
- ![Prompts OEM Branding](/img/in-field/prompts-oem.svg)
+{{< img src="/img/in-field/prompts-oem.svg" dark="/img/in-field/prompts-oem-dark.svg" width="100%" class="w-100" alt="Prompts OEM" >}}
 
 ### Editorial
 
@@ -64,7 +62,5 @@ When more information is required add sub-text.
   - Items needing resolution
   - Guidelines to successful completion
   - Ways to resolve problems
-
-![Cards states](/img/in-field/card-states.svg)
 
 **Note:** Focus state uses “global blue”.

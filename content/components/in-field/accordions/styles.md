@@ -15,16 +15,14 @@ Accordions come in two sizes to accommodate space availability on the page or wi
 
 ## Specifications
 
-{{< img src="/img/in-field/accordion-specs.svg" dark="/img/in-field/accordion-specs-dark.svg" width="929" height="532" class="w-100" alt="Accordions Example" lazyload="auto" >}}
-
 <!-- prettier-ignore-start -->
-| State      | Example                                                                            | Height |
-|------------| ---------------------------------------------------------------------------------- | ------ |
-| Default    | {{< img src="/img/in-field/accordion-specs.svg" width="298" height="53" alt="" >}} | 72dp   |
-| Focus      | {{< img src="/img/in-field/accordion-specs.svg" width="298" height="53" alt="" >}} | 74dp   |
-| Subtitle   | {{< img src="/img/in-field/accordion-specs.svg" width="298" height="53" alt="" >}} | 74dp   |
-| Line Below | {{< img src="/img/in-field/accordion-specs.svg" width="298" height="53" alt="" >}} | 74dp   |
-{class="table table-bordered table-thead-light d-none"}
+| Type       | Example                                                                                                                                              | Height |
+|------------| ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| Default    | {{< img src="/img/in-field/accordion-spec-default.svg" dark="/img/in-field/accordion-spec-default-dark.svg" width="498" height="63" alt="" >}}       | 54dp   |
+| Focus      | {{< img src="/img/in-field/accordion-spec-focus.svg" dark="/img/in-field/accordion-spec-focus-dark.svg" width="498" height="63" alt="" >}}           | 54dp   |
+| Subtitle   | {{< img src="/img/in-field/accordion-spec-subtile.svg" dark="/img/in-field/accordion-spec-subtile-dark.svg" width="498" height="63" alt="" >}}       | 72dp   |
+| Line Below | {{< img src="/img/in-field/accordion-spec-line-below.svg" dark="/img/in-field/accordion-spec-line-below-dark.svg" width="498" height="63" alt="" >}} | 72dp   |
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 **Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.
@@ -38,16 +36,14 @@ Accordions come in two sizes to accommodate space availability on the page or wi
 
 ## Progression
 
-{{< img src="/img/in-field/accordion-progression.svg" dark="/img/in-field/accordion-progression-dark.svg" width="917" height="401" class="w-100" alt="Accordions Example" >}}
-
 <!-- prettier-ignore-start -->
-| State    | White background                                                                   | Line Below                                                                         | Line Above |
+| State    | Background                                                                   | Line Below                                                                         | Line Above |
 | -------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------- |
-| Default  | {{< img src="/img/in-field/accordion-specs.svg" width="98" height="53" alt="" >}} | {{< img src="/img/in-field/accordion-specs.svg" width="98" height="53" alt="" >}} | {{< img src="/img/in-field/accordion-specs.svg" width="98" height="53" alt="" >}} |
-| Focus    | {{< img src="/img/in-field/accordion-specs.svg" width="98" height="53" alt="" >}} | {{< img src="/img/in-field/accordion-specs.svg" width="98" height="53" alt="" >}} | {{< img src="/img/in-field/accordion-specs.svg" width="98" height="53" alt="" >}} |
-| Disabled | {{< img src="/img/in-field/accordion-specs.svg" width="98" height="53" alt="" >}} | {{< img src="/img/in-field/accordion-specs.svg" width="98" height="53" alt="" >}} | {{< img src="/img/in-field/accordion-specs.svg" width="98" height="53" alt="" >}} |
-| Expanded | {{< img src="/img/in-field/accordion-specs.svg" width="98" height="53" alt="" >}} | {{< img src="/img/in-field/accordion-specs.svg" width="98" height="53" alt="" >}} | {{< img src="/img/in-field/accordion-specs.svg" width="98" height="53" alt="" >}} |
-{class="table table-bordered table-thead-light d-none"}
+| Default  | {{< img src="/img/in-field/accordion-background-default.svg" dark="/img/in-field/accordion-background-default-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/accordion-line-below-default.svg" dark="/img/in-field/accordion-line-below-default-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/accordion-line-above-default.svg" dark="/img/in-field/accordion-line-above-default-dark.svg" height="56" alt="" >}} |
+| Focus    | {{< img src="/img/in-field/accordion-background-focus.svg" dark="/img/in-field/accordion-background-focus-dark.svg" height="56" alt="" >}} | {{< img src="/img/accordion-line-below-focus.svg" dark="/img/in-field/accordion-line-below-focus-dark.svg" height="56" alt="" >}} | {{< img src="/img/accordion-line-above-focus.svg" dark="/img/in-field/accordion-line-above-focus-dark.svg" height="56" alt="" >}} |
+| Disabled | {{< img src="/img/in-field/accordion-background-disabled.svg" dark="/img/in-field/accordion-background-disabled-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/accordion-line-below-disabled.svg" dark="/img/in-field/accordion-line-below-disabled-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/accordion-line-above-disabled.svg" dark="/img/in-field/accordion-line-above-disabled-dark.svg" height="56" alt="" >}} |
+| Expanded | {{< img src="/img/in-field/accordion-background-expanded.svg" dark="/img/in-field/accordion-background-expanded-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/accordion-line-below-expanded.svg" dark="/img/in-field/accordion-line-below-expanded-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/accordion-line-above-expanded.svg" dark="/img/in-field/accordion-line-above-expanded-dark.svg" height="56" alt="" >}} |
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 ### Editorial

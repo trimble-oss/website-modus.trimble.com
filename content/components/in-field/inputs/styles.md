@@ -17,7 +17,12 @@ tags: [in-field, styles]
 - Border Color: {{< color-preview hexL="#252A2E" hexD="#6A6E79" >}}
 - Container Color: {{< color-preview hexL="#FFFFFF" hexD="#000000" >}}
 
-{{< img src="/img/in-field/input-spec.png" dark="/img/in-field/input-spec-dark.png" width="1088" height="243" class="w-100" alt="Inputs Specs" lazyload="auto" >}}
+<!-- prettier-ignore-start -->
+| Size  | Example                                                                                           | Height |
+| ------ | ------------------------------------------------------------------------------------------------- |--------|
+| Default  | {{< img src="/img/in-field/input-spec.svg" dark="/img/in-field/input-spec-dark.svg" width="700" alt="Example Size" >}}   | 56px   |
+{class="table table-bordered table-thead-light"}
+<!-- prettier-ignore-end -->
 
 **Note:** Incab sizes only, see mobile for smaller options for in-field.
 
@@ -33,22 +38,20 @@ tags: [in-field, styles]
 - Form inputs that are **disabled** should be: {{< color-preview hexL="#ByB9C3" hexD="#6A6E79" >}} Stroke {{< color-preview hexD="#353A40" >}}
 - Form inputs that are **read only** have background color: {{< color-preview hexL="#E0E1E9" hexD="#353A40" >}}.
 
-{{< img src="/img/in-field/input-states.png" dark="/img/in-field/input-states-dark.png" width="100%" class="w-100" alt="Input States" >}}
-
 <!-- prettier-ignore-start -->
 | State     | Example                                                                                           |
 | --------- | ------------------------------------------------------------------------------------------------- |
-| Default   | {{< img src="/img/in-field/inputs-default.svg" width="199" alt="Example of a Default Input" >}}   |
-| Filled    | {{< img src="/img/in-field/inputs-filled.svg" width="199" alt="Example of a filled Input" >}}     |
-| Active    | {{< img src="/img/in-field/inputs-active.svg" width="199" alt="Example of an active Input" >}}    |
-| Focus     | {{< img src="/img/in-field/inputs-focus.svg" width="199" alt="Example of a focus Input" >}}       |
-| Info      | {{< img src="/img/in-field/inputs-info.svg" width="199" alt="Example of a info Input" >}}         |
-| Success   | {{< img src="/img/in-field/inputs-success.svg" width="199" alt="Example of a success Input" >}}   |
-| Warning   | {{< img src="/img/in-field/inputs-warning.svg" width="199" alt="Example of a warning Input" >}}   |
-| Error     | {{< img src="/img/in-field/inputs-error.svg" width="199" alt="Example of a error Input" >}}       |
-| Disabled  | {{< img src="/img/in-field/inputs-disabled.svg" width="199" alt="Example of a disabled Input" >}} |
-| Read only | {{< img src="/img/in-field/inputs-readonly.svg" width="199" alt="Example of a readonly Input" >}} |
-{class="table table-bordered table-thead-light d-none"}
+| Default   | {{< img src="/img/in-field/inputs-default.svg" dark="/img/in-field/inputs-default-dark.svg" width="468" alt="Example of a Default Input" >}}   |
+| Filled    | {{< img src="/img/in-field/inputs-filled.svg" dark="/img/in-field/inputs-filled.svg-dark.svg" width="468" alt="Example of a filled Input" >}}     |
+| Active    | {{< img src="/img/in-field/inputs-active.svg" dark="/img/in-field/inputs-active-dark.svg" width="468" alt="Example of an active Input" >}}    |
+| Focus     | {{< img src="/img/in-field/inputs-focus.svg" dark="/img/in-field/inputs-focus-dark.svg" width="468" alt="Example of a focus Input" >}}       |
+| Info      | {{< img src="/img/in-field/inputs-info.svg" dark="/img/in-field/inputs-info-dark.svg" width="468" alt="Example of a info Input" >}}         |
+| Success   | {{< img src="/img/in-field/inputs-success.svg" dark="/img/in-field/inputs-success-dark.svg" width="468" alt="Example of a success Input" >}}   |
+| Warning   | {{< img src="/img/in-field/inputs-warning.svg" dark="/img/in-field/inputs-warning-dark.svg" width="468" alt="Example of a warning Input" >}}   |
+| Error     | {{< img src="/img/in-field/inputs-error.svg" dark="/img/in-field/inputs-error-dark.svg" width="468" alt="Example of a error Input" >}}       |
+| Disabled  | {{< img src="/img/in-field/inputs-disabled.svg" dark="/img/in-field/inputs-disabled-dark.svg" width="468" alt="Example of a disabled Input" >}} |
+| Read only | {{< img src="/img/in-field/inputs-readonly.svg" dark="/img/in-field/inputs-readonly-dark.svg" width="468" alt="Example of a readonly Input" >}} |
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 #### Editorial

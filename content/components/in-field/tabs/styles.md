@@ -31,7 +31,6 @@ There are three types of tabs:
 
 Background Gray 0 is optional to make clearer than current white option.
 
-
 {{< img src="/img/in-field/tabs-spec.png" dark="/img/in-field/tabs-spec-dark.png" alt="Tab-Spec" >}}
 
 **Note:** Incab size only, see mobile for smaller options for in-field.
