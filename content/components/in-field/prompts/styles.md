@@ -16,7 +16,7 @@ tags: [in-field, styles]
 | State  | Example                                                                                           | Height |
 | ------ | ------------------------------------------------------------------------------------------------- |--------|
 | Small  | {{< img src="/img/in-field/prompt-spec.svg" dark="/img/in-field/prompt-spec-dark.svg" width="587" alt="Example of a small message" >}}   | 168-260dp  |
-{class="table table-bordered table-thead-light d-none"}
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 ## Prompts
@@ -62,6 +62,5 @@ tags: [in-field, styles]
   - Items needing resolution
   - Guidelines to successful completion
   - Ways to resolve problems
-
 
 **Note:** Focus state uses “global blue”.
