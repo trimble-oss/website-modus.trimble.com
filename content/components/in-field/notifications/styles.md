@@ -20,8 +20,7 @@ tags: [in-field, styles]
 | ------ | ------------------------------------------------------------------------------------------------- |--------|
 | Heading & Text  | {{< img src="/img/in-field/notifications-spec.svg" dark="/img/in-field/notifications-spec-dark.svg" width="645" alt="Example of a Notifications Spec" >}}   | 142-200px   | 
 | Heading & Icons| {{< img src="/img/in-field/notifications-spec-icons.svg" dark="/img/in-field/notifications-spec-icons-dark.svg" width="696" alt="Example of a Notifications with Icons" >}} | 106px   | 
-
-{class="table table-bordered table-thead-light d-none"}
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 Note: All items spacing are 20dp. Incab size only, see mobile for smaller options for in-field if required.
