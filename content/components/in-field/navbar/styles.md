@@ -9,13 +9,13 @@ tags: [in-field, styles]
 
 ## Specifications
 
-{{< img src="/img/in-field/navbar-spec.svg" dark="/img/in-field/navbar-spec-dark.svg" class="w-100" width="100%" alt="navbar Specifications" lazyload="auto" >}}
 
 <!-- prettier-ignore-start -->
 | Size  | Example                                                                                           | Height | Use Case    |
 | ------ | ------------------------------------------------------------------------------------------------- |--------|-------------|
-| Default  | {{< img src="/img/in-field/messages-small.svg" dark="/img/in-field/messages-small-dark.svg" width="655" alt="Example of a small message" >}}   | 48px   | Header    |
-
+| Default  | {{< img src="/img/in-field/nav-spec.svg" dark="/img/in-field/nav-spec-dark.svg" width="706" alt="Example Size" >}}   | 60px   | Header    |
+{class="table table-bordered table-thead-light d-none"}
+<!-- prettier-ignore-end -->
 
 **Note:** When logo is left to the edge Increase padding to 16dp. Incab size only, see mobile for smaller options for in-field.
 
@@ -38,7 +38,16 @@ tags: [in-field, styles]
 
 ### Navbar Button State Examples
 
-{{< img src="/img/in-field/navbar-states.svg" dark="/img/in-field/navbar-states-dark.svg" class="w-100" width="100%" alt="Navbar States" >}}
+<!-- prettier-ignore-start -->
+| Size  | Trimble Background                                                                                    | Trimble Blue Background | 
+| ------ | ------------------------------------------------------------------------------------------------- |----------------------|
+| Default  | {{< img src="/img/in-field/nav-state-default.svg" dark="/img/nav-state-default-dark.svg" width="278" alt="State Default" >}}   |  {{< img src="/img/in-field/nav-state-blue-default.svg" width="278" alt="State Default Blue" >}}    |  
+|  Pressed | {{< img src="/img/in-field/nav-state-pressed.svg" dark="/img/in-field/nav-stated-pressed-dark.svg" width="278" alt="State Pressed" >}}   |  {{< img src="/img/in-field/nav-state-blue-pressed.svg" width="278" alt="State Pressed Blue" >}}    | 
+|  Focus | {{< img src="/img/in-field/nav-state-focus.svg" dark="/img/in-field/nav-state-focus-dark.svg" width="278" alt="State Focus" >}}   |  {{< img src="/img/in-field/nav-state-blue-focus.svg" width="278" alt="State Focus Blue" >}}    | 
+|  Disabled | {{< img src="/img/in-field/nav-state-disabled.svg" dark="/img/in-field/nav-state-disabled-dark.svg" width="278" alt="State Disabled" >}}   |  {{< img src="/img/in-field/nav-state-blue-disabled.svg" width="278" alt="State Disabled Blue" >}}    | 
+{class="table table-bordered table-thead-light d-none"}
+<!-- prettier-ignore-end -->
+
 
 ### OEM Branding
 
