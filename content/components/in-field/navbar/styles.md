@@ -14,7 +14,7 @@ tags: [in-field, styles]
 | Size  | Example                                                                                           | Height | Use Case    |
 | ------ | ------------------------------------------------------------------------------------------------- |--------|-------------|
 | Default  | {{< img src="/img/in-field/nav-spec.svg" dark="/img/in-field/nav-spec-dark.svg" width="706" alt="Example Size" >}}   | 60px   | Header    |
-{class="table table-bordered table-thead-light d-none"}
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 **Note:** When logo is left to the edge Increase padding to 16dp. Incab size only, see mobile for smaller options for in-field.
