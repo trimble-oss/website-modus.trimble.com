@@ -24,11 +24,11 @@ Accordions are containers that expand to reveal content progressively to limit t
 - You want to simplify a complex process.
 - There are options dependent upon a prior selection.
 - All options and information are not critical to see at first.
-- Allowing a user to hide controls and content so they can better focus on their task.
+- Allowing users to hide controls and content, so they can better focus on their task.
 
 **Don’t use when**
 
-- Providing an introductory element to a set of content which doesn’t need an expand and collapse functionality. Instead, use a Header (coming soon).
+- Providing an introductory element to a set of content which doesn’t need an expand and collapse functionality. Instead, use a [Navbar](/components/in-field/navbar/).
 - Hiding critical content solely to clean up the interface.
 - Hiding an action if the user can easily do it without additional input.
 - Hiding primary actions on the page.

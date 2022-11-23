@@ -13,6 +13,8 @@ tags: [in-field, styles]
 
 {{< img src="/img/in-field/dropdowns-spec.svg" dark="/img/in-field/dropdowns-spec-dark.svg" width="1088" height="471" alt="Dropdowns Spec" lazyload="auto" >}}
 
+### Behaviors
+
 - Make sure the items in the list are in logical order (alphabetical, chronological, order of importance, etc.)
 - If no item is preselected, use something like “Select a vendor” or “Select an account” in ghost or hint text format. If you can’t gray out the text, you can use some kind of indicator, like parentheses.
 - If you need to, you can display ”None” as one of the options. It should have the same text formatting as the other options in the list.
@@ -27,14 +29,7 @@ tags: [in-field, styles]
 {class="table table-bordered table-thead-light d-none"}
 <!-- prettier-ignore-end -->
 
-### Behaviors
-
-- Dialogs are usually activated by user actions (such as activating a button) but may also be the result of a timed event (such as a session timeout warning) or other events.
-- Dialogs can only be closed by either choosing an action represented by a button (e.g., Save or Cancel) or by clicking the Close icon. They cannot be dismissed by clicking outside of the modal.
-- Once a dialog reaches its maximum height, the header will remain fixed and content will scroll within the container. Scrolling within a modal should be discouraged: avoid extensive copy or many elements.
-- Dialogs are centered horizontally and vertically in the viewport.
-
-#### Editorial
+### Editorial
 
 - Use title case for titles, unless the title is phrased as a question (e.g. Are you sure want to continue?). Use sentence case for questions.
 - Titles should clearly describe what’s inside the modal and the action required.

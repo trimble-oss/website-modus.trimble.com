@@ -31,13 +31,11 @@ A Card may contain any of the following elements (with the minimum of one), but 
 
 
 
-**Note:** Incab sizes only, see mobile for smaller options for in-field.
+**Note:** In-cab sizes only. See mobile patterns (coming soon) for smaller options for in-field.
 
 ### Behaviors
 
-- A set of radio buttons should default to having one option selected, generally the first option. However, if pre-selection of an option results in incorrect assumptions (i.e., “Male” or “Female”) then no option should be selected by default.
-- If selecting no option is a viable choice, include a radio button within the group with an appropriate label, i.e. “None.”
-- A radio button’s label is part of the clickable area of the control.
+- Cards should only contain a single action, which is tied to a UI component within the action element or to the whole card (using a card as a link).
 
 #### States
 
@@ -52,12 +50,12 @@ A Card may contain any of the following elements (with the minimum of one), but 
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-**Note:** Focus state uses “global blue”.
+**Note:** Focus state uses “global blue.”
 
 #### OEM Branding
 
-- Use tones of gray’s are recommended
-- If using brand colors, avoid using Red due to the error state
+- Tones of gray are recommended.
+- If using brand colors, avoid using red. It signals an error state.
 
 {{< img src="/img/in-field/cards-oem.svg" dark="/img/in-field/cards-oem-dark.svg" width="100%" class="w-100" alt="Cards OEM" >}}
 
@@ -74,7 +72,7 @@ A Card may contain any of the following elements (with the minimum of one), but 
 **Caption**
 
 - Use full sentences with punctuation, no longer than 40 words if possible.
-  Do not include multiple paragraphs.
+- Do not include multiple paragraphs.
 
 **Action**
 

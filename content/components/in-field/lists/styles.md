@@ -12,23 +12,24 @@ tags: [in-field, styles]
 
 ## Specifications
 
-Each list item is represented as a text label. In addition to the item label, a list item may contain multiple pieces of information, such as an additional text detail and/or an icon. Depending on the purpose of the list, each row may also be accompanied by a control. Use when the user can benefit from viewing more information about each list item without needing to select the item first.
+Each list item is represented as a text label. In addition to the item label, a list item may contain multiple pieces of information, such as additional text details and/or an icon. Depending on the purpose of the list, each row may also be accompanied by a control. Use when the user can benefit from viewing more information about each list item without needing to select the item first.
 
 If needed, the user may reorder list items by touching the handle (6 dots at left side of line item) and dragging the list item to a different location.
 
-The user can also select a row to perform an action on the corresponding item.
-Where needed, lists can have groups of sub-categorized list items. Child list items are alternately shown/hidden using the arrow at the left side of the parent line item.
+The user may also select a row to perform an action on the corresponding item.
+
+Where needed, lists may have groups of sub-categorized list items. Child list items are alternately shown/hidden using the arrow at the left side of the parent line item.
 
 {{< img src="/img/in-field/lists-spec.svg" dark="/img/in-field/lists-spec-dark.svg" width="100%" class="w-100" alt="lists Specs" lazyload="auto" >}}
 
-**Note:** Incab sizes only, see mobile for smaller options for in-field.
+**Note:** In-cab sizes only. See mobile patterns for smaller options for in-field.
 
 ### Behaviors
 
 - Basic lists contain a set of items displayed in rows. Each item is represented as a text label. Depending on the purpose of the list, each row may also be accompanied by a control, such as a checkbox or radio button. The user can also select a row to perform an action on the corresponding item.
 - Complex lists contain a set of items displayed in rows. Each item is represented as a text label. In addition to the item label, the rows in a complex list contain multiple pieces of information for each item. Depending on the purpose of the list, each row may also be accompanied by a control. The user can also select a row to perform an action on the corresponding item.
-- Use when the user can benefit from viewing more information about each list item without needing to select the item first.
-- Use when the available space in the design does not let us display a table
+  - Use when the user can benefit from viewing more information about each list item without needing to select the item first.
+  - Use when the available space in the design does not let us display a table
 
 <!-- prettier-ignore-start -->
 | State    | Example                                                                                              |

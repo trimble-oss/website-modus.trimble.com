@@ -13,8 +13,8 @@ tags: [in-field, styles]
 
 Badges come in two defined heights:
 
-- Small: 32dp
-- Default: 40dp
+- **Small:** 32dp
+- **Default:** 40dp
 
 Badges should be centered vertically inside of their containing element.
 
@@ -26,11 +26,11 @@ Badges should be centered vertically inside of their containing element.
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-### Color Progression
+### Colors & Types
 
 <!-- prettier-ignore-start -->
-| State   | Primary | Secondary | Tertiary | Success | Warning | Danger |
-| ------- | ------- | --------- | -------- | ------- | ------- | ------ |
-| Default | {{< img src="/img/in-field/badges-primary.svg" dark="/img/in-field/badges-primary-dark.svg" alt="" >}}   | {{< img src="/img/in-field/badges-secondary.svg" dark="/img/in-field/badges-secondary-dark.svg" alt="" >}}     | {{< img src="/img/in-field/badges-tertiary.svg" dark="/img/in-field/badges-tertiary-dark.svg" alt="" >}}    | {{< img src="/img/in-field/badges-success.svg" dark="/img/in-field/badges-success-dark.svg" alt="" >}}   | {{< img src="/img/in-field/badges-warning.svg" dark="/img/in-field/badges-warning-dark.svg" alt="" >}}   | {{< img src="/img/in-field/badges-danger.svg" dark="/img/in-field/badges-danger-dark.svg" alt="" >}} |
+| Primary | Secondary | Tertiary | Success | Warning | Danger |
+| ------- | --------- | -------- | ------- | ------- | ------ |
+| {{< img src="/img/in-field/badges-primary.svg" dark="/img/in-field/badges-primary-dark.svg" alt="" >}}   | {{< img src="/img/in-field/badges-secondary.svg" dark="/img/in-field/badges-secondary-dark.svg" alt="">}}     | {{< img src="/img/in-field/badges-tertiary.svg" dark="/img/in-field/badges-tertiary-dark.svg" alt="" >}}    | {{< img src="/img/in-field/badges-success.svg" dark="/img/in-field/badges-success-dark.svg" alt="" >}}   | {{< img src="/img/in-field/badges-warning.svg" dark="/img/in-field/badges-warning-dark.svg" alt="" >}}   | {{< img src="/img/in-field/badges-danger.svg" dark="/img/in-field/badges-danger-dark.svg" alt="">}} |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->

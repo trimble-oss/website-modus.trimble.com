@@ -91,7 +91,7 @@ All buttons (including icon buttons) should have the following states:
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-**Note:** Focus state uses new blue for High contrast.
+**Note:** Focus state uses Highlight Blue for high contrast.
 
 #### Ancillary Button States
 
@@ -107,9 +107,9 @@ All buttons (including icon buttons) should have the following states:
 
 ## OEM Branding
 
-- Primary and secondary buttons can be branded for OEMs colors.
-- Primary should one of the brand colors and needs to clearly to see in the Cab.
-- Secondary should be keep to a tones of gray.
+- Primary and secondary buttons may be branded for OEM colors.
+- Primary button should be one of the brand colors and needs to be clearly visible in the cab under variable light conditions. Make sure it meets [color contrast accessibility standards](/foundations/accessibility/).
+- Secondary button should be restricted to a tone of gray.
 
 {{< img src="/img/in-field/btn-oem-branding.svg" dark="/img/in-field/btn-oem-branding-dark.svg" alt="OEM branding" >}}
 

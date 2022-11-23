@@ -20,7 +20,7 @@ tags: [in-field, styles]
 {class="table table-bordered table-thead-light d-none"}
 <!-- prettier-ignore-end -->
 
-**Note:** Incab sizes only, see mobile for smaller options for in-field.
+**Note:** In-cab sizes only. See mobile patterns for smaller options for in-field.
 
 ### Behaviors
 
@@ -51,7 +51,7 @@ All checkboxes should have the following states:
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-**Note:** Focus state uses “global blue”.
+**Note:** Focus state uses “global blue.”
 
 #### Labels
 
@@ -64,7 +64,7 @@ All checkboxes should have the following states:
 
 ### OEM Branding
 
-- Checkboxes can be branded based on the Primary color or other complementary colours for the best visibility in the cab.
+- Checkboxes may be branded based on the primary color or other complementary colors for the best visibility in the cab.
 
 {{< img src="/img/in-field/checkboxes-oem.svg" dark="/img/in-field/checkboxes-oem-dark.svg" width="100%" class="w-100" alt="Checkboxes OEM" >}}
 
