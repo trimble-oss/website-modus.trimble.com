@@ -12,6 +12,7 @@ webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/compone
 aliases:
   - "/components/badges/"
   - "/components/web/badge/"
+tags: [usage]
 ---
 
 ## Overview

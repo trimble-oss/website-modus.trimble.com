@@ -11,6 +11,7 @@ reactBootstrapURL: "/components/chips/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-chip--default"
 aliases:
   - "/components/chips/"
+tags: [usage]
 ---
 
 ## Overview
@@ -253,7 +254,7 @@ Input chips can be in any of the following states:
 
 ### Accessibility
 
-- Use `fieldset` to create a checkbox group.
+- Use `fieldset` to create a chip group.
 - Chips need to be focusable and part of the tab sequence.
 - When the chip has focus, pressing the "Space" key selects it or activates an action.
 

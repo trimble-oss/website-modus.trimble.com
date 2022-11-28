@@ -159,9 +159,13 @@
     <div class="row list text-dark" id="listjs-list">
 
       {{ if .Params.componentsWeb }}
-      {{ range first 96 (where .Site.Pages ".Section" "components") }}
+      {{ range first 196 (where .Site.Pages ".Section" "components") }}
       {{ if not (in .Params.tags "in-field" ) }}
+      {{ if not (in .Params.tags "accessibility" ) }}
+      {{ if not (in .Params.tags "styles" ) }}
       {{- partial "card-component.html" . -}}
+      {{- end }}
+      {{- end }}
       {{- end }}
       {{- end }}
       {{- end }}

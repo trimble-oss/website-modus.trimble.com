@@ -8,6 +8,7 @@ images:
   - "/img/headers/elements/transactional-emails.png"
 aliases:
   - "/components/transactional-emails/"
+tags: [usage, hide-accessibility, hide-styles]
 ---
 
 <style>

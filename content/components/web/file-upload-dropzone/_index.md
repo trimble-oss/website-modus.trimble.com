@@ -56,13 +56,6 @@ File upload dropzone allows users to upload content from their computer or devic
 - Label: keep the label short and concise limiting it to a few words and a single line of text.
 - Description: provide straightforward, jargon-free information about file format requirements and limitations to prevent errors.
 
-### Accessibility
-
-- The drop zone component builds on the native HTML `<input type="upload">` element. It includes a visual `<button>` and/or a drag-and-drop area that can receive keyboard focus.
-- Make sure the user can interact with the file uploader and the drag-and-drop region. To give the input keyboard focus, use the `tab` key (or `shift` + `tab` when tabbing backwards)
-  To activate the input, use the `enter`/`return` or `space` keys.
-- Provide clear and informative error messaging to help users understand what they needs to do to rectify the problem.
-
 {{< whats-changed-table >}}
 
 | Date       | Version | Notes                | Contributors                  |

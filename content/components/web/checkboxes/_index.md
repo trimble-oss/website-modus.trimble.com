@@ -12,6 +12,7 @@ reactBootstrapURL: "/components/checkboxes/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/user-inputs-checkbox--default"
 aliases:
   - "/components/checkboxes/"
+tags: [usage]
 ---
 
 ## Overview
@@ -182,6 +183,7 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 **Don't use when**
 
+- A user can select only one option from a list. Use [Radio Buttons](/components/in-field/radio-buttons/) instead. Checkboxes allow the user to select multiple items in a set whereas radio buttons allow the user to select only one option.
 - Turning a feature, mode, or functionality on and off. Instead, use a [Switch](/components/switches/).
 - Checking or unchecking elicits an immediate change in the UI or functionality, such as enabling a disabled field or revealing more controls. Instead, use a [Switch](/components/switches/).
 - Checking or unchecking elicits a change in background functionality without affecting the UI, like disabling an email notification. Instead, use a [Switch](/components/switches/).
@@ -269,46 +271,6 @@ Checkboxes should be used in forms that require submission and processing. The c
     </tr>
   </tbody>
 </table>
-
-## Specifications
-
-- Checkboxes use the same `:hover` and `:active` styles as the primary [Button](/components/buttons/) when checked.
-
-### Behaviors
-
-- Reflects the affirmative (“yes” or “true”) of its label when checked.
-- Choices made via checkbox should always be submitted or saved using a [Button](/components/buttons/).
-- A checkbox’s label is included in the clickable target area.
-- The default view of a set of checkboxes is having no option selected.
-
-### Editorial
-
-- Checkbox labels may be capitalized in 2 ways, depending on their length and placement on the UI:
-  - Use title case for short labels (fewer than 3 words) that are to the left or above a checkbox.
-  - Use sentence case for longer labels (more than 3 words) that are placed to the right of a checkbox, especially if the label reads like a phrase.
-
-**Default**
-
-- Use full sentences with punctuation.
-- If user is consenting to something, start the sentence with “I,” and also run the phrasing you choose by compliance.
-
-**Groups**
-
-- Use full sentences with punctuation for the checkbox group label.
-- Try to keep checkbox labels brief and start them with verbs.
-
-### Accessibility
-
-- The checkbox has role `checkbox`.
-- The checkbox has an accessible label provided by one of the following:
-  - Visible text content contained within the element with role `checkbox`.
-  - A visible label referenced by the value of `aria-labelledby` set on the element with role `checkbox`.
-  - `aria-label` set on the element with role `checkbox`.
-- When checked, the checkbox element has state `aria-checked` set to `true`. When not checked, it has state `aria-checked` set to `false`. When partially checked, it has state `aria-checked` set to `mixed`.
-- If a set of checkboxes is presented as a logical group with a visible label, the checkboxes are included in an element with role `group` that has the property `aria-labelledby` set to the ID of the element containing the label.
-- If the presentation includes additional descriptive static text relevant to a checkbox or checkbox group, the checkbox or checkbox group has the property `aria-describedby` set to the ID of the element containing the description.
-- Use `fieldset` to create a checkbox group.
-- When the checkbox has focus, pressing the "Space" key changes the state of the checkbox.
 
 {{< whats-changed-table >}}
 

@@ -11,6 +11,7 @@ reactBootstrapURL: "/components/spinners/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-spinner--default"
 aliases:
   - "/components/spinners/"
+tags: [usage]
 ---
 
 ## Overview
