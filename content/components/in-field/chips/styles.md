@@ -34,7 +34,7 @@ There are one size of Chips:
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-## Behaviors
+### Behaviors
 
 - Tap a chip to select it.
 - Multiple chips may be selected or unselected.

@@ -17,7 +17,7 @@ tags: [in-field, styles]
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-**Note:** When logo is left to the edge Increase padding to 16dp. Incab size only, see mobile for smaller options for in-field.
+**Note:** When logo is left to the edge, increase padding to 16dp. In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
 - Navbar background color should be white or Trimble Blue Dark.
 - Divider line: use a 1px bottom border when there is a sub-header or side panel or when page background is white (rather than the standard Trimble Gray Light).
@@ -32,19 +32,19 @@ tags: [in-field, styles]
 - Solid icon style should be used in the header (for consistency across apps).
 - Display order of app header elements:
 
-## Color Options
+### Color Options
 
 - Navbar background color can be white or Trimble Dark Blue and buttons are only Trimble Gray and Reversed.
 
 ### Navbar Button State Examples
 
 <!-- prettier-ignore-start -->
-| Size  | Trimble Background                                                                                    | Trimble Blue Background | 
+| Size  | Trimble Background                                                                                    | Trimble Blue Background |
 | ------ | ------------------------------------------------------------------------------------------------- |----------------------|
-| Default  | {{< img src="/img/in-field/nav-state-default.svg" dark="/img/nav-state-default-dark.svg" width="278" alt="State Default" >}}   |  {{< img src="/img/in-field/nav-state-blue-default.svg" width="278" alt="State Default Blue" >}}    |  
-|  Pressed | {{< img src="/img/in-field/nav-state-pressed.svg" dark="/img/in-field/nav-stated-pressed-dark.svg" width="278" alt="State Pressed" >}}   |  {{< img src="/img/in-field/nav-state-blue-pressed.svg" width="278" alt="State Pressed Blue" >}}    | 
-|  Focus | {{< img src="/img/in-field/nav-state-focus.svg" dark="/img/in-field/nav-state-focus-dark.svg" width="278" alt="State Focus" >}}   |  {{< img src="/img/in-field/nav-state-blue-focus.svg" width="278" alt="State Focus Blue" >}}    | 
-|  Disabled | {{< img src="/img/in-field/nav-state-disabled.svg" dark="/img/in-field/nav-state-disabled-dark.svg" width="278" alt="State Disabled" >}}   |  {{< img src="/img/in-field/nav-state-blue-disabled.svg" width="278" alt="State Disabled Blue" >}}    | 
+| Default  | {{< img src="/img/in-field/nav-state-default.svg" dark="/img/nav-state-default-dark.svg" width="278" alt="State Default" >}}   |  {{< img src="/img/in-field/nav-state-blue-default.svg" width="278" alt="State Default Blue" >}}    |
+|  Pressed | {{< img src="/img/in-field/nav-state-pressed.svg" dark="/img/in-field/nav-stated-pressed-dark.svg" width="278" alt="State Pressed" >}}   |  {{< img src="/img/in-field/nav-state-blue-pressed.svg" width="278" alt="State Pressed Blue" >}}    |
+|  Focus | {{< img src="/img/in-field/nav-state-focus.svg" dark="/img/in-field/nav-state-focus-dark.svg" width="278" alt="State Focus" >}}   |  {{< img src="/img/in-field/nav-state-blue-focus.svg" width="278" alt="State Focus Blue" >}}    |
+|  Disabled | {{< img src="/img/in-field/nav-state-disabled.svg" dark="/img/in-field/nav-state-disabled-dark.svg" width="278" alt="State Disabled" >}}   |  {{< img src="/img/in-field/nav-state-blue-disabled.svg" width="278" alt="State Disabled Blue" >}}    |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
@@ -57,7 +57,7 @@ tags: [in-field, styles]
 
 {{< img src="/img/in-field/navbar-oem.svg" dark="/img/in-field/navbar-oem-dark.svg" class="w-100" width="100%" alt="Navbar OEM" >}}
 
-## Editorial
+### Editorial
 
 - Capitalize proper nouns.
 - Use title case for menu titles (e.g. Notifications).

@@ -16,7 +16,7 @@ tags: [in-field, usage]
 
 Radio buttons are used to afford a single selection from two or more options.
 
-**Note:** Radio buttons for touchscreen apps should include a large, invisible touch target around the radio button and Label to ensure high usability.
+**Note:** Radio buttons for touchscreen apps should include a large, invisible touch target around the radio button and label to ensure high usability.
 
 ## Usage
 

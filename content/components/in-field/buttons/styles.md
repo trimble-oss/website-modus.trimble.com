@@ -96,16 +96,16 @@ All buttons (including icon buttons) should have the following states:
 #### Ancillary Button States
 
 <!-- prettier-ignore-start -->
-| State    | Background                                                                         | Line Below                                                                         | 
+| State    | Background                                                                         | Line Below                                                                         |
 | -------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------- |
-| Default  | {{< img src="/img/btn-ancillary-states-icon-default.svg" dark="/img/in-field/btn-ancillary-states-icon-default-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/btn-ancillary-states-danger-default.svg" height="56" alt="" >}} | 
+| Default  | {{< img src="/img/btn-ancillary-states-icon-default.svg" dark="/img/in-field/btn-ancillary-states-icon-default-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/btn-ancillary-states-danger-default.svg" height="56" alt="" >}} |
 | Pressed  | {{< img src="/img/in-field/btn-ancillary-states-icon-pressed.svg" dark="/img/in-field/btn-ancillary-states-icon-pressed-dark.svg" height="56" alt="" >}} | {{< img src="/img/btn-ancillary-states-danger-pressed.svg" height="56" alt="" >}} |
-| Focus    | {{< img src="/img/in-field/btn-ancillary-states-icon-focus.svg" dark="/img/in-field/btn-ancillary-states-icon-focus-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/btn-ancillary-states-danger-focused.svg" height="56" alt="" >}} | 
-| Disabled | {{< img src="/img/in-field/accordion-background-expanded.svg" dark="/img/in-field/accordion-background-expanded-dark.svg" height="53" alt="" >}} | {{< img src="/img/in-field/btn-ancillary-states-danger-disabled.svg" height="56" alt="" >}} | 
+| Focus    | {{< img src="/img/in-field/btn-ancillary-states-icon-focus.svg" dark="/img/in-field/btn-ancillary-states-icon-focus-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/btn-ancillary-states-danger-focused.svg" height="56" alt="" >}} |
+| Disabled | {{< img src="/img/in-field/accordion-background-expanded.svg" dark="/img/in-field/accordion-background-expanded-dark.svg" height="53" alt="" >}} | {{< img src="/img/in-field/btn-ancillary-states-danger-disabled.svg" height="56" alt="" >}} |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-## OEM Branding
+### OEM Branding
 
 - Primary and secondary buttons may be branded for OEM colors.
 - Primary button should be one of the brand colors and needs to be clearly visible in the cab under variable light conditions. Make sure it meets [color contrast accessibility standards](/foundations/accessibility/).

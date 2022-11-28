@@ -68,7 +68,7 @@ All checkboxes should have the following states:
 
 {{< img src="/img/in-field/checkboxes-oem.svg" dark="/img/in-field/checkboxes-oem-dark.svg" width="100%" class="w-100" alt="Checkboxes OEM" >}}
 
-#### Editorial
+### Editorial
 
 - Checkbox labels may be capitalized in two ways, depending on their length and placement on the UI:
   - Use title case for short labels (fewer than three words) that are to the left or above a checkbox.

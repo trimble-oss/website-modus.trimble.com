@@ -33,9 +33,9 @@ Background Gray 0 is optional to make clearer than current white option.
 
 {{< img src="/img/in-field/tabs-spec.png" dark="/img/in-field/tabs-spec-dark.png" alt="Tab-Spec" >}}
 
-**Note:** Incab size only, see mobile for smaller options for in-field.
+**Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
-## Behaviors
+### Behaviors
 
 - Try to organize tabs so that the most relevant, pre-selected tab is also the left most tab.
 - When clicked, tabs should transition between views and highlight the selected tab.
@@ -43,14 +43,14 @@ Background Gray 0 is optional to make clearer than current white option.
 - Tab content should not disrupt the overall page layout in ways that negatively impact user experience.
 - At a smaller screen size, the tabs collapse into a dropdown.
 
-## OEM Branding
+### OEM Branding
 
 - This component can be branded for OEM's.
 
 {{< img src="/img/in-field/tabs-oem.png" dark="/img/in-field/tabs-oem-dark.png" alt="Tab-OEM" >}}
 
 
-## Editorial
+### Editorial
 
 - Tab labels should be in all uppercase.
 - Avoid tab labels that contain more than two words.
