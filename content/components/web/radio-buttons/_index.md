@@ -12,6 +12,7 @@ aliases:
 bootstrapURL: "/components/radio-buttons/"
 reactBootstrapURL: "/components/radio-buttons/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-radio-group--default"
+tags: [usage]
 ---
 
 ## Overview
@@ -173,17 +174,6 @@ Radio buttons are used to afford a single selection from two or more options.
 
 - If necessary, a heading can accompany a set of radio buttons to provide further clarity for the user. Use sentence-case (only the first word in a phrase and any proper nouns capitalized).
 - Always use a clear and concise label for radio buttons. Be explicit about the action that will follow if the radio button is selected. Labels appear to the right of radio buttons. Use sentence-style capitalization (only the first word in a phrase and any proper nouns capitalized) and no more than three words.
-
-### Accessibility
-
-- The radio buttons are contained in or owned by an element with role `radiogroup`.
-- Each radio button element has role `radio`.
-- If a radio button is selected, the `radio` element has `aria-checked` set to `true`. If it is not selected, it has `aria-checked` set to `false`.
-- Each `radio` element is labelled by its content, has a visible label referenced by `aria-labelledby`, or has a label specified with `aria-label`.
-- The `radiogroup` element has a visible label referenced by `aria-labelledby` or has a label specified with `aria-label`.
-- If elements providing additional information about either the radio group or each radio button are present, those elements are referenced by the `radiogroup` element or radio elements with the `aria-describedby` property.
-- Right and left arrow keys and up and down arrow keys move focus sequentially between radio button in the group. Once the focus comes to the first or last radio buttons in the group, it cycles again.
-- If the focused radio button is not selected, "Space" key deselects the currently selected radio button and selects the focused radio button. It the focused radio button is selected, pressing the "Space" key does nothing.
 
 {{< whats-changed-table >}}
 

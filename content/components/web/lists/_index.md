@@ -11,6 +11,7 @@ reactBootstrapURL: "/components/lists/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-list--default"
 aliases:
   - "/components/lists/"
+tags: [usage]
 ---
 
 <style>
@@ -26,7 +27,10 @@ aliases:
 
 ## Overview
 
-Lists are used to present information in well-formed and semantic way. The most basic list group is an unordered list.
+Lists are used to present information in well-formed and organized way. The user can view or take action on list line items.
+A list displays related content in a vertical format. A list is typically the focus of the screen and composes the main body of the screen layout. Lists are composed of list items.
+List items should be of a similar and obvious category of information (i.e., a list of design files, or a list of point locations). A list item contains at least a label in a consistent format that helps the user to scan and read the content efficiently.
+The list order should be carefully considered. Examples of list orders include most recently used first, date created, alphabetical, or numeric value. The user may also filter the list to show certain content. Use filters judiciously.
 
 <div class="h6" id="list-items">List Items</div>
 <ul class="list-group">
@@ -47,6 +51,7 @@ Lists are used to present information in well-formed and semantic way. The most 
 **Don't use when**
 
 - Displaying tabular data. Instead, use a [Table](/components/web/tables/).
+- Making lists of uncategorized information. Use groups of list items to organize similar content.
 
 ## Specifications
 
@@ -188,7 +193,3 @@ Lists are available in three sizes: default, condensed (small) and large.
 - When we have control over list content, present the list items in sentence case (example: Your business name). The default order is alphabetical or numeric by date.
 - In instruction copy, use the words, “select” and “clear” to guide users to make selections. Don’t use the word “deselect.” It’s robotic and can’t be translated easily.
 - Don’t use punctuation in list items unless one of the list items includes more than one sentence. In that case, all the list items will have end punctuation.
-
-## Accessibility
-
-- Make sure the list is keyboard accessible. The tab order needs to be sequential.

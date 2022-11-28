@@ -11,6 +11,7 @@ reactBootstrapURL: "/components/messages/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-message--default"
 aliases:
   - "/components/messages/"
+tags: [usage]
 ---
 
 ## Overview
@@ -58,8 +59,3 @@ Messages display low priority content directly on the page and are not dismissab
 
 - Messages should be brief, full sentences, with proper punctuation.
 - They should provide the user with helpful, contextual information about a possible action or a set of data.
-
-### Accessibility
-
-- Make sure the message is read by screen readers.
-- Do not use the `role="alert"` attribute.

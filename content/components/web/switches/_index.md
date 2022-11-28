@@ -12,6 +12,7 @@ reactBootstrapURL: "/components/switches/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/user-inputs-switch--default"
 aliases:
   - "/components/switches/"
+tags: [usage]
 ---
 
 ## Overview
@@ -199,100 +200,6 @@ Switches are selection controls that yield instantaneous actions. They have an o
     </tr>
   </tbody>
 </table>
-
-## Specifications
-
-- A switch must have a visible label that clearly conveys what option a user will turn on or off.
-
-### Behaviors
-
-- Avoid changing the label text based on on and off state.
-
-<table class="table table-bordered">
-  <tr>
-    <td width="50%">
-      <div class="custom-control custom-switch">
-        <input
-          type="checkbox"
-          checked=""
-          class="custom-control-input"
-          id="doSwitch1"
-          name="doSwitch1"
-          value="customEx"
-        />
-        <label class="custom-control-label" for="doSwitch1">
-          Display information
-        </label>
-      </div>
-      <div class="custom-control custom-switch">
-        <input
-          type="checkbox"
-          class="custom-control-input"
-          id="doSwitch2"
-          name="doSwitch2"
-          value="customEx"
-        />
-        <label class="custom-control-label" for="doSwitch2">
-          Display information
-        </label>
-      </div>
-    </td>
-    <td>
-      <div class="custom-control custom-switch">
-        <input
-          type="checkbox"
-          checked=""
-          class="custom-control-input"
-          id="dontSwitch1"
-          name="dontSwitch1"
-          value="customEx"
-        />
-        <label class="custom-control-label" for="dontSwitch1">
-          Display information
-        </label>
-      </div>
-      <div class="custom-control custom-switch">
-        <input
-          type="checkbox"
-          class="custom-control-input"
-          id="dontSwitch2"
-          name="dontSwitch2"
-          value="customEx"
-        />
-        <label class="custom-control-label" for="dontSwitch2">
-          Don't display information
-        </label>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td class="do">
-      <strong class="text-success">Do</strong> use the same label text for both
-      the on and off state.
-    </td>
-    <td class="dont">
-      <strong class="text-danger">Don't</strong> change label text between
-      states.
-    </td>
-  </tr>
-</table>
-
-### Editorial
-
-- Avoid acronyms.
-- Use 2-5 words.
-- Use the same label text for on and off states
-
-### Accessibility
-
-- The switch has role `switch`.
-- The switch has an accessible label provided by one of the following:
-  - Visible text content contained within the element with role `switch`.
-  - A visible label referenced by the value of `aria-labelledby` set on the element with role `switch`.
-  - `aria-label` set on the element with role `switch`.
-- When on, the switch element has state `aria-checked` set to `true`. When off, it has state `aria-checked` set to `false`.
-- When the switch is in focus, pressing the "Space" key changes the state of the switch.
-- Use a `fieldset` to create a switch group.
 
 {{< whats-changed-table >}}
 | Date | Version | Notes | Contributors |
