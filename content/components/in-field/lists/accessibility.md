@@ -12,4 +12,4 @@ tags: [in-field, accessibility]
 
 ## Accessibility
 
-- Make sure the list is keyboard accessible. The tab order needs to be sequential.
+- The tab order needs to be sequential.
