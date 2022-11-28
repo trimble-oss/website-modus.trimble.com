@@ -357,27 +357,6 @@ Used only for "global" MyTrimble account items. Appears consistently everywhere 
 - Use title case for menu titles (e.g. Notifications).
 - Use sentence case for app descriptions and buttons (while preserving proper nouns).
 
-### Accessibility
-
-- Use unordered list `<ul>` groups for navbar items.
-- Place navbar (the list group) in a `nav` element. The `nav` element should also be marked with `aria-label="main navigation"` to clearly describe the type of navigation.
-- Place the `nav` element within the `<header>` region.
-- Use the `aria-current="true"` attribute to indicate the item that is currently selected, or—in a navigational context—use `aria-current="page"` to indicate the page that is currently selected. The `aria-current` attribute should be updated when the user makes a selection.
-- Provide alt text for product logo.
-- Provide tooltips for icons.
-
-#### "Skip to Main Content" Link
-
-- This link bypasses header links and ‘skips’ to the screen’s main content.
-- Provides increased usability for people using screen readers or keyboard navigation.
-- This link is invisible until it receives keyboard focus via the Tab key.
-- “Skip to main content” wording explains best where people are navigating to.
-  Example: `<div id="skiptocontent"><a href="#maincontent">Skip to main content</a></div>`
-
-{{< img src="/img/components/navbar-skip-content.svg" dark="/img/components/navbar-skip-content-dark.svg" alt="Skip to main content examples" >}}
-
-Reference for more detail: [https://webaim.org/techniques/skipnav/](https://webaim.org/techniques/skipnav/)
-
 {{< whats-changed-table >}}
 
 | Date     | Version | Notes                                                | Contributors                                                                     |
