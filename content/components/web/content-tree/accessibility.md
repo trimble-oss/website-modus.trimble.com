@@ -4,6 +4,8 @@ layout: "single"
 description: "A content tree provides users with a way to navigate nested hierarchical information using a parent-child relationship model"
 components: true
 componentsWeb: true
+reactBootstrapURL: "/components/content-tree/"
+webComponentsURL: https://modus-web-components.trimble.com/?path=/story/components-content-tree--default
 component: content-tree
 tags: [accessibility]
 ---

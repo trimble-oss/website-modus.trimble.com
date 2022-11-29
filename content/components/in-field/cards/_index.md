@@ -32,7 +32,6 @@ Cards are containers for displaying relevant and actionable information on a sin
 - You need to display content in a table format.
 - Grouping a large set of related information.
 
-
 ## Example
 
 {{< img src="/img/in-field/cards-example.svg" dark="/img/in-field/cards-example-dark.svg" class="w-100" width="979" height="860" alt="Cards in Lists Example" >}}

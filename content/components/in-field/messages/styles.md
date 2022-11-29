@@ -12,10 +12,10 @@ tags: [in-field, styles]
 ## Specifications
 
 <!-- prettier-ignore-start -->
-| State  | Example                                                                                           | Height | Use Case    |
-| ------ | ------------------------------------------------------------------------------------------------- |--------|-------------|
-| Small  | {{< img src="/img/in-field/messages-small.svg" dark="/img/in-field/messages-small-dark.svg" width="655" alt="Example of a small message" >}}   | 48px   | Cards     |
-| Medium | {{< img src="/img/in-field/messages-medium.svg" dark="/img/in-field/messages-medium-dark.svg" width="710" alt="Example of a small message" >}} | 56px   | Wizard         |
+| State  | Example                                                                                                                                        | Height | Use Case    |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |--------|-------------|
+| Small  | {{< img src="/img/in-field/messages-small.svg" dark="/img/in-field/messages-small-dark.svg" width="655" alt="Example of a small message" >}}   | 48px   | Cards       |
+| Medium | {{< img src="/img/in-field/messages-medium.svg" dark="/img/in-field/messages-medium-dark.svg" width="710" alt="Example of a small message" >}} | 56px   | Wizard      |
 | Large  | {{< img src="/img/in-field/messages-large.svg" dark="/img/in-field/messages-large-dark.svg" width="719" alt="Example of a small message" >}}   | 64px   | Top of Page |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->

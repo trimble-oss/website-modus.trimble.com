@@ -22,10 +22,10 @@ A Card may contain any of the following elements (with the minimum of one), but 
 - Lists _(optional)_
 
 <!-- prettier-ignore-start -->
-| Type       | Example                                                                            | Height |
-|------------| ---------------------------------------------------------------------------------- | ------ |
+| Type       | Example                                                                                                                        | Height |
+|------------| ------------------------------------------------------------------------------------------------------------------------------ | ------ |
 | Horizontal | {{< img src="/img/in-field/card-spec-horizontal.svg" dark="/img/in-field/card-spec-horizontal-dark.svg" height="72" alt="" >}} | 72dp   |
-| Vertical   | {{< img src="/img/in-field/card-spec-vertical.svg" dark="/img/in-field/card-spec-vertical-dark.svg" height="271" alt="" >}} | 268dp   |
+| Vertical   | {{< img src="/img/in-field/card-spec-vertical.svg" dark="/img/in-field/card-spec-vertical-dark.svg" height="271" alt="" >}}    | 268dp  |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
