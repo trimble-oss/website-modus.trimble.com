@@ -9,7 +9,15 @@ tags: [in-field, styles, hide-accessibility]
 
 ## Specifications
 
-{{< img src="/img/in-field/segmented-controls-spec.png" dark="/img/in-field/segmented-controls-spec-dark.png" width="1088" height="371" alt="Segmented Controls Specifications" lazyload="auto" >}}
+<!-- prettier-ignore-start -->
+| State  | Example                                                                                           | Height | Use |
+| ------ | ------------------------------------------------------------------------------------------------- |--------|--------|
+| Text only  | {{< img src="/img/in-field/segmented-controls-spec-text.svg" dark="/img/in-field/segmented-controls-spec-text-dark.svg" width="900" alt="Segmented Controls With Text" >}}   | 56dp   | Form  |
+ Default  |  {{< img src="/img/in-field/segmented-controls-spec-icon.svg" dark="/img/in-field/segmented-controls-spec-icon-dark.svg" width="900" alt="Segmented Controls With Text" >}}   | 56dp   | Form  | 
+ Floating  | {{< img src="/img/in-field/segmented-controls-spec-floating.svg" dark="/img/in-field/segmented-controls-spec-floating-dark.svg" width="900" alt="Segmented Controls Floating" >}}   | 56dp   | Floating content  |
+{class="table table-bordered table-thead-light"}
+<!-- prettier-ignore-end -->
+
 
 **Note:** Incab size only, see mobile for smaller options for in-field.
 
@@ -26,13 +34,19 @@ All segments controls should have the following states:
 - Focus
 - Disabled
 
-{{< img src="/img/in-field/segmented-controls-states.png" dark="/img/in-field/segmented-controls-states-dark.png" width="1088" height="371" alt="Segmented Controls States" >}}
-
-### Labels
-
-![Segmented-Controls Labels](/img/in-field/segmented-controls-labels.png)
+<!-- prettier-ignore-start -->
+| State  | Primary                                                                                           | Secondary | 
+| ------ | ------------------------------------------------------------------------------------------------- |--------|
+| Default  | {{< img src="/img/in-field/segmented-controls-primary-default.svg" dark="/img/in-field/segmented-controls-primary-default-dark.svg" width="423" alt="Segmented Controls Primary" >}}   | {{< img src="/img/in-field/segmented-controls-secondary-default.svg" dark="/img/in-field/segmented-controls-secondary-default-dark.svg" width="423" alt="Segmented Controls Secondary" >}}  | 
+Focus | {{< img src="/img/in-field/segmented-controls-primary-focus.svg" dark="/img/in-field/segmented-controls-primary-focus-dark.svg" width="423" alt="Segmented Controls Primary Focus" >}}   | {{< img src="/img/in-field/segmented-controls-secondary-focus.svg" dark="/img/in-field/segmented-controls-secondary-focus-dark.svg" width="423" alt="Segmented Secondary Focus" >}}   | 
+Disabled  | {{< img src="/img/in-field/segmented-controls-primary-disabled.svg" dark="/img/in-field/segmented-controls-primary-disabled-dark.svg" width="423" alt="Segmented Controls Primary Disabled" >}}   | {{< img src="/img/in-field/segmented-controls-secondary-disabled.svg" dark="/img/in-field/segmented-controls-secondary-disabled-dark.svg" width="423" alt="Segmented Controls Secondary Disabled" >}}   |  
+{class="table table-bordered table-thead-light"}
+<!-- prettier-ignore-end -->
 
 ### OEM Branding
 
 - Use the primary and secondary buttons colors
-  ![Segmented Controls OEM](/img/in-field/segmented-controls-oem.png)
+
+{{< img src="/img/in-field/segmented-controls-oem.png" dark="/img/in-field/segmented-controls-oem-dark.png" width="100%" class="w-100" alt="Input States" >}}
+
+

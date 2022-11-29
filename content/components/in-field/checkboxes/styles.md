@@ -44,10 +44,9 @@ All checkboxes should have the following states:
 <!-- prettier-ignore-start -->
 | State    | Active                                                       | Default                                                  | Indeterminate       |
 | -------- | ------------------------------------------------------------ | -------------------------------------------------------- | ------------------- |
-| Default  | {{< img src="/img/in-field/checkbox-progression-active-default.svg" dark="/img/in-field/checkbox-progression-active-default-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-not-active-default.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-indeterminate-default.svg" height="56" alt="" >}} |
-| Focus    | {{< img src="/img/in-field/checkbox-progression-focus.svg" dark="/img/in-field/checkbox-progression-focus-dark.svg" height="56" alt="" >}} | {{< img src="/img/checkbox-progression-not-active-focus.svg" height="56" alt="" >}} | {{< img src="/img/checkbox-progression-indeterminate-focus" height="56" alt="" >}} |
-| Error | {{< img src="/img/in-field/checkbox-progression-active-error.svg" dark="/img/in-field/checkbox-progression-active-error-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-not-active-error.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-indeterminate-error.svg" height="56" alt="" >}} |
-| Disabled | {{< img src="/img/in-field/checkbox-progression-active-disabled.svg" dark="/img/in-field/checkbox-progression-active-disabled-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-not-active-disabled.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-indeterminate-disabled.svg" height="56" alt="" >}} |
+| Default  | {{< img src="/img/in-field/checkbox-progression-active-default.svg" dark="/img/in-field/checkbox-progression-active-default-dark.svg" width="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-not-active-default.svg" width="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-indeterminate-default.svg" width="56" alt="" >}} |
+| Focus    | {{< img src="/img/in-field/checkbox-progression-focus.svg" dark="/img/in-field/checkbox-progression-focus-dark.svg" width="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-not-active-focus.svg" width="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-indeterminate-focus.svg"  width="56" alt="" >}} |
+| Disabled | {{< img src="/img/in-field/checkbox-progression-active-disabled.svg" dark="/img/in-field/checkbox-progression-active-disabled-dark.svg" width="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-not-active-disabled.svg" width="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-indeterminate-disabled.svg" widtht="56" alt="" >}} |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
@@ -58,7 +57,7 @@ All checkboxes should have the following states:
 <!-- prettier-ignore-start -->
 | Label Right                                          | Label Left                                                                         |
 |------------------------------------------------------| ---------------------------------------------------------------------------------- |
-| {{< img src="/img/in-field/checkbox-label-right.svg" dark="/img/in-field/checkbox-label-right-dark.svg" height="56" alt="" >}} | {{< img src="/img/in-field/checkbox-label-left-dark.svg" dark="/img/in-field/checkbox-label-left-dark.svg" height=56" alt="" >}} | 56dp   |
+| {{< img src="/img/in-field/checkbox-label-right.svg" dark="/img/in-field/checkbox-label-right-dark.svg" width="100" alt="" >}} | {{< img src="/img/in-field/checkbox-label-left.svg" dark="/img/in-field/checkbox-label-left-dark.svg" width=100" alt="" >}} | 56dp   |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 

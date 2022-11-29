@@ -31,6 +31,37 @@ Buttons are clickable elements that are used to trigger actions. They communicat
 
 - Segmented controls or other form controls would work better.
 
+## Types
+
+ In-field uses a mix of both color and structural progression for best contrast outside.
+
+### Color Mix Progression
+
+<!-- prettier-ignore-start -->
+| Example                              | Emphasis | When to use                                                          |
+| ------------------------------------ | -------- | -------------------------------------------------------------------- |
+| {{< img src="/img/in-field/btn-colour-mix-progression-primary.svg" dark="/img/in-field/btn-colour-mix-progression-primary-dark.svg" height="48" alt="Color Mix Progression" >}} | High     | Use to draw attention to the primary action on a screen. There should be only one Primary Button on a page at a time. Not all screens require a Primary Button.             |
+| {{< img src="/img/in-field/btn-colour-mix-progression-secondary.svg" dark="/img/in-field/btn-colour-mix-progression-secondary-dark.svg" height="48" alt="Color Mix Progression" >}} | Medium   | Use for secondary actions on a screen. These Buttons can be used on most pages without constrictions. They appear most often in high volume use cases like Tables, or in an Action Bar.                               |
+| {{< img src="/img/in-field/btn-colour-mix-progression-outline.svg" dark="/img/in-field/btn-colour-mix-progression-outline-dark.svg" height="48" alt="Color Mix Progression" >}} | Low  | Used for secondary actions to establish additional visual hierarchy. |
+| {{< img src="/img/in-field/btn-colour-mix-progression-text-only.svg" dark="/img/in-field/btn-colour-mix-progression-text-only-dark.svg" height="48" alt="Color Mix Progression" >}} | Low      | Used for secondary actions to establish additional visual hierarchy. |
+{class="table table-bordered table-thead-light"}
+<!-- prettier-ignore-end -->
+
+
+### Ancillary Buttons
+
+<!-- prettier-ignore-start -->
+| Example                                                                                                                                               | Emphasis | When to use                                                          |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------- |
+| {{< img src="/img/in-field/btn-ancillary-icon-only.svg" dark="/img/in-field/btn-ancillary-icon-only-dark.svg" height="56" alt="Ancillary Buttons" >}} | Medium   | Primary use is in-line or in “Button Groups.”                        |
+| {{< img src="/img/in-field/btn-ancillary-danger.svg" height="48" alt="Ancillary Buttons" >}} | Low  | Danger buttons have a different visual style to inform users of potentially destructive actions they are about to take. If using the danger button as a standalone, we recommend styling it as a secondary button. Within a set, the danger button should be styled as a primary button..|
+{class="table table-bordered table-thead-light"}
+<!-- prettier-ignore-end -->
+
+**Note:** A yellow button in the Trimble brand color can be used **only in special use cases.**
+
+
+
 {{< whats-changed-table >}}
 
 | Date       | Version | Notes                | Contributors |

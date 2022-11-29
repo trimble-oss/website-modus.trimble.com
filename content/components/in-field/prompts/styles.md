@@ -19,6 +19,8 @@ tags: [in-field, styles]
 {class="table table-bordered table-thead-light d-none"}
 <!-- prettier-ignore-end -->
 
+See notification for more detail.
+
 ## Prompts
 
 - Appear on top of the main content container.
@@ -27,6 +29,7 @@ tags: [in-field, styles]
 - Overlays over content on a page
 - Can include tint to add extra emphasis or to increase contrast with page content. When changing background color, make sure the text and icons pass [contrast ratio requirements](/foundations/accessibility/).
 - Remain on the page until dismissed.
+
 
 #### Resolvable Prompts
 
