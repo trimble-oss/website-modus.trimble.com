@@ -18,7 +18,7 @@ tags: [in-field, styles]
 
 {{< img src="/img/in-field/radios-specs.svg" dark="/img/in-field/radios-specs-dark.svg" width="100%" class="w-100" alt="Radio Buttons Specifications" lazyload="auto" >}}
 
-**Note:** Incab sizes only, see mobile for smaller options for in-field.
+**Note:**  In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
 ### Behaviors
 

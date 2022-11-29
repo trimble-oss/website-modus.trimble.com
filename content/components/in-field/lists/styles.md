@@ -42,7 +42,7 @@ Where needed, lists may have groups of sub-categorized list items. Child list it
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-#### Editorial
+### Editorial
 
 **Length**
 

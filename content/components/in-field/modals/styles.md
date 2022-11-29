@@ -14,7 +14,7 @@ tags: [in-field, styles]
 
 {{< img src="/img/in-field/modals-spec.svg" dark="/img/in-field/modals-spec-dark.svg" width="1087" height="471" class="w-100" alt="Modals Specifications" lazyload="auto" >}}
 
-**Note:** Incab sizes only, see mobile for smaller options for in-field.
+**Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
 Dialogs consist of the following elements:
 
@@ -31,7 +31,7 @@ Dialogs consist of the following elements:
 - Once a dialog reaches its maximum height, the header will remain fixed and content will scroll within the container. Scrolling within a modal should be discouraged: avoid extensive copy or many elements.
 - Dialogs are centered horizontally and vertically in the viewport.
 
-#### Editorial
+### Editorial
 
 - Use title case for titles, unless the title is phrased as a question (e.g. Are you sure want to continue?). Use sentence case for questions.
 - Titles should clearly describe what’s inside the modal and the action required.

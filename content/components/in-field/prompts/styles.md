@@ -15,7 +15,7 @@ tags: [in-field, styles]
 <!-- prettier-ignore-start -->
 | State  | Example                                                                                           | Height |
 | ------ | ------------------------------------------------------------------------------------------------- |--------|
-| Small  | {{< img src="/img/in-field/prompt-spec.svg" dark="/img/in-field/prompt-spec-dark.svg" width="587" alt="Example of a small message" >}}   | 168-260dp  |
+| Small  | {{<img src="/img/in-field/prompt-spec.svg" dark="/img/in-field/prompt-spec-dark.svg" width="587" alt="Example of a small message">}}   | 168-260dp  |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
@@ -47,7 +47,7 @@ tags: [in-field, styles]
 - Can be seen in the message Center and an active Message
 
 
-## OEM Branding
+### OEM Branding
 
 - Primary and secondary buttons can be branded only.
 {{< img src="/img/in-field/prompts-oem.svg" dark="/img/in-field/prompts-oem-dark.svg" width="100%" class="w-100" alt="Prompts OEM" >}}

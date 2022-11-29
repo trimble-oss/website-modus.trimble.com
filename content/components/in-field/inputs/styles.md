@@ -54,7 +54,7 @@ tags: [in-field, styles]
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-#### Editorial
+### Editorial
 
 - When possible, add helper text below an input to further clarify selections or validation errors.
 - Always mark **required** fields with an \* .

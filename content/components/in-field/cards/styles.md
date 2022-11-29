@@ -59,7 +59,7 @@ A Card may contain any of the following elements (with the minimum of one), but 
 
 {{< img src="/img/in-field/cards-oem.svg" dark="/img/in-field/cards-oem-dark.svg" width="100%" class="w-100" alt="Cards OEM" >}}
 
-#### Editorial
+### Editorial
 
 **Label**
 

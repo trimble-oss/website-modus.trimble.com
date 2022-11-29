@@ -36,7 +36,7 @@ tags: [in-field, styles]
 - Unresolved alarms that are related to onboard devices, or other configuration errors will result in red Dashboard tiles.
 - Unresolved alarms may also result in error messages in other sections of the software.
 
-#### Editorial
+### Editorial
 
 - Messages should be brief, written in full sentences with proper punctuation.
 - They should provide the user with helpful, contextual information about a possible action or a set of data.

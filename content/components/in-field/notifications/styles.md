@@ -23,15 +23,14 @@ tags: [in-field, styles]
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-Note: All items spacing are 20dp. Incab size only, see mobile for smaller options for in-field if required.
+**Note:** All items spacing are 20dp. Incab size only, see mobile for smaller options for in-field if required.
 
-## Behaviors
+### Types
 
-- Two types of Notifications
+There are two types of Notifications:
+
 - Basic toast message with heading text only.
 - When more information is required add sub-text.
-- Swipe right to dismiss or press the close button
-- Toasts fades out automatically 3 or 6 seconds depending on the importance
 
 <!-- prettier-ignore-start -->
 | State       | Example                                                                                                               |
@@ -50,6 +49,13 @@ Basic toast message with heading text only.
 When more information is required add sub-text.
 ![prompts example 2](/img/in-field/notifications-example-2.svg)
 
+**Note:** Focus state uses “global blue”.
+
+### Behaviors
+
+- Swipe right to dismiss or press the close button
+- Toasts fades out automatically 3 or 6 seconds depending on the importance
+
 ### Editorial
 
 - Keep titles three to five words if possible.
@@ -58,6 +64,3 @@ When more information is required add sub-text.
 - If the message requires a user to take action in order to continue or complete a task, use an [Alert](/components/in-field/alerts/) instead.
 - For messages, use full sentences with punctuation. Use sentence case.
 
-{{< img src="/img/in-field/card-states.svg" dark="/img/in-field/card-states-dark.svg" width="953" height="1247" class="w-100" alt="Card States" >}}
-
-**Note:** Focus state uses “global blue”.

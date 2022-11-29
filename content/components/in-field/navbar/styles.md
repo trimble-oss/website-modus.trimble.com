@@ -16,7 +16,7 @@ tags: [in-field, styles]
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-**Note:** When logo is left to the edge Increase padding to 16dp. Incab size only, see mobile for smaller options for in-field.
+**Note:** When logo is left to the edge, increase padding to 16dp. In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
 - Navbar background color should be white or Trimble Blue Dark.
 - Divider line: use a 1px bottom border when there is a sub-header or side panel or when page background is white (rather than the standard Trimble Gray Light).
@@ -31,7 +31,7 @@ tags: [in-field, styles]
 - Solid icon style should be used in the header (for consistency across apps).
 - Display order of app header elements:
 
-## Color Options
+### Color Options
 
 - Navbar background color can be white or Trimble Dark Blue and buttons are only Trimble Gray and Reversed.
 
@@ -55,7 +55,7 @@ tags: [in-field, styles]
 
 {{< img src="/img/in-field/navbar-oem.svg" dark="/img/in-field/navbar-oem-dark.svg" class="w-100" width="100%" alt="Navbar OEM" >}}
 
-## Editorial
+### Editorial
 
 - Capitalize proper nouns.
 - Use title case for menu titles (e.g. Notifications).

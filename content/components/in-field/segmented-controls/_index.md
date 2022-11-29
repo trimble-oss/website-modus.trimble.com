@@ -17,14 +17,14 @@ Segmented controls allow users to make a single selection from a set of 2–5 op
 
 **Use when**
 
-- Use a segmented control to provide closely related choices that affect an object, state, or view.
-- Use them over other selection controls to reduce cognitive load.
+- You need to provide closely related choices that affect an object, state, or view.
+- You need to reduce cognitive load and/or other selection controls are inadequate.
 
 **Don’t use when**
 
-- Avoid using a segmented control to enable actions, such as adding, removing, or editing content.
-- Do not use them to filter or navigate content (use [Tabs](/components/in-field/tabs/) instead).
-- Avoid crowding the control with too many segments.
+- Enabling actions, such as adding, removing, or editing content.
+- Filtering or navigating content (use [Tabs](/components/in-field/tabs/) instead).
+- There are too many segments causing crowding.
 
 {{< whats-changed-table >}}
 

@@ -20,7 +20,7 @@ tags: [in-field, styles]
 
 {{< img src="/img/in-field/sliders-spec.svg" dark="/img/in-field/sliders-spec-dark.svg" width="100%" class="w-100" alt="Sliders Specifications" lazyload="auto" >}}
 
-**Note:** Incab sizes only, see mobile for smaller options for in-field if required.
+**Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
 ### Behaviors
 
@@ -36,7 +36,7 @@ All sliders should have the following states:
 - Disabled
 - Error
 
-#### Sliders Progression
+### Sliders Progression
 
 {{< img src="/img/in-field/sliders-states.svg" dark="/img/in-field/sliders-states-dark.svg" width="100%" class="w-100" alt="Sliders Progression" >}}
 
@@ -52,7 +52,7 @@ All sliders should have the following states:
 
 ![Slider with Input](/img/in-field/sliders-input.svg)
 
-#### OEM Branding
+### OEM Branding
 
 - This can be branded with primary color.
   ![OEM branded slider](/img/in-field/sliders-with-labels-oem.svg)

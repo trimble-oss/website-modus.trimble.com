@@ -105,7 +105,7 @@ All buttons (including icon buttons) should have the following states:
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-## OEM Branding
+### OEM Branding
 
 - Primary and secondary buttons may be branded for OEM colors.
 - Primary button should be one of the brand colors and needs to be clearly visible in the cab under variable light conditions. Make sure it meets [color contrast accessibility standards](/foundations/accessibility/).
