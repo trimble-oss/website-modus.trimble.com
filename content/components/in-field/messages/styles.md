@@ -17,7 +17,7 @@ tags: [in-field, styles]
 | Small  | {{< img src="/img/in-field/messages-small.svg" dark="/img/in-field/messages-small-dark.svg" width="655" alt="Example of a small message" >}}   | 48px   | Cards     |
 | Medium | {{< img src="/img/in-field/messages-medium.svg" dark="/img/in-field/messages-medium-dark.svg" width="710" alt="Example of a small message" >}} | 56px   | Wizard         |
 | Large  | {{< img src="/img/in-field/messages-large.svg" dark="/img/in-field/messages-large-dark.svg" width="719" alt="Example of a small message" >}}   | 64px   | Top of Page |
-{class="table table-bordered table-thead-light d-none"}
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 **Note:** Incab sizes only, see mobile for smaller options for in-field.

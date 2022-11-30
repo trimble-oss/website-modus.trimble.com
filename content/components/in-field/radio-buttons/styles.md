@@ -20,7 +20,7 @@ tags: [in-field, styles]
 | State  | Example                                                                                           | Height | Use |
 | ------ | ------------------------------------------------------------------------------------------------- |--------|--------|
 | Default  | {{< img src="/img/in-field/checkbox-spec.svg" dark="/img/in-field/checkbox-spec-dark.svg" width="167" alt="Checkbox Spec" >}}   | 56px   | List  |
-{class="table table-bordered table-thead-light d-none"}
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 **Note:** Incab sizes only, see mobile for smaller options for in-field.
 
@@ -33,14 +33,13 @@ tags: [in-field, styles]
 #### Checkboxes Progression
 
 <!-- prettier-ignore-start -->
-| State    | Off                                                       | On                                                 | 
+| State    | Off                                                       | On                                                 |
 | -------- | ------------------------------------------------------------ | -------------------------------------------------------- |
 | Default  | {{< img src="/img/in-field/radio-btn-off.svg" height="56" alt="" >}} | {{< img src="/img/in-field/radio-btn-on.svg" dark="/img/in-field/radio-btn-on-dark.svg" height="56" alt="" >}} |
-| Focus    | {{< img src="/radio-btn-off-focus.svg" height="56" alt="" >}} | {{< img src="/img/radio-btn-on-focus.svg" dark="/img/in-field/radio-btn-on-focus-dark.svg" height="56" alt="" >}} | 
-| Disabled | {{< img src="/img/in-field/radio-btn-off-disabled.svg" height="56" alt="" >}} | {{< img src="/img/radio-btn-on-disabled.svg" dark="/img/in-field/radio-btn-on-disabled-dark.svg" height="56" alt="" >}} | 
+| Focus    | {{< img src="/img/in-field/radio-btn-off-focus.svg" height="56" alt="" >}} | {{< img src="/img/radio-btn-on-focus.svg" dark="/img/in-field/radio-btn-on-focus-dark.svg" height="56" alt="" >}} |
+| Disabled | {{< img src="/img/in-field/radio-btn-off-disabled.svg" height="56" alt="" >}} | {{< img src="/img/radio-btn-on-disabled.svg" dark="/img/in-field/radio-btn-on-disabled-dark.svg" height="56" alt="" >}} |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
-
 
 #### Labels
 
@@ -50,7 +49,7 @@ tags: [in-field, styles]
 | Label Right                                                                                                     | Label Left                                                                                                      |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | {{< img src="/img/in-field/radios-labels.svg" dark="/img/in-field/radios-labels-dark.svg" width="129" alt="" >}} | {{< img src="/img/in-field/radios-labels.svg" dark="/img/in-field/radios-labels-dark.svg" width="129" alt="" >}} |
-{class="table table-bordered table-thead-light d-none"}
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 #### Editorial

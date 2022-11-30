@@ -16,7 +16,7 @@ tags: [in-field, styles]
 | State  | Example                                                                                           | Height |
 | ------ | ------------------------------------------------------------------------------------------------- |--------|
 | Small  | {{< img src="/img/in-field/prompt-spec.svg" dark="/img/in-field/prompt-spec-dark.svg" width="587" alt="Example of a small message" >}}   | 168-260dp  |
-{class="table table-bordered table-thead-light d-none"}
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 See notification for more detail.
@@ -29,7 +29,6 @@ See notification for more detail.
 - Overlays over content on a page
 - Can include tint to add extra emphasis or to increase contrast with page content. When changing background color, make sure the text and icons pass [contrast ratio requirements](/foundations/accessibility/).
 - Remain on the page until dismissed.
-
 
 #### Resolvable Prompts
 

@@ -37,7 +37,7 @@ Messages are used within other elements to convey status and helpful information
 | {{< img src="/img/in-field/message-example-warning.svg" dark="/img/in-field/message-example-warning-dark.svg" width="552" height="64" alt="" >}} | Medium   | When user needs an inline message that attention.                                                |
 | {{< img src="/img/in-field/message-example-error.svg" dark="/img/in-field/message-example-error-dark.svg" width="552" height="64" alt="" >}} | Medium   | When the user needs an alert of very important message on a page.                                |
 | {{< img src="/img/in-field/message-example-default.svg" dark="/img/in-field/message-example-default-dark.svg" width="552" height="64" alt="" >}}  | Low      | Generic message than can be an action or less important information. Can have an icon if needed. |
-{class="table table-bordered table-thead-light d-none"}
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 {{< whats-changed-table >}}

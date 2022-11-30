@@ -17,7 +17,7 @@ tags: [in-field, styles]
 |---------| -------------------------------------------------------------------------------------------------------------------------------- | ------ |
 | Default | {{< img src="/img/in-field/checkbox-spec-default.svg" dark="/img/in-field/checkbox-spec-default-dark" height="56" alt="" >}}     | 56dp   |
 | Focus   | {{< img src="/img/in-field/checkbox-spec-focus-dark.svg" dark="/img/in-field/checkbox-spec-focus-dark.svg" height=56" alt="" >}} | 56dp   |
-{class="table table-bordered table-thead-light d-none"}
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 **Note:** Incab sizes only, see mobile for smaller options for in-field.
