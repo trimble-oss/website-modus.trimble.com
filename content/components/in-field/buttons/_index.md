@@ -57,7 +57,6 @@ Buttons are clickable elements that are used to trigger actions. Buttons are use
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-
 ### Ancillary Buttons
 
 <!-- prettier-ignore-start -->
@@ -69,8 +68,6 @@ Buttons are clickable elements that are used to trigger actions. Buttons are use
 <!-- prettier-ignore-end -->
 
 **Note:** A yellow button in the Trimble brand color can be used **only in special use cases.**
-
-
 
 {{< whats-changed-table >}}
 
