@@ -10,7 +10,7 @@ keywords: notifications, notification,
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/nnotifications.svg" dark="/img/in-field/notifications-dark.svg" width="961" alt="Example of a Notifications" lazyload="auto" >}}
+{{< img src="/img/in-field/notifications.svg" dark="/img/in-field/notifications-dark.svg" width="961" alt="Example of a Notifications" lazyload="auto" >}}
 
 ## Overview
 
@@ -31,11 +31,11 @@ A notification displays information that is helpful but not essential. It doesn'
 
 Basic toast message with heading text only.
 
-{{< img src="/img/notifications-example-1.svg" dark="/img/in-field/notifications-example-1-dark.svg" width="1087" class="w-100" alt="Notifications example 1" lazyload="auto" >}}
+{{< img src="/img/in-field/notifications-example-1.svg" dark="/img/in-field/notifications-example-1-dark.svg" width="1087" class="w-100" alt="Notifications example 1" lazyload="auto" >}}
 
 When more information is required add sub-text.
 
-{{< img src="/img/notifications-example-2.svg" dark="/img/in-field/notifications-example-2-dark.svg" width="1087" class="w-100" alt="Notifications example 2" lazyload="auto" >}}
+{{< img src="/img/in-field/notifications-example-2.svg" dark="/img/in-field/notifications-example-2-dark.svg" width="1087" class="w-100" alt="Notifications example 2" lazyload="auto" >}}
 
 {{< whats-changed-table >}}
 
