@@ -28,14 +28,14 @@ main td p img {
 - The size of the buttons should be used in proportion to the context and content around it.
 
 <!-- prettier-ignore-start -->
-| Type           | Example                                                                                                                                          | Height | Use |
-|----------------| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------ |-----------  |
-| Small          | {{< img src="/img/in-field/btn-spec-small.svg" dark="/img/in-field/btn-spec-small-dark.svg" width="445" height="48" alt="" >}}                   | 48dp   | In-page |
-| Default        | {{< img src="/img/in-field/btn-spec-default.svg" dark="/img/in-field/btn-spec-default-dark.svg" width="460" height="56" alt="" >}}               | 56dp   | Landscape Footer |
-| Large          | {{< img src="/img/in-field/btn-spec-large.svg" dark="/img/in-field/btn-spec-large-dark.svg" width="478" height="64" alt="" >}}                   | 64dp   | Landscape Footer |
+| Type           | Example                                                                                                                                          | Height | Use                |
+|----------------| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------ | ------------------ |
+| Small          | {{< img src="/img/in-field/btn-spec-small.svg" dark="/img/in-field/btn-spec-small-dark.svg" width="445" height="48" alt="" >}}                   | 48dp   | In-page            |
+| Default        | {{< img src="/img/in-field/btn-spec-default.svg" dark="/img/in-field/btn-spec-default-dark.svg" width="460" height="56" alt="" >}}               | 56dp   | Landscape Footer   |
+| Large          | {{< img src="/img/in-field/btn-spec-large.svg" dark="/img/in-field/btn-spec-large-dark.svg" width="478" height="64" alt="" >}}                   | 64dp   | Landscape Footer   |
 | Floating       | {{< img src="/img/in-field/btn-spec-floating.svg" dark="/img/in-field/btn-spec-floating-dark.svg" width="515" height="56" alt="" >}}             | 56dp   | Segmented Controls |
-| Floating Large | {{< img src="/img/in-field/btn-spec-floating-large.svg" dark="/img/in-field/btn-spec-floating-large-dark.svg" width="530" height="64" alt="" >}} | 64dp   | Floating Screen |
-| Stacked        | {{< img src="/img/in-field/btn-spec-stacked.svg" dark="/img/in-field/btn-spec-stacked-dark.svg" width="440" height="80" alt="" >}}               | 80dp   | Portrait |
+| Floating Large | {{< img src="/img/in-field/btn-spec-floating-large.svg" dark="/img/in-field/btn-spec-floating-large-dark.svg" width="530" height="64" alt="" >}} | 64dp   | Floating Screen    |
+| Stacked        | {{< img src="/img/in-field/btn-spec-stacked.svg" dark="/img/in-field/btn-spec-stacked-dark.svg" width="440" height="80" alt="" >}}               | 80dp   | Portrait           |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
@@ -69,10 +69,10 @@ All buttons (including icon buttons) should have the following states:
 <!-- prettier-ignore-start -->
 | State    | Background                                                                         | Line Below                                                                         |
 | -------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------- |
-| Default  | {{< img src="/img/in-field/btn-ancillary-states-icon-default.svg" dark="/img/in-field/btn-ancillary-states-icon-pressed-dark.svg" height="56" alt="" >}}   | {{< img src="/img/in-field/btn-ancillary-states-danger-default.svg" width="90" alt="" >}} | 
+| Default  | {{< img src="/img/in-field/btn-ancillary-states-icon-default.svg" dark="/img/in-field/btn-ancillary-states-icon-pressed-dark.svg" height="56" alt="" >}}   | {{< img src="/img/in-field/btn-ancillary-states-danger-default.svg" width="90" alt="" >}} |
 | Pressed  | {{< img src="/img/in-field/btn-ancillary-states-icon-pressed.svg" dark="/img/in-field/btn-ancillary-states-icon-pressed-dark.svg" height="56" alt="" >}}   | {{< img src="/img/in-field/btn-ancillary-states-danger-pressed.svg" dark="/img/in-field/btn-ancillary-states-danger-pressed.svg" width="90" alt="" >}} |
-| Focus    | {{< img src="/img/in-field/btn-ancillary-states-icon-focus.svg" dark="/img/in-field/btn-ancillary-states-icon-focus-dark.svg" height="56" alt="" >}}       | {{< img src="/img/in-field/btn-ancillary-states-danger-focused.svg" height="56" alt="" >}}  | 
-| Disabled | {{< img src="/img/in-field/btn-ancillary-states-icon-disabled.svg" dark="/img/in-field/btn-ancillary-states-icon-disabled-dark.svg" height="53" alt="" >}} | {{< img src="/img/in-field/btn-ancillary-states-danger-disabled.svg"width="90" alt="" >}} | 
+| Focus    | {{< img src="/img/in-field/btn-ancillary-states-icon-focus.svg" dark="/img/in-field/btn-ancillary-states-icon-focus-dark.svg" height="56" alt="" >}}       | {{< img src="/img/in-field/btn-ancillary-states-danger-focused.svg" height="56" alt="" >}}  |
+| Disabled | {{< img src="/img/in-field/btn-ancillary-states-icon-disabled.svg" dark="/img/in-field/btn-ancillary-states-icon-disabled-dark.svg" height="53" alt="" >}} | {{< img src="/img/in-field/btn-ancillary-states-danger-disabled.svg"width="90" alt="" >}} |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 

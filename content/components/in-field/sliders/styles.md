@@ -21,7 +21,7 @@ tags: [in-field, styles]
 <!-- prettier-ignore-start -->
 | Size    | Example                                                                                           | Height | Use |
 | ------- | ------------------------------------------------------------------------------------------------- |--------|--------|
-| Default | {{< img src="/img/in-field/slider-spec.svg" dark="/img/in-field/slider-spec-dark.svg" width="600" alt="Slider Spec" >}}   | 56dp   | Form   |
+| Default | {{< img src="/img/in-field/slider-spec.svg" dark="/img/in-field/slider-spec-dark.svg" width="600" alt="Slider Spec" >}} | 56dp   | Form   |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 

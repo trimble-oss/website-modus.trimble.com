@@ -16,10 +16,10 @@ tags: [in-field, styles]
 - A Notification also may be used to convey the resulting status of an action the user has taken. For example, if the user takes some action or undertakes a task, upon submit a Success, Warning, Error, or processing/loading may be communicated to the user via a Notification
 
 <!-- prettier-ignore-start -->
-| Size            | Example                                                                                           | Height | 
+| Size            | Example                                                                                           | Height |
 | --------------- | ------------------------------------------------------------------------------------------------- |--------|
-| Heading & Text  | {{< img src="/img/in-field/notifications-spec.svg" dark="/img/in-field/notifications-spec-dark.svg" width="645" alt="Example of a Notifications Spec" >}}   | 142-200px   | 
-| Heading & Icons | {{< img src="/img/in-field/notifications-spec-icons.svg" dark="/img/in-field/notifications-spec-icons-dark.svg" width="696" alt="Example of a Notifications with Icons" >}} | 106px   | 
+| Heading & Text  | {{< img src="/img/in-field/notifications-spec.svg" dark="/img/in-field/notifications-spec-dark.svg" width="645" alt="Example of a Notifications Spec" >}}   | 142-200px   |
+| Heading & Icons | {{< img src="/img/in-field/notifications-spec-icons.svg" dark="/img/in-field/notifications-spec-icons-dark.svg" width="696" alt="Example of a Notifications with Icons" >}} | 106px   |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
