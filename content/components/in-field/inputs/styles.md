@@ -18,10 +18,10 @@ tags: [in-field, styles]
 - Container Color: {{< color-preview hexL="#FFFFFF" hexD="#000000" >}}
 
 <!-- prettier-ignore-start -->
-| Size  | Example                                                                                           | Height |
-| ------ | ------------------------------------------------------------------------------------------------- |--------|
-| Default  | {{< img src="/img/in-field/input-spec.svg" dark="/img/in-field/input-spec-dark.svg" width="700" alt="Example Size" >}}   | 56px   |
-{class="table table-bordered table-thead-light d-none"}
+| Size    | Example                                                                                           | Height |
+| ------- | ------------------------------------------------------------------------------------------------- |--------|
+| Default | {{< img src="/img/in-field/input-spec.svg" dark="/img/in-field/input-spec-dark.svg" width="700" alt="Example Size" >}}   | 56px   |
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 **Note:** Incab sizes only, see mobile for smaller options for in-field.
