@@ -28,9 +28,14 @@ tags: [in-field, styles]
 
 #### Checkboxes Progression
 
-{{< img src="/img/in-field/radios-progressions.svg" dark="/img/in-field/radios-progressions-dark.svg" width="100%" class="w-100" alt="Radio Buttons progressions" >}}
-
-**Note:** Focus state uses “global blue”.
+<!-- prettier-ignore-start -->
+| State    | Off                                                       | On                                                 |
+| -------- | ------------------------------------------------------------ | -------------------------------------------------------- |
+| Default  | {{< img src="/img/in-field/radio-btn-off.svg" height="56" alt="" >}} | {{< img src="/img/in-field/radio-btn-on.svg" dark="/img/in-field/radio-btn-on-dark.svg" height="56" alt="" >}} |
+| Focus    | {{< img src="/img/in-field/radio-btn-off-focus.svg" height="56" alt="" >}} | {{< img src="/img/radio-btn-on-focus.svg" dark="/img/in-field/radio-btn-on-focus-dark.svg" height="56" alt="" >}} |
+| Disabled | {{< img src="/img/in-field/radio-btn-off-disabled.svg" height="56" alt="" >}} | {{< img src="/img/radio-btn-on-disabled.svg" dark="/img/in-field/radio-btn-on-disabled-dark.svg" height="56" alt="" >}} |
+{class="table table-bordered table-thead-light"}
+<!-- prettier-ignore-end -->
 
 #### Labels
 
@@ -39,8 +44,8 @@ tags: [in-field, styles]
 <!-- prettier-ignore-start -->
 | Label Right                                                                                                     | Label Left                                                                                                      |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| {{< img src="/img/in-field/radios-labels.svg" dark="/img/in-field/radios-labels-dark.svg" width="99" alt="" >}} | {{< img src="/img/in-field/radios-labels.svg" dark="/img/in-field/radios-labels-dark.svg" width="99" alt="" >}} |
-{class="table table-bordered table-thead-light d-none"}
+| {{< img src="/img/in-field/radios-labels.svg" dark="/img/in-field/radios-labels-dark.svg" width="129" alt="" >}} | {{< img src="/img/in-field/radios-labels.svg" dark="/img/in-field/radios-labels-dark.svg" width="129" alt="" >}} |
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 #### Editorial

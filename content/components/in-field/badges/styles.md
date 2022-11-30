@@ -21,16 +21,12 @@ Badges should be centered vertically inside of their containing element.
 <!-- prettier-ignore-start -->
 | Type     | Example                                                                                                                                | Height |
 |----------| -------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| Small    | {{< img src="/img/in-field/badge-spec-small.svg" dark="/img/in-field/badge-spec-small-dark.svg" width="298" height="73" alt="" >}}     | 32dp   |
-| Default  | {{< img src="/img/in-field/badge-spec-default.svg" dark="/img/in-field/badge-spec-default-dark.svg" width="298" height="73" alt="" >}} | 40dp   |
+| Small    | {{< img src="/img/in-field/badge-spec-small.svg" dark="/img/in-field/badge-spec-small-dark.svg" width="350"  alt="" style="margin:0 auto" >}} | 32dp   |
+| Default  | {{< img src="/img/in-field/badge-spec-default.svg" dark="/img/in-field/badge-spec-default-dark.svg" width="350"  alt="" >}}            | 40dp   |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 ### Colors & Types
 
-<!-- prettier-ignore-start -->
-| Primary | Secondary | Tertiary | Success | Warning | Danger |
-| ------- | --------- | -------- | ------- | ------- | ------ |
-| {{< img src="/img/in-field/badges-primary.svg" dark="/img/in-field/badges-primary-dark.svg" alt="" >}}   | {{< img src="/img/in-field/badges-secondary.svg" dark="/img/in-field/badges-secondary-dark.svg" alt="">}}     | {{< img src="/img/in-field/badges-tertiary.svg" dark="/img/in-field/badges-tertiary-dark.svg" alt="" >}}    | {{< img src="/img/in-field/badges-success.svg" dark="/img/in-field/badges-success-dark.svg" alt="" >}}   | {{< img src="/img/in-field/badges-warning.svg" dark="/img/in-field/badges-warning-dark.svg" alt="" >}}   | {{< img src="/img/in-field/badges-danger.svg" dark="/img/in-field/badges-danger-dark.svg" alt="">}} |
-{class="table table-bordered table-thead-light"}
-<!-- prettier-ignore-end -->
+{{< img src="/img/in-field/badges-colour-progression.svg" dark="/img/in-field/badges-colour-progression-dark.svg" width="600"  alt="Badges" lazyload="auto" >}}
+

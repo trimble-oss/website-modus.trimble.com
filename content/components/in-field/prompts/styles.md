@@ -46,7 +46,6 @@ tags: [in-field, styles]
 - Audio: Single beep on entry
 - Can be seen in the message Center and an active Message
 
-
 ### OEM Branding
 
 - Primary and secondary buttons can be branded only.
