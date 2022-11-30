@@ -29,8 +29,6 @@ A Card may contain any of the following elements (with the minimum of one), but 
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-
-
 **Note:** In-cab sizes only. See mobile patterns (coming soon) for smaller options for in-field.
 
 ### Behaviors
@@ -41,7 +39,7 @@ A Card may contain any of the following elements (with the minimum of one), but 
 
 <!-- prettier-ignore-start -->
 | State    | Vertical                                                                   | Horizontal
-| -------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------- |
+| -------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | Default  | {{< img src="/img/in-field/card-vertical-states-default.svg" dark="/img/in-field/card-vertical-states-default-dark.svg" height="156" alt="" >}} | {{< img src="/img/in-field/card-horizontal-states-default.svg" dark="/img/in-field/card-horizontal-states-default-dark.svg" height="72" alt="" >}} |
 | Pressed    | {{< img src="/img/in-field/card-vertical-states-pressed.svg" dark="/img/in-field/card-vertical-states-pressed-dark.svg" height="156" alt="" >}} | {{< img src="/img/in-field/card-horizontal-states-pressed.svg" dark="/img/in-field/card-horizontal-states-pressed-dark.svg" height="72" alt="" >}} |
 | Focus | {{< img src="/img/in-field/card-vertical-states-focus.svg" dark="/img/in-field/card-vertical-states-focus-dark.svg" height="156" alt="" >}} | {{< img src="/img/in-field/card-horizontal-states-focus.svg" dark="/img/in-field/card-horizontal-states-focus-dark.svg" height="72" alt="" >}} |

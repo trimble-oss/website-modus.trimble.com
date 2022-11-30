@@ -45,14 +45,14 @@ menu:
       id: Components
       url: "/components/web/"
       weight: 3
-    - name: In-field
+    - name: In-Field
       parent: Components
       url: "/components/in-field/"
-      weight: 3
+      weight: 2
     - name: Web
       parent: Components
       url: "/components/web/"
-      weight: 3
+      weight: 1
     - Name: Community
       url: "/community/"
       weight: 4

@@ -16,9 +16,9 @@ There are one size of Chips:
 - By default, Chips should have a height of 48dp, border radius 30dp, a font size 22sp Bold and use Primary, Secondary, Alert, Error color options.
 
 <!-- prettier-ignore-start -->
-| Type    | Example                                                                                                                                | Height |
-|----------| -------------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| Default    | {{< img src="/img/in-field/chips-state.svg" dark="/img/in-field/chips-state-dark.svg" width="350" alt="" >}}     | 48dp   |
+| Type    | Example                                                                                                          | Height |
+|---------| ---------------------------------------------------------------------------------------------------------------- | ------ |
+| Default | {{< img src="/img/in-field/chips-state.svg" dark="/img/in-field/chips-state-dark.svg" width="350" alt="" >}}     | 48dp   |
 {class="table table-bordered table-thead-light"}
 
 <!-- prettier-ignore-end -->

@@ -49,7 +49,6 @@ Background Gray 0 is optional to make clearer than current white option.
 
 {{< img src="/img/in-field/tabs-oem.png" dark="/img/in-field/tabs-oem-dark.png" alt="Tab-OEM" >}}
 
-
 ### Editorial
 
 - Tab labels should be in all uppercase.
