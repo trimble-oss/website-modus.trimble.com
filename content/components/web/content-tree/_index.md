@@ -10,6 +10,7 @@ reactBootstrapURL: "/components/content-tree/"
 webComponentsURL: https://modus-web-components.trimble.com/?path=/story/components-content-tree--default
 aliases:
   - "/components/content-tree/"
+tags: [usage]
 ---
 
 ## Overview
@@ -216,7 +217,7 @@ When a folder is selected, the duplicate icon in the toolbar becomes active.
 - The user clicks the duplicate icon.
 - The system duplicated that folder and it’s children.
 - The system pastes the duplicate folder below.
-- The new folder name is immediately editable. The name is not required to be unique; however, best for best [accessibility](#accessibility) practices, it should be).
+- The new folder name is immediately editable. The name is not required to be unique; however, best for best [accessibility](/components/web/accordions/accessibility/) practices, it should be).
 
 **Drag and Drop**
 
@@ -260,7 +261,7 @@ When a tree item is selected, the edit icon in the toolbar becomes active.
 
 - User clicks the edit icon.
 - The tree item name becomes an editable input field (see [Inputs](/components/inputs/)).
-- The user types in a new name (see [accessibility](#accessibility) guidelines below for best naming conventions).
+- The user types in a new name (see [accessibility](/components/web/accordions/accessibility/) guidelines below for best naming conventions).
 - The user can click outside of the input field or press enter to commit the new tree item name.
 
 **Add New Tree Item**
@@ -268,7 +269,7 @@ When a tree item is selected, the edit icon in the toolbar becomes active.
 Clicking the + will either add a new tree item to the top of the tree structure or if an item is selected above it.
 
 - When the user clicks the + icon, a new tree item is added to the top of the tree or above a selected tree item.
-- The user types in a new tree item name (see [accessibility](#accessibility) guidelines below for best naming conventions).
+- The user types in a new tree item name (see [accessibility](/components/web/accordions/accessibility/) guidelines below for best naming conventions).
 - The user can click outside of the input field or press enter to commit the new tree item and its name.
 
 _Note: The user can later drag & drop to move the tree item into their preferred place._
@@ -276,19 +277,6 @@ _Note: The user can later drag & drop to move the tree item into their preferred
 **Filter**
 
 Filter shows all the tree items matching the user's search term. Tree items are expanded to show all of the results of the search. Matching items are highlighted in Trimble Blue (#0063a3).
-
-### Accessibility
-
-- Availability of content tree items to assistive technology requires the use of `aria-controls` and toggling `aria-expanded` as regions are expanded and collapsed.
-- The name of each item should include the attribute `role="button"`.
-- Each tree item `button` is wrapped in an element with role `heading` that has a value set for `aria-level` that is appropriate for the information architecture of the page.
-  - If the native host language has an element with an implicit `heading` and `aria-level`, such as an HTML heading tag, a native host language element may be used.
-  - The `button` element is the only element inside the `heading` element. That is, if there are other visually persistent elements, they are not included inside the `heading` element.
-- If the accordion panel associated with an accordion header is visible, the header `button` element has `aria-expanded` set to `true`. If the panel is not visible, `aria-expanded` is set to `false`.
-- The accordion header `button` element has `aria-controls` set to the ID of the element containing the accordion panel content.
-- "Enter" or "Space" key should expand and collapse items. "Tab" key moves focus to the next focusable element; all focusable elements in the content tree should be included in the page tab sequence. "Shift" + "Tab" moves focus to the previous focusable element.
-- Avoid keyboard traps when adding components to the content tree. For example, the user expands a section, but is unable to tab to the next focusable element or to tab out of the content tree panel.
-- Although the content tree element passes accessibility testing, content authors are responsible for ensuring the content in the content tree is accessible.
 
 {{< whats-changed-table >}}
 

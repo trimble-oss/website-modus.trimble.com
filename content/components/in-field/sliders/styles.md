@@ -25,7 +25,7 @@ tags: [in-field, styles]
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-**Note:** Incab sizes only, see mobile for smaller options for in-field if required.
+**Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
 ### Behaviors
 
@@ -40,7 +40,7 @@ All sliders should have the following states:
 - Focus
 - Disabled
 
-#### Sliders Progression
+### Sliders Progression
 
 <!-- prettier-ignore-start -->
 | State    | Primary                                                                                           |
@@ -63,7 +63,7 @@ Above| {{< img src="/img/in-field/slider-label above-input-buttons-right.svg" da
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-#### OEM Branding
+### OEM Branding
 
 - This can be branded with primary color.
 

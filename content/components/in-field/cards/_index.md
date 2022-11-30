@@ -14,14 +14,16 @@ aliases:
 
 ## Overview
 
-Cards are used to group similar concepts and tasks together to make Information easier for the users to scan, read, and get things done. A card displays information and/or status on the card's subject. Tap anywhere on a card to navigate to a dialog to view more information and/or take actions on the card's subject.
+Cards are containers for displaying relevant and actionable information on a single topic. A card serves as a single, contained unit and is independent of surrounding content. It cannot be nested within cards and cannot divide into multiple cards. Tap anywhere on a card to navigate to a dialog to view more information and/or tap on a button to take specific action.
 
 ## Usage
 
 **Use when**
 
-- When you need heterogeneous items that use text, illustration, button and status.
-- Cards are commonly used on the Home or dashboard screen.
+- You need to group information in a digestible form.
+- You need to offer a short entry point that is linked to more detailed content or a complex task.
+- Laying out single or multiple sets of related information in the same region of the page. Cards may include an image, a text summary, chips, and actions. Cards typically have similar widths, but heights should accommodate varying content.
+- Cards are commonly used on home or dashboard screens.
 
 **Don't use when**
 
@@ -29,7 +31,6 @@ Cards are used to group similar concepts and tasks together to make Information 
 - You need to show content in multiple columns.
 - You need to display content in a table format.
 - Grouping a large set of related information.
-
 
 ## Example
 

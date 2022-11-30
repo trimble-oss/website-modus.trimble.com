@@ -11,6 +11,7 @@ reactBootstrapURL: "/components/cards/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-card--default"
 aliases:
   - "/components/cards/"
+tags: [usage]
 ---
 
 ## Overview
@@ -36,7 +37,8 @@ Cards are containers for displaying relevant and actionable information on a sin
 
 - You need to group information in a digestible form.
 - You need to offer a short entry point that is linked to more detailed content or a complex task.
-- Lay out single or multiple sets of related information in the same region of the page. Cards may include an image, a text summary, chips, and actions. Cards typically have similar widths, but heights should accommodate varying content.
+- Laying out single or multiple sets of related information in the same region of the page. Cards may include an image, a text summary, chips, and actions. Cards typically have similar widths, but heights should accommodate varying content.
+- Cards are commonly used on home or dashboard screens.
 
 **Don’t use when**
 
@@ -44,78 +46,6 @@ Cards are containers for displaying relevant and actionable information on a sin
 - You need to show content in multiple columns.
 - You need to display content in a table format.
 - Grouping a large set of related information.
-
-## Specifications
-
-A Card may contain any of the following elements (with the minimum of one), but they are all optional:
-
-- Card Container (with 1px border, 2px radius, 16px padding, and hover state with [Level 3 shadow](/foundations/shadows-and-depth/)) _required_
-- Image (top of card, no padding) _optional_
-- Title _optional_
-- Subtitle _optional_
-- Card Text _optional_
-- Button _optional_
-- Chips _optional_
-- Lists _optional_
-
-<br>
-
-- Card dimensions are based on its content and the container in which it resides.
-- Apply custom heights and width to meet product requirements.
-
-<table class="table table-bordered">
-  <tr>
-    <td class="w-50 text-center">
-    {{< img src="/img/components/card_04.svg" dark="/img/components/card_04-dark.svg" class="border bg-light mx-auto text-center mt-2" width="302" alt="card example" >}}
-    </td>
-    <td class="w-50 text-center">
-    {{< img src="/img/components/card_03.svg" dark="/img/components/card_03-dark.svg" class="border bg-light mx-auto text-center mt-2" width="302" alt="card example" >}}
-    </td>
-  </tr>
-  <tr>
-    <td class="do">
-    <strong class="text-success">Do</strong> keep cards consistent for easy scanning.
-    </td>
-    <td class="dont">
-      <strong class="text-danger">Don't</strong> organize content in different ways when grouped together.
-    </td>
-  </tr>
-</table>
-
-### Behaviors
-
-- Cards should only contain a single action, which is tied to a UI component within the action element or to the whole card (using a card as a link).
-
-### Editorial
-
-**Label**
-
-- Keep labels one to three words long, if possible, to avoid wrapping.
-
-**Title**
-
-- Keep titles one to five words long, if possible, to avoid wrapping.
-  Use title case and capitalize prepositions of four letters or more.
-
-**Caption**
-
-- Use full sentences with punctuation, no longer than 40 words if possible.
-- Do not include multiple paragraphs.
-
-**Action**
-
-- Follow the editorial guidelines for [Buttons](/components/web/buttons/), [Chips](/components/web/chips/), etc. when using those elements.
-
-**Metadata**
-
-- Keep metadata one to five words long to avoid wrapping.
-
-### Accessibility
-
-- Cards should use an underlying `article` element to maintain usability for some screen reader users.
-- Make sure all interactive elements within cards are part of a tab sequence.
-- Avoid keyboard traps when adding components to cards. For example, the user focuses on an element within a card, but is unable to tab to the next focusable element.
-- Although the card element passes accessibility testing, content authors need to ensure the content within the card is accessible. For example, if you add an image to the card you need to include alternative text to pass accessibility testing.
 
 {{< whats-changed-table >}}
 

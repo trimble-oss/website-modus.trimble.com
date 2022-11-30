@@ -17,7 +17,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 | Indicators & Selected States           | Calling candidates soon! |
 | Skeletons, Placeholders & Empty States | Calling candidates soon! |
 | Notifications, Alerts & Messages       | Calling candidates soon! |
-| Cards                                  | Calling candidates soon! |
+| Cards & Modals                         | Calling candidates soon! |
 | Footers                                | Calling candidates soon! |
 | High-Contrast Color Theme              | Calling candidates soon! |
 {class="table table-bordered"}
@@ -35,7 +35,6 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 | Side Panel | **J. de Wit**, C. Cuellar, A. Galstyan, C. Pop, D. Silcock, C. Starbird  | 08/17/2022 |
 | Icon Revision & Review | **E. Gunther**, G. Assi, S. Kaukonen, T. Manham, T. Ortiz, S. Reda, L. Saenz | 07/28/2022 |
 | Accessibility | **C. Koga**, D. Bedick, A. Chammoth-Sivaraman, A. Chandroo, K. Davies, J. Gray, G. Jagadeesan, B. Kobloth, F. Kuipers, **F. Lira**, B. Mergener, **C. Oliff**, S. Paasch, A. Rodriguez, C. Rodriguez, I. Perez, S. Kaukonen, H. Sunny, S. Fahad | 04/25/2022 |
-| Help Menu Navigation | **C. Christison**, D. Bedick, A. Chammoth Sivaraman, M. Cowley, C. Cuellar, F. Kuipers, A. Galstyan, T. Hautalahti, M. Linja-aho, R. Pekkinen, C. Starbird, T. Stryker, K. Vander Ploeg, J. Wegerer | 03/09/2022 |
 | 3D Design Patterns | **P. Borgstein**, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, A. Komninos, J. Oczkowski, E. Pilke, S. Sidhu, D. Silcock, T. Sippola, K. Thurlow | 01/24/2022 |
 | Mobile&nbsp;Patterns | **D. Bedick**, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell | 03/12/2021 |
 {class="table table-bordered"}
@@ -44,21 +43,22 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 ## Completed
 
 <!-- prettier-ignore-start -->
-| Team Name                      | Team Members               | Start Date  |
-| ------------------------------ | -------------------------- | ----------- |
-| Dark Mode | **S. Kaukonen**, P. Borgstein, E. Gunther, M. Johns, U. Meza, K. Phillips, A. C. Sivaraman, T. Williams, J. de Wit  | In Production  |
-| Icon Implementation | **S. Kaukonen**, E. Deleon, E. Gunther, C. Krieg, T. Manham, S. Ortiz, A. Shchegoleva, N. Vasudevan | In Production |
-| Side Navigation | **J. Wittmeyer**, N. Cadsawan, E. Deleon, E. Gunther, P. Karukkuvel, T. Manham, L. Meskanen-Kundu, C. D. Savio Lazaro, S. Taylor, A. Tucker, J. de Wit  | In Production |
-| Tables  | **G. Leuhof**, D. Donnell, H. Keller, S. Lucey, T. Manham, T. Ortiz, G. Piltzer, K. Tran, Z. Tran Do, S. Williams  | In Production |
-| Header/ Top Nav  | **S. Williams**, N. Cadsawan, C. Christison, J. Dong, E. Gunther, S. Taylor, K. Tran | Complete |
-| Email Templates | **Z. Kulpa**, T. Barnard, J. Dong, T. Saunders | Complete |
-| Data Visualization | **E. Nowak**, T. Barnard, E. Bohn, C. Willis | Complete |
-| Icon Definitions | **S. Kaukonen**, S. Bali, M. Heighway, T. Manham, E. Nowak | Complete |
-| Typography | **L. Cook**, E. Bohn, A. Eidam, E. Gunther, M. Heighway, G.Leuhof, N. Springer | Complete |
+| Team Name            | Team Members               | Start Date  |
+| -------------------- | -------------------------- | ----------- |
+| Help Menu Navigation | **C. Christison**, D. Bedick, A. Chammoth Sivaraman, M. Cowley, C. Cuellar, F. Kuipers, A. Galstyan, T. Hautalahti, M. Linja-aho, R. Pekkinen, C. Starbird, T. Stryker, K. Vander Ploeg, J. Wegerer | In Production |
+| Dark Mode            | **S. Kaukonen**, P. Borgstein, E. Gunther, M. Johns, U. Meza, K. Phillips, A. C. Sivaraman, T. Williams, J. de Wit  | In Production  |
+| Icon Implementation  | **S. Kaukonen**, E. Deleon, E. Gunther, C. Krieg, T. Manham, S. Ortiz, A. Shchegoleva, N. Vasudevan | In Production |
+| Side Navigation      | **J. Wittmeyer**, N. Cadsawan, E. Deleon, E. Gunther, P. Karukkuvel, T. Manham, L. Meskanen-Kundu, C. D. Savio Lazaro, S. Taylor, A. Tucker, J. de Wit  | In Production |
+| Tables               | **G. Leuhof**, D. Donnell, H. Keller, S. Lucey, T. Manham, T. Ortiz, G. Piltzer, K. Tran, Z. Tran Do, S. Williams  | In Production |
+| Header/ Top Nav      | **S. Williams**, N. Cadsawan, C. Christison, J. Dong, E. Gunther, S. Taylor, K. Tran | Complete |
+| Email Templates      | **Z. Kulpa**, T. Barnard, J. Dong, T. Saunders | Complete |
+| Data Visualization   | **E. Nowak**, T. Barnard, E. Bohn, C. Willis | Complete |
+| Icon Definitions     | **S. Kaukonen**, S. Bali, M. Heighway, T. Manham, E. Nowak | Complete |
+| Typography           | **L. Cook**, E. Bohn, A. Eidam, E. Gunther, M. Heighway, G.Leuhof, N. Springer | Complete |
 {class="table table-bordered"}
 <!-- prettier-ignore-end -->
 
-![Tiger Team Process](/img/guide/tiger-team-process.png)
+{{< img src="/img/guide/tiger-team-process.svg" dark="/img/guide/tiger-team-process-dark.svg" width="854" height="755" alt="Tiger Team Process" loading="auto" >}}
 
 ## Tiger Team Process
 

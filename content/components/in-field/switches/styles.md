@@ -15,7 +15,7 @@ tags: [in-field, styles]
 
 {{< img src="/img/in-field/switches-spec.svg" dark="/img/in-field/switches-spec-dark.svg" width="1088" height="143" class="w-100" alt="Switches Specifications" lazyload="auto" >}}
 
-**Note:** Incab sizes only, see mobile for smaller options for in-field.
+**Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
 ### Behaviors
 
@@ -38,13 +38,13 @@ All checkboxes should have the following states:
 
 ![Labels](/img/in-field/switches-label.svg)
 
-#### OEM Branding
+### OEM Branding
 
 - This can be branded for OEMs as primary or brand colors.
 
 {{< img src="/img/in-field/switches-oem.svg" width="100%" class="bg-light" alt="OEM Branding" >}}
 
-#### Editorial
+### Editorial
 
 - Avoid acronyms.
 - Use 2-5 words.

@@ -12,6 +12,7 @@ reactBootstrapURL: "/components/sliders/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-slider--default"
 aliases:
   - "/components/sliders/"
+tags: [usage]
 ---
 
 ## Overview

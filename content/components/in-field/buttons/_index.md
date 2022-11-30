@@ -18,18 +18,28 @@ sitemap_exclude: true
 
 ## Overview
 
-Buttons are clickable elements that are used to trigger actions. They communicate calls-to-action to the user and allow users to interact with pages in a variety of ways. Best practices recommend using button labels wherever possible to express what action will occur when the user interacts with it.
+Buttons are clickable elements that are used to trigger actions. Buttons are used to initialize an action, either in the background or foreground of an experience. Use button labels wherever possible to express what action will occur, when the user interacts with a button.
 
 ## Usage
 
 **Use when**
 
-- The intent is to communicate actions users can take and allow users to interact with the page.
-- Each page should have one primary button, and any remaining calls to action should be represented as lower emphasis buttons
+- Affording interaction to key behaviors and features.
+- Confirming or submitting information entered into a form.
+- Cancelling and action.
+- Resetting a form or dataset.
+- Closing a container or section.
+- Opening a menu.
+- Moving forward or backward through a wizard-type workflow.
+- Creating an object within a group.
+- Applying a non-critical action to a dataset.
 
 **Don't use when**
 
-- Segmented controls or other form controls would work better.
+- Displaying a collection of links to sections. Use links instead.
+- Linking to an external site. Use links instead.
+- An action is less important. Consider using a link instead.
+- Presenting the user with one or more high or medium-high actions specific to a task.
 
 ## Types
 

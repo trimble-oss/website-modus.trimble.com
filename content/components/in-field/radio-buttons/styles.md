@@ -16,13 +16,9 @@ tags: [in-field, styles]
 - A set of radio buttons should not default to having one option selected.
 - A heading much accompany a set of radio buttons.
 
-<!-- prettier-ignore-start -->
-| State   | Example                                                                                                                       | Height | Use  |
-| ------- | ----------------------------------------------------------------------------------------------------------------------------- |--------|------|
-| Default | {{< img src="/img/in-field/checkbox-spec.svg" dark="/img/in-field/checkbox-spec-dark.svg" width="167" alt="Checkbox Spec" >}} | 56px   | List |
-{class="table table-bordered table-thead-light"}
-<!-- prettier-ignore-end -->
-**Note:** Incab sizes only, see mobile for smaller options for in-field.
+{{< img src="/img/in-field/radios-specs.svg" dark="/img/in-field/radios-specs-dark.svg" width="100%" class="w-100" alt="Radio Buttons Specifications" lazyload="auto" >}}
+
+**Note:**  In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
 ### Behaviors
 

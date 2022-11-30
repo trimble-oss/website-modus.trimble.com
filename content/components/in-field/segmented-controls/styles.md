@@ -18,9 +18,9 @@ tags: [in-field, styles, hide-accessibility]
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-**Note:** Incab size only, see mobile for smaller options for in-field.
+**Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
-## Behaviors
+### Behaviors
 
 - Within a segmented control, all segments are usually equal in width. Like buttons, segments can contain text or images. Segments can also have text labels beneath them (or beneath the control as a whole).
 - In general, keep segment size consistent.
@@ -44,6 +44,5 @@ All segments controls should have the following states:
 
 ### OEM Branding
 
-- Use the primary and secondary buttons colors
-
-{{< img src="/img/in-field/segmented-controls-oem.png" dark="/img/in-field/segmented-controls-oem-dark.png" width="100%" class="w-100" alt="Input States" >}}
+- Use the primary and secondary button colors
+  ![Segmented Controls OEM](/img/in-field/segmented-controls-oem.png)

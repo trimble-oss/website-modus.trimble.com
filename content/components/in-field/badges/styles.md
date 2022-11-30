@@ -13,8 +13,8 @@ tags: [in-field, styles]
 
 Badges come in two defined heights:
 
-- Small: 32dp
-- Default: 40dp
+- **Small:** 32dp
+- **Default:** 40dp
 
 Badges should be centered vertically inside of their containing element.
 
@@ -26,7 +26,7 @@ Badges should be centered vertically inside of their containing element.
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-### Color Progression
+### Colors & Types
 
 {{< img src="/img/in-field/badges-colour-progression.svg" dark="/img/in-field/badges-colour-progression-dark.svg" width="600"  alt="Badges" lazyload="auto" >}}
 

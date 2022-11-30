@@ -16,24 +16,24 @@ aliases:
 
 ## Overview
 
-A Prompt is a type of message that requires user engagement - either to make a decision or to know about some system event. They may be of any status type - typically "error" or "warning".
+A Prompt is a type of message that requires user engagement, either to make a decision or to know about some system event. They may be of any status type, typically "error" or "warning".
 
 There are two types of prompt triggering conditions:
 
-1. Resolvable Prompts - condition goes away once user has made a choice.
+1. Resolvable Prompts: condition goes away once user has made a choice.
 
-2. Active Prompts - relates to a system event (e.g. hardware failure) to be resolved and will remain in the Active List in the Message Centre until this happens. An active prompt can either be dismissed by the condition being resolved or the user acknowledging the message
+2. Active Prompts: relates to a system event (e.g. hardware failure) to be resolved and will remain in the Active List in the Message Center. An active prompt can either be dismissed by the condition being resolved or the user acknowledging the message.
 
 ## Usage
 
 **Use when**
 
-- The user is informed of a situation requiring their attention and action
+- The user is informed of a situation requiring their attention and action.
 
 **Don't use when**
 
 - There is a system critical action the user must take. If the user should stop work and immediately attend to a problem or error, do NOT use a Prompt. An alarm is used for such scenarios. See [Alarms](/components/in-field/alarms/) for more information.
-- Do not use a Prompt if there is minor information that is "nice-to-know" but does not require the user to take any action. Use a [Notification](/components/in-field/notifications/) for such scenarios where basic information is conveyed to the user, but such information does not require user action.
+- You need to display minor information that is "nice-to-know" but does not require the user to take any action. Use a [Notification](/components/in-field/notifications/) for scenarios where basic information needs to be conveyed to the user but does not require user action.
 
 Basic Prompt message with heading text only.
 

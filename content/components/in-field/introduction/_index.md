@@ -53,16 +53,17 @@ Kits are available in Figma. This brand base must maintain optimal usability, wh
 
 **What can be brand-specific**
 
-- The following UI elements are designed and componentized to flexibly support brand themes:
-- App Button, icon, and name
-- Splash screen
-- Log In screen
-- Dashboard
-- Tiles - colors, images, and text labels are brandable
-- Start button - color is brandable
-- Global Brand bar (Activity bar at top of screen) - Brand name, Brand logo, and color only
-- OpenGL Machine models can be branded
-- Dialog images can be branded as well, to match the OpenGL machine model
+The following UI elements are designed and componentized to flexibly support brand themes:
+
+- App Button, icon, and name;
+- Splash screen;
+- Log In screen;
+- Dashboard;
+- Tiles - colors, images, and text labels are brandable;
+- Start button - color is brandable;
+- Global Brand bar (Activity bar at top of screen) - Brand name, Brand logo, and color only;
+- OpenGL Machine models can be branded;
+- Dialog images can be branded as well, to match the OpenGL machine model.
 
 ![intro OEM branding 2](/img/in-field/intro-oem-branding-2.png)
 
