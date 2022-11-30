@@ -17,9 +17,9 @@ tags: [in-field, styles]
 - A heading much accompany a set of radio buttons.
 
 <!-- prettier-ignore-start -->
-| State  | Example                                                                                           | Height | Use |
-| ------ | ------------------------------------------------------------------------------------------------- |--------|--------|
-| Default  | {{< img src="/img/in-field/checkbox-spec.svg" dark="/img/in-field/checkbox-spec-dark.svg" width="167" alt="Checkbox Spec" >}}   | 56px   | List  |
+| State   | Example                                                                                                                       | Height | Use  |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------- |--------|------|
+| Default | {{< img src="/img/in-field/checkbox-spec.svg" dark="/img/in-field/checkbox-spec-dark.svg" width="167" alt="Checkbox Spec" >}} | 56px   | List |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 **Note:** Incab sizes only, see mobile for smaller options for in-field.
