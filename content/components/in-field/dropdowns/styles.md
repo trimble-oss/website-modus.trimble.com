@@ -20,8 +20,6 @@ tags: [in-field, styles]
 - If you need to, you can display ”None” as one of the options. It should have the same text formatting as the other options in the list.
 - Dropdowns are activated by clicking, not hovering.
 
-{{< img src="/img/in-field/dropdowns-state.svg" dark="/img/in-field/dropdowns-state-dark.svg" width="100%" alt="Dropdowns state" >}}
-
 <!-- prettier-ignore-start -->
 | Default    | Pressed | Active    | Active Focus | Disabled |
 | ---------- | ------- | --------- | ------------ | -------- |
