@@ -33,7 +33,7 @@ Switches are selection controls that yield instantaneous actions. They have an o
   [Checkbox](/components/in-field/checkboxes/) group.
 - User need to select one item from a list of options. Instead, use a [Radio Button](/components/in-field/radio-buttons/).
 
-![Switches in Lists](/img/in-field/switches-example.svg)
+{{< img src="/img/in-field/switches-example.svg" dark="/img/in-field/switches-example-dark.svg" width="1088" height="239" class="w-100" alt="Switches in Lists" lazyload="auto" >}}
 
 {{< whats-changed-table >}}
 
