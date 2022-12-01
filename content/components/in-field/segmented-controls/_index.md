@@ -7,7 +7,7 @@ component: segmented-controls
 tags: [in-field, usage, hide-accessibility]
 ---
 
-![Segmented Controls](/img/in-field/segmented-controls.png)
+{{< img src="/img/in-field/segmented-controls.png" src="/img/in-field/segmented-controls-dark.png" class="w-100" alt="Segmented Controls" lazyload="auto" >}}
 
 ## Overview
 
