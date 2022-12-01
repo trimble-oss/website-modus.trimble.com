@@ -13,10 +13,10 @@ tags: [in-field, styles]
 - A checkbox must have a visible label that clearly conveys what option a user is choosing.
 
 <!-- prettier-ignore-start -->
-| Type    | Example                                                                                                                           | Height |
-|---------| --------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| Default | {{< img src="/img/in-field/checkbox-spec-default.svg" dark="/img/in-field/checkbox-spec-default-dark" height="56" alt="" >}}      | 56dp   |
-| Focus   | {{< img src="/img/in-field/checkbox-spec-focus-dark.svg" dark="/img/in-field/checkbox-spec-focus-dark.svg" height="56" alt="" >}} | 56dp   |
+| Type    | Example                                                                                                                          | Height |
+|---------| -------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| Default | {{< img src="/img/in-field/checkbox-spec-default.svg" dark="/img/in-field/checkbox-spec-default-dark.svg" width="182" alt="" >}} | 56dp   |
+| Focus   | {{< img src="/img/in-field/checkbox-spec-focus.svg" dark="/img/in-field/checkbox-spec-focus-dark.svg" width="289" alt="" >}}     | 56dp   |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
