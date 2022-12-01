@@ -45,14 +45,14 @@ menu:
       id: Components
       url: "/components/web/"
       weight: 3
-    - name: In-Field
-      parent: Components
-      url: "/components/in-field/"
-      weight: 2
-    - name: Web
-      parent: Components
-      url: "/components/web/"
-      weight: 1
+#    - name: In-Field
+#      parent: Components
+#      url: "/components/in-field/"
+#      weight: 2
+#    - name: Web
+#      parent: Components
+#      url: "/components/web/"
+#      weight: 1
     - Name: Community
       url: "/community/"
       weight: 4
@@ -100,6 +100,9 @@ menu:
       url: /foundations/writing-style/
 
   components_web:
+#    - name: Overview
+#      url: /components/web/overview/
+#      weight: 1
     - name: Accordions
       url: /components/web/accordions/
     - name: Alerts
@@ -162,6 +165,9 @@ menu:
       url: /components/web/transactional-emails/
 
   components_infield:
+    - name: Overview
+      url: /components/in-field/overview/
+      weight: 1
     - name: Accordions
       url: /components/in-field/accordions/
     - name: Alarms

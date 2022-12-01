@@ -6,11 +6,7 @@ components: true
 layout: single
 component: Introduction
 weight: 1
-url: "/components/in-field"
-tags: [in-field, hide-styles, hide-usage, hide-accessibility, OEM]
-private: true
-hidden: true
-sitemap_exclude: true
+tags: [in-field, hide-styles, hide-usage, hide-accessibility]
 ---
 
 <style>
