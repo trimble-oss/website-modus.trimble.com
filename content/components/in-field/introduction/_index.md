@@ -1,5 +1,5 @@
 ---
-title: "In-field Introduction"
+title: "In-field"
 layout: "single"
 description: "The in-field, high-contrast library is specific to applications used outdoors."
 components: true

@@ -16,7 +16,7 @@
               aria-expanded="false">{{- .Name -}}</a>
             <div class="dropdown-menu">
               {{ range .Children }}
-              <a class="dropdown-item" href="{{ .URL }}">
+              <a class="dropdown-item text-dark border-0" href="{{ .URL }}">
                 {{- .Name -}}
               </a>
               {{- end -}}

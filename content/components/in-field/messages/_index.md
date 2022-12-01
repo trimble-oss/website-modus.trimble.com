@@ -28,8 +28,6 @@ Messages are used within other elements to convey status and helpful information
 - There is a system-critical action the user must take. If the user should stop work and immediately attend to a problem or error, use an [Alarm](/components/in-field/alarms/).
 - You need to communicate contextual information or status about an input field component. Use [Helper Text](/components/in-field/helper-text/) instead.
 
-{{< img src="/img/in-field/messages-states.svg" dark="/img/in-field/messages-states-dark.svg" class="w-100" width="1087" height="353" alt="Messages states" >}}
-
 <!-- prettier-ignore-start -->
 | Example                                                                                    | Emphasis | When to use                                                                                      |
 | ------------------------------------------------------------------------------------------ | -------- | ------------------------------------------------------------------------------------------------ |

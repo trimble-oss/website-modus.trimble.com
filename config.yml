@@ -42,8 +42,17 @@ menu:
       url: "/foundations/"
       weight: 2
     - name: Components
+      id: Components
       url: "/components/web/"
       weight: 3
+    - name: In-Field
+      parent: Components
+      url: "/components/in-field/"
+      weight: 2
+    - name: Web
+      parent: Components
+      url: "/components/web/"
+      weight: 1
     - Name: Community
       url: "/community/"
       weight: 4

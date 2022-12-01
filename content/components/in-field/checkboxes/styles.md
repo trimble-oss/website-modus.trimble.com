@@ -15,8 +15,8 @@ tags: [in-field, styles]
 <!-- prettier-ignore-start -->
 | Type    | Example                                                                                                                          | Height |
 |---------| -------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| Default | {{< img src="/img/in-field/checkbox-spec-default.svg" dark="/img/in-field/checkbox-spec-default-dark.svg" width="182" alt="" >}}     | 56dp   |
-| Focus   | {{< img src="/img/in-field/checkbox-spec-focus.svg" dark="/img/in-field/checkbox-spec-focus-dark.svg" width="289" alt="" >}} | 56dp   |
+| Default | {{< img src="/img/in-field/checkbox-spec-default.svg" dark="/img/in-field/checkbox-spec-default-dark.svg" width="182" alt="" >}} | 56dp   |
+| Focus   | {{< img src="/img/in-field/checkbox-spec-focus.svg" dark="/img/in-field/checkbox-spec-focus-dark.svg" width="289" alt="" >}}     | 56dp   |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 

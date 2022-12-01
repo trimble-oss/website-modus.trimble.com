@@ -13,7 +13,7 @@ tags: [in-field, styles, hide-accessibility]
 | State     | Example                                                                                           | Height | Use |
 | --------- | ------------------------------------------------------------------------------------------------- |--------|--------|
 | Text only | {{< img src="/img/in-field/segmented-controls-spec-text.svg" dark="/img/in-field/segmented-controls-spec-text-dark.svg" width="900" alt="Segmented Controls With Text" >}}   | 56dp   | Form  |
-| Default   |  {{< img src="/img/in-field/segmented-controls-spec-icon.svg" dark="/img/in-field/segmented-controls-spec-icon-dark.svg" width="900" alt="Segmented Controls With Text" >}}   | 56dp   | Form  |
+| Default   | {{< img src="/img/in-field/segmented-controls-spec-icon.svg" dark="/img/in-field/segmented-controls-spec-icon-dark.svg" width="900" alt="Segmented Controls With Text" >}}   | 56dp   | Form  |
 | Floating  | {{< img src="/img/in-field/segmented-controls-spec-floating.svg" dark="/img/in-field/segmented-controls-spec-floating-dark.svg" width="900" alt="Segmented Controls Floating" >}}   | 56dp   | Floating content  |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
@@ -35,7 +35,7 @@ All segments controls should have the following states:
 
 <!-- prettier-ignore-start -->
 | State  | Primary                                                                                           | Secondary |
-| ------ | ------------------------------------------------------------------------------------------------- |--------|
+| ------ | ------------------------------------------------------------------------------------------------- | --------- |
 | Default  | {{< img src="/img/in-field/segmented-controls-primary-default.svg" dark="/img/in-field/segmented-controls-primary-default-dark.svg" width="423" alt="Segmented Controls Primary" >}}   | {{< img src="/img/in-field/segmented-controls-secondary-default.svg" dark="/img/in-field/segmented-controls-secondary-default-dark.svg" width="423" alt="Segmented Controls Secondary" >}}  |
 | Focus | {{< img src="/img/in-field/segmented-controls-primary-focus.svg" dark="/img/in-field/segmented-controls-primary-focus-dark.svg" width="423" alt="Segmented Controls Primary Focus" >}}   | {{< img src="/img/in-field/segmented-controls-secondary-focus.svg" dark="/img/in-field/segmented-controls-secondary-focus-dark.svg" width="423" alt="Segmented Secondary Focus" >}}   |
 | Disabled  | {{< img src="/img/in-field/segmented-controls-primary-disabled.svg" dark="/img/in-field/segmented-controls-primary-disabled-dark.svg" width="423" alt="Segmented Controls Primary Disabled" >}}   | {{< img src="/img/in-field/segmented-controls-secondary-disabled.svg" dark="/img/in-field/segmented-controls-secondary-disabled-dark.svg" width="423" alt="Segmented Controls Secondary Disabled" >}}   |

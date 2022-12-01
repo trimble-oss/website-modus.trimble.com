@@ -29,7 +29,7 @@ tags: [in-field, styles]
 #### Checkboxes Progression
 
 <!-- prettier-ignore-start -->
-| State    | Off                                                       | On                                                 |
+| State    | Off                                                          | On                                                 |
 | -------- | ------------------------------------------------------------ | -------------------------------------------------------- |
 | Default  | {{< img src="/img/in-field/radio-btn-off.svg" height="56" alt="" >}} | {{< img src="/img/in-field/radio-btn-on.svg" dark="/img/in-field/radio-btn-on-dark.svg" height="56" alt="" >}} |
 | Focus    | {{< img src="/img/in-field/radio-btn-off-focus.svg" height="56" alt="" >}} | {{< img src="/img/radio-btn-on-focus.svg" dark="/img/in-field/radio-btn-on-focus-dark.svg" height="56" alt="" >}} |
