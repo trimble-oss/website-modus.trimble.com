@@ -10,7 +10,7 @@ keywords: modal, Dialogs, Dialog
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/modals.png" src="/img/in-field/modals-dark.png" class="w-100 bg-light" width="1087" height="471" alt="Modals Specifications" lazyload="auto" >}}
+{{< img src="/img/in-field/modals.png" dark="/img/in-field/modals-dark.png" class="w-100 bg-light" width="1087" height="471" alt="Modals Specifications" lazyload="auto" >}}
 
 ## Overview
 
