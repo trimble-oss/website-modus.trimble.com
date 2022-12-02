@@ -5,6 +5,8 @@ description: "Cards contain content and actions about a single subject."
 components: true
 component: cards
 keywords: Cards, Card
+images:
+  - "/img/in-field/headers/cards.png"
 tags: [in-field, accessibility]
 ---
 

@@ -5,7 +5,7 @@ description: "Modal dialogs interrupt workflows and require user interaction."
 components: true
 component: modals
 images:
-  - "/img/components/headers/modals.png"
+  - "/img/in-field/headers/modals.png"
 keywords: Modals, Modal, Dialogs, Dialog
 tags: [in-field, accessibility]
 ---

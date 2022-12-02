@@ -4,7 +4,7 @@ layout: "single"
 description: "Sliders allow users to make selections from a range of values."
 components: true
 images:
-  - "/img/components/headers/sliders.png"
+  - "/img/in-field/headers/sliders.png"
 keywords: forms, form, range
 component: sliders
 tags: [in-field, usage]

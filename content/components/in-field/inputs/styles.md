@@ -4,7 +4,7 @@ layout: "single"
 description: ""
 components: true
 images:
-  - "/img/components/headers/inputs.png"
+  - "/img/in-field/headers/inputs.png"
 component: inputs
 tags: [in-field, styles]
 ---

@@ -5,7 +5,7 @@ description: "Alarms tell the user of a critical system problem."
 components: true
 component: alarms
 images:
-  - "/img/components/headers/alarms.png"
+  - "/img/in-field/headers/alarms.png"
 tags: [in-field, usage]
 aliases:
   - alarm

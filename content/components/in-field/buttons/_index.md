@@ -5,7 +5,7 @@ description: "Buttons are interactive elements that trigger an action or an even
 components: true
 component: buttons
 images:
-  - "/img/components/headers/buttons.png"
+  - "/img/in-field/headers/buttons.png"
 tags: [in-field, usage]
 aliases:
   - button

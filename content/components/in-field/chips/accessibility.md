@@ -5,7 +5,7 @@ description: "Chips represent small blocks of information and are commonly used 
 components: true
 component: Chips
 images:
-  - "/img/components/headers/chips.png"
+  - "/img/in-field/headers/chips.png"
 tags: [in-field, accessibility]
 ---
 

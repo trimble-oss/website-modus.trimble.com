@@ -5,7 +5,7 @@ description: "Checkboxes are used for a list of options where the user may selec
 components: true
 component: checkboxes
 images:
-  - "/img/components/headers/checkboxes.png"
+  - "/img/in-field/headers/checkboxes.png"
 tags: [in-field, usage]
 aliases:
   - checkbox

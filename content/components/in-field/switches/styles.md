@@ -5,7 +5,7 @@ description: "Switches are used to toggle functionality."
 components: true
 component: switches
 images:
-  - "/img/components/headers/switches.png"
+  - "/img/in-field/headers/switches.png"
 tags: [in-field, styles]
 ---
 
