@@ -252,12 +252,6 @@ Input chips can be in any of the following states:
 - Tap a chip to select it.
 - Multiple chips can be selected or unselected.
 
-### Accessibility
-
-- Use `fieldset` to create a chip group.
-- Chips need to be focusable and part of the tab sequence.
-- When the chip has focus, pressing the "Space" key selects it or activates an action.
-
 {{< whats-changed-table >}}
 
 | Date       | Version | Notes                             | Contributors |
