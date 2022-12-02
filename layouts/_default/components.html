@@ -131,8 +131,10 @@
   [data-theme="dark"] .card-tooltips {
     background-image: url("/img/components/headers/tooltips-dark.png") !important;
   }
-  .col-12:has(.card-components) {
-    display: none;
+  .col-12:has(.card-components),
+  .col-12:has(.card-in-field),
+  .col-12:has(.card-web) {
+    display: none !important;
   }
 </style>
 
@@ -162,6 +164,18 @@
       {{ range first 196 (where .Site.Pages ".Section" "components") }}
       {{ if not (in .Params.tags "in-field" ) }}
       {{ if not (in .Params.tags "accessibility" ) }}
+      {{ if not (in .Params.tags "styles" ) }}
+      {{- partial "card-component.html" . -}}
+      {{- end }}
+      {{- end }}
+      {{- end }}
+      {{- end }}
+      {{- end }}
+
+      {{ if .Params.componentsInField }}
+      {{ range first 196 (where .Site.Pages ".Section" "components") }}
+      {{ if not (in .Params.tags "accessibility" ) }}
+      {{ if (in .Params.tags "in-field" ) }}
       {{ if not (in .Params.tags "styles" ) }}
       {{- partial "card-component.html" . -}}
       {{- end }}
