@@ -14,7 +14,7 @@ tags: [in-field, usage]
 
 ## Overview
 
-A notification displays information that is helpful but not essential. It doesn't interrupt the user's work. A notification is fleeting. It is displayed temporarily, then stored in the Message Log.
+A notification displays information that is helpful but not essential. It doesn't interrupt the user's work. A notification is fleeting. It is displayed temporarily, then ideally stored in a message log.
 
 ## Usage
 
@@ -29,7 +29,7 @@ A notification displays information that is helpful but not essential. It doesn'
 
 ## Examples
 
-Basic toast message with heading text only.
+Basic notification with heading text only.
 
 {{<img src="/img/in-field/notifications-example-1.svg" dark="/img/in-field/notifications-example-1-dark.svg" width="1087" class="w-100" alt="Notifications example 1" lazyload="auto">}}
 
