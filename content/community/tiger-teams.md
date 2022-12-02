@@ -92,7 +92,7 @@ The team members will meet weekly to collaborate on the best way to solve the pr
 
 Once the team feels they have a good recommendation, they will share it with the Modus Product Manager, who will make sure that all the acceptance criteria are met. Then the leader will present the documentation and proposed designs to the Modus delivery team and/or the UX Board.
 
-### 7. Revisions and publication
+### 6. Revisions and publication
 
 The team will address any objections and provide revisions to their recommendations. If no revisions are necessary, the component is going to move into production to be added to Modus. A pattern is accepted, when
 
@@ -100,7 +100,7 @@ The team will address any objections and provide revisions to their recommendati
 - It is in agreement with foundations and Modus style;
 - It passes the heuristic review criteria without any recommendations.
 
-### 6. UX Community feedback
+### 7. UX Community feedback
 
 The UX community will have two weeks to review the recommendation, to conduct a heuristic evaluation, and to provide feedback. The feedback and any objections will be documented, discussed, and shared with the Tiger Team leader. Revisions will be prioritized for the next iteration.
 
