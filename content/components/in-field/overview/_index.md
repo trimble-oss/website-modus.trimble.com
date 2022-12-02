@@ -1,5 +1,5 @@
 ---
-title: "In-field"
+title: "In-Field"
 layout: "single"
 description: "The in-field, high-contrast library is specific to applications used outdoors."
 components: true
@@ -23,23 +23,25 @@ article .nav-tabs {
 
 ## Overview
 
-The in-field, high-contrast library is specific to applications used outdoors on handheld devices where the environmental conditions cannot be controlled. These applications are built to meet the users’ special needs, such as challenging outdoor lighting, moving or vibrating devices, and/or impeding protective clothing.
+The in-field, high-contrast library is specific to applications used outdoors on handheld or in-cab devices where the environmental conditions cannot be controlled. These applications are built to meet the users’ special needs, such as challenging outdoor lighting, moving or vibrating devices, and/or impeding protective clothing.
 
-**In-Cab**
+### In-Cab
+
 This is a library of Modus components, building blocks, specifications, and principles to maintain a consistent experience when operating heavy machinery or vehicles in the field. In-cab is a more specialized subcategory of in-field patterns. It is primarily targeted towards large, easy-to-use, easy-to-identify, high-contrast components.
 
 These components are designed specifically for use on displays within a machine or a vehicle, mounted in a cab, vibrating and often at arm's-length. Because operation of the machine is the user’s primary focus, the in-cab displays are used in the periphery of vision and need to have larger elements and rely heavily on iconography rather than text.
 
-**Modus In-field UI Kits**
-Kits are available in Figma. This brand base must maintain optimal usability, while also allowing flexibility to support Trimble and other OEM brand variations.
+## Modus In-Field UI Kits
+
+UI Kits are available in [Figma for designers](/designers/). This brand base must maintain optimal usability, while also allowing flexibility to support Trimble and other OEM (Original Equipment Manufacturers) brand variations.
 
 ![intro OEM branding](/img/in-field/intro-oem-branding.png)
 
 ## Supporting Brand Variations
 
-- The Modus In-field Design System will serve as the base for any products delivered to our parent organizations as well as branded variants for different OEMs.
+- The Modus In-Field Design System will serve as the base for any products delivered to our parent organizations as well as branded variants for different OEMs.
 
-###### Supporting our Customers
+## Supporting Our Customers
 
 - The brand base aims to best support each user group with easy-to-use User Interfaces (UI) and clear patterns of use, as well as targeted tone of voice and language that communicates best to the end user.
 

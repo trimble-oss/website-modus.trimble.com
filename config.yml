@@ -100,9 +100,9 @@ menu:
       url: /foundations/writing-style/
 
   components_web:
-#    - name: Overview
-#      url: /components/web/overview/
-#      weight: 1
+    - name: Overview
+      url: /components/web/overview/
+      weight: 1
     - name: Accordions
       url: /components/web/accordions/
     - name: Alerts
