@@ -6,7 +6,7 @@ components: true
 hidden: true
 component: accordions
 images:
-  - "/img/components/headers/accordions.png"
+  - "/img/in-field/headers/accordions.png"
 tags: [in-field, accessibility]
 ---
 

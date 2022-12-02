@@ -5,7 +5,7 @@ description: "Dropdowns present a list of options that can be used to filter or 
 components: true
 component: dropdowns
 images:
-  - "/img/components/headers/dropdowns.png"
+  - "/img/in-field/headers/dropdowns.png"
 keywords: dropdown
 tags: [in-field, usage]
 ---

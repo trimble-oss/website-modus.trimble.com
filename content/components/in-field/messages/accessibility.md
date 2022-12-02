@@ -5,7 +5,7 @@ description: "Messages provide the user with contextual static information. They
 components: true
 component: messages
 images:
-  - "/img/components/headers/messages.png"
+  - "/img/in-field/headers/messages.png"
 tags: [in-field, accessibility]
 ---
 

@@ -6,7 +6,7 @@ components: true
 hidden: true
 component: alarms
 images:
-  - "/img/components/headers/alarms.png"
+  - "/img/in-field/headers/alarms.png"
 tags: [in-field, styles]
 ---
 

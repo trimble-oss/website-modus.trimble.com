@@ -5,7 +5,7 @@ description: "Prompts inform the user about a decision they need to make or a sy
 components: true
 component: Prompts
 images:
-  - "/img/components/headers/prompts.png"
+  - "/img/in-field/headers/prompts.png"
 keywords: Prompt, Alert, Alerts
 tags: [in-field, styles]
 ---

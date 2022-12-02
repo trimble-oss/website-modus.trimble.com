@@ -5,7 +5,7 @@ description: "Badges are non-interactive labels which hold small amounts of info
 components: true
 component: badges
 images:
-  - "/img/components/headers/badges.png"
+  - "/img/in-field/headers/badges.png"
 tags: [in-field, accessibility]
 ---
 

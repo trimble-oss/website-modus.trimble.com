@@ -5,7 +5,7 @@ description: "Lists are made of list items. A list can be used to display conten
 components: true
 component: lists
 images:
-  - "/img/components/headers/lists.png"
+  - "/img/in-field/headers/lists.png"
 keywords: List
 tags: [in-field, usage]
 ---

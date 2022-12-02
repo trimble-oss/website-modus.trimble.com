@@ -5,7 +5,7 @@ description: "Prompts inform the user about a decision they need to make or a sy
 components: true
 component: prompts
 images:
-  - "/img/components/headers/prompts.png"
+  - "/img/in-field/headers/prompts.png"
 tags: [in-field, accessibility]
 ---
 

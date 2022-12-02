@@ -6,7 +6,7 @@ components: true
 keywords: forms, form, range
 component: sliders
 images:
-  - "/img/components/headers/sliders.png"
+  - "/img/in-field/headers/sliders.png"
 tags: [in-field, accessibility]
 ---
 

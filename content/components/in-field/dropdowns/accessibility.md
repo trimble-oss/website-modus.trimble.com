@@ -5,7 +5,7 @@ description: ""
 components: true
 component: dropdowns
 images:
-  - "/img/components/headers/dropdowns.png"
+  - "/img/in-field/headers/dropdowns.png"
 tags: [in-field, accessibility]
 ---
 

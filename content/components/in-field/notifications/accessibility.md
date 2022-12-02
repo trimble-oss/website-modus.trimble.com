@@ -5,7 +5,7 @@ description: "Notifications provide unobtrusive, short-lasting, contextual feedb
 components: true
 component: notifications
 images:
-  - "/img/components/headers/notifications.png"
+  - "/img/in-field/headers/notifications.png"
 tags: [in-field, accessibility]
 ---
 

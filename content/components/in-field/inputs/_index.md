@@ -5,7 +5,7 @@ description: "Input fields collect information from users."
 components: true
 component: inputs
 images:
-  - "/img/components/headers/inputs.png"
+  - "/img/in-field/headers/inputs.png"
 keywords: input
 tags: [in-field, usage]
 ---

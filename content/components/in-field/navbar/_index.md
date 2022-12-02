@@ -4,6 +4,8 @@ layout: "single"
 description: "The navbar provides context through globally accessible menu options."
 components: true
 component: Navbar
+images:
+  - "/img/in-field/headers/navbar.png"
 tags: [in-field, usage]
 aliases:
   - navbars
