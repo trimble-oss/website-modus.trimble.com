@@ -64,7 +64,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 
 ### 1. Answer the call!
 
-When a story moves from the backlog into the Discovery column on the DDS Kanban board, Trimble UX community is notified (via email, chat, and newsletter on the Modus website) soliciting Tiger Team members. In order to be part of the team, you should
+When the Modus team identifies a pattern or component that needs to be added to Modus, Trimble UX community is notified (via email, chat, and newsletter on the Modus website) soliciting Tiger Team members. In order to be part of the team, you should
 
 - have some expertise on the subject,
 - be currently working on the component on your product team,
@@ -74,15 +74,15 @@ AND
 
 - have some time you can devote to the project (2-4 hours per week).
 
-Once you express your interest, the Modus Product Manager will contact your manager to secure their permission to divide your time between your team and the design system.
+Once you express your interest, you will be invited to a kick-off meeting and the Modus Product Manager will contact your manager (if needed) to secure permission to divide your time between your team and the design system.
 
-### 2. UX Board review of candidates
+### 2. Review of candidates
 
-The board will review the volunteers to make sure the team has a good representation from different divisions, and it will choose a leader for the team.
+The Modus Product Manager will review the volunteers to make sure the team has a good representation from different division.
 
 ### 3. Kick-off meeting
 
-The Modus Product Manager will schedule an introductory kick-off meeting to discuss the problem the team is going to solve, acceptance criteria, responsibilities, [submission guidelines](/community/submission-guidelines/), set up a schedule for regular meetings, and agree on a tentative deadline.
+You will attend an introductory session to discuss the problem the team is going to solve, acceptance criteria, responsibilities, [submission guidelines](/community/submission-guidelines/), set up a schedule for regular meetings, and agree on a tentative deadline. During the meeting, the team will also choose a leader.
 
 ### 4. Working sessions
 
@@ -90,19 +90,19 @@ The team members will meet weekly to collaborate on the best way to solve the pr
 
 ### 5. Recommendation reviews
 
-Once the team feels they have a good recommendation, they will share it with the Modus Product Manager, who will make sure that all the acceptance criteria are met. Then the leader will present the documentation and proposed designs to the UX Board.
+Once the team feels they have a good recommendation, they will share it with the Modus Product Manager, who will make sure that all the acceptance criteria are met. Then the leader will present the documentation and proposed designs to the Modus delivery team and/or the UX Board.
 
-### 6. Feedback
-
-The UX Board and the UX community will have two weeks to review the recommendation, to conduct a heuristic evaluation, and to provide feedback. The feedback and any objections will be documented, discussed, and shared with the Tiger Team leader.
-
-### 7. Revisions and final approvals
+### 6. Revisions and publication
 
 The team will address any objections and provide revisions to their recommendations. If no revisions are necessary, the component is going to move into production to be added to Modus. A pattern is accepted, when
 
 - It meets acceptance criteria;
 - It is in agreement with foundations and Modus style;
 - It passes the heuristic review criteria without any recommendations.
+
+### 7. UX Community feedback
+
+The UX community will have two weeks to review the recommendation, to conduct a heuristic evaluation, and to provide feedback. The feedback and any objections will be documented, discussed, and shared with the Tiger Team leader. Revisions will be prioritized for the next iteration.
 
 Congratulations! You are a Modus hero!
 
