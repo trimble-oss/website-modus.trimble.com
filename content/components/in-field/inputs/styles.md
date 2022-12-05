@@ -42,7 +42,7 @@ tags: [in-field, styles]
 | State     | Example                                                                                                                                         |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | Default   | {{< img src="/img/in-field/inputs-default.svg" dark="/img/in-field/inputs-default-dark.svg" width="468" alt="Example of a Default Input" >}}    |
-| Filled    | {{< img src="/img/in-field/inputs-filled.svg" dark="/img/in-field/inputs-filled.svg-dark.svg" width="468" alt="Example of a filled Input" >}}   |
+| Filled    | {{< img src="/img/in-field/inputs-filled.svg" dark="/img/in-field/inputs-filled-dark.svg" width="468" alt="Example of a filled Input" >}}       |
 | Focus     | {{< img src="/img/in-field/inputs-focus.svg" dark="/img/in-field/inputs-focus-dark.svg" width="468" alt="Example of a focus Input" >}}          |
 | Info      | {{< img src="/img/in-field/inputs-info.svg" dark="/img/in-field/inputs-info-dark.svg" width="468" alt="Example of a info Input" >}}             |
 | Success   | {{< img src="/img/in-field/inputs-success.svg" dark="/img/in-field/inputs-success-dark.svg" width="468" alt="Example of a success Input" >}}    |
