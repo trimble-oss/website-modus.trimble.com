@@ -56,10 +56,6 @@ Spinners are used as indeterminate progress indicators to show the user that the
   </div>
 </div>
 
-### Accessibility
-
-- Each spinner should include `role="status"` and a nested `<span class="sr-only">Loading...</span>`.
-
 <style>
 [data-theme="dark"] .guide-sample .h2 {
   color: #fff !important;
