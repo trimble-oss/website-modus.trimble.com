@@ -13,7 +13,7 @@ tags: [in-field, styles]
 
 - A switch must have a visible label that clearly conveys what option a user will turn on or off.
 
-{{< img src="/img/in-field/switches-spec.svg" dark="/img/in-field/switches-spec-dark.svg" width="1088" height="143" class="w-100" alt="Switches Specifications" lazyload="auto" >}}
+{{< img src="/img/in-field/switches-spec.svg" dark="/img/in-field/switches-spec-dark.svg" width="1088" height="143" class="w-100" alt="Switches Specifications" loading="auto" >}}
 
 **Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
