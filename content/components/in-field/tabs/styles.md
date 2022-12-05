@@ -33,6 +33,15 @@ Background Gray 0 is optional to make clearer than current white option.
 
 {{< img src="/img/in-field/tabs-spec.png" dark="/img/in-field/tabs-spec-dark.png" alt="Tab-Spec" >}}
 
+<!-- prettier-ignore-start -->
+| State     | Example                                                | Height |
+| --------- | ------------------------------------------------------ |--------|
+| Text Only |                                                        | 56dp   |
+| Text/Icon |                                                        | 80dp   |
+| Icon Only |                                                        | 72dp   |
+{class="table table-bordered table-thead-light d-none"}
+<!-- prettier-ignore-end -->
+
 **Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
 ### Behaviors
