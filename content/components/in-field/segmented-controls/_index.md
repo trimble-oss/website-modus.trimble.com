@@ -9,7 +9,7 @@ images:
 tags: [in-field, usage, hide-accessibility]
 ---
 
-{{< img src="/img/in-field/segmented-controls.png" src="/img/in-field/segmented-controls-dark.png" class="w-100" alt="Segmented Controls" lazyload="auto" >}}
+{{< img src="/img/in-field/segmented-controls.png" dark="/img/in-field/segmented-controls-dark.png" class="w-100" alt="Segmented Controls" lazyload="auto" >}}
 
 ## Overview
 

@@ -47,4 +47,5 @@ All segments controls should have the following states:
 ### OEM Branding
 
 - Use the primary and secondary button colors
-  ![Segmented Controls OEM](/img/in-field/segmented-controls-oem.png)
+
+ {{< img src="/img/in-field/segmented-controls-oem.png" dark="/img/in-field/segmented-controls-oem-dark.png" width="100%" alt="Segmented Controls OEM" >}}
