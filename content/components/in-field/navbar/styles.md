@@ -42,10 +42,10 @@ tags: [in-field, styles]
 <!-- prettier-ignore-start -->
 | Size     | Trimble Background                                                                                    | Trimble Blue Background |
 | -------- | ----------------------------------------------------------------------------------------------------- |-------------------------|
-| Default  | {{< img src="/img/in-field/nav-state-default.svg" dark="/img/in-field/nav-state-default-dark.svg" width="278" alt="State Default" >}}    | {{< img src="/img/in-field/nav-state-blue-default.svg" width="278" alt="State Default Blue" >}}   |
-| Pressed  | {{< img src="/img/in-field/nav-state-pressed.svg" dark="/img/in-field/nav-state-pressed-dark.svg" width="278" alt="State Pressed" >}}    | {{< img src="/img/in-field/nav-state-blue-pressed.svg" width="278" alt="State Pressed Blue" >}}   |
-| Focus    | {{< img src="/img/in-field/nav-state-focus.svg" dark="/img/in-field/nav-state-focus-dark.svg" width="278" alt="State Focus" >}}          | {{< img src="/img/in-field/nav-state-blue-focus.svg" width="278" alt="State Focus Blue" >}}       |
-| Disabled | {{< img src="/img/in-field/nav-state-disabled.svg" dark="/img/in-field/nav-state-disabled-dark.svg" width="278" alt="State Disabled" >}} | {{< img src="/img/in-field/nav-state-blue-disabled.svg" width="278" alt="State Disabled Blue" >}} |
+| Default  | {{< img src="/img/in-field/nav-state-white-default.svg" dark="/img/in-field/nav-state-default-dark.svg" width="200" alt="State Default" >}}    | {{< img src="/img/in-field/nav-state-blue-default.svg" width="200" alt="State Pressed Blue" >}}  |
+| Pressed  | {{< img src="/img/in-field/nav-state-white-pressed.svg" dark="/img/in-field/nav-state-pressed-dark.svg" width="200" alt="State Pressed" >}}    | {{< img src="/img/in-field/nav-state-blue-pressed.svg" width="200" alt="State Pressed Blue" >}}   |
+| Focus    | {{< img src="/img/in-field/nav-state-focus.svg" dark="/img/in-field/nav-state-focus-dark.svg" width="200" alt="State Focus" >}}          | {{< img src="/img/in-field/nav-state-blue-focus.svg" width="200" alt="State Focus Blue" >}}       |
+| Disabled | {{< img src="/img/in-field/nav-state-white-disabled.svg" dark="/img/in-field/nav-state-disabled-dark.svg" width="200" alt="State Disabled" >}} | {{< img src="/img/in-field/nav-state-blue-disabled.svg" width="200" alt="State Disabled Blue" >}} |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 

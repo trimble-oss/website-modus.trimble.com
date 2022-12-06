@@ -34,11 +34,11 @@ Where needed, lists may have groups of sub-categorized list items. Child list it
 <!-- prettier-ignore-start -->
 | State    | Example                                                                                              |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Default  | {{< img src="/img/in-field/lists-default.svg" dark="/img/in-field/lists-default-dark.svg" width="510" alt="Example of a Default List Item" >}}    |
-| Pressed  | {{< img src="/img/in-field/lists-pressed.svg" dark="/img/in-field/lists-pressed-dark.svg" width="510" alt="Example of a Pressed List Item" >}}    |
-| Focus    | {{< img src="/img/in-field/lists-focus.svg" dark="/img/in-field/lists-focus-dark.svg" width="510" alt="Example of a Focus List Item" >}}          |
-| Selected | {{< img src="/img/in-field/lists-selected.svg" dark="/img/in-field/lists-selected-dark.svg" width="510" alt="Example of a Selected List Item" >}} |
-| Disabled | {{< img src="/img/in-field/lists-disabled.svg" dark="/img/in-field/lists-disabled-dark.svg" width="510" alt="Example of a Disabled List Item" >}} |
+| Default  | {{< img src="/img/in-field/lists-default.svg" dark="/img/in-field/lists-default-dark.svg" width="400" alt="Example of a Default List Item" >}}    |
+| Pressed  | {{< img src="/img/in-field/lists-pressed.svg" dark="/img/in-field/lists-pressed-dark.svg" width="400" alt="Example of a Pressed List Item" >}}    |
+| Focus    | {{< img src="/img/in-field/lists-focus.svg" dark="/img/in-field/lists-focus-dark.svg" width="400" alt="Example of a Focus List Item" >}}          |
+| Selected | {{< img src="/img/in-field/lists-selected.svg" dark="/img/in-field/lists-selected-dark.svg" width="400" alt="Example of a Selected List Item" >}} |
+| Disabled | {{< img src="/img/in-field/lists-disabled.svg" dark="/img/in-field/lists-disabled-dark.svg" width="400" alt="Example of a Disabled List Item" >}} |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 

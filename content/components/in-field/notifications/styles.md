@@ -43,25 +43,6 @@ There are two types of Notifications:
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-<!-- prettier-ignore-start -->
-| State       | Example                                                                                                               |
-| ----------- | --------------------------------------------------------------------------------------------------------------------- |
-| Success     | {{< img src="/img/in-field/notifications-success.svg" width="584" alt="Example of a Success Notification" >}}         |
-| Information | {{< img src="/img/in-field/notifications-information.svg" width="584" alt="Example of a Information Notification" >}} |
-| Loading     | {{< img src="/img/in-field/notifications-loading.svg" width="584" alt="Example of an Loading Notification" >}}        |
-| Alert       | {{< img src="/img/in-field/notifications-alert.svg" width="584" alt="Example of a Alert Notification" >}}             |
-| Error       | {{< img src="/img/in-field/notifications-error.svg" width="584" alt="Example of a Error Notification" >}}             |
-{class="table table-bordered table-thead-light"}
-<!-- prettier-ignore-end -->
-
-Basic toast message with heading text only.
-![Prompts example 1](/img/in-field/notifications-example-1.svg)
-
-When more information is required add sub-text.
-![prompts example 2](/img/in-field/notifications-example-2.svg)
-
-**Note:** Focus state uses “global blue”.
-
 ### Behaviors
 
 - Swipe right to dismiss or press the close button

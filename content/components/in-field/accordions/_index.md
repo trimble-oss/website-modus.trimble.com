@@ -9,7 +9,7 @@ images:
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/accordions.svg" dark="/img/in-field/accordions-dark.svg" width="961" height="170" class="w-100" alt="Accordions Example" lazyload="auto" >}}
+{{< img src="/img/in-field/accordion.svg" dark="/img/in-field/accordion-dark.svg" width="961" height="170" class="w-100" alt="Accordions Example" lazyload="auto" >}}
 
 ## Overview
 

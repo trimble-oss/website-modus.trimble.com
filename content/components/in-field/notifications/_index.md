@@ -10,7 +10,7 @@ keywords: notifications, notification,
 tags: [in-field, usage]
 ---
 
-{{<img src="/img/in-field/notifications.svg" dark="/img/in-field/notifications-dark.svg" width="961" alt="Example of a Notifications" lazyload="auto">}}
+{{<img src="/img/in-field/notifications.svg" dark="/img/in-field/notifications-dark.svg" width="900" alt="Example of a Notifications" lazyload="auto">}}
 
 ## Overview
 
