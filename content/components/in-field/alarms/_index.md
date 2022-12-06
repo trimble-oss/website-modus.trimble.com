@@ -12,7 +12,7 @@ aliases:
   - alert
 ---
 
-{{< img src="/img/in-field/alarm-overview.svg" dark="/img/in-field/alarm-overview-dark.svg" class="w-100" alt="Alarms Example" width="1087" height="471" lazyload="auto" >}}
+{{< img src="/img/in-field/alarm-overview.svg" dark="/img/in-field/alarm-overview-dark.svg" class="w-100" alt="Alarms Example" width="1087" height="471" loading="auto" >}}
 
 ## Overview
 

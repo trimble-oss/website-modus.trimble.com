@@ -12,11 +12,11 @@ tags: [in-field, styles, hide-accessibility]
 ## Specifications
 
 <!-- prettier-ignore-start -->
-| State     | Example                                                                                           | Height | Use |
+| State     | Example                                                                                           | Height | Use    |
 | --------- | ------------------------------------------------------------------------------------------------- |--------|--------|
-| Text only | {{< img src="/img/in-field/segmented-controls-spec-text.svg" dark="/img/in-field/segmented-controls-spec-text-dark.svg" width="900" alt="Segmented Controls With Text" >}}   | 56dp   | Form  |
-| Default   | {{< img src="/img/in-field/segmented-controls-spec-icon.svg" dark="/img/in-field/segmented-controls-spec-icon-dark.svg" width="900" alt="Segmented Controls With Text" >}}   | 56dp   | Form  |
-| Floating  | {{< img src="/img/in-field/segmented-controls-spec-floating.svg" dark="/img/in-field/segmented-controls-spec-floating-dark.svg" width="900" alt="Segmented Controls Floating" >}}   | 56dp   | Floating content  |
+| Text only | {{< img src="/img/in-field/segmented-controls-spec-text.svg" dark="/img/in-field/segmented-controls-spec-text-dark.svg" width="743" alt="Segmented Controls With Text" loading="eager" >}}   | 56dp   | Form  |
+| Default   | {{< img src="/img/in-field/segmented-controls-spec-icon.svg" dark="/img/in-field/segmented-controls-spec-icon-dark.svg" width="743" alt="Segmented Controls With Text" loading="eager" >}}   | 56dp   | Form  |
+| Floating  | {{< img src="/img/in-field/segmented-controls-spec-floating.svg" dark="/img/in-field/segmented-controls-spec-floating-dark.svg" width="743" alt="Segmented Controls Floating" loading="eager" >}} | 56dp   | Floating content  |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
@@ -48,4 +48,4 @@ All segments controls should have the following states:
 
 - Use the primary and secondary button colors
 
- {{< img src="/img/in-field/segmented-controls-oem.png" dark="/img/in-field/segmented-controls-oem-dark.png" width="100%" alt="Segmented Controls OEM" >}}
+ {{< img src="/img/in-field/segmented-controls-oem.png" dark="/img/in-field/segmented-controls-oem-dark.png" width="962" height="180" alt="Segmented Controls OEM" >}}

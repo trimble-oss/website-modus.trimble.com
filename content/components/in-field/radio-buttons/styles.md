@@ -16,7 +16,7 @@ tags: [in-field, styles]
 - A set of radio buttons should not default to having one option selected.
 - A heading much accompany a set of radio buttons.
 
-{{< img src="/img/in-field/radios-specs.svg" dark="/img/in-field/radios-specs-dark.svg" width="100%" class="w-100" alt="Radio Buttons Specifications" lazyload="auto" >}}
+{{< img src="/img/in-field/radios-specs.svg" dark="/img/in-field/radios-specs-dark.svg" width="1089" height="143" alt="Radio Buttons Specifications" loading="auto" >}}
 
 **Note:**  In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 

@@ -20,7 +20,7 @@ article .nav-tabs {
 }
 </style>
 
-{{< img src="/img/in-field/intro.png" dark="/img/in-field/intro-dark.png" width="1087" height="385" class="w-100" lazyload="auto" >}}
+{{< img src="/img/in-field/intro.png" dark="/img/in-field/intro-dark.png" width="1087" height="385" class="w-100" loading="auto" >}}
 
 ## Overview
 

@@ -10,7 +10,7 @@ keywords: List
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/lists.png" dark="/img/in-field/lists-dark.png" width="1088" height="289" class="w-100" alt="lists example" lazyload="auto" >}}
+{{< img src="/img/in-field/lists.png" dark="/img/in-field/lists-dark.png" width="1088" height="289" class="w-100" alt="lists example" loading="auto" >}}
 
 ## Overview
 
@@ -38,7 +38,7 @@ The list order should be carefully considered. Examples of list orders include m
 
 There are two kinds of lists: standard and spaced. Spaced lists are for in-field experiences that need larger tap target area to prevent users from choosing the wrong item.
 
-{{< img src="/img/in-field/lists-types.png" dark="/img/in-field/lists-types-dark.png" width="100%" class="w-100" alt="lists types" lazyload="auto" >}}
+{{< img src="/img/in-field/lists-types.png" dark="/img/in-field/lists-types-dark.png" width="100%" class="w-100" alt="lists types" loading="auto" >}}
 
 {{< whats-changed-table >}}
 

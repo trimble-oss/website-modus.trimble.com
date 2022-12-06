@@ -10,7 +10,7 @@ keywords: forms, form
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/radios.svg" dark="/img/in-field/radios-dark.svg" width="1088" height="158" class="w-100" alt="Radio Buttons" lazyload="auto" >}}
+{{< img src="/img/in-field/radios.svg" dark="/img/in-field/radios-dark.svg" width="1088" height="158" class="w-100" alt="Radio Buttons" loading="auto" >}}
 
 ## Overview
 

@@ -660,7 +660,7 @@ The Web Content Accessibility Guidelines (WCAG 2.0) level AA requires that line 
 
 _Line length is not always manageable since users can set their own device width. It is important to try to design for ideal line lengths under normal controls and allow for the responsive design to modify beyond normal circumstances._
 
-{{< img src="/img/foundations/typography-line-length.svg" dark="/img/foundations/typography-line-length-dark.svg" class="w-100" width="854" height="384" alt="Typography Line Length Example" lazyload="auto" >}}
+{{< img src="/img/foundations/typography-line-length.svg" dark="/img/foundations/typography-line-length-dark.svg" class="w-100" width="854" height="384" alt="Typography Line Length Example" loading="auto" >}}
 
 ### Accessibility
 

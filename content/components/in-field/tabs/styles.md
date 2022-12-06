@@ -31,7 +31,7 @@ There are three types of tabs:
 
 Background Gray 0 is optional to make clearer than current white option.
 
-{{< img src="/img/in-field/tabs-spec.png" dark="/img/in-field/tabs-spec-dark.png" alt="Tab-Spec" >}}
+{{< img src="/img/in-field/tabs-spec.png" dark="/img/in-field/tabs-spec-dark.png" alt="Tab Specifications table" >}}
 
 <!-- prettier-ignore-start -->
 | State     | Example                                                | Height |
@@ -56,7 +56,7 @@ Background Gray 0 is optional to make clearer than current white option.
 
 - This component can be branded for OEM's.
 
-{{< img src="/img/in-field/tabs-oem.png" dark="/img/in-field/tabs-oem-dark.png" alt="Tab-OEM" >}}
+{{< img src="/img/in-field/tabs-oem.png" dark="/img/in-field/tabs-oem-dark.png" width="1088" height="139" alt="Example of Tabs with OEM Branding" >}}
 
 ### Editorial
 

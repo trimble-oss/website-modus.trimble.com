@@ -4,6 +4,7 @@ layout: "single"
 description: "Vertical, collapsible navigation on the left side of the application."
 components: true
 componentsWeb: true
+keywords: panel
 images:
   - "/img/components/headers/side-navigation.png"
 aliases:

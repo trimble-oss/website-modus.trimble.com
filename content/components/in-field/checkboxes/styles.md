@@ -65,7 +65,7 @@ All checkboxes should have the following states:
 
 - Checkboxes may be branded based on the primary color or other complementary colors for the best visibility in the cab.
 
-{{< img src="/img/in-field/checkboxes-oem.svg" dark="/img/in-field/checkboxes-oem-dark.svg" width="100%" class="w-100" alt="Checkboxes OEM" >}}
+{{< img src="/img/in-field/checkboxes-oem.svg" dark="/img/in-field/checkboxes-oem-dark.svg" width="100%" alt="Checkboxes OEM" >}}
 
 ### Editorial
 

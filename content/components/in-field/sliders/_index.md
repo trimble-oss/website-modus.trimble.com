@@ -10,7 +10,7 @@ component: sliders
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/sliders.svg" dark="/img/in-field/sliders-dark.svg" width="1088" height="162" class="w-100" alt="Sliders example" lazyload="auto" >}}
+{{< img src="/img/in-field/sliders.svg" dark="/img/in-field/sliders-dark.svg" width="1088" height="162" class="w-100" alt="Sliders example" loading="auto" >}}
 
 ## Overview
 

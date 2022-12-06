@@ -11,7 +11,7 @@ aliases:
   - navbars
 ---
 
-{{< img src="/img/in-field/navbar.svg" dark="/img/in-field/navbar-dark.svg" class="w-100" width="1088" height="262" alt="navbar example" lazyload="auto" >}}
+{{< img src="/img/in-field/navbar.svg" dark="/img/in-field/navbar-dark.svg" class="w-100" width="1088" height="262" alt="navbar example" loading="auto" >}}
 
 ## Overview
 

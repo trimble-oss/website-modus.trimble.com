@@ -28,9 +28,9 @@ tags: [in-field, styles]
 - Should have an accompanying icon to the left of the message text, unless gray.
 - When the text spans multiple lines, the icon should remain aligned to the top.
 
-{{< img src="/img/in-field/messages-example-1.svg" dark="/img/in-field/messages-example-1-dark.svg" class="w-100" width="1088" height="388" alt="Messages Behavior Example 1" >}}
+{{< img src="/img/in-field/messages-example-1.svg" dark="/img/in-field/messages-example-1-dark.svg" width="1088" height="388" alt="Messages Behavior Example 1" >}}
 
-{{< img src="/img/in-field/messages-example-2.svg" dark="/img/in-field/messages-example-2-dark.svg" class="w-100" width="100%" alt="Messages Behavior Example 2" >}}
+{{< img src="/img/in-field/messages-example-2.svg" dark="/img/in-field/messages-example-2-dark.svg" width="100%" alt="Messages Behavior Example 2" >}}
 
 ### Editorial
 

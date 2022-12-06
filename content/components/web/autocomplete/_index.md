@@ -16,7 +16,7 @@ tags: [usage]
 
 An autocomplete dropdown allows the user to search and select one option from a set of choices. When the user enters text into the input field, a list of suggestions are provided.
 
-{{< img src="/img/components/autocomplete-overview.svg" dark="/img/components/autocomplete-overview-dark.svg" class="w-100" width="790" height="283" alt="Autocomplete Example" lazyload="auto" >}}
+{{< img src="/img/components/autocomplete-overview.svg" dark="/img/components/autocomplete-overview-dark.svg" class="w-100" width="790" height="283" alt="Autocomplete Example" loading="auto" >}}
 
 ## Usage
 

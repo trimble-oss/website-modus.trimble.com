@@ -11,7 +11,7 @@ aliases:
   - switch
 ---
 
-{{< img src="/img/in-field/switches.svg" dark="/img/in-field/switches-dark.svg" width="1088" height="162" class="w-100" alt="Switch example" lazyload="auto" >}}
+{{< img src="/img/in-field/switches.svg" dark="/img/in-field/switches-dark.svg" width="1088" height="162" alt="Switch example" loading="auto" >}}
 
 ## Overview
 
@@ -33,7 +33,7 @@ Switches are selection controls that yield instantaneous actions. They have an o
   [Checkbox](/components/in-field/checkboxes/) group.
 - User need to select one item from a list of options. Instead, use a [Radio Button](/components/in-field/radio-buttons/).
 
-{{< img src="/img/in-field/switches-example.svg" dark="/img/in-field/switches-example-dark.svg" width="1088" height="239" class="w-100" alt="Switches in Lists" lazyload="auto" >}}
+{{< img src="/img/in-field/switches-example.svg" dark="/img/in-field/switches-example-dark.svg" width="1088" height="239" alt="Switches in Lists" >}}
 
 {{< whats-changed-table >}}
 

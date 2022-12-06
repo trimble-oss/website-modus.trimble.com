@@ -4,6 +4,7 @@ layout: "single"
 description: "Allows the user to select a single date, a date range, or time."
 components: true
 componentsWeb: true
+keywords: calendar
 images:
   - "/img/components/headers/date-time-picker.png"
 aliases:
@@ -16,7 +17,7 @@ tags: [usage]
 
 Use the Date & Time Picker to select a date or a date range from the calendar view or by typing in the date and/or time as indicated by the placeholder text.
 
-{{< img src="/img/components/single-date-picker.png" dark="/img/components/single-date-picker-dark.png" class="w-100" alt="Date Picker Example" lazyload="auto" >}}
+{{< img src="/img/components/single-date-picker.png" dark="/img/components/single-date-picker-dark.png" class="w-100" alt="Date Picker Example" loading="auto" >}}
 
 ## Usage
 

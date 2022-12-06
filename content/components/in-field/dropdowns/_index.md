@@ -10,7 +10,7 @@ keywords: dropdown
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/dropdowns.png" dark="/img/in-field/dropdowns-dark.svg" class="w-100" width="980" height="500" alt="Dropdowns example" lazyload="auto" >}}
+{{< img src="/img/in-field/dropdowns.png" dark="/img/in-field/dropdowns-dark.svg" class="w-100" width="980" height="500" alt="Dropdowns example" loading="auto" >}}
 
 ## Overview
 

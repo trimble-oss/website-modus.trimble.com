@@ -37,11 +37,11 @@ All checkboxes should have the following states:
 #### Switch Progression
 
 <!-- prettier-ignore-start -->
-| State  | On                                                                                                                                      | Off | 
+| State  | On                                                                                                                                      | Off |
 | ------ | ----------------------------------------------- |--------|
 | Default  | {{< img src="/img/in-field/switches-on-default.svg" dark="/img/in-field/switches-on-default-dark.svg" width="70" alt="Example of Default Switch" >}} | {{< img src="/img/in-field/switches-off-default.svg" dark="/img/in-field/switches-off-default-dark.svg" width="70" alt="Example of Default Switch" >}}   |
-| Focus | {{< img src="/img/in-field/switches-on-focus.svg" dark="/img/in-field/switches-on-focus-dark.svg" width="70" alt="Example of Default Switch" >}} | {{< img src="/img/in-field/switches-off-focus.svg" dark="/img/in-field/switches-off-focus-dark.svg" width="70" alt="Example of Default Switch" >}}   | 
-| Disabled  | {{< img src="/img/in-field/switches-on-disabled.svg" dark="/img/in-field/switches-on-disabled-dark.svg" width="70" alt="Example of Default Switch" >}}    | {{< img src="/img/in-field/switches-off-disabled.svg" dark="/img/in-field/switches-off-disabled-dark.svg" width="70" alt="Example of Default Switch" >}}  | 
+| Focus | {{< img src="/img/in-field/switches-on-focus.svg" dark="/img/in-field/switches-on-focus-dark.svg" width="70" alt="Example of Default Switch" >}} | {{< img src="/img/in-field/switches-off-focus.svg" dark="/img/in-field/switches-off-focus-dark.svg" width="70" alt="Example of Default Switch" >}}   |
+| Disabled  | {{< img src="/img/in-field/switches-on-disabled.svg" dark="/img/in-field/switches-on-disabled-dark.svg" width="70" alt="Example of Default Switch" >}}    | {{< img src="/img/in-field/switches-off-disabled.svg" dark="/img/in-field/switches-off-disabled-dark.svg" width="70" alt="Example of Default Switch" >}}  |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 

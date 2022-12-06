@@ -67,4 +67,4 @@ Above| {{< img src="/img/in-field/slider-label above-input-buttons-right.svg" da
 
 - This can be branded with primary color.
 
-{{< img src="/img/in-field/sliders-with-labels-oem.svg" dark="/img/in-field/sliders-with-labels-oem-dark.svg" width="1088" height="162" class="w-100" alt="Sliders example" lazyload="auto" >}}
+{{< img src="/img/in-field/sliders-with-labels-oem.svg" dark="/img/in-field/sliders-with-labels-oem-dark.svg" width="1088" height="162" class="w-100" alt="Sliders example" loading="auto" >}}

@@ -55,7 +55,7 @@ tags: [in-field, styles]
 
 - Colours and brand logo can be changed.
 
-{{< img src="/img/in-field/navbar-oem.svg" dark="/img/in-field/navbar-oem-dark.svg" class="w-100" width="100%" alt="Navbar OEM example" >}}
+{{< img src="/img/in-field/navbar-oem.svg" dark="/img/in-field/navbar-oem-dark.svg" width="100%" alt="Navbar OEM example" >}}
 
 ### Editorial
 

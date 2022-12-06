@@ -6,7 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/inputs.png"
-keywords: forms, form
+keywords: forms, form, search, select
 aliases:
   - "/components/forms/"
   - "/components/inputs/"

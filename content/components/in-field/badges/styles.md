@@ -28,5 +28,5 @@ Badges should be centered vertically inside of their containing element.
 
 ### Colors & Types
 
-{{< img src="/img/in-field/badges-colour-progression.svg" dark="/img/in-field/badges-colour-progression-dark.svg" width="600" alt="Badges" lazyload="auto" >}}
+{{< img src="/img/in-field/badges-colour-progression.svg" dark="/img/in-field/badges-colour-progression-dark.svg" width="600" alt="Badges" loading="auto" >}}
 

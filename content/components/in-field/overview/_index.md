@@ -3,6 +3,8 @@ title: "In-Field"
 layout: "single"
 description: "The in-field, high-contrast library is specific to applications used outdoors."
 components: true
+images:
+  - "/img/in-field/intro.png"
 layout: single
 component: Introduction
 weight: 1
@@ -19,7 +21,7 @@ article .nav-tabs {
 }
 </style>
 
-{{< img src="/img/in-field/intro.png" dark="/img/in-field/intro-dark.png" width="1087" height="385" class="w-100" lazyload="auto" >}}
+{{< img src="/img/in-field/intro.png" dark="/img/in-field/intro-dark.png" width="1087" height="385" class="w-100" loading="auto" >}}
 
 ## Overview
 
@@ -35,9 +37,9 @@ These components are designed specifically for use on displays within a machine 
 
 UI Kits are available in [Figma for designers](/designers/). This brand base must maintain optimal usability, while also allowing flexibility to support Trimble and other OEM (Original Equipment Manufacturers) brand variations.
 
-
 ## Global Colours
-The global palette is used in all in-field and on-machine products, regardless of brand. These colours shall not change to suit any specific product. They establish a consistent colour language and convey the universal usage of fundamental UI elements. 
+
+The global palette is used in all in-field and on-machine products, regardless of brand. These colours shall not change to suit any specific product. They establish a consistent colour language and convey the universal usage of fundamental UI elements.
 
 -	The Global Color Palette consists of these categories:
 -	Guidance Indication
@@ -46,7 +48,7 @@ The global palette is used in all in-field and on-machine products, regardless o
 -	Autos
 -	Messaging (alarms, alerts, notifications, etc.)
 
-{{< img src="/img/in-field/intro-global.svg" dark="/img/in-field/intro-global-dark.svg" width="1087" height="385" class="w-100" lazyload="auto" >}}
+{{< img src="/img/in-field/intro-global.svg" dark="/img/in-field/intro-global-dark.svg" width="1087" height="385" class="w-100" loading="auto" >}}
 
 **Note** Success (special) should only be used with a dark outline and needs to be clearly visible, like the on-grade state.
 
@@ -54,7 +56,7 @@ The global palette is used in all in-field and on-machine products, regardless o
 
 - The Modus In-Field Design System will serve as the base for any products delivered to our parent organizations as well as branded variants for different OEMs.
 
-{{< img src="/img/in-field/intro-oem-branding.png" dark="/img/in-field/intro-oem-branding-dark.png" width="1087" height="385" class="w-100" lazyload="auto" >}}
+{{< img src="/img/in-field/intro-oem-branding.png" dark="/img/in-field/intro-oem-branding-dark.png" width="1087" height="385" class="w-100" loading="auto" >}}
 
 ## Supporting Our Customers
 
@@ -62,9 +64,7 @@ The global palette is used in all in-field and on-machine products, regardless o
 
 - Trimble and OEM Brand Variations, or Themes, are applied on top of the user-centric brand base. This may include variations to color, iconography, imagery and models, splash screens, and logos, for example.
 
-{{< img src="/img/in-field/intro-oem-branding-1.png" dark="/img/in-field/intro-oem-branding-1-dark.png" width="1087" height="385" class="w-100" lazyload="auto" >}}
-
-
+{{< img src="/img/in-field/intro-oem-branding-1.png" dark="/img/in-field/intro-oem-branding-1-dark.png" width="1087" height="385" class="w-100" loading="auto" >}}
 
 **What can be brand-specific**
 
@@ -80,8 +80,7 @@ The following UI elements are designed and componentized to flexibly support bra
 - OpenGL Machine models can be branded;
 - Dialog images can be branded as well, to match the OpenGL machine model.
 
-{{< img src="/img/in-field/intro-oem-branding-2.png" dark="/img/in-field/intro-oem-branding-2-dark.png" width="1087" height="385" class="w-100" lazyload="auto" >}}
-
+{{< img src="/img/in-field/intro-oem-branding-2.png" dark="/img/in-field/intro-oem-branding-2-dark.png" width="1087" height="385" class="w-100" loading="auto" >}}
 
 **What cannot be brand-specific**
 
