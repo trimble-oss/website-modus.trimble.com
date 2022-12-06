@@ -14,8 +14,8 @@ tags: [in-field, styles]
 - A switch must have a visible label that clearly conveys what option a user will turn on or off.
 
 <!-- prettier-ignore-start -->
-| Type    | Example                                                                                                      | Height |
-|---------| ------------------------------------------------------------------------------------------------------------ | ------ |
+| Type    | Example                                                                                                          | Height |
+|---------| ---------------------------------------------------------------------------------------------------------------- | ------ |
 | Default | {{< img src="/img/in-field/switches-spec.svg" dark="/img/in-field/switches-spec-dark.svg" width="300" alt="" >}} | 48dp   |
 {class="table table-bordered table-thead-light"}
 
@@ -50,7 +50,7 @@ All checkboxes should have the following states:
 <!-- prettier-ignore-start -->
 | Label Left   | Label right | Icon Right    | Icon Left | Check icon |
 | ------- | ------- | --------- | ------------ | -------- |
-| {{< img src="/img/in-field/switch-label-left.svg" dark="/img/in-field/switch-label-left-dark.svg" width="124" alt="" >}}   | {{< img src="/img/in-field/switch-label-right.svg" dark="/img/in-field/switch-label-right-dark.svg" width="124" alt="" >}}     | {{< img src="/img/in-field/switch-icon-left.svg" dark="/img/in-field/switch-icon-left-dark.svg" width="124" alt="" >}}    | {{< img src="/img/in-field/switch-icon-right.svg" dark="/img/in-field/switch-icon-right-dark.svg" width="124" alt="" >}}   | {{< img src="/img/in-field/switch-tick.svg" dark="/img/in-field/switch-tick-dark.svg" width="80" lt="" >}}
+| {{< img src="/img/in-field/switch-label-left.svg" dark="/img/in-field/switch-label-left-dark.svg" width="124" alt="" >}}   | {{< img src="/img/in-field/switch-label-right.svg" dark="/img/in-field/switch-label-right-dark.svg" width="124" alt="" >}}     | {{< img src="/img/in-field/switch-icon-left.svg" dark="/img/in-field/switch-icon-left-dark.svg" width="124" alt="" >}}    | {{< img src="/img/in-field/switch-icon-right.svg" dark="/img/in-field/switch-icon-right-dark.svg" width="124" alt="" >}}   | {{< img src="/img/in-field/switch-tick.svg" dark="/img/in-field/switch-tick-dark.svg" width="80" alt="" >}}
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
