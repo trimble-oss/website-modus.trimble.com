@@ -3,5 +3,5 @@
 <rect y="16.0204" width="136.628" height="11.9456" rx="5.97279" fill="#217CBB"/>
 <circle opacity="0.4" cx="124.614" cy="22.0612" r="17.1718" stroke="#217CBB" stroke-width="5.97279"/>
 <circle cx="124.75" cy="20.0612" r="18.5" stroke="#40A3FF" stroke-width="3"/>
-<circle cx="125" cy="20.5609" r="13.5" fill="white" stroke="#217CBB" stroke-width="3"/>
+<circle cx="125" cy="20.5609" r="13.5" fill="#fff" stroke="#217CBB" stroke-width="3"/>
 </svg>

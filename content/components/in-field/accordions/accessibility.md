@@ -3,7 +3,6 @@ title: "Accordions"
 layout: "single"
 description: "The accordion element delivers large amounts of content in a small space through progressive disclosure."
 components: true
-hidden: true
 component: accordions
 images:
   - "/img/in-field/headers/accordions.png"

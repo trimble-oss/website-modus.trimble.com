@@ -3,8 +3,9 @@ title: "Buttons"
 layout: "single"
 description: "Buttons are interactive elements that trigger an action or an event."
 components: true
-hidden: true
 component: buttons
+images:
+  - "/img/in-field/headers/buttons.png"
 tags: [in-field, accessibility]
 ---
 

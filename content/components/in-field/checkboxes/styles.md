@@ -3,7 +3,6 @@ title: "Checkboxes"
 layout: "single"
 description: "Checkboxes are used for a list of options where the user may select multiple options, including all or none."
 components: true
-hidden: true
 component: checkboxes
 tags: [in-field, styles]
 ---

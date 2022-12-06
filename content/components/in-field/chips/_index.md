@@ -9,11 +9,9 @@ images:
 tags: [in-field, usage]
 aliases:
   - chip
-private: true
-hidden: true
 ---
 
-{{< img src="/img/in-field/chips.svg" dark="/img/in-field/chips-dark.svg" class="w-100" width="979" height="138" alt="chips example" loading="auto" >}}
+{{< img src="/img/in-field/chips.svg" dark="/img/in-field/chips-dark.svg" width="979" height="138" alt="chips example" loading="auto" >}}
 
 ## Overview
 

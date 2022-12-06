@@ -12,7 +12,7 @@ tags: [in-field, styles]
 
 ## Specifications
 
-{{< img src="/img/in-field/modals-spec.svg" dark="/img/in-field/modals-spec-dark.svg" width="1087" height="471" class="w-100" alt="Modals Specifications" loading="auto" >}}
+{{< img src="/img/in-field/modals-spec.svg" dark="/img/in-field/modals-spec-dark.svg" width="1087" height="471" alt="Modals Specifications" loading="auto" >}}
 
 **Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 

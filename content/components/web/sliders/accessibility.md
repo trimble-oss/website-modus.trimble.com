@@ -4,7 +4,6 @@ layout: "single"
 description: ""
 components: true
 componentsWeb: true
-hidden: true
 component: sliders
 tags: [accessibility]
 hideToc: true

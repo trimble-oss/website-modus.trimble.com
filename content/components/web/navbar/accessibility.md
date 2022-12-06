@@ -26,6 +26,6 @@ tags: [accessibility]
 - “Skip to main content” wording explains best where people are navigating to.
   Example: `<div id="skiptocontent"><a href="#maincontent">Skip to main content</a></div>`
 
-![Skip to Content](/img/navbar-skip-content.svg)
+{{< img src="/img/components/navbar-skip-content.svg" dark="/img/components/navbar-skip-content-dark.svg" class="w-100" alt="skip to content" >}}
 
 Reference for more detail: [https://webaim.org/techniques/skipnav/](https://webaim.org/techniques/skipnav/)
