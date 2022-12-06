@@ -20,7 +20,7 @@ The user may also select a row to perform an action on the corresponding item.
 
 Where needed, lists may have groups of sub-categorized list items. Child list items are alternately shown/hidden using the arrow at the left side of the parent line item.
 
-{{< img src="/img/in-field/lists-spec.svg" dark="/img/in-field/lists-spec-dark.svg" width="100%" class="w-100" alt="lists Specs" lazyload="auto" >}}
+{{< img src="/img/in-field/lists-spec.svg" dark="/img/in-field/lists-spec-dark.svg" width="100%" class="w-100" alt="lists Specs" loading="auto" >}}
 
 **Note:** In-cab sizes only. See mobile patterns for smaller options for in-field.
 

@@ -6,11 +6,11 @@ components: true
 component: notifications
 images:
   - "/img/in-field/headers/notifications.png"
-keywords: notifications, notification,
+keywords: notification
 tags: [in-field, usage]
 ---
 
-{{<img src="/img/in-field/notifications.svg" dark="/img/in-field/notifications-dark.svg" width="900" alt="Example of a Notifications" lazyload="auto">}}
+{{<img src="/img/in-field/notifications.svg" dark="/img/in-field/notifications-dark.svg" width="961" height="185" alt="Example of a Notifications" loading="eager">}}
 
 ## Overview
 
@@ -31,11 +31,11 @@ A notification displays information that is helpful but not essential. It doesn'
 
 Basic notification with heading text only.
 
-{{<img src="/img/in-field/notifications-example-1.svg" dark="/img/in-field/notifications-example-1-dark.svg" width="1087" class="w-100" alt="Notifications example 1" lazyload="auto">}}
+{{<img src="/img/in-field/notifications-example-1.svg" dark="/img/in-field/notifications-example-1-dark.svg" width="1087" alt="Notifications example 1" loading="auto">}}
 
 When more information is required add sub-text.
 
-{{<img src="/img/in-field/notifications-example-2.svg" dark="/img/in-field/notifications-example-2-dark.svg" width="1087" class="w-100" alt="Notifications example 2" lazyload="auto">}}
+{{<img src="/img/in-field/notifications-example-2.svg" dark="/img/in-field/notifications-example-2-dark.svg" width="1087" alt="Notifications example 2" loading="auto">}}
 
 {{< whats-changed-table >}}
 

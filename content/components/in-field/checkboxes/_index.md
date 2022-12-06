@@ -4,6 +4,7 @@ layout: "single"
 description: "Checkboxes are used for a list of options where the user may select multiple options, including all or none."
 components: true
 component: checkboxes
+keywords: forms
 images:
   - "/img/in-field/headers/checkboxes.png"
 tags: [in-field, usage]
@@ -13,7 +14,7 @@ private: true
 hidden: true
 ---
 
-{{< img src="/img/in-field/checkboxes.svg" dark="/img/in-field/checkboxes-dark.svg" class="w-100" width="980" height="228" alt="Checkbox Example" lazyload="auto" >}}
+{{< img src="/img/in-field/checkboxes.svg" dark="/img/in-field/checkboxes-dark.svg" class="w-100" width="980" height="228" alt="Checkbox Example" loading="auto" >}}
 
 ## Overview
 

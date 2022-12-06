@@ -14,7 +14,7 @@ hidden: true
 sitemap_exclude: true
 ---
 
-{{< img src="/img/in-field/btn-overview.svg" dark="/img/in-field/btn-overview-dark.svg" class="w-100" alt="Button Overview" height="96" width="961" lazyload="auto" >}}
+{{< img src="/img/in-field/btn-overview.svg" dark="/img/in-field/btn-overview-dark.svg" class="w-100" alt="Button Overview" height="96" width="961" loading="auto" >}}
 
 ## Overview
 

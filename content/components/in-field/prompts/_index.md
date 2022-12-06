@@ -12,7 +12,7 @@ aliases:
   - prompt
 ---
 
-{{< img src="/img/in-field/prompts.svg" dark="/img/in-field/prompts-dark.svg" width="1051" height="313" class="w-100 bg-light" alt="Prompts example" lazyload="auto" >}}
+{{< img src="/img/in-field/prompts.svg" dark="/img/in-field/prompts-dark.svg" width="1051" height="313" class="w-100 bg-light" alt="Prompts example" loading="auto" >}}
 
 ## Overview
 
@@ -45,8 +45,8 @@ When more information is required add sub-text.
 
 {{< whats-changed-table >}}
 
-| Date | Version | Notes | Contributors |
-| ---------- | ------- | -------------- | ------------ |
-| 06/02/2022 | 1.0.1 | Updated full layout. | M. Johns |
+| Date       | Version | Notes                | Contributors |
+| ---------- | ------- | -------------------- | ------------ |
+| 06/02/2022 | 1.0.1   | Updated full layout. | M. Johns     |
 
 {{</ whats-changed-table >}}

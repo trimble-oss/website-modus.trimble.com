@@ -1,6 +1,6 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 <p><img src="{{- .Get "src" -}}" class="{{.Get "class" }} img-fluid"
-    loading="{{- if .Get "lazyload" -}}auto{{ else }}lazy{{ end }}" {{if .Get "width" }} width="{{- .Get "width" -}}"
+    loading="{{- if .Get "loading" -}}auto{{ else }}lazy{{ end }}" {{if .Get "width" }} width="{{- .Get "width" -}}"
     {{- end -}} {{if .Get "height" }} height="{{- .Get "height" -}}" {{- end -}} alt="{{- .Get "alt" -}}"></p>
 {{- if .Get "dark" -}}
 <style>

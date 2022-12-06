@@ -15,8 +15,8 @@ tags: [in-field, styles]
 <!-- prettier-ignore-start -->
 | Type    | Example                                                                                                |
 | ------- | ------------------------------------------------------------------------------------------------------ |
-| Spacing | {{< img src="/img/in-field/alarm-spec-spacing.svg" width="471" height="290" alt="" lazyload="auto" >}} |
-| Text    | {{< img src="/img/in-field/alarm-spec-text.svg" width="430" height="328" alt="" lazyload="auto" >}}    |
+| Spacing | {{< img src="/img/in-field/alarm-spec-spacing.svg" width="471" height="290" alt="" loading="auto" >}} |
+| Text    | {{< img src="/img/in-field/alarm-spec-text.svg" width="430" height="328" alt="" loading="auto" >}}    |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 

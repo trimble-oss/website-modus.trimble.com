@@ -9,7 +9,7 @@ images:
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/tabs.png" dark="/img/in-field/tabs-dark.png" width="1088" height="359" class="w-100 bg-light" alt="Tabs example" lazyload="auto" >}}
+{{< img src="/img/in-field/tabs.png" dark="/img/in-field/tabs-dark.png" width="1088" height="359" class="w-100 bg-light" alt="Tabs example" loading="auto" >}}
 
 ## Overview
 

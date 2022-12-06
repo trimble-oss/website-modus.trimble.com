@@ -4,7 +4,7 @@ layout: "single"
 description: "Cards contain content and actions about a single subject."
 components: true
 component: cards
-keywords: cards, card
+keywords: card
 images:
   - "/img/in-field/headers/cards.png"
 tags: [in-field, usage]
@@ -12,7 +12,7 @@ aliases:
   - card
 ---
 
-{{< img src="/img/in-field/cards.svg" dark="/img/in-field/cards-dark.svg" class="w-100" width="979" height="373" alt="Cards" lazyload="auto" >}}
+{{< img src="/img/in-field/cards.svg" dark="/img/in-field/cards-dark.svg" class="w-100" width="979" height="373" alt="Cards" loading="auto" >}}
 
 ## Overview
 

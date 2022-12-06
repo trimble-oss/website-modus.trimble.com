@@ -6,11 +6,11 @@ components: true
 component: inputs
 images:
   - "/img/in-field/headers/inputs.png"
-keywords: input
+keywords: input, forms
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/inputs.png" dark="/img/in-field/inputs-dark.png" width="1087" height="1084" alt="inputs example" lazyload="auto" >}}
+{{< img src="/img/in-field/inputs.png" dark="/img/in-field/inputs-dark.png" width="1087" height="1084" alt="inputs example" loading="auto" >}}
 
 ## Overview
 

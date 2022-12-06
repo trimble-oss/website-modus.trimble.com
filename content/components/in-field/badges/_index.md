@@ -14,7 +14,7 @@ hidden: true
 sitemap_exclude: true
 ---
 
-{{< img src="/img/in-field/badges.svg" dark="/img/in-field/badges-dark.svg" class="w-100" width="979" height="228" alt="Badges" lazyload="auto" >}}
+{{< img src="/img/in-field/badges.svg" dark="/img/in-field/badges-dark.svg" class="w-100" width="979" height="228" alt="Badges" loading="auto" >}}
 
 ## Overview
 

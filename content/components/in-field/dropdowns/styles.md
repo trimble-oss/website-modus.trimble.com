@@ -11,7 +11,7 @@ tags: [in-field, styles]
 
 ## Specifications
 
-{{< img src="/img/in-field/dropdowns-spec.svg" dark="/img/in-field/dropdowns-spec-dark.svg" width="1088" height="471" alt="Dropdowns Spec" lazyload="auto" >}}
+{{< img src="/img/in-field/dropdowns-spec.svg" dark="/img/in-field/dropdowns-spec-dark.svg" width="1088" height="471" alt="Dropdowns Spec" loading="auto" >}}
 
 ### Behaviors
 

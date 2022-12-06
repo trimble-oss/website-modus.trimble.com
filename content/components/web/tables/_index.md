@@ -4,6 +4,7 @@ layout: "single"
 description: "Tables display information in a grid-like format of rows and columns. "
 components: true
 componentsWeb: true
+keywords: data
 images:
   - "/img/components/headers/tables.png"
 bootstrapURL: "/components/tables/"
