@@ -43,14 +43,6 @@ There are two types of Notifications:
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
-Basic toast message with heading text only.
-![Prompts example 1](/img/in-field/notifications-example-1.svg)
-
-When more information is required add sub-text.
-![prompts example 2](/img/in-field/notifications-example-2.svg)
-
-**Note:** Focus state uses “global blue”.
-
 ### Behaviors
 
 - Swipe right to dismiss or press the close button
