@@ -23,7 +23,7 @@ tags: [in-field, styles]
 <!-- prettier-ignore-start -->
 | Default    | Pressed | Active    | Active Focus | Disabled |
 | ---------- | ------- | --------- | ------------ | -------- |
-| {{< img src="/img/in-field/dropdown-default.svg" dark="/img/in-field/dropdown-default-dark.svg" width="124" alt="" >}}   | {{< img src="/img/in-field/dropdown-pressed.svg" dark="/img/in-field/dropdown-pressed-dark.svg" width="124" alt="" >}}     | {{< img src="/img/in-field/dropdown-active.svg" dark="/img/in-field/dropdown-active-dark.svg" width="124" alt="" >}}    | {{< img src="/img/in-field/dropdown-active-focus.svg" dark="/img/in-field/dropdown-active-focus-dark.svg" width="124" alt="" >}}   | {{< img src="/img/in-field/dropdown-disabled.svg" dark="/img/in-field/dropdown-disabled-dark.svg" width="124" lt="" >}}
+| {{< img src="/img/in-field/dropdown-default.svg" dark="/img/in-field/dropdown-default-dark.svg" width="124" alt="" >}}   | {{< img src="/img/in-field/dropdown-pressed.svg" dark="/img/in-field/dropdown-pressed-dark.svg" width="124" alt="" >}}     | {{< img src="/img/in-field/dropdown-active.svg" dark="/img/in-field/dropdown-active-dark.svg" width="124" alt="" >}}    | {{< img src="/img/in-field/dropdown-active-focus.svg" dark="/img/in-field/dropdown-active-focus-dark.svg" width="124" alt="" >}}   | {{< img src="/img/in-field/dropdown-disabled.svg" dark="/img/in-field/dropdown-disabled-dark.svg" width="124" alt="" >}}
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 

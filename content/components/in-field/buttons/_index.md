@@ -9,9 +9,6 @@ images:
 tags: [in-field, usage]
 aliases:
   - button
-private: true
-hidden: true
-sitemap_exclude: true
 ---
 
 {{< img src="/img/in-field/btn-overview.svg" dark="/img/in-field/btn-overview-dark.svg" class="w-100" alt="Button Overview" height="96" width="961" loading="auto" >}}

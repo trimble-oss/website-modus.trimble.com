@@ -10,11 +10,9 @@ images:
 tags: [in-field, usage]
 aliases:
   - checkbox
-private: true
-hidden: true
 ---
 
-{{< img src="/img/in-field/checkboxes.svg" dark="/img/in-field/checkboxes-dark.svg" class="w-100" width="980" height="228" alt="Checkbox Example" loading="auto" >}}
+{{< img src="/img/in-field/checkboxes.svg" dark="/img/in-field/checkboxes-dark.svg" width="980" height="228" alt="Checkbox Example" loading="auto" >}}
 
 ## Overview
 

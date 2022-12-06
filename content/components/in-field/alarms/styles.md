@@ -3,7 +3,6 @@ title: "Alarms"
 layout: "single"
 description: "Alarms tell the user of a critical system problem."
 components: true
-hidden: true
 component: alarms
 images:
   - "/img/in-field/headers/alarms.png"
