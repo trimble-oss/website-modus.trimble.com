@@ -13,7 +13,13 @@ tags: [in-field, styles]
 
 - A switch must have a visible label that clearly conveys what option a user will turn on or off.
 
-{{< img src="/img/in-field/switches-spec.svg" dark="/img/in-field/switches-spec-dark.svg" width="1088" height="143" class="w-100" alt="Switches Specifications" loading="auto" >}}
+<!-- prettier-ignore-start -->
+| Type    | Example                                                                                                      | Height |
+|---------| ------------------------------------------------------------------------------------------------------------ | ------ |
+| Default | {{< img src="/img/in-field/switches-spec.svg" dark="/img/in-field/switches-spec-dark.svg" width="300" alt="" >}} | 48dp   |
+{class="table table-bordered table-thead-light"}
+
+<!-- prettier-ignore-end -->
 
 **Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
@@ -30,19 +36,29 @@ All checkboxes should have the following states:
 
 #### Switch Progression
 
-{{< img src="/img/in-field/switches-states.svg" dark="/img/in-field/switches-states-dark.svg" width="1087" height="317" class="w-100" alt="Switch States" >}}
-
-**Note:** Focus state uses “global blue”.
+<!-- prettier-ignore-start -->
+| State  | On                                                                                                                                      | Off | 
+| ------ | ----------------------------------------------- |--------|
+| Default  | {{< img src="/img/in-field/switches-on-default.svg" dark="/img/in-field/switches-on-default-dark.svg" width="70" alt="Example of Default Switch" >}} | {{< img src="/img/in-field/switches-off-default.svg" dark="/img/in-field/switches-off-default-dark.svg" width="70" alt="Example of Default Switch" >}}   |
+| Focus | {{< img src="/img/in-field/switches-on-focus.svg" dark="/img/in-field/switches-on-focus-dark.svg" width="70" alt="Example of Default Switch" >}} | {{< img src="/img/in-field/switches-off-focus.svg" dark="/img/in-field/switches-off-focus-dark.svg" width="70" alt="Example of Default Switch" >}}   | 
+| Disabled  | {{< img src="/img/in-field/switches-on-disabled.svg" dark="/img/in-field/switches-on-disabled-dark.svg" width="70" alt="Example of Default Switch" >}}    | {{< img src="/img/in-field/switches-off-disabled.svg" dark="/img/in-field/switches-off-disabled-dark.svg" width="70" alt="Example of Default Switch" >}}  | 
+{class="table table-bordered table-thead-light"}
+<!-- prettier-ignore-end -->
 
 #### Labels & Icons
 
-![Labels](/img/in-field/switches-label.svg)
+<!-- prettier-ignore-start -->
+| Label Left   | Label right | Icon Right    | Icon Left | Check icon |
+| ------- | ------- | --------- | ------------ | -------- |
+| {{< img src="/img/in-field/switch-label-left.svg" dark="/img/in-field/switch-label-left-dark.svg" width="124" alt="" >}}   | {{< img src="/img/in-field/switch-label-right.svg" dark="/img/in-field/switch-label-right-dark.svg" width="124" alt="" >}}     | {{< img src="/img/in-field/switch-icon-left.svg" dark="/img/in-field/switch-icon-left-dark.svg" width="124" alt="" >}}    | {{< img src="/img/in-field/switch-icon-right.svg" dark="/img/in-field/switch-icon-right-dark.svg" width="124" alt="" >}}   | {{< img src="/img/in-field/switch-tick.svg" dark="/img/in-field/switch-tick-dark.svg" width="80" lt="" >}}
+{class="table table-bordered table-thead-light"}
+<!-- prettier-ignore-end -->
 
 ### OEM Branding
 
 - This can be branded for OEMs as primary or brand colors.
 
-{{< img src="/img/in-field/switches-oem.svg" width="100%" class="bg-light" alt="OEM Branding" >}}
+{{< img src="/img/in-field/switches-oem.svg"  dark="/img/in-field/switches-oem-dark.svg" width="100%" class="bg-light" alt="OEM Branding" >}}
 
 ### Editorial
 

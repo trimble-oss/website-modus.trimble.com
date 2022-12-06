@@ -18,7 +18,7 @@ tags: [in-field, styles]
 - Make sure the items in the list are in logical order (alphabetical, chronological, order of importance, etc.)
 - If no item is preselected, use something like “Select a vendor” or “Select an account” in ghost or hint text format. If you can’t gray out the text, you can use some kind of indicator, like parentheses.
 - If you need to, you can display ”None” as one of the options. It should have the same text formatting as the other options in the list.
-- Dropdowns are activated by clicking, not hovering.
+- Dropdowns are activated by taping.
 
 <!-- prettier-ignore-start -->
 | Default    | Pressed | Active    | Active Focus | Disabled |
