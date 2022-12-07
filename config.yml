@@ -49,6 +49,14 @@ menu:
       parent: Components
       url: "/components/in-field/"
       weight: 2
+#    - name: Mobile
+#      parent: Components
+#      url: "/components/mobile/"
+#      weight: 2
+#    - name: XR
+#      parent: Components
+#      url: "/components/xr/"
+#      weight: 2
     - name: Web
       parent: Components
       url: "/components/web/"
@@ -208,6 +216,76 @@ menu:
       url: /components/in-field/switches/
     - name: Tabs
       url: /components/in-field/tabs/
+
+  components_mobile:
+    - name: Overview
+      url: /components/mobile/overview/
+      weight: 1
+    - name: Accordions
+      url: /components/mobile/accordions/
+    - name: Badges
+      url: /components/mobile/badges/
+    - name: Cards
+      url: /components/mobile/cards/
+    - name: Checkboxes
+      url: /components/mobile/checkboxes/
+    - name: Chips
+      url: /components/mobile/chips/
+    - name: Dialogs
+      url: /components/mobile/dialogs/
+    - name: Footers
+      url: /components/mobile/footers/
+    - name: Inputs
+      url: /components/mobile/inputs/
+    - name: Lists
+      url: /components/mobile/lists/
+    - name: Map Views
+      url: /components/mobile/map-views/
+    - name: Messages
+      url: /components/mobile/messages/
+    - name: Navbar
+      url: /components/mobile/navbar/
+    - name: Popover
+      url: /components/mobile/popover/
+    - name: Progress Indicators
+      url: /components/mobile/progress-indicators/
+    - name: Radio Buttons
+      url: /components/mobile/radio-buttons/
+    - name: Scrollbar
+      url: /components/mobile/scrollbar/
+    - name: Segmented Controls
+      url: /components/mobile/segmented-controls/
+    - name: Sliders
+      url: /components/mobile/sliders/
+    - name: Status Bars
+      url: /components/mobile/status-bars/
+    - name: Switches
+      url: /components/mobile/switches/
+    - name: Tabs
+      url: /components/mobile/tabs/
+    - name: Tables
+      url: /components/mobile/tables/
+
+  components_xr:
+    - name: Overview
+      url: /components/xr/overview/
+      weight: 1
+    - name: Backplates
+      url: /components/xr/backplates/
+    - name: Buttons
+      url: /components/xr/buttons/
+    - name: Cards
+      url: /components/xr/cards/
+    - name: Lists
+      url: /components/xr/lists/
+    - name: Modals
+      url: /components/xr/modals/
+    - name: Menus
+      url: /components/xr/menus/
+    - name: Sliders
+      url: /components/xr/sliders/
+    - name: Tooltips
+      url: /components/xr/tooltips/
 
   resources:
     - name: "News & Articles"

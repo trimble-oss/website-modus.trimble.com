@@ -7,7 +7,7 @@ componentsWeb: true
 layout: single
 component: Introduction
 weight: 1
-tags: [hide-styles, hide-usage, hide-accessibility]
+tags: [hide-styles, hide-usage, hide-accessibility, hidden]
 ---
 
 <style>
@@ -20,7 +20,7 @@ article .nav-tabs {
 }
 </style>
 
-{{< img src="/img/in-field/intro.png" dark="/img/in-field/intro-dark.png" width="1087" height="385" class="w-100" loading="auto" >}}
+{{< img src="/img/components/intro.png" dark="/img/components/intro-dark.png" width="1087" height="385" class="w-100" loading="auto" >}}
 
 ## Overview
 
@@ -33,6 +33,7 @@ Use these patterns if your application runs in a browser on a desktop computer, 
 Modus Web UI Kits are available in [Figma and Adobe XD for designers](/designers/).
 
 ## Supported Frameworks
+
 Web patterns and components are currently available in three frameworks:
 
 - [Bootstrap](https://modus-bootstrap.trimble.com/)
@@ -41,6 +42,4 @@ Web patterns and components are currently available in three frameworks:
 
 You may also find links to relevant implementations on the right nav within each component.
 
-**Note:** Not all components are available in code in all frameworks. Visit the [Status](/status/) page for more information.
-
-
+_Note:_ Not all components are available in code in all frameworks. Visit the [Status](/status/) page for more information.
