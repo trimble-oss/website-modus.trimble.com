@@ -32,6 +32,7 @@
     "lint:textlint": "textlint **/*.*",
     "prettier": "prettier --write \"assets/**/*.*s\"",
     "serve": "hugo serve --port 4000 --disableFastRender --navigateToChanged",
+    "serve-drafts": "hugo serve --port 4000 --disableFastRender --navigateToChanged --buildDrafts",
     "svgo": "npx svgo --folder=\"static/img/icons\"",
     "test": "npm-run-all build lint-js lint-markdown lint-links"
   },

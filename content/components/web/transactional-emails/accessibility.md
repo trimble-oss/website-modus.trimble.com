@@ -4,7 +4,7 @@ layout: "single"
 description: "Auto-response emails that follow an action by a subscriber or user."
 components: true
 componentsWeb: true
-tags: [accessibility]
+tags: [accessibility, hide-styles]
 ---
 
 ## Accessibility

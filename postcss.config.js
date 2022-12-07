@@ -38,6 +38,7 @@ module.exports = {
         "card-body",
         "card-blog-brief",
         "card-header",
+        "card-transactional-emails",
         "card",
         "chip",
         "chip-input",

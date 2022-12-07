@@ -15,270 +15,15 @@
   </div>
 </header>
 
-{{ if .Params.componentsWeb }}
 <style>
-  [data-theme="dark"] .card-accordions {
-    background-image: url("/img/components/headers/accordions-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-alerts {
-    background-image: url("/img/components/headers/alerts-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-autocomplete {
-    background-image: url("/img/components/headers/autocomplete-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-badges {
-    background-image: url("/img/components/headers/badges-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-breadcrumbs {
-    background-image: url("/img/components/headers/breadcrumbs-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-buttons {
-    background-image: url("/img/components/headers/buttons-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-cards {
-    background-image: url("/img/components/headers/cards-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-checkboxes {
-    background-image: url("/img/components/headers/checkboxes-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-chips {
-    background-image: url("/img/components/headers/chips-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-content-tree {
-    background-image: url("/img/components/headers/content-tree-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-date-time-picker {
-    background-image: url("/img/components/headers/date-time-picker-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-dropdowns {
-    background-image: url("/img/components/headers/dropdowns-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-file-upload-dropzone {
-    background-image: url("/img/components/headers/file-upload-dropzone-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-inputs {
-    background-image: url("/img/components/headers/inputs-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-lists {
-    background-image: url("/img/components/headers/lists-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-messages {
-    background-image: url("/img/components/headers/messages-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-modals {
-    background-image: url("/img/components/headers/modals-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-navbar {
-    background-image: url("/img/components/headers/navbar-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-pagination {
-    background-image: url("/img/components/headers/pagination-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-progress-bars {
-    background-image: url("/img/components/headers/progress-bars-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-radio-buttons {
-    background-image: url("/img/components/headers/radio-buttons-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-side-navigation {
-    background-image: url("/img/components/headers/side-navigation-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-sliders {
-    background-image: url("/img/components/headers/sliders-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-spinners {
-    background-image: url("/img/components/headers/spinners-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-switches {
-    background-image: url("/img/components/headers/switches-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-tables {
-    background-image: url("/img/components/headers/tables-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-tabs {
-    background-image: url("/img/components/headers/tabs-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-toasts {
-    background-image: url("/img/components/headers/toasts-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-tooltips {
-    background-image: url("/img/components/headers/tooltips-dark.png") !important;
-  }
   .col-12:has(.card-components),
-  .col-12:has(.card-web) {
+  .col-12:has(.card-mobile),
+  .col-12:has(.card-in-field),
+  .col-12:has(.card-web),
+  .col-12:has(.card-xr-components) {
     display: none !important;
   }
 </style>
-{{- end }}
-
-{{ if .Params.componentsInField }}
-<style>
-  [data-theme="dark"] .card-accordions {
-    background-image: url("/img/in-field/headers/accordions-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-alarms {
-    background-image: url("/img/in-field/headers/alarms-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-alerts {
-    background-image: url("/img/in-field/headers/alerts-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-autocomplete {
-    background-image: url("/img/in-field/headers/autocomplete-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-badges {
-    background-image: url("/img/in-field/headers/badges-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-breadcrumbs {
-    background-image: url("/img/in-field/headers/breadcrumbs-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-buttons {
-    background-image: url("/img/in-field/headers/buttons-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-cards {
-    background-image: url("/img/in-field/headers/cards-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-checkboxes {
-    background-image: url("/img/in-field/headers/checkboxes-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-chips {
-    background-image: url("/img/in-field/headers/chips-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-content-tree {
-    background-image: url("/img/in-field/headers/content-tree-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-date-time-picker {
-    background-image: url("/img/in-field/headers/date-time-picker-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-dropdowns {
-    background-image: url("/img/in-field/headers/dropdowns-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-file-upload-dropzone {
-    background-image: url("/img/in-field/headers/file-upload-dropzone-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-inputs {
-    background-image: url("/img/in-field/headers/inputs-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-lists {
-    background-image: url("/img/in-field/headers/lists-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-messages {
-    background-image: url("/img/in-field/headers/messages-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-modals {
-    background-image: url("/img/in-field/headers/modals-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-navbar {
-    background-image: url("/img/in-field/headers/navbar-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-notifications {
-    background-image: url("/img/in-field/headers/notifications-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-pagination {
-    background-image: url("/img/in-field/headers/pagination-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-progress-bars {
-    background-image: url("/img/in-field/headers/progress-bars-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-prompts {
-    background-image: url("/img/in-field/headers/prompts-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-radio-buttons {
-    background-image: url("/img/in-field/headers/radio-buttons-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-segmented-controls {
-    background-image: url("/img/in-field/headers/segmented-controls-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-side-navigation {
-    background-image: url("/img/in-field/headers/side-navigation-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-sliders {
-    background-image: url("/img/in-field/headers/sliders-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-spinners {
-    background-image: url("/img/in-field/headers/spinners-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-switches {
-    background-image: url("/img/in-field/headers/switches-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-tables {
-    background-image: url("/img/in-field/headers/tables-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-tabs {
-    background-image: url("/img/in-field/headers/tabs-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-toasts {
-    background-image: url("/img/in-field/headers/toasts-dark.png") !important;
-  }
-
-  [data-theme="dark"] .card-tooltips {
-    background-image: url("/img/in-field/headers/tooltips-dark.png") !important;
-  }
-
-  .col-12:has(.card-components),
-  .col-12:has(.card-in-field) {
-    display: none !important;
-  }
-</style>
-{{ end}}
 
 <main class="my-5 container" id="main">
 
@@ -303,9 +48,25 @@
     <div class="row list text-dark" id="listjs-list">
 
       {{ if .Params.componentsWeb }}
-      {{ range first 196 (where .Site.Pages ".Section" "components") }}
+      {{ range first 296 (where .Site.Pages ".Section" "components") }}
       {{ if not (in .Params.tags "in-field" ) }}
+      {{ if not (in .Params.tags "mobile" ) }}
+      {{ if not (in .Params.tags "xr" ) }}
       {{ if not (in .Params.tags "accessibility" ) }}
+      {{ if not (in .Params.tags "styles" ) }}
+      {{- partial "card-component.html" . -}}
+      {{- end }}
+      {{- end }}
+      {{- end }}
+      {{- end }}
+      {{- end }}
+      {{- end }}
+      {{- end }}
+
+      {{ if .Params.componentsInField }}
+      {{ range first 296 (where .Site.Pages ".Section" "components") }}
+      {{ if not (in .Params.tags "accessibility" ) }}
+      {{ if (in .Params.tags "in-field" ) }}
       {{ if not (in .Params.tags "styles" ) }}
       {{- partial "card-component.html" . -}}
       {{- end }}
@@ -314,12 +75,26 @@
       {{- end }}
       {{- end }}
 
-      {{ if .Params.componentsInField }}
-      {{ range first 196 (where .Site.Pages ".Section" "components") }}
+      {{ if .Params.componentsMobile }}
+      {{ range first 296 (where .Site.Pages ".Section" "components") }}
       {{ if not (in .Params.tags "accessibility" ) }}
-      {{ if (in .Params.tags "in-field" ) }}
+      {{ if (in .Params.tags "mobile" ) }}
       {{ if not (in .Params.tags "styles" ) }}
       {{- partial "card-component.html" . -}}
+      {{- end }}
+      {{- end }}
+      {{- end }}
+      {{- end }}
+      {{- end }}
+
+      {{ if .Params.componentsXR }}
+      {{ range first 296 (where .Site.Pages ".Section" "components") }}
+      {{ if not (in .Params.tags "accessibility" ) }}
+      {{ if not (in .Params.tags "hidden" ) }}
+      {{ if (in .Params.tags "xr" ) }}
+      {{ if not (in .Params.tags "styles" ) }}
+      {{- partial "card-component.html" . -}}
+      {{- end }}
       {{- end }}
       {{- end }}
       {{- end }}
