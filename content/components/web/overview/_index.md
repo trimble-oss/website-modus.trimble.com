@@ -20,13 +20,13 @@ article .nav-tabs {
 }
 </style>
 
-{{< img src="/img/components/intro.png" dark="/img/components/intro-dark.png" width="1087" height="385" class="w-100" loading="auto" >}}
+{{< img src="/img/components/intro.png" dark="/img/components/intro-dark.png" width="1087" height="385" loading="auto" >}}
 
 ## Overview
 
 The web library of Modus components is a set of building blocks for designing and developing cohesive, consistent, and responsive web-based applications and workflows. Web-based applications utilize web browsers and web technology to perform tasks. Since web apps run on browsers, they require an internet connection to use.
 
-Use these patterns if your application runs in a browser on a desktop computer, laptop, tablet and/or smart phone under normal lighting and environmental conditions. If your application runs specifically on a smart phone, use the Mobile Components (__coming soon!__) instead. If your application is used on a mobile device in the field or in a cab of heavy machinery, use the [In-Field Components](/in-field/) instead.
+Use these patterns if your application runs in a browser on a desktop computer, laptop, tablet and/or smart phone under normal lighting and environmental conditions. If your application runs specifically on a smart phone, use the Mobile Components (__coming soon!__) instead. If your application is used on a mobile device in the field or in a cab of heavy machinery, use the [In-Field Components](/components/in-field/) instead.
 
 ## Modus Web UI Kits
 
@@ -36,8 +36,8 @@ Modus Web UI Kits are available in [Figma and Adobe XD for designers](/designers
 
 Web patterns and components are currently available in three frameworks:
 
-- [Bootstrap](https://modus-bootstrap.trimble.com/)
-- [React Bootstrap](https://modus-react-bootstrap.trimble.com/)
+- [Bootstrap](https://modus-bootstrap.trimble.com)
+- [React Bootstrap](https://modus-react-bootstrap.trimble.com)
 - [Web Components](https://modus-web-components.trimble.com/?path=/story/introduction-welcome--page)
 
 You may also find links to relevant implementations on the right nav within each component.
