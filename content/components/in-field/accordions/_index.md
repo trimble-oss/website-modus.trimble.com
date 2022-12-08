@@ -36,6 +36,9 @@ Accordions are containers that expand to reveal content progressively to limit t
 - Nesting too many layers. In other words, don’t place accordions within accordions.
 - Creating a set of visibly contained content, which doesn’t need an expand-and-collapse functionality. Instead, use a [Card](/components/in-field/cards/).
 
+
+{{< img src="/img/in-field/accordion-examples.svg" dark="/img/in-field/accordion-examples-dark.svg" width="850" alt="" >}}
+
 {{< whats-changed-table >}}
 
 | Date                         | Version | Notes                | Contributors |
