@@ -209,8 +209,9 @@ Highlight Blue
 
 </div>
 
-## Infield Global Colors  
-The Infield global palette is used in all in-field and on-machine products, and will no change regardless of brand. These colours shall not change to suit any specific product. They establish a consistent colour language and convey the universal usage of fundamental UI elements.
+## In-Field Global Colors
+
+The In-Field global palette is used in all in-field and on-machine products, and will no change regardless of brand. These colours shall not change to suit any specific product. They establish a consistent colour language and convey the universal usage of fundamental UI elements.
 
 - The Global Color Palette consists of these categories:
 - Guidance Indication
@@ -222,15 +223,15 @@ The Infield global palette is used in all in-field and on-machine products, and 
 **Note:** Success dark background should only be used with a dark outline and when state needs to be clearly visible, like the on-grade state. The secondary color for light mode is Gray 9 not Gray 6 for higher contrast. 
 
 <div class="row">
-{{< card-color hex="#00FE00" note="">}}
+{{< card-color hex="#00FE00">}}
 Success Dark background
 {{</ card-color >}}
 
-{{< card-color hex="#00D22F" note="">}}
+{{< card-color hex="#00D22F">}}
 Success Light background
 {{</ card-color >}}
 
-{{< card-color hex="#FF8B00" note="">}}
+{{< card-color hex="#FF8B00">}}
 Alert/Warning
 {{</ card-color >}}
 
@@ -242,7 +243,7 @@ Error
 Information
 {{</ card-color >}}
 
-{{< card-color hex="#DF4EB2" note="">}}
+{{< card-color hex="#DF4EB2">}}
 Avoidance Zone
 {{</ card-color >}}
 
@@ -251,7 +252,6 @@ Black
 {{</ card-color >}}
 
 </div>
-
 
 ## Text Color Use Examples
 
