@@ -35,22 +35,9 @@ These components are designed specifically for use on displays within a machine 
 
 ## Modus In-Field UI Kits
 
-UI Kits are available in [Figma for designers](/designers/). This brand base must maintain optimal usability, while also allowing flexibility to support Trimble and other OEM (Original Equipment Manufacturers) brand variations.
+UI Kits are available in [Figma for designers](/designers/). This brand base must maintain optimal usability, while also allowing flexibility to support Trimble and other OEM (Original Equipment Manufacturers) brand variations. See [Gobal colours](https://https://modus.trimble.com/foundations/color-palette/#infield-global-colors) for global colors and [Type ](https://https://modus.trimble.com/foundations/typography/#infield)for overivew of fonts sizes.
 
-## Global Colours
 
-The global palette is used in all in-field and on-machine products, regardless of brand. These colours shall not change to suit any specific product. They establish a consistent colour language and convey the universal usage of fundamental UI elements.
-
--	The Global Color Palette consists of these categories:
--	Guidance Indication
--	Operational States
--	System Status
--	Autos
--	Messaging (alarms, alerts, notifications, etc.)
-
-{{< img src="/img/in-field/intro-global.svg" dark="/img/in-field/intro-global-dark.svg" width="1087" height="385" class="w-100" loading="auto" >}}
-
-**Note** Success (special) should only be used with a dark outline and needs to be clearly visible, like the on-grade state.
 
 ## Supporting Brand Variations
 

@@ -473,7 +473,7 @@ The variations help keep type styles to a minimum, so consistency is easier to a
             <br><strong>Size:</strong> 11 px
             <br><strong>Case:</strong> Title
             <br><strong>Line Height:</strong> 14 px
-            <br><strong>Use:</strong> Side pane, property pane.
+            <br><strong>Use:</strong> Side pane, property panel.
           </td>
         </tr>
         <tr>
@@ -568,8 +568,203 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
       </tbody>
     </table>
+    
+### Infield
 
-## Display Headings
+Incab base fonts size is 22px for Andorid use sp (scalable pixels). Some application may suit Mobile fonts sizes depending on use.
+
+<table class="table table-bordered">
+      <thead class="thead-light">
+        <tr>
+          <th>Category</th>
+          <th>Specifications</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row">
+          <p class="infield-display-h1">Display&nbsp;1
+          </p>
+          </td>
+          <td>
+            <strong>Font Family:</strong> Open Sans
+            <br><strong>Font Weight:</strong> Bold, 700;
+            <br><strong>Size:</strong> 54 px/ 3.375 rem
+            <br><strong>Case:</strong> Title
+            <br><strong>Letter Spacing:</strong> 0.25
+            <br><strong>Line Height:</strong> 64 px
+            <br><strong>Scale to Mobile</strong> (size/ line height): 32 px/ 54 px
+            <br><strong>Use:</strong> Oversized screen titles. Used for full screen messages.
+        </tr>
+        <tr>
+          <td scope="row">
+            <p class="infield-heading-h1">Heading 1
+          </p>
+          </td>
+          <td>
+            <strong>Font Family:</strong> Open Sans
+            <br><strong>Font Weight:</strong> Bold, 700;
+            <br><strong>Size:</strong> 32 px/ 2 rem
+            <br><strong>Case:</strong> Title
+            <br><strong>Letter Spacing:</strong> 0.15
+            <br><strong>Line Height:</strong> 44 px
+            <br><strong>Scale to Mobile</strong> (size/ line height): 22 px/ 32 px
+            <br><strong>Use:</strong> Screen titles. Mostly used for page headings.
+          </td>
+        </tr>
+           </tr>
+        <tr>
+          <td scope="row">
+            <p class="infield-heading-h2">Heading 2
+          </p>
+          </td>
+          <td>
+            <strong>Font Family:</strong> Open Sans
+            <br><strong>Font Weight:</strong> Bold, 700;
+            <br><strong>Size:</strong> 26 px/ 1.625 rem
+            <br><strong>Case:</strong> Title
+            <br><strong>Letter Spacing:</strong> 0.15
+            <br><strong>Line Height:</strong> 32 px
+            <br><strong>Scale to Mobile</strong> (size/ line height): 18 px/ 26 px
+            <br><strong>Use:</strong> Sub-sections, card titles.         </td>
+        </tr>
+           </tr>
+        <tr>
+          <td scope="row">
+            <p class="infield-heading-h3">Heading 3
+          </p>
+          </td>
+          <td>
+            <strong>Font Family:</strong> Open Sans
+            <br><strong>Font Weight:</strong> Bold, 700;
+            <br><strong>Size:</strong> 24 px/ 1.5 rem
+            <br><strong>Case:</strong> Title
+            <br><strong>Letter Spacing:</strong> 0.15
+            <br><strong>Line Height:</strong> 30 px
+            <br><strong>Scale to Mobile</strong> (size/ line height): 16 px/ 24 px
+            <br><strong>Use:</strong> Sub-sections, card titles.          
+            </td>
+               </tr>
+           </tr>
+        <tr>
+          <td scope="row">
+            <p class="infield-heading-h4">Heading 4
+          </p>
+          </td>
+          <td>
+            <strong>Font Family:</strong> Open Sans
+            <br><strong>Font Weight:</strong> Bold, 700;
+            <br><strong>Size:</strong> 22 px/ 1.375 rem
+            <br><strong>Case:</strong> Title
+            <br><strong>Letter Spacing:</strong> 0.15
+            <br><strong>Line Height:</strong> 30 px
+            <br><strong>Scale to Mobile</strong> (size/ line height): 14 px/ 22 px
+            <br><strong>Use:</strong> Sub-sections, card titles, table headings.         
+            </td>
+                </tr>
+           </tr>
+        <tr>
+          <td scope="row">
+            <p class="infield-body-1">Body 1
+          </p>
+          </td>
+          <td>
+            <strong>Font Family:</strong> Open Sans
+            <br><strong>Font Weight:</strong> Regular;
+            <br><strong>Size:</strong> 26 px/ 1.625 rem
+            <br><strong>Case:</strong> Sentence
+            <br><strong>Letter Spacing:</strong> 0.25
+            <br><strong>Line Height:</strong> 32 px
+            <br><strong>Scale to Mobile</strong> (size/ line height): 18 px/ 26 px
+            <br><strong>Use:</strong> Some lists and panels.         
+            </td>
+                  </tr>
+           </tr>
+        <tr>
+          <td scope="row">
+            <p class="infield-body-2">Body 2
+          </p>
+          </td>
+          <td>
+            <strong>Font Family:</strong> Open Sans
+            <br><strong>Font Weight:</strong> Regular, 400; Bold 700;
+            <br><strong>Size:</strong> 24 px/ 1.375 rem
+            <br><strong>Case:</strong> Sentence
+            <br><strong>Letter Spacing:</strong> 0.25
+            <br><strong>Line Height:</strong> 32 px
+            <br><strong>Scale to Mobile</strong> (size/ line height): 16 px/ 24 px
+            <br><strong>Use:</strong> Body text.         
+            </td>
+                 </tr>
+           </tr>
+        <tr>
+          <td scope="row">
+            <p class="infield-body-3">Body 3
+          </p>
+          </td>
+          <td>
+            <strong>Font Family:</strong> Open Sans, Open Sans Condensed,
+            <br><strong>Font Weight:</strong> Regular, 400; Bold 700;
+            <br><strong>Size:</strong> 22 px/ 1.375 rem
+            <br><strong>Case:</strong> Title, Sentence
+            <br><strong>Letter Spacing:</strong> 0.25
+            <br><strong>Line Height:</strong> 28 px
+            <br><strong>Scale to Mobile</strong> (size/ line height): 14 px/ 22 px
+            <br><strong>Use:</strong> Messages, default buttons.         
+            </td>
+                </tr>
+           </tr>
+        <tr>
+          <td scope="row">
+            <p class="infield-body-4">Body 4
+          </p>
+          </td>
+          <td>
+            <strong>Font Family:</strong> Open Sans, Open Sans Condensed,
+            <br><strong>Font Weight:</strong> Regular, 400; Bold 700;
+            <br><strong>Size:</strong> 20 px/ 1.375 rem
+            <br><strong>Case:</strong> Title, Sentence
+            <br><strong>Letter Spacing:</strong> 0.15
+            <br><strong>Line Height:</strong> 28 px
+            <br><strong>Scale to Mobile</strong> (size/ line height): 12 px/ 20 px
+            <br><strong>Use:</strong> Labels, small buttons.         
+            </td>
+           </tr>
+        <tr>
+          <td scope="row">
+            <p class="infield-caption-1">Caption 1
+          </p>
+          </td>
+          <td>
+            <strong>Font Family:</strong> Open Sans,
+            <br><strong>Font Weight:</strong> Regular, 400; 
+            <br><strong>Size:</strong> 18 px/ 1.125
+            <br><strong>Case:</strong> Sentence
+            <br><strong>Letter Spacing:</strong> 0.25
+            <br><strong>Line Height:</strong> 24 px
+            <br><strong>Scale to Mobile</strong> (size/ line height): 10 px/18 px
+            <br><strong>Use:</strong> Notification caption text.         
+            </td> 
+            </tr>
+        <tr>
+          <td scope="row">
+            <p class="infield-caption-2">Caption 2
+          </p>
+          </td>
+          <td>
+            <strong>Font Family:</strong> Open Sans 
+            <br><strong>Font Weight:</strong> Regular, 400; 
+            <br><strong>Size:</strong> 16 px/ 1
+            <br><strong>Case:</strong> Sentence
+            <br><strong>Letter Spacing:</strong> 0.25
+            <br><strong>Line Height:</strong> 22 px
+            <br><strong>Scale to Mobile</strong> (size/ line height): 8 px/16 px
+            <br><strong>Use:</strong> Small Label text.         
+            </td>                    
+           
+</table>
+
+### Display Heading
 
 <table class="table table-bordered">
       <thead class="thead-light">
