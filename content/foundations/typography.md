@@ -569,9 +569,9 @@ The variations help keep type styles to a minimum, so consistency is easier to a
       </tbody>
     </table>
     
-### Infield
+### In-Field
 
-Incab base fonts size is 22px for Andorid use sp (scalable pixels). Some application may suit Mobile fonts sizes depending on use.
+Incab base fonts size is 22px for Android use sp (scalable pixels). Some application may suit Mobile fonts sizes depending on use.
 
 <table class="table table-bordered">
       <thead class="thead-light">
@@ -761,7 +761,7 @@ Incab base fonts size is 22px for Andorid use sp (scalable pixels). Some applica
             <br><strong>Scale to Mobile</strong> (size/ line height): 8 px/16 px
             <br><strong>Use:</strong> Small Label text.         
             </td>                    
-           
+        </tr>   
 </table>
 
 ### Display Heading
