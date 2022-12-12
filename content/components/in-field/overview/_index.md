@@ -35,9 +35,7 @@ These components are designed specifically for use on displays within a machine 
 
 ## Modus In-Field UI Kits
 
-UI Kits are available in [Figma for designers](/designers/). This brand base must maintain optimal usability, while also allowing flexibility to support Trimble and other OEM (Original Equipment Manufacturers) brand variations. See [Gobal colours](https://https://modus.trimble.com/foundations/color-palette/#infield-global-colors) for global colors and [Type ](https://https://modus.trimble.com/foundations/typography/#infield)for overivew of fonts sizes.
-
-
+UI Kits are available in [Figma for designers](/designers/). This brand base must maintain optimal usability, while also allowing flexibility to support Trimble and other OEM (Original Equipment Manufacturers) brand variations. See [Global colours](https://https://modus.trimble.com/foundations/color-palette/#infield-global-colors) for global colors and [Type ](https://https://modus.trimble.com/foundations/typography/#infield)for overview of fonts sizes.
 
 ## Supporting Brand Variations
 
