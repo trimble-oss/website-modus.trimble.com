@@ -1,6 +1,6 @@
 ---
 title: Book Review
-date: 2022-12-14
+date: 2022-12-13
 description: "Book Review: the importance of speed when it comes to design-thinking, prototyping, and testing of the high stake initiatives in *Sprint*."
 image: "/img/blog/headers/2022-12-14-sprint-book-review.png"
 images:
@@ -18,6 +18,8 @@ layout: blog-post
 ## Book Review: *Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days*, by Jake Knapp, John Zeratsky, and Braden Kowitz
 
 <br>
+
+<img src="/img/news/sprint-book-cover.png" alt="Sprint Book Cover" style="padding: 5px; height: 250px; float: right;">
 
 In the book *Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days* by Jake Knapp, John Zeratsky, and Braden Kowitz - Google Venturers - we learn the importance of speed, when it comes to design-thinking, prototyping, and testing of the high-stake initiatives.
 
