@@ -1,6 +1,6 @@
 ---
 title: Book Review
-date: 2022-12-13
+date: 2022-12-14
 description: "Book Review: the importance of speed when it comes to design-thinking, prototyping, and testing of the high stake initiatives in *Sprint*."
 image: "/img/blog/headers/2022-12-14-sprint-book-review.png"
 images:
