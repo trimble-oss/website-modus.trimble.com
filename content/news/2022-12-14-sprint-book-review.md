@@ -31,7 +31,4 @@ In this 5-day process, each day is structured and meant to solve different piece
 
 In conclusion, *Sprint* gives superpowers to organizations and teams. It allows them to fast-forward into the future to see what kind of impact their product/future product will have on targeted customers before making any expensive commitments.
 
-[Download the PDF version of the book!](https://drive.google.com/file/d/1GRn1fgMVYTRRlrxUgMu2807jL_xKOzXy/view?usp=share_link)
-
-
-
+[Learn more](https://www.thesprintbook.com/book)
