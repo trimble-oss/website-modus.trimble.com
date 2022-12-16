@@ -8,6 +8,8 @@ layout: single
 component: Introduction
 weight: 1
 tags: [hide-styles, hide-usage, hide-accessibility, hidden]
+aliases:
+  - "/components/web/overview/"
 ---
 
 <style>

@@ -1,12 +1,8 @@
 ---
 title: "In-Field"
-weight: 1
 description: ""
-components: true
-infield: true
-# listJS: true
-layout: components
+layout: redirect
 disableScrollSpy: true
 sitemap_exclude: true
-draft: true
+redirect: "/components/in-field/"
 ---

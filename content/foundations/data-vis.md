@@ -63,7 +63,7 @@ A tooltip appears when hovering over content in a chart or graph showing the exa
 
 There are over 100 types of charts and graphs. We identified the most popular types in order to provide guidance and examples:
 
-![Decision Chart](/img/foundations/data-vis-decision-chart.png)
+{{< img src="/img/foundations/data-vis-decision-chart.svg" dark="/img/foundations/data-vis-decision-chart-dark.svg" class="w-100" alt="Decision Chart" >}}
 
 ### Pie or Donut Charts
 

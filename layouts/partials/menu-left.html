@@ -50,7 +50,7 @@
       {{ range .Site.Menus.components_web }}
       {{- if not .Params.hidden -}}
       <li><a
-          class="nav-link {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Parent.Name .Name) }}active{{- end -}}"
+          class="nav-link {{ .Post }} {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Parent.Name .Name) }}active{{- end -}}"
           href="{{ .URL }}">
           {{- .Name -}}
         </a></li>
@@ -62,7 +62,7 @@
       {{ range .Site.Menus.components_infield }}
       {{- if not .Params.hidden -}}
       <li><a
-          class="nav-link {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Parent.Name .Name) }}active{{- end -}}"
+          class="nav-link {{ .Post }} {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Parent.Name .Name) }}active{{- end -}}"
           href="{{ .URL }}">
           {{- .Name -}}
         </a></li>
@@ -74,7 +74,7 @@
       {{ range .Site.Menus.components_mobile }}
       {{- if not .Params.hidden -}}
       <li><a
-          class="nav-link {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Parent.Name .Name) }}active{{- end -}}"
+          class="nav-link {{ .Post }} {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Parent.Name .Name) }}active{{- end -}}"
           href="{{ .URL }}">
           {{- .Name -}}
         </a></li>
@@ -86,7 +86,7 @@
       {{ range .Site.Menus.components_xr }}
       {{- if not .Params.hidden -}}
       <li><a
-          class="nav-link {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Parent.Name .Name) }}active{{- end -}}"
+          class="nav-link {{ .Post }} {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Parent.Name .Name) }}active{{- end -}}"
           href="{{ .URL }}">
           {{- .Name -}}
         </a></li>

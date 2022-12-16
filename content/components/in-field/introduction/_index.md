@@ -9,6 +9,8 @@ layout: single
 component: Introduction
 weight: 1
 tags: [in-field, hide-styles, hide-usage, hide-accessibility]
+aliases:
+  - "/components/in-field/overview/"
 ---
 
 <style>
