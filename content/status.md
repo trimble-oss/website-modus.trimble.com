@@ -36,7 +36,7 @@ hideToc: true
 | [Cards](/components/cards/)                                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Checkboxes](/components/checkboxes/)                         | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Chips](/components/chips/)                                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
-| [Content Tree](/components/content-tree/)                     | {{< ico-check >}} |                    | {{< ico-check >}}        | {{< ico-uc >}}          |
+| [Content Tree](/components/content-tree/)                     | {{< ico-check >}} |                    | {{< ico-check >}}        | {{< ico-check >}}          |
 | [Date Picker](/components/date-time-picker/)                  | {{< ico-check >}} |                    |                          |                         |
 | [Dropdowns](/components/dropdowns/)                           | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [File Upload Dropzone](/components/file-upload-dropzone/)     | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
