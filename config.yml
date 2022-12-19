@@ -45,22 +45,31 @@ menu:
       id: Components
       url: "/components/web/"
       weight: 3
-    - name: In-Field
-      parent: Components
-      url: "/components/in-field/"
-      weight: 2
-#    - name: Mobile
-#      parent: Components
-#      url: "/components/mobile/"
-#      weight: 2
-#    - name: XR
-#      parent: Components
-#      url: "/components/xr/"
-#      weight: 2
     - name: Web
       parent: Components
       url: "/components/web/"
+      pre: "<img src='/img/icons/web.svg' width=28 height=28 class='icon' alt>"
+      post: "React, Web Components, Angular<br>for web applications."
       weight: 1
+    - name: In-Field
+      parent: Components
+      url: "/components/in-field/"
+      pre: "<img src='/img/icons/in-field.svg' width=28 height=28 class='icon' alt>"
+      post: "High-contrast library specific<br>to applications used outdoors."
+      weight: 2
+#   - name: Mobile
+#     parent: Components
+#     url: "/components/mobile/"
+#     pre: "<img src='/img/icons/mobile.svg' width=28 height=28 class='icon' alt>"
+#     post: ""
+#     weight: 3
+#   - name: XR
+#     parent: Components
+#     url: "/components/xr/"
+#     pre: "<img src='/img/icons/xr.svg' width=28 height=28 class='icon' alt>"
+#     post: ""
+#     weight: 4
+
     - Name: Community
       url: "/community/"
       weight: 4
@@ -108,9 +117,10 @@ menu:
       url: /foundations/writing-style/
 
   components_web:
-    - name: Overview
-      url: /components/web/overview/
+    - name: Introduction
+      url: /components/web/introduction/
       weight: 1
+      post: "border-bottom"
     - name: Accordions
       url: /components/web/accordions/
     - name: Alerts
@@ -173,9 +183,10 @@ menu:
       url: /components/web/transactional-emails/
 
   components_infield:
-    - name: Overview
-      url: /components/in-field/overview/
+    - name: Introduction
+      url: /components/in-field/introduction/
       weight: 1
+      post: "border-bottom"
     - name: Accordions
       url: /components/in-field/accordions/
     - name: Alarms
