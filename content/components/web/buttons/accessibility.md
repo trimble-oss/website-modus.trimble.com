@@ -18,6 +18,6 @@ tags: [accessibility]
 - Buttons have role of `button`. Using a native HTML `button` or `input type="submit"` element is a better choice than creating a custom ARIA button.
 - Buttons should have accessible labels. By default, the accessible name is computed from any text content inside the button element.
 - A button should be triggered by pressing "Spacebar," "Enter," or "Return."
-- Make sure the mouse cursor is an arrow pointer, not a text selector or a hand icon.
+- The mouse cursor should be a hand icon (`cursor: pointer`)
 - Disabled buttons should have `aria-disabled` set to `true`.
 - When placing a button on a color other than standard background colors (Gray Light or White), make sure the colors of all states (except for disabled) still meet [color contrast accessibility standards](/foundations/accessibility/).
