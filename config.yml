@@ -229,8 +229,8 @@ menu:
       url: /components/in-field/tabs/
 
   components_mobile:
-    - name: Overview
-      url: /components/mobile/overview/
+    - name: Introduction
+      url: /components/mobile/introduction/
       weight: 1
     - name: Accordions
       url: /components/mobile/accordions/
@@ -254,16 +254,16 @@ menu:
       url: /components/mobile/map-views/
     - name: Messages
       url: /components/mobile/messages/
-    - name: Navbar
-      url: /components/mobile/navbar/
-    - name: Popover
-      url: /components/mobile/popover/
+    - name: Navbars
+      url: /components/mobile/navbars/
+    - name: Popovers
+      url: /components/mobile/popovers/
     - name: Progress Indicators
       url: /components/mobile/progress-indicators/
     - name: Radio Buttons
       url: /components/mobile/radio-buttons/
-    - name: Scrollbar
-      url: /components/mobile/scrollbar/
+    - name: Scrollbars
+      url: /components/mobile/scrollbars/
     - name: Segmented Controls
       url: /components/mobile/segmented-controls/
     - name: Sliders
@@ -278,8 +278,8 @@ menu:
       url: /components/mobile/tables/
 
   components_xr:
-    - name: Overview
-      url: /components/xr/overview/
+    - name: Introduction
+      url: /components/xr/introduction/
       weight: 1
     - name: Backplates
       url: /components/xr/backplates/
