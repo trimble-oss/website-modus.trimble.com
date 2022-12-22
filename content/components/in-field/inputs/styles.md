@@ -35,7 +35,7 @@ tags: [in-field, styles]
 - Don't add validation text under helper text, as its appearance will shift content.
 - Form inputs that are in **Active** should have a 4dp border using our active color : {{< color-preview hex="#0C77BE" >}}. Labeled\*\* should be: {{< color-preview hexL="#ByB9C3" hexD="#019AEB" >}}.
 - Form inputs that are **invalid** should have a 4px border using our danger color: {{< color-preview hex="#da212c" >}}.
-- Form inputs that are **disabled** should be: {{< color-preview hexL="#ByB9C3" hexD="#6A6E79" >}} Stroke {{< color-preview hexD="#353A40" >}}
+- Form inputs that are **disabled** should be: {{< color-preview hexL="#B7B9C3" hexD="#6A6E79" >}} Stroke {{< color-preview hexD="#353A40" >}}
 - Form inputs that are **read only** have background color: {{< color-preview hexL="#E0E1E9" hexD="#353A40" >}}.
 
 <!-- prettier-ignore-start -->
