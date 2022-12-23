@@ -6,7 +6,6 @@ components: true
 component: radio-buttons
 images:
   - "/img/in-field/headers/radio-buttons.png"
-keywords: forms, form
 tags: [in-field, styles]
 ---
 
@@ -17,6 +16,13 @@ tags: [in-field, styles]
 - A heading much accompany a set of radio buttons.
 
 {{< img src="/img/in-field/radios-specs.svg" dark="/img/in-field/radios-specs-dark.svg" width="1089" height="143" alt="Radio Buttons Specifications" loading="auto" >}}
+
+<!-- prettier-ignore-start -->
+| State | Example                                                                                                                      | Height | Use Case |
+| ----- | -----------------------------------------------------------------------------------------------------------------------------| ------ | ---------|
+| Small | {{< img src="/img/in-field/radios-specs.svg" dark="/img/in-field/radios-specs-dark.svg" width="98" loading="auto" alt="" >}} | 56dp   | List     |
+{class="table table-bordered table-thead-light d-none"}
+<!-- prettier-ignore-end -->
 
 **Note:**  In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 

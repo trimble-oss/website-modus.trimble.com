@@ -6,7 +6,6 @@ components: true
 component: radio-buttons
 images:
   - "/img/in-field/headers/radio-buttons.png"
-keywords: forms, form
 tags: [in-field, accessibility]
 ---
 
