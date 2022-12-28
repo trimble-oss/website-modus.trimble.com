@@ -21,7 +21,7 @@ Identify the user need your pattern solves and explain its advantages over alter
 
 a.) A new component has been created on your product team (e.g. Chips for displaying and interacting with content filters)
 
-b.) The component exists as design elements and interaction pattern sequence (in Sketch, Figma, Adobe XD, inVision)
+b.) The component exists as design elements and interaction pattern sequence (in Figma, Adobe XD, inVision)
 
 c.) The component has undergone usability testing with documented results or is currently in use in the product
 

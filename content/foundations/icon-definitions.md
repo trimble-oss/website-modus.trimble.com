@@ -176,7 +176,7 @@ In web and mobile applications, icons can have subtle transitions when changing 
   </tbody>
 </table>
 
-**Note!** Source files exist as vector graphics (Adobe Illustrator .ai, .pdf, .sketch) and can be exported to common vector and pixel graphic formats. If pixel graphics are still used in the UI, the source file should already be scaled and retouched as a vector accordingly, not as a pixel graphic.
+**Note!** Source files exist as vector graphics (Adobe Illustrator .ai, .pdf) and can be exported to common vector and pixel graphic formats. If pixel graphics are still used in the UI, the source file should already be scaled and retouched as a vector accordingly, not as a pixel graphic.
 
 ## Contribution Process
 

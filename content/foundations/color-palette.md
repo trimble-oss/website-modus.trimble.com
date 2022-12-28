@@ -220,7 +220,7 @@ The In-Field global palette is used in all in-field and on-machine products, and
 - Autos
 - Messaging (alarms, alerts, notifications, etc.)
 
-**Note:** Success dark background should only be used with a dark outline and when state needs to be clearly visible, like the on-grade state. The secondary color for light mode is Gray 9 not Gray 6 for higher contrast. 
+**Note:** Success dark background should only be used with a dark outline and when state needs to be clearly visible, like the on-grade state. The secondary color for light mode is Gray 9 not Gray 6 for higher contrast.
 
 <div class="row">
 {{< card-color hex="#00FE00">}}
@@ -256,16 +256,6 @@ Black
 ## Text Color Use Examples
 
 {{< img src="/img/foundations/text-color.svg" dark="/img/foundations/text-color-dark.svg" class="w-100" width="854" height="384" alt="Text Color Palette" style="background:#fff" loading="auto" >}}
-
-<!--## Download Swatch Files
-
-- [Adobe – ASE](https://drive.google.com/open?id=0B44_OKHenyj3UUp3V2dTNzc3UTA)
-- [SCSS](https://drive.google.com/open?id=0B44_OKHenyj3XzJLV1lxclFTYTg)
-- [LESS](https://drive.google.com/open?id=0B44_OKHenyj3bTdRTlNSN1U1Nkk)
-- [Spreadsheet](https://drive.google.com/open?id=1kZZYozwWd_8Z_UeSQ_OpzPPB5pUX1BYTsudEQ47O78Q)
-- [Google Slides](https://drive.google.com/open?id=1nYtCUZ_dI6RsG_RVXAlA0THZZsah3fGFTnger3YVHMM)
-- [Paint.net](https://drive.google.com/file/d/0B44_OKHenyj3NDBPMkFQUms0dTA/view?usp=sharing)
-- [Sketch](https://drive.google.com/open?id=0B44_OKHenyj3blR1azhOTW41RzA)-->
 
 ## Extended Trimble Color Palette
 
