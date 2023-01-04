@@ -27,7 +27,7 @@ Checkboxes should be used in forms that require submission and processing. The c
 - Affording a binary selection, like accepting terms and conditions.
 - Affording multiple selections from a set of options.
 - Enabling selection of an object, such as a [Card](/components/in-field/cards/).
-- Affording selection of a row within a data [Table](/components/in-field/table/).
+- Affording selection of a row within a data table.
 - There is a parent and child relationship. User may use a parent checkbox to make a bulk selection of all list items. Unchecking the parent deselects all of the list items. Alternatively, user may select children individually, when the parent is not selected.
 
 **Don't use when**

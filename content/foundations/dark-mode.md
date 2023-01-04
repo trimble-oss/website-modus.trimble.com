@@ -3,6 +3,7 @@ title: "Dark Mode"
 layout: "single"
 description: "A system-wide appearance setting that uses a dark color palette to provide a comfortable viewing experience tailored for low-light environments."
 foundations: true
+bootstrapURL: "/foundations/dark-mode-theme/"
 ---
 
 ## When to Use Dark Mode
