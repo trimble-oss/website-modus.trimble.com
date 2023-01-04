@@ -53,6 +53,6 @@ There are two types of Notifications:
 - Keep titles three to five words if possible.
 - For titles, use title case and capitalize prepositions of four letters or more.
 - Messages should tell the user what’s happening in friendly, non-technical language.
-- If the message requires a user to take action in order to continue or complete a task, use an [Alert](/components/in-field/alerts/) instead.
+- If the message requires a user to take action in order to continue or complete a task, use an [Alarm](/components/in-field/alarms/) instead.
 - For messages, use full sentences with punctuation. Use sentence case.
 
