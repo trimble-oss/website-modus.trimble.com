@@ -1,12 +1,12 @@
 ---
 draft: true
-title: "Popover"
+title: "Popovers"
 layout: "single"
 description: ""
 components: true
-component: popover
+component: Popovers
 images:
-  - "/img/mobile/headers/popover.png"
+  - "/img/mobile/headers/popovers.png"
 tags: [mobile, accessibility]
 ---
 

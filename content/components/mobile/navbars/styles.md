@@ -1,13 +1,13 @@
 ---
 draft: true
-title: "Navbar"
+title: "Navbars"
 layout: "single"
 description: "The navbar provides context through globally accessible menu options."
 components: true
-component: Navbar
+component: Navbars
 images:
-  - "/img/mobile/headers/navbar.png"
-tags: [mobile, usage]
-aliases:
-  - navbars
+  - "/img/mobile/headers/navbars.png"
+tags: [mobile, styles]
 ---
+
+## Specifications

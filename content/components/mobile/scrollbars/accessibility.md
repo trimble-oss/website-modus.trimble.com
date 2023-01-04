@@ -1,12 +1,12 @@
 ---
 draft: true
-title: "Scrollbar"
+title: "Scrollbars"
 layout: "single"
 description: ""
 components: true
-component: scrollbar
+component: scrollbars
 images:
-  - "/img/mobile/headers/scrollbar.png"
+  - "/img/mobile/headers/scrollbars.png"
 tags: [mobile, accessibility]
 ---
 

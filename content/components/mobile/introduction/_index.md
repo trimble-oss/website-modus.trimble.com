@@ -2,7 +2,7 @@
 draft: true
 title: "Mobile"
 layout: "single"
-description: "The mobile, high-contrast library is specific to applications used outdoors."
+description: "The mobile library is specific to applications built for mobile devices."
 components: true
 images:
   - "/img/mobile/intro.png"
