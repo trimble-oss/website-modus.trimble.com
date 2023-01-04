@@ -57,12 +57,12 @@ menu:
       pre: "<img src='/img/icons/in-field.svg' width=28 height=28 class='icon' alt>"
       post: "High-contrast library specific<br>to applications used outdoors."
       weight: 2
-#   - name: Mobile
-#     parent: Components
-#     url: "/components/mobile/"
-#     pre: "<img src='/img/icons/mobile.svg' width=28 height=28 class='icon' alt>"
-#     post: ""
-#     weight: 3
+    - name: Mobile
+      parent: Components
+      url: "/components/mobile/"
+      pre: "<img src='/img/icons/mobile.svg' width=28 height=28 class='icon' alt>"
+      post: ""
+      weight: 3
 #   - name: XR
 #     parent: Components
 #     url: "/components/xr/"
@@ -236,6 +236,8 @@ menu:
       url: /components/mobile/accordions/
     - name: Badges
       url: /components/mobile/badges/
+    - name: Buttons
+      url: /components/mobile/buttons/
     - name: Cards
       url: /components/mobile/cards/
     - name: Checkboxes
