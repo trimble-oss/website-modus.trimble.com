@@ -16,7 +16,7 @@ tags: [mobile, styles]
 Accordion (aka expansion panel) is a vertically stacked, full-width, list of options that can expand/collapse to reveal or hide more associated content.
 
 - Accordions can display directly on the page or in a card container.
-- The arrow icon acts as an affordance to indicate the functionality of the accordion and as a visual marker of the state of the accordion through its rotation and direction.
+- The arrow icon acts as an affordance to indicate the functionality of the accordion, and as a visual marker of the state of the accordion through its rotation and direction.
 - When stacking multiple accordions, use stack space constants to add margin-bottom to the block element.
 
 ### Anatomy
