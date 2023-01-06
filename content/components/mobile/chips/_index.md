@@ -41,7 +41,7 @@ There are two sizes of Chips:
 States for Chips are:
 - Default
 - Focused
-- Selected/Active
+- Selected/Active
 - Disabled
 - Error
 
