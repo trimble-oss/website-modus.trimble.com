@@ -37,7 +37,8 @@ DON'T organize content in different ways when grouped together
 
 ## Specifications
 
-Card Container (2px radius, 16px padding, with Level 3 shadow) required.A card may contain a wide array of information and elements. Commom card elements are but not limited to:- Title (optional)
+Card Container (2px radius, 16px padding, with Level 3 shadow) required. A card may contain a wide array of information and elements. Commom card elements are but not limited to:
+- Title (optional)
 - Subtitle (optional)
 - Card Text (optional)
 - Buttons (optional)
