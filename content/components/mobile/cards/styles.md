@@ -10,7 +10,7 @@ images:
   - "/img/mobile/headers/cards.png"
 tags: [mobile, styles]
 ---
-### Card Layouts & Sizing
+### Styles
 
 Card layouts may vary to support the content within. The dimensions of a card will depend on the implementation of the card and as well as it's content and use case. Apply custom heights and width to meet product requirements.
 

@@ -9,6 +9,22 @@ images:
   - "/img/mobile/headers/badges.png"
 tags: [mobile, styles]
 ---
+### Styles
+
+## Specifications
+
+{{< img src="/img/mobile/badges-specifications.svg" dark="/img/mobile/badges-specifications-dark.svg" width="961" height="170" class="w-100" alt="Badges Specifications" loading="auto" >}}
+
+### Sizes
+
+Badges should be centered vertically inside of their containing element.
+
+{{< img src="/img/mobile/badges-sizes.svg" dark="/img/mobile/badges-sizes-dark.svg" width="961" height="170" class="w-100" alt="Badges Sizes" loading="auto" >}}
+
+### States
+
+{{< img src="/img/mobile/badges-states.svg" dark="/img/mobile/badges-states-dark.svg" width="961" height="170" class="w-100" alt="Badges States" loading="auto" >}}
+
 ### Types
 
 BThere are two types of badges: default and counter badges. They are available in three sizes: small, default, and large.
