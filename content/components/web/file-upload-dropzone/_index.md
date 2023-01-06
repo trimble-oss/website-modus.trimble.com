@@ -45,7 +45,7 @@ File upload dropzone allows users to upload content from their computer or devic
 
 - To help the user with motor navigation of moving a file into a precise location, the file upload dropzone should be active outside of its borders. It increases the area of the dropzone and provides a feeling of magnetic attraction preventing errors and speeding up interaction with the component.
 
-{{< img src="/img/components/dropzone-active-area.png" dark="/img/components/dropzone-active-area-dark.svg" class="w-100" alt="File Upload Dropzone Active Area" >}}
+{{< img src="/img/components/dropzone-active-area.svg" dark="/img/components/dropzone-active-area-dark.svg" class="w-100" alt="File Upload Dropzone Active Area" >}}
 
 - Validate the file(s) to communicate to the user the effectiveness of his action.
 - If the upload might take more than a few seconds, show progress of the upload. You may use a [Progress Bar](/components/web/progress-bars/) to show remaining time to upload a file or files.

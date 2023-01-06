@@ -141,7 +141,7 @@
           {{- if not .Params.hideDate -}}
           {{- if ne .Lastmod .Date -}}
           <div class="text-secondary small"><em>
-              Last updated {{ .Page.Lastmod.Month }} {{ .Page.Lastmod.Day }}, {{ .Page.Lastmod.Year -}}.
+              Last updated {{ .Lastmod.Format "January 2, 2006" }}.
             </em></div>
           {{- end -}}
           {{- end -}}
