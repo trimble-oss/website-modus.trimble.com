@@ -2,7 +2,7 @@
 draft: true
 title: "Footers"
 layout: "single"
-description: ""
+description: "Bottom navigation bars allow movement between primary destinations in an app."
 components: true
 component: footers
 images:
