@@ -102,6 +102,6 @@ While the elevation works well on both smooth gray and white surfaces, you may f
 
 | Date       | Version | Notes                               | Contributors |
 | ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell  |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati|
 
 {{</ whats-changed-table >}}

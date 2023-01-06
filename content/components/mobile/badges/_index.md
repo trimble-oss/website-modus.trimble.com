@@ -11,3 +11,41 @@ tags: [mobile, usage]
 aliases:
   - badge
 ---
+## Overview
+
+Badges notify the user of a status, for example that there are new or unread messages or notifications. They typically describe or relate to another element on the page. Badges scale so that their height matches the font-size of their immediate parent element by using relative font sizing and em units.
+
+## Usage
+
+**Use when**
+
+- In proximity to notifications or user avatars with eye-catching appeal (e.g. displaying unread messages count).
+- Use for displaying quick, easily digestible bits of information.
+
+**Don’t use when**
+
+- Displaying long strings of text.
+- An interactive element is needed, such as a Button or Chip.
+
+
+## Specifications
+
+{{< img src="/img/mobile/badges-specifications.svg" dark="/img/mobile/badges-specifications-dark.svg" width="961" height="170" class="w-100" alt="Badges Specifications" loading="auto" >}}
+
+### Sizes
+
+Badges should be centered vertically inside of their containing element.
+
+{{< img src="/img/mobile/badges-sizes.svg" dark="/img/mobile/badges-sizes-dark.svg" width="961" height="170" class="w-100" alt="Badges Sizes" loading="auto" >}}
+
+### States
+
+{{< img src="/img/mobile/badges-states.svg" dark="/img/mobile/badges-states-dark.svg" width="961" height="170" class="w-100" alt="Badges States" loading="auto" >}}
+
+{{< whats-changed-table >}}
+
+| Date       | Version | Notes                               | Contributors |
+| ---------- | ------- | ----------------------------------- | ------------ |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati   |
+
+{{</ whats-changed-table >}}

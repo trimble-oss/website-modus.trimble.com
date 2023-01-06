@@ -146,6 +146,7 @@
     "BRZPORTUGUESE",
     "btn",
     "bugfix",
+    "Byati",
     "Cabazon",
     "Cadsawan",
     "Cagan",
@@ -1210,7 +1211,13 @@
     "ZOOMRADII"
   ],
   "allowCompoundWords": true,
-  "flagWords": ["blacklist", "grandfathered", "grey", "hte", "whitelist"],
+  "flagWords": [
+    "blacklist",
+    "grandfathered",
+    "grey",
+    "hte",
+    "whitelist"
+  ],
   "language": "en,en-US",
   "ignoreRegExpList": [
     "<!-- prettier-ignore -->\\n(`{3,})\\w*\\n[\\s\\S]+?\\1",
