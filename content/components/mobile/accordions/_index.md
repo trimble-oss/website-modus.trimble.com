@@ -12,7 +12,7 @@ tags: [mobile, usage]
 
 ## Overview
 
-Accordions are containers that expand to reveal content progressively to limit the amount of information on the page or in a section to reduce clutter. The content can be expanded and collapsed based on the user's interest.
+Accordions are containers that expand to reveal content progressively to limit the amount of information on the page or in a section to reduce clutter. The content can be expanded and collapsed based on the user's interest. Accordion (aka Expansion panel) — is a vertically stacked, full-width, list of options that can expand/collapse to reveal or hide more associated content.
 
 ## Usage
 
