@@ -168,7 +168,7 @@ Checkboxes should be used in forms that require submission and processing. The c
                 >
               </div>
             </div>
-            <button class="btn btn-primary">Submit</button>
+            <button class="btn btn-primary" type="submit">Submit</button>
           </div>
         </div>
       </td>
