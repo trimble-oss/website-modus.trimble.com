@@ -98,46 +98,46 @@ All buttons (including icon buttons) should have the following states:
         <tr>
           <th scope="row">Default</th>
           <td>
-            <button class="btn btn-primary">Button</button>
+            <button class="btn btn-primary" type="button">Button</button>
           </td>
           <td>
-            <button class="btn btn-outline-primary">Button</button>
+            <button class="btn btn-outline-primary" type="button">Button</button>
           </td>
           <td>
-            <button class="btn btn-outline-dark">Button</button>
+            <button class="btn btn-outline-dark" type="button">Button</button>
           </td>
           <td>
-            <button class="btn btn-text-primary">Button</button>
+            <button class="btn btn-text-primary" type="button">Button</button>
           </td>
         </tr>
         <tr>
           <th scope="row">Hover</th>
-          <td><button class="btn hover btn-primary">Button</button></td>
-          <td><button class="btn hover btn-outline-primary">Button</button></td>
-          <td><button class="btn hover btn-outline-dark">Button</button></td>
-          <td><button class="btn hover btn-text-primary">Button</button></td>
+          <td><button class="btn hover btn-primary" type="button">Button</button></td>
+          <td><button class="btn hover btn-outline-primary" type="button">Button</button></td>
+          <td><button class="btn hover btn-outline-dark" type="button">Button</button></td>
+          <td><button class="btn hover btn-text-primary" type="button">Button</button></td>
         </tr>
         <tr>
           <th scope="row">Pressed</th>
           <td>
-            <button class="btn display-active btn-primary">Button</button>
+            <button class="btn display-active btn-primary" type="button">Button</button>
           </td>
           <td>
-            <button class="btn display-active btn-outline-primary">Button</button>
+            <button class="btn display-active btn-outline-primary" type="button">Button</button>
           </td>
           <td>
-            <button class="btn display-active btn-outline-dark">Button</button>
+            <button class="btn display-active btn-outline-dark" type="button">Button</button>
           </td>
           <td>
-            <button class="btn display-active btn-text-primary">Button</button>
+            <button class="btn display-active btn-text-primary" type="button">Button</button>
           </td>
         </tr>
         <tr>
           <th scope="row">Disabled</th>
-          <td><button disabled class="btn btn-primary">Button</button></td>
-          <td><button disabled class="btn btn-outline-primary">Button</button></td>
-          <td><button disabled class="btn btn-outline-dark">Button</button></td>
-          <td><button disabled class="btn btn-text-primary">Button</button></td>
+          <td><button disabled class="btn btn-primary" type="button">Button</button></td>
+          <td><button disabled class="btn btn-outline-primary" type="button">Button</button></td>
+          <td><button disabled class="btn btn-outline-dark" type="button">Button</button></td>
+          <td><button disabled class="btn btn-text-primary" type="button">Button</button></td>
         </tr>
       </tbody>
 </table>
@@ -158,46 +158,46 @@ All buttons (including icon buttons) should have the following states:
         <tr>
           <th scope="row">Default</th>
           <td>
-            <button class="btn btn-primary">Button</button>
+            <button class="btn btn-primary" type="button">Button</button>
           </td>
           <td>
-            <button class="btn btn-secondary">Button</button>
+            <button class="btn btn-secondary" type="button">Button</button>
           </td>
           <td>
-            <button class="btn btn-tertiary">Button</button>
+            <button class="btn btn-tertiary" type="button">Button</button>
           </td>
           <td>
-            <button class="btn btn-text-primary">Button</button>
+            <button class="btn btn-text-primary" type="button">Button</button>
           </td>
         </tr>
         <tr>
           <th scope="row">Hover</th>
-          <td><button class="btn hover btn-primary">Button</button></td>
-          <td><button class="btn hover btn-secondary">Button</button></td>
-          <td><button class="btn hover btn-tertiary">Button</button></td>
-          <td><button class="btn hover btn-text-primary">Button</button></td>
+          <td><button class="btn hover btn-primary" type="button">Button</button></td>
+          <td><button class="btn hover btn-secondary" type="button">Button</button></td>
+          <td><button class="btn hover btn-tertiary" type="button">Button</button></td>
+          <td><button class="btn hover btn-text-primary" type="button">Button</button></td>
         </tr>
         <tr>
           <th scope="row">Pressed</th>
           <td>
-            <button class="btn display-active btn-primary">Button</button>
+            <button class="btn display-active btn-primary" type="button">Button</button>
           </td>
           <td>
-            <button class="btn display-active btn-secondary">Button</button>
+            <button class="btn display-active btn-secondary" type="button">Button</button>
           </td>
           <td>
-            <button class="btn display-active btn-tertiary">Button</button>
+            <button class="btn display-active btn-tertiary" type="button">Button</button>
           </td>
           <td>
-            <button class="btn display-active btn-text-primary">Button</button>
+            <button class="btn display-active btn-text-primary" type="button">Button</button>
           </td>
         </tr>
         <tr>
           <th scope="row">Disabled</th>
-          <td><button disabled class="btn btn-primary">Button</button></td>
-          <td><button disabled class="btn btn-secondary">Button</button></td>
-          <td><button disabled class="btn btn-tertiary">Button</button></td>
-          <td><button disabled class="btn btn-text-primary">Button</button></td>
+          <td><button disabled class="btn btn-primary" type="button">Button</button></td>
+          <td><button disabled class="btn btn-secondary" type="button">Button</button></td>
+          <td><button disabled class="btn btn-tertiary" type="button">Button</button></td>
+          <td><button disabled class="btn btn-text-primary" type="button">Button</button></td>
         </tr>
       </tbody>
 </table>
@@ -221,7 +221,7 @@ All buttons (including icon buttons) should have the following states:
             </button>
           </td>
           <td>
-            <button class="btn btn-danger">Button</button>
+            <button class="btn btn-danger" type="button">Button</button>
           </td>
         </tr>
         <tr>
@@ -229,7 +229,7 @@ All buttons (including icon buttons) should have the following states:
           <td><button class="btn hover btn-icon-only btn-text-dark">
             <i class="modus-icons notranslate">gear</i>
           </button></td>
-          <td><button class="btn hover btn-danger">Button</button></td>
+          <td><button class="btn hover btn-danger" type="button">Button</button></td>
         </tr>
         <tr>
           <th scope="row">Pressed</th>
@@ -239,7 +239,7 @@ All buttons (including icon buttons) should have the following states:
           </button>
           </td>
           <td>
-            <button class="btn display-active btn-danger">Button</button>
+            <button class="btn display-active btn-danger" type="button">Button</button>
           </td>
         </tr>
         <tr>
@@ -248,7 +248,7 @@ All buttons (including icon buttons) should have the following states:
           <button disabled class="btn btn-icon-only btn-text-dark">
             <i class="modus-icons notranslate">gear</i>
           </button></td>
-          <td><button disabled class="btn btn-danger">Button</button></td>
+          <td><button disabled class="btn btn-danger" type="button">Button</button></td>
         </tr>
       </tbody>
 </table>
