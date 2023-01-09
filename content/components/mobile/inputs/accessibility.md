@@ -9,3 +9,6 @@ images:
 component: inputs
 tags: [mobile, accessibility]
 ---
+## Accessibility
+
+Provide clear and obvious action buttons. Form submission buttons should be primary.
