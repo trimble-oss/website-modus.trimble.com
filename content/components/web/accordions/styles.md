@@ -16,8 +16,8 @@ tags: [styles]
 
 **Default**
 
-- Header Font: Open Sans Semibold 16px
-- Body Font: Open Sans Regular 14px
+- Header Font: Open Sans Semibold 16px {{< color-preview hexL="#252A2E" hexD="#f1f1f6" >}}
+- Body Font: Open Sans Regular 14px {{< color-preview hexL="#252A2E" hexD="#f1f1f6" >}}
 - Horizontal Padding: 4px
 - Collapsed Height: 48px
 
@@ -29,8 +29,8 @@ tags: [styles]
 - Collapsed Height: 32px
 
 <div class="bg-light p-2">
-<div class="guide-example-block bg-light my-3 pr-5">
-  <div class="guide-content-sample anatomy-display-container">
+<div class="guide-example-block bg-light my-3" style="padding-right: 5rem">
+  <div class="guide-content-sample anatomy-display-container" style="padding-left: 180px;">
     <div class="accordion bg-white" id="accordionExample">
       <div class="card" style="overflow: unset">
         <div
@@ -40,6 +40,7 @@ tags: [styles]
           data-toggle="collapse"
           aria-expanded="true"
           aria-controls="collapseOne"
+          data-content="<small><b>font-size:</b> 16px<br><b>font-weight:</b> 600<br></small>"
         >
           <h5 class="mb-0">
             Accordion Title
@@ -51,7 +52,7 @@ tags: [styles]
           aria-labelledby="headingOne"
           data-parent="#accordionExample"
         >
-          <div class="card-body">
+          <div class="card-body anatomy-display-static">
             Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
           </div>
         </div>
@@ -121,8 +122,7 @@ tags: [styles]
             id="headingOne"
             data-toggle="collapse"
             aria-expanded="true"
-            aria-controls="collapseOne"
-          >
+            aria-controls="collapseOne">
             <h6 class="mb-0">
               Accordion Title
             </h6>
@@ -131,8 +131,7 @@ tags: [styles]
             id="collapseOne"
             class="collapse show"
             aria-labelledby="headingOne"
-            data-parent="#accordionCodeExample"
-          >
+            data-parent="#accordionCodeExample">
             <div class="card-body">
               high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
             </div>
@@ -144,8 +143,7 @@ tags: [styles]
             id="headingTwo"
             data-toggle="collapse"
             aria-expanded="false"
-            aria-controls="collapseTwo"
-          >
+            aria-controls="collapseTwo">
             <h6 class="mb-0">
               Accordion Title
             </h6>
@@ -154,8 +152,7 @@ tags: [styles]
             id="collapseTwo"
             class="collapse"
             aria-labelledby="headingTwo"
-            data-parent="#accordionCodeExample"
-          >
+            data-parent="#accordionCodeExample">
             <div class="card-body">
               high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
             </div>
@@ -167,8 +164,7 @@ tags: [styles]
             id="headingThree"
             data-toggle="collapse"
             aria-expanded="false"
-            aria-controls="collapseThree"
-          >
+            aria-controls="collapseThree">
             <h6 class="mb-0">
               Accordion Title
             </h6>
@@ -177,8 +173,7 @@ tags: [styles]
             id="collapseThree"
             class="collapse"
             aria-labelledby="headingThree"
-            data-parent="#accordionCodeExample"
-          >
+            data-parent="#accordionCodeExample">
             <div class="card-body">
               high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
             </div>
@@ -194,8 +189,7 @@ tags: [styles]
             id="headingOne"
             data-toggle="collapse"
             aria-expanded="true"
-            aria-controls="collapseOne"
-          >
+            aria-controls="collapseOne">
             <h6 class="mb-0">
               Accordion Title
             </h6>
@@ -204,8 +198,7 @@ tags: [styles]
             id="collapseOne"
             class="collapse show"
             aria-labelledby="headingOne"
-            data-parent="#accordionCodeExample"
-          >
+            data-parent="#accordionCodeExample">
             <div class="card-body">
               high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
             </div>
@@ -217,8 +210,7 @@ tags: [styles]
             id="headingTwo"
             data-toggle="collapse"
             aria-expanded="false"
-            aria-controls="collapseTwo"
-          >
+            aria-controls="collapseTwo">
             <h6 class="mb-0">
               Accordion Title
             </h6>
@@ -227,8 +219,7 @@ tags: [styles]
             id="collapseTwo"
             class="collapse"
             aria-labelledby="headingTwo"
-            data-parent="#accordionCodeExample"
-          >
+            data-parent="#accordionCodeExample">
             <div class="card-body">
               high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
             </div>
@@ -240,8 +231,7 @@ tags: [styles]
             id="headingThree"
             data-toggle="collapse"
             aria-expanded="false"
-            aria-controls="collapseThree"
-          >
+            aria-controls="collapseThree">
             <h6 class="mb-0">
               Accordion Title
             </h6>
@@ -250,8 +240,7 @@ tags: [styles]
             id="collapseThree"
             class="collapse"
             aria-labelledby="headingThree"
-            data-parent="#accordionCodeExample"
-          >
+            data-parent="#accordionCodeExample">
             <div class="card-body">
               high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
             </div>
@@ -284,11 +273,3 @@ tags: [styles]
 
 - Keep titles to five words, if possible, to avoid wrapping.
 - Use title case and capitalize prepositions of four letters or more.
-
-{{< whats-changed-table >}}
-
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 11/23/2020 | 1.0.0   | Spacing and typography adjustments. | E. Gunther   |
-
-{{</ whats-changed-table >}}

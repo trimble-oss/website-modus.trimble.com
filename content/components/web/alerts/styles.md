@@ -46,39 +46,93 @@ $(function () {
 
 ### Basic Alerts
 
-<div class="alert alert-primary" role="alert">
-  <i class="modus-icon material-icons notranslate alert-icon">info</i>
-  <div>A basic Primary alert</div>
-</div>
-<div class="alert alert-secondary" role="alert">
-  <i class="modus-icon material-icons notranslate alert-icon">help</i>
-  <div>A basic secondary alert with a button</div>
-  <a href="#" class="btn btn-sm btn-text-secondary">Button</a>
-</div>
-<div class="alert alert-dark" role="alert">
-  <i class="modus-icon material-icons notranslate alert-icon">info</i>
-  <div>A basic <u>dark alert</u> with <em>text formatting</em></div>
-</div>
-<div class="alert alert-success fade show" role="alert">
-  <i class="material-icons alert-icon">check_circle</i>
-  <div>Success! A basic success alert with a dismiss icon</div>
-  <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons notranslate">close</i>
-  </button>
-</div>
-<div class="alert alert-danger fade show" role="alert">
-  <i class="material-icons alert-icon">error</i>
-  <div>Error! A basic error alert with a dismiss icon</div>
-  <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons notranslate">close</i>
-  </button>
-</div>
-<div class="alert alert-warning text-dark fade show" role="alert">
-  <i class="modus-icon material-icons notranslate alert-icon">warning</i>
-  <div>Warning! A basic warning alert with a dismiss icon</div>
-  <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons notranslate">close</i>
-  </button>
+<style>
+[data-theme=dark] .alert-dark {
+  border-color: rgba(23,28,30,.5) !important;
+}
+.bg-light .alert {
+  max-width: 600px;
+}
+.popover-body {
+  min-width: 160px;
+}
+[data-theme=dark] .popover-body .theme-d {
+  display: inline-block !important;
+}
+[data-theme=dark] code {
+  filter: brightness(250%);
+}
+</style>
+
+<div class="bg-light">
+  <div class="bg-light p-3 p-xl-4 px-xl-5" style="margin-left: 210px">
+    <div
+      class="alert alert-primary"
+      role="alert"
+      data-toggle="popover"
+      data-html="true"
+      data-placement="left"
+      data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#0063a380</code><br>
+                           <b>border-color:</b> <code class=theme-l>#019aeb80</code><code class=theme-d>#019aeb</code></small>">
+      <i class="modus-icon material-icons notranslate alert-icon">info</i>
+      <div>A basic Primary alert</div>
+    </div>
+    <div class="alert alert-secondary" role="alert"
+      data-toggle="popover"
+      data-html="true"
+      data-placement="left"
+      data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#6a6e7980</code><br>
+                           <b>border-color:</b> <code class=theme-l>#6a6e79</code><code class=theme-d>#6a6e79</code></small>">
+      <i class="modus-icon material-icons notranslate alert-icon">help</i>
+      <div>A basic secondary alert with a button</div>
+      <a href="#" class="btn btn-sm btn-text-secondary">Button</a>
+    </div>
+    <div class="alert alert-dark" role="alert"
+      data-toggle="popover"
+      data-html="true"
+      data-placement="left"
+      data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#171c1e80</code><br>
+                           <b>border-color:</b> <code class=theme-l>#252a2e</code><code class=theme-d>#171c1e</code></small>">
+      <i class="modus-icon material-icons notranslate alert-icon">info</i>
+      <div>A basic <u>dark alert</u> with <em>text formatting</em></div>
+    </div>
+    <div class="alert alert-success fade show" role="alert"
+      data-toggle="popover"
+      data-html="true"
+      data-placement="left"
+      data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#1e8a4480</code><br>
+                           <b>border-color:</b> <code class=theme-l>#006638</code><code class=theme-d>#1e8a44</code></small>">
+      <i class="material-icons alert-icon">check_circle</i>
+      <div>Success! A basic success alert with a dismiss icon</div>
+      <button type="button" class="close" data-dismiss="alert">
+        <i class="modus-icon material-icons notranslate">close</i>
+      </button>
+    </div>
+    <div class="alert alert-danger fade show" role="alert"
+      data-toggle="popover"
+      data-html="true"
+      data-placement="left"
+      data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#da212c80</code><br>
+                           <b>border-color:</b> <code class=theme-l>#da212c</code><code class=theme-d>#da212c</code></small>">
+      <i class="material-icons alert-icon">error</i>
+      <div>Error! A basic error alert with a dismiss icon</div>
+      <button type="button" class="close" data-dismiss="alert">
+        <i class="modus-icon material-icons notranslate">close</i>
+      </button>
+    </div>
+    <div class="alert alert-warning text-dark fade show" role="alert"
+      data-toggle="popover"
+      data-html="true"
+      data-placement="left"
+      data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#fbad2680</code><br>
+                           <b>border-color:</b> <code class=theme-l>#e49325</code><code class=theme-d>#fbad26</code></small>">
+      <i class="modus-icon material-icons notranslate alert-icon">warning</i>
+      <div>Warning! A basic warning alert with a dismiss icon</div>
+      <button type="button" class="close" data-dismiss="alert">
+        <i class="modus-icon material-icons notranslate">close</i>
+      </button>
+    </div>
+  </div>
 </div>
 
 ### Behaviors
