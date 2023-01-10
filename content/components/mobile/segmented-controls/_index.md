@@ -12,33 +12,20 @@ tags: [mobile, usage, hide-accessibility]
 
 ## Overview
 
+Segmented buttons should be used in place of tabs where it makes sense and where the content below does not need to be visually connected to the tabs.
+
+Segmented controls can also be used to toggle between multiple values in a set.
 
 
-## Anatomy of a Scrollbar
+## Atoms
 
+For more details on the contents of these atoms, see List.
 
+{{< img src="/img/mobile/segmented-controls-atoms.svg" dark="/img/mobile//segmented-controls-atoms-dark.svg" width="961" height="170" class="w-100" alt="Segmented Controls Atoms" loading="auto" >}}
 
-## Minimal
+## Sizes
 
-
-
-## Behavior & Interaction
-
-
-
-## Default Behavior
-
-
-
-## Usage
-
-**Use when**
-
--
-
-**Don’t use when**
-
--
+{{< img src="/img/mobile/segmented-controls-sizes.svg" dark="/img/mobile//segmented-controls-sizes-dark.svg" width="961" height="170" class="w-100" alt="Segmented Controls Sizes" loading="auto" >}}
 
 
 {{< whats-changed-table >}}

@@ -9,3 +9,11 @@ images:
   - "/img/mobile/headers/segmented-controls.png"
 tags: [mobile, styles, hide-accessibility]
 ---
+
+## Styles
+
+{{< img src="/img/mobile/segmented-controls-styles.svg" dark="/img/mobile//segmented-controls-Styles-dark.svg" width="961" height="170" class="w-100" alt="Segmented Controls Styles" loading="auto" >}}
+
+## Options
+
+{{< img src="/img/mobile/segmented-controls-options.svg" dark="/img/mobile//segmented-controls-options-dark.svg" width="961" height="170" class="w-100" alt="Segmented Controls Options" loading="auto" >}}
