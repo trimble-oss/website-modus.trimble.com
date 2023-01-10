@@ -109,7 +109,7 @@ There are two color options available. They can be used in the following combina
 | Background               | {{< color-preview hexL="#ffffff" nameL="White" hexD="#171C1E" nameD="Gray 10" >}}                                                                                    | {{< color-preview hex="#0E416C" name="Blue Dark">}}    |
 | Selected Item Background | {{< color-preview hexL="#0063a3" nameL="Trimble Blue" hexD="#171C1E" nameD="Highlight Blue" >}}                                                                      | {{< color-preview hex="#217cbb" name="Blue Light">}}   |
 | Text Link                | {{< color-preview hexL="#252a2e" nameL="Trimble Gray" hexD="#fff" nameD="White" >}}                                                                                  | {{< color-preview hex="#ffffff" name="White">}}        |
-| Hover Link               | {{< color-preview hexL="#e0e1e9" nameL="Gray 0" hexD="#464B52" nameD="Gray 8" >}}                                                                                    | {{< color-preview hex="#0063a3" name="Trimble Blue">}} |
+| Hover Item Background               | {{< color-preview hexL="#e0e1e9" nameL="Gray 0" hexD="#464B52" nameD="Gray 8" >}}                                                                                    | {{< color-preview hex="#0063a3" name="Trimble Blue">}} |
 | Icon                     | {{< color-preview hexL="#252a2e" nameL="Trimble Gray" hexD="#fff" nameD="White" >}} <span class="theme-d">or {{< color-preview hexD="#7d808d" nameD="Gray 5" >}}</span> | {{< color-preview hex="#ffffff" name="White">}}        |
 | Chevron                  | {{< color-preview hexL="#252a2e" nameL="Trimble Gray" hexD="#fff" nameD="White" >}}                                                                                  | {{< color-preview hex="#ffffff" name="White">}}        |
 { .table .table-bordered}
@@ -187,7 +187,6 @@ html[data-theme="dark"] img[src="/img/components/sidenav-spacing.png"] {
 | XX-Large   | 1600/100       | Overlay or Push | Hide or Collapse |
 { .table .table-bordered}
 <!-- prettier-ignore-end -->
-
 
 {{< whats-changed-table >}}
 | Date | Version | Notes | Contributors |
