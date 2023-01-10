@@ -12,5 +12,5 @@ tags: [mobile, accessibility]
 
 ## Accessibility
 
-- Do not use the `role="prompt"` attribute.
+- Do not use the `role="alert"` attribute.
 - Make sure the message is read by screen readers.

@@ -37,13 +37,13 @@ A one-finger single tap is often used to trigger a single event and may vary bas
 
 A one-finger double tap is commonly used to zoom-in one level.
 
-{{< img src="/img/mobile/maps-one-finger-double-tap.svg" dark="/img/mobile//maps-one-finger-double-tap-dark.svg" width="961" height="170" class="w-100" alt="Maps One Finger Tap" loading="auto" >}}
+{{< img src="/img/mobile/maps-one-finger-double-tap.svg" dark="/img/mobile//maps-one-finger-double-tap-dark.svg" width="961" height="170" class="w-100" alt="Maps One Finger Double Tap" loading="auto" >}}
 
 # Two Finger Double Tap
 
 A two-finger double tap is commonly used to zoom-out one level.
 
-{{< img src="/img/mobile/maps-two-finger-double-tap.svg" dark="/img/mobile//maps-two-finger-double-tap-dark.svg" width="961" height="170" class="w-100" alt="Maps One Finger Tap" loading="auto" >}}
+{{< img src="/img/mobile/maps-two-finger-double-tap.svg" dark="/img/mobile//maps-two-finger-double-tap-dark.svg" width="961" height="170" class="w-100" alt="Maps One Finger Double Tap" loading="auto" >}}
 
 # One-finger Press & Hold
 
@@ -61,7 +61,7 @@ Panning is typically a single-finger interaction. To pan, tap & hold the map wit
 
 To rotate a map, tap & hold 2 fingers on map and use a rotation gesture.
 
-{{< img src="/img/mobile/maps-two-finger-rotate.svg" dark="/img/mobile//maps-two-finger-rotate-dark.svg" width="961" height="170" class="w-100" alt="Maps One Finger Panning" loading="auto" >}}
+{{< img src="/img/mobile/maps-two-finger-rotate.svg" dark="/img/mobile//maps-two-finger-rotate-dark.svg" width="961" height="170" class="w-100" alt="Maps Two Finger Rotate" loading="auto" >}}
 
 # Two-finger Zoom-In (Spread)
 

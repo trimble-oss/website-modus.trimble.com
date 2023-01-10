@@ -9,3 +9,10 @@ images:
   - "/img/mobile/headers/map-views.png"
 tags: [mobile, styles]
 ---
+## Styles
+
+Floating Icon flexible
+
+Name & icon
+
+2D & 3D view
