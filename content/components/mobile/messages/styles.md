@@ -10,4 +10,10 @@ images:
 tags: [mobile, styles]
 ---
 
-## Specifications
+## Styles
+
+Floating Icon flexible
+
+Name & icon
+
+2D & 3D view
