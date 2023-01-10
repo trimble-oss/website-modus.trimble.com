@@ -10,3 +10,39 @@ images:
 keywords: forms, form
 tags: [mobile, styles]
 ---
+### Styles
+
+## Specifications
+
+- Always stack radio buttons vertically. Horizontal variation should not be used.
+- Uses the same :hover and :active styles as the primary Button.
+- A set of radio buttons should not default to having one option selected.
+- A heading much accompany a set of radio buttons.
+
+There are two sizes of radios,  default (24 x 24) & large (32 x 32).
+
+{{< img src="/img/mobile/radio-buttons-specifications.svg" dark="/img/mobile/radio-buttons-specifications-dark.svg" width="961" height="170" class="w-100" alt="Radio Buttons Specifications" loading="auto" >}}
+
+## States
+
+Radios have the following States, Default, Focus, Checked. Disabled, Disabled Checked and Indeterminate
+
+{{< img src="/img/mobile/radio-buttons-states.svg" dark="/img/mobile/radio-buttons-states-dark.svg" width="961" height="170" class="w-100" alt="Radio Buttons States" loading="auto" >}}
+
+## Behaviors
+
+- A set of radio buttons should default to having one option selected, generally the first option. However, if pre-selection of an option results in incorrect assumptions (i.e., “Male” or “Female”) then no option should be selected by default.
+- If selecting no option is a viable choice, include a radio button within the group with an appropriate label, i.e. “None”.
+- A radio button’s label is part of the clickable area of the control.
+
+## Editorial
+
+Use existing Editorial
+
+{{< whats-changed-table >}}
+
+| Date       | Version | Notes                               | Contributors |
+| ---------- | ------- | ----------------------------------- | ------------ |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
+
+{{</ whats-changed-table >}}
