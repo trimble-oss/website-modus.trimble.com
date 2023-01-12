@@ -9,5 +9,3 @@ images:
   - "/img/mobile/headers/scrollbars.png"
 tags: [mobile, accessibility]
 ---
-
-## Accessibility

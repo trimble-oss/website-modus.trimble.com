@@ -25,6 +25,11 @@ Bottom navigation items should always have icons. Icons provide metaphors for qu
 
 - Background
 
+## Sizing
+
+{{< img src="/img/mobile/footers-sizing.svg" dark="/img/mobile/footers-sizing-dark.svg" width="961" height="170" class="w-100" alt="Footers Anatomy" loading="auto" >}}
+
+
 ## States
 
 # Selected
@@ -35,11 +40,3 @@ A bottom navigation item in a disabled state shows that an item exists, but is n
 
 # Notification badges
 Bottom navigation items can be given notification badges for indicating status or important information. Be mindful of how frequently you notify users and what type of content should trigger a notification badge, to avoid causing users to ignore badges altogether.
-
-{{< whats-changed-table >}}
-
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati   |
-
-{{</ whats-changed-table >}}

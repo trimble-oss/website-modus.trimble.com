@@ -9,5 +9,3 @@ images:
   - "/img/mobile/headers/footers.png"
 tags: [mobile, accessibility]
 ---
-
-## Accessibility

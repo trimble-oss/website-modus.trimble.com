@@ -16,15 +16,11 @@ tags: [mobile, styles]
 - Three Buttons
 - Icon in the Header
 - Dialog with destruction action
-Buttons with destructive actions should be red.
+- Buttons with destructive actions should be red.
 - Stacked Full-Width Button
 - Stacked full-width with a single button
 - Dialog with inputs
 
-{{< whats-changed-table >}}
+## Sizing
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati   |
-
-{{</ whats-changed-table >}}
+{{< img src="/img/mobile/dialogs-sizing.svg" dark="/img/mobile/dialogs-sizing-dark.svg" width="961" height="170" class="w-100" alt="Dialog Sizing" loading="auto" >}}

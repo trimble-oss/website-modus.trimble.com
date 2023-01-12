@@ -32,10 +32,6 @@ Messages display low priority content directly on the page and are not dismissab
 
 {{< img src="/img/mobile/messages-anatomy.svg" dark="/img/mobile//messages-anatomy-dark.svg" width="961" height="170" class="w-100" alt="Messages Anatomy" loading="auto" >}}
 
-## Sizing
-
-{{< img src="/img/mobile/messages-sizing.svg" dark="/img/mobile//messages-sizing-dark.svg" width="961" height="170" class="w-100" alt="Messages Sizing" loading="auto" >}}
-
 {{< whats-changed-table >}}
 
 | Date       | Version | Notes                               | Contributors |

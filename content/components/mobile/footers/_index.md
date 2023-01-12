@@ -21,10 +21,6 @@ Bottom navigation bars allow movement between primary destinations in an app.
 
 {{< img src="/img/mobile/footers-anatomy.svg" dark="/img/mobile/footers-anatomy-dark.svg" width="961" height="170" class="w-100" alt="Footers Anatomy" loading="auto" >}}
 
-## Sizing
-
-{{< img src="/img/mobile/footers-sizing.svg" dark="/img/mobile/footers-sizing-dark.svg" width="961" height="170" class="w-100" alt="Footers Anatomy" loading="auto" >}}
-
 {{< whats-changed-table >}}
 
 | Date       | Version | Notes                               | Contributors |

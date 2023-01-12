@@ -9,5 +9,3 @@ images:
   - "/img/mobile/headers/progress-indicators.png"
 tags: [mobile, accessibility]
 ---
-
-## Accessibility

@@ -29,11 +29,3 @@ List remains the same width
 Scrollbar track is also list background color / divider color
 List items shrink in width to fill space.
 {{< img src="/img/mobile/scrollbar-minimal-scrollable.svg" dark="/img/mobile//scrollbar--minimal-scrollable-dark.svg" width="961" height="170" class="w-100" alt="Scrollbar Minimal Scrollable" loading="auto" >}}
-
-{{< whats-changed-table >}}
-
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
-
-{{</ whats-changed-table >}}

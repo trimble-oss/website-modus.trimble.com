@@ -13,6 +13,7 @@ tags: [mobile, styles]
 ## Styles
 
 # Specifications
+
 - Fills the width of its container.
 - Should have an accompanying icon to the left of the message text. When the text spans multiple lines, the icon should remain aligned to the top.
 
@@ -21,10 +22,6 @@ tags: [mobile, styles]
 {{< img src="/img/mobile/messages-states.svg" dark="/img/mobile//messages-states-dark.svg" width="961" height="170" class="w-100" alt="Messages States" loading="auto" >}}
 
 
-{{< whats-changed-table >}}
+## Sizing
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
-
-{{</ whats-changed-table >}}
+{{< img src="/img/mobile/messages-sizing.svg" dark="/img/mobile//messages-sizing-dark.svg" width="961" height="170" class="w-100" alt="Messages Sizing" loading="auto" >}}

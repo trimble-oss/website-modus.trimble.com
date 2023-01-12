@@ -15,17 +15,17 @@ tags: [mobile, styles]
 
 {{< img src="/img/mobile/badges-specifications.svg" dark="/img/mobile/badges-specifications-dark.svg" width="961" height="170" class="w-100" alt="Badges Specifications" loading="auto" >}}
 
-### Sizes
+## Sizes
 
 Badges should be centered vertically inside of their containing element.
 
 {{< img src="/img/mobile/badges-sizes.svg" dark="/img/mobile/badges-sizes-dark.svg" width="961" height="170" class="w-100" alt="Badges Sizes" loading="auto" >}}
 
-### States
+## States
 
 {{< img src="/img/mobile/badges-states.svg" dark="/img/mobile/badges-states-dark.svg" width="961" height="170" class="w-100" alt="Badges States" loading="auto" >}}
 
-### Types
+## Types
 
 BThere are two types of badges: default and counter badges. They are available in three sizes: small, default, and large.
 
@@ -48,11 +48,3 @@ Used to display up to 4 characters (usually a number in a counter). Counter badg
 Badges can be inserted into other elements.
 
 {{< img src="/img/mobile/badges-in-elements.svg" dark="/img/mobile/badges-in-elements-dark.svg" width="961" height="170" class="w-100" alt="Badges In Other Elements" loading="auto" >}}
-
-{{< whats-changed-table >}}
-
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
-
-{{</ whats-changed-table >}}

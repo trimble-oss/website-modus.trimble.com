@@ -36,7 +36,6 @@ Buttons express what action will occur when the user clicks or touches it. Butto
 - An action is less important. Consider using a link instead.
 - Presenting the user with one or more high or medium-high -actions specific to a task.
 
-
 ## Specifications
 
 There are four sizes of Buttons, Xsmall, Small, Default & Large. Corner Radius is 4px.

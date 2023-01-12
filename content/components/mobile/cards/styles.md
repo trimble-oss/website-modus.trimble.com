@@ -52,12 +52,3 @@ Follow the editorial guidelines for Buttons, Chips, etc. when using those elemen
 
 Metadata
 Keep metadata one to five words long to avoid wrapping.
-
-
-{{< whats-changed-table >}}
-
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati   |
-
-{{</ whats-changed-table >}}

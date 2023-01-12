@@ -13,11 +13,3 @@ tags: [mobile, accessibility]
 
 - Badges may be confusing for users of screen readers and similar assistive technologies. While the styling of badges provides a visual cue as to their purpose, these users will simply be presented with the content of the badge. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means such as additional hidden text.
 - When displaying a badge on any color other than white, make sure it meets required contrast ratios.
-
-{{< whats-changed-table >}}
-
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
-
-{{</ whats-changed-table >}}

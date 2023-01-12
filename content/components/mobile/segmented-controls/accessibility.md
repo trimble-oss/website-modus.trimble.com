@@ -9,5 +9,3 @@ images:
   - "/img/mobile/headers/segmented-controls.png"
 tags: [mobile, accessibility]
 ---
-
-## Accessibility

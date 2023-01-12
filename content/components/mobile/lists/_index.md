@@ -37,13 +37,6 @@ List includes atomic components List Item, Icon, Label, Control.
 - Nesting too many layers. In other words, don’t place accordions within accordions.
 - Creating a set of visibly contained content, which doesn’t need an expand-and-collapse functionality. Instead, use a [Card](/components/mobile/cards/).
 
-## Types
-
-Accordions come in two sizes to accommodate space availability on the page or within a [Card](/components/mobile/cards/). Default size should be used when accordions display directly in the main content container on the page. Compact size is useful, when the accordion displays within a smaller container (e.g. card) or smaller section of the page.
-
-### Contained Accordion
-
-{{< img src="/img/mobile/accordion.svg" dark="/img/mobile/accordion-dark.svg" width="961" height="170" class="w-100" alt="Accordions Example" loading="auto" >}}
 
 {{< whats-changed-table >}}
 

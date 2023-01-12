@@ -28,20 +28,6 @@ Badges notify the user of a status, for example that there are new or unread mes
 - An interactive element is needed, such as a Button or Chip.
 
 
-## Specifications
-
-{{< img src="/img/mobile/badges-specifications.svg" dark="/img/mobile/badges-specifications-dark.svg" width="961" height="170" class="w-100" alt="Badges Specifications" loading="auto" >}}
-
-### Sizes
-
-Badges should be centered vertically inside of their containing element.
-
-{{< img src="/img/mobile/badges-sizes.svg" dark="/img/mobile/badges-sizes-dark.svg" width="961" height="170" class="w-100" alt="Badges Sizes" loading="auto" >}}
-
-### States
-
-{{< img src="/img/mobile/badges-states.svg" dark="/img/mobile/badges-states-dark.svg" width="961" height="170" class="w-100" alt="Badges States" loading="auto" >}}
-
 {{< whats-changed-table >}}
 
 | Date       | Version | Notes                               | Contributors |

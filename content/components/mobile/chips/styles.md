@@ -11,6 +11,33 @@ tags: [mobile, styles]
 ---
 ### Styles
 
+
+## Specifications
+
+There are two sizes of Chips:
+
+- By default, Chips should have a height of 48px and a font size 16px
+- Smaller variant will have a height of 32px, a font size 14px
+
+{{< img src="/img/mobile/chips-specifications.svg" dark="/img/mobile/chips-specifications-dark.svg" width="961" height="170" class="w-100" alt="Chips Specifications" loading="auto" >}}
+
+## States
+
+States for Chips are:
+- Default
+- Focused
+- Selected/Active
+- Disabled
+- Error
+
+{{< img src="/img/mobile/chips-states.svg" dark="/img/mobile/chips-states-dark.svg" width="961" height="170" class="w-100" alt="Chips States" loading="auto" >}}
+
+# Sizes
+
+{{< img src="/img/mobile/chips-sizing.svg" dark="/img/mobile/chips-sizing-dark.svg" width="961" height="170" class="w-100" alt="Chips Sizing" loading="auto" >}}
+
+## Types
+
 Common types include Input and Filter Chips. Available in both solid and outline variants
 
 - Input Chips (Solid)
@@ -25,11 +52,3 @@ Input chips display information used in fields, such as an entity or different a
 
 - Filter Chips (Outlined)
 Input chips display information used in fields, such as an entity or different attributes.
-
-{{< whats-changed-table >}}
-
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati   |
-
-{{</ whats-changed-table >}}

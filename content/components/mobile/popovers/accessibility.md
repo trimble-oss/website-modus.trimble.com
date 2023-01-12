@@ -9,5 +9,3 @@ images:
   - "/img/mobile/headers/popovers.png"
 tags: [mobile, accessibility]
 ---
-
-## Accessibility

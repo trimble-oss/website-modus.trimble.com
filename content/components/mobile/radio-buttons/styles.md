@@ -12,6 +12,10 @@ tags: [mobile, styles]
 ---
 ### Styles
 
+## Sizes
+
+{{< img src="/img/mobile/progress-size.svg" dark="/img/mobile//progress-sizes-dark.svg" width="961" height="170" class="w-100" alt="Progress Indicators Sizes" loading="auto" >}}
+
 ## Specifications
 
 - Always stack radio buttons vertically. Horizontal variation should not be used.
@@ -38,11 +42,3 @@ Radios have the following States, Default, Focus, Checked. Disabled, Disabled Ch
 ## Editorial
 
 Use existing Editorial
-
-{{< whats-changed-table >}}
-
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
-
-{{</ whats-changed-table >}}

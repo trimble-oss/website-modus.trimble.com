@@ -33,18 +33,6 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 {{< img src="/img/mobile/cards-comparison.svg" dark="/img/mobile/cards-comparison-dark.svg" width="961" height="170" class="w-100" alt="Cards Specifications" loading="auto" >}}
 
-## Specifications
-
-There are two sizes of checkboxes,  default (24 x 24) & large (32 x 32)
-
-{{< img src="/img/mobile/checkboxes-specifications.svg" dark="/img/mobile/checkboxes-specifications-dark.svg" width="961" height="170" class="w-100" alt="Checkboxes Specifications" loading="auto" >}}
-
-## States
-
-Checkboxes have the following States, Default, Focus, Checked. Disabled, Disabled Checked and Indeterminate.
-
-{{< img src="/img/mobile/checkboxes-states.svg" dark="/img/mobile/checkboxes-states-dark.svg" width="961" height="170" class="w-100" alt="Checkboxes States" loading="auto" >}}
-
 # Behaviors
 
 - Reflects the affirmative (“yes” or “true”) of its label when checked.

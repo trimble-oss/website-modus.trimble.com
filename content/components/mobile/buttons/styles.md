@@ -52,9 +52,3 @@ Floating action buttons (FABs) are used for the primary or most common, action o
 FABs can attach to top or bottom of app bars and the edge of some components.
 
 {{< img src="/img/mobile/fab-button-placement.svg" dark="/img/mobile/fab-button-placement-dark.svg" width="961" height="170" class="w-100" alt="Floating Action Button Placement" loading="auto" >}}
-
-{{< whats-changed-table >}}
-
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati   |

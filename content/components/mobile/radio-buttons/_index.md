@@ -43,11 +43,6 @@ Radio buttons are used to afford a single selection from two or more options.
 
 {{< img src="/img/mobile/progress-spinners.svg" dark="/img/mobile//progress-spinners-dark.svg" width="961" height="170" class="w-100" alt="Progress Indicators Spinners" loading="auto" >}}
 
-## Sizes
-
-{{< img src="/img/mobile/progress-size.svg" dark="/img/mobile//progress-sizes-dark.svg" width="961" height="170" class="w-100" alt="Progress Indicators Sizes" loading="auto" >}}
-
-
 {{< whats-changed-table >}}
 
 | Date       | Version | Notes                               | Contributors |

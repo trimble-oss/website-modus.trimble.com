@@ -39,11 +39,3 @@ The Nav Bar is often used as the location for the primary menu and also provides
 Nav Bar colors can be either White or Trimble Blue Dark (#004F83).
 
 {{< img src="/img/mobile/navbar-color.svg" dark="/img/mobile//navbar-color-dark.svg" width="961" height="170" class="w-100" alt="Navbar Background Images" loading="auto" >}}
-
-{{< whats-changed-table >}}
-
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
-
-{{</ whats-changed-table >}}
