@@ -44,7 +44,7 @@ There are four sizes of Buttons, Xsmall, Small, Default & Large. Corner Radius i
 
 ## Sizing
 
-{{< img src="/img/mobile/button-sizes.svg" dark="/img/mobile/button-sizes-dark.svg" width="961" height="170" class="w-100" alt="Badges Sizes" loading="auto" >}}
+{{< img src="/img/mobile/button-sizes.svg" dark="/img/mobile/button-sizes-dark.svg" width="961" height="170" class="w-100" alt="Buttons Sizes" loading="auto" >}}
 
 ## States
 
