@@ -11,22 +11,6 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/story/componen
 tags: [styles]
 ---
 
-## Overview
-
-A content tree provides users with a way to navigate nested hierarchical information using a parent-child relationship model. It is located on the left side of the screen and cannot be combined with Side Navigation or Toolbar.
-
-## Usage
-
-**Use when**
-
-- You have nested, hierarchical information.
-- You want to manage hierarchical data and information.
-
-**Don’t use when**
-
-- You need to navigate between pages of an application. Instead use [Side Navigation](/components/web/side-navigation/).
-- You need to display actions a user may take to manipulate content within an application (i.e. edit, erase, rotate, etc.). Instead use a Toolbar (coming soon).
-- You want a folder to collapse when another folder opens (instead, use an [Accordion](/components/web/accordions/)).
 
 ## Specifications
 
