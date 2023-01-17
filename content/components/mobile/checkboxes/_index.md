@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Checkboxes"
 layout: "single"
 description: "Checkboxes are used for a list of options where the user may select multiple options, including all or none."
@@ -22,23 +21,18 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 - Affording a binary selection, like accepting terms and conditions.
 - Affording multiple selections from a set of options.
-- Enabling selection of an object, such as a Card.
-- Affording selection of a row within a data Table.
+- Enabling selection of an object, such as a [Card](/components/mobile/cards/).
+- Affording selection of a row within a data [Table](/components/mobile/tables/).
 
 **Don’t use when**
 
-- Turning a feature, mode, or functionality on and off. Instead, use a Switch.
-- Checking or unchecking elicits an immediate change in the UI or functionality, such as enabling a disabled field or revealing more controls. Instead, use a Switch.
-- Checking or unchecking elicits a change in background functionality without affecting the UI, like disabling an email notification. Instead, use a Switch.
+- A user can select only one option from a list. Use [Radio Buttons](/components/mobile/radio-buttons/) instead. Checkboxes allow the user to select multiple items in a set whereas radio buttons allow the user to select only one option.
+- Turning a feature, mode, or functionality on and off. Instead, use a [Switch](/components/mobile/switches/).
+- Checking or unchecking elicits an immediate change in the UI or functionality, such as enabling a disabled field or revealing more controls. Instead, use a [Switch](/components/mobile/switches/).
+- Checking or unchecking elicits a change in background functionality without affecting the UI, like disabling an email notification. Instead, use a [Switch](/components/mobile/switches/).
 
-{{< img src="/img/mobile/cards-comparison.svg" dark="/img/mobile/cards-comparison-dark.svg" width="961" height="170" class="w-100" alt="Cards Specifications" loading="auto" >}}
+{{< img src="/img/mobile/checkbox-example.svg" dark="/img/mobile/checkbox-example-dark.svg" width="961" height="170" class="w-100" alt="Checkbox example" loading="auto" >}}
 
-# Behaviors
-
-- Reflects the affirmative (“yes” or “true”) of its label when checked.
-- Choices made via checkbox should always be submitted or saved using a Button.
-- A checkbox’s label is included in the clickable target area.
-- The default view of a set of checkboxes is having no option selected.
 
 
 {{< whats-changed-table >}}

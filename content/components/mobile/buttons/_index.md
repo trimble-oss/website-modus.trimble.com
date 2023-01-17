@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Buttons"
 layout: "single"
 description: "Buttons are interactive elements that trigger an action or an event."
@@ -36,24 +35,96 @@ Buttons express what action will occur when the user clicks or touches it. Butto
 - An action is less important. Consider using a link instead.
 - Presenting the user with one or more high or medium-high -actions specific to a task.
 
-## Specifications
+## Types
 
-There are four sizes of Buttons, Xsmall, Small, Default & Large. Corner Radius is 4px.
+### Primary Buttons
 
-{{< img src="/img/mobile/button-specifications.svg" dark="/img/mobile/button-specifications-dark.svg" width="961" height="170" class="w-100" alt="Button Specifications" loading="auto" >}}
+Use to draw attention to the primary action on a screen. There are four types of primary mobile buttons:
 
-## Sizing
+- Default Mobile Buttons
+- Stacked Mobile Buttons
+- Pill Buttons
+- Floating Action Buttons
 
-{{< img src="/img/mobile/button-sizes.svg" dark="/img/mobile/button-sizes-dark.svg" width="961" height="170" class="w-100" alt="Buttons Sizes" loading="auto" >}}
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Type</th>
+      <th>Example</th>
+      <th>Emphasis</th>
+      <th>When to use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Default Button</td>
+      <td></td>
+      <td>High</td>
+      <td>
+        Use to draw attention to the primary action on a screen. You may choose a Default or Pill style for your primary buttons, but NOT BOTH.
+      </td>
+    </tr>
+    <tr>
+      <td>Stacked Mobile Button</td>
+      <td></td>
+      <td>High</td>
+      <td>
+       Use as a primary button with a leading icon, if horizontal screen space is limited (e.g., in bottom/ footer navigation).
+      </td>
+    </tr>
+    <tr>
+      <td>Pill Button</td>
+      <td></td>
+      <td>High</td>
+      <td>
+       Use to draw attention to the primary action on a screen. You may choose a Default or Pill style for your primary buttons, but NOT BOTH.
+      </td>
+    </tr>
+    <tr>
+      <td>Floating Action Button</td>
+      <td></td>
+      <td>High</td>
+      <td>
+        Use a FAB for the most common or important action on a screen. Icons in a FAB must be clear and understandable since these buttons do not have a text label. The FAB should persist on the screen when content is scrolling (e.g., "float" above all other content).
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-## States
+### Ancillary Buttons
 
-States for Buttons in Mobile are:
-- Default
-- Pressed/Active
-- Disabled
-
-{{< img src="/img/mobile/button-states.svg" dark="/img/mobile/button-states-dark.svg" width="961" height="170" class="w-100" alt="Button States" loading="auto" >}}
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Type</th>
+      <th>Example</th>
+      <th>Emphasis</th>
+      <th>When to use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Icon Only</th>
+      <td></td>
+      <td>Medium</td>
+      <td>
+        Primary use is in-line or in “Button Groups.”
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Danger</th>
+      <td></td>
+      <td>High</td>
+      <td>
+        Danger buttons have a different visual style to inform users of
+        potentially destructive actions they are about to take. If using the
+        danger button as a standalone, we recommend styling it as a secondary
+        button. Within a set, the danger button should be styled as a primary
+        button.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 {{< whats-changed-table >}}

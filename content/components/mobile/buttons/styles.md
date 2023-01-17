@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Buttons"
 layout: "single"
 description: "Buttons are interactive elements that trigger an action or an event."
@@ -9,28 +8,16 @@ images:
   - "/img/mobile/headers/buttons.png"
 tags: [mobile, styles]
 ---
-### Pill Buttons
-
-## Overview
-
-Pill buttons are a Mobile variation of Modus buttons which can be used in place of standard buttons.
-
-## Usage
-
-**Use when**
-
-- Pill buttons should follow the same guidelines as Modus buttons
-- Combining both Pill and Standard buttons is not recommended
 
 ## Specifications
 
-There are four sizes of Buttons, Xsmall, Small, Default & Large. Corner Radius is 4px.
+There are four sizes of buttons: xsmall, small, default and large. Corner radius is 4px.
 
-{{< img src="/img/mobile/pill-button-specifications.svg" dark="/img/mobile/pill-button-specifications-dark.svg" width="961" height="170" class="w-100" alt="Pill Button Specifications" loading="auto" >}}
+{{< img src="/img/mobile/button-specifications.svg" dark="/img/mobile/button-specifications-dark.svg" width="961" height="170" class="w-100" alt="Button Specifications" loading="auto" >}}
 
 ## Sizing
 
-{{< img src="/img/mobile/pill-button-sizes.svg" dark="/img/mobile/pill-button-sizes-dark.svg" width="961" height="170" class="w-100" alt="Pill Button Sizes" loading="auto" >}}
+{{< img src="/img/mobile/button-sizes.svg" dark="/img/mobile/button-sizes-dark.svg" width="961" height="170" class="w-100" alt="Buttons Sizes" loading="auto" >}}
 
 ## States
 
@@ -39,7 +26,7 @@ States for Buttons in Mobile are:
 - Pressed/Active
 - Disabled
 
-{{< img src="/img/mobile/pill-button-states.svg" dark="/img/mobile/pill-button-states-dark.svg" width="961" height="170" class="w-100" alt="Pill Button States" loading="auto" >}}
+{{< img src="/img/mobile/button-states.svg" dark="/img/mobile/button-states-dark.svg" width="961" height="170" class="w-100" alt="Button States" loading="auto" >}}
 
 ## Floating Action Buttons
 

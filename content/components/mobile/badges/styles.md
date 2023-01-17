@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Badges"
 layout: "single"
 description: "Badges are non-interactive labels which hold small amounts of information."
@@ -27,7 +26,7 @@ Badges should be centered vertically inside of their containing element.
 
 ## Types
 
-BThere are two types of badges: default and counter badges. They are available in three sizes: small, default, and large.
+There are two types of badges: default and counter badges. They are available in three sizes: small, default, and large.
 
 ## Default Types
 

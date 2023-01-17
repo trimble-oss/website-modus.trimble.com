@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Chips"
 layout: "single"
 description: "Chips represent small blocks of information and are commonly used for input or filtering."
@@ -9,15 +8,13 @@ images:
   - "/img/mobile/headers/chips.png"
 tags: [mobile, styles]
 ---
-### Styles
-
 
 ## Specifications
 
 There are two sizes of Chips:
 
-- By default, Chips should have a height of 48px and a font size 16px
-- Smaller variant will have a height of 32px, a font size 14px
+- By default, Chips should have a height of 48px and 16px font size
+- Smaller variant will have a height of 32px, 14px font size
 
 {{< img src="/img/mobile/chips-specifications.svg" dark="/img/mobile/chips-specifications-dark.svg" width="961" height="170" class="w-100" alt="Chips Specifications" loading="auto" >}}
 

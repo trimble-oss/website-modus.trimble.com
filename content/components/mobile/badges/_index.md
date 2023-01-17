@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Badges"
 layout: "single"
 description: "Badges are non-interactive labels which hold small amounts of information."
