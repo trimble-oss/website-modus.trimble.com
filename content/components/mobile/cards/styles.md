@@ -12,11 +12,22 @@ tags: [mobile, styles]
 ---
 ### Styles
 
+## Specifications
+Card Container (2px radius, 16px padding, with Level 3 shadow) required. A card may contain a wide array of information and elements. Commom card elements are but not limited to:
+- Title (optional)
+- Subtitle (optional)
+- Card Text (optional)
+- Buttons (optional)
+- Icons (optional)
+- Chips (optional)
+- Lists (optional)
+- Images (optional)
+
+{{< img src="/img/mobile/card-specifications.svg" dark="/img/mobile/card-specifications-dark.svg" width="961" height="170" class="w-100" alt="Card Specifications" loading="auto" >}}
+
 Card layouts may vary to support the content within. The dimensions of a card will depend on the implementation of the card and as well as it's content and use case. Apply custom heights and width to meet product requirements.
 
 # Layout Examples
-
-{{< img src="/img/mobile/card-padding.svg" dark="/img/mobile/card-padding-dark.svg" width="961" height="170" class="w-100" alt="Card Padding" loading="auto" >}}
 
 {{< img src="/img/mobile/card-variation.svg" dark="/img/mobile/card-variation-dark.svg" width="961" height="170" class="w-100" alt="Card Variation" loading="auto" >}}
 
