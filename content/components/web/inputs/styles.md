@@ -76,6 +76,7 @@ There are two sizes of input fields defined:
 - Form inputs that are <strong class="text-success">valid</strong> should have a 2px bottom border using our success color {{< color-preview hexL="#006638" hexD="#1E8A44">}}.
 - Form inputs that are <strong class="text-danger">invalid</strong> should have a 2px bottom border using our danger color {{< color-preview hexL="#da212c" hexD="#DA212C">}}.
 - Form inputs that are <strong>disabled</strong> should use {{< color-preview hexL="#f1f1f6" hexD="#171C1E">}} as a background color.
+- Form inputs that are <strong>readonly</strong> should use {{< color-preview hexL="#E0E1E9" hexD="#353A40">}} as a background color.
 
 <div class="guide-example-block d-inline-block">
   <div class="guide-sample">
@@ -108,10 +109,25 @@ There are two sizes of input fields defined:
     </div>
     <div class="form-group">
       <label for="disabledInput">Disabled Input</label>
-      <input class="form-control" disabled placeholder="Disabled" />
+      <input class="form-control" id="disabledInput" disabled placeholder="Disabled" />
+    </div>
+    <div class="form-group">
+      <label for="ReadonlyInput">Readonly Input</label>
+      <input class="form-control" id="ReadonlyInput" readonly value="Read only" />
     </div>
   </div>
 </div>
+
+<style>
+[data-theme="light"] #ReadonlyInput {
+    background-color: #e0e1e9;
+    color: #252A2E;
+  }
+[data-theme="dark"] #ReadonlyInput {
+    background-color: #353a40;
+    color: #FFF;
+  }
+</style>
 
 ### Editorial
 
