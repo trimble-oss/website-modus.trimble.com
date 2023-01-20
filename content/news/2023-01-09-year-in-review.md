@@ -2,10 +2,10 @@
 title: Year in Review
 date: 2023-01-09
 description: "Happy New Year! It's time to look back at 2022 and review all we have accomplished. Also, please take our annual survey to share with us your feedback."
-image: "/img/blog/headers/2023-01-09-year-in-review.png"
+image: "/img/blog/headers/2023-01-09-year-in-review.jpg"
 images:
-  - img/blog/headers/2023-01-09-year-in-review.png
-headerBgColor: "#FFD973"
+  - img/blog/headers/2023-01-09-year-in-review.jpg
+headerBgColor: "#333a48"
 tags: ["modus", "design", "year in review"]
 keywords: ["modus", "design", "year in review"]
 author: Ewa Nowak
