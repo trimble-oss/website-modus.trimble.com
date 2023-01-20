@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Messages"
 layout: "single"
 description: "Messages provide the user with contextual static information. They have a lower priority than a notification or prompt."

@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Mobile"
 layout: "single"
 description: "The mobile library is specific to applications built for mobile devices."
@@ -10,6 +9,7 @@ layout: single
 component: Introduction
 weight: 1
 tags: [mobile, hide-styles, hide-usage, hide-accessibility]
+sitemap_exclude: true
 ---
 
 <style>

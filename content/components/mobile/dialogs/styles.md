@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Dialogs"
 layout: "single"
 description: ""
@@ -9,6 +9,7 @@ images:
   - "/img/mobile/headers/dialogs.png"
 tags: [mobile, styles]
 ---
+
 ### Styles
 
 - Single Button

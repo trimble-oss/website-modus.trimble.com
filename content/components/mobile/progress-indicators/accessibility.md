@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Progress Indicators"
 layout: "single"
 description: ""

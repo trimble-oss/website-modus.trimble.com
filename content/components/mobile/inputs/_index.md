@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Inputs"
 layout: "single"
 description: "Input fields collect information from users."

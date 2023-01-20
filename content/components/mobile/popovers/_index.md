@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Popovers"
 layout: "single"
 description: ""
@@ -13,7 +13,7 @@ tags: [mobile, usage]
 
 A Popover can be used to display some content on top of another.
 
-# Atoms
+## Atoms
 
 {{< img src="/img/mobile/popover-overview.svg" dark="/img/mobile//popover-overview-dark.svg" width="961" height="170" class="w-100" alt="Pop Over Overview" loading="auto" >}}
 
@@ -21,7 +21,7 @@ Optional
 
 {{< img src="/img/mobile/popover-optional-arrow.svg" dark="/img/mobile//popover-optional-arrow.svg" width="961" height="170" class="w-100" alt="Pop Over Optional Arrow" loading="auto" >}}
 
-# Content
+## Content
 
 A Popover can have any type of content, such as tables or paragraphs.
 

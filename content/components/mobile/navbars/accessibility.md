@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Navbars"
 layout: "single"
 description: "The navbar provides context through globally accessible menu options."

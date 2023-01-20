@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Scrollbars"
 layout: "single"
 description: ""

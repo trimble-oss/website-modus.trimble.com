@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Switches"
 layout: "single"
 description: "Switches are used to toggle functionality."
@@ -26,17 +26,17 @@ All buttons (including icon buttons) should have the following states:
 - Focus
 - Disabled
 
-# Toggle Progression
+## Toggle Progression
 
 {{< img src="/img/mobile/switches-toggle.svg" dark="/img/mobile/switches-toggle-dark.svg" width="961" height="170" class="w-100" alt="Switches Toggle" loading="auto" >}}
 
 Note: Focus state uses new blue.
 
-# Labels & Icons
+## Labels & Icons
 
 {{< img src="/img/mobile/switches-labels.svg" dark="/img/mobile/switches-labels-dark.svg" width="961" height="170" class="w-100" alt="Switches Labels & Icons" loading="auto" >}}
 
-# Editorial
+## Editorial
 
 - Avoid acronyms.
 - Use 2-5 words.

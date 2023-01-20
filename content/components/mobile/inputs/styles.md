@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Inputs"
 layout: "single"
 description: ""
@@ -32,7 +32,7 @@ tags: [mobile, styles]
 
 {{< img src="/img/mobile/inputs-behavior.svg" dark="/img/mobile/inputs-behavior-dark.svg" width="961" height="170" class="w-100" alt="Inputs" loading="auto" >}}
 
-# Editorial
+## Editorial
 
 - When possible, add helper text below an input to further clarify selections or validation errors.
 - Always mark required fields with an * .

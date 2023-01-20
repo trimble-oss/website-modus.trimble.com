@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Segmented Controls"
 layout: "single"
 description: "A segmented control is a linear set of two or more segments, each of which functions as a button."

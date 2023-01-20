@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Footers"
 layout: "single"
 description: "Bottom navigation bars allow movement between primary destinations in an app."

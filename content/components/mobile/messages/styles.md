@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Messages"
 layout: "single"
 description: "Messages provide the user with contextual static information. They have a lower priority than a notification or prompt."
@@ -12,12 +12,12 @@ tags: [mobile, styles]
 
 ## Styles
 
-# Specifications
+## Specifications
 
 - Fills the width of its container.
 - Should have an accompanying icon to the left of the message text. When the text spans multiple lines, the icon should remain aligned to the top.
 
-# States
+## States
 
 {{< img src="/img/mobile/messages-states.svg" dark="/img/mobile//messages-states-dark.svg" width="961" height="170" class="w-100" alt="Messages States" loading="auto" >}}
 

@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Sliders"
 layout: "single"
 description: "Sliders allow users to make selections from a range of values."

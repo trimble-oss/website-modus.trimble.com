@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Navbars"
 layout: "single"
 description: "The navbar provides context through globally accessible menu options."
@@ -34,7 +34,7 @@ Nav Bars can contain imagery only when the extended Nav Bar is used. Use images 
 
 The Nav Bar is often used as the location for the primary menu and also provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions.
 
-# Color
+## Color
 
 Nav Bar colors can be either White or Trimble Blue Dark (#004F83).
 

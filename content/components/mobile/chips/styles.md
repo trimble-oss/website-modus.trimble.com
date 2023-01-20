@@ -29,7 +29,7 @@ States for Chips are:
 
 {{< img src="/img/mobile/chips-states.svg" dark="/img/mobile/chips-states-dark.svg" width="961" height="170" class="w-100" alt="Chips States" loading="auto" >}}
 
-# Sizes
+## Sizes
 
 {{< img src="/img/mobile/chips-sizing.svg" dark="/img/mobile/chips-sizing-dark.svg" width="961" height="170" class="w-100" alt="Chips Sizing" loading="auto" >}}
 

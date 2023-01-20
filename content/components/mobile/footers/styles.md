@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "footers"
 layout: "single"
 description: "Bottom navigation bars allow movement between primary destinations in an app."
@@ -32,11 +32,14 @@ Bottom navigation items should always have icons. Icons provide metaphors for qu
 
 ## States
 
-# Selected
+## Selected
+
 A bottom navigation item in a selected state shows that.
 
-# Disabled
+## Disabled
+
 A bottom navigation item in a disabled state shows that an item exists, but is not available in that circumstance. This state can be used to maintain layout continuity and to communicate that the item may become available later. Don't disable a bottom navigation item unless absolutely necessary.
 
-# Notification badges
+## Notification badges
+
 Bottom navigation items can be given notification badges for indicating status or important information. Be mindful of how frequently you notify users and what type of content should trigger a notification badge, to avoid causing users to ignore badges altogether.

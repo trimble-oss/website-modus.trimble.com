@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Switches"
 layout: "single"
 description: "Switches are used to toggle functionality."

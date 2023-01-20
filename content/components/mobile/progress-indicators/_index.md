@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Progress Indicators"
 layout: "single"
 description: ""
@@ -15,13 +15,13 @@ Progress indicators inform users about the status of ongoing processes, such as 
 
 ## Progress Indicators
 
-# Atoms
+## Atoms
 
 {{< img src="/img/mobile/progress-atoms.svg" dark="/img/mobile//progress-atoms-dark.svg" width="961" height="170" class="w-100" alt="Progress Indicators Atoms" loading="auto" >}}
 
 ## Spinners
 
-# Atoms
+## Atoms
 
 {{< img src="/img/mobile/progress-spinners.svg" dark="/img/mobile//progress-spinners-dark.svg" width="961" height="170" class="w-100" alt="Progress Indicators Spinners" loading="auto" >}}
 

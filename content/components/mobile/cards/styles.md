@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Cards"
 layout: "single"
 description: "Cards contain content and actions about a single subject."
@@ -10,9 +10,11 @@ images:
   - "/img/mobile/headers/cards.png"
 tags: [mobile, styles]
 ---
+
 ### Styles
 
 ## Specifications
+
 Card Container (2px radius, 16px padding, with Level 3 shadow) required. A card may contain a wide array of information and elements. Commom card elements are but not limited to:
 - Title (optional)
 - Subtitle (optional)
@@ -46,7 +48,7 @@ Card layouts may vary to support the content within. The dimensions of a card wi
   </tr>
 </table>
 
-# Layout Examples
+## Layout Examples
 
 {{< img src="/img/mobile/card-variation.svg" dark="/img/mobile/card-variation-dark.svg" width="961" height="170" class="w-100" alt="Card Variation" loading="auto" >}}
 

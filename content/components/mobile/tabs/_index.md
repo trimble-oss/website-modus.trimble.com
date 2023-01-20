@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Tabs"
 layout: "single"
 description: "Tabs are used to quickly navigate between views within the same context."
@@ -15,7 +15,7 @@ tags: [mobile, usage]
 
 Tabs are a set of layered sections of content, known as tab panels, that display one panel of content at a time. Each tab panel has an associated tab element, that when activated, displays the panel. The list of tab elements is arranged along one edge of the currently displayed panel, most commonly horizontally, at the top edge. When a tabbed interface is initialized, one tab panel is always displayed.
 
-# Atoms
+## Atoms
 
 {{< img src="/img/mobile/tabs-atoms.svg" dark="/img/mobile/tabs-atoms-dark.svg" width="961" height="170" class="w-100" alt="Tabs Atoms" loading="auto" >}}
 
