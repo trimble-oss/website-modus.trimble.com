@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Messages"
 layout: "single"
 description: "Messages provide the user with contextual static information. They have a lower priority than a notification or prompt."
@@ -9,3 +9,33 @@ images:
   - "/img/mobile/headers/messages.png"
 tags: [mobile, usage]
 ---
+## Overview
+
+Messages display low priority content directly on the page and are not dismissable. They should be used within other elements to convey helpful information in an unobtrusive way.
+
+## Usage
+
+**Use when**
+
+- Providing the user with helpful, contextual information about a possible action or a set of data.
+
+**Don’t use when**
+
+- Alerting the user of a high priority error. Instead, use an Alert.
+- Alerting the user of an out-of-context event. Instead, use a Toast.
+
+## Atoms
+
+{{< img src="/img/mobile/messages-atoms.svg" dark="/img/mobile//messages-atoms-dark.svg" width="961" height="170" class="w-100" alt="Messages Atoms" loading="auto" >}}
+
+## Anatomy
+
+{{< img src="/img/mobile/messages-anatomy.svg" dark="/img/mobile//messages-anatomy-dark.svg" width="961" height="170" class="w-100" alt="Messages Anatomy" loading="auto" >}}
+
+{{< whats-changed-table >}}
+
+| Date       | Version | Notes                               | Contributors |
+| ---------- | ------- | ----------------------------------- | ------------ |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
+
+{{</ whats-changed-table >}}

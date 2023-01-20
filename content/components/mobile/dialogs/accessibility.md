@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Dialogs"
 layout: "single"
 description: ""

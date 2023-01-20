@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Inputs"
 layout: "single"
 description: ""
@@ -9,3 +9,6 @@ images:
 component: inputs
 tags: [mobile, accessibility]
 ---
+## Accessibility
+
+Provide clear and obvious action buttons. Form submission buttons should be primary.

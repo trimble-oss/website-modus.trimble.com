@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Progress Indicators"
 layout: "single"
 description: ""
@@ -9,5 +9,3 @@ images:
   - "/img/mobile/headers/progress-indicators.png"
 tags: [mobile, accessibility]
 ---
-
-## Accessibility

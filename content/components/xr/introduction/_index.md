@@ -1,6 +1,6 @@
 ---
 draft: true
-title: "xr"
+title: "XR"
 layout: "single"
 description: ""
 layout: single

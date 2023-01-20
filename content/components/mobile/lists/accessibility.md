@@ -1,5 +1,5 @@
 ---
-draft: true
+sitemap_exclude: true
 title: "Lists"
 layout: "single"
 description: "Lists are made of list items. A list can be used to display content related to a single subject."

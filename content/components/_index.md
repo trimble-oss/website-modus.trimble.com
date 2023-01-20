@@ -21,15 +21,15 @@ main .nav-tabs {
 
 {{</ card-start >}}
 
-{{< card-start title="Mobile" class="bg-primary py-4 pe-none" header="components/mobile.svg" >}}
 
-{{</ card-start >}}
 
 {{< card-start title="In-Field" url="/components/in-field/" class="bg-primary py-4" header="components/in-field.svg" >}}
 
 {{</ card-start >}}
 
 <!--
+{{< card-start title="Mobile" class="bg-primary py-4 pe-none d-none" header="components/mobile.svg" >}}
+{{</ card-start >}}
 {{< card-start title="Desktop" url="/components/desktop/" class="bg-primary py-4 d-none" header="components/desktop.svg" >}}
 {{</ card-start >}}
 {{< card-start title="XR" url="/components/xr/" class="bg-primary py-4 d-none" header="components/vr-mr.svg" >}}
