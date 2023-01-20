@@ -72,12 +72,6 @@ tags: [styles]
     <i class="modus-icon material-icons notranslate">close</i>
   </button>
 </div>
-<div class="toast toast-tertiary show text-dark" role="alert" aria-live="assertive" aria-atomic="true">
-  Aww yeah, you read a tertiary toast.
-  <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icon material-icons notranslate">close</i>
-  </button>
-</div>
 <div class="toast toast-danger show" role="alert" aria-live="assertive" aria-atomic="true">
   Aww yeah, you read a danger toast.
   <button type="button" class="close" data-dismiss="alert">
