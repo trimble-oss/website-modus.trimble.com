@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Chips"
 layout: "single"
 description: "Chips represent small blocks of information and are commonly used for input or filtering."
@@ -9,3 +8,7 @@ images:
   - "/img/mobile/headers/chips.png"
 tags: [mobile, accessibility]
 ---
+
+## Accessibility
+
+- Use `fieldset` to create a checkbox group.
