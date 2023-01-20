@@ -60,6 +60,7 @@ Tabs are a set of layered sections of content, known as tab panels, that display
 - Maintain consistency by not removing tabs when their function is unavailable. Instead offer an explanation as to why a tab’s content is unavailable and present the user with an action to remedy it.
 - Always arrange tabs in an order that makes sense for the user.
 
+{{< whats-changed-table >}}
 
 | Date       | Version | Notes                               | Contributors |
 | ---------- | ------- | ----------------------------------- | ------------ |
