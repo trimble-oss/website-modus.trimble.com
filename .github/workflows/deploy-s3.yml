@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,13 +16,19 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
       - uses: actions/setup-node@v3
         with:
           node-version: 14
+
       - name: Install dependencies
         run: npm i
+
       - name: Build
         run: npm run build
+
       - name: Deploy
         uses: reggionick/s3-deploy@v3
         with:
@@ -28,5 +36,4 @@ jobs:
           bucket: ${{ secrets.S3_BUCKET }}
           bucket-region: us-east-1
           dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
-          no-cache: true
           invalidation: /

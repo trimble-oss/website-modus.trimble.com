@@ -27,10 +27,6 @@
   background-color: #f24e1e !important;
 }
 
-.bg-sketch {
-  background-color: #f7b500 !important;
-}
-
 .bg-react {
   background-color: #61dafb !important;
 }
@@ -40,8 +36,7 @@
 }
 
 .bg-adobe-xd img,
-.bg-figma img,
-.bg-sketch img {
+.bg-figma img {
   opacity: 0.9;
   filter: invert(1);
 }

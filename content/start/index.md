@@ -66,7 +66,7 @@ With Modus Design System we are aiming to accomplish two main goals in line with
 - Define and standardize reusable design components.
 - Establish a pattern library.
 - Establish a culture of inclusive design and development with building accessible components and patterns.
-- Set up master design files with up-to-date patterns in Sketch, Figma, and Adobe XD.
+- Set up master design files with up-to-date patterns in Figma and Adobe XD.
 - Refactor code and frontend architecture to support the modular approach for Bootstrap, Angular Material, and React.
 
 ### 2. Establish shared processes and governance

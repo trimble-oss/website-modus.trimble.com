@@ -11,24 +11,6 @@ webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/compone
 tags: [styles]
 ---
 
-## Overview
-
-File upload dropzone allows users to upload content from their computer or device into the application by dragging a file (or files) into a target zone.
-
-{{< img src="/img/components/file-upload-dropzone.svg" dark="/img/components/file-upload-dropzone-dark.svg" class="w-100" alt="File Upload Dropzone" >}}
-
-## Usage
-
-**Use when**
-
-- User needs to upload one or more files.
-- Uploading files by dragging and dropping.
-
-**Don’t use when**
-
-- Space is limited. Use a button action instead.
-- You need multiple instances of uploading files on one page.
-
 ## Specifications
 
 - Label (optional): communicates the context of the file upload.
@@ -46,7 +28,7 @@ File upload dropzone allows users to upload content from their computer or devic
 
 - To help the user with motor navigation of moving a file into a precise location, the file upload dropzone should be active outside of its borders. It increases the area of the dropzone and provides a feeling of magnetic attraction preventing errors and speeding up interaction with the component.
 
-{{< img src="/img/components/dropzone-active-area.png" dark="/img/components/dropzone-active-area-dark.svg" class="w-100" alt="File Upload Dropzone Active Area" >}}
+{{< img src="/img/components/dropzone-active-area.svg" dark="/img/components/dropzone-active-area-dark.svg" class="w-100" alt="File Upload Dropzone Active Area" >}}
 
 - Validate the file(s) to communicate to the user the effectiveness of his action.
 - If the upload might take more than a few seconds, show progress of the upload. You may use a [Progress Bar](/components/web/progress-bars/) to show remaining time to upload a file or files.
@@ -56,11 +38,3 @@ File upload dropzone allows users to upload content from their computer or devic
 
 - Label: keep the label short and concise limiting it to a few words and a single line of text.
 - Description: provide straightforward, jargon-free information about file format requirements and limitations to prevent errors.
-
-{{< whats-changed-table >}}
-
-| Date       | Version | Notes                | Contributors                  |
-| ---------- | ------- | -------------------- | ----------------------------- |
-| 04/14/2022 | 1.3.0   | Added new component. | L. Cook, E. Gunther, E. Nowak |
-
-{{</ whats-changed-table >}}

@@ -17,8 +17,4 @@ hideDate: true
 <small>&nbsp;</small>
 {{</ card-start >}}
 
-{{< card-start title="Sketch Library" url="/sketch/" header="sketch.svg" class="bg-sketch text-white py-4" >}}
-<small class="text-muted">Support ending December 2022</small>
-{{</ card-start >}}
-
 </div>

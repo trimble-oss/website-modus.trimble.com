@@ -55,7 +55,7 @@ There are two button progressions you can choose from: structural and color prog
   </thead>
   <tbody>
     <tr>
-      <td><button class="btn btn-primary">Add new</button></td>
+      <td><button class="btn btn-primary" type="button">Add new</button></td>
       <td>High</td>
       <td>
         Use to draw attention to the primary action on a screen. There should be
@@ -64,21 +64,21 @@ There are two button progressions you can choose from: structural and color prog
       </td>
     </tr>
     <tr>
-      <td><button class="btn btn-outline-primary">Rename</button></td>
+      <td><button class="btn btn-outline-primary" type="button">Rename</button></td>
       <td>Medium</td>
       <td>
         Use for secondary actions on a screen. Outline-style buttons work well on colored, dark, or image backgrounds. Consider how the style of an outline button might better suit the page.
       </td>
     </tr>
     <tr>
-      <td><button class="btn btn-outline-dark">Cancel</button></td>
+      <td><button class="btn btn-outline-dark" type="button">Cancel</button></td>
       <td>Medium</td>
       <td>
         Used for secondary actions to establish additional visual hierarchy.
       </td>
     </tr>
     <tr>
-      <td><button class="btn btn-text-primary">Cancel</button></td>
+      <td><button class="btn btn-text-primary" type="button">Cancel</button></td>
       <td>Low</td>
       <td>
         Use in complex applications or smaller containers that require a minimal impact from button
@@ -101,7 +101,7 @@ There are two button progressions you can choose from: structural and color prog
   </thead>
   <tbody>
     <tr>
-      <td><button class="btn btn-primary">Add new</button></td>
+      <td><button class="btn btn-primary" type="button">Add new</button></td>
       <td>High</td>
       <td>
         Use to draw attention to the primary action on a screen. There should be
@@ -110,7 +110,7 @@ There are two button progressions you can choose from: structural and color prog
       </td>
     </tr>
     <tr>
-      <td><button class="btn btn-secondary">Import</button></td>
+      <td><button class="btn btn-secondary" type="button">Import</button></td>
       <td>Medium</td>
       <td>
         Use for secondary actions on a screen. These Buttons can be used on
@@ -120,14 +120,14 @@ There are two button progressions you can choose from: structural and color prog
       </td>
     </tr>
     <tr>
-      <td><button class="btn btn-tertiary">Cancel</button></td>
+      <td><button class="btn btn-tertiary" type="button">Cancel</button></td>
       <td>Medium</td>
       <td>
         Used for secondary actions to establish additional visual hierarchy or to use a secondary button that provides less emphasis.
       </td>
     </tr>
     <tr>
-      <td><button class="btn btn-text-primary">Cancel</button></td>
+      <td><button class="btn btn-text-primary" type="button">Cancel</button></td>
       <td>Low</td>
       <td>
         Use in complex applications or smaller containers that require a minimal impact from button color on the interface. They need to be offset from the rest of the UI to promote visual prominence.
@@ -152,7 +152,7 @@ There are two button progressions you can choose from: structural and color prog
       <th scope="row">Icon Only</th>
       <td>
         <div class="mb-1">
-          <button class="btn btn-icon-only btn-text-dark">
+          <button class="btn btn-icon-only btn-text-dark" type="button">
             <i class="modus-icons notranslate">gear</i>
           </button>
         </div>
@@ -160,18 +160,16 @@ There are two button progressions you can choose from: structural and color prog
           <div
             class="btn-group shadow-1"
             role="group"
-            aria-label="Basic example"
-          >
-            <button type="button" class="btn btn-icon-only btn-outline-dark">
+            aria-label="Basic example">
+            <button type="button" class="btn btn-icon-only btn-outline-dark" type="button">
               <i class="modus-icons notranslate">calendar</i>
             </button>
             <button
               type="button"
-              class="btn btn-icon-only btn-outline-dark active"
-            >
+              class="btn btn-icon-only btn-outline-dark active">
               <i class="modus-icons notranslate">edit</i>
             </button>
-            <button type="button" class="btn btn-icon-only btn-outline-dark">
+            <button type="button" class="btn btn-icon-only btn-outline-dark" type="button">
               <i class="modus-icons notranslate">filter</i>
             </button>
           </div>
@@ -184,7 +182,7 @@ There are two button progressions you can choose from: structural and color prog
     </tr>
     <tr>
       <th scope="row">Danger</th>
-      <td><button class="btn btn-danger">Delete</button></td>
+      <td><button class="btn btn-danger" type="button">Delete</button></td>
       <td>High</td>
       <td>
         Danger buttons have a different visual style to inform users of

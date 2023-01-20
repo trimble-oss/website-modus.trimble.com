@@ -17,11 +17,6 @@
 {{ $styles := resources.Get "styles/styles.scss" | toCSS $sassOptions | postCSS | minify }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}?v{{ hugo.Version }}">
 
-<!--
-<link rel="stylesheet" href="https://modus.trimble.com/css/modus-layout.min-{{ .Site.Params.version }}.css">
-<script src="https://modus.trimble.com/css/modus-layout.min-{{ .Site.Params.modusVersion }}.js"></script>
--->
-
 <!-- Load jQuery from CDN with fallback -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.5.1.min.js"><\/script>');</script>
@@ -63,7 +58,6 @@
 
 {{- if not .Params.hideSearch -}}
 <!-- search input is a different form on mobile and desktop -->
-<!-- TODO: Improve this -->
 <script>
   $(function () {
     if ($(window).width() >= 768) {

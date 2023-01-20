@@ -1,18 +1,13 @@
 $(function () {
-  $(".feedback").fadeIn("slow");
-  $(".feedback").addClass("d-block");
+  $(".feedback").fadeIn("slow").addClass("d-block");
   $(".btn-feedback").click(function () {
-    $(".btn-feedback").addClass("img-grayscale");
-    $(".btn-feedback").attr("disabled", "disabled");
-    $(".feedback-thanks").fadeIn("slow");
-    $(".feedback-thanks").addClass("d-block");
+    $(".btn-feedback").addClass("img-grayscale").attr("disabled", "disabled");
+    $(".feedback-thanks").fadeIn("slow").addClass("d-block");
   });
   $(".btn-feedback-helpful").click(function () {
-    $(".feedback-helpful").fadeIn("slow");
-    $(".feedback-helpful").addClass("d-block");
+    $(".feedback-helpful").fadeIn("slow").addClass("d-block");
   });
   $(".btn-feedback-not-helpful").click(function () {
-    $(".feedback-not-helpful").fadeIn("slow");
-    $(".feedback-not-helpful").addClass("d-block");
+    $(".feedback-not-helpful").fadeIn("slow").addClass("d-block");
   });
 });

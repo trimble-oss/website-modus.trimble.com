@@ -28,34 +28,6 @@ File upload dropzone allows users to upload content from their computer or devic
 - Space is limited. Use a button action instead.
 - You need multiple instances of uploading files on one page.
 
-## Specifications
-
-- Label (optional): communicates the context of the file upload.
-- Description (required): explains any limitation as to the file format, number of files, and/ or the maximum size. Provide as much information to the user as you can to help prevent errors.
-- Drag Zone (required): box outlined with a dotted line signifying the target zone for dropping files.
-  - Icon (optional): upload icon
-  - Text instructions (required): e.g. "Drag files here or browse to upload."
-  - File picker (required): provide the user an option to open file browser (a link or a button). Make sure the drop zone is focusable and accessible with the keyboard.
-
-### Behaviors
-
-- When the user drags a file into the dropzone, provide a visual clue to show that the user has hit the target area and that the action is about to perform is valid. For example, when the user hovers over the zone while dragging a file, change the color of the box to blue (to indicate a valid action) or red (to indicate an invalid action).
-
-{{< img src="/img/components/dropzone-states.svg" dark="/img/components/dropzone-states-dark.svg" class="w-100 bg-light" alt="Example of Error State" >}}
-
-- To help the user with motor navigation of moving a file into a precise location, the file upload dropzone should be active outside of its borders. It increases the area of the dropzone and provides a feeling of magnetic attraction preventing errors and speeding up interaction with the component.
-
-{{< img src="/img/components/dropzone-active-area.png" dark="/img/components/dropzone-active-area-dark.svg" class="w-100" alt="File Upload Dropzone Active Area" >}}
-
-- Validate the file(s) to communicate to the user the effectiveness of his action.
-- If the upload might take more than a few seconds, show progress of the upload. You may use a [Progress Bar](/components/web/progress-bars/) to show remaining time to upload a file or files.
-- In case of an error, provide clear visual clues (information about the problem that occurred and specific instructions as to how to fix it.
-
-### Editorial
-
-- Label: keep the label short and concise limiting it to a few words and a single line of text.
-- Description: provide straightforward, jargon-free information about file format requirements and limitations to prevent errors.
-
 {{< whats-changed-table >}}
 
 | Date       | Version | Notes                | Contributors                  |

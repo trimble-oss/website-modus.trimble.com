@@ -13,21 +13,6 @@ webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/compone
 tags: [styles]
 ---
 
-## Overview
-
-Dropdowns (also known as a dropdown menu, drop menu, pull-down list, picklist) is a graphical control element, similar to a list box, that allows the user to choose one value from a list. When activated, it displays (drops down) a list of values, from which the user may select one. They can be used in menus and tabs.
-
-## Usage
-
-**Use when**
-
-- Filtering or sorting content on a page.
-- Single selection from a list is necessary.
-
-**Don’t use when**
-
-- Providing only two options. Instead, use a [Radio](/components/web/radio-buttons/) Group or a [Switch](/components/web/switches/).
-
 ## Specifications
 
 - Dropdowns can be activated by clicking a button, an icon, or a header. See [Inputs](/components/web/inputs/) for dropdowns in form input fields.
@@ -80,9 +65,3 @@ Dropdowns (also known as a dropdown menu, drop menu, pull-down list, picklist) i
 - The list of options should be sorted in a consistent order (alphabetical, chronological, the most selected option, or by order of importance).
 - Don’t end text in a select with a period.
 - Keep option names as brief as possible. Aim for under 5 words.
-
-{{< whats-changed-table >}}
-| Date | Version | Notes | Contributors |
-| ---------- | ------- | -------------- | ------------ |
-| 03/14/2022 | 1.3.0 | Removed contradictory directions. | W. Pritchard, E. Gunther |
-{{</ whats-changed-table >}}
