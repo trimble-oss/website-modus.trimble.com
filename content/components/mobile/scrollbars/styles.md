@@ -22,10 +22,14 @@ tags: [mobile, styles]
 Not Scrollable:
 When a list is not scrollable, there is no scrollbar
 present or taking up space.
-{{< img src="/img/mobile/scrollbar-minimal-notscrollable.svg" dark="/img/mobile//scrollbar--minimal-notscrollable-dark.svg" width="961" height="170" class="w-100" alt="Scrollbar Minimal Not Scrolling" loading="auto" >}}
+
+{{< img src="/img/mobile/scrollbar-minimal-notscrollable.svg" dark="/img/mobile//scrollbar-
+-minimal-notscrollable-dark.svg" width="961" height="170" class="w-100" alt="Scrollbar Minimal Not Scrolling" loading="auto" >}}
 
 Scrollable:
 List remains the same width
 Scrollbar track is also list background color / divider color
 List items shrink in width to fill space.
-{{< img src="/img/mobile/scrollbar-minimal-scrollable.svg" dark="/img/mobile//scrollbar--minimal-scrollable-dark.svg" width="961" height="170" class="w-100" alt="Scrollbar Minimal Scrollable" loading="auto" >}}
+
+{{< img src="/img/mobile/scrollbar-minimal-scrollable.svg" dark="/img/mobile//scrollbar-
+-minimal-scrollable-dark.svg" width="961" height="170" class="w-100" alt="Scrollbar Minimal Scrollable" loading="auto" >}}
