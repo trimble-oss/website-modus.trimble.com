@@ -14,7 +14,7 @@ tags: [in-field, usage]
 
 ## Overview
 
-A notification displays information that is helpful but not essential. It doesn't interrupt the user's work. A notification is fleeting. It is displayed temporarily, then ideally stored in a message log.
+A notification displays information that is helpful but not essential. It doesn't interrupt the user's work. A notification is fleeting. 
 
 ## Usage
 
