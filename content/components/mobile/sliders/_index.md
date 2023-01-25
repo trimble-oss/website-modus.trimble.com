@@ -15,8 +15,7 @@ tags: [mobile, usage]
 
 Sliders select a numeric value or range of values by moving a handle or set of handles along a bar. They are ideal for adjusting settings such as volume and brightness. The slider in its basic form should be accompanied by a label and a number input that doubles as a display for the slider’s current value.
 
-{{< img src="/img/mobile/sliders-atom.svg" dark="/img/mobile/sliders-atom-dark.svg" width="961" height="170" class="w-100" alt="Sliders Example" loading="auto" >}}
-
+{{< img src="/img/mobile/sliders-anatomy.svg" dark="/img/mobile/sliders-anatomy-dark.svg" width="961" height="170" class="w-100" alt="Sliders Anatomy" loading="auto" >}}
 
 ## Usage
 
@@ -39,17 +38,6 @@ Sliders select a numeric value or range of values by moving a handle or set of h
 - Validate input as soon as users have finished interacting with a field (but not before).
 - Always use with two text field components when range slider has dual thumbs to provide accessible alternatives to both the lower and upper thumbs.
 
-## Sizes
-
-Sliders have the following sizes; Small, Medium (Default) & Large
-
-{{< img src="/img/mobile/sliders-sizes.svg" dark="/img/mobile/sliders-sizes-dark.svg" width="961" height="170" class="w-100" alt="Sliders Sizes" loading="auto" >}}
-
-## States
-
-Sliders have the following states, Default, Focus, & Disabled.
-
-{{< img src="/img/mobile/sliders-states.svg" dark="/img/mobile/sliders-states-dark.svg" width="961" height="170" class="w-100" alt="Sliders States" loading="auto" >}}
 
 ## Behaviors
 
