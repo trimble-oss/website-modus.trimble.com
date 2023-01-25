@@ -18,7 +18,7 @@ Figma is a vector graphics editor and prototyping tool, which is primarily web-b
 
 ## 2. Enable the Design System Library
 
-Enable the library from the Figma ‘Assets’ Panel - Option+3, then search for “Modus” and enable “Modus - Web.”
+Enable the library from the Figma ‘Assets’ Panel - Option+3, then search for “Modus” and enable “Modus - Web” or "Modus - Infield."
 
 ![Enable the Library](/img/guide/figma/enable-library.png)
 
