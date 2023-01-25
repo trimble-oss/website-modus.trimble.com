@@ -27,17 +27,11 @@ article .nav-tabs {
 
 ## Overview
 
-The in-field, high-contrast library is specific to applications used outdoors on handheld or in-cab devices where the environmental conditions cannot be controlled. These applications are built to meet the users’ special needs, such as challenging outdoor lighting, moving or vibrating devices, and/or impeding protective clothing.
-
-### In-Cab
-
-This is a library of Modus components, building blocks, specifications, and principles to maintain a consistent experience when operating heavy machinery or vehicles in the field. In-cab is a more specialized subcategory of in-field patterns. It is primarily targeted towards large, easy-to-use, easy-to-identify, high-contrast components.
-
-These components are designed specifically for use on displays within a machine or a vehicle, mounted in a cab, vibrating and often at arm's-length. Because operation of the machine is the user’s primary focus, the in-cab displays are used in the periphery of vision and need to have larger elements and rely heavily on iconography rather than text.
+The in-field, high-contrast library is specific to applications used outdoors or in-cab devices where the environmental conditions cannot be controlled. These applications are built to meet the users’ special needs, such as challenging outdoor lighting, moving or vibrating devices, and/or impeding protective clothing.This is primarily targeted towards large, easy-to-use, easy-to-identify, high-contrast components. 
 
 ## Modus In-Field UI Kits
 
-UI Kits are available in [Figma for designers](/designers/). This brand base must maintain optimal usability, while also allowing flexibility to support Trimble and other OEM (Original Equipment Manufacturers) brand variations. See [Global colours](/foundations/color-palette/#infield-global-colors) for global colors and [Type ](/foundations/typography/#infield)for overview of fonts sizes.
+The UI Kit focuses on larger display sizes, cross-reference Mobile Kit for smaller devices or components can be scaled [Figma for designers](/designers/). This brand base must maintain optimal usability, while also allowing flexibility to support Trimble and other OEM (Original Equipment Manufacturers) brand variations. See [Global colours](/foundations/color-palette/#infield-global-colors) for global colors and [Type ](/foundations/typography/#infield)for overview of fonts sizes.
 
 ## Supporting Brand Variations
 
