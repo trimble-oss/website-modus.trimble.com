@@ -15,11 +15,11 @@ Bottom navigation bars allow movement between primary destinations in an app.
 
 ## Atoms
 
-{{< img src="/img/mobile/footers-atoms.svg" dark="/img/mobile/footers-atoms-dark.svg" width="961" height="170" class="w-100" alt="Footer Atoms" loading="auto" >}}
+{{< img src="/img/mobile/footers-atoms.svg" dark="/img/mobile/footers-atoms-dark.svg" width="960" height="178" alt="Footer Atoms" loading="auto" >}}
 
 ## Anatomy
 
-{{< img src="/img/mobile/footers-anatomy.svg" dark="/img/mobile/footers-anatomy-dark.svg" width="961" height="170" class="w-100" alt="Footers Anatomy" loading="auto" >}}
+{{< img src="/img/mobile/footers-anatomy.svg" dark="/img/mobile/footers-anatomy-dark.svg" width="960" height="176" alt="Footers Anatomy" loading="auto" >}}
 
 {{< whats-changed-table >}}
 

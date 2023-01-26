@@ -27,10 +27,11 @@ Bottom navigation items should always have icons. Icons provide metaphors for qu
 
 ## Sizing
 
-{{< img src="/img/mobile/footers-sizing.svg" dark="/img/mobile/footers-sizing-dark.svg" width="961" height="170" class="w-100" alt="Footers Anatomy" loading="auto" >}}
-
+{{< img src="/img/mobile/footers-sizing.svg" dark="/img/mobile/footers-sizing-dark.svg" width="960" height="312" alt="Footers Anatomy" loading="auto" >}}
 
 ## States
+
+{{< img src="/img/mobile/footers-states.svg" dark="/img/mobile/footers-states-dark.svg" width="960" height="766" alt="Footers Anatomy" loading="auto" >}}
 
 ## Selected
 

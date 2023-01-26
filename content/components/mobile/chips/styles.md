@@ -16,7 +16,7 @@ There are two sizes of Chips:
 - By default, Chips should have a height of 48px and 16px font size
 - Smaller variant will have a height of 32px, 14px font size
 
-{{< img src="/img/mobile/chips-specifications.svg" dark="/img/mobile/chips-specifications-dark.svg" width="961" height="170" class="w-100" alt="Chips Specifications" loading="auto" >}}
+{{< img src="/img/mobile/chips-specifications.svg" dark="/img/mobile/chips-specifications-dark.svg" width="960" height="128" alt="Chips Specifications" loading="auto" >}}
 
 ## States
 
@@ -27,11 +27,11 @@ States for Chips are:
 - Disabled
 - Error
 
-{{< img src="/img/mobile/chips-states.svg" dark="/img/mobile/chips-states-dark.svg" width="961" height="170" class="w-100" alt="Chips States" loading="auto" >}}
+{{< img src="/img/mobile/chips-states.svg" dark="/img/mobile/chips-states-dark.svg" width="960" height="128" alt="Chips States" loading="auto" >}}
 
 ## Sizes
 
-{{< img src="/img/mobile/chips-sizing.svg" dark="/img/mobile/chips-sizing-dark.svg" width="961" height="170" class="w-100" alt="Chips Sizing" loading="auto" >}}
+{{< img src="/img/mobile/chips-sizing.svg" dark="/img/mobile/chips-sizing-dark.svg" width="961" height="128" alt="Chips Sizing" loading="auto" >}}
 
 ## Types
 

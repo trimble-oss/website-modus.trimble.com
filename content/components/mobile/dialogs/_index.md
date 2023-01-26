@@ -15,7 +15,7 @@ A dialog or a modal is a window overlaid on the primary window. It interrupts th
 
 ## Atoms
 
-{{< img src="/img/mobile/dialogs-atoms.svg" dark="/img/mobile/dialogs-atoms-dark.svg" width="961" height="170" class="w-100" alt="Dialog Atoms" loading="auto" >}}
+{{< img src="/img/mobile/dialogs-atoms.svg" dark="/img/mobile/dialogs-atoms-dark.svg" width="961" height="524" alt="Dialog Atoms" loading="auto" >}}
 
 {{< whats-changed-table >}}
 

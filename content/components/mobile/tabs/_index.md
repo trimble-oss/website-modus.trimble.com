@@ -17,7 +17,7 @@ Tabs are a set of layered sections of content, known as tab panels, that display
 
 ## Atoms
 
-{{< img src="/img/mobile/tabs-atoms.svg" dark="/img/mobile/tabs-atoms-dark.svg" width="961" height="170" class="w-100" alt="Tabs Atoms" loading="auto" >}}
+{{< img src="/img/mobile/tabs-anatomy.svg" dark="/img/mobile/tabs-anatomy-dark.svg" width="961" height="170" class="w-100" alt="Tabs Anatomy" loading="auto" >}}
 
 ## Usage
 

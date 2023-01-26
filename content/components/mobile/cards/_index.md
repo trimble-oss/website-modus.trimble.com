@@ -30,7 +30,7 @@ Cards act as container or surface for displaying relevant grouped information.  
 - You need to display content in a table format.
 - Grouping a large set of related information.
 
-{{< img src="/img/mobile/cards-comparison.svg" dark="/img/mobile/cards-comparison-dark.svg" width="961" height="170" class="w-100" alt="Cards Specifications" loading="auto" >}}
+{{< img src="/img/mobile/cards-comparison.svg" dark="/img/mobile/cards-comparison-dark.svg" width="962" height="448" alt="Cards Specifications" loading="auto" >}}
 
 
 {{< whats-changed-table >}}
