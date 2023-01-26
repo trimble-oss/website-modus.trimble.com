@@ -8,7 +8,7 @@
           class="form-control search-mobile" name="query" placeholder="Search..." autocomplete="off"
           title="" required>
           <div class="input-icon">
-            <i class="modus-icon material-icons notranslate">search</i>
+            {{ partial "icons/modus-outline/search.svg" (dict "class" "text-dark opacity-75 mt-1" "width" "20" "height" "20") }}
           </div>
           </div>
       </form>
@@ -16,11 +16,9 @@
 
     <div class="col-1 px-1 mx-auto">
       <button class="btn search-docs-toggle d-md-none mx-auto px-0" type="button" data-toggle="collapse"
-        data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="true" aria-label="Toggle docs navigation"><svg
-          xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" role="img" focusable="false">
-          <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"
-            d="M4 7h22M4 15h22M4 23h22"></path>
-        </svg></button>
+        data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="true" aria-label="Toggle docs navigation">
+        {{ partial "icons/modus-outline/menu.svg" (dict "class" "opacity-75" "width" "30" "height" "30") }}
+      </button>
     </div>
   </div>
 </div>
