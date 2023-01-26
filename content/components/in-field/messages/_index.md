@@ -23,7 +23,7 @@ Messages are used within other elements to convey status and helpful information
 
 **Don't use when**
 
-- Alerting the user of a high priority warning or error. Instead, use an [Alarm](/components/in-field/alert/).
+- Alerting the user of a high priority warning or error. Instead, use an [Alarm](/components/in-field/alarms/).
 - Alerting the user of an out-of-context event. Instead, use a [Notification](/components/in-field/notifications/).
 - There is a system-critical action the user must take. If the user should stop work and immediately attend to a problem or error, use an [Alarm](/components/in-field/alarms/).
 - You need to communicate contextual information or status about an input field component. Use Helper Text instead.
