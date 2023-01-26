@@ -5,7 +5,7 @@ description: "Book Review: the importance of speed when it comes to design-think
 image: "/img/blog/headers/2022-12-14-sprint-book-review.png"
 images:
   - img/blog/headers/2022-12-14-sprint-book-review.png
-headerBgColor: "#FFD973"
+headerBgColor: "#eccfcd"
 tags: ["modus", "design", "book", "sprint"]
 keywords: ["modus", "design", "book", "sprint"]
 author: Aleks Bikic
