@@ -26,11 +26,9 @@ Messages display low priority content directly on the page and are not dismissab
 
 ## Atoms
 
-{{< img src="/img/mobile/messages-atoms.svg" dark="/img/mobile//messages-atoms-dark.svg" width="961" height="170" class="w-100" alt="Messages Atoms" loading="auto" >}}
+{{< img src="/img/mobile/messages-atoms.svg" dark="/img/mobile//messages-atoms-dark.svg" width="961" height="171" alt="Messages Atoms" loading="auto" >}}
 
-## Anatomy
-
-{{< img src="/img/mobile/messages-anatomy.svg" dark="/img/mobile//messages-anatomy-dark.svg" width="961" height="170" class="w-100" alt="Messages Anatomy" loading="auto" >}}
+{{< img src="/img/mobile/messages-anatomy.svg" dark="/img/mobile//messages-anatomy-dark.svg" width="961" height="171" alt="Messages Anatomy" loading="auto" >}}
 
 {{< whats-changed-table >}}
 

@@ -21,11 +21,11 @@ Segmented controls can also be used to toggle between multiple values in a set.
 
 For more details on the contents of these atoms, see List.
 
-{{< img src="/img/mobile/segmented-controls-atoms.svg" dark="/img/mobile//segmented-controls-atoms-dark.svg" width="961" height="170" class="w-100" alt="Segmented Controls Atoms" loading="auto" >}}
+{{< img src="/img/mobile/segmented-controls-atoms.svg" dark="/img/mobile//segmented-controls-atoms-dark.svg" width="960" height="132" alt="Segmented Controls Atoms" loading="auto" >}}
 
 ## Sizes
 
-{{< img src="/img/mobile/segmented-controls-sizes.svg" dark="/img/mobile//segmented-controls-sizes-dark.svg" width="961" height="170" class="w-100" alt="Segmented Controls Sizes" loading="auto" >}}
+{{< img src="/img/mobile/segmented-controls-sizes.svg" dark="/img/mobile//segmented-controls-sizes-dark.svg" width="556" height="312" alt="Segmented Controls Sizes" loading="auto" >}}
 
 
 {{< whats-changed-table >}}

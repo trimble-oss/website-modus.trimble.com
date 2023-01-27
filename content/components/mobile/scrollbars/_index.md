@@ -16,11 +16,11 @@ The scrollbar is for both showing a user that content in a container overflows a
 
 ## Anatomy of a Scrollbar
 
-{{< img src="/img/mobile/scrollbar-anatomy.svg" dark="/img/mobile//scrollbar-anatomy-dark.svg" width="961" height="170" class="w-100" alt="Scrollbar Anatomy" loading="auto" >}}
+{{< img src="/img/mobile/scrollbar-anatomy.svg" dark="/img/mobile//scrollbar-anatomy-dark.svg" width="1078" height="422" alt="Scrollbar Anatomy" loading="auto" >}}
 
 ## Minimal
 
-Minimal - A list should always stack vertically and have a container set to a fixed width.  This allows the atom.list-item elements to scale appropriately when set to “fill container” as their width.
+Minimal - A list should always stack vertically and have a container set to a fixed width. This allows the atom.list-item elements to scale appropriately when set to “fill container” as their width.
 
 
 {{< whats-changed-table >}}

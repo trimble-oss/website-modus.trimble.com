@@ -16,7 +16,7 @@ aliases:
 
 The Nav Bar or the header provides context through globally accessible menu options and positions a consistent component to connect various Trimble applications. It contains the main navigation for your application.
 
-{{< img src="/img/mobile/navbar-overview.svg" dark="/img/mobile//navbar-overview-dark.svg" width="961" height="170" class="w-100" alt="Nav Bar Overview" loading="auto" >}}
+{{< img src="/img/mobile/navbar-overview.svg" dark="/img/mobile//navbar-overview-dark.svg" width="960" height="482" alt="Nav Bar Overview" loading="auto" >}}
 
 ## Usage
 
@@ -28,19 +28,8 @@ The Nav Bar is often used as the location for the primary menu and also provides
 
 Atoms
 
-{{< img src="/img/mobile/navbar-atoms.svg" dark="/img/mobile//navbar-atoms-dark.svg" width="961" height="170" class="w-100" alt="Navbar Atoms" loading="auto" >}}
+{{< img src="/img/mobile/navbar-anatomy.svg" dark="/img/mobile//navbar-anatomy-dark.svg" width="960" height="482" alt="Navbar Anatomy" loading="auto" >}}
 
-Specs
-
-{{< img src="/img/mobile/navbar-specs.svg" dark="/img/mobile//navbar-specs-dark.svg" width="961" height="170" class="w-100" alt="Navbar Specs" loading="auto" >}}
-
-Colors
-
-{{< img src="/img/mobile/navbar-colors.svg" dark="/img/mobile//navbar-colors-dark.svg" width="961" height="170" class="w-100" alt="Navbar Colors" loading="auto" >}}
-
-## Sizing
-
-{{< img src="/img/mobile/messages-sizing.svg" dark="/img/mobile//messages-sizing-dark.svg" width="961" height="170" class="w-100" alt="Messages Sizing" loading="auto" >}}
 
 {{< whats-changed-table >}}
 

@@ -15,7 +15,7 @@ tags: [mobile, usage]
 
 Sliders select a numeric value or range of values by moving a handle or set of handles along a bar. They are ideal for adjusting settings such as volume and brightness. The slider in its basic form should be accompanied by a label and a number input that doubles as a display for the slider’s current value.
 
-{{< img src="/img/mobile/sliders-anatomy.svg" dark="/img/mobile/sliders-anatomy-dark.svg" width="961" height="170" class="w-100" alt="Sliders Anatomy" loading="auto" >}}
+{{< img src="/img/mobile/sliders-anatomy.svg" dark="/img/mobile/sliders-anatomy-dark.svg" width="1001" height="307" alt="Sliders Anatomy" loading="auto" >}}
 
 ## Usage
 

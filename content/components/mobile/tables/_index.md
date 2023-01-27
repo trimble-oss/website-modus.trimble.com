@@ -20,7 +20,7 @@ When using the Figma component, it will be necessary to adjust the width and hei
 
 For more details on the contents of these atoms, see List.
 
-{{< img src="/img/mobile/tables-anatomy.svg" dark="/img/mobile/tables-anatomy-dark.svg" width="961" height="170" class="w-100" alt="Tables Anatomy" loading="auto" >}}
+{{< img src="/img/mobile/tables-anatomy.svg" dark="/img/mobile/tables-anatomy-dark.svg" width="960" height="543" alt="Tables Anatomy" loading="auto" >}}
 
 
 {{< whats-changed-table >}}

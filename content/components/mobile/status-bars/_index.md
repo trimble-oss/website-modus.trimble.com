@@ -17,10 +17,10 @@ The status bar is the operating system tray that goes across the top of the devi
 ## Anatomy of a Status Bar
 
 Android
-{{< img src="/img/mobile/statusbar-android.svg" dark="/img/mobile/statusbar-android-dark.svg" width="961" height="170" class="w-100" alt="Status Bar Anatomy Android" loading="auto" >}}
+{{< img src="/img/mobile/statusbar-android.svg" dark="/img/mobile/statusbar-android-dark.svg" width="960" height="144" alt="Status Bar Anatomy Android" loading="auto" >}}
 
 iOS
-{{< img src="/img/mobile/statusbar-ios.svg" dark="/img/mobile/statusbar-ios-dark.svg" width="961" height="170" class="w-100" alt="Status Bar Anatomy iOS" loading="auto" >}}
+{{< img src="/img/mobile/statusbar-ios.svg" dark="/img/mobile/statusbar-ios-dark.svg" width="960" height="165" alt="Status Bar Anatomy iOS" loading="auto" >}}
 
 ## Minimal
 
