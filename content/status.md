@@ -29,7 +29,7 @@ hideToc: true
 | ------------------------------------------------------------- | ------------------- | ------------------ | ------------------------ | ----------------------- |
 | [Accordions](/components/accordions/)                         | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Alerts](/components/alerts/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
-| [Autocomplete](/components/autocomplete/)                     | {{< ico-check >}} |                    | {{< ico-uc >}}           | {{< ico-uc >}}          |
+| [Autocomplete](/components/autocomplete/)                     | {{< ico-check >}} |                    | {{< ico-uc >}}           | {{< ico-check >}}          |
 | [Badges](/components/badges/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Breadcrumbs](/components/breadcrumbs/)                       | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Buttons](/components/buttons/)                               | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
@@ -48,7 +48,7 @@ hideToc: true
 | [Pagination](/components/pagination/)                         | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Progress Bars](/components/progress-bars/)                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Radio Buttons](/components/radio-buttons/)                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
-| [Side Navigation Panel](/components/side-navigation/)         | {{< ico-check >}} |                    | {{< ico-uc >}}           | {{< ico-uc >}}          |
+| [Side Navigation Panel](/components/side-navigation/)         | {{< ico-check >}} |                    | {{< ico-uc >}}           | {{< ico-check >}}          |
 | [Sliders](/components/sliders/)                               | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Spinners](/components/spinners/)                             | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Switches](/components/switches/)                             | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
