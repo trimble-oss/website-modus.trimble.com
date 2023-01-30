@@ -1,7 +1,7 @@
-var target = document.querySelector("footer");
+let target = document.querySelector("footer");
 
-var scrollToTopBtn = document.querySelector(".btn-to-top");
-var rootElement = document.documentElement;
+let scrollToTopBtn = document.querySelector(".btn-to-top");
+let rootElement = document.documentElement;
 
 function callback(entries, observer) {
   entries.forEach((entry) => {
