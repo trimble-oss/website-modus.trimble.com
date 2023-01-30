@@ -22,7 +22,6 @@ Accordion (aka expansion panel) is a vertically stacked, full-width, list of opt
 
 {{< img src="/img/mobile/accordion-anatomy.svg" dark="/img/mobile/accordion-anatomy-dark.svg" width="961" height="170" class="w-100" alt="Accordion Anatomy" loading="auto" >}}
 
-
 ### Types
 
 **Contained**

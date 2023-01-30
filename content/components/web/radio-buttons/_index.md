@@ -9,6 +9,7 @@ images:
 keywords: forms, form
 aliases:
   - "/components/radio/"
+  - "/components/radio-button/"
 bootstrapURL: "/components/radio-buttons/"
 reactBootstrapURL: "/components/radio-buttons/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-radio-group--default"

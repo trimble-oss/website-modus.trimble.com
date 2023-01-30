@@ -26,7 +26,7 @@
     "lint-css": "stylelint \"assets/styles/*.scss\" --fix",
     "lint-html": "htmlhint \"layouts/**/index.html\"",
     "lint-js": "npx eslint \"assets/js/*.js\" --fix",
-    "lint-links": "npx linkinator build --recurse --silent --skip modus.trimble.com",
+    "lint-links": "npx linkinator ./",
     "lint-markdown": "npx markdownlint-cli content/**/*.md",
     "lint-spellcheck": "npx cspell \"content/**/*.md\" --no-progress",
     "lint-textlint": "textlint **/*.*",
