@@ -11,6 +11,9 @@ tags: [mobile, usage]
 aliases:
   - checkbox
 ---
+
+{{< img src="/img/mobile/checkboxes.svg" dark="/img/mobile/checkboxes-dark.svg" width="961" height="260" class="w-100" alt="Checkboxes Example" >}}
+
 ## Overview
 
 Checkboxes should be used in forms that require submission and processing. The checkbox is shown as a square box that is ticked when it is activated. It allows the user to select one or more options among all the limited choices and requires a button press to confirm the user’s settings before they are committed.
@@ -21,7 +24,7 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 - Affording a binary selection, like accepting terms and conditions.
 - Affording multiple selections from a set of options.
-- Enabling selection of an object, such as a [Card](/components/mobile/cards/).
+- Enabling selection of an object, such as a [Card](/components/mobile/checkboxes/).
 - Affording selection of a row within a data [Table](/components/mobile/tables/).
 
 **Don’t use when**

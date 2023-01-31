@@ -11,6 +11,9 @@ tags: [mobile, usage]
 aliases:
   - switch
 ---
+
+{{< img src="/img/mobile/switches.svg" dark="/img/mobile/switches-dark.svg" width="961" height="260" class="w-100" alt="Switches Example" >}}
+
 ## Overview
 
 Switches are used to toggle functionality. Switches are selection controls that yield instantaneous actions. They have an on and off setting.

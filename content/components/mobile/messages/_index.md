@@ -9,6 +9,9 @@ images:
   - "/img/mobile/headers/messages.png"
 tags: [mobile, usage]
 ---
+
+{{< img src="/img/mobile/messages.svg" dark="/img/mobile/messages-dark.svg" width="961" height="260" class="w-100" alt="Messages Example" >}}
+
 ## Overview
 
 Messages display low priority content directly on the page and are not dismissable. They should be used within other elements to convey helpful information in an unobtrusive way.

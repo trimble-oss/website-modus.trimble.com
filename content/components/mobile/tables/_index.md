@@ -10,6 +10,8 @@ images:
 tags: [mobile, usage]
 ---
 
+{{< img src="/img/mobile/tables.svg" dark="/img/mobile/tables-dark.svg" width="961" height="260" class="w-100" alt="Tables Example" >}}
+
 ## Overview
 
 Tables are largely based on the List component.  Tables can be stacked horizontally and vertically n multiple rows and columns, whereas Lists can only be stacked vertically in a single column.

@@ -11,6 +11,8 @@ keywords: List
 tags: [mobile, usage]
 ---
 
+{{< img src="/img/mobile/lists.svg" dark="/img/mobile/lists-dark.svg" width="961" height="260" class="w-100" alt="Lists Example" >}}
+
 ## Overview
 
 Lists are vertically stacked indexes of text items, icons, controls or images, with a uniform spacing between them.  The atomic component of a List is the List Item.

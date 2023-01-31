@@ -9,6 +9,9 @@ images:
   - "/img/mobile/headers/footers.png"
 tags: [mobile, usage]
 ---
+
+{{< img src="/img/mobile/footers.svg" dark="/img/mobile/footers-dark.svg" width="961" height="260" class="w-100" alt="Footers Example" >}}
+
 ## Overview
 
 Bottom navigation bars allow movement between primary destinations in an app.

@@ -11,6 +11,8 @@ component: sliders
 tags: [mobile, usage]
 ---
 
+{{< img src="/img/mobile/sliders.svg" dark="/img/mobile/sliders-dark.svg" width="961" height="260" class="w-100" alt="Sliders Example" >}}
+
 ## Overview
 
 Sliders select a numeric value or range of values by moving a handle or set of handles along a bar. They are ideal for adjusting settings such as volume and brightness. The slider in its basic form should be accompanied by a label and a number input that doubles as a display for the slider’s current value.

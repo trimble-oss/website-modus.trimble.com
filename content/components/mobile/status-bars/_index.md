@@ -10,6 +10,8 @@ images:
 tags: [mobile, usage]
 ---
 
+{{< img src="/img/mobile/status-bars.svg" dark="/img/mobile/status-bars-dark.svg" width="961" height="260" class="w-100" alt="Status Bars Example" >}}
+
 ## Overview
 
 The status bar is the operating system tray that goes across the top of the device screen. This usually contains default system icons and components not customized.

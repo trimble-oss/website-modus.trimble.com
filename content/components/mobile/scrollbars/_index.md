@@ -10,6 +10,8 @@ images:
 tags: [mobile, usage]
 ---
 
+{{< img src="/img/mobile/scrollbar.svg" dark="/img/mobile/scrollbar-dark.svg" width="961" height="260" class="w-100" alt="Scroll Bar Example" >}}
+
 ## Overview
 
 The scrollbar is for both showing a user that content in a container overflows and for the user to control the scrolling content of that container.

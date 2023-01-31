@@ -9,6 +9,9 @@ images:
   - "/img/mobile/headers/progress-indicators.png"
 tags: [mobile, usage]
 ---
+
+{{< img src="/img/mobile/progress-indicators.svg" dark="/img/mobile/progress-indicators-dark.svg" width="961" height="260" class="w-100" alt="Progress Indicators" >}}
+
 ## Overview
 
 Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates. They communicate an app’s state and indicate available actions, such as whether users can navigate away from the current screen. Progress indicators generally have negative connotations among users. Use them sparingly. Instead, focus on optimizing loading.

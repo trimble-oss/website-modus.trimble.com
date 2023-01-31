@@ -10,6 +10,8 @@ images:
 tags: [mobile, usage, hide-accessibility]
 ---
 
+{{< img src="/img/mobile/segmented-controls.svg" dark="/img/mobile/segmented-controls-dark.svg" width="961" height="260" class="w-100" alt="Lists Example" >}}
+
 ## Overview
 
 Segmented buttons should be used in place of tabs where it makes sense and where the content below does not need to be visually connected to the tabs.

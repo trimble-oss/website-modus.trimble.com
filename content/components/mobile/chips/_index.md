@@ -10,6 +10,9 @@ tags: [mobile, usage]
 aliases:
   - chip
 ---
+
+{{< img src="/img/mobile/chips.svg" dark="/img/mobile/chips-dark.svg" width="961" height="260" class="w-100" alt="Chips Example" >}}
+
 ## Overview
 
 Chips represent a complex piece of information in a compact form, such as an entity (person, place, or thing) or text. They allow users to enter information, make selections, filter content, or trigger actions. Unlike buttons, chips should appear dynamically as a group of multiple interactive elements.

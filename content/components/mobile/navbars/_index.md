@@ -12,6 +12,8 @@ aliases:
   - navbars
 ---
 
+{{< img src="/img/mobile/navbar.svg" dark="/img/mobile/navbar-dark.svg" width="961" height="260" class="w-100" alt="Nav Bar Example" >}}
+
 ## Overview
 
 The Nav Bar or the header provides context through globally accessible menu options and positions a consistent component to connect various Trimble applications. It contains the main navigation for your application.

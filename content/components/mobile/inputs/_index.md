@@ -10,6 +10,10 @@ images:
 keywords: input, forms
 tags: [mobile, usage]
 ---
+{
+  {< img src="/img/mobile/inputs.svg" dark="/img/mobile/inputs-dark.svg" width="961" height="260" class="w-100" alt="Inputs Example" >}}
+
+
 ## Overview
 
  Text inputs allow users to enter text into the user interface. They typically appear in forms, often with checkboxes, radio buttons, and buttons.

@@ -9,6 +9,9 @@ images:
   - "/img/mobile/headers/map-views.png"
 tags: [mobile, usage]
 ---
+
+{{< img src="/img/mobile/map-views.svg" dark="/img/mobile/map-views-dark.svg" width="961" height="260" class="w-100" alt="Map Views Example" >}}
+
 ## Overview
 
 Maps in a mobile environment should be interactive whenever possible. There are a range of gestures which can be used to interact with the map
