@@ -571,7 +571,7 @@ The variations help keep type styles to a minimum, so consistency is easier to a
     
 ### In-Field
 
-Incab base fonts size is 22px for Android use sp (scalable pixels). Some application may suit Mobile fonts sizes depending on use.
+Base fonts size is 22px for Android use sp (scalable pixels). Some application may suit Mobile fonts sizes depending on use.
 
 <table class="table table-bordered">
       <thead class="thead-light">

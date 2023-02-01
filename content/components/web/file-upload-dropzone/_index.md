@@ -4,6 +4,8 @@ layout: "single"
 description: "File upload dropzone allows users to upload single or multiple files to the application by dragging and dropping."
 components: true
 componentsWeb: true
+aliases:
+  - "/components/file-upload-dropzone/"
 images:
   - "/img/components/headers/file-upload-dropzone.png"
 bootstrapURL: "/components/file-upload-dropzone/"

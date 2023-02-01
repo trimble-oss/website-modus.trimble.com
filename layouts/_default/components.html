@@ -39,7 +39,7 @@
             <input class="form-control form-control-lg w-100 search" id="search" placeholder="Start typing to filter..."
               type="search" autocomplete="off" title="" onkeypress="return event.keyCode!=13">
             <div class="input-icon">
-              <i class="modus-icon material-icons notranslate">search</i>
+              {{ partial "icons/modus-outline/search.svg" (dict "class" "text-dark opacity-75 mt-1" "width" "20" "height" "20") }}
             </div>
           </div>
         </form>

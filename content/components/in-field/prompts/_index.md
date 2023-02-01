@@ -22,7 +22,7 @@ There are two types of prompt triggering conditions:
 
 1. Resolvable Prompts: condition goes away once user has made a choice.
 
-2. Active Prompts: relates to a system event (e.g. hardware failure) to be resolved. They remain in an active list, for example, in a Message Center. An active prompt can either be dismissed by the condition being resolved or the user acknowledging the message.
+2. Active Prompts: relates to a system event (e.g. hardware failure) to be resolved. An active prompt can either be dismissed by the condition being resolved or the user acknowledging the message.
 
 ## Usage
 

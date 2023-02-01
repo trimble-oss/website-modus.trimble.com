@@ -13,7 +13,7 @@ tags: [in-field, usage]
 
 ## Overview
 
-Messages are used within other elements to convey status and helpful information in an unobtrusive way. Messages display low priority content directly on the screen and are not interactive or dismissible. Messages provide supporting information or additional instruction about a data set, dialog, or screen. Messages are typically displayed at the top of the screen and convey information or status about the screen content as a whole.
+Messages are used within other elements to convey status and helpful information in an unobtrusive way. Messages display content directly on the screen and are not interactive or dismissible. Messages provide supporting information or additional instruction about a data set, dialog, or screen. Messages are typically displayed at the top of the screen and convey information or status about the screen content as a whole.
 
 ## Usage
 
@@ -23,7 +23,7 @@ Messages are used within other elements to convey status and helpful information
 
 **Don't use when**
 
-- Alerting the user of a high priority warning or error. Instead, use an [Alert](/components/in-field/alert/).
+- Alerting the user of a high priority warning or error. Instead, use an [Alarm](/components/in-field/alarms/).
 - Alerting the user of an out-of-context event. Instead, use a [Notification](/components/in-field/notifications/).
 - There is a system-critical action the user must take. If the user should stop work and immediately attend to a problem or error, use an [Alarm](/components/in-field/alarms/).
 - You need to communicate contextual information or status about an input field component. Use Helper Text instead.
