@@ -10,6 +10,8 @@ images:
 tags: [mobile, usage]
 ---
 
+{{< img src="/img/mobile/tables.svg" dark="/img/mobile/tables-dark.svg" width="961" height="260" class="w-100" alt="Tables Example" >}}
+
 ## Overview
 
 Tables are largely based on the List component.  Tables can be stacked horizontally and vertically n multiple rows and columns, whereas Lists can only be stacked vertically in a single column.
@@ -20,7 +22,7 @@ When using the Figma component, it will be necessary to adjust the width and hei
 
 For more details on the contents of these atoms, see List.
 
-{{< img src="/img/mobile/tables-example.svg" dark="/img/mobile/tables-example-dark.svg" width="961" height="170" class="w-100" alt="Tables Example" loading="auto" >}}
+{{< img src="/img/mobile/tables-anatomy.svg" dark="/img/mobile/tables-anatomy-dark.svg" width="960" height="543" alt="Tables Anatomy" loading="auto" >}}
 
 
 {{< whats-changed-table >}}

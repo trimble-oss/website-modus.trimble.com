@@ -10,6 +10,8 @@ tags: [mobile, usage]
 aliases:
   - badge
 ---
+{{< img src="/img/mobile/badges.svg" dark="/img/mobile/badges-dark.svg" width="961" height="260" class="w-100" alt="Badges Example" >}}
+
 ## Overview
 
 Badges notify the user of a status, for example that there are new or unread messages or notifications. They typically describe or relate to another element on the page. Badges scale so that their height matches the font-size of their immediate parent element by using relative font sizing and em units.

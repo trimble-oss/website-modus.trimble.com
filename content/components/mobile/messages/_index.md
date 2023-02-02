@@ -9,6 +9,9 @@ images:
   - "/img/mobile/headers/messages.png"
 tags: [mobile, usage]
 ---
+
+{{< img src="/img/mobile/messages.svg" dark="/img/mobile/messages-dark.svg" width="961" height="260" class="w-100" alt="Messages Example" >}}
+
 ## Overview
 
 Messages display low priority content directly on the page and are not dismissable. They should be used within other elements to convey helpful information in an unobtrusive way.
@@ -26,11 +29,9 @@ Messages display low priority content directly on the page and are not dismissab
 
 ## Atoms
 
-{{< img src="/img/mobile/messages-atoms.svg" dark="/img/mobile//messages-atoms-dark.svg" width="961" height="170" class="w-100" alt="Messages Atoms" loading="auto" >}}
+{{< img src="/img/mobile/messages-atoms.svg" dark="/img/mobile//messages-atoms-dark.svg" width="961" height="171" alt="Messages Atoms" loading="auto" >}}
 
-## Anatomy
-
-{{< img src="/img/mobile/messages-anatomy.svg" dark="/img/mobile//messages-anatomy-dark.svg" width="961" height="170" class="w-100" alt="Messages Anatomy" loading="auto" >}}
+{{< img src="/img/mobile/messages-anatomy.svg" dark="/img/mobile//messages-anatomy-dark.svg" width="961" height="171" alt="Messages Anatomy" loading="auto" >}}
 
 {{< whats-changed-table >}}
 

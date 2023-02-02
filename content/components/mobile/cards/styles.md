@@ -25,7 +25,7 @@ Card Container (2px radius, 16px padding, with Level 3 shadow) required. A card 
 - Lists (optional)
 - Images (optional)
 
-{{< img src="/img/mobile/card-specifications.svg" dark="/img/mobile/card-specifications-dark.svg" width="961" height="170" class="w-100" alt="Card Specifications" loading="auto" >}}
+{{< img src="/img/mobile/card-specifications.svg" dark="/img/mobile/card-specifications-dark.svg" width="934" height="847" alt="Card Specifications" loading="auto" >}}
 
 Card layouts may vary to support the content within. The dimensions of a card will depend on the implementation of the card and as well as it's content and use case. Apply custom heights and width to meet product requirements.
 
@@ -50,13 +50,13 @@ Card layouts may vary to support the content within. The dimensions of a card wi
 
 ## Layout Examples
 
-{{< img src="/img/mobile/card-variation.svg" dark="/img/mobile/card-variation-dark.svg" width="961" height="170" class="w-100" alt="Card Variation" loading="auto" >}}
+{{< img src="/img/mobile/card-variation.svg" dark="/img/mobile/card-variation-dark.svg" width="962" height="1699" alt="Card Variation" loading="auto" >}}
 
 ## Card States
 
 Cards can have a default, focus, and selected state. Selected states are optional and should be implemented based on use case. Mobile cards do not have a hover state.
 
-{{< img src="/img/mobile/card-states.svg" dark="/img/mobile/card-states-dark.svg" width="961" height="170" class="w-100" alt="Card States" loading="auto" >}}
+{{< img src="/img/mobile/card-states.svg" dark="/img/mobile/card-states-dark.svg" width="946" height="781" alt="Card States" loading="auto" >}}
 
 ## Behavior & Interactions
 
@@ -65,7 +65,7 @@ Cards can have the following transitions and interactions:
 - Expand/Collapse
 - Cards can be dragged
 
-{{< img src="/img/mobile/card-behavior.svg" dark="/img/mobile/card-behavior-dark.svg" width="961" height="170" class="w-100" alt="Card Behavior" loading="auto" >}}
+{{< img src="/img/mobile/card-behavior.svg" dark="/img/mobile/card-behavior-dark.svg" width="962" height="1478" alt="Card Behavior" loading="auto" >}}
 
 ## Editorial
 

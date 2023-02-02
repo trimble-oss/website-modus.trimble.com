@@ -24,4 +24,4 @@ tags: [mobile, styles]
 
 ## Sizing
 
-{{< img src="/img/mobile/dialogs-sizing.svg" dark="/img/mobile/dialogs-sizing-dark.svg" width="961" height="170" class="w-100" alt="Dialog Sizing" loading="auto" >}}
+{{< img src="/img/mobile/dialogs-sizing.svg" dark="/img/mobile/dialogs-sizing-dark.svg" width="960" height="286" alt="Dialog Sizing" loading="auto" >}}
