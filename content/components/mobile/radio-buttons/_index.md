@@ -10,10 +10,12 @@ images:
 keywords: forms, form
 tags: [mobile, usage]
 ---
+
+{{< img src="/img/mobile/radio-buttons.svg" dark="/img/mobile/radio-buttons-dark.svg" width="961" height="260" class="w-100" alt="Radio Buttons Example" >}}
+
 ## Overview
 
 Radio buttons are used to afford a single selection from two or more options.
-
 
 ## Usage
 
@@ -35,13 +37,8 @@ Radio buttons are used to afford a single selection from two or more options.
 
 ## Atoms
 
-{{< img src="/img/mobile/progress-atoms.svg" dark="/img/mobile//progress-atoms-dark.svg" width="961" height="170" class="w-100" alt="Progress Indicators Atoms" loading="auto" >}}
 
-## Spinners
 
-## Atoms
-
-{{< img src="/img/mobile/progress-spinners.svg" dark="/img/mobile//progress-spinners-dark.svg" width="961" height="170" class="w-100" alt="Progress Indicators Spinners" loading="auto" >}}
 
 {{< whats-changed-table >}}
 

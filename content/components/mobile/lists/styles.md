@@ -12,10 +12,22 @@ tags: [mobile, styles]
 ---
 ### Styles
 
-## Types
+Width - A list should always stack vertically in a single column and have a container set to a fixed width.  This allows the atom.list-item elements to scale appropriately when set to “fill container” as their width.
 
-Accordions come in two sizes to accommodate space availability on the page or within a [Card](/components/mobile/cards/). Default size should be used when accordions display directly in the main content container on the page. Compact size is useful, when the accordion displays within a smaller container (e.g. card) or smaller section of the page.
+Height - A list can extend infinitely in a vertical direction and scroll with a fixed height.
 
-### Contained Accordion
+Borders - These are defined by placing  a background color on the list container and then allowing the list items to separate by the thickness of the border.  In the examples above, they use a 1px separation to generate a 1px border.
 
-{{< img src="/img/mobile/accordion.svg" dark="/img/mobile/accordion-dark.svg" width="961" height="170" class="w-100" alt="Accordions Example" loading="auto" >}}
+Scrollable - Lists can be scrolled within a fixed height.  This just compresses the list by the size of the scroll bar area and positions to the left of the scrollbar.  The scrollbar track color should inherent the list background color (same as the border color).
+
+Sectioning - Lists are not required to have a border between each item.  They can be divided into sections of items or divided by each item.  Whichever speaks to the user with a clearer context is the best option.
+
+Border Radius - List items do not have a border radius while the entire list container does have a border radius of 4px.
+
+Row Striping - Modus does not recommend row striping, but if you have to a state has been provided for Alt Row.
+
+{{< img src="/img/mobile/list-sizes.svg" dark="/img/mobile/list-sizes-dark.svg" width="960" height="282" alt="List Sizes" loading="auto" >}}
+
+## Customization Examples
+
+{{< img src="/img/mobile/list-examples.svg" dark="/img/mobile/list-examples-dark.svg" width="960" height="130" alt="List Examples" loading="auto" >}}

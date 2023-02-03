@@ -14,7 +14,7 @@ tags: [mobile, styles]
 
 ## Horizontal Filled Layout
 
-{{< img src="/img/mobile/tables-horizontal.svg" dark="/img/mobile/tables-horizontal-dark.svg" width="961" height="170" class="w-100" alt="Tables Horizontal" loading="auto" >}}
+{{< img src="/img/mobile/tables-horizontal.svg" dark="/img/mobile/tables-horizontal-dark.svg" width="960" height="278" alt="Tables Horizontal" loading="auto" >}}
 
 ## Width
 
@@ -34,7 +34,7 @@ tags: [mobile, styles]
 
 ## Compact Mobile Layout (Row Cards)
 
-{{< img src="/img/mobile/tables-row.svg" dark="/img/mobile/tables-row-dark.svg" width="961" height="170" class="w-100" alt="Tables Row" loading="auto" >}}
+{{< img src="/img/mobile/tables-row.svg" dark="/img/mobile/tables-row-dark.svg" width="569" height="649" alt="Tables Row" loading="auto" >}}
 
 ## Mobile Stacking
 

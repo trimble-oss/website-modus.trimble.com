@@ -12,10 +12,6 @@ tags: [mobile, styles]
 ---
 ### Styles
 
-## Sizes
-
-{{< img src="/img/mobile/progress-size.svg" dark="/img/mobile//progress-sizes-dark.svg" width="961" height="170" class="w-100" alt="Progress Indicators Sizes" loading="auto" >}}
-
 ## Specifications
 
 - Always stack radio buttons vertically. Horizontal variation should not be used.
@@ -25,13 +21,13 @@ tags: [mobile, styles]
 
 There are two sizes of radios,  default (24 x 24) & large (32 x 32).
 
-{{< img src="/img/mobile/radio-buttons-specifications.svg" dark="/img/mobile/radio-buttons-specifications-dark.svg" width="961" height="170" class="w-100" alt="Radio Buttons Specifications" loading="auto" >}}
+{{< img src="/img/mobile/radio-buttons-specifications.svg" dark="/img/mobile/radio-buttons-specifications-dark.svg" width="961" height="170" alt="Radio Buttons Specifications" loading="auto" >}}
 
 ## States
 
 Radios have the following States, Default, Focus, Checked. Disabled, Disabled Checked and Indeterminate
 
-{{< img src="/img/mobile/radio-buttons-states.svg" dark="/img/mobile/radio-buttons-states-dark.svg" width="961" height="170" class="w-100" alt="Radio Buttons States" loading="auto" >}}
+{{< img src="/img/mobile/radio-buttons-states.svg" dark="/img/mobile/radio-buttons-states-dark.svg" width="962" height="120" alt="Radio Buttons States" loading="auto" >}}
 
 ## Behaviors
 

@@ -11,13 +11,15 @@ tags: [mobile, usage]
 ---
 *Designers should use segmented controls when available due to usability issues with tabs. If that is not feasible, please follow the specifications below.*
 
+{{< img src="/img/mobile/tabs.svg" dark="/img/mobile/tabs-dark.svg" width="961" height="260" class="w-100" alt="Tabs Example" >}}
+
 ## Overview
 
 Tabs are a set of layered sections of content, known as tab panels, that display one panel of content at a time. Each tab panel has an associated tab element, that when activated, displays the panel. The list of tab elements is arranged along one edge of the currently displayed panel, most commonly horizontally, at the top edge. When a tabbed interface is initialized, one tab panel is always displayed.
 
 ## Atoms
 
-{{< img src="/img/mobile/tabs-atoms.svg" dark="/img/mobile/tabs-atoms-dark.svg" width="961" height="170" class="w-100" alt="Tabs Atoms" loading="auto" >}}
+{{< img src="/img/mobile/tabs-anatomy.svg" dark="/img/mobile/tabs-anatomy-dark.svg" width="1084" height="347" alt="Tabs Anatomy" loading="auto" >}}
 
 ## Usage
 

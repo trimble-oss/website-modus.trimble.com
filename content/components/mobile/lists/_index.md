@@ -10,11 +10,29 @@ images:
 keywords: List
 tags: [mobile, usage]
 ---
+
+{{< img src="/img/mobile/lists.svg" dark="/img/mobile/lists-dark.svg" width="961" height="260" class="w-100" alt="Lists Example" >}}
+
 ## Overview
 
 Lists are vertically stacked indexes of text items, icons, controls or images, with a uniform spacing between them.  The atomic component of a List is the List Item.
 
 List includes atomic components List Item, Icon, Label, Control.
+
+## Anatomy of a List Item
+
+{{< img src="/img/mobile/list-anatomy.svg" dark="/img/mobile/list-anatomy-dark.svg" width="960" height="170" alt="List Anatomy" loading="auto" >}}
+
+## Controls
+
+A list item can contain a control or icon on the left, right or both.  These controls are provided in the context of their own atom.
+
+{{< img src="/img/mobile/list-controls.svg" dark="/img/mobile/list-controls-dark.svg" width="960" height="170" alt="List Controls" loading="auto" >}}
+
+## Anatomy of a List
+
+{{< img src="/img/mobile/list-full-anatomy.svg" dark="/img/mobile/list-full-anatomy-dark.svg" width="960" height="170" alt="Full List Anatomy" loading="auto" >}}
+
 
 ## Usage
 

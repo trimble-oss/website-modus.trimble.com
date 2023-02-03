@@ -20,7 +20,7 @@ tags: [mobile, styles]
 - Focus :  Focus
 - Active: Blue Light
 
-{{< img src="/img/mobile/inputs-specifications.svg" dark="/img/mobile/inputs-specifications-dark.svg" width="961" height="170" class="w-100" alt="Inputs" loading="auto" >}}
+{{< img src="/img/mobile/inputs-specifications.svg" dark="/img/mobile/inputs-specifications-dark.svg" width="1087" height="254" alt="Input Specifications" loading="auto" >}}
 
 ## Behavior
 
@@ -30,7 +30,7 @@ tags: [mobile, styles]
 - Form inputs that are disabled should be 40% opacity.
 - Form inputs that are read only have background color: Gray 0.
 
-{{< img src="/img/mobile/inputs-behavior.svg" dark="/img/mobile/inputs-behavior-dark.svg" width="961" height="170" class="w-100" alt="Inputs" loading="auto" >}}
+{{< img src="/img/mobile/inputs-behavior.svg" dark="/img/mobile/inputs-behavior-dark.svg" width="1087" height="1098" alt="Inputs Behavior" loading="auto" >}}
 
 ## Editorial
 
