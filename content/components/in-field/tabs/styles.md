@@ -29,17 +29,13 @@ There are three types of tabs:
 - Icon text is the same as current Modus.
 - Icon only.
 
-Background Gray 0 is optional to make clearer than current white option.
-
-{{< img src="/img/in-field/tabs-spec.png" dark="/img/in-field/tabs-spec-dark.png" alt="Tab Specifications table" >}}
-
 <!-- prettier-ignore-start -->
 | State     | Example                                                | Height |
 | --------- | ------------------------------------------------------ |--------|
-| Text Only |                                                        | 56dp   |
-| Text/Icon |                                                        | 80dp   |
-| Icon Only |                                                        | 72dp   |
-{class="table table-bordered table-thead-light d-none"}
+| Text Only | {{< img src="/img/in-field/tabs-text.svg" dark="/img/in-field/tabs-text-dark.svg" alt="" >}}                                                        | 56dp   |
+| Text & Icon |  {{< img src="/img/in-field/tabs-text-icon.svg" dark="/img/in-field/tabs-text-icon-dark.svg" alt="" >}}                                                       | 80dp   |
+| Icon Only | {{< img src="/img/in-field/tabs-icon.svg" dark="/img/in-field/tabs-icon-dark.svg" alt="" >}}                                                       | 72dp   |
+{class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 **Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.
