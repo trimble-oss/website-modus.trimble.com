@@ -53,6 +53,11 @@ tags: [in-field, styles]
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
+**Label above or on the side**
+
+For most applications, use the label above, but to reduce scrolling, use the side label for inputs.
+{{< img src="/img/in-field/inputs-label-top-side.svg" dark="/img/in-field/inputs-label-top-side-dark.svg" width="700" alt="/Input label top and side" >}}
+
 ### Editorial
 
 - When possible, add helper text below an input to further clarify selections or validation errors.
