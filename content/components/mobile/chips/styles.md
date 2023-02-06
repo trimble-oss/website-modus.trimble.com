@@ -18,9 +18,10 @@ There are two sizes of Chips:
 
 {{< img src="/img/mobile/chips-specifications.svg" dark="/img/mobile/chips-specifications-dark.svg" width="960" height="128" alt="Chips Specifications" loading="auto" >}}
 
-## States
+### States
 
-States for Chips are:
+Chips can have the following states:
+
 - Default
 - Focused
 - Selected/Active
@@ -29,23 +30,28 @@ States for Chips are:
 
 {{< img src="/img/mobile/chips-states.svg" dark="/img/mobile/chips-states-dark.svg" width="960" height="128" alt="Chips States" loading="auto" >}}
 
-## Sizes
+### Sizes
 
 {{< img src="/img/mobile/chips-sizing.svg" dark="/img/mobile/chips-sizing-dark.svg" width="961" height="128" alt="Chips Sizing" loading="auto" >}}
 
-## Types
+### Types
 
-Common types include Input and Filter Chips. Available in both solid and outline variants
+Common types include Input and Filter Chips. The are available in both solid and outline variants
 
-- Input Chips (Solid)
+#### Input Chips (Solid)
 
+{{< img src="/img/mobile/chips-input-solid.svg" dark="/img/mobile/chips-input-solid-dark.svg" width="961" height="128" alt="Input Chips Solid" loading="auto" >}}
+
+#### Input Chips (Outlined)
+
+{{< img src="/img/mobile/chips-input-outlined.svg" dark="/img/mobile/chips-input-outlined-dark.svg" width="961" height="128" alt="Input Chips Outlined" loading="auto" >}}
+
+#### Filter Chips (Solid)
 Input chips display information used in fields, such as an entity or different attributes.
 
-- Input Chips (Outlined)
+{{< img src="/img/mobile/chips-filter-solid.svg" dark="/img/mobile/chips-filter-solid-dark.svg" width="961" height="128" alt="Filter Chips Solid" loading="auto" >}}
+
+#### Filter Chips (Outlined)
 Input chips display information used in fields, such as an entity or different attributes.
 
-- Filter Chips (Solid)
-Input chips display information used in fields, such as an entity or different attributes.
-
-- Filter Chips (Outlined)
-Input chips display information used in fields, such as an entity or different attributes.
+{{< img src="/img/mobile/chips-filter-outlined.svg" dark="/img/mobile/chips-filter-outlined-dark.svg" width="961" height="128" alt="Filter Chips Outlined" loading="auto" >}}

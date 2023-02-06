@@ -15,4 +15,6 @@ tags: [accessibility]
 
 ## Accessibility
 
+- Lists should use the native HTML unordered list element `<ul>`.
 - Make sure the list is keyboard accessible. The tab order needs to be sequential.
+- Avoid keyboard traps.

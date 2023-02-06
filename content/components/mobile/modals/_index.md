@@ -1,16 +1,15 @@
 ---
-sitemap_exclude: true
-title: "Dialogs"
+title: "Modals"
 layout: "single"
-description: ""
+description: "Modal dialogs interrupt workflows and require user interaction."
 components: true
-component: dialogs
+component: modals
 images:
-  - "/img/mobile/headers/dialogs.png"
+  - "/img/mobile/headers/modals.png"
 tags: [mobile, usage]
 ---
 
-{{< img src="/img/mobile/dialogs.svg" dark="/img/mobile/dialogs-dark.svg" width="961" height="260" class="w-100" alt="Dialogs Example" >}}
+{{< img src="/img/mobile/modals.svg" dark="/img/mobile/modals-dark.svg" width="961" height="260" class="w-100" alt="Modal Example" >}}
 
 ## Overview
 
@@ -18,7 +17,7 @@ A dialog or a modal is a window overlaid on the primary window. It interrupts th
 
 ## Atoms
 
-{{< img src="/img/mobile/dialogs-atoms.svg" dark="/img/mobile/dialogs-atoms-dark.svg" width="961" height="524" alt="Dialog Atoms" loading="auto" >}}
+{{< img src="/img/mobile/modals-atoms.svg" dark="/img/mobile/modals-atoms-dark.svg" width="961" height="524" alt="Modal Atoms" loading="auto" >}}
 
 {{< whats-changed-table >}}
 
