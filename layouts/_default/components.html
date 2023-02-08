@@ -80,9 +80,11 @@
       {{ if .Params.componentsMobile }}
       {{ range first 296 (where .Site.Pages ".Section" "components") }}
       {{ if not (in .Params.tags "accessibility" ) }}
+      {{ if not (in .Params.tags "hidden" ) }}
       {{ if (in .Params.tags "mobile" ) }}
       {{ if not (in .Params.tags "styles" ) }}
       {{- partial "card-component.html" . -}}
+      {{- end }}
       {{- end }}
       {{- end }}
       {{- end }}

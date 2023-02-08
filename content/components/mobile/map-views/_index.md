@@ -7,7 +7,7 @@ components: true
 component: map-views
 images:
   - "/img/mobile/headers/map-views.png"
-tags: [mobile, usage]
+tags: [mobile, usage, hidden]
 ---
 
 {{< img src="/img/mobile/map-views.svg" dark="/img/mobile/map-views-dark.svg" width="961" height="260" class="w-100" alt="Map Views Example" >}}

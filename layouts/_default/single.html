@@ -44,7 +44,7 @@
           <li class="nav-item">
             <a class="nav-link px-3 nav-styles text-decoration-none{{ if in .Params.tags "styles" }} active pe-none{{end}}"
               href="/components/in-field/{{ with .Params.component }}{{ . | lower }}{{- end -}}/styles/">
-              {{ partial "icons/fa/solid/palette.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
+              {{ partial "icons/modus-solid/palette.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
               Styles</a>
           </li>
           {{ if not (in .Params.tags "in-field" ) }}
@@ -80,7 +80,7 @@
             <li class="nav-item">
               <a class="nav-link px-3 nav-styles text-decoration-none{{ if in .Params.tags "styles" }} active pe-none{{end}}"
                 href="/components/web/{{- with .Title -}}{{- . | lower | urlize }}{{- end -}}/styles/">
-                {{ partial "icons/fa/solid/palette.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
+                {{ partial "icons/modus-solid/palette.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
                 Styles</a>
             </li>
             {{ end }}
@@ -106,7 +106,7 @@
                   <li class="nav-item">
                     <a class="nav-link px-3 nav-styles text-decoration-none{{ if in .Params.tags "styles" }} active pe-none{{end}}"
                       href="/components/mobile/{{- with .Title -}}{{- . | lower | urlize }}{{- end -}}/styles/">
-                      {{ partial "icons/fa/solid/palette.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
+                      {{ partial "icons/modus-solid/palette.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
                       Styles</a>
                   </li>
                   {{ end }}
