@@ -1,8 +1,7 @@
 ---
-sitemap_exclude: true
 title: "Scrollbars"
 layout: "single"
-description: ""
+description: "Scrollbars allow user to scroll content within a window."
 components: true
 component: scrollbars
 images:
@@ -14,15 +13,18 @@ tags: [mobile, usage]
 
 ## Overview
 
-The scrollbar is for both showing a user that content in a container overflows and for the user to control the scrolling content of that container.
+The scrollbar is for both showing a user that content in a container overflows and for the user to control the scrolling content of that container. Always offer a scrollbar if an area has scrolling content: do not rely on auto-scrolling or on dragging. Scrollbars can be both vertical and horizontal. However, **avoid horizontal scrolling**, if possible.
 
-## Anatomy of a Scrollbar
+## Usage
 
-{{< img src="/img/mobile/scrollbar-anatomy.svg" dark="/img/mobile//scrollbar-anatomy-dark.svg" width="1078" height="422" alt="Scrollbar Anatomy" loading="auto" >}}
+**Use when**
 
-## Minimal
+- An area has scrolling content.
 
-Minimal - A list should always stack vertically and have a container set to a fixed width. This allows the atom.list-item elements to scale appropriately when set to “fill container” as their width.
+**Don't use when**
+
+- All the content is visible.
+- Horizontal scrolling can be replaced with a better option.
 
 
 {{< whats-changed-table >}}

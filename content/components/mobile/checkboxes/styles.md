@@ -15,14 +15,14 @@ There are two sizes of checkboxes,  default (24 x 24) & large (32 x 32)
 
 ### States
 
-Checkboxes have the following States
+Checkboxes have the following States:
 
-- Default,
-- Focus,
-- Checked,
-- Disabled,
-- Disabled Checked,
-- Indeterminate.
+- Default
+- Focus
+- Checked
+- Disabled
+- Disabled Checked
+- Indeterminate
 
 {{< img src="/img/mobile/checkboxes-states.svg" dark="/img/mobile/checkboxes-states-dark.svg" width="962" height="120" alt="Checkboxes States" loading="auto" >}}
 

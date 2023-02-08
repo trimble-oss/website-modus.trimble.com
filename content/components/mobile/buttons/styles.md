@@ -11,6 +11,13 @@ tags: [mobile, styles]
 
 ## Specifications
 
+- All buttons should be interactive and perform an action.
+- They should be discoverable, easy to identify, and specific.
+- Always have a text label within the button container. Icons are optional.
+- Make buttons look and feel clickable.
+- If using multiple buttons, label them distinctly.
+- The size of the buttons should be used in proportion to the context and content around it.
+
 There are four sizes of buttons: xsmall, small, default and large. Corner radius is 4px.
 
 {{< img src="/img/mobile/button-specifications.svg" dark="/img/mobile/button-specifications-dark.svg" width="962" height="264" alt="Button Specifications" loading="auto" >}}
@@ -34,7 +41,7 @@ Floating action buttons (FABs) are used for the primary or most common, action o
 
 {{< img src="/img/mobile/fab-button-states.svg" dark="/img/mobile/fab-button-states-dark.svg" width="960" height="214" alt="Floating Action Button" loading="auto" >}}
 
-## Placement
+### Placement
 
 FABs can attach to top or bottom of app bars and the edge of some components.
 

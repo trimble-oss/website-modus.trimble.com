@@ -1,5 +1,4 @@
 ---
-sitemap_exclude: true
 title: "Messages"
 layout: "single"
 description: "Messages provide the user with contextual static information. They have a lower priority than a notification or prompt."
@@ -24,14 +23,8 @@ Messages display low priority content directly on the page and are not dismissab
 
 **Don’t use when**
 
-- Alerting the user of a high priority error. Instead, use an Alert.
-- Alerting the user of an out-of-context event. Instead, use a Toast.
-
-## Atoms
-
-{{< img src="/img/mobile/messages-atoms.svg" dark="/img/mobile//messages-atoms-dark.svg" width="961" height="171" alt="Messages Atoms" loading="auto" >}}
-
-{{< img src="/img/mobile/messages-anatomy.svg" dark="/img/mobile//messages-anatomy-dark.svg" width="961" height="171" alt="Messages Anatomy" loading="auto" >}}
+- Alerting the user of a high priority error. Instead, use an [Alert](/components/mobile/alerts/).
+- Alerting the user of an out-of-context event. Instead, use a [Toast](/components/mobile/toasts/).
 
 {{< whats-changed-table >}}
 
