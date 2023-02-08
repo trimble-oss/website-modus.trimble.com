@@ -16,7 +16,7 @@ tags: [usage]
 
 ## Overview
 
-Cards are containers for displaying relevant and actionable information on a single topic. A card serves as a single, contained unit and is independent of surrounding content. It cannot be nested within cards and cannot divide into multiple cards.
+Cards act as container or surface for displaying relevant grouped information.  Cards can be used as a single entity or in lists or grids for browsing and are often interactive. Cards can contain a wide range of both static and interactive content. They should not be nested within other cards and cannot divide into multiple cards. The card container is the only required element in a card.
 
 <div class="card shadow" style="width: 18rem;">
   <div class="card-header">Card Header</div>

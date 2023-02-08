@@ -16,17 +16,15 @@ tags: [mobile, usage]
 
 The status bar is the operating system tray that goes across the top of the device screen. This usually contains default system icons and components not customized.
 
-## Anatomy of a Status Bar
+## Usage
 
-Android
-{{< img src="/img/mobile/statusbar-android.svg" dark="/img/mobile/statusbar-android-dark.svg" width="960" height="144" alt="Status Bar Anatomy Android" loading="auto" >}}
+**Use when**
 
-iOS
-{{< img src="/img/mobile/statusbar-ios.svg" dark="/img/mobile/statusbar-ios-dark.svg" width="960" height="165" alt="Status Bar Anatomy iOS" loading="auto" >}}
+-
 
-## Minimal
+**Don't use when**
 
-A list should always stack vertically and have a container set to a fixed width.  This allows the atom.list-item elements to scale appropriately when set to “fill container” as their width.
+-
 
 {{< whats-changed-table >}}
 

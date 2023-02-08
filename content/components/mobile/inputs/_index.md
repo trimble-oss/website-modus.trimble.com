@@ -1,5 +1,4 @@
 ---
-sitemap_exclude: true
 title: "Inputs"
 layout: "single"
 description: "Input fields collect information from users."
@@ -10,13 +9,12 @@ images:
 keywords: input, forms
 tags: [mobile, usage]
 ---
-{
-  {< img src="/img/mobile/inputs.svg" dark="/img/mobile/inputs-dark.svg" width="961" height="260" class="w-100" alt="Inputs Example" >}}
 
+{{< img src="/img/mobile/inputs.svg" dark="/img/mobile/inputs-dark.svg" width="961" height="260" class="w-100" alt="Inputs Example" >}}
 
 ## Overview
 
- Text inputs allow users to enter text into the user interface. They typically appear in forms, often with checkboxes, radio buttons, and buttons.
+ Text inputs allow users to enter text into the user interface. They typically appear in forms, often with [checkboxes](/components/mobile/checkboxes/), [radio buttons](/components/mobile/radio-buttons/), and [buttons](/components/mobile/buttons/).
 
 {{< img src="/img/mobile/inputs-overview.svg" dark="/img/mobile/input-overview-dark.svg" width="1242" height="1108" alt="Inputs Overview" loading="auto" >}}
 
@@ -24,15 +22,7 @@ tags: [mobile, usage]
 
 **Use when**
 
-- Always have a label next to the text field, either above, on the left side or login in the input.
-- Label text should always be visible
-- Display the validation state clearly.  The validation message will replace Helper Text
-- Try to make Label text concise. Where it must be longer (due to language translation), the label text can wrap to a second line. Truncate label at end of second line if absolutely necessary.
-
-**Don’t use when**
-
-- Don't add validation text under helper text, as their appearance will shift content.
-- Don’t design text fields to look similar to buttons, as they could be mistaken for buttons.
+- Gathering and validating user data.
 
 
 {{< whats-changed-table >}}

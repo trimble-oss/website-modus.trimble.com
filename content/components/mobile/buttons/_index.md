@@ -61,7 +61,7 @@ Use to draw attention to the primary action on a screen. There are four types of
   <tbody>
     <tr>
       <td>Default Button</td>
-      <td></td>
+      <td><img src="/img/mobile/default-button.svg" alt="Default Button"></td>
       <td>High</td>
       <td>
         Use to draw attention to the primary action on a screen. You may choose a Default or Pill style for your primary buttons, but NOT BOTH.
@@ -69,7 +69,7 @@ Use to draw attention to the primary action on a screen. There are four types of
     </tr>
     <tr>
       <td>Stacked Mobile Button</td>
-      <td></td>
+      <td><img src="/img/mobile/stacked-button.svg" alt="Stacked Mobile Button"></td>
       <td>High</td>
       <td>
        Use as a primary button with a leading icon, if horizontal screen space is limited (e.g., in bottom/ footer navigation).
@@ -77,7 +77,7 @@ Use to draw attention to the primary action on a screen. There are four types of
     </tr>
     <tr>
       <td>Pill Button</td>
-      <td></td>
+      <td><img src="/img/mobile/pill-button.svg" alt="Pill Button"></td>
       <td>High</td>
       <td>
        Use to draw attention to the primary action on a screen. You may choose a Default or Pill style for your primary buttons, but NOT BOTH.
@@ -85,7 +85,7 @@ Use to draw attention to the primary action on a screen. There are four types of
     </tr>
     <tr>
       <td>Floating Action Button</td>
-      <td></td>
+      <td><img src="/img/mobile/floating-action-button.svg" alt="Floating Action Buttton"></td>
       <td>High</td>
       <td>
         Use a FAB for the most common or important action on a screen. Icons in a FAB must be clear and understandable since these buttons do not have a text label. The FAB should persist on the screen when content is scrolling (e.g., "float" above all other content).
@@ -108,7 +108,7 @@ Use to draw attention to the primary action on a screen. There are four types of
   <tbody>
     <tr>
       <th scope="row">Icon Only</th>
-      <td></td>
+      <td><img src="/img/mobile/icon-only-button.svg" alt="Icon Only"></td>
       <td>Medium</td>
       <td>
         Primary use is in-line or in “Button Groups.”
@@ -116,7 +116,7 @@ Use to draw attention to the primary action on a screen. There are four types of
     </tr>
     <tr>
       <th scope="row">Danger</th>
-      <td></td>
+      <td><img src="/img/mobile/danger-button.svg" alt="Danger"></td>
       <td>High</td>
       <td>
         Danger buttons have a different visual style to inform users of

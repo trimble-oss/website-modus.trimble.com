@@ -14,12 +14,14 @@ tags: [styles]
 
 ## Specifications
 
-- Badges come in 3 defined heights:
-  - **Small**: 14px
-  - **Default**: 20px
-  - **Large**: 28px
-- Badges should be centered vertically inside of their containing element.
-- Font weight: 700
+Badges come in 3 defined heights:
+ - **Small**: 14px
+ - **Default**: 20px
+ - **Large**: 28px
+
+Badges should be centered vertically inside of their containing element.
+
+**Font weight:** 700
 
 <table class="table table-bordered">
   <thead class="thead-light">

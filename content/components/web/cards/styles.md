@@ -55,24 +55,9 @@ A Card may contain any of the following elements (with the minimum of one), but 
 
 ### Editorial
 
-**Label**
+- **Label:** Keep labels one to three words long, if possible, to avoid wrapping.
+- **Title:** Keep titles one to five words long, if possible, to avoid wrapping. Use title case and capitalize prepositions of four letters or more.
+- **Caption:** Use full sentences with punctuation, no longer than 40 words if possible. Do not include multiple paragraphs.
+- **Action:** Follow the editorial guidelines for [Buttons](/components/web/buttons/), [Chips](/components/web/chips/), etc. when using those elements.
+- **Metadata:** Keep metadata one to five words long to avoid wrapping.
 
-- Keep labels one to three words long, if possible, to avoid wrapping.
-
-**Title**
-
-- Keep titles one to five words long, if possible, to avoid wrapping.
-  Use title case and capitalize prepositions of four letters or more.
-
-**Caption**
-
-- Use full sentences with punctuation, no longer than 40 words if possible.
-- Do not include multiple paragraphs.
-
-**Action**
-
-- Follow the editorial guidelines for [Buttons](/components/web/buttons/), [Chips](/components/web/chips/), etc. when using those elements.
-
-**Metadata**
-
-- Keep metadata one to five words long to avoid wrapping.
