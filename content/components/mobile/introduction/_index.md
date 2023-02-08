@@ -28,9 +28,13 @@ article .nav-tabs {
 
 The mobile library for native apps Modus components and elements for designing and developing consistent mobile applications and workflows. These components are available for native or cross-platform applications on iOS and Android devices. Modus Mobile UI Kits are available in Figma and Adobe XD for designers.
 
-There are a range of gestures which can be used to interact with a mobile app:
+## Modus Web UI Kits
 
-## Common Gestures
+Modus Mobile UI Kits are available in [Figma and Adobe XD for designers](/designers/).
+
+## Gestures
+
+There are a range of gestures which can be used to interact with a mobile app:
 
 - One-finger Single Tap
 - One-finger Double Tap

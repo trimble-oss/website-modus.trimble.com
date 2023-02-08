@@ -27,11 +27,11 @@ article .nav-tabs {
 
 ## Overview
 
-The in-field, high-contrast library is specific to applications used outdoors or in-cab devices where the environmental conditions cannot be controlled. These applications are built to meet the users’ special needs, such as challenging outdoor lighting, moving or vibrating devices, and/or impeding protective clothing.This is primarily targeted towards large, easy-to-use, easy-to-identify, high-contrast components. 
+The in-field, high-contrast library is specific to applications used outdoors or in-cab devices where the environmental conditions cannot be controlled. These applications are built to meet the users’ special needs, such as challenging outdoor lighting, moving or vibrating devices, and/or impeding protective clothing.This is primarily targeted towards large, easy-to-use, easy-to-identify, high-contrast components.
 
 ## Modus In-Field UI Kits
 
-The UI Kit focuses on larger display sizes, cross-reference Mobile Kit for smaller devices or components can be scaled [Figma for designers](/designers/). This brand base must maintain optimal usability, while also allowing flexibility to support Trimble and other OEM (Original Equipment Manufacturers) brand variations. See [Global colours](/foundations/color-palette/#infield-global-colors) for global colors and [Type ](/foundations/typography/#infield)for overview of fonts sizes.
+The UI Kit focuses on larger display sizes, cross-reference Mobile Kit for smaller devices or components can be scaled [Figma for designers](/designers/). This brand base must maintain optimal usability, while also allowing flexibility to support Trimble and other OEM (Original Equipment Manufacturers) brand variations. See [Global colours](/foundations/color-palette/#infield-global-colors) for global colors and [Type](/foundations/typography/#infield)for overview of fonts sizes.
 
 ## Supporting Brand Variations
 

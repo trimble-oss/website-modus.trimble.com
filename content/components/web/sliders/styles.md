@@ -13,28 +13,6 @@ webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/compone
 tags: [styles]
 ---
 
-## Overview
-
-Sliders select a numeric value or range of values by moving a handle or set of handles along a bar. They are ideal for adjusting settings such as volume and brightness. The slider in its basic form should be accompanied by a label and a number input that doubles as a display for the slider’s current value.
-
-<label for="customRange1">Example range</label>
-<input type="range" class="custom-range" id="customRange1">
-
-<label for="disabledRange">Disabled range</label>
-<input type="range" class="custom-range" disabled="" id="disabledRange">
-
-## Usage
-
-**Use when**
-
-- Encouraging user exploration when setting a value or range of values, especially when that value has an immediate effect on a data visualization.
-- A series of options is presented using a stepped slider.
-
-**Don’t use when**
-
-- Gathering information in a form (e.g, age or salary). Instead, use an [Input](/components/inputs/) box.
-- Precise amount is needed and the scale is too large to afford precise interaction with the slider.
-- Adjusting settings with any delay in providing user feedback.
 
 ## Specifications
 

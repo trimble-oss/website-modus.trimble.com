@@ -258,10 +258,10 @@ menu:
       url: /components/mobile/messages/
     - name: Modals
       url: /components/mobile/modals/
-    - name: Popovers
-      url: /components/mobile/popovers/
-    - name: Progress Indicators
-      url: /components/mobile/progress-indicators/
+#    - name: Popovers
+#      url: /components/mobile/popovers/
+    - name: Progress Bars
+      url: /components/mobile/progress-bars/
     - name: Radio Buttons
       url: /components/mobile/radio-buttons/
     - name: Scrollbars
@@ -270,6 +270,8 @@ menu:
       url: /components/mobile/segmented-controls/
     - name: Sliders
       url: /components/mobile/sliders/
+    - name: Spinners
+      url: /components/mobile/spinners/
     - name: Status Bars
       url: /components/mobile/status-bars/
     - name: Switches

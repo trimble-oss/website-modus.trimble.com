@@ -28,7 +28,7 @@ article .nav-tabs {
 
 The web library of Modus components is a set of building blocks for designing and developing cohesive, consistent, and responsive web-based applications and workflows. Web-based applications utilize web browsers and web technology to perform tasks. Since web apps run on browsers, they require an internet connection to use.
 
-Use these patterns if your application runs in a browser on a desktop computer, laptop, tablet and/or smart phone under normal lighting and environmental conditions. If your application runs specifically on a smart phone, use the Mobile Components (__coming soon!__) instead. If your application is used on a mobile device in the field or in a cab of heavy machinery, use the [In-Field Components](/components/in-field/) instead.
+Use these patterns if your application runs in a browser on a desktop computer, laptop, tablet and/or smart phone under normal lighting and environmental conditions. If your application runs specifically on a smart phone, use the [Mobile Components](/components/mobile/) instead. If your application is used on a mobile device in the field or in a cab of heavy machinery, use the [In-Field Components](/components/in-field/) instead.
 
 ## Modus Web UI Kits
 
