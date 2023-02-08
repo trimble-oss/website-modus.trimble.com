@@ -44,7 +44,7 @@ Used when more emphasis is needed. **Default badges can look like [Buttons](/com
     <span class="badge badge-primary">Primary</span>
     <span class="badge badge-secondary">Secondary</span>
     <span class="badge badge-tertiary">Tertiary</span>
-    <span class="badge badge-dark">Dark</span>
+    <span class="badge badge-dark">High Contrast</span>
     <span class="badge badge-success">Success</span>
     <span class="badge badge-warning">Warning</span>
     <span class="badge badge-danger">Danger</span>
@@ -59,7 +59,7 @@ Used to display a more subtle label. **Text badges can look like text [Buttons](
   <div class="guide-sample">
     <span class="badge badge-text-primary">Primary</span>
     <span class="badge badge-text-secondary">Secondary</span>
-    <span class="badge badge-text-dark">Dark</span>
+    <span class="badge badge-text-dark">High Contrast</span>
     <span class="badge badge-text-success">Success</span>
     <span class="badge badge-text-danger">Danger</span>
   </div>
@@ -81,7 +81,7 @@ Used to display up to 3 characters (usually a number in a counter). Counter badg
     </div>
 </div>
 
-### Badges in other elements
+## Badges in other elements
 
 Badges can be inserted into other elements.
 

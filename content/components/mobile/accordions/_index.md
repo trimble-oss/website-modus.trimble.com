@@ -9,7 +9,7 @@ images:
 tags: [mobile, usage]
 ---
 
-{{< img src="/img/mobile/accordion.svg" dark="/img/mobile/accordians-dark.svg" width="961" height="260" class="w-100" alt="Accordions Example" >}}
+{{< img src="/img/mobile/accordion.svg" dark="/img/mobile/accordion-dark.svg" width="961" height="260" class="w-100" alt="Accordions Example" >}}
 
 ## Overview
 
@@ -28,7 +28,7 @@ Accordions are containers that expand to reveal content progressively to limit t
 
 **Don’t use when**
 
-- Providing an introductory element to a set of content which doesn’t need an expand and collapse functionality. Instead, use a [Navbar](/componets/mobile/navbars/).
+- Providing an introductory element to a set of content which doesn’t need an expand and collapse functionality. Instead, use a [Top Navbar](/componets/mobile/top-navbars/).
 - Hiding critical content solely to clean up the interface.
 - Hiding an action if the user can easily do it without additional input.
 - Hiding primary actions on the page.

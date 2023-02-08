@@ -11,19 +11,17 @@ images:
 tags: [mobile, styles]
 ---
 
-### Styles
-
 ## Specifications
 
 Card Container (2px radius, 16px padding, with Level 3 shadow) required. A card may contain a wide array of information and elements. Commom card elements are but not limited to:
-- Title (optional)
-- Subtitle (optional)
-- Card Text (optional)
-- Buttons (optional)
-- Icons (optional)
-- Chips (optional)
-- Lists (optional)
-- Images (optional)
+- Title _optional_
+- Subtitle _optional_
+- Card Text _optional_
+- Buttons _optional_
+- Icons _optional_
+- Chips _optional_
+- Lists _optional_
+- Images _optional_
 
 {{< img src="/img/mobile/card-specifications.svg" dark="/img/mobile/card-specifications-dark.svg" width="934" height="847" alt="Card Specifications" loading="auto" >}}
 
@@ -71,13 +69,7 @@ Cards can have the following transitions and interactions:
 
 - **Label:** Keep labels one to three words long, if possible, to avoid wrapping.
 - **Title:** Keep titles one to five words long, if possible, to avoid wrapping. Use title case and capitalize prepositions of four letters or more.
+- **Caption:** Use full sentences with punctuation, no longer than 40 words if possible. Do not include multiple paragraphs.
+- **Action:** Follow the editorial guidelines for [Buttons](/components/mobile/buttons/), [Chips](/components/mobile/chips/), etc. when using those elements.
+- **Metadata:** Keep metadata one to five words long to avoid wrapping.
 
-Caption
-Use full sentences with punctuation, no longer than 40 words if possible.
-Do not include multiple paragraphs.
-
-Action
-Follow the editorial guidelines for Buttons, Chips, etc. when using those elements.
-
-Metadata
-Keep metadata one to five words long to avoid wrapping.

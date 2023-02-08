@@ -8,7 +8,6 @@ images:
   - "/img/mobile/headers/accordions.png"
 tags: [mobile, styles]
 ---
-### Styles
 
 ## Specifications
 

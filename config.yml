@@ -211,8 +211,8 @@ menu:
       url: /components/in-field/messages/
     - name: Modals
       url: /components/in-field/modals/
-    - name: Navbar
-      url: /components/in-field/navbar/
+    - name: Navbars
+      url: /components/in-field/navbars/
     - name: Notifications
       url: /components/in-field/notifications/
     - name: Prompts
@@ -234,8 +234,12 @@ menu:
       weight: 1
     - name: Accordions
       url: /components/mobile/accordions/
+    - name: Alerts
+      url: /components/mobile/alerts/
     - name: Badges
       url: /components/mobile/badges/
+    - name: Bottom Navbars
+      url: /components/mobile/bottom-navbars/
     - name: Buttons
       url: /components/mobile/buttons/
     - name: Cards
@@ -244,24 +248,20 @@ menu:
       url: /components/mobile/checkboxes/
     - name: Chips
       url: /components/mobile/chips/
-    - name: Dialogs
-      url: /components/mobile/dialogs/
-    - name: Footers
-      url: /components/mobile/footers/
     - name: Inputs
       url: /components/mobile/inputs/
     - name: Lists
       url: /components/mobile/lists/
-    - name: Map Views
-      url: /components/mobile/map-views/
+#    - name: Map Views
+#      url: /components/mobile/map-views/
     - name: Messages
       url: /components/mobile/messages/
-    - name: Navbars
-      url: /components/mobile/navbars/
-    - name: Popovers
-      url: /components/mobile/popovers/
-    - name: Progress Indicators
-      url: /components/mobile/progress-indicators/
+    - name: Modals
+      url: /components/mobile/modals/
+#    - name: Popovers
+#      url: /components/mobile/popovers/
+    - name: Progress Bars
+      url: /components/mobile/progress-bars/
     - name: Radio Buttons
       url: /components/mobile/radio-buttons/
     - name: Scrollbars
@@ -270,6 +270,8 @@ menu:
       url: /components/mobile/segmented-controls/
     - name: Sliders
       url: /components/mobile/sliders/
+    - name: Spinners
+      url: /components/mobile/spinners/
     - name: Status Bars
       url: /components/mobile/status-bars/
     - name: Switches
@@ -278,6 +280,10 @@ menu:
       url: /components/mobile/tabs/
     - name: Tables
       url: /components/mobile/tables/
+    - name: Toasts
+      url: /components/mobile/toasts/
+    - name: Top Navbars
+      url: /components/mobile/top-navbars/
 
   components_xr:
     - name: Introduction

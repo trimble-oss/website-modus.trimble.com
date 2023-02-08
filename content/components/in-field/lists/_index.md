@@ -20,8 +20,6 @@ A list displays related content in a vertical format. A list is typically the fo
 
 List items should be of a similar and obvious category of information (i.e., a list of design files, or a list of point locations). A list item contains at least a label in a consistent format that helps the user to scan and read the content efficiently.
 
-The list order should be carefully considered. Examples of list orders include most recently used first, date created, alphabetical, or numeric value. The user may also filter the list to show certain content. Use filters judiciously.
-
 ## Usage
 
 **Use when**

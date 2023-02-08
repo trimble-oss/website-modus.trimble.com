@@ -1,5 +1,4 @@
 ---
-sitemap_exclude: true
 title: "Radio Buttons"
 layout: "single"
 description: "Radio buttons are used when options are mutually exclusive."
@@ -28,17 +27,9 @@ Radio buttons are used to afford a single selection from two or more options.
 
 **Don’t use when**
 
-- User can make multiple selections. Instead, use Checkboxes.
+- User can make multiple selections. Instead, use [Checkboxes](/components/mobile/checkboxes/).
 - You are providing more than 7 options.
-- You are attempting to highlight a preferred choice. Instead, use a Dropdown.
 - When a large number of familiar options is available.
-
-## Progress Indicators
-
-## Atoms
-
-
-
 
 {{< whats-changed-table >}}
 
