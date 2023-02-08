@@ -1,41 +1,50 @@
 ---
-sitemap_exclude: true
-title: "Navbars"
+title: "Top Navbars"
 layout: "single"
-description: "The navbar provides context through globally accessible menu options."
+description: "The top navbar provides context through globally accessible menu options."
 components: true
-component: Navbars
+component: Top Navbars
 images:
-  - "/img/mobile/headers/navbars.png"
+  - "/img/mobile/headers/top-navbars.png"
 tags: [mobile, styles]
 ---
 
-### Styles
+## Specifications
 
-## Variations
+### Anatomy
 
-Nav Bars can contain various elements and combinations of elements.
+The top navbar is often used as the location for the primary menu and also provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions.
+
+{{< img src="/img/mobile/navbar-anatomy.svg" dark="/img/mobile//navbar-anatomy-dark.svg" width="960" height="482" alt="Navbar Anatomy" loading="auto" >}}
+
+### Variations
+
+Top navbars can contain various elements and combinations of elements.
 
 {{< img src="/img/mobile/navbar-variations.svg" dark="/img/mobile//navbar-variations-dark.svg" width="960" height="594" alt="Navbar Variations" loading="auto" >}}
 
-## Transparent Nav Bar
+### Transparent Top Navbar
 
-Nav Bar background can be transparent, giving the effect elements floating. Use FABS for Nav Bar icons. Floating elements should have a dropshadow.
+Top navbar background can be transparent, giving the effect elements floating. Use FABS for the top navbar icons. Floating elements should have a dropshadow.
 
 {{< img src="/img/mobile/navbar-transparent.svg" dark="/img/mobile//navbar-transparent-dark.svg" width="960" height="978" alt="Navbar Transparent" loading="auto" >}}
 
-## Background Images
+### Background Images
 
-Nav Bars can contain imagery only when the extended Nav Bar is used. Use images that compliment the legibility of Nav bar text and icons.
+Top navbars can contain imagery only when the extended Nav Bar is used. Use images that compliment the legibility of the navbar text and icons.
 
 {{< img src="/img/mobile/navbar-bg.svg" dark="/img/mobile//navbar-bg-dark.svg" width="960" height="404" alt="Navbar Background Images" loading="auto" >}}
 
-## Behaviors
+### Color Options
 
-The Nav Bar is often used as the location for the primary menu and also provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions.
+Top navbar colors can be either White or Trimble Blue Dark (#004F83).
 
-## Color
+{{< img src="/img/mobile/navbar-color.svg" dark="/img/mobile/navbar-color-dark.svg" width="912" height="574" alt="Navbar Colors" loading="auto" >}}
 
-Nav Bar colors can be either White or Trimble Blue Dark (#004F83).
+## Editorial
 
-{{< img src="/img/mobile/navbar-color.svg" dark="/img/mobile//navbar-color-dark.svg" width="912" height="574" alt="Navbar Colors" loading="auto" >}}
+- Capitalize proper nouns.
+- Use title case for menu titles (e.g. Notifications).
+- Use sentence case for app descriptions and buttons (while preserving proper nouns).
+
+
