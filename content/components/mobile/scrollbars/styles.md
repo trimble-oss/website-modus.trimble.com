@@ -19,7 +19,7 @@ tags: [mobile, styles]
 - Avoid horizontal scrolling.
 - Scrollbars with arrows offer the best usability.
 
-### Types
+## Types
 
 - **Minimal:** Minimal scrollbars are best, when you need to eliminate all possible distractions. They are visually unobtrusive but may create usability problems, especially for users with disabilities.
 - **Default:** Recommended option for mobile interfaces.

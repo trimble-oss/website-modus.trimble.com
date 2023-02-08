@@ -17,7 +17,7 @@ tags: [mobile, styles]
 
 {{< img src="/img/mobile/progress-spinners.svg" dark="/img/mobile//progress-spinners-dark.svg" width="960" height="240" alt="Progress Indicators Spinners" loading="auto" >}}
 
-## Sizes
+### Sizes
 
 {{< img src="/img/mobile/progress-size.svg" dark="/img/mobile//progress-sizes-dark.svg" width="960" height="176" alt="Progress Indicators Sizes" loading="auto" >}}
 
