@@ -10,10 +10,10 @@ tags: [in-field, styles]
 ## Specifications
 
 <!-- prettier-ignore-start -->
-| Type    | Example                                                                                                                          | Height |
-|---------| -------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| Default | {{< img src="/img/in-field/scrollbar-spec-default.svg" dark="/img/in-field/scrollbar-spec-default-dark.svg" width="182" alt="" >}} | 16dp   |
-| Button Scrolling   | {{< img src="/img/in-field/scrollbar-spec-buttons.svg" dark="/img/in-field/scrollbar-spec-buttons-dark.svg" width="289" alt="" >}}     | 48dp   |
+| Type             | Example                                                                                                                            | Height |
+|------------------| ---------------------------------------------------------------------------------------------------------------------------------- | ------ |
+| Default          | {{< img src="/img/in-field/scrollbar-spec-default.svg" dark="/img/in-field/scrollbar-spec-default-dark.svg" width="182" alt="" >}} | 16dp   |
+| Button Scrolling | {{< img src="/img/in-field/scrollbar-spec-buttons.svg" dark="/img/in-field/scrollbar-spec-buttons-dark.svg" width="289" alt="" >}} | 48dp   |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
