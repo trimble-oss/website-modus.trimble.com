@@ -70,9 +70,12 @@ menu:
 #     post: ""
 #     weight: 4
 
+    - Name: Icons
+      url: "https://modus-icons.trimble.com/"
+      weight: 4
     - Name: Community
       url: "/community/"
-      weight: 4
+      weight: 5
 
   start:
     - name: Designers
