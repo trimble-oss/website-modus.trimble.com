@@ -180,7 +180,7 @@ In web and mobile applications, icons can have subtle transitions when changing 
 
 ## Contribution Process
 
-Can’t find an icon you are looking for? Follow the design principles, specifications, sizing, and file formats outlined above and [submit](/community/contribute/) the icon to Modus to be added to the library.
+Can’t find an icon you are looking for? Follow the design principles, specifications, sizing, and file formats outlined above and [submit](https://modus-icons.trimble.com/) the icon to Modus to be added to the library.
 
 {{< whats-changed-table >}}
 
