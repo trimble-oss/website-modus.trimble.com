@@ -9,36 +9,31 @@ hideToc: true
 sitemap_exclude: true
 ---
 
-## Modus Bootstrap
+<style>
+  main a:after {
+   content: none !important;
+  }
+</style>
 
-<img alt="npm (scoped)" class="mb-2 mr-2" src="https://img.shields.io/npm/v/@trimbleinc/modus-bootstrap">
-<img alt="npm" class="mb-2 mr-2" src="https://img.shields.io/npm/dm/@trimbleinc/modus-bootstrap">
+<div class="row">
 
-- [npm Downloads](https://www.npmjs.com/package/@trimbleinc/modus-bootstrap)
-- <a href="https://npm-stat.com/charts.html?package=%40trimbleinc%2Fmodus-bootstrap&from=2021-11-01&to={{< date-today >}}">npm Download Stats</a>
-- [CDN Downloads](https://www.jsdelivr.com/package/npm/@trimbleinc/modus-bootstrap)
+{{< card-stats npmjs="@trimbleinc/modus-bootstrap" date="2020-11-11" >}}
+Modus Bootstrap
+{{</ card-stats >}}
 
-## Modus React Bootstrap
+{{< card-stats npmjs="@trimble-oss/modus-icons" github="trimble-oss/modus-icons" date="2023-02-02" >}}
+Modus Icons
+{{</ card-stats >}}
 
-<img alt="npm (scoped)" class="mb-2 mr-2" src="https://img.shields.io/npm/v/@trimbleinc/modus-react-bootstrap">
-<img alt="npm" class="mb-2 mr-2" src="https://img.shields.io/npm/dm/@trimbleinc/modus-react-bootstrap">
-<a href="https://github.com/trimble-oss/modus-react-bootstrap/stargazers"><img alt="GitHub stars" class="mb-2 mr-2"src="https://img.shields.io/github/stars/trimble-oss/modus-react-bootstrap"></a>
-<a href="https://github.com/trimble-oss/modus-react-bootstrap/forks"><img alt="GitHub forks" class="mb-2 mr-2"src="https://img.shields.io/github/forks/trimble-oss/modus-react-bootstrap"></a>
+{{< card-stats npmjs="@trimbleinc/modus-react-bootstrap" github="trimble-oss/modus-react-bootstrap" date="2021-10-10" >}}
+Modus React Bootstrap
+{{</ card-stats >}}
 
-- [npm Downloads](https://www.npmjs.com/package/@trimbleinc/modus-react-bootstrap)
-- <a href="https://npm-stat.com/charts.html?package=%40trimbleinc%2Fmodus-react-bootstrap&from=2021-11-01&to={{< date-today >}}">npm Download Stats</a>
-- [CDN Downloads](https://www.jsdelivr.com/package/npm/@trimbleinc/modus-react-bootstrap)
+{{< card-stats npmjs="@trimble-oss/modus-web-components" github="trimble-oss/modus-web-components" date="2022-02-02" >}}
+Modus Web Components
+{{</ card-stats >}}
 
-## Modus Web Components
-
-<img alt="npm (scoped)" class="mb-2 mr-2" src="https://img.shields.io/npm/v/@trimble-oss/modus-web-components">
-<img alt="npm" class="mb-2 mr-2" src="https://img.shields.io/npm/dm/@trimble-oss/modus-web-components">
-<a href="https://github.com/trimble-oss/modus-web-components/stargazers"><img alt="GitHub stars" class="mb-2 mr-2" src="https://img.shields.io/github/stars/trimble-oss/modus-web-components"></a>
-<a href="https://github.com/trimble-oss/modus-web-components/forks"><img alt="GitHub forks" class="mb-2 mr-2" src="https://img.shields.io/github/forks/trimble-oss/modus-web-components"></a>
-
-- [npm Downloads](https://www.npmjs.com/package/@trimble-oss/modus-web-components)
-- <a href="https://npm-stat.com/charts.html?package=%40trimble-oss%2Fmodus-web-components&from=2021-11-01&to={{< date-today >}}">npm Download Stats</a>
-- [CDN Downloads](https://www.jsdelivr.com/package/npm/@trimble-oss/modus-web-components)
+</div>
 
 <style data-pagefind-ignore>
 a[href^="https://github.com"]::after {
