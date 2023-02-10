@@ -219,6 +219,8 @@ menu:
       url: /components/in-field/prompts/
     - name: Radio Buttons
       url: /components/in-field/radio-buttons/
+    - name: Scrollbars
+      url: /components/in-field/scrollbars/
     - name: Segmented Controls
       url: /components/in-field/segmented-controls/
     - name: Sliders
