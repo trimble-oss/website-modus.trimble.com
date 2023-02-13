@@ -15,7 +15,7 @@
   <body data-url="{{ .RelPermalink }}" {{ if .Params.listJS }}id="listjs-body" {{- end -}}>
     {{- end -}}
 
-    {{ partialCached "navbar" . }}
+    {{ partial "navbar" . }}
 
     {{ block "body" . }} {{ block "main" . }} {{- end -}}
     {{- end -}}
@@ -27,7 +27,7 @@
     {{ $js := slice $scrollToTop $feedback | resources.Concat "js/app.js" | resources.Minify }}
     <script src="{{ $js.RelPermalink }}" async></script>
     <button type="button" aria-label="scroll to top" class="btn-to-top border-0 rounded position-fixed">
-      {{ partial "icons/modus-outline/arrow-up.svg" (dict "class" "mt-n1 text-white opacity-50" "width" "24" "height" "24") }}
+      {{ partial "icons/modus-outlined/arrow-up.svg" (dict "class" "mt-n1 text-white opacity-50" "width" "24" "height" "24") }}
     </button>
 
   </body>

@@ -14,17 +14,29 @@
           <li class="nav-item mx-sm-1 mx-md-2 dropdown">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
               aria-expanded="false">{{- .Name -}}</a>
-            <div class="dropdown-menu">
-              {{ range .Children }}
-              <a class="dropdown-item text-dark border-0" href="{{ .URL }}">
-                {{- .Name -}}
-              </a>
-              {{- end -}}
+        <div class="dropdown-menu px-2 rounded">
+          {{ range .Children }}
+          <a class="dropdown-item text-dark rounded border-0 p-3 my-1" href="{{- .URL -}}">
+            <div class="d-flex flex-row">
+              <div>
+              {{ with .Pre }}
+              {{- . -}}
+              {{- end -}}</div>
+            <div>
+              <div class="dropdown-item-title">{{- .Name -}}</div>
+              <p class="mb-0 small text-muted">{{ with .Post }}
+                {{- . -}}
+              {{ end }}</p>
             </div>
+          </div>
+          </a>
+          {{- end -}}
+        </div>
+
           </li>
           {{ else }}
           <li class="nav-item mx-0 mx-sm-1 mx-md-2">
-            <a class="nav-link{{if ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{ .URL }}">
+            <a class="nav-link{{if ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{- .URL -}}">
               {{- .Name -}}
             </a>
           </li>
