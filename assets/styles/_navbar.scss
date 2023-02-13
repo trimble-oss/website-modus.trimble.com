@@ -62,3 +62,22 @@ body[data-url^="/news/"] .navbar-nav li a[href^="/community/"] {
 .navbar-nav li a:hover {
   border-bottom: 2px solid #90939f;
 }
+
+.navbar-main .dropdown-item {
+  min-width: 290px;
+  max-width: 320px;
+  white-space: inherit !important;
+}
+
+.navbar-main .dropdown-item-title {
+  font-size: 16px !important;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .navbar-main .dropdown-item img {
+  filter: invert(1);
+}
+
+[data-theme="dark"] .navbar-main .dropdown-item .text-muted {
+  color: #cbcdd6 !important;
+}
