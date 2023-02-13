@@ -12,7 +12,7 @@
           {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item mx-sm-1 mx-md-2 dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true"
               aria-expanded="false">{{- .Name -}}</a>
         <div class="dropdown-menu px-2 rounded">
           {{ range .Children }}

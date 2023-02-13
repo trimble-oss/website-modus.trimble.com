@@ -8,6 +8,14 @@
   font-size: 14px !important;
 }
 
+.navbar-main a:focus {
+  outline-color: #fff !important;
+}
+
+.navbar-main .nav-item {
+  outline-color: #fff !important;
+}
+
 .navbar .form-control {
   font-size: 14px;
 }
