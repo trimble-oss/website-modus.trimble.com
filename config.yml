@@ -158,8 +158,8 @@ menu:
       url: /components/web/messages/
     - name: Modals
       url: /components/web/modals/
-    - name: Navbar
-      url: /components/web/navbar/
+    - name: Navbars
+      url: /components/web/navbars/
     - name: Pagination
       url: /components/web/pagination/
     - name: Progress Bars
@@ -346,11 +346,21 @@ module:
   mounts:
     - source: static
       target: static
+
     - source: assets/static/favicon.ico
       target: static/favicon.ico
 
     - source: assets/static/robots.txt
       target: static/robots.txt
+
+    - source: node_modules/@trimble-oss/modus-icons/dist/transportation/fonts/modus-icons.css
+      target: static/css/modus-icons.css
+
+    - source: node_modules/@trimble-oss/modus-icons/dist/transportation/fonts/modus-icons.woff
+      target: static/css/modus-icons.woff
+
+    - source: node_modules/@trimble-oss/modus-icons/dist/transportation/fonts/modus-icons.woff2
+      target: static/css/modus-icons.woff2
 
     - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
       target: static/js/bootstrap.bundle.min.js
