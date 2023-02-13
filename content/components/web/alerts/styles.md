@@ -23,7 +23,7 @@ tags: [styles]
 
 <div class="p-5 my-3 pr-5 bg-light">
   <div class="alert alert-success" style="max-width: 460px" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="right" data-content="">
-      <i class="material-icons notranslate alert-icon">check_circle</i>
+      <i class="modus-icons notranslate alert-icon" aria-hidden="true">check_circle</i>
       <div data-toggle="popover" data-trigger="manual" data-html="true" data-placement="bottom" data-offset="19" data-content="<small><b>Font:</b> Open Sans Bold 14px<br><b>Height:</b> 56px<br><b>Border-radius:</b> 2px<br></small>">You have completed a task.</div>
     </div>
 </div>
@@ -74,7 +74,7 @@ $(function () {
       data-placement="left"
       data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#0063a380</code><br>
                            <b>border-color:</b> <code class=theme-l>#019aeb80</code><code class=theme-d>#019aeb</code></small>">
-      <i class="modus-icon material-icons notranslate alert-icon">info</i>
+      <i class="modus-icons notranslate alert-icon" aria-hidden="true">info</i>
       <div>A basic Primary alert</div>
     </div>
     <div class="alert alert-secondary" role="alert"
@@ -83,7 +83,7 @@ $(function () {
       data-placement="left"
       data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#6a6e7980</code><br>
                            <b>border-color:</b> <code class=theme-l>#6a6e79</code><code class=theme-d>#6a6e79</code></small>">
-      <i class="modus-icon material-icons notranslate alert-icon">help</i>
+      <i class="modus-icons notranslate alert-icon" aria-hidden="true">help</i>
       <div>A basic secondary alert with a button</div>
       <a href="#" class="btn btn-sm btn-text-secondary">Button</a>
     </div>
@@ -93,7 +93,7 @@ $(function () {
       data-placement="left"
       data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#171c1e80</code><br>
                            <b>border-color:</b> <code class=theme-l>#252a2e</code><code class=theme-d>#171c1e</code></small>">
-      <i class="modus-icon material-icons notranslate alert-icon">info</i>
+      <i class="modus-icons notranslate alert-icon">info</i>
       <div>A basic <u>dark alert</u> with <em>text formatting</em></div>
     </div>
     <div class="alert alert-success fade show" role="alert"
@@ -102,10 +102,10 @@ $(function () {
       data-placement="left"
       data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#1e8a4480</code><br>
                            <b>border-color:</b> <code class=theme-l>#006638</code><code class=theme-d>#1e8a44</code></small>">
-      <i class="material-icons alert-icon">check_circle</i>
+      <i class="modus-icons alert-icon" aria-hidden="true">check_circle</i>
       <div>Success! A basic success alert with a dismiss icon</div>
       <button type="button" class="close" data-dismiss="alert">
-        <i class="modus-icon material-icons notranslate">close</i>
+        <i class="modus-icons modus-icon notranslate">close</i>
       </button>
     </div>
     <div class="alert alert-danger fade show" role="alert"
@@ -114,10 +114,10 @@ $(function () {
       data-placement="left"
       data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#da212c80</code><br>
                            <b>border-color:</b> <code class=theme-l>#da212c</code><code class=theme-d>#da212c</code></small>">
-      <i class="material-icons alert-icon">error</i>
+      <i class="modus-icons alert-icon" aria-hidden="true">warning</i>
       <div>Error! A basic error alert with a dismiss icon</div>
       <button type="button" class="close" data-dismiss="alert">
-        <i class="modus-icon material-icons notranslate">close</i>
+        <i class="modus-icons modus-icon notranslate">close</i>
       </button>
     </div>
     <div class="alert alert-warning text-dark fade show" role="alert"
@@ -126,10 +126,10 @@ $(function () {
       data-placement="left"
       data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#fbad2680</code><br>
                            <b>border-color:</b> <code class=theme-l>#e49325</code><code class=theme-d>#fbad26</code></small>">
-      <i class="modus-icon material-icons notranslate alert-icon">warning</i>
+      <i class="modus-icons notranslate alert-icon" aria-hidden="true">warning</i>
       <div>Warning! A basic warning alert with a dismiss icon</div>
       <button type="button" class="close" data-dismiss="alert">
-        <i class="modus-icon material-icons notranslate">close</i>
+        <i class="modus-icons modus-icon notranslate">close</i>
       </button>
     </div>
   </div>

@@ -1,3 +1,8 @@
+.theme-toggle:focus-visible {
+  outline-offset: 4px;
+  outline-color: transparent;
+  outline-width: 1px !important;
+}
 .sun-and-moon > :is(.moon, .sun, .sun-beams) {
   transform-origin: center center;
 }

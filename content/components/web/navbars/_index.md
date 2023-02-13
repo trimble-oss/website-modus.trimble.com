@@ -11,6 +11,7 @@ reactBootstrapURL: "/components/navbar/"
 webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-navbar--default
 aliases:
   - "/components/navbar/"
+  - "/components/web/navbar/"
 tags: [usage]
 ---
 
@@ -20,8 +21,8 @@ The navbar or the app header provides context through globally accessible menu o
 
 <!-- prettier-ignore-start -->
 <nav class="navbar nav navbar-expand-sm modus-header border">
-  <button class="btn btn-lg btn-icon-only" id="menuButton" data-modus-item="menu-btn" href="#overview" data-toggle="#" type="button">
-    <i class="modus-icons notranslate">menu</i>
+  <button class="btn btn-lg btn-icon-only btn-text-dark" id="menuButton" data-modus-item="menu-btn" href="#overview" data-toggle="#" type="button">
+    <i class="modus-icons notranslate" aria-hidden="true">menu</i>
   </button>
   <a href="#navbar-example" class="navbar-brand mr-auto ml-2">
     <img src="https://modus-bootstrap.trimble.com/img/trimble-logo.svg" width="107" height="25" class="img-fluid d-none d-sm-block" alt="home">
@@ -29,28 +30,24 @@ The navbar or the app header provides context through globally accessible menu o
   </a>
   <div class="collapse navbar-collapse">
     <div class="navbar-nav ml-auto">
-      <button type="button" class="btn btn-lg btn-icon-only ml-2 text-gray-6 d-none" data-toggle="tooltip"
-         data-placement="bottom" title="Search">
-        <i class="modus-icon notranslate material-icons text-gray-6">search</i>
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
+         data-placement="bottom" title="Notifications" hidden>
+        <i class="modus-icons notranslate" aria-hidden="true">notifications</i>
       </button>
-      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
-         data-placement="bottom" title="Notifications">
-        <i class="modus-icon notranslate material-icons text-gray-6">notifications</i>
-      </button>
-      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
          data-placement="bottom" title="Help">
-        <i class="modus-icons notranslate text-gray-6">help</i>
+        <i class="modus-icons notranslate" aria-hidden="true">help</i>
       </button>
-      <button type="button" class="btn btn-lg btn-icon-only ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
          data-placement="bottom" title="Applications">
-        <i class="modus-icons notranslate text-gray-6">apps</i>
+        <i class="modus-icons notranslate" aria-hidden="true">apps</i>
       </button>
     </div>
   </div>
 
   <div class="dropdown d-block d-md-none">
-  <button type="button" data-toggle="dropdown" aria-label="" class="btn btn-lg btn-icon-only text-gray-6 d-block d-sm-none" aria-expanded="false">
-    <i class="modus-icons notranslate text-gray-6">more_vertical</i>
+  <button type="button" data-toggle="dropdown" aria-label="" class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none" aria-expanded="false">
+    <i class="modus-icons notranslate" aria-hidden="true">more_vertical</i>
   </button>
   <ul class="dropdown-menu">
     <li class="bg-tranparent">
@@ -74,10 +71,10 @@ The navbar or the app header provides context through globally accessible menu o
       </li>
     </ul>
   </div>
-  <button type="button" class="btn btn-lg btn-icon-only bg-transparent border-white ml-2 border-0"
+  <button type="button" class="btn btn-lg btn-icon-only btn-text-dark bg-transparent border-white ml-2 border-0"
          data-toggle="tooltip" data-placement="bottom" data-html="true"
          title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
-         <i class="modus-icon notranslate material-icons rounded-circle text-gray-6">account_circle</i>
+         <i class="modus-icons notranslate rounded-circle" aria-hidden="true">account_circle</i>
   </button>
 </nav>
 <!-- prettier-ignore-end -->

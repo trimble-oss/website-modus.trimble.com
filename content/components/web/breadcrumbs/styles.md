@@ -47,9 +47,9 @@ tags: [styles]
   <div class="guide-sample">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><i class="modus-icons notranslate">dashboard</i><a href="#">Home</a></li>
-        <li class="breadcrumb-item"><i class="material-icons notranslate">local_library</i><a href="#">Library</a></li>
-        <li class="breadcrumb-item active" aria-current="page"><i class="modus-icons notranslate">clipboard</i>Data</li>
+        <li class="breadcrumb-item"><i class="modus-icons notranslate" aria-hidden="true">dashboard</i><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><i class="modus-icons notranslate" aria-hidden="true">ticket_plane</i><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><i class="modus-icons notranslate" aria-hidden="true">clipboard</i>Data</li>
       </ol>
     </nav>
   </div>
