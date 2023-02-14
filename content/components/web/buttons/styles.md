@@ -217,7 +217,7 @@ All buttons (including icon buttons) should have the following states:
           <th scope="row">Default</th>
           <td>
             <button class="btn btn-icon-only btn-text-dark">
-            <i class="modus-icons notranslate">gear</i>
+            <i class="modus-icons notranslate" aria-hidden="true">gear</i>
             </button>
           </td>
           <td>
@@ -227,7 +227,7 @@ All buttons (including icon buttons) should have the following states:
         <tr>
           <th scope="row">Hover</th>
           <td><button class="btn hover btn-icon-only btn-text-dark">
-            <i class="modus-icons notranslate">gear</i>
+            <i class="modus-icons notranslate" aria-hidden="true">gear</i>
           </button></td>
           <td><button class="btn hover btn-danger" type="button">Button</button></td>
         </tr>
@@ -235,7 +235,7 @@ All buttons (including icon buttons) should have the following states:
           <th scope="row">Pressed</th>
           <td>
             <button class="btn display-active btn-icon-only btn-text-dark">
-            <i class="modus-icons notranslate">gear</i>
+            <i class="modus-icons notranslate" aria-hidden="true">gear</i>
           </button>
           </td>
           <td>
@@ -246,7 +246,7 @@ All buttons (including icon buttons) should have the following states:
           <th scope="row">Disabled</th>
           <td>
           <button disabled class="btn btn-icon-only btn-text-dark">
-            <i class="modus-icons notranslate">gear</i>
+            <i class="modus-icons notranslate" aria-hidden="true">gear</i>
           </button></td>
           <td><button disabled class="btn btn-danger" type="button">Button</button></td>
         </tr>

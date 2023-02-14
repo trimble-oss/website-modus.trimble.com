@@ -34,7 +34,7 @@ tags: [styles]
             </li>
             <li class="page-item">
               <a class="page-link" href="#" aria-label="view more">
-                <i class="modus-icons notranslate">more_horizontal</i>
+                <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
               </a>
             </li>
             <li class="page-item">
@@ -54,7 +54,7 @@ tags: [styles]
             </li>
             <li class="page-item">
               <a class="page-link" href="#" aria-label="view more">
-                <i class="modus-icons notranslate">more_horizontal</i>
+                <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
               </a>
             </li>
             <li class="page-item">
@@ -86,7 +86,7 @@ tags: [styles]
               </li>
               <li class="page-item">
                 <a class="page-link" href="#" aria-label="view more">
-                  <i class="modus-icons notranslate">more_horizontal</i>
+                  <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
                 </a>
               </li>
               <li class="page-item">
@@ -106,7 +106,7 @@ tags: [styles]
               </li>
               <li class="page-item">
                 <a class="page-link" href="#" aria-label="view more">
-                  <i class="modus-icons notranslate">more_horizontal</i>
+                  <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
                 </a>
               </li>
               <li class="page-item">
@@ -138,7 +138,7 @@ tags: [styles]
             </li>
             <li class="page-item">
               <a class="page-link" href="#">
-                <i class="modus-icons notranslate">more_horizontal</i>
+                <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
               </a>
             </li>
             <li class="page-item">
@@ -149,7 +149,7 @@ tags: [styles]
             </li>
             <li class="page-item">
               <a class="page-link" href="#">
-                <i class="modus-icons notranslate">more_horizontal</i>
+                <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
               </a>
             </li>
             <li class="page-item">
@@ -194,7 +194,7 @@ tags: [styles]
         </li>
         <li class="page-item disabled">
           <a class="page-link" href="#">
-            <i class="modus-icons notranslate">more_horizontal</i>
+            <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
           </a>
         </li>
         <li class="page-item">
@@ -224,7 +224,7 @@ tags: [styles]
         </li>
         <li class="page-item">
           <a class="page-link" href="#">
-            <i class="modus-icons notranslate">more_horizontal</i>
+            <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
           </a>
         </li>
         <li class="page-item">
@@ -252,7 +252,7 @@ tags: [styles]
         </li>
         <li class="page-item">
           <a class="page-link" href="#">
-            <i class="modus-icons notranslate">more_horizontal</i>
+            <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
           </a>
         </li>
         <li class="page-item">
@@ -282,7 +282,7 @@ tags: [styles]
         </li>
         <li class="page-item disabled">
           <a class="page-link" href="#">
-            <i class="modus-icons notranslate">more_horizontal</i>
+            <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
           </a>
         </li>
         <li class="page-item disabled">

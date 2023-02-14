@@ -21,17 +21,17 @@ A tooltip is a popup that displays information related to an element when the el
 <div style="max-width: max-content">
   <div class="guide-sample">
     <div class="btn-group-vertical">
-      <button id="tooltipExample" class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" data-original-title="Zoom in">
-      <i class="modus-icons notranslate">zoom_in</i>
+      <button id="tooltipExample" class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" title="Zoom in">
+      <i class="modus-icons notranslate" aria-hidden="true">zoom_in</i>
       </button>
-      <button class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" data-original-title="Zoom out">
-      <i class="modus-icons notranslate">zoom_out</i>
+      <button class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" title="Zoom out">
+      <i class="modus-icons notranslate" aria-hidden="true">zoom_out</i>
       </button>
-      <button class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" data-original-title="Expand">
-      <i class="modus-icons notranslate">expand</i>
+      <button class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" title="Expand">
+      <i class="modus-icons notranslate" aria-hidden="true">expand</i>
       </button>
-      <button class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" data-original-title="Toggle layers">
-      <i class="modus-icons notranslate">map_layers</i>
+      <button class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" title="Toggle layers">
+      <i class="modus-icons notranslate" aria-hidden="true">map_layers</i>
       </button>
     </div>
   </div>
@@ -51,3 +51,8 @@ A tooltip is a popup that displays information related to an element when the el
 - Providing a description longer than 10 words.
 - Your application exists on mobile devices. There is no hover state to activate the tooltip.
 
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
