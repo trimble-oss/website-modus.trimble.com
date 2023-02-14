@@ -17,7 +17,7 @@ tags: [styles]
 <div class="guide-example-block my-3">
   <div class="guide-sample">
     <div class="message message-primary m-0">
-      <i class="modus-icons notranslate">info</i> This is a primary message.
+      <i class="modus-icons notranslate" aria-hidden="true">info</i> This is a primary message.
     </div>
   </div>
 </div>

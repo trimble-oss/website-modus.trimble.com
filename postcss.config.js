@@ -66,6 +66,7 @@ module.exports = {
         "display-2",
         "display-3",
         "dropdown-item",
+        "dropdown-item-toggle",
         "dropdown-menu",
         "dropdown-toggle",
         "dropdown",

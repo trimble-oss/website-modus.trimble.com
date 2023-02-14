@@ -50,7 +50,7 @@ Lists are available in three sizes: default, condensed (small) and large.
             aria-haspopup="true"
             aria-expanded="false"
           >
-            <i class="modus-icons notranslate">more_vertical</i>
+            <i class="modus-icons notranslate" aria-hidden="true">more_vertical</i>
           </button>
           <div
             class="dropdown-menu dropdown-menu-right"
@@ -78,7 +78,7 @@ Lists are available in three sizes: default, condensed (small) and large.
         >
       </li>
       <li class="list-group-item list-item-left-control">
-        <i class="icon modus-icons">dashboard</i>
+        <i class="icon modus-icons" aria-hidden="true">dashboard</i>
         <span>List Item with Left Icon</span>
       </li>
     </ul>

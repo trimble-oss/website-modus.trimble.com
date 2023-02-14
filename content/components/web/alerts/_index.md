@@ -33,7 +33,7 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
       <td style="line-height: 1.25" scope="row">
         <div class="border">
           <div class="alert alert-danger mx-3 mt-3 mb-0" role="alert">
-            <i class="modus-icon material-icons alert-icon">error</i>
+            <i class="modus-icons alert-icon" aria-hidden="true">warning</i>
             <div>Error! Your username and password were incorrect</div>
           </div>
           <div class="p-3">
