@@ -51,7 +51,7 @@
     "prettier": "^2.8.4",
     "s3-deploy": "^1.4.0",
     "stylelint": "15.1.0",
-    "stylelint-config-standard-scss": "7.0.0",
+    "stylelint-config-standard-scss": "7.0.1",
     "textlint": "^13.3.0",
     "textlint-rule-common-misspellings": "^1.0.1",
     "textlint-rule-terminology": "^3.0.4"
