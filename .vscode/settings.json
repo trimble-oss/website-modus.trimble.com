@@ -4,7 +4,7 @@
     "contain-intrinsic-size"
   ],
   "markdown.styles": [
-    "https://modus.trimble.com/assets/0.5.1/fonts/modus-icons.css",
+    "https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css",
     "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1/dist/modus.min.css",
     "https://modus.trimble.com/styles/styles.min.css"
   ]
