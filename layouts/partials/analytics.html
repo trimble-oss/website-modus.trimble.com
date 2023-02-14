@@ -2,3 +2,21 @@
 <script id="plausible" defer data-domain="modus.trimble.com"
   src="https://plausible.io/js/script.compat.outbound-links.js"></script>
 {{- end -}}
+
+<!-- Combines and minifies the 3x JS files which are used for Trimble Insights -->
+{{ $loglevel := resources.Get "js/loglevel.min.js" }}
+{{ $loglevelpluginremote := resources.Get "js/loglevel-plugin-remote.min.js" }}
+{{ $tdcafLogger := resources.Get "js/tdcafLogger.min.js" }}
+{{ $insightsJS := slice $loglevel $loglevelpluginremote $tdcafLogger | resources.Concat "js/trimble-insights.js" | resources.Minify }}
+<script src="{{ $insightsJS.RelPermalink }}"></script>
+<script>
+  window.tdcafLogger.init({
+    appname: 'trimble-tux-modus-web-dev',
+    headers: {
+      'x-app-name': 'trimble-tux-modus-web-dev',
+      'x-api-key': 'ggpQDrO6nn5cChZe1idmc9rTV7Qsdh2kv8BYAhGe'
+    },
+    interval: 2000
+  });
+  window.tdcafLogger.trackEvents();
+</script>
