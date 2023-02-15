@@ -1,7 +1,7 @@
 ---
 title: "Spinners"
 layout: "single"
-description: ""
+description: Spinners indicate progress by showing users a loading state."
 components: true
 component: spinners
 images:
@@ -14,13 +14,6 @@ tags: [mobile, usage]
 ## Overview
 
 Spinners are used as indeterminate progress indicators to show the user that there are processes happening in the background.
-
-
-
-
-## Atoms
-
-{{< img src="/img/mobile/progress-atoms.svg" dark="/img/mobile//progress-atoms-dark.svg" width="961" height="170" alt="Progress Indicators Atoms" loading="auto" >}}
 
 ## Usage
 

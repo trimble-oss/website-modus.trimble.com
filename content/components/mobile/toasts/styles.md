@@ -20,6 +20,8 @@ tags: [mobile, styles]
 
 **Toasts**
 
+{{< img src="/img/mobile/toast-specs.svg" dark="/img/mobile/toast-specs.svg" width="961" height="260" class="w-100" alt="Toast " >}}
+
 - Appear on the bottom, relative to the bottom edge of the browser/ device.
 - Fill as much horizontal space as needed.
 - Float above the content.
@@ -30,12 +32,12 @@ tags: [mobile, styles]
 **Basic Toasts**
 
 
-### Behaviors
+## Behaviors
 
 - When applicable, dismiss by clicking the close icon.
 - Toasts fade out automatically after 30 seconds.
 
-### Editorial
+## Editorial
 
 - Keep titles three to five words if possible.
 - For titles, use title case and capitalize prepositions of four letters or more.

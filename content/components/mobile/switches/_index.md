@@ -1,5 +1,4 @@
 ---
-sitemap_exclude: true
 title: "Switches"
 layout: "single"
 description: "Switches are used to toggle functionality."
@@ -26,6 +25,7 @@ Switches are used to toggle functionality. Switches are selection controls that 
 
 - Turning on and off a feature, mode, or functionality.
 - Toggling elicits a change in the UI.
+- Toggling elicits a change in background behavior without affecting the UI.
 - You want to trigger a state change directly when you toggle it.
 
 **Don’t use when**

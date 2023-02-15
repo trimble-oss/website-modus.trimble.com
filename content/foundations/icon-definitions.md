@@ -13,11 +13,13 @@ main img {
 
 ## Overview
 
-Icons are visual symbols representing tools, functions, or content. They quickly communicate ideas or messages through metaphors, draw attention to important information, and are key to usability and intuitive navigation. They can be interactive or informational. In many cases, text labels may be necessary instead of or in addition to unclear or potentially ambiguous icons.
+Icons are visual symbols representing tools, functions, or content. They quickly communicate ideas or messages through metaphors, draw attention to important information, and are key to usability and intuitive navigation. They may be purely informational or signal to the user interactive elements. In many cases, text labels may be necessary instead of or in addition to unclear or potentially ambiguous icons.
+
+Modus includes both **solid** and **outlined** icon sets:
+
+{{% img src="/img/foundations/icons-samples.png" alt="Icons Samples" loading="auto" %}}
 
 Based on the metaphor they reflect, icons can be divided into three categories ([Jacob Nielsen](https://www.nngroup.com/articles/classifying-icons/)):
-
-{{% img src="/img/foundations/icons-samples.svg" height="100" width="300" alt="icons" loading="auto" %}}
 
 **Resemblance** icons are the symbols directly depicting a physical object the icon represents. Examples include the magnifier for search, the shopping cart, or the envelope for mail. In order for these icons to be easily recognizable, they need to look like the object they intend to represent.
 
@@ -31,13 +33,7 @@ These guidelines are intended to be for only desktop, mobile, and web apps. Futu
 
 ## Icon Types
 
-Trimble uses different types of icons to portray relevant information or functionality. Icons can be interactive or informational. Interactive icons have hover and active states. Informational icons (charms) usually provide redundant images that reinforce the meaning of adjacent text in order to provide clarity to the user. They are not interactive and have no hover or active states: hovering or clicking on them does nothing. When using both interactive and informational icons in the same interface, it is best to provide a visual distinction between them, so the user knows which icons they can interact with.
-
-**Utility**: icons that represent actions a user can perform on a given screen within the interface (e.g. save, download, edit).
-
-**Object**: custom or product-specific icons representing objects in the real world the user can manipulate within the interface (e.g. steal beam, tractor, bus).
-
-**Doctype**: icons that represent the type of file available for preview, upload, or download (e.g.. pdf, video, txt).
+Trimble uses different types of icons to portray relevant information or functionality. Icons can be  informational or signal to the user an interactive element. Icons used within interactive elements have hover and active states. Informational icons (charms) usually provide redundant images that reinforce the meaning of adjacent text in order to provide clarity to the user. They are not interactive and have no hover or active states: hovering or clicking on them does nothing. When using both interactive and informational icons in the same interface, it is best to provide a visual distinction between them, so the user knows which icons they can interact with.
 
 ## Design Principles
 
@@ -48,20 +44,24 @@ Trimble uses different types of icons to portray relevant information or functio
 - **Simple**: focus on designing to the minimal characteristics of objects by leveraging geometric shapes.
 - **Approachable**: consider communicating the brand’s tone and expression by creating positive, emotive connections.
 
+{{% img src="/img/foundations/icons-simplify.png" alt="Make icons bold while minimizing complexity" loading="auto" %}}
+
+{{% img src="/img/foundations/icons-stroke.png" alt="Ues 2px strokes wherever possible" loading="auto" %}}
+
 ## Icon Anatomy, Sizes, and Design Considerations
 
 Trimble uses **both solid and line icons**. The choice should be consistent throughout the product. Be careful when using both solid and line icons within one UI: make sure that the use is deliberate, context-dependent, and logical. For example, you may use line icons to identify interactive icons and solid icons as charms or purely informational icons that are not clickable. For most products line icons are preferred. For in-cab software or products used outdoors and/or with heavy gloves, solid icons are better for usability.
 
 The cornerstones of consistent icons:
 
-- **Canvas Size**: pixel space for design of the icon (e.g. Adobe Illustrator artboard). **Primary icon size is 32 x 32 px**. If the icon glyph has any other shape than a circle or a square, the glyph should be centered on the canvas (avoiding being placed on half-pixels).
-- **Stroke Weight**: outlines of the icon. For legibility, Trimble icons maintain a stroke weight of 2px at the 32 x 32px size. Generally, spacing between two strokes should not be less than the stroke weight. The stroke weights resize accordingly based on the size of the icon (see table below).
-- **Corner Radius**: the radius of the circle created by extending the corner arc to form a complete circle. The corner radius of the icon glyph should be 2px at the 32 x 32px size and should resize accordingly.
+- **Canvas Size**: pixel space for design of the icon (e.g. Adobe Illustrator artboard). **Primary icon size is 24 x 24 px**. If the icon glyph has any other shape than a circle or a square, the glyph should be centered on the canvas (avoiding being placed on half-pixels).
+- **Stroke Weight**: outlines of the icon. For legibility, Trimble icons maintain a stroke weight of 2px at the 24 x 24px size. Generally, spacing between two strokes should not be less than the stroke weight. The stroke weights resize accordingly based on the size of the icon (see table below).
+- **Corner Radius**: the radius of the circle created by extending the corner arc to form a complete circle. The corner radius of the icon glyph should be 2px at the 24 x 24px size and should resize accordingly. If the basic overall shape filling the canvas is a rectangle or a square, use 2px rounding of the corners. Smaller elements require adjustments for corner radius following the curvature of a 2 x 2px circle.
 - **Padding**: Padding is defined as negative space around the symbol **inside** of the canvas. Padding is used to help optically size icons and should not be used to scale icons within a container.
-- **Optical Sizing**: Icons should be designed to include overshoot for optical sizing. For example, a circle icon sized at 32 x 32 px will appear smaller next to a square icon of the same dimensions. The square icon should be sized down to 30x30 px in order to appear visually balanced with the circular icon. See grid below.
+- **Optical Sizing**: Icons should be designed to include overshoot for optical sizing. For example, a circle icon sized at 24 x 24px will appear smaller next to a square icon of the same dimensions. The square icon should be sized down to 22 x 22px in order to appear visually balanced with the circular icon(see grid below).
 - **Margin**: negative space around the symbol **outside** of the canvas that contributes to the tap target area. Margins around icons may vary depending on the size of the icon and the UI platform. On web and mobile platforms the size of the margin of the icon should result in a tap target no smaller than 48px (see “Mobile Tap Targeting” below).
 
-{{% img src="/img/foundations/icon-grid.svg" height="200" width="200" alt="icon grid" %}}
+{{% img src="/img/foundations/icon-grid.png" alt="Icon Grid" %}}
 
 There are a few options for icon sizes that you can choose based on your product, the context in which they are used, digital platform, and/ or user preferences. Use no more than 2-3 sizes in one application.
 
@@ -70,8 +70,8 @@ There are a few options for icon sizes that you can choose based on your product
 | ---------------------- | ------------- | ---------------------------------------------------- |
 | 12x12 - 14x14px        | 1px           | Used as charms in browsers, dropdowns, tablets, etc. |
 | 16x16px                | 1px           |                                                      |
-| 24x24px                | 1-2px         |                                                      |
-| **32x32px**            | **2px**       | **Primary icon size**                                |
+| **24x24px**            | **1-2px**     | **Primary icon size**<br>Main outline 2px/ 1px for object details. |
+| 32x32px                | 2px           |                                                      |
 | 48x48px                | 3px           |                                                      |
 | 64x64px                | 4px           | Use for program logos, toolbars                      |
 | 96x96px                | 6px           | Usually thumbnails, web charms, etc.                 |
@@ -82,6 +82,7 @@ Other design considerations:
 
 - All icons should be unique and not redundant with any existing icons in the system (search the library first for keywords associated with the proposed new icon to make sure it’s not already represented).
 - Always design on grid: avoid half-pixel stroke to ensure crisp and high quality scaling.
+- Inspect your final icon for any superfluous anchor nodes (e.g. nodes on straight lines due to cutting shapes, broken curves, etc.) and fix/smooth/remove accordingly.
 - To keep angle consistent, it is recommended to keep diagonal lines on a 45 or 25 degree angle, if possible.
 - To ensure exchangeability of vector code, stroke should be converted to outline stroke.
   Icons cannot change from solid to line or line to solid when changing states.
@@ -99,13 +100,9 @@ Generally speaking, color should be avoided and icon sets should be designed to 
 
 ## Add-Ons & Indicators
 
-Add-ons and indicators provide more specificity to a standard icon or indicate an action a user can perform directly related to the action of the icon proper (e.g. add, remove, alert, close, etc.). The add-on icons always appear in a solid circle, ¼ of the icon’s size, in the bottom right corner. On a 32 x 32px canvas, the circle measures 16px in diameter with a 2-pixel margin, flush with the edges of the canvas. The stroke weight of the glyph within the add-on is 2px and the padding is 2px.
+Add-ons and indicators provide more specificity to a standard icon or indicate an action a user can perform directly related to the action of the icon proper (e.g. add, remove, alert, close, etc.). The add-on icons usually appear in the bottom right corner. The icon's design will sometimes dictate an alternate placement of the add-on.
 
-{{% img src="/img/guide/addon.png" height="200" width="200" alt="icon grid" %}}
-
-Indicators appear in the upper right corner of the icon and usually represent an alert or notification related to the icon’s meaning. On a 32 x 32px canvas the indicator measures 8px in diameter flush with the edges of the canvas.
-
-{{% img src="/img/guide/indicator.png" height="200" width="200" alt="indicator" %}}
+Indicators appear in the upper right corner of the icon and usually represent an alert or notification related to the icon’s meaning. On a 24 x 24px canvas the indicator measures 8px in diameter flush with the edges of the canvas.
 
 ## Accessibility
 

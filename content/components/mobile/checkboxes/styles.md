@@ -26,14 +26,14 @@ Checkboxes have the following States:
 
 {{< img src="/img/mobile/checkboxes-states.svg" dark="/img/mobile/checkboxes-states-dark.svg" width="962" height="120" alt="Checkboxes States" loading="auto" >}}
 
-### Behaviors
+## Behaviors
 
 - Reflects the affirmative (“yes” or “true”) of its label when checked.
 - Choices made via checkbox should always be submitted or saved using a Button.
 - A checkbox’s label is included in the clickable target area.
 - The default view of a set of checkboxes is having no option selected.
 
-### Editorial
+## Editorial
 
 - Checkbox labels may be capitalized in 2 ways, depending on their length and placement on the UI:
   - Use title case for short labels (fewer than 3 words) that are to the left or above a checkbox.

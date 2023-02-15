@@ -1,11 +1,10 @@
 ---
-sitemap_exclude: true
-title: "Navbars"
+title: "Top Navbars"
 layout: "single"
-description: "The navbar provides context through globally accessible menu options."
+description: "The top navbar provides context through globally accessible menu options."
 components: true
-component: Navbars
+component: Top Navbars
 images:
-  - "/img/mobile/headers/navbars.png"
+  - "/img/mobile/headers/top-navbars.png"
 tags: [mobile, accessibility]
 ---

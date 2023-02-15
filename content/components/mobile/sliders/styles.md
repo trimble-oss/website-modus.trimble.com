@@ -1,5 +1,4 @@
 ---
-sitemap_exclude: true
 title: "Sliders"
 layout: "single"
 description: "Sliders allow users to make selections from a range of values."
@@ -31,15 +30,15 @@ Sliders have the following states: Default, Focus, and Disabled.
 
 {{< img src="/img/mobile/sliders-states.svg" dark="/img/mobile/sliders-states-dark.svg" width="961" height=120" alt="Sliders States" loading="auto" >}}
 
-### Types
+## Types
 
-#### Continuous Sliders
+### Continuous Sliders
 
 Continuous sliders allow users to make selections along a subjective range thus don’t require a specific value.
 
 {{< img src="/img/mobile/sliders-continuous.svg" dark="/img/mobile/sliders-continuous-dark.svg" width="961" height="797" alt="Sliders Continuous With No Labels" loading="auto" >}}
 
-#### Discrete Sliders
+### Discrete Sliders
 
 Discrete sliders display a numeric value label upon dragging the handle, or allow users to input an exact value. Tick marks are also often used with discrete slides but are optional.
 

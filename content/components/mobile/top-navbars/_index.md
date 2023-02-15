@@ -1,36 +1,40 @@
 ---
-sitemap_exclude: true
-title: "Navbars"
+title: "Top Navbars"
 layout: "single"
-description: "The navbar provides context through globally accessible menu options."
+description: "The top navbar provides context through globally accessible menu options."
 components: true
-component: Navbars
+component: Top Navbars
 images:
-  - "/img/mobile/headers/navbars.png"
+  - "/img/mobile/headers/top-navbars.png"
 tags: [mobile, usage]
 aliases:
-  - navbars
+  - top navbars
 ---
 
 {{< img src="/img/mobile/navbar.svg" dark="/img/mobile/navbar-dark.svg" width="961" height="260" class="w-100" alt="Nav Bar Example" >}}
 
 ## Overview
 
-The Nav Bar or the header provides context through globally accessible menu options and positions a consistent component to connect various Trimble applications. It contains the main navigation for your application.
+The top navbar or the app header provides context through globally accessible menu options and positions a consistent component to connect various Trimble applications. It contains the main navigation for your application.
 
 {{< img src="/img/mobile/navbar-overview.svg" dark="/img/mobile//navbar-overview-dark.svg" width="960" height="482" alt="Nav Bar Overview" loading="auto" >}}
 
 ## Usage
 
-The Nav Bar is often used as the location for the primary menu and also provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions.
+**Use when**
 
-## Anatomy
+- Designing native mobile or hybrid applications.
+- Positioning a primary navigation menu.
+- Branding an application.
+- Providing access to
+  - An account profile, other applications, help content, notifications, and search.
+  - Positioning a consistent component to connect various Trimble applications.
 
-The Nav Bar is often used as the location for the primary menu and also provides content and actions related to the current screen. It’s used for branding, screen titles, navigation, and actions.
+**Don’t use when**
 
-Atoms
-
-{{< img src="/img/mobile/navbar-anatomy.svg" dark="/img/mobile//navbar-anatomy-dark.svg" width="960" height="482" alt="Navbar Anatomy" loading="auto" >}}
+- Building desktop applications employing frameworks similar to Windows Ribbon.
+- Building marketing websites.
+- Building email templates.
 
 
 {{< whats-changed-table >}}

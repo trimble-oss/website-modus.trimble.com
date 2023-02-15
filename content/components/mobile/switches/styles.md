@@ -1,5 +1,4 @@
 ---
-sitemap_exclude: true
 title: "Switches"
 layout: "single"
 description: "Switches are used to toggle functionality."
@@ -10,13 +9,13 @@ images:
 tags: [mobile, styles]
 ---
 
-### Styles
+## Specificattions
 
 A switch must have a visible label that clearly conveys what option a user will turn on or off.
 
-{{< img src="/img/mobile/switches-specifications.svg" dark="/img/mobile/switches-specifications-dark.svg" width="951" height="243" alt="Switches Specifications" loading="auto" >}}
+### Anatomy
 
-Note: incab size only, see mobile for smaller options for infield if required
+{{< img src="/img/mobile/switches-specifications.svg" dark="/img/mobile/switches-specifications-dark.svg" width="951" height="243" alt="Switches Specifications" loading="auto" >}}
 
 ## Behaviors
 
@@ -26,13 +25,11 @@ All buttons (including icon buttons) should have the following states:
 - Focus
 - Disabled
 
-## Toggle Progression
+### Toggle Progression
 
 {{< img src="/img/mobile/switches-toggle.svg" dark="/img/mobile/switches-toggle-dark.svg" width="951" height="316" alt="Switches Toggle" loading="auto" >}}
 
-Note: Focus state uses new blue.
-
-## Labels & Icons
+### Labels & Icons
 
 {{< img src="/img/mobile/switches-labels.svg" dark="/img/mobile/switches-labels-dark.svg" width="942" height="142" alt="Switches Labels & Icons" loading="auto" >}}
 

@@ -1,8 +1,7 @@
 ---
-sitemap_exclude: true
 title: "Tables"
 layout: "single"
-description: "Tables are largely based on the List component.  Tables can be stacked horizontally and vertically in multiple rows and columns, whereas Lists can only be stacked vertically in a single column."
+description: "Tables display information in a grid-like format of rows and columns."
 components: true
 component: tables
 images:
@@ -18,11 +17,20 @@ Tables are largely based on the List component.  Tables can be stacked horizonta
 
 When using the Figma component, it will be necessary to adjust the width and height fill options, depending on your usage of the table.
 
-## Atoms
+## Usage
 
-For more details on the contents of these atoms, see List.
+**Use when**
 
-{{< img src="/img/mobile/tables-anatomy.svg" dark="/img/mobile/tables-anatomy-dark.svg" width="960" height="543" alt="Tables Anatomy" loading="auto" >}}
+- User needs to easily scan and compare data.
+- User needs to view and edit data.
+- Manipulating and navigating through a large amount of data.
+- Previewing data before drilling down further.
+
+**Don’t use when**
+
+- You only have a small data set.
+- A more detailed amount of information needs to be displayed by default.
+- There is more than one piece of information within a cell.
 
 
 {{< whats-changed-table >}}

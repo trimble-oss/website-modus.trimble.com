@@ -26,4 +26,3 @@ tags: [mobile, accessibility]
   - The workflow design includes the following conditions that can occasionally make focusing a different element a more logical choice:
     - It is very unlikely users need to immediately re-invoke the dialog.
     - The task completed in the dialog is directly related to a subsequent step in the workflow.
-- The tab sequence of all dialogs needs to include the Close icon button.

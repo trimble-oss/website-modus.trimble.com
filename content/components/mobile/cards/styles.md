@@ -1,5 +1,4 @@
 ---
-sitemap_exclude: true
 title: "Cards"
 layout: "single"
 description: "Cards contain content and actions about a single subject."
@@ -13,7 +12,9 @@ tags: [mobile, styles]
 
 ## Specifications
 
-Card Container (2px radius, 16px padding, with Level 3 shadow) required. A card may contain a wide array of information and elements. Commom card elements are but not limited to:
+A Card may contain any of the following elements (with the minimum of one), but they are all optional:
+
+- Card Container (2px radius, 16px padding, with [Level 3 shadow](/foundations/shadow-and-depth/)) _required_
 - Title _optional_
 - Subtitle _optional_
 - Card Text _optional_
@@ -56,7 +57,7 @@ Cards can have a default, focus, and selected state. Selected states are optiona
 
 {{< img src="/img/mobile/card-states.svg" dark="/img/mobile/card-states-dark.svg" width="946" height="781" alt="Card States" loading="auto" >}}
 
-## Behavior & Interactions
+## Behaviors
 
 Cards can have the following transitions and interactions:
 - Cards themselves can be tapped
