@@ -7,6 +7,8 @@ start: true
 hideDate: true
 hideToc: true
 sitemap_exclude: true
+tags:
+  - search_exclude
 ---
 
 <style>

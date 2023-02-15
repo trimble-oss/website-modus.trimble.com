@@ -1,4 +1,12 @@
 {
   "bracketSameLine": true,
-  "printWidth": 280
+  "printWidth": 280,
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "singleQuote": true
+      }
+    }
+  ]
 }

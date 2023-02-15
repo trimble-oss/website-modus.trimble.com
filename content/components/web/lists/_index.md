@@ -31,11 +31,11 @@ Lists are used to present information in well-formed and organized way. The user
 
 <div class="h6" id="list-items">List Items</div>
 <ul class="list-group">
-  <li class="list-group-item active">Crate just odor</li>
-  <li class="list-group-item">Daffodil ac facility in</li>
-  <li class="list-group-item">Morbid leo risus</li>
-  <li class="list-group-item">Port ac consecutive</li>
-  <li class="list-group-item">Vestibule at eros</li>
+  <li class="list-group-item active">An item</li>
+  <li class="list-group-item">A second item</li>
+  <li class="list-group-item">A third item</li>
+  <li class="list-group-item">A fourth item</li>
+  <li class="list-group-item">And a fifth one</li>
 </ul>
 
 ## Usage

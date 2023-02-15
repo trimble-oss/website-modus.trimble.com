@@ -1,6 +1,6 @@
 // scroll to anchor
 var scrollToAnchor = (function () {
-  "use strict";
+  'use strict';
   return function (t) {
     var n = this;
     void 0 === t && (t = {});
@@ -12,27 +12,27 @@ var scrollToAnchor = (function () {
         return t < 0.5 ? 8 * t * t * t * t : 1 - 8 * --t * t * t * t;
       },
       i = Array.prototype.slice
-        .call(document.getElementsByTagName("a"))
+        .call(document.getElementsByTagName('a'))
         .filter(function (t) {
           return (function (t) {
-            return -1 != (t.href && t.href.indexOf("#"));
+            return -1 != (t.href && t.href.indexOf('#'));
           })(t);
         })
         .filter(function (t) {
           return (function (t) {
-            return t.pathname == window.location.pathname || ("/" + t.pathname == window.location.pathname && t.search == location.search);
+            return t.pathname == window.location.pathname || ('/' + t.pathname == window.location.pathname && t.search == location.search);
           })(t);
         });
-    document.addEventListener("click", function (t) {
+    document.addEventListener('click', function (t) {
       var u = i.filter(function (n) {
         return t.target === n;
       })[0];
       u &&
         (t.preventDefault(),
         (function (t) {
-          var i = t.getAttribute("href"),
+          var i = t.getAttribute('href'),
             u = document.querySelector(i),
-            a = u.getAttribute("data-anchor-offset");
+            a = u.getAttribute('data-anchor-offset');
           e = a || n.offset;
           var c = (function (t) {
               return Math.floor(t.getBoundingClientRect().top);
@@ -43,7 +43,7 @@ var scrollToAnchor = (function () {
             s = !1,
             m = null,
             h = function (t) {
-              if (s) return (document.documentElement.scrollTop = d), u.focus(), void window.history.pushState("", "", i);
+              if (s) return (document.documentElement.scrollTop = d), u.focus(), void window.history.pushState('', '', i);
               (l == d || t - m >= o) && (s = !0);
               var n = r((t - m) / o),
                 e = l + (d - l) * n;

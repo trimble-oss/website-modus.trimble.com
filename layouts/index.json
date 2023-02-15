@@ -1,4 +1,5 @@
 [{{ range $index, $page := .Site.Pages }}
+{{ if not (in .Params.tags "search_exclude" ) }}
 {{ if not (in .Params.tags "accessibility" ) }}
 {{ if not (in .Params.tags "mobile" ) }}
 {{ if not (in .Params.tags "styles" ) }}
@@ -11,6 +12,7 @@
   "description": "{{- htmlEscape .Description -}}",
   "content": {{- $page.Plain | jsonify -}}
 }
+{{- end -}}
 {{- end -}}
 {{- end -}}
 {{- end -}}

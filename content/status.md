@@ -6,6 +6,8 @@ framework code."
 url: "/status/"
 start: true
 hideToc: true
+tags:
+  - search_exclude
 ---
 
 <style>

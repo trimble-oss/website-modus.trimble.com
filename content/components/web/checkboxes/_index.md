@@ -183,10 +183,10 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 **Don't use when**
 
-- A user can select only one option from a list. Use [Radio Buttons](/components/in-field/radio-buttons/) instead. Checkboxes allow the user to select multiple items in a set whereas radio buttons allow the user to select only one option.
-- Turning a feature, mode, or functionality on and off. Instead, use a [Switch](/components/switches/).
-- Checking or unchecking elicits an immediate change in the UI or functionality, such as enabling a disabled field or revealing more controls. Instead, use a [Switch](/components/switches/).
-- Checking or unchecking elicits a change in background functionality without affecting the UI, like disabling an email notification. Instead, use a [Switch](/components/switches/).
+- A user can select only one option from a list. Use [Radio Buttons](/components/web/radio-buttons/) instead. Checkboxes allow the user to select multiple items in a set whereas radio buttons allow the user to select only one option.
+- Turning a feature, mode, or functionality on and off. Instead, use a [Switch](/components/web/switches/).
+- Checking or unchecking elicits an immediate change in the UI or functionality, such as enabling a disabled field or revealing more controls. Instead, use a [Switch](/components/web/switches/).
+- Checking or unchecking elicits a change in background functionality without affecting the UI, like disabling an email notification. Instead, use a [Switch](/components/web/switches/).
 
 <table class="table table-bordered">
   <tbody>

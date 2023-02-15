@@ -37,3 +37,4 @@ jobs:
           bucket-region: us-east-1
           dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
           invalidation: /
+          no-cache: true
