@@ -9,11 +9,11 @@ images:
 tags: [mobile, usage]
 ---
 
-{{< img src="/img/mobile/bottom-navbars.svg" dark="/img/mobile/bottom-navbars-dark.svg" width="961" height="260" class="w-100" alt="Footers Example" >}}
+{{< img src="/img/mobile/bottom-navbars.svg" dark="/img/mobile/bottom-navbars-dark.svg" width="961" height="260" class="w-100" alt="Bottom Navbar Example" >}}
 
 ## Overview
 
-Bottom navigation bar allows movement between primary destinations in an app. It is positioned at the bottom of screens for convenient access. Each destination should be represented by an icon, ideally with a label.
+Bottom navigation bar allows movement between primary destinations in an app. It is fixed to the bottom of screens for convenient access. Each destination should be represented by an icon, ideally with a label.
 
 ## Usage
 

@@ -13,7 +13,7 @@ tags: [mobile, usage]
 
 ## Overview
 
-Accordions are containers that expand to reveal content progressively to limit the amount of information on the page or in a section to reduce clutter. The content can be expanded and collapsed based on the user's interest. Accordion (aka Expansion panel) — is a vertically stacked, full-width, list of options that can expand/collapse to reveal or hide more associated content.
+Accordions are containers that expand to reveal content progressively to limit the amount of information on the page or in a section to reduce clutter. The content can be expanded and collapsed based on the user's interest.
 
 ## Usage
 
@@ -38,7 +38,21 @@ Accordions are containers that expand to reveal content progressively to limit t
 
 ## Types
 
-Accordions come in two sizes to accommodate space availability on the page or within a [Card](/components/mobile/cards/). Default size should be used when accordions display directly in the main content container on the page. Compact size is useful, when the accordion displays within a smaller container (e.g. card) or smaller section of the page.
+Accordions come in two types to accommodate space availability on the page or within a [Card](/components/mobile/cards/): contained and separated.
+
+### Contained
+
+Use a contained accordion for most cases. Separate its items with a divider. This placement saves some vertical space.
+
+{{< img src="/img/mobile/accordion-contained.svg" dark="/img/mobile/accordion-contained-dark.svg" width="960" height="464" alt="Contained Accordion" loading="auto" >}}
+
+### Separated
+
+There are some cases, when you can separate accordions with white space. Use this method, when you have available space.
+
+{{< img src="/img/mobile/accordion-separated.svg" dark="/img/mobile/accordion-separated-dark.svg" width="960" height="488" alt="Separated Accordion" loading="auto" >}}
+
+
 
 
 {{< whats-changed-table >}}

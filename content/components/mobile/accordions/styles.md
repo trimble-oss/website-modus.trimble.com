@@ -11,7 +11,7 @@ tags: [mobile, styles]
 
 ## Specifications
 
-Accordion (aka expansion panel) is a vertically stacked, full-width, list of options that can expand/collapse to reveal or hide more associated content.
+An accordion (aka expansion panel) is a vertically stacked, full-width list of options that can expand/collapse to reveal or hide more associated content.
 
 - Accordions can display directly on the page or in a card container.
 - The arrow icon acts as an affordance to indicate the functionality of the accordion, and as a visual marker of the state of the accordion through its rotation and direction.
@@ -20,20 +20,6 @@ Accordion (aka expansion panel) is a vertically stacked, full-width, list of opt
 ### Anatomy
 
 {{< img src="/img/mobile/accordion-anatomy.svg" dark="/img/mobile/accordion-anatomy-dark.svg" width="960" height="397" alt="Accordion Anatomy" loading="auto" >}}
-
-### Types
-
-**Contained**
-
-Use contained Accordion for most of the cases. Separate its items by a slightly visible divider. This placement either saves some vertical space.
-
-{{< img src="/img/mobile/accordion-contained.svg" dark="/img/mobile/accordion-contained-dark.svg" width="960" height="464" alt="Contained Accordion" loading="auto" >}}
-
-**Separated**
-
-There are some cases when you can separate Accordions with whitespace. Use this method to divide when it’s needless to save vertical space.
-
-{{< img src="/img/mobile/accordion-separated.svg" dark="/img/mobile/accordion-separated-dark.svg" width="960" height="488" alt="Separated Accordion" loading="auto" >}}
 
 ### Sizing
 
@@ -49,29 +35,6 @@ Default states for Accordion are:
 
 {{< img src="/img/mobile/accordion-states.svg" dark="/img/mobile/accordion-states-dark.svg" width="960" height="288" alt="States" loading="auto" >}}
 
-### Chevron Placement
-
-Chevron icon represents the opportunity to expand/collapse Accordion item. Once Accordion was clicked, the chevron rotates to indicate the successful expansion. Further collapse returns the chevron to a previous position.
-
-Chevron could be placed both at the **left** or **right**.
-
-{{< img src="/img/mobile/accordion-chevrons.svg" dark="/img/mobile/accordion-chevrons-dark.svg" width="961" height="288" alt="Chevron Statement" loading="auto" >}}
-
-Instead of a chevron, you may use the following symbols:
-- Up / down caret
-- Plus / minus
-- Up / down arrow
-
-{{< img src="/img/mobile/accordion-chevron-alt.svg" dark="/img/mobile/accordion-chevron-alt-dark.svg" width="960" height="312" alt="Chevron Alternatives" loading="auto" >}}
-
-### Additional Icon
-
-In the case of **right-sided Accordion**, you may place additional icons to strengthen the meaning. **Use wisely** not to overload the component.
-
-{{< img src="/img/mobile/accordion-icon.svg" dark="/img/mobile/accordion-icon-dark.svg" width="960" height="400" alt="Additional Icon" loading="auto" >}}
-
-### Behavior
-
 **Expanded Items**
 
 Highlight expanded state to let a user recognize what is opened in case of multiple Accordions. There are several possible styles for the highlighting:
@@ -81,16 +44,25 @@ Highlight expanded state to let a user recognize what is opened in case of multi
 
 {{< img src="/img/mobile/accordion-expanded.svg" dark="/img/mobile/accordion-expanded-dark.svg" width="960" height=562" alt="Accordion Expanded Items" loading="auto" >}}
 
-While the elevation works well on both smooth gray and white surfaces, you may fill the Accordion expanded item's background with an appropriate Trimble fill. Fits good for white surfaces. Add outline stroke, if necessary.
+While the elevation works well on both smooth gray and white surfaces, you may fill the background of an expanded item with an appropriate Trimble color. You may also add an outline, if necessary.
 
 {{< img src="/img/mobile/accordion-expanded-2.svg" dark="/img/mobile/accordion-expanded-2-dark.svg" width="960" height="708" alt="Accordion Expanded Items" loading="auto" >}}
 
+### Chevron Placement
+
+Chevron could be placed both at the **left** or **right**.
+
+{{< img src="/img/mobile/accordion-chevrons.svg" dark="/img/mobile/accordion-chevrons-dark.svg" width="961" height="288" alt="Chevron Statement" loading="auto" >}}
+
+## Behavior
+
+- Chevron icon signal to the user that the accordion can be expanded. Once the accordion is tapped, the chevron rotates to indicate successful expansion. Collapsing the accordion by tapping again, returns the chevron to the previous position.
 - Accordions allow a single section to expand at one time, while automatically collapsing the section that loses focus (default behavior), or they allow for all sections to expand at the same time.
 - When an accordion expands and collapses, only its height should change; its width should stay consistent.
 - The expand-and-collapse functionality of an accordion is tied to the entire header of the element with additional actions being triggered only by interaction within the bounds of their related UI element.
 - Avoid “nested” accordions—that is, collapsible content within collapsible content. This type of pattern goes against UX best practices.
 
-### Editorial
+## Editorial
 
 - Keep titles to five words, if possible, to avoid wrapping.
 - Use title case and capitalize prepositions of four letters or more.
