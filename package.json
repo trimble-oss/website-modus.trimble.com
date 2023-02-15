@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@trimble-oss/modus-icons": "^1.0.1",
     "@trimbleinc/modus-bootstrap": "^1.5.5",
     "autoprefixer": "10.4.13",
     "cross-env": "7.0.3",
@@ -49,10 +50,9 @@
     "postcss-cli": "10.1.0",
     "prettier": "^2.8.4",
     "s3-deploy": "^1.4.0",
-    "stylelint": "14.16.1",
-    "stylelint-config-prettier": "9.0.4",
-    "stylelint-config-standard-scss": "6.1.0",
-    "textlint": "^13.2.0",
+    "stylelint": "15.1.0",
+    "stylelint-config-standard-scss": "7.0.1",
+    "textlint": "^13.3.0",
     "textlint-rule-common-misspellings": "^1.0.1",
     "textlint-rule-terminology": "^3.0.4"
   },

@@ -153,7 +153,7 @@ There are two button progressions you can choose from: structural and color prog
       <td>
         <div class="mb-1">
           <button class="btn btn-icon-only btn-text-dark" type="button">
-            <i class="modus-icons notranslate">gear</i>
+            <i class="modus-icons notranslate" aria-hidden="true">gear</i>
           </button>
         </div>
         <div>
@@ -162,15 +162,15 @@ There are two button progressions you can choose from: structural and color prog
             role="group"
             aria-label="Basic example">
             <button type="button" class="btn btn-icon-only btn-outline-dark" type="button">
-              <i class="modus-icons notranslate">calendar</i>
+              <i class="modus-icons notranslate" aria-hidden="true">calendar</i>
             </button>
             <button
               type="button"
               class="btn btn-icon-only btn-outline-dark active">
-              <i class="modus-icons notranslate">edit</i>
+              <i class="modus-icons notranslate" aria-hidden="true">edit</i>
             </button>
             <button type="button" class="btn btn-icon-only btn-outline-dark" type="button">
-              <i class="modus-icons notranslate">filter</i>
+              <i class="modus-icons notranslate" aria-hidden="true">filter</i>
             </button>
           </div>
         </div>

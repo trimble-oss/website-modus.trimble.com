@@ -48,14 +48,14 @@ menu:
     - name: Web
       parent: Components
       url: "/components/web/"
-      pre: "<img src='/img/icons/web.svg' width=28 height=28 class='icon' alt>"
-      post: "React, Web Components, Angular<br>for web applications."
+      pre: "<img src='/img/icons/modus-outlined/web.svg' width=28 height=28 class='icon mr-1' alt>"
+      post: "Modus component library for web-based apps and workflows."
       weight: 1
     - name: In-Field
       parent: Components
       url: "/components/in-field/"
-      pre: "<img src='/img/icons/in-field.svg' width=28 height=28 class='icon' alt>"
-      post: "High-contrast library specific<br>to applications used outdoors."
+      pre: "<img src='/img/icons/transportation/truck.svg' width=28 height=28 class='icon mr-1' alt>"
+      post: "High-contrast library specific to apps used outdoors on handheld or in-cab devices."
       weight: 2
 #    - name: Mobile
 #      parent: Components
@@ -70,9 +70,12 @@ menu:
 #     post: ""
 #     weight: 4
 
+    - Name: Icons
+      url: "https://modus-icons.trimble.com/"
+      weight: 4
     - Name: Community
       url: "/community/"
-      weight: 4
+      weight: 5
 
   start:
     - name: Designers
@@ -155,8 +158,8 @@ menu:
       url: /components/web/messages/
     - name: Modals
       url: /components/web/modals/
-    - name: Navbar
-      url: /components/web/navbar/
+    - name: Navbars
+      url: /components/web/navbars/
     - name: Pagination
       url: /components/web/pagination/
     - name: Progress Bars
@@ -219,6 +222,8 @@ menu:
       url: /components/in-field/prompts/
     - name: Radio Buttons
       url: /components/in-field/radio-buttons/
+    - name: Scrollbars
+      url: /components/in-field/scrollbars/
     - name: Segmented Controls
       url: /components/in-field/segmented-controls/
     - name: Sliders
@@ -341,11 +346,21 @@ module:
   mounts:
     - source: static
       target: static
+
     - source: assets/static/favicon.ico
       target: static/favicon.ico
 
     - source: assets/static/robots.txt
       target: static/robots.txt
+
+    - source: node_modules/@trimble-oss/modus-icons/dist/transportation/fonts/modus-icons.css
+      target: static/css/modus-icons.css
+
+    - source: node_modules/@trimble-oss/modus-icons/dist/transportation/fonts/modus-icons.woff
+      target: static/css/modus-icons.woff
+
+    - source: node_modules/@trimble-oss/modus-icons/dist/transportation/fonts/modus-icons.woff2
+      target: static/css/modus-icons.woff2
 
     - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
       target: static/js/bootstrap.bundle.min.js

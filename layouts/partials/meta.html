@@ -5,7 +5,7 @@
 <script>document.documentElement.classList.remove('no-js');</script>
 <!-- Theme Toggle  -->
 {{ $themeToggle := resources.Get "js/theme-toggle.js" }}
-{{ $themeToggleJS := slice $themeToggle | resources.Concat "js/theme-toggle.js" | resources.Minify }}
+{{ $themeToggleJS := $themeToggle | resources.Minify }}
 <script src="{{ $themeToggleJS.RelPermalink }}" fetchpriority="high"></script>
 <meta name="color-scheme" content="light dark">
 
@@ -26,7 +26,7 @@
 {{ end}}
 
 {{ if not .Params.noIcons -}}
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons&display=block">
+<link rel="stylesheet" href="/css/modus-icons.css">
 {{ else }}
 <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL}}index.xml"
   title="{{ .Site.Title }} News & Articles" />
@@ -89,8 +89,8 @@
 <!-- Show custom 'LOC' favicon for serving locally -->
 {{- if .Site.IsServer -}}
 {{ $favicon := resources.Get "/static/favicon-loc.ico" }}
-<link rel="icon" type="image/x-icon" href="{{ $favicon.RelPermalink }}" sizes="any">
+<link rel="icon alternate" type="image/x-icon" href="{{ $favicon.RelPermalink }}" sizes="any">
 {{ else }}
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon alternate" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 {{ end }}

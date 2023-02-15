@@ -20,10 +20,10 @@ Messages display low priority content directly on the page and are not dismissab
 
 <div class="d-flex flex-column">
   <div class="message message-primary">
-    <i class="modus-icons notranslate">info</i>This is a primary message
+    <i class="modus-icons notranslate" aria-hidden="true">info</i>This is a primary message
   </div>
   <div class="message message-secondary">
-    <i class="modus-icons notranslate">help</i>This is a secondary message
+    <i class="modus-icons notranslate" aria-hidden="true">help</i>This is a secondary message
   </div>
 </div>
 

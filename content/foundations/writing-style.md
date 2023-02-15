@@ -40,7 +40,7 @@ Our main references are:
 - _[The Chicago Manual of Style](https://www.chicagomanualofstyle.org/)_
 - _[The Merriam Webster Dictionary](https://www.merriam-webster.com)_
 
-The full reference for the writing style guide is located [here](https://docs.google.com/document/d/1IZTPa-BqcrOchKu8HpKDnGPqjlxNtOosmQN8ogswKGo/edit#) and maintained by TNZ Technical Publications. For more information contact Dianne MacCormick, TNZ TechPubs Team Leader.
+For detailed information on Trimble voice, tone, style and writing style guidelines for creating editorial content, please refer to the [Trimble Editorial Guidelines](https://brandfolder.com/s/7k5jr8m5ngtk5g3gmb42vm5) which can also be accessed through the [Trimble Marketing and Sales Collateral](https://brandguide.brandfolder.com/trimble/marketingandsalescollateral).
 
 ### Abbreviations
 
