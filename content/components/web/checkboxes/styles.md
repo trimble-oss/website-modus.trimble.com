@@ -15,12 +15,12 @@ tags: [styles]
 
 ## Specifications
 
-- Checkboxes use the same `:hover` and `:active` styles as the primary [Button](/components/buttons/) when checked.
+- Checkboxes use the same `:hover` and `:active` styles as the primary [Button](/components/web/buttons/) when checked.
 
 ### Behaviors
 
 - Reflects the affirmative (“yes” or “true”) of its label when checked.
-- Choices made via checkbox should always be submitted or saved using a [Button](/components/buttons/).
+- Choices made via checkbox should always be submitted or saved using a [Button](/components/web/buttons/).
 - A checkbox’s label is included in the clickable target area.
 - The default view of a set of checkboxes is having no option selected.
 

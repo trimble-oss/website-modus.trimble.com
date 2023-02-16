@@ -53,7 +53,7 @@ Used when more emphasis is needed. **Default badges can look like [Buttons](/com
 
 ### Text Badges
 
-Used to display a more subtle label. **Text badges can look like text [Buttons](/components/buttons/). Avoid using text button colors to make sure the user can tell the difference.** Do not use a text badge for warning (yellow): it does not meet the required contrast ratios for [accessibility](/foundations/accessibility/).
+Used to display a more subtle label. **Text badges can look like text [Buttons](/components/web/buttons/). Avoid using text button colors to make sure the user can tell the difference.** Do not use a text badge for warning (yellow): it does not meet the required contrast ratios for [accessibility](/foundations/accessibility/).
 
 <div class="guide-example-block">
   <div class="guide-sample">
@@ -67,7 +67,7 @@ Used to display a more subtle label. **Text badges can look like text [Buttons](
 
 ### Counter Badges
 
-Used to display up to 3 characters (usually a number in a counter). Counter badges can look like [Chips](/components/chips/), when too many characters are used. **Use a maximum of 3 characters or numbers.**
+Used to display up to 3 characters (usually a number in a counter). Counter badges can look like [Chips](/components/web/chips/), when too many characters are used. **Use a maximum of 3 characters or numbers.**
 
 <div class="guide-sample">
     <div>

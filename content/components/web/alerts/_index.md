@@ -46,6 +46,7 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
                   id="exampleInputEmail1"
                   aria-describedby="emailHelp"
                   placeholder="Enter email"
+                  autocomplete="email"
                 />
               </div>
               <div class="form-group">
@@ -55,6 +56,7 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
                   class="form-control"
                   id="exampleInputPassword1"
                   placeholder="Password"
+                  autocomplete="off"
                 />
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>

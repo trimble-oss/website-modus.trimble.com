@@ -8,6 +8,8 @@ hidden: true
 hideToc: true
 disableScrollSpy: true
 sitemap_exclude: true
+tags:
+  - search_exclude
 ---
 
 "Cookies" are pieces of information that a web site transfers to an
