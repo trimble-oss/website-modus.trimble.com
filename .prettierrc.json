@@ -5,6 +5,7 @@
     {
       "files": "*.js",
       "options": {
+        "printWidth": 140,
         "singleQuote": true
       }
     }
