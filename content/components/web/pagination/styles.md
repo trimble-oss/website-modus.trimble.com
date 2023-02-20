@@ -29,7 +29,7 @@ tags: [styles]
           <ul class="pagination pagination-sm anatomy-display-static" data-anatomy-colors="false" style="font-size: 12px">
             <li class="page-item">
               <a class="page-link" href="#" aria-label="Previous">
-                <i class="modus-icons" aria-hidden="true">chevron_left</i>
+                <i class="modus-icons notranslate" aria-hidden="true">chevron_left</i>
               </a>
             </li>
             <li class="page-item">
