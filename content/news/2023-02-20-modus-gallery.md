@@ -10,6 +10,8 @@ tags: ["modus", "gallery", "design"]
 author: Sonia Kaukonen
 blog: true
 layout: blog-post
+draft: true
+hidden: true
 ---
 
 Add the designs you created using the Modus components and patterns and check what other designers within Trimble are creating.
