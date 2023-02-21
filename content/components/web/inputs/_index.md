@@ -48,7 +48,7 @@ Input fields or text fields allow users to enter text into a UI. They typically 
     <div class="input-group">
       <input class="form-control" placeholder="Placeholder Text" id="Input4">
       <div class="input-group-append">
-        <button class="btn btn-outline-secondary">
+        <button class="btn btn-outline-secondary" type="button">
           Go
         </button>
       </div>
