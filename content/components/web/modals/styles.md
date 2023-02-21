@@ -22,14 +22,13 @@ Both header and button container should be 64px in height.
     <div class="modal show d-block ml-5 position-relative" tabindex="-1" role="dialog" style="z-index:1">
       <div class="modal-dialog show" role="document">
         <div class="modal-content float-right" style="width: 80%;">
-          <div class="modal-header anatomy-display-static" data-anatomy-colors="false" style="padding-top: 17px; padding-bottom: 18px;">
+          <div class="modal-header anatomy-display-static" data-anatomy-colors="false" style="padding-top: 17px; padding-bottom: 18px; font-size: 16px;">
             <h4 class="modal-title">Modal Header</h4>
             <button
               type="button"
               class="close"
               data-dismiss="modal"
-              aria-label="Close"
-            >
+              aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
           </div>
