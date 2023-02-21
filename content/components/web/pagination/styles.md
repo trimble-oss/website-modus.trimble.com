@@ -130,7 +130,7 @@ tags: [styles]
       <th scope="row">Large</th>
       <td class="anatomy-cell">
         <nav aria-label="..." style="width: 400px">
-          <ul class="pagination pagination-lg anatomy-display-static" data-anatomy-colors="false" style="font-size: 16px">
+          <ul class="pagination pagination-lg anatomy-display-static" data-anatomy-colors="false" style="font-size: 20px">
             <li class="page-item">
               <a class="page-link" href="#" aria-label="Previous">
                 <i class="modus-icons notranslate" aria-hidden="true">chevron_left</i>
