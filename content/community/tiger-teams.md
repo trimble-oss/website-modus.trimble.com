@@ -14,10 +14,10 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 <!-- prettier-ignore-start -->
 | Team Name                              | Team Members             |
 | -------------------------------------- | ------------------------ |
+| Accordions, Cards, Modals, & Tabs      | [Join the Tiger Team by March 8!](https://forms.gle/oAAZbyaQUdDur3qv5) |
 | Indicators & Selected States           | Calling candidates soon! |
 | Skeletons, Placeholders & Empty States | Calling candidates soon! |
 | Notifications, Alerts & Messages       | Calling candidates soon! |
-| Cards & Modals                         | Calling candidates soon! |
 | Footers                                | Calling candidates soon! |
 | High-Contrast Color Theme              | Calling candidates soon! |
 {class="table table-bordered"}
@@ -33,10 +33,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 | Microinteractions & Animations | **T. Manham**, B. Choy, J. Jyan, S. Kaukonen, T. Ortiz, C.Pop, D. Zambrano | 08/25/2022 |
 | Trimble Brand Logos | **I. Bixby**, S. Ortiz | 08/17/2022 |
 | Side Panel | **J. de Wit**, C. Cuellar, A. Galstyan, C. Pop, D. Silcock, C. Starbird  | 08/17/2022 |
-| Icon Revision & Review | **E. Gunther**, G. Assi, S. Kaukonen, T. Manham, T. Ortiz, S. Reda, L. Saenz | 07/28/2022 |
 | Accessibility | **C. Koga**, D. Bedick, A. Chammoth-Sivaraman, A. Chandroo, K. Davies, J. Gray, G. Jagadeesan, B. Kobloth, F. Kuipers, **F. Lira**, B. Mergener, **C. Oliff**, S. Paasch, A. Rodriguez, C. Rodriguez, I. Perez, S. Kaukonen, H. Sunny, S. Fahad | 04/25/2022 |
-| 3D Design Patterns | **P. Borgstein**, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, A. Komninos, J. Oczkowski, E. Pilke, S. Sidhu, D. Silcock, T. Sippola, K. Thurlow | 01/24/2022 |
-| Mobile&nbsp;Patterns | **D. Bedick**, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell | 03/12/2021 |
 {class="table table-bordered"}
 <!-- prettier-ignore-end -->
 
@@ -45,6 +42,9 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 <!-- prettier-ignore-start -->
 | Team Name            | Team Members               | Start Date  |
 | -------------------- | -------------------------- | ----------- |
+| Icon Revision & Review | **E. Gunther**, G. Assi, S. Kaukonen, T. Manham, T. Ortiz, S. Reda, L. Saenz | 07/28/2022 |
+| 3D Design Patterns | **P. Borgstein**, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, A. Komninos, J. Oczkowski, E. Pilke, S. Sidhu, D. Silcock, T. Sippola, K. Thurlow | 01/24/2022 |
+| Mobile&nbsp;Patterns | **D. Bedick**, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell | 03/12/2021 |
 | Help Menu Navigation | **C. Christison**, D. Bedick, A. Chammoth Sivaraman, M. Cowley, C. Cuellar, F. Kuipers, A. Galstyan, T. Hautalahti, M. Linja-aho, R. Pekkinen, C. Starbird, T. Stryker, K. Vander Ploeg, J. Wegerer | In Production |
 | Dark Mode            | **S. Kaukonen**, P. Borgstein, E. Gunther, M. Johns, U. Meza, K. Phillips, A. C. Sivaraman, T. Williams, J. de Wit  | In Production  |
 | Icon Implementation  | **S. Kaukonen**, E. Deleon, E. Gunther, C. Krieg, T. Manham, S. Ortiz, A. Shchegoleva, N. Vasudevan | In Production |
