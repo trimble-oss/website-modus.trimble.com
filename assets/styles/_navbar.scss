@@ -2,7 +2,7 @@
   color: #fff !important;
 }
 
-.navbar-main a {
+.navbar-main a:not(.dropdown-item) {
   color: #fff !important;
   font-weight: 600;
   font-size: 14px !important;
@@ -71,10 +71,21 @@ body[data-url^="/news/"] .navbar-nav li a[href^="/community/"] {
   border-bottom: 2px solid #90939f;
 }
 
-.navbar-main .dropdown-item {
-  min-width: 290px;
-  max-width: 320px;
-  white-space: inherit !important;
+@media (min-width: 992px) {
+  .navbar-main .dropdown-item {
+    min-width: 290px;
+    max-width: 320px;
+    white-space: inherit !important;
+  }
+  #search-by {
+    width: 240px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #search-by {
+    width: 280px;
+  }
 }
 
 .navbar-main .dropdown-item-title {

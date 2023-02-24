@@ -1,21 +1,8 @@
 {{ $currentPage := . }}
 <div class="container">
   <div class="row mt-n4 d-md-none">
-    <div class="col px-0">
-      <form class="form-group px-0" name="search">
-        <div class="input-with-icon-left">
-        <input data-search-input="" aria-label="Search" autocorrect="off" spellcheck="false" autocapitalize="off" type="search"
-          class="form-control search-mobile" name="query" placeholder="Search..." autocomplete="off"
-          title="" required>
-          <div class="input-icon">
-            {{ partial "icons/modus-outlined/search.svg" (dict "class" "text-dark opacity-75 mt-1" "width" "20" "height" "20") }}
-          </div>
-          </div>
-      </form>
-    </div>
-
-    <div class="col-1 px-1 mx-auto">
-      <button class="btn search-docs-toggle d-md-none mx-auto px-0" type="button" data-toggle="collapse"
+    <div class="col-12">
+      <button class="btn search-docs-toggle d-md-none mx-auto px-0 float-right" type="button" data-toggle="collapse"
         data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="true" aria-label="Toggle docs navigation">
         {{ partial "icons/modus-outlined/menu.svg" (dict "class" "opacity-75" "width" "30" "height" "30") }}
       </button>
