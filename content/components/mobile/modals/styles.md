@@ -15,42 +15,27 @@ tags: [mobile, styles]
 
 {{< img src="/img/mobile/modals-atoms.svg" dark="/img/mobile/modals-atoms-dark.svg" width="961" height="524" alt="Modal Atoms" loading="auto" >}}
 
-## Types
+Dialogs consist of the following elements:
 
-### Single Button
+- Header, a brief title.
+- Content area, which provides instructions.
+- Page overlay, which partially blocks out the underlying page to focus attention on the modal content.
+- Controls, which are usually [Buttons](/components/mobile/buttons/) placed on the bottom right side of the modal header. A dialog should **always include a single Primary button**. Primary button is often paired with an Outline and/or Text Only button. Primary button, representing the desired user action, should always appear to the right of other buttons.
+- Close icon button, which closes the dialog and cancels user action. **Always include a close icon button on a modal.** It should display in the top right corner.
 
-{{< img src="/img/mobile/modals-single-button.svg" dark="/img/mobile/modals-single-button-dark.svg" width="960" height="286" alt="Single Buttton Modal" loading="auto" >}}
-
-### Two Buttons
-
-{{< img src="/img/mobile/modals-two-buttons.svg" dark="/img/mobile/modals-two-buttons-dark.svg" width="960" height="286" alt="Two Butttons Modal" loading="auto" >}}
-
-### Three Buttons
-
-{{< img src="/img/mobile/modals-three-buttons.svg" dark="/img/mobile/modals-three-buttons-dark.svg" width="960" height="286" alt="Three Butttons Modal" loading="auto" >}}
-
-### Icon in the Header
-
-{{< img src="/img/mobile/modals-header-icon.svg" dark="/img/mobile/modals-header-icon-dark.svg" width="960" height="286" alt="Icon in the Header" loading="auto" >}}
-
-### Dialog with Destructive Action
-
-Buttons with destructive actions should be red: {{< color-preview hexL="#da212c" hexD="#da212c">}}
-
-{{< img src="/img/mobile/modals-destruction.svg" dark="/img/mobile/modals-destruction-dark.svg" width="960" height="286" alt="Modals with Destructive Action" loading="auto" >}}
-
-### Stacked Full-Width Button
-
-{{< img src="/img/mobile/modals-stacked-full.svg" dark="/img/mobile/modals-stacked-full-dark.svg" width="960" height="286" alt="Stacked Full-Width Button" loading="auto" >}}
-
-### Stacked Full-Width with a Single Button
-
-{{< img src="/img/mobile/modals-stacked-full-single.svg" dark="/img/mobile/modals-stacked-full-single-dark.svg" width="960" height="286" alt="Stacked Full-Width with a Single Button" loading="auto" >}}
-
-### Modal with Inputs
-
-{{< img src="/img/mobile/modals-inputs.svg" dark="/img/mobile/modals-inputs-dark.svg" width="960" height="286" alt="Modal with Inputs" loading="auto" >}}
-
-## Sizing
+### Sizing
 
 {{< img src="/img/mobile/modals-sizing.svg" dark="/img/mobile/modals-sizing-dark.svg" width="960" height="286" alt="Dialog Sizing" loading="auto" >}}
+
+### Behaviors
+
+- Dialogs are usually activated by user actions (such as activating a button) but may also be the result of a timed event (such as a session timeout warning) or other events.
+- Dialogs can only be closed by either choosing an action represented by a button (e.g., Save or Cancel) or by clicking the Close icon. They cannot be dismissed by clicking outside of the modal.
+- Once a dialog reaches its maximum height, the header will remain fixed and content will scroll within the container. Scrolling within a modal should be discouraged: avoid extensive copy or many elements.
+- Dialogs are centered horizontally and vertically in the viewport.
+
+### Editorial
+
+- Use [title case]() for titles, unless the title is phrased as a question (e.g. Are you sure want to continue?). Use sentence case for questions.
+- Titles should clearly describe what’s inside the modal and the action required. Consider using words from the context of the page that launched the modal.
+- Content can scroll in the modal, if necessary. Avoid long copy in modals.

@@ -27,3 +27,12 @@ tags: [mobile, styles]
 ### Sizing
 
 {{< img src="/img/mobile/messages-sizing.svg" dark="/img/mobile//messages-sizing-dark.svg" width="960" height="311" alt="Messages Sizing" loading="auto" >}}
+
+### Behaviors
+
+- Messages should remain static on the page. They should not be dismissible.
+
+### Editorial
+
+- Messages should be brief, full sentences, with proper punctuation.
+- They should provide the user with helpful, contextual information about a possible action or a set of data.

@@ -29,6 +29,30 @@ Chips represent a complex piece of information in a compact form, such as an ent
 
 - There is only one option.
 
+## Types
+
+Common types include Input and Filter Chips. They are available in both solid and outline variants.
+
+### Input Chips (Solid)
+
+{{< img src="/img/mobile/chips-input-solid.svg" dark="/img/mobile/chips-input-solid-dark.svg" width="961" height="128" alt="Input Chips Solid" loading="auto" >}}
+
+### Input Chips (Outlined)
+
+{{< img src="/img/mobile/chips-outline.svg" dark="/img/mobile/chips-outline-dark.svg" width="961" height="128" alt="Input Chips Outlined" loading="auto" >}}
+
+### Filter Chips (Solid)
+
+Input chips display information used in fields, such as an entity or different attributes.
+
+{{< img src="/img/mobile/chips-filter-solid.svg" dark="/img/mobile/chips-filter-solid-dark.svg" width="961" height="128" alt="Filter Chips Solid" loading="auto" >}}
+
+### Filter Chips (Outlined)
+
+Input chips display information used in fields, such as an entity or different attributes.
+
+{{< img src="/img/mobile/chips-filter-outlined.svg" dark="/img/mobile/chips-filter-outlined-dark.svg" width="961" height="128" alt="Filter Chips Outlined" loading="auto" >}}
+
 {{< whats-changed-table >}}
 
 | Date       | Version | Notes                               | Contributors |
