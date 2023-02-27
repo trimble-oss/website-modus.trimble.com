@@ -14,16 +14,16 @@ tags: [styles]
 
 ## Specifications
 
-<script>
-$(function () {
-  $('[data-toggle="popover"]').popover('show')
-})
-</script>
-
 There are two sizes of Chips:
 
 - By default, Chips should have a height of 30px, border radius 16px and a font size 13px
 - Smaller variant will have a height of 24px, border radius 16px and a font size 12px
+
+<style>
+[data-theme=dark] .chip-solid:not(:disabled):not(.disabled):not(.error):active, [data-theme=dark] .chip-solid:not(:disabled):not(.disabled):not(.error).active {
+  background-color: #019AEB!important;
+}
+</style>
 
 <table class="table table-bordered w-100" style="width:fit-content">
   <thead class="thead-light">
@@ -43,7 +43,7 @@ There are two sizes of Chips:
         </div>
         <div class="chip-text">Clifford</div>
         <div class="chip-delete-right">
-          <i class="modus-icons modus-icon notranslate">close</i>
+          <i class="modus-icons modus-icon notranslate" aria-hidden="true">close</i>
         </div>
       </div>
       </td>
