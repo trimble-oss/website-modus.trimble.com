@@ -39,6 +39,13 @@ There are three types of badges: default, text, and counter badges. They are ava
 
 Used when more emphasis is needed. **Default badges can look like [Buttons](/components/web/buttons/). Avoid using button colors to make sure the user can tell the difference.**
 
+<style>
+[data-theme=light] .badge-warning {
+  color: #252A2E;
+  background-color: #FBAD26;
+}
+</style>
+
 <div class="guide-example-block">
   <div class="guide-sample">
     <span class="badge badge-primary">Primary</span>

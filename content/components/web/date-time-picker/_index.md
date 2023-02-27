@@ -11,6 +11,7 @@ aliases:
   - "/components/date-picker/"
   - "/components/date-time-picker/"
 tags: [usage]
+webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inputs-date-picker--default
 ---
 
 ## Overview

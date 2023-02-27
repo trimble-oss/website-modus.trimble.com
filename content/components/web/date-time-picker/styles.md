@@ -7,6 +7,7 @@ componentsWeb: true
 images:
   - "/img/components/headers/date-time-picker.png"
 tags: [styles]
+webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inputs-date-picker--default
 ---
 
 ## Specifications
