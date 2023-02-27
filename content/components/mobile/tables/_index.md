@@ -13,9 +13,7 @@ tags: [mobile, usage]
 
 ## Overview
 
-Tables are largely based on the List component.  Tables can be stacked horizontally and vertically n multiple rows and columns, whereas Lists can only be stacked vertically in a single column.
-
-When using the Figma component, it will be necessary to adjust the width and height fill options, depending on your usage of the table.
+Tables are largely based on the [List](/components/mobile/lists/) component.  Tables can be stacked horizontally and vertically in multiple rows and columns, whereas [Lists](/components/mobile/lists/) can only be stacked vertically in a single column.
 
 ## Usage
 

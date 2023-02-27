@@ -8,7 +8,7 @@ images:
   - "/img/mobile/headers/tabs.png"
 tags: [mobile, usage]
 ---
-*Designers should use segmented controls when available due to usability issues with tabs. If that is not feasible, please follow the specifications below.*
+*Designers should use [Segmented Controls](/components/mobile/segmented-controls/) when available due to usability issues with tabs. If that is not feasible, please follow the specifications below.*
 
 {{< img src="/img/mobile/tabs.svg" dark="/img/mobile/tabs-dark.svg" width="961" height="260" class="w-100" alt="Tabs Example" >}}
 
@@ -26,7 +26,7 @@ Tabs are a set of layered sections of content, known as tab panels, that display
 
 **Don’t use when**
 
-- You need primary means of navigation. (See footers)
+- You need primary means of navigation. Use [Bottom Navbar](/components/mobile/bottom-navbars/) instead.
 - Grouping unrelated content.
 - You want to organize content that needs to be seen by the user at the same time.
 - You want to hide primary user action element.

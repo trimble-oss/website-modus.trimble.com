@@ -11,6 +11,8 @@ aliases:
 tags: [mobile, usage]
 ---
 
+
+
 ## Overview
 
 Toasts display low priority, event-driven feedback which usually doesn’t require any user interaction. They appear for a set time and disappear automatically. They are appropriate for informing the user about action confirmations without being intrusive or infer unnecessary attention (e.g. "Message Sent" or "Changes Saved").
