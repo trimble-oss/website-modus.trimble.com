@@ -9,7 +9,7 @@ images:
 tags: [mobile, usage]
 ---
 
-{{< img src="/img/mobile/progress-indicators.svg" dark="/img/mobile/progress-indicators-dark.svg" width="961" height="260" class="w-100" alt="Progress Indicators" >}}
+{{< img src="/img/mobile/spinners.svg" dark="/img/mobile/spinners-dark.svg" width="961" height="260" class="w-100" alt="Progress Indicators" >}}
 
 ## Overview
 

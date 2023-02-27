@@ -11,13 +11,6 @@ tags: [mobile, styles]
 
 ## Specifications
 
-There are two sizes of chips:
-
-- Default: 48px height and 16px font size
-- Smaller variant: 32px height and 14px font size
-
-{{< img src="/img/mobile/chips-specifications.svg" dark="/img/mobile/chips-specifications-dark.svg" width="960" height="128" alt="Chips Specifications" loading="auto" >}}
-
 ### States
 
 Chips can have the following states:
@@ -31,6 +24,11 @@ Chips can have the following states:
 {{< img src="/img/mobile/chips-states.svg" dark="/img/mobile/chips-states-dark.svg" width="960" height="128" alt="Chips States" loading="auto" >}}
 
 ### Sizes
+
+There are two sizes of chips:
+
+- Default: 48px height and 16px font size
+- Smaller variant: 32px height and 14px font size
 
 {{< img src="/img/mobile/chips-sizing.svg" dark="/img/mobile/chips-sizing-dark.svg" width="961" height="128" alt="Chips Sizing" loading="auto" >}}
 

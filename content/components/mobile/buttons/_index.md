@@ -65,14 +65,14 @@ There are two button progressions you can choose from: structural and color prog
   </thead>
   <tbody>
     <tr>
-      <td><img src="/img/mobile/default-button.svg" alt="Default Button"></td>
+      <td><img src="/img/mobile/button-default.svg" alt="Default Button"></td>
       <td>High</td>
       <td>
         Use to draw attention to the primary action on a screen. You may choose a Default or Pill style for your primary buttons, but NOT BOTH.
       </td>
     </tr>
     <tr>
-      <td><img src="/img/mobile/stacked-button.svg" alt="Stacked Mobile Button"></td>
+      <td><img src="/img/mobile/button.svg" alt="Stacked Mobile Button"></td>
       <td>Medium</td>
       <td>
        Use for secondary actions on a screen. Outline-style buttons work well on colored, dark, or image backgrounds. Consider how the style of an outline button might better suit the page.

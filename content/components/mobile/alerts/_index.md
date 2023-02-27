@@ -10,6 +10,8 @@ aliases:
 tags: [mobile, usage]
 ---
 
+{{< img src="/img/mobile/alerts.svg" dark="/img/mobile/alerts-dark.svg" width="961" height="260" class="w-100" alt="Alerts Examples" >}}
+
 ## Overview
 
 Alerts display in direct response to a user action (e.g. clicking the Submit button on a form) and can be informational or identify actions required on that page before the user can continue. They appear at the top of the content area, push other content down, and persist until the user dismisses them or navigates away from the page. There are four types of notifications: error, warning, success, and informational.
