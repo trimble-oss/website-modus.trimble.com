@@ -9,6 +9,7 @@ images:
 component: date-time-picker
 keywords: menu
 tags: [accessibility]
+webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inputs-date-picker--default
 ---
 
 ## Accessibility
