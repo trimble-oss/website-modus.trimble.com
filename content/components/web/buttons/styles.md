@@ -34,7 +34,7 @@ tags: [styles]
     <tr>
       <th scope="row">Small</th>
       <td class="anatomy-cell">
-        <button
+        <button type="button"
           data-anatomy-colors="false"
           class="btn btn-sm btn-primary anatomy-display-static"
         >
@@ -47,7 +47,7 @@ tags: [styles]
     <tr>
       <th scope="row">Default</th>
       <td class="anatomy-cell">
-        <button
+        <button type="button"
           data-anatomy-colors="false"
           class="btn btn-primary anatomy-display-static"
         >
@@ -60,7 +60,7 @@ tags: [styles]
     <tr>
       <th scope="row">Large</th>
       <td class="anatomy-cell">
-        <button
+        <button type="button"
           data-anatomy-colors="false"
           class="btn btn-lg btn-primary anatomy-display-static"
         >
@@ -216,8 +216,8 @@ All buttons (including icon buttons) should have the following states:
         <tr>
           <th scope="row">Default</th>
           <td>
-            <button class="btn btn-icon-only btn-text-dark">
-            <i class="modus-icons notranslate" aria-hidden="true">gear</i>
+            <button class="btn btn-icon-only btn-text-dark" type="button">
+            <i class="modus-icons notranslate" aria-hidden="true">settings</i>
             </button>
           </td>
           <td>
@@ -227,7 +227,7 @@ All buttons (including icon buttons) should have the following states:
         <tr>
           <th scope="row">Hover</th>
           <td><button class="btn hover btn-icon-only btn-text-dark">
-            <i class="modus-icons notranslate" aria-hidden="true">gear</i>
+            <i class="modus-icons notranslate" aria-hidden="true">settings</i>
           </button></td>
           <td><button class="btn hover btn-danger" type="button">Button</button></td>
         </tr>
@@ -235,7 +235,7 @@ All buttons (including icon buttons) should have the following states:
           <th scope="row">Pressed</th>
           <td>
             <button class="btn display-active btn-icon-only btn-text-dark">
-            <i class="modus-icons notranslate" aria-hidden="true">gear</i>
+            <i class="modus-icons notranslate" aria-hidden="true">settings</i>
           </button>
           </td>
           <td>
@@ -246,7 +246,7 @@ All buttons (including icon buttons) should have the following states:
           <th scope="row">Disabled</th>
           <td>
           <button disabled class="btn btn-icon-only btn-text-dark">
-            <i class="modus-icons notranslate" aria-hidden="true">gear</i>
+            <i class="modus-icons notranslate" aria-hidden="true">settings</i>
           </button></td>
           <td><button disabled class="btn btn-danger" type="button">Button</button></td>
         </tr>
