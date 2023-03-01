@@ -13,7 +13,7 @@ tags: [mobile, usage]
 
 ## Overview
 
-Tables are largely based on the [List](/components/mobile/lists/) component.  Tables can be stacked horizontally and vertically in multiple rows and columns, whereas [Lists](/components/mobile/lists/) can only be stacked vertically in a single column.
+Tables are largely based on the [List](/components/mobile/lists/) component. Tables can be stacked horizontally and vertically in multiple rows and columns, whereas [Lists](/components/mobile/lists/) can only be stacked vertically in a single column.
 
 ## Usage
 
@@ -30,11 +30,10 @@ Tables are largely based on the [List](/components/mobile/lists/) component.  Ta
 - A more detailed amount of information needs to be displayed by default.
 - There is more than one piece of information within a cell.
 
-
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

@@ -8,7 +8,8 @@ images:
   - "/img/mobile/headers/tabs.png"
 tags: [mobile, usage]
 ---
-*Designers should use [Segmented Controls](/components/mobile/segmented-controls/) when available due to usability issues with tabs. If that is not feasible, please follow the specifications below.*
+
+_Designers should use [Segmented Controls](/components/mobile/segmented-controls/) when available due to usability issues with tabs. If that is not feasible, please follow the specifications below._
 
 {{< img src="/img/mobile/tabs.svg" dark="/img/mobile/tabs-dark.svg" width="961" height="260" class="w-100" alt="Tabs Example" >}}
 
@@ -32,12 +33,10 @@ Tabs are a set of layered sections of content, known as tab panels, that display
 - You want to hide primary user action element.
 - You want to hide critical content.
 
-
-
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

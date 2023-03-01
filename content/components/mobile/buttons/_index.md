@@ -3,12 +3,10 @@ title: "Buttons"
 layout: "single"
 description: "Buttons are interactive elements that trigger an action or an event."
 components: true
-component: Butttons
+component: Buttons
 images:
   - "/img/mobile/headers/buttons.png"
 tags: [mobile, usage]
-aliases:
-  - button
 ---
 
 {{< img src="/img/mobile/buttons.svg" dark="/img/mobile/buttons-dark.svg" width="961" height="260" class="w-100" alt="Buttons Example" >}}

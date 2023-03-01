@@ -4,9 +4,7 @@ layout: "single"
 description: "Alerts provide contextual information about system status that persists until dismissed or resolved."
 components: true
 images:
-  - "/img/components/headers/alerts.png"
-aliases:
-  - "/components/alerts/"
+  - "/img/mobile/headers/alerts.png"
 tags: [mobile, usage]
 ---
 
@@ -24,8 +22,8 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
 
 **Don’t use when**
 
-- Providing a user with a message related to a page-level or out-of-view event, like completion of a report generation. Instead, use a [Toast](/components/web/toasts/).
-- Providing a user with a system-level message, like a network outage or browser incompatibility. Instead, use a [Modal](/components/web/modals/)
+- Providing a user with a message related to a page-level or out-of-view event, like completion of a report generation. Instead, use a [Toast](/components/mobile/toasts/).
+- Providing a user with a system-level message, like a network outage or browser incompatibility. Instead, use a [Modal](/components/mobile/modals/)
 - Attaching an error message to an input.
 
 {{< whats-changed-table >}}

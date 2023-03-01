@@ -24,7 +24,6 @@ tags: [mobile, usage]
 
 - Gathering and validating user data.
 
-
 {{< whats-changed-table >}}
 
 | Date       | Version | Notes                               | Contributors |
