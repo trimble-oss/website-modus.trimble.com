@@ -81,16 +81,6 @@
   stroke-linecap: round;
 }
 
-[data-theme="dark"] .theme-toggle {
-  --icon-fill: hsl(210deg 10% 70%);
-}
-
-@media (hover: none) {
-  .theme-toggle {
-    --size: 48px;
-  }
-}
-
 html[data-theme="light"] {
   color-scheme: light;
 }
