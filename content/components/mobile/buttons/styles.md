@@ -39,13 +39,13 @@ States for Buttons in Mobile are:
 
 Floating action buttons (FABs) are used for the primary or most common action on a screen. They appear at the highest level "floating" above screen content thus they include a dropshadow to evoke a sense of depth. Circular & pill shapes are often used for these buttons. Recommended sizes are 56px and 48px. Secondary color may also be used if necessary.
 
-{{< img src="/img/mobile/fab-button-states.svg" dark="/img/mobile/fab-button-states-dark.svg" width="960" height="214" alt="Floating Action Button" loading="auto" >}}
+{{< img src="/img/mobile/fab-button-states.svg" dark="/img/mobile/button-fab-states-dark.svg" width="960" height="214" alt="Floating Action Button" loading="auto" >}}
 
 #### Placement
 
 FABs can attach to top or bottom of app bars and the edge of some components.
 
-{{< img src="/img/mobile/fab-button-placement.svg" dark="/img/mobile/fab-button-placement-dark.svg" width="960" height="489" alt="Floating Action Button Placement" loading="auto" >}}
+{{< img src="/img/mobile/button-fab-placement.svg" dark="/img/mobile/button-fab-placement-dark.svg" width="960" height="489" alt="Floating Action Button Placement" loading="auto" >}}
 
 ### Editorial
 
