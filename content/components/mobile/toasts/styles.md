@@ -20,7 +20,7 @@ tags: [mobile, styles]
 
 **Toasts**
 
-{{< img src="/img/mobile/toast-specs.svg" dark="/img/mobile/toast-specs.svg" width="961" height="260" class="w-100" alt="Toast " >}}
+{{< img src="/img/mobile/toast-specs.svg" dark="/img/mobile/toast-specs.svg" width="961" height="260" class="w-100" alt="Toast" >}}
 
 - Appear on the bottom, relative to the bottom edge of the browser/ device.
 - Fill as much horizontal space as needed.
@@ -31,6 +31,7 @@ tags: [mobile, styles]
 
 **Basic Toasts**
 
+{{< img src="/img/mobile/toasts-example.svg" dark="/img/mobile/toasts-example-dark.svg" width="961" height="260" class="w-100" alt="Toasts" >}}
 
 ## Behaviors
 

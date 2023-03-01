@@ -9,7 +9,6 @@ images:
 tags: [mobile, accessibility]
 ---
 
-
 ### Accessibility
 
 - Availability of accordion content to assistive technology requires the use of `aria-controls` and toggling `aria-expanded` as regions are expanded and collapsed.

@@ -7,9 +7,8 @@ component: Badges
 images:
   - "/img/mobile/headers/badges.png"
 tags: [mobile, usage]
-aliases:
-  - badge
 ---
+
 {{< img src="/img/mobile/badges.svg" dark="/img/mobile/badges-dark.svg" width="961" height="260" class="w-100" alt="Badges Example" >}}
 
 ## Overview

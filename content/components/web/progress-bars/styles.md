@@ -33,8 +33,10 @@ tags: [styles]
   </div>
 </div>
 
-Specs: Height: `16px`, Fill color: <span class="theme-l">`#0063a3`</span> <span class="theme-d">`#019aeb`</span>, background-color: <span class="theme-l">`#fff`</span><span class="theme-d">`#252a2e`</span>,
-, border: 1px solid `#6a6e79`
+- Height: 16px
+- Fill color: <span class="theme-l">#0063a3</span> <span class="theme-d">#019aeb</span>
+- Background color: <span class="theme-l">#ffffff</span><span class="theme-d">#252a2e</span>
+- Border: 1px solid #6a6e79
 
 ### Small variant
 

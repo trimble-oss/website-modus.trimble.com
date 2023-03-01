@@ -277,8 +277,8 @@ menu:
       url: /components/mobile/sliders/
     - name: Spinners
       url: /components/mobile/spinners/
-    - name: Status Bars
-      url: /components/mobile/status-bars/
+#    - name: Status Bars
+#      url: /components/mobile/status-bars/
     - name: Switches
       url: /components/mobile/switches/
     - name: Tabs

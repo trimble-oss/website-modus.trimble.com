@@ -11,6 +11,8 @@ aliases:
 tags: [mobile, usage]
 ---
 
+{{< img src="/img/mobile/toasts.svg" dark="/img/mobile/toasts-dark.svg" width="961" height="260" class="w-100" alt="Toast">}}
+
 ## Overview
 
 Toasts display low priority, event-driven feedback which usually doesn’t require any user interaction. They appear for a set time and disappear automatically. They are appropriate for informing the user about action confirmations without being intrusive or infer unnecessary attention (e.g. "Message Sent" or "Changes Saved").

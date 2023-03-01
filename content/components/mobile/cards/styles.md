@@ -28,25 +28,6 @@ A Card may contain any of the following elements (with the minimum of one), but 
 
 Card layouts may vary to support the content within. The dimensions of a card will depend on the implementation of the card and as well as it's content and use case. Apply custom heights and width to meet product requirements.
 
-<table class="table table-bordered">
-  <tr>
-    <td class="w-50 text-center">
-    {{< img src="/img/components/card_04.svg" dark="/img/components/card_04-dark.svg" class="border bg-light mx-auto text-center mt-2" width="302" alt="card example" >}}
-    </td>
-    <td class="w-50 text-center">
-    {{< img src="/img/components/card_03.svg" dark="/img/components/card_03-dark.svg" class="border bg-light mx-auto text-center mt-2" width="302" alt="card example" >}}
-    </td>
-  </tr>
-  <tr>
-    <td class="do">
-    <strong class="text-success">Do</strong> keep cards consistent for easy scanning.
-    </td>
-    <td class="dont">
-      <strong class="text-danger">Don't</strong> organize content in different ways when grouped together.
-    </td>
-  </tr>
-</table>
-
 ## Layout Examples
 
 {{< img src="/img/mobile/card-variation.svg" dark="/img/mobile/card-variation-dark.svg" width="962" height="1699" alt="Card Variation" loading="auto" >}}

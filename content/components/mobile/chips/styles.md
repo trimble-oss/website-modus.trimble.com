@@ -11,13 +11,6 @@ tags: [mobile, styles]
 
 ## Specifications
 
-There are two sizes of Chips:
-
-- By default, Chips should have a height of 48px and 16px font size
-- Smaller variant will have a height of 32px, 14px font size
-
-{{< img src="/img/mobile/chips-specifications.svg" dark="/img/mobile/chips-specifications-dark.svg" width="960" height="128" alt="Chips Specifications" loading="auto" >}}
-
 ### States
 
 Chips can have the following states:
@@ -32,26 +25,14 @@ Chips can have the following states:
 
 ### Sizes
 
+There are two sizes of chips:
+
+- Default: 48px height and 16px font size
+- Smaller variant: 32px height and 14px font size
+
 {{< img src="/img/mobile/chips-sizing.svg" dark="/img/mobile/chips-sizing-dark.svg" width="961" height="128" alt="Chips Sizing" loading="auto" >}}
 
-### Types
+### Behaviors
 
-Common types include Input and Filter Chips. The are available in both solid and outline variants
-
-#### Input Chips (Solid)
-
-{{< img src="/img/mobile/chips-input-solid.svg" dark="/img/mobile/chips-input-solid-dark.svg" width="961" height="128" alt="Input Chips Solid" loading="auto" >}}
-
-#### Input Chips (Outlined)
-
-{{< img src="/img/mobile/chips-input-outlined.svg" dark="/img/mobile/chips-input-outlined-dark.svg" width="961" height="128" alt="Input Chips Outlined" loading="auto" >}}
-
-#### Filter Chips (Solid)
-Input chips display information used in fields, such as an entity or different attributes.
-
-{{< img src="/img/mobile/chips-filter-solid.svg" dark="/img/mobile/chips-filter-solid-dark.svg" width="961" height="128" alt="Filter Chips Solid" loading="auto" >}}
-
-#### Filter Chips (Outlined)
-Input chips display information used in fields, such as an entity or different attributes.
-
-{{< img src="/img/mobile/chips-filter-outlined.svg" dark="/img/mobile/chips-filter-outlined-dark.svg" width="961" height="128" alt="Filter Chips Outlined" loading="auto" >}}
+- Tap a chip to select it.
+- Multiple chips can be selected or unselected.

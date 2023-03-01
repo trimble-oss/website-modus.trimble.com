@@ -9,7 +9,9 @@ tags: [mobile, styles]
 
 ## Specifications
 
-There are two sizes of checkboxes,  default (24 x 24) & large (32 x 32)
+There are two sizes of checkboxes:
+- Default (24px x 24px)
+- Large (32px x 32px)
 
 {{< img src="/img/mobile/checkboxes-specifications.svg" dark="/img/mobile/checkboxes-specifications-dark.svg" width="962" height="120" alt="Checkboxes Specifications" loading="auto" >}}
 

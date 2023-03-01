@@ -7,8 +7,6 @@ component: switches
 images:
   - "/img/mobile/headers/switches.png"
 tags: [mobile, usage]
-aliases:
-  - switch
 ---
 
 {{< img src="/img/mobile/switches.svg" dark="/img/mobile/switches-dark.svg" width="961" height="260" class="w-100" alt="Switches Example" >}}
@@ -36,11 +34,10 @@ Switches are used to toggle functionality. Switches are selection controls that 
 
 {{< img src="/img/mobile/switches-list.svg" dark="/img/mobile/switches-list-dark.svg" width="1087" height="239" alt="Switches List Item Example" loading="auto" >}}
 
-
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}
