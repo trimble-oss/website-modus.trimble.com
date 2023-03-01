@@ -133,20 +133,16 @@ const drawHover = (e, perm) => {
   }
 
   const html = `
-      <div class="${classes}" style="width: ${w}px; height: ${h}px; top: ${m.top + pos.top}px; left: ${
-    m.left + pos.left
-  }px; ${extraCSS}">
-        <div class="hover-div-inner" style="width: ${w - (p.left + p.right)}px; height: ${
-    h - (p.top + p.bottom)
-  }px; top: ${p.top - 2}px; left: ${p.left - 2}px"></div>
+      <div class="${classes}" style="width: ${w}px; height: ${h}px; top: ${m.top + pos.top}px; left: ${m.left + pos.left}px; ${extraCSS}">
+        <div class="hover-div-inner" style="width: ${w - (p.left + p.right)}px; height: ${h - (p.top + p.bottom)}px; top: ${
+    p.top - 2
+  }px; left: ${p.left - 2}px"></div>
         <div style="position: relative; ${p.top <= 0 ? 'display: none' : ''}">
           <div class="hover-line-padding-vert" style="height: ${p.top}px; top: -2px; left: ${w / 2 - 2}px"></div>
           <span class="hover-padding-text" style="top: -18px; left: ${w / 2 - 2}px">${p.top}px</span>
         </div>
         <div style="position: relative; ${p.bottom <= 0 ? 'display: none' : ''}">
-          <div class="hover-line-padding-vert" style="height: ${p.bottom}px; top: ${h - p.bottom - 2}px; left: ${
-    w / 2 - 2
-  }px"></div>
+          <div class="hover-line-padding-vert" style="height: ${p.bottom}px; top: ${h - p.bottom - 2}px; left: ${w / 2 - 2}px"></div>
           <span class="hover-padding-text" style="top: ${h - 2}px; left: ${w / 2 - 2}px">${p.bottom}px</span>
         </div>
         <div style="position: relative; ${p.left <= 0 ? 'display: none' : ''}">
@@ -154,50 +150,30 @@ const drawHover = (e, perm) => {
           <span class="hover-padding-text" style="top: ${h / 2 - 10}px; left: -30px">${p.left}px</span>
         </div>
         <div style="position: relative; ${p.right <= 0 ? 'display: none' : ''}">
-          <div class="hover-line-padding-horz" style="width: ${p.right}px; top: ${h / 2 - 2}px; left: ${
-    w - p.right - 2
-  }px"></div>
+          <div class="hover-line-padding-horz" style="width: ${p.right}px; top: ${h / 2 - 2}px; left: ${w - p.right - 2}px"></div>
           <span class="hover-padding-text" style="top: ${h / 2 - 10}px; left: ${w}px">${p.right}px</span>
         </div>
         <div style="position: relative; ${m.top <= 0 ? 'display: none' : ''}">
-          <div class="hover-div-margin" style="width: ${w}px; height: ${m.top}px; top: ${
-    -m.top - 2
-  }px; left: -2px"></div>
-          <div class="hover-line-margin-vert" style="height: ${m.top}px; top: ${-m.top - 2}px; left: ${
-    2 * (w / 3) - 2
-  }px"></div>
+          <div class="hover-div-margin" style="width: ${w}px; height: ${m.top}px; top: ${-m.top - 2}px; left: -2px"></div>
+          <div class="hover-line-margin-vert" style="height: ${m.top}px; top: ${-m.top - 2}px; left: ${2 * (w / 3) - 2}px"></div>
           <span class="hover-margin-text" style="top: ${-m.top - 18}px; left: ${2 * (w / 3) - 2}px">${m.top}px</span>
         </div>
         <div style="position: relative; ${m.bottom <= 0 ? 'display: none' : ''}">
           <div class="hover-div-margin" style="width: ${w}px; height: ${m.bottom}px; top: ${h - 2}px; left: -2px"></div>
-          <div class="hover-line-margin-vert" style="height: ${m.bottom}px; top: ${h - 2}px; left: ${
-    2 * (w / 3) - 2
-  }px"></div>
-          <span class="hover-margin-text" style="top: ${h + m.bottom - 2}px; left: ${2 * (w / 3) - 2}px">${
-    m.bottom
-  }px</span>
+          <div class="hover-line-margin-vert" style="height: ${m.bottom}px; top: ${h - 2}px; left: ${2 * (w / 3) - 2}px"></div>
+          <span class="hover-margin-text" style="top: ${h + m.bottom - 2}px; left: ${2 * (w / 3) - 2}px">${m.bottom}px</span>
         </div>
         <div style="position: relative; ${m.left <= 0 ? 'display: none' : ''}">
-          <div class="hover-div-margin" style="width: ${m.left}px; height: ${h}px; top: -2px; left: ${
-    -m.left - 2
-  }px"></div>
-          <div class="hover-line-margin-horz" style="width: ${m.left}px; top: ${
-    3 * (h / 4) - 2
-  }px; left: ${-m.left}px"></div>
+          <div class="hover-div-margin" style="width: ${m.left}px; height: ${h}px; top: -2px; left: ${-m.left - 2}px"></div>
+          <div class="hover-line-margin-horz" style="width: ${m.left}px; top: ${3 * (h / 4) - 2}px; left: ${-m.left}px"></div>
           <span class="hover-margin-text" style="top: ${3 * (h / 4) - 10}px; left: ${-m.left - 30}px">${m.left}px</span>
         </div>
         <div style="position: relative; ${m.right <= 0 ? 'display: none' : ''}">
           <div class="hover-div-margin" style="width: ${m.right}px; height: ${h}px; top: -2px; left: ${w - 2}px"></div>
-          <div class="hover-line-margin-horz" style="width: ${m.right}px; top: ${
-    3 * (h / 4) - 2
-  }px; left: ${w}px"></div>
-          <span class="hover-margin-text" style="top: ${3 * (h / 4) - 10}px; left: ${w + m.right - 2}px">${
-    m.right
-  }px</span>
+          <div class="hover-line-margin-horz" style="width: ${m.right}px; top: ${3 * (h / 4) - 2}px; left: ${w}px"></div>
+          <span class="hover-margin-text" style="top: ${3 * (h / 4) - 10}px; left: ${w + m.right - 2}px">${m.right}px</span>
         </div>
-        <div class="hover-line-height" style="height: ${h}px; width: 10px; top: -2px; left: ${
-    w + p.right + m.right + 7
-  }px"></div>
+        <div class="hover-line-height" style="height: ${h}px; width: 10px; top: -2px; left: ${w + p.right + m.right + 7}px"></div>
         <span class="hover-height-text" style="top: ${h / 2 - 10}px; left: ${w + p.right + m.right + 19}px">${h}px</div>
       </div>
     `;
@@ -213,32 +189,20 @@ const drawHover = (e, perm) => {
         </div>
         <div style="position: relative; ${p.right <= 0 ? 'display: none' : ''}">
           <div class="hover-padding-horz" style="width: ${p.right}px; right: 0; height: ${h - 2}px;"></div>
-          <div class="hover-line-padding-horz" style="width: ${p.right}px; top: ${h / 2 - 2}px; left: ${
-    w - p.right - 2
-  }px"></div>
+          <div class="hover-line-padding-horz" style="width: ${p.right}px; top: ${h / 2 - 2}px; left: ${w - p.right - 2}px"></div>
           <span class="hover-padding-text" style="top: ${h / 2 - 10}px; left: ${w}px">${p.right}px</span>
         </div>
         <div style="position: relative; ${m.left <= 0 ? 'display: none' : ''}">
-          <div class="hover-div-margin" style="width: ${m.left}px; height: ${h}px; top: -1px; left: ${
-    -m.left - 1
-  }px"></div>
-          <div class="hover-line-margin-horz" style="width: ${m.left}px; top: ${
-    3 * (h / 4) - 2
-  }px; left: ${-m.left}px"></div>
+          <div class="hover-div-margin" style="width: ${m.left}px; height: ${h}px; top: -1px; left: ${-m.left - 1}px"></div>
+          <div class="hover-line-margin-horz" style="width: ${m.left}px; top: ${3 * (h / 4) - 2}px; left: ${-m.left}px"></div>
           <span class="hover-margin-text" style="top: ${3 * (h / 4) - 10}px; left: ${-m.left - 30}px">${m.left}px</span>
         </div>
         <div style="position: relative; ${m.right <= 0 ? 'display: none' : ''}">
           <div class="hover-div-margin" style="width: ${m.right}px; height: ${h}px; top: -1px; left: ${w - 2}px"></div>
-          <div class="hover-line-margin-horz" style="width: ${m.right}px; top: ${
-    3 * (h / 4) - 2
-  }px; left: ${w}px"></div>
-          <span class="hover-margin-text" style="top: ${3 * (h / 4) - 10}px; left: ${w + m.right - 2}px">${
-    m.right
-  }px</span>
+          <div class="hover-line-margin-horz" style="width: ${m.right}px; top: ${3 * (h / 4) - 2}px; left: ${w}px"></div>
+          <span class="hover-margin-text" style="top: ${3 * (h / 4) - 10}px; left: ${w + m.right - 2}px">${m.right}px</span>
         </div>
-        <div class="hover-line-height" style="height: ${h}px; width: 10px; top: -2px; left: ${
-    w + p.right + m.right + 7
-  }px"></div>
+        <div class="hover-line-height" style="height: ${h}px; width: 10px; top: -2px; left: ${w + p.right + m.right + 7}px"></div>
         <span class="hover-height-text" style="top: ${h / 2 - 10}px; left: ${w + p.right + m.right + 19}px">${h}px</div>
       </div>
     `;
@@ -260,8 +224,7 @@ const drawHover = (e, perm) => {
     place = 'left';
   }
   let popoverClasses =
-    '.' +
-    elem.prop('class').replace(' ', '.').replace('anatomy-display-static', '').replace('anatomy-display-element', '');
+    '.' + elem.prop('class').replace(' ', '.').replace('anatomy-display-static', '').replace('anatomy-display-element', '');
   if (popoverClasses === '.') {
     popoverClasses = 'No Classes';
   }
@@ -295,9 +258,7 @@ const drawHover = (e, perm) => {
     elem.css('border-radius') !== '0px' && showDimensions
       ? `<p class="small mb-0"><strong>border-radius:</strong> ${elem.css('border-radius')}</p>`
       : '';
-  const popFontSize = showDimensions
-    ? `<p class="small mb-0"><strong>font-size:</strong> ${elem.css('font-size')}</p>`
-    : '';
+  const popFontSize = showDimensions ? `<p class="small mb-0"><strong>font-size:</strong> ${elem.css('font-size')}</p>` : '';
   let pop = elem.popover({
     placement: place,
     container: elem.parent(),
