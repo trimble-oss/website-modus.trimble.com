@@ -1,9 +1,11 @@
-<form class="form-group mt-3 ml-3 d-none d-md-block" name="search">
+<div class="d-flex align-items-center">
+<form class="form-group ml-2 ml-sm-3 mr-1 my-0 mb-0" name="search"  style="vertical-align: middle; height: 36px;">
   <div class="input-with-icon-left">
-  <input aria-label="Search" data-search-input="" autocorrect="off" spellcheck="false" autocapitalize="off" type="search"
-      class="form-control search-desktop" name="query" placeholder="Search..." autocomplete="off" title="" required>
+  <input autocorrect="off" spellcheck="false" autocapitalize="off" type="search"
+      class="form-control pr-0" id="search-by" aria-label="Search" name="query" placeholder="Search..." autocomplete="off" title="" required>
     <div class="input-icon">
       {{ partial "icons/modus-outlined/search.svg" (dict "class" "text-dark opacity-75 mt-1" "width" "20" "height" "20") }}
     </div>
   </div>
 </form>
+</div>
