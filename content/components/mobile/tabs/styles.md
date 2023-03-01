@@ -6,7 +6,7 @@ components: true
 component: tabs
 images:
   - "/img/mobile/headers/tabs.png"
-tags: [mobile, styles, hide-accessibility]
+tags: [mobile, styles]
 ---
 
 ## Specifications
