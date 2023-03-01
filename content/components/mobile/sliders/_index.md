@@ -43,6 +43,10 @@ Discrete sliders display a numeric value label upon dragging the handle, or allo
 
 {{< img src="/img/mobile/sliders-discrete.svg" dark="/img/mobile/sliders-discrete-dark.svg" width="961" height="286" alt="Sliders Discrete with Tooltip showing" loading="auto" >}}
 
+### Sliders with Steps
+
+{{< img src="/img/mobile/sliders-steps.svg" dark="/img/mobile/sliders-steps-dark.svg" width="961" height="286" alt="Sliders with steps" loading="auto" >}}
+
 {{< whats-changed-table >}}
 
 | Date       | Version | Notes                               | Contributors |

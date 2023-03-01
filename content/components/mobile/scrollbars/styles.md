@@ -14,7 +14,7 @@ tags: [mobile, styles]
 
 {{< img src="/img/mobile/scrollbar-anatomy.svg" dark="/img/mobile//scrollbar-anatomy-dark.svg" width="1078" height="422" alt="Scrollbar Anatomy" loading="auto" >}}
 
-- Always offer a visible scrollbar if an area has scrolling content. Do not rely on auto-scrolling or on dragging. The user might not realize there is more content to scroll through.
+- Always offer a scrollbar if an area has scrolling content. Do not rely on auto-scrolling or on dragging. The user might not realize there is more content to scroll through. It has become a convention for mobile UIs that a scrollbar remains invisible until the user starts scrolling, but use it with caution (see Minimal Scrollbar below).
 - Hide scrollbards if all content is visible. If users see a scrollbar, they assume there's additional content and will be frustrated if they can't scroll.
 - Avoid horizontal scrolling.
 - Scrollbars with arrows offer the best usability.
