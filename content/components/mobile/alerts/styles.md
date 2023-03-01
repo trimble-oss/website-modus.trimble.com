@@ -18,8 +18,6 @@ tags: [mobile, styles]
 - Button (text only, right aligned) or trailing close icon (16px16px) _optional_
 - Link (underlined, only one per alert) _optional_
 
-
-
 ### Alerts
 
 - Appear on top of the main content container.
@@ -32,7 +30,7 @@ tags: [mobile, styles]
 
 ### Basic Alerts
 
-
+{{< img src="/img/mobile/alerts-example.svg" dark="/img/mobile/alerts-example-dark.svg" width="961" height="260" class="w-100" alt="Alerts Examples" >}}
 
 ### Behaviors
 

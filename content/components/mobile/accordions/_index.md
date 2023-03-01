@@ -9,7 +9,7 @@ images:
 tags: [mobile, usage]
 ---
 
-{{< img src="/img/mobile/accordion.svg" dark="/img/mobile/accordion-dark.svg" width="961" height="260" class="w-100" alt="Accordions Example" >}}
+{{< img src="/img/mobile/accordion.svg" dark="/img/mobile/accordion-dark.svg" width="961" height="260" class="w-100" alt="Accordions Example" loading="auto" >}}
 
 ## Overview
 
@@ -44,16 +44,13 @@ Accordions come in two types to accommodate space availability on the page or wi
 
 Use a contained accordion for most cases. Separate its items with a divider. This placement saves some vertical space.
 
-{{< img src="/img/mobile/accordion-contained.svg" dark="/img/mobile/accordion-contained-dark.svg" width="960" height="464" alt="Contained Accordion" loading="auto" >}}
+{{< img src="/img/mobile/accordion-contained.svg" dark="/img/mobile/accordion-contained-dark.svg" width="960" height="464" alt="Contained Accordion" >}}
 
 ### Separated
 
 There are some cases, when you can separate accordions with white space. Use this method, when you have available space.
 
 {{< img src="/img/mobile/accordion-separated.svg" dark="/img/mobile/accordion-separated-dark.svg" width="960" height="488" alt="Separated Accordion" loading="auto" >}}
-
-
-
 
 {{< whats-changed-table >}}
 

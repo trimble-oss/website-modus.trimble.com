@@ -3,7 +3,7 @@ title: "Buttons"
 layout: "single"
 description: "Buttons are interactive elements that trigger an action or an event."
 components: true
-component: Badges
+component: Buttons
 images:
   - "/img/mobile/headers/buttons.png"
 tags: [mobile, styles]
@@ -46,3 +46,15 @@ Floating action buttons (FABs) are used for the primary or most common action on
 FABs can attach to top or bottom of app bars and the edge of some components.
 
 {{< img src="/img/mobile/fab-button-placement.svg" dark="/img/mobile/fab-button-placement-dark.svg" width="960" height="489" alt="Floating Action Button Placement" loading="auto" >}}
+
+### Editorial
+
+- All buttons in the Modus Design System employ **sentence case**.
+- Label a button with a verb, like “Copy”, or verb-phrase, like “Copy document.”
+- Strive for short button labels that clearly describe an action.
+- Try to limit button labels to three words or less. Using one or two words, if possible, is ideal.
+- When writing buttons, you can remove most prepositions and articles (e.g. a, an, the).
+- If a question is asked in a modal, use button labels that match the question. Keep in mind the following guidelines as well:
+  - Don’t use OK/Cancel to answer yes or no questions.
+  - Make sure you keep “your” and “my” consistent.
+  - Avoid saying “click” when referring to buttons (and other UI elements).

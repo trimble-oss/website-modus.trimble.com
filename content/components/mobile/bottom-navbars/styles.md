@@ -48,7 +48,7 @@ A bottom navigation item in a selected state.
 
 #### Disabled
 
-A bottom navigation item in a disabled state shows that an item exists, but is not available. This state can be used to maintain layout continuity and to communicate that the item may become available later. **Don't disable a bottom navigation item unless absolutely necessary.**
+A bottom navigation item in a disabled state shows that an item exists but is not available. This state can be used to maintain layout continuity and to communicate that the item may become available later. **Don't disable a bottom navigation item unless absolutely necessary.**
 
 {{< img src="/img/mobile/bottom-navbars-disabled-state.svg" dark="/img/mobile/bottom-navbars-distabled-state-dark.svg" width="960" height="766" alt="Bottom Navbar Disabled State" loading="auto" >}}
 
@@ -58,4 +58,11 @@ Bottom navigation items can be given notification badges for indicating status o
 
 {{< img src="/img/mobile/bottom-navbars-badges.svg" dark="/img/mobile/bottom-navbars-badges-dark.svg" width="960" height="766" alt="Bottom Navbar with Notification Badges" loading="auto" >}}
 
+### Editorial
+
+- All buttons in the Modus Design System employ **sentence case**.
+- Label a button with a verb, like “Copy”, or verb-phrase, like “Copy document.”
+- Strive for short button labels that clearly describe an action.
+- Try to limit button labels to three words or less. Using one or two words, if possible, is ideal.
+- When writing buttons, you can remove most prepositions and articles (e.g. a, an, the).
 

@@ -48,13 +48,13 @@ menu:
     - name: Web
       parent: Components
       url: "/components/web/"
-      pre: "<img src='/img/icons/modus-outlined/web.svg' width=28 height=28 class='icon mr-1' alt>"
+      pre: "<img src='/img/icons/modus-outlined/screen.svg' width=28 height=28 class='icon mr-2 opacity-75' alt>"
       post: "Modus component library for web-based apps and workflows."
       weight: 1
     - name: In-Field
       parent: Components
       url: "/components/in-field/"
-      pre: "<img src='/img/icons/transportation/truck.svg' width=28 height=28 class='icon mr-1' alt>"
+      pre: "<img src='/img/icons/modus-outlined/in-field-device.svg' width=28 height=28 class='icon mr-2 opacity-75' alt>"
       post: "High-contrast library specific to apps used outdoors on handheld or in-cab devices."
       weight: 2
 #    - name: Mobile
@@ -277,8 +277,8 @@ menu:
       url: /components/mobile/sliders/
     - name: Spinners
       url: /components/mobile/spinners/
-    - name: Status Bars
-      url: /components/mobile/status-bars/
+#    - name: Status Bars
+#      url: /components/mobile/status-bars/
     - name: Switches
       url: /components/mobile/switches/
     - name: Tabs

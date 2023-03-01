@@ -1,13 +1,13 @@
 ---
-sitemap_exclude: true
 title: "Popovers"
 layout: "single"
-description: ""
+description: "A Popover can be used to display some content on top of another"
 components: true
 component: Popovers
 images:
   - "/img/mobile/headers/popovers.png"
 tags: [mobile, usage, hidden]
+sitemap_exclude: true
 ---
 
 {{< img src="/img/mobile/popovers.svg" dark="/img/mobile/popovers-dark.svg" width="961" height="260" class="w-100" alt="Popovers Example" >}}

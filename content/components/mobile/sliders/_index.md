@@ -16,8 +16,6 @@ tags: [mobile, usage]
 
 Sliders select a numeric value or range of values by moving a handle or set of handles along a bar. They are ideal for adjusting settings such as volume and brightness. The slider in its basic form should be accompanied by a label and a number input that doubles as a display for the slider’s current value.
 
-{{< img src="/img/mobile/sliders-anatomy.svg" dark="/img/mobile/sliders-anatomy-dark.svg" width="1001" height="307" alt="Sliders Anatomy" loading="auto" >}}
-
 ## Usage
 
 **Use when**
@@ -27,9 +25,27 @@ Sliders select a numeric value or range of values by moving a handle or set of h
 
 **Don’t use when**
 
-- Gathering information in a form (e.g, age or salary). Instead, use an Input box.
+- Gathering information in a form (e.g, age or salary). Instead, use an [Input](/components/mobile/inputs/) box.
 - Precise amount is needed and the scale is too large to afford precise interaction with the slider.
 - Adjusting settings with any delay in providing user feedback.
+
+## Types
+
+### Continuous Sliders
+
+Continuous sliders allow users to make selections along a subjective range thus don’t require a specific value.
+
+{{< img src="/img/mobile/sliders-continuous.svg" dark="/img/mobile/sliders-continuous-dark.svg" width="961" height="797" alt="Sliders Continuous With No Labels" loading="auto" >}}
+
+### Discrete Sliders
+
+Discrete sliders display a numeric value label upon dragging the handle, or allow users to input an exact value. Tick marks are also often used with discrete slides but are optional.
+
+{{< img src="/img/mobile/sliders-discrete.svg" dark="/img/mobile/sliders-discrete-dark.svg" width="961" height="286" alt="Sliders Discrete with Tooltip showing" loading="auto" >}}
+
+### Sliders with Steps
+
+{{< img src="/img/mobile/sliders-steps.svg" dark="/img/mobile/sliders-steps-dark.svg" width="961" height="286" alt="Sliders with steps" loading="auto" >}}
 
 {{< whats-changed-table >}}
 

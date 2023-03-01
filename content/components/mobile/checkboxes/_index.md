@@ -34,9 +34,6 @@ Checkboxes should be used in forms that require submission and processing. The c
 - Checking or unchecking elicits an immediate change in the UI or functionality, such as enabling a disabled field or revealing more controls. Instead, use a [Switch](/components/mobile/switches/).
 - Checking or unchecking elicits a change in background functionality without affecting the UI, like disabling an email notification. Instead, use a [Switch](/components/mobile/switches/).
 
-{{< img src="/img/mobile/checkbox-example.svg" dark="/img/mobile/checkbox-example-dark.svg" width="961" height="170" class="w-100" alt="Checkbox example" loading="auto" >}}
-
-
 
 {{< whats-changed-table >}}
 

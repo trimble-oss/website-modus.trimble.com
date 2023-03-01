@@ -11,13 +11,13 @@ aliases:
   - top navbars
 ---
 
-{{< img src="/img/mobile/navbar.svg" dark="/img/mobile/navbar-dark.svg" width="961" height="260" class="w-100" alt="Nav Bar Example" >}}
+{{< img src="/img/mobile/top-navbar.svg" dark="/img/mobile/top-navbar-dark.svg" width="961" height="260" class="w-100" alt="Nav Bar Example" >}}
 
 ## Overview
 
 The top navbar or the app header provides context through globally accessible menu options and positions a consistent component to connect various Trimble applications. It contains the main navigation for your application.
 
-{{< img src="/img/mobile/navbar-overview.svg" dark="/img/mobile//navbar-overview-dark.svg" width="960" height="482" alt="Nav Bar Overview" loading="auto" >}}
+{{< img src="/img/mobile/top-navbar-overview.svg" dark="/img/mobile/top-navbar-overview-dark.svg" width="960" height="482" alt="Nav Bar Overview" loading="auto" >}}
 
 ## Usage
 
@@ -36,11 +36,10 @@ The top navbar or the app header provides context through globally accessible me
 - Building marketing websites.
 - Building email templates.
 
-
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}
