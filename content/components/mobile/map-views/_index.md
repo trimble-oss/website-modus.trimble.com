@@ -10,7 +10,7 @@ images:
 tags: [mobile, usage, hidden]
 ---
 
-{{< img src="/img/mobile/map-views.svg" dark="/img/mobile/map-views-dark.svg" width="961" height="260" class="w-100" alt="Map Views Example" >}}
+{{< img src="/img/mobile/map-views.svg" dark="/img/mobile/map-views-dark.svg" width="961" height="260" class="w-100" alt="Map Views Example" loading="auto" >}}
 
 ## Overview
 
