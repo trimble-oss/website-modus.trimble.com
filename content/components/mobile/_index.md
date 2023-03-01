@@ -6,5 +6,4 @@ componentsMobile: true
 listJS: true
 layout: components
 disableScrollSpy: true
-tags: [mobile, usage]
 ---

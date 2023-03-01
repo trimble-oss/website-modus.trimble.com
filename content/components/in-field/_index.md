@@ -6,5 +6,4 @@ componentsInField: true
 listJS: true
 layout: components
 disableScrollSpy: true
-tags: [in-field, usage]
 ---
