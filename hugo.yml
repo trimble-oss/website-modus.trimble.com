@@ -57,17 +57,17 @@ menu:
       pre: "<img src='/img/icons/modus-outlined/in-field-device.svg' width=28 height=28 class='icon opacity-75 mr-2' alt>"
       post: "High-contrast library specific to apps used outdoors on handheld or in-cab devices."
       weight: 2
-#    - name: Mobile
-#      parent: Components
-#      url: "/components/mobile/"
-#      pre: "<img src='/img/icons/mobile.svg' width=28 height=28 class='icon' alt>"
-#      post: ""
-#      weight: 3
+    - name: Mobile
+      parent: Components
+      url: "/components/mobile/"
+      pre: "<img src='/img/icons/modus-outlined/phone-mobile.svg' width=28 height=28 class='icon opacity-75 mr-2' alt>"
+      post: "UI patterns for designing Trimble experiences on Android devices."
+      weight: 3
 #   - name: XR
 #     parent: Components
 #     url: "/components/xr/"
 #     pre: "<img src='/img/icons/xr.svg' width=28 height=28 class='icon' alt>"
-#     post: ""
+#     post: "Building blocks for designing Trimble products for mixed reality and virtual reality."
 #     weight: 4
 
     - Name: Icons

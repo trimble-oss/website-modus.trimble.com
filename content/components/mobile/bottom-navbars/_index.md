@@ -9,7 +9,7 @@ images:
 tags: [mobile, usage]
 ---
 
-{{< img src="/img/mobile/bottom-navbars.svg" dark="/img/mobile/bottom-navbars-dark.svg" width="961" height="260" class="w-100" alt="Bottom Navbar Example" >}}
+{{< img src="/img/mobile/bottom-navbars.svg" dark="/img/mobile/bottom-navbars-dark.svg" width="961" height="260" class="w-100" alt="Bottom Navbar Example" loading="auto" >}}
 
 ## Overview
 

@@ -11,13 +11,13 @@ aliases:
   - top navbars
 ---
 
-{{< img src="/img/mobile/top-navbar.svg" dark="/img/mobile/top-navbar-dark.svg" width="961" height="260" class="w-100" alt="Nav Bar Example" >}}
+{{< img src="/img/mobile/top-navbar.svg" dark="/img/mobile/top-navbar-dark.svg" width="961" height="260" class="w-100" alt="Nav Bar Example" loading="auto" >}}
 
 ## Overview
 
 The top navbar or the app header provides context through globally accessible menu options and positions a consistent component to connect various Trimble applications. It contains the main navigation for your application.
 
-{{< img src="/img/mobile/top-navbar-overview.svg" dark="/img/mobile/top-navbar-overview-dark.svg" width="960" height="482" alt="Nav Bar Overview" loading="auto" >}}
+{{< img src="/img/mobile/top-navbar-overview.svg" dark="/img/mobile/top-navbar-overview-dark.svg" width="960" height="482" alt="Nav Bar Overview" >}}
 
 ## Usage
 

@@ -50,12 +50,12 @@ Use a contained accordion for most cases. Separate its items with a divider. Thi
 
 There are some cases, when you can separate accordions with white space. Use this method, when you have available space.
 
-{{< img src="/img/mobile/accordion-separated.svg" dark="/img/mobile/accordion-separated-dark.svg" width="960" height="488" alt="Separated Accordion" loading="auto" >}}
+{{< img src="/img/mobile/accordion-separated.svg" dark="/img/mobile/accordion-separated-dark.svg" width="960" height="488" alt="Separated Accordion" >}}
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

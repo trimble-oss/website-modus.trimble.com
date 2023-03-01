@@ -20,23 +20,23 @@ tags: [mobile, styles]
 - **Icon:** Bottom navigation items should always have icons. Icons provide metaphors for quick visual reference and help to reinforce a product's navigation. Icons also help to supplement labels, for better comprehension.
 - **Label:** It is recommended that Bottom Navbar items should always have labels along with icons. Font size should be fixed at 12px. Avoid long lables, if necessary change padding when label wraps to 2 lines. **CAUTION: Bottom navigation without labels will not be accessible.**
 
-{{< img src="/img/mobile/bottom-navbars-label.svg" dark="/img/mobile/bottom-navbars-label-dark.svg" width="960" height="178" alt="Bottom Navbar Labels" loading="auto" >}}
+{{< img src="/img/mobile/bottom-navbars-label.svg" dark="/img/mobile/bottom-navbars-label-dark.svg" width="960" height="178" alt="Bottom Navbar Labels" >}}
 
 - Without a label:
 
-{{< img src="/img/mobile/bottom-navbars-no-label.svg" dark="/img/mobile/bottom-navbars-no-label-dark.svg" width="960" height="178" alt="Without Labels" loading="auto" >}}
+{{< img src="/img/mobile/bottom-navbars-no-label.svg" dark="/img/mobile/bottom-navbars-no-label-dark.svg" width="960" height="178" alt="Without Labels" >}}
 
 - **Label position:** Labels should usually be placed under the icons. Bottom navigation items have an option for side labels when in landscape mode or on a tablet. This helps to utilize the available horizontal space more effectively. When using this option, items in the navigation are horizontally distributed.
 
-{{< img src="/img/mobile/bottom-navbars-label-position.svg" dark="/img/mobile/bottom-navbars-label-position-dark.svg" width="960" height="178" alt="Label Position" loading="auto" >}}
+{{< img src="/img/mobile/bottom-navbars-label-position.svg" dark="/img/mobile/bottom-navbars-label-position-dark.svg" width="960" height="178" alt="Label Position" >}}
 
 - **Background colors:** Bottom navigation can we either white or Trimble Dark Blue.
 
-{{< img src="/img/mobile/bottom-navbars-background.svg" dark="/img/mobile/bottom-navbars-background-dark.svg" width="960" height="178" alt="Bottom Navbar Background Colors" loading="auto" >}}
+{{< img src="/img/mobile/bottom-navbars-background.svg" dark="/img/mobile/bottom-navbars-background-dark.svg" width="960" height="178" alt="Bottom Navbar Background Colors" >}}
 
 ### Sizing
 
-{{< img src="/img/mobile/bottom-navbars-sizing.svg" dark="/img/mobile/bottom-navbars-sizing-dark.svg" width="960" height="312" alt="Bottom Navbar Sizing" loading="auto" >}}
+{{< img src="/img/mobile/bottom-navbars-sizing.svg" dark="/img/mobile/bottom-navbars-sizing-dark.svg" width="960" height="312" alt="Bottom Navbar Sizing" >}}
 
 ### States
 
@@ -44,19 +44,19 @@ tags: [mobile, styles]
 
 A bottom navigation item in a selected state.
 
-{{< img src="/img/mobile/bottom-navbars-selected-state.svg" dark="/img/mobile/bottom-navbars-selected-state-dark.svg" width="960" height="766" alt="Bottom Navbar Selected State" loading="auto" >}}
+{{< img src="/img/mobile/bottom-navbars-selected-state.svg" dark="/img/mobile/bottom-navbars-selected-state-dark.svg" width="960" height="766" alt="Bottom Navbar Selected State" >}}
 
 #### Disabled
 
 A bottom navigation item in a disabled state shows that an item exists but is not available. This state can be used to maintain layout continuity and to communicate that the item may become available later. **Don't disable a bottom navigation item unless absolutely necessary.**
 
-{{< img src="/img/mobile/bottom-navbars-disabled-state.svg" dark="/img/mobile/bottom-navbars-distabled-state-dark.svg" width="960" height="766" alt="Bottom Navbar Disabled State" loading="auto" >}}
+{{< img src="/img/mobile/bottom-navbars-disabled-state.svg" dark="/img/mobile/bottom-navbars-disabled-state-dark.svg" width="960" height="766" alt="Bottom Navbar Disabled State" >}}
 
 #### Notification badges
 
 Bottom navigation items can be given notification badges for indicating status or important information. Be mindful of how frequently you notify users and what type of content should trigger a notification badge, to avoid causing users to ignore badges altogether.
 
-{{< img src="/img/mobile/bottom-navbars-badges.svg" dark="/img/mobile/bottom-navbars-badges-dark.svg" width="960" height="766" alt="Bottom Navbar with Notification Badges" loading="auto" >}}
+{{< img src="/img/mobile/bottom-navbars-badges.svg" dark="/img/mobile/bottom-navbars-badges-dark.svg" width="960" height="766" alt="Bottom Navbar with Notification Badges" >}}
 
 ### Editorial
 
@@ -65,4 +65,3 @@ Bottom navigation items can be given notification badges for indicating status o
 - Strive for short button labels that clearly describe an action.
 - Try to limit button labels to three words or less. Using one or two words, if possible, is ideal.
 - When writing buttons, you can remove most prepositions and articles (e.g. a, an, the).
-
