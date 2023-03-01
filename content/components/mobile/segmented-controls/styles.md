@@ -16,7 +16,7 @@ tags: [mobile, styles]
 
 ### Anatomy
 
-{{< img src="/img/mobile/segmented-controls-atoms.svg" dark="/img/mobile//segmented-controls-atoms-dark.svg" width="960" height="132" alt="Segmented Controls Atoms" loading="auto" >}}
+{{< img src="/img/mobile/segmented-controls-atoms.svg" dark="/img/mobile/segmented-controls-atoms-dark.svg" width="960" height="132" alt="Segmented Controls Atoms" loading="auto" >}}
 
 ### States
 
@@ -28,15 +28,15 @@ All segments controls should have the following states:
 
 ### Sizes
 
-{{< img src="/img/mobile/segmented-controls-sizes.svg" dark="/img/mobile//segmented-controls-sizes-dark.svg" width="556" height="312" alt="Segmented Controls Sizes" loading="auto" >}}
+{{< img src="/img/mobile/segmented-controls-sizes.svg" dark="/img/mobile/segmented-controls-sizes-dark.svg" width="556" height="312" alt="Segmented Controls Sizes" >}}
 
 ### Styles
 
-{{< img src="/img/mobile/segmented-controls-styles.svg" dark="/img/mobile//segmented-controls-Styles-dark.svg" width="999" height="400" alt="Segmented Controls Styles" loading="auto" >}}
+{{< img src="/img/mobile/segmented-controls-styles.svg" dark="/img/mobile/segmented-controls-Styles-dark.svg" width="999" height="400" alt="Segmented Controls Styles" >}}
 
 ### Options
 
-{{< img src="/img/mobile/segmented-controls-options.svg" dark="/img/mobile//segmented-controls-options-dark.svg" width="960" height="440" alt="Segmented Controls Options" loading="auto" >}}
+{{< img src="/img/mobile/segmented-controls-options.svg" dark="/img/mobile/segmented-controls-options-dark.svg" width="960" height="440" alt="Segmented Controls Options" >}}
 
 
 

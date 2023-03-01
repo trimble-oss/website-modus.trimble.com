@@ -20,7 +20,6 @@ tags: [mobile, styles]
 
 {{< img src="/img/mobile/inputs-specifications.svg" dark="/img/mobile/inputs-specifications-dark.svg" width="1087" height="254" alt="Input Specifications" loading="auto" >}}
 
-
 - Always have a label next to the text field, either above, on the left side or login in the input.
 - Label text should always be visible.
 - Display the validation state clearly.  The validation message will replace Helper Text
@@ -36,7 +35,7 @@ tags: [mobile, styles]
 - Form inputs that are disabled should be 40% opacity.
 - Form inputs that are read only have background color: {{< color-preview hexL="#e0e1e9" hexD="#171C1E">}}
 
-{{< img src="/img/mobile/inputs-behavior.svg" dark="/img/mobile/inputs-behavior-dark.svg" width="1087" height="1098" alt="Inputs Behavior" loading="auto" >}}
+{{< img src="/img/mobile/inputs-behavior.svg" dark="/img/mobile/inputs-behavior-dark.svg" width="1087" height="1098" alt="Inputs Behavior" >}}
 
 ## Editorial
 

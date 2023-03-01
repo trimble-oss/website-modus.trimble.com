@@ -9,7 +9,7 @@ images:
 tags: [mobile, usage]
 ---
 
-{{< img src="/img/mobile/segmented-controls.svg" dark="/img/mobile/segmented-controls-dark.svg" width="961" height="260" class="w-100" alt="Lists Example" >}}
+{{< img src="/img/mobile/segmented-controls.svg" dark="/img/mobile/segmented-controls-dark.svg" width="961" height="260" class="w-100" alt="Lists Example" loading="auto" >}}
 
 ## Overview
 

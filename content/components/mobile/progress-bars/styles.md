@@ -15,7 +15,7 @@ A progress bar is represented by a white bar that is filled with color over time
 
 ### Anatomy
 
-{{< img src="/img/mobile/progress-atoms.svg" dark="/img/mobile//progress-atoms-dark.svg" width="961" height="170" alt="Progress Bar Atoms" loading="auto" >}}
+{{< img src="/img/mobile/progress-atoms.svg" dark="/img/mobile/progress-atoms-dark.svg" width="961" height="170" alt="Progress Bar Atoms" loading="auto" >}}
 
 ## Behaviors
 

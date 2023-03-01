@@ -9,7 +9,7 @@ images:
 tags: [mobile, usage]
 ---
 
-{{< img src="/img/mobile/scrollbar.svg" dark="/img/mobile/scrollbar-dark.svg" width="961" height="260" class="w-100" alt="Scrollbar Example" >}}
+{{< img src="/img/mobile/scrollbar.svg" dark="/img/mobile/scrollbar-dark.svg" width="961" height="260" class="w-100" alt="Scrollbar Example" loading="auto" >}}
 
 ## Overview
 

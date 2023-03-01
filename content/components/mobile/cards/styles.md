@@ -30,13 +30,13 @@ Card layouts may vary to support the content within. The dimensions of a card wi
 
 ## Layout Examples
 
-{{< img src="/img/mobile/card-variation.svg" dark="/img/mobile/card-variation-dark.svg" width="962" height="1699" alt="Card Variation" loading="auto" >}}
+{{< img src="/img/mobile/card-variation.svg" dark="/img/mobile/card-variation-dark.svg" width="962" height="1699" alt="Card Variation" >}}
 
 ## Card States
 
 Cards can have a default, focus, and selected state. Selected states are optional and should be implemented based on use case. Mobile cards do not have a hover state.
 
-{{< img src="/img/mobile/card-states.svg" dark="/img/mobile/card-states-dark.svg" width="946" height="781" alt="Card States" loading="auto" >}}
+{{< img src="/img/mobile/card-states.svg" dark="/img/mobile/card-states-dark.svg" width="946" height="781" alt="Card States" >}}
 
 ## Behaviors
 
@@ -45,7 +45,7 @@ Cards can have the following transitions and interactions:
 - Expand/Collapse
 - Cards can be dragged
 
-{{< img src="/img/mobile/card-behavior.svg" dark="/img/mobile/card-behavior-dark.svg" width="962" height="1478" alt="Card Behavior" loading="auto" >}}
+{{< img src="/img/mobile/card-behavior.svg" dark="/img/mobile/card-behavior-dark.svg" width="962" height="1478" alt="Card Behavior" >}}
 
 ## Editorial
 

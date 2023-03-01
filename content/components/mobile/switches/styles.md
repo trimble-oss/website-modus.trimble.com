@@ -27,11 +27,11 @@ All buttons (including icon buttons) should have the following states:
 
 ### Toggle Progression
 
-{{< img src="/img/mobile/switches-toggle.svg" dark="/img/mobile/switches-toggle-dark.svg" width="951" height="316" alt="Switches Toggle" loading="auto" >}}
+{{< img src="/img/mobile/switches-toggle.svg" dark="/img/mobile/switches-toggle-dark.svg" width="951" height="316" alt="Switches Toggle" >}}
 
 ### Labels & Icons
 
-{{< img src="/img/mobile/switches-labels.svg" dark="/img/mobile/switches-labels-dark.svg" width="942" height="142" alt="Switches Labels & Icons" loading="auto" >}}
+{{< img src="/img/mobile/switches-labels.svg" dark="/img/mobile/switches-labels-dark.svg" width="942" height="142" alt="Switches Labels & Icons" >}}
 
 ## Editorial
 

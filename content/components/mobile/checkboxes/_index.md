@@ -12,7 +12,7 @@ aliases:
   - checkbox
 ---
 
-{{< img src="/img/mobile/checkboxes.svg" dark="/img/mobile/checkboxes-dark.svg" width="961" height="260" class="w-100" alt="Checkboxes Example" >}}
+{{< img src="/img/mobile/checkboxes.svg" dark="/img/mobile/checkboxes-dark.svg" width="961" height="260" class="w-100" alt="Checkboxes Example" loading="auto" >}}
 
 ## Overview
 

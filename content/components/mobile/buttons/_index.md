@@ -63,21 +63,29 @@ There are two button progressions you can choose from: structural and color prog
   </thead>
   <tbody>
     <tr>
-      <td><img src="/img/mobile/button-default.svg" alt="Default Button"><br><br><img src="/img/mobile/button-pill.svg" alt="Pill Button"></td>
+      <td class="text-center">
+        {{< img src="/img/mobile/button-default.svg" dark="/img/mobile/button-default-dark.svg" alt="Default Button" >}}
+        {{< img src="/img/mobile/button-pill.svg" dark="/img/mobile/button-pill-dark.svg" alt="Pill Button" >}}</td>
       <td>High</td>
       <td>
         Use to draw attention to the primary action on a screen. You may choose a Default or Pill style for your primary buttons, but NOT BOTH.
       </td>
     </tr>
     <tr>
-      <td><img src="/img/mobile/button-secondary-outline.svg" alt="Secondary Outline Button"><br><br><img src="/img/mobile/button-pill-secondary-outline.svg" alt="Secondary Pill Button"></td>
+      <td class="text-center">
+        {{< img src="/img/mobile/button-secondary-outline.svg" dark="/img/mobile/button-secondary-outline-dark.svg" alt="Secondary Outline Button" >}}
+        {{< img src="/img/mobile/button-pill-secondary-outline.svg" dark="/img/mobile/button-pill-secondary-outline-dark.svg" alt="Secondary Pill Outline Button" >}}
+      </td>
       <td>Medium</td>
       <td>
        Use for secondary actions on a screen. Outline-style buttons work well on colored, dark, or image backgrounds. Consider how the style of an outline button might better suit the page.
       </td>
     </tr>
     <tr>
-      <td><img src="/img/mobile/button-tertiary-outline.svg" alt="Tertiary Outline Button"><br><br><img src="/img/mobile/button-pill-tertiary-outline.svg" alt="Tertiary Pill Outline Button"></td>
+      <td class="text-center">
+        {{< img src="/img/mobile/button-tertiary-outline.svg" dark="/img/mobile/button-tertiary-outline-dark.svg" alt="tertiary Outline Button" >}}
+        {{< img src="/img/mobile/button-pill-tertiary-outline.svg" dark="/img/mobile/button-pill-tertiary-outline-dark.svg" alt="tertiary Pill Outline Button" >}}
+      </td>
       <td>Medium</td>
       <td>
        Used for secondary actions to establish additional visual hierarchy.
@@ -99,21 +107,30 @@ There are two button progressions you can choose from: structural and color prog
   </thead>
   <tbody>
     <tr>
-      <td><img src="/img/mobile/default-button.svg" alt="Default Button"><br><br><img src="/img/mobile/button-pill.svg" alt="Pill Button"></td>
+      <td class="text-center">
+        {{< img src="/img/mobile/button-default.svg" dark="/img/mobile/button-default-dark.svg" alt="Default Button" >}}
+        {{< img src="/img/mobile/button-pill.svg" dark="/img/mobile/button-pill-dark.svg" alt="Pill Button" >}}
+      </td>
       <td>High</td>
       <td>
         Use to draw attention to the primary action on a screen. You may choose a Default or Pill style for your primary buttons, but NOT BOTH.
       </td>
     </tr>
     <tr>
-      <td><img src="/img/mobile/button-secondary.svg" alt="Secondary Button"><br><br><img src="/img/mobile/button-pill-secondary.svg" alt="Secondary Pill Button"></td>
+      <td class="text-center">
+        {{< img src="/img/mobile/button-secondary.svg" dark="/img/mobile/button-secondary-dark.svg" alt="Secondary Button" >}}
+        {{< img src="/img/mobile/button-pill-secondary.svg" dark="/img/mobile/button-pill-secondary-dark.svg" alt="Secondary Pill Button" >}}
+      </td>
       <td>Medium</td>
       <td>
        Use for secondary actions on a screen. These Buttons can be used on most pages without constrictions. They appear most often in high volume use cases like Tables, or in an Action Bar. Consider using an outline button on gray backgrounds.
       </td>
     </tr>
     <tr>
-      <td><img src="/img/mobile/button-tertiary.svg" alt="Pill Button"><br><br><img src="/img/mobile/button-pill-tertiary.svg" alt="Secondary Pill Button"></td>
+      <td class="text-center">
+        {{< img src="/img/mobile/button-tertiary.svg" dark="/img/mobile/button-tertiary-dark.svg" alt="Tertiary Button" >}}
+        {{< img src="/img/mobile/button-pill-tertiary.svg" dark="/img/mobile/button-pill-tertiary-dark.svg" alt="Tertiary Pill Button" >}}
+      </td>
       <td>Medium</td>
       <td>
        Used for secondary actions to establish additional visual hierarchy or to use a secondary button that provides less emphasis.
@@ -136,7 +153,7 @@ There are two button progressions you can choose from: structural and color prog
   <tbody>
   <tr>
       <th scope="row">FAB</th>
-      <td><img src="/img/mobile/button-floating-action.svg" alt="FAB"></td>
+      <td class="text-center">{{< img src="/img/mobile/button-floating-action.svg" dark="/img/mobile/button-floating-action-dark.svg" alt="FAB" >}}</td>
       <td>High</td>
       <td>
         Use a FAB for the most common or important action on a screen.
@@ -144,7 +161,7 @@ There are two button progressions you can choose from: structural and color prog
     </tr>
     <tr>
       <th scope="row">Icon Only</th>
-      <td><img src="/img/mobile/button-icon-only.svg" alt="Icon Only Button"></td>
+      <td class="text-center">{{< img src="/img/mobile/button-icon-only.svg" dark="/img/mobile/button-icon-only-dark.svg" alt="Icon Only Button" >}}</td>
       <td>Medium</td>
       <td>
         Primary use is in-line or in “Button Groups.”
@@ -152,7 +169,7 @@ There are two button progressions you can choose from: structural and color prog
     </tr>
     <tr>
       <th scope="row">Danger</th>
-      <td><img src="/img/mobile/danger-button.svg" alt="Danger"></td>
+      <td>{{< img src="/img/mobile/button-danger.svg" dark="/img/mobile/button-danger-dark.svg" alt="Danger Button" >}}</td>
       <td>High</td>
       <td>
         Danger buttons have a different visual style to inform users of
@@ -164,8 +181,6 @@ There are two button progressions you can choose from: structural and color prog
     </tr>
   </tbody>
 </table>
-
-
 
 {{< whats-changed-table >}}
 

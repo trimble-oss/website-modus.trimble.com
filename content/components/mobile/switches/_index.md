@@ -9,13 +9,13 @@ images:
 tags: [mobile, usage]
 ---
 
-{{< img src="/img/mobile/switches.svg" dark="/img/mobile/switches-dark.svg" width="961" height="260" class="w-100" alt="Switches Example" >}}
+{{< img src="/img/mobile/switches.svg" dark="/img/mobile/switches-dark.svg" width="961" height="260" class="w-100" alt="Switches Example" loading="auto" >}}
 
 ## Overview
 
 Switches are used to toggle functionality. Switches are selection controls that yield instantaneous actions. They have an on and off setting.
 
-{{< img src="/img/mobile/switches-overview.svg" dark="/img/mobile/switches-overview-dark.svg" width="1087" height="162" alt="Switches Overview" loading="auto" >}}
+{{< img src="/img/mobile/switches-overview.svg" dark="/img/mobile/switches-overview-dark.svg" width="1087" height="162" alt="Switches Overview" >}}
 
 ## Usage
 
@@ -32,7 +32,7 @@ Switches are used to toggle functionality. Switches are selection controls that 
 - Requesting multiple choices from a group of options. Instead, use a Checkbox group.
 - Users need to select one item from a list of options. Instead, use a Radio Button.
 
-{{< img src="/img/mobile/switches-list.svg" dark="/img/mobile/switches-list-dark.svg" width="1087" height="239" alt="Switches List Item Example" loading="auto" >}}
+{{< img src="/img/mobile/switches-list.svg" dark="/img/mobile/switches-list-dark.svg" width="1087" height="239" alt="Switches List Item Example" >}}
 
 {{< whats-changed-table >}}
 

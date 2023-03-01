@@ -6,12 +6,12 @@ components: true
 component: Tabs
 images:
   - "/img/mobile/headers/tabs.png"
-tags: [mobile, usage]
+tags: [mobile, usage, hide-accessibility]
 ---
 
 _Designers should use [Segmented Controls](/components/mobile/segmented-controls/) when available due to usability issues with tabs. If that is not feasible, please follow the specifications below._
 
-{{< img src="/img/mobile/tabs.svg" dark="/img/mobile/tabs-dark.svg" width="961" height="260" class="w-100" alt="Tabs Example" >}}
+{{< img src="/img/mobile/tabs.svg" dark="/img/mobile/tabs-dark.svg" width="961" height="260" class="w-100" alt="Tabs Example" loading="auto" >}}
 
 ## Overview
 

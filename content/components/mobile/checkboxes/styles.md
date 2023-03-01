@@ -26,7 +26,7 @@ Checkboxes have the following States:
 - Disabled Checked
 - Indeterminate
 
-{{< img src="/img/mobile/checkboxes-states.svg" dark="/img/mobile/checkboxes-states-dark.svg" width="962" height="120" alt="Checkboxes States" loading="auto" >}}
+{{< img src="/img/mobile/checkboxes-states.svg" dark="/img/mobile/checkboxes-states-dark.svg" width="962" height="120" alt="Checkboxes States" >}}
 
 ## Behaviors
 

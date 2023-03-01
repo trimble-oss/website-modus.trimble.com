@@ -30,7 +30,7 @@ tags: [mobile, styles]
 
 ### Basic Alerts
 
-{{< img src="/img/mobile/alerts-example.svg" dark="/img/mobile/alerts-example-dark.svg" width="961" height="260" class="w-100" alt="Alerts Examples" >}}
+{{< img src="/img/mobile/alerts-example.svg" dark="/img/mobile/alerts-example-dark.svg" width="854" height="540" class="w-100" alt="Alerts Examples" >}}
 
 ### Behaviors
 

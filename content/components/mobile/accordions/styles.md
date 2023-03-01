@@ -23,7 +23,7 @@ An accordion (aka expansion panel) is a vertically stacked, full-width list of o
 
 ### Sizing
 
-{{< img src="/img/mobile/accordion-sizing.svg" dark="/img/mobile/accordion-sizing-dark.svg" width="960" height="312" alt="Sizing" loading="auto" >}}
+{{< img src="/img/mobile/accordion-sizing.svg" dark="/img/mobile/accordion-sizing-dark.svg" width="960" height="312" alt="Sizing" >}}
 
 ### States
 
@@ -33,7 +33,7 @@ Default states for Accordion are:
 - Focused
 - Disabled
 
-{{< img src="/img/mobile/accordion-states.svg" dark="/img/mobile/accordion-states-dark.svg" width="960" height="288" alt="States" loading="auto" >}}
+{{< img src="/img/mobile/accordion-states.svg" dark="/img/mobile/accordion-states-dark.svg" width="960" height="288" alt="States" >}}
 
 **Expanded Items**
 
@@ -42,17 +42,17 @@ Highlight expanded state to let a user recognize what is opened in case of multi
 - Background Fill
 - Outline Stroke
 
-{{< img src="/img/mobile/accordion-expanded.svg" dark="/img/mobile/accordion-expanded-dark.svg" width="960" height=562" alt="Accordion Expanded Items" loading="auto" >}}
+{{< img src="/img/mobile/accordion-expanded.svg" dark="/img/mobile/accordion-expanded-dark.svg" width="960" height="562" alt="Accordion Expanded Items" >}}
 
 While the elevation works well on both smooth gray and white surfaces, you may fill the background of an expanded item with an appropriate Trimble color. You may also add an outline, if necessary.
 
-{{< img src="/img/mobile/accordion-expanded-2.svg" dark="/img/mobile/accordion-expanded-2-dark.svg" width="960" height="708" alt="Accordion Expanded Items" loading="auto" >}}
+{{< img src="/img/mobile/accordion-expanded-2.svg" dark="/img/mobile/accordion-expanded-2-dark.svg" width="960" height="708" alt="Accordion Expanded Items" >}}
 
 ### Chevron Placement
 
 Chevron could be placed both at the **left** or **right**.
 
-{{< img src="/img/mobile/accordion-chevrons.svg" dark="/img/mobile/accordion-chevrons-dark.svg" width="961" height="288" alt="Chevron Statement" loading="auto" >}}
+{{< img src="/img/mobile/accordion-chevrons.svg" dark="/img/mobile/accordion-chevrons-dark.svg" width="961" height="288" alt="Chevron Statement" >}}
 
 ## Behavior
 

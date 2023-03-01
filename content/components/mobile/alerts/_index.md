@@ -8,7 +8,7 @@ images:
 tags: [mobile, usage]
 ---
 
-{{< img src="/img/mobile/alerts.svg" dark="/img/mobile/alerts-dark.svg" width="961" height="260" class="w-100" alt="Alerts Examples" >}}
+{{< img src="/img/mobile/alerts.svg" dark="/img/mobile/alerts-dark.svg" width="961" height="260" class="w-100" alt="Alerts Examples" loading="auto" >}}
 
 ## Overview
 

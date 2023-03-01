@@ -21,25 +21,25 @@ The top navbar is often used as the location for the primary menu and also provi
 
 Top navbars can contain various elements and combinations of elements.
 
-{{< img src="/img/mobile/top-navbar-variations.svg" dark="/img/mobile/top-navbar-variations-dark.svg" width="960" height="594" alt="Navbar Variations" loading="auto" >}}
+{{< img src="/img/mobile/top-navbar-variations.svg" dark="/img/mobile/top-navbar-variations-dark.svg" width="960" height="594" alt="Navbar Variations" >}}
 
 ### Transparent Top Navbar
 
 Top navbar background can be transparent, giving the effect elements floating. Use FABS for the top navbar icons. Floating elements should have a dropshadow.
 
-{{< img src="/img/mobile/top-navbar-transparent.svg" dark="/img/mobile/top-navbar-transparent-dark.svg" width="960" height="978" alt="Navbar Transparent" loading="auto" >}}
+{{< img src="/img/mobile/top-navbar-transparent.svg" dark="/img/mobile/top-navbar-transparent-dark.svg" width="960" height="978" alt="Navbar Transparent" >}}
 
 ### Background Images
 
 Top navbars can contain imagery only when the extended Nav Bar is used. Use images that compliment the legibility of the navbar text and icons.
 
-{{< img src="/img/mobile/top-navbar-bg.svg" dark="/img/mobile/top-navbar-bg-dark.svg" width="960" height="404" alt="Navbar Background Images" loading="auto" >}}
+{{< img src="/img/mobile/top-navbar-bg.svg" dark="/img/mobile/top-navbar-bg-dark.svg" width="960" height="404" alt="Navbar Background Images" >}}
 
 ### Color Options
 
 Top navbar colors can be either White or Trimble Blue Dark (#004F83).
 
-{{< img src="/img/mobile/top-navbar-colors.svg" dark="/img/mobile/top-navbar-colors-dark.svg" width="912" height="574" alt="Navbar Colors" loading="auto" >}}
+{{< img src="/img/mobile/top-navbar-colors.svg" dark="/img/mobile/top-navbar-colors-dark.svg" width="912" height="574" alt="Navbar Colors" >}}
 
 ## Editorial
 
