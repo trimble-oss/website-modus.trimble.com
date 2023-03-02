@@ -32,7 +32,7 @@ All segments controls should have the following states:
 
 ### Styles
 
-{{< img src="/img/mobile/segmented-controls-styles.svg" dark="/img/mobile/segmented-controls-Styles-dark.svg" width="999" height="400" alt="Segmented Controls Styles" >}}
+{{< img src="/img/mobile/segmented-controls-styles.svg" dark="/img/mobile/segmented-controls-styles-dark.svg" width="999" height="400" alt="Segmented Controls Styles" >}}
 
 ### Options
 

@@ -28,11 +28,10 @@ Segmented controls allow users to make a single selection from a set of 2–5 op
 - Filtering or navigating content (use [Tabs](/components/mobile/tabs/) instead).
 - There are too many segments causing crowding.
 
-
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
+| Date       | Version | Notes                | Contributors |
+| ---------- | ------- | -------------------- | ------------ |
 | 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
 
 {{</ whats-changed-table >}}
