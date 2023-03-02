@@ -36,6 +36,6 @@ Dialogs consist of the following elements:
 
 ### Editorial
 
-- Use [title case]() for titles, unless the title is phrased as a question (e.g. Are you sure want to continue?). Use sentence case for questions.
+- Use title case for titles, unless the title is phrased as a question (e.g. Are you sure want to continue?). Use sentence case for questions.
 - Titles should clearly describe what’s inside the modal and the action required. Consider using words from the context of the page that launched the modal.
 - Content can scroll in the modal, if necessary. Avoid long copy in modals.
