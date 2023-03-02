@@ -14,7 +14,7 @@ tags: [mobile, styles]
 
 A Card may contain any of the following elements (with the minimum of one), but they are all optional:
 
-- Card Container (2px radius, 16px padding, with [Level 3 shadow](/foundations/shadow-and-depth/)) _required_
+- Card Container (2px radius, 16px padding, with [Level 3 shadow](/foundations/shadows-and-depth/)) _required_
 - Title _optional_
 - Subtitle _optional_
 - Card Text _optional_

@@ -8,6 +8,8 @@ images:
   - "/img/mobile/headers/status-bars.png"
 tags: [mobile, usage]
 sitemap_exclude: true
+private: true
+draft: true
 ---
 
 {{< img src="/img/mobile/status-bars.svg" dark="/img/mobile/status-bars-dark.svg" width="961" height="260" class="w-100" alt="Status Bars Example" >}}

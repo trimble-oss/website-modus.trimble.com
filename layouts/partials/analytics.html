@@ -1,7 +1,6 @@
 {{- if not .Site.IsServer -}}
 <script id="plausible" defer data-domain="modus.trimble.com"
-  src="https://plausible.io/js/script.compat.outbound-links.js"></script>
-{{- end -}}
+  src="https://plausible.io/js/script.compat.outbound-links.js" fetchpriority="low"></script>
 
 <!-- Combines and minifies the 3x JS files which are used for Trimble Insights -->
 {{ $loglevel := resources.Get "js/loglevel.min.js" }}
@@ -20,3 +19,4 @@
   });
   window.tdcafLogger.trackEvents();
 </script>
+{{- end -}}

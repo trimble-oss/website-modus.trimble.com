@@ -22,11 +22,11 @@ tags: [mobile, styles]
 
 ### States
 
-{{< img src="/img/mobile/messages-states.svg" dark="/img/mobile/messages-states-dark.svg" width="960" height="384" alt="Messages States" loading="auto" >}}
+{{< img src="/img/mobile/messages-states.svg" dark="/img/mobile/messages-states-dark.svg" width="960" height="384" alt="Messages States" >}}
 
 ### Sizing
 
-{{< img src="/img/mobile/messages-sizing.svg" dark="/img/mobile/messages-sizing-dark.svg" width="960" height="311" alt="Messages Sizing" loading="auto" >}}
+{{< img src="/img/mobile/messages-sizing.svg" dark="/img/mobile/messages-sizing-dark.svg" width="960" height="311" alt="Messages Sizing" >}}
 
 ### Behaviors
 
