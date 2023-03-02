@@ -24,7 +24,7 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 - Affording a binary selection, like accepting terms and conditions.
 - Affording multiple selections from a set of options.
-- Enabling selection of an object, such as a [Card](/components/mobile/checkboxes/).
+- Enabling selection of an object, such as a [Card](/components/mobile/cards/).
 - Affording selection of a row within a data [Table](/components/mobile/tables/).
 
 **Don’t use when**
@@ -33,7 +33,6 @@ Checkboxes should be used in forms that require submission and processing. The c
 - Turning a feature, mode, or functionality on and off. Instead, use a [Switch](/components/mobile/switches/).
 - Checking or unchecking elicits an immediate change in the UI or functionality, such as enabling a disabled field or revealing more controls. Instead, use a [Switch](/components/mobile/switches/).
 - Checking or unchecking elicits a change in background functionality without affecting the UI, like disabling an email notification. Instead, use a [Switch](/components/mobile/switches/).
-
 
 {{< whats-changed-table >}}
 

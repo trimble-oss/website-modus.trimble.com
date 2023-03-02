@@ -23,7 +23,7 @@ Below are our goals for it:
 - **Inspiration**: This is a space where you can get inspired as a designer and share ideas of the work that you’ve been doing using the Modus Design System.
 - **Problem solving**: It’s also a space where you can see how other designers solved similar problems that you are encountering in your product.
 - **Learning**: It’s also a space where we can uncover where Modus might need to fill a gap and expand the guidelines to include more complex pattern definitions and designs.
-- **Connect and Scale**: This might help us with our __Connect and Scale__ initiative by helping us standardize solutions for certain modules or features and giving us more visibility to designs of UIs across different products.
+- **Connect and Scale**: This might help us with our Connect and Scale initiative by helping us standardize solutions for certain modules or features and giving us more visibility to designs of UIs across different products.
 
 ### What are we looking for?
 
