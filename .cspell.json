@@ -187,6 +187,7 @@
     "cmpnam",
     "cname",
     "Cocoapods",
+    "codecov",
     "codebehind",
     "codemirror",
     "codepen",
@@ -1245,6 +1246,7 @@
     "*.{log,svg,snap}",
     "CODEOWNERS",
     "tiger-teams.md",
+    ".terms.jsonc",
     "test.*"
   ],
   "useGitignore": true

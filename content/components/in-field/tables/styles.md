@@ -61,7 +61,7 @@ Note: Row striping is not recommended. It should be used as a last resort to inc
 
 ### Compact Layout (Row Cards)
 
-{{< img src="/img/in-field/tables.svg" dark="/imgin-field/tables-dark.svg" width="569" height="649" alt="Tables Row" >}}
+{{< img src="/img/in-field/tables.svg" dark="/img/in-field/tables-dark.svg" width="569" height="649" alt="Tables Row" >}}
 
 ## Editorial
 
