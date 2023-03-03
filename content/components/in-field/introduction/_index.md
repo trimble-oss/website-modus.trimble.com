@@ -31,7 +31,7 @@ The in-field, high-contrast library is specific to applications used outdoors or
 
 ## Modus In-Field UI Kits
 
-The UI Kit focuses on larger display sizes, cross-reference Mobile Kit for smaller devices or components can be scaled [Figma for designers](/designers/). This brand base must maintain optimal usability, while also allowing flexibility to support Trimble and other OEM (Original Equipment Manufacturers) brand variations. See [Global colours](/foundations/color-palette/#infield-global-colors) for global colors and [Type](/foundations/typography/#infield)for overview of fonts sizes.
+The UI Kit focuses on larger display sizes, cross-reference Mobile Kit for smaller devices or components can be scaled [Figma for designers](/designers/). This brand base must maintain optimal usability, while also allowing flexibility to support Trimble and other OEM (Original Equipment Manufacturers) brand variations. See [Global colours](/foundations/color-palette/#infield-global-colors) for global colors and [Type](/foundations/typography/#infield) for overview of fonts sizes.
 
 ## Supporting Brand Variations
 
