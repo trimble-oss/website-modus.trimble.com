@@ -32,8 +32,8 @@ Tables are largely based on the [List](/components/in-field/lists/) component. T
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                | Contributors                                                                                                                |
-| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 01/16/2023 | 1.0.0   | New component added. | M Johns |
+| Date       | Version | Notes                | Contributors |
+| ---------- | ------- | -------------------- | ------------ |
+| 01/16/2023 | 1.0.0   | New component added. | M Johns      |
 
 {{</ whats-changed-table >}}
