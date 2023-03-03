@@ -230,6 +230,8 @@ menu:
       url: /components/in-field/sliders/
     - name: Switches
       url: /components/in-field/switches/
+    - name: Tables
+      url: /components/in-field/tables/
     - name: Tabs
       url: /components/in-field/tabs/
 
