@@ -57,7 +57,7 @@ Note: Row striping is not recommended. It should be used as a last resort to inc
 
 ### Horizontal Filled Layout
 
-{{< img src="/img/in-field/tables-horizontal.svg" dark="/img/in-field/tables-horizontal-dark.svg" width="960" height="278" alt="Tables Horizontal" loading="auto" >}}
+{{< img src="/img/in-field/tables.svg" dark="/img/in-field/tables-dark.svg" width="960" height="278" alt="Tables Horizontal" loading="auto" >}}
 
 ### Compact Layout (Row Cards)
 
