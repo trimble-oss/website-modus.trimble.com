@@ -43,6 +43,6 @@ tags: [mobile, styles]
 - Keep titles three to five words if possible.
 - For titles, use title case and capitalize prepositions of four letters or more.
 - Messages should tell the user what’s happening in friendly, non-technical language.
-- If the message requires a user to take action in order to continue or complete a task, use an [alert](/components/mobile/alerts/)
+- If the message requires a user to take action in order to continue or complete a task, use an [Alert](/components/mobile/alerts/)
   instead.
 - For messages, use full sentences with punctuation. Use sentence case.

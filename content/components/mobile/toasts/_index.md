@@ -27,7 +27,7 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
 
 **Don't use when**
 
-- Displaying critical information that require immediate user action. Instead, use an [alert](/components/mobile/alerts/)
+- Displaying critical information that require immediate user action. Instead, use an [Alert](/components/mobile/alerts/)
 - The information being displayed is highly contextual to the user action.
 
 {{< whats-changed-table >}}

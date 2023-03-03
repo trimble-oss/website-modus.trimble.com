@@ -35,17 +35,17 @@ Sliders select a numeric value or range of values by moving a handle or set of h
 
 Continuous sliders allow users to make selections along a subjective range thus don’t require a specific value.
 
-{{< img src="/img/mobile/sliders-continuous.svg" dark="/img/mobile/sliders-continuous-dark.svg" width="961" height="797" alt="Sliders Continuous With No Labels" loading="auto" >}}
+{{< img src="/img/mobile/sliders-continuous.svg" dark="/img/mobile/sliders-continuous-dark.svg" width="961" height="797" alt="Sliders Continuous With No Labels" >}}
 
 ### Discrete Sliders
 
 Discrete sliders display a numeric value label upon dragging the handle, or allow users to input an exact value. Tick marks are also often used with discrete slides but are optional.
 
-{{< img src="/img/mobile/sliders-discrete.svg" dark="/img/mobile/sliders-discrete-dark.svg" width="961" height="286" alt="Sliders Discrete with Tooltip showing" loading="auto" >}}
+{{< img src="/img/mobile/sliders-discrete.svg" dark="/img/mobile/sliders-discrete-dark.svg" width="961" height="286" alt="Sliders Discrete with Tooltip showing" >}}
 
 ### Sliders with Steps
 
-{{< img src="/img/mobile/sliders-steps.svg" dark="/img/mobile/sliders-steps-dark.svg" width="961" height="286" alt="Sliders with steps" loading="auto" >}}
+{{< img src="/img/mobile/sliders-steps.svg" dark="/img/mobile/sliders-steps-dark.svg" width="961" height="286" alt="Sliders with steps" >}}
 
 {{< whats-changed-table >}}
 

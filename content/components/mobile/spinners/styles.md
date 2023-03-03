@@ -19,8 +19,8 @@ tags: [mobile, styles]
 
 ### Sizes
 
-{{< img src="/img/mobile/progress-size.svg" dark="/img/mobile/progress-sizes-dark.svg" width="960" height="176" alt="Progress Indicators Sizes" loading="auto" >}}
+{{< img src="/img/mobile/progress-size.svg" dark="/img/mobile/progress-size-dark.svg" width="960" height="176" alt="Progress Indicators Sizes" >}}
 
 The spinner keep the same size while rotating clockwise. It spins until loading is complete.
 
-{{< img src="/img/mobile/progress-indeterminate2.svg" dark="/img/mobile/progress-indeterminate2-dark.svg" width="960" height="122" alt="Progress Indicators Indeterminate Finished" loading="auto" >}}
+{{< img src="/img/mobile/progress-indeterminate2.svg" dark="/img/mobile/progress-indeterminate2-dark.svg" width="960" height="122" alt="Progress Indicators Indeterminate Finished" >}}

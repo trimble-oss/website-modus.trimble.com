@@ -14,7 +14,7 @@ tags: [mobile, usage]
 
 ## Overview
 
- Text inputs allow users to enter text into the user interface. They typically appear in forms, often with [Checkboxes](/components/mobile/checkboxes/), [Radio Buttons](/components/mobile/radio-buttons/), and [Buttons](/components/mobile/buttons/).
+Text inputs allow users to enter text into the user interface. They typically appear in forms, often with [Checkboxes](/components/mobile/checkboxes/), [Radio Buttons](/components/mobile/radio-buttons/), and [Buttons](/components/mobile/buttons/).
 
 {{< img src="/img/mobile/inputs-overview.svg" dark="/img/mobile/input-overview-dark.svg" width="1242" height="1108" alt="Inputs Overview" >}}
 
@@ -26,6 +26,8 @@ tags: [mobile, usage]
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati   |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
+
+{{</ whats-changed-table >}}
