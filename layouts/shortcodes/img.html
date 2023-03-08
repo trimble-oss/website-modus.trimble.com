@@ -5,7 +5,7 @@
 {{- if .Get "dark" -}}
 <style>
   [data-theme="dark"] img[src="{{- .Get "src" -}}"] {
-    content: url({{- .Get "dark" -}});
+    content: url({{- .Get "dark" | lower -}});
   }
 </style>
 {{- end -}}

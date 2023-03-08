@@ -15,7 +15,6 @@
   "ESLint",
   "GitHub",
   "GraphQL",
-  "GraphiQL",
   "iOS",
   "JavaScript",
   "JetBrains",
@@ -127,7 +126,6 @@
   ["touch[- ]screen(s)?", "touchscreen$1"],
   ["user[- ]name(s)?", "username$1"],
   ["walk-through", "walkthrough"], // “walk through” as a verb is OK
-  ["white[- ]space", "whitespace"],
   ["wild[- ]card(s)?", "wildcard$1"],
 
   // Multiple words

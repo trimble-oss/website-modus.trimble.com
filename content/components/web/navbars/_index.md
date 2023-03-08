@@ -74,7 +74,7 @@ The navbar or the app header provides context through globally accessible menu o
   <button type="button" class="btn btn-lg btn-icon-only btn-text-dark bg-transparent border-white ml-2 border-0"
          data-toggle="tooltip" data-placement="bottom" data-html="true"
          title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
-         <i class="modus-icons notranslate rounded-circle" aria-hidden="true">account_circle</i>
+         <i class="modus-icons notranslate rounded-circle" aria-hidden="true">person_account</i>
   </button>
 </nav>
 <!-- prettier-ignore-end -->

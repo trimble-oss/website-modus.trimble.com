@@ -10,11 +10,11 @@ googleAnalytics: ""
 params:
   title: Trimble Modus Design System
   modusVersion: "1.2"
-  modusIconsVersion: "0.5.1"
   author: "Trimble"
   copyrightHolder: "Trimble Inc."
   images:
     - https://modus.trimble.com/img/preview.png
+  trimble_insights_key: "stP0oRfZPt6GLobwfavo9qgV0yKtChK2AWVtnsw9" #gitleaks:allow
 
 publishdir: "./build/"
 
@@ -239,6 +239,7 @@ menu:
     - name: Introduction
       url: /components/mobile/introduction/
       weight: 1
+      post: "border-bottom"
     - name: Accordions
       url: /components/mobile/accordions/
     - name: Alerts
@@ -296,6 +297,7 @@ menu:
     - name: Introduction
       url: /components/xr/introduction/
       weight: 1
+      post: "border-bottom"
     - name: Backplates
       url: /components/xr/backplates/
     - name: Buttons
