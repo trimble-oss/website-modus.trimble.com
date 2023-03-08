@@ -14,7 +14,7 @@ params:
   copyrightHolder: "Trimble Inc."
   images:
     - https://modus.trimble.com/img/preview.png
-  trimble_insights_key: "stP0oRfZPt6GLobwfavo9qgV0yKtChK2AWVtnsw9"
+  trimble_insights_key: "stP0oRfZPt6GLobwfavo9qgV0yKtChK2AWVtnsw9" #gitleaks:allow
 
 publishdir: "./build/"
 
