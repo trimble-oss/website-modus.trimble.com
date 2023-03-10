@@ -27,7 +27,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 <!-- prettier-ignore-start -->
 | Team Name                      | Team Members               | Start Date  |
 | ------------------------------ | -------------------------- | ----------- |
-| Accordions, Cards, Modals, & Tabs  | A. Galstyan, C. Shaw, E. Gunther, J. de Wit, K. Ponpandian, Krithika S, M. Randrianavony, S. Kumar, T. Priya, Vimal A V, Z. Ward, | 03/14/2023 |
+| Accordions, Cards, Modals, & Tabs  | A. Galstyan, C. Shaw, E. Gunther, J. de Wit, K. Ponpandian, Krithika S., M. Randrianavony, S. Kumar, T. Priya, Vimal A.V., Z. Ward | 03/14/2023 |
 | Desktop Patterns  | **J. Kerbs**, A. Bikic, P. Borgstein, K. Davies, L. Kause, C. Krieg, T. Sippola | 10/19/2022 |
 | Layout Tiger Team | **C. Cuellar**, N. Cadsawan, R. Henness, Q. Le, T. Manham, M. Nawaz, Purushothaman G., C. Oliff  | 08/25/2022 |
 | Trimble Brand Logos | **I. Bixby**, S. Ortiz | on hold |
@@ -39,7 +39,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 <!-- prettier-ignore-start -->
 | Team Name            | Team Members               | Start Date  |
 | -------------------- | -------------------------- | ----------- |
-| Microinteractions & Animations | **T. Manham**, B. Choy, D. Zambrano, J. Jyan, S. Farhat, S. Kaukonen, T. Ortiz, , W. Mezo-Gadia,  | 08/25/2022 |
+| Microinteractions & Animations | **T. Manham**, B. Choy, D. Zambrano, J. Jyan, S. Farhat, S. Kaukonen, T. Ortiz, W. Mezo-Gadia, (L. Galle, C. Oliff)  | 08/25/2022 |
 | Side Panel | **J. de Wit**, C. Cuellar, A. Galstyan, D. Silcock  | In Production |
 | Accessibility | **C. Koga**, D. Bedick, A. Chammoth-Sivaraman, A. Chandroo, K. Davies, J. Gray, G. Jagadeesan, B. Kobloth, F. Kuipers, **F. Lira**, B. Mergener, **C. Oliff**, S. Paasch, A. Rodriguez, C. Rodriguez, I. Perez, S. Kaukonen, H. Sunny, S. Farhad | In Production |
 | Icon Revision & Review | **E. Gunther**, G. Assi, S. Kaukonen, T. Manham, T. Ortiz, S. Reda, L. Saenz, J. Kerbs | In Production |
