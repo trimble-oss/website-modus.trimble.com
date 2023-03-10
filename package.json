@@ -40,7 +40,7 @@
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@trimble-oss/modus-icons": "^1.0.1",
     "@trimbleinc/modus-bootstrap": "^1.5.5",
-    "autoprefixer": "10.4.13",
+    "autoprefixer": "10.4.14",
     "cross-env": "7.0.3",
     "htmlhint": "1.1.4",
     "hugo-bin": "0.99.2",
