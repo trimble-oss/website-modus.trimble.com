@@ -85,7 +85,7 @@ $(function () {
       data-html="true"
       data-placement="left"
       data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#6a6e7980</code><br>
-                           <b>border-color:</b> <code class=theme-l>#464b52</code><code class=theme-d>#464b52</code></small>">
+                           <b>border-color:</b> <code class=theme-l>#6a6e79</code><code class=theme-d>#6a6e79</code></small>">
       <i class="modus-icons notranslate alert-icon" aria-hidden="true">help</i>
       <div>A basic secondary alert with a button</div>
       <a href="#" class="btn btn-sm btn-text-secondary">Button</a>
