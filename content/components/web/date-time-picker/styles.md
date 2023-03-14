@@ -29,7 +29,7 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inpu
 - Clicking on the calendar icon opens the calendar view with the current date highlighted. Use the previous and next arrows to move through the months. Hover over the year and use the up and down arrows to move quickly from year to year.
 - When the user clicks in the date field, change the field to focused, place the text cursor in the field to allow the user to enter date manually.
 - Close the calendar view when a date is selected, when tabbing to the next field, or when a user clicks anywhere outside of the calendar view.
-- Hovering over (or tabbing into) month and year in the header of the calendar displays up and down arrows allowing for navigation to another year. Left and right arrows change the month,.
+- Hovering over (or tabbing into) month and year in the header of the calendar displays up and down arrows allowing for navigation to another year. Left and right arrows change the month.
 
 ![Button States](/img/components/date-picker-button-states.png)
 
@@ -39,13 +39,8 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inpu
 }
 </style>
 
-![Changing Month or Year](/img/components/date-picker-changing-month-year.png)
+{{< img src="/img/components/date-picker-changing-month-year.svg" dark="/img/components/date-picker-changing-month-year-dark.svg" alt="Changing month or year" >}}
 
-<style>
-[data-theme="dark"] img[src="/img/components/date-picker-changing-month-year.png"] {
- content: url(/img/components/date-picker-changing-month-year-dark.png);
-}
-</style>
 
 #### Date Range Picker
 
