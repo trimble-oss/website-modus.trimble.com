@@ -39,13 +39,8 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inpu
 }
 </style>
 
-![Changing Month or Year](/img/components/date-picker-changing-month-year.png)
+{{< img src="/img/components/date-picker-changing-month-year.svg" dark="/img/components/date-picker-changing-month-year-dark.svg" width="600" alt="Changing month or year" >}}
 
-<style>
-[data-theme="dark"] img[src="/img/components/date-picker-changing-month-year.png"] {
- content: url(/img/components/date-picker-changing-month-year-dark.png);
-}
-</style>
 
 #### Date Range Picker
 
