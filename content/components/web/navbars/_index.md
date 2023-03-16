@@ -31,7 +31,7 @@ The navbar or the app header provides context through globally accessible menu o
   <div class="collapse navbar-collapse">
     <div class="navbar-nav ml-auto">
       <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
-         data-placement="bottom" title="Notifications" hidden>
+         data-placement="bottom" title="Notifications">
         <i class="modus-icons notranslate" aria-hidden="true">notifications</i>
       </button>
       <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
