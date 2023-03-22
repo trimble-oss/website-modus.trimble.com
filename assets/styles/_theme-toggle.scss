@@ -1,8 +1,3 @@
-.sun-and-moon {
-  max-height: 24px;
-  max-width: 24px;
-}
-
 .sun-and-moon > :is(.moon, .sun, .sun-beams) {
   transform-origin: center center;
 }
@@ -76,17 +71,9 @@
 .theme-toggle > svg {
   inline-size: 100%;
   block-size: 100%;
-  max-height: 20px;
-  max-width: 20px;
+  max-height: 18px;
+  max-width: 18px;
   stroke-linecap: round;
-}
-
-html[data-theme="light"] {
-  color-scheme: light;
-}
-
-html[data-theme="dark"] {
-  color-scheme: dark;
 }
 
 @supports not (color-scheme: dark) {

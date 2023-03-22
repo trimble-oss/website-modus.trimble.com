@@ -5,7 +5,7 @@ description: "Call for submissions. Contribute your designs to our Modus Gallery
 image: "/img/blog/headers/2023-02-20-modus-gallery.png"
 images:
   - img/blog/headers/2023-02-20-modus-gallery.png
-headerBgColor: "#FFD973"
+headerBgColor: "#fff"
 tags: ["modus", "gallery", "design"]
 author: Sonia Kaukonen
 blog: true

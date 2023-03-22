@@ -59,3 +59,7 @@ code {
 main {
   min-height: 60vh;
 }
+
+.tooltip {
+  z-index: 3070 !important;
+}

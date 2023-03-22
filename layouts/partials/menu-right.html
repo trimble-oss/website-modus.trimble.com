@@ -13,7 +13,7 @@
 <hr>
 {{ end }}
 
-{{- if (or (.Params.bootstrapURL)  (.Params.reactBootstrapURL)) -}}
+{{- if (or (.Params.bootstrapURL) (.Params.reactBootstrapURL) (.Params.webComponentsURL)) -}}
 <div class="h5 pt-2 ml-3">
 Implementations
 </div>

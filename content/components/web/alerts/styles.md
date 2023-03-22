@@ -47,9 +47,6 @@ $(function () {
 ### Basic Alerts
 
 <style>
-[data-theme=dark] .alert-dark {
-  border-color: rgba(23,28,30,.5) !important;
-}
 .bg-light .alert {
   max-width: 600px;
 }
@@ -61,9 +58,6 @@ $(function () {
 }
 [data-theme=dark] code {
   filter: brightness(250%);
-}
-[data-theme=dark] .alert.alert-dark {
-  border-color: #464B52!important;
 }
 </style>
 

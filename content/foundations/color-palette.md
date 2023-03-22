@@ -255,7 +255,7 @@ Black
 
 ## Text Color Use Examples
 
-{{< img src="/img/foundations/text-color.svg" dark="/img/foundations/text-color-dark.svg" class="w-100" width="854" height="384" alt="Text Color Palette" style="background:#fff" loading="auto" >}}
+{{< img src="/img/foundations/text-color.svg" dark="/img/foundations/text-color-dark.svg" class="w-100" width="854" height="384" alt="Text Color Palette" >}}
 
 ## Extended Trimble Color Palette
 
