@@ -22,6 +22,10 @@
 
     {{ block "footer" . }} {{ partialCached "footer" . }} {{- end -}}
 
+    <script>
+      $(function () { $('[data-toggle="tooltip"]').tooltip() });
+    </script>
+
     {{ $scrollToTop := resources.Get "js/scroll-to-top.js" }}
     {{ $feedback := resources.Get "js/was-this-page-helpful.js" }}
     {{ $js := slice $scrollToTop $feedback | resources.Concat "js/app.js" | resources.Minify }}
