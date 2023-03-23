@@ -28,8 +28,8 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                                              | Contributors                   |
-| ---------- | ------- | -------------------------------------------------- | ------------------------------ |
-| 11/23/2020 | 1.0.0   | Warning alert text color changed to be accessible. | E. Bohn, L. Kause, N. Springer |
+| Date       | Version | Notes                               | Contributors |
+| ---------- | ------- | ----------------------------------- | ------------ |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati   |
 
 {{</ whats-changed-table >}}
