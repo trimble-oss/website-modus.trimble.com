@@ -19,12 +19,6 @@
       "headers": {
         "cache-control": "public, max-age=15770000"
       }
-    },
-    {
-      "route": "/fonts/*",
-      "headers": {
-        "cache-control": "public, max-age=15770000"
-      }
     }
   ]
 }

@@ -104,22 +104,22 @@ $(function () {
 
 | Element   | Property   | Color                                                                                  |
 | --------- | ---------- | -------------------------------------------------------------------------------------- |
-| Primary   | Color      | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="White" hexD="#ffffff" >}} |
-|           | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD="Blue" hexD="#0063a380" >}}       |
-|           | Border     | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="Blue" hexD="#019AEB" >}}  |
-| Secondary | Color      | {{< color-preview nameL="Gray 6" hexL="#6a6e79" nameD="White" hexD="#ffffff" >}}       |
+| Primary   | Color      | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD=" " hexD="#ffffff" >}} |
+|           | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD=" " hexD="#0063a380" >}}       |
+|           | Border     | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD=" " hexD="#019AEB" >}}  |
+| Secondary | Color      | {{< color-preview nameL="Gray 6" hexL="#6a6e79" nameD=" " hexD="#ffffff" >}}       |
 |           | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD=" " hexD="#6a6e7980" >}}          |
 |           | Border     | {{< color-preview nameL="Gray 8" hexL="#464B52" nameD=" " hexD="#6a6e79" >}}           |
-| Dark      | Color      | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff" >}} |
+| Dark      | Color      | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD=" " hexD="#ffffff" >}} |
 |           | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD=" " hexD="#171c1e80" >}}          |
 |           | Border     | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD=" " hexD="#464b52" >}}     |
-| Success   | Color      | {{< color-preview nameL="Green Dark" hexL="#0063a3" nameD="White" hexD="#ffffff" >}}   |
+| Success   | Color      | {{< color-preview nameL="Green Dark" hexL="#006638" nameD=" " hexD="#ffffff" >}}   |
 |           | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD=" " hexD="#1e8a4480" >}}          |
 |           | Border     | {{< color-preview nameL="Green Dark" hexL="#006638" nameD=" " hexD="#1e8a44" >}}       |
-| Danger    | Color      | {{< color-preview nameL="Red" hexL="#da212c" nameD="White" hexD="#ffffff" >}}          |
+| Danger    | Color      | {{< color-preview nameL="Red" hexL="#da212c" nameD=" " hexD="#ffffff" >}}          |
 |           | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD=" " hexD="#da212c80" >}}          |
 |           | Border     | {{< color-preview nameL="Red" hexL="#da212c" nameD=" " hexD="#da212c" >}}              |
-| Warning   | Color      | {{< color-preview nameL="Trimble Gray" hexL="#252A2E" nameD="White" hexD="#ffffff" >}} |
+| Warning   | Color      | {{< color-preview nameL="Trimble Gray" hexL="#252A2E" nameD=" " hexD="#ffffff" >}} |
 |           | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD=" " hexD="#fbad2680" >}}          |
 |           | Border     | {{< color-preview nameL="Yellow Dark" hexL="#e49325" nameD=" " hexD="#fbad26" >}}      |
 {class="table table-sm table-bordered"}
