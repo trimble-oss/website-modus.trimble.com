@@ -39,6 +39,14 @@ tags: [styles]
 - Use sentence case for tooltips.
 - Never add a link to text in a tooltip.
 
+### Colors
+
+| Element | Property   | Color                                                                             |
+| ------- | -----------| ----------------------------------------------------------------------------------|
+| Tooltip | Text       | {{< color-preview nameL="White" hexL="#ffffff" nameD="White" hexD="#ffffff" >}}   |
+|         | Background | {{< color-preview nameL="Gray 7" hexL="#353a40" nameD="Gray 4" hexD="#90939f" >}} |
+{class="table table-sm table-bordered"}
+
 <script>
 $(function () {
   $('[data-toggle="tooltip"]').tooltip();

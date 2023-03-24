@@ -357,13 +357,13 @@ module:
     - source: assets/static/robots.txt
       target: static/robots.txt
 
-    - source: node_modules/@trimble-oss/modus-icons/dist/transportation/fonts/modus-icons.css
+    - source: node_modules/@trimble-oss/modus-icons/dist/modus-outlined/fonts/modus-icons.css
       target: static/css/modus-icons.css
 
-    - source: node_modules/@trimble-oss/modus-icons/dist/transportation/fonts/modus-icons.woff
+    - source: node_modules/@trimble-oss/modus-icons/dist/modus-outlined/fonts/modus-icons.woff
       target: static/css/modus-icons.woff
 
-    - source: node_modules/@trimble-oss/modus-icons/dist/transportation/fonts/modus-icons.woff2
+    - source: node_modules/@trimble-oss/modus-icons/dist/modus-outlined/fonts/modus-icons.woff2
       target: static/css/modus-icons.woff2
 
     - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js

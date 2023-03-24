@@ -44,7 +44,7 @@ $(function () {
 - Do not have a shadow.
 - Remain on the page until dismissed.
 
-### Basic Alerts
+### Examples
 
 <style>
 .bg-light .alert {
@@ -62,75 +62,67 @@ $(function () {
 </style>
 
 <div class="bg-light">
-  <div class="bg-light p-3 p-xl-4 px-xl-5" style="margin-left: 210px">
-    <div
-      class="alert alert-primary"
-      role="alert"
-      data-toggle="popover"
-      data-html="true"
-      data-placement="left"
-      data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#0063a380</code><br>
-                           <b>border-color:</b> <code class=theme-l>#019aeb80</code><code class=theme-d>#019aeb</code></small>">
+  <div class="bg-light p-3 p-xl-4 px-xl-5 mx-4">
+    <div class="alert alert-primary" role="alert">
       <i class="modus-icons notranslate alert-icon" aria-hidden="true">info</i>
       <div>A basic Primary alert</div>
     </div>
-    <div class="alert alert-secondary" role="alert"
-      data-toggle="popover"
-      data-html="true"
-      data-placement="left"
-      data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#6a6e7980</code><br>
-                           <b>border-color:</b> <code class=theme-l>#6a6e79</code><code class=theme-d>#6a6e79</code></small>">
+    <div class="alert alert-secondary" role="alert">
       <i class="modus-icons notranslate alert-icon" aria-hidden="true">help</i>
       <div>A basic secondary alert with a button</div>
       <a href="#" class="btn btn-sm btn-text-secondary">Button</a>
     </div>
-    <div class="alert alert-dark" role="alert"
-      data-toggle="popover"
-      data-html="true"
-      data-placement="left"
-      data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#171c1e80</code><br>
-                           <b>border-color:</b> <code class=theme-l>#252a2e</code><code class=theme-d>#464b52</code></small>">
+    <div class="alert alert-dark" role="alert">
       <i class="modus-icons notranslate alert-icon" aria-hidden="true">info</i>
       <div>A basic <u>dark alert</u> with <em>text formatting</em></div>
     </div>
-    <div class="alert alert-success fade show" role="alert"
-      data-toggle="popover"
-      data-html="true"
-      data-placement="left"
-      data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#1e8a4480</code><br>
-                           <b>border-color:</b> <code class=theme-l>#006638</code><code class=theme-d>#1e8a44</code></small>">
-      <i class="modus-icons alert-icon" aria-hidden="true">check_circle</i>
+    <div class="alert alert-success fade show" role="alert">
+      <i class="modus-icons notranslate alert-icon" aria-hidden="true">check_circle</i>
       <div>Success! A basic success alert with a dismiss icon</div>
       <button type="button" class="close" data-dismiss="alert">
-        <i class="modus-icons modus-icon notranslate">close</i>
+        <i class="modus-icons notranslate">close</i>
       </button>
     </div>
-    <div class="alert alert-danger fade show" role="alert"
-      data-toggle="popover"
-      data-html="true"
-      data-placement="left"
-      data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#da212c80</code><br>
-                           <b>border-color:</b> <code class=theme-l>#da212c</code><code class=theme-d>#da212c</code></small>">
-      <i class="modus-icons alert-icon" aria-hidden="true">warning</i>
+    <div class="alert alert-danger fade show" role="alert">
+      <i class="modus-icons notranslate alert-icon" aria-hidden="true">warning</i>
       <div>Error! A basic error alert with a dismiss icon</div>
       <button type="button" class="close" data-dismiss="alert">
-        <i class="modus-icons modus-icon notranslate">close</i>
+        <i class="modus-icons notranslate">close</i>
       </button>
     </div>
-    <div class="alert alert-warning text-dark fade show" role="alert"
-      data-toggle="popover"
-      data-html="true"
-      data-placement="left"
-      data-content="<small><b>background-color:</b> <code class=theme-l>#ffffff</code><code class=theme-d>#fbad2680</code><br>
-                           <b>border-color:</b> <code class=theme-l>#e49325</code><code class=theme-d>#fbad26</code></small>">
-      <i class="modus-icons notranslate alert-icon" aria-hidden="true">warning</i>
+    <div class="alert alert-warning text-dark fade show" role="alert">
+      <i class="modus-icons notranslate alert-icon" aria-hidden="true">alert_outlined</i>
       <div>Warning! A basic warning alert with a dismiss icon</div>
       <button type="button" class="close" data-dismiss="alert">
-        <i class="modus-icons modus-icon notranslate">close</i>
+        <i class="modus-icons notranslate">close</i>
       </button>
     </div>
   </div>
 </div>
+
+### Colors
+
+| Element   | Property   | Color                                                                                  |
+| --------- | ---------- | -------------------------------------------------------------------------------------- |
+| Primary   | Color      | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="White" hexD="#ffffff" >}} |
+|           | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD="Blue" hexD="#0063a380" >}}       |
+|           | Border     | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="Blue" hexD="#019AEB" >}}  |
+| Secondary | Color      | {{< color-preview nameL="Gray 6" hexL="#6a6e79" nameD="White" hexD="#ffffff" >}}       |
+|           | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD=" " hexD="#6a6e7980" >}}          |
+|           | Border     | {{< color-preview nameL="Gray 8" hexL="#464B52" nameD=" " hexD="#6a6e79" >}}           |
+| Dark      | Color      | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff" >}} |
+|           | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD=" " hexD="#171c1e80" >}}          |
+|           | Border     | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD=" " hexD="#464b52" >}}     |
+| Success   | Color      | {{< color-preview nameL="Green Dark" hexL="#0063a3" nameD="White" hexD="#ffffff" >}}   |
+|           | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD=" " hexD="#1e8a4480" >}}          |
+|           | Border     | {{< color-preview nameL="Green Dark" hexL="#006638" nameD=" " hexD="#1e8a44" >}}       |
+| Danger    | Color      | {{< color-preview nameL="Red" hexL="#da212c" nameD="White" hexD="#ffffff" >}}          |
+|           | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD=" " hexD="#da212c80" >}}          |
+|           | Border     | {{< color-preview nameL="Red" hexL="#da212c" nameD=" " hexD="#da212c" >}}              |
+| Warning   | Color      | {{< color-preview nameL="Trimble Gray" hexL="#252A2E" nameD="White" hexD="#ffffff" >}} |
+|           | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD=" " hexD="#fbad2680" >}}          |
+|           | Border     | {{< color-preview nameL="Yellow Dark" hexL="#e49325" nameD=" " hexD="#fbad26" >}}      |
+{class="table table-sm table-bordered"}
 
 ### Behaviors
 
