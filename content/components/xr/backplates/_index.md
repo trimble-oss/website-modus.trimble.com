@@ -12,8 +12,6 @@ aliases:
   - badge
 ---
 
-
-
 ## Overview
 
 Backplates provide visual contrast and helps to connect other elements and components within graphic interfaces.  Their purpose is to support the overall design of the interface and improve the user experience, delivering visual hierarchy and structure to the interfaces.
@@ -38,4 +36,3 @@ The decision to use or avoid a backplate ultimately depends on the specific requ
 ## Types
 
 Backplates can be static, or be ruled by solvers, or be interactive in nature (grabbable), but fit with solvers to enhance the experience and discoverability.  Their use and behavior depend on the type of experience the use case requires.
-

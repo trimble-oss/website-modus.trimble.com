@@ -267,6 +267,7 @@
     "devy",
     "dfars",
     "dhekelia",
+    "diegetic",
     "disablepictureinpicture",
     "discoverability",
     "dismissable",
@@ -409,6 +410,7 @@
     "GPGSV",
     "gprmc",
     "gprs",
+    "grabbable",
     "grayscale",
     "gridjs",
     "gritit",
@@ -1230,7 +1232,6 @@
   "language": "en,en-US",
   "ignoreRegExpList": [
     "<!-- prettier-ignore -->\\n(`{3,})\\w*\\n[\\s\\S]+?\\1",
-    "\\[(\\*{2})?@\\w+?\\1\\]",
     "\\[`\\w+`\\]",
     "ve{2,}r{2,}y",
     "ve+r+y+long\\w*",
@@ -1246,8 +1247,8 @@
     "*.{log,svg,snap}",
     "CODEOWNERS",
     "tiger-teams.md",
-    ".terms.jsonc",
-    "test.*"
+    ".terms.jsonc"
   ],
-  "useGitignore": true
+  "useGitignore": true,
+  "enabled": true
 }

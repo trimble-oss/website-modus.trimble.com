@@ -11,7 +11,6 @@ keywords: modals, modal, dialogs, dialog
 tags: [xr, styles]
 ---
 
-
 ### Behaviors
 
 - Dialogs are usually activated by user actions (such as activating a button) but may also be the result of a timed event (such as a session timeout warning) or other events.

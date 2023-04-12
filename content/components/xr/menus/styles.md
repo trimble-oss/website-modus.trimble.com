@@ -11,7 +11,6 @@ keywords: modals, modal, dialogs, dialog
 tags: [xr, styles]
 ---
 
-
 ## Specifications
 
 **Hand Menus**
@@ -20,7 +19,6 @@ tags: [xr, styles]
 - Place the menu along the ulnar nerve
 - Attaching larger menus exclusively to the hand, can trigger hand fatigue very rapidly. Consider defining if the menu is attached to the hand or “pinned” to space.
   - Rule of thumb: Smaller Menus (only buttons) can remain attached to the hand (see hide), while larger menus should be pinned to space once invoked (see locked).
-
 
 ***Touch UIs placed at hand-length from users***
 <table class="table table-bordered">
@@ -60,7 +58,6 @@ tags: [xr, styles]
 - Primary use with touch interaction.
 - Minimum button recommended size: 32 with overall padding of min 8
 - Exception are free floating buttons around the menu, ex. close or pin-to-world
-
 
 ***Touch = UIs placed at 50cm (~20 Inch) from users***
 <table class="table table-bordered">

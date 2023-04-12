@@ -13,7 +13,6 @@ aliases:
   - card
 ---
 
-
 {{< img src="/img/xr/MXR_Card_Interaction.gif" dark="/img/xr/MXR_Card_Interaction.gif" width="962" height="160" class="w-100" loading="auto" >}}
 
 ## Overview
@@ -35,7 +34,6 @@ They can encompass 2 outcomes, which can exclusively be combined through a pre-c
 - You need to group information in a digestible form.
 - You need to offer a short entry point that is linked to more detailed content or a complex task.
 - Lay out single or multiple sets of related information in the same region of the page. Cards may include an image, a text summary, and actions.
-
 
 **Don't use when**
 

@@ -29,7 +29,7 @@ The XR library of Modus components is a set of building blocks to design and dev
 
 Any application implementing augmented reality workflows could benefit from some of the components and guidelines of Modus XR, but it will inevitably require using the [Mobile Components](/components/mobile/) as well. If your application is used in a combination with a mobile device in the field or in a cab of heavy machinery, use the [In-Field Components](/components/in-field/) instead.
 
-# Guiding Principles
+## Guiding Principles
 
 These components serve developers, designers and product owners as a reference for the creation and implementation of XR experiences.  This technology adds great value for Trimble's mission to connect the physical and digital worlds with unequivocal clarity, serving present challenges and setting foundation for future needs.
 
