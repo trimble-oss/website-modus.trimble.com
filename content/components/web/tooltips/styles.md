@@ -41,10 +41,10 @@ tags: [styles]
 
 ### Colors
 
-| Element | Property   | Color                                                                             |
-| ------- | -----------| ----------------------------------------------------------------------------------|
-| Tooltip | Text       | {{< color-preview nameL="White" hexL="#ffffff" nameD="White" hexD="#ffffff" >}}   |
-|         | Background | {{< color-preview nameL="Gray 7" hexL="#353a40" nameD="Gray 4" hexD="#90939f" >}} |
+| Element | Property   | Color                                                                                  |
+| ------- | -----------| ---------------------------------------------------------------------------------------|
+| Tooltip | Text       | {{< color-preview nameL="White" hexL="#ffffff" nameD="Trimble Gray" hexD="#252a2e" >}} |
+|         | Background | {{< color-preview nameL="Gray 7" hexL="#585c65" nameD="Gray 0" hexD="#e0e1e9" >}}      |
 {class="table table-sm table-bordered"}
 
 <script>

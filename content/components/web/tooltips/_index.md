@@ -31,7 +31,7 @@ A tooltip is a popup that displays information related to an element when the el
       <i class="modus-icons notranslate" aria-hidden="true">expand</i>
       </button>
       <button class="btn btn-icon-only btn-outline-dark" data-toggle="tooltip" data-placement="right" title="Toggle layers">
-      <i class="modus-icons notranslate" aria-hidden="true">map_layers</i>
+      <i class="modus-icons notranslate" aria-hidden="true">map</i>
       </button>
     </div>
   </div>
