@@ -56,16 +56,15 @@ Based on the observable conclusions from [Microsoft’s MRTK guidelines](https:/
 
 **1 pixel = 1mm**
 
-Additionally an 8px or milimeter (mm) grid system rules over the positioning and layouting of all elements within a component and is the base to layout UIs.
+Additionally an 8px or millimeter (mm) grid system rules over the positioning and layouting of all elements within a component and is the base to layout UIs.
 
- Modus XR UI Kits is available in [Figma for designers](/designers/).
+Modus XR UI Kits is available in [Figma for designers](/designers/).
 
- These guidelines will include in future releases components and patterns covering far interaction experiences.
+These guidelines will include in future releases components and patterns covering far interaction experiences.
 
 ## Supported Frameworks
 
 XR patterns and components are currently available using [MRTK 2.8.3](https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05) as a base and can be deployed and implemented using [Unity v. 2020.3 or 2021.3](https://unity.com/download).  Please refer to [MRTK's github page](https://github.com/Microsoft/MixedRealityToolkit-Unity/releases) to download the required Unity packages to deploy Modus XR.
-
 
 ## About UX/UI Design for Extended Reality @ Trimble
 
