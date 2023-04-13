@@ -378,6 +378,9 @@ module:
     - source: node_modules/list.js/dist/list.min.js.map
       target: static/js/list.min.js.map
 
+    - source: node_modules/@trimble-oss/modus-icons/dist/modus-solid/sprites/modus-icons.svg
+      target: static/modus-solid-icons.svg
+
 markup:
   goldmark:
     extensions:
