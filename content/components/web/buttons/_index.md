@@ -152,7 +152,7 @@ There are two button progressions you can choose from: structural and color prog
       <th scope="row">Icon Only</th>
       <td>
         <div class="mb-1">
-          <button class="btn btn-icon-only btn-text-dark" type="button">
+          <button type="button" class="btn btn-icon-only btn-text-dark" aria-label="Settings">
             <i class="modus-icons notranslate" aria-hidden="true">gear</i>
           </button>
         </div>
@@ -161,15 +161,15 @@ There are two button progressions you can choose from: structural and color prog
             class="btn-group shadow-1"
             role="group"
             aria-label="Basic example">
-            <button type="button" class="btn btn-icon-only btn-outline-dark" type="button">
+            <button type="button" class="btn btn-icon-only btn-outline-dark" aria-label="Calendar">
               <i class="modus-icons notranslate" aria-hidden="true">calendar</i>
             </button>
             <button
               type="button"
-              class="btn btn-icon-only btn-outline-dark active">
-              <i class="modus-icons notranslate" aria-hidden="true">edit</i>
+              class="btn btn-icon-only btn-outline-dark active" aria-label="Edit">
+              <i class="modus-icons notranslate" aria-hidden="true">pencil</i>
             </button>
-            <button type="button" class="btn btn-icon-only btn-outline-dark" type="button">
+            <button type="button" class="btn btn-icon-only btn-outline-dark" aria-label="filter">
               <i class="modus-icons notranslate" aria-hidden="true">filter</i>
             </button>
           </div>
