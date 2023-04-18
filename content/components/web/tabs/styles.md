@@ -71,3 +71,19 @@ tags: [styles]
   margin-left: -5rem !important;
 }
 </style>
+
+### Colors
+
+| Element      | Property      | Color                                                                                                 |
+| ------------ | ------------- | ----------------------------------------------------------------------------------------------------- |
+| Tab Container | Border Bottom | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray 6" hexD="#6a6e79" >}}                    |
+| Default Tab  | Color         | {{< color-preview nameL="Trimble Gray" hexL="#252A2E" nameD="White" hexD="#ffffff" >}}                |
+|              | Background    | Transparent                                                                                           |
+| Active Tab   | Color         | {{< color-preview nameL="Trimble Blue Light" hexL="#217cbb" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
+|              | Bottom Border | {{< color-preview nameL="Trimble Blue Light" hexL="#217cbb" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
+|              | Background    | Transparent                                                                                           |
+| Hover Tab    | Color         | {{< color-preview nameL="Trimble Blue Light" hexL="#217cbb" nameD="White" hexD="#ffffff" >}}          |
+|              | Background    | {{< color-preview nameL="Blue Pale" hexL="#dcedf9" nameD="Gray 8" hexD="#464b52" >}}                  |
+| Disabled Tab | Color         | {{< color-preview nameL="Gray 2" hexL="#B7B9C3" nameD="White" hexD="#ffffff" >}}                      |
+|              | Background    | Transparent                                                                                           |
+{class="table table-sm table-bordered"}
