@@ -27,6 +27,11 @@
 @import "was-this-page-helpful";
 @import "anatomy-css";
 
+html,
+body {
+  color-scheme: light;
+}
+
 // underline links
 a {
   text-decoration: underline;
