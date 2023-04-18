@@ -16,8 +16,8 @@ tags: [styles]
 
 **Default**
 
-- Header Font: Open Sans Semibold 16px {{< color-preview hexL="#252A2E" hexD="#f1f1f6" >}}
-- Body Font: Open Sans Regular 14px {{< color-preview hexL="#252A2E" hexD="#f1f1f6" >}}
+- Header Font: Open Sans Semibold 16px
+- Body Font: Open Sans Regular 14px
 - Horizontal Padding: 4px
 - Collapsed Height: 48px
 
@@ -261,6 +261,18 @@ tags: [styles]
     </td>
   </tr>
 </table>
+
+### Colors
+
+| Element | Property                        | Color                                                                                  |
+| ------- | ------------------------------- | -------------------------------------------------------------------------------------- |
+| Button  | Color                           | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff">}}  |
+|         | Color (Disabled)                | {{< color-preview nameL="Gray 2" hexL="e0e1e9" nameD="White" hexD="#ffffff" >}}        |
+|         | Background                      | {{< color-preview nameL="White" hexL="#ffffff" nameD="Trimble Gray" hexD="#252a2e" >}} |
+|         | Background (Hover/Active/Focus) | {{< color-preview nameL="Gray 0" hexL="e0e1e9" nameD="Gray 8" hexD="#464b52" >}}       |
+|         | Border-Bottom                   | {{< color-preview nameL="Gray 1" hexL="#cbcdd6" nameD="Gray 6" hexD="#6a6e79" >}}      |
+| Icon    | Color                           | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff">}}  |
+{class="table table-sm table-bordered"}
 
 ### Behavior
 
