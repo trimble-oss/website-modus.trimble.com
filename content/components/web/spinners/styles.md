@@ -40,10 +40,32 @@ tags: [styles]
     <div class="spinner-border text-secondary"></div>
     <div class="h2 text-secondary mt-3">Loading...</div>
   </div>
+    <div class="guide-sample text-center mx-5">
+    <div class="spinner-border spinner-tertiary"></div>
+    <div class="h2 spinner-tertiary mt-3">Loading...</div>
+  </div>
 </div>
 
 <style>
+.spinner-tertiary {
+  color: #cbcdd6 !important;
+}
+[data-theme="dark"] .spinner-tertiary {
+  color: #90939f !important;
+}
 [data-theme="dark"] .guide-sample .h2 {
-  color: #fff !important;
+  color: #f1f1f1 !important;
 }
 </style>
+
+## Colors
+
+| Element   | Property        | Color                                                                                           |
+| --------- | --------------- | ----------------------------------------------------------------------------------------------- |
+| Default   | Spinner         | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
+|           | Text (Optional) | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="Gray Light" hexD="#f1f1f1" >}}     |
+| Secondary | Spinner         | {{< color-preview nameL="Gray 6" hexL="#6A6E79" nameD="Gray Light" hexD="#f1f1f1" >}}           |
+|           | Text (Optional) | {{< color-preview nameL="Gray 6" hexL="#6A6E79" nameD="Gray Light" hexD="#f1f1f1" >}}           |
+| Tertiary  | Spinner         | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray 4" hexD="#90939f" >}}               |
+|           | Text (Optional) | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray Light" hexD="#f1f1f1" >}}           |
+{class="table table-sm table-bordered"}
