@@ -30,7 +30,6 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 | Accordions, Cards, Modals, & Tabs  | **K. Ponpandian**, J. de Wit, A. Galstyan, E. Gunther, S. Kumar, T. Priya, M. Randrianavony, Krithika S., C. Shaw, Vimal A.V., Z. Ward | 03/14/2023 |
 | Desktop Patterns  | **J. Kerbs**, A. Bikic, P. Borgstein, K. Davies, L. Kause, C. Krieg, T. Sippola | 10/19/2022 |
 | Layout Tiger Team | **C. Cuellar**, N. Cadsawan, R. Henness, Q. Le, T. Manham, M. Nawaz, C. Oliff, Purushothaman G.   | 08/25/2022 |
-| Trimble Brand Logos | **I. Bixby**, S. Ortiz | on hold |
 {class="table table-bordered"}
 <!-- prettier-ignore-end -->
 
