@@ -54,7 +54,7 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
 | Header                   | {{< color-preview hexL="#F1F1F6" nameL="Gray Light" hexD="#464B52" nameD="Gray 8" >}}        |
 | List Table Row           | {{< color-preview hexL="#ffffff" nameL="White" hexD="#171C1E" nameD="Gray 10" >}}            |
 | Selected Row             | {{< color-preview hexL="#dcedf9" nameL="Blue Pale" hexD="#019AEB" nameD="Highlight Blue" >}} |
-| Row Hover                | {{< color-preview hexL="#dcedf9" nameL="Gray 8" hexD="#464B52" nameD="Gray 8" >}} |
+| Row Hover                | {{< color-preview hexL="#dcedf9" nameL="Blue Pale" hexD="#464B52" nameD="Gray 8" >}}         |
 | Data Table Read-Only Row | {{< color-preview hexL="#E0E1E9" nameL="Gray 0" hexD="#171C1E" nameD="Gray 10" >}}           |
 | Data Table Editable Row  | {{< color-preview hexL="#ffffff" nameL="White" hexD="#171C1E" nameD="Gray 10" >}}            |
 {class="table table-bordered"}
