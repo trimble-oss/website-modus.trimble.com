@@ -8,6 +8,11 @@
 {{ $themeToggleJS := $themeToggle | resources.Minify }}
 <script src="{{ $themeToggleJS.RelPermalink }}" fetchpriority="high"></script>
 <meta name="color-scheme" content="light dark">
+<style>
+  html[data-theme="dark"] {
+    color-scheme: dark;
+  }
+</style>
 
 <!-- Faster Loading Google Fonts - https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/ -->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

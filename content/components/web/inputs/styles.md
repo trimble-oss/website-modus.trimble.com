@@ -15,11 +15,6 @@ tags: [styles]
 
 ## Specifications
 
-- Label Text Color: {{< color-preview hexL="#464b52" hexD="#B7B9C3">}}
-- Input Text Color: {{< color-preview hexL="#252a2e" hexD="#ffffff">}}
-- Placeholder Text Color: {{< color-preview hexL="#B7b9c3" hexD="#7D808D">}}
-- Border Color: {{< color-preview hexL="#e0e1e9" hexD="#464B52">}} (bottom border {{< color-preview hexL="#6a6e79" hexD="#6A6E79">}})
-
 There are two sizes of input fields defined:
 
 - Default: default form inputs should have a height of 32px (8px padding) and a font-size of 12px (.75rem). Used for most forms.
@@ -71,12 +66,6 @@ There are two sizes of input fields defined:
 </table>
 
 ### Behaviors
-
-- Form inputs that are in focus should have a 2px bottom border using {{< color-preview hexL="#217cbb" hexD="#217CBB">}}.
-- Form inputs that are <strong class="text-success">valid</strong> should have a 2px bottom border using our success color {{< color-preview hexL="#006638" hexD="#1E8A44">}}.
-- Form inputs that are <strong class="text-danger">invalid</strong> should have a 2px bottom border using our danger color {{< color-preview hexL="#da212c" hexD="#DA212C">}}.
-- Form inputs that are <strong>disabled</strong> should use {{< color-preview hexL="#f1f1f6" hexD="#171C1E">}} as a background color.
-- Form inputs that are <strong>readonly</strong> should use {{< color-preview hexL="#E0E1E9" hexD="#353A40">}} as a background color.
 
 <div class="guide-example-block d-inline-block">
   <div class="guide-sample">
@@ -136,3 +125,20 @@ There are two sizes of input fields defined:
 - Provide input constraints, such as a character limit within a text entry box, to provide users with guidelines and improve form efficiency.
 - Use multi-step forms when necessary by breaking up inputs into distinct categories.
 - Provide clear and obvious action buttons. Form submission [buttons](/components/web/buttons/) should be primary.
+
+## Colors
+
+| Element          | Property            | Color                                                                   |
+| ---------------- | ------------------- | ----------------------------------------------------------------------- |
+| Label            | Text                | {{< color-preview nameL=" " hexL="#464b52" nameD=" " hexD="#b7b9c3" >}} |
+| Input            | Text                | {{< color-preview nameL=" " hexL="#464b52" nameD=" " hexD="#ffffff" >}} |
+|                  | Placeholder         | {{< color-preview nameL=" " hexL="#b7b9c3" nameD=" " hexD="#7d808d" >}} |
+|                  | Background          | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#171c1e" >}} |
+|                  | Border              | {{< color-preview nameL=" " hexL="#e0e1e9" nameD=" " hexD="#ffffff" >}} |
+|                  | Border (Bottom 2px) | {{< color-preview nameL=" " hexL="#6a6e79" nameD=" " hexD="#6a6e79" >}} |
+| Input (Focus)    | Border (Bottom 2px) | {{< color-preview nameL=" " hexL="#217cbb" nameD=" " hexD="#217cbb" >}} |
+| Input (Valid)    | Border (Bottom 2px) | {{< color-preview nameL=" " hexL="#006638" nameD=" " hexD="#1e8a44" >}} |
+| Input (Invalid)  | Border (Bottom 2px) | {{< color-preview nameL=" " hexL="#da212c" nameD=" " hexD="#da212c" >}} |
+| Input (Disabled) | Background          | {{< color-preview nameL=" " hexL="#f1f1f6" nameD=" " hexD="#171c1e" >}} |
+| Input (Readonly) | Background          | {{< color-preview nameL=" " hexL="#e0e1e9" nameD=" " hexD="#353a40" >}} |
+{class="table table-sm table-bordered" id="table-colors"}
