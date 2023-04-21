@@ -20,16 +20,6 @@ tags: [styles]
 
 See [Inputs](/components/web/inputs/) and [Lists](/components/web/lists/) for additional specifications.
 
-<span class="theme-l">
-
-- Label Text Color: {{< color-preview hex="#464b52">}}
-- Input Text Color: {{< color-preview hex="#252A2E">}}
-- Placeholder Text Color: {{< color-preview hex="#B7B9C3">}}
-- Border Color: {{< color-preview hex="#E0E1E9">}} (bottom border {{< color-preview hex="#6A6E79">}} )
-- List Subcategory Label Color: {{< color-preview hex="#6a6e79">}}
-
-</span>
-
 There are two sizes of autocomplete input fields defined:
 
 - **Default:** default form inputs should have a height of 32px (8px padding) and a font size of 12px (.75rem). Used for most forms.
@@ -47,9 +37,28 @@ A list of selectable options that can be grouped into sub-categories. Sub-catego
 Clears all text from the input field or reverts to the default selection (or previous selection).
 
 **Chip** (optional)
-A chip *can* be used to clear the filled selection instead of the default “X” clear icon but only in the larger (48px) variant. **Please use one or the other but never both.**
+A chip _can_ be used to clear the filled selection instead of the default “X” clear icon but only in the larger (48px) variant. **Please use one or the other but never both.**
 
 {{< img src="/img/components/autocomplete-clear.svg" dark="/img/components/autocomplete-clear-dark.svg" class="w-100" alt="Autocomplete Chip" >}}
+
+## Colors
+
+| Element          | Property            | Color                                                                   |
+| ---------------- | ------------------- | ----------------------------------------------------------------------- |
+| Label            | Label               | {{< color-preview nameL=" " hexL="#464b52" nameD=" " hexD="#b7b9c3" >}} |
+| Input            | Color               | {{< color-preview nameL=" " hexL="#252a2e" nameD=" " hexD="#ffffff" >}} |
+|                  | Background          | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#171c1e" >}} |
+|                  | Placeholder         | {{< color-preview nameL=" " hexL="#b7b9c3" nameD=" " hexD="#7d808d" >}} |
+|                  | Border              | {{< color-preview nameL=" " hexL="#e0e1e9" nameD=" " hexD="#ffffff" >}} |
+|                  | Border (Bottom 2px) | {{< color-preview nameL=" " hexL="#6a6e79" nameD=" " hexD="#6a6e79" >}} |
+| List Subcategory | Label               | {{< color-preview nameL=" " hexL="#6a6e79" nameD=" " hexD="#6a6e79" >}} |
+{class="table table-sm table-bordered table-colors"}
+
+<style>
+[data-theme="dark"] .table-colors tr:last-child {
+  display: none;
+}
+</style>
 
 ### Behaviors
 
