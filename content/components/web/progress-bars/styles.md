@@ -34,9 +34,7 @@ tags: [styles]
 </div>
 
 - Height: 16px
-- Fill color: <span class="theme-l">#0063a3</span> <span class="theme-d">#019aeb</span>
-- Background color: <span class="theme-l">#ffffff</span><span class="theme-d">#252a2e</span>
-- Border: 1px solid #6a6e79
+- Border: 1px solid
 
 ### Small variant
 
@@ -82,3 +80,11 @@ A smaller version is available with same specs as above except, Height: `8px`.
     </div>
   </div>
 </div>
+
+### Colors
+
+| Element      | Property            | Color                                                                   |
+| ------------ | ------------------- | ----------------------------------------------------------------------- |
+| Progress Bar | Fill                | {{< color-preview nameL=" " hexL="#019aeb" nameD=" " hexD="#0063a3" >}} |
+|              | Background          | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#252a2e" >}} |
+|              | Border              | {{< color-preview nameL=" " hexL="#6a6e79" nameD=" " hexD="#6a6e79" >}} |

@@ -59,7 +59,7 @@
           <li class="nav-item">
             <a class="nav-link px-3 nav-accessibility text-decoration-none{{ if in .Params.tags "accessibility" }} active pe-none{{end}}"
               href="/components/in-field/{{- with .Params.component -}}{{- . | lower -}}{{- end -}}/accessibility/">
-              {{ partial "icons/fa/solid/universal-access.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
+              {{ partial "icons/modus-outlined/accessibility-circle.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
               Accessibility</a>
               </li>
               {{ end }}
@@ -84,7 +84,7 @@
             <li class="nav-item">
               <a class="nav-link px-3 nav-accessibility text-decoration-none{{ if in .Params.tags "accessibility" }} active pe-none{{end}}"
                 href="/components/web/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/accessibility/">
-                {{ partial "icons/fa/solid/universal-access.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
+                {{ partial "icons/modus-outlined/accessibility-circle.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
                 Accessibility</a>
                 </li>
                 {{ end }}
@@ -109,7 +109,7 @@
                   <li class="nav-item">
                     <a class="nav-link px-3 nav-accessibility text-decoration-none{{ if in .Params.tags "accessibility" }} active pe-none{{end}}"
                       href="/components/mobile/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/accessibility/">
-                      {{ partial "icons/fa/solid/universal-access.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
+                      {{ partial "icons/modus-outlined/accessibility-circle.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
                       Accessibility</a>
                   </li>
                   {{ end }}
@@ -133,7 +133,7 @@
   <li class="nav-item">
     <a class="nav-link px-3 nav-accessibility text-decoration-none{{ if in .Params.tags "accessibility" }} active pe-none{{end}}"
       href="/components/xr/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/accessibility/">
-      {{ partial "icons/fa/solid/universal-access.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
+      {{ partial "icons/modus-outlined/accessibility-circle.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
       Accessibility</a>
   </li>
   {{ end }}
