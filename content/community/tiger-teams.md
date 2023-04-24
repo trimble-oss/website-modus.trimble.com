@@ -14,9 +14,10 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 <!-- prettier-ignore-start -->
 | Team Name                              | Team Members             |
 | -------------------------------------- | ------------------------ |
+| Notifications, Alerts & Messages       | [Join by May 5!](https://forms.gle/tiPSQJZZ7VjJEXGYA)) |
+| Animations & Microinteractions 2.0     | [Join by May 5!](https://forms.gle/55iEakAHA6KRSXCV8) |
 | Indicators & Selected States           | Calling candidates soon! |
 | Skeletons, Placeholders & Empty States | Calling candidates soon! |
-| Notifications, Alerts & Messages       | Calling candidates soon! |
 | Footers                                | Calling candidates soon! |
 | High-Contrast Color Theme              | Calling candidates soon! |
 {class="table table-bordered"}
