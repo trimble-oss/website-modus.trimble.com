@@ -1,10 +1,10 @@
 ---
 title: Two Tiger Teams on the Start!
-date: 2023-04-21
+date: 2023-04-24
 description: "Alert, alert! Another Component Improvement Tiger Team is about to start. Also, the Animations & Microinteractions Tigers are burning to go into a second round! Would you join them?"
-image: "/img/blog/headers/2023-04-24-tiger-team.png"
+image: "/img/blog/headers/2023-04-24-tiger-team.jpg"
 images:
-  - /img/blog/headers/2023-04-24-tiger-team.png
+  - /img/blog/headers/2023-04-24-tiger-team.jpg
 headerBgColor: "#E69335"
 tags: ["tiger", "team"]
 author: Sonia Kaukonen
