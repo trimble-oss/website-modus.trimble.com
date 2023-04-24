@@ -24,8 +24,8 @@ tags: [styles]
         class="progress-bar"
         role="progressbar"
         aria-label="example progress bar"
-        style="width: 33%;"
-        aria-valuenow="33"
+        style="width: 25%;"
+        aria-valuenow="25"
         aria-valuemin="0"
         aria-valuemax="100"
       ></div>
@@ -42,12 +42,12 @@ tags: [styles]
   <div class="guide-sample">
     <div class="progress progress-sm">
       <div
-        id="progressExample"
+        id="progressSmall"
         class="progress-bar"
         role="progressbar"
         aria-label="example progress bar"
-        style="width: 55%;"
-        aria-valuenow="55"
+        style="width: 50%;"
+        aria-valuenow="50"
         aria-valuemin="0"
         aria-valuemax="100"
       ></div>
@@ -56,6 +56,44 @@ tags: [styles]
 </div>
 
 A smaller version is available with same specs as above except, Height: `8px`.
+
+### Extra Small variant
+
+<div class="guide-example-block mb-2">
+  <div class="guide-sample">
+    <div class="progress progress-xs">
+      <div
+        id="progressXS"
+        class="progress-bar"
+        role="progressbar"
+        aria-label="example progress bar"
+        style="width: 75%;"
+        aria-valuenow="75"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      ></div>
+    </div>
+  </div>
+</div>
+
+A smaller version is available with same specs as above except, Height: `4px`.
+
+<style>
+.progress-xs {
+  height: 4px !important;
+}
+</style>
+
+### Colors
+
+<!-- prettier-ignore-start -->
+| Element      | Property            | Color                                                                   |
+| ------------ | ------------------- | ----------------------------------------------------------------------- |
+| Progress Bar | Fill                | {{< color-preview nameL=" " hexL="#0063a3" nameD=" " hexD="#019aeb" >}} |
+|              | Background          | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#252a2e" >}} |
+|              | Border              | {{< color-preview nameL=" " hexL="#6a6e79" nameD=" " hexD="#6a6e79" >}} |
+{.table .table-sm .table-bordered}
+<!-- prettier-ignore-end -->
 
 ### Behaviors
 
@@ -69,22 +107,14 @@ A smaller version is available with same specs as above except, Height: `8px`.
         class="progress-bar"
         role="progressbar"
         aria-label="example progress bar"
-        style="width: 75%;"
-        aria-valuenow="75"
+        style="width: 80%;"
+        aria-valuenow="80"
         aria-valuemin="0"
         aria-valuemax="100"
       ></div>
     </div>
     <div class="text-left text-dark">
-      <strong>Completed 30 of 40.</strong>
+      <strong>Completed 40 of 50.</strong>
     </div>
   </div>
 </div>
-
-### Colors
-
-| Element      | Property            | Color                                                                   |
-| ------------ | ------------------- | ----------------------------------------------------------------------- |
-| Progress Bar | Fill                | {{< color-preview nameL=" " hexL="#019aeb" nameD=" " hexD="#0063a3" >}} |
-|              | Background          | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#252a2e" >}} |
-|              | Border              | {{< color-preview nameL=" " hexL="#6a6e79" nameD=" " hexD="#6a6e79" >}} |
