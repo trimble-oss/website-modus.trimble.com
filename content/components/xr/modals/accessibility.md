@@ -26,4 +26,4 @@ XR Interfaces are bound to interaction types.  Modus XR Menus cater touch intera
     - The task completed in the dialog is directly related to a subsequent step in the workflow.
 **On Dialog Behavior**
 - Implement exclusively horizontal radial solvers around the vertical axis.
-  - Provide generous angles of rotation way beyond 60DEGfrom the standard line of sight
+  - Provide generous angles of rotation way beyond 60DEG from the standard line of sight

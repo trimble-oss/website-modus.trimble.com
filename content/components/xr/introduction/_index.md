@@ -23,15 +23,17 @@ article .nav-tabs {
 
 ## Overview
 
-Modus XR provides designers and developers with a comprehensive set of basic components, empowering them to rapidly navigate this exciting new realm. By offering a shared vocabulary and adhering to industry guidelines, Modus XR facilitates the creation of branded user interfaces that are both visually appealing and highly functional. Additionally, Modus XR provides a suite of development resources to streamline the design process and ensure that projects are completed quickly and efficiently.
+By offering a shared vocabulary and adhering to industry guidelines, Modus XR provides designers and developers with a comprehensive set of basic components that empower them to rapidly navigate this exciting new realm. Modus XR facilitates the creation of branded user interfaces that are both visually appealing and highly functional through a suite of development resources to streamline the design process and ensure that projects are completed quickly and efficiently.
 
 The XR library of Modus components is a set of building blocks to design and develop cohesive, and consistent multiple-reality (XR) applications and workflows. Most XR patterns in this library are restricted to experiences and guidelines for mixed and virtual reality applications, which utilize head-sets to perform tasks. Use these patterns and components if your use case improves users' productivity through the use of a mobile headset, be it mixed or virtual reality.
 
-Any application implementing augmented reality workflows could benefit from some of the components and guidelines of Modus XR, but it will inevitably require using the [Mobile Components](/components/mobile/) as well. If your application is used in a combination with a mobile device in the field or in a cab of heavy machinery, use the [In-Field Components](/components/in-field/) instead.
+Any application implementing Augmented Reality workflows could benefit from some of the components and guidelines of Modus XR, but it will inevitably require using the [Mobile Components](/components/mobile/) as well. If your application is used in a combination with a mobile device in the field or in a cab of heavy machinery, use the [In-Field Components](/components/in-field/) instead.
 
 ## Guiding Principles
 
 These components serve developers, designers and product owners as a reference for the creation and implementation of XR experiences.  This technology adds great value for Trimble's mission to connect the physical and digital worlds with unequivocal clarity, serving present challenges and setting foundation for future needs.
+
+3 main principles work as the foundation of these guidelines:
 
 **Lower the bar to adoption**
 - Implementation, adaptation and augmentation of software development kit elements
@@ -44,7 +46,7 @@ These components serve developers, designers and product owners as a reference f
   - Optimize UI elements, to avoid engaging in larger development cycles.
   - Rapid prototyping
 
-**Spatial Experiences**
+**Enable Spatial Experiences**
 - Sensible use of space
  - Make use of environment and surroundings, by leveraging experience from the real world and augmenting reality through smart user centric UI-behavior.
 - 3D-Interfaces
@@ -70,6 +72,6 @@ XR patterns and components are currently available using [MRTK 2.8.3](https://le
 
 These guidelines and components are heavily influenced by the experiences created for [Trimble Connect MR](https://fieldtech.trimble.com/en/product/trimble-connect-mr), [Trimble FieldLink MR](https://fieldtech.trimble.com/product/trimble-fieldlink-mr) or [SketchUp Viewer](https://help.sketchup.com/en/sketchup-viewer/sketchup-viewer-hololens), apps whose foundation rests on Microsoft’s Mixed Reality Toolkit (MRTK). That means, we recommend experiencing example applications and scenes delivered through Microsoft’s app store.  These studies will help understand how interactive elements have been created and what principles and technical solutions they are founded on.  This understanding will also prove superbly useful to come up with new custom elements, interactions and experiences.
 
-We continue to implement and create on top of the expertise that diverse hardware producers deliver, and although Modus XR is built it as an extension of Microsoft’s guidelines, we are expanding them to cater to other XR experiences and devices.
+We continue to implement and create on top of the expertise that diverse hardware producers deliver, and although Modus XR is built as an extension of Microsoft’s guidelines, we are expanding them to cater to other XR experiences (namely indirect interactions) and devices.
 
 Our focus remains on user centered patterns, as well as easy of use and adaption.  Modus XR will continue receiving progressive improvements around our users’ workflows and industry devices.

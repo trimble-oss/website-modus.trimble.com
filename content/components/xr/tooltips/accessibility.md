@@ -21,7 +21,7 @@ XR Interfaces are bound to interaction types and ergonomic requirements.  Modus 
 - Visible on hover state
 - Non-interactive
 - Themes
-  - To improve visibility on main UI, XR tooltips have been inverted in their values.
+  - To improve visibility over UI, XR tooltips' themes have been inverted in their values.
 
 **Object tooltips** are usually locked to virtual objects or spatial interfaces, therefore their readability might depend on users approaching the object or spatial interface.
 - Attached with an anchor to a specific spatial UI part
