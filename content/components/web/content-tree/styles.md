@@ -258,7 +258,7 @@ _Note: The user can later drag & drop to move the tree item into their preferred
 
 **Filter**
 
-Filter shows all the tree items matching the user's search term. Tree items are expanded to show all of the results of the search. Matching items are highlighted in Trimble Blue (#0063a3).
+Filter shows all the tree items matching the user's search term. Tree items are expanded to show all of the results of the search. Matching items are highlighted in {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="Trimble Blue" hexD="#0063a3" >}}.
 
 {{< whats-changed-table >}}
 

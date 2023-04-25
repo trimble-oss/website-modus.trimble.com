@@ -21,7 +21,7 @@ tags: [usage]
 
 Radio buttons are used to afford a single selection from two or more options.
 
-<div class="form-group">
+<div class="form-group w-50">
   <div class="custom-control custom-radio">
     <input type="radio" checked="" class="custom-control-input" id="exampleRadio" name="exampleRadio" value="customEx">
     <label class="custom-control-label" for="exampleRadio">Radio 1</label>
@@ -31,7 +31,7 @@ Radio buttons are used to afford a single selection from two or more options.
     <label class="custom-control-label" for="exampleRadio2">Radio 2</label>
   </div>
 </div>
-<div class="form-group ml-3">
+<div class="form-group w-50">
   <div class="custom-control custom-radio">
     <input type="radio" disabled="" checked="" class="custom-control-input" id="exampleRadio3" name="exampleRadio2" value="customEx">
     <label class="custom-control-label" for="exampleRadio3">Disabled</label>
