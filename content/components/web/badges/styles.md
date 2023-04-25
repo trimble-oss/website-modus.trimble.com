@@ -88,7 +88,7 @@ Badges should be centered vertically inside of their containing element.
 | Badge (Success)       | Background | {{< color-preview nameL=" " hexL="#006638" nameD=" " hexD="#1E8A44" >}} |
 |                       | Text       | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#ffffff" >}} |
 | Badge (Warning)       | Background | {{< color-preview nameL=" " hexL="#fbad26" nameD=" " hexD="#fbad26" >}} |
-|                       | Text       | {{< color-preview nameL=" " hexL="#252A2E" nameD=" " hexD="#ffffff" >}} |
+|                       | Text       | {{< color-preview nameL=" " hexL="#252A2E" nameD=" " hexD="#252A2E" >}} |
 | Badge (Danger)        | Background | {{< color-preview nameL=" " hexL="#da212c" nameD=" " hexD="#da212c" >}} |
 |                       | Text       | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#ffffff" >}} |
 {class="table table-bordered table-sm table-colors"}
