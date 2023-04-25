@@ -90,8 +90,40 @@ tags: [styles]
   </tr>
 </table>
 
+### Colors
+
+| Element      | Property         | Color                                                                                             |
+| ------------ | ---------------- | ------------------------------------------------------------------------------------------------- |
+| Toggle       |                  | {{< color-preview nameL="White" hexL="#ffffff" nameD="White" hexD="#ffffff" >}}                   |
+| Label        |                  | {{< color-preview nameL="Gray 8" hexL="#464B52" nameD="Gray 2" hexD="#B7B9C3" >}}                 |
+| Default/On   | Background       | {{< color-preview nameL="Blue Light" hexL="#217CBB" nameD="Dark Mode Blue" hexD="#019AEB" >}}     |
+| Default/Off  | Background       | {{< color-preview nameL="Gray 4" hexL="#90939F" nameD="Gray 4" hexD="#90939F" >}}                 |
+| Focused/On   | Background       | {{< color-preview nameL="Trimble Blue" hexL="#0063A3" nameD="Dark Mode Blue" hexD="#019aeb" >}}   |
+| Focused/Off  | Background       | {{< color-preview nameL="Gray 4" hexL="#90939F" nameD="Gray 4" hexD="#90939F" >}}                 |
+|              | Border           | {{< color-preview nameL="Blue Light" hexL="#217CBB" nameD="Dark Mode Blue" hexD="#019aeb" >}}     |
+| Hover/On     | Background       | {{< color-preview nameL="Trimble Blue" hexL="#0063A3" nameD="Dark Mode Blue" hexD="#019aeb" >}}   |
+| Hover/Off    | Background       | {{< color-preview nameL="Gray 4" hexL="#90939F" nameD="Gray 4" hexD="#90939F" >}}                 |
+|              | Border           | {{< color-preview nameL="Blue Light" hexL="#217CBB" nameD="Dark Mode Blue" hexD="#019AEB" >}}     |
+| Disabled/On  | Background (30%) | {{< color-preview nameL="Trimble Blue" hexL="#0063A380" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
+| Disabled/Off | Background (30%) | {{< color-preview nameL="Gray 4" hexL="#90939F80" nameD="Gray 4" hexD="#90939F" >}}               |
+{class="table table-bordered table-sm table-colors"}
+
 ### Editorial
 
 - Avoid acronyms.
 - Use 2-5 words.
 - Use the same label text for on and off states
+
+<style>
+[data-theme="dark"] .custom-switch .custom-control-input:checked~.custom-control-label:hover::before {
+  background-color: #0063a3;
+  border-color: #0063a3;
+}
+[data-theme="light"] .custom-switch .custom-control-input:checked~.custom-control-label:hover::before {
+  background-color: #0063a3;
+  border-color: #0063a3;
+}
+.custom-switch .custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+}
+</style>
