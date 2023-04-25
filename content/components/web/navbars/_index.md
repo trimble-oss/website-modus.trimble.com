@@ -21,8 +21,9 @@ The navbar or the app header provides context through globally accessible menu o
 
 <!-- prettier-ignore-start -->
 <nav class="navbar nav navbar-expand-sm modus-header border">
-  <button class="btn btn-lg btn-icon-only btn-text-dark" id="menuButton" data-modus-item="menu-btn" href="#overview" data-toggle="#" type="button">
-    <i class="modus-icons notranslate" aria-hidden="true">menu</i>
+  <button class="btn btn-lg btn-icon-only btn-text-dark p-2" id="menuButton" data-modus-item="menu-btn" href="#overview" data-toggle="#" type="button">
+    <svg class="" width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#menu" /></svg>
   </button>
   <a href="#navbar-example" class="navbar-brand mr-auto ml-2">
     <img src="https://modus-bootstrap.trimble.com/img/trimble-logo.svg" width="107" height="25" class="img-fluid d-none d-sm-block" alt="home">
@@ -30,24 +31,28 @@ The navbar or the app header provides context through globally accessible menu o
   </a>
   <div class="collapse navbar-collapse">
     <div class="navbar-nav ml-auto">
-      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 p-2" data-toggle="tooltip"
          data-placement="bottom" title="Notifications">
-        <i class="modus-icons notranslate" aria-hidden="true">notifications</i>
+        <svg class="" width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#notifications" /></svg>
       </button>
-      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 p-2" data-toggle="tooltip"
          data-placement="bottom" title="Help">
-        <i class="modus-icons notranslate" aria-hidden="true">help</i>
+        <svg class="" width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#help" /></svg>
       </button>
-      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 p-2" data-toggle="tooltip"
          data-placement="bottom" title="Applications">
-        <i class="modus-icons notranslate" aria-hidden="true">apps</i>
+        <svg class="" width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#apps" /></svg>
       </button>
     </div>
   </div>
 
   <div class="dropdown d-block d-md-none">
-  <button type="button" data-toggle="dropdown" aria-label="" class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none" aria-expanded="false">
-    <i class="modus-icons notranslate" aria-hidden="true">more_vertical</i>
+  <button type="button" data-toggle="dropdown" aria-label="Expand Menu" class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none p-2" aria-expanded="false">
+    <svg width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#more-vertical" /></svg>
   </button>
   <ul class="dropdown-menu">
     <li class="bg-tranparent">
@@ -71,10 +76,11 @@ The navbar or the app header provides context through globally accessible menu o
       </li>
     </ul>
   </div>
-  <button type="button" class="btn btn-lg btn-icon-only btn-text-dark bg-transparent border-white ml-2 border-0"
+  <button type="button" class="btn btn-lg btn-icon-only btn-text-dark border-white ml-2 border-0 p-2"
          data-toggle="tooltip" data-placement="bottom" data-html="true"
          title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
-         <i class="modus-icons notranslate rounded-circle" aria-hidden="true">person_account</i>
+         <svg class="" width="32" height="32" fill="currentColor">
+          <use xlink:href="/modus-solid-icons.svg#person-account" /></svg>
   </button>
 </nav>
 <!-- prettier-ignore-end -->
