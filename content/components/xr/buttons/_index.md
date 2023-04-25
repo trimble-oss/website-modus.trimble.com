@@ -67,14 +67,14 @@ Far interaction works by default and the button can be triggered using Air Tap
     </tr>
     <tr>
       <td><img src="/img/xr/Button_Secondary_Classic.png" alt="Primary Button" width="200" height="125"></td>
-      <td>Medium - Classic</td>
+      <td>Medium - Light</td>
       <td>
         Used for secondary actions, establishing additional visual hierarchy on the scene.
       </td>
     </tr>
     <tr>
       <td><img src="/img/xr/Button_Secondary_Transparent.png" alt="Primary Button" width="200" height="125"></td>
-      <td>Medium - Transparent</td>
+      <td>Medium - Dark</td>
       <td>
          Used for secondary actions, establishing additional visual hierarchy on the scene.
       </td>
