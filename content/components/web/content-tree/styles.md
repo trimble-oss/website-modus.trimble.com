@@ -226,7 +226,7 @@ If a drag operation is not allowed, the line indicating the drop location will b
 **Delete**
 
 - Only enabled when a tree item is selected.
-- When clicked, a modal opens to confirm the delete (see [Modals](/components/modals/)). It warns the user they are about to delete x number of items.
+- When clicked, a modal opens to confirm the delete (see [Modals](/components/web/modals/)). It warns the user they are about to delete x number of items.
 - Deletes everything in the tree item including its children.
 
 **Edit Tree Item Name**
@@ -242,7 +242,7 @@ If a drag operation is not allowed, the line indicating the drop location will b
 When a tree item is selected, the edit icon in the toolbar becomes active.
 
 - User clicks the edit icon.
-- The tree item name becomes an editable input field (see [Inputs](/components/inputs/)).
+- The tree item name becomes an editable input field (see [Inputs](/components/web/inputs/)).
 - The user types in a new name (see [accessibility](/components/web/accordions/accessibility/) guidelines below for best naming conventions).
 - The user can click outside of the input field or press enter to commit the new tree item name.
 
