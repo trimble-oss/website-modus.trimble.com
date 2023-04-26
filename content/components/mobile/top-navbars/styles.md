@@ -37,7 +37,7 @@ Top navbars can contain imagery only when the extended Nav Bar is used. Use imag
 
 ### Color Options
 
-Top navbar colors can be either White or Trimble Blue Dark (#004F83).
+Top navbar colors can be either White or {{< color-preview nameL="Trimble Blue Dark" hexL="#004F83" nameD="Trimble Blue Dark" hexD="#004F83" >}}.
 
 {{< img src="/img/mobile/top-navbar-colors.svg" dark="/img/mobile/top-navbar-colors-dark.svg" width="912" height="574" alt="Navbar Colors" >}}
 

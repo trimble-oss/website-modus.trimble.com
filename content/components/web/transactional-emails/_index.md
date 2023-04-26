@@ -125,7 +125,7 @@ The primary page structure of an email includes graphics, background, content ar
 
 **Font Type and Color**
 Open Sans is the font used in transactional emails.
-Trimble Gray (#363545) is the default font color.
+Trimble Gray (`#363545`) is the default font color.
 
 **Graphics**
 Following delivery best practices, transactional emails should not include any graphics, with the exception of the Trimble logo in the upper left hand corner of the email. This can be a single logo, or a co branded logo, above the main content box.
@@ -137,7 +137,7 @@ Following delivery best practices, transactional emails should not include any g
 - Logos should be placed outside of the main content canvas, in the frame of the email.
 
 **Background**
-Background color should be Gray Light (#f3f3f7).
+Background color should be Gray Light (`#f3f3f7`).
 
 **Content Area**
 The white canvas area of the email will hold the content and main message of your email. The content may include the following:

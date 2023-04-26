@@ -13,32 +13,6 @@ webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/compone
 tags: [styles]
 ---
 
-## Overview
-
-Radio buttons are used to afford a single selection from two or more options.
-
-<div class="form-group">
-  <div class="custom-control custom-radio">
-    <input type="radio" checked="" class="custom-control-input" id="exampleRadio" name="exampleRadio" value="customEx">
-    <label class="custom-control-label" for="exampleRadio">Radio 1</label>
-  </div>
-  <div class="custom-control custom-radio">
-    <input type="radio" class="custom-control-input" id="exampleRadio2" name="exampleRadio" value="customEx">
-    <label class="custom-control-label" for="exampleRadio2">Radio 2</label>
-  </div>
-</div>
-<div class="form-group ml-3">
-  <div class="custom-control custom-radio">
-    <input type="radio" disabled="" checked="" class="custom-control-input" id="exampleRadio3" name="exampleRadio2" value="customEx">
-    <label class="custom-control-label" for="exampleRadio3">Disabled</label>
-  </div>
-  <div class="custom-control custom-radio">
-    <input type="radio" disabled="" class="custom-control-input" id="exampleRadio4" name="exampleRadio2" value="customEx">
-    <label class="custom-control-label" for="exampleRadio4">Disabled</label>
-  </div>
-</div>
-
-
 ## Specifications
 
 - Always stack radio buttons vertically. Horizontal variation should not be used.

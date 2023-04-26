@@ -15,9 +15,10 @@ tags: [styles]
 ## Specifications
 
 Badges come in 3 defined heights:
- - **Small**: 14px
- - **Default**: 20px
- - **Large**: 28px
+
+- **Small**: 14px
+- **Default**: 20px
+- **Large**: 28px
 
 Badges should be centered vertically inside of their containing element.
 
@@ -71,3 +72,23 @@ Badges should be centered vertically inside of their containing element.
     </tr>
   </tbody>
 </table>
+
+### Colors
+
+| Element               | Property   | Color                                                                   |
+| --------------------- | ---------- | ----------------------------------------------------------------------- |
+| Badge (Primary)       | Background | {{< color-preview nameL=" " hexL="#0063a3" nameD=" " hexD="#019aeb" >}} |
+|                       | Text       | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#ffffff" >}} |
+| Badge (Secondary)     | Background | {{< color-preview nameL=" " hexL="#6a6e79" nameD=" " hexD="#6a6e79" >}} |
+|                       | Text       | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#ffffff" >}} |
+| Badge (Tertiary)      | Background | {{< color-preview nameL=" " hexL="#cbcdd6" nameD=" " hexD="#cbcdd6" >}} |
+|                       | Text       | {{< color-preview nameL=" " hexL="#252a2e" nameD=" " hexD="#252a2e" >}} |
+| Badge (High Contrast) | Background | {{< color-preview nameL=" " hexL="#252a2e" nameD=" " hexD="#F1F1F6" >}} |
+|                       | Text       | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#171C1E" >}} |
+| Badge (Success)       | Background | {{< color-preview nameL=" " hexL="#006638" nameD=" " hexD="#1E8A44" >}} |
+|                       | Text       | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#ffffff" >}} |
+| Badge (Warning)       | Background | {{< color-preview nameL=" " hexL="#fbad26" nameD=" " hexD="#fbad26" >}} |
+|                       | Text       | {{< color-preview nameL=" " hexL="#252A2E" nameD=" " hexD="#252A2E" >}} |
+| Badge (Danger)        | Background | {{< color-preview nameL=" " hexL="#da212c" nameD=" " hexD="#da212c" >}} |
+|                       | Text       | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#ffffff" >}} |
+{class="table table-bordered table-sm table-colors"}
