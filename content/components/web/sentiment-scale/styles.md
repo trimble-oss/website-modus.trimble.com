@@ -12,11 +12,11 @@ tags: [styles]
 ## Specifications
 
 - Each sentiment rating option follows the behavior of a radio button group: only one sentiment rating option can be selected at a time.
-- The sentiment scale is typically placed on a [Card](/components/cards/).
+- The sentiment scale is typically placed on a [Card](/components/web/cards/).
 - Titles may serve as a question. A subtitle is neither required nor recommended.
 - Sentiment scales can be two- to five-tiered. A five-tier scale ensures more accurate insights into the user’s emotion intensity.
 - A two-tier sentiment scale is usually represented by buttons with a thumb-up and thumb-down emoticons.
-- Additional [Chips](/components/chips/) serve as optional and supplemental tags and should not impact the results.
+- Additional [Chips](/components/web/chips/) serve as optional and supplemental tags and should not impact the results.
 
 **Two-tier sentiment scale:**
 
@@ -46,4 +46,4 @@ This scale is used to measure user satisfaction from extremely positive to extre
 - Add clarity for technical context if needed. Avoid too complex issues in order not to discourage the user from submitting feedback.
 - Use full sentences with punctuation, at most 25 words if possible. Do not include multiple paragraphs.
 - The lowest and highest ratings or scales should be short but specific. Always establish an adverb or pronoun for each rating (“Not”, “Somewhat”, “Neither”, “Very”). This is especially important for tab order and tooltips. Use sentence case for the lowest and highest scale labels.
-- Follow the editorial guidelines for [Radio Buttons](/components/radio-buttons/), [Buttons](/components/buttons/), and [Chips](/components/chips/).
+- Follow the editorial guidelines for [Radio Buttons](/components/web/radio-buttons/), [Buttons](/components/web/buttons/), and [Chips](/components/web/chips/).
