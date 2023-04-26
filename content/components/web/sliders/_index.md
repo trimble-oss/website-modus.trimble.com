@@ -34,7 +34,7 @@ Sliders select a numeric value or range of values by moving a handle or set of h
 
 **Don’t use when**
 
-- Gathering information in a form (e.g, age or salary). Instead, use an [Input](/components/inputs/) box.
+- Gathering information in a form (e.g, age or salary). Instead, use an [Input](/components/web/inputs/) box.
 - Precise amount is needed and the scale is too large to afford precise interaction with the slider.
 - Adjusting settings with any delay in providing user feedback.
 

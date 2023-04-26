@@ -16,7 +16,7 @@ tags: [styles]
 ## Specifications
 
 - Always stack radio buttons vertically. Horizontal variation should not be used.
-- Uses the same `:hover` and `:active` styles as the primary [Button](/components/buttons/).
+- Uses the same `:hover` and `:active` styles as the primary [Button](/components/web/buttons/).
 - A set of radio buttons should not default to having one option selected.
 - A heading much accompany a set of radio buttons.
 
