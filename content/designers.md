@@ -9,7 +9,6 @@ hideDate: true
 
 <div class="row">
 
-
 {{< card-start title="Figma Library" url="/figma/" class="py-4 bg-figma" header="figma.svg" >}}
 <small>&nbsp;</small>
 {{</ card-start >}}
