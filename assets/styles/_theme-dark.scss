@@ -1,11 +1,6 @@
 [data-theme="dark"] {
   @import "../../node_modules/@trimbleinc/modus-bootstrap/dist/modus-dark";
 
-  html,
-  body {
-    color-scheme: dark;
-  }
-
   #main h1,
   #main h1 p,
   #main p.lead,
