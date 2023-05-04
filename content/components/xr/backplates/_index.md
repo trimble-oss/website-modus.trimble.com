@@ -12,6 +12,8 @@ aliases:
   - badge
 ---
 
+{{< img src="/img/xr/MXR_Backplate_Interaction.gif" dark="/img/xr/MXR_Button_Interaction.gif" width="962" height="160" class="w-100" loading="auto" >}}
+
 ## Overview
 
 Backplates provide visual contrast and helps to connect other elements and components within graphic interfaces.  Their purpose is to support the overall design of the interface and improve the user experience, delivering visual hierarchy and structure to the interfaces.
