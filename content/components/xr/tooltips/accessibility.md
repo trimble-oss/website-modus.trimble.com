@@ -10,7 +10,7 @@ images:
 tags: [xr, accessibility]
 ---
 
-XR Interfaces are bound to interaction types and ergonomic requirements.  Modus XR Tooltips are segmented in 2 different types and therefore might follow different specifications.
+XR Interfaces are bound to interaction types and ergonomic requirements.  Modus XR Tooltips are segmented in 2 different types. They follow the same specifications, but might require to add to them additional behaviors.
 
 ## Accessibility
 

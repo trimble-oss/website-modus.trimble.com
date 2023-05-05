@@ -11,7 +11,7 @@ keywords: modal, Dialogs, Dialog
 tags: [xr, usage]
 ---
 
-{{< img src="/img/xr/MXR_Menu_Interaction.gif" dark="/img/xr/MXR_Card_Interaction.gif" width="962" height="160" class="w-100" loading="auto" >}}
+{{< img src="/img/xr/MXR_Modal_Interaction.gif" dark="/img/xr/MXR_Card_Interaction.gif" width="962" height="160" class="w-100" loading="auto" >}}
 
 ## Overview
 

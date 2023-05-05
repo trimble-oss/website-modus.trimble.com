@@ -1,4 +1,10 @@
 {
+  "editor.defaultColorDecorators": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "scss.lint.validProperties": [
     "content-visibility",
     "contain-intrinsic-size"
