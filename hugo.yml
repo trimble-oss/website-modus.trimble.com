@@ -63,12 +63,12 @@ menu:
       pre: "<img src='/img/icons/modus-outlined/phone-mobile.svg' width=28 height=28 class='icon opacity-75 mr-2' alt>"
       post: "UI patterns for designing Trimble experiences on Android devices."
       weight: 3
-#   - name: XR
-#     parent: Components
-#     url: "/components/xr/"
-#     pre: "<img src='/img/icons/xr.svg' width=28 height=28 class='icon opacity-75 mr-2' alt>"
-#     post: "Building blocks for designing Trimble products for mixed reality and virtual reality."
-#     weight: 4
+    - name: XR
+      parent: Components
+      url: "/components/xr/"
+      pre: "<img src='/img/icons/xr.svg' width=28 height=28 class='icon opacity-75 mr-2' alt>"
+      post: "Building blocks for designing Trimble products for mixed reality and virtual reality."
+      weight: 4
 
     - Name: Icons
       url: "https://modus-icons.trimble.com/"
@@ -262,14 +262,14 @@ menu:
       url: /components/mobile/inputs/
     - name: Lists
       url: /components/mobile/lists/
-#    - name: Map Views
-#      url: /components/mobile/map-views/
+    #    - name: Map Views
+    #      url: /components/mobile/map-views/
     - name: Messages
       url: /components/mobile/messages/
     - name: Modals
       url: /components/mobile/modals/
-#    - name: Popovers
-#      url: /components/mobile/popovers/
+    #    - name: Popovers
+    #      url: /components/mobile/popovers/
     - name: Progress Bars
       url: /components/mobile/progress-bars/
     - name: Radio Buttons
@@ -282,8 +282,8 @@ menu:
       url: /components/mobile/sliders/
     - name: Spinners
       url: /components/mobile/spinners/
-#    - name: Status Bars
-#      url: /components/mobile/status-bars/
+    #    - name: Status Bars
+    #      url: /components/mobile/status-bars/
     - name: Switches
       url: /components/mobile/switches/
     - name: Tabs
