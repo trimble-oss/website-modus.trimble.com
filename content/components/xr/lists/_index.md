@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Lists"
 layout: "single"
 description: "Lists are made of list items. A list can be used to display content related to a single subject."
@@ -11,8 +10,7 @@ keywords: List
 tags: [xr, usage]
 ---
 
-
-{{< img src="/img/xr/MXR_List_Interaction.gif" dark="/img/xr/MXR_Card_Interaction.gif" width="962" height="160" class="w-100" loading="auto" >}}
+{{< img src="/img/xr/MXR_List_Interaction.gif" width="854" height="481" loading="auto" >}}
 
 ## Overview
 
@@ -21,6 +19,7 @@ List items can contain actions represented by icons.
 Lists act like buttons, that means by default they react to the push action of the index finger of users (see Touch).
 
 They can encompass 2 outcomes, which can exclusively be combined through a pre-command, usually a button, that would toggle the 2 default interactions, namely:
+
 - Open = access relevant information
 - Select = mark list item(s) for further action, example delete
 
@@ -35,12 +34,12 @@ They can encompass 2 outcomes, which can exclusively be combined through a pre-c
 **Don't use when**
 
 - Variable, graphic-heavy items should be better displayed through cards.
-- Displaying multiple parameter data.  Consider creating a table for this purpose.
-
+- Displaying multiple parameter data. Consider creating a table for this purpose.
 
 ## Types
 
 Lists are qualified by content type.
+
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>

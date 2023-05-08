@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Cards"
 layout: "single"
 description: "Cards contain content and actions about a single subject."
@@ -13,7 +12,7 @@ aliases:
   - card
 ---
 
-{{< img src="/img/xr/MXR_Card_Interaction.gif" dark="/img/xr/MXR_Card_Interaction.gif" width="962" height="160" class="w-100" loading="auto" >}}
+{{< img src="/img/xr/MXR_Card_Interaction.gif" width="854" height="481" loading="auto" >}}
 
 ## Overview
 

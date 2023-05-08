@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Sliders"
 layout: "single"
 description: "Sliders allow users to make selections from a range of values."
@@ -11,8 +10,7 @@ component: sliders
 tags: [xr, usage]
 ---
 
-
-{{< img src="/img/xr/MXR_Slider_Interaction.gif" dark="/img/xr/MXR_Card_Interaction.gif" width="962" height="160" class="w-100" loading="auto" >}}
+{{< img src="/img/xr/MXR_Slider_Interaction.gif" width="854" height="481" loading="auto" >}}
 
 ## Overview
 
@@ -21,7 +19,6 @@ Sliders help users select a numeric value or range of values by moving a handle 
 The slider can be moved by directly grabbing the slider, using either touch or far interaction. Sliders work with various input types such as gaze and air-tap and a motion controller.
 
 Changes made with sliders are immediate, allowing the user to make slider adjustments while determining a selection. Sliders shouldn’t be used to adjust settings with any delay in providing user feedback.
-
 
 ## Usage
 

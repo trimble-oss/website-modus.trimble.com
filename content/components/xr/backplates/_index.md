@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Backplates"
 layout: "single"
 description: "Backplates are fundamental design elements that serve as a backdrop for other UI elements."
@@ -12,11 +11,11 @@ aliases:
   - badge
 ---
 
-{{< img src="/img/xr/MXR_Backplate_Interaction.gif" dark="/img/xr/MXR_Button_Interaction.gif" width="962" height="160" class="w-100" loading="auto" >}}
+{{< img src="/img/xr/MXR_Backplate_Interaction.gif" width="854" height="480" class="w-100" loading="auto" >}}
 
 ## Overview
 
-Backplates provide visual contrast and helps to connect other elements and components within graphic interfaces.  Their purpose is to support the overall design of the interface and improve the user experience, delivering visual hierarchy and structure to the interfaces.
+Backplates provide visual contrast and helps to connect other elements and components within graphic interfaces. Their purpose is to support the overall design of the interface and improve the user experience, delivering visual hierarchy and structure to the interfaces.
 
 Modus’s backplates are made up of solid colors following the two main themes, transparent and classic.
 
@@ -37,4 +36,4 @@ The decision to use or avoid a backplate ultimately depends on the specific requ
 
 ## Types
 
-Backplates can be static, or be ruled by solvers, or be interactive in nature (grabbable), but fit with solvers to enhance the experience and discoverability.  Their use and behavior depend on the type of experience the use case requires.
+Backplates can be static, or be ruled by solvers, or be interactive in nature (grabbable), but fit with solvers to enhance the experience and discoverability. Their use and behavior depend on the type of experience the use case requires.

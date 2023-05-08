@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "tooltips"
 layout: "single"
 description: "Tooltips provide a short description of a page element or control."

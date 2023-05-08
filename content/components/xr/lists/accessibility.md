@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Lists"
 layout: "single"
 description: "Lists are made of list items. A list can be used to display content related to a single subject."
@@ -11,7 +10,7 @@ keywords: Lists, List
 tags: [xr, accessibility]
 ---
 
-XR Interfaces are bound to interaction types.  Modus XR Lists cater touch interactions with UIs placed by default at 50cm (~20 Inch) from users.
+XR Interfaces are bound to interaction types. Modus XR Lists cater touch interactions with UIs placed by default at 50cm (~20 Inch) from users.
 
 ## Accessibility
 

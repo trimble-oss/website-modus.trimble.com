@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "XR | Extended Reality"
 layout: "single"
 description: ""
@@ -19,7 +18,7 @@ article .nav-tabs {
 }
 </style>
 
-{{< img src="/img/xr/xr_spectrum.png" dark="/img/xr/xr_spectrum.png" width="1080" height="160" class="w-100" loading="auto" >}}
+{{< img src="/img/xr/xr_spectrum.png" width="854" height="142" class="w-100" loading="auto" >}}
 
 ## Overview
 
@@ -54,7 +53,7 @@ These components serve developers, designers and product owners as a reference f
 
 ## Modus XR UI Kits
 
-Based on the observable conclusions from [Microsoft’s MRTK guidelines](https://learn.microsoft.com/en-gb/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05#ux-building-blocks),[Google’s dmms units](https://www.ryanhinojosa.com/2018/01/08/device-independent/), as well as [Meta's Oculus guidelines](https://developer.oculus.com/resources/bp-vision/), but also considering the ergonomic factors to comfortably interact with spatial, touch UIs at a distance between 40-60cm off the point of interest, the following ratio is the foundation when creating and visualizing experiences from figma for further implementation in game engines:
+Based on the observable conclusions from [Microsoft’s MRTK guidelines](https://learn.microsoft.com/en-gb/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05#ux-building-blocks),[Google’s DMMs units](https://www.ryanhinojosa.com/2018/01/08/device-independent/), as well as [Meta's Oculus guidelines](https://developer.oculus.com/resources/bp-vision/), but also considering the ergonomic factors to comfortably interact with spatial, touch UIs at a distance between 40-60cm off the point of interest, the following ratio is the foundation when creating and visualizing experiences from figma for further implementation in game engines:
 
 **1 pixel = 1mm**
 

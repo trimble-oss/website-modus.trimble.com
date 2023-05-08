@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Lists"
 layout: "single"
 description: "Lists are made of list items. A list can be used to display content related to a single subject."
@@ -10,8 +9,6 @@ images:
 keywords: Lists, List
 tags: [xr, styles]
 ---
-
-
 
 ## Specifications
 
@@ -54,4 +51,3 @@ Following elements make up a list component:
     </tr>
   </tbody>
 </table>
-
