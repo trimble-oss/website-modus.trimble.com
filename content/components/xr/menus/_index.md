@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Menus"
 layout: "single"
 description: "A close space-efficient way to present and nest diverse commands."
@@ -11,16 +10,15 @@ keywords: modal, Dialogs, Dialog
 tags: [xr, usage]
 ---
 
-
-{{< img src="/img/xr/MXR_Menu_Interaction.gif" dark="/img/xr/MXR_Card_Interaction.gif" width="962" height="160" class="w-100" loading="auto" >}}
+{{< img src="/img/xr/MXR_Menu_Interaction.gif" width="854" height="481" loading="auto" >}}
 
 ## Overview
 
-Menus appear when users interact with a button, action, or other control.  They can be opened from a variety of elements, most commonly buttons.
+Menus appear when users interact with a button, action, or other control. They can be opened from a variety of elements, most commonly buttons.
 
 However in XR, menus can also be assigned to a gesture or control command that takes care of invoking them.
 
-Designers can define a variety of menus, depending on the use cases.  Among them, most common menus could be:
+Designers can define a variety of menus, depending on the use cases. Among them, most common menus could be:
 
 General - commands are constant across environments and experiences
 Contextual - commands are exclusively relevant to a feature
@@ -39,15 +37,16 @@ Contextual - commands are exclusively relevant to a feature
 - Performing actions with a model or spatial interfaces that could either interfere with the flow or perception of the center of attention.
 - Immediate, decisive actions that require full user attention.
 
-
 ## Types
 
 Menus are qualified by positioning and interaction.
 
 ### Hand Menus:
+
 Hand menus are interaction patterns that allow users to invoke features of an application and/or environment within an app, bounding actions to the palm-up gesture.
 
 ### Near Menus:
+
 Near Menus by default tag along users’ radius. However all variants have a grabbable version with a bottom handle that allows users to place the menu where they find it convenient.
 
 <table class="table table-bordered">

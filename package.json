@@ -50,8 +50,8 @@
     "postcss-cli": "10.1.0",
     "prettier": "^2.8.8",
     "s3-deploy": "^1.4.0",
-    "stylelint": "15.6.0",
-    "stylelint-config-standard-scss": "8.0.0",
+    "stylelint": "15.6.1",
+    "stylelint-config-standard-scss": "9.0.0",
     "textlint": "^13.3.2",
     "textlint-rule-common-misspellings": "^1.0.1",
     "textlint-rule-terminology": "^3.0.4"

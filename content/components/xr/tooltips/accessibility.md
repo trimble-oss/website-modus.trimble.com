@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Tooltips"
 layout: "single"
 description: "Tooltips provide a short description of a page element or control."
@@ -28,5 +27,3 @@ XR Interfaces are bound to interaction types and ergonomic requirements.  Modus 
 - Visible based on the context of the experience
 - Theme
   - Consistent with UI experience
-
-

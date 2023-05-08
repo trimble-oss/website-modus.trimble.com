@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Buttons"
 layout: "single"
 description: "Buttons are interactive elements that trigger an action or an event."
@@ -13,7 +12,7 @@ aliases:
   - button
 ---
 
-{{< img src="/img/xr/MXR_Button_Interaction.gif" dark="/img/xr/MXR_Button_Interaction.gif" width="962" height="160" class="w-100" loading="auto" >}}
+{{< img src="/img/xr/MXR_Button_Interaction.gif" width="854" height="481" class="w-100" loading="auto" >}}
 
 ## Overview
 

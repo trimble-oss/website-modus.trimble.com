@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Modals"
 layout: "single"
 description: "Modal dialogs interrupt workflows and require user interaction."
@@ -11,7 +10,7 @@ keywords: modal, Dialogs, Dialog
 tags: [xr, usage]
 ---
 
-{{< img src="/img/xr/MXR_Modal_Interaction.gif" dark="/img/xr/MXR_Card_Interaction.gif" width="962" height="160" class="w-100" loading="auto" >}}
+{{< img src="/img/xr/MXR_Modal_Interaction.gif" width="854" height="481" loading="auto" >}}
 
 ## Overview
 
@@ -31,12 +30,10 @@ Because dialogs are highly disruptive to the user experience, they should be use
 - Consider to use far interaction for large & x-large dialogs.
 - For non-essential information, consider using plain txt messages.
 
-
 **Don't use when**
 
 - Scrollable, complex interaction dialogs.
 - Providing non-essential information related to the underlying page.
-
 
 ## Types
 
@@ -49,19 +46,19 @@ Because dialogs are highly disruptive to the user experience, they should be use
   </thead>
   <tbody>
     <tr>
-      <td><img src="/img/xr/Modals_Dialog_Small.png" alt="Dialog Small" width="400"height="280"></td>
+      <td><img src="/img/xr/Modals_Dialog_Small.png" alt="Dialog Small" width="400" height="280" loading="lazy"></td>
       <td>Small Dialog</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Modals_Dialog_Medium.png" alt="Dialog Medium" width="400"height="320"></td>
+      <td><img src="/img/xr/Modals_Dialog_Medium.png" alt="Dialog Medium" width="400" height="320" loading="lazy"></td>
       <td>Medium Dialog</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Modals_Dialog_Large.png" alt="Dialog Large" width="400"height="320"></td>
+      <td><img src="/img/xr/Modals_Dialog_Large.png" alt="Dialog Large" width="400" height="320" loading="lazy"></td>
       <td>Large Dialog</td>
     </tr>
       <tr>
-      <td><img src="/img/xr/Modals_Dialog_XLarge.png" alt="Dialog Extra Large" width="400"height="320"></td>
+      <td><img src="/img/xr/Modals_Dialog_XLarge.png" alt="Dialog Extra Large" width="400" height="320" loading="lazy"></td>
       <td>X-Large Dialog</td>
     </tr>
   </tbody>

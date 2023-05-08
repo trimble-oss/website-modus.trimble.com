@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "menus"
 layout: "single"
 description: "A close space-efficient way to present and nest diverse commands."

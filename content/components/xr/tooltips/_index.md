@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Tooltips"
 layout: "single"
 description: "Tooltips provide a short description of a page element, control or object."
@@ -10,7 +9,7 @@ images:
 tags: [xr, usage]
 ---
 
-{{< img src="/img/xr/MXR_Tooltips_Interaction.gif" dark="/img/xr/MXR_Card_Interaction.gif" width="962" height="160" class="w-100" loading="auto" >}}
+{{< img src="/img/xr/MXR_Tooltips_Interaction.gif" width="854" height="481" class="w-100" loading="auto" >}}
 
 ## Overview
 
@@ -22,7 +21,6 @@ In XR they are also used to provide insight into a virtual object thorugh toolti
 
 In the case of truncated interface texts, tooltips complete information, so that users can take a decision or start an action.  These are triggered through interactions like proximity, gaze or hover and are therefore temporary.
 
-
 ## Usage
 
 **Use when**
@@ -30,7 +28,6 @@ In the case of truncated interface texts, tooltips complete information, so that
 - Providing a short description of a page element or control.
 - Revealing the full text of truncated data.
 - For non-essential information, consider using plain text messages
-
 
 **Don't use when**
 
@@ -43,16 +40,16 @@ In the case of truncated interface texts, tooltips complete information, so that
   <thead class="thead-light">
     <tr>
       <th>Example</th>
-      <th>Type </th>
+      <th>Type</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><img src="/img/xr/" alt="Object Tooltip" width="176"height="40"></td>
+      <td><img src="/img/xr/" alt="Object Tooltip" width="176" height="40"></td>
       <td>Object Tooltip</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/" alt="UI Tooltip" width="40"height="176"></td>
+      <td><img src="/img/xr/" alt="UI Tooltip" width="40" height="176"></td>
       <td>UI Tooltip</td>
     </tr>
   </tbody>

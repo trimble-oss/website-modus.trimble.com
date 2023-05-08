@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Modals"
 layout: "single"
 description: "Modal dialogs interrupt workflows and require user interaction."

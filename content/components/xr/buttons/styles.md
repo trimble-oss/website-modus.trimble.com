@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Buttons"
 layout: "single"
 description: "Buttons are interactive elements that trigger an action or an event."
@@ -18,7 +17,6 @@ tags: [xr, styles]
 - Provide voice command label to ease interaction
 - If using multiple buttons, label them distinctly.
 - The size of the buttons should be used in proportion to the context and content around it.
-
 
 ***Touch = UIs placed at 50cm (~20 Inch) from users***
 
