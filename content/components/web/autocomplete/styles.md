@@ -43,6 +43,7 @@ A chip _can_ be used to clear the filled selection instead of the default â€œXâ€
 
 ## Colors
 
+<!-- prettier-ignore-start -->
 | Element          | Property            | Color                                                                   |
 | ---------------- | ------------------- | ----------------------------------------------------------------------- |
 | Label            | Label               | {{< color-preview nameL=" " hexL="#464b52" nameD=" " hexD="#b7b9c3" >}} |
@@ -53,6 +54,7 @@ A chip _can_ be used to clear the filled selection instead of the default â€œXâ€
 |                  | Border (Bottom 2px) | {{< color-preview nameL=" " hexL="#6a6e79" nameD=" " hexD="#6a6e79" >}} |
 | List Subcategory | Label               | {{< color-preview nameL=" " hexL="#6a6e79" nameD=" " hexD="#6a6e79" >}} |
 {class="table table-sm table-bordered table-colors"}
+<!-- prettier-ignore-end -->
 
 <style>
 [data-theme="dark"] .table-colors tr:last-child {
