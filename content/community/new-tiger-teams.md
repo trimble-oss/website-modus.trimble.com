@@ -14,8 +14,6 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 <!-- prettier-ignore-start -->
 | Team Name                              | Team Members             |
 | -------------------------------------- | ------------------------ |
-| Notifications, Alerts & Messages       | [Join by May 5!](https://forms.gle/tiPSQJZZ7VjJEXGYA) |
-| Animations & Microinteractions 2.0     | [Join by May 5!](https://forms.gle/55iEakAHA6KRSXCV8) |
 | Indicators & Selected States           | Calling candidates soon! |
 | Skeletons, Placeholders & Empty States | Calling candidates soon! |
 | Footers                                | Calling candidates soon! |
@@ -28,7 +26,9 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 <!-- prettier-ignore-start -->
 | Team Name                      | Team Members               | Start Date  |
 | ------------------------------ | -------------------------- | ----------- |
-| Accordions, Cards, Modals, & Tabs  | **K. Ponpandian**, J. de Wit, A. Galstyan, E. Gunther, S. Kumar, T. Priya, M. Randrianavony, Krithika S., C. Shaw, Vimal A.V., Z. Ward | 03/14/2023 |
+| Alerts, Messages, Notifications, and Toasts  | J. Blackwell, A. Chandroo, M. Johns, M. Manders, T. Ortiz, V. Sridharan | 05/17/2023 |
+| Animations & Microinteractions 2.0  | S. Farhad, M. Manders, T. Manham, W. Mezo-Gadia, Z. Ward, D. Zambrano | 05/18/2023 |
+| Accordions, Cards, Modals, and Tabs  | **K. Ponpandian**, J. de Wit, A. Galstyan, E. Gunther, S. Kumar, T. Priya, M. Randrianavony, Krithika S., C. Shaw, Vimal A.V., Z. Ward | 03/14/2023 |
 | Desktop Patterns  | **J. Kerbs**, A. Bikic, P. Borgstein, K. Davies, L. Kause, C. Krieg, T. Sippola | 10/19/2022 |
 | Layout Tiger Team | **C. Cuellar**, N. Cadsawan, R. Henness, Q. Le, T. Manham, M. Nawaz, C. Oliff, Purushothaman G.   | 08/25/2022 |
 {class="table table-bordered"}
