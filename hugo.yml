@@ -53,7 +53,7 @@ menu:
     - name: Dark Mode
       url: /foundations/dark-mode/
     - name: Data Visualization
-      url: /foundations/data-vis/
+      url: /foundations/data-visualization/
     - name: Grid & Spacing
       url: /foundations/grid-and-spacing/
     - name: Icon Definitions
