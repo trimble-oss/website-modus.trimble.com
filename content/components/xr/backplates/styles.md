@@ -1,7 +1,7 @@
 ---
-title: "backplates"
+title: "Backplates"
 layout: "single"
-description: ""
+description: "Backplates are fundamental design elements that serve as a backdrop for other UI elements."
 components: true
 component: backplates
 images:

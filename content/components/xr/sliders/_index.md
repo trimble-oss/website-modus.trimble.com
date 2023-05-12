@@ -10,7 +10,7 @@ component: sliders
 tags: [xr, usage]
 ---
 
-{{< img src="/img/xr/MXR_Slider_Interaction.gif" width="854" height="481" loading="auto" >}}
+{{< img src="/img/xr/MXR_Slider_Interaction.gif" width="854" height="481" class="bg-light" loading="auto" >}}
 
 ## Overview
 
@@ -43,19 +43,19 @@ Changes made with sliders are immediate, allowing the user to make slider adjust
   </thead>
   <tbody>
     <tr>
-      <td><img src="/img/xr/Slider_Horizontal.png" alt="Horizontal Slider" width="176"height="40"></td>
+      <td><img src="/img/xr/Slider_Horizontal.png" alt="Horizontal Slider" width="176" height="40"></td>
       <td>Horizontal Slider</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Slider_Horizontal_Text.png" alt="Horizontal Slider with Text" width="176"height="40"></td>
+      <td><img src="/img/xr/Slider_Horizontal_Text.png" alt="Horizontal Slider with Text" width="176" height="40"></td>
       <td>Horizontal Slider w. Text</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Slider_Vertical.png" alt="Vertical Slider" width="40"height="176"></td>
+      <td><img src="/img/xr/Slider_Vertical.png" alt="Vertical Slider" width="40" height="176"></td>
       <td>Vertical Slider</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Slider_Vertical_Text.png" alt="Vertical Slider with Text" width="40"height="176"></td>
+      <td><img src="/img/xr/Slider_Vertical_Text.png" alt="Vertical Slider with Text" width="40" height="176"></td>
       <td>Vertical Slider w. Text</td>
     </tr>
   </tbody>

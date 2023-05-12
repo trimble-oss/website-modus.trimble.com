@@ -33,25 +33,25 @@ tags: [xr, styles]
   </thead>
   <tbody>
     <tr>
-      <td><img src="/img/xr/Tooltip_UI_Classic.svg" alt="UI Tooltip Classic" width="100"height="16">
+      <td><img src="/img/xr/Tooltip_UI_Classic.svg" alt="UI Tooltip Classic" width="100" height="16">
       </td>
       <th>UI-Tooltip, Light</th>
       <td>16</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Tooltip_UI_Transparent.svg" alt="UI Tooltip Transparent" width="100"height="16">
+      <td><img src="/img/xr/Tooltip_UI_Transparent.svg" alt="UI Tooltip Transparent" width="100" height="16">
       </td>
       <th>UI-Tooltip, Dark</th>
       <td>16</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Tooltip_Object_Classic.svg" alt="Object Tooltip Classic" width="71"height="112">
+      <td><img src="/img/xr/Tooltip_Object_Classic.svg" alt="Object Tooltip Classic" width="71" height="112">
       </td>
       <th>Object Tooltip, Light</th>
       <td>24</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Tooltip_Object_Transparent.svg" alt="Object Tooltip Transparent" width="71"height="112">
+      <td><img src="/img/xr/Tooltip_Object_Transparent.svg" alt="Object Tooltip Transparent" width="71" height="112">
       </td>
       <th>Object Tooltip, Dark</th>
       <td>24</td>

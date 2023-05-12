@@ -55,28 +55,28 @@ Cards are qualified by content type.
   </thead>
   <tbody>
     <tr>
-      <td><img src="/img/xr/Card_Text_Default.png" alt="Default Text Cards" width="400"height="254"></td>
+      <td><img src="/img/xr/Card_Text_Default.png" alt="Default Text Cards" width="400" height="254"></td>
       <td>Text, no Action</td>
       <td>
         Use it to provide previews of nested text-heavy contents, that allow users to determine actions required on a glimpse.
       </td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Card_Text_Action.png" alt="Action Text Cards" width="400"height="254"></td>
+      <td><img src="/img/xr/Card_Text_Action.png" alt="Action Text Cards" width="400" height="254"></td>
       <td>Text, Action</td>
       <td>
         Use it to provide previews of nested text-heavy contents, that allow users to execute quick actions required on a glimpse.
       </td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Card_Image_Default.png" alt="Default Image Cards" width="400"height="254"></td>
+      <td><img src="/img/xr/Card_Image_Default.png" alt="Default Image Cards" width="400" height="254"></td>
       <td>Image, no Action</td>
       <td>
         Use it to provide previews of content better understandable through images (i.e. 3D-model), that allow users to determine actions required on a glimpse.
       </td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Card_Image_Action.png" alt="Action Image Cards" width="400"height="254"></td>
+      <td><img src="/img/xr/Card_Image_Action.png" alt="Action Image Cards" width="400" height="254"></td>
       <td>Image, Action</td>
       <td>
         Use it to provide previews of content better understandable through images (i.e. 3D-model), that allow users to execute quick actions required on a glimpse.

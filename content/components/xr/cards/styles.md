@@ -17,12 +17,14 @@ All cards' categories should be consistent in their actions. If you have a card 
 **2 card variants are available:**
 
 Following elements make up a card component:
+
 - Card Container 96x80px or mm
 - Title
 - Hover plate
 - Tooltip - works on-hover to reveal truncated title information
 
-***Touch = UIs placed at 50cm (~20 Inch) from users***
+**_Touch = UIs placed at 50cm (~20 Inch) from users_**
+
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
@@ -33,32 +35,31 @@ Following elements make up a card component:
   </thead>
   <tbody>
     <tr>
-      <td><img src="/img/xr/Card_Image_Anatomy.svg" alt="Image Card Default" width="192"height="160">
+      <td><img src="/img/xr/Card_Image_Anatomy.svg" alt="Image Card Default" width="192" height="160">
       </td>
       <td>96 x 80</td>
-      <td><br>- Image</br>
-          <br>- Thumbnail at top of card</br>
-          <br>- Title</br>
-          <br>- Caption (optional) or Icon (optional)</br>
-          <br>- Action Button (optional)</br>
-          <br>- Hover plate body-text</br>
-          <br>- Hover plate caption 1 text optional</br>
-          <br>- Hover plate caption 2 text optional</br>
+      <td>- Image<br>
+          - Thumbnail at top of card<br>
+          - Title<br>
+          - Caption (optional) or Icon (optional)<br>
+          - Action Button (optional)<br>
+          - Hover plate body-text<br>
+          - Hover plate caption 1 text optional<br>
+          - Hover plate caption 2 text optional<br>
       </td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Card-Text_anatomy.svg" alt="Image Text Default" width="192"height="160">
+      <td><img src="/img/xr/Card-Text_anatomy.svg" alt="Image Text Default" width="192" height="160">
       </td>
       <td>96 x 80</td>
-      <td><br>- Text hint </br>
-          <br>- Title</br>
-          <br>- Caption (optional) or Icon (optional)</br>
-          <br>- Action Button (optional)</br>
-          <br>- Hover plate body-text</br>
-          <br>- Hover plate caption 1 text optional</br>
-          <br>- Hover plate caption 2 text optional</br>
+      <td>- Text hint<br>
+          - Title<br>
+          - Caption (optional) or Icon (optional)<br>
+          - Action Button (optional)<br>
+          - Hover plate body-text<br>
+          - Hover plate caption 1 text optional<br>
+          - Hover plate caption 2 text optional<br>
       </td>
     </tr>
   </tbody>
 </table>
-

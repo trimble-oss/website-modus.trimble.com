@@ -32,32 +32,32 @@ tags: [xr, styles]
   </thead>
   <tbody>
     <tr>
-      <td><img src="/img/xr/Slider_24_Anatomy.svg" alt="Slider 24" width="200"height="52">
+      <td><img src="/img/xr/Slider_24_Anatomy.svg" alt="Slider 24" width="200" height="52">
       </td>
       <td>168 x 36, with 24 Grip</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Slider_24_Text_Anatomy.svg" alt="Slider 24 Text Side" width="240"height="52">
+      <td><img src="/img/xr/Slider_24_Text_Anatomy.svg" alt="Slider 24 Text Side" width="240" height="52">
       </td>
       <td>208 x 36, with 24 Grip</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Slider_24_Text_2_Anatomy.svg" alt="Slider 24 Text Top" width="200"height="80">
+      <td><img src="/img/xr/Slider_24_Text_2_Anatomy.svg" alt="Slider 24 Text Top" width="200" height="80">
       </td>
       <td>168 x 64, with 24 Grip</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Slider_32_Anatomy.svg" alt="Slider 32" width="200"height="52">
+      <td><img src="/img/xr/Slider_32_Anatomy.svg" alt="Slider 32" width="200" height="52">
       </td>
       <td>168 x 36, with 32 Grip</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Slider_32_Text_Anatomy.svg" alt="Slider 32 Text Side" width="240"height="52">
+      <td><img src="/img/xr/Slider_32_Text_Anatomy.svg" alt="Slider 32 Text Side" width="240" height="52">
       </td>
       <td>208 x 36, with 32 Grip</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Slider_32_Text_2_Anatomy.svg" alt="Slider 32 Text Top" width="200"height="80">
+      <td><img src="/img/xr/Slider_32_Text_2_Anatomy.svg" alt="Slider 32 Text Top" width="200" height="80">
       </td>
       <td>168 x 64, with 32 Grip</td>
     </tr>

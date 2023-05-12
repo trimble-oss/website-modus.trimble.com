@@ -34,21 +34,21 @@ Buttons are bound to ergonomic requirements, do not scale them below 24mm. Scali
   <tbody>
     <tr>
       <th scope="row">Small</th>
-      <td><img src="/img/xr/Button_Primary_24.svg" alt="Primary Button" width="43"height="24">
+      <td><img src="/img/xr/Button_Primary_24.svg" alt="Primary Button" width="43" height="24">
       </td>
       <td>24px = 24mm</td>
       <td>Tertiary Actions (i.e. Close or More)</td>
     </tr>
     <tr>
       <th scope="row">Default</th>
-      <td><img src="/img/xr/Button_Primary_32.svg" alt="Primary Button" width="43"height="32">
+      <td><img src="/img/xr/Button_Primary_32.svg" alt="Primary Button" width="43" height="32">
       </td>
       <td>32px = 32mm</td>
       <td>Primary Actions, Modals </td>
     </tr>
     <tr>
       <th scope="row">Large</th>
-      <td><img src="/img/xr/Button_Primary_48.svg" alt="Primary Button" width="56"height="48">
+      <td><img src="/img/xr/Button_Primary_48.svg" alt="Primary Button" width="56" height="48">
       </td>
       <td>48px = 48mm</td>
       <td>Free Floating Actions</td>
