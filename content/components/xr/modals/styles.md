@@ -22,6 +22,7 @@ tags: [xr, styles]
 - Retain focus until dismissed or an action has been taken. Dialogs shouldn’t be obscured by other elements or other dialogs within or without the context of the function or environment.
 
 ***Touch = UIs placed at 50cm (~20 Inch) from users***
+
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
@@ -32,7 +33,7 @@ tags: [xr, styles]
   </thead>
   <tbody>
     <tr>
-      <td><img src="/img/xr/Dialog_Small_Anatomy.svg" alt="Small Dialog" width="192"height="96">
+      <td><img src="/img/xr/Dialog_Small_Anatomy.svg" alt="Small Dialog" width="192" height="96">
       </td>
       <td>Small = 192 x 96</td>
       <td><br>- Header, brief Title.</br>
@@ -41,7 +42,7 @@ tags: [xr, styles]
       </td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Dialog_Small_Anatomy_2.svg" alt="Small Dialog Double" width="192"height="96">
+      <td><img src="/img/xr/Dialog_Small_Anatomy_2.svg" alt="Small Dialog Double" width="192" height="96">
       </td>
       <td>Small = 192 x 96</td>
       <td><br>- Header, brief Title.</br>
@@ -50,7 +51,7 @@ tags: [xr, styles]
       </td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Dialog_Small_Anatomy_2.5.svg" alt="Small Dialog Double and half" width="192"height="120">
+      <td><img src="/img/xr/Dialog_Small_Anatomy_2.5.svg" alt="Small Dialog Double and half" width="192" height="120">
       </td>
       <td>Small = 192 x 120</td>
       <td><br>- Header, brief Title.</br>
@@ -60,7 +61,7 @@ tags: [xr, styles]
       </td>
     </tr>
         <tr>
-      <td><img src="/img/xr/Dialog_Medium_Anatomy.svg" alt="Medium Dialog" width="224"height="160">
+      <td><img src="/img/xr/Dialog_Medium_Anatomy.svg" alt="Medium Dialog" width="224" height="160">
       </td>
       <td>Medium = 192 x 128</td>
       <td><br>- Header, brief Title.</br>
@@ -69,7 +70,7 @@ tags: [xr, styles]
       </td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Dialog_Medium_Anatomy_2.svg" alt="Medium Dialog Double" width="224"height="160">
+      <td><img src="/img/xr/Dialog_Medium_Anatomy_2.svg" alt="Medium Dialog Double" width="224" height="160">
       </td>
       <td>Medium = 192 x 128</td>
       <td><br>- Header, brief Title.</br>
@@ -78,7 +79,7 @@ tags: [xr, styles]
       </td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Dialog_Medium_Anatomy_2.5.svg" alt="Medium Dialog Double and half" width="192"height="184">
+      <td><img src="/img/xr/Dialog_Medium_Anatomy_2.5.svg" alt="Medium Dialog Double and half" width="192" height="184">
       </td>
       <td>Medium = 192 x 152</td>
       <td><br>- Header, brief Title.</br>
@@ -87,7 +88,7 @@ tags: [xr, styles]
           <br>- Actions.</br>
       </td>
     <tr>
-      <td><img src="/img/xr/Dialog_Large_Anatomy.svg" alt="Large Dialog" width="224"height="160">
+      <td><img src="/img/xr/Dialog_Large_Anatomy.svg" alt="Large Dialog" width="224" height="160">
       </td>
       <td>Large = 192 x 192</td>
       <td><br>- Banner text</br>
@@ -97,7 +98,7 @@ tags: [xr, styles]
       </td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Dialog_Large_Image_Anatomy.svg" alt="Large Image Dialog" width="224"height="160">
+      <td><img src="/img/xr/Dialog_Large_Image_Anatomy.svg" alt="Large Image Dialog" width="224" height="160">
       </td>
       <td>Large = 192 x 192</td>
       <td><br>- Image</br>
@@ -107,7 +108,7 @@ tags: [xr, styles]
       </td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Dialog_XLarge_Anatomy.svg" alt="XLarge Dialog" width="224"height="264">
+      <td><img src="/img/xr/Dialog_XLarge_Anatomy.svg" alt="XLarge Dialog" width="224" height="264">
       </td>
       <td>X-Large = 192 x 232</td>
       <td><br>- Banner Text</br>
@@ -117,7 +118,7 @@ tags: [xr, styles]
       </td>
     </tr>
     <tr>
-      <td><img src="/img/xr/Dialog_XLarge_Image_Anatomy.svg" alt="XLarge Dialog" width="224"height="264">
+      <td><img src="/img/xr/Dialog_XLarge_Image_Anatomy.svg" alt="XLarge Dialog" width="224" height="264">
       </td>
       <td>X-Large = 192 x 232</td>
       <td><br>- Image</br>
@@ -128,5 +129,3 @@ tags: [xr, styles]
     </tr>
   </tbody>
 </table>
-
-

@@ -9,7 +9,7 @@ images:
 tags: [xr, usage]
 ---
 
-{{< img src="/img/xr/MXR_Tooltips_Interaction.gif" width="854" height="481" class="w-100" loading="auto" >}}
+{{< img src="/img/xr/MXR_Tooltips_Interaction.gif" width="854" height="481" class="w-100 bg-light" loading="auto" >}}
 
 ## Overview
 
@@ -32,24 +32,24 @@ In the case of truncated interface texts, tooltips complete information, so that
 **Don't use when**
 
 - Providing a description longer than 10 words.
-- Ancillary buttons that require more information.  This can be taken care of through voice command hints.
+- Ancillary buttons that require more information. This can be taken care of through voice command hints.
 
 ## Types
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Example</th>
+      <th class="w-50">Example</th>
       <th>Type</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><img src="/img/xr/" alt="Object Tooltip" width="176" height="40"></td>
+      <td><img src="/img/xr/tooltip-object.png" alt="Object Tooltip" width="320" height="233" loading="lazy"></td>
       <td>Object Tooltip</td>
     </tr>
     <tr>
-      <td><img src="/img/xr/" alt="UI Tooltip" width="40" height="176"></td>
+      <td><img src="/img/xr/tooltip-ui.png" alt="UI Tooltip" width="320" height="233" loading="lazy"></td>
       <td>UI Tooltip</td>
     </tr>
   </tbody>

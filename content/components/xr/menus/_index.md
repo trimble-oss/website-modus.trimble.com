@@ -29,7 +29,7 @@ Contextual - commands are exclusively relevant to a feature
 
 - Displaying a list of command choices on a surface.
 - Displaying multiple, non-obvious commands and options.
-- Offer an option to close and/or un-pin
+- Offer an option to close and/or un-pin.
 - Think about enabling voice commands or gaze-control for users with limited accessibility.
 
 **Don't use when**
@@ -58,7 +58,7 @@ Near Menus by default tag along users’ radius. However all variants have a gra
     </tr>
   </thead>
   <tbody>
-      <td><img src="/img/xr/HandMenu_Classic_1x3.png" alt="Hand Menu 1 by 3" width="400"height="254"></td>
+      <td><img src="/img/xr/HandMenu_Classic_1x3.png" alt="Hand Menu 1 by 3" width="400" height="254" loading="lazy"></td>
       <td>Hand Menus</td>
       <td>
         Generic commands that allow users to move forward in the application. Users can seamlessly bring up hand-attached UIs for frequently used functions. They offer an opportunity to help users discover features by relying on this natural gesture.
@@ -66,7 +66,7 @@ Near Menus by default tag along users’ radius. However all variants have a gra
     </tr>
     <tr>
         <tr>
-      <td><img src="/img/xr/NearMenu_Classic_3x1.png" alt="Near Menu 3 by 1" width="400"height="254"></td>
+      <td><img src="/img/xr/NearMenu_Classic_3x1.png" alt="Near Menu 3 by 1" width="400" height="254" loading="lazy"></td>
       <td>Near Menus</td>
       <td>
         Contextual commands and actions that need to be taken in relation to a virtual object.  They usually emerge pop from another command and can contain multiple, diverse commands in them.
