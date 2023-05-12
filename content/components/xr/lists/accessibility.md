@@ -10,7 +10,7 @@ keywords: Lists, List
 tags: [xr, accessibility]
 ---
 
-XR Interfaces are bound to interaction types. Modus XR Lists cater touch interactions with UIs placed by default at 50cm (~20 Inch) from users.
+XR Interfaces are bound to interaction types. Modus XR Lists cater touch interactions with UIs placed by default at 50cm (~20 inch) from users.
 
 ## Accessibility
 

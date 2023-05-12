@@ -36,22 +36,22 @@ These components serve developers, designers and product owners as a reference f
 
 **Lower the bar to adoption**
 
-- Implementation, adaptation and augmentation of software development kit elements
+- Implementation, adaptation and augmentation of software development kit elements.
   - Apply Modus XR as a design system, to enable developers and designers a smooth and faster integration of their intentions and needs to create mixed reality applications.
 
 **Optimize Development Effort**
 
 - Work with building blocks and packages.
   - Move towards modularity and flexible components, which can be re-combined to generate new elements.
-- Streamline dev/ux interaction
+- Streamline dev/ux interaction.
   - Optimize UI elements, to avoid engaging in larger development cycles.
-  - Rapid prototyping
+  - Rapid prototyping.
 
 **Enable Spatial Experiences**
 
-- Sensible use of space
+- Sensible use of space.
 - Make use of environment and surroundings, by leveraging experience from the real world and augmenting reality through smart user centric UI-behavior.
-- 3D-Interfaces
+- 3D-Interfaces.
   - Components and elements abstracted from real-world objects, fit with physics, so they react to natural inputs.
 
 ## Modus XR UI Kits

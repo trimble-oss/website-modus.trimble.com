@@ -51,7 +51,7 @@ Lists are qualified by content type.
   <tbody>
     <tr>
       <td><img src="/img/xr/List_Thumbnail_Default.png" alt="List Thumbnail" width="400" height="254"></td>
-      <td>Thumbnail, no Action</td>
+      <td>Thumbnail, No Action</td>
       <td>
         Use it to provide previews of content better understandable through images (i.e. jpegs, 3D-models, etc.), that allow users to determine actions required on a glimpse.
       </td>
@@ -65,7 +65,7 @@ Lists are qualified by content type.
     </tr>
     <tr>
       <td><img src="/img/xr/List_Text_Default.png" alt="List Text" width="400" height="254"></td>
-      <td>Text, no Action</td>
+      <td>Text, No Action</td>
       <td>
         Use it to provide insights to related items.
       </td>

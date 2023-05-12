@@ -27,7 +27,7 @@ Because dialogs are highly disruptive to the user experience, they should be use
 - Errors that block an app’s normal operation.
 - Critical information that requires a specific user task, decision, or acknowledgement.
 - Contextual and should welcome & foster users to remain standing.
-- Consider to use far interaction for large & x-large dialogs.
+- Consider to use far interaction for large and x-large dialogs.
 - For non-essential information, consider using plain txt messages.
 
 **Don't use when**

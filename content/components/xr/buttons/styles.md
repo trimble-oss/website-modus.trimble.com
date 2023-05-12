@@ -14,11 +14,11 @@ tags: [xr, styles]
 
 - All buttons should be interactive and perform an action.
 - They should be discoverable, easy to identify, and specific.
-- Provide voice command label to ease interaction
+- Provide voice command label to ease interaction.
 - If using multiple buttons, label them distinctly.
 - The size of the buttons should be used in proportion to the context and content around it.
 
-***Touch = UIs placed at 50cm (~20 Inch) from users***
+**_Touch = UIs placed at 50cm (~20 Inch) from users_**
 
 Buttons are bound to ergonomic requirements, do not scale them below 24mm. Scaling up beyond 60x60mm should foresee a full-hand push as common interaction.
 
