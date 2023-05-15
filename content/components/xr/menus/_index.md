@@ -20,16 +20,16 @@ However in XR, menus can also be assigned to a gesture or control command that t
 
 Designers can define a variety of menus, depending on the use cases. Among them, most common menus could be:
 
-General - commands are constant across environments and experiences
-Contextual - commands are exclusively relevant to a feature
+- General - commands are constant across environments and experiences.
+- Contextual - commands are exclusively relevant to a feature.
 
 ## Usage
 
 **Use when**
 
 - Displaying a list of command choices on a surface.
-- Displaying multiple, non-obvious commands and options.
-- Offer an option to close and/or un-pin.
+- Displaying multiple, non-obvious commands, and options.
+- Offer an option to close and/or unpin.
 - Think about enabling voice commands or gaze-control for users with limited accessibility.
 
 **Don't use when**

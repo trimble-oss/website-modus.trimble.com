@@ -14,9 +14,9 @@ tags: [xr, styles]
 
 **Hand Menus**
 
-- Attach primary actions, for initiation & discoverability maintaining the number of actions to a minimum necessary
-- Since immediate usage will be bound to a near interaction, the minimum button recommended size is 32mm height
-- Place the menu along the ulnar nerve
+- Attach primary actions, for initiation and discoverability maintaining the number of actions to a minimum necessary.
+- Since immediate usage will be bound to a near interaction, the minimum button recommended size is 32mm height.
+- Place the menu along the ulnar nerve.
 - Attaching larger menus exclusively to the hand, can trigger hand fatigue very rapidly. Consider defining if the menu is attached to the hand or “pinned” to space.
   - Rule of thumb: Smaller Menus (only buttons) can remain attached to the hand (see hide), while larger menus should be pinned to space once invoked (see locked).
 
@@ -58,8 +58,8 @@ tags: [xr, styles]
 **Near Menus**
 
 - Primary use with touch interaction.
-- Minimum button recommended size: 32 with overall padding of min 8
-- Exception are free floating buttons around the menu, ex. close or pin-to-world
+- Minimum button recommended size: 32 with overall padding of min. 8.
+- Exception are free floating buttons around the menu, ex. close or pin-to-world.
 
 **_Touch = UIs placed at 50cm (~20 Inch) from users_**
 

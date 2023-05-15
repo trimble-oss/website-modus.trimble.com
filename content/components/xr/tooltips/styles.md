@@ -12,15 +12,17 @@ tags: [xr, styles]
 ## Specifications
 
 **UI Tooltips**
+
 - Icon tooltips and cards or list tooltips have to be positioned top to the trigger item.
-- The container of the tooltip text will be aligned to the left, center or right.
+- The container of the tooltip text will be aligned to the left, center, or right.
 - Texts must be truncated when tooltip extends 25% beyond the length of the original UI.
 - Tooltips appear on hover.
 
 **Object Tooltips**
+
 - Object tooltips have to be positioned according to the virtual object. Anchor support connection to object or a part of it.
 - The container of the tooltip text will be aligned to the center.
-- Tooltips can appear on selection of parts, objects or be present without prior interaction.
+- Tooltips can appear on selection of parts, objects, or be present without prior interaction.
 - Tooltips billboard always facing users.
 
 <table class="table table-bordered">

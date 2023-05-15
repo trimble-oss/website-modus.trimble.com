@@ -12,16 +12,17 @@ tags: [xr, styles]
 
 ## Specifications
 
-All lists' categories should be consistent in their actions. If you have a list representing a folder, this one should be easily distinguishable from lists representing files, but their actions should be consistent in the context where users are.
+All list categories should be consistent in their actions. If you have a list representing a folder, this one should be easily distinguishable from lists representing files, but their actions should be consistent in the context where users are.
 
 **2 list variants are available:**
 
 Following elements make up a list component:
+
 - List Container 96x32px or mm
 - Title
 - Tooltip - works on-hover to reveal truncated title information
 
-***Touch = UIs placed at 50cm (~20 Inch) from users***
+**_Touch = UIs placed at 50cm (~20 inch) from users_**
 
 <table class="table table-bordered">
   <thead class="thead-light">
