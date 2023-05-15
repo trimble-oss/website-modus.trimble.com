@@ -75,6 +75,7 @@ Badges should be centered vertically inside of their containing element.
 
 ### Colors
 
+<!-- prettier-ignore-start -->
 | Element               | Property   | Color                                                                   |
 | --------------------- | ---------- | ----------------------------------------------------------------------- |
 | Badge (Primary)       | Background | {{< color-preview nameL=" " hexL="#0063a3" nameD=" " hexD="#019aeb" >}} |
@@ -92,3 +93,4 @@ Badges should be centered vertically inside of their containing element.
 | Badge (Danger)        | Background | {{< color-preview nameL=" " hexL="#da212c" nameD=" " hexD="#da212c" >}} |
 |                       | Text       | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#ffffff" >}} |
 {class="table table-bordered table-sm table-colors"}
+<!-- prettier-ignore-end -->

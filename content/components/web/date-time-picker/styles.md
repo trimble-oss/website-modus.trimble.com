@@ -41,7 +41,6 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inpu
 
 {{< img src="/img/components/date-picker-changing-month-year.svg" dark="/img/components/date-picker-changing-month-year-dark.svg" alt="Changing month or year" >}}
 
-
 #### Date Range Picker
 
 - When the user needs to filter/ search for an item (e.g. process, documents, invoice item) created within a specific time range, provide the ability for the user search within a date range.
