@@ -36,11 +36,11 @@ All segments controls should have the following states:
 - Disabled
 
 <!-- prettier-ignore-start -->
-| State  | Primary                                                                                           | Secondary |
-| ------ | ------------------------------------------------------------------------------------------------- | --------- |
+| State    | Primary                                                                                           | Secondary |
+| -------- | ------------------------------------------------------------------------------------------------- | --------- |
 | Default  | {{< img src="/img/in-field/segmented-controls-primary-default.svg" dark="/img/in-field/segmented-controls-primary-default-dark.svg" width="423" alt="Segmented Controls Primary" >}}   | {{< img src="/img/in-field/segmented-controls-secondary-default.svg" dark="/img/in-field/segmented-controls-secondary-default-dark.svg" width="423" alt="Segmented Controls Secondary" >}}  |
-| Focus | {{< img src="/img/in-field/segmented-controls-primary-focus.svg" dark="/img/in-field/segmented-controls-primary-focus-dark.svg" width="423" alt="Segmented Controls Primary Focus" >}}   | {{< img src="/img/in-field/segmented-controls-secondary-focus.svg" dark="/img/in-field/segmented-controls-secondary-focus-dark.svg" width="423" alt="Segmented Secondary Focus" >}}   |
-| Disabled  | {{< img src="/img/in-field/segmented-controls-primary-disabled.svg" dark="/img/in-field/segmented-controls-primary-disabled-dark.svg" width="423" alt="Segmented Controls Primary Disabled" >}}   | {{< img src="/img/in-field/segmented-controls-secondary-disabled.svg" dark="/img/in-field/segmented-controls-secondary-disabled-dark.svg" width="423" alt="Segmented Controls Secondary Disabled" >}}   |
+| Focus    | {{< img src="/img/in-field/segmented-controls-primary-focus.svg" dark="/img/in-field/segmented-controls-primary-focus-dark.svg" width="423" alt="Segmented Controls Primary Focus" >}}   | {{< img src="/img/in-field/segmented-controls-secondary-focus.svg" dark="/img/in-field/segmented-controls-secondary-focus-dark.svg" width="423" alt="Segmented Secondary Focus" >}}   |
+| Disabled | {{< img src="/img/in-field/segmented-controls-primary-disabled.svg" dark="/img/in-field/segmented-controls-primary-disabled-dark.svg" width="423" alt="Segmented Controls Primary Disabled" >}}   | {{< img src="/img/in-field/segmented-controls-secondary-disabled.svg" dark="/img/in-field/segmented-controls-secondary-disabled-dark.svg" width="423" alt="Segmented Controls Secondary Disabled" >}}   |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
@@ -48,4 +48,4 @@ All segments controls should have the following states:
 
 - Use the primary and secondary button colors
 
- {{< img src="/img/in-field/segmented-controls-oem.png" dark="/img/in-field/segmented-controls-oem-dark.png" width="962" height="180" alt="Segmented Controls OEM" >}}
+{{< img src="/img/in-field/segmented-controls-oem.png" dark="/img/in-field/segmented-controls-oem-dark.png" width="962" height="180" alt="Segmented Controls OEM" >}}

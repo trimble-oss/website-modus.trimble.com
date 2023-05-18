@@ -264,6 +264,7 @@ tags: [styles]
 
 ### Colors
 
+<!-- prettier-ignore-start -->
 | Element | Property                        | Color                                                                                  |
 | ------- | ------------------------------- | -------------------------------------------------------------------------------------- |
 | Button  | Color                           | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff">}}  |
@@ -273,6 +274,7 @@ tags: [styles]
 |         | Border-Bottom                   | {{< color-preview nameL="Gray 1" hexL="#cbcdd6" nameD="Gray 6" hexD="#6a6e79" >}}      |
 | Icon    | Color                           | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff">}}  |
 {class="table table-sm table-bordered"}
+<!-- prettier-ignore-end -->
 
 ### Behavior
 

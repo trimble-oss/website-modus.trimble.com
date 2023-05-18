@@ -74,6 +74,7 @@ tags: [styles]
 
 ### Colors
 
+<!-- prettier-ignore-start -->
 | Element      | Property      | Color                                                                                                 |
 | ------------ | ------------- | ----------------------------------------------------------------------------------------------------- |
 | Tab Container | Border Bottom | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray 6" hexD="#6a6e79" >}}                    |
@@ -87,3 +88,4 @@ tags: [styles]
 | Disabled Tab | Color         | {{< color-preview nameL="Gray 2" hexL="#B7B9C3" nameD="White" hexD="#ffffff" >}}                      |
 |              | Background    | Transparent                                                                                           |
 {class="table table-sm table-bordered"}
+<!-- prettier-ignore-end -->
