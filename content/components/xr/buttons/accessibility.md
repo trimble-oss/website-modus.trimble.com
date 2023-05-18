@@ -10,9 +10,9 @@ images:
 tags: [xr, accessibility]
 ---
 
-XR Interfaces are bound to interaction types. Modus XR Buttons cater touch interactions with UIs placed by default at 50cm (~20 Inch) from users
-
 ## Accessibility
+
+XR Interfaces are bound to interaction types. Modus XR Buttons cater touch interactions with UIs placed by default at 50cm (~20 Inch) from users
 
 - Buttons should be distinctively labeled.
 - The size of the buttons should be used in proportion to the context and content around it.

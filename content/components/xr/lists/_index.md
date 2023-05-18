@@ -16,12 +16,12 @@ tags: [xr, usage]
 
 List items can contain actions represented by icons.
 
-Lists act like buttons, that means by default they react to the push action of the index finger of users (see Touch).
+Lists act like buttons, that means by default they react to the push action of the index finger of users.
 
 They can encompass two outcomes, which can exclusively be combined through a pre-command, usually a button, that would toggle the two default interactions, namely:
 
-- Open = access relevant information
-- Select = mark list item(s) for further action, example delete
+- **Open:** access relevant information
+- **Select:** mark list item(s) for further action (e.g., delete)
 
 ## Usage
 
@@ -53,14 +53,14 @@ Lists are qualified by content type.
       <td><img src="/img/xr/List_Thumbnail_Default.png" alt="List Thumbnail" width="400" height="254"></td>
       <td>Thumbnail, No Action</td>
       <td>
-        Use it to provide previews of content better understandable through images (i.e. jpegs, 3D-models, etc.), that allow users to determine actions required on a glimpse.
+        Use it to provide previews of content better understandable through images (i.e., JPG, 3D-models, etc.), that allow users to determine actions required on a glimpse.
       </td>
     </tr>
     <tr>
       <td><img src="/img/xr/List_Thumbnail_Action.png" alt="List Thumbnail Action" width="400" height="254"></td>
       <td>Image, Action Right</td>
       <td>
-        Use it to provide previews of content better understandable through images (i.e. jpegs, 3D-model), that allow users to execute quick expandable actions required on a glimpse.
+        Use it to provide previews of content better understandable through images (i.e., JPG, 3D-model), that allow users to execute quick expandable actions required on a glimpse.
       </td>
     </tr>
     <tr>

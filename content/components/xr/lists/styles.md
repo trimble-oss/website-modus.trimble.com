@@ -14,8 +14,6 @@ tags: [xr, styles]
 
 All list categories should be consistent in their actions. If you have a list representing a folder, this one should be easily distinguishable from lists representing files, but their actions should be consistent in the context where users are.
 
-**2 list variants are available:**
-
 Following elements make up a list component:
 
 - List Container 96x32px or mm

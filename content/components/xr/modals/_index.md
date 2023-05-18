@@ -24,16 +24,14 @@ Because dialogs are highly disruptive to the user experience, they should be use
 
 **Use when**
 
-- Errors that block an app’s normal operation.
-- Critical information that requires a specific user task, decision, or acknowledgement.
-- Contextual and should welcome & foster users to remain standing.
-- Consider to use far interaction for large and x-large dialogs.
-- For non-essential information, consider using plain txt messages.
+- Showing errors that block an app’s normal operation.
+- Critical information that requires a specific user task, decision, or acknowledgement is needed.
+- Needing far interaction for large and x-large dialogs.
 
 **Don't use when**
 
 - Scrollable, complex interaction dialogs.
-- Providing non-essential information related to the underlying page.
+- Providing non-essential information related to the underlying page. Use plain txt messages instead.
 
 ## Types
 

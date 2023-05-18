@@ -19,7 +19,7 @@ Tooltips remain informative and should not be considered actionable.
 
 In XR they are also used to provide insight into a virtual object thorugh tooltips that are bound/anchored/attached to a model's part. Use them as well to provide insight into a real object, which has been identified or was previously embedded in the device’s memory.
 
-In the case of truncated interface texts, tooltips complete information, so that users can take a decision or start an action.  These are triggered through interactions like proximity, gaze or hover and are therefore temporary.
+In the case of truncated interface texts, tooltips complete information, so that users can take a decision or start an action. These are triggered through interactions like proximity, gaze or hover and are therefore temporary.
 
 ## Usage
 
@@ -27,12 +27,12 @@ In the case of truncated interface texts, tooltips complete information, so that
 
 - Providing a short description of a page element or control.
 - Revealing the full text of truncated data.
-- For non-essential information, consider using plain text messages
+- The information is essential for the user. For non-essential information, consider using plain text messages.
 
 **Don't use when**
 
 - Providing a description longer than 10 words.
-- Ancillary buttons that require more information. This can be taken care of through voice command hints.
+- Needing an ancillary button that requires more information. Use voice command hints instead.
 
 ## Types
 
