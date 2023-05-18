@@ -37,6 +37,7 @@ tags: [styles]
 
 ## Colors
 
+<!-- prettier-ignore-start -->
 | Element   | Property   | Color                                                                                                |
 | --------- | ---------- | ---------------------------------------------------------------------------------------------------- |
 | Primary   | Color      | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="White" hexD="#ffffff" >}}               |
@@ -44,3 +45,4 @@ tags: [styles]
 | Secondary | Color      | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff" >}}               |
 |           | Background | {{< color-preview nameL="Light Gray" hexL="#f1f1f6" nameD="Gray 9" hexD="#353a40" >}}                |
 {class="table table-sm table-bordered"}
+<!-- prettier-ignore-end -->
