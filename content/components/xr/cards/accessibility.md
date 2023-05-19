@@ -10,9 +10,9 @@ images:
 tags: [xr, accessibility]
 ---
 
-XR Interfaces are bound to interaction types. Modus XR Cards cater touch interactions with UIs placed by default at 50cm (~20 inch) from users
-
 ## Accessibility
+
+XR Interfaces are bound to interaction types. Modus XR Cards cater touch interactions with UIs placed by default at 50cm (~20 inch) from users
 
 - Cards should be distinctively labeled.
 - The card size is locked at 96x88px or mm.
