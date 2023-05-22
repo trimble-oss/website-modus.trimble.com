@@ -6,7 +6,7 @@ components: true
 component: menus
 images:
   - "/img/xr/headers/menus.png"
-keywords: modal, Dialogs, Dialog
+keywords: menu
 tags: [xr, usage]
 ---
 
@@ -20,8 +20,8 @@ However in XR, menus can also be assigned to a gesture or control command that t
 
 Designers can define a variety of menus, depending on the use cases. Among them, most common menus could be:
 
-- General - commands are constant across environments and experiences.
-- Contextual - commands are exclusively relevant to a feature.
+- **General:** commands are constant across environments and experiences.
+- **Contextual:** commands are exclusively relevant to a feature.
 
 ## Usage
 
@@ -29,13 +29,13 @@ Designers can define a variety of menus, depending on the use cases. Among them,
 
 - Displaying a list of command choices on a surface.
 - Displaying multiple, non-obvious commands, and options.
-- Offer an option to close and/or unpin.
-- Think about enabling voice commands or gaze-control for users with limited accessibility.
+- Offering an option to close and/or unpin.
+- Enabling voice commands or gaze-control for users with limited accessibility.
 
 **Don't use when**
 
 - Performing actions with a model or spatial interfaces that could either interfere with the flow or perception of the center of attention.
-- Immediate, decisive actions that require full user attention.
+- Immediate, decisive actions that require full user attention is needed.
 
 ## Types
 
@@ -47,7 +47,7 @@ Hand menus are interaction patterns that allow users to invoke features of an ap
 
 ### Near Menus:
 
-Near Menus by default tag along users’ radius. However all variants have a grabbable version with a bottom handle that allows users to place the menu where they find it convenient.
+Near Menus by default tag along users’ radius. However, all variants have a grabbable version with a bottom handle that allow users to place the menu where they find it convenient.
 
 <table class="table table-bordered">
   <thead class="thead-light">

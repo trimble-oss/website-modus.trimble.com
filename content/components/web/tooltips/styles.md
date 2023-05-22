@@ -41,11 +41,13 @@ tags: [styles]
 
 ### Colors
 
+<!-- prettier-ignore-start -->
 | Element | Property   | Color                                                                                  |
-| ------- | -----------| ---------------------------------------------------------------------------------------|
+| ------- | ---------- | -------------------------------------------------------------------------------------- |
 | Tooltip | Text       | {{< color-preview nameL="White" hexL="#ffffff" nameD="Trimble Gray" hexD="#252a2e" >}} |
 |         | Background | {{< color-preview nameL="Gray 7" hexL="#585c65" nameD="Gray 0" hexD="#e0e1e9" >}}      |
 {class="table table-sm table-bordered"}
+<!-- prettier-ignore-end -->
 
 <script>
 $(function () {

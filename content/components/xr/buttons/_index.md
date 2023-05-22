@@ -20,7 +20,7 @@ Buttons express what action will occur when the user clicks or touches it. Butto
 
 Buttons have visual cues and affordances that help increase interaction confidence with users.
 
-Since their “activator” (collider) is attached to the users’ index fingers, by default they react to the push action of the index finger of users (see Touch). Buttons can be modified in their size, if the experience so requires. Pretty much like in real life, the larger the button, the greater the effort to pulse it, therefore as the button size increases, so does the position of the “activator” from the finger to the entire hand.
+Since their “activator” (collider) is attached to the users’ index fingers, by default they react to the push action of the index finger of users. Buttons can be modified in their size, if the experience so requires. Pretty much like in real life, the larger the button, the greater the effort to pulse it, therefore as the button size increases, so does the position of the “activator” from the finger to the entire hand.
 
 Far interaction works by default and the button can be triggered using Air Tap.
 

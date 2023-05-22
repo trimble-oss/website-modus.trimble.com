@@ -32,9 +32,11 @@ tags: [styles]
 
 ## Colors
 
+<!-- prettier-ignore-start -->
 | Element               | Property   | Color                                                                                           |
 | --------------------- | ---------- | ----------------------------------------------------------------------------------------------- |
 | Slider Bar            | Background | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
 | Thumb                 | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD="White" hexD="#ffffff" >}}                 |
 | Label Text (Optional) | Color      | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff" >}}          |
 {class="table table-sm table-bordered"}
+<!-- prettier-ignore-end -->

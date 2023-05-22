@@ -16,8 +16,8 @@ tags: [xr, styles]
 - Dialogs can only be closed by choosing an action represented by a button (e.g., Save or Cancel). They cannot be dismissed by tapping or triggering outside of the modal.
 - Avoid extensive copy or many elements within the dialog that require scrolling actions.
 - Dialogs are centered horizontally and vertically in the field of view by default and appear at 50cm from users.
-  - For spatial UIs (i.e. model viewing), implement a Radial Solver by default.
-  - For dialogs in the context of a non-diegetic UI (e.g. Browser), dialogs inherit the parent's UI behavior.
+  - For spatial UIs (i.e., model viewing), implement a Radial Solver by default.
+  - For dialogs in the context of a non-diegetic UI (e.g., Browser), dialogs inherit the parent's UI behavior.
 - Consider "displacing" the non-diegetic UI away from the user and/or covering it with a dark surface to reduce its brightness. You can also eliminate it altogether.
 - Retain focus until dismissed or an action has been taken. Dialogs shouldn’t be obscured by other elements or other dialogs within or without the context of the function or environment.
 

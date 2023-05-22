@@ -6,7 +6,7 @@ components: true
 component: menus
 images:
   - "/img/xr/headers/menus.png"
-keywords: modals, modal, dialogs, dialog
+keywords: menu
 tags: [xr, styles]
 ---
 

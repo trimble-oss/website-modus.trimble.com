@@ -20,11 +20,12 @@ Cards are containers for displaying relevant and actionable information on a sin
 
 The appearance of cards helps users understand how their contents are related, but it might make sense to provide more detail about the relationship.
 
-Cards act like buttons, that means by default they react to the trigger by users.
+Cards act like buttons, that means by default they are triggered by users.
 
 They can encompass 2 outcomes, which can exclusively be combined through a pre-command, usually a button, that would toggle the 2 default interactions, namely:
-- Open = access relevant information
-- Select = mark card(s) for further action, example delete
+
+- **Open:** access relevant information
+- **Select:** mark card(s) for further action (e.g., delete)
 
 ## Usage
 

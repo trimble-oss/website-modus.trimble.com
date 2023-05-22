@@ -92,6 +92,7 @@ tags: [styles]
 
 ### Colors
 
+<!-- prettier-ignore-start -->
 | Element      | Property         | Color                                                                                             |
 | ------------ | ---------------- | ------------------------------------------------------------------------------------------------- |
 | Toggle       |                  | {{< color-preview nameL="White" hexL="#ffffff" nameD="White" hexD="#ffffff" >}}                   |
@@ -107,6 +108,7 @@ tags: [styles]
 | Disabled/On  | Background (30%) | {{< color-preview nameL="Trimble Blue" hexL="#0063A380" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
 | Disabled/Off | Background (30%) | {{< color-preview nameL="Gray 4" hexL="#90939F80" nameD="Gray 4" hexD="#90939F" >}}               |
 {class="table table-bordered table-sm table-colors"}
+<!-- prettier-ignore-end -->
 
 ### Editorial
 
@@ -122,8 +124,5 @@ tags: [styles]
 [data-theme="light"] .custom-switch .custom-control-input:checked~.custom-control-label:hover::before {
   background-color: #0063a3;
   border-color: #0063a3;
-}
-.custom-switch .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
 }
 </style>

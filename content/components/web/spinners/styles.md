@@ -60,6 +60,7 @@ tags: [styles]
 
 ## Colors
 
+<!-- prettier-ignore-start -->
 | Element   | Property        | Color                                                                                           |
 | --------- | --------------- | ----------------------------------------------------------------------------------------------- |
 | Default   | Spinner         | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
@@ -69,3 +70,4 @@ tags: [styles]
 | Tertiary  | Spinner         | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray 4" hexD="#90939f" >}}               |
 |           | Text (Optional) | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray Light" hexD="#f1f1f1" >}}           |
 {class="table table-sm table-bordered"}
+<!-- prettier-ignore-end -->

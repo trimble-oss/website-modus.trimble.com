@@ -12,9 +12,7 @@ tags: [xr, styles]
 
 ## Specifications
 
-All cards' categories should be consistent in their actions. If you have a card representing a folder, this one should be easily distinguishable from cards representing files, but their actions should be consistent in the context where users are.
-
-**2 card variants are available:**
+All cards' categories should be consistent in their actions. If you have a card representing a folder, this one should be easily distinguishable from cards representing files, but their actions should be consistent in the context where users
 
 Following elements make up a card component:
 

@@ -1,6 +1,6 @@
 {
   "recurse": true,
-  "skip": "fonts.googleapis.com, github.com, stackoverflow.com, thumbs.bfldr.com, www.googleapis.com, www.googletagmanager.com, www.linkedin.com",
+  "skip": "fonts.googleapis.com, github.com, stackoverflow.com, thumbs.bfldr.com, twitter.com, www.googleapis.com, www.googletagmanager.com, www.linkedin.com",
   "serverRoot": "./build/",
   "silent": true
 }
