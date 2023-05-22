@@ -190,6 +190,19 @@ Specific to each product's implementation
 - Display the Help menu when clicked or tapped.
 - Clicking or tapping outside of this menu will close the menu.
 
+Based on [User Assistance Foundations](/foundations/user-assistance/), following help menu layouts are recommended:
+
+- Six categories with icons and supporting text.
+- Six categories with icons only.
+
+ADD ILLUSTRATIONS
+
+If the product does not support a category, omit it.
+
+An expanded category (with icons) should be set up as follows:
+
+ADD ILLUSTRATIONS
+
 #### Applications
 
 - On hover, display a tooltip reading "Applications."
