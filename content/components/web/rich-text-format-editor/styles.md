@@ -1,7 +1,7 @@
 ---
 title: "Rich Text Format Editor"
 layout: "single"
-description: "Rich Text Format (RTF) Editor allows the user to style text font and layout in a text input field."
+description: "Rich Text Format (RTF) Editor allows the user to style fonts and layout in a text area field."
 components: true
 componentsWeb: true
 images:
