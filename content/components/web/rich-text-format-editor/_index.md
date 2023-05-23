@@ -1,7 +1,7 @@
 ---
 title: "Rich Text Format Editor"
 layout: "single"
-description: "Rich Text Format (RTF) Editor allows the user to style text font and layout in a text input field."
+description: "Rich Text Format (RTF) Editor allows the user to style fonts and layout in a text area field."
 components: true
 componentsWeb: true
 images:
@@ -11,7 +11,7 @@ tags: [usage]
 
 ## Overview
 
-The Rich Text Format (RTF) Editor is a design pattern consisting of a RTF-toolbar with an input text area. It allows the user to style the text by selecting the font family, font style, font weight, and the font size. The user can also align paragraphs, use bullet or numbered lists, or insert links into the text area with a user-defined link text.
+The Rich Text Format (RTF) Editor is a design pattern consisting of a toolbar with an input text area. It allows the user to style the text by selecting the font family, font style, font weight, and the font size. The user can also align paragraphs, use bullet or numbered lists, or insert links into the text area with a user-defined link text.
 
 ADD ILLUSTRATION
 
