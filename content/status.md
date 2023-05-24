@@ -5,6 +5,8 @@ description: "The status of each component is divided into the style definition 
 framework code."
 url: "/status/"
 start: true
+hidden: true
+private: true
 hideToc: true
 tags:
   - search_exclude
@@ -31,15 +33,15 @@ tags:
 | ------------------------------------------------------------- | ------------------- | ------------------ | ------------------------ | ----------------------- |
 | [Accordions](/components/accordions/)                         | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Alerts](/components/alerts/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
-| [Autocomplete](/components/autocomplete/)                     | {{< ico-check >}} |                    | {{< ico-uc >}}           | {{< ico-check >}}          |
+| [Autocomplete](/components/autocomplete/)                     | {{< ico-check >}} |                    | {{< ico-uc >}}           | {{< ico-check >}}       |
 | [Badges](/components/badges/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Breadcrumbs](/components/breadcrumbs/)                       | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Buttons](/components/buttons/)                               | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Cards](/components/cards/)                                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Checkboxes](/components/checkboxes/)                         | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Chips](/components/chips/)                                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
-| [Content Tree](/components/content-tree/)                     | {{< ico-check >}} |                    | {{< ico-check >}}        | {{< ico-check >}}          |
-| [Date Picker](/components/date-time-picker/)                  | {{< ico-check >}} |                    |                          |                         |
+| [Content Tree](/components/content-tree/)                     | {{< ico-check >}} |                    | {{< ico-check >}}        | {{< ico-check >}}       |
+| [Date Picker](/components/date-time-picker/)                  | {{< ico-check >}} |                    |                          | {{< ico-check >}}       |
 | [Dropdowns](/components/dropdowns/)                           | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [File Upload Dropzone](/components/file-upload-dropzone/)     | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Inputs](/components/inputs/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
@@ -50,7 +52,7 @@ tags:
 | [Pagination](/components/pagination/)                         | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Progress Bars](/components/progress-bars/)                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Radio Buttons](/components/radio-buttons/)                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
-| [Side Navigation Panel](/components/side-navigation/)         | {{< ico-check >}} |                    | {{< ico-uc >}}           | {{< ico-check >}}          |
+| [Side Navigation Panel](/components/side-navigation/)         | {{< ico-check >}} |                    | {{< ico-uc >}}           | {{< ico-check >}}       |
 | [Sliders](/components/sliders/)                               | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Spinners](/components/spinners/)                             | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Switches](/components/switches/)                             | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
