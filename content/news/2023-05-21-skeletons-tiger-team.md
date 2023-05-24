@@ -1,5 +1,5 @@
 ---
-title: Fill the Gap in a Tiger Team.
+title: Fill the Gap in a Tiger Team
 date: 2023-05-21
 description: "We are searching for contributors to join a Skeletons, Placeholders, and Empty States Tiger Team!"
 image: "/img/blog/headers/2023-05-22-tiger-team.jpg"
@@ -14,7 +14,7 @@ layout: blog-post
 
 **Next Tiger Team Starting: Skeletons, Placeholders, and Empty States!**
 
-The Modus world without Tigers would be empty. Correct: e-m-p-t-y! We are searching for contributors to join a Tiger Team for:
+It is scientifically proven that giving users an idea about the upcoming content while it is still loading makes the perceived waiting time shorter. That is what skeletons, placeholder, or empty states are for! We are looking for eager Tigers to contribute and build:
 
 - **Skeletons** (placeholders anticipating UI content)
 - **Placeholders** (space for appearing content)
@@ -24,6 +24,6 @@ We had a grand start with this topic on Animations & Microinteractions Tiger Tea
 
 Fill the gap in the Tiger Team!
 
-[Join the Skeletons, Placeholders, and Empty States Tiger Team by May 31!](https://forms.gle/csv4WwJ7dVueLyTm8)
+[Join the Skeletons, Placeholders, and Empty States Tiger Team by June 6!](https://forms.gle/csv4WwJ7dVueLyTm8)
 
 [Learn more about the Tiger Team process](/community/tiger-teams/).
