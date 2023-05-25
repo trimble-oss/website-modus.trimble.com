@@ -166,8 +166,8 @@ menu:
       url: /components/web/progress-bars/
     - name: Radio Buttons
       url: /components/web/radio-buttons/
-    - name: Rich Text Format Editor
-      url: /components/web/rich-text-format-editor/
+    #    - name: Rich Text Format Editor
+    #      url: /components/web/rich-text-format-editor/
     - name: Sentiment Scale
       url: /components/web/sentiment-scale/
     - name: Side Navigation
