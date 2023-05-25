@@ -13,7 +13,12 @@ tags: [usage]
 
 The Rich Text Format (RTF) Editor is a design pattern consisting of a toolbar with an input text area. It allows the user to style the text by selecting the font family, font style, font weight, and the font size. The user can also align paragraphs, use bullet or numbered lists, or insert links into the text area with a user-defined link text.
 
-ADD ILLUSTRATION
+<img src="/img/components/rtf-editor.svg" alt="Rich Text Format Editor"/>
+<style>
+[data-theme="dark"] img[src="/img/components/rtf-editor-dark.svg"] {
+ content: url(/img/components/rtf-editor-dark.svg);
+}
+</style>
 
 ## Usage
 

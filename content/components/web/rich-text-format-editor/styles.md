@@ -18,7 +18,12 @@ tags: [styles]
 - All buttons should feel clickable, interactive, and perform an action, see [Buttons](/components/web/buttons/).
 - Buttons should be discoverable, easy to identify, and specific.
 
-ADD ILLUSTRATION
+<img src="/img/components/rtf-editor.svg" alt="Rich Text Format Editor"/>
+<style>
+[data-theme="dark"] img[src="/img/components/rtf-editor-dark.svg"] {
+ content: url(/img/components/rtf-editor-dark.svg);
+}
+</style>
 
 **Modal (Insert/Edit Link)**
 
@@ -30,7 +35,12 @@ The modals consists of following elements:
 - Controls, which are usually buttons placed on the bottom right side of the modal header. A dialog should always include a **single primary button**. Primary button is often paired with an outline or a text-only button. Primary button, representing the desired user action, should always appear to the right of other buttons.
 - Close icon button, which closes the dialog and cancels user action. **Always include a close icon button on a modal**. It should display in the top right corner.
 
-ADD ILLUSTRATION
+<img src="/img/components/rtf-link-modal.svg" alt="RTF Link Modal"/>
+<style>
+[data-theme="dark"] img[src="/img/components/rtf-link-modal-dark.svg"] {
+ content: url(/img/components/rtf-editor-dark.svg);
+}
+</style>
 
 ### Behaviors
 

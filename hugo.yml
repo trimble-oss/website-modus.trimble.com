@@ -167,7 +167,7 @@ menu:
     - name: Radio Buttons
       url: /components/web/radio-buttons/
     - name: Rich Text Format Editor
-      url: /components/web/rich-text-format-editor
+      url: /components/web/rich-text-format-editor/
     - name: Sentiment Scale
       url: /components/web/sentiment-scale/
     - name: Side Navigation
