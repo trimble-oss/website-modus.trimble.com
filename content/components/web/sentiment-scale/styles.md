@@ -5,7 +5,7 @@ description: "Sentiment scale is a way to collect user feedback fast."
 components: true
 componentsWeb: true
 images:
-  - "/img/components/headers/radio-buttons.png"
+  - "/img/components/headers/sentiment-scale.png"
 tags: [styles]
 ---
 
