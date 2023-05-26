@@ -9,6 +9,7 @@ componentsWeb: true
 keywords: typeahead
 aliases:
   - "/components/autocomplete/"
+webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inputs-autocomplete--default
 tags: [usage]
 ---
 
