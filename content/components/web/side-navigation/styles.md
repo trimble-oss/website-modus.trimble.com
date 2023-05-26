@@ -6,6 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/side-navigation.png"
+webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-side-navigation--default
 tags: [styles]
 ---
 
@@ -184,7 +185,6 @@ html[data-theme="dark"] img[src="/img/components/sidenav-spacing.png"] {
 | XX-Large   | 1600/100       | Overlay or Push | Hide or Collapse |
 { .table .table-bordered}
 <!-- prettier-ignore-end -->
-
 
 {{< whats-changed-table >}}
 | Date | Version | Notes | Contributors |

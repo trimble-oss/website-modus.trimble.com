@@ -7,6 +7,7 @@ componentsWeb: true
 component: side-navigation
 images:
   - "/img/components/headers/side-navigation.png"
+webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-side-navigation--default
 tags: [accessibility]
 ---
 
