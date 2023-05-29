@@ -9,6 +9,7 @@ images:
   - "/img/components/headers/side-navigation.png"
 aliases:
   - "/components/side-navigation/"
+webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-side-navigation--default
 tags: [usage]
 ---
 
