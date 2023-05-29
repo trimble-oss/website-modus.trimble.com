@@ -1,10 +1,10 @@
 ---
-title: Viewpoint Modus Adoption
-date: 2023-05-26
+title: Retrospective on Viewpoint Modus Adoption
+date: 2023-05-29
 description: "The Viewpoint team worked for past couple of years on a long-term solution which would re-imagine the look & feel of the products to align with Modus. Read on how they approached it!"
-image: "/img/blog/headers/"
+image: "/img/blog/headers/2023-05-29-modus-adoption-viewpoint.png"
 images:
-  - /img/blog/headers/
+  - /img/blog/headers/2023-05-29-modus-adoption-viewpoint.png
 headerBgColor: "#E69335"
 tags: ["modus", "adoption", "viewpoint"]
 author: Dara Bedick
@@ -12,17 +12,19 @@ blog: true
 layout: blog-post
 ---
 
-_By Dara Bedick_
+_By Dara Bedick and Chelsea Christison_
 
-Dara is a UX Manager and she now leads the Estimation and Analytics POD. She lives in Portland, OR.
+**Who We Are?**
+
+I'm Dara Bedick, UX Manager leading the Estimation and Analytics POD and living in Portland, OR. Together with Chelsea Christison, User Experience Designer, we looked back at the different phases of adopting Modus for Viewpoint.
 
 ### Background
 
-Starting in 2019, the **Modus Adoption Plan for Viewpoint** was initially created by Stephen Williams in collaboration with the Modus design POD which included Aruna Chandroo and Chelsea Christison and myself. We had some huge help from Mohammed Nawaz, Julian Oczkowski, Ewa Nowak, Eric Gunther, Neil Cadsawan, and our then intern Aishwarya Vellanki. The initial effort spanned about a year and a half to align with various teams and stakeholders and to start the implementation. Modus Adoption is currently about two years in the making and nearing completion.
+Starting in 2019, the **Modus Adoption Plan for Viewpoint** was initially created by Stephen Williams in collaboration with the Modus design POD which included Aruna Chandroo, Chelsea Christison, and myself. We had some huge help from Mohammed Nawaz, Julian Oczkowski, Ewa Nowak, Eric Gunther, Neil Cadsawan, and our then intern Aishwarya Vellanki. The initial effort spanned about a year and a half to align with various teams and stakeholders and to start the implementation. Modus adoption is currently about two years in the making and nearing completion.
 
-The goal of the Viewpoint adoption plan was to create unification for all of the Viewpoint Suite which includes six web products, three desktop products, and six mobile products in total. This also included dark mode for some of the mobile applications. At the beginning of this initiative, Viewpoint needed to align with Trimble branding. We worked on a long term solution which would re-imagine the look and feel of the products at Viewpoint to align with Modus. We began by outlining how this would be best implemented through each team. Some of the questions we tried to answer were:
+The goal of the Viewpoint adoption plan was to create unification for all of the Viewpoint Suite which includes six web products, three desktop products, and six mobile products in total. This also included dark mode for some of the mobile applications. At the beginning of this initiative, Viewpoint needed to align with Trimble branding. We worked on a long-term solution which would re-imagine the look and feel of the products at Viewpoint to align with Modus. We began by outlining how this would be best implemented through each team. Some of the questions we tried to answer were:
 
-- How might we unify the Trimble Construction One software suite as we move toward a Trimble Connected Construction multi-product bundling, Suite, and service offering?
+- How might we unify the Trimble Construction One software suite as we move toward a Trimble Connected Construction multi-product bundling, suite, and service offering?
 - How might we improve Viewpoint product new logo closing, cross/up-selling, and enable Viewpoint-Trimble integrations, to unlock new sales plays by enabling cross-product user workflows, new customer value, and drive ARR goals?
 - How can we leverage the One Trimble Modus Design System as much as
   possible across Viewpoint products to gain efficiencies?
@@ -99,7 +101,7 @@ The final phase of the rebranding journey consisted of structural and navigation
 
 These final changes were on a case-by-case basis.
 
-## Lessons Learned:
+## Lessons Learned
 
 Throughout the past two years, our journey of working with development teams, project managers (PMs), and each other has taught us invaluable lessons. One of the key realizations we had was that change does not happen as quickly as initially anticipated. Different teams had varying resource allocations and competing priorities in their backlogs, which sometimes took precedence over adopting our design recommendations.
 
@@ -115,11 +117,11 @@ The following are before/after renderings of a small selection of Viewpoint prod
 
 ### JobPac Connect
 
-Dashboard Screen- Before:
+**Dashboard Screen - Before:**
 
-PNG MISSING
+{{< img src="/img/news/viewpoint-job-pac-dashboard-before.png" class="w-100" width="854" height="427" alt="Jobpac Dashboard Before" loading="auto" >}}
 
-Dashboard Screen- After:
+**Dashboard Screen - After:**
 
 {{< img src="/img/news/viewpoint-job-pac-dashboard-after.svg" class="w-100" width="854" height="427" alt="Jobpac Dashboard After" loading="auto" >}}
 
@@ -127,39 +129,18 @@ As a part of the phase 1 rebranding initiative, mobile products worked on implem
 
 ## Service Tech Mobile
 
-**Landing Screen - Before and After:**
+**Landing Screen - Side-By-Side Before and After:**
 
-<div class="row">
-  <div class="col-6">
-    <img src="/img/news/viewpoint-service-mobile-landing-before.svg" class="img-fluid w-100" alt="Service Tech Mobile Landing Screen Before">
-  </div>
-  <div class="col-6">
-    <img src="/img/news/viewpoint-service-mobile-landing-after.svg" class="img-fluid w-100" alt="Service Tech Mobile Landing Screen After">
-  </div>
-</div>
+{{< img src="/img/news/viewpoint-service-mobile-landing-before-after.svg" dark="/img/news/viewpoint-service-mobile-landing-before-after-dark.svg" class="w-100" width="854" height="427" alt="Service Tech Mobile Landing Screen Before and After" loading="auto" >}}
 
 ### Team Mobile
 
-**Landing Screen - Before and After:**
+**Landing Screen - Side-By-Side Before and After:**
 
-<div class="row">
-  <div class="col-6">
-    <img src="/img/news/viewpoint-team-mobile-landing-before.svg" class="img-fluid w-100" alt="Team Mobile Landing Screen Before">
-  </div>
-  <div class="col-6">
-    <img src="/img/news/viewpoint-team-mobile-landing-after.svg" class="img-fluid w-100" alt="Team Mobile Landing Screen After">
-  </div>
-</div>
+{{< img src="/img/news/viewpoint-team-mobile-landing-before-after.svg" dark="/img/news/viewpoint-team-mobile-landing-before-after-dark.svg" class="w-100" width="854" height="427" alt="Team Mobile Landing Screen Before and After" loading="auto" >}}
 
 ### Field Management Mobile Dark Mode
 
-**Landing Screen - Before and After:**
+**Landing Screen - Side-By-Side Before and After:**
 
-<div class="row">
-  <div class="col-6">
-    <img src="/img/news/viewpoint-fm-landing-screen-before.svg" class="img-fluid w-100" alt="Field Management Mobile Landing Screen Before">
-  </div>
-  <div class="col-6">
-    <img src="/img/news/viewpoint-fm-landing-screen-after-dark.svg" class="img-fluid w-100" alt="Field Management Mobile Landing Screen After">
-  </div>
-</div>
+{{< img src="/img/news/viewpoint-fm-landing-screen-before-after.svg" dark="/img/news/viewpoint-fm-landing-screen-before-after-dark.svg" class="w-100" width="854" height="427" alt="Field Management Mobile Landing Screen Before and After" loading="auto" >}}
