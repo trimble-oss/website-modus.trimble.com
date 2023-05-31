@@ -46,7 +46,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 | Help Menu Navigation | **C. Christison**, D. Bedick, A. Chammoth Sivaraman, M. Cowley, C. Cuellar, F. Kuipers, A. Galstyan, T. Hautalahti, M. Linja-aho, R. Pekkinen, C. Starbird, T. Stryker, K. Vander Ploeg, J. Wegerer | In Production |
 | Icon Revision & Review | **E. Gunther**, G. Assi, S. Kaukonen, J. Kerbs, T. Manham, T. Ortiz, S. Reda, L. Saenz  | Complete |
 | 3D Design Patterns | **P. Borgstein**, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, A. Komninos, J. Oczkowski, E. Pilke, S. Sidhu, D. Silcock, T. Sippola, K. Thurlow | Complete |
-| Mobile&nbsp;Patterns | **D. Bedick**, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell | Complete |
+| Mobile&nbsp;Patterns | **D. Bedick**, E. Bohn, N. Cadsawan, E. Gunther, I. Perez, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell | Complete |
 | Side Navigation      | **J. Wittmeyer**, N. Cadsawan, E. Deleon, E. Gunther, P. Karukkuvel, T. Manham, L. Meskanen-Kundu, C. D. Savio Lazaro, S. Taylor, A. Tucker, J. de Wit  | Complete |
 | Dark Mode            | **S. Kaukonen**, P. Borgstein, E. Gunther, M. Johns, U. Meza, K. Phillips, A. C. Sivaraman, T. Williams, J. de Wit  | Complete  |
 | Icon Implementation  | **S. Kaukonen**, E. Deleon, E. Gunther, C. Krieg, T. Manham, S. Ortiz, A. Shchegoleva, N. Vasudevan | Complete |
