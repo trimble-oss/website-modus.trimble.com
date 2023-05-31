@@ -14,7 +14,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 <!-- prettier-ignore-start -->
 | Team Name                              | Team Members             |
 | -------------------------------------- | ------------------------ |
-| Skeletons, Placeholders & Empty States | [Enroll by May 31](https://forms.gle/csv4WwJ7dVueLyTm8) |
+| Skeletons, Placeholders & Empty States | [Enroll by June 6](https://forms.gle/csv4WwJ7dVueLyTm8) |
 | Indicators & Selected States           | Calling candidates soon! |
 | Footers                                | Calling candidates soon! |
 | High-Contrast Color Theme              | Calling candidates soon! |
@@ -26,7 +26,8 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 <!-- prettier-ignore-start -->
 | Team Name                      | Team Members               | Start Date  |
 | ------------------------------ | -------------------------- | ----------- |
-| Alerts, Messages, Notifications, and Toasts  | J. Blackwell, A. Chandroo, E. Gunther, M. Johns, M. Manders, T. Ortiz, V. Sridharan, Priyanka V R | 05/17/2023 |
+| Advanced Table Features  | **M. Brinkman**, B. Brunner, N. Cadsawan, (M. Casale), C. Cuellar, (S. Farhat), A. Infante, W. Mezo-Gadia, K. Nguyen, J. Parr, C. Rodriguez, Krithika S, Z. Ward | 05/18/2023 |
+| Alerts, Messages, Notifications, and Toasts  | **A. Chandroo**, J. Blackwell, E. Gunther, M. Johns, M. Manders, T. Ortiz, V. Sridharan, Priyanka V R | 05/17/2023 |
 | Animations & Microinteractions 2.0  | **W. Mezo-Gadia**, J. Blackwell, S. Farhad, M. Manders, T. Manham, Z. Ward, D. Zambrano | 05/18/2023 |
 | Accordions, Cards, Modals, and Tabs  | **K. Ponpandian**, J. de Wit, A. Galstyan, E. Gunther, S. Kumar, T. Priya, M. Randrianavony, Krithika S., C. Shaw, Vimal A.V., Z. Ward | 03/14/2023 |
 | Desktop Patterns  | **J. Kerbs**, A. Bikic, P. Borgstein, K. Davies, L. Kause, C. Krieg, T. Sippola | 10/19/2022 |
