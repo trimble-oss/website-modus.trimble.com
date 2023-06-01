@@ -114,6 +114,8 @@ menu:
       url: /foundations/tid/
     - name: Typography
       url: /foundations/typography/
+    #    - name: User Assistance
+    #      url: /foundations/user-assistance/
     - name: Voice & Tone
       url: /foundations/voice-and-tone/
     - name: Writing Style
