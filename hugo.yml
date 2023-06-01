@@ -102,6 +102,8 @@ menu:
       url: /foundations/data-vis/
     - name: Grid & Spacing
       url: /foundations/grid-and-spacing/
+    - name: User Assistance
+      url: /foundations/user-assistance/
     - name: Icon Definitions
       url: /foundations/icon-definitions/
     - name: Logo Usage
