@@ -1,12 +1,12 @@
 ---
 title: "Spinners"
 layout: "single"
-description: ""
+description: "Spinners indicate progress by showing users a loading state."
 components: true
 component: spinners
 images:
-  - "/img/infield/headers/spinners.png"
-tags: [infield, accessibility]
+  - "/img/in-field/headers/spinners.png"
+tags: [in-field, accessibility]
 ---
 
 ## Accessibility

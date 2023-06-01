@@ -5,8 +5,8 @@ description: "Progress indicators express an unspecified wait time or display th
 components: true
 component: progress-bars
 images:
-  - "/img/infield/headers/progress-bars.png"
-tags: [infield, accessibility]
+  - "/img/in-field/headers/progress-bars.png"
+tags: [in-field, accessibility]
 ---
 
 ## Accessibility
@@ -17,4 +17,3 @@ tags: [infield, accessibility]
   - If loading a specific component (e.g, table), add the attribute to the container of that component.
   - If loading content inside a modal, add the attribute to the modal element.
   - The intervals are announced to screen reader users via an `aria-live` region. Don't overwhelm screen reader users with continuous reading of every instant in a progress bar's trajectory. Announcing the progress at certain timed intervals (e.g. every 5 seconds), or at certain percentage intervals (e.g. every 10% or every 20%) is best.
-

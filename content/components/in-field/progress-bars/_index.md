@@ -5,7 +5,7 @@ description: "Progress indicators express an unspecified wait time or display th
 components: true
 component: progress-bars
 images:
-  - "/img/infield/headers/progress-bars.png"
+  - "/img/in-field/headers/progress-bars.png"
 tags: [in-field, usage]
 ---
 
@@ -28,8 +28,8 @@ Progress indicators inform users about the status of ongoing processes, such as 
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                | Contributors                                                                                                                |
-| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Date       | Version | Notes                | Contributors                     |
+| ---------- | ------- | -------------------- | -------------------------------- |
 | 05/31/2023 | 1.0.0   | New component added. | M. Johns, L. Saenz, R. Stillwell |
 
 {{</ whats-changed-table >}}
