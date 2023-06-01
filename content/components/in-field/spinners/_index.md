@@ -1,7 +1,7 @@
 ---
 title: "Spinners"
 layout: "single"
-description: Spinners indicate progress by showing users a loading state."
+description: Spinners indicate progress by showing users a loading state
 components: true
 component: spinners
 images:
@@ -9,7 +9,7 @@ images:
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/spinners.svg" dark="/img/in-field/spinners-dark.svg" width="961" height="260" class="w-100" alt="Progress Indicators" >}}
+{{< img src="/img/in-field/spinner.svg" dark="/img/in-field/spinner-dark.svg" width="961" height="260" class="w-100" alt="Progress Indicators" >}}
 
 ## Overview
 

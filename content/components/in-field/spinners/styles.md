@@ -6,7 +6,7 @@ components: true
 component: spinners
 images:
   - "/img/infield/headers/spinners.png"
-tags: [infield, styles]
+tags: [in-field, styles]
 ---
 
 ## Specifications
