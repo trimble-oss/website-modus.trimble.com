@@ -195,13 +195,15 @@ Based on [User Assistance Foundations](/foundations/user-assistance/), following
 - Six categories with icons and supporting text.
 - Six categories with icons only.
 
-ADD ILLUSTRATIONS
+{{< img src="/img/components/navbar-help-menu-icon-supporting-text.svg" dark="/img/components/navbar-help-menu-icon-supporting-text.svg" class="w-100" alt="Help Menu with Icon and Supporting Text" >}}
+
+{{< img src="/img/components/navbar-help-menu-icon-title.svg" dark="/img/components/navbar-help-menu-icon-title-dark.svg" class="w-100" alt="Help Menu with Icon and Title" >}}
 
 If the product does not support a category, omit it.
 
 An expanded category (with icons) should be set up as follows:
 
-ADD ILLUSTRATIONS
+{{< img src="/img/components/navbar-help-menu-expanded.svg" dark="/img/components/navbar-help-menu-expanded-dark.svg" class="w-100" alt="Expanded Help Menu" >}}
 
 #### Applications
 

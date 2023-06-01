@@ -146,10 +146,6 @@ Use the following visual graphics to help categorize help assets:
 
 For products that have implemented the Modus [Navbars](/components/web/navbars/) use the help menu pattern guide to include the dropdown in the question mark icon as shown below:
 
-ADD ILLUSTRATIONS
-
-An alternative way to implement the Help pattern can be in a side panel from the right side as shown below:
-
-ADD ILLUSTRATIONS
+{{< img src="/img/foundations/help-menu-icon-title.svg" dark="/img/foundations/help-menu-icon-title-dark.svg" class="w-100" alt="Help Menu with Icon and Supporting Text" >}}
 
 Refer to examples of a fully implemented dropdown help menu system in the [Navbars](/components/web/navbars/) component styles section. The examples represent all six core categories. There are variations using icons, and supporting text for each category and ones that omit both. Icons and supporting text are recommended, however if the product cannot support this it can be omitted.
