@@ -8,3 +8,9 @@ layout: components
 disableScrollSpy: true
 tags: [in-field, usage]
 ---
+
+<style>
+  .col-12:has(.card-spinners) {
+    display: none !important;
+  }
+</style>

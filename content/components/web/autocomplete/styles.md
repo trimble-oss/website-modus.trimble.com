@@ -7,6 +7,7 @@ images:
 components: true
 componentsWeb: true
 keywords: typeahead
+webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inputs-autocomplete--default
 tags: [styles]
 ---
 

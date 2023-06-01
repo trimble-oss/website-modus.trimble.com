@@ -7,6 +7,7 @@ images:
 components: true
 componentsWeb: true
 keywords: typeahead
+webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inputs-autocomplete--default
 tags: [accessibility]
 ---
 
@@ -27,4 +28,3 @@ tags: [accessibility]
 - Alert the user of any validation errors in an apparent and accessible manner. Provide informative feedback messages.
 - Allow the user to easily access the form controls that need to be modified.
 - Allow resubmission and revalidation of the form information.
-
