@@ -56,3 +56,12 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip();
 });
 </script>
+
+{{< whats-changed-table >}}
+
+| Date       | Version | Notes                                             | Contributors                         |
+| ---------- | ------- | ------------------------------------------------- | ------------------------------------ |
+| 06/04/2023 | 1.2.0   | Relative pointer added to top and bottom variant. | J. de Wit, S. Kaukonen, R. Stillwell |
+| 03/15/2023 | 1.1.0   | Background colors changed to be accessible.       | E. Gunther, S. Kaukonen              |
+
+{{</ whats-changed-table >}}
