@@ -114,8 +114,8 @@ menu:
       url: /foundations/tid/
     - name: Typography
       url: /foundations/typography/
-    #    - name: User Assistance
-    #      url: /foundations/user-assistance/
+    - name: User Assistance
+      url: /foundations/user-assistance/
     - name: Voice & Tone
       url: /foundations/voice-and-tone/
     - name: Writing Style
@@ -168,8 +168,8 @@ menu:
       url: /components/web/progress-bars/
     - name: Radio Buttons
       url: /components/web/radio-buttons/
-    #    - name: Rich Text Format Editor
-    #      url: /components/web/rich-text-format-editor/
+    - name: Rich Text Format Editor
+      url: /components/web/rich-text-format-editor/
     - name: Sentiment Scale
       url: /components/web/sentiment-scale/
     - name: Side Navigation
