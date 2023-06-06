@@ -25,6 +25,8 @@ There are two sizes of Chips:
 }
 </style>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css">
+
 <table class="table table-bordered w-100" style="width:fit-content">
   <thead class="thead-light">
     <tr>
@@ -43,7 +45,7 @@ There are two sizes of Chips:
         </div>
         <div class="chip-text">Clifford</div>
         <div class="chip-delete-right">
-          <i class="modus-icons modus-icon notranslate" aria-hidden="true">close</i>
+          <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
         </div>
       </div>
       </td>
@@ -57,7 +59,7 @@ There are two sizes of Chips:
           <img src="/img/headshot.png" height="16" width="16" alt="">
         </div>
         <div class="chip-text">Jane</div>
-        <div class="chip-delete-right"><i class="modus-icons notranslate" aria-hidden="true">cancel</i></div>
+        <div class="chip-delete-right"><i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i></div>
       </div>
       </td>
       <td>24px</td>
@@ -85,7 +87,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Clifford</div>
           <div class="chip-delete-right">
-            <i class="modus-icons modus-icon notranslate" aria-hidden="true">close</i>
+            <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
         </div>
       </td>
@@ -96,7 +98,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Jeff</div>
           <div class="chip-delete-right">
-            <i class="modus-icons modus-icon notranslate" aria-hidden="true">close</i>
+            <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
         </div>
       </td>
@@ -110,7 +112,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Clifford</div>
           <div class="chip-delete-right">
-            <i class="modus-icons modus-icon notranslate" aria-hidden="true">close</i>
+            <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
         </div>
       </td>
@@ -121,7 +123,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Jeff</div>
           <div class="chip-delete-right">
-            <i class="modus-icons modus-icon notranslate" aria-hidden="true">close</i>
+            <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
         </div>
       </td>
@@ -135,7 +137,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Clifford</div>
           <div class="chip-delete-right">
-            <i class="modus-icons modus-icon notranslate" aria-hidden="true">close</i>
+            <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
         </div>
       </td>
@@ -146,7 +148,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Jeff</div>
           <div class="chip-delete-right">
-            <i class="modus-icons modus-icon notranslate" aria-hidden="true">close</i>
+            <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
         </div>
       </td>
@@ -160,7 +162,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Clifford</div>
           <div class="chip-delete-right">
-            <i class="modus-icons modus-icon notranslate" aria-hidden="true">close</i>
+            <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
         </div>
       </td>
@@ -171,7 +173,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Jeff</div>
           <div class="chip-delete-right">
-            <i class="modus-icons modus-icon notranslate" aria-hidden="true">close</i>
+            <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
         </div>
       </td>
@@ -185,7 +187,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Clifford</div>
           <div class="chip-delete-right">
-            <i class="modus-icons modus-icon notranslate" aria-hidden="true">close</i>
+            <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
         </div>
       </td>
@@ -196,7 +198,7 @@ Input chips can be in any of the following states:
           </div>
           <div class="chip-text">Jeff</div>
           <div class="chip-delete-right">
-            <i class="modus-icons modus-icon notranslate" aria-hidden="true">close</i>
+            <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
         </div>
       </td>

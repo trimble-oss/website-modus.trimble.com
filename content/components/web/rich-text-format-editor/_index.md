@@ -33,8 +33,8 @@ The Rich Text Format (RTF) Editor is a design pattern consisting of a toolbar wi
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                        | Contributors                                    |
-| ---------- | ------- | ---------------------------- | ----------------------------------------------- |
-| 05/24/2023 | 1.0.0   | New component pattern added. | E. Gunther, S. Kaukonen, E. Nowak, C. Rodriguez |
+| Date       | Version | Notes                        | Contributors                          |
+| ---------- | ------- | ---------------------------- | ------------------------------------- |
+| 05/24/2023 | 1.0.0   | New component pattern added. | E. Gunther, S. Kaukonen, C. Rodriguez |
 
 {{</ whats-changed-table >}}
