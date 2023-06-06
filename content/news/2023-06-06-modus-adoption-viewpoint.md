@@ -1,10 +1,10 @@
 ---
 title: Retrospective on Viewpoint Modus Adoption
-date: 2023-05-29
+date: 2023-06-06
 description: "The Viewpoint team worked for past couple of years on a long-term solution which would re-imagine the look & feel of the products to align with Modus. Read on how they approached it!"
-image: "/img/blog/headers/2023-05-29-modus-adoption-viewpoint.png"
+image: "/img/blog/headers/2023-06-06-modus-adoption-viewpoint.png"
 images:
-  - /img/blog/headers/2023-05-29-modus-adoption-viewpoint.png
+  - /img/blog/headers/2023-06-06-modus-adoption-viewpoint.png
 headerBgColor: "#E69335"
 tags: ["modus", "adoption", "viewpoint"]
 author: Dara Bedick
@@ -144,3 +144,5 @@ As a part of the phase 1 rebranding initiative, mobile products worked on implem
 **Landing Screen - Side-By-Side Before and After:**
 
 {{< img src="/img/news/viewpoint-fm-landing-screen-before-after.svg" dark="/img/news/viewpoint-fm-landing-screen-before-after-dark.svg" class="w-100" width="854" height="427" alt="Field Management Mobile Landing Screen Before and After" loading="auto" >}}
+
+_Title Image Credit: Designed by mockup.store_
