@@ -150,8 +150,8 @@ For products that have implemented the Modus [Navbars](/components/web/navbars/)
 
 Refer to examples of a fully implemented dropdown help menu system in the [Navbars](/components/web/navbars/) component styles section. The examples represent all six core categories. There are variations using icons, and supporting text for each category and ones that omit both. Icons and supporting text are recommended, however if the product cannot support this it can be omitted.
 
-| Date       | Version | Notes                                                                    | Contributors                                                                |
-| ---------- | ------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------- |
+| Date       | Version | Notes                                                | Contributors                                                                |
+| ---------- | ------- | ---------------------------------------------------- | --------------------------------------------------------------------------- |
 | 06/07/2023 | 1.0.0   | User Assistance and help menu pattern guidance added. | C. Christison, D. Bedick, A. Chammoth Sivaraman, M. Cowley, C. Cuellar, S. Kaukonen, F. Kuipers, A. Galstyan, T. Hautalahti, M. Linja-aho, R. Pekkinen, C. Starbird, T. Stryker, K. Vander Ploeg, J. Wegerer |
 
 {{</ whats-changed-table >}}
