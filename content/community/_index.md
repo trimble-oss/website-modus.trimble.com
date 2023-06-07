@@ -52,7 +52,7 @@ The design system product manager is closely coordinated with the UX Board who s
 
 ### The Trimble UX Council
 
-The members of the Trimble UX Council are elected by the community of UX practitioners. They represent the diverse community and help elevate and organize the growing user experience practice, by overseeing horizontal initiatives, such as community engagement, best practice development, design standardization (both styles as well as process), mentorship, career development, and the representation of the UX practice to the greater product development organizations of Trimble. The Trimble UX board oversees the Modus design system as one of its key initiatives.
+The members of the Trimble UX Council are elected by the community of UX practitioners. They represent the diverse community and help elevate and organize the growing user experience practice, by overseeing horizontal initiatives, such as community engagement, best practice development, design standardization (both styles as well as process), mentorship, career development, and the representation of the UX practice to the greater product development organizations of Trimble. The Trimble UX Council oversees the Modus design system as one of its key initiatives.
 
 ## Transparency of Progress
 
