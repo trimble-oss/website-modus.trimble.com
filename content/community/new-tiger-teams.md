@@ -26,6 +26,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 <!-- prettier-ignore-start -->
 | Team Name                      | Team Members               | Start Date  |
 | ------------------------------ | -------------------------- | ----------- |
+| Skeletons, Placeholders & Empty States  | J. de Wit, S. Farhat, I. Hong, M. Nawaz, R. Stillwell, C. Swilley  | 06/19/2023 |
 | Advanced Table Features  | **M. Brinkman**, B. Brunner, N. Cadsawan, (M. Casale), C. Cuellar, (S. Farhat), A. Infante, W. Mezo-Gadia, K. Nguyen, J. Parr, C. Rodriguez, Krithika S, Z. Ward | 05/18/2023 |
 | Alerts, Messages, Notifications, and Toasts  | **A. Chandroo**, J. Blackwell, E. Gunther, M. Johns, M. Manders, T. Ortiz, V. Sridharan, Priyanka V R | 05/17/2023 |
 | Animations & Microinteractions 2.0  | **W. Mezo-Gadia**, J. Blackwell, S. Farhad, M. Manders, T. Manham, Z. Ward, D. Zambrano | 05/18/2023 |
