@@ -129,6 +129,10 @@ A responsive logo changes to icon-only in 320px nav bar and (optionally) in 576p
 
 {{< img src="/img/components/navbar-responsive.svg" dark="/img/components/navbar-responsive-dark.svg" class="w-100" alt="Navbar Responsive Design" >}}
 
+{{< img src="/img/components/navbar-overflow-menu-example.png" dark="/img/components/navbar-overflow-menu-example-dark.svg" class="w-50 border pb-0 mb-0" alt="Navbar Overflow Menu" >}}
+
+<div class="mb-3 small opacity-75 pt-0 mt-0"><em>Example of Navbar Overflow Menu</em></div>
+
 **Consolidate**
 
 - Applications
