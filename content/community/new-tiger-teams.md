@@ -14,7 +14,6 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 <!-- prettier-ignore-start -->
 | Team Name                              | Team Members             |
 | -------------------------------------- | ------------------------ |
-| Skeletons, Placeholders & Empty States | [Enroll by June 6](https://forms.gle/csv4WwJ7dVueLyTm8) |
 | Indicators & Selected States           | Calling candidates soon! |
 | Footers                                | Calling candidates soon! |
 | High-Contrast Color Theme              | Calling candidates soon! |
