@@ -77,3 +77,7 @@ main {
 .tooltip {
   z-index: 3070 !important;
 }
+
+.custom-select:focus {
+    box-shadow: none;
+}
