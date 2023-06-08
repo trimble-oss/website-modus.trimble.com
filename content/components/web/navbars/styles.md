@@ -106,7 +106,7 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
 
 #### Navbar Button examples
 
-- Three color options are available for each theme; Trimble Gray, Gray (Gray 6) in light theme and White, Gray (Gray 4) in dark theme. Reversed is universal to both light and dark theme (to be used with Dark Blue Navbars) .
+- Three color options are available for each theme; Trimble Gray, Gray (Gray 6) in light theme and White, Gray (Gray 4) in dark theme. Reversed is universal to both light and dark theme (to be used with Dark Blue Navbars).
 - Common Navbar button options include but are not limited to:
   - Menu button
   - Search
