@@ -50,19 +50,13 @@ The design system product manager is closely coordinated with the UX Board who s
 - establishing processes and governance,
 - coordinating between users and contributors.
 
-### The Trimble UX Board
+### The Trimble UX Council
 
-The members of the [Trimble UX Board](https://sites.google.com/trimble.com/trimble-ux/ux-council/ux-council-board?authuser=0) are elected by the community of UX practitioners. They represent the diverse community and help elevate and organize the growing user experience practice, by overseeing horizontal initiatives, such as community engagement, best practice development, design standardization (both styles as well as process), mentorship, career development, and the representation of the UX practice to the greater product development organizations of Trimble. The Trimble UX board oversees the Modus design system as one of its key initiatives.
+The members of the Trimble UX Council are elected by the community of UX practitioners. They represent the diverse community and help elevate and organize the growing user experience practice, by overseeing horizontal initiatives, such as community engagement, best practice development, design standardization (both styles as well as process), mentorship, career development, and the representation of the UX practice to the greater product development organizations of Trimble. The Trimble UX Council oversees the Modus design system as one of its key initiatives.
 
 ## Transparency of Progress
 
-Modus aims to maintain open communication as to its progress. We readily share updates, [the backlog](https://github.com/orgs/trimble-oss/projects/5/views/1), and [the roadmap](https://confluence.trimble.tools/display/DDS/Modus+Roadmap) with the community.
-
-## Other UX Resources at Trimble
-
-[UX@Trimble](https://sites.google.com/trimble.com/trimble-ux/home)
-
-Learn about Trimble-wide UX initiatives, upcoming events and summits, and browse the archives. [Get in touch](https://sites.google.com/trimble.com/trimble-ux/people) with other Trimble UXers, the UX Council, or the UX Board.
+Modus aims to maintain open communication as to its progress. We readily share updates and [Modus backlog](https://github.com/orgs/trimble-oss/projects/5/views/2) with the community.
 
 ## What’s New
 
