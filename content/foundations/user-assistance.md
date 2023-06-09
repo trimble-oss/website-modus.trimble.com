@@ -152,8 +152,8 @@ Refer to examples of a fully implemented dropdown help menu system in the [Navba
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                                                | Contributors                                                                |
-| ---------- | ------- | ---------------------------------------------------- | --------------------------------------------------------------------------- |
+| Date       | Version | Notes                                                 | Contributors                                                                                                                                                                                                 |
+| ---------- | ------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 06/07/2023 | 1.0.0   | User Assistance and help menu pattern guidance added. | C. Christison, D. Bedick, A. Chammoth Sivaraman, M. Cowley, C. Cuellar, S. Kaukonen, F. Kuipers, A. Galstyan, T. Hautalahti, M. Linja-aho, R. Pekkinen, C. Starbird, T. Stryker, K. Vander Ploeg, J. Wegerer |
 
 {{</ whats-changed-table >}}

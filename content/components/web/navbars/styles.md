@@ -14,10 +14,11 @@ tags: [styles]
 
 ## Specifications
 
-- **Navbar background color should be white or Trimble Dark Blue.**
+- **Navbar background color should be white or Dark Blue.**
 - **Divider line:** use a 1px bottom border when there is a sub-header or side panel or when page background is white (rather than the standard Trimble Gray Light).
 - **Shadow:** use [Level 2 shadow](/foundations/shadows-and-depth/) in the event page content scrolls behind and underneath the header. [Level 3](/foundations/shadows-and-depth/) shadow should be used for menu overlays.
 - Product logo and Profile avatar are the only required elements. Other elements are optional and contextual.
+- When using icon elements on the nav bar, use maximum of six icon in total.
 - Product name should be used in the header communicated via an approved logo. The product logo is relevant to the company brand providing the service (e.g., Trimble, Tekla, SketchUp, Viewpoint) and follows Trimble product logo guidelines.
   - Don’t use the Trimble corporate logo.
   - Don’t combine the Trimble corporate logo and name of the application.
@@ -46,7 +47,7 @@ tags: [styles]
 
 ### Color Options
 
-Navbar background color can be white or Trimble Dark Blue.
+Navbar background color can be White or Dark Blue in light theme and Gray (Gray 10) or Dark Blue in dark theme.
 
 {{< img src="/img/components/navbar-color-examples.svg" dark="/img/components/navbar-color-examples-dark.svg" class="w-100" alt="Color Options" >}}
 
@@ -105,7 +106,7 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
 
 #### Navbar Button examples
 
-- Three color options are available; Trimble Gray, Gray (Gray 6), and reversed (to be used with Trimble Dark Blue Navbars).
+- Three color options are available for each theme; Trimble Gray, Gray (Gray 6) in light theme and White, Gray (Gray 4) in dark theme. Reversed is universal to both light and dark theme (to be used with Dark Blue Navbars).
 - Common Navbar button options include but are not limited to:
   - Menu button
   - Search
@@ -123,6 +124,8 @@ For additional reference, follow [Grid & Spacing](/foundations/grid-and-spacing/
 #### Element Consolidation
 
 At smaller viewpoints, some header elements consolidate into the overflow menu.
+
+A responsive logo changes to icon-only in 320px nav bar and (optionally) in 576px.
 
 {{< img src="/img/components/navbar-responsive.svg" dark="/img/components/navbar-responsive-dark.svg" class="w-100" alt="Navbar Responsive Design" >}}
 
