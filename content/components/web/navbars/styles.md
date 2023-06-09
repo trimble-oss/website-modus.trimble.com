@@ -49,7 +49,7 @@ tags: [styles]
 
 Navbar background color can be White or Dark Blue in light theme and Gray (Gray 10) or Dark Blue in dark theme.
 
-{{< img src="/img/components/navbar-color-examples.svg" dark="/img/components/navbar-color-examples-dark.svg" class="w-100" alt="Color Options" >}}
+{{< img src="/img/components/navbar-color-examples.svg" dark="/img/components/navbar-color-examples-dark.png" class="w-100" alt="Color Options" >}}
 
 ### Key Measurements
 
