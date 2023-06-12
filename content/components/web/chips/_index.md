@@ -32,7 +32,6 @@ Chips represent a complex piece of information in a compact form, such as an ent
 
 - There is only one option.
 
-
 {{< whats-changed-table >}}
 
 | Date       | Version | Notes                             | Contributors |

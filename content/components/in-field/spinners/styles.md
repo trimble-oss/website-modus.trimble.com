@@ -5,7 +5,7 @@ description: "Spinners indicate progress by showing users a loading state."
 components: true
 component: spinners
 images:
-  - "/img/infield/headers/spinners.png"
+  - "/img/in-field/headers/spinners.png"
 tags: [in-field, styles]
 ---
 
