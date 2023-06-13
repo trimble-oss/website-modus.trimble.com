@@ -5,7 +5,7 @@ description: "We are searching for contributors to join a Skeletons, Placeholder
 image: "/img/blog/headers/2023-05-22-tiger-team.jpg"
 images:
   - /img/blog/headers/2023-05-22-tiger-team.jpg
-headerBgColor: "#E69335"
+headerBgColor: "#f3f8fe"
 tags: ["tiger", "team"]
 author: Sonia Kaukonen
 blog: true

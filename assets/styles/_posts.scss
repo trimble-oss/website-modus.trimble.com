@@ -1,8 +1,11 @@
 // blog posts
 header.header-blog {
   background-size: cover;
-  padding-top: 33% !important;
-  background-position: center top;
+  min-height: 90px;
+  aspect-ratio: 21/9;
+  background-position: center;
+  border-radius: 8px;
+  max-height: 600px;
 }
 
 .share svg {

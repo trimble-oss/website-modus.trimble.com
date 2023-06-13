@@ -1,8 +1,10 @@
 {{ define "main" }}
 
-<header class="container-fluid px-0 pb-5 border-bottom header-blog mt-5 mt-md-0"
-  style="background-image: url({{ .Params.Image | relURL }});{{ with .Params.headerBgColor }}background-color:{{ . }} !important;{{- end -}}">
-</header>
+<div class="pt-5 px-1 px-lg-4">
+  <header class="container pb-5 mt-5 header-blog px-4"
+    style="background-image: url({{- .Params.Image | relURL -}});{{- with .Params.headerBgColor -}}background-color:{{- . -}} !important;{{- end -}};">
+  </header>
+</div>
 
 <main class="my-5 container">
 

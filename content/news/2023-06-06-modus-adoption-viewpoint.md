@@ -5,7 +5,7 @@ description: "The Viewpoint team worked for past couple of years on a long-term 
 image: "/img/blog/headers/2023-06-06-modus-adoption-viewpoint.png"
 images:
   - /img/blog/headers/2023-06-06-modus-adoption-viewpoint.png
-headerBgColor: "#E69335"
+headerBgColor: "#bec8d0"
 tags: ["modus", "adoption", "viewpoint"]
 author: Dara Bedick
 blog: true
