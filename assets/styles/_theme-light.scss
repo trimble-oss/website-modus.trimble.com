@@ -26,5 +26,9 @@
     display: none !important;
   }
 
+  #TableOfContents a {
+    color: #171c1e;
+  }
+
   @import "../../node_modules/@trimbleinc/modus-bootstrap/dist/modus";
 }
