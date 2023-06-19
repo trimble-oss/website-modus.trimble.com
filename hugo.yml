@@ -190,6 +190,8 @@ menu:
       url: /components/web/tooltips/
     - name: Transactional Emails
       url: /components/web/transactional-emails/
+    - name: Utility Panel
+      url: /components/web/utility-panel/
 
   components_infield:
     - name: Introduction
