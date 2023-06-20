@@ -14,6 +14,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 <!-- prettier-ignore-start -->
 | Team Name                              | Team Members             |
 | -------------------------------------- | ------------------------ |
+| User Profile Dropdown Menu           | [Enroll by Jul 6](https://forms.gle/ywfzyaGnmiUCmE6JA)|
 | Indicators & Selected States           | Calling candidates soon! |
 | Footers                                | Calling candidates soon! |
 | High-Contrast Color Theme              | Calling candidates soon! |
