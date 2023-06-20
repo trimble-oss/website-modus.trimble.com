@@ -16,9 +16,8 @@ There are three criteria to address for the utility panel. Those are: placement,
 **Placement**
 
 - The utility panel is the top most element.
-- The utility panel is always on the opposite side of the screen than the [Side Navigation](/components/web/side-navigation/).
+- The utility panel is usually on the opposite side of the screen than the [Side Navigation](/components/web/side-navigation/), but can be also attached to the bottom.
 - The footer is displayed below the side navigation menu.
-- TBD WHEN PANEL FROM ELSEWHERE THAN THE SIDE?
 
 **Shadows**
 
@@ -33,36 +32,53 @@ There are three criteria to address for the utility panel. Those are: placement,
 
 ### Colors
 
+<!-- prettier-ignore-start -->
+| Element | Property   | Color                                                                                  |
+| ------- | ---------- | -------------------------------------------------------------------------------------- |
+| Utility Panel | Background       | {{< color-preview nameL="White" hexL="#ffffff" nameD="Trimble Gray" hexD="#252a2e" >}} |
+|         | Header Title | {{< color-preview nameL="White" hexL="#ffffff" nameD="Gray 0" hexD="#e0e1e9" >}}
+|         | Text | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="Gray 0" hexD="#e0e1e9" >}}
+|         | Chevron | {{< color-preview nameL="Gray 6" hexL="#6a6e79" nameD="Gray 0" hexD="#e0e1e9" >}}
+|         | Divider Line | {{< color-preview nameL="Gray 0" hexL="#e0e1e9" nameD="Gray 0" hexD="#e0e1e9" >}}      |
+{class="table table-sm table-bordered"}
+<!-- prettier-ignore-end -->
+
 ### Typography
 
+<!-- prettier-ignore-start -->
+| Class          | Font Size      | Font Weight | Text Transform   |
+| -------------- | --------- | ------------- | ------------- |
+| Header Title      | H4 / 16px    | Semibold / 600      | Title Case   |
+| Accordion Header | H5 / 14px    | Semibold / 600       | Title Case   |
+| Body   | Body 1 / 16px | Regular / 400      | None |
+| Tabs   | H5 / 14px  | Bold / 800      | Upper Case |
+{ .table .table-bordered}
+<!-- prettier-ignore-end -->
+
 ### Structure
+
+<!-- prettier-ignore-start -->
+| Class          | Height      |
+| -------------- | --------- |
+| Header Title | 48px    |
+| Tabs   | 48px |
+| Accordion Header (Condensed)   | 32px  |
+| Accordion Header (Condensed)   | 48px  |
+{ .table .table-bordered}
+<!-- prettier-ignore-end -->
 
 ### Behaviors
 
 **Accordions Sections**
 
 - The Accordion sections are optional to use. But could help to organise the content.
-
-{{< img src="/img/components/sentiment-scale-five-example.svg" dark="/img/components/sentiment-scale-five-example-dark.svg" class="border bg-light" width="200" alt="Five-tier Sentiment Scale example" loading="auto" >}}
-
 - If the content exceeds the side panel height, a scrollbar can be used on the right side of the content. The header and footer must be on top of the content.
-
-The utility panel can expand by clicking and drag on the left side.
-Minimal width is 320px.
+- The utility panel can expand by clicking and drag on the left side. Minimal width is 320px.
 
 **Tabs**
 
 - Tabs can be used to organize information in more than one panel for additional information.
 
-{{< img src="/img/components/sentiment-scale-five-example.svg" dark="/img/components/sentiment-scale-five-example-dark.svg" class="border bg-light" width="200" alt="Five-tier Sentiment Scale example" loading="auto" >}}
-
 **Footer**
 
-- The footer contains two buttons. A primary button can be used, for example, Save, Commit, Create, Edit.
-
-{{< img src="/img/components/sentiment-scale-five-example.svg" dark="/img/components/sentiment-scale-five-example-dark.svg" class="border bg-light" width="200" alt="Five-tier Sentiment Scale example" loading="auto" >}}
-
-### Editorial
-
-- bla
-- Follow the editorial guidelines for [Radio Buttons](/components/web/radio-buttons/), [Buttons](/components/web/buttons/), and [Chips](/components/web/chips/).
+- The footer contains two buttons. A primary button can be used, for example, save, commit, create, edit.

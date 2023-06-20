@@ -42,13 +42,19 @@ When the utility panel is inactive, it is closed. It can be triggered again by a
 - The utility panel overlaps the content of the page.
 - Use this type of side panel when the content on the page is difficult to resize.
 
-{{< img src="/img/components/utility-panel-overlay.svg" dark="/img/components/utility-panel-overlay-dark.svg" class="border bg-light" width="300" alt="Overlay Utility Panel" loading="auto" >}}
+<video width="300" controls autoplay="false" disablepictureinpicture disableremoteplayback muted="true">
+    <source src="/img/components/utility-panel-overlay.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 ### Push Utility Panel
 
 - The utility panel pushes the content of the page. The content is scaled down.
 
-{{< img src="/img/components/utility-panel-push.svg" dark="/img/components/utility-panel-push-dark.svg" class="border bg-light" width="300" alt="Push Utility Panel" loading="auto" >}}
+<video width="300" controls autoplay="false" disablepictureinpicture disableremoteplayback muted="true">
+    <source src="/img/components/utility-panel-push.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 {{< whats-changed-table >}}
 
