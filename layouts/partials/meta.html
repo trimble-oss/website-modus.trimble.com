@@ -17,7 +17,7 @@
 <!-- Faster Loading Google Fonts - https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/ -->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<!-- Compiles and minifies the sites SASS files from /assets/css/ -->
+<!-- Compiles and minifies the sites Sass files from /assets/css/ -->
 {{- $sassOptions := (dict "enableSourceMap" true) -}}
 {{ $styles := resources.Get "styles/styles.scss" | toCSS $sassOptions | postCSS | minify }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}?v{{ hugo.Version }}">
@@ -31,7 +31,7 @@
 {{ end}}
 
 {{ if not .Params.noIcons -}}
-<link rel="stylesheet" href="/css/modus-icons.css?v1.2.0">
+<link rel="stylesheet" href="/css/modus-icons.css">
 {{ else }}
 <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL}}index.xml"
   title="{{ .Site.Title }} News & Articles" />
