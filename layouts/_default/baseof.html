@@ -16,14 +16,23 @@
 
   {{ block "footer" . }} {{ partialCached "footer" . }} {{- end -}}
 
+  <!-- Initialize all Bootstrap tooltips on a page -->
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const tooltips = document.querySelectorAll('[data-toggle="tooltip"]');
-      tooltips.forEach(function (tooltip) {
-        new Tooltip(tooltip);
-      });
+    const tooltipTriggerList = document.querySelectorAll('[data-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+  <!-- Hide Bootstrap tooltips when user presses Escape -->
+  <script>
+    document.addEventListener('keyup', function (event) {
+      if (event.which === 27) {
+        const tooltipTriggerList = document.querySelectorAll('[data-toggle="tooltip"]');
+        tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+          $(tooltipTriggerEl).tooltip('hide');
+        });
+      }
     });
   </script>
+
 
   {{ $scrollToTop := resources.Get "js/scroll-to-top.js" }}
   {{ $feedback := resources.Get "js/was-this-page-helpful.js" }}
