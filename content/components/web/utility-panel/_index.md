@@ -43,7 +43,7 @@ When the utility panel is inactive, it is closed. It can be triggered again by a
 - Use this type of side panel when the content on the page is difficult to resize.
 
 <video width="300" controls autoplay="false" disablepictureinpicture disableremoteplayback muted="true">
-    <source src="/img/components/utility-panel-overlay.mov" type="video/quicktime">
+    <source src="/img/components/utility-panel-overlay.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
@@ -52,7 +52,7 @@ When the utility panel is inactive, it is closed. It can be triggered again by a
 - The utility panel pushes the content of the page. The content is scaled down.
 
 <video width="300" controls autoplay="false" disablepictureinpicture disableremoteplayback muted="true">
-    <source src="/img/components/utility-panel-push.mov" type="video/quicktime">
+    <source src="/img/components/utility-panel-push.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
