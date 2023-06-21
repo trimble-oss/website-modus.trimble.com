@@ -71,9 +71,9 @@ There are three criteria to address for the utility panel. Those are: placement,
 
 **Accordions Sections**
 
-- The Accordion sections are optional to use. But could help to organise the content.
-- If the content exceeds the side panel height, a scrollbar can be used on the right side of the content. The header and footer must be on top of the content.
-- The utility panel can expand by clicking and drag on the left side. Minimal width is 320px.
+- The accordion sections are optional to use but usually help organizing the content.
+- If the content exceeds the side panel height, a scrollbar is used on the right side of the content. The header and footer must be on top of the content.
+- The utility panel can expand by clicking and dragging on the left side. Minimal width is 320px.
 
 **Tabs**
 
@@ -81,4 +81,4 @@ There are three criteria to address for the utility panel. Those are: placement,
 
 **Footer**
 
-- The footer contains two buttons. A primary button can be used, for example, save, commit, create, edit.
+- The footer contains two buttons. A primary button can be used, such as Save, Commit, Create, or Edit.
