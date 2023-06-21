@@ -38,7 +38,6 @@ Sliders select a numeric value or range of values by moving a handle or set of h
 - Precise amount is needed and the scale is too large to afford precise interaction with the slider.
 - Adjusting settings with any delay in providing user feedback.
 
-
 {{< whats-changed-table >}}
 
 | Date       | Version | Notes                                      | Contributors                   |

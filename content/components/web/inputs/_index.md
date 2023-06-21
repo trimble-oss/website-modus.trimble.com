@@ -55,7 +55,7 @@ Input fields or text fields allow users to enter text into a UI. They typically 
     </div>
   </div>
   <div class="form-group">
-    <label for="exampleFormControlSelect">Custom Select Outlined</label>
+    <label for="exampleFormControlSelect">Select</label>
     <select class="custom-select form-control" id="exampleFormControlSelect">
       <option>Option 1</option>
       <option>Option 2</option>
@@ -65,7 +65,7 @@ Input fields or text fields allow users to enter text into a UI. They typically 
     </select>
   </div>
   <div class="form-group">
-  <label for="Textarea">Normal Text Area</label>
+  <label for="Textarea">Text Area</label>
   <textarea class="form-control" id="Textarea">Some Text</textarea>
 </div>
   <button type="submit" class="btn btn-primary">Submit</button>
