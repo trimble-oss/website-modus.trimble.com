@@ -19,7 +19,7 @@ tags: [styles]
 - The container of the tooltip text may be aligned to start, center or end.
 - Do not make the tooltip larger than the element it appears from.
 
-<img src="/img/components/tooltips-positions.svg" alt="Tooltip positions"/>
+<img src="/img/components/tooltips-positions.svg" class="img-fluid" width="800" height="300" alt="Tooltip positions"/>
 <style>
 [data-theme="dark"] img[src="/img/components/tooltips-positions.svg"] {
  content: url(/img/components/tooltips-positions-dark.svg);
