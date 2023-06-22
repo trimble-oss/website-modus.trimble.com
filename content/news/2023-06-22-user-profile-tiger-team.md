@@ -20,7 +20,7 @@ We have the following objectives for the User Profile Menu Tiger Team:
 
 - Enhancing Trimble product experience.
 - Covering admin mode options.
-- Defining user profile menu content on Trimble web.
+- Defining user profile menu content on Trimble websites.
 
 If you are interested in this challenge and want to represent the needs of the products you are working on, please join the Tiger Team!
 
