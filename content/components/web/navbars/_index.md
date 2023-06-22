@@ -121,9 +121,9 @@ html[data-theme="dark"] main .navbar button i {
 
 {{< whats-changed-table >}}
 
-| Date     | Version | Notes                                                | Contributors                                                                     |
-| -------- | ------- | ---------------------------------------------------- | -------------------------------------------------------------------------------- |
-| 05/26/21 | 1.1.0   | New pattern added.                                   | S. Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor |
-| 03/14/22 | 1.3.0   | Updated accessibility guidelines and example images. | S. Kaukonen, E. Nowak                                                            |
+| Date     | Version | Notes                                                                     | Contributors                                                                     |
+| -------- | ------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| 06/22/23 | 1.4.0   | Blue Navbar accessibility and general content requirements specification. | E. Gunther, S. Kaukonen, E. Nowak                                                |
+| 05/26/21 | 1.1.0   | New pattern added.                                                        | S. Williams, C. Christison, E. Gunther, J. Dong, K. Tran, N. Cadsawan, S. Taylor |
 
 {{</ whats-changed-table >}}

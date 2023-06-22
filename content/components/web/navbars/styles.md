@@ -14,11 +14,11 @@ tags: [styles]
 
 ## Specifications
 
-- **Navbar background color should be white or Dark Blue.**
-- **Divider line:** use a 1px bottom border when there is a sub-header or side panel or when page background is white (rather than the standard Trimble Gray Light).
+- **Navbar background color should be White (in light theme), Gray (Gray 10) (in dark theme), or Dark Blue.**
+- **Divider line:** use a 1px bottom border when there is a sub-header or side panel or when page background is white in light theme (rather than the standard Trimble Gray Light).
 - **Shadow:** use [Level 2 shadow](/foundations/shadows-and-depth/) in the event page content scrolls behind and underneath the header. [Level 3](/foundations/shadows-and-depth/) shadow should be used for menu overlays.
 - Product logo and Profile avatar are the only required elements. Other elements are optional and contextual.
-- When using icon elements on the nav bar, use maximum of six icon in total.
+- When using icon elements on the navbar, use maximum of six icon in total.
 - Product name should be used in the header communicated via an approved logo. The product logo is relevant to the company brand providing the service (e.g., Trimble, Tekla, SketchUp, Viewpoint) and follows Trimble product logo guidelines.
   - Don’t use the Trimble corporate logo.
   - Don’t combine the Trimble corporate logo and name of the application.
@@ -270,7 +270,7 @@ Used only for "global" MyTrimble account items. Appears consistently everywhere 
 
 ### Editorial
 
-- Header bar uses icons to visually communicate meaning. See [Tooltips](/components/web/tooltips/) guidelines.
+- Navbar uses icons to visually communicate meaning. See [Tooltips](/components/web/tooltips/) guidelines.
 - Capitalize proper nouns.
 - Use title case for menu titles (e.g. Notifications).
 - Use sentence case for app descriptions and buttons (while preserving proper nouns).
