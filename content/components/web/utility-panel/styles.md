@@ -72,6 +72,9 @@ There are three criteria to address for the utility panel. Those are: placement,
 **Accordions Sections**
 
 - The accordion sections are optional to use but usually help organizing the content.
+
+{{< img src="/img/components/side-panel-accordion-example.svg" dark="/img/components/side-panel-accordion-example.svg" class="border bg-light" width="200" alt="Utility Panel with accordions example" loading="auto" >}}
+
 - If the content exceeds the side panel height, a scrollbar is used on the right side of the content. The header and footer must be on top of the content.
 - The utility panel can expand by clicking and dragging on the left side. Minimal width is 320px.
 
