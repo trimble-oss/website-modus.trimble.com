@@ -11,18 +11,18 @@
   {{- if $hex -}}
   <div class="mb-n1 color border" style="background-color: {{- .Get "hex" -}};">
   </div>
-  <div class="text-monospace">{{- $hex | lower -}}</div>
+  <div class="text-monospace font-monospace">{{- $hex | lower -}}</div>
   {{- end -}}
   {{- if $hexL -}}<div class="theme-l">
     <div class="mb-n1 color border" style="background-color: {{- .Get "hexL" -}};">
     </div>
-    <div class="text-monospace">{{- $hexL | lower -}}</div>
+    <div class="text-monospace font-monospace">{{- $hexL | lower -}}</div>
   </div>
   {{- end -}}
   {{- if $hexD -}}<div class="theme-d">
     <div class="mb-n1 color border" style="background-color: {{- .Get "hexD" }};">
     </div>
-    <div class="text-monospace">{{- $hexD | lower -}}</div>
+    <div class="text-monospace font-monospace">{{- $hexD | lower -}}</div>
   </div>
   {{- end -}}
 </span>

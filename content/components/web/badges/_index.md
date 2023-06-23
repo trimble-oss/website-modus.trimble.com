@@ -89,11 +89,11 @@ Badges can be inserted into other elements.
   <div class="guide-sample">
     <button type="button" class="btn btn-outline-primary">
     Button <span class="badge badge-primary">9</span>
-    <span class="sr-only">unread messages</span>
+    <span class="sr-only visually-hidden">unread messages</span>
     </button>
     <button type="button" class="btn btn-primary">
     Button <span class="badge badge-text-tertiary">9</span>
-    <span class="sr-only">unread messages</span>
+    <span class="sr-only visually-hidden">unread messages</span>
     </button>
     <ul class="mt-3 list-group">
       <li class="list-group-item d-flex justify-content-between align-items-center">

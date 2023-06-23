@@ -6,34 +6,42 @@
   {{ partialCached "analytics" . }}
 </head>
 
-{{- if and (gt .WordCount 350 ) (not .Params.hideToc) -}}
+<body data-url="{{- .RelPermalink -}}" {{ if and (gt .WordCount 350 ) (not .Params.hideToc) -}} data-spy="scroll"
+  data-target="#TableOfContents" data-offset="126" {{- end -}} {{ if .Params.listJS }}id="listjs-body" {{- end -}}>
 
-<body data-url="{{ .RelPermalink }}" data-spy="scroll" data-target="#TableOfContents" data-offset="126"
-  {{ if .Params.listJS }}id="listjs-body" {{- end -}}>
-  {{ else }}
+  {{ partial "navbar" . }}
 
-  <body data-url="{{ .RelPermalink }}" {{ if .Params.listJS }}id="listjs-body" {{- end -}}>
-    {{- end -}}
+  {{ block "body" . }} {{ block "main" . }} {{- end -}}
+  {{- end -}}
 
-    {{ partial "navbar" . }}
+  {{ block "footer" . }} {{ partialCached "footer" . }} {{- end -}}
 
-    {{ block "body" . }} {{ block "main" . }} {{- end -}}
-    {{- end -}}
+  <!-- Initialize all Bootstrap tooltips on a page -->
+  <script>
+    const tooltipTriggerList = document.querySelectorAll('[data-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+  <!-- Hide Bootstrap tooltips when user presses Escape -->
+  <script>
+    document.addEventListener('keyup', function (event) {
+      if (event.which === 27) {
+        const tooltipTriggerList = document.querySelectorAll('[data-toggle="tooltip"]');
+        tooltipTriggerList.forEach(function (tooltipTriggerEl) {
+          $(tooltipTriggerEl).tooltip('hide');
+        });
+      }
+    });
+  </script>
 
-    {{ block "footer" . }} {{ partialCached "footer" . }} {{- end -}}
 
-    <script>
-      $(function () { $('[data-toggle="tooltip"]').tooltip() });
-    </script>
+  {{ $scrollToTop := resources.Get "js/scroll-to-top.js" }}
+  {{ $feedback := resources.Get "js/was-this-page-helpful.js" }}
+  {{ $js := slice $scrollToTop $feedback | resources.Concat "js/app.js" | resources.Minify }}
+  <script src="{{ $js.RelPermalink }}" async></script>
+  <button type="button" aria-label="scroll to top" class="btn-to-top border-0 rounded position-fixed">
+    {{ partial "icons/modus-outlined/arrow-up.svg" (dict "class" "mt-n1 text-white opacity-50" "width" "24" "height" "24") }}
+  </button>
 
-    {{ $scrollToTop := resources.Get "js/scroll-to-top.js" }}
-    {{ $feedback := resources.Get "js/was-this-page-helpful.js" }}
-    {{ $js := slice $scrollToTop $feedback | resources.Concat "js/app.js" | resources.Minify }}
-    <script src="{{ $js.RelPermalink }}" async></script>
-    <button type="button" aria-label="scroll to top" class="btn-to-top border-0 rounded position-fixed">
-      {{ partial "icons/modus-outlined/arrow-up.svg" (dict "class" "mt-n1 text-white opacity-50" "width" "24" "height" "24") }}
-    </button>
-
-  </body>
+</body>
 
 </html>
