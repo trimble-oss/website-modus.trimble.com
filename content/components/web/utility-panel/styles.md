@@ -33,37 +33,37 @@ There are three criteria to address for the utility panel. Those are: placement,
 ### Colors
 
 <!-- prettier-ignore-start -->
-| Element | Property   | Color                                                                                  |
-| ------- | ---------- | -------------------------------------------------------------------------------------- |
-| Utility Panel | Background       | {{< color-preview nameL="White" hexL="#ffffff" nameD="Trimble Gray" hexD="#252a2e" >}} |
-|         | Header Title | {{< color-preview nameL="White" hexL="#ffffff" nameD="Gray 0" hexD="#e0e1e9" >}}
-|         | Text | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="Gray 0" hexD="#e0e1e9" >}}
-|         | Chevron | {{< color-preview nameL="Gray 6" hexL="#6a6e79" nameD="Gray 0" hexD="#e0e1e9" >}}
-|         | Divider Line | {{< color-preview nameL="Gray 0" hexL="#e0e1e9" nameD="Gray 0" hexD="#e0e1e9" >}}      |
+| Element       | Property     | Color                                                                                   |
+| ------------- | ------------ | --------------------------------------------------------------------------------------- |
+| Utility Panel | Background   | {{< color-preview nameL="White" hexL="#ffffff" nameD="Trimble Gray" hexD="#252a2e" >}}  |
+|               | Header Title | {{< color-preview nameL="White" hexL="#ffffff" nameD="Gray 0" hexD="#e0e1e9" >}}        |
+|               | Text         | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="Gray 0" hexD="#e0e1e9" >}} |
+|               | Chevron      | {{< color-preview nameL="Gray 6" hexL="#6a6e79" nameD="Gray 0" hexD="#e0e1e9" >}}       |
+|               | Divider Line | {{< color-preview nameL="Gray 0" hexL="#e0e1e9" nameD="Gray 0" hexD="#e0e1e9" >}}       |
 {class="table table-sm table-bordered"}
 <!-- prettier-ignore-end -->
 
 ### Typography
 
 <!-- prettier-ignore-start -->
-| Class          | Font Size      | Font Weight | Text Transform   |
-| -------------- | --------- | ------------- | ------------- |
-| Header Title      | H4 / 16px    | Semibold / 600      | Title Case   |
-| Accordion Header | H5 / 14px    | Semibold / 600       | Title Case   |
-| Body   | Body 1 / 16px | Regular / 400      | None |
-| Tabs   | H5 / 14px  | Bold / 800      | Upper Case |
+| Class            | Font Size     | Font Weight    | Text Transform |
+| ---------------- | ------------- | -------------- | -------------- |
+| Header Title     | H4 / 16px     | Semibold / 600 | Title Case     |
+| Accordion Header | H5 / 14px     | Semibold / 600 | Title Case     |
+| Body             | Body 1 / 16px | Regular / 400  | None           |
+| Tabs             | H5 / 14px     | Bold / 800     | Upper Case     |
 { .table .table-bordered}
 <!-- prettier-ignore-end -->
 
 ### Structure
 
 <!-- prettier-ignore-start -->
-| Class          | Height      |
-| -------------- | --------- |
-| Header Title | 48px    |
-| Tabs   | 48px |
-| Accordion Header (Condensed)   | 32px  |
-| Accordion Header (Condensed)   | 48px  |
+| Class                        | Height |
+| ---------------------------- | ------ |
+| Header Title                 | 48px   |
+| Tabs                         | 48px   |
+| Accordion Header (Condensed) | 32px   |
+| Accordion Header (Condensed) | 48px   |
 { .table .table-bordered}
 <!-- prettier-ignore-end -->
 
@@ -76,7 +76,7 @@ There are three criteria to address for the utility panel. Those are: placement,
 {{< img src="/img/components/side-panel-accordion-example.svg" class="border bg-light" width="200" alt="Utility Panel with accordions example" loading="auto" >}}
 
 - If the content exceeds the side panel height, a scrollbar is used on the right side of the content. The header and footer must be on top of the content.
-- The utility panel can expand by clicking and dragging on the left side. Minimal width is 320px.
+- The utility panel can expand by clicking and dragging on the left side. Minimum width is 320px.
 
 **Tabs**
 
