@@ -11,4 +11,4 @@ hideToc: true
 
 ## Accessibility
 
-- See [Side Navigation](/components/web/radio-buttons/) for accessibility guidelines about keyboard access, etc.
+- See [Side Navigation](/components/web/side-navigation/) for accessibility guidelines about keyboard access, etc.
