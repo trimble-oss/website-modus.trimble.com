@@ -1246,7 +1246,6 @@
     "{coverage,dist,.cache,.git,.vscode,.DS_Store,tests}/**/*",
     "*.{log,svg,snap}",
     "CODEOWNERS",
-    "new-tiger-teams.md",
     "tiger-teams.md",
     ".terms.jsonc"
   ],

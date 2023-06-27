@@ -9,7 +9,7 @@
         {{- .Title -}}
       </h3>
       <p class="px-2 ml-n2">
-        <a href="{{ .RelPermalink }}" class="stretched-link text-decoration-none text-muted">
+        <a href="{{- .RelPermalink -}}" class="stretched-link text-decoration-none text-muted">
           {{ with .Description }}{{ . }}
           {{ else }}{{ with .Summary }}{{ . | plainify | htmlUnescape }}
           {{- end -}}{{- end -}}
@@ -19,12 +19,12 @@
     <div class="card-footer bg-transparent border-0 py-0">
       <div class="row mb-1">
         <div class="mx-3">
-          <img src="/img/author/{{ .Params.author | urlize }}.jpg" class="bg-light rounded-circle mx-auto text-center"
-            height="40" width="40" alt="{{ .Params.author }}">
+          <img src="/img/author/{{- .Params.author | urlize -}}.jpg" class="bg-light rounded-circle mx-auto text-center"
+            height="40" width="40" alt="{{- .Params.author -}}">
         </div>
         <div>
-          <p class="text-muted small mb-0">{{ .Params.author }}</p>
-          <p class="text-muted small">{{- .Date.Format "Jan 2, 2006" }}</p>
+          <p class="text-muted small mb-0">{{- .Params.author -}}</p>
+          <p class="text-muted small">{{- .Date.Format "Jan 2, 2006" -}}</p>
         </div>
       </div>
     </div>
