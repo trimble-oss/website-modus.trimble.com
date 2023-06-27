@@ -1,6 +1,6 @@
 {{ $_hugo_config := `{ "version": 1 }` }} {{- $title := .Get "title" -}}
 <div class="col-12 col-lg-6">
-  <div class="card rounded border bg-light mb-4 p-3">
+  <div class="card rounded border bg-light mb-4 p-3 bg-opacity-10">
     <h2>{{- .Inner -}}</h3>
       <div class="w-100 border-top py-2">
         <h5 class="mb-0 pb-0 font-weight-normal">npm</h5>
@@ -12,12 +12,14 @@
           <img alt="npm (scoped)" class="my-2 mr-2" src="https://img.shields.io/npm/dm/{{- .Get "npmjs" -}}">
         </a>
       </div>
+      {{ if not (.Params.hideCDN) }}
       <div class="w-100 border-top py-2">
         <h5 class="mb-0 pb-0 font-weight-normal">CDN</h5>
         <a href="https://www.jsdelivr.com/package/npm/{{- .Get "npmjs" -}}" target="_blank" rel="noopener">
           <img src="https://data.jsdelivr.com/v1/package/npm/{{- .Get "npmjs" -}}/badge" alt="JSDelivr Downloads"
             class="mb-2 mr-2"></a>
       </div>
+      {{ end }}
       <div class="w-100 border-top py-2">
         {{ if (.Params.github) }}
         <h5 class="mb-0 pb-0 font-weight-normal">GitHub</h5>

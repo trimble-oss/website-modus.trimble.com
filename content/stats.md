@@ -15,6 +15,14 @@ tags:
   main a:after {
    content: none !important;
   }
+  .menu-right {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+  }
+  main .btn-outline-dark {
+    display: none !important;
+  }
 </style>
 
 <div class="row">
@@ -33,6 +41,14 @@ Modus React Bootstrap
 
 {{< card-stats npmjs="@trimble-oss/modus-web-components" github="trimble-oss/modus-web-components" date="2022-02-02" >}}
 Modus Web Components
+{{</ card-stats >}}
+
+{{< card-stats npmjs="@trimble-oss/modus-angular-components" date="2022-03-03" hideCDN="true" >}}
+Modus Angular Components
+{{</ card-stats >}}
+
+{{< card-stats npmjs="@trimble-oss/modus-react-components" date="2022-06-06" hideCDN="true" >}}
+Modus React Components
 {{</ card-stats >}}
 
 </div>

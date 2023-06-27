@@ -31,7 +31,9 @@ Dropdowns (also known as a dropdown menu, drop menu, pull-down list, picklist) i
 - Providing only two options. Instead, use a [Radio](/components/web/radio-buttons/) Group or a [Switch](/components/web/switches/).
 
 {{< whats-changed-table >}}
-| Date | Version | Notes | Contributors |
-| ---------- | ------- | -------------- | ------------ |
-| 03/14/2022 | 1.3.0 | Removed contradictory directions. | W. Pritchard, E. Gunther |
+
+| Date       | Version | Notes                             | Contributors             |
+| ---------- | ------- | --------------------------------- | ------------------------ |
+| 03/14/2022 | 1.3.0   | Removed contradictory directions. | W. Pritchard, E. Gunther |
+
 {{</ whats-changed-table >}}

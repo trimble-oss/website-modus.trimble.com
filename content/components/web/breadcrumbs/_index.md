@@ -35,8 +35,10 @@ Breadcrumb is a one-line navigational element that supports wayfinding: it aids 
 - Your product has a flat hierarchy that's only 1 or 2 levels deep.
 
 {{< whats-changed-table >}}
-| Date | Version | Notes | Contributors |
-| ---------- | ------- | -------------- | ------------ |
-| 04/08/2021 | 1.0.1 | More guidance added based on best practices. | J. Wittmeyer |
-| 11/23/2020 | 1.0.0 | Accessible option added. | E. Bohn, L. Kause, N. Springer |
+
+| Date       | Version | Notes                                        | Contributors                   |
+| ---------- | ------- | -------------------------------------------- | ------------------------------ |
+| 04/08/2021 | 1.0.1   | More guidance added based on best practices. | J. Wittmeyer                   |
+| 11/23/2020 | 1.0.0   | Accessible option added.                     | E. Bohn, L. Kause, N. Springer |
+
 {{</ whats-changed-table >}}

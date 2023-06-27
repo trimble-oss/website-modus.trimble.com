@@ -1,11 +1,11 @@
 <div class="d-none small p-2 feedback mt-2">
   <div class="mt-2 mb-1">Was this page helpful?</div>
   <button type="button" class="btn btn-light btn-outline btn-feedback btn-feedback-helpful border rounded p-1 mr-2"
-    onClick="ga('send', 'event', 'page-feedback', 'click', 'Helpful');" aria-label="Helpful">
+    aria-label="Helpful">
     {{- partial "icons/modus-outlined/thumbs-up.svg" (dict "width" "22" "height" "22" "class" "mx-2 mx-auto text-primary") -}}
   </button>
   <button type="button" class="btn btn-light btn-outline btn-feedback btn-feedback-not-helpful border rounded p-1"
-    onClick="ga('send', 'event', 'page-feedback', 'click', 'Not Helpful');" aria-label="Not Helpful">
+    aria-label="Not Helpful">
     {{- partial "icons/modus-outlined/thumbs-down.svg" (dict "width" "22" "height" "22" "class" "mx-2 mx-auto text-primary") -}}
   </button>
 </div>
