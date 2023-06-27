@@ -1,7 +1,7 @@
 ---
 title: "Utility Panel"
 layout: "single"
-description: "Utility panel is a container which provides extra content alongside with the primary screen content."
+description: "Utility panel is a container which provides extra content alongside the primary screen content."
 components: true
 componentsWeb: true
 images:
@@ -42,18 +42,18 @@ When the utility panel is inactive, it is closed. It can be triggered again by a
 - The utility panel overlaps the content of the page.
 - Use this type of side panel when the content on the page is difficult to resize.
 
-<video width="300" controls autoplay="false" disablepictureinpicture disableremoteplayback muted="true">
-    <source src="/img/components/utility-panel-overlay.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+<video width="400" controls autoplay="false" disablepictureinpicture disableremoteplayback muted="true">
+  <source src="/img/components/utility-panel-overlay.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 
 ### Push Utility Panel
 
 - The utility panel pushes the content of the page. The content is scaled down.
 
-<video width="300" controls autoplay="false" disablepictureinpicture disableremoteplayback muted="true">
-    <source src="/img/components/utility-panel-push.mp4" type="video/mp4">
-    Your browser does not support the video tag.
+<video width="400" controls autoplay="false" disablepictureinpicture disableremoteplayback muted="true">
+  <source src="/img/components/utility-panel-push.mp4" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 
 {{< whats-changed-table >}}
