@@ -13,21 +13,21 @@ The Modus team is dedicated to maintaining a consistent, top-quality product. Ac
 
 ### 1. Understanding the design system and the process
 
-During this stage you review our [roadmap](https://miro.com/app/board/o9J_kvewBgE=/), documentation, [submission guidelines](/community/submission-guidelines/), and process. You should also familiarize yourself with our design principles and foundations, which address visual design, UX, content, branding, and accessibility ([Foundations](/foundations/) section of Modus). Soon, you will also be able to review personas and user archetypes, so you can better understand who your design should serve.
+During this stage you review our documentation, [submission guidelines](/community/submission-guidelines/), and process. You should also familiarize yourself with our design principles and foundations, which address visual design, UX, content, branding, and accessibility ([Foundations](/foundations/) section of Modus). Soon, you will also be able to review personas and user archetypes, so you can better understand who your design should serve.
 
 ### 2. Submission
 
-Identify the user need your pattern solves and explain its advantages over alternative patterns. Include original design files and any user research that supports this pattern. You should contribute a pattern when
+Identify the user needs your pattern solves and explain its advantages over alternative patterns. Include original design files and any user research that supports this pattern. You should contribute a pattern when
 
-a.) A new component has been created on your product team (e.g. Chips for displaying and interacting with content filters)
+a.) A new component has been created on your product team (e.g. Chips for displaying and interacting with content filters).
 
-b.) The component exists as design elements and interaction pattern sequence (in Figma, Adobe XD, inVision)
+b.) The component exists as design elements and interaction pattern sequence (in Figma, Adobe XD).
 
-c.) The component has undergone usability testing with documented results or is currently in use in the product
+c.) The component has undergone usability testing with documented results or is currently in use in the product.
 
-d.) The product team decides to propose the pattern to the Design System Team
+d.) The product team decides to propose the pattern to the Modus Design System Team.
 
-To submit your pattern, please follow the [submission guidelines](/community/submission-guidelines/). Upon submission, Jira issue is created on the Modus Design System backlog. The pattern (along with all the provided documentation is assigned an ID and the submitting party is added as followers of the issue, so they can track the progress.
+To submit your pattern, please follow the [submission guidelines](/community/submission-guidelines/). Upon submission, GitHub issue is created on the Modus Design System backlog. The pattern (along with all the provided documentation is assigned an ID and the submitting party is added as followers of the issue, so they can track the progress.
 
 ### 3. Review
 
@@ -56,4 +56,4 @@ d.) Review usability tests or any other submitted research data.
 
 ### 4. Prioritization and recommendation
 
-When the pattern is approved, it is prioritized and scheduled for a release. The design systems team will make sure your pattern is added to all supported code and design libraries, conduct ongoing maintenance of your pattern, and monitor its usage.
+When the pattern is approved, it is prioritized and scheduled for a release. The Modus Design System Team will make sure your pattern is added to all supported code and design libraries, conduct ongoing maintenance of your pattern, and monitor its usage.

@@ -13,12 +13,12 @@ A design pattern has been defined as “a **proven** solution to a **common** pr
 
 - State of the problem the pattern addresses and the offered solution
 - The scope of a pattern's usefulness.
-- Visual examples of the pattern
+- Visual examples of the pattern (e.g., Figma file or branch)
 - Specifications
 - Related user research
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5evnuux4SE0Bym8QPblwEUTKhYCG7sJzFfiMH0CYtBNTFaw/viewform?usp=sf_link" target="_blank" class="btn btn-primary mb-1">
-Submit Now
+Submit now
 </a>
 
 ## Guidelines for Creating Patterns
@@ -31,7 +31,7 @@ Your pattern needs to first and foremost follow Trimble design principles and fo
 
 ### 2.) Focus on the user
 
-A design pattern should always be user-centric. The pattern should take under consideration what the user knows, perceived, understands, and what actions he needs to take or behaviors he needs to exhibit.
+A design pattern should always be user-centric. The pattern should take under consideration what the user knows, perceives, understands, and what actions he needs to take or behaviors he needs to exhibit.
 
 ### 3.) Context is critical
 
@@ -39,7 +39,7 @@ The context of use of the pattern is critical to the success of the solution. Ev
 
 ### 4.) A pattern is not a design
 
-A design pattern reflects proven best practices, foundational definitions, and serves as a model for starting place for a designer to create a solution to best serve the user’s needs.
+A design pattern reflects proven best practices, foundational definitions, and serves as a model for a starting place for a designer to create a solution to best serve the user’s needs.
 
 ### 5.) Patterns can be modular
 
@@ -51,7 +51,7 @@ A pattern should use terminology familiar to the end user and to the designer or
 
 ### 7.) Choose familiar metaphors
 
-Well-established, familiar metaphors lessen the users cognitive load and aid in the user’s understanding.
+Well-established, familiar metaphors lessen the users' cognitive load and aid in the user’s understanding.
 
 ### 8.) Consider wider audiences
 
