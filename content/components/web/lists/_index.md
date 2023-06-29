@@ -15,6 +15,9 @@ tags: [usage]
 ---
 
 <style>
+.list-group {
+  max-width: 400px;
+}
 .list-group .list-group-item {
   height: 40px;
   min-height: 40px;
@@ -49,4 +52,3 @@ Lists are used to present information in well-formed and organized way. The user
 
 - Displaying tabular data. Instead, use a [Table](/components/web/tables/).
 - Making lists of uncategorized information. Use groups of list items to organize similar content.
-

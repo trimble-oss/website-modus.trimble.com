@@ -32,6 +32,7 @@ module.exports = {
         'bs-tooltip-auto',
         'bs-tooltip-bottom',
         'bs-tooltip-top',
+        'btn-group-vertical',
         'btn-outline-secondary',
         'btn-primary',
         'btn',
