@@ -17,8 +17,8 @@ A design pattern has been defined as “a **proven** solution to a **common** pr
 - Specifications
 - Related user research
 
-<a href="https://app.clickup.com/14200829/v/fm/dhbzx-18840" target="_blank" class="btn btn-primary mb-1">
-Submit Now
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSd5evnuux4SE0Bym8QPblwEUTKhYCG7sJzFfiMH0CYtBNTFaw/viewform?usp=sf_link" target="_blank" class="btn btn-primary mb-1">
+Submit now
 </a>
 
 ## Guidelines for Creating Patterns
