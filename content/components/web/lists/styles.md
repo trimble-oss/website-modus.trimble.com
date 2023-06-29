@@ -13,6 +13,10 @@ tags: [styles]
 ---
 
 <style>
+.list-group {
+  max-width: 400px;
+}
+
 .list-group .list-group-item {
   height: 40px;
   min-height: 40px;
