@@ -20,14 +20,14 @@ Radio buttons are used to afford a single selection from two or more options.
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Options are mutually exclusive.
 - Visibility and quick response is a priority.
 - Comparison of options needs to be clear.
 - You want to emphasize options.
 
-**Don't use when**
+#### Don't use when
 
 - User can make multiple selections. Instead, use [Checkboxes](/components/in-field/checkboxes/).
 - You are providing more than 7 options.

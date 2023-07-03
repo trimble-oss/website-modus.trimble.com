@@ -17,9 +17,9 @@ A design pattern has been defined as “a **proven** solution to a **common** pr
 - Specifications
 - Related user research
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSd5evnuux4SE0Bym8QPblwEUTKhYCG7sJzFfiMH0CYtBNTFaw/viewform?usp=sf_link" target="_blank" class="btn btn-primary mb-1">
-Submit now
-</a>
+<button type="button" class="btn btn-primary mb-1" data-toggle="modal" data-target="#formModal">
+  Submit now
+</button>
 
 ## Guidelines for Creating Patterns
 
@@ -61,4 +61,30 @@ A pattern is most effective if it can be applied in different contexts, for use 
 
 Naming is important and should reflect its purpose. Names of patterns become familiar and gain traction as a form of communication between designers, developers, product managers, and stakeholders.
 
-Are you ready to contribute? To submit your recommendations, please [fill out the submission form](https://docs.google.com/forms/d/e/1FAIpQLSd5evnuux4SE0Bym8QPblwEUTKhYCG7sJzFfiMH0CYtBNTFaw/viewform?usp=sf_link).
+Are you ready to contribute? To submit your recommendations, please:
+
+<button type="button" class="btn btn-primary mb-1" data-toggle="modal" data-target="#formModal">
+  Submit now
+</button>
+
+<div class="modal fade mt-5" id="formModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg pb-0">
+    <div class="modal-content">
+      <div class="modal-header mb-0 border-0 pb-0">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body pb-0">
+        <iframe class="clickup-embed clickup-dynamic-height border-0" src="https://forms.clickup.com/14200829/f/dhbzx-18840/17498YSP0VBP83B3D6" onwheel="" width="100%" height="100%" style="background: transparent;min-height:1390px"></iframe>
+        <script defer src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.min.js"></script>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+body.modal-open .fixed-top {
+  z-index: 1030 !important;
+}
+</style>

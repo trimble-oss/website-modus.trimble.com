@@ -21,12 +21,12 @@ Dropdowns (also known as a dropdown menu, drop menu, pull-down list, picklist) i
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Filtering or sorting content on a page.
 - Single selection from a list is necessary.
 
-**Don’t use when**
+#### Don't use when
 
 - Providing only two options. Instead, use a [Radio](/components/web/radio-buttons/) Group or a [Switch](/components/web/switches/).
 

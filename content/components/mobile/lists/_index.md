@@ -18,21 +18,20 @@ Lists are used to present information in well-formed and organized way. The user
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Creating vertical navigation.
 - Displaying options within a menu.
 
-**Don’t use when**
+#### Don't use when
 
 - Displaying tabular data. Instead, use a [Table](/components/mobile/tables/).
 - Making lists of uncategorized information. Use groups of list items to organize similar content.
 
-
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

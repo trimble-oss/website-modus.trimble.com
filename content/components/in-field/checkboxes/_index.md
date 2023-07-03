@@ -22,7 +22,7 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Affording a binary selection, like accepting terms and conditions.
 - Affording multiple selections from a set of options.
@@ -30,7 +30,7 @@ Checkboxes should be used in forms that require submission and processing. The c
 - Affording selection of a row within a data table.
 - There is a parent and child relationship. User may use a parent checkbox to make a bulk selection of all list items. Unchecking the parent deselects all of the list items. Alternatively, user may select children individually, when the parent is not selected.
 
-**Don't use when**
+#### Don't use when
 
 - A user can select only one option from a list. Use [Radio Buttons](/components/in-field/radio-buttons/) instead. Checkboxes allow the user to select multiple items in a set whereas radio buttons allow the user to select only one option.
 - Turning a feature, mode, or functionality on and off. Instead, use a [Switch](/components/in-field/switches/).

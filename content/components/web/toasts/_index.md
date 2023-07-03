@@ -22,7 +22,7 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
 
 ## Usage
 
-**Use when**
+#### Use When
 
 - Notifying the user of global information, such as a change in server connection status.
 - Confirming the success of a global action.
@@ -131,7 +131,7 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
   </tbody>
 </table>
 
-**Don't use when**
+#### Don't Use When
 
 - Displaying critical information that require immediate user action. Instead, use an [alert](/components/web/alerts/)
 - The information being displayed is highly contextual to the user action.

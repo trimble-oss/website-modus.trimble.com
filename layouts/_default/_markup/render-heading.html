@@ -1,5 +1,23 @@
-<h{{ .Level }} id="{{ .Anchor | safeURL }}" {{- if (eq .Level 2 ) }}class="h1 mt-5" {{- end -}} {{- if (eq .Level 3 ) }}
-  class="h2 mt-4" {{- end -}}{{- if (eq .Level 4 ) }}
-  class="h3 font-weight-bold mt-3" {{- end -}}>{{ .Text | safeHTML }}
-  <a class="header-link text-light text-decoration-none font-weight-normal" href="#{{ .Anchor | safeURL }}" aria-label="anchor"></a>
+<h{{ .Level }} id="{{ .Anchor | safeURL }}"
+  class="{{- if (eq .Level 2 ) }}
+  h1 mt-5 {{- end -}}
+ {{- if (eq .Level 3 ) }}
+  h2 mt-5 {{- end -}}
+  {{- if (eq .Level 4 ) }}h4 fw-bold mt-3{{- end -}}{{ if eq .Anchor "use-when" }} text--success{{- end -}}{{ if eq .Anchor "dont-use-when" }} text--danger{{- end -}}">
+  {{- .Text | safeHTML -}}
+  {{ if and (ne .Anchor "use-when") (ne .Anchor "dont-use-when") }}
+  <a class="header-link text-light text-decoration-none fw-normal" href="#{{- .Anchor | safeURL -}}"
+    aria-label="anchor"></a>{{ end }}
+  {{ if eq .Anchor "use-when" }}
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="mx-1 mb-1 d-none"
+    viewBox="0 0 24 24">
+    <path
+      d="M9 18c-.26 0-.51-.1-.71-.29l-4-4A.996.996 0 1 1 5.7 12.3l3.29 3.29 9.29-9.29a.996.996 0 1 1 1.41 1.41l-10 10c-.2.2-.45.29-.71.29Z" />
+  </svg>{{ end }}
+  {{ if eq .Anchor "dont-use-when" }}
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="mx-1 mb-1 d-none"
+    viewBox="0 0 24 24">
+    <path
+      d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2Zm4.3 14.3a.996.996 0 0 1-1.41 0L12 13.41 9.11 16.3a.996.996 0 1 1-1.41-1.41L10.59 12 7.7 9.11A.996.996 0 1 1 9.11 7.7L12 10.59l2.89-2.89a.996.996 0 1 1 1.41 1.41L13.41 12l2.89 2.89c.38.38.38 1.02 0 1.41Z" />
+  </svg>{{ end }}
 </h{{ .Level }}>

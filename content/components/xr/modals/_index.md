@@ -22,13 +22,13 @@ Because dialogs are highly disruptive to the user experience, they should be use
 
 ## Usage
 
-**Use when**
+#### Use When
 
 - Showing errors that block an app’s normal operation.
 - Critical information that requires a specific user task, decision, or acknowledgement is needed.
 - Needing far interaction for large and x-large dialogs.
 
-**Don't use when**
+#### Don't Use When
 
 - Scrollable, complex interaction dialogs.
 - Providing non-essential information related to the underlying page. Use plain txt messages instead.

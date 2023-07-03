@@ -21,14 +21,14 @@ A dialog or a modal is a window overlaid on the primary window. It interrupts th
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Content requires full attention.
 - For important warnings, as a way to prevent or correct critical errors.
 - Requesting a simple but critical action, like saving changes, necessary to the current process.
 - Providing supplemental tasks required by the underlying page.
 
-**Don’t use when**
+#### Don't use when
 
 - Providing non-essential information related to the underlying page.
 - Interrupting high-stake processes such as checkout flows.

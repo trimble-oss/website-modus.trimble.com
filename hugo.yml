@@ -347,12 +347,15 @@ menu:
     - name: Submission Guidelines
       url: /community/submission-guidelines/
       weight: 5
+    - name: Submissions Status
+      url: /community/submissions-status/
+      weight: 6
     - name: Modus Adoption
       url: /community/adoption/
-      weight: 6
+      weight: 7
     - name: Contact Us
       url: /community/contact/
-      weight: 7
+      weight: 8
 
 module:
   mounts:

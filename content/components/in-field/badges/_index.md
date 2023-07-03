@@ -19,12 +19,12 @@ Badges notify the user of a status, for example that there are new or unread mes
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - In proximity to notifications or user avatars with eye-catching appeal (e.g. displaying unread messages count).
 - Use for displaying quick, easily digestible bits of information.
 
-**Don’t use when**
+#### Don't use when
 
 - Displaying long strings of text.
 - An interactive element is needed, such as a [Button](/components/in-field/buttons/) or [Chip](/components/in-field/chip/).

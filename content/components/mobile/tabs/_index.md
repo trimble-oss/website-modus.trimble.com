@@ -19,13 +19,13 @@ Tabs are a set of layered sections of content, known as tab panels, that display
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - You want to quickly switch between sibling views underneath a larger organizing principle/context.
 - You want to organize content into meaningful sections that occupy less screen space.
 - Add visual consistency.
 
-**Don’t use when**
+#### Don't use when
 
 - You need primary means of navigation. Use [Bottom Navbar](/components/mobile/bottom-navbars/) instead.
 - Grouping unrelated content.

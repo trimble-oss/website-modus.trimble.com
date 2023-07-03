@@ -11,7 +11,6 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/story/componen
 tags: [styles]
 ---
 
-
 ## Specifications
 
 ### Anatomy

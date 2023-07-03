@@ -116,6 +116,7 @@ module.exports = {
         'modal-backdrop',
         'modal-body',
         'modal-content',
+        'modal-lg',
         'modal-open',
         'modal-static',
         'modal',

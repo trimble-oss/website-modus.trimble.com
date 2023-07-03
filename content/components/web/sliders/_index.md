@@ -19,20 +19,23 @@ tags: [usage]
 
 Sliders select a numeric value or range of values by moving a handle or set of handles along a bar. They are ideal for adjusting settings such as volume and brightness. The slider in its basic form should be accompanied by a label and a number input that doubles as a display for the slider’s current value.
 
+<div class="mx-auto w-75">
 <label for="customRange1">Example range</label>
 <input type="range" class="custom-range" id="customRange1">
 
 <label for="disabledRange">Disabled range</label>
 <input type="range" class="custom-range" disabled="" id="disabledRange">
 
+</div>
+
 ## Usage
 
-**Use when**
+#### Use when
 
 - Encouraging user exploration when setting a value or range of values, especially when that value has an immediate effect on a data visualization.
 - A series of options is presented using a stepped slider.
 
-**Don’t use when**
+#### Don't use when
 
 - Gathering information in a form (e.g, age or salary). Instead, use an [Input](/components/web/inputs/) box.
 - Precise amount is needed and the scale is too large to afford precise interaction with the slider.

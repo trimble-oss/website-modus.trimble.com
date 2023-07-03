@@ -25,13 +25,13 @@ They can encompass two outcomes, which can exclusively be combined through a pre
 
 ## Usage
 
-**Use when**
+#### Use When
 
 - Creating vertical navigation.
 - Displaying options within a menu.
 - List items are especially suitable for text and data, through a layout that is easy to scan and read.
 
-**Don't use when**
+#### Don't Use When
 
 - Variable, graphic-heavy items should be better displayed through cards.
 - Displaying multiple parameter data. Consider creating a table for this purpose.

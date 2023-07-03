@@ -835,13 +835,15 @@ The Web Content Accessibility Guidelines (WCAG 2.0) level AA requires a 4.5:1 co
 
 Standard text colors:
 
-- **Trimble Gray** {{< color-preview hex="#252a2e">}} is the standard text color.
-
-- **Trimble Gray** {{< color-preview hex="#252a2e">}} text may appear on backgrounds no darker than **Gray 4** {{< color-preview hex="#AEAEB6">}}.
-
-- **Gray Light** {{< color-preview hex="#f1f1f6">}} text may appear on backgrounds no lighter than **Gray 8** {{< color-preview hex="#464b52">}}.
-
-- **Gray 8** {{< color-preview hex="#464b52">}} text, _body text color in desktop applications_, may appear on backgrounds no darker than **Gray Light** {{< color-preview hex="#f1f1f6">}}.
+<!-- prettier-ignore-start -->
+| Color            | Hex                                |                                                                                                                                              |
+| ---------------- | ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Trimble Gray** | {{< color-preview hex="#252a2e">}} | is the standard text color.                                                                                                                  |
+| **Trimble Gray** | {{< color-preview hex="#252a2e">}} | text may appear on backgrounds no darker than **Gray 4** {{< color-preview hex="#AEAEB6">}}.                                                 |
+| **Gray Light**   | {{< color-preview hex="#f1f1f6">}} | text may appear on backgrounds no lighter than **Gray 8** {{< color-preview hex="#464b52">}}.                                                |
+| **Gray 8**       | {{< color-preview hex="#464b52">}} | text, _body text color in desktop applications_, may appear on backgrounds no darker than **Gray Light** {{< color-preview hex="#f1f1f6">}}. |
+{class="table table-sm table-bordered"}
+<!-- prettier-ignore-end -->
 
 Text may appear in different colors on different colored backgrounds (see [Trimble Color Palette](/foundations/color-palette/)) as long as it meets appropriate contrast ratios for WCAG 2.0 AA compliance. [Contrast Checker](https://webaim.org/resources/contrastchecker/) is one of many tools available online to help ensure appropriate contrast. [Learn more about accessibility](https://webaim.org/).
 

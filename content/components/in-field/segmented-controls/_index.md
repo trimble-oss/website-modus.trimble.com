@@ -9,7 +9,7 @@ images:
 tags: [in-field, usage, hide-accessibility]
 ---
 
-{{< img src="/img/in-field/segmented-controls.png" dark="/img/in-field/segmented-controls-dark.png" class="w-100" alt="Segmented Controls" loading="auto" >}}
+{{< img src="/img/in-field/segmented-controls.png" dark="/img/in-field/segmented-controls-dark.png" class="w-100" width="1088" height="194" alt="Segmented Controls" loading="auto" >}}
 
 ## Overview
 
@@ -17,12 +17,12 @@ Segmented controls allow users to make a single selection from a set of 2–5 op
 
 ## Usage
 
-**Use when**
+#### Use When
 
 - You need to provide closely related choices that affect an object, state, or view.
 - You need to reduce cognitive load and/or other selection controls are inadequate.
 
-**Don’t use when**
+#### Don't Use When
 
 - Enabling actions, such as adding, removing, or editing content.
 - Filtering or navigating content (use [Tabs](/components/in-field/tabs/) instead).

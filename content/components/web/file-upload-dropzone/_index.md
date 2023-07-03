@@ -21,12 +21,12 @@ File upload dropzone allows users to upload content from their computer or devic
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - User needs to upload one or more files.
 - Uploading files by dragging and dropping.
 
-**Don’t use when**
+#### Don't use when
 
 - Space is limited. Use a button action instead.
 - You need multiple instances of uploading files on one page.

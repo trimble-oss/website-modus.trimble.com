@@ -15,30 +15,28 @@ A sentiment scale is an instant, engaging, and typically easy-to-use way to coll
 
 Sentiment selection in hover state:
 
-{{< img src="/img/components/sentiment-scale-hover-example.svg" dark="/img/components/sentiment-scale-hover-example-dark.svg" class="border bg-light" width="300" alt="Sentiment Scale example" loading="auto" >}}
+{{< img src="/img/components/sentiment-scale-hover-example.svg" dark="/img/components/sentiment-scale-hover-example-dark.svg" class="border bg-light" width="300" height="112" alt="Sentiment Scale example" loading="auto" >}}
 
 Sentiment selection in selected state:
 
-{{< img src="/img/components/sentiment-scale-selected-example.svg" dark="/img/components/sentiment-scale-selected-example-dark.svg" class="border bg-light" width="300" alt="Sentiment Scale example" loading="auto" >}}
+{{< img src="/img/components/sentiment-scale-selected-example.svg" dark="/img/components/sentiment-scale-selected-example-dark.svg" class="border bg-light" width="300" height="112" alt="Sentiment Scale example" loading="auto" >}}
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Collecting instant feedback in an efficient manner right after interaction, typically with a mobile app or website.
 - Exploring if online help articles provide users with the information they need to be successful when using a product or service.
 
-**Don’t use when**
+#### Don't use when
 
 - In-depth qualitative feedback needs to be measured that cannot or should not be measured quickly and superficially.
 - Complex technical context is required to explain the question.
 
-
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                                                                       | Contributors                   |
-| ---------- | ------- | --------------------------------------------------------------------------- | ------------------------------ |
+| Date       | Version | Notes                | Contributors                                  |
+| ---------- | ------- | -------------------- | --------------------------------------------- |
 | 04/26/2023 | 1.0.0   | New component added. | E. Gunther, A. Infante, S. Kaukonen, E. Nowak |
 
 {{</ whats-changed-table >}}
-

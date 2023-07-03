@@ -17,7 +17,7 @@ Accordions are containers that expand to reveal content progressively to limit t
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Some content can be hidden because it is not critical to the user’s task.
 - You want to declutter the interface or shorten pages to reduce scrolling when content is not crucial to read in full.
@@ -26,7 +26,7 @@ Accordions are containers that expand to reveal content progressively to limit t
 - All options and information are not critical to see at first.
 - Allowing users to hide controls and content, so they can better focus on their task.
 
-**Don’t use when**
+#### Don't use when
 
 - Providing an introductory element to a set of content which doesn’t need an expand and collapse functionality. Instead, use a [Top Navbar](/components/mobile/top-navbars/).
 - Hiding critical content solely to clean up the interface.

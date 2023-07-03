@@ -17,14 +17,14 @@ A dialog or a modal is a window overlaid on the primary window. It interrupts th
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Content requires full attention.
 - For important warnings, as a way to prevent or correct critical errors.
 - Requesting a simple but critical action, like saving changes, necessary to the current process.
 - Providing supplemental tasks required by the underlying page.
 
-**Don’t use when**
+#### Don't use when
 
 - Providing non-essential information related to the underlying page.
 - Interrupting high-stake processes such as checkout flows.
@@ -70,8 +70,8 @@ Buttons with destructive actions should be red: {{< color-preview hexL="#da212c"
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati   |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

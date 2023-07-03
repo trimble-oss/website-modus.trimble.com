@@ -17,11 +17,11 @@ Messages are used within other elements to convey status and helpful information
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Providing the user with helpful, contextual information about a possible action, set of data, or screen.
 
-**Don't use when**
+#### Don't use when
 
 - Alerting the user of a high priority warning or error. Instead, use an [Alarm](/components/in-field/alarms/).
 - Alerting the user of an out-of-context event. Instead, use a [Notification](/components/in-field/notifications/).

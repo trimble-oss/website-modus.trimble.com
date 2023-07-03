@@ -26,11 +26,11 @@ There are two types of prompt triggering conditions:
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - The user is informed of a situation requiring their attention and action.
 
-**Don't use when**
+#### Don't use when
 
 - There is a system critical action the user must take. If the user should stop work and immediately attend to a problem or error, do NOT use a Prompt. An alarm is used for such scenarios. See [Alarms](/components/in-field/alarms/) for more information.
 - You need to display minor information that is "nice-to-know" but does not require the user to take any action. Use a [Notification](/components/in-field/notifications/) for scenarios where basic information needs to be conveyed to the user but does not require user action.

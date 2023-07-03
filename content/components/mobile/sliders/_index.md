@@ -18,12 +18,12 @@ Sliders select a numeric value or range of values by moving a handle or set of h
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Encouraging user exploration when setting a value or range of values, especially when that value has an immediate effect on a data visualization.
 - A series of options is presented using a stepped slider.
 
-**Don’t use when**
+#### Don't use when
 
 - Gathering information in a form (e.g, age or salary). Instead, use an [Input](/components/mobile/inputs/) box.
 - Precise amount is needed and the scale is too large to afford precise interaction with the slider.
@@ -49,8 +49,8 @@ Discrete sliders display a numeric value label upon dragging the handle, or allo
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

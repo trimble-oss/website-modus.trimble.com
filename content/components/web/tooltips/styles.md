@@ -49,9 +49,3 @@ tags: [styles]
 |         | Background | {{< color-preview nameL="Gray 7" hexL="#585c65" nameD="Gray 0" hexD="#e0e1e9" >}}      |
 {class="table table-sm table-bordered"}
 <!-- prettier-ignore-end -->
-
-<script>
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip();
-});
-</script>

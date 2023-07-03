@@ -21,7 +21,7 @@ The top navbar or the app header provides context through globally accessible me
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Designing native mobile or hybrid applications.
 - Positioning a primary navigation menu.
@@ -30,7 +30,7 @@ The top navbar or the app header provides context through globally accessible me
   - An account profile, other applications, help content, notifications, and search.
   - Positioning a consistent component to connect various Trimble applications.
 
-**Don’t use when**
+#### Don't use when
 
 - Building desktop applications employing frameworks similar to Windows Ribbon.
 - Building marketing websites.

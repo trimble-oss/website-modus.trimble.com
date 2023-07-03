@@ -17,11 +17,11 @@ The scrollbar is for both showing a user that content in a container overflows a
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - An area has scrolling content.
 
-**Don't use when**
+#### Don't use when
 
 - All the content is visible.
 - Horizontal scrolling can be replaced with a better option.

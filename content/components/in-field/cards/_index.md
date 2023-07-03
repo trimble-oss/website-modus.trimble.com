@@ -20,14 +20,14 @@ Cards are containers for displaying relevant and actionable information on a sin
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - You need to group information in a digestible form.
 - You need to offer a short entry point that is linked to more detailed content or a complex task.
 - Laying out single or multiple sets of related information in the same region of the page. Cards may include an image, a text summary, chips, and actions. Cards typically have similar widths, but heights should accommodate varying content.
 - Cards are commonly used on home or dashboard screens.
 
-**Don't use when**
+#### Don't use when
 
 - You need to show unrelated content types or actions in a single container.
 - You need to show content in multiple columns.

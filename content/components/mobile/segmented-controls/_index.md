@@ -17,12 +17,12 @@ Segmented controls allow users to make a single selection from a set of 2–5 op
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - You need to provide closely related choices that affect an object, state, or view.
 - You need to reduce cognitive load and/or other selection controls are inadequate.
 
-**Don’t use when**
+#### Don't use when
 
 - Enabling actions, such as adding, removing, or editing content.
 - Filtering or navigating content (use [Tabs](/components/mobile/tabs/) instead).
@@ -30,8 +30,8 @@ Segmented controls allow users to make a single selection from a set of 2–5 op
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                | Contributors |
-| ---------- | ------- | -------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

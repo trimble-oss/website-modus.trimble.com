@@ -19,7 +19,7 @@ Buttons are clickable elements that are used to trigger actions. Buttons are use
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Affording interaction to key behaviors and features.
 - Confirming or submitting information entered into a form.
@@ -31,7 +31,7 @@ Buttons are clickable elements that are used to trigger actions. Buttons are use
 - Creating an object within a group.
 - Applying a non-critical action to a dataset.
 
-**Don't use when**
+#### Don't use when
 
 - Displaying a collection of links to sections. Use links instead.
 - Linking to an external site. Use links instead.
@@ -40,7 +40,7 @@ Buttons are clickable elements that are used to trigger actions. Buttons are use
 
 ## Types
 
- In-field uses a mix of both color and structural progression for best contrast outside.
+In-field uses a mix of both color and structural progression for best contrast outside.
 
 ### Color Mix Progression
 

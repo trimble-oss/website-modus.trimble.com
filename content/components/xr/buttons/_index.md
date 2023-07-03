@@ -26,7 +26,7 @@ Far interaction works by default and the button can be triggered using Air Tap.
 
 ## Usage
 
-**Use when**
+#### Use When
 
 - Affording interaction to key behaviors and features.
 - Confirming or submitting information entered into a form.
@@ -38,7 +38,7 @@ Far interaction works by default and the button can be triggered using Air Tap.
 - Creating an object within a group.
 - Applying a non-critical action to a dataset.
 
-**Don't use when**
+#### Don't Use When
 
 - Triggering navigation interactions, i.e. pan, orbit, zoom.
 - Initiating navigation, i.e. teleport.
