@@ -15,13 +15,13 @@ The utility panel is designed to add additional content (usually on the right-ha
 
 ## Usage
 
-**Use when**
+#### Use When
 
 - You need extra content alongside the primary content.
 - You need to interact with the primary content (e.g. adding, editing, saving).
 - You want to provide supplemental tasks required by the underlying page.
 
-**Don’t use when**
+#### Don't Use When
 
 - You need to navigate between pages of an application. Instead, use [Side Navigation](/components/web/side-navigation/).
 - You need to display important warnings. Instead, use [Modal](/components/web/modal/).

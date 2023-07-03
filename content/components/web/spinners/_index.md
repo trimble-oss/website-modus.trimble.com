@@ -21,19 +21,19 @@ Spinners are used as indeterminate progress indicators to show the user that the
 <div class="guide-example-block d-flex">
   <div class="guide-sample text-center text-primary mx-3">
     <div class="spinner-border">
-    <span class="sr-only">Loading...</span>
+    <span class="sr-only visually-hidden">Loading...</span>
     </div>
   </div>
 </div>
 
 ## Usage
 
-**Use when**
+#### Use When
 
 - Indicating to the user that loading is occurring in the background.
 - Loading times are indeterminate.
 
-**Don't use when**
+#### Don't Use When
 
 - A loading scenario needs to indicate progress, usually with particularly long load times. Use a dynamically updating [Progress Bar](/components/web/progress-bars/) instead.
 - A main loading state is needed, such as an app initialization. In this case, forego our simple spinner, and opt to use a custom, branded one instead.

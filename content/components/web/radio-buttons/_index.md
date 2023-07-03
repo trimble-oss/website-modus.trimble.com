@@ -44,20 +44,19 @@ Radio buttons are used to afford a single selection from two or more options.
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Options are mutually exclusive.
 - Visibility and quick response is a priority.
 - Comparison of options needs to be clear.
 - You want to emphasize options.
 
-**Don’t use when**
+#### Don't use when
 
 - User can make multiple selections. Instead, use [Checkboxes](/components/web/checkboxes/).
 - You are providing more than 7 options.
 - You are attempting to highlight a preferred choice. Instead, use a [Dropdown](/components/web/dropdowns/).
 - When a large number of familiar options is available.
-
 
 {{< whats-changed-table >}}
 

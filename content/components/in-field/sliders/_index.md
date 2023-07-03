@@ -22,17 +22,17 @@ In circumstances where specific value entry is required, use the numeric input o
 
 ## Usage
 
-**Use when**
+#### Use When
 
 - Encouraging user exploration when setting a value or range of values, especially when that value has an immediate effect on system performance.
 
-**Don't use when**
+#### Don't Use When
 
 - Gathering information in a form (e.g., age or salary). Instead, use an input box.
 - Precise amount is needed and the scale is too large to afford precise interaction with the slider.
 - Adjusting settings with any delay in providing user feedback.
 
-{{< img src="/img/in-field/sliders-with-labels.svg" dark="/img/in-field/sliders-with-labels-dark.svg" width="100%" class="w-100" alt="sliders with Labels" >}}
+{{< img src="/img/in-field/sliders-with-labels.svg" dark="/img/in-field/sliders-with-labels-dark.svg" width="1088" height="222" class="w-100" alt="sliders with Labels" >}}
 
 {{< whats-changed-table >}}
 

@@ -19,7 +19,7 @@ The Rich Text Format (RTF) Editor is a design pattern consisting of a toolbar wi
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Text formatting is needed, such as:
   - Font family, style, weight, and size.
@@ -27,7 +27,7 @@ The Rich Text Format (RTF) Editor is a design pattern consisting of a toolbar wi
   - Bullet or numbered lists.
   - Adding or editing links with link text.
 
-**Don’t use when**
+#### Don't use when
 
 - Text formatting is not needed.
 

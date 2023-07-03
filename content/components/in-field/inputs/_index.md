@@ -18,7 +18,7 @@ Text inputs allow users to enter text into the user interface. They typically ap
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Gathering and validating user data.
 

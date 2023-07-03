@@ -20,11 +20,9 @@ The status bar is the operating system tray that goes across the top of the devi
 
 ## Usage
 
-**Use when**
+#### Use when
 
-- **Don't use when**
-
--
+#### Don't use when
 
 {{< whats-changed-table >}}
 

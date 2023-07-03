@@ -17,7 +17,7 @@ Accordions are containers that expand to reveal content progressively to limit t
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Some content can be hidden because it is not critical to the user’s task.
 - You want to declutter the interface or shorten pages to reduce scrolling when content is not crucial to read in full.
@@ -26,7 +26,7 @@ Accordions are containers that expand to reveal content progressively to limit t
 - All options and information are not critical to see at first.
 - Allowing users to hide controls and content, so they can better focus on their task.
 
-**Don’t use when**
+#### Don't use when
 
 - Providing an introductory element to a set of content which doesn’t need an expand and collapse functionality. Instead, use a [Navbar](/components/in-field/navbar/).
 - Hiding critical content solely to clean up the interface.
@@ -36,13 +36,12 @@ Accordions are containers that expand to reveal content progressively to limit t
 - Nesting too many layers. In other words, don’t place accordions within accordions.
 - Creating a set of visibly contained content, which doesn’t need an expand-and-collapse functionality. Instead, use a [Card](/components/in-field/cards/).
 
-
 {{< img src="/img/in-field/accordion-examples.svg" dark="/img/in-field/accordion-examples-dark.svg" width="850" alt="" >}}
 
 {{< whats-changed-table >}}
 
-| Date                         | Version | Notes                | Contributors |
-| ---------------------------- | ------- | -------------------- | ------------ |
-| 06/01/2022                   | 1.0.1   | Updated full layout. | M. Johns     |
+| Date       | Version | Notes                | Contributors |
+| ---------- | ------- | -------------------- | ------------ |
+| 06/01/2022 | 1.0.1   | Updated full layout. | M. Johns     |
 
 {{</ whats-changed-table >}}

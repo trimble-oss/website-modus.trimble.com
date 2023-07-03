@@ -17,7 +17,7 @@ Buttons express what action will occur when the user clicks or touches it. Butto
 
 ## Usage
 
-**Use when**
+#### Use When
 
 - Affording interaction to key behaviors and features.
 - Confirming or submitting information entered into a form.
@@ -29,7 +29,7 @@ Buttons express what action will occur when the user clicks or touches it. Butto
 - Creating an object within a group.
 - Applying a non-critical action to a dataset.
 
-**Don’t use when**
+#### Don't Use When
 
 - Displaying a collection of links to sections. Use links instead.
 - Linking to an external site. Use links instead.
@@ -93,7 +93,6 @@ There are two button progressions you can choose from: structural and color prog
     </tr>
   </tbody>
 </table>
-
 
 #### Color
 
@@ -184,8 +183,8 @@ There are two button progressions you can choose from: structural and color prog
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati   |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

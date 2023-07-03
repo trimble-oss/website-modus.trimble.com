@@ -21,14 +21,14 @@ An autocomplete dropdown allows the user to search and select one option from a 
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Searching and results can be auto-populated.
 - Application requires predictive, suggestive or instant search results.
 - Filtering list items.
 - Single selection from a list is necessary.
 
-**Don’t use when**
+#### Don't use when
 
 - Providing only two options. Instead, use [Radio Buttons](/components/web/radio-buttons/) or a [Switch](/components/web/switches/).
 

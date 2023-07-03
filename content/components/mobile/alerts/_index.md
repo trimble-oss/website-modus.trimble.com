@@ -16,11 +16,11 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Providing a user contextual information or status of an action they’re trying to complete in a specific element on the visible page.
 
-**Don’t use when**
+#### Don't use when
 
 - Providing a user with a message related to a page-level or out-of-view event, like completion of a report generation. Instead, use a [Toast](/components/mobile/toasts/).
 - Providing a user with a system-level message, like a network outage or browser incompatibility. Instead, use a [Modal](/components/mobile/modals/)
@@ -28,8 +28,8 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati   |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

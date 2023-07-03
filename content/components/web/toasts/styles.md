@@ -107,15 +107,16 @@ tags: [styles]
 
 ### Colors
 
+<!-- prettier-ignore-start -->
 | Element           | Property   | Color                                                                                                     |
 | ----------------- | ---------- | --------------------------------------------------------------------------------------------------------- |
 | Toast             | Color      | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff" >}}                    |
-|                   | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD=" " hexD="rgba(241,241,246,.15)" >}}                  |
+|                   | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD=" " hexD="rgba(241,241,246,.15)" >}}                 |
 |                   | Border     | {{< color-preview nameL="Black (10%)" hexL="rgba(0,0,0,.1)" nameD="Black (10%)" hexD="rgba(0,0,0,.1)" >}} |
 | Toast (Dark)      | Color      | {{< color-preview nameL="White" hexL="#fff" nameD="White" hexD="#ffffff" >}}                              |
 |                   | Background | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="Gray 10 (10%)" hexD="#171c1e80" >}}          |
 |                   | Border     | {{< color-preview nameL="Black (10%)" hexL="rgba(0,0,0,.1)" nameD="Gray 10" hexD="#171c1e" >}}            |
-| Toast (Primary)   | Color      | {{< color-preview nameL=" " hexL="#07599b" nameD="Gray Light" hexD="#f1f1f6" >}}                           |
+| Toast (Primary)   | Color      | {{< color-preview nameL=" " hexL="#07599b" nameD="Gray Light" hexD="#f1f1f6" >}}                          |
 |                   | Background | {{< color-preview nameL="Blue (10%)" hexL="#cfe1ee" nameD="Trimble Blue (10%)" hexD="#019aeb80" >}}       |
 |                   | Border     | {{< color-preview nameL="Blue" hexL="#0063a3" nameD="Trimble Blue" hexD="#019aeb" >}}                     |
 | Toast (Secondary) | Color      | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="Gray Light" hexD="#f1f1f6" >}}               |
@@ -131,3 +132,4 @@ tags: [styles]
 |                   | Background | {{< color-preview nameL="Green" hexL="#dfe9d6" nameD="Green (10%)" hexD="#1e8a4480" >}}                   |
 |                   | Border     | {{< color-preview nameL="Green Dark" hexL="#006638" nameD="Green" hexD="#1e8a44" >}}                      |
 {class="table table-sm table-bordered"}
+<!-- prettier-ignore-end -->

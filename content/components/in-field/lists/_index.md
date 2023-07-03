@@ -22,12 +22,12 @@ List items should be of a similar and obvious category of information (i.e., a l
 
 ## Usage
 
-**Use when**
+#### Use When
 
 - Creating vertical navigation.
 - Displaying options within a menu.
 
-**Don't use when**
+#### Don't Use When
 
 - Displaying tabular data. Instead, use a table.
 - Making lists of uncategorized information. Use groups of list items to organize similar content.

@@ -17,13 +17,13 @@ The scrollbar is for both showing a user that content in a container overflows a
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - An area has scrolling content.
 - Allow users to easily navigate through the content without having to zoom in and out or swipe.
 - If a touchscreen does not support gestures or the bar needs to be clearly visible, use button scrolling.
 
-**Don't use when**
+#### Don't use when
 
 - All the content is visible.
 - Horizontal scrolling can be replaced with a better option.

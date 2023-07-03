@@ -20,13 +20,13 @@ Pagination allows the user to easily find and navigate through large amounts of 
 
 ## Usage
 
-**Use when**
+#### Use When
 
 - Amount of content will take a long time to load/render.
 - If you want to browse the data by navigating through pages.
 - A table contains more than 30 items.
 - A page contains enough content to justify breaking it into smaller chunks to improve a user’s experience.
 
-**Don’t use when**
+#### Don't Use When
 
 - Using lazy load to load content as the user scrolls.

@@ -22,13 +22,13 @@ Use the Date & Time Picker to select a date or a date range from the calendar vi
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - User needs to choose a single date in a calendar.
 - User needs to choose a date range in a calendar.
 - Asking the user to input a specific time.
 
-**Don’t use when**
+#### Don't use when
 
 - User needs to pick multiple date ranges.
 - There are multiple date pickers on the page.

@@ -17,14 +17,14 @@ Tables are largely based on the [List](/components/mobile/lists/) component. Tab
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - User needs to easily scan and compare data.
 - User needs to view and edit data.
 - Manipulating and navigating through a large amount of data.
 - Previewing data before drilling down further.
 
-**Don’t use when**
+#### Don't use when
 
 - You only have a small data set.
 - A more detailed amount of information needs to be displayed by default.

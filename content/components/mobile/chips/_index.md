@@ -19,13 +19,13 @@ Chips represent a complex piece of information in a compact form, such as an ent
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Enabling and verifying user input.
 - Using tags or descriptive words to filter content.
 - Delineating and displaying options in a compact area. They are a good alternative to toggle buttons or checkboxes.
 
-**Don’t use when**
+#### Don't use when
 
 - There is only one option.
 
@@ -55,8 +55,8 @@ Input chips display information used in fields, such as an entity or different a
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati   |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

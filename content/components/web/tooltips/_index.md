@@ -39,23 +39,17 @@ A tooltip is a popup that displays information related to an element when the el
 
 ## Usage
 
-**Use when**
+#### Use When
 
 - Providing a short description of a page element or control.
 - Describing the action of an icon-only button.
 - Revealing the full text of truncated data.
 - Revealing the purpose of a menu that has a dynamic title.
 
-**Don’t use when**
+#### Don't Use When
 
 - Providing a description longer than 10 words.
 - Your application exists on mobile devices. There is no hover state to activate the tooltip.
-
-<script>
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip();
-});
-</script>
 
 {{< whats-changed-table >}}
 

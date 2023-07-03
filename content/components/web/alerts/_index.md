@@ -21,7 +21,7 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
 
 ### Usage
 
-**Use when**
+#### Use when
 
 - Providing a user contextual information or status of an action they’re trying to complete in a specific element on the visible page.
 
@@ -73,10 +73,10 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
   </tbody>
 </table>
 
-**Don’t use when**
+#### Don't use when
 
 - Providing a user with a message related to a page-level or out-of-view event, like completion of a report generation. Instead, use a [Toast](/components/web/toasts/).
-- Providing a user with a system-level message, like a network outage or browser incompatibility. Instead, use a [Modal](/components/web/modals/)
+- Providing a user with a system-level message, like a network outage or browser incompatibility. Instead, use a [Modal](/components/web/modals/).
 - Attaching an error message to an input.
 
 {{< whats-changed-table >}}

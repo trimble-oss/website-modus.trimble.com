@@ -17,12 +17,12 @@ Badges notify the user of a status, for example that there are new or unread mes
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - In proximity to notifications or user avatars with eye-catching appeal (e.g. displaying unread messages count).
 - Use for displaying quick, easily digestible bits of information.
 
-**Don’t use when**
+#### Don't use when
 
 - Displaying long strings of text.
 - An interactive element is needed, such as a [Button](/components/mobile/buttons/) or [Chip](/components/mobile/chips/).
@@ -50,11 +50,10 @@ Badges can be inserted into other elements.
 
 {{< img src="/img/mobile/badges-in-elements.svg" dark="/img/mobile/badges-in-elements-dark.svg" width="993" height="458" alt="Badges In Other Elements" loading="auto" >}}
 
-
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati   |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

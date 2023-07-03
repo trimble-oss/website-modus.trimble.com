@@ -29,7 +29,7 @@ One of the main goals of sending transactional emails is to instantaneously conn
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - You need to confirm a user’s action performed in the application, such as change of password, email confirmation, or change of system status
 - You need the system to automatically generate a message based on the user’s actions or system status change.
@@ -45,7 +45,7 @@ One of the main goals of sending transactional emails is to instantaneously conn
   - Security and account alerts
   - System/ product outage
 
-**Don't use when**
+#### Don't use when
 
 - You need to send
   - Marketing or promotional message
@@ -71,13 +71,14 @@ While the content of the transaction email is most important, the meta informati
 
 For example, this subject clearly identities the source and reason the user is receiving the email, with the product or solution.
 
-  **GOOD**: "Device 2 needs calibration - Product Name"
+**GOOD**: "Device 2 needs calibration - Product Name"
 
-  **BAD**: "Trimble Product Name - Device calibration alert"
+**BAD**: "Trimble Product Name - Device calibration alert"
 
 If you are not using the product or software name in the “from” address, you should begin your subject line with the product or solution name. The rest of the subject line should be used consistently and identically for that type of transactional email.
 
 _For example_:
+
 - SysQue Product Notification
 - SysQue Password Reset
 - SysQue System Outage
@@ -87,11 +88,13 @@ _For example_:
 All emails should be sent from Trimble subdomains (@subdomain.trimble.com), and should not be sent from the trimble.com primary domain (@trimble.com). It is also recommended that the domain used to send transactional emails is different from the domain for sending marketing emails, as the marketing emails may dilute the sender’s domain reputation. It should include a human-readable sender name to aid in scanning through the inbox. If you are using the product name in the “from” name, you can omit it from the subject line.
 
 **GOOD**:
+
 - support@sysque.trimble.com
 - help@legal.trimble.com
 - confirmation@store.trimble.com
 
 **BAD**:
+
 - support@trimble.com
 - legal@trimble.com
 - order@trimble.com
@@ -101,14 +104,17 @@ To secure a subdomain, submit your proposed domain name to the the Corporate Web
 **Reply-to Email Address**: If possible, avoid using “no-reply” email address. Ideally, the user can reply to the email and the reply will be sent to a monitored inbox.
 
 **BEST**:
+
 - reply@support.trimble.com
 - support-reply@mep.trimble.com
 - help-reply@legal.trimble.com
 
 **OK** (if unmonitored):
+
 - no-reply@mep.trimble.com
 
 **BAD**:
+
 - no-reply@trimble.com
 
 In cases when you must use a “no-reply” email address, we recommend including language in the email footer to provide the recipient with instructions for replying.
@@ -141,6 +147,7 @@ Background color should be Gray Light (`#f3f3f7`).
 
 **Content Area**
 The white canvas area of the email will hold the content and main message of your email. The content may include the following:
+
 - Header _required_
 - Subheader _optional_
 - Message _required_
@@ -177,9 +184,10 @@ A transactional email is triggered automatically by the user’s action within t
 Download the template
 </a>
 
-
 {{< whats-changed-table >}}
-| Date       | Version | Notes          | Contributors |
-| ---------- | ------- | -------------- | ------------ |
+
+| Date       | Version | Notes                | Contributors      |
+| ---------- | ------- | -------------------- | ----------------- |
 | 08/06/2021 | 1.2.0   | Newly added element. | Z. Kulpa, J. Dong |
+
 {{</ whats-changed-table >}}

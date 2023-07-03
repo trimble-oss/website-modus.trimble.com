@@ -24,11 +24,11 @@ It is likely that the software will not be able to function correctly until fixe
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - There is a system critical action the user must take. The user must stop work and immediately attend to a problem or error.
 
-**Don't use when**
+#### Don't use when
 
 - The user should attend to the issue but can carry on working for a time until the issue is resolved and/or the UI can sensibly be rendered while the issue is in play. Use a [Prompt](/components/in-field/prompts/) instead.
 - If there is minor information that is "nice-to-know" but does not require the user to take any action. Use a [Notification](/components/in-field/notifications/) for such scenarios, where basic information is conveyed to the user, but such information does not require user action.

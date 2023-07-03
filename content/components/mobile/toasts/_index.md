@@ -19,13 +19,13 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Notifying the user of global information, such as a change in server connection status.
 - Confirming the success of a global action.
 - Displaying quick snippets of information that disappear on their own after a set amount of time has passed.
 
-**Don't use when**
+#### Don't use when
 
 - Displaying critical information that require immediate user action. Instead, use an [Alert](/components/mobile/alerts/)
 - The information being displayed is highly contextual to the user action.

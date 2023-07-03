@@ -17,19 +17,19 @@ Messages display low priority content directly on the page and are not dismissab
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Providing the user with helpful, contextual information about a possible action or a set of data.
 
-**Don’t use when**
+#### Don't use when
 
 - Alerting the user of a high priority error. Instead, use an [Alert](/components/mobile/alerts/).
 - Alerting the user of an out-of-context event. Instead, use a [Toast](/components/mobile/toasts/).
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                               | Contributors |
-| ---------- | ------- | ----------------------------------- | ------------ |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati  |
+| Date       | Version | Notes                | Contributors                                                                                                                |
+| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

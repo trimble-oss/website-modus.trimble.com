@@ -19,7 +19,7 @@ The navbar or the app header provides context through globally accessible menu o
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Designing hybrid and web applications.
 - Positioning a primary navigation menu.
@@ -28,7 +28,7 @@ The navbar or the app header provides context through globally accessible menu o
   - An account profile, other applications, help content, notifications, and search.
   - Positioning a consistent component to connect various Trimble application
 
-**Don’t use when**
+#### Don't use when
 
 - Building native applications following platform specific user interface guidelines.
 - Building desktop applications employing frameworks similar to Windows Ribbon.

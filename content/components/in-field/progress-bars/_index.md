@@ -17,12 +17,12 @@ Progress indicators inform users about the status of ongoing processes, such as 
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - You want to reduce a user’s uncertainty. Reassure the user that your app/ website is working.
 - You want to reduce the user’s perception of time and offer them a reason to wait.
 
-**Don’t use when**
+#### Don't use when
 
 - You want to indicate progress inside smaller elements, such as buttons, chips, or badges.
 

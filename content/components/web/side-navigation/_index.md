@@ -23,11 +23,11 @@ There are other types of navigation that can be used along with the Side Nav: [B
 
 ## Usage
 
-**Use when**
+#### Use When
 
 - You need to navigate between multiple, static pages within the application.
 
-**Don't use when**
+#### Don't Use When
 
 - Your application only has one page of content.
 - You need to provide page-specific actions (such as Save, Edit, etc.). Use a Toolbar instead -- Coming soon!

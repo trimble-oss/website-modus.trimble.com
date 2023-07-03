@@ -22,13 +22,13 @@ tags: [styles]
 
 This scale is a plain thumb-up or thumb-down reaction.
 
-{{< img src="/img/components/sentiment-scale-two-example.svg" dark="/img/components/sentiment-scale-two-example-dark.svg" class="border bg-light" width="200" alt="Two-tier Sentiment Scale example" loading="auto" >}}
+{{< img src="/img/components/sentiment-scale-two-example.svg" dark="/img/components/sentiment-scale-two-example-dark.svg" class="bg-light" width="220" height="166" alt="Two-tier Sentiment Scale example" loading="auto" >}}
 
 **Five-tier sentiment scale:**
 
 This scale is used to measure user satisfaction from extremely positive to extremely negative sentiment levels. This scale is the most effective in delivering helpful results for future development.
 
-{{< img src="/img/components/sentiment-scale-five-example.svg" dark="/img/components/sentiment-scale-five-example-dark.svg" class="border bg-light" width="200" alt="Five-tier Sentiment Scale example" loading="auto" >}}
+{{< img src="/img/components/sentiment-scale-five-example.svg" dark="/img/components/sentiment-scale-five-example-dark.svg" class="bg-light" width="220" height="166" alt="Five-tier Sentiment Scale example" loading="lazy" >}}
 
 ### Behaviors
 

@@ -43,12 +43,12 @@ Lists are used to present information in well-formed and organized way. The user
 
 ## Usage
 
-**Use when**
+#### Use when
 
 - Creating vertical navigation.
 - Displaying options within a menu.
 
-**Don't use when**
+#### Don't use when
 
 - Displaying tabular data. Instead, use a [Table](/components/web/tables/).
 - Making lists of uncategorized information. Use groups of list items to organize similar content.
