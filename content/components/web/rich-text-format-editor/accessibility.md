@@ -7,8 +7,6 @@ componentsWeb: true
 component: rich-text-format-editor
 tags: [accessibility]
 hideToc: true
-private: true
-hidden: true
 ---
 
 ## Accessibility

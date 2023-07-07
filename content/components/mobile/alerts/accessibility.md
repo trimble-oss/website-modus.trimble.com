@@ -10,7 +10,7 @@ aliases:
 tags: [mobile, accessibility]
 ---
 
-### Accessibility
+## Accessibility
 
 - Include the `role="alert"` attribute.
 - An alert is a special kind of assertive ARIA live region, so screen readers should immediately interrupt anything they were previously saying and instead read the announcement. Most screen readers say "Alert," before reading the text inside the alert.
