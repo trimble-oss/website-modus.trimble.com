@@ -9,7 +9,7 @@ images:
 tags: [mobile, accessibility]
 ---
 
-### Accessibility
+## Accessibility
 
 - Availability of accordion content to assistive technology requires the use of `aria-controls` and toggling `aria-expanded` as regions are expanded and collapsed.
 - Each accordion header must have a unique title that clearly describes the accordion panel content so that assistive technology users have the necessary information to efficiently navigate the content without having to expand every section. The title of each accordion header should include the attribute `role="button"`.

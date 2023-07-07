@@ -1,7 +1,7 @@
 ---
 title: "Sliders"
 layout: "single"
-description: ""
+description: "Sliders allow users to make selections from a range of values."
 components: true
 componentsWeb: true
 component: sliders

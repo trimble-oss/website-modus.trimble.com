@@ -11,7 +11,7 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inpu
 tags: [accessibility]
 ---
 
-### Accessibility
+## Accessibility
 
 - Always use a `label`. Use a hidden `label`, or a `title` or `aria-label` attribute when a visible text label is not needed.
 - Associate form labels with controls.
