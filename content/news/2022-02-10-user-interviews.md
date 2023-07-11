@@ -39,10 +39,10 @@ You may be wondering what are some strategies you can use to create an interview
 
 - **Asking the right questions.** Be sure not to ask leading questions. Leave things neutral and open so that the interviewee can lead the conversation where it needs to go. Also, think about how you want to analyze the data ahead of time so you can design the question accordingly. If you want to understand the values of a user, ask questions about the “ideal state” or a “wish list” of features and then use values coding to analyze the responses.
 
-- **Leave a lot of space in the conversation.**  Oftentimes we want to fill in the silence, but the deep insights usually come after silent reflection.  Silence gives participants a chance to reflect and follow their thoughts on the topic. Think of silence as being just as constructive as the times we are talking.
+- **Leave a lot of space in the conversation.** Oftentimes we want to fill in the silence, but the deep insights usually come after silent reflection. Silence gives participants a chance to reflect and follow their thoughts on the topic. Think of silence as being just as constructive as the times we are talking.
 
-- **Honor the expertise of the user.**  Frequently, researchers will approach a conversation to get something from a user.  The user has a wealth of experience, knowledge, and insights that can help us create more user-centered experiences.  We want to learn from these stories so make sure they feel empowered as an expert of their own experience.
+- **Honor the expertise of the user.** Frequently, researchers will approach a conversation to get something from a user. The user has a wealth of experience, knowledge, and insights that can help us create more user-centered experiences. We want to learn from these stories so make sure they feel empowered as an expert of their own experience.
 
-- **Use a concept map.**  Interview scripts are helpful in guiding a conversation, but can sometimes lead to structuring the conversation.  Using a concept map during interviews can allow conversations to stay fluid and for the interviewer to adjust and pivot as needed in order to follow the interviewees’ lead.
+- **Use a concept map.** Interview scripts are helpful in guiding a conversation, but can sometimes lead to structuring the conversation. Using a concept map during interviews can allow conversations to stay fluid and for the interviewer to adjust and pivot as needed in order to follow the interviewees’ lead.
 
 ![Example of a concept map](/img/news/concept-map.png)

@@ -22,7 +22,7 @@ tags: [mobile, styles]
 
 - Always have a label next to the text field, either above, on the left side or login in the input.
 - Label text should always be visible.
-- Display the validation state clearly.  The validation message will replace Helper Text
+- Display the validation state clearly. The validation message will replace Helper Text
 - Try to make Label text concise. Where it must be longer (due to language translation), the label text can wrap to a second line. Truncate label at end of second line if absolutely necessary.
 - Don't add validation text under helper text, as their appearance will shift content.
 

@@ -4,6 +4,7 @@ layout: "single"
 description: "Step-by-step instructions how to contribute a design pattern to Modus."
 url: "/community/contribution-process/"
 community: true
+group: community
 hideToc: true
 ---
 

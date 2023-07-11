@@ -4,6 +4,7 @@ layout: "single"
 description: "Incremental design system adoption plan."
 url: "/community/adoption/"
 community: true
+group: community
 hideToc: true
 ---
 

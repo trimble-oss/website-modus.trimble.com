@@ -32,6 +32,3 @@ When reviewing the documentation, take under consideration the needs of your pro
 Thank you so much for taking the time to review the proposed guidelines for dark mode and providing your feedback! We appreciate your effort and contributions. Once we review the feedback from the community, we will make necessary revisions and dark mode will be implemented to Modus after the final approval by the UX Board.
 
 <a href="https://forms.gle/rX97Wnn5fUAV5rxX9" target="_blank" class="btn btn-primary">Submit your feedback</a>
-
-
-

@@ -33,11 +33,9 @@ Before we dive into a definition of what Dual-Track Agile Design is, it’s impo
 
   There are many different flavors of agile out there. At SketchUp, we prescribe to the Scaled Agile Framework® (SAFe®) - which allows us to implement agile practices such as incremental delivery, team collaboration, continual planning and learning at an enterprise scale. We prescribe to 12-week Product Increments (PI) and two-week sprints.
 
-
 - **Design Thinking** - A human-centered approach to innovation - anchored in understanding customer’s needs, rapid prototyping, and generating creative ideas.
 
   This approach really challenges product teams at SketchUp to seek to truly understand their user - challenging their own internal assumptions, and redefining problems in an attempt to identify alternative solutions.
-
 
 - **User-Centered Design** - An iterative design process in which designers and other key stakeholders focus on the users and their needs in each phase of the design process.
 
