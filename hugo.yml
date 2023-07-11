@@ -87,9 +87,6 @@ menu:
     - name: Device Support
       url: "/device-support/"
       weight: 3
-    - name: Submissions Status
-      url: "/submissions-status/"
-      weight: 4
 
   foundations:
     - name: Accessibility

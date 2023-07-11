@@ -4,6 +4,7 @@ layout: "single"
 description: "How to send us your work"
 url: "/community/submission-guidelines/"
 community: true
+group: community
 hideToc: true
 ---
 

@@ -4,7 +4,7 @@ layout: "single"
 description: "Collaborative, specialized teams to solve real design and usability problems."
 url: "/community/tiger-teams/"
 community: true
-# hideToc: true
+group: community
 ---
 
 Thank you for your interest in joining a Tiger Team! A Tiger Team is "a specialized, cross-functional team brought together to solve or investigate a specific problem or critical issue." [What is a Tiger Team?](https://www.lucidchart.com/blog/what-is-a-tiger-team)
@@ -25,7 +25,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 <!-- prettier-ignore-start -->
 | Team Name                                   | Team Members               | Start Date  |
 | ------------------------------------------- | -------------------------- | ----------- |
-| User Profile Dropdown Menu      | **N. Cadsawan**, G. Assi, A. Chandroo, J. Dong, A. Galstyan, K. Phillips  | 07/17/2023 |
+| User Profile Dropdown Menu                  | **N. Cadsawan**, G. Assi, A. Chandroo, J. Dong, A. Galstyan, K. Phillips  | 07/17/2023 |
 | Skeletons, Placeholders & Empty States      | **R. Stillwell**, J. de Wit, S. Farhat, I. Hong, M. Lee, M. Nawaz, C. Swilley  | 06/19/2023 |
 | Advanced Table Features                     | **M. Brinkman**, B. Brunner, N. Cadsawan, (M. Casale), C. Cuellar, (S. Farhat), A. Infante, W. Mezo-Gadia, K. Nguyen, J. Parr, C. Rodriguez, Krithika S, Z. Ward | 05/18/2023 |
 | Alerts, Messages, Notifications, and Toasts | **A. Chandroo**, J. Blackwell, E. Gunther, M. Johns, M. Manders, T. Ortiz, V. Sridharan, Priyanka V R | 05/17/2023 |

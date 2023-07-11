@@ -41,7 +41,6 @@ The Trimble UX Board
 
 Liisa, Marita, Minka, Eric, Ken, Victor and Ewa
 
-
 ## Want to learn more at Trimble?
 
 In the true spirit of learning for everyone and everywhere, **LearnFest** sessions are also scheduled for the same week, brought to you by the Global Learning Solutions and People Development team.
