@@ -117,7 +117,7 @@ Input chips can be in any of the following states:
         </button>
       </td>
       <td>
-        <button class="chip chip-outline chip-input hover" role="button">
+        <button class="chip chip-outline chip-input hover">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -131,7 +131,7 @@ Input chips can be in any of the following states:
     <tr>
       <th scope="row">Active</th>
       <td>
-        <button class="chip chip-solid chip-input active" role="button">
+        <button class="chip chip-solid chip-input active">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -142,7 +142,7 @@ Input chips can be in any of the following states:
         </button>
       </td>
       <td>
-        <button class="chip chip-outline chip-input active" role="button">
+        <button class="chip chip-outline chip-input active">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -156,7 +156,7 @@ Input chips can be in any of the following states:
     <tr>
       <th scope="row">Error</th>
       <td>
-        <button class="chip chip-solid chip-input error" role="button">
+        <button class="chip chip-solid chip-input error">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -167,7 +167,7 @@ Input chips can be in any of the following states:
         </button>
       </td>
       <td>
-        <button class="chip chip-outline chip-input error" role="button">
+        <button class="chip chip-outline chip-input error">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -181,7 +181,7 @@ Input chips can be in any of the following states:
     <tr>
       <th scope="row">Disabled</th>
       <td>
-        <button class="chip chip-solid chip-input disabled" role="button" disabled>
+        <button class="chip chip-solid chip-input disabled" disabled>
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" loading="lazy" height="24" width="24" alt="" />
           </div>
@@ -192,7 +192,7 @@ Input chips can be in any of the following states:
         </button>
       </td>
       <td>
-        <button class="chip chip-outline chip-input disabled" role="button" disabled>
+        <button class="chip chip-outline chip-input disabled" disabled>
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" loading="lazy" height="24" width="24" alt="" />
           </div>
@@ -210,22 +210,22 @@ Input chips can be in any of the following states:
 <div class="guide-example-block">
   <div class="guide-sample" id="filterChipsExample">
     <span class="h4 d-block">Choose Amenities</span>
-    <div class="chip chip-solid chip-filter mr-2 active">
+    <button class="chip chip-solid chip-filter mr-2 active">
       <div class="chip-icon-left"><i class="modus-icons notranslate" aria-hidden="true">check</i></div>
       <div class="chip-text">Elevator</div>
-    </div>
-    <div class="chip chip-solid chip-filter mr-2">
+    </button>
+    <button class="chip chip-solid chip-filter mr-2">
       <div class="chip-text">Pets OK</div>
-    </div>
-    <div class="chip chip-solid chip-filter mr-2">
+    </button>
+    <button class="chip chip-solid chip-filter mr-2">
       <div class="chip-text">Washer/Dryer</div>
-    </div>
-    <div class="chip chip-solid chip-filter mr-2">
+    </button>
+    <button class="chip chip-solid chip-filter mr-2">
       <div class="chip-text">Pool</div>
-    </div>
-    <div class="chip chip-solid chip-filter mr-2">
+    </button>
+    <button class="chip chip-solid chip-filter mr-2">
       <div class="chip-text">Free Wi-Fi</div>
-    </div>
+    </button>
   </div>
 </div>
 
