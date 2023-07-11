@@ -3,6 +3,7 @@ title: "Dark Mode"
 layout: "single"
 description: "A system-wide appearance setting that uses a dark color palette to provide a comfortable viewing experience tailored for low-light environments."
 foundations: true
+group: foundations
 bootstrapURL: "/foundations/dark-mode-theme/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/docs/introduction-getting-started--page#dark-mode"
 ---

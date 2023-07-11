@@ -2,10 +2,10 @@
 title: Join the Accessibility Tiger Team
 date: 2022-04-01
 description: "Are you passionate about accessibility and inclusive design? Join our new tiger team!"
-image: "/img/blog/headers/2021-01-08-tiger-team.jpg"
+image: "/img/blog/headers/2022-04-01-accessibility-tiger-team.jpg"
 images:
-  - /img/blog/headers/2021-01-08-tiger-team.jpg
-headerBgColor: "#E69335"
+  - /img/blog/headers/2022-04-01-accessibility-tiger-team.jpg
+headerBgColor: "#4a269b"
 tags: ["tiger", "team", "Accessibility"]
 author: Ewa Nowak
 blog: true

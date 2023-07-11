@@ -3,6 +3,7 @@ title: "Data Visualization"
 layout: "single"
 description: "Data visualization helps to communicate complex quantitative information."
 foundations: true
+group: foundations
 ---
 
 ## Overview

@@ -87,8 +87,8 @@ menu:
     - name: Device Support
       url: "/device-support/"
       weight: 3
-    - name: Status
-      url: "/status/"
+    - name: Submissions Status
+      url: "/submissions-status/"
       weight: 4
 
   foundations:
@@ -111,7 +111,7 @@ menu:
     - name: Shadows & Depth
       url: /foundations/shadows-and-depth/
     - name: Trimble ID (TID)
-      url: /foundations/tid/
+      url: /foundations/trimble-id/
     - name: Typography
       url: /foundations/typography/
     - name: User Assistance

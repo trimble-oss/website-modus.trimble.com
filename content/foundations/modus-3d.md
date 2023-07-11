@@ -3,6 +3,7 @@ title: "Modus 3D"
 layout: "single"
 description: "A guide to Trimble’s 3D UX and development patterns"
 foundations: true
+group: foundations
 url: "/foundations/modus-3d/"
 ---
 

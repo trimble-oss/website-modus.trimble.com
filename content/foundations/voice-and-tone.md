@@ -3,6 +3,7 @@ title: "Voice & Tone"
 layout: "single"
 description: "Brand voice is what you say. Brand tone is how you say it."
 foundations: true
+group: foundations
 ---
 
 ## Voice
@@ -16,8 +17,7 @@ future communities.
 
 ### What We Project
 
-As you can hear and read from Life’s Work, our voice is empowering to the user, and
-resonates with partners, and future customers. We as a company listen first and solve problems next. Our brand voice does that as well. Speak about the user first through insightful language, and Trimble second, as an enabling support.
+As you can hear and read from Life’s Work, our voice is empowering to the user, and resonates with partners, and future customers. We as a company listen first and solve problems next. Our brand voice does that as well. Speak about the user first through insightful language, and Trimble second, as an enabling support.
 
 Our voice projects _empathy, confidence and pride_.
 
@@ -25,10 +25,11 @@ Our voice projects _empathy, confidence and pride_.
   <thead class="thead-light">
     <tr>
       <th class="w-50">&nbsp;</th>
-      <th class="w-25">Our voice is</th>
-      <th class="w-25">Our voice is not</th>
+      <th class="w-25 text-success">Our voice is</th>
+      <th class="w-25 text-danger">Our voice is not</th>
     </tr>
   </thead>
+  <tbody>
   <tr>
     <td><strong>Empathy</strong><br>Trimble is empathetic, and understanding of the work, challenges and wins of our customers.</td>
     <td>• Humane and generous<br>• Forthcoming with knowledge and problem solving<br>• That of a partner</td>
@@ -44,6 +45,7 @@ Our voice projects _empathy, confidence and pride_.
     <td>• Customer-centric<br>• Focused on results and real-life use</td>
     <td>• Product centric<br>• Focused on technical details</td>
   </tr>
+  </tbody>
 </table>
 
 For examples and more information visit <https://brandfolder.com/trimble-brandfolder/trimble>.
@@ -102,10 +104,11 @@ _Examples:_
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th class="w-50">Yes</th>
-      <th class="w-50">No</th>
+      <th class="w-50 text-success">Yes</th>
+      <th class="w-50 text-danger">No</th>
     </tr>
   </thead>
+  <tbody>
   <tr>
     <td>Sign in</td>
     <td>Let’s get started</td>
@@ -147,7 +150,8 @@ _Examples:_
     <td>Your registration is complete.</td>
   </tr>
   <tr>
-    <td>Something went wrong with the connection. Check your internet connection and try again.   Try again >> </td>
+    <td>Something went wrong with the connection. Check your internet connection and try again. Try again >> </td>
     <td>Connection failed.</td>
   </tr>
+  </tbody>
 </table>
