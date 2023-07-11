@@ -3,6 +3,7 @@ title: "User Assistance"
 layout: "single"
 description: "Framework unifying products, establishing a standardized taxonomy, and hierarchical structure for organizing help assets."
 foundations: true
+group: foundations
 ---
 
 In Trimble's pursuit of connectivity and scalability, Modus aims to harmonize the way users access help. Through various acquisitions and multiple teams working across many products it is important to strive for consistency of user assistance in help menus. This article serves to provide a comprehensive framework that will unify Trimble products, establishing a standardized taxonomy and hierarchical structure for organizing help assets.

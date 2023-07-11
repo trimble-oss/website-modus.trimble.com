@@ -3,6 +3,7 @@ title: "Logo Usage"
 layout: "single"
 description: "Trimble logo guidelines and resources."
 foundations: true
+group: foundations
 ---
 
 <img src="/img/trimble-logo.svg" width="320" class="mb-2" alt="Trimble Logo">

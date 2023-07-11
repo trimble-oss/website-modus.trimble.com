@@ -3,6 +3,9 @@ title: "Trimble ID (TID)"
 layout: "single"
 description: "Branding the TID Sign-In Page."
 foundations: true
+group: foundations
+aliases:
+  - "/foundations/tid/"
 ---
 
 For more information, please visit the [TID v4 Documentation site](https://docs.trimblecloud.com/identity_v4.0/). _You will need to sign in with your TID to view the site._

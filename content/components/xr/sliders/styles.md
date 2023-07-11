@@ -17,11 +17,12 @@ tags: [xr, styles]
 - When a label is visible, it should clearly communicate the purpose of the range input and its values (min, max, step, value).
 
 **Behaviors**
+
 - Adjust a slider’s value(s) through pinch or grab its handle(s).
 - Hovering over an active slider’s handle will change the default state to hover.
 - Changes made with sliders are immediate.
 
-***Touch = UIs placed at 50cm (~20 Inch) from users***
+**_Touch = UIs placed at 50cm (~20 Inch) from users_**
 
 <table class="table table-bordered">
   <thead class="thead-light">

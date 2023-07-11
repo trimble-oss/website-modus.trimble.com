@@ -3,6 +3,7 @@ title: "Accessibility"
 layout: "single"
 description: "Modus guidelines ensure Trimble products are accessible to users with disabilities."
 foundations: true
+group: foundations
 ---
 
 ## Introduction

@@ -3,6 +3,7 @@ title: "Icon Definitions"
 layout: "single"
 description: "Trimble guidelines of how to use and design icons."
 foundations: true
+group: foundations
 ---
 
 <style>
@@ -33,7 +34,7 @@ These guidelines are intended to be for only desktop, mobile, and web apps. Futu
 
 ## Icon Types
 
-Trimble uses different types of icons to portray relevant information or functionality. Icons can be  informational or signal to the user an interactive element. Icons used within interactive elements have hover and active states. Informational icons (charms) usually provide redundant images that reinforce the meaning of adjacent text in order to provide clarity to the user. They are not interactive and have no hover or active states: hovering or clicking on them does nothing. When using both interactive and informational icons in the same interface, it is best to provide a visual distinction between them, so the user knows which icons they can interact with.
+Trimble uses different types of icons to portray relevant information or functionality. Icons can be informational or signal to the user an interactive element. Icons used within interactive elements have hover and active states. Informational icons (charms) usually provide redundant images that reinforce the meaning of adjacent text in order to provide clarity to the user. They are not interactive and have no hover or active states: hovering or clicking on them does nothing. When using both interactive and informational icons in the same interface, it is best to provide a visual distinction between them, so the user knows which icons they can interact with.
 
 ## Design Principles
 
