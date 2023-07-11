@@ -39,7 +39,7 @@ There are two sizes of Chips:
     <tr style="height:80px">
       <th scope="row">Default</th>
       <td class="anatomy-cell text-center">
-        <div class="chip chip-solid chip-input anatomy-display-static" data-anatomy-colors="false" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="left" data-content="<small><b>font-size:</b> 13px<br><b>border-radius:</b> 16px<br></small>">
+        <button class="chip chip-solid chip-input anatomy-display-static" data-anatomy-colors="false" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="left" data-content="<small><b>font-size:</b> 13px<br><b>border-radius:</b> 16px<br></small>">
         <div class="chip-thumbnail">
           <img src="/img/headshot.png" height="24" width="24" alt="" />
         </div>
@@ -47,20 +47,20 @@ There are two sizes of Chips:
         <div class="chip-delete-right">
           <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
         </div>
-      </div>
+      </button>
       </td>
       <td>30px</td>
     </tr>
     <tr style="height:80px">
       <th scope="row">Small</th>
       <td class="anatomy-cell text-center">
-        <div class="chip chip-sm chip-solid chip-input anatomy-display-static" data-anatomy-colors="false" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="left" data-content="<small><b>font-size:</b> 12px<br><b>border-radius:</b> 16px<br></small>">
+        <button class="chip chip-sm chip-solid chip-input anatomy-display-static" data-anatomy-colors="false" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="left" data-content="<small><b>font-size:</b> 12px<br><b>border-radius:</b> 16px<br></small>">
         <div class="chip-thumbnail">
           <img src="/img/headshot.png" height="16" width="16" alt="">
         </div>
         <div class="chip-text">Jane</div>
         <div class="chip-delete-right"><i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i></div>
-      </div>
+      </button>
       </td>
       <td>24px</td>
     </tr>
@@ -81,7 +81,7 @@ Input chips can be in any of the following states:
     <tr>
       <th scope="row">Default</th>
       <td>
-        <div class="chip chip-solid chip-input">
+        <button class="chip chip-solid chip-input">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -89,24 +89,24 @@ Input chips can be in any of the following states:
           <div class="chip-delete-right">
             <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
-        </div>
+        </button>
       </td>
       <td>
-        <div class="chip chip-outline chip-input">
+        <button class="chip chip-outline chip-input">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
-          <div class="chip-text">Jeff</div>
+          <div class="chip-text">Jane</div>
           <div class="chip-delete-right">
             <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
-        </div>
+        </button>
       </td>
     </tr>
     <tr>
       <th scope="row">Hover</th>
       <td>
-        <div class="chip chip-solid chip-input hover">
+        <button class="chip chip-solid chip-input hover">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -114,24 +114,24 @@ Input chips can be in any of the following states:
           <div class="chip-delete-right">
             <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
-        </div>
+        </button>
       </td>
       <td>
-        <div class="chip chip-outline chip-input hover">
+        <button class="chip chip-outline chip-input hover">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
-          <div class="chip-text">Jeff</div>
+          <div class="chip-text">Jane</div>
           <div class="chip-delete-right">
             <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
-        </div>
+        </button>
       </td>
     </tr>
     <tr>
       <th scope="row">Active</th>
       <td>
-        <div class="chip chip-solid chip-input active">
+        <button class="chip chip-solid chip-input active">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -139,24 +139,24 @@ Input chips can be in any of the following states:
           <div class="chip-delete-right">
             <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
-        </div>
+        </button>
       </td>
       <td>
-        <div class="chip chip-outline chip-input active">
+        <button class="chip chip-outline chip-input active">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
-          <div class="chip-text">Jeff</div>
+          <div class="chip-text">Jane</div>
           <div class="chip-delete-right">
             <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
-        </div>
+        </button>
       </td>
     </tr>
     <tr>
       <th scope="row">Error</th>
       <td>
-        <div class="chip chip-solid chip-input error">
+        <button class="chip chip-solid chip-input error">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -164,24 +164,24 @@ Input chips can be in any of the following states:
           <div class="chip-delete-right">
             <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
-        </div>
+        </button>
       </td>
       <td>
-        <div class="chip chip-outline chip-input error">
+        <button class="chip chip-outline chip-input error">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
-          <div class="chip-text">Jeff</div>
+          <div class="chip-text">Jane</div>
           <div class="chip-delete-right">
             <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
-        </div>
+        </button>
       </td>
     </tr>
     <tr>
       <th scope="row">Disabled</th>
       <td>
-        <div class="chip chip-solid chip-input disabled">
+        <button class="chip chip-solid chip-input disabled" disabled>
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" loading="lazy" height="24" width="24" alt="" />
           </div>
@@ -189,18 +189,18 @@ Input chips can be in any of the following states:
           <div class="chip-delete-right">
             <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
-        </div>
+        </button>
       </td>
       <td>
-        <div class="chip chip-outline chip-input disabled">
+        <button class="chip chip-outline chip-input disabled" disabled>
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" loading="lazy" height="24" width="24" alt="" />
           </div>
-          <div class="chip-text">Jeff</div>
+          <div class="chip-text">Jane</div>
           <div class="chip-delete-right">
             <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
           </div>
-        </div>
+        </button>
       </td>
     </tr>
   </tbody>
@@ -210,22 +210,22 @@ Input chips can be in any of the following states:
 <div class="guide-example-block">
   <div class="guide-sample" id="filterChipsExample">
     <span class="h4 d-block">Choose Amenities</span>
-    <div class="chip chip-solid chip-filter mr-2 active">
+    <button class="chip chip-solid chip-filter mr-2 active">
       <div class="chip-icon-left"><i class="modus-icons notranslate" aria-hidden="true">check</i></div>
       <div class="chip-text">Elevator</div>
-    </div>
-    <div class="chip chip-solid chip-filter mr-2">
+    </button>
+    <button class="chip chip-solid chip-filter mr-2">
       <div class="chip-text">Pets OK</div>
-    </div>
-    <div class="chip chip-solid chip-filter mr-2">
+    </button>
+    <button class="chip chip-solid chip-filter mr-2">
       <div class="chip-text">Washer/Dryer</div>
-    </div>
-    <div class="chip chip-solid chip-filter mr-2">
+    </button>
+    <button class="chip chip-solid chip-filter mr-2">
       <div class="chip-text">Pool</div>
-    </div>
-    <div class="chip chip-solid chip-filter mr-2">
+    </button>
+    <button class="chip chip-solid chip-filter mr-2">
       <div class="chip-text">Free Wi-Fi</div>
-    </div>
+    </button>
   </div>
 </div>
 
