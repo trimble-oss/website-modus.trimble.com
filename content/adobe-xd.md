@@ -12,7 +12,7 @@ Adobe XD is a vector graphics editor and prototyping tool, which is primarily we
 
 ## 1. Install Adobe XD
 
-To design with the Modus XD UI Kit you should have the most recent version of Adobe XD installed. [Download Adobe XD here.](https://www.adobe.com/products/xd.html)
+To design with the Modus XD UI Kit you should have the most recent version of [Adobe XD](https://www.adobe.com/products/xd.html) installed.
 
 ## 2. Get the Library
 
