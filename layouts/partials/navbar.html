@@ -14,24 +14,24 @@
           <li class="nav-item mx-sm-1 mx-md-2 mt-1 dropdown">
             <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true"
               aria-expanded="false">{{- .Name -}}</a>
-        <div class="dropdown-menu px-2 rounded">
-          {{ range .Children }}
-          <a class="dropdown-item text-dark rounded border-0 px-3 py-2" href="{{- .URL -}}">
-            <div class="d-flex flex-row">
-              <div>
-              {{ with .Pre }}
-              {{- . -}}
-              {{- end -}}</div>
-            <div>
-              <div class="dropdown-item-title">{{- .Name -}}</div>
-              <p class="mb-0 small text-muted">{{ with .Post }}
-                {{- . -}}
-              {{ end }}</p>
+            <div class="dropdown-menu px-2 rounded">
+              {{ range .Children }}
+              <a class="dropdown-item text-dark rounded border-0 px-3 py-2" href="{{- .URL -}}">
+                <div class="d-flex flex-row">
+                  <div>
+                    {{ with .Pre }}
+                    {{- . -}}
+                    {{- end -}}</div>
+                  <div>
+                    <div class="dropdown-item-title">{{- .Name -}}</div>
+                    <p class="mb-0 small text-muted">{{ with .Post }}
+                      {{- . -}}
+                      {{ end }}</p>
+                  </div>
+                </div>
+              </a>
+              {{- end -}}
             </div>
-          </div>
-          </a>
-          {{- end -}}
-        </div>
           </li>
           {{ else }}
           <li class="nav-item mx-0 mx-sm-1 mx-md-2 mt-1">
@@ -41,29 +41,31 @@
           </li>
           {{- end -}}
           {{- end -}}
-          </ul>
-          {{ partial "search" . }}
-          {{ partial "theme-toggle" . }}
-          <div class="dropdown">
-            <button class="btn btn-icon-only btn-lg d-lg-none ml-auto px-1 ml-1" type="button" data-toggle="dropdown"
-    data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
-    {{ partial "icons/modus-outlined/more-vertical.svg" (dict "class" "text-white" "width" "26" "height" "26") }}
-  </button>
-  <div class="dropdown-menu d-lg-none" style="left: -166px;">
-    {{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
-    {{ if .HasChildren }}
-      <small class="nav-link opacity-75" hidden>{{- .Name -}}</small>
-    {{ range .Children }}
-    <a class="dropdown-item text-dark" href="{{- .URL -}}" style="min-width:208px!important">Components ({{- .Name -}})</a>
-    </a>
-    {{- end -}}
-    {{ else }}
-    <a class="dropdown-item text-dark {{if ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{- .URL -}}">
-      {{- .Name -}}
-           </a>
-           {{- end -}}
-           {{- end -}}
+        </ul>
+        {{ partial "search" . }}
+        {{ partial "btn-theme-toggle" . }}
+        <div class="dropdown">
+          <button class="btn btn-icon-only btn-lg d-lg-none ml-auto px-1 ml-1" type="button" data-toggle="dropdown"
+            data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+            {{ partial "icons/modus-outlined/more-vertical.svg" (dict "class" "text-white" "width" "26" "height" "26") }}
+          </button>
+          <div class="dropdown-menu d-lg-none" style="left: -166px;">
+            {{ $currentPage := . }}
+            {{ range .Site.Menus.main }}
+            {{ if .HasChildren }}
+            <small class="nav-link opacity-75" hidden>{{- .Name -}}</small>
+            {{ range .Children }}
+            <a class="dropdown-item text-dark" href="{{- .URL -}}" style="min-width:208px!important">Components
+              ({{- .Name -}})</a>
+            </a>
+            {{- end -}}
+            {{ else }}
+            <a class="dropdown-item text-dark {{if ($currentPage.HasMenuCurrent "main" .) }} active{{end}}"
+              href="{{- .URL -}}">
+              {{- .Name -}}
+            </a>
+            {{- end -}}
+            {{- end -}}
           </div>
         </div>
       </div>

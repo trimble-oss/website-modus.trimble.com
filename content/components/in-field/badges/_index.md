@@ -11,7 +11,7 @@ aliases:
   - badge
 ---
 
-{{< img src="/img/in-field/badges.svg" dark="/img/in-field/badges-dark.svg" class="w-100" width="979" height="228" alt="Badges" loading="auto" >}}
+{{< img src="/img/in-field/badges.svg" dark="/img/in-field/badges-dark.svg" class="w-100" width="979" height="228" alt="Badges examples" loading="auto" >}}
 
 ## Overview
 
@@ -31,7 +31,7 @@ Badges notify the user of a status, for example that there are new or unread mes
 
 **Example**
 
-{{< img src="/img/in-field/badges-example.svg" dark="/img/in-field/badges-example-dark.svg" class="w-100" width="100%" alt="Badges Example" >}}
+{{< img src="/img/in-field/badges-example.svg" dark="/img/in-field/badges-example-dark.svg" class="w-100" width="979" height="239" alt="Badges Example" >}}
 
 {{< whats-changed-table >}}
 
