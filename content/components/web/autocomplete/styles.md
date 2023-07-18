@@ -15,7 +15,7 @@ tags: [styles]
 
 <div class="theme-l">
 
-![Anatomy](/img/components/autocomplete-anatomy.svg)
+![Autocomplete Anatomy](/img/components/autocomplete-anatomy.svg)
 
 </div>
 

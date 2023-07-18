@@ -33,7 +33,7 @@ tags:
 | ------------------------------------------------------------- | ------------------- | ------------------ | ------------------------ | ----------------------- |
 | [Accordions](/components/accordions/)                         | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Alerts](/components/alerts/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
-| [Autocomplete](/components/autocomplete/)                     | {{< ico-check >}} |                    | {{< ico-uc >}}           | {{< ico-check >}}       |
+| [Autocomplete](/components/autocomplete/)                     | {{< ico-check >}} |                    |                          | {{< ico-check >}}       |
 | [Badges](/components/badges/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Breadcrumbs](/components/breadcrumbs/)                       | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Buttons](/components/buttons/)                               | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
@@ -52,7 +52,7 @@ tags:
 | [Pagination](/components/pagination/)                         | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Progress Bars](/components/progress-bars/)                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Radio Buttons](/components/radio-buttons/)                   | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
-| [Side Navigation Panel](/components/side-navigation/)         | {{< ico-check >}} |                    | {{< ico-uc >}}           | {{< ico-check >}}       |
+| [Side Navigation Panel](/components/side-navigation/)         | {{< ico-check >}} |                    |                          | {{< ico-check >}}       |
 | [Sliders](/components/sliders/)                               | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Spinners](/components/spinners/)                             | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Switches](/components/switches/)                             | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
@@ -66,5 +66,3 @@ tags:
 ### Key
 
 {{< ico-check >}}: Available
-
-{{< ico-uc >}} : Under Construction
