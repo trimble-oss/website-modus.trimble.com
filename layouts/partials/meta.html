@@ -1,7 +1,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+<title>{{- if .IsHome -}}{{- .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title -}}{{- end -}}</title>
 
+<!-- Removes the .no-js class from the <html> element if JavaScript is enabled -->
 <script>document.documentElement.classList.remove('no-js');</script>
 <!-- Theme Toggle  -->
 {{ $themeToggle := resources.Get "js/theme-toggle.js" }}
@@ -23,8 +24,8 @@
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}?v{{ hugo.Version }}">
 
 <!-- Load jQuery from CDN with fallback -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.6.4.min.js"><\/script>');</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.7.0.min.js"><\/script>');</script>
 
 {{ if .IsHome -}}
 {{ hugo.Generator }}
@@ -36,7 +37,7 @@
 {{ if not .Params.noIcons -}}
 <link rel="stylesheet" href="/css/modus-icons.css">
 {{ else }}
-<link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL}}index.xml"
+<link rel="alternate" type="application/rss+xml" href="{{- .Site.BaseURL -}}index.xml"
   title="{{ .Site.Title }} News & Articles" />
 {{- end }}
 
@@ -64,9 +65,9 @@
 <!-- Polyfill for Internet Explorer stuff -->
 <script nomodule crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
-{{- if not .Params.hideSearch -}}
+{{ if not .Params.hideSearch }}
 <script>
-  var baseurl = "{{.Site.BaseURL}}";
+  var baseurl = "{{- .Site.BaseURL -}}";
 </script>
 
 <!-- Combines and minifies the 3x JS files which are used for the Search -->
@@ -74,7 +75,7 @@
 {{ $lunr := resources.Get "js/lunr.min.js" }}
 {{ $search := resources.Get "js/search.min.js" }}
 {{ $js := slice $autocomplete $lunr $search | resources.Concat "js/search.js" | resources.Minify }}
-<script src="{{ $js.RelPermalink }}" fetchpriority="low"></script>
+<script src="{{- $js.RelPermalink -}}" fetchpriority="low"></script>
 {{- end -}}
 
 <!-- Show custom 'LOC' favicon for serving locally -->

@@ -35,7 +35,7 @@ The overall idea behind Trimble components in dark mode can be categorized on hi
 
 ![Dark Mode Toasts example](/img/foundations/dark-mode-toasts.png)
 
-For detailed components specifications, refer to [the Adobe XD beta UI kit](https://xd.adobe.com/view/6e4719f4-2da4-4db6-9bdb-609bccffcf46-3b14/grid/) in dark mode. **Dark mode will soon be available in the style guide, Figma, and all code components.**
+For detailed components specifications, refer to [the Adobe XD UI kit](https://xd.adobe.com/view/6e4719f4-2da4-4db6-9bdb-609bccffcf46-3b14/grid/) in dark mode.
 
 ## Accessibility
 
@@ -71,4 +71,3 @@ Some disadvantages of dark mode include:
 | 06/28/2022 | 1.3.0   | New guidelines added. | S. Kaukomen, A. C. Sivaraman, E. Gunther, J. de Wit, K. Phillips, M. Johns, P. Borgstein, T. Williams, U. Meza |
 
 {{</ whats-changed-table >}}
-
