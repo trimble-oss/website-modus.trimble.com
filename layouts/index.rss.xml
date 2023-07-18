@@ -1,37 +1,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ .Site.Title }}</title>
-    <link>{{ .Site.BaseURL }}</link>
+    <title>{{- .Site.Title -}}</title>
+    <link>{{- .Site.BaseURL -}}</link>
     <description>Recent content for {{ .Site.Title }}</description>
-    <icon>{{ .Site.BaseURL }}icon.png</icon>
+    <icon>{{- .Site.BaseURL -}}icon.png</icon>
     <copyright>Copyright {{ now.Format "2006" }}, {{ .Site.Params.copyrightHolder }}</copyright>
     {{- with .Site.LanguageCode }}
-      <language>{{.}}</language>
+      <language>{{- .- }}</language>
     {{- end}}
     {{- with .Site.Params.copyrightHolderEmail }}
-      <managingEditor>{{.}} ({{ $.Site.Params.copyrightHolder }})</managingEditor>
+      <managingEditor>{{.}} ({{- $.Site.Params.copyrightHolder -}})</managingEditor>
     {{- end}}
     {{- with .Site.Params.copyrightHolderEmail }}
-      <webMaster>{{.}} ({{ $.Site.Params.copyrightHolder }})</webMaster>
+      <webMaster>{{.}} ({{- $.Site.Params.copyrightHolder -}})</webMaster>
     {{- end}}
     {{- with .Site.Params.docsUrlForRssV2}}
-      <docs>{{ . }}</docs>
+      <docs>{{- . -}}</docs>
     {{- end }}
     {{- if not .Date.IsZero }}
-      <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+      <lastBuildDate>{{- .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</lastBuildDate>
     {{- end }}
     {{ with .OutputFormats.Get "RSS" }}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{ end }}
     {{ range first 7 (where .Site.RegularPages.ByPublishDate.Reverse ".Section" "not in" "addons") }}
      <item>
-      <title>{{ .Title }}</title>
-      <link>{{ .Permalink }}</link>
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      <title>{{- .Title -}}</title>
+      <link>{{- .Permalink -}}</link>
+      <pubDate>{{- .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML -}}</pubDate>
       {{ with $.Site.Params.copyrightHolderEmail }}<author>{{.}} ({{ with $.Site.Params.copyrightHolder }}{{.}}){{end}}</author>{{end}}
-      <guid isPermaLink="true">{{ .Permalink }}</guid>
+      <guid isPermaLink="true">{{- .Permalink -}}</guid>
       {{- range .Params.tags }}
-        <category>{{ . | urlize }}</category>
+        <category>{{- . | urlize -}}</category>
       {{- end }}
       <description>
         {{- with .Params.headline }}&lt;h2&gt;{{ . }}&lt;/h2&gt;{{- end }}
@@ -42,7 +42,7 @@
         {{- end }}
         {{ .Content | html }}
       </description>
-      <source url="{{ .Site.BaseURL }}index.xml">{{ .Site.Title }}</source>
+      <source url="{{- .Site.BaseURL -}}index.xml">{{- .Site.Title -}}</source>
     </item>
     {{ end }}
   </channel>
