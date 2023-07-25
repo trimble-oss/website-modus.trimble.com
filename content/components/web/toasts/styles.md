@@ -16,7 +16,7 @@ tags: [styles]
 
 ## Specifications
 
-- Container (Height: 42px; Radius: 2px; Padding: 16px; Margin: 16px; solid color; no border; [level 3 shadow](/foundations/shadows-and-depth/)) _required_
+- Container (Height: 42px; Radius: 2px; Padding: 16px; Margin: 16px; solid color; [level 3 shadow](/foundations/shadows-and-depth/)) _required_
 - Toast text (Font: Open Sans Semibold 14px) _required_
 - Leading non-interactive icon (16x16px) _optional_
 - Trailing close icon (16x16px) or a Text Only [Button](/components/web/buttons/) _optional_
