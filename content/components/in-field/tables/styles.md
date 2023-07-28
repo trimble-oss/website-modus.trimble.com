@@ -14,8 +14,8 @@ tags: [in-field, styles]
 ### Typography
 
 <!-- prettier-ignore-start -->
-| Class     | Font Size    | Font Weight   | Font Color                                                                                   | Text Transform     |
-| --------- | ------------ | ------------- | -------------------------------------------------------------------------------------------- | ------------------ |
+| Class     | Font size    | Font weight  | Font color                                                                                   | Text transform     |
+| --------- | ------------ | ------------ | -------------------------------------------------------------------------------------------- | ------------------ |
 | Header    | Body-3/ 22dp | regular/ 400 | {{< color-preview nameL="Gray 10" hexL="#171C1E" nameD="White" hexD="#fff" >}}                | Title Case         |
 | Row       | Body-3/ 22dp | regular/ 400 | {{< color-preview nameL="Gray 10" hexL="#171C1E" nameD="White" hexD="#fff" >}}                | None               |
 | Link Text | Body-3/ 22dp | regular/ 400 | {{< color-preview nameL="Blue Light" hexL="#217CBB" nameD="Highlight Blue" hexD="#019AEB" >}} | Underline on hover |

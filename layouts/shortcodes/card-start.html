@@ -15,25 +15,29 @@
         </div>
         {{- end -}}
         <h3>
-         {{- .Get "title" -}}
+          {{- .Get "title" -}}
         </h3>
         <p>
+          {{- if (.Params.badge) -}}
+          <span class="badge badge-secondary rounded-lg">{{- .Get "badge" -}}</span>
+          {{ end }}
           {{- if (.Params.url) -}}
-          <a href="{{- .Get "url" -}}"
-          {{- if (.Params.target) -}}target="{{- .Get "target" -}}"{{ end }}
-          class="stretched-link">
-        </a>
+          <a href="{{- .Get "url" -}}" {{- if (.Params.target) -}}target="{{- .Get "target" -}}" {{ end }}
+            class="stretched-link">
+          </a>
           {{- end -}}
           {{- .Inner | markdownify -}}
         </p>
         {{- if (.Params.github) -}}
         <div class="row">
           <div class="col-6">
-            <iframe src='https://ghbtns.com/github-btn.html?user=trimble-oss&repo={{.Get "github"}}&type=star&count=true'
+            <iframe
+              src='https://ghbtns.com/github-btn.html?user=trimble-oss&repo={{.Get "github"}}&type=star&count=true'
               class="bg-transparent" scrolling="0" width="150" height="20" title="GitHub" loading="lazy"></iframe>
           </div>
           <div class="col-6">
-            <iframe src='https://ghbtns.com/github-btn.html?user=trimble-oss&repo={{.Get "github"}}&type=fork&count=true'
+            <iframe
+              src='https://ghbtns.com/github-btn.html?user=trimble-oss&repo={{.Get "github"}}&type=fork&count=true'
               class="bg-transparent" scrolling="0" width="150" height="20" title="GitHub" loading="lazy"></iframe>
           </div>
         </div>

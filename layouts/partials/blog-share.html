@@ -47,9 +47,9 @@
   shareButton.addEventListener('click', event => {
     if (navigator.share) {
       navigator.share({
-        title: '{{ .Title }} | {{ .Site.Title }}',
+        title: '{{- .Title }} | {{ .Site.Title -}}',
         text: '{{- .Description -}}',
-        url: '{{ .Permalink }}'
+        url: '{{- .Permalink -}}'
       }).then(() => {
         console.log('Thanks for sharing!');
       })

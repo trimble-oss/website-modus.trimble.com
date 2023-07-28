@@ -30,11 +30,11 @@ There are three types of tabs:
 - Icon only.
 
 <!-- prettier-ignore-start -->
-| State     | Example                                                | Height |
-| --------- | ------------------------------------------------------ |--------|
-| Text Only | {{< img src="/img/in-field/tabs-text.svg" dark="/img/in-field/tabs-text-dark.svg" alt="" >}}                                                        | 56dp   |
-| Text & Icon |  {{< img src="/img/in-field/tabs-text-icon.svg" dark="/img/in-field/tabs-text-icon-dark.svg" alt="" >}}                                                       | 80dp   |
-| Icon Only | {{< img src="/img/in-field/tabs-icon.svg" dark="/img/in-field/tabs-icon-dark.svg" alt="" >}}                                                       | 72dp   |
+| State       | Example                                                                                                | Height |
+| ----------- | ------------------------------------------------------------------------------------------------------ | ------ |
+| Text Only   | {{< img src="/img/in-field/tabs-text.svg" dark="/img/in-field/tabs-text-dark.svg" alt="" >}}           | 56dp   |
+| Text & Icon | {{< img src="/img/in-field/tabs-text-icon.svg" dark="/img/in-field/tabs-text-icon-dark.svg" alt="" >}} | 80dp   |
+| Icon Only   | {{< img src="/img/in-field/tabs-icon.svg" dark="/img/in-field/tabs-icon-dark.svg" alt="" >}}           | 72dp   |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 

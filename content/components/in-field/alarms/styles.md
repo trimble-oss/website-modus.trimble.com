@@ -12,8 +12,8 @@ tags: [in-field, styles]
 ## Specifications
 
 <!-- prettier-ignore-start -->
-| Type    | Example                                                                                                |
-| ------- | ------------------------------------------------------------------------------------------------------ |
+| Type    | Example                                                                                               |
+| ------- | ----------------------------------------------------------------------------------------------------- |
 | Spacing | {{< img src="/img/in-field/alarm-spec-spacing.svg" width="471" height="290" alt="" loading="auto" >}} |
 | Text    | {{< img src="/img/in-field/alarm-spec-text.svg" width="430" height="328" alt="" loading="auto" >}}    |
 {class="table table-bordered table-thead-light"}
