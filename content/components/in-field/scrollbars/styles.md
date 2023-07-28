@@ -42,4 +42,3 @@ Users may scroll by
 - Clicking on the arrows,
 - Dragging the slider
 
-

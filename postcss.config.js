@@ -195,6 +195,7 @@ module.exports = {
         'sun-beams',
         'sun',
         'table-bordered',
+        'table-borderless',
         'table-dark',
         'table-sm',
         'table',

@@ -26,6 +26,12 @@ tags:
     max-width: 99% !important;
     flex-basis: 76%;
   }
+  main table thead {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 63px;
+    z-index: 1020;
+  }
 </style>
 
 <!-- prettier-ignore-start -->
@@ -60,7 +66,7 @@ tags:
 | [Tabs](/components/tabs/)                                     | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Toasts](/components/toasts/)                                 | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
 | [Tooltips](/components/tooltips/)                             | {{< ico-check >}} | {{< ico-check >}}  | {{< ico-check >}}        | {{< ico-check >}}       |
-{ .table .w-100 .table-bordered}
+{ .table .table-bordered}
 <!-- prettier-ignore-end -->
 
 ### Key

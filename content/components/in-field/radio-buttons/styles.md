@@ -18,13 +18,13 @@ tags: [in-field, styles]
 {{< img src="/img/in-field/radios-specs.svg" dark="/img/in-field/radios-specs-dark.svg" width="1089" height="143" alt="Radio Buttons Specifications" loading="auto" >}}
 
 <!-- prettier-ignore-start -->
-| State | Example                                                                                                                      | Height | Use Case |
+| State | Example                                                                                                                      | Height | Use case |
 | ----- | -----------------------------------------------------------------------------------------------------------------------------| ------ | ---------|
 | Small | {{< img src="/img/in-field/radios-specs.svg" dark="/img/in-field/radios-specs-dark.svg" width="98" loading="auto" alt="" >}} | 56dp   | List     |
 {class="table table-bordered table-thead-light d-none"}
 <!-- prettier-ignore-end -->
 
-**Note:**  In-cab size only. See mobile patterns (coming soon) for smaller options if required.
+**Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.
 
 ### Behaviors
 
@@ -35,19 +35,18 @@ tags: [in-field, styles]
 #### Checkboxes Progression
 
 <!-- prettier-ignore-start -->
-| State    | Off      | On  |
-| -------- | ------------------------------------------------------------ | -------------------------------------------------------- |
-| Default  | {{< img src="/img/in-field/radio-btn-off.svg" width="48" alt="" >}} | {{< img src="/img/in-field/radio-btn-on.svg" dark="/img/in-field/radio-btn-on-dark.svg" width="48" alt="" >}} |
-| Focus    | {{< img src="/img/in-field/radio-btn-off-focus.svg" width="48" alt="" >}} | {{< img src="/img/in-field/radio-btn-on-focus.svg" dark="/img/in-field/radio-btn-on-focus-dark.svg" width="48" alt="" >}} |
+| State    | Off                                                                          | On                                           |
+| -------- | ---------------------------------------------------------------------------- | -------------------------------------------- |
+| Default  | {{< img src="/img/in-field/radio-btn-off.svg" width="48" alt="" >}}          | {{< img src="/img/in-field/radio-btn-on.svg" dark="/img/in-field/radio-btn-on-dark.svg" width="48" alt="" >}} |
+| Focus    | {{< img src="/img/in-field/radio-btn-off-focus.svg" width="48" alt="" >}}    | {{< img src="/img/in-field/radio-btn-on-focus.svg" dark="/img/in-field/radio-btn-on-focus-dark.svg" width="48" alt="" >}} |
 | Disabled | {{< img src="/img/in-field/radio-btn-off-disabled.svg" width="48" alt="" >}} | {{< img src="/img/in-field/radio-btn-on-disabled.svg" dark="/img/in-field/radio-btn-on-disabled-dark.svg" width="48" alt="" >}} |
 {class="table table-bordered table-thead-light"}
 <!-- prettier-ignore-end -->
 
 #### Labels
 
-
 <!-- prettier-ignore-start -->
-| Label Left                                                                                                     | Label Right                                                                                                      |
+| Label left                                                                                                     | Label right                                                                                                      |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | {{< img src="/img/in-field/radio-button-label-left.svg" dark="/img/in-field/radio-button-label-left-dark.svg" width="100" alt="" >}} | {{< img src="/img/in-field/radio-button-label-right.svg" dark="/img/in-field/radio-button-label-right-dark.svg" width="100" alt="" >}} |
 {class="table table-bordered table-thead-light"}

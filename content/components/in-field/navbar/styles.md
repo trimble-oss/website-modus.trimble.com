@@ -12,7 +12,7 @@ tags: [in-field, styles]
 ## Specifications
 
 <!-- prettier-ignore-start -->
-| Size    | Example                                                                                                                           | Height | Use Case |
+| Size    | Example                                                                                                                           | Height | Use case |
 | ------- | --------------------------------------------------------------------------------------------------------------------------------- |--------|----------|
 | Default | {{< img src="/img/in-field/nav-spec.svg" dark="/img/in-field/nav-spec-dark.svg" width="706" alt="Example Size" loading="auto" >}} | 60px   | Header   |
 {class="table table-bordered table-thead-light"}
@@ -40,7 +40,7 @@ tags: [in-field, styles]
 ### Navbar Button State Examples
 
 <!-- prettier-ignore-start -->
-| Size     | Trimble Background                                                                                    | Trimble Blue Background |
+| Size     | Trimble Background                                                                                    | Trimble Blue background |
 | -------- | ----------------------------------------------------------------------------------------------------- |-------------------------|
 | Default  | {{< img src="/img/in-field/nav-state-white-default.svg" dark="/img/in-field/nav-state-default-dark.svg" width="200" alt="State Default" >}}    | {{< img src="/img/in-field/nav-state-blue-default.svg" width="200" alt="State Pressed Blue" >}}  |
 | Pressed  | {{< img src="/img/in-field/nav-state-white-pressed.svg" dark="/img/in-field/nav-state-pressed-dark.svg" width="200" alt="State Pressed" >}}    | {{< img src="/img/in-field/nav-state-blue-pressed.svg" width="200" alt="State Pressed Blue" >}}   |

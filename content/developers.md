@@ -8,17 +8,20 @@ start: true
 
 <style>
 .card-header img {
-  filter: none !important;
+  filter: none;
+}
+.card-header img {
+  filter: brightness(0) invert(1);
 }
 </style>
 
 <div class="row">
 
-{{< card-start title="Modus Web Components" url="https://modus-web-components.trimble.com/" class="bg-web-components py-4" header="web-components.svg" >}}
+{{< card-start title="Modus Web Components" url="https://modus-web-components.trimble.com/" class="bg-web-components py-4" header="web-components.svg" badge="Recommended" >}}
 
 {{</ card-start >}}
 
-{{< card-start title="Modus Web Components (Angular)" class="bg-danger py-4" url="https://modus-web-components.trimble.com/?path=/docs/framework-integrations-angular--page" header="angular.svg" >}}
+{{< card-start title="Modus Web Components (Angular)" class="bg-danger py-4" url="https://modus-web-components.trimble.com/?path=/docs/framework-integrations-angular--page" header="angular.svg" badge="Recommended" >}}
 
 {{</ card-start >}}
 
@@ -26,13 +29,12 @@ start: true
 
 <div class="row">
 
-{{< card-start title="Modus Bootstrap" url="https://modus-bootstrap.trimble.com/" target="_blank" header="bootstrap.svg" class="bg-primary text-white py-4" >}}
+{{< card-start title="Modus Bootstrap" url="https://modus-bootstrap.trimble.com/" target="_blank" header="code.svg" class="bg-primary text-white py-4" >}}
 
 {{</ card-start >}}
 
-{{< card-start title="Modus React Bootstrap" url="https://modus-react-bootstrap.trimble.com/" target="_blank" class="bg-react py-4" header="react.svg" >}}
+{{< card-start title="Modus React Bootstrap" url="https://modus-react-bootstrap.trimble.com/" target="_blank" class="bg-react py-4" header="react.svg" badge="No longer supported" >}}
 
 {{</ card-start >}}
 
 </div>
-
