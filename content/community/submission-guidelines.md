@@ -56,7 +56,7 @@ Well-established, familiar metaphors lessen the users' cognitive load and aid in
 
 ### 8.) Consider wider audiences
 
-A pattern is most effective if it can be applied in different contexts, for use by different users. Sometimes it’s easy to expand the usefulness of a pattern. For example, by simply increasing the contrast between the text and background, you are ensuring that a user with poor vision can also perceive it.
+A pattern is most effective if it can be applied in different contexts, for use by different users. Sometimes it is easy to expand the usefulness of a pattern. For example, by simply increasing the contrast between the text and background, you are ensuring that a user with poor vision can also perceive it.
 
 ### 9.) Patterns contribute to a shared language
 

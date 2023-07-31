@@ -25,6 +25,8 @@ Modus is owned and created by the Development Community of Trimble. With your co
 
 The Modus design system strives to follow a distributed model in order to foster collaboration and knowledge-sharing. The Trimble community of enthusiastic and knowledgeable designers and developers are an essential and intrinsic part of the design system, and it relies on your active contributions. Modus design guidelines run an open-source model, where everyone is allowed and encouraged to contribute, but contributions are managed and curated by a design system product manager and a community-sourced set of advisors, the curators.
 
+If you want to join engineering-specific discussions about the contributions, join the [GitHub Discussions](https://github.com/orgs/trimble-oss/discussions).
+
 ### Users
 
 Modus users are members of the Trimble community who use the design system for guidelines, design assets, and code libraries. Anyone can be a user, and we encourage users to participate and provide feedback.
@@ -42,11 +44,10 @@ Contributors are members of the Trimble community, who contribute their time and
 
 ### Design System Product Manager
 
-The design system product manager is closely coordinated with the UX Board who serves as an advisor to the Modus design system and approves the backlog, processes and governing functions. The product manager is responsible for
+The design system product manager coordinates with the with the Modus Advisory Committee that helps with design system governance, prioritization, and funding support. The product manager is responsible for
 
 - curating and maintaining the content,
-- prioritizing features,
-- grooming the backlog,
+- prioritizing features and the backlog,
 - establishing processes and governance,
 - coordinating between users and contributors.
 
