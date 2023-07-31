@@ -26,7 +26,7 @@ b.) The component exists as design elements and interaction pattern sequence (in
 
 c.) The component has undergone usability testing with documented results or is currently in use in the product.
 
-d.) The product team decides to propose the pattern to the Modus Design System Team.
+d.) The product team decides to propose the pattern to the Modus Approval Board (MoAB).
 
 To submit your pattern, please follow the [Submission Guidelines](/community/submission-guidelines/). Upon submission, GitHub issue is created on the Modus Design System backlog. The pattern (along with all the provided documentation is assigned an ID and the submitting party is added as followers of the issue, so they can track the progress.
 
