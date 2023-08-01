@@ -52,7 +52,7 @@ Some of the criteria used in the heuristic review include (but are not limited t
   - Is the pattern responsive?
   - Is the interaction flow and behavior clearly documented?
 - Accessibility
-  - Is the patterns accessible to all audiences?
+  - Is the pattern accessible to all audiences?
   - Does it meet WCAG 2.1 standards?
 - Visual design
   - Is the contribution consistent with our visual style?
