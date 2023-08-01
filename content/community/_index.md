@@ -38,7 +38,7 @@ Contributors are members of the Trimble community, who contribute their time and
 - [reporting bugs](/community/contact/),
 - [suggesting new features](/community/contact/),
 - [submitting new components and patterns](/community/contribution-process/),
-- [submitting code components](https://trimble-oss.github.io/contribute/),
+- [submitting code components](https://github.com/trimble-oss/modus-web-components/blob/main/CONTRIBUTING.md),
 - [joining Tiger Teams](/community/tiger-teams/),
 - and [improving documentation](/community/contact/).
 
@@ -57,7 +57,7 @@ The members of the Trimble UX Council are elected by the community of UX practit
 
 ## Transparency of Progress
 
-Modus aims to maintain open communication as to its progress. We readily share updates and [Modus backlog](https://github.com/orgs/trimble-oss/projects/5/views/2) with the community.
+Modus aims to maintain open communication as to its progress. We readily share updates, [Modus Design System backlog](https://github.com/orgs/trimble-oss/projects/5/views/2), and [Modus Web Components backlog](https://github.com/orgs/trimble-oss/projects/16/views/1) with the community.
 
 ## What’s New
 
