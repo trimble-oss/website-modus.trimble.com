@@ -25,6 +25,10 @@ start: true
 
 {{</ card-start >}}
 
+{{< card-start title="Modus Web Components (React)" class="bg-react py-4" url="https://modus-web-components.trimble.com/?path=/docs/framework-integrations-react--page" header="react.svg" badge="Recommended" >}}
+
+{{</ card-start >}}
+
 </div>
 
 <div class="row">
@@ -33,7 +37,7 @@ start: true
 
 {{</ card-start >}}
 
-{{< card-start title="Modus React Bootstrap" url="https://modus-react-bootstrap.trimble.com/" target="_blank" class="bg-react py-4" header="react.svg" badge="No longer supported" >}}
+{{< card-start title="Modus React Bootstrap" url="https://modus-react-bootstrap.trimble.com/" target="_blank" class="bg-deprecated py-4" header="react.svg" badge="No longer supported" >}}
 
 {{</ card-start >}}
 
