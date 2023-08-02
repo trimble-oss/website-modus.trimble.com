@@ -8,7 +8,7 @@ group: community
 hideToc: true
 ---
 
-The Modus delivery team is dedicated to maintaining a consistent, top-quality product. Accordingly, before any component is revised or added, it goes through a process of reviews and approvals.
+The Modus Delivery Team is dedicated to maintaining a consistent, top-quality product. Accordingly, before any component is revised or added, it goes through a process of reviews and approvals.
 
 {{< img src="/img/guide/contribution-process.svg" dark="/img/guide/contribution-process-dark.svg" width="854" height="392" alt="Contribution Process" loading="auto" >}}
 
@@ -22,7 +22,7 @@ Identify the user needs your pattern solves and explain its advantages over alte
 
 a.) A new component has been created on your product team (e.g. Chips for displaying and interacting with content filters).
 
-b.) The component exists as design elements and interaction pattern sequence (in Figma, Adobe XD).
+b.) The component exists as design elements and interaction pattern sequence in Figma.
 
 c.) The component has undergone usability testing with documented results or is currently in use in the product.
 
@@ -67,4 +67,4 @@ You can track the status of submissions [here](/community/submissions-status/).
 
 ### 4. Prioritization and recommendation
 
-When the pattern is approved, it is prioritized and scheduled for a release. The Modus delivery team will make sure your pattern is added to all supported code and design libraries, conduct ongoing maintenance of your pattern, and monitor its usage.
+When the pattern is approved, it is prioritized and scheduled for a release. The Modus Delivery Team will make sure your pattern is added to all supported code and design libraries, conduct ongoing maintenance of your pattern, and monitor its usage.
