@@ -32,7 +32,7 @@ To submit your pattern, please follow the [Submission Guidelines](/community/sub
 
 ### 3. Review
 
-Once an issue is entered into the backlog the Modus Product Manager informs the UX Board of a new pattern submission in a weekly meeting and requests a review. Review period opens and the pattern is shared with the UX and engineering community. Patterns are reviewed according to the following criteria:
+Once an issue is entered into the backlog the Modus Approval Board (MoAB) reviews the new pattern submission, iterates it (if needed) with the submission author, and informs the Modus Product Manager about the final result. Patterns are reviewed according to the following criteria:
 
 a.) Pattern is designed according to the current design standards (tokens, foundations, as put forward in the style guide and existing pattern library)
 
@@ -63,7 +63,7 @@ Some of the criteria used in the heuristic review include (but are not limited t
 
 d.) Review usability tests or any other submitted research data.
 
-You can track the status of submissions [here](/community/submissions-status/).
+You can track the status of submissions [here](/community/submissions-status/). The status can be approved, partially approved (if iteration needed), presented for evaluation by a [Tiger Team](/community/tiger-teams/), or marked not compliant with Modus.
 
 ### 4. Prioritization and recommendation
 
