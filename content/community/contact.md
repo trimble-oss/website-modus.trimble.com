@@ -16,7 +16,7 @@ community: true
     <div class="alert alert-info mt-2">
       Note: If you don't see the contact form below <a href="https://forms.clickup.com/14200829/f/dhbzx-25751/81VGE0GBE7M89TQLQ6/viewform?embedded=true" target="_blank" class="ml-1">Open in a new window</a>.
     </div>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfOt0n8IhbVBjkE80fB1c25SlAdT7SD2uRHtoLUqbJ1eVWy2Q/viewform?embedded=true" width="100%" height="1340" frameborder="0" class="w-100 border-0">
+    <iframe src="https://forms.clickup.com/14200829/f/dhbzx-25751/81VGE0GBE7M89TQLQ6/viewform?embedded=true" width="100%" height="1340" frameborder="0" class="w-100 border-0">
       Loading…
     </iframe>
   </div>
