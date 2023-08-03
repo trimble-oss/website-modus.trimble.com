@@ -15,7 +15,7 @@ As a Modus subscriber, you are invited to the Modus chat room, where you can ask
 <a href="https://chat.google.com/room/AAAAexugR1k"
     class="btn btn-primary m-2" target="_blank" rel="nofollow">Join the Chat Room</a>
 
-Not a subscriber yet? No problem! [Subscribe here](https://docs.google.com/forms/d/e/1FAIpQLSc5-PBOzJjT2Q8r5Pg7BPYzae-rz5fg5ySSBcHwfhBneUkvWg/viewform?usp=sf_link)!
+Not a subscriber yet? No problem! [Subscribe here](https://forms.clickup.com/14200829/f/dhbzx-26151/N0FSNLEZT08WGYUSR0)!
 
 ## Modus is a Community Effort
 
@@ -35,12 +35,12 @@ Modus users are members of the Trimble community who use the design system for g
 
 Contributors are members of the Trimble community, who contribute their time and expertise to the design system. Your contributions are highly valued and encouraged. You can contribute by
 
-- [reporting bugs](/community/contact/),
-- [suggesting new features](/community/contact/),
+- [reporting bugs](https://forms.clickup.com/14200829/f/dhbzx-25751/81VGE0GBE7M89TQLQ6),
+- [suggesting new features](https://forms.clickup.com/14200829/f/dhbzx-25751/81VGE0GBE7M89TQLQ6),
 - [submitting new components and patterns](/community/contribution-process/),
 - [submitting code components](https://github.com/trimble-oss/modus-web-components/blob/main/CONTRIBUTING.md),
 - [joining Tiger Teams](/community/tiger-teams/),
-- and [improving documentation](/community/contact/).
+- and [improving documentation](https://forms.clickup.com/14200829/f/dhbzx-25751/81VGE0GBE7M89TQLQ6).
 
 ### Design System Product Manager
 
