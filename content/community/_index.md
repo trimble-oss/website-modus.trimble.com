@@ -15,7 +15,7 @@ As a Modus subscriber, you are invited to the Modus chat room, where you can ask
 <a href="https://chat.google.com/room/AAAAexugR1k"
     class="btn btn-primary m-2" target="_blank" rel="nofollow">Join the Chat Room</a>
 
-Not a subscriber yet? No problem! [Subscribe here](https://docs.google.com/forms/d/e/1FAIpQLSc5-PBOzJjT2Q8r5Pg7BPYzae-rz5fg5ySSBcHwfhBneUkvWg/viewform?usp=sf_link)!
+Not a subscriber yet? No problem! [Subscribe here](https://forms.clickup.com/14200829/f/dhbzx-26151/N0FSNLEZT08WGYUSR0)!
 
 ## Modus is a Community Effort
 
@@ -25,6 +25,8 @@ Modus is owned and created by the Development Community of Trimble. With your co
 
 The Modus design system strives to follow a distributed model in order to foster collaboration and knowledge-sharing. The Trimble community of enthusiastic and knowledgeable designers and developers are an essential and intrinsic part of the design system, and it relies on your active contributions. Modus design guidelines run an open-source model, where everyone is allowed and encouraged to contribute, but contributions are managed and curated by a design system product manager and a community-sourced set of advisors, the curators.
 
+If you want to join engineering-specific discussions about the contributions, join the [GitHub Discussions](https://github.com/orgs/trimble-oss/discussions).
+
 ### Users
 
 Modus users are members of the Trimble community who use the design system for guidelines, design assets, and code libraries. Anyone can be a user, and we encourage users to participate and provide feedback.
@@ -33,20 +35,19 @@ Modus users are members of the Trimble community who use the design system for g
 
 Contributors are members of the Trimble community, who contribute their time and expertise to the design system. Your contributions are highly valued and encouraged. You can contribute by
 
-- [reporting bugs](/community/contact/),
-- [suggesting new features](/community/contact/),
+- [reporting bugs](https://forms.clickup.com/14200829/f/dhbzx-25751/81VGE0GBE7M89TQLQ6),
+- [suggesting new features](https://forms.clickup.com/14200829/f/dhbzx-25751/81VGE0GBE7M89TQLQ6),
 - [submitting new components and patterns](/community/contribution-process/),
-- [submitting code components](https://trimble-oss.github.io/contribute/),
+- [submitting code components](https://github.com/trimble-oss/modus-web-components/blob/main/CONTRIBUTING.md),
 - [joining Tiger Teams](/community/tiger-teams/),
-- and [improving documentation](/community/contact/).
+- and [improving documentation](https://forms.clickup.com/14200829/f/dhbzx-25751/81VGE0GBE7M89TQLQ6).
 
 ### Design System Product Manager
 
-The design system product manager is closely coordinated with the UX Board who serves as an advisor to the Modus design system and approves the backlog, processes and governing functions. The product manager is responsible for
+The design system product manager coordinates with the with the Modus Advisory Committee that helps with design system governance, prioritization, and funding support. The product manager is responsible for
 
 - curating and maintaining the content,
-- prioritizing features,
-- grooming the backlog,
+- prioritizing features and the backlog,
 - establishing processes and governance,
 - coordinating between users and contributors.
 
@@ -56,7 +57,7 @@ The members of the Trimble UX Council are elected by the community of UX practit
 
 ## Transparency of Progress
 
-Modus aims to maintain open communication as to its progress. We readily share updates and [Modus backlog](https://github.com/orgs/trimble-oss/projects/5/views/2) with the community.
+Modus aims to maintain open communication as to its progress. We readily share updates, [Modus Design System backlog](https://github.com/orgs/trimble-oss/projects/5/views/2), and [Modus Web Components backlog](https://github.com/orgs/trimble-oss/projects/16/views/1) with the community.
 
 ## What’s New
 
