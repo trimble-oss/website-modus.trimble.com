@@ -1,7 +1,7 @@
 ---
 title: "Utility Panel"
 layout: "single"
-description: "Utility panel is a container which provides extra content alongside the primary screen content."
+description: "Utility panel is a container for additional content and/or functionality related to the primary screen."
 components: true
 componentsWeb: true
 component: utility-panel
