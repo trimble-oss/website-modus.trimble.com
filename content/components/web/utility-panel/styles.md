@@ -1,7 +1,7 @@
 ---
 title: "Utility Panel"
 layout: "single"
-description: "Utility panel is a container which provides extra content alongside the primary screen content."
+description: "Utility panel is a container for additional content and/or functionality related to the primary screen."
 components: true
 componentsWeb: true
 images:
@@ -11,22 +11,19 @@ tags: [styles]
 
 ## Specifications
 
-There are three criteria to address for the utility panel. Those are: placement, shadows, and sizing.
+### Placement
 
-**Placement**
-
-- The utility panel is the top most element.
-- The utility panel is usually on the opposite side of the screen than the [Side Navigation](/components/web/side-navigation/), but can be also attached to the bottom.
+- The utility panel is the top-most element.
+- The utility panel is usually on the opposite side of the screen than the [Side Navigation](/components/web/side-navigation/) but can also be attached to the bottom.
 - The footer is displayed below the side navigation menu.
 
-**Shadows**
+### Shadows
 
-- Use Level 2 shadow on the left side of the utility panel.
+- Use [Level 2 shadow](/foundations/shadows-and-depth/) for the utility panel.
 
-**Sizing**
+### Sizing
 
-- If the text is too long, continue on the next row.
-- (Optional) The user can resize the width of the utility panel.
+- The user may resize the width of the utility panel (_optional_).
   - This feature is not supported on mobile.
   - The minimal width is 320px.
 
@@ -67,7 +64,7 @@ There are three criteria to address for the utility panel. Those are: placement,
 { .table .table-bordered}
 <!-- prettier-ignore-end -->
 
-### Behaviors
+## Behaviors
 
 **Accordions Sections**
 
@@ -84,4 +81,11 @@ There are three criteria to address for the utility panel. Those are: placement,
 
 **Footer**
 
-- The footer contains two buttons. A primary button can be used, such as Save, Commit, Create, or Edit.
+- The footer may contain up to two buttons. A primary button can be used, such as Save, Commit, Create, or Edit.
+
+## Editorial
+
+- Use title case for titles.
+- Titles should describe the functionality of the panel.
+- Content can scroll in the panel, if necessary. Avoid long copy in panels.
+- Copy wraps in a panel.

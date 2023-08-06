@@ -1,7 +1,7 @@
 ---
 title: "Utility Panel"
 layout: "single"
-description: "Utility panel is a container which provides extra content alongside the primary screen content."
+description: "Utility panel is a container for additional content and/or functionality related to the primary screen."
 components: true
 componentsWeb: true
 images:
@@ -11,30 +11,31 @@ tags: [usage]
 
 ## Overview
 
-The utility panel is designed to add additional content (usually on the right-hand side of the user interface) to a full-screen application. It is located alongside the primary content of the page and activated by a call to action, e.g., by a [Button](/components/web/buttons/).
+The utility panel is designed to add additional content (usually on the right side of the user interface) to a full-screen application. It is located alongside the primary content of the page and activated by a call to action, e.g., by a [Button](/components/web/buttons/).
 
 ## Usage
 
 #### Use When
 
-- You need extra content alongside the primary content.
+- You need extra content or functionality related to the primary content.
 - You need to interact with the primary content (e.g. adding, editing, saving).
 - You want to provide supplemental tasks required by the underlying page.
 
 #### Don't Use When
 
 - You need to navigate between pages of an application. Instead, use [Side Navigation](/components/web/side-navigation/).
-- You need to display important warnings. Instead, use [Modal](/components/web/modal/).
+- You need to display important warnings. Instead, use an [Alert](/components/web/alerts/) or a [Modal](/components/web/modals/)
 - You are designing for a mobile application - use the mobile-specific utility panel – **_Coming soon!_**
 
 ## Types
 
 When the utility panel is being used by the user, it opens a window (panel). This functionality either:
 
-1. Overlays the page content (with or without a background overlay), or
-2. Pushes the page’s content.
+- Overlays the page content (with or without a background overlay), or
+- Pushes the page’s content.
 
 Do not use both types in one application.
+
 When the utility panel is inactive, it is closed. It can be triggered again by a call to action.
 
 ### Float-Over-Page Overlay Utility Panel (recommended)
