@@ -19,13 +19,13 @@ Switches are selection controls that yield instantaneous actions. They have an o
 
 ## Usage
 
-#### Use When
+#### Use when
 
 - Turning on and off a feature, mode, or functionality.
 - Toggling elicits a change in the UI.
 - You want to trigger a state change directly when you toggle it.
 
-#### Don't Use When
+#### Don't use when
 
 - Requiring user action consent, such as accepting terms and conditions.
   Instead, use a [Checkbox](/components/in-field/checkboxes/).

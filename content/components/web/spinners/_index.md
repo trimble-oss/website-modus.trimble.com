@@ -28,12 +28,12 @@ Spinners are used as indeterminate progress indicators to show the user that the
 
 ## Usage
 
-#### Use When
+#### Use when
 
 - Indicating to the user that loading is occurring in the background.
 - Loading times are indeterminate.
 
-#### Don't Use When
+#### Don't use when
 
 - A loading scenario needs to indicate progress, usually with particularly long load times. Use a dynamically updating [Progress Bar](/components/web/progress-bars/) instead.
 - A main loading state is needed, such as an app initialization. In this case, forego our simple spinner, and opt to use a custom, branded one instead.

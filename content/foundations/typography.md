@@ -569,7 +569,7 @@ The variations help keep type styles to a minimum, so consistency is easier to a
         </tr>
       </tbody>
     </table>
-    
+
 ### In-Field
 
 Base fonts size is 22px for Android use sp (scalable pixels). Some application may suit Mobile fonts sizes depending on use.
@@ -643,7 +643,7 @@ Base fonts size is 22px for Android use sp (scalable pixels). Some application m
             <br><strong>Letter Spacing:</strong> 0.15
             <br><strong>Line Height:</strong> 30 px
             <br><strong>Scale to Mobile</strong> (size/ line height): 16 px/ 24 px
-            <br><strong>Use:</strong> Sub-sections, card titles.          
+            <br><strong>Use:</strong> Sub-sections, card titles.
             </td>
                </tr>
            </tr>
@@ -660,7 +660,7 @@ Base fonts size is 22px for Android use sp (scalable pixels). Some application m
             <br><strong>Letter Spacing:</strong> 0.15
             <br><strong>Line Height:</strong> 30 px
             <br><strong>Scale to Mobile</strong> (size/ line height): 14 px/ 22 px
-            <br><strong>Use:</strong> Sub-sections, card titles, table headings.         
+            <br><strong>Use:</strong> Sub-sections, card titles, table headings.
             </td>
                 </tr>
            </tr>
@@ -677,7 +677,7 @@ Base fonts size is 22px for Android use sp (scalable pixels). Some application m
             <br><strong>Letter Spacing:</strong> 0.25
             <br><strong>Line Height:</strong> 32 px
             <br><strong>Scale to Mobile</strong> (size/ line height): 18 px/ 26 px
-            <br><strong>Use:</strong> Some lists and panels.         
+            <br><strong>Use:</strong> Some lists and panels.
             </td>
                   </tr>
            </tr>
@@ -694,7 +694,7 @@ Base fonts size is 22px for Android use sp (scalable pixels). Some application m
             <br><strong>Letter Spacing:</strong> 0.25
             <br><strong>Line Height:</strong> 32 px
             <br><strong>Scale to Mobile</strong> (size/ line height): 16 px/ 24 px
-            <br><strong>Use:</strong> Body text.         
+            <br><strong>Use:</strong> Body text.
             </td>
                  </tr>
            </tr>
@@ -711,7 +711,7 @@ Base fonts size is 22px for Android use sp (scalable pixels). Some application m
             <br><strong>Letter Spacing:</strong> 0.25
             <br><strong>Line Height:</strong> 28 px
             <br><strong>Scale to Mobile</strong> (size/ line height): 14 px/ 22 px
-            <br><strong>Use:</strong> Messages, default buttons.         
+            <br><strong>Use:</strong> Messages, default buttons.
             </td>
                 </tr>
            </tr>
@@ -728,7 +728,7 @@ Base fonts size is 22px for Android use sp (scalable pixels). Some application m
             <br><strong>Letter Spacing:</strong> 0.15
             <br><strong>Line Height:</strong> 28 px
             <br><strong>Scale to Mobile</strong> (size/ line height): 12 px/ 20 px
-            <br><strong>Use:</strong> Labels, small buttons.         
+            <br><strong>Use:</strong> Labels, small buttons.
             </td>
            </tr>
         <tr>
@@ -738,14 +738,14 @@ Base fonts size is 22px for Android use sp (scalable pixels). Some application m
           </td>
           <td>
             <strong>Font Family:</strong> Open Sans,
-            <br><strong>Font Weight:</strong> Regular, 400; 
+            <br><strong>Font Weight:</strong> Regular, 400;
             <br><strong>Size:</strong> 18 px/ 1.125
             <br><strong>Case:</strong> Sentence
             <br><strong>Letter Spacing:</strong> 0.25
             <br><strong>Line Height:</strong> 24 px
             <br><strong>Scale to Mobile</strong> (size/ line height): 10 px/18 px
-            <br><strong>Use:</strong> Notification caption text.         
-            </td> 
+            <br><strong>Use:</strong> Notification caption text.
+            </td>
             </tr>
         <tr>
           <td scope="row">
@@ -753,8 +753,8 @@ Base fonts size is 22px for Android use sp (scalable pixels). Some application m
           </p>
           </td>
           <td>
-            <strong>Font Family:</strong> Open Sans 
-            <br><strong>Font Weight:</strong> Regular, 400; 
+            <strong>Font Family:</strong> Open Sans
+            <br><strong>Font Weight:</strong> Regular, 400;
             <br><strong>Size:</strong> 16 px/ 1
             <br><strong>Case:</strong> Sentence
             <br><strong>Letter Spacing:</strong> 0.25

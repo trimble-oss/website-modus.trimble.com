@@ -103,7 +103,7 @@ html[data-theme="dark"] main .navbar button i {
 
 ## Usage
 
-#### Use When
+#### Use when
 
 - Designing hybrid and web applications.
 - Positioning a primary navigation menu.
@@ -112,7 +112,7 @@ html[data-theme="dark"] main .navbar button i {
   - An account profile, other applications, help content, notifications, and search.
   - Positioning a consistent component to connect various Trimble applications.
 
-#### Don't Use When
+#### Don't use when
 
 - Building native applications following platform specific user interface guidelines.
 - Building desktop applications employing frameworks similar to Windows Ribbon.
