@@ -31,7 +31,7 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        uses: reggionick/s3-deploy@v3
+        uses: reggionick/s3-deploy@v4
         with:
           folder: build
           bucket: ${{ secrets.S3_BUCKET }}
