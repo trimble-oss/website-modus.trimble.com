@@ -20,14 +20,14 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 ## Usage
 
-#### Use When
+#### Use when
 
 - Affording a binary selection, like accepting terms and conditions.
 - Affording multiple selections from a set of options.
 - Enabling selection of an object, such as a [Card](/components/mobile/cards/).
 - Affording selection of a row within a data [Table](/components/mobile/tables/).
 
-#### Don't Use When
+#### Don't use when
 
 - A user can select only one option from a list. Use [Radio Buttons](/components/mobile/radio-buttons/) instead. Checkboxes allow the user to select multiple items in a set whereas radio buttons allow the user to select only one option.
 - Turning a feature, mode, or functionality on and off. Instead, use a [Switch](/components/mobile/switches/).

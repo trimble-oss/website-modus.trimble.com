@@ -42,7 +42,7 @@ Switches are selection controls that yield instantaneous actions. They have an o
 
 ## Usage
 
-#### Use When
+#### Use when
 
 - Turning on and off a feature, mode, or functionality.
 - Toggling elicits an immediate change in the UI.
@@ -133,7 +133,7 @@ Switches are selection controls that yield instantaneous actions. They have an o
   </tbody>
 </table>
 
-#### Don't Use When
+#### Don't use when
 
 - Requiring user action consent, such as accepting terms and conditions. Instead, use a [Checkbox](/components/web/checkboxes/).
 - Requesting multiple choices from a group of options. Instead, use a [Checkbox](/components/web/checkboxes/) group.

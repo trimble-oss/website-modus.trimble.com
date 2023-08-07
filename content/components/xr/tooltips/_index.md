@@ -23,13 +23,13 @@ In the case of truncated interface texts, tooltips complete information, so that
 
 ## Usage
 
-#### Use When
+#### Use when
 
 - Providing a short description of a page element or control.
 - Revealing the full text of truncated data.
 - The information is essential for the user. For non-essential information, consider using plain text messages.
 
-#### Don't Use When
+#### Don't use when
 
 - Providing a description longer than 10 words.
 - Needing an ancillary button that requires more information. Use voice command hints instead.

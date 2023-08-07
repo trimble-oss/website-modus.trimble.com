@@ -22,12 +22,12 @@ Changes made with sliders are immediate, allowing the user to make slider adjust
 
 ## Usage
 
-#### Use When
+#### Use when
 
 - Users have a choice to select from a range of values.
 - The circumstances require immediate sensorial (sound or visual) feedback for the impact of a value change through.
 
-#### Don't Use When
+#### Don't use when
 
 - Precise amount is needed and the scale is too large to afford precise interaction with the slider.
 - Adjusting settings with any delay in providing user feedback.

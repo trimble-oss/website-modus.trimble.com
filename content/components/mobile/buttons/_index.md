@@ -17,7 +17,7 @@ Buttons express what action will occur when the user clicks or touches it. Butto
 
 ## Usage
 
-#### Use When
+#### Use when
 
 - Affording interaction to key behaviors and features.
 - Confirming or submitting information entered into a form.
@@ -29,7 +29,7 @@ Buttons express what action will occur when the user clicks or touches it. Butto
 - Creating an object within a group.
 - Applying a non-critical action to a dataset.
 
-#### Don't Use When
+#### Don't use when
 
 - Displaying a collection of links to sections. Use links instead.
 - Linking to an external site. Use links instead.

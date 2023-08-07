@@ -29,11 +29,11 @@ Messages display low priority content directly on the page and are not dismissab
 
 ## Usage
 
-#### Use When
+#### Use when
 
 - Providing the user with helpful, contextual information about a possible action or a set of data.
 
-#### Don't Use When
+#### Don’t use when
 
 - Alerting the user of a high priority error. Instead, use an [Alert](/components/web/alerts/).
 - Alerting the user of an out-of-context event. Instead, use a [Toast](/components/web/toasts/).

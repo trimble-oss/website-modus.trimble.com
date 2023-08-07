@@ -22,11 +22,11 @@ In circumstances where specific value entry is required, use the numeric input o
 
 ## Usage
 
-#### Use When
+#### Use when
 
 - Encouraging user exploration when setting a value or range of values, especially when that value has an immediate effect on system performance.
 
-#### Don't Use When
+#### Don't use when
 
 - Gathering information in a form (e.g., age or salary). Instead, use an input box.
 - Precise amount is needed and the scale is too large to afford precise interaction with the slider.

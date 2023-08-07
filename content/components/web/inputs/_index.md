@@ -73,7 +73,7 @@ Input fields or text fields allow users to enter text into a UI. They typically 
 
 ## Usage
 
-#### Use When
+#### Use when
 
 - Gathering and validating user data.
 

@@ -25,14 +25,14 @@ Designers can define a variety of menus, depending on the use cases. Among them,
 
 ## Usage
 
-#### Use When
+#### Use when
 
 - Displaying a list of command choices on a surface.
 - Displaying multiple, non-obvious commands, and options.
 - Offering an option to close and/or unpin.
 - Enabling voice commands or gaze-control for users with limited accessibility.
 
-#### Don't Use When
+#### Don't use when
 
 - Performing actions with a model or spatial interfaces that could either interfere with the flow or perception of the center of attention.
 - Immediate, decisive actions that require full user attention is needed.

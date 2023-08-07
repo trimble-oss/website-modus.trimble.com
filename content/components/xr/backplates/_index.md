@@ -21,13 +21,13 @@ Modus’s backplates are made up of solid colors following the two main themes, 
 
 ## Usage
 
-#### Use When
+#### Use when
 
 - Diverse UI elements and components are required to execute a function.
 - Basic elements “float in space” and could merge with the environment.
 - You need to bring cohesion to the experience.
 
-#### Don't Use When
+#### Don't use when
 
 - Its use can obstruct the user experience.
 - Highlighting areas of real or virtual content would be deterred through their use.

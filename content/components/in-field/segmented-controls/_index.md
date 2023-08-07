@@ -17,12 +17,12 @@ Segmented controls allow users to make a single selection from a set of 2–5 op
 
 ## Usage
 
-#### Use When
+#### Use when
 
 - You need to provide closely related choices that affect an object, state, or view.
 - You need to reduce cognitive load and/or other selection controls are inadequate.
 
-#### Don't Use When
+#### Don't use when
 
 - Enabling actions, such as adding, removing, or editing content.
 - Filtering or navigating content (use [Tabs](/components/in-field/tabs/) instead).
