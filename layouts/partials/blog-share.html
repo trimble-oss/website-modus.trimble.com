@@ -1,11 +1,11 @@
 <div class="container">
   <div class="share py-2 float-right">
     <div class="d-inline-block mr-2">
-      <a href="https://twitter.com/intent/tweet?via=TrimbleCorpNews&text={{ .Title }}&url={{ .Permalink }}"
-        class="opacity-75" title="Share on Twitter" data-toggle="tooltip"
+      <a href="https://twitter.com/intent/tweet?via=TrimbleCorpNews&text={{- .Title -}}&url={{- .Permalink -}}"
+        class="opacity-75" title="Share on X" data-toggle="tooltip"
         onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
-        {{ partial "icons/fa/brands/twitter-square.svg" (dict "class" "text-dark" "width" "28" "height" "28") }}
-        <span class="sr-only">Twitter</span></a>
+        {{ partial "icons/fa/brands/square-x-twitter.svg" (dict "class" "text-dark" "width" "28" "height" "28") }}
+        <span class="sr-only">X</span></a>
     </div>
     <div class="d-inline-block mr-2">
       <a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" class="opacity-75" title="Share on Facebook"
