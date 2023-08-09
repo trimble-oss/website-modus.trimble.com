@@ -78,15 +78,14 @@ tags: [styles]
 
 - The size of icon-only buttons should be as follows:
 
-{{< table "class table table-bordered" >}}
-
-|        | Example | Button Size | Icon Size               |
-| ------ | ------- | ----------- | ----------------------- |
-| Small  |         | 32px        | 24px                    |
-| Medium |         | 40px        | 24px                    |
-| Large  |         | 48px        | 32px (24px for Navbars) |
-
-{{</ table >}}
+<!-- prettier-ignore-start -->
+|        | Example                                                                                                                                                          | Button Size | Icon Size               |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------- |
+| Small  | <button type="button" class="btn btn-sm btn-icon-only btn-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button> | 32px        | 24px                    |
+| Medium | <button type="button" class="btn btn-icon-only btn-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button>        | 40px        | 24px                    |
+| Large  | <button type="button" class="btn btn-lg btn-icon-only btn-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button> | 48px        | 32px (24px for Navbars) |
+{class="table table-bordered"}
+<!-- prettier-ignore-end -->
 
 ### Behaviors
 

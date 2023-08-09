@@ -140,15 +140,14 @@ There are two button progressions you can choose from: structural and color prog
 
 **Note:** Secondary icon-only buttons are recommended as default option.
 
-{{< table "class table table-bordered" >}}
-
-| Example | Type                            | When to use                                                                                  |
-| ------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-|         | Solid                           | Used mainly in floating toolbar.                                                             |
-|         | Outline                         | Used in in-line and in button groups.                                                        |
-|         | Icon-Only (no fill, no outline) | Used mainly in [Navbars](/components/web/navbars/) on white, dark blue, and gray background. |
-
-{{</ table >}}
+<!-- prettier-ignore-start -->
+| Example                                                                                                                                                        | Type                            | When to use                                                                                  |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
+| <button type="button" class="btn btn-icon-only btn-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button> | Solid                           | Used mainly in floating toolbar.                                                             |
+| <button type="button" class="btn btn-icon-only btn-outline-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button>                                                                                                                                                               | Outline                         | Used in in-line and in button groups.                                                        |
+| <button type="button" class="btn btn-icon-only bg-transparent" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button>                                                                                                                                                               | Icon-Only (no fill, no outline) | Used mainly in [Navbars](/components/web/navbars/) on white, dark blue, and gray background. |
+{class="table table-bordered"}
+<!-- prettier-ignore-end -->
 
 ### Ancillary Buttons
 
