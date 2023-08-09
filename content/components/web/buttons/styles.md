@@ -16,10 +16,13 @@ tags: [styles]
 
 - All buttons should be interactive and perform an action.
 - They should be discoverable, easy to identify, and specific.
-- Always have a text label within the button container. Icons are optional.
+- Always have a text label within the text button container. Icons are optional.
+- When using icon-only buttons, make sure the symbol is comprehensive and scalable. A text tooltip can provide the name of the functionality.
+- The use of secondary icon-only buttons (gray or white) as default is recommended over the use of primary blue.
+- An icon can be used in combination with a dropdown caret in an icon-only button.
 - Make buttons look and feel clickable.
 - If using multiple buttons, label them distinctly.
-- The size of the buttons should be used in proportion to the context and content around it.
+- The size of the text buttons should be used in proportion to the context and content around it.
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -73,9 +76,21 @@ tags: [styles]
   </tbody>
 </table>
 
+- The size of icon-only buttons should be as follows:
+
+{{< table "class table table-bordered" >}}
+
+|        | Example | Button Size | Icon Size               |
+| ------ | ------- | ----------- | ----------------------- |
+| Small  |         | 32px        | 24px                    |
+| Medium |         | 40px        | 24px                    |
+| Large  |         | 48px        | 32px (24px for Navbars) |
+
+{{</ table >}}
+
 ### Behaviors
 
-All buttons (including icon buttons) should have the following states:
+All buttons (including icon-only buttons) should have the following states:
 
 - Default
 - Hover
@@ -253,7 +268,39 @@ All buttons (including icon buttons) should have the following states:
       </tbody>
 </table>
 
-Icon button state colors may vary based on product. Always make sure the colors of all states (except for disabled) meet [color contrast accessibility standards](/foundations/accessibility/).
+#### Icon-Only Button States
+
+Icon-only buttons (solid and outline):
+
+{{< table "class table table-bordered" >}}
+
+| State    | Secondary\* | Primary | Tertiary | Secondary\* | Primary |
+| -------- | ----------- | ------- | -------- | ----------- | ------- |
+| Default  |             |         |          |             |         |
+| Hover    |             |         |          |             |         |
+| Pressed  |             |         |          |             |         |
+| Disabled |             |         |          |             |         |
+
+{{</ table >}}
+
+\* Secondary icon-only buttons are recommended as default option.
+
+Icon-only buttons (no fill, no outline):
+
+{{< table "class table table-bordered" >}}
+
+| State    | Secondary\* | Primary | Tertiary | Dark Blue Background |
+| -------- | ----------- | ------- | -------- | -------------------- |
+| Default  |             |         |          |                      |
+| Hover    |             |         |          |                      |
+| Pressed  |             |         |          |                      |
+| Disabled |             |         |          |                      |
+
+{{</ table >}}
+
+\* Secondary icon-only buttons are recommended as default option.
+
+Icon-only button state colors may vary based on product. Always make sure the colors of all states (except for disabled) meet [color contrast accessibility standards](/foundations/accessibility/).
 
 ### Editorial
 

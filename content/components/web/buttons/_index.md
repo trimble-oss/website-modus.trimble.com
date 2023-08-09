@@ -24,7 +24,7 @@ Buttons are clickable elements that are used to trigger actions. Buttons are use
 
 - Affording interaction to key behaviors and features.
 - Confirming or submitting information entered into a form.
-- Cancelling and action.
+- Canceling and action.
 - Resetting a form or dataset.
 - Closing a container or section.
 - Opening a menu.
@@ -136,6 +136,20 @@ There are two button progressions you can choose from: structural and color prog
   </tbody>
 </table>
 
+### Icon-Only Buttons
+
+**Note:** Secondary icon-only buttons are recommended as default option.
+
+{{< table "class table table-bordered" >}}
+
+| Example | Type                            | When to use                                                                                  |
+| ------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
+|         | Solid                           | Used mainly in floating toolbar.                                                             |
+|         | Outline                         | Used in in-line and in button groups.                                                        |
+|         | Icon-Only (no fill, no outline) | Used mainly in [Navbars](/components/web/navbars/) on white, dark blue, and gray background. |
+
+{{</ table >}}
+
 ### Ancillary Buttons
 
 <table class="table table-bordered">
@@ -201,7 +215,7 @@ There are two button progressions you can choose from: structural and color prog
 
 | Date       | Version | Notes                                                                                        | Contributors                                        |
 | ---------- | ------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| 04/07/2020 | 1.0.1   | Light gray button added to the color progression.                                            | E. Bohn, E. Gunther, L. Cook                        |
+| 08/09/2023 | 1.0.2   | Icon-Only guidance added.                                                                    | E. Gunther, S. Kaukonen                             |
 | 11/23/2020 | 1.0.0   | Two progressions identified for clarity of use. Custom focus states added for accessibility. | E. Bohn, E. Gunther, L. Cook, L. Kause, S. Williams |
 
 {{</ whats-changed-table >}}
