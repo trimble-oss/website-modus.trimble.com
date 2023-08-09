@@ -43,7 +43,7 @@ tags: [styles]
           data-content="<small><b>font-size:</b> 16px<br><b>font-weight:</b> 600<br></small>"
         >
           <h5 class="mb-0">
-            Accordion Title
+            Accordion title
           </h5>
         </div>
         <div
@@ -66,7 +66,7 @@ tags: [styles]
           aria-controls="collapseTwo"
         >
           <h5 class="mb-0">
-            Accordion Title
+            Accordion title
           </h5>
         </div>
         <div
@@ -89,7 +89,7 @@ tags: [styles]
           aria-controls="collapseThree"
         >
           <h5 class="mb-0">
-            Accordion Title
+            Accordion title
           </h5>
         </div>
         <div
@@ -124,7 +124,7 @@ tags: [styles]
             aria-expanded="true"
             aria-controls="collapseOne">
             <h6 class="mb-0">
-              Accordion Title
+              Accordion title
             </h6>
           </div>
           <div
@@ -145,7 +145,7 @@ tags: [styles]
             aria-expanded="false"
             aria-controls="collapseTwo">
             <h6 class="mb-0">
-              Accordion Title
+              Accordion title
             </h6>
           </div>
           <div
@@ -166,7 +166,7 @@ tags: [styles]
             aria-expanded="false"
             aria-controls="collapseThree">
             <h6 class="mb-0">
-              Accordion Title
+              Accordion title
             </h6>
           </div>
           <div
@@ -191,7 +191,7 @@ tags: [styles]
             aria-expanded="true"
             aria-controls="collapseOne">
             <h6 class="mb-0">
-              Accordion Title
+              Accordion title
             </h6>
           </div>
           <div
@@ -212,7 +212,7 @@ tags: [styles]
             aria-expanded="false"
             aria-controls="collapseTwo">
             <h6 class="mb-0">
-              Accordion Title
+              Accordion title
             </h6>
           </div>
           <div
@@ -233,7 +233,7 @@ tags: [styles]
             aria-expanded="false"
             aria-controls="collapseThree">
             <h6 class="mb-0">
-              Accordion Title
+              Accordion title
             </h6>
           </div>
           <div

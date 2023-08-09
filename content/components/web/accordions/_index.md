@@ -58,7 +58,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           aria-controls="codeCollapseOne"
         >
           <h6 class="mb-0">
-            Collapsible Group Item #1
+            Collapsible group item #1
           </h6>
         </div>
         <div
@@ -82,7 +82,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           aria-controls="codeCollapseTwo"
         >
           <h6 class="mb-0">
-            Collapsible Group Item #2
+            Collapsible group item #2
           </h6>
         </div>
         <div
@@ -106,7 +106,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           aria-controls="codeCollapseThree"
         >
           <h6 class="mb-0">
-            Collapsible Group Item #3
+            Collapsible group item #3
           </h6>
         </div>
         <div
@@ -138,7 +138,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           aria-controls="smallCodeCollapseOne"
         >
           <h6 class="mb-0">
-            Collapsible Group Item #1
+            Collapsible group item #1
           </h6>
         </div>
         <div
@@ -162,7 +162,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           aria-controls="smallCodeCollapseTwo"
         >
           <h6 class="mb-0">
-            Collapsible Group Item #2
+            Collapsible group item #2
           </h6>
         </div>
         <div
@@ -186,7 +186,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
           aria-controls="smallCodeCollapseThree"
         >
           <h6 class="mb-0">
-            Collapsible Group Item #3
+            Collapsible group item #3
           </h6>
         </div>
         <div

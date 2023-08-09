@@ -17,7 +17,7 @@ tags: [styles]
 ### Typography
 
 <!-- prettier-ignore-start -->
-| Class     | Font Size    | Font Weight   | Font Color                                                                                    | Text Transform     |
+| Class     | Font size    | Font weight   | Font color                                                                                    | Text transform     |
 | --------- | ------------ | ------------- | --------------------------------------------------------------------------------------------- | ------------------ |
 | Header    | Body-1/ 14px | SemiBold/ 600 | {{< color-preview nameL="Gray 8" hexL="#464B52" nameD="Gray 0" hexD="#E0E1E9" >}}             | Title Case         |
 | Row       | Body-1/ 14px | SemiBold/ 600 | {{< color-preview nameL="Trimble Gray" hexL="#252A2E" nameD="White" hexD="#fff" >}}           | None               |
@@ -37,7 +37,7 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
 ### Structure
 
 <!-- prettier-ignore-start -->
-| Class            | Height | Min Width |
+| Class            | Height | Min width |
 | ---------------- | ------ | --------- |
 | Header Default   | 48px   | 16px      |
 | Header Condensed | 32px   | 16px      |
@@ -111,7 +111,7 @@ There are two categories of actions available in tables:
   - Cell Error State: When user exits out of the cell, his input will be validated and if the input is invalid, the cell borders become red to indicate an error and, while the user is in the field, the error message will also display to provide additional information about the error and how to correct it. When the user is correcting the error, the validation only runs again, when he exits the cell (not while typing in the cell).
 
 <!-- prettier-ignore-start -->
-|                   | Background                                                                              | Border (2px)                                                                                 | Cell Text |
+|                   | Background                                                                              | Border (2px)                                                                                 | Cell text |
 | ----------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | --------- |
 | Selected Cell     | {{< color-preview hexL="#ffffff" nameL="White" hexD="#019AEB" nameD="Highlight Blue">}} | {{< color-preview hexL="#217CBB" nameL="Blue Light" hexD="#019AEB" nameD="Highlight Blue">}} | Body 2    |
 | Invalid Cell Data | {{< color-preview hexL="#ffffff" nameL="White" hexD="#171C1E" nameD="Gray 10">}}        | {{< color-preview hex="#DA212C" name="Red">}}                                                | Body 2    |
