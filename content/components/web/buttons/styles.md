@@ -80,11 +80,11 @@ tags: [styles]
 
 {{< table "class table table-bordered" >}}
 
-|        | Example | Button Size | Icon Size               |
-| ------ | ------- | ----------- | ----------------------- |
-| Small  |         | 32px        | 24px                    |
-| Medium |         | 40px        | 24px                    |
-| Large  |         | 48px        | 32px (24px for Navbars) |
+|         | Example | Button Size | Icon Size               |
+| ------- | ------- | ----------- | ----------------------- |
+| Small   |         | 24px        | 16px                    |
+| Default |         | 32px        | 24px                    |
+| Large   |         | 48px        | 32px (24px for Navbars) |
 
 {{</ table >}}
 
@@ -270,6 +270,19 @@ All buttons (including icon-only buttons) should have the following states:
 
 #### Icon-Only Button States
 
+Icon-only buttons (no fill, no outline) are recommended:
+
+{{< table "class table table-bordered" >}}
+
+| State    | Secondary\* | Primary | Tertiary | Dark Blue Background |
+| -------- | ----------- | ------- | -------- | -------------------- |
+| Default  |             |         |          |                      |
+| Hover    |             |         |          |                      |
+| Pressed  |             |         |          |                      |
+| Disabled |             |         |          |                      |
+
+{{</ table >}}
+
 Icon-only buttons (solid and outline):
 
 {{< table "class table table-bordered" >}}
@@ -280,21 +293,6 @@ Icon-only buttons (solid and outline):
 | Hover    |             |         |          |             |         |
 | Pressed  |             |         |          |             |         |
 | Disabled |             |         |          |             |         |
-
-{{</ table >}}
-
-\* Secondary icon-only buttons are recommended as default option.
-
-Icon-only buttons (no fill, no outline):
-
-{{< table "class table table-bordered" >}}
-
-| State    | Secondary\* | Primary | Tertiary | Dark Blue Background |
-| -------- | ----------- | ------- | -------- | -------------------- |
-| Default  |             |         |          |                      |
-| Hover    |             |         |          |                      |
-| Pressed  |             |         |          |                      |
-| Disabled |             |         |          |                      |
 
 {{</ table >}}
 

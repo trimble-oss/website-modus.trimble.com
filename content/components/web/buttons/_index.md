@@ -144,7 +144,7 @@ There are two button progressions you can choose from: structural and color prog
 
 | Example | Type                            | When to use                                                                                  |
 | ------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-|         | Solid                           | Used mainly in floating toolbar.                                                             |
+|         | Solid                           | Used e.g., in floating toolbar.                                                              |
 |         | Outline                         | Used in in-line and in button groups.                                                        |
 |         | Icon-Only (no fill, no outline) | Used mainly in [Navbars](/components/web/navbars/) on white, dark blue, and gray background. |
 
