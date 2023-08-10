@@ -136,21 +136,7 @@ There are two button progressions you can choose from: structural and color prog
   </tbody>
 </table>
 
-### Icon-Only Buttons
-
-**Note:** Secondary icon-only buttons are recommended as default option.
-
-{{< table "class table table-bordered" >}}
-
-| Example | Type                            | When to use                                                                                  |
-| ------- | ------------------------------- | -------------------------------------------------------------------------------------------- |
-|         | Solid                           | Used e.g., in floating toolbar.                                                              |
-|         | Outline                         | Used in in-line and in button groups.                                                        |
-|         | Icon-Only (no fill, no outline) | Used mainly in [Navbars](/components/web/navbars/) on white, dark blue, and gray background. |
-
-{{</ table >}}
-
-### Ancillary Buttons
+### Danger Buttons
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -210,6 +196,20 @@ There are two button progressions you can choose from: structural and color prog
 </table>
 
 **Note:** A yellow button in the Trimble brand color can be used **only in special use cases**.
+
+### Icon-Only Buttons
+
+**Note:** Secondary icon-only buttons are recommended as default option.
+
+{{< table "class table table-bordered" >}}
+
+| Example | Type      | When to use                                                                                                                   |
+| ------- | --------- | ----------------------------------------------------------------------------------------------------------------------------- |
+|         | Icon-only | No fill, no outline. Recommended. Used e.g., in [Navbars](/components/web/navbars/) on white, dark blue, and gray background. |
+|         | Solid     | Used e.g., in floating toolbar.                                                                                               |
+|         | Outline   | Used e.g., in button groups.                                                                                                  |
+
+{{</ table >}}
 
 {{< whats-changed-table >}}
 

@@ -30,7 +30,7 @@ tags: [styles]
       <th></th>
       <th>Example</th>
       <th>Height</th>
-      <th>Use Case</th>
+      <th>Use case</th>
     </tr>
   </thead>
   <tbody>
@@ -80,7 +80,7 @@ tags: [styles]
 
 {{< table "class table table-bordered" >}}
 
-|         | Example | Button Size | Icon Size               |
+|         | Example | Button size | Icon size               |
 | ------- | ------- | ----------- | ----------------------- |
 | Small   |         | 24px        | 16px                    |
 | Default |         | 32px        | 24px                    |
@@ -217,7 +217,7 @@ All buttons (including icon-only buttons) should have the following states:
       </tbody>
 </table>
 
-#### Auxiliary Button States
+#### Danger Button States
 
 <table class="table table-bordered" style="width: max-content">
       <thead class="thead-light">
@@ -270,16 +270,22 @@ All buttons (including icon-only buttons) should have the following states:
 
 #### Icon-Only Button States
 
+There are three types of icon-only buttons:
+
+- Icon-only buttons with no fill and no outline.
+- Solid button
+- Outline button
+
 Icon-only buttons (no fill, no outline) are recommended:
 
 {{< table "class table table-bordered" >}}
 
-| State    | Secondary\* | Primary | Tertiary | Dark Blue Background |
-| -------- | ----------- | ------- | -------- | -------------------- |
-| Default  |             |         |          |                      |
-| Hover    |             |         |          |                      |
-| Pressed  |             |         |          |                      |
-| Disabled |             |         |          |                      |
+| State    | Primary | Secondary\* | Tertiary | Dark blue background |
+| -------- | ------- | ----------- | -------- | -------------------- |
+| Default  |         |             |          |                      |
+| Hover    |         |             |          |                      |
+| Pressed  |         |             |          |                      |
+| Disabled |         |             |          |                      |
 
 {{</ table >}}
 
@@ -287,12 +293,12 @@ Icon-only buttons (solid and outline):
 
 {{< table "class table table-bordered" >}}
 
-| State    | Secondary\* | Primary | Tertiary | Secondary\* | Primary |
-| -------- | ----------- | ------- | -------- | ----------- | ------- |
-| Default  |             |         |          |             |         |
-| Hover    |             |         |          |             |         |
-| Pressed  |             |         |          |             |         |
-| Disabled |             |         |          |             |         |
+| State    | Primary | Secondary\* | Tertiary | Primary | Secondary\* |
+| -------- | ------- | ----------- | -------- | ------- | ----------- |
+| Default  |         |             |          |         |             |
+| Hover    |         |             |          |         |             |
+| Pressed  |         |             |          |         |             |
+| Disabled |         |             |          |         |             |
 
 {{</ table >}}
 
