@@ -24,7 +24,7 @@ Buttons are clickable elements that are used to trigger actions. Buttons are use
 
 - Affording interaction to key behaviors and features.
 - Confirming or submitting information entered into a form.
-- Canceling and action.
+- Canceling an action.
 - Resetting a form or dataset.
 - Closing a container or section.
 - Opening a menu.

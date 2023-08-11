@@ -275,7 +275,7 @@ There are three types of icon-only buttons:
 - Solid button
 - Outline button
 
-#### Icon-only buttons (no fill, no outline) are recommended:
+Icon-only buttons (no fill, no outline):
 
 <table class="table table-bordered">
   <thead>
@@ -319,7 +319,7 @@ There are three types of icon-only buttons:
   </tbody>
 </table>
 
-#### Icon-only buttons (solid and outline):
+Icon-only buttons (solid and outline):
 
 <table class="table table-bordered">
   <thead>
