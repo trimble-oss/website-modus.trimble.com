@@ -78,15 +78,14 @@ tags: [styles]
 
 - The size of icon-only buttons should be as follows:
 
-{{< table "class table table-bordered" >}}
-
-|         | Example | Button size | Icon size               |
-| ------- | ------- | ----------- | ----------------------- |
-| Small   |         | 24px        | 16px                    |
-| Default |         | 32px        | 24px                    |
-| Large   |         | 48px        | 32px (24px for Navbars) |
-
-{{</ table >}}
+<!-- prettier-ignore-start -->
+|         | Example                                                                                                                                                          | Button size | Icon size               |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------- |
+| Small   | <button type="button" class="btn btn-sm btn-icon-only btn-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button> | 24px        | 16px                    |
+| Default | <button type="button" class="btn btn-icon-only btn-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button>        | 32px        | 24px                    |
+| Large   | <button type="button" class="btn btn-lg btn-icon-only btn-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button> | 48px        | 32px (24px for Navbars) |
+{class="table table-bordered"}
+<!-- prettier-ignore-end -->
 
 ### Behaviors
 
@@ -276,33 +275,100 @@ There are three types of icon-only buttons:
 - Solid button
 - Outline button
 
-Icon-only buttons (no fill, no outline) are recommended:
+#### Icon-only buttons (no fill, no outline) are recommended:
 
-{{< table "class table table-bordered" >}}
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th style="width:12%">State</th>
+      <th style="width:22%">Primary</th>
+      <th style="width:22%">Secondary*</th>
+      <th style="width:22%">Tertiary</th>
+      <th style="width:22%">Dark blue background</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="width:12%">Default</td>
+      <td style="width:22%"><button class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td style="width:22%"><button class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td style="width:22%"><button class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td style="background-color:#0e416c"><button class="btn btn-icon-only text-white pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+    </tr>
+    <tr>
+      <td>Hover</td>
+      <td><button class="btn btn-icon-only btn-text-primary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-text-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only text-tertiary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td style="background-color:#0e416c"><button class="btn btn-icon-only text-white pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+    </tr>
+    <tr>
+      <td>Pressed</td>
+      <td><button class="btn btn-icon-only btn-text-primary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-text-secondary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-text-tertiary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td style="background-color:#0e416c"><button class="btn btn-icon-only btn-text-darkblue pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+    </tr>
+    <tr>
+      <td>Disabled</td>
+      <td><button disabled class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button disabled class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button disabled class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td style="background-color:#0e416c"><button disabled class="btn btn-icon-only text-white pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+    </tr>
+  </tbody>
+</table>
 
-| State    | Primary | Secondary\* | Tertiary | Dark blue background |
-| -------- | ------- | ----------- | -------- | -------------------- |
-| Default  |         |             |          |                      |
-| Hover    |         |             |          |                      |
-| Pressed  |         |             |          |                      |
-| Disabled |         |             |          |                      |
+#### Icon-only buttons (solid and outline):
 
-{{</ table >}}
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Primary</th>
+      <th>Secondary*</th>
+      <th>Tertiary</th>
+      <th>Primary</th>
+      <th>Secondary*</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Default</td>
+      <td><button class="btn btn-icon-only btn-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-outline-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-outline-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+    </tr>
+    <tr>
+      <td>Hover</td>
+      <td><button class="btn btn-icon-only btn-primary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-tertiary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-outline-primary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-outline-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+    </tr>
+    <tr>
+      <td>Pressed</td>
+      <td><button class="btn btn-icon-only btn-primary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-secondary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-tertiary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-outline-primary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-outline-secondary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+    </tr>
+    <tr>
+      <td>Disabled</td>
+      <td><button disabled class="btn btn-icon-only btn-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button disabled class="btn btn-icon-only btn-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button disabled class="btn btn-icon-only btn-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button disabled class="btn btn-icon-only btn-outline-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button disabled class="btn btn-icon-only btn-outline-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+    </tr>
+  </tbody>
+</table>
 
-Icon-only buttons (solid and outline):
-
-{{< table "class table table-bordered" >}}
-
-| State    | Primary | Secondary\* | Tertiary | Primary | Secondary\* |
-| -------- | ------- | ----------- | -------- | ------- | ----------- |
-| Default  |         |             |          |         |             |
-| Hover    |         |             |          |         |             |
-| Pressed  |         |             |          |         |             |
-| Disabled |         |             |          |         |             |
-
-{{</ table >}}
-
-\* Secondary icon-only buttons are recommended as default option.
+<small>\* Secondary icon-only buttons are recommended as default option.</small>
 
 Icon-only button state colors may vary based on product. Always make sure the colors of all states (except for disabled) meet [color contrast accessibility standards](/foundations/accessibility/).
 

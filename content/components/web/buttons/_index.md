@@ -201,15 +201,14 @@ There are two button progressions you can choose from: structural and color prog
 
 **Note:** Secondary icon-only buttons are recommended as default option.
 
-{{< table "class table table-bordered" >}}
-
-| Example | Type      | When to use                                                                                                                   |
-| ------- | --------- | ----------------------------------------------------------------------------------------------------------------------------- |
-|         | Icon-only | No fill, no outline. Recommended. Used e.g., in [Navbars](/components/web/navbars/) on white, dark blue, and gray background. |
-|         | Solid     | Used e.g., in floating toolbar.                                                                                               |
-|         | Outline   | Used e.g., in button groups.                                                                                                  |
-
-{{</ table >}}
+<!-- prettier-ignore-start -->
+| Example                                                                                                                                                          | Type      | When to use      |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ---------------- |
+| <button type="button" class="btn btn-icon-only btn-transparent" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button>    | Icon-only | No fill, no outline. Recommended. Used e.g., in [Navbars](/components/web/navbars/) on white, dark blue, and gray background. |
+| <button type="button" class="btn btn-icon-only btn-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button>        | Solid     | Used e.g., in floating toolbar.                                                                                               |
+| <button type="button" class="btn btn-icon-only btn-outline-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button> | Outline   | Used e.g., in button groups.                                                                                                  |
+{class="table table-bordered"}
+<!-- prettier-ignore-end -->
 
 {{< whats-changed-table >}}
 
