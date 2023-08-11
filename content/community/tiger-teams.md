@@ -30,7 +30,7 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 | Advanced Table Features                     | **M. Brinkman**, B. Brunner, N. Cadsawan, (M. Casale), C. Cuellar, (S. Farhat), A. Infante, W. Mezo-Gadia, K. Nguyen, J. Parr, C. Rodriguez, Krithika S, Z. Ward | 05/18/2023 |
 | Alerts, Messages, Notifications, and Toasts | **A. Chandroo**, J. Blackwell, E. Gunther, M. Johns, M. Manders, T. Ortiz, V. Sridharan, Priyanka V R | 05/17/2023 |
 | Animations & Microinteractions 2.0          | **W. Mezo-Gadia**, J. Blackwell, S. Farhad, M. Manders, T. Manham, Z. Ward, D. Zambrano | 05/18/2023 |
-| Accordions, Cards, Modals, and Tabs         | **K. Ponpandian**, J. de Wit, A. Galstyan, E. Gunther, S. Kumar, T. Priya, M. Randrianavony, Krithika S., C. Shaw, Vimal A.V., Z. Ward | 03/14/2023 |
+| Accordions, Cards, Modals, and Tabs         | **Z. Ward**, **K. Ponpandian**, J. de Wit, A. Galstyan, E. Gunther, S. Kumar, T. Priya, M. Randrianavony, Krithika S., C. Shaw, Vimal A.V.  | 03/14/2023 |
 {class="table table-bordered"}
 <!-- prettier-ignore-end -->
 
