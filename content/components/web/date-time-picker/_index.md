@@ -18,7 +18,7 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inpu
 
 Use the Date & Time Picker to select a date or a date range from the calendar view or by typing in the date and/or time as indicated by the placeholder text.
 
-{{< img src="/img/components/single-date-picker.png" dark="/img/components/single-date-picker-dark.png" class="w-100" height="474" width="1008" alt="Date Picker Example screenshots" loading="auto" >}}
+{{< img src="/img/components/single-date-picker.png" dark="/img/components/single-date-picker-dark.png" class="w-100" alt="Date Picker Example" loading="auto" >}}
 
 ## Usage
 

@@ -78,7 +78,6 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
 - Providing a user with a message related to a page-level or out-of-view event, like completion of a report generation. Instead, use a [Toast](/components/web/toasts/).
 - Providing a user with a system-level message, like a network outage or browser incompatibility. Instead, use a [Modal](/components/web/modals/).
 - Attaching an error message to an input.
-- Notifying the user of a low priority message. Instead, use a [Message](/components/web/messages/).
 
 {{< whats-changed-table >}}
 
