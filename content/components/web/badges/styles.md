@@ -30,7 +30,7 @@ Badges should be centered vertically inside of their containing element.
       <th></th>
       <th>Example</th>
       <th>Height</th>
-      <th>Use Case</th>
+      <th>Use case</th>
     </tr>
   </thead>
   <tbody>
