@@ -27,7 +27,7 @@ tags: [styles]
       <th></th>
       <th>Example</th>
       <th>Height</th>
-      <th>Use Case</th>
+      <th>Use case</th>
     </tr>
   </thead>
   <tbody>
@@ -89,9 +89,9 @@ All buttons (including icon buttons) should have the following states:
         <tr>
           <th>State</th>
           <th>Primary</th>
-          <th></th>
-          <th></th>
-          <th></th>
+          <th>Primary Outline</th>
+          <th>Dark Outline</th>
+          <th>Text</th>
         </tr>
       </thead>
       <tbody>
@@ -118,7 +118,7 @@ All buttons (including icon buttons) should have the following states:
           <td><button class="btn hover btn-text-primary" type="button">Button</button></td>
         </tr>
         <tr>
-          <th scope="row">Pressed</th>
+          <th scope="row">Active</th>
           <td>
             <button class="btn display-active btn-primary" type="button">Button</button>
           </td>
@@ -149,9 +149,9 @@ All buttons (including icon buttons) should have the following states:
         <tr>
           <th>State</th>
           <th>Primary</th>
-          <th></th>
-          <th></th>
-          <th></th>
+          <th>Secondary</th>
+          <th>Tertiary</th>
+          <th>Text</th>
         </tr>
       </thead>
       <tbody>
@@ -178,7 +178,7 @@ All buttons (including icon buttons) should have the following states:
           <td><button class="btn hover btn-text-primary" type="button">Button</button></td>
         </tr>
         <tr>
-          <th scope="row">Pressed</th>
+          <th scope="row">Active</th>
           <td>
             <button class="btn display-active btn-primary" type="button">Button</button>
           </td>
@@ -186,7 +186,7 @@ All buttons (including icon buttons) should have the following states:
             <button class="btn display-active btn-secondary" type="button">Button</button>
           </td>
           <td>
-            <button class="btn display-active btn-tertiary" type="button">Button</button>
+            <button class="btn display-active btn-tertiary" type="button" style="color:#252a2e">Button</button>
           </td>
           <td>
             <button class="btn display-active btn-text-primary" type="button">Button</button>
@@ -216,8 +216,8 @@ All buttons (including icon buttons) should have the following states:
         <tr>
           <th scope="row">Default</th>
           <td>
-            <button class="btn btn-icon-only btn-text-dark" type="button">
-            <i class="modus-icons notranslate" aria-hidden="true">settings</i>
+            <button class="btn btn-icon-only btn-text-dark" type="button" aria-label="Settings">
+              <i class="modus-icons notranslate" aria-hidden="true">settings</i>
             </button>
           </td>
           <td>
@@ -226,15 +226,15 @@ All buttons (including icon buttons) should have the following states:
         </tr>
         <tr>
           <th scope="row">Hover</th>
-          <td><button class="btn hover btn-icon-only btn-text-dark">
+          <td><button class="btn hover btn-icon-only btn-text-dark" aria-label="Settings">
             <i class="modus-icons notranslate" aria-hidden="true">settings</i>
           </button></td>
           <td><button class="btn hover btn-danger" type="button">Button</button></td>
         </tr>
         <tr>
-          <th scope="row">Pressed</th>
+          <th scope="row">Active</th>
           <td>
-            <button class="btn display-active btn-icon-only btn-text-dark">
+            <button class="btn display-active btn-icon-only btn-text-dark" aria-label="Settings">
             <i class="modus-icons notranslate" aria-hidden="true">settings</i>
           </button>
           </td>
