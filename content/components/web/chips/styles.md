@@ -16,12 +16,15 @@ tags: [styles]
 
 There are two sizes of Chips:
 
-- By default, Chips should have a height of 30px, border radius 16px and a font size 13px
-- Smaller variant will have a height of 24px, border radius 16px and a font size 12px
+- By default, Chips should have a height of 30px, border radius 16px and font size 12px
+- Smaller variant will have a height of 24px, border radius 16px and font size 12px
 
 <style>
 [data-theme=dark] .chip-solid:not(:disabled):not(.disabled):not(.error):active, [data-theme=dark] .chip-solid:not(:disabled):not(.disabled):not(.error).active {
   background-color: #019AEB!important;
+}
+.chip-text {
+  font-size: 12px !important;
 }
 </style>
 
@@ -39,7 +42,7 @@ There are two sizes of Chips:
     <tr style="height:80px">
       <th scope="row">Default</th>
       <td class="anatomy-cell text-center">
-        <button class="chip chip-solid chip-input anatomy-display-static" data-anatomy-colors="false" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="left" data-content="<small><b>font-size:</b> 13px<br><b>border-radius:</b> 16px<br></small>">
+        <button class="chip chip-solid chip-input anatomy-display-static" data-anatomy-colors="false" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="left" data-content="<small><b>font-size:</b> 12px<br><b>border-radius:</b> 16px<br></small>">
         <div class="chip-thumbnail">
           <img src="/img/headshot.png" height="24" width="24" alt="" />
         </div>
