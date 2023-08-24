@@ -79,11 +79,11 @@ tags: [styles]
 - The size of icon-only buttons should be as follows:
 
 <!-- prettier-ignore-start -->
-|         | Example                                                                                                                                                          | Button size | Icon size               |
-| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------- |
-| Small   | <button type="button" class="btn btn-sm btn-icon-only btn-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button> | 24px        | 16px                    |
-| Default | <button type="button" class="btn btn-icon-only btn-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button>        | 32px        | 24px                    |
-| Large   | <button type="button" class="btn btn-lg btn-icon-only btn-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button> | 48px        | 32px (24px for Navbars) |
+|         | Example                                                                                                                                                            | Button size | Icon size               |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- | ----------------------- |
+| Small   | <button type="button" class="btn btn-sm btn-icon-only btn-secondary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button> | 24px        | 16px                    |
+| Default | <button type="button" class="btn btn-icon-only btn-secondary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button>        | 32px        | 24px                    |
+| Large   | <button type="button" class="btn btn-lg btn-icon-only btn-secondary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button> | 48px        | 32px (24px for Navbars) |
 {class="table table-bordered"}
 <!-- prettier-ignore-end -->
 
@@ -357,7 +357,11 @@ Icon-only buttons (solid and outline):
 <table class="table table-bordered">
   <thead>
     <tr>
-      <th>State</th>
+      <th rowspan="2">State</th>
+      <th colspan="3">Solid</th>
+      <th colspan="2">Outline</th>
+    </tr>
+    <tr>
       <th>Primary</th>
       <th>Secondary*</th>
       <th>Tertiary</th>
@@ -383,7 +387,7 @@ Icon-only buttons (solid and outline):
       <td><button type="button" class="btn btn-icon-only btn-outline-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
     </tr>
     <tr>
-      <td>Pressed</td>
+      <td>Active</td>
       <td><button type="button" class="btn btn-icon-only btn-primary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
       <td><button type="button" class="btn btn-icon-only btn-secondary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
       <td><button type="button" class="btn btn-icon-only btn-tertiary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
