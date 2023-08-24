@@ -99,172 +99,175 @@ All buttons (including icon-only buttons) should have the following states:
 #### Structural Progression States
 
 <table class="table table-bordered" style="width: max-content">
-      <thead class="thead-light">
-        <tr>
-          <th>State</th>
-          <th>Primary</th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Default</th>
-          <td>
-            <button class="btn btn-primary" type="button">Button</button>
-          </td>
-          <td>
-            <button class="btn btn-outline-primary" type="button">Button</button>
-          </td>
-          <td>
-            <button class="btn btn-outline-dark" type="button">Button</button>
-          </td>
-          <td>
-            <button class="btn btn-text-primary" type="button">Button</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">Hover</th>
-          <td><button class="btn hover btn-primary" type="button">Button</button></td>
-          <td><button class="btn hover btn-outline-primary" type="button">Button</button></td>
-          <td><button class="btn hover btn-outline-dark" type="button">Button</button></td>
-          <td><button class="btn hover btn-text-primary" type="button">Button</button></td>
-        </tr>
-        <tr>
-          <th scope="row">Pressed</th>
-          <td>
-            <button class="btn display-active btn-primary" type="button">Button</button>
-          </td>
-          <td>
-            <button class="btn display-active btn-outline-primary" type="button">Button</button>
-          </td>
-          <td>
-            <button class="btn display-active btn-outline-dark" type="button">Button</button>
-          </td>
-          <td>
-            <button class="btn display-active btn-text-primary" type="button">Button</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">Disabled</th>
-          <td><button disabled class="btn btn-primary" type="button">Button</button></td>
-          <td><button disabled class="btn btn-outline-primary" type="button">Button</button></td>
-          <td><button disabled class="btn btn-outline-dark" type="button">Button</button></td>
-          <td><button disabled class="btn btn-text-primary" type="button">Button</button></td>
-        </tr>
-      </tbody>
+  <thead class="thead-light">
+    <tr>
+      <th>State</th>
+      <th>Primary</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Default</th>
+      <td>
+        <button class="btn btn-primary" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn btn-outline-primary" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn btn-outline-dark" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn btn-text-primary" type="button">Button</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Hover</th>
+      <td><button class="btn hover btn-primary" type="button">Button</button></td>
+      <td><button class="btn hover btn-outline-primary" type="button">Button</button></td>
+      <td><button class="btn hover btn-outline-dark" type="button">Button</button></td>
+      <td><button class="btn hover btn-text-primary" type="button">Button</button></td>
+    </tr>
+    <tr>
+      <th scope="row">Pressed</th>
+      <td>
+        <button class="btn display-active btn-primary" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn display-active btn-outline-primary" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn display-active btn-outline-dark" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn display-active btn-text-primary" type="button">Button</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Disabled</th>
+      <td><button disabled class="btn btn-primary" type="button">Button</button></td>
+      <td><button disabled class="btn btn-outline-primary" type="button">Button</button></td>
+      <td><button disabled class="btn btn-outline-dark" type="button">Button</button></td>
+      <td><button disabled class="btn btn-text-primary" type="button">Button</button></td>
+    </tr>
+  </tbody>
 </table>
 
 #### Color Progression States
 
 <table class="table table-bordered" style="width: max-content">
-      <thead class="thead-light">
-        <tr>
-          <th>State</th>
-          <th>Primary</th>
-          <th></th>
-          <th></th>
-          <th></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Default</th>
-          <td>
-            <button class="btn btn-primary" type="button">Button</button>
-          </td>
-          <td>
-            <button class="btn btn-secondary" type="button">Button</button>
-          </td>
-          <td>
-            <button class="btn btn-tertiary" type="button">Button</button>
-          </td>
-          <td>
-            <button class="btn btn-text-primary" type="button">Button</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">Hover</th>
-          <td><button class="btn hover btn-primary" type="button">Button</button></td>
-          <td><button class="btn hover btn-secondary" type="button">Button</button></td>
-          <td><button class="btn hover btn-tertiary" type="button">Button</button></td>
-          <td><button class="btn hover btn-text-primary" type="button">Button</button></td>
-        </tr>
-        <tr>
-          <th scope="row">Pressed</th>
-          <td>
-            <button class="btn display-active btn-primary" type="button">Button</button>
-          </td>
-          <td>
-            <button class="btn display-active btn-secondary" type="button">Button</button>
-          </td>
-          <td>
-            <button class="btn display-active btn-tertiary" type="button">Button</button>
-          </td>
-          <td>
-            <button class="btn display-active btn-text-primary" type="button">Button</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">Disabled</th>
-          <td><button disabled class="btn btn-primary" type="button">Button</button></td>
-          <td><button disabled class="btn btn-secondary" type="button">Button</button></td>
-          <td><button disabled class="btn btn-tertiary" type="button">Button</button></td>
-          <td><button disabled class="btn btn-text-primary" type="button">Button</button></td>
-        </tr>
-      </tbody>
+  <thead class="thead-light">
+    <tr>
+      <th>State</th>
+      <th>Primary</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Default</th>
+      <td>
+        <button class="btn btn-primary" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn btn-secondary" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn btn-tertiary" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn btn-text-primary" type="button">Button</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Hover</th>
+      <td><button class="btn hover btn-primary" type="button">Button</button></td>
+      <td><button class="btn hover btn-secondary" type="button">Button</button></td>
+      <td><button class="btn hover btn-tertiary" type="button">Button</button></td>
+      <td><button class="btn hover btn-text-primary" type="button">Button</button></td>
+    </tr>
+    <tr>
+      <th scope="row">Pressed</th>
+      <td>
+        <button class="btn display-active btn-primary" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn display-active btn-secondary" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn display-active btn-tertiary" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn display-active btn-text-primary" type="button">Button</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Disabled</th>
+      <td><button disabled class="btn btn-primary" type="button">Button</button></td>
+      <td><button disabled class="btn btn-secondary" type="button">Button</button></td>
+      <td><button disabled class="btn btn-tertiary" type="button">Button</button></td>
+      <td><button disabled class="btn btn-text-primary" type="button">Button</button></td>
+    </tr>
+  </tbody>
 </table>
 
 #### Danger Button States
 
 <table class="table table-bordered" style="width: max-content">
-      <thead class="thead-light">
-        <tr>
-          <th>State</th>
-          <th>Icon Only</th>
-          <th>Danger</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Default</th>
-          <td>
-            <button class="btn btn-icon-only btn-text-dark" type="button">
-            <i class="modus-icons notranslate" aria-hidden="true">settings</i>
-            </button>
-          </td>
-          <td>
-            <button class="btn btn-danger" type="button">Button</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">Hover</th>
-          <td><button class="btn hover btn-icon-only btn-text-dark">
-            <i class="modus-icons notranslate" aria-hidden="true">settings</i>
-          </button></td>
-          <td><button class="btn hover btn-danger" type="button">Button</button></td>
-        </tr>
-        <tr>
-          <th scope="row">Pressed</th>
-          <td>
-            <button class="btn display-active btn-icon-only btn-text-dark">
-            <i class="modus-icons notranslate" aria-hidden="true">settings</i>
-          </button>
-          </td>
-          <td>
-            <button class="btn display-active btn-danger" type="button">Button</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">Disabled</th>
-          <td>
-          <button disabled class="btn btn-icon-only btn-text-dark">
-            <i class="modus-icons notranslate" aria-hidden="true">settings</i>
-          </button></td>
-          <td><button disabled class="btn btn-danger" type="button">Button</button></td>
-        </tr>
-      </tbody>
+  <thead class="thead-light">
+    <tr>
+      <th>State</th>
+      <th>Icon Only</th>
+      <th>Danger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Default</th>
+      <td>
+        <button class="btn btn-icon-only btn-text-dark" type="button">
+          <i class="modus-icons notranslate" aria-hidden="true">settings</i>
+        </button>
+      </td>
+      <td>
+        <button class="btn btn-danger" type="button">Button</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Hover</th>
+      <td>
+        <button class="btn hover btn-icon-only btn-text-dark" type="button">
+          <i class="modus-icons notranslate" aria-hidden="true">settings</i>
+        </button>
+      </td>
+      <td><button class="btn hover btn-danger" type="button">Button</button></td>
+    </tr>
+    <tr>
+      <th scope="row">Pressed</th>
+      <td>
+        <button class="btn display-active btn-icon-only btn-text-dark" type="button">
+          <i class="modus-icons notranslate" aria-hidden="true">settings</i>
+        </button>
+      </td>
+      <td>
+        <button class="btn display-active btn-danger" type="button">Button</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Disabled</th>
+      <td>
+        <button disabled class="btn btn-icon-only btn-text-dark" type="button">
+          <i class="modus-icons notranslate" aria-hidden="true">settings</i>
+        </button>
+      </td>
+      <td><button disabled class="btn btn-danger" type="button">Button</button></td>
+    </tr>
+  </tbody>
 </table>
 
 #### Icon-Only Button States
@@ -280,41 +283,73 @@ Icon-only buttons (no fill, no outline):
 <table class="table table-bordered">
   <thead>
     <tr>
-      <th style="width:12%">State</th>
-      <th style="width:22%">Primary</th>
-      <th style="width:22%">Secondary*</th>
-      <th style="width:22%">Tertiary</th>
-      <th style="width:22%">Dark blue background</th>
+      <th style="width: 12%">State</th>
+      <th style="width: 22%">Primary</th>
+      <th style="width: 22%">Secondary*</th>
+      <th style="width: 22%">Tertiary</th>
+      <th style="width: 22%">Dark blue background</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="width:12%">Default</td>
-      <td style="width:22%"><button class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td style="width:22%"><button class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td style="width:22%"><button class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td style="background-color:#0e416c"><button class="btn btn-icon-only text-white pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td style="width: 12%">Default</td>
+      <td style="width: 22%">
+        <button type="button" class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td style="width: 22%">
+        <button type="button" class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td style="width: 22%">
+        <button type="button" class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td style="background-color: #0e416c">
+        <button type="button" class="btn btn-icon-only text-white pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
     </tr>
     <tr>
       <td>Hover</td>
-      <td><button class="btn btn-icon-only btn-text-primary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-text-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only text-tertiary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td style="background-color:#0e416c"><button class="btn btn-icon-only text-white pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td>
+        <button type="button" class="btn btn-icon-only btn-text-primary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td>
+        <button type="button" class="btn btn-icon-only btn-text-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td>
+        <button type="button" class="btn btn-icon-only text-tertiary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td style="background-color: #0e416c">
+        <button type="button" class="btn btn-icon-only text-white pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
     </tr>
     <tr>
       <td>Pressed</td>
-      <td><button class="btn btn-icon-only btn-text-primary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-text-secondary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-text-tertiary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td style="background-color:#0e416c"><button class="btn btn-icon-only btn-text-darkblue pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td>
+        <button type="button" class="btn btn-icon-only btn-text-primary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td>
+        <button type="button" class="btn btn-icon-only btn-text-secondary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td>
+        <button type="button" class="btn btn-icon-only btn-text-tertiary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td style="background-color: #0e416c">
+        <button type="button" class="btn btn-icon-only btn-text-darkblue pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
     </tr>
     <tr>
       <td>Disabled</td>
-      <td><button disabled class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button disabled class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button disabled class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td style="background-color:#0e416c"><button disabled class="btn btn-icon-only text-white pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td>
+        <button type="button" disabled class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td>
+        <button type="button" disabled class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td>
+        <button type="button" disabled class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td style="background-color: #0e416c">
+        <button type="button" disabled class="btn btn-icon-only text-white pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -335,35 +370,35 @@ Icon-only buttons (solid and outline):
   <tbody>
     <tr>
       <td>Default</td>
-      <td><button class="btn btn-icon-only btn-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-outline-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-outline-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button type="button" class="btn btn-icon-only btn-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-outline-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-outline-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
     </tr>
     <tr>
       <td>Hover</td>
-      <td><button class="btn btn-icon-only btn-primary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-tertiary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-outline-primary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-outline-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button type="button" class="btn btn-icon-only btn-primary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-tertiary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-outline-primary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-outline-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
     </tr>
     <tr>
       <td>Pressed</td>
-      <td><button class="btn btn-icon-only btn-primary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-secondary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-tertiary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-outline-primary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button class="btn btn-icon-only btn-outline-secondary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button type="button" class="btn btn-icon-only btn-primary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-secondary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-tertiary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-outline-primary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-outline-secondary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
     </tr>
     <tr>
       <td>Disabled</td>
-      <td><button disabled class="btn btn-icon-only btn-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button disabled class="btn btn-icon-only btn-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button disabled class="btn btn-icon-only btn-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button disabled class="btn btn-icon-only btn-outline-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
-      <td><button disabled class="btn btn-icon-only btn-outline-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button type="button" disabled class="btn btn-icon-only btn-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" disabled class="btn btn-icon-only btn-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" disabled class="btn btn-icon-only btn-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" disabled class="btn btn-icon-only btn-outline-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" disabled class="btn btn-icon-only btn-outline-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
     </tr>
   </tbody>
 </table>
