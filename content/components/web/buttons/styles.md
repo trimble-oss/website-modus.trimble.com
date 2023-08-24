@@ -322,16 +322,16 @@ Icon-only buttons (no fill, no outline):
     <tr>
       <td>Active</td>
       <td>
-        <button type="button" class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" class="btn btn-icon-only btn-text-primary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>
-        <button type="button" class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" class="btn btn-icon-only btn-text-secondary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>
-        <button type="button" class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" class="btn btn-icon-only btn-text-tertiary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td style="background-color: #0e416c">
-        <button type="button" class="btn btn-icon-only btn-text-darkblue pe-none"><i class="modus-icons notranslate" aria-hidden="true" style="color:#fff;">settings</i></button>
+        <button type="button" class="btn btn-icon-only btn-text-darkblue display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true" style="color:#fff;">settings</i></button>
       </td>
     </tr>
     <tr>
@@ -388,11 +388,11 @@ Icon-only buttons (solid and outline):
     </tr>
     <tr>
       <td>Active</td>
-      <td><button type="button" class="btn btn-icon-only btn-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
-      <td><button type="button" class="btn btn-icon-only btn-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
-      <td><button type="button" class="btn btn-icon-only btn-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
-      <td><button type="button" class="btn btn-icon-only btn-outline-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
-      <td><button type="button" class="btn btn-icon-only btn-outline-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-primary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-secondary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-tertiary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-outline-primary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-outline-secondary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
     </tr>
     <tr>
       <td>Disabled</td>
