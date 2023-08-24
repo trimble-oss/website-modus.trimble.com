@@ -18,7 +18,7 @@ params:
 
 publishdir: "./build/"
 
-disableKinds: ["taxonomy", "taxonomyTerm", "404"]
+disableKinds: ["taxonomy", "term"]
 
 pygmentsUseClasses: true
 
