@@ -17,9 +17,9 @@ tags: [styles]
 - All buttons should be interactive and perform an action.
 - They should be discoverable, easy to identify, and specific.
 - Always have a text label within the text button container. Icons are optional.
-- When using icon-only buttons, make sure the symbol is comprehensive and scalable. A text tooltip can provide the name of the functionality.
-- The use of secondary icon-only buttons (gray or white) as default is recommended over the use of primary blue.
-- An icon can be used in combination with a dropdown caret in an icon-only button.
+- When using icon buttons, make sure the symbol is comprehensive and scalable. A text tooltip can provide the name of the functionality.
+- The use of secondary icon buttons (gray or white) as default is recommended over the use of primary blue.
+- An icon can be used in combination with a dropdown caret in an icon button.
 - Make buttons look and feel clickable.
 - If using multiple buttons, label them distinctly.
 - The size of the text buttons should be used in proportion to the context and content around it.
@@ -76,20 +76,20 @@ tags: [styles]
   </tbody>
 </table>
 
-- The size of icon-only buttons should be as follows:
+- The size of icon buttons should be as follows:
 
 <!-- prettier-ignore-start -->
 |         | Example                                                                                                                                                            | Button size | Icon size               |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- | ----------------------- |
-| Small   | <button type="button" class="btn btn-sm btn-icon-only btn-secondary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button> | 24px        | 16px                    |
-| Default | <button type="button" class="btn btn-icon-only btn-secondary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button>        | 32px        | 24px                    |
-| Large   | <button type="button" class="btn btn-lg btn-icon-only btn-secondary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button> | 48px        | 32px (24px for Navbars) |
+| Small   | <button type="button" class="btn btn-sm btn-icon-only btn-secondary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button> | 24px        | 16px                    |
+| Default | <button type="button" class="btn btn-icon-only btn-secondary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>        | 32px        | 24px                    |
+| Large   | <button type="button" class="btn btn-lg btn-icon-only btn-secondary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button> | 48px        | 32px (use 24px when used for Navbars) |
 {class="table table-bordered"}
 <!-- prettier-ignore-end -->
 
 ### Behaviors
 
-All buttons (including icon-only buttons) should have the following states:
+All buttons (including icon buttons) should have the following states:
 
 - Default
 - Hover
@@ -222,7 +222,6 @@ All buttons (including icon-only buttons) should have the following states:
   <thead class="thead-light">
     <tr>
       <th>State</th>
-      <th>Icon Only</th>
       <th>Danger</th>
     </tr>
   </thead>
@@ -230,41 +229,21 @@ All buttons (including icon-only buttons) should have the following states:
     <tr>
       <th scope="row">Default</th>
       <td>
-        <button class="btn btn-icon-only btn-text-dark" type="button" aria-label="Settings">
-          <i class="modus-icons notranslate" aria-hidden="true">settings</i>
-        </button>
-      </td>
-      <td>
         <button class="btn btn-danger" type="button">Button</button>
       </td>
     </tr>
     <tr>
       <th scope="row">Hover</th>
-      <td>
-        <button class="btn hover btn-icon-only btn-text-dark" aria-label="Settings">
-          <i class="modus-icons notranslate" aria-hidden="true">settings</i>
-        </button>
-      </td>
       <td><button class="btn hover btn-danger" type="button">Button</button></td>
     </tr>
     <tr>
       <th scope="row">Active</th>
-      <td>
-        <button class="btn display-active btn-icon-only btn-text-dark" aria-label="Settings">
-          <i class="modus-icons notranslate" aria-hidden="true">settings</i>
-        </button>
-      </td>
-      <td>
+       <td>
         <button class="btn display-active btn-danger" type="button">Button</button>
       </td>
     </tr>
     <tr>
       <th scope="row">Disabled</th>
-      <td>
-        <button type="button" disabled class="btn btn-icon-only btn-text-dark" aria-label="Settings">
-          <i class="modus-icons notranslate" aria-hidden="true">settings</i>
-        </button>
-      </td>
       <td><button disabled class="btn btn-danger" type="button">Button</button></td>
     </tr>
   </tbody>
@@ -272,33 +251,34 @@ All buttons (including icon-only buttons) should have the following states:
 
 #### Icon-Only Button States
 
-There are three types of icon-only buttons:
+**Note:** There are only four color options available for Icon-Only buttons:
 
-- Icon-only buttons with no fill and no outline.
-- Solid button
-- Outline button
-Icon-only buttons (no fill, no outline):
+- **Dark:** The default recommended option (Trimble Gray)
+- **Secondary:** Gray 6
+- **Primary:** Trimble Blue
+- **Reversed:** White. These are used in blue or dark Nav Bars.
+
 <table class="table table-bordered">
   <thead>
     <tr>
       <th style="width: 12%">State</th>
+      <th style="width: 22%">Dark</th>
+      <th style="width: 22%">Secondary</th>
       <th style="width: 22%">Primary</th>
-      <th style="width: 22%">Secondary*</th>
-      <th style="width: 22%">Tertiary</th>
-      <th style="width: 22%">Dark blue background</th>
+      <th style="width: 22%">Reversed</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="width: 12%">Default</td>
       <td style="width: 22%">
-        <button type="button" class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td style="width: 22%">
         <button type="button" class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td style="width: 22%">
-        <button type="button" class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td style="background-color: #0e416c">
         <button type="button" class="btn btn-icon-only text-white pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
@@ -307,13 +287,13 @@ Icon-only buttons (no fill, no outline):
     <tr>
       <td>Hover</td>
       <td>
-        <button type="button" class="btn btn-icon-only btn-text-primary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" class="btn btn-icon-only btn-text-tertiary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>
         <button type="button" class="btn btn-icon-only btn-text-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>
-        <button type="button" class="btn btn-icon-only text-tertiary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" class="btn btn-icon-only text-primary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td style="background-color: #0e416c">
         <button type="button" class="btn btn-icon-only text-white pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
@@ -322,13 +302,13 @@ Icon-only buttons (no fill, no outline):
     <tr>
       <td>Active</td>
       <td>
-        <button type="button" class="btn btn-icon-only btn-text-primary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" class="btn btn-icon-only btn-text-tertiary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>
         <button type="button" class="btn btn-icon-only btn-text-secondary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>
-        <button type="button" class="btn btn-icon-only btn-text-tertiary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" class="btn btn-icon-only btn-text-primary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td style="background-color: #0e416c">
         <button type="button" class="btn btn-icon-only btn-text-darkblue display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true" style="color:#fff;">settings</i></button>
@@ -337,13 +317,13 @@ Icon-only buttons (no fill, no outline):
     <tr>
       <td>Disabled</td>
       <td>
-        <button type="button" disabled class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" disabled class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>
         <button type="button" disabled class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>
-        <button type="button" disabled class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" disabled class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td style="background-color: #0e416c">
         <button type="button" disabled class="btn btn-icon-only text-white pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
@@ -352,7 +332,7 @@ Icon-only buttons (no fill, no outline):
   </tbody>
 </table>
 
-Icon-only buttons (solid and outline):
+#### Icon Button States (Solid And Outline)
 
 <table class="table table-bordered">
   <thead>
@@ -405,9 +385,9 @@ Icon-only buttons (solid and outline):
   </tbody>
 </table>
 
-<small>\* Secondary icon-only buttons are recommended as default option.</small>
+<small>\* Secondary icon buttons are recommended as default option.</small>
 
-Icon-only button state colors may vary based on product. Always make sure the colors of all states (except for disabled) meet [color contrast accessibility standards](/foundations/accessibility/).
+Icon button state colors may vary based on product. Always make sure the colors of all states (except for disabled) meet [color contrast accessibility standards](/foundations/accessibility/).
 
 ### Editorial
 

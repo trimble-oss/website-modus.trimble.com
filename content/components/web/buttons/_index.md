@@ -149,38 +149,6 @@ There are two button progressions you can choose from: structural and color prog
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Icon Only</th>
-      <td>
-        <div class="mb-1">
-          <button type="button" class="btn btn-icon-only btn-text-dark" aria-label="Settings">
-            <i class="modus-icons notranslate" aria-hidden="true">gear</i>
-          </button>
-        </div>
-        <div>
-          <div
-            class="btn-group shadow-1"
-            role="group"
-            aria-label="Basic example">
-            <button type="button" class="btn btn-icon-only btn-outline-dark" aria-label="Calendar">
-              <i class="modus-icons notranslate" aria-hidden="true">calendar</i>
-            </button>
-            <button
-              type="button"
-              class="btn btn-icon-only btn-outline-dark active" aria-label="Edit">
-              <i class="modus-icons notranslate" aria-hidden="true">pencil</i>
-            </button>
-            <button type="button" class="btn btn-icon-only btn-outline-dark" aria-label="filter">
-              <i class="modus-icons notranslate" aria-hidden="true">filter</i>
-            </button>
-          </div>
-        </div>
-      </td>
-      <td>Medium</td>
-      <td>
-        Primary use is in-line or in “Button Groups.”
-      </td>
-    </tr>
-    <tr>
       <th scope="row">Danger</th>
       <td><button class="btn btn-danger" type="button">Delete</button></td>
       <td>High</td>
@@ -197,16 +165,14 @@ There are two button progressions you can choose from: structural and color prog
 
 **Note:** A yellow button in the Trimble brand color can be used **only in special use cases**.
 
-### Icon-Only Buttons
-
-**Note:** Secondary icon-only buttons are recommended as default option.
+### Icon Buttons
 
 <!-- prettier-ignore-start -->
 | Example                                                                                                                                                          | Type      | When to use      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ---------------- |
-| <button type="button" class="btn btn-icon-only btn-transparent" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button>    | Icon-only | No fill, no outline. Recommended. Used e.g., in [Navbars](/components/web/navbars/) on white, dark blue, and gray background. |
-| <button type="button" class="btn btn-icon-only btn-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button>        | Solid     | Used e.g., in floating toolbar.                                                                                               |
-| <button type="button" class="btn btn-icon-only btn-outline-primary" aria-label="filter"><i class="modus-icons notranslate" aria-hidden="true">filter</i></button> | Outline   | Used e.g., in button groups.                                                                                                  |
+| <button type="button" class="btn btn-icon-only btn-transparent" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>    | Icon-only | Default option (Trimble Gray) recommended for most use cases. |
+| <button type="button" class="btn btn-icon-only btn-primary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>        | Solid     | Used to draw attention to primary or secondary action on a screen.                                                                                               |
+| <button type="button" class="btn btn-icon-only btn-outline-primary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button> | Outline   | Used for secondary actions on a screen and/or used in-line as in Button Groups.                                                                                                  |
 {class="table table-bordered"}
 <!-- prettier-ignore-end -->
 
@@ -214,7 +180,7 @@ There are two button progressions you can choose from: structural and color prog
 
 | Date       | Version | Notes                                                                                        | Contributors                                        |
 | ---------- | ------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| 08/09/2023 | 1.0.2   | Icon-Only guidance added.                                                                    | E. Gunther, S. Kaukonen                             |
+| 08/09/2023 | 1.0.2   | Icon-Only guidance added.                                                                    | E. Gunther, S. Kaukonen, C. Oliff                   |
 | 11/23/2020 | 1.0.0   | Two progressions identified for clarity of use. Custom focus states added for accessibility. | E. Bohn, E. Gunther, L. Cook, L. Kause, S. Williams |
 
 {{</ whats-changed-table >}}
