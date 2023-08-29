@@ -5,6 +5,8 @@ description: "Rapidly build beautiful and accessible experiences. The Modus kit 
 all assets you need to get started."
 start: true
 hideDate: true
+hidden: true
+private: true
 ---
 
 <div class="row">

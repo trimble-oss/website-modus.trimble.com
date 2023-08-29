@@ -178,6 +178,7 @@ module.exports = {
         'px-4',
         'rounded',
         'row',
+        'row-cols-md-2',
         'row-cols-xl-3',
         's',
         's1',

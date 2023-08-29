@@ -18,19 +18,7 @@ Modus is a shared source of truth--a place to reference official Trimble pattern
 
 The main goal of the design system is to create a cohesive brand experience. It also aims at increased scalability, better management of debt, design consistency, rapid prototyping, quick iteration, and improved user experience. Modus establishes a shared vocabulary between designers and developers and provides guidelines for better branded user interfaces and development resources.
 
-Need help with implementation and prioritization? [Learn about the incremental adoption process here](/community/adoption).
-
-<div class="row">
-
-{{< card-start title="Designers" url="/designers/" header="designers.svg" >}}
-Rapidly build beautiful and accessible experiences. The Modus kit contains all assets you need to get started.
-{{</ card-start >}}
-
-{{< card-start title="Developers" url="/developers/" header="developers.svg" >}}
-The frontend framework is an HTML/CSS library developed as a common, open-source platform for all of Trimble's web applications.
-{{</ card-start >}}
-
-</div>
+Need help with implementation and prioritization? [Learn about the incremental adoption process here](/community/adoption/).
 
 ## Modular Approach
 
@@ -50,10 +38,10 @@ As the design system matures, you can expect to see an increased emphasis on mod
 
 Product owners, designers, and developers are the primary audience for this system. The result of this alignment is consistency for the end user.
 
-- [Designers](/designers/) have a library of components at their disposal.
-- [Designers](/designers/) have confidence that components are well tested.
-- [Developers](/developers/) have a rulebook to follow.
-- [Developers](/developers/) have access to the central library if their team lacks a dedicated designer.
+- Designers have a library of components at their disposal.
+- Designers have confidence that components are well tested.
+- Developers have a rulebook to follow.
+- Developers have access to the central library if their team lacks a dedicated designer.
 - PMs can quickly put together prototypes using existing components.
 
 ## Goals and Objectives
