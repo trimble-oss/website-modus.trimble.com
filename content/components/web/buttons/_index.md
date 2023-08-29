@@ -141,16 +141,16 @@ There are two button progressions you can choose from: structural and color prog
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Type</th>
       <th>Example</th>
+      <th>Type</th>
       <th>Emphasis</th>
       <th>When to use</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Danger</th>
       <td><button class="btn btn-danger" type="button">Delete</button></td>
+      <th scope="row">Danger</th>
       <td>High</td>
       <td>
         Danger buttons have a different visual style to inform users of
@@ -170,9 +170,9 @@ There are two button progressions you can choose from: structural and color prog
 <!-- prettier-ignore-start -->
 | Example                                                                                                                                                          | Type      | When to use      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ---------------- |
-| <button type="button" class="btn btn-icon-only btn-transparent" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>    | Icon-only | Default option (Trimble Gray) recommended for most use cases. |
-| <button type="button" class="btn btn-icon-only btn-primary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>        | Solid     | Used to draw attention to primary or secondary action on a screen.                                                                                               |
-| <button type="button" class="btn btn-icon-only btn-outline-primary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button> | Outline   | Used for secondary actions on a screen and/or used in-line as in Button Groups.                                                                                                  |
+| <button type="button" class="btn btn-icon-only btn-transparent p-0" aria-label="settings"><svg width="24" height="24" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#settings"/></svg></button>    | Icon-only | Default option (Trimble Gray) recommended for most use cases. |
+| <button type="button" class="btn btn-icon-only btn-primary p-0" aria-label="settings"><svg width="24" height="24" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#settings"/></svg></button>        | Solid     | Used to draw attention to primary or secondary action on a screen.                                                                                               |
+| <button type="button" class="btn btn-icon-only btn-outline-primary p-0" aria-label="settings"><svg width="24" height="24" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#settings"/></svg></button> | Outline   | Used for secondary actions on a screen and/or used in-line as in Button Groups.                                                                                                  |
 {class="table table-bordered"}
 <!-- prettier-ignore-end -->
 

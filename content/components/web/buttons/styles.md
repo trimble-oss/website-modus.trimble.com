@@ -12,6 +12,8 @@ webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/compone
 tags: [styles]
 ---
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css">
+
 ## Specifications
 
 - All buttons should be interactive and perform an action.
