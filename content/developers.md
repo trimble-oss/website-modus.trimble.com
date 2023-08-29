@@ -4,6 +4,8 @@ layout: "single"
 description: "The Modus Front-end Framework is an HTML/CSS library developed as a common, open source platform for all
 of Trimble's web applications. The framework is designed and managed by the Trimble UX Council."
 start: true
+hidden: true
+private: true
 ---
 
 <style>

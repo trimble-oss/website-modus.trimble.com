@@ -66,7 +66,7 @@ menu:
     - name: XR
       parent: Components
       url: "/components/xr/"
-      pre: "<img src='/img/icons/xr.svg' width=28 height=28 class='icon opacity-75 mr-2' alt>"
+      pre: "<img src='/img/icons/modus-outlined/vr-xr.svg' width=28 height=28 class='icon opacity-75 mr-2' alt>"
       post: "Building blocks for designing Trimble products for mixed reality and virtual reality."
       weight: 4
 
@@ -78,15 +78,18 @@ menu:
       weight: 5
 
   start:
-    - name: Designers
-      url: "/designers/"
+    - name: Start
+      url: "/start/"
       weight: 1
-    - name: Developers
-      url: "/developers/"
+    - name: Figma UI Kit
+      url: "/figma/"
       weight: 2
+    - name: Adobe XD UI Kit
+      url: "/adobe-xd/"
+      weight: 3
     - name: Device Support
       url: "/device-support/"
-      weight: 3
+      weight: 4
 
   foundations:
     - name: Accessibility
