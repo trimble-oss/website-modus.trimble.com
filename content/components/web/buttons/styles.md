@@ -14,6 +14,30 @@ tags: [styles]
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css">
 
+<style>
+[data-theme="light"] #btn-dark-hover {
+  background-color: #e0e1e9 !important;
+}
+[data-theme="light"] #btn-primary-hover {
+  background-color: #dcedf9 !important;
+}
+</style>
+<style>
+[data-theme="dark"] #btn-secondary-default {
+  color: #90939f !important;
+}
+[data-theme="dark"] #btn-secondary-hover {
+  color: #7d808d !important;
+}
+[data-theme="dark"] #btn-secondary-active {
+  color: #353a40 !important;
+  background-color: #90939f !important;
+}
+[data-theme="dark"] #btn-secondary-disabled {
+  color: #90939f !important;
+}
+</style>
+
 ## Specifications
 
 - All buttons should be interactive and perform an action.
@@ -80,14 +104,40 @@ tags: [styles]
 
 - The size of icon buttons should be as follows:
 
-<!-- prettier-ignore-start -->
-|         | Example                                                                                                                                                            | Button size | Icon size               |
-| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- | ----------------------- |
-| Small   | <button type="button" class="btn btn-sm btn-icon-only btn-secondary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button> | 24px        | 16px                    |
-| Default | <button type="button" class="btn btn-icon-only btn-secondary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>        | 32px        | 24px                    |
-| Large   | <button type="button" class="btn btn-lg btn-icon-only btn-secondary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button> | 48px        | 32px (use 24px when used for Navbars) |
-{class="table table-bordered"}
-<!-- prettier-ignore-end -->
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Example</th>
+      <th>Button size</th>
+      <th>Icon size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Small</td>
+      <td>
+      <button type="button" class="btn btn-sm btn-icon-only btn-text-dark pe-none" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <button type="button" class="btn btn-sm btn-icon-only btn-outline-dark pe-none" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td>24px</td>
+      <td>16px</td>
+    </tr>
+    <tr>
+      <td>Default</td>
+      <td><button type="button" class="btn btn-icon-only btn-text-dark pe-none" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <button type="button" class="btn btn-icon-only btn-outline-dark pe-none" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td>32px</td>
+      <td>24px</td>
+    </tr>
+    <tr>
+      <td>Large</td>
+      <td><button type="button" class="btn btn-lg btn-icon-only btn-text-dark pe-none" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <button type="button" class="btn btn-lg btn-icon-only btn-outline-dark pe-none" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td>48px</td>
+      <td>32px (use 24px when used for Navbars)</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Behaviors
 
@@ -274,61 +324,63 @@ All buttons (including icon buttons) should have the following states:
     <tr>
       <td style="width: 12%">Default</td>
       <td style="width: 22%">
-        <button type="button" class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" class="btn btn-icon-only btn-text-dark pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td style="width: 22%">
-        <button type="button" class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" id="btn-secondary-default" class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td style="width: 22%">
         <button type="button" class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
-      <td style="background-color: #0e416c">
-        <button type="button" class="btn btn-icon-only text-white pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <td style="background-color: #0e416c; color:#fff !important;">
+        <button type="button" class="btn btn-icon-only pe-none"><i class="modus-icons notranslate" aria-hidden="true" style="color:#fff;">settings</i></button>
       </td>
     </tr>
     <tr>
       <td>Hover</td>
       <td>
-        <button type="button" class="btn btn-icon-only btn-text-tertiary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" id="btn-dark-hover" class="btn btn-icon-only btn-text-dark pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>
-        <button type="button" class="btn btn-icon-only btn-text-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" id="btn-secondary-hover" class="btn btn-icon-only btn-text-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>
-        <button type="button" class="btn btn-icon-only text-primary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" id="btn-primary-hover" class="btn btn-icon-only text-primary btn-outline-primary border-0 pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
-      <td style="background-color: #0e416c">
-        <button type="button" class="btn btn-icon-only text-white pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <td style="background-color: #0e416c; color:#fff !important;">
+        <button type="button" class="btn btn-icon-only pe-none bg-primary hover" style="border-width: 1px !important; border-color: #019AEB !important; background-color: #217CBB !important;">
+        <i class="modus-icons notranslate" aria-hidden="true" style="color:#fff;">settings</i></button>
       </td>
     </tr>
     <tr>
       <td>Active</td>
       <td>
-        <button type="button" class="btn btn-icon-only btn-text-tertiary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" class="btn btn-icon-only btn-text-dark display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>
-        <button type="button" class="btn btn-icon-only btn-text-secondary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" id="btn-secondary-active" class="btn btn-icon-only btn-text-secondary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>
         <button type="button" class="btn btn-icon-only btn-text-primary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
-      <td style="background-color: #0e416c">
-        <button type="button" class="btn btn-icon-only btn-text-darkblue display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true" style="color:#fff;">settings</i></button>
+      <td style="background-color: #0e416c;">
+        <button type="button" class="btn btn-icon-only btn-text-darkblue display-active bg-active pe-none" style="background-color: #019AEB !important; color:#fff !important;">
+        <i class="modus-icons notranslate" aria-hidden="true" style="color:#fff;">settings</i></button>
       </td>
     </tr>
     <tr>
       <td>Disabled</td>
       <td>
-        <button type="button" disabled class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" disabled class="btn btn-icon-only btn-text-dark pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>
-        <button type="button" disabled class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+        <button type="button" id="btn-secondary-disabled" disabled class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>
         <button type="button" disabled class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
-      <td style="background-color: #0e416c">
-        <button type="button" disabled class="btn btn-icon-only text-white pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <td style="background-color: #0e416c; color:#fff !important;">
+        <button type="button" disabled class="btn btn-icon-only pe-none"><i class="modus-icons notranslate" aria-hidden="true" style="color:#fff;">settings</i></button>
       </td>
     </tr>
   </tbody>
@@ -372,7 +424,7 @@ All buttons (including icon buttons) should have the following states:
       <td>Active</td>
       <td><button type="button" class="btn btn-icon-only btn-primary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
       <td><button type="button" class="btn btn-icon-only btn-secondary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
-      <td><button type="button" class="btn btn-icon-only btn-tertiary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-tertiary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true" style="color:#252a2e">settings</i></button></td>
       <td><button type="button" class="btn btn-icon-only btn-outline-primary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
       <td><button type="button" class="btn btn-icon-only btn-outline-secondary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
     </tr>

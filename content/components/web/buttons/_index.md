@@ -14,6 +14,8 @@ aliases:
 tags: [usage]
 ---
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css">
+
 ## Overview
 
 Buttons are clickable elements that are used to trigger actions. Buttons are used to initialize an action, either in the background or foreground of an experience. Use button labels wherever possible to express what action will occur, when the user interacts with a button.
@@ -46,7 +48,7 @@ There are two button progressions you can choose from: structural and color prog
 ### Structural Progression
 
 <table class="table table-bordered">
-  <thead class="thead-light">
+  <thead>
     <tr>
       <th>Example</th>
       <th>Emphasis</th>
@@ -92,7 +94,7 @@ There are two button progressions you can choose from: structural and color prog
 ### Color Progression
 
 <table class="table table-bordered">
-  <thead class="thead-light">
+  <thead>
     <tr>
       <th>Example</th>
       <th>Emphasis</th>
@@ -139,7 +141,7 @@ There are two button progressions you can choose from: structural and color prog
 ### Danger Buttons
 
 <table class="table table-bordered">
-  <thead class="thead-light">
+  <thead>
     <tr>
       <th>Example</th>
       <th>Type</th>
@@ -167,14 +169,41 @@ There are two button progressions you can choose from: structural and color prog
 
 ### Icon Buttons
 
-<!-- prettier-ignore-start -->
-| Example                                                                                                                                                          | Type      | When to use      |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ---------------- |
-| <button type="button" class="btn btn-icon-only btn-transparent p-0" aria-label="settings"><svg width="24" height="24" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#settings"/></svg></button>    | Icon-only | Default option (Trimble Gray) recommended for most use cases. |
-| <button type="button" class="btn btn-icon-only btn-primary p-0" aria-label="settings"><svg width="24" height="24" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#settings"/></svg></button>        | Solid     | Used to draw attention to primary or secondary action on a screen.                                                                                               |
-| <button type="button" class="btn btn-icon-only btn-outline-primary p-0" aria-label="settings"><svg width="24" height="24" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#settings"/></svg></button> | Outline   | Used for secondary actions on a screen and/or used in-line as in Button Groups.                                                                                                  |
-{class="table table-bordered"}
-<!-- prettier-ignore-end -->
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Example</th>
+      <th>Type</th>
+      <th>When to use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+      <button type="button" class="btn btn-icon-only text-dark btn-transparent" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <button type="button" class="btn btn-icon-only text-primary btn-transparent" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td>Icon-only</td>
+      <td>Default option <span class="theme-l">(Trimble Gray)</span> recommended for most use cases.</td>
+    </tr>
+    <tr>
+      <td>
+      <button type="button" class="btn btn-icon-only btn-secondary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <button type="button" class="btn btn-icon-only btn-primary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td>Solid</td>
+      <td>Used to draw attention to primary or secondary action on a screen.</td>
+    </tr>
+    <tr>
+      <td>
+      <button type="button" class="btn btn-icon-only btn-outline-dark" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <button type="button" class="btn btn-icon-only btn-outline-primary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td>Outline</td>
+      <td>Used for secondary actions on a screen and/or used in-line as in Button Groups.</td>
+    </tr>
+  </tbody>
+</table>
 
 {{< whats-changed-table >}}
 
