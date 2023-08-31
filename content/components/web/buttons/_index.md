@@ -14,6 +14,8 @@ aliases:
 tags: [usage]
 ---
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css">
+
 ## Overview
 
 Buttons are clickable elements that are used to trigger actions. Buttons are used to initialize an action, either in the background or foreground of an experience. Use button labels wherever possible to express what action will occur, when the user interacts with a button.
@@ -24,7 +26,7 @@ Buttons are clickable elements that are used to trigger actions. Buttons are use
 
 - Affording interaction to key behaviors and features.
 - Confirming or submitting information entered into a form.
-- Cancelling and action.
+- Canceling an action.
 - Resetting a form or dataset.
 - Closing a container or section.
 - Opening a menu.
@@ -46,7 +48,7 @@ There are two button progressions you can choose from: structural and color prog
 ### Structural Progression
 
 <table class="table table-bordered">
-  <thead class="thead-light">
+  <thead>
     <tr>
       <th>Example</th>
       <th>Emphasis</th>
@@ -92,7 +94,7 @@ There are two button progressions you can choose from: structural and color prog
 ### Color Progression
 
 <table class="table table-bordered">
-  <thead class="thead-light">
+  <thead>
     <tr>
       <th>Example</th>
       <th>Emphasis</th>
@@ -136,53 +138,21 @@ There are two button progressions you can choose from: structural and color prog
   </tbody>
 </table>
 
-### Ancillary Buttons
+### Danger Buttons
 
 <table class="table table-bordered">
-  <thead class="thead-light">
+  <thead>
     <tr>
-      <th>Type</th>
       <th>Example</th>
+      <th>Type</th>
       <th>Emphasis</th>
       <th>When to use</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Icon Only</th>
-      <td>
-        <div class="mb-1">
-          <button type="button" class="btn btn-icon-only btn-text-dark" aria-label="Settings">
-            <i class="modus-icons notranslate" aria-hidden="true">gear</i>
-          </button>
-        </div>
-        <div>
-          <div
-            class="btn-group shadow-1"
-            role="group"
-            aria-label="Basic example">
-            <button type="button" class="btn btn-icon-only btn-outline-dark" aria-label="Calendar">
-              <i class="modus-icons notranslate" aria-hidden="true">calendar</i>
-            </button>
-            <button
-              type="button"
-              class="btn btn-icon-only btn-outline-dark active" aria-label="Edit">
-              <i class="modus-icons notranslate" aria-hidden="true">pencil</i>
-            </button>
-            <button type="button" class="btn btn-icon-only btn-outline-dark" aria-label="filter">
-              <i class="modus-icons notranslate" aria-hidden="true">filter</i>
-            </button>
-          </div>
-        </div>
-      </td>
-      <td>Medium</td>
-      <td>
-        Primary use is in-line or in “Button Groups.”
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">Danger</th>
       <td><button class="btn btn-danger" type="button">Delete</button></td>
+      <th scope="row">Danger</th>
       <td>High</td>
       <td>
         Danger buttons have a different visual style to inform users of
@@ -197,11 +167,49 @@ There are two button progressions you can choose from: structural and color prog
 
 **Note:** A yellow button in the Trimble brand color can be used **only in special use cases**.
 
+### Icon Buttons
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Example</th>
+      <th>Type</th>
+      <th>When to use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+      <button type="button" class="btn btn-icon-only text-dark btn-transparent" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <button type="button" class="btn btn-icon-only text-primary btn-transparent" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td>Icon-only</td>
+      <td>Default option <span class="theme-l">(Trimble Gray)</span> recommended for most use cases.</td>
+    </tr>
+    <tr>
+      <td>
+      <button type="button" class="btn btn-icon-only btn-secondary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <button type="button" class="btn btn-icon-only btn-primary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td>Solid</td>
+      <td>Used to draw attention to primary or secondary action on a screen.</td>
+    </tr>
+    <tr>
+      <td>
+      <button type="button" class="btn btn-icon-only btn-outline-dark" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <button type="button" class="btn btn-icon-only btn-outline-primary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      </td>
+      <td>Outline</td>
+      <td>Used for secondary actions on a screen and/or used in-line as in Button Groups.</td>
+    </tr>
+  </tbody>
+</table>
+
 {{< whats-changed-table >}}
 
 | Date       | Version | Notes                                                                                        | Contributors                                        |
 | ---------- | ------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| 04/07/2020 | 1.0.1   | Light gray button added to the color progression.                                            | E. Bohn, E. Gunther, L. Cook                        |
+| 08/09/2023 | 1.0.2   | Icon-Only guidance added.                                                                    | E. Gunther, S. Kaukonen, C. Oliff                   |
 | 11/23/2020 | 1.0.0   | Two progressions identified for clarity of use. Custom focus states added for accessibility. | E. Bohn, E. Gunther, L. Cook, L. Kause, S. Williams |
 
 {{</ whats-changed-table >}}
