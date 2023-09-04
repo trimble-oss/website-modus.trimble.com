@@ -148,6 +148,8 @@ All buttons (including icon buttons) should have the following states:
 - Pressed
 - Disabled
 
+A critical action button has an additional “loading” state when the hover color gradually takes over the button background upon click and hold.
+
 #### Structural Progression States
 
 <table class="table table-bordered" style="width: max-content">
@@ -270,11 +272,14 @@ All buttons (including icon buttons) should have the following states:
 
 #### Danger Button States
 
+Danger buttons are solid, both as text buttons and icon buttons.
+
 <table class="table table-bordered" style="width: max-content">
   <thead class="thead-light">
     <tr>
       <th>State</th>
       <th>Danger</th>
+      <th>Danger Icon</th>
     </tr>
   </thead>
   <tbody>
@@ -283,9 +288,13 @@ All buttons (including icon buttons) should have the following states:
       <td>
         <button class="btn btn-danger" type="button">Button</button>
       </td>
+      <td>
+        <button class="btn btn-danger" type="button">Button</button>
+      </td>
     </tr>
     <tr>
       <th scope="row">Hover</th>
+      <td><button class="btn hover btn-danger" type="button">Button</button></td>
       <td><button class="btn hover btn-danger" type="button">Button</button></td>
     </tr>
     <tr>
@@ -293,9 +302,80 @@ All buttons (including icon buttons) should have the following states:
        <td>
         <button class="btn display-active btn-danger" type="button">Button</button>
       </td>
+       <td>
+        <button class="btn display-active btn-danger" type="button">Button</button>
+      </td>
     </tr>
     <tr>
       <th scope="row">Disabled</th>
+      <td><button disabled class="btn btn-danger" type="button">Button</button></td>
+      <td><button disabled class="btn btn-danger" type="button">Button</button></td>
+    </tr>
+  </tbody>
+</table>
+
+#### Critical Action Button States
+
+When the user clicks and holds the critical action button, then the button state changes from default to pressed with hover background color gradually moving from left to right over the button to signal the passage of the required amount of time. The process resembles a progress bar.
+
+The recommended amount of time is five seconds and/or should be sufficient to re-read the button label twice. The button label remains unaffected during this process. Once the hover background color completely takes over the button background then the desired action is completed signaling that the specified amount of time has elapsed. Upon completion of a critical action, a confirmation of the action may be necessary in some use cases. A Toast is recommended whenever possible. In some use cases, such as a destructive action, if the action can no longer be repeated, the button should revert to a disabled state.
+
+<table class="table table-bordered" style="width: max-content">
+  <thead class="thead-light">
+    <tr>
+      <th>State</th>
+      <th>Primary</th>
+      <th>Dark Outline</th>
+      <th>Danger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Default</th>
+      <td>
+        <button class="btn btn-primary" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn btn-outline-dark" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn btn-danger" type="button">Button</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Hover</th>
+      <td><button class="btn hover btn-primary" type="button">Button</button></td>
+      <td><button class="btn hover btn-outline-dark" type="button">Button</button></td>
+      <td><button class="btn hover btn-danger" type="button">Button</button></td>
+    </tr>
+    <tr>
+      <th scope="row">Active</th>
+      <td>
+        <button class="btn display-active btn-primary" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn display-active btn-outline-dark" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn display-active btn-danger" type="button">Button</button>
+      </td>
+    </tr>
+        <tr>
+      <th scope="row">Loading</th>
+      <td>
+        <button class="btn display-active btn-primary" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn display-active btn-outline-dark" type="button">Button</button>
+      </td>
+      <td>
+        <button class="btn display-active btn-danger" type="button">Button</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Disabled</th>
+      <td><button disabled class="btn btn-primary" type="button">Button</button></td>
+      <td><button disabled class="btn btn-outline-dark" type="button">Button</button></td>
       <td><button disabled class="btn btn-danger" type="button">Button</button></td>
     </tr>
   </tbody>
