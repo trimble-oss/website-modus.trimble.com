@@ -36,6 +36,9 @@ tags: [styles]
 [data-theme="dark"] #btn-secondary-disabled {
   color: #90939f !important;
 }
+table td p {
+  margin-bottom: 0 !important;
+}
 </style>
 
 ## Specifications
@@ -289,13 +292,17 @@ Danger buttons are solid, both as text buttons and icon buttons.
         <button class="btn btn-danger" type="button">Button</button>
       </td>
       <td>
-        <button class="btn btn-danger" type="button">Button</button>
+        <button class="btn btn-danger btn-icon-only" type="button" aria-label="Delete">
+          <i class="modus-icons notranslate" aria-hidden="true">delete</i>
+        </button>
       </td>
     </tr>
     <tr>
       <th scope="row">Hover</th>
       <td><button class="btn hover btn-danger" type="button">Button</button></td>
-      <td><button class="btn hover btn-danger" type="button">Button</button></td>
+      <td><button class="btn hover btn-danger btn-icon-only" type="button" aria-label="Delete">
+        <i class="modus-icons notranslate" aria-hidden="true">delete</i>
+      </button></td>
     </tr>
     <tr>
       <th scope="row">Active</th>
@@ -303,13 +310,17 @@ Danger buttons are solid, both as text buttons and icon buttons.
         <button class="btn display-active btn-danger" type="button">Button</button>
       </td>
        <td>
-        <button class="btn display-active btn-danger" type="button">Button</button>
+        <button class="btn display-active btn-danger btn-icon-only" type="button" aria-label="Delete">
+          <i class="modus-icons notranslate" aria-hidden="true">delete</i>
+        </button>
       </td>
     </tr>
     <tr>
       <th scope="row">Disabled</th>
       <td><button disabled class="btn btn-danger" type="button">Button</button></td>
-      <td><button disabled class="btn btn-danger" type="button">Button</button></td>
+      <td><button disabled class="btn btn-danger btn-icon-only" type="button" aria-label="Delete">
+        <i class="modus-icons notranslate" aria-hidden="true">delete</i>
+      </button></td>
     </tr>
   </tbody>
 </table>
@@ -363,13 +374,13 @@ The recommended amount of time is five seconds and/or should be sufficient to re
         <tr>
       <th scope="row">Loading</th>
       <td>
-        <button class="btn display-active btn-primary" type="button">Button</button>
+        <img src="/img/components/button-primary-loading.svg" width="80" height="32" alt="Button Loading">
       </td>
       <td>
-        <button class="btn display-active btn-outline-dark" type="button">Button</button>
+        {{< img src="/img/components/button-outline-loading.svg" dark="/img/components/button-outline-loading-dark.svg" class="mb-0" width="80" height="32" alt="Button Loading" loading="auto" >}}
       </td>
       <td>
-        <button class="btn display-active btn-danger" type="button">Button</button>
+        <img src="/img/components/button-danger-loading.svg" width="80" height="32" alt="Button Loading">
       </td>
     </tr>
     <tr>
