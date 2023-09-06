@@ -327,9 +327,9 @@ Danger buttons are solid, both as text buttons and icon buttons.
 
 #### Critical Action Button States
 
-When the user clicks and holds the critical action button, then the button state changes from default to pressed with hover background color gradually moving from left to right over the button to signal the passage of the required amount of time. The process resembles a progress bar.
+When the user clicks and holds the critical action button, the button state changes from default to pressed with hover background color gradually moving from left to right over the button to signal the passage of the required amount of time for the action to take effect. The process resembles a progress bar.
 
-The recommended amount of time is five seconds and/or should be sufficient to re-read the button label twice. The button label remains unaffected during this process. Once the hover background color completely takes over the button background then the desired action is completed signaling that the specified amount of time has elapsed. Upon completion of a critical action, a confirmation of the action may be necessary in some use cases. A Toast is recommended whenever possible. In some use cases, such as a destructive action, if the action can no longer be repeated, the button should revert to a disabled state.
+The recommended amount of time is five seconds and/or should be sufficient to re-read the button label twice. The button label remains unaffected during this process. Once the hover background color completely fills the button background, the desired action is completed. Upon completion of a critical action, a confirmation of the action may be necessary in some use cases (e.g. use a [Toast](/components/web/toasts/)). In some use cases, such as a destructive action, if the action can no longer be repeated, the button should revert to a disabled state.
 
 <table class="table table-bordered" style="width: max-content">
   <thead class="thead-light">
@@ -372,15 +372,15 @@ The recommended amount of time is five seconds and/or should be sufficient to re
       </td>
     </tr>
         <tr>
-      <th scope="row">Loading</th>
+      <th scope="row">Processing request</th>
       <td>
-        <img src="/img/components/button-primary-loading.svg" width="80" height="32" alt="Button Loading">
+        <img src="/img/components/button-primary-loading.svg" width="80" height="32" alt="Procesing">
       </td>
       <td>
-        {{< img src="/img/components/button-outline-loading.svg" dark="/img/components/button-outline-loading-dark.svg" class="mb-0" width="80" height="32" alt="Button Loading" loading="auto" >}}
+        {{< img src="/img/components/button-outline-loading.svg" dark="/img/components/button-outline-loading-dark.svg" class="mb-0" width="80" height="32" alt="Processing" loading="auto" >}}
       </td>
       <td>
-        <img src="/img/components/button-danger-loading.svg" width="80" height="32" alt="Button Loading">
+        <img src="/img/components/button-danger-loading.svg" width="80" height="32" alt="Processing">
       </td>
     </tr>
     <tr>
