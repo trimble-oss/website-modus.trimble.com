@@ -374,7 +374,7 @@ The recommended amount of time is five seconds and/or should be sufficient to re
         <tr>
       <th scope="row">Processing request</th>
       <td>
-        <img src="/img/components/button-primary-loading.svg" width="80" height="32" alt="Procesing">
+        <img src="/img/components/button-primary-loading.svg" width="80" height="32" alt="Processing">
       </td>
       <td>
         {{< img src="/img/components/button-outline-loading.svg" dark="/img/components/button-outline-loading-dark.svg" class="mb-0" width="80" height="32" alt="Processing" loading="auto" >}}
