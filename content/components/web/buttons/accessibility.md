@@ -21,3 +21,4 @@ tags: [accessibility]
 - The mouse cursor should be a hand icon (`cursor: pointer`).
 - Disabled buttons should have `aria-disabled` set to `true`.
 - When placing a button on a color other than standard background colors (Gray Light or White), make sure the colors of all states (except for disabled) still meet [color contrast accessibility standards](/foundations/accessibility/).
+- When an action cannot be undone and/or is potentially destructive, use critical action buttons which require users to click and hold the button for a defined amount of time.
