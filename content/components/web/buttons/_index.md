@@ -163,7 +163,7 @@ There are two button progressions you can choose from: structural and color prog
       </td>
     </tr>
     <tr>
-      <td><button class="btn btn-danger" type="button">Delete</button></td>
+      <td><img src="/img/components/button-danger-loading-example.svg" height="32" alt="Critical Action Button"></td>
       <th scope="row">Critical action</th>
       <td>High</td>
       <td>
