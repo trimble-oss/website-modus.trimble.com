@@ -177,6 +177,72 @@ Panels and rails can offset the grid. The width of the component is used as the 
 
 Regions can house modules (or combinations of basic components) such as content, sidebars, headers, navigation, and footers. These elements should be consistent across products and will be defined in Modus in the modules and layout sections.
 
+## Responsive Layout
+
+Modus provides three standard responsive layouts that can be used as a starting point for organizing components on a screen:
+
+- **One-pane layout**
+- **Two-pane layout**
+- **Grid layout**
+
+By using these layouts, Modus supports consistency across Trimble applications. Each layout considers the most common use cases and addresses component behaviors at different breakpoints.
+
+**Note:** Use these layouts only as a supporting tool. The responsive layout patterns are intended to be flexible and versatile, adjusting to the different needs of each application.
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Definition and usage</th>
+      <th>Dividing space</th>
+      <th>Behavior</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>One-pane layout</td>
+      <td>
+        Use one-pane layout to display content in a continuous vertical flow. This is the most common layout. Use for full-screen content, such as large tables, maps, or lists.
+      </td>
+      <td>Modus offers two variations: full-width and centered.</td>
+      <td>The full-width variation extends over all the columns available.</td>
+    </tr>
+        <tr>
+      <td>Two-pane layout</td>
+      <td>
+        A layout with two related vertical panes, where the first one contains a list of elements, and the other one a connected detail view. Use for displaying browsable content and details, such as browsing files and their details, a contact directory, or vertical tabs.
+      </td>
+      <td>The type of content determines the number of columns used by each pane (this is intended to be flexible), with the only rule that the right pane needs to be wider than the left pane. Modus offers two variations of this layout: full-width and centered. The full-width variation takes all the columns available.</td>
+      <td>On compact screens (breakpoints X-Small and Small), Modus recommends to only show one pane at a time, and provide links between the different related elements: a link to advance to the detail view and a back button in the detail view. On wider screens, both panes render at the same time. </td>
+    </tr>
+        <tr>
+      <td>Grid layout</td>
+      <td>
+        A layout that uses a grid composition in order to enable quick browsing and discovery. This layout is used in dashboards and other groups of cards. Use for displaying different pieces of content encapsulated in cards.
+      </td>
+      <td>The composition should be flexible enough to allow different sizes and proportions of the cards. Use size and position to establish hierarchy. </td>
+      <td>The cards should reflow with the different breakpoints.</td>
+    </tr>
+  </tbody>
+</table>
+
+### Resources
+
+**Figma**
+
+- **Grid Styles**. The Modus Foundations library for Figma contains grid styles ready to use for all our standard breakpoints: X-Small, Small, Medium, Large, X-Large, and XX-Large.
+
+- In the Modus-Web file, you can also find a set of the most commonly used frames, with their grids already included.
+
+**GitHub**
+
+- The [Modus Layout Repository](https://github.com/trimble-oss/modus-layout/) consists of a collection of HTML templates built with Modus Bootstrap v2 including examples of all responsive layouts.
+- Go to live examples for all three responsive layouts:
+  - See **one-pane layout** live example [here](https://trimble-oss.github.io/modus-layout/one-pane-layout-centered/).
+  - See **two-pane layout (full-width variation)** live example [here](https://trimble-oss.github.io/modus-layout/two-pane-layout-full-width/).
+  - See **two-pane layout (centered variation)** live example [here](https://trimble-oss.github.io/modus-layout/two-pane-layout-centered/).
+  - See **grid layout** live example [here](https://trimble-oss.github.io/modus-layout/grid-layout/).
+
 ## Spacing
 
 Spacing is a vital part of visual hierarchy within regions. Spacing is used to align elements within smaller containers in the UI. Trimble uses a baseline spacing of 8px and its multiples (some elements can also utilize an x-small spacing of 4px).
@@ -193,3 +259,11 @@ Spacing is a vital part of visual hierarchy within regions. Spacing is used to a
 | XX-Large      | 48         | 3           |
 
 {{</ table >}}
+
+{{< whats-changed-table >}}
+
+| Date       | Version | Notes                    | Contributors                                                                                                         |
+| ---------- | ------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| 09/08/2023 | 1.1.0   | Responsive layout added. | N. Cadsawan, C. Cuellar, E. Gunther, R. Henness, S. Kaukonen, Q. Le, T. Manham, M. Nawaz, C. Oliff, Purushothaman G. |
+
+{{</ whats-changed-table >}}
