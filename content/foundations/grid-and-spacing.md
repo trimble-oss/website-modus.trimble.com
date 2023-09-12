@@ -204,8 +204,8 @@ By using these layouts, Modus supports consistency across Trimble applications. 
       <td>
         Use one-pane layout to display content in a continuous vertical flow. This is the most common layout. Use for full-screen content, such as large tables, maps, or lists.
       </td>
-      <td>Modus offers two variations: full-width and centered.</td>
-      <td>The full-width variation extends over all the columns available.</td>
+      <td>Modus offers two variations: full-width and centered. The full-width variation extends over all the columns available. The centered variation leaves a margin of one column in grids of eight, or two columns in grids of twelve.</td>
+      <td>For all breakpoints, there is just one pane.</td>
     </tr>
         <tr>
       <td>Two-pane layout</td>
