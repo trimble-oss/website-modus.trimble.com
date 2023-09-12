@@ -46,15 +46,15 @@
     "hugo-bin": "0.113.0",
     "list.js": "2.3.1",
     "npm-run-all": "4.1.5",
-    "postcss": "8.4.28",
+    "postcss": "8.4.29",
     "postcss-cli": "10.1.0",
-    "prettier": "3.0.2",
+    "prettier": "3.0.3",
     "s3-deploy": "1.4.0",
     "stylelint": "15.10.3",
-    "stylelint-config-standard-scss": "10.0.0",
+    "stylelint-config-standard-scss": "11.0.0",
     "textlint": "13.3.3",
     "textlint-rule-common-misspellings": "1.0.1",
-    "textlint-rule-terminology": "3.0.5"
+    "textlint-rule-terminology": "4.0.0"
   },
   "hugo-bin": {
     "buildTags": "extended"

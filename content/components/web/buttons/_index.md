@@ -43,7 +43,7 @@ Buttons are clickable elements that are used to trigger actions. Buttons are use
 
 ## Types
 
-There are two button progressions you can choose from: structural and color progression. The choice should be based on the particular needs of the product's intended usage, aesthetic, and/or target user's needs. **Use only one button progression in a single product.** Ancillary button types can be used in either progression.
+There are two button progressions you can choose from: structural and color progression. The choice should be based on the particular needs of the product's intended usage, aesthetic, and/or target user's needs. **Use only one button progression in a single product.**
 
 ### Structural Progression
 
@@ -138,7 +138,7 @@ There are two button progressions you can choose from: structural and color prog
   </tbody>
 </table>
 
-### Danger Buttons
+### Danger And Critical Action Buttons
 
 <table class="table table-bordered">
   <thead>
@@ -160,6 +160,14 @@ There are two button progressions you can choose from: structural and color prog
         danger button as a standalone, we recommend styling it as a secondary
         button. Within a set, the danger button should be styled as a primary
         button.
+      </td>
+    </tr>
+    <tr>
+      <td><img src="/img/components/button-danger-loading-example.svg" height="32" alt="Critical Action Button"></td>
+      <th scope="row">Critical action</th>
+      <td>High</td>
+      <td>
+        Critical action buttons require users to press and hold for a defined amount of time a button in order to trigger a critical action that should only be performed with clear intent. It should be used when an action can lead to an outcome that cannot be undone, reversed and/or could potentially have destructive consequences, such as permanent deletion. Critical action buttons can be styled as danger, primary, or secondary buttons.
       </td>
     </tr>
   </tbody>
@@ -209,7 +217,7 @@ There are two button progressions you can choose from: structural and color prog
 
 | Date       | Version | Notes                                                                                        | Contributors                                        |
 | ---------- | ------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| 08/09/2023 | 1.0.2   | Icon-Only guidance added.                                                                    | E. Gunther, S. Kaukonen, C. Oliff                   |
+| 09/01/2023 | 1.0.3   | Icon buttons and critical action button guidance added.                                      | E. Gunther, C. Rodriguez, S. Kaukonen, C. Oliff     |
 | 11/23/2020 | 1.0.0   | Two progressions identified for clarity of use. Custom focus states added for accessibility. | E. Bohn, E. Gunther, L. Cook, L. Kause, S. Williams |
 
 {{</ whats-changed-table >}}
