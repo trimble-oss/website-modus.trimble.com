@@ -13,6 +13,9 @@ article table {
   width: 100%;
   border: 1px;
 }
+.table-align-top td {
+  vertical-align: top !important;
+}
 </style>
 
 Utilizing a responsive layout grid as a basis for design and development provides guidance for placement of components and consistency across devices enhancing user experience across multiple devices.
@@ -189,7 +192,7 @@ By using these layouts, Modus supports consistency across Trimble applications. 
 
 **Note:** Use these layouts only as a supporting tool. The responsive layout patterns are intended to be flexible and versatile, adjusting to the different needs of each application.
 
-<table class="table table-bordered">
+<table class="table table-bordered table-align-top">
   <thead>
     <tr>
       <th>Type</th>
