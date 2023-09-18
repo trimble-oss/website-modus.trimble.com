@@ -192,6 +192,65 @@ By using these layouts, Modus supports consistency across Trimble applications. 
 
 **Note:** Use these layouts only as a supporting tool. The responsive layout patterns are intended to be flexible and versatile, adjusting to the different needs of each application.
 
+### One-pane layout
+
+- The one-pane layout displays content in a continuous vertical flow. This is the most common layout.
+
+**Usage**
+
+- Use for full-screen content, such as large tables, maps, or lists.
+
+**Dividing space**
+
+- Modus offers two variations: full-width and centered.
+  - The full-width variation extends over all the columns available.
+  - See the one-pane layout (full-width variation) live example [here](https://trimble-oss.github.io/modus-layout/one-pane-layout-full-width/).
+  - The centered variation leaves a margin of one column in grids of eight, or two columns in grids of twelve.
+  - See the one-pane layout (centered variation) live example [here](https://trimble-oss.github.io/modus-layout/one-pane-layout-centered/).
+
+**Behavior**
+
+- For all breakpoints, there is just one pane.
+
+### Two-pane layout
+
+- A layout with two related vertical panes, where the first one contains a list of elements, and the other one a connected detail view.
+
+**Usage**
+
+- Use for displaying browsable content and details, such as browsing files and their details, a contact directory, or vertical tabs.
+
+**Dividing space**
+
+- The type of content determines the number of columns used by each pane (this is intended to be flexible), with the only rule that the right pane needs to be wider than the left pane.
+- Modus offers two variations of this layout: full-width and centered.
+  - The full-width variation extends over all the columns available.
+  - See two-pane layout (full-width variation) live example [here](https://trimble-oss.github.io/modus-layout/two-pane-layout-full-width/).
+  - The centered variation leaves a margin of one column in grids of eight, or two columns in grids of twelve.
+  - See two-pane layout (centered variation) live example [here](https://trimble-oss.github.io/modus-layout/two-pane-layout-centered/).
+
+**Behavior**
+
+- On compact screens (breakpoints X-Small and Small), Modus recommends to only show one pane at a time, and provide links between the related elements: a link to advance to the detail view and a back button in the detail view.
+- On wider screens, both panes render at the same time.
+
+### Grid layout
+
+- A layout that uses a grid composition in order to enable quick browsing and discovery.
+
+**Usage**
+
+- This layout is used in dashboards and other groups of cards. Use for displaying various content encapsulated in cards.
+
+**Dividing space**
+
+- The composition should be flexible enough to allow different sizes and proportions of cards. Use size and position to establish hierarchy.
+- See grid layout live example [here](https://trimble-oss.github.io/modus-layout/grid-layout/).
+
+**Behavior**
+
+- Cards should reflow with the different breakpoints.
+
 <table class="table table-bordered table-align-top">
   <thead>
     <tr>
@@ -205,43 +264,29 @@ By using these layouts, Modus supports consistency across Trimble applications. 
     <tr>
       <td>One-pane layout</td>
       <td>
-        Use one-pane layout to display content in a continuous vertical flow. This is the most common layout. Use for full-screen content, such as large tables, maps, or lists.
+        .
       </td>
-      <td>Modus offers two variations: full-width and centered. The full-width variation extends over all the columns available. The centered variation leaves a margin of one column in grids of eight, or two columns in grids of twelve.</td>
-      <td>For all breakpoints, there is just one pane.</td>
+      <td>.</td>
+      <td>.</td>
     </tr>
         <tr>
       <td>Two-pane layout</td>
       <td>
-        A layout with two related vertical panes, where the first one contains a list of elements, and the other one a connected detail view. Use for displaying browsable content and details, such as browsing files and their details, a contact directory, or vertical tabs.
+        .
       </td>
-      <td>The type of content determines the number of columns used by each pane (this is intended to be flexible), with the only rule that the right pane needs to be wider than the left pane. Modus offers two variations of this layout: full-width and centered. The full-width variation extends over all the columns available. The centered variation leaves a margin of one column in grids of eight, or two columns in grids of twelve.</td>
-      <td>On compact screens (breakpoints X-Small and Small), Modus recommends to only show one pane at a time, and provide links between the related elements: a link to advance to the detail view and a back button in the detail view. On wider screens, both panes render at the same time. </td>
+      <td>.</td>
+      <td>.</td>
     </tr>
         <tr>
       <td>Grid layout</td>
       <td>
-        A layout that uses a grid composition in order to enable quick browsing and discovery. This layout is used in dashboards and other groups of cards. Use for displaying various content encapsulated in cards.
+        .
       </td>
-      <td>The composition should be flexible enough to allow different sizes and proportions of cards. Use size and position to establish hierarchy. </td>
-      <td>Cards should reflow with the different breakpoints.</td>
+      <td>. </td>
+      <td>.</td>
     </tr>
   </tbody>
 </table>
-
-### Examples
-
-See examples for responsive layouts with various breakpoint and orientation:
-
-- **One-pane layout (full-width variation)**
-
-- **One-pane layout (centered variation)**
-
-- **Two-pane layout (full-width variation)**
-
-- **Two-pane layout (centered variation)**
-
-- **Grid layout**
 
 ### Resources
 
@@ -254,12 +299,6 @@ See examples for responsive layouts with various breakpoint and orientation:
 **GitHub**
 
 - The [Modus Layout Repository](https://github.com/trimble-oss/modus-layout/) consists of a collection of HTML templates built with Modus Bootstrap v2 including examples of all responsive layouts.
-- Go directly to live examples for all three responsive layouts:
-  - See **one-pane layout (full-width variation)** live example [here](https://trimble-oss.github.io/modus-layout/one-pane-layout-full-width/).
-  - See **one-pane layout (centered variation)** live example [here](https://trimble-oss.github.io/modus-layout/one-pane-layout-centered/).
-  - See **two-pane layout (full-width variation)** live example [here](https://trimble-oss.github.io/modus-layout/two-pane-layout-full-width/).
-  - See **two-pane layout (centered variation)** live example [here](https://trimble-oss.github.io/modus-layout/two-pane-layout-centered/).
-  - See **grid layout** live example [here](https://trimble-oss.github.io/modus-layout/grid-layout/).
 
 ## Spacing
 
