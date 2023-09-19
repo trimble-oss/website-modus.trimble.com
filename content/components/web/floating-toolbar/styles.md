@@ -15,17 +15,11 @@ tags: [styles]
 - Using secondary icon-only buttons in default size (32px) is recommended, see [Buttons](/components/web/buttons/).
 - To provide a distinction of the floating toolbar and support the floating effect, a level of elevaton (Level 3) is applied. See [Shadows & Depth](/foundations/shadows-and-depth/).
 - The icon buttons can be aligned as a row (horizontally) or as a column (vertically).
-- Vertically aligned floating toolbars are usually located on the (left or right) side of the screen.
+- Vertically aligned floating toolbars are usually located on the left or right side of the screen.
 - Horizontally aligned floating toolbars reside at the top or bottom of the application window.
-
-**Floating toolbar consisting of single icon buttons:**
-
 - The padding between the single icon buttons is 4px.
-
-**Floating toolbar consisting of combined icon buttons:**
-
 - Icon buttons which are combined together have only outer corners of the entire toolbar rounded.
-- Related control groups can be separated by a divider.
+- Floating toolbar consisting of combined icon buttons can group related controls separated by a divider.
 
 ### Behaviors
 
