@@ -1,7 +1,7 @@
 ---
 title: "Floating Toolbar"
 layout: "single"
-description: "Floating toolbar consists of a series of icon buttons occupying a minimum of the workspace."
+description: "Floating toolbar consists of a series of icon buttons occupying minimum workspace."
 components: true
 componentsWeb: true
 images:
@@ -11,14 +11,12 @@ tags: [styles]
 
 ## Specifications
 
-- A floating toolbar consists of icon buttons which are placed on screen separately (single icon buttons) or on an own mini-frame (combined icon buttons). It offers a way to eliminate any unused space of a toolbar and limit its size to the necessary controls.
-- Using secondary icon-only buttons in default size (32px) is recommended, see [Buttons](/components/web/buttons/).
-- To provide a distinction of the floating toolbar and support the floating effect, a level of elevaton (Level 3) is applied. See [Shadows & Depth](/foundations/shadows-and-depth/).
+- Using secondary icon-only buttons at 32x32 is recommended, see [Buttons](/components/web/buttons/).
+- To provide a distinction of the floating toolbar and create the floating effect, a shadow (Level 3) is used. See [Shadows & Depth](/foundations/shadows-and-depth/).
 - The icon buttons can be aligned as a row (horizontally) or as a column (vertically).
-- Vertically aligned floating toolbars are usually located on the left or right side of the screen.
-- Horizontally aligned floating toolbars reside at the top or bottom of the application window.
-- The padding between the single icon buttons is 4px.
-- Icon buttons which are combined together have only outer corners of the entire toolbar rounded.
+- Vertically aligned floating toolbars are usually located on the left or right side of the screen; Horizontally aligned floating toolbars reside at the top or bottom of the application window.
+- The spacing between separated buttons is 4px.
+- Icon buttons which are combined together have only outer corners of the toolbar rounded.
 - Floating toolbar consisting of combined icon buttons can group related controls separated by a divider.
 
 ### Behaviors
