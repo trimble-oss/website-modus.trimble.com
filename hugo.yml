@@ -186,6 +186,8 @@ menu:
       url: /components/web/tabs/
     - name: Toasts
       url: /components/web/toasts/
+    - name: Toolbar
+      url: /components/web/toolbar/
     - name: Tooltips
       url: /components/web/tooltips/
     - name: Transactional Emails
