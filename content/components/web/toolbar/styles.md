@@ -34,3 +34,12 @@ tags: [styles]
 ### Editorial
 
 - See [Tooltips](/components/web/tooltips/styles/).
+
+<style>
+  article ul li p {
+    margin-bottom: 2px !important;
+  }
+  article ul ul {
+    margin-bottom: 16px !important;
+  }
+</style>
