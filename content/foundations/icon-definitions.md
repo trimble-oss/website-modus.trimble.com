@@ -51,7 +51,7 @@ Trimble uses different types of icons to portray relevant information or functio
 
 ## Icon Anatomy, Sizes, and Design Considerations
 
-Trimble uses **both solid and line icons**. The choice should be consistent throughout the product. Be careful when using both solid and line icons within one UI: make sure that the use is deliberate, context-dependent, and logical. For example, you may use line icons to identify interactive icons and solid icons as charms or purely informational icons that are not clickable. For most products line icons are preferred. For in-cab software or products used outdoors and/or with heavy gloves, solid icons are better for usability.
+Trimble uses **both solid and outlined icons**. The choice should be consistent throughout the product. Be careful when using both solid and outline icons within one UI: make sure that the use is deliberate, context-dependent, and logical. For example, you may use outlined icons to identify interactive icons and solid icons as charms or purely informational icons that are not clickable. For most products outlined icons are preferred. For in-cab software or products used outdoors and/or with heavy gloves, solid icons are better for usability.
 
 The cornerstones of consistent icons:
 
@@ -86,7 +86,7 @@ Other design considerations:
 - Inspect your final icon for any superfluous anchor nodes (e.g. nodes on straight lines due to cutting shapes, broken curves, etc.) and fix/smooth/remove accordingly.
 - To keep angle consistent, it is recommended to keep diagonal lines on a 45 or 25 degree angle, if possible.
 - To ensure exchangeability of vector code, stroke should be converted to outline stroke.
-  Icons cannot change from solid to line or line to solid when changing states.
+  Icons cannot change from solid to outlined or outlined to solid when changing states.
 - All icons should comply with our [accessibility guidelines](/foundations/accessibility).
 
 ## Mobile Tap Targeting
