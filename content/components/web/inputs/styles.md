@@ -33,10 +33,8 @@ There are two sizes of input fields defined:
     <tr>
       <th scope="row">Default</th>
       <td class="anatomy-cell">
-        <input class="form-control mb-2" placeholder="Placeholder text" style="padding-left: 8px; padding-right: 8px;">
         <input
           class="form-control anatomy-display-static mb-5"
-          placeholder="Default Input"
           value="Default Input"
           style="padding-left: 8px; padding-right: 8px;"
         />
@@ -48,13 +46,7 @@ There are two sizes of input fields defined:
       <th scope="row">Large</th>
       <td class="anatomy-cell">
         <input
-          class="form-control form-control-lg mb-2"
-          placeholder="Placeholder text"
-          style="padding-left: 16px; padding-right: 16px;"
-        />
-        <input
           class="form-control form-control-lg anatomy-display-static mb-5"
-          placeholder="Large Input"
           value="Large Input"
           style="padding-left: 16px; padding-right: 16px;"
         />
@@ -98,7 +90,7 @@ There are two sizes of input fields defined:
     </div>
     <div class="form-group">
       <label for="disabledInput">Disabled Input</label>
-      <input class="form-control" id="disabledInput" disabled placeholder="Disabled" />
+      <input class="form-control" id="disabledInput" disabled value="Disabled" />
     </div>
     <div class="form-group">
       <label for="ReadonlyInput">Readonly Input</label>

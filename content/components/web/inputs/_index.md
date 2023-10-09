@@ -23,12 +23,12 @@ Input fields or text fields allow users to enter text into a UI. They typically 
 <form>
   <div class="form-group">
     <label for="RegularInput">Regular Input</label>
-    <input class="form-control" id="RegularInput" placeholder="Placeholder Text">
+    <input class="form-control" id="RegularInput">
   </div>
   <div class="form-group">
     <label for="Input2">Input with icon on right</label>
     <div class="input-with-icon-right">
-      <input class="form-control" placeholder="Placeholder Text" id="Input2">
+      <input class="form-control" id="Input2">
       <div class="input-icon">
         <i class="modus-icons notranslate" aria-hidden="true">visibility</i>
       </div>
@@ -37,7 +37,7 @@ Input fields or text fields allow users to enter text into a UI. They typically 
   <div class="form-group">
     <label for="Input3">Input with icon on left</label>
     <div class="input-with-icon-left">
-      <input class="form-control" placeholder="Placeholder Text" id="Input3">
+      <input class="form-control" id="Input3">
       <div class="input-icon">
         <i class="modus-icons notranslate" aria-hidden="true">search</i>
       </div>
@@ -46,7 +46,7 @@ Input fields or text fields allow users to enter text into a UI. They typically 
   <div class="form-group">
     <label for="Input4">Input with a button</label>
     <div class="input-group">
-      <input class="form-control" placeholder="Placeholder Text" id="Input4">
+      <input class="form-control" id="Input4">
       <div class="input-group-append">
         <button class="btn btn-outline-secondary" type="button">
           Go
