@@ -1,7 +1,7 @@
 ---
 title: "Lists"
 layout: "single"
-description: ""
+description: "A list can be used to display content related to a single subject."
 components: true
 componentsWeb: true
 images:
