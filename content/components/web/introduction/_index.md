@@ -44,4 +44,4 @@ Web patterns and components are currently available in three frameworks:
 
 You may also find links to relevant implementations on the right nav within each component.
 
-_Note:_ Not all components are available in code in all frameworks. Visit the [Status](/status/) page for more information.
+_Note:_ Not all components are available in code in all frameworks.
