@@ -50,52 +50,17 @@ Upon submission, a Clickup issue is automatically created in the "Submitted" col
 Before starting development, ensure the component is approved and updated in Modus Figma and Modus Style guide.
 During development, only use Modus Figma and Modus Style Guide for reference.
 
-<table class="table table-bordered">
-  <thead>
-    <tr>
-      <th>.</th>
-      <th>Checklist</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>.</td>
-      <td>
-        a.) Familiarize yourself with the current code. Alternatively, if you would like the Modus team to guide you through it, feel free to reach out.
-      </td>
-    </tr>
-    <tr>
-      <td>.</td>
-      <td>
-        b.) Share your proposed implementation methods, coding strategies, component architecture. Discuss with the Modus Team to finalize an approach.
-      </td>
-    </tr>
-    <tr>
-      <td>.</td>
-      <td>
-        c.) Fork the repository and create a new branch. Once you have completed your development work, submit a pull request (PR).
-      </td>
-    </tr>
-        <tr>
-      <td>.</td>
-      <td>
-        d.) The MWC-Maintainers group on GitHub will initiate the PR review process and provide feedback by adding comments either on the PR itself or in the respective Google chat.
-      </td>
-    </tr>
-        <tr>
-      <td>.</td>
-      <td>
-        e.) If the topic is too complex or too large to be fully discussed in PR comments, schedule a meeting  to clarify any questions and avoid any delays.
-      </td>
-    </tr>
-        <tr>
-      <td>.</td>
-      <td>
-        f.) Once all the comments on the PR have been addressed and the PR approved, the submitted component can be merged and released.
-      </td>
-    </tr>
-  </tbody>
-</table>
+a.) Familiarize yourself with the current code. Alternatively, if you would like the Modus team to guide you through it, feel free to reach out.
+
+b.) Share your proposed implementation methods, coding strategies, component architecture. Discuss with the Modus Team to finalize an approach.
+
+c.) Fork the repository and create a new branch. Once you have completed your development work, submit a pull request (PR).
+
+d.) The MWC-Maintainers group on GitHub will initiate the PR review process and provide feedback by adding comments either on the PR itself or in the respective Google chat.
+
+e.) If the topic is too complex or too large to be fully discussed in PR comments, schedule a meeting to clarify any questions and avoid any delays.
+
+f.) Once all the comments on the PR have been addressed and the PR approved, the submitted component can be merged and released.
 
 ### 3. Review
 
