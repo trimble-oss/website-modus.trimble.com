@@ -32,7 +32,7 @@ Use these patterns if your application runs in a browser on a desktop computer, 
 
 ## Modus Web UI Kits
 
-Modus Web UI Kits are available in [Figma and Adobe XD for designers](/designers/).
+Modus Web UI Kits are available for [Figma](/figma/) and [Adobe XD](/adobe-xd/) for designers.
 
 ## Supported Frameworks
 
