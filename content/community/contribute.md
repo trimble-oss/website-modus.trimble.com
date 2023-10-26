@@ -33,10 +33,6 @@ How to Get Involved</h2>
 Review proposed components and/or sections of the design system and offer feedback.
 {{</ card-start >}}
 
-{{< card-start title="Join a Tiger Team" url="/community/tiger-teams/" class="bg-light py-4" header="team.svg" >}}
-Contribute by <a href="/community/tiger-teams/">joining a Tiger Team</a> to work on a component or pattern with your fellow UX designers and engineers.
-{{</ card-start >}}
-
 {{< card-start title="Submit a UI pattern" url="/community/contribution-process/" class="bg-light py-4" header="design.svg" >}}
 Propose a new design pattern to be added to Modus. Learn about <a href="/community/contribution-process/">the contribution process</a>.
 {{</ card-start >}}
@@ -45,12 +41,16 @@ Propose a new design pattern to be added to Modus. Learn about <a href="/communi
 Contribute code for a new or existing pattern to one of our repositories. <a href="https://github.com/trimble-oss?q=modus&type=public&language=&sort=stargazers">Go to GitHub</a>.
 {{</ card-start >}}
 
-{{< card-start title="Share Research Findings" url="/community/contact/" class="bg-light py-4" header="research.svg" >}}
-Contribute UX research relevant to an existing pattern. Submission guidelines will be published soon!
+{{< card-start title="Join a Tiger Team" url="/community/tiger-teams/" class="bg-light py-4" header="team.svg" >}}
+Contribute by <a href="/community/tiger-teams/">joining a Tiger Team</a> to work on a component or pattern with your fellow UX designers and engineers.
 {{</ card-start >}}
 
 {{< card-start title="Submit an Icon" url="/community/contact/" class="bg-light py-4" header="icon.svg" >}}
 Submit an icon consistent with Modus <a href="/foundations/icon-definitions/">icon definitions</a> to our icon library.
+{{</ card-start >}}
+
+{{< card-start title="Share Research Findings" url="/community/contact/" class="bg-light py-4" header="research.svg" >}}
+Contribute UX research relevant to an existing pattern. Submission guidelines will be published soon!
 {{</ card-start >}}
 
 </div>
