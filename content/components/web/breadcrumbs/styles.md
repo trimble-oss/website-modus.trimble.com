@@ -26,13 +26,13 @@ tags: [styles]
 <div class="guide-example-block d-inline-block">
   <div class="guide-sample">
     <nav aria-label="breadcrumb">
-      <ol class="breadcrumb mb-0">
+      <ol class="breadcrumb mb-3">
         <li class="breadcrumb-item"><a href="#">Root</a></li>
         <li class="breadcrumb-item active" aria-current="page">Current Page</li>
       </ol>
     </nav>
     <nav aria-label="breadcrumb">
-      <ol class="breadcrumb mb-0">
+      <ol class="breadcrumb mb-3">
         <li class="breadcrumb-item"><a href="#">Root</a></li>
         <li class="breadcrumb-item"><a href="#">Subpage </a></li>
         <li class="breadcrumb-item active" aria-current="page">Current Page</li>
@@ -44,29 +44,40 @@ tags: [styles]
 ### Breadcrumbs with Icons
 
 <div class="guide-example-block d-inline-block">
-  <div class="guide-sample">
+  <div class="guide-sample my-2">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><i class="modus-icons notranslate" aria-hidden="true">dashboard</i><a href="#">Home</a></li>
-        <li class="breadcrumb-item"><i class="modus-icons notranslate" aria-hidden="true">ticket_plane</i><a href="#">Library</a></li>
-        <li class="breadcrumb-item active" aria-current="page"><i class="modus-icons notranslate" aria-hidden="true">clipboard</i>Data</li>
+        <li class="breadcrumb-item d-flex align-items-center"><i class="modus-icons notranslate" aria-hidden="true">dashboard</i><a href="#">Home</a></li>
+        <li class="breadcrumb-item d-flex align-items-center"><i class="modus-icons notranslate" aria-hidden="true">ticket_plane</i><a href="#">Library</a></li>
+        <li class="breadcrumb-item d-flex align-items-center active" aria-current="page"><i class="modus-icons notranslate" aria-hidden="true">clipboard</i>Data</li>
       </ol>
     </nav>
   </div>
 </div>
+
+<style>
+.breadcrumb-item i {
+  margin-right: .5rem;
+  color: rgba(var(--bs-link-color-rgb));
+}
+
+.breadcrumb-underline .breadcrumb-item a{
+  text-decoration: underline;
+}
+</style>
 
 ### Accessible Option
 
 <div class="guide-example-block d-inline-block">
   <div class="guide-sample">
     <nav aria-label="breadcrumb">
-      <ol class="breadcrumb breadcrumb-underline mb-0">
+      <ol class="breadcrumb breadcrumb-underline">
         <li class="breadcrumb-item"><a href="#">Root</a></li>
         <li class="breadcrumb-item active" aria-current="page">Current Page</li>
       </ol>
     </nav>
     <nav aria-label="breadcrumb">
-      <ol class="breadcrumb breadcrumb-underline mb-0">
+      <ol class="breadcrumb breadcrumb-underline">
         <li class="breadcrumb-item"><a href="#">Root</a></li>
         <li class="breadcrumb-item"><a href="#">Subpage </a></li>
         <li class="breadcrumb-item active" aria-current="page">Current Page</li>
@@ -82,14 +93,15 @@ tags: [styles]
 <div class="guide-example-block d-inline-block">
   <div class="guide-sample" style="padding-bottom: 125px">
     <nav aria-label="breadcrumb">
-      <ol class="breadcrumb breadcrumb-underline mb-0">
+      <ol class="breadcrumb mb-0">
         <li class="breadcrumb-item"><a href="#">Root</a></li>
         <li class="breadcrumb-item">
-          <div class="dropdown">
+          <div class="dropdown float-start">
             <button
               type="button"
               id="breadcrumbDropdown"
-              data-toggle="dropdown"
+              data-bs-toggle="dropdown"
+              class="border-0 px-1 bg-transparent"
               aria-haspopup="true"
               aria-expanded="false"
             >
@@ -99,9 +111,9 @@ tags: [styles]
               class="dropdown-menu show"
               aria-labelledby="breadcrumbDropdown"
             >
-              <a href="#" class="dropdown-item">Subpage</a>
-              <a href="#" class="dropdown-item">Subpage</a>
-              <a href="#" class="dropdown-item">Subpage</a>
+              <a href="#" class="dropdown-item text-decoration-none text-body">Subpage</a>
+              <a href="#" class="dropdown-item text-decoration-none text-body">Subpage</a>
+              <a href="#" class="dropdown-item text-decoration-none text-body">Subpage</a>
             </div>
           </div>
         </li>

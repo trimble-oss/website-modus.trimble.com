@@ -1,7 +1,55 @@
-/* iPhone 5 */
-@media (max-width: 320px) {
-  .navbar-nav a {
-    font-size: 0.9rem !important;
-    letter-spacing: -1px;
+/* iPhone 6/7/8 */
+@media (max-width: 375px) {
+  #sidebar-menu {
+    min-width: 256px;
+  }
+
+  #sidebar.collapsing + div,
+  #sidebar.show + div {
+    display: none;
+  }
+}
+
+/* iPhone 6+/7+/8+ */
+@media (min-width: 376px) and (max-width: 414px) {
+  #sidebar-menu {
+    min-width: 305px;
+  }
+
+  #sidebar.collapsing + div,
+  #sidebar.show + div {
+    display: none;
+  }
+}
+
+/* XS */ /* stylelint-disable-next-line */
+@media (max-width: 575px) {
+  .popover-css-inspector {
+    display: none !important;
+  }
+}
+
+/* SM */
+@media (max-width: 767px) {
+  #sidebar.show {
+    width: calc(100% - 64px) !important;
+    min-width: calc(100% - 64px) !important;
+  }
+
+  #sidebar.show + div {
+    display: none !important;
+    width: 0;
+  }
+
+  .collapsing {
+    transition: none !important;
+  }
+}
+
+/* SM Only */
+@media (min-width: 575px) and (max-width: 767px) {
+  #sidebar-menu .list-unstyled li {
+    width: 50%;
+    display: inline-block;
   }
 }

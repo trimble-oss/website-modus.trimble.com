@@ -10,13 +10,13 @@
   border-radius: 0.5rem;
 }
 
-[data-theme="dark"] {
+[data-bs-theme="dark"] {
   .list:empty::before {
     color: #f1f1f1;
   }
 }
 
-[data-theme="light"] {
+[data-bs-theme="light"] {
   .list:empty::before {
     color: #464b52;
   }

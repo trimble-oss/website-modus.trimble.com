@@ -40,16 +40,16 @@ tags: [in-field, styles]
 | Default  | {{< img src="/img/in-field/radio-btn-off.svg" width="48" alt="" >}}          | {{< img src="/img/in-field/radio-btn-on.svg" dark="/img/in-field/radio-btn-on-dark.svg" width="48" alt="" >}} |
 | Focus    | {{< img src="/img/in-field/radio-btn-off-focus.svg" width="48" alt="" >}}    | {{< img src="/img/in-field/radio-btn-on-focus.svg" dark="/img/in-field/radio-btn-on-focus-dark.svg" width="48" alt="" >}} |
 | Disabled | {{< img src="/img/in-field/radio-btn-off-disabled.svg" width="48" alt="" >}} | {{< img src="/img/in-field/radio-btn-on-disabled.svg" dark="/img/in-field/radio-btn-on-disabled-dark.svg" width="48" alt="" >}} |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 #### Labels
 
 <!-- prettier-ignore-start -->
-| Label left                                                                                                     | Label right                                                                                                      |
+| Label left                                                                                                      | Label right                                                                                                      |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | {{< img src="/img/in-field/radio-button-label-left.svg" dark="/img/in-field/radio-button-label-left-dark.svg" width="100" alt="" >}} | {{< img src="/img/in-field/radio-button-label-right.svg" dark="/img/in-field/radio-button-label-right-dark.svg" width="100" alt="" >}} |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 #### Editorial

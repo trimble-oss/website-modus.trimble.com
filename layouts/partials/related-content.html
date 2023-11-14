@@ -1,11 +1,50 @@
 {{ $related := .Site.RegularPages.Related . | first 3 }}
 {{ with $related }}
-<h3 class="mt-5">See Also</h3>
-<ul>
-  {{ range . }}
-  <li><a href="{{ .RelPermalink }}">
-    {{- .Title -}}
-  </a></li>
+<span class="h3 mt-4 overflow-hidden">You May Also Like</span>
+<div class="row mb-3">
+  {{- range . -}}
+  <div class="col-12 col-md-6 col-lg-4 my-3">
+    <div class="card card-post h-100">
+      <div class="card-header rounded-top border-0 mb-0 pb-0"
+        style="background-image: url({{- .Params.Image | relURL -}}); background-color: {{- .Params.headerBgColor -}};">
+      </div>
+      <div class="card-body border-0 pb-0">
+        <h3
+          class="h5 card-title mb-0 mt-n1 ms-n2 text-primary {{ if .Params.DoNotTranslateTitle }} notranslate{{- end -}}">
+          {{- .Title | title -}}
+        </h3>
+        <p class="mt-1 opacity-75">
+          <time datetime="{{ .Date }}" class="opacity-75">
+            {{- .Date.Format "Jan 2, 2006" -}}
+          </time><br>By {{ .Params.author -}}
+        </p>
+        <p class="ms-n2">
+          <a href="{{ .RelPermalink }}" class="stretched-link text-decoration-none text-body">
+            {{- with .Description -}}{{ . }}
+            {{- else -}}{{ with .Summary }}{{- . | plainify | htmlUnescape -}}
+            {{- end -}}{{- end -}}
+          </a>
+        </p>
+      </div>
+      <div class="card-footer border-0 py-0 bg-transparent">
+        <div class="row">
+          <div class="px-2 mx-3 mb-1 read-more-divider"></div>
+        </div>
+        <div class="row">
+          <p class="ps-3 fw-bold text-primary">
+            Read More <svg xmlns="http://www.w3.org/2000/svg" class="ms-1" width="6.3" height="9.8"
+              viewBox="0 0 6.3 9.8">
+              <g transform="translate(1.412 1.412)">
+                <path id="Path_627" data-name="Path 627" d="M18,18.965l3.889-3.482L18,12" transform="translate(-18 -12)"
+                  fill="none" stroke="#005f9e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+              </g>
+            </svg>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
   {{- end -}}
-</ul>
+</div>
+
 {{- end -}}

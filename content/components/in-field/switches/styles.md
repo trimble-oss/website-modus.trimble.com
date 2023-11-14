@@ -17,7 +17,7 @@ tags: [in-field, styles]
 | Type    | Example                                                                                                          | Height |
 |---------| ---------------------------------------------------------------------------------------------------------------- | ------ |
 | Default | {{< img src="/img/in-field/switches-spec.svg" dark="/img/in-field/switches-spec-dark.svg" width="300" alt="" >}} | 48dp   |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 
 <!-- prettier-ignore-end -->
 
@@ -42,7 +42,7 @@ All checkboxes should have the following states:
 | Default  | {{< img src="/img/in-field/switches-on-default.svg" dark="/img/in-field/switches-on-default-dark.svg" width="70" alt="Example of Default Switch" >}} | {{< img src="/img/in-field/switches-off-default.svg" dark="/img/in-field/switches-off-default-dark.svg" width="70" alt="Example of Default Switch" >}}   |
 | Focus | {{< img src="/img/in-field/switches-on-focus.svg" dark="/img/in-field/switches-on-focus-dark.svg" width="70" alt="Example of Default Switch" >}} | {{< img src="/img/in-field/switches-off-focus.svg" dark="/img/in-field/switches-off-focus-dark.svg" width="70" alt="Example of Default Switch" >}}   |
 | Disabled  | {{< img src="/img/in-field/switches-on-disabled.svg" dark="/img/in-field/switches-on-disabled-dark.svg" width="70" alt="Example of Default Switch" >}}    | {{< img src="/img/in-field/switches-off-disabled.svg" dark="/img/in-field/switches-off-disabled-dark.svg" width="70" alt="Example of Default Switch" >}}  |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 #### Labels & Icons
@@ -51,7 +51,7 @@ All checkboxes should have the following states:
 | Label Left   | Label right | Icon Right    | Icon Left | Check icon |
 | ------- | ------- | --------- | ------------ | -------- |
 | {{< img src="/img/in-field/switch-label-left.svg" dark="/img/in-field/switch-label-left-dark.svg" width="124" alt="" >}}   | {{< img src="/img/in-field/switch-label-right.svg" dark="/img/in-field/switch-label-right-dark.svg" width="124" alt="" >}}     | {{< img src="/img/in-field/switch-icon-left.svg" dark="/img/in-field/switch-icon-left-dark.svg" width="124" alt="" >}}    | {{< img src="/img/in-field/switch-icon-right.svg" dark="/img/in-field/switch-icon-right-dark.svg" width="124" alt="" >}}   | {{< img src="/img/in-field/switch-tick.svg" dark="/img/in-field/switch-tick-dark.svg" width="80" alt="" >}}
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 ### OEM Branding

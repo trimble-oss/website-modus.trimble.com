@@ -23,7 +23,7 @@ Tabs are a set of layered sections of content, known as tab panels, that display
 - You want to organize content into meaningful sections that occupy less screen space.
 - Add visual consistency.
 
-#### Don't use when
+#### Don’t use when
 
 - You need primary means of navigation.
 - Grouping unrelated content.

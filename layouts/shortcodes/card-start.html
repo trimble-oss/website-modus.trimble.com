@@ -4,9 +4,8 @@
   <div class="card card-blog-brief border h-100 w-100 shadow-sm">
     {{- if (.Params.header) -}}
     <div class="card-header text-center{{ with .Get "class" }} {{ . -}}{{- end -}}">
-      <img src="/img/icons/{{- .Get "header" | urlize -}}"
-        class="mx-auto text-center {{ if (.Params.headerClass) }}{{ .Get "headerClass" -}}{{- end -}}" width="99"
-        height="99" alt="{{- .Get "title" -}}">
+      <img src="/img/icons/{{- .Get "header" | urlize -}}" class="mx-auto text-center" width="99" height="99"
+        alt="{{- .Get "title" -}}">
     </div>
     {{- end -}}
     <div class="card-body">
@@ -16,7 +15,7 @@
         </div>
         {{- end -}}
         <h3>
-          {{- .Get "title" -}}
+         {{- .Get "title" -}}
         </h3>
         <p>
           {{- if (.Params.badge) -}}
@@ -24,8 +23,8 @@
           {{ end }}
           {{- if (.Params.url) -}}
           <a href="{{- .Get "url" -}}" {{- if (.Params.target) -}}target="{{- .Get "target" -}}" {{ end }}
-            class="stretched-link">
-          </a>
+          class="stretched-link">
+        </a>
           {{- end -}}
           {{- .Inner | markdownify -}}
         </p>

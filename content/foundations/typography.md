@@ -760,9 +760,9 @@ Base fonts size is 22px for Android use sp (scalable pixels). Some application m
             <br><strong>Letter Spacing:</strong> 0.25
             <br><strong>Line Height:</strong> 22 px
             <br><strong>Scale to Mobile</strong> (size/ line height): 8 px/16 px
-            <br><strong>Use:</strong> Small Label text.         
-            </td>                    
-        </tr>   
+            <br><strong>Use:</strong> Small Label text.
+            </td>
+        </tr>
 </table>
 
 ### Display Heading
@@ -843,7 +843,7 @@ Standard text colors:
 | **Trimble Gray** | {{< color-preview hex="#252a2e">}} | text may appear on backgrounds no darker than **Gray 4** {{< color-preview hex="#AEAEB6">}}.                                                 |
 | **Gray Light**   | {{< color-preview hex="#f1f1f6">}} | text may appear on backgrounds no lighter than **Gray 8** {{< color-preview hex="#464b52">}}.                                                |
 | **Gray 8**       | {{< color-preview hex="#464b52">}} | text, _body text color in desktop applications_, may appear on backgrounds no darker than **Gray Light** {{< color-preview hex="#f1f1f6">}}. |
-{class="table table-sm table-bordered"}
+{class="table table-sm table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 Text may appear in different colors on different colored backgrounds (see [Trimble Color Palette](/foundations/color-palette/)) as long as it meets appropriate contrast ratios for WCAG 2.0 AA compliance. [Contrast Checker](https://webaim.org/resources/contrastchecker/) is one of many tools available online to help ensure appropriate contrast. [Learn more about accessibility](https://webaim.org/).

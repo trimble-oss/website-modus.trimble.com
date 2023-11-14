@@ -1,5 +1,6 @@
 ---
-title: "Shadows & Depth"
+title: "Shadows and Depth"
+menuTitle: "Shadows & Depth"
 layout: "single"
 description: "Shadows are used to focus the user’s attention and define spatial relationships."
 foundations: true

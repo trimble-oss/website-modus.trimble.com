@@ -1,0 +1,28 @@
+community:
+  - title: News & Articles
+    url: "/news/"
+
+  - title: How to Contribute
+    url: "/community/contribute/"
+
+  - title: Tiger Teams
+    url: "/community/tiger-teams/"
+
+  - title: Contribution Process
+    url: "/community/contribution-process/"
+
+  - title: Submission Guidelines
+    url: "/community/submission-guidelines/"
+
+  - title: Submissions Status
+    url: "/community/submissions-status/"
+
+  - title: Modus Adoption
+    url: "/community/modus-adoption/"
+
+  - title: Contact Us
+    url: "/community/contact-us/"
+
+  - title: GitHub Discussions
+    url: "https://github.com/orgs/trimble-oss/discussions"
+    external: true

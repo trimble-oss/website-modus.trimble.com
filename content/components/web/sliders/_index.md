@@ -20,11 +20,11 @@ tags: [usage]
 Sliders select a numeric value or range of values by moving a handle or set of handles along a bar. They are ideal for adjusting settings such as volume and brightness. The slider in its basic form should be accompanied by a label and a number input that doubles as a display for the slider’s current value.
 
 <div class="mx-auto w-75">
-<label for="customRange1">Example range</label>
-<input type="range" class="custom-range" id="customRange1">
+<label for="customRange1" class="form-label">Example range</label>
+<input type="range" class="form-range mb-3" id="customRange1">
 
-<label for="disabledRange">Disabled range</label>
-<input type="range" class="custom-range" disabled="" id="disabledRange">
+<label for="disabledRange" class="form-label">Disabled range</label>
+<input type="range" class="form-range" id="disabledRange" disabled>
 
 </div>
 

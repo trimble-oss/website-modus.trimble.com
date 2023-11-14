@@ -20,13 +20,13 @@ tags: [styles]
 - Within a dropdown, you can separate groups of related menu items with a divider.
 
 <div class="guide-example-block d-inline-block mb-3">
-  <div class="guide-sample" style="padding-bottom: 120px; padding-right: 90px;">
+  <div class="guide-sample mb-3" style="padding-bottom: 120px; padding-right: 90px;">
     <div class="dropdown">
       <button
         class="btn btn-primary dropdown-toggle"
         type="button"
         id="dropdownMenuButton"
-        data-toggle="dropdown"
+        data-bs-toggle="dropdown"
         aria-haspopup="true"
         aria-expanded="false"
       >
@@ -36,7 +36,7 @@ tags: [styles]
         class="dropdown-menu dropdown-menu-sm show"
         aria-labelledby="dropdownMenuButton"
         x-placement="bottom-start"
-        style="position: absolute; will-change: transform; top: 0; left: 0; transform: translate3d(0, 32px, 0);"
+        style="will-change: transform; top: 0; left: 0; transform: translate3d(0, 32px, 0);"
       >
         <a class="dropdown-item active" href="#">Active item</a>
         <a class="dropdown-item" href="#">Menu item</a>

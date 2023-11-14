@@ -32,13 +32,13 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
     <tr>
       <td style="line-height: 1.25" scope="row">
         <div class="border">
-          <div class="alert alert-danger mx-3 mt-3 mb-0" role="alert">
-            <i class="modus-icons alert-icon" aria-hidden="true">warning</i>
+          <div class="alert alert-danger d-flex align-items-center mx-3 mt-3 mb-0" role="alert">
+            <i class="modus-icons alert-icon me-2" aria-hidden="true">warning</i>
             <div>Error! Your username and password were incorrect</div>
           </div>
           <div class="p-3">
             <form>
-              <div class="form-group">
+              <div class="form-group mb-3">
                 <label for="exampleInputEmail1">Email address</label>
                 <input
                   type="email"
@@ -48,7 +48,7 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
                   autocomplete="email"
                 />
               </div>
-              <div class="form-group">
+              <div class="form-group mb-3">
                 <label for="exampleInputPassword1">Password</label>
                 <input
                   type="password"
@@ -76,6 +76,7 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
 - Providing a user with a message related to a page-level or out-of-view event, like completion of a report generation. Instead, use a [Toast](/components/web/toasts/).
 - Providing a user with a system-level message, like a network outage or browser incompatibility. Instead, use a [Modal](/components/web/modals/).
 - Attaching an error message to an input.
+- Notifying the user of a low priority message. Instead, use a [Message](/components/web/messages/).
 
 {{< whats-changed-table >}}
 

@@ -13,10 +13,10 @@ tags: [in-field, styles]
 ## Specifications
 
 <!-- prettier-ignore-start -->
-| State | Example                                                                                                                                             | Height    |
-| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------- |-----------|
-| Small | {{<img src="/img/in-field/prompt-spec.svg" dark="/img/in-field/prompt-spec-dark.svg" width="587" alt="Example of a small message" loading="auto">}} | 168-260dp |
-{class="table table-bordered table-thead-light"}
+| State  | Example                                                                                                                                             | Height    |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |-----------|
+| Small  | {{<img src="/img/in-field/prompt-spec.svg" dark="/img/in-field/prompt-spec-dark.svg" width="587" alt="Example of a small message" loading="auto">}} | 168-260dp |
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 ## Prompts

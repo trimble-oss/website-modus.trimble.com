@@ -25,16 +25,19 @@
   background-color: #f24e1e !important;
 }
 
-.bg-deprecated {
-  background-color: #b7b9c3 !important;
-}
-
 .bg-react {
   background-color: #61dafb !important;
 }
 
 .bg-web-components {
   background-color: #ff5c03 !important;
+}
+
+.card-post .card-header {
+  min-height: 89px;
+  background-size: cover;
+  background-position: center;
+  aspect-ratio: 4 / 1;
 }
 
 .bg-adobe-xd img,
@@ -51,7 +54,7 @@ body[data-url="/community/contribute/"] .card-blog-brief h3 {
   font-size: 0.98rem;
 }
 
-[data-theme="dark"] .card {
+[data-bs-theme="dark"] .card {
   background-color: #171c1e !important;
 }
 

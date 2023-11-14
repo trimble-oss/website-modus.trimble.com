@@ -1,198 +1,138 @@
 {{- define "main" }}
 
-<header class="container-fluid px-0 pt-5 pt-md-1">
-  <div class="container py-md-3 pt-4">
-    <div class="row py-lg-3">
-      <div class="col-12 py-4 text-center">
-        <h1 class="display-2 font-weight-bold pt-4 mt-5 {{ if .Params.DoNotTranslateTitle }} notranslate{{- end -}}">
-          {{- .Title | title -}}
-        </h1>
-        <h2 class="mt-4 col-12 col-sm-11 mx-auto">
-          {{- .Params.description -}}
-        </h2>
+<!-- https://www.codeply.com/p/NbvlptiZCf -->
+
+<div class="container-fluid">
+  <div class="row row-main px-0">
+
+    <div class="col-1 col-sidebar px-0 bg-body shadow-sm d-print-none">
+      {{ partial "col-sidebar" . }}
+    </div>
+
+    <div class="col col-menu col-auto px-0 collapse collapse-horizontal bg-dark bg-opacity-10 d-print-none"
+      id="sidebar">
+      <div id="sidebar-menu" class="sticky-top sticky-offset shadow-sm overflow-auto overflow-x-hidden">
+        {{ partial "col-sidebar-menu" . }}
       </div>
     </div>
-  </div>
-</header>
 
-<main class="my-5 container-xl">
+    <div class="col col-auto col-12 col-main border-start p-0">
 
-  <div class="row">
+      {{ partial "header" . }}
 
-    <div class="col-12 col-md-3 col-lg-2 menu-left">
-      {{ partial "menu-left.html" . }}
-    </div>
-    <div class="col-12 col-xl-2 d-none d-print-none d-xl-block menu-right pr-1 order-last">
-      {{ partial "menu-right.html" . }}
-    </div>
+      <main class="container mx-auto mt-5" style="max-width: 1090px;">
+        <div class="row">
+          <div class="col-12 col-xl-9">
+            {{ if .Params.blog }}
+            <h1 class="ps-2 ps-sm-3 display-3 mb-3 {{ if .Params.DoNotTranslateTitle }} notranslate{{- end -}}">
+              {{- .Title | title -}}
+            </h1>
+            <div class="d-flex">
+              <div class="mx-3">
+                <img src="/img/author/{{ .Params.author | urlize }}.jpg"
+                  class="bg-light rounded-circle mx-auto text-center border" height="44" width="44"
+                  alt="{{ .Params.author }}">
+              </div>
+              <div>
+                <div class="text-body fw-bold">
+                  {{- .Params.author -}}
+                </div>
+                <div class="text-body mb-3 opacity-75">
+                  <span>Posted on</span>
+                  {{ .Date.Format "Jan 2, 2006" -}}
+                </div>
+              </div>
+            </div>
+            {{ end }}
 
-    <div class="col-12 col-md-9 col-lg-10 col-xl-8 mx-auto">
-      {{ if .Params.lead }}
-      <p class="lead">
-        {{- .Params.lead -}}
-      </p>
-      {{- end -}}
+            {{ if and (gt .WordCount 8350 ) (not .Params.hideToc) }}
+            <details class="mb-3 d-print-none d-xl-none">
+              <summary class="mb-1 user-select-none">Contents</summary>
+              {{ .TableOfContents }}
+            </details>
+            {{- end -}}
+            <article class="ps-2 ps-sm-3">
+              {{ .Content }}
 
-      <article class="pr-3 mt-2" id="main">
-        {{ if in .Params.tags "in-field" }}
-        <ul class="nav nav-tabs mb-3 w-100 mt-n2">
-          <li class="nav-item">
-            <a class="nav-link px-3 nav-usage text-decoration-none{{ if in .Params.tags "usage" }} active pe-none{{end}}"
-              href="/components/in-field/{{ with .Params.component }}{{ . | lower }}{{- end -}}/">
-              Usage</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link px-3 nav-styles text-decoration-none{{ if in .Params.tags "styles" }} active pe-none{{end}}"
-              href="/components/in-field/{{ with .Params.component }}{{ . | lower }}{{- end -}}/styles/">
-              {{ partial "icons/modus-solid/palette.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
-              Styles</a>
-          </li>
-          {{ if not (in .Params.tags "in-field" ) }}
-          <li class="nav-item">
-            <a class="nav-link px-3 nav-code text-decoration-none{{ if in .Params.tags "code" }} active pe-none{{end}}"
-              id="nav-link-code"
-              href="{{.Site.BaseURL}}{{.Section}}/in-field/{{- with .Params.component -}}{{- . | lower -}}{{- end -}}/code/">
-              Code</a>
-          </li>
-          {{ end }}
-          {{ if not (in .Params.tags "hide-accessibility" ) }}
-          <li class="nav-item">
-            <a class="nav-link px-3 nav-accessibility text-decoration-none{{ if in .Params.tags "accessibility" }} active pe-none{{end}}"
-              href="/components/in-field/{{- with .Params.component -}}{{- . | lower -}}{{- end -}}/accessibility/">
-              {{ partial "icons/modus-outlined/accessibility-circle.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
-              Accessibility</a>
-              </li>
+              {{- if .Params.figmaURL -}}
+              <iframe class="w-100 iframe-figma rounded border-0" width="800" height="450" style="min-height: 80vh;"
+                src="https://www.figma.com/embed?embed_host=share&url={{- .Params.figmaURL -}}"
+                allowfullscreen></iframe>
               {{ end }}
 
-          {{ else if .Params.componentsWeb }}
+            </article>
 
-          <ul class="nav nav-tabs mb-3 w-100 mt-n2">
-            <li class="nav-item">
-              <a class="nav-link px-3 nav-usage text-decoration-none{{ if in .Params.tags "usage" }} active pe-none{{end}}"
-                href="/components/web/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/">
-                Usage</a>
-            </li>
-            {{ if not (in .Params.tags "hide-styles" ) }}
-            <li class="nav-item">
-              <a class="nav-link px-3 nav-styles text-decoration-none{{ if in .Params.tags "styles" }} active pe-none{{end}}"
-                href="/components/web/{{- with .Title -}}{{- . | lower | urlize }}{{- end -}}/styles/">
-                {{ partial "icons/modus-solid/palette.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
-                Styles</a>
-            </li>
-            {{ end }}
-            {{ if not (in .Params.tags "hide-accessibility" ) }}
-            <li class="nav-item">
-              <a class="nav-link px-3 nav-accessibility text-decoration-none{{ if in .Params.tags "accessibility" }} active pe-none{{end}}"
-                href="/components/web/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/accessibility/">
-                {{ partial "icons/modus-outlined/accessibility-circle.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
-                Accessibility</a>
-                </li>
+            <div class="row">
+              <div class="col-6">
+                <div class="feedback-center">
+                  <!-- {{ partial "was-this-page-helpful.html" . }} -->
+                </div>
+              </div>
+              <div class="col-6">
+                {{- if not .Params.blog -}}
+                <a class="btn btn-sm btn-outline-secondary mt-5 float-end d-print-none"
+                  href="https://github.com/trimble-oss/website-modus.trimble.com/tree/main/content/{{ .Page.File.Path | replaceRE `\\` "/" }}"
+                  title="View and edit this file on GitHub" target="_blank" rel="noopener">View on GitHub</a>
                 {{ end }}
+                {{- if .Params.blog -}}
+                {{ partial "blog-share" . }}
                 {{ end }}
+              </div>
+            </div>
+            <footer class="mb-4 pt-0">
+              <!-- this displays date that markdown file was last committed to Git -->
+              {{- if not .Params.hideDate -}}
+              {{- if ne .Lastmod .Date -}}
+              {{- if not .Params.blog -}}
+              <div class="text-secondary small"><em>
+                  Last updated {{ .Lastmod.Format "January 2, 2006" }}.
+                </em></div>
+              {{- end -}}
+              {{- end -}}
+              {{- end -}}
 
-                {{ if (in .Params.tags "mobile" ) }}
-                <ul class="nav nav-tabs mb-3 w-100 mt-n2">
-                  <li class="nav-item">
-                    <a class="nav-link px-3 nav-usage text-decoration-none{{ if in .Params.tags "usage" }} active pe-none{{end}}"
-                      href="/components/mobile/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/">
-                      Usage</a>
-                  </li>
-                  {{ if not (in .Params.tags "hide-styles" ) }}
-                  <li class="nav-item">
-                    <a class="nav-link px-3 nav-styles text-decoration-none{{ if in .Params.tags "styles" }} active pe-none{{end}}"
-                      href="/components/mobile/{{- with .Title -}}{{- . | lower | urlize }}{{- end -}}/styles/">
-                      {{ partial "icons/modus-solid/palette.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
-                      Styles</a>
-                  </li>
-                  {{ end }}
-                  {{ if not (in .Params.tags "hide-accessibility" ) }}
-                  <li class="nav-item">
-                    <a class="nav-link px-3 nav-accessibility text-decoration-none{{ if in .Params.tags "accessibility" }} active pe-none{{end}}"
-                      href="/components/mobile/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/accessibility/">
-                      {{ partial "icons/modus-outlined/accessibility-circle.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
-                      Accessibility</a>
-                  </li>
-                  {{ end }}
-                  {{ end }}
-{{ if (in .Params.tags "xr" ) }}
-<ul class="nav nav-tabs mb-3 w-100 mt-n2">
-  <li class="nav-item">
-    <a class="nav-link px-3 nav-usage text-decoration-none{{ if in .Params.tags "usage" }} active pe-none{{end}}"
-      href="/components/xr/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/">
-      Usage</a>
-  </li>
-  {{ if not (in .Params.tags "hide-styles" ) }}
-  <li class="nav-item">
-    <a class="nav-link px-3 nav-styles text-decoration-none{{ if in .Params.tags "styles" }} active pe-none{{end}}"
-      href="/components/xr/{{- with .Title -}}{{- . | lower | urlize }}{{- end -}}/styles/">
-      {{ partial "icons/modus-solid/palette.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
-      Styles</a>
-  </li>
-  {{ end }}
-  {{ if not (in .Params.tags "hide-accessibility" ) }}
-  <li class="nav-item">
-    <a class="nav-link px-3 nav-accessibility text-decoration-none{{ if in .Params.tags "accessibility" }} active pe-none{{end}}"
-      href="/components/xr/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/accessibility/">
-      {{ partial "icons/modus-outlined/accessibility-circle.svg" (dict "class" "mr-2 opacity-75" "width" "18" "height" "18") }}
-      Accessibility</a>
-  </li>
-  {{ end }}
-  {{ end }}
-        </ul>
+              {{ if .Params.contributors }}
+              <div class="text-secondary small mt-2">
+                Contributors: {{ .Params.contributors }}
+              </div>
+              {{- end -}}
 
-        {{ if and (gt .WordCount 9350 ) (not .Params.hideToc) }}
-        <details class="mb-3 d-print-none d-xl-none">
-          <summary class="mb-1 user-select-none">Contents</summary>
-          {{ .TableOfContents }}
-        </details>
-        {{- end -}}
+              {{ if .Params.blog }}
 
-        {{ if .Params.displayBlogPosts }}
-        <div class="mx-n3 px-n4">
-          {{ partial "index/list-blog-brief.html" . }}
-        </div>
-        {{- end -}}
+              {{ partial "related-content" . }}
+              {{ end }}
 
-        {{ .Content }}
-
-        <div class="row">
-          <div class="col-6">
-          <div class="feedback-center">
-            {{ partial "was-this-page-helpful.html" . }}
+            </footer>
           </div>
-          </div>
-          <div class="col-6">
-            <a class="btn btn-sm btn-outline-dark mt-5 text-dark float-right"
-              href="https://github.com/trimble-oss/website-modus.trimble.com/tree/main/content/{{ .Page.File.Path | replaceRE `\\` "/" }}"
-              title="View and edit this file on GitHub" target="_blank" rel="noopener">View on GitHub</a>
+          <div class="col-12 col-xl-3 menu-right">
+            {{ partial "menu-right" . }}
           </div>
         </div>
 
-        <footer class="mt-4 pt-3">
-          <!-- this displays date that markdown file was last committed to Git -->
-          {{- if not .Params.hideDate -}}
-          {{- if ne .Lastmod .Date -}}
-          <div class="text-secondary small"><em>
-              Last updated {{ .Lastmod.Format "January 2, 2006" }}.
-            </em></div>
-          {{- end -}}
-          {{- end -}}
+      </main>
 
-          {{ if .Params.contributors }}
-          <div class="text-secondary small mt-2">
-            Contributors: {{ .Params.contributors }}
-          </div>
-          {{- end -}}
-
-        </footer>
-      </article>
+      <footer class="p-2 footer py-4 bg-secondary bg-opacity-10 d-print-none">
+        {{ partial "footer" . }}
+      </footer>
     </div>
+
   </div>
+</div>
 
-</main>
+{{ if .Params.popoverCSSInspector }}
+<script src="/js/popover-css-inspector.min.js" async></script>
+<style>
+  .popover {
+    z-index: 0;
+  }
+</style>
+{{ end }}
 
+{{ if not .IsHome }}
+{{ if not .Params.disableAnatomy }}
 {{- $anatomy := resources.Get "js/anatomy.js" -}}
 {{- $anatomyJs := slice $anatomy | resources.Concat "js/anatomy.js" | resources.Minify -}}
 <script src="{{ $anatomyJs.RelPermalink }}"></script>
-
+{{- end -}}
+{{- end -}}
 {{- end -}}

@@ -16,7 +16,7 @@ tags: [in-field, styles]
 |---------| -------------------------------------------------------------------------------------------------------------------------------- | ------ |
 | Default | {{< img src="/img/in-field/checkbox-spec-default.svg" dark="/img/in-field/checkbox-spec-default-dark.svg" width="182" alt="" >}} | 56dp   |
 | Focus   | {{< img src="/img/in-field/checkbox-spec-focus.svg" dark="/img/in-field/checkbox-spec-focus-dark.svg" width="289" alt="" >}}     | 56dp   |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 **Note:** In-cab sizes only. See mobile patterns for smaller options for in-field.
@@ -46,7 +46,7 @@ All checkboxes should have the following states:
 | Default  | {{< img src="/img/in-field/checkbox-progression-active-default.svg" dark="/img/in-field/checkbox-progression-active-default-dark.svg" width="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-not-active-default.svg" width="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-indeterminate-default.svg" width="56" alt="" >}} |
 | Focus    | {{< img src="/img/in-field/checkbox-progression-focus.svg" dark="/img/in-field/checkbox-progression-focus-dark.svg" width="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-not-active-focus.svg" width="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-indeterminate-focus.svg"  width="56" alt="" >}} |
 | Disabled | {{< img src="/img/in-field/checkbox-progression-active-disabled.svg" dark="/img/in-field/checkbox-progression-active-disabled-dark.svg" width="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-not-active-disabled.svg" width="56" alt="" >}} | {{< img src="/img/in-field/checkbox-progression-indeterminate-disabled.svg" width="56" alt="" >}} |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 **Note:** Focus state uses “global blue.”
@@ -57,7 +57,7 @@ All checkboxes should have the following states:
 | Label Right                                          | Label Left                                                                         |
 |------------------------------------------------------| ---------------------------------------------------------------------------------- |
 | {{< img src="/img/in-field/checkbox-label-right.svg" dark="/img/in-field/checkbox-label-right-dark.svg" width="100" alt="" >}} | {{< img src="/img/in-field/checkbox-label-left.svg" dark="/img/in-field/checkbox-label-left-dark.svg" width=100" alt="" >}} | 56dp   |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 ### OEM Branding

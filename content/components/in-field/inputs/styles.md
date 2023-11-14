@@ -21,7 +21,7 @@ tags: [in-field, styles]
 | Size    | Example                                                                                                                | Height |
 | ------- | ---------------------------------------------------------------------------------------------------------------------- |--------|
 | Default | {{< img src="/img/in-field/input-spec.svg" dark="/img/in-field/input-spec-dark.svg" width="700" alt="Example Size" >}} | 56px   |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 **Note:** Incab sizes only, see mobile for smaller options for in-field.
@@ -50,7 +50,7 @@ tags: [in-field, styles]
 | Error     | {{< img src="/img/in-field/inputs-error.svg" dark="/img/in-field/inputs-error-dark.svg" width="328" alt="Example of a error Input" >}}          |
 | Disabled  | {{< img src="/img/in-field/inputs-disabled.svg" dark="/img/in-field/inputs-disabled-dark.svg" width="328" alt="Example of a disabled Input" >}} |
 | Read only | {{< img src="/img/in-field/inputs-readonly.svg" dark="/img/in-field/inputs-readonly-dark.svg" width="328" alt="Example of a readonly Input" >}} |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 **Label above or on the side**

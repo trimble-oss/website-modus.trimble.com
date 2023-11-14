@@ -1,38 +1,38 @@
-<div class="container">
-  <div class="share py-2 float-right">
-    <div class="d-inline-block mr-2">
+<div class="container mb-5">
+  <div class="share py-2 float-end">
+    <div class="d-inline-block me-2">
       <a href="https://twitter.com/intent/tweet?via=TrimbleCorpNews&text={{- .Title -}}&url={{- .Permalink -}}"
-        class="opacity-75" title="Share on X" data-toggle="tooltip"
+        class="opacity-75" title="Share on X" data-bs-toggle="tooltip"
         onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
-        {{ partial "icons/fa/brands/square-x-twitter.svg" (dict "class" "text-dark" "width" "28" "height" "28") }}
-        <span class="sr-only">X</span></a>
+        {{ partial "icons/fa/brands/square-x-twitter.svg" (dict "class" "text-body" "width" "28" "height" "28") }}
+        <span class="visually-hidden">X</span></a>
     </div>
-    <div class="d-inline-block mr-2">
-      <a href="https://www.facebook.com/sharer.php?u={{ .Permalink }}" class="opacity-75" title="Share on Facebook"
-        data-toggle="tooltip" data-placement="top"
+    <div class="d-inline-block me-2">
+      <a href="https://www.facebook.com/sharer.php?u={{- .Permalink -}}" class="opacity-75" title="Share on Facebook"
+        data-bs-toggle="tooltip" data-bs-placement="top"
         onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
-        {{- partial "icons/fa/brands/facebook-square.svg" (dict "class" "text-dark" "width" "28" "height" "28") -}}
-        <span class="sr-only">Facebook</span></a>
-      </div>
-    <div class="d-inline-block mr-2">
-      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Permalink }}&title={{ .Title }}&summary={{ .Summary }}"
-        class="opacity-75" title="Share on LinkedIn" data-toggle="tooltip" data-placement="top"
-        onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
-        {{ partial "icons/fa/brands/linkedin.svg" (dict "class" "text-dark" "width" "28" "height" "28") }}
-        <span class="sr-only">LinkedIn</span></a>
+        {{- partial "icons/fa/brands/facebook-square.svg" (dict "class" "text-body" "width" "28" "height" "28") -}}
+        <span class="visually-hidden">Facebook</span></a>
     </div>
-    <!-- <div class="d-inline-block mr-2">
-      <a href="mailto:?subject={{ .Title }}%20-%20Modus%20Style%20Guide&body=Check out this site: {{ .Permalink }}"
-        class="opacity-75 bg-light" title="Share via Email" data-toggle="tooltip" data-placement="top"
+    <div class="d-inline-block me-2">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{- .Permalink -}}&title={{- .Title -}}&summary={{- .Summary -}}"
+        class="opacity-75" title="Share on LinkedIn" data-bs-toggle="tooltip" data-bs-placement="top"
         onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
-        {{ partial "icons/modus-solid/email.svg" (dict "class" "text-dark" "width" "28" "height" "28") }}
-        <span class="sr-only">Email</span></a>
+        {{ partial "icons/fa/brands/linkedin.svg" (dict "class" "text-body" "width" "28" "height" "28") }}
+        <span class="visually-hidden">LinkedIn</span></a>
+    </div>
+    <!-- <div class="d-inline-block me-2">
+      <a href="mailto:?subject={{- .Title -}}%20-%20Modus%20Style%20Guide&body=Check out this site: {{ .Permalink }}"
+        class="opacity-75 bg-light" title="Share via Email" data-bs-toggle="tooltip" data-bs-placement="top"
+        onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+        {{ partial "icons/modus-solid/email.svg" (dict "class" "text-body" "width" "28" "height" "28") }}
+        <span class="visually-hidden">Email</span></a>
     </div> -->
-    <div class="d-inline-block mr-2">
-      <button class="opacity-75 border-0 bg-transparent btn-share-web-api p-0 d-none" title="Share" data-toggle="tooltip"
-        data-placement="top">
-        {{- partial "icons/fa/solid/share-alt-square.svg" (dict "class" "text-dark" "width" "28" "height" "28") -}}
-        <span class="sr-only">Share</span></button>
+    <div class="d-inline-block me-2">
+      <button class="opacity-75 border-0 bg-transparent btn-share-web-api p-0 d-none" title="Share"
+        data-bs-toggle="tooltip" data-bs-placement="top">
+        {{- partial "icons/fa/solid/share-alt-square.svg" (dict "class" "text-body" "width" "28" "height" "28") -}}
+        <span class="visually-hidden">Share</span></button>
     </div>
   </div>
 </div>

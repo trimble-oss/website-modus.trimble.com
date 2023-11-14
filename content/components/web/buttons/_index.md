@@ -14,8 +14,6 @@ aliases:
 tags: [usage]
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css">
-
 ## Overview
 
 Buttons are clickable elements that are used to trigger actions. Buttons are used to initialize an action, either in the background or foreground of an experience. Use button labels wherever possible to express what action will occur, when the user interacts with a button.
@@ -48,7 +46,7 @@ There are two button progressions you can choose from: structural and color prog
 ### Structural Progression
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Example</th>
       <th>Emphasis</th>
@@ -73,7 +71,7 @@ There are two button progressions you can choose from: structural and color prog
       </td>
     </tr>
     <tr>
-      <td><button class="btn btn-outline-dark" type="button">Cancel</button></td>
+      <td><button class="btn btn-outline-secondary" type="button">Cancel</button></td>
       <td>Medium</td>
       <td>
         Used for secondary actions to establish additional visual hierarchy.
@@ -94,7 +92,7 @@ There are two button progressions you can choose from: structural and color prog
 ### Color Progression
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Example</th>
       <th>Emphasis</th>
@@ -141,7 +139,7 @@ There are two button progressions you can choose from: structural and color prog
 ### Danger And Critical Action Buttons
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Example</th>
       <th>Type</th>
@@ -151,7 +149,37 @@ There are two button progressions you can choose from: structural and color prog
   </thead>
   <tbody>
     <tr>
-      <td><button class="btn btn-danger" type="button">Delete</button></td>
+      <th scope="row">Icon Only</th>
+      <td>
+        <div class="mb-1">
+          <button type="button" class="btn btn-icon-only" aria-label="Settings">
+            <i class="modus-icons notranslate text-body" aria-hidden="true">settings</i>
+          </button>
+        </div>
+        <div>
+          <div
+            class="btn-group shadow-1"
+            role="group"
+            aria-label="Basic example">
+            <button type="button" class="btn btn-icon-only btn-outline-secondary" aria-label="Calendar">
+              <i class="modus-icons notranslate text-body" aria-hidden="true">calendar</i>
+            </button>
+            <button type="button"
+              class="btn btn-icon-only btn-outline-secondary active bg-primary" aria-label="Edit">
+              <i class="modus-icons notranslate text-white" aria-hidden="true">pencil</i>
+            </button>
+            <button type="button" class="btn btn-icon-only btn-outline-secondary" aria-label="filter">
+              <i class="modus-icons notranslate text-body" aria-hidden="true">filter</i>
+            </button>
+          </div>
+        </div>
+      </td>
+      <td>Medium</td>
+      <td>
+        Primary use is in-line or in “Button Groups.”
+      </td>
+    </tr>
+    <tr>
       <th scope="row">Danger</th>
       <td>High</td>
       <td>

@@ -38,71 +38,39 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
           <div class="p-3">
             <div class="list-group">
               <li class="list-group-item active list-item-left-control">
-                <div class="custom-control custom-checkbox">
-                  <input
-                    type="checkbox"
-                    checked
-                    class="custom-control-input"
-                    id="email1"
-                    name="email1"
-                  />
-                  <label class="custom-control-label" for="email1"></label>
+                <div class="form-check">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckDefault1" checked>
+                  <label for="flexCheckDefault1">Email 1</label>
                 </div>
-                <span>Email 1</span>
               </li>
               <li class="list-group-item active list-item-left-control">
-                <div class="custom-control custom-checkbox">
-                  <input
-                    type="checkbox"
-                    checked
-                    class="custom-control-input"
-                    id="email2"
-                    name="email2"
-                  />
-                  <label class="custom-control-label" for="email2"></label>
+                <div class="form-check">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckDefault2" checked>
+                  <label for="flexCheckDefault2">Email 2</label>
                 </div>
-                <span>Email 2</span>
               </li>
               <li class="list-group-item list-item-left-control">
-                <div class="custom-control custom-checkbox">
-                  <input
-                    type="checkbox"
-                    class="custom-control-input"
-                    id="email3"
-                    name="email3"
-                  />
-                  <label class="custom-control-label" for="email3"></label>
+                <div class="form-check">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckDefault3">
+                  <label for="flexCheckDefault3">Email 3</label>
                 </div>
-                <span>Email 3</span>
               </li>
               <li class="list-group-item list-item-left-control">
-                <div class="custom-control custom-checkbox">
-                  <input
-                    type="checkbox"
-                    class="custom-control-input"
-                    id="email4"
-                    name="email4"
-                  />
-                  <label class="custom-control-label" for="email4"></label>
+                <div class="form-check">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckDefault4">
+                  <label for="flexCheckDefault4">Email 4</label>
                 </div>
-                <span>Email 4</span>
               </li>
               <li class="list-group-item list-item-left-control">
-                <div class="custom-control custom-checkbox">
-                  <input
-                    type="checkbox"
-                    class="custom-control-input"
-                    id="email5"
-                    name="email5"
-                  />
-                  <label class="custom-control-label" for="email5"></label>
+                <div class="form-check">
+                  <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckDefault5">
+                  <label for="flexCheckDefault5">Email 5</label>
                 </div>
-                <span>Email 5</span>
               </li>
             </div>
           </div>
           <div
-            class="toast toast-success show position-absolute"
+            class="toast toast-success show position-absolute p-2 d-flex align-items-center justify-content-between"
             style="width: 350px; bottom: 2rem; left: calc(50% - 175px);"
             role="alert"
             aria-live="assertive"

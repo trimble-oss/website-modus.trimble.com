@@ -50,10 +50,10 @@ tags: [styles]
 .spinner-tertiary {
   color: #cbcdd6 !important;
 }
-[data-theme="dark"] .spinner-tertiary {
+[data-bs-theme="dark"] .spinner-tertiary {
   color: #90939f !important;
 }
-[data-theme="dark"] .guide-sample .h2 {
+[data-bs-theme="dark"] .guide-sample .h2 {
   color: #f1f1f1 !important;
 }
 </style>
@@ -69,5 +69,5 @@ tags: [styles]
 |           | Text (Optional) | {{< color-preview nameL="Gray 6" hexL="#6A6E79" nameD="Gray Light" hexD="#f1f1f1" >}}           |
 | Tertiary  | Spinner         | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray 4" hexD="#90939f" >}}               |
 |           | Text (Optional) | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray Light" hexD="#f1f1f1" >}}           |
-{class="table table-sm table-bordered"}
+{class="table table-sm table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->

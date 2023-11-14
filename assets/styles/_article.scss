@@ -15,13 +15,14 @@ h5:hover .header-link {
 }
 
 // title of article shouldn't have margin-top
-#main h2.h1:first-of-type {
+main article h2.h1:first-of-type {
   margin-top: 0 !important;
 }
 
 header {
-  background-image: radial-gradient(circle, rgba(131, 131, 131, 0.1) 1px, transparent 1px);
+  background-image: radial-gradient(circle, rgba(131, 131, 131, 0.3) 1px, transparent 1px);
   background-size: 1rem 1rem;
+  min-height: 230px;
 }
 
 // external links have an icon
@@ -31,6 +32,7 @@ article a:not(.stretched-link)[href^="https"]::after {
   width: 12px;
   height: 12px;
   margin-left: 4px;
+  margin-bottom: -1px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M19.78 19.78H4.22V4.22h6.67c.61 0 1.11-.5 1.11-1.11C12 2.5 11.5 2 10.89 2H3c-.55 0-1 .45-1 1v18c0 .55.45 1 1 1h18c.55 0 1-.45 1-1v-7.89c0-.61-.5-1.11-1.11-1.11-.61 0-1.11.5-1.11 1.11v6.67ZM14.22 3.11c0 .61.5 1.11 1.11 1.11h2.88L8.07 14.36c-.43.43-.43 1.13 0 1.57.43.43 1.13.43 1.57 0L19.78 5.79v2.88c0 .61.5 1.11 1.11 1.11.61 0 1.11-.5 1.11-1.11V3c0-.55-.45-1-1-1h-5.67c-.61 0-1.11.5-1.11 1.11Z'/%3E%3C/svg%3E");
   background-position: bottom;
   background-repeat: no-repeat;
@@ -47,7 +49,7 @@ td.dont {
   border-top: 2px solid #da212c !important;
 }
 
-.sticky-offset {
+main .sticky-offset {
   top: 80px !important;
 }
 
@@ -104,7 +106,7 @@ a.header-link::after {
 
 // fix bug where popovers appear over the navbar
 .popover {
-  z-index: 1020 !important;
+  z-index: 1010 !important;
 }
 
 kbd {
@@ -114,4 +116,15 @@ kbd {
 article .nav-tabs .nav-link::after {
   background-image: none !important;
   width: 0 !important;
+}
+
+#sidebar.show + div {
+  width: calc(100vw - 321px - var(--scrollbar-width));
+  min-width: calc(100vw - 340px);
+  max-width: calc(100vw - 321px - var(--scrollbar-width)) !important;
+}
+
+h3#use-when,
+h3#dont-use-when {
+  margin-top: 1rem !important;
 }

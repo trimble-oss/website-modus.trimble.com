@@ -1,0 +1,19 @@
+<search class="search-container d-inline-block position-relative" role="search">
+  <input class="form-control form-control-search position-absolute" aria-label="Search" id="search-by" type="search"
+    name="q" placeholder="Search..." autocomplete="off" title="" required>
+  <label class="btn btn-lg btn-icon-only border-transparent btn-search position-absolute px-1" for="search-by">
+    <i class="modus-icons notranslate text-white" aria-hidden="true">search</i>
+  </label>
+</search>
+
+<script>
+  // Lose Focus on Input when user presses Escape only if no input
+  const input = document.querySelector('.form-control-search');
+  input.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      if (input.value === '') {
+        input.blur();
+      }
+    }
+  });
+</script>

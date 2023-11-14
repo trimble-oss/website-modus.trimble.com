@@ -1,0 +1,20 @@
+<header class="pt-5 bg-secondary-subtle bg-opacity-10 border-bottom" {{- if (or (.Params.blog) (.Params.image)) -}}
+  style="background-image: url({{- .Params.Image | relURL -}});{{- with .Params.headerBgColor -}}background-color:{{- . -}} !important;{{- end -}};"
+  {{ end }}>
+  <div class="container-xl pt-xl-3">
+    <div class="container-fluid pt-xl-3">
+      {{ if not .Params.blog }}
+      <h1 class="display-2 fw-bold {{ if .Params.DoNotTranslateTitle }} notranslate{{- end -}}">
+        {{- .Title | title -}}
+      </h1>
+      <h2 class="my-4 opacity-75">
+        {{- .Params.description -}}
+      </h2>
+      {{ partial "component-nav-tabs" . }}
+      {{ end }}
+    </div>
+  </div>
+</header>
+{{ if .Params.blog }}
+
+{{ end }}

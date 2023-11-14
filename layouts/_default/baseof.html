@@ -1,37 +1,55 @@
 <!doctype html>
-<html lang="en-US" class="h-100 no-js">
+<html lang="en-US" class="h-100 no-js {{ with .Page.Params.html_class }}{{ . -}}{{- end -}}">
 
 <head>
   {{ partial "meta" . }}
-  {{ partialCached "analytics" . }}
-</head>
-
-<body data-url="{{- .RelPermalink -}}" {{ if and (gt .WordCount 350 ) (not .Params.hideToc) -}} data-spy="scroll"
-  data-target="#TableOfContents" data-offset="126" {{- end -}} {{ if .Params.listJS }}id="listjs-body" {{- end -}}>
-
-  {{ partial "navbar" . }}
-
-  {{ block "body" . }} {{ block "main" . }} {{- end -}}
-  {{- end -}}
-
-  {{ block "footer" . }} {{ partialCached "footer" . }} {{- end -}}
 
   <script>
-    // Initialize all Bootstrap tooltips on a page
-    const tooltipTriggerList = document.querySelectorAll('[data-toggle="tooltip"]')
-    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    function _calculateScrollbarWidth() {
+      document.documentElement.style.setProperty('--scrollbar-width', (window.innerWidth - document.documentElement.clientWidth) + "px");
+    }
+    // recalculate on resize
+    window.addEventListener('resize', _calculateScrollbarWidth, false);
+    // recalculate on dom load
+    document.addEventListener('DOMContentLoaded', _calculateScrollbarWidth, false);
+    // recalculate on load (assets loaded as well)
+    window.addEventListener('load', _calculateScrollbarWidth);
+  </script>
+</head>
+
+<body data-url="{{ .RelPermalink }}" class="{{ with .Page.Params.body_class -}}{{ . -}}{{- end -}}"
+  {{ if not .Params.disableScrollSpy }}{{- end -}}>
+  {{ if not .Params.NavbarFalse }}{{ partial "navbar" . }}{{ end }}
+  {{ block "body" . }}{{ block "main" . }}
+  {{- end -}}
+  {{- end -}}
+  <script>
+    // Initialize Bootstrap tooltips
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl, {
+        trigger: 'hover'
+      });
+    });
   </script>
   <script>
     // Hide Bootstrap tooltips when user presses Escape
     document.addEventListener('keyup', function (event) {
       if (event.which === 27) {
-        const tooltipTriggerList = document.querySelectorAll('[data-toggle="tooltip"]');
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
         tooltipTriggerList.forEach(function (tooltipTriggerEl) {
           $(tooltipTriggerEl).tooltip('hide');
         });
       }
     });
   </script>
+  {{ if not .Params.popoverCSSInspector }}
+  <script>
+    // Initialize Bootstrap popovers
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+  </script>
+  {{ end }}
   <script>
     // Disable all links with #
     var links = document.querySelectorAll('a[href="#"]');
@@ -43,10 +61,26 @@
       });
     });
   </script>
+  {{- if not .IsHome -}}
+  <script>
+    // Change Submit buttons within docs examples to type=button
+    var article = document.querySelector('article');
+    var forms = article.querySelectorAll('form');
+    forms.forEach(function (form) {
+      var submitButtons = form.querySelectorAll('button[type="submit"], input[type="submit"]');
+      submitButtons.forEach(function (submitButton) {
+        submitButton.type = 'button';
+      });
+    });
+  </script>
+  {{- end -}}
+  {{- if .Site.IsServer -}}
 
+  {{ end }}
+  {{ $instantPage := resources.Get "js/instant-page.min.js" }}
   {{ $scrollToTop := resources.Get "js/scroll-to-top.js" }}
   {{ $feedback := resources.Get "js/was-this-page-helpful.js" }}
-  {{ $js := slice $scrollToTop $feedback | resources.Concat "js/app.js" | resources.Minify }}
+  {{ $js := slice $instantPage $scrollToTop $feedback | resources.Concat "js/app.js" | resources.Minify }}
   <script src="{{ $js.RelPermalink }}" async></script>
   <button type="button" aria-label="scroll to top" class="btn-to-top border-0 rounded position-fixed">
     {{ partial "icons/modus-outlined/arrow-up.svg" (dict "class" "mt-n1 text-white opacity-50" "width" "24" "height" "24") }}

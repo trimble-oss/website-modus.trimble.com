@@ -1,4 +1,4 @@
-<div class="col-12 col-lg-6 col-xl-4 my-3" {{ if .Params.keywords }} data-tags="{{- .Params.keywords -}}" {{ end -}}>
+<div class="col-12 col-lg-6 col-xl-4 my-3" {{ if .Params.keywords }} data-tags="{{- .Params.keywords -}}" {{- end -}}>
   <div class="card card-blog-brief h-100 shadow-sm">
     <div class="card-header card-{{- .Title | urlize }} top-rounded mb-0 pb-0 border-0"
     {{- with .Params.images }}
@@ -8,16 +8,16 @@
     </div>
     {{ if not .Params.noDarkMode -}}
       <style>
-        [data-theme="dark"] .card-{{- .Title | urlize -}} {
+        [data-bs-theme="dark"] .card-{{- .Title | urlize -}} {
           {{- with .Params.images -}}  background-image: url({{- index . 0 | relURL | replaceRE `.png` "-dark.png" -}}) !important;{{- end -}}
         }
         </style>
         {{ end -}}
     <div class="card-body border-0 pb-0">
-      <h3 class="card-title px-2 ml-n2 name {{ if .Params.DoNotTranslateTitle }}notranslate{{ end -}}">
+      <h3 class="card-title px-2 ms-n2 name {{ if .Params.DoNotTranslateTitle }}notranslate{{ end -}}">
         {{- .Title -}}
       </h3>
-      <p class="px-2 ml-n2">
+      <p class="px-2 ms-n2">
         <a href="{{- .RelPermalink -}}" class="stretched-link text-decoration-none text-muted">
           {{- with .Description -}}{{- . -}}
           {{- else -}}{{- with .Summary -}}{{- . | plainify | htmlUnescape -}}

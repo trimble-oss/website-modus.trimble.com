@@ -15,6 +15,6 @@ tags: [accessibility]
 
 ## Accessibility
 
-- Use `fieldset` to create a check group.
+- Use `fieldset` to create a checkbox group.
 - Chips need to be focusable and part of the tab sequence.
 - When the chip has focus, pressing the "Space" key selects it or activates an action.
