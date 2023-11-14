@@ -135,8 +135,8 @@ const drawHover = (e, perm) => {
   const html = `
       <div class="${classes}" style="width: ${w}px; height: ${h}px; top: ${m.top + pos.top}px; left: ${m.left + pos.left}px; ${extraCSS}">
         <div class="hover-div-inner" style="width: ${w - (p.left + p.right)}px; height: ${h - (p.top + p.bottom)}px; top: ${
-    p.top - 2
-  }px; left: ${p.left - 2}px"></div>
+          p.top - 2
+        }px; left: ${p.left - 2}px"></div>
         <div style="position: relative; ${p.top <= 0 ? 'display: none' : ''}">
           <div class="hover-line-padding-vert" style="height: ${p.top}px; top: -2px; left: ${w / 2 - 2}px"></div>
           <span class="hover-padding-text" style="top: -18px; left: ${w / 2 - 2}px">${p.top}px</span>
@@ -180,8 +180,8 @@ const drawHover = (e, perm) => {
 
   const htmlStatic = `
       <div class="${classes}" style="width: ${w}px; height: ${h}px; top: ${m.top + pos.top}px; left: ${
-    m.left + pos.left
-  }px; border-radius: ${br}px; border: 1px dashed #e06cd2cc;">
+        m.left + pos.left
+      }px; border-radius: ${br}px; border: 1px dashed #e06cd2cc;">
         <div style="position: relative; ${p.left <= 0 ? 'display: none' : ''}">
           <div class="hover-padding-horz" style="width: ${p.left}px; left: 0; height: ${h - 2}px;"></div>
           <div class="hover-line-padding-horz" style="width: ${p.left}px; top: ${h / 2 - 2}px; left: -2px"></div>
@@ -234,24 +234,24 @@ const drawHover = (e, perm) => {
   const popBackground =
     elem.css('background-color') !== 'rgba(0, 0, 0, 0)' && showColors
       ? `<p class="small mb-0" id="popover-bgc"><strong>background-color:</strong> ${rgbToHex(
-          elem.css('background-color')
+          elem.css('background-color'),
         )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
-          'background-color'
+          'background-color',
         )}"></span></p>`
       : '';
   const popBorder =
     elem.css('border-width') !== '0px' && showColors
       ? `<p class="small mb-0" id="popover-bc"><strong>border-color:</strong> ${rgbToHex(
-          elem.css('border-color')
+          elem.css('border-color'),
         )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
-          'border-color'
+          'border-color',
         )}"></span></p>`
       : '';
   const popFontColor = showColors
     ? `<p class="small mb-0" id="popover-c"><strong>${perm ? 'font-' : ''}color:</strong> ${rgbToHex(
-        elem.css('color')
+        elem.css('color'),
       )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
-        'color'
+        'color',
       )}"></span></p>`
     : '';
   const popBorderRadius =
