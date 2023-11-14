@@ -10,6 +10,7 @@ tags: [mobile, styles]
 ## Specifications
 
 There are two sizes of checkboxes:
+
 - Default (24px x 24px)
 - Large (32px x 32px)
 
@@ -37,7 +38,7 @@ Checkboxes have the following States:
 
 ## Editorial
 
-- Checkbox labels may be capitalized in 2 ways, depending on their length and placement on the UI:
+- Checkbox labels may be capitalized in two ways, depending on their length and placement on the UI:
   - Use title case for short labels (fewer than 3 words) that are to the left or above a checkbox.
   - Use sentence case for longer labels (more than 3 words) that are placed to the right of a checkbox, especially if the label reads like a phrase.
 
