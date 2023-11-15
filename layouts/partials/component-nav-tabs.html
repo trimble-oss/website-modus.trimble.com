@@ -45,12 +45,12 @@
   </li>
   {{ end }}
   {{ if not (in .Params.tags "hide-figma" ) }}
-  <li class="nav-item" hidden>
+  <!-- <li class="nav-item" hidden>
     <a class="nav-link px-2 px-sm-3 nav-figma d-none text-decoration-none{{ if in .Params.tags "figma" }} active pe-none {{ else }} text-body{{end}}"
       href="/components/web/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/figma/">
       {{ partial "icons/figma.svg" (dict "class" "me-2 opacity-75 d-none d-sm-inline-block" "width" "18" "height" "18") }}
       Figma</a>
-  </li>
+  </li> -->
   {{ end }}
   {{ end }}
 

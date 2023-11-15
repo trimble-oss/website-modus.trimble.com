@@ -2,6 +2,7 @@
 title: "Contact Us"
 description: "We appreciate your feedback!"
 community: true
+url: "/community/contact-us/"
 group: community
 aliases:
   - "/community/contact/"
