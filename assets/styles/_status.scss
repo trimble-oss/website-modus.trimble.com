@@ -1,6 +1,0 @@
-// sets background color and bottom border on Status bar table
-body[data-url^="/status/"] article thead th {
-  background-color: rgba(245, 245, 245, 0.9);
-  backdrop-filter: blur(6px);
-  box-shadow: 0 1px 0 0 #aaa;
-}

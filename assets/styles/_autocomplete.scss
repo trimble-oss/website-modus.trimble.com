@@ -1,17 +1,17 @@
 /*! purgecss start ignore */
 .autocomplete-suggestions {
-  cursor: default;
-  border: 1px solid #cbcdd6;
-  border-top: 0;
   background-color: #fff;
+  border-top: 0;
+  border: 1px solid #cbcdd6;
   box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  display: none;
-  z-index: 33333; // higher than navbar
-  max-height: 254px;
-  overflow: hidden;
-  overflow-y: auto;
   box-sizing: border-box;
+  cursor: default;
+  display: none;
+  max-height: 254px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+  z-index: 33333; // higher than navbar
 }
 
 [data-bs-theme="dark"] {
@@ -26,14 +26,14 @@
 }
 
 .autocomplete-suggestion {
-  position: relative;
-  cursor: pointer;
-  padding: 7px;
-  line-height: 23px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   color: #353a40;
+  cursor: pointer;
+  line-height: 23px;
+  overflow: hidden;
+  padding: 7px;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .autocomplete-suggestion b {
