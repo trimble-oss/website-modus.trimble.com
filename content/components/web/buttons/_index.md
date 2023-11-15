@@ -149,37 +149,7 @@ There are two button progressions you can choose from: structural and color prog
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Icon Only</th>
-      <td>
-        <div class="mb-1">
-          <button type="button" class="btn btn-icon-only" aria-label="Settings">
-            <i class="modus-icons notranslate text-body" aria-hidden="true">settings</i>
-          </button>
-        </div>
-        <div>
-          <div
-            class="btn-group shadow-1"
-            role="group"
-            aria-label="Basic example">
-            <button type="button" class="btn btn-icon-only btn-outline-secondary" aria-label="Calendar">
-              <i class="modus-icons notranslate text-body" aria-hidden="true">calendar</i>
-            </button>
-            <button type="button"
-              class="btn btn-icon-only btn-outline-secondary active bg-primary" aria-label="Edit">
-              <i class="modus-icons notranslate text-white" aria-hidden="true">pencil</i>
-            </button>
-            <button type="button" class="btn btn-icon-only btn-outline-secondary" aria-label="filter">
-              <i class="modus-icons notranslate text-body" aria-hidden="true">filter</i>
-            </button>
-          </div>
-        </div>
-      </td>
-      <td>Medium</td>
-      <td>
-        Primary use is in-line or in “Button Groups.”
-      </td>
-    </tr>
-    <tr>
+      <td><button class="btn btn-danger" type="button">Delete</button></td>
       <th scope="row">Danger</th>
       <td>High</td>
       <td>
