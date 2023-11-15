@@ -78,7 +78,7 @@ Are you ready to contribute? To submit your recommendations, please:
       </div>
       <div class="modal-body pb-0">
        <iframe class="clickup-embed clickup-dynamic-height border-0 bg-transparent" src="https://forms.clickup.com/14200829/f/dhbzx-18840/17498YSP0VBP83B3D6" onwheel="" width="100%" height="100%" style="min-height:1399px"></iframe>
-<script nomodule defer src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.min.js"></script>
+       <script nomodule defer src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.min.js"></script>
       </div>
     </div>
   </div>

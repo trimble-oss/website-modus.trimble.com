@@ -2,10 +2,12 @@
 title: "Modus Adoption"
 layout: "single"
 description: "Incremental design system adoption plan."
-url: "/community/adoption/"
+url: "/community/modus-adoption/"
 community: true
 group: community
 hideToc: true
+aliases:
+  - "/community/adoption/"
 ---
 
 <style>
