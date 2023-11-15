@@ -3,18 +3,6 @@
 
 <head>
   {{ partial "meta" . }}
-
-  <script>
-    function _calculateScrollbarWidth() {
-      document.documentElement.style.setProperty('--scrollbar-width', (window.innerWidth - document.documentElement.clientWidth) + "px");
-    }
-    // recalculate on resize
-    window.addEventListener('resize', _calculateScrollbarWidth, false);
-    // recalculate on dom load
-    document.addEventListener('DOMContentLoaded', _calculateScrollbarWidth, false);
-    // recalculate on load (assets loaded as well)
-    window.addEventListener('load', _calculateScrollbarWidth);
-  </script>
 </head>
 
 <body data-url="{{ .RelPermalink }}" class="{{ with .Page.Params.body_class -}}{{ . -}}{{- end -}}"
@@ -81,7 +69,7 @@
   {{ $scrollToTop := resources.Get "js/scroll-to-top.js" }}
   {{ $feedback := resources.Get "js/was-this-page-helpful.js" }}
   {{ $js := slice $instantPage $scrollToTop $feedback | resources.Concat "js/app.js" | resources.Minify }}
-  <script src="{{ $js.RelPermalink }}" async></script>
+  <script src="{{ $js.RelPermalink }}?v2" async></script>
   <button type="button" aria-label="scroll to top" class="btn-to-top border-0 rounded position-fixed">
     {{ partial "icons/modus-outlined/arrow-up.svg" (dict "class" "mt-n1 text-white opacity-50" "width" "24" "height" "24") }}
   </button>

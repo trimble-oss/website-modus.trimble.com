@@ -20,6 +20,7 @@ module.exports = {
         'anatomy-display-static',
         'anatomy-display-table',
         'arrow',
+        'autocomplete-suggestion',
         'autocomplete-suggestions',
         'bg-active',
         'bg-dark',

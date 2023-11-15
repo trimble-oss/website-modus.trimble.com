@@ -29,7 +29,7 @@
             </h1>
             <div class="d-flex">
               <div class="mx-3">
-                <img src="/img/author/{{ .Params.author | urlize }}.jpg"
+                <img src="/img/author/{{- .Params.author | urlize -}}.jpg"
                   class="bg-light rounded-circle mx-auto text-center border" height="44" width="44"
                   alt="{{ .Params.author }}">
               </div>
@@ -130,8 +130,7 @@
 
 {{ if not .IsHome }}
 {{ if not .Params.disableAnatomy }}
-{{- $anatomy := resources.Get "js/anatomy.js" -}}
-{{- $anatomyJs := slice $anatomy | resources.Concat "js/anatomy.js" | resources.Minify -}}
+{{- $anatomyJs := resources.Get "js/anatomy.js" | resources.Minify -}}
 <script src="{{ $anatomyJs.RelPermalink }}"></script>
 {{- end -}}
 {{- end -}}

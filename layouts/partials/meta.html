@@ -6,9 +6,8 @@
 <script>document.documentElement.classList.remove('no-js');</script>
 
 <!-- Loads Dark Mode Toggle JS -->
-{{ $themeToggle := resources.Get "js/theme-toggle.js" }}
-{{ $themeToggleJS := $themeToggle | resources.Minify }}
-<script src="{{ $themeToggleJS.RelPermalink }}" fetchpriority="high"></script>
+{{ $themeToggleJS := resources.Get "js/theme-toggle.js" | resources.Minify }}
+<script src="{{ $themeToggleJS.RelPermalink }}?v2"></script>
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="{{- with .Params.headerBGColor -}}{{- . -}}{{- else -}}#0e416c{{- end -}}">
 
@@ -18,7 +17,7 @@
 <!-- Compiles and minifies the sites Sass files from /assets/css/ -->
 {{- $sassOptions := (dict "enableSourceMap" true) -}}
 {{ $styles := resources.Get "styles/styles.scss" | toCSS $sassOptions | postCSS | minify }}
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}?v{{ hugo.Version }}">
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}?v2">
 
 <!-- Load jQuery for search -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
@@ -73,3 +72,15 @@
 <link rel="stylesheet" href="/css/bootstrap-print.min.css" media="print">
 
 {{ partial "analytics" . }}
+
+<script>
+  function _calculateScrollbarWidth() {
+    document.documentElement.style.setProperty('--scrollbar-width', (window.innerWidth - document.documentElement.clientWidth) + "px");
+  }
+  // recalculate on resize
+  window.addEventListener('resize', _calculateScrollbarWidth, false);
+  // recalculate on dom load
+  document.addEventListener('DOMContentLoaded', _calculateScrollbarWidth, false);
+  // recalculate on load (assets loaded as well)
+  window.addEventListener('load', _calculateScrollbarWidth);
+</script>
