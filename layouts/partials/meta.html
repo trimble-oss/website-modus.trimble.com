@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}?v{{ hugo.Version }}">
 
 <!-- Load jQuery for search -->
-<script src=https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.7.1.min.js"><\/script>')</script>
 
 <!-- Load Modus Icons -->
@@ -40,7 +40,7 @@
 <script src="{{- $js.RelPermalink -}}" fetchpriority="low"></script>
 {{- end -}}
 
-<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js?v5"></script>
 
 <meta name="description"
   content="{{- with .Description -}}{{- . -}}{{ else }}{{ with .Site.Params.description }}{{- . -}}{{- end -}}{{- end -}}">
@@ -51,7 +51,6 @@
 
 <!-- no need to define additional Twitter card meta tags as fallback to Open Graph -->
 <!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#twitter-cards-and-open-graph -->
-<meta name="robots" content="noindex, nofollow">
 
 <link rel="canonical" href="{{- .Permalink -}}">
 
@@ -67,6 +66,8 @@
 
 {{ if .IsHome }}
 {{ hugo.Generator }}
+<!-- https://search.google.com/search-console -->
+<meta name="google-site-verification" content="NMOesOkCLPuh0w1wyYyMje6YCd3XpJ30lrK5RfvEj7g" />
 {{ end }}
 
 <link rel="stylesheet" href="/css/bootstrap-print.min.css" media="print">
