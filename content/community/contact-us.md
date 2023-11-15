@@ -1,20 +1,23 @@
 ---
 title: "Contact Us"
 description: "We appreciate your feedback!"
-url: "/community/contact/"
 community: true
+url: "/community/contact-us/"
+group: community
+aliases:
+  - "/community/contact/"
 ---
 
 <nav>
   <div class="nav nav-tabs mx-auto" id="nav-tab" role="tablist">
-    <a class="nav-link active" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="true">Send a Message</a>
-    <a class="nav-link" id="nav-calendly-tab" data-toggle="tab" href="#nav-calendly" role="tab" aria-controls="nav-calendly" aria-selected="false">Book a Meeting</a>
+    <a class="nav-link active" id="nav-contact-tab" data-bs-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="true">Send a Message</a>
+    <a class="nav-link text-body" id="nav-calendly-tab" data-bs-toggle="tab" href="#nav-calendly" role="tab" aria-controls="nav-calendly" aria-selected="false">Book a Meeting</a>
   </div>
 </nav>
 <div class="tab-content" id="nav-tabContent" data-pagefind-ignore>
   <div class="tab-pane fade show active" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-    <div class="alert alert-info mt-2">
-      Note: If you don't see the contact form below <a href="https://forms.clickup.com/14200829/f/dhbzx-25751/81VGE0GBE7M89TQLQ6/" target="_blank" class="ml-1">Open in a new window</a>.
+    <div class="message mt-2">
+      Note: If you don't see the contact form below <a href="https://forms.clickup.com/14200829/f/dhbzx-25751/81VGE0GBE7M89TQLQ6/" target="_blank" class="ms-1">Open in a new window</a>.
     </div>
     <iframe src="https://forms.clickup.com/14200829/f/dhbzx-25751/81VGE0GBE7M89TQLQ6/" width="100%" height="100%" frameborder="0" class="clickup-embed clickup-dynamic-height border-0 w-100 bg-transparent" style="min-height:1040px">
       Loading…
