@@ -8,7 +8,8 @@
   {{ if not (in .Params.tags "hide-styles" ) }}
   <li class="nav-item">
     <a class="nav-link px-2 px-sm-3 nav-styles text-decoration-none{{ if in .Params.tags "styles" }} active pe-none {{ else }} text-body{{end}}"
-      href="/components/in-field/{{ with .Params.component }}{{ . | lower }}{{- end -}}/styles/">
+      href="/components/in-field/{{ with .Params.component }}{{ . | lower }}{{- end -}}/styles/"
+      {{ if in .Params.tags "styles" }} aria-current="page" {{- end -}}>
       {{ partial "icons/modus-solid/palette.svg" (dict "class" "me-2 opacity-75 d-none d-sm-inline-block" "width" "18" "height" "18") }}
       Styles</a>
   </li>
@@ -16,7 +17,8 @@
   {{ if not (in .Params.tags "hide-accessibility" ) }}
   <li class="nav-item">
     <a class="nav-link px-2 px-sm-3 nav-accessibility text-decoration-none{{ if in .Params.tags "accessibility" }} active pe-none {{ else }} text-body{{end}}"
-      href="/components/in-field/{{- with .Params.component -}}{{- . | lower -}}{{- end -}}/accessibility/">
+      href="/components/in-field/{{- with .Params.component -}}{{- . | lower -}}{{- end -}}/accessibility/"
+      {{ if in .Params.tags "accessibility" }} aria-current="page" {{- end -}}>
       {{ partial "icons/modus-outlined/accessibility-circle.svg" (dict "class" "me-2 opacity-75 d-none d-sm-inline-block" "width" "18" "height" "18") }}
       Accessibility</a>
   </li>
@@ -25,13 +27,15 @@
   {{ else if .Params.componentsWeb }}
   <li class="nav-item">
     <a class="nav-link px-2 px-sm-3 nav-usage text-decoration-none{{ if in .Params.tags "usage" }} active pe-none {{ else }} text-body{{end}}"
-      href="/components/web/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/">
+      href="/components/web/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/" {{ if in .Params.tags "usage" }}
+      aria-current="page" {{- end -}}>
       Usage</a>
   </li>
   {{ if not (in .Params.tags "hide-styles" ) }}
   <li class="nav-item">
     <a class="nav-link px-2 px-sm-3 nav-styles text-decoration-none{{ if in .Params.tags "styles" }} active pe-none {{ else }} text-body{{end}}"
-      href="/components/web/{{- with .Title -}}{{- . | lower | urlize }}{{- end -}}/styles/">
+      href="/components/web/{{- with .Title -}}{{- . | lower | urlize }}{{- end -}}/styles/"
+      {{ if in .Params.tags "styles" }} aria-current="page" {{- end -}}>
       {{ partial "icons/modus-solid/palette.svg" (dict "class" "me-2 opacity-75 d-none d-sm-inline-block" "width" "18" "height" "18") }}
       Styles</a>
   </li>
@@ -39,7 +43,8 @@
   {{ if not (in .Params.tags "hide-accessibility" ) }}
   <li class="nav-item">
     <a class="nav-link px-2 px-sm-3 nav-accessibility {{ if in .Params.tags "accessibility" }} active pe-none {{ else }} text-body{{end}}"
-      href="/components/web/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/accessibility/">
+      href="/components/web/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/accessibility/"
+      {{ if in .Params.tags "accessibility" }} aria-current="page" {{- end -}}>
       {{ partial "icons/modus-outlined/accessibility-circle.svg" (dict "class" "me-2 opacity-75 d-none d-sm-inline-block" "width" "18" "height" "18") }}
       Accessibility</a>
   </li>
@@ -57,13 +62,15 @@
   {{ if (in .Params.tags "mobile" ) }}
   <li class="nav-item">
     <a class="nav-link px-2 px-sm-3 nav-usage text-decoration-none{{ if in .Params.tags "usage" }} active pe-none{{ else }} text-body{{end}}"
-      href="/components/mobile/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/">
+      href="/components/mobile/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/"
+      {{ if in .Params.tags "usage" }} aria-current="page" {{- end -}}>
       Usage</a>
   </li>
   {{ if not (in .Params.tags "hide-styles" ) }}
   <li class="nav-item">
     <a class="nav-link px-2 px-sm-3 nav-styles text-decoration-none{{ if in .Params.tags "styles" }} active pe-none {{ else }} text-body{{end}}"
-      href="/components/mobile/{{- with .Title -}}{{- . | lower | urlize }}{{- end -}}/styles/">
+      href="/components/mobile/{{- with .Title -}}{{- . | lower | urlize }}{{- end -}}/styles/"
+      {{ if in .Params.tags "styles" }} aria-current="page" {{- end -}}>
       {{ partial "icons/modus-solid/palette.svg" (dict "class" "me-2 opacity-75 d-none d-sm-inline-block" "width" "18" "height" "18") }}
       Styles</a>
   </li>
@@ -71,7 +78,8 @@
   {{ if not (in .Params.tags "hide-accessibility" ) }}
   <li class="nav-item">
     <a class="nav-link px-2 px-sm-3 nav-accessibility text-decoration-none{{ if in .Params.tags "accessibility" }} active pe-none {{ else }} text-body{{end}}"
-      href="/components/mobile/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/accessibility/">
+      href="/components/mobile/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/accessibility/"
+      {{ if in .Params.tags "accessibility" }} aria-current="page" {{- end -}}>
       {{ partial "icons/modus-outlined/accessibility-circle.svg" (dict "class" "me-2 opacity-75 d-none d-sm-inline-block" "width" "18" "height" "18") }}
       Accessibility</a>
   </li>
@@ -80,13 +88,15 @@
   {{ if (in .Params.tags "xr" ) }}
   <li class="nav-item">
     <a class="nav-link px-2 px-sm-3 nav-usage text-decoration-none{{ if in .Params.tags "usage" }} active pe-none{{ else }} text-body{{end}}"
-      href="/components/xr/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/">
+      href="/components/xr/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/" {{ if in .Params.tags "usage" }}
+      aria-current="page" {{- end -}}>
       Usage</a>
   </li>
   {{ if not (in .Params.tags "hide-styles" ) }}
   <li class="nav-item">
     <a class="nav-link px-2 px-sm-3 nav-styles text-decoration-none{{ if in .Params.tags "styles" }} active pe-none{{ else }} text-body{{end}}"
-      href="/components/xr/{{- with .Title -}}{{- . | lower | urlize }}{{- end -}}/styles/">
+      href="/components/xr/{{- with .Title -}}{{- . | lower | urlize }}{{- end -}}/styles/"
+      {{ if in .Params.tags "styles" }} aria-current="page" {{- end -}}>
       {{ partial "icons/modus-solid/palette.svg" (dict "class" "me-2 opacity-75 d-none d-sm-inline-block" "width" "18" "height" "18") }}
       Styles</a>
   </li>
@@ -94,7 +104,8 @@
   {{ if not (in .Params.tags "hide-accessibility" ) }}
   <li class="nav-item">
     <a class="nav-link px-2 px-sm-3 nav-accessibility text-decoration-none{{ if in .Params.tags "accessibility" }} active pe-none{{ else }} text-body{{end}}"
-      href="/components/xr/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/accessibility/">
+      href="/components/xr/{{- with .Title -}}{{- . | lower | urlize -}}{{- end -}}/accessibility/"
+      {{ if in .Params.tags "accessibility" }} aria-current="page" {{- end -}}>
       {{ partial "icons/modus-outlined/accessibility-circle.svg" (dict "class" "me-2 opacity-75 d-none d-sm-inline-block" "width" "18" "height" "18") }}
       Accessibility</a>
   </li>
