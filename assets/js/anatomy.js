@@ -235,7 +235,7 @@ const drawHover = (e, perm) => {
     elem.css('background-color') !== 'rgba(0, 0, 0, 0)' && showColors
       ? `<p class="small mb-0" id="popover-bgc"><strong>background-color:</strong> ${rgbToHex(
           elem.css('background-color'),
-        )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
+        )}<span class="rounded border border-light ms-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
           'background-color',
         )}"></span></p>`
       : '';
@@ -243,14 +243,14 @@ const drawHover = (e, perm) => {
     elem.css('border-width') !== '0px' && showColors
       ? `<p class="small mb-0" id="popover-bc"><strong>border-color:</strong> ${rgbToHex(
           elem.css('border-color'),
-        )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
+        )}<span class="rounded border border-light ms-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
           'border-color',
         )}"></span></p>`
       : '';
   const popFontColor = showColors
     ? `<p class="small mb-0" id="popover-c"><strong>${perm ? 'font-' : ''}color:</strong> ${rgbToHex(
         elem.css('color'),
-      )}<span class="rounded border border-light ml-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
+      )}<span class="rounded border border-light ms-1 d-inline-block" style="width: 10px; height: 10px; background: ${elem.css(
         'color',
       )}"></span></p>`
     : '';
@@ -259,35 +259,6 @@ const drawHover = (e, perm) => {
       ? `<p class="small mb-0"><strong>border-radius:</strong> ${elem.css('border-radius')}</p>`
       : '';
   const popFontSize = showDimensions ? `<p class="small mb-0"><strong>font-size:</strong> ${elem.css('font-size')}</p>` : '';
-  let pop = elem.popover({
-    placement: place,
-    container: elem.parent(),
-    content: `${popHeader}
-      ${popBackground}
-      ${popBorder}
-      ${popFontColor}
-      ${popFontSize}
-      ${popBorderRadius}
-      `,
-    html: true,
-    offset: offset,
-  });
-
-  if (elem.data('anatomy-popover') || elem.data('anatomy-popover') === undefined) {
-    elem.popover('show');
-
-    if (!perm) {
-      const popovers = $('.popover');
-      const popover = popovers[popovers.length - 1];
-      $(popover).addClass('not-perm');
-    }
-
-    const popovers = $('.popover.not-perm');
-    for (let i = 0; i < popovers.length - 1; i++) {
-      const popover = $(popovers[i]);
-      popover.remove();
-    }
-  }
 
   if (!perm) {
     elem.on('mouseleave', (e) => {

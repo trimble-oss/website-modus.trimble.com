@@ -16,7 +16,7 @@ tags: [in-field, styles]
 | ------- | ----------------------------------------------------------------------------------------------------- |
 | Spacing | {{< img src="/img/in-field/alarm-spec-spacing.svg" width="471" height="290" alt="" loading="auto" >}} |
 | Text    | {{< img src="/img/in-field/alarm-spec-text.svg" width="430" height="328" alt="" loading="auto" >}}    |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 **Note:** In-cab sizes only. See mobile patterns (coming soon) for smaller options for in-field.

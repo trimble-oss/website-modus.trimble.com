@@ -1,0 +1,203 @@
+{{ $currentPage := . }}
+<script>
+  // Get the viewport width
+  var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+
+  // Check if the viewport width is above 1080px
+  if (viewportWidth > 1080) {
+    // Get the div element
+    var div = document.querySelector('#sidebar');
+
+    // Add the class to the div element
+    div.classList.add('show');
+  }
+</script>
+<div class="accordion accordion-flush menu-left" id="accordionMenu">
+  <div class="accordion-item">
+    <h6 class="accordion-header">
+      <button class="accordion-button {{ if not .Params.start }}collapsed{{ end}} fs-5 ps-3 py-2 opacity-75" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseStart" aria-expanded="{{ if .Params.start }}true{{ else }}false{{- end -}}" aria-controls="flush-collapseStart">
+        Getting Started
+      </button>
+    </h6>
+    <div id="flush-collapseStart" class="accordion-collapse collapse {{ if .Params.start }}show{{- end -}}"
+      data-bs-parent="#accordionMenu">
+      <div class="accordion-body py-1 bg-secondary bg-opacity-10">
+        <ul class="list-unstyled">
+          {{- range .Site.Menus.start -}}
+          <li class="my-1"><a
+              class="nav-link text-body {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+              href="{{- .URL -}}">
+              {{- .Name -}}
+            </a>
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h6 class="accordion-header">
+      <button class="accordion-button {{ if not .Params.foundations }}collapsed{{ end}} fs-5 ps-3 py-2 opacity-75" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseFoundations" aria-expanded="{{ if .Params.foundations }}true{{ else }}false{{- end -}}" aria-controls="flush-collapseFoundations">
+        Foundations
+      </button>
+    </h6>
+    <div id="flush-collapseFoundations" class="accordion-collapse collapse {{ if .Params.foundations }}show{{- end -}}"
+      data-bs-parent="#accordionMenu">
+      <div class="accordion-body py-1 bg-secondary bg-opacity-10">
+        <ul class="list-unstyled">
+          {{- range .Site.Menus.foundations -}}
+          <li class="my-1"><a
+              class="nav-link text-body {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+              href="{{- .URL -}}" {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}
+              aria-current="page" {{ end }}>
+              {{- .Name -}}
+            </a>
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h6 class="accordion-header">
+      <button class="accordion-button {{ if not .Params.componentsWeb }}collapsed{{ end}} fs-5 ps-3 py-2 opacity-75" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseWeb" aria-expanded="{{ if .Params.componentsWeb }}true{{ else }}false{{- end -}}" aria-controls="flush-collapseWeb">
+        Components (Web)
+      </button>
+    </h6>
+    <div id="flush-collapseWeb" class="accordion-collapse collapse {{ if .Params.componentsWeb }}show{{- end -}}"
+      data-bs-parent="#accordionMenu">
+      <div class="accordion-body py-1 bg-secondary bg-opacity-10">
+        <ul class="list-unstyled">
+          {{- range .Site.Menus.components_web -}}
+          <li class="my-1"><a
+              class="nav-link text-body {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+              href="{{- .URL -}}" {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}
+              aria-current="page" {{- end -}}>
+              {{- .Name -}}
+            </a>
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h6 class="accordion-header">
+      <button class="accordion-button {{- if not (in .Params.tags "in-field" ) }} collapsed{{ end }} fs-5 ps-3 py-2 opacity-75" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseInfield" aria-expanded="{{- if (in .Params.tags "in-field" ) -}}true{{else}}false{{end}}" aria-controls="flush-collapseInfield">
+        Components (In-Field)
+      </button>
+    </h6>
+    <div id="flush-collapseInfield"
+      class="accordion-collapse collapse {{- if (in .Params.tags "in-field" ) -}}show{{- end -}}"
+      data-bs-parent="#accordionMenu">
+      <div class="accordion-body py-1 bg-secondary bg-opacity-10">
+        <ul class="list-unstyled">
+          {{- range .Site.Menus.components_infield -}}
+          <li class="my-1"><a
+              class="nav-link text-body {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+              href="{{- .URL -}}" {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}
+              aria-current="page" {{- end -}}>
+              {{- .Name -}}
+            </a>
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item" id="components-mobile">
+    <h6 class="accordion-header">
+      <button class="accordion-button {{ if not (in .Params.tags "mobile" ) }}collapsed{{ end }} fs-5 ps-3 py-2 opacity-75" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseMobile" aria-expanded="{{- if (in .Params.tags "mobile" ) -}}true{{else}}false{{end}}" aria-controls="flush-collapseMobile">
+        Components (Mobile)
+      </button>
+    </h6>
+    <div id="flush-collapseMobile" class="accordion-collapse collapse {{ if (in .Params.tags "mobile" ) }}show{{- end -}}"
+      data-bs-parent="#accordionMenu">
+      <div class="accordion-body py-1 bg-secondary bg-opacity-10">
+        <ul class="list-unstyled">
+          {{- range .Site.Menus.components_mobile -}}
+          <li class="my-1"><a
+              class="nav-link text-body {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+              href="{{- .URL -}}" {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}
+              aria-current="page" {{- end -}}>
+              {{- .Name -}}
+            </a>
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button {{ if not (in .Params.tags "xr" ) }}collapsed{{ end }} fs-5 ps-3 py-2 opacity-75" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseXr" aria-expanded="{{- if (in .Params.tags "xr" ) -}}true{{else}}false{{end}}" aria-controls="flush-collapseXr">
+        Components (XR)
+      </button>
+    </h2>
+    <div id="flush-collapseXr" class="accordion-collapse collapse {{ if (in .Params.tags "xr" ) }}show{{- end -}}"
+      data-bs-parent="#accordionMenu">
+      <div class="accordion-body py-1 bg-secondary bg-opacity-10">
+        <ul class="list-unstyled">
+          {{- range .Site.Menus.components_xr -}}
+          <li class="my-1"><a
+              class="nav-link text-body {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+              href="{{- .URL -}}" {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}
+              aria-current="page" {{ end }}>
+              {{- .Name -}}
+            </a>
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button {{ if not .Params.community }}collapsed{{end}} fs-5 ps-3 py-2 opacity-75" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseC" aria-expanded="{{- if .Params.community -}}true{{else}}false{{end}}" aria-controls="flush-collapseC">
+        Community
+      </button>
+    </h2>
+    <div id="flush-collapseC"
+      class="accordion-collapse collapse {{- if .Params.community -}}show{{ end }}{{ if .Params.blog }}show{{- end -}}"
+      data-bs-parent="#accordionMenu">
+      <div class="accordion-body py-1 bg-secondary bg-opacity-10">
+        <ul class="list-unstyled">
+          <ul class="list-unstyled">
+            {{ with .Site.Data.menu_community }}
+            {{ range .community }}
+            <li class="my-1"><a
+                class="nav-link text-body {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+                href="{{- .url -}}" {{- if .external -}} target="_blank" rel="noopener" {{ end }}
+                {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }} aria-current="page"
+                {{- end -}}>
+                {{- .title -}} {{- if .external -}} <img src="/img/icons/external-link.svg"
+                  class="filter-greyscale opacity-50 ms-1" height="14" width="14" alt=""> {{- end -}}
+              </a>
+            </li>
+            {{ end }} {{ end }}
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  body[data-url="/community/contact-us/"] #sidebar-menu a[href="/community/contact-us/"],
+body[data-url="/community/contribute/"] #sidebar-menu a[href="/community/contribute/"],
+body[data-url="/community/contribution-process/"] #sidebar-menu a[href="/community/contribution-process/"],
+body[data-url="/community/modus-adoption/"] #sidebar-menu a[href="/community/modus-adoption/"],
+body[data-url="/community/submission-guidelines/"] #sidebar-menu a[href="/community/submission-guidelines/"],
+body[data-url="/community/submissions-status/"] #sidebar-menu a[href="/community/submissions-status/"],
+body[data-url="/news/"] #sidebar-menu a[href="/news/"],
+body[data-url="/community/tiger-teams/"] #sidebar-menu a[href="/community/tiger-teams/"] {
+  font-weight: 700!important;
+}
+</style>

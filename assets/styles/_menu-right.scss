@@ -23,7 +23,7 @@
   color: #171c1e;
 }
 
-[data-theme="dark"] {
+[data-bs-theme="dark"] {
   .menu-right a {
     color: #f1f1f1;
   }
@@ -37,7 +37,7 @@ hr {
   filter: saturate(0%);
 }
 
-[data-theme="light"] {
+[data-bs-theme="light"] {
   #TableOfContents li a:hover {
     color: #00437b;
   }

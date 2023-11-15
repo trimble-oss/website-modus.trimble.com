@@ -20,7 +20,7 @@ tags: [in-field, styles]
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------ |--------|
 | Default | {{< img src="/img/in-field/spinner-spec.svg" dark="/img/in-field/spinner-spec-dark.svg" width="700" alt="Example Size" >}}           | 52px   |
 | Default | {{< img src="/img/in-field/spinner-spec-blue.svg" dark="/img/in-field/spinner-spec-blue-dark.svg" width="700" alt="Example Size" >}} | ------ |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 ### Sizes

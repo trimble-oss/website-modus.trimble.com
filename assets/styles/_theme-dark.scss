@@ -1,66 +1,7 @@
-[data-theme="dark"] {
-  @import "../../node_modules/@trimbleinc/modus-bootstrap/dist/modus-dark";
-
-  #main h1,
-  #main h1 p,
-  #main p.lead,
-  #main h2 {
-    color: #f1f1f6 !important;
-  }
-
-  header.container-fluid {
-    background-color: #171c1e !important;
-  }
-
-  header.container-fluid,
-  header.container-fluid h1,
-  header.container-fluid h2 {
-    color: #f1f1f6 !important;
-  }
-
-  .navbar-main input {
-    background-color: #171c1e !important;
-  }
-
-  .card-blog-brief a,
-  .card-blog-brief h3,
-  .card-blog-brief .card-footer p {
-    color: #f1f1f6 !important;
-  }
-
-  footer.footer {
-    background-image: none;
-    background-color: #171c1e !important;
-  }
-
-  .menu-right #TableOfContents li .active {
-    color: #f1f1f6 !important;
-  }
-
-  article footer em {
-    color: #f1f1f6 !important;
-    opacity: 0.8;
-  }
-
+[data-bs-theme="dark"] {
   .menu-right a[href^="http"]::after,
   article a:not(.stretched-link)[href^="http"]::after {
     filter: invert(1);
-  }
-
-  .table td {
-    color: #f1f1f6;
-  }
-
-  header .text-muted {
-    color: #cbcdd6 !important;
-  }
-
-  .btn .spinner-border {
-    color: #fff;
-  }
-
-  .table.table-bordered {
-    background-color: #171c1e;
   }
 
   .card-blog-brief .card-header img {
@@ -79,17 +20,15 @@
     display: none !important;
   }
 
-  .message-primary {
-    background-color: rgba(1, 154, 235, 0.2) !important;
-    color: #f1f1f6 !important;
+  .col-auto header.bg-secondary-subtle {
+    background-color: #252a2e !important;
   }
 
-  .message-secondary {
-    background-color: rgba(106, 110, 121, 0.2) !important;
-    color: #f1f1f6 !important;
+  .col-menu {
+    background-color: #252a2e !important;
   }
 
-  #TableOfContents a {
-    color: #fff;
+  footer.footer {
+    background-color: #252a2e !important;
   }
 }

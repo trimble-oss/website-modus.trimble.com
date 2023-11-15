@@ -1,29 +1,26 @@
 {{ define "main" }}
 
-<header class="container-fluid px-0">
-  <div class="container py-md-3">
-    <div class="row py-lg-3">
-      <div class="col-12 py-4 text-center">
-        <h1 class="display-2 font-weight-bold pt-4 mt-5" {{ if .Params.TitleNoTranslate }}translate="no" {{- end -}}>
-          {{- .Title -}}
-        </h1>
-        <h2 class="mt-4 col-12 col-sm-11 mx-auto">
-          {{- .Params.Subtitle -}}
-        </h2>
+<div class="container-fluid">
+  <div class="row row-main px-0">
+
+    <div class="col-1 col-sidebar px-0 bg-body shadow-sm">
+      {{ partial "col-sidebar" . }}
       </div>
+    <div class="col col-auto px-0 collapse collapse-horizontal bg-dark bg-opacity-10 show" id="sidebar">
+      <div id="sidebar-menu" class="sticky-top sticky-offset shadow-sm overflow-auto"
+        style="min-height: calc(100vh - 66px);max-height: calc(100vh - 66px);">
+        {{ partial "col-sidebar-menu" . }}
     </div>
   </div>
-</header>
 
-<main class="my-5 container">
+    <div class="col col-auto col-12 col-main border-start p-0">
 
-  <div class="row">
+      <div class="mx-auto mw-100">
 
-    <div class="col-12 col-md-3 col-lg-2 menu-left">
-      {{ partial "menu-left.html" . }}
-    </div>
+        {{ partial "header" . }}
 
-    <div class="col-12 col-md-9 col-lg-10">
+        <main class="my-5 container mx-auto" style="max-width: 1090px;">
+          {{ .Content }}
       <div class="container mb-5">
         <div class="row">
           {{ range first 99 (where .Pages.ByPublishDate.Reverse "Section" "news") }}
@@ -33,11 +30,16 @@
         <div class="mt-4">
           {{- partial "never-miss-an-update.html" . -}}
         </div>
+          </div>
+        </main>
 
+        <footer class="p-2 footer py-4 bg-dark bg-opacity-10">
+          {{ partial "footer" . }}
+        </footer>
       </div>
     </div>
 
   </div>
-</main>
+</div>
 
 {{- end -}}

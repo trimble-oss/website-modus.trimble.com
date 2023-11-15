@@ -8,7 +8,7 @@ group: foundations
 
 <img src="/img/trimble-logo.svg" width="320" class="mb-2" alt="Trimble Logo">
 <style>
-html[data-theme="dark"] img {
+html[data-bs-theme="dark"] img {
   filter: brightness(0) invert(1);
 }
 </style>

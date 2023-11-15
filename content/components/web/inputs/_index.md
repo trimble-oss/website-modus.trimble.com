@@ -20,30 +20,21 @@ tags: [usage]
 
 Input fields or text fields allow users to enter text into a UI. They typically appear in forms, often with [checkboxes](/components/web/checkboxes/), [radio buttons](/components/web/radio-buttons/), and [buttons](/components/web/buttons/). The user input is most often sent to a server for processing.
 
-<form>
-  <div class="form-group">
+<form class="mb-3">
+  <div class="form-group mb-3">
     <label for="RegularInput">Regular Input</label>
     <input class="form-control" id="RegularInput">
   </div>
-  <div class="form-group">
-    <label for="Input2">Input with icon on right</label>
-    <div class="input-with-icon-right">
-      <input class="form-control" id="Input2">
-      <div class="input-icon">
-        <i class="modus-icons notranslate" aria-hidden="true">visibility</i>
-      </div>
-    </div>
-  </div>
-  <div class="form-group">
+  <div class="form-group mb-3">
     <label for="Input3">Input with icon on left</label>
-    <div class="input-with-icon-left">
+    <div class="form-control-with-icon">
       <input class="form-control" id="Input3">
-      <div class="input-icon">
-        <i class="modus-icons notranslate" aria-hidden="true">search</i>
+      <div class="form-control-icon">
+        <i class="modus-icons notranslate mx-1 small" aria-hidden="true">search</i>
       </div>
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-group mb-3">
     <label for="Input4">Input with a button</label>
     <div class="input-group">
       <input class="form-control" id="Input4">
@@ -54,9 +45,9 @@ Input fields or text fields allow users to enter text into a UI. They typically 
       </div>
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-group mb-3">
     <label for="exampleFormControlSelect">Select</label>
-    <select class="custom-select form-control" id="exampleFormControlSelect">
+    <select class="form-select" id="exampleFormControlSelect">
       <option>Option 1</option>
       <option>Option 2</option>
       <option>Option 3</option>
@@ -64,7 +55,7 @@ Input fields or text fields allow users to enter text into a UI. They typically 
       <option>Option 5</option>
     </select>
   </div>
-  <div class="form-group">
+  <div class="form-group mb-3">
   <label for="Textarea">Text Area</label>
   <textarea class="form-control" id="Textarea">Some Text</textarea>
 </div>

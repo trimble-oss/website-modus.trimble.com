@@ -15,7 +15,7 @@ tags: [in-field, styles]
 | Size    | Example                                                                                                                           | Height | Use case |
 | ------- | --------------------------------------------------------------------------------------------------------------------------------- |--------|----------|
 | Default | {{< img src="/img/in-field/nav-spec.svg" dark="/img/in-field/nav-spec-dark.svg" width="706" alt="Example Size" loading="auto" >}} | 60px   | Header   |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 **Note:** When logo is left to the edge, increase padding to 16dp. In-cab size only. See mobile patterns (coming soon) for smaller options if required.
@@ -46,7 +46,7 @@ tags: [in-field, styles]
 | Pressed  | {{< img src="/img/in-field/nav-state-white-pressed.svg" dark="/img/in-field/nav-state-pressed-dark.svg" width="200" alt="State Pressed" >}}    | {{< img src="/img/in-field/nav-state-blue-pressed.svg" width="200" alt="State Pressed Blue" >}}   |
 | Focus    | {{< img src="/img/in-field/nav-state-focus.svg" dark="/img/in-field/nav-state-focus-dark.svg" width="200" alt="State Focus" >}}          | {{< img src="/img/in-field/nav-state-blue-focus.svg" width="200" alt="State Focus Blue" >}}       |
 | Disabled | {{< img src="/img/in-field/nav-state-white-disabled.svg" dark="/img/in-field/nav-state-disabled-dark.svg" width="200" alt="State Disabled" >}} | {{< img src="/img/in-field/nav-state-blue-disabled.svg" width="200" alt="State Disabled Blue" >}} |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 ### OEM Branding

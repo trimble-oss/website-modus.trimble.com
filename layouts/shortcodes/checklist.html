@@ -1,7 +1,7 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
-<div class="custom-control custom-checkbox">
-  <input type="checkbox" class="custom-control-input" id="{{- .Inner | urlize -}}">
-  <label class="custom-control-label text-dark p" for="{{- .Inner | urlize -}}">
+<div class="form-check my-2">
+  <input type="checkbox" class="form-check-input" id="{{- .Inner | urlize -}}">
+  <label class="form-check-label text-dark p fs-5" for="{{- .Inner | urlize -}}">
     {{- .Inner | markdownify -}}
   </label>
 </div>

@@ -14,8 +14,6 @@ aliases:
 tags: [usage]
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css">
-
 ## Overview
 
 Buttons are clickable elements that are used to trigger actions. Buttons are used to initialize an action, either in the background or foreground of an experience. Use button labels wherever possible to express what action will occur, when the user interacts with a button.
@@ -48,7 +46,7 @@ There are two button progressions you can choose from: structural and color prog
 ### Structural Progression
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Example</th>
       <th>Emphasis</th>
@@ -73,7 +71,7 @@ There are two button progressions you can choose from: structural and color prog
       </td>
     </tr>
     <tr>
-      <td><button class="btn btn-outline-dark" type="button">Cancel</button></td>
+      <td><button class="btn btn-outline-secondary" type="button">Cancel</button></td>
       <td>Medium</td>
       <td>
         Used for secondary actions to establish additional visual hierarchy.
@@ -94,7 +92,7 @@ There are two button progressions you can choose from: structural and color prog
 ### Color Progression
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Example</th>
       <th>Emphasis</th>
@@ -141,7 +139,7 @@ There are two button progressions you can choose from: structural and color prog
 ### Danger And Critical Action Buttons
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Example</th>
       <th>Type</th>

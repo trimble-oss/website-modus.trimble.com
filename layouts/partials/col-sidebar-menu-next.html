@@ -1,0 +1,71 @@
+<script>
+  // Get the viewport width
+  var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+
+  // Check if the viewport width is above 1080px
+  if (viewportWidth > 1080) {
+    // Get the div element
+    var div = document.querySelector('#sidebar');
+
+    // Add the class to the div element
+    div.classList.add('show');
+  }
+</script>
+<!-- https://github.com/twbs/bootstrap/blob/v5.3.2/site/layouts/partials/docs-sidebar.html -->
+<div class="">
+  {{- $url := split .Permalink "/" -}}
+  {{- $page_slug := index $url (sub (len $url) 2) -}}
+
+  <div class="accordion accordion-flush menu-left">
+    {{- range $group := .Site.Data.menu -}}
+    {{- $link := $group.title -}}
+    {{- $link_slug := $link | urlize -}}
+
+    {{- if $group.pages -}}
+    {{- $link = index $group.pages 0 -}}
+    {{- $link_slug = $link.title | urlize -}}
+    {{- end -}}
+
+    {{- $group_slug := $group.title | urlize -}}
+    {{- $is_active_group := eq $.Page.Params.group $group_slug -}}
+
+    {{- if $group.pages }}
+    <div class="accordion-item">
+      <h6 class="accordion-header">
+        <button class="accordion-button collapsed fs-5 ps-3 py-1 opacity-75" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapse-{{- $group.title | urlize -}}" aria-expanded="false"
+          aria-controls="flush-collapse-{{- $group.title | urlize -}}">
+          {{- if $group.icon }}
+          {{- end }}
+          {{ $group.title }}
+        </button>
+      </h6>
+
+      <div id="flush-collapse-{{- $group.title | urlize -}}"
+        class="accordion-collapse collapse {{ if $is_active_group }}show{{- end -}}">
+        <div class="accordion-body py-1 bg-secondary bg-opacity-10">
+          <ul class="list-unstyled">
+            {{- range $doc := $group.pages -}}
+            {{- $doc_slug := $doc.title | urlize -}}
+            {{- $is_active := and $is_active_group (eq $page_slug $doc_slug) -}}
+            {{- $href := printf "/%s/%s/" $group_slug $doc_slug }}
+            <li class="my-1"><a href="{{ $href }}" class="nav-link text-body{{ if $is_active }} active fw-bold{{ end }}"
+                {{ if $is_active }} aria-current="page" {{ end }}>{{ $doc.title }}</a></li>
+            {{- end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+    {{- else }}
+    <li class="bd-links-span-all mt-1 mb-3 mx-4 border-top"></li>
+    <li class="bd-links-span-all">
+      <a href="/{{ $group_slug }}/"
+        class="bd-links-link d-inline-block rounded small {{ if $is_active_group }} active fw-bold{{- end -}}"
+        {{ if $is_active_group }} aria-current="page" {{ end }}>
+        {{ $group.title }}
+      </a>
+    </li>
+    {{- end }}
+    {{- end }}
+  </div>
+</div>

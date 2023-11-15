@@ -10,39 +10,39 @@ bootstrapURL: "/components/chips/"
 reactBootstrapURL: "/components/chips/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-chip--default"
 tags: [styles]
+disableAnatomy: true
+popoverCSSInspector: true
 ---
 
 ## Specifications
 
-There are two sizes of Chips:
-
-- By default, Chips should have a height of 30px, border radius 16px and font size 12px
-- Smaller variant will have a height of 24px, border radius 16px and font size 12px
-
 <style>
-[data-theme=dark] .chip-solid:not(:disabled):not(.disabled):not(.error):active, [data-theme=dark] .chip-solid:not(:disabled):not(.disabled):not(.error).active {
+[data-bs-theme=dark] .chip-solid:not(:disabled):not(.disabled):not(.error):active, [data-bs-theme=dark] .chip-solid:not(:disabled):not(.disabled):not(.error).active {
   background-color: #019AEB!important;
-}
-.chip-text {
-  font-size: 12px !important;
 }
 </style>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css">
 
-<table class="table table-bordered w-100" style="width:fit-content">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th width="100"></th>
       <th>Example</th>
-      <th width="100">Height</th>
     </tr>
   </thead>
   <tbody>
-    <tr style="height:80px">
+    <tr style="height:180px">
       <th scope="row">Default</th>
-      <td class="anatomy-cell text-center">
-        <button class="chip chip-solid chip-input anatomy-display-static" data-anatomy-colors="false" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="left" data-content="<small><b>font-size:</b> 12px<br><b>border-radius:</b> 16px<br></small>">
+      <td class="text-center align-middle py-5"><br><br>
+        <button class="chip chip-solid chip-input pe-none"
+          role="alert"
+          data-bs-toggle="popover"
+          data-bs-custom-class="popover-css-inspector"
+          data-bs-container="td"
+          data-bs-placement="left"
+          data-css-inspector-hide="text-align"
+          style="font-size: 12px">
         <div class="chip-thumbnail">
           <img src="/img/headshot.png" height="24" width="24" alt="" />
         </div>
@@ -50,14 +50,20 @@ There are two sizes of Chips:
         <div class="chip-delete-right">
           <i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i>
         </div>
-      </button>
+      </button><br><br><br>
       </td>
-      <td>30px</td>
     </tr>
-    <tr style="height:80px">
+    <tr>
       <th scope="row">Small</th>
-      <td class="anatomy-cell text-center">
-        <button class="chip chip-sm chip-solid chip-input anatomy-display-static" data-anatomy-colors="false" role="alert" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="left" data-content="<small><b>font-size:</b> 12px<br><b>border-radius:</b> 16px<br></small>">
+      <td class="text-center align-middle py-3" style="height:180px">
+        <button class="chip chip-sm chip-solid chip-input pe-none"
+          role="alert"
+          data-bs-toggle="popover"
+          data-bs-custom-class="popover-css-inspector"
+          data-bs-container="td"
+          data-bs-placement="left"
+          data-css-inspector-hide="text-align"
+          style="font-size: 12px">
         <div class="chip-thumbnail">
           <img src="/img/headshot.png" height="16" width="16" alt="">
         </div>
@@ -65,14 +71,13 @@ There are two sizes of Chips:
         <div class="chip-delete-right"><i class="modus-icons notranslate" aria-hidden="true">cancel_circle</i></div>
       </button>
       </td>
-      <td>24px</td>
     </tr>
   </tbody>
 </table>
 
 Input chips can be in any of the following states:
 
-<table class="table table-bordered w-75">
+<table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th></th>
@@ -84,7 +89,7 @@ Input chips can be in any of the following states:
     <tr>
       <th scope="row">Default</th>
       <td>
-        <button class="chip chip-solid chip-input">
+        <button class="chip chip-solid chip-input pe-none">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -95,7 +100,7 @@ Input chips can be in any of the following states:
         </button>
       </td>
       <td>
-        <button class="chip chip-outline chip-input">
+        <button class="chip chip-outline chip-input pe-none">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -109,7 +114,7 @@ Input chips can be in any of the following states:
     <tr>
       <th scope="row">Hover</th>
       <td>
-        <button class="chip chip-solid chip-input hover">
+        <button class="chip chip-solid chip-input hover pe-none">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -120,7 +125,7 @@ Input chips can be in any of the following states:
         </button>
       </td>
       <td>
-        <button class="chip chip-outline chip-input hover">
+        <button class="chip chip-outline chip-input hover pe-none">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -134,7 +139,7 @@ Input chips can be in any of the following states:
     <tr>
       <th scope="row">Active</th>
       <td>
-        <button class="chip chip-solid chip-input active">
+        <button class="chip chip-solid chip-input active pe-none">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -145,7 +150,7 @@ Input chips can be in any of the following states:
         </button>
       </td>
       <td>
-        <button class="chip chip-outline chip-input active">
+        <button class="chip chip-outline chip-input active pe-none">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -159,7 +164,7 @@ Input chips can be in any of the following states:
     <tr>
       <th scope="row">Error</th>
       <td>
-        <button class="chip chip-solid chip-input error">
+        <button class="chip chip-solid chip-input error pe-none">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -170,7 +175,7 @@ Input chips can be in any of the following states:
         </button>
       </td>
       <td>
-        <button class="chip chip-outline chip-input error">
+        <button class="chip chip-outline chip-input error pe-none">
           <div class="chip-thumbnail">
             <img src="/img/headshot.png" height="24" width="24" alt="" />
           </div>
@@ -213,20 +218,20 @@ Input chips can be in any of the following states:
 <div class="guide-example-block">
   <div class="guide-sample" id="filterChipsExample">
     <span class="h4 d-block">Choose Amenities</span>
-    <button class="chip chip-solid chip-filter mr-2 active">
+    <button class="chip chip-solid chip-filter me-2 active">
       <div class="chip-icon-left"><i class="modus-icons notranslate" aria-hidden="true">check</i></div>
       <div class="chip-text">Elevator</div>
     </button>
-    <button class="chip chip-solid chip-filter mr-2">
+    <button class="chip chip-solid chip-filter me-2">
       <div class="chip-text">Pets OK</div>
     </button>
-    <button class="chip chip-solid chip-filter mr-2">
+    <button class="chip chip-solid chip-filter me-2">
       <div class="chip-text">Washer/Dryer</div>
     </button>
-    <button class="chip chip-solid chip-filter mr-2">
+    <button class="chip chip-solid chip-filter me-2">
       <div class="chip-text">Pool</div>
     </button>
-    <button class="chip chip-solid chip-filter mr-2">
+    <button class="chip chip-solid chip-filter me-2">
       <div class="chip-text">Free Wi-Fi</div>
     </button>
   </div>

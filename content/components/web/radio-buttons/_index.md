@@ -21,25 +21,31 @@ tags: [usage]
 
 Radio buttons are used to afford a single selection from two or more options.
 
-<div class="form-group w-50">
-  <div class="custom-control custom-radio">
-    <input type="radio" checked="" class="custom-control-input" id="exampleRadio" name="exampleRadio" value="customEx">
-    <label class="custom-control-label" for="exampleRadio">Radio 1</label>
-  </div>
-  <div class="custom-control custom-radio">
-    <input type="radio" class="custom-control-input" id="exampleRadio2" name="exampleRadio" value="customEx">
-    <label class="custom-control-label" for="exampleRadio2">Radio 2</label>
-  </div>
+<div class="w-50 p-3 pt-0">
+<div class="form-check py-1">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+  <label class="form-check-label" for="flexRadioDefault1">
+    Default radio
+  </label>
 </div>
-<div class="form-group w-50">
-  <div class="custom-control custom-radio">
-    <input type="radio" disabled="" checked="" class="custom-control-input" id="exampleRadio3" name="exampleRadio2" value="customEx">
-    <label class="custom-control-label" for="exampleRadio3">Disabled</label>
-  </div>
-  <div class="custom-control custom-radio">
-    <input type="radio" disabled="" class="custom-control-input" id="exampleRadio4" name="exampleRadio2" value="customEx">
-    <label class="custom-control-label" for="exampleRadio4">Disabled</label>
-  </div>
+<div class="form-check py-1">
+  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+  <label class="form-check-label" for="flexRadioDefault2">
+    Default checked radio
+  </label>
+</div>
+<div class="form-check py-1">
+  <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
+  <label class="form-check-label" for="flexRadioDisabled">
+    Disabled radio
+  </label>
+</div>
+<div class="form-check py-1">
+  <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioCheckedDisabled" checked disabled>
+  <label class="form-check-label" for="flexRadioCheckedDisabled">
+    Disabled checked radio
+  </label>
+</div>
 </div>
 
 ## Usage

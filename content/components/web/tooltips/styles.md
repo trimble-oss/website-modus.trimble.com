@@ -21,7 +21,7 @@ tags: [styles]
 
 <img src="/img/components/tooltips-positions.svg" class="img-fluid" width="800" height="300" alt="Tooltip positions"/>
 <style>
-[data-theme="dark"] img[src="/img/components/tooltips-positions.svg"] {
+[data-bs-theme="dark"] img[src="/img/components/tooltips-positions.svg"] {
  content: url(/img/components/tooltips-positions-dark.svg);
 }
 </style>
@@ -47,5 +47,5 @@ tags: [styles]
 | ------- | ---------- | -------------------------------------------------------------------------------------- |
 | Tooltip | Text       | {{< color-preview nameL="White" hexL="#ffffff" nameD="Trimble Gray" hexD="#252a2e" >}} |
 |         | Background | {{< color-preview nameL="Gray 7" hexL="#585c65" nameD="Gray 0" hexD="#e0e1e9" >}}      |
-{class="table table-sm table-bordered"}
+{class="table table-sm table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->

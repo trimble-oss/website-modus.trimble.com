@@ -61,7 +61,7 @@ Consider following behaviors:
   - All icon buttons should have the following states:
     - Default
     - Hover
-    - Pressed
+    - Active
     - Disabled
   - For additional guidance, check the [Buttons](/components/web/buttons/) section.
 - Modal (insert/edit link):

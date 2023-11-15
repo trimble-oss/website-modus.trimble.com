@@ -10,20 +10,13 @@ bootstrapURL: "/components/lists/"
 reactBootstrapURL: "/components/lists/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-list--default"
 tags: [styles]
+disableAnatomy: true
+popoverCSSInspector: true
 ---
 
 <style>
 .list-group {
   max-width: 400px;
-}
-
-.list-group .list-group-item {
-  height: 40px;
-  min-height: 40px;
-}
-.list-group-lg .list-group-item {
-  height: 48px;
-  min-height: 48px;
 }
 </style>
 
@@ -31,33 +24,45 @@ tags: [styles]
 
 Lists are available in three sizes: default, condensed (small) and large.
 
+<!--
 - Default list: 40px height; 16px font size.
 - Small list: 32px height; 12px font size.
 - Large list: 48px height; 16px font size.
+-->
 
-<div class="guide-example-block my-2 py-4 bg-light pr-5">
-  <div class="guide-content-sample anatomy-display-container pr-3">
-    <ul class="list-group">
-      <li
-        class="list-group-item list-item-right-control active anatomy-display-static"
-      >
+### Default list
+
+<div class="guide-example-block my-2 py-5 bg-secondary bg-opacity-10"><br>
+  <div class="mx-auto"><br>
+    <ul class="list-group" style="margin-left: 240px">
+      <li class="list-group-item list-group-item-action active d-flex justify-content-between pe-none"
+      style="height:40px; font-size:16px"
+      data-bs-toggle="popover"
+      data-bs-container="main"
+      data-bs-placement="left"
+      data-bs-custom-class="popover-css-inspector"
+      data-css-inspector-hide="b-width width"
+      data-css-inspector-show="">
         <span>List Item</span>
-        <i class="icon modus-icons">check</i>
+        <div style="width:32px;text-align:center">
+          <i class="modus-icons notranslate" aria-hidden="true">check</i>
+        </div>
       </li>
-      <li class="list-group-item list-item-right-control">
+      <li class="list-group-item list-group-item-action d-flex justify-content-between">
         <span>List Item with Menu</span>
-        <div class="dropdown modus-icon">
+        <div class="dropdown">
           <button
-            class="btn btn-icon-only btn-text-dark rounded-circle"
+            class="btn btm-sm btn-icon-only btn-text-dark rounded-circle"
+            style="margin-top:-8px"
             type="button"
-            data-toggle="dropdown"
+            data-bs-toggle="dropdown"
             aria-haspopup="true"
             aria-expanded="false"
           >
             <i class="modus-icons notranslate" aria-hidden="true">more_vertical</i>
           </button>
           <div
-            class="dropdown-menu dropdown-menu-right"
+            class="dropdown-menu dropdown-menu-end"
             x-placement="bottom-end"
             style="position: absolute; transform: translate3d(-171px, 33px, 0); top: 0; left: 0; will-change: transform;"
           >
@@ -67,81 +72,102 @@ Lists are available in three sizes: default, condensed (small) and large.
           </div>
         </div>
       </li>
-      <li class="list-group-item list-item-left-control">
-        <div class="custom-control custom-checkbox">
-          <input
-            type="checkbox"
-            class="custom-control-input"
-            id="listCheckbox"
-            name="example1"
-          />
-          <label class="custom-control-label" for="listCheckbox"></label>
-        </div>
-        <span class="anatomy-display-static" data-anatomy-colors="false"
-          >List Item with Checkbox</span
-        >
+      <li class="list-group-item list-group-item-action">
+<div class="form-check">
+  <input class="form-check-input me-2" type="checkbox" id="flexCheckDefault">
+  <label for="flexCheckDefault">
+    List Item with Checkbox
+  </label>
+</div>
       </li>
-      <li class="list-group-item list-item-left-control">
-        <i class="icon modus-icons" aria-hidden="true">dashboard</i>
-        <span>List Item with Left Icon</span>
+      <li class="list-group-item d-flex align-items-center">
+        <i class="modus-icons notranslate me-2" aria-hidden="true">dashboard</i>
+        <div>List Item with Left Icon</div>
       </li>
     </ul>
   </div>
 </div>
 
-## Condensed List
+### Condensed list
 
-<ul class="list-group list-group-sm">
-  <li class="list-group-item active">List Item (active)</li>
-  <li class="list-group-item list-item-left-control">
-    <div class="custom-control custom-switch custom-control-inline">
-      <input type="checkbox" checked class="custom-control-input" id="listSwitch-sm">
-      <label class="custom-control-label" for="listSwitch-sm"></label>
+<div class="guide-example-block my-2 py-5 bg-secondary bg-opacity-10"><br>
+  <div class="mx-auto"><br>
+    <ul class="list-group list-group-sm" style="margin-left: 240px">
+  <li class="list-group-item list-group-item-action active pe-none"
+      style="height:32px"
+      data-bs-toggle="popover"
+      data-bs-container="main"
+      data-bs-placement="left"
+      data-bs-custom-class="popover-css-inspector"
+      data-css-inspector-hide="bg-color b-radius b-width color width"
+      data-css-inspector-show=""
+      >List Item (active)</li>
+    <li class="list-group-item list-group-item-action">
+    <div class="form-check form-switch d-flex align-items-center">
+    <input class="form-check-input me-2" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+    <label class="" for="flexSwitchCheckChecked">Left Switch</label>
     </div>
-    <span>Left Switch</span>
   </li>
-  <li class="list-group-item list-item-right-control">
-    <span>Right Switch</span>
-    <div class="custom-control custom-switch custom-control-inline">
-      <input type="checkbox" checked class="custom-control-input" id="listSwitch-sm2">
-      <label class="custom-control-label" for="listSwitch-sm2"></label>
+  <li class="list-group-item list-group-item-action d-flex justify-content-between">
+  <div>
+      <label for="flexSwitchCheckDefault">Right Switch</label>
+    </div>
+    <div class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" checked>
     </div>
   </li>
-  <li class="list-group-item list-item-left-control">
-    <div class="custom-control custom-checkbox">
-      <input type="checkbox" checked class="custom-control-input" id="customCheck-sm3">
-      <label class="custom-control-label" for="customCheck-sm3"></label>
+
+  <li class="list-group-item list-group-item-action d-flex align-items-center">
+    <div class="form-check">
+      <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckDefault" checked>
     </div>
-    <span>Left Checkbox</span>
+   <div>
+     <label for="flexCheckDefault">Left checkbox</label>
+   </div>
   </li>
 </ul>
+</div>
+</div>
 
-## Large List
+### Large list
 
-<ul class="list-group list-group-lg">
-  <li class="list-group-item active">List Item (active)</li>
-  <li class="list-group-item list-item-left-control">
-    <div class="custom-control custom-switch custom-control-inline">
-      <input type="checkbox" checked class="custom-control-input" id="listSwitch-lg">
-      <label class="custom-control-label" for="listSwitch-lg"></label>
+<div class="guide-example-block my-2 py-5 bg-secondary bg-opacity-10"><br>
+  <div class="mx-auto">
+    <ul class="list-group list-group-lg" style="margin-left: 240px">
+  <li class="list-group-item list-group-item-action active pe-none"
+      style="height:48px; font-size:16px"
+      data-bs-toggle="popover"
+      data-bs-container="main"
+      data-bs-placement="left"
+      data-bs-custom-class="popover-css-inspector z-1"
+      data-css-inspector-hide="bg-color b-radius b-width color width"
+      data-css-inspector-show=""
+      >List Item (active)</li>
+  <li class="list-group-item  d-flex justify-content-between">
+    <div class="form-check form-switch d-flex align-items-center">
+      <input class="form-check-input me-2" type="checkbox" role="switch" id="LargeflexSwitchCheckDefault" checked>
+      <label for="LargeflexSwitchCheckDefault">Left Switch</label>
     </div>
-    <span>Left Switch</span>
   </li>
-  <li class="list-group-item list-item-right-control">
-    <span>Right Switch</span>
-    <div class="custom-control custom-switch custom-control-inline">
-      <input type="checkbox" checked class="custom-control-input" id="listSwitch-lg2">
-      <label class="custom-control-label" for="listSwitch-lg2"></label>
-    </div>
+  <li class="list-group-item d-flex justify-content-between">
+  <div>
+    <label for="LargeRflexSwitchCheckChecked">Right Switch</label>
+  </div>
+  <div class="form-check form-switch">
+    <input class="form-check-input" type="checkbox" role="switch" id="LargeRflexSwitchCheckChecked" checked>
+  </div>
   </li>
-  <li class="list-group-item list-item-left-control">
-    <div class="custom-control custom-checkbox">
-      <input type="checkbox" checked class="custom-control-input" id="customCheck-lg3">
-      <label class="custom-control-label" for="customCheck-lg3"></label>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+    <label for="flexCheckDefault">
+      Left checkbox
+    </label>
     </div>
-    <span>Left Checkbox</span>
   </li>
 </ul>
+</div>
+</div>
 
 ## Behaviors
 

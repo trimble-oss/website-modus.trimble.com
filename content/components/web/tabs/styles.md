@@ -10,32 +10,56 @@ bootstrapURL: "/components/tabs/"
 reactBootstrapURL: "/components/tabs/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-tabs--default"
 tags: [styles]
+disableAnatomy: true
+popoverCSSInspector: true
 ---
 
 ## Specifications
 
-<div class="guide-example-block my-3 py-4 bg-light">
-  <div class="guide-content-sample anatomy-display-container">
-    <ul class="nav nav-tabs mb-5 py-4">
-      <li class="nav-item">
-        <a class="nav-link active anatomy-display-static" href="#">Default</a>
-      </li>
-    </ul>
-    <ul class="nav nav-tabs mb-5">
-      <li class="nav-item">
-        <a class="nav-link hover text-decoration-none anatomy-display-static" href="#">Hover</a>
-      </li>
-    </ul>
-    <ul class="nav nav-tabs nav-tabs-sm py-4">
-      <li class="nav-item">
-        <a
-          class="nav-link active anatomy-display-static"
-          href="#"
-          data-anatomy-colors="false"
-          >Small</a
-        >
-      </li>
-    </ul>
+<div class="guide-example-block my-3 py-4 bg-secondary bg-opacity-10">
+  <div class="guide-content-sample text-center">
+    <div class="py-4">
+      <ul class="nav nav-tabs mb-5 py-5 border-0" style="padding-left: 340px">
+        <li class="nav-item pe-none">
+          <a
+            class="nav-link active pe-none"
+            href="#"
+            data-bs-placement="left"
+            data-bs-toggle="popover"
+            data-bs-custom-class="popover-css-inspector"
+            data-css-inspector-hide="b hide-bc hide-us"
+            data-bs-container=".guide-content-sample">Default</a>
+        </li>
+      </ul>
+    </div>
+    <div class="py-4">
+      <ul class="nav nav-tabs mb-5 py-5 border-0" style="padding-left: 340px">
+        <li class="nav-item pe-none">
+          <a
+            class="nav-link hover text-decoration-none pe-none"
+            href="#"
+            data-bs-placement="left"
+            data-bs-toggle="popover"
+            data-bs-custom-class="popover-css-inspector"
+            data-css-inspector-hide="b hide-bc hide-m hide-h hide-us"
+            data-bs-container=".guide-content-sample">Hover</a>
+        </li>
+      </ul>
+    </div>
+    <div class="py-4">
+      <ul class="nav nav-tabs nav-tabs-sm py-5 border-0" style="padding-left: 340px">
+        <li class="nav-item pe-none">
+          <a
+            class="nav-link active pe-none"
+            data-bs-placement="left"
+            data-bs-toggle="popover"
+            data-bs-custom-class="popover-css-inspector"
+            data-css-inspector-hide="b hide-bc hide-m hide-h hide-us"
+            data-bs-container=".guide-content-sample"
+            href="#">Small</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </div>
 
@@ -70,6 +94,18 @@ tags: [styles]
 .bs-popover-left {
   margin-left: -5rem !important;
 }
+[data-bs-theme="light"] .nav-tabs .nav-link.hover {
+  background-color: #dcedf9 !important;
+  isolation: isolate;
+  border-color: var(--bs-nav-tabs-link-hover-border-color);
+  border-bottom: .1875rem solid #dcedf9;
+}
+
+[data-bs-theme="dark"] .nav-tabs .nav-link.hover {
+  color: #f1f1f6;
+  background-color: #464b52 !important;
+  border-bottom-color: #6a6e79 !important;
+}
 </style>
 
 ### Colors
@@ -87,5 +123,5 @@ tags: [styles]
 |              | Background    | {{< color-preview nameL="Blue Pale" hexL="#dcedf9" nameD="Gray 8" hexD="#464b52" >}}                  |
 | Disabled Tab | Color         | {{< color-preview nameL="Gray 2" hexL="#B7B9C3" nameD="White" hexD="#ffffff" >}}                      |
 |              | Background    | Transparent                                                                                           |
-{class="table table-sm table-bordered"}
+{class="table table-sm table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->

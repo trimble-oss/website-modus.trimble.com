@@ -10,6 +10,8 @@ bootstrapURL: "/components/accordions/"
 reactBootstrapURL: "/components/accordions/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-accordion--default"
 tags: [styles]
+disableAnatomy: true
+popoverCSSInspector: true
 ---
 
 ## Specifications
@@ -28,225 +30,150 @@ tags: [styles]
 - Horizontal Padding: 4px
 - Collapsed Height: 32px
 
-<div class="bg-light p-2">
-<div class="guide-example-block bg-light my-3" style="padding-right: 5rem">
-  <div class="guide-content-sample anatomy-display-container" style="padding-left: 180px;">
-    <div class="accordion bg-white" id="accordionExample">
-      <div class="card" style="overflow: unset">
-        <div
-          class="card-header anatomy-display-static"
-          data-anatomy-colors="false"
-          id="headingOne"
-          data-toggle="collapse"
-          aria-expanded="true"
-          aria-controls="collapseOne"
-          data-content="<small><b>font-size:</b> 16px<br><b>font-weight:</b> 600<br></small>"
-        >
-          <h5 class="mb-0">
-            Accordion title
-          </h5>
-        </div>
-        <div
-          id="collapseOne"
-          class="collapse show"
-          aria-labelledby="headingOne"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body anatomy-display-static">
-            Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
-          </div>
-        </div>
+<div class="bg-secondary-subtle bg-opacity-10 p-2 py-3 ps-5"><br><br><br>
+<div class="ms-5 ps-5">
+<div class="accordion mx-auto" id="accordionStyleExample" style="max-width: 440px">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button pe-none"
+        type="button"
+        style="height:48px"
+        aria-expanded="true"
+        aria-controls="collapseOne"
+        data-bs-toggle="popover"
+        data-bs-container="body"
+        data-bs-placement="left"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="b-radius text-align user-select width">
+        Accordion title
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionStyleExample">
+      <div class="accordion-body">
+        Accordions are containers that expand to reveal content progressively to limit the amount of information on the page or in a section to reduce clutter. The content can be expanded and collapsed based on the user’s interest.
       </div>
-      <div class="card">
-        <div
-          class="card-header"
-          id="headingTwo"
-          data-toggle="collapse"
-          aria-expanded="false"
-          aria-controls="collapseTwo"
-        >
-          <h5 class="mb-0">
-            Accordion title
-          </h5>
-        </div>
-        <div
-          id="collapseTwo"
-          class="collapse"
-          aria-labelledby="headingTwo"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            High life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
-          </div>
-        </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" aria-expanded="false">
+        Accordion title
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionStyleExample">
+      <div class="accordion-body">
       </div>
-      <div class="card">
-        <div
-          class="card-header"
-          id="headingThree"
-          data-toggle="collapse"
-          aria-expanded="false"
-          aria-controls="collapseThree"
-        >
-          <h5 class="mb-0">
-            Accordion title
-          </h5>
-        </div>
-        <div
-          id="collapseThree"
-          class="collapse"
-          aria-labelledby="headingThree"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            Non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
-          </div>
-        </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" aria-expanded="false">
+        Accordion title
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionStyleExample">
+      <div class="accordion-body">
       </div>
     </div>
   </div>
 </div>
 </div>
+</div>
+<script>
+  var myPopovers = document.querySelectorAll('.my-popover');
+  myPopovers.forEach(function(myPopover) {
+    var popover = new bootstrap.Popover(myPopover, {
+      trigger: 'manual'
+    });
+    popover.show();
+  });
+</script>
 
 - Accordions can display directly on the page or in a card container.
 - The arrow icon acts as an affordance to indicate the functionality of the accordion and as a visual marker of the state of the accordion through its rotation and direction.
 - When stacking multiple accordions, use stack space constants to add margin-bottom to the block element.
 
-<table class="table-bordered bg-white">
+<table class="table border">
   <tr>
     <td scope="col">
-      <div class="accordion" id="accordionCodeExample">
-        <div class="card">
-          <div
-            class="card-header"
-            id="headingOne"
-            data-toggle="collapse"
-            aria-expanded="true"
-            aria-controls="collapseOne">
-            <h6 class="mb-0">
-              Accordion title
-            </h6>
-          </div>
-          <div
-            id="collapseOne"
-            class="collapse show"
-            aria-labelledby="headingOne"
-            data-parent="#accordionCodeExample">
-            <div class="card-body">
-              high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div
-            class="card-header"
-            id="headingTwo"
-            data-toggle="collapse"
-            aria-expanded="false"
-            aria-controls="collapseTwo">
-            <h6 class="mb-0">
-              Accordion title
-            </h6>
-          </div>
-          <div
-            id="collapseTwo"
-            class="collapse"
-            aria-labelledby="headingTwo"
-            data-parent="#accordionCodeExample">
-            <div class="card-body">
-              high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div
-            class="card-header"
-            id="headingThree"
-            data-toggle="collapse"
-            aria-expanded="false"
-            aria-controls="collapseThree">
-            <h6 class="mb-0">
-              Accordion title
-            </h6>
-          </div>
-          <div
-            id="collapseThree"
-            class="collapse"
-            aria-labelledby="headingThree"
-            data-parent="#accordionCodeExample">
-            <div class="card-body">
-              high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
-            </div>
-          </div>
-        </div>
+      <div class="accordion mx-auto" id="accordionStyleExample2">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+        Accordion item #1
+      </button>
+    </h2>
+    <div id="collapseOne2" class="accordion-collapse collapse show" data-bs-parent="#accordionStyleExample2">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+        Accordion item #2
+      </button>
+    </h2>
+    <div id="collapseTwo2" class="accordion-collapse collapse" data-bs-parent="#accordionStyleExample2">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+        Accordion item #3
+      </button>
+    </h2>
+    <div id="collapseThree2" class="accordion-collapse collapse" data-bs-parent="#accordionStyleExample2">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+      </div>
+    </div>
+  </div>
+</div>
       </div>
     </td>
-    <td scope="col">
-      <div class="accordion" id="accordionCodeExample">
-        <div class="card">
-          <div
-            class="card-header border-top"
-            id="headingOne"
-            data-toggle="collapse"
-            aria-expanded="true"
-            aria-controls="collapseOne">
-            <h6 class="mb-0">
-              Accordion title
-            </h6>
-          </div>
-          <div
-            id="collapseOne"
-            class="collapse show"
-            aria-labelledby="headingOne"
-            data-parent="#accordionCodeExample">
-            <div class="card-body">
-              high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div
-            class="card-header"
-            id="headingTwo"
-            data-toggle="collapse"
-            aria-expanded="false"
-            aria-controls="collapseTwo">
-            <h6 class="mb-0">
-              Accordion title
-            </h6>
-          </div>
-          <div
-            id="collapseTwo"
-            class="collapse"
-            aria-labelledby="headingTwo"
-            data-parent="#accordionCodeExample">
-            <div class="card-body">
-              high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div
-            class="card-header border-bottom"
-            id="headingThree"
-            data-toggle="collapse"
-            aria-expanded="false"
-            aria-controls="collapseThree">
-            <h6 class="mb-0">
-              Accordion title
-            </h6>
-          </div>
-          <div
-            id="collapseThree"
-            class="collapse"
-            aria-labelledby="headingThree"
-            data-parent="#accordionCodeExample">
-            <div class="card-body">
-              high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor.
-            </div>
-          </div>
-        </div>
+    <td scope="col" class="w-50">
+<div class="accordion border mx-auto" id="accordionStyleExample3" style="max-width: 500px">
+  <div class="accordion-item border">
+    <h2 class="accordion-header border-bottom">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3">
+        Accordion item #1
+      </button>
+    </h2>
+    <div id="collapseOne3" class="accordion-collapse collapse show" data-bs-parent="#accordionStyleExample3">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
       </div>
+    </div>
+  </div>
+  <div class="accordion-item border">
+    <h2 class="accordion-header border-bottom">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo3" aria-expanded="false" aria-controls="collapseTwo3">
+        Accordion item #2
+      </button>
+    </h2>
+    <div id="collapseTwo3" class="accordion-collapse collapse" data-bs-parent="#accordionStyleExample3">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item border">
+    <h2 class="accordion-header border-bottom">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree3">
+        Accordion item #3
+      </button>
+    </h2>
+    <div id="collapseThree3" class="accordion-collapse collapse" data-bs-parent="#accordionStyleExample3">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
     </td>
   </tr>
   <tr>
@@ -273,7 +200,7 @@ tags: [styles]
 |         | Background (Hover/Active/Focus) | {{< color-preview nameL="Gray 0" hexL="e0e1e9" nameD="Gray 8" hexD="#464b52" >}}       |
 |         | Border-Bottom                   | {{< color-preview nameL="Gray 1" hexL="#cbcdd6" nameD="Gray 6" hexD="#6a6e79" >}}      |
 | Icon    | Color                           | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff">}}  |
-{class="table table-sm table-bordered"}
+{class="table table-sm table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 ### Behavior

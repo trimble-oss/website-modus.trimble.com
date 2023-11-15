@@ -1,22 +1,5 @@
-[data-theme="light"] {
-  html,
-  body {
-    color-scheme: light;
-  }
-
-  header.container-fluid h1,
-  header.container-fluid h2 {
-    color: #004f83;
-  }
-
-  header.container-fluid {
-    background-color: #f1f1f6;
-    color: #004f83 !important;
-  }
-
-  .bg-light {
-    background-color: #f1f1f6 !important;
-  }
+[data-bs-theme="light"] {
+  color-scheme: light;
 
   article a.btn-primary::after {
     filter: invert(1);
@@ -26,9 +9,11 @@
     display: none !important;
   }
 
-  #TableOfContents a {
-    color: #171c1e;
+  .col-menu {
+    background-color: #f1f1f6 !important;
   }
 
-  @import "../../node_modules/@trimbleinc/modus-bootstrap/dist/modus";
+  footer.footer {
+    background-color: #f1f1f6 !important;
+  }
 }

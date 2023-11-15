@@ -10,64 +10,57 @@ bootstrapURL: "/components/badges/"
 reactBootstrapURL: "/components/badges/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-badge--default"
 tags: [styles]
+disableAnatomy: true
+popoverCSSInspector: true
 ---
 
 ## Specifications
 
-Badges come in 3 defined heights:
-
-- **Small**: 14px
-- **Default**: 20px
-- **Large**: 28px
-
 Badges should be centered vertically inside of their containing element.
-
-**Font weight:** 700
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th></th>
+      <th width="90px"></th>
       <th>Example</th>
-      <th>Height</th>
-      <th>Use case</th>
+      <th width="250px">Use case</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Small</th>
-      <td class="anatomy-cell">
-        <span
-          data-anatomy-colors="false"
-          class="badge badge-sm badge-primary anatomy-display-static"
-          >Badge</span
-        >
+      <th scope="row" height="203">Small</th>
+      <td class="text-center py-5"><br><br>
+        <div class="badge badge-sm bg-primary"
+        data-bs-toggle="popover"
+    data-bs-placement="left"
+    data-bs-custom-class="popover-css-inspector"
+    data-css-inspector-hide="">Badge</div
+        ><br>
       </td>
-      <td>14px</td>
       <td>Inside lists or other elements</td>
     </tr>
     <tr>
-      <th scope="row">Default</th>
-      <td class="anatomy-cell">
-        <span
-          data-anatomy-colors="false"
-          class="badge badge-primary anatomy-display-static"
-          >Badge</span
-        >
+      <th scope="row" height="203">Default</th>
+       <td class="text-center py-5"><br><br>
+        <div class="badge bg-primary"
+        data-bs-toggle="popover"
+    data-bs-placement="left"
+    data-bs-custom-class="popover-css-inspector"
+    data-css-inspector-hide="">Badge</div
+        ><br>
       </td>
-      <td>20px</td>
       <td>Stand-alone or inside lists</td>
     </tr>
     <tr>
-      <th scope="row">Large</th>
-      <td class="anatomy-cell">
-        <span
-          data-anatomy-colors="false"
-          class="badge badge-lg badge-primary anatomy-display-static"
-          >Badge</span
-        >
+      <th scope="row" height="203">Large</th>
+       <td class="text-center py-5"><br><br>
+        <div class="badge badge-lg bg-primary"
+        data-bs-toggle="popover"
+        data-bs-placement="left"
+    data-bs-custom-class="popover-css-inspector"
+    data-css-inspector-hide="">Badge</div
+        ><br>
       </td>
-      <td>28px</td>
       <td>Stand-alone for emphasis</td>
     </tr>
   </tbody>

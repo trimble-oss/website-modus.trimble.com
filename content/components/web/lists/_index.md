@@ -35,20 +35,20 @@ Lists are used to present information in well-formed and organized way. The user
 <div class="h6" id="list-items">List Items</div>
 <ul class="list-group">
   <li class="list-group-item active">An item</li>
-  <li class="list-group-item">A second item</li>
-  <li class="list-group-item">A third item</li>
-  <li class="list-group-item">A fourth item</li>
-  <li class="list-group-item">And a fifth one</li>
+  <li class="list-group-item list-group-item-action">A second item</li>
+  <li class="list-group-item list-group-item-action">A third item</li>
+  <li class="list-group-item list-group-item-action">A fourth item</li>
+  <li class="list-group-item list-group-item-action">And a fifth one</li>
 </ul>
 
 ## Usage
 
-#### Use when
+### Use when
 
 - Creating vertical navigation.
 - Displaying options within a menu.
 
-#### Don't use when
+### Don't use when
 
 - Displaying tabular data. Instead, use a [Table](/components/web/tables/).
 - Making lists of uncategorized information. Use groups of list items to organize similar content.

@@ -37,7 +37,7 @@ tags: [styles]
 |               | Text         | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="Gray 0" hexD="#e0e1e9" >}} |
 |               | Chevron      | {{< color-preview nameL="Gray 6" hexL="#6a6e79" nameD="Gray 0" hexD="#e0e1e9" >}}       |
 |               | Divider Line | {{< color-preview nameL="Gray 0" hexL="#e0e1e9" nameD="Gray 0" hexD="#e0e1e9" >}}       |
-{class="table table-sm table-bordered"}
+{class="table table-sm table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 ### Typography

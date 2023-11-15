@@ -28,10 +28,10 @@
   color: #c37;
 }
 
-[data-theme="dark"] .color-preview {
+[data-bs-theme="dark"] .color-preview {
   box-shadow: 0 0 2px rgba(222, 222, 222, 0.3) !important;
 }
 
-[data-theme="dark"] .color-preview .text-monospace {
+[data-bs-theme="dark"] .color-preview .text-monospace {
   filter: brightness(3);
 }

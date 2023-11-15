@@ -24,7 +24,7 @@ Tables are largely based on the [List](/components/in-field/lists/) component. T
 - Manipulating and navigating through a large amount of data.
 - Previewing data before drilling down further.
 
-#### Don't use when
+#### Don’t use when
 
 - You only have a small data set.
 - A more detailed amount of information needs to be displayed by default.

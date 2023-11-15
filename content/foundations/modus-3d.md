@@ -73,8 +73,8 @@ Find additional resources for 3D patterns and implementation on the [Modus 3D Do
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                                                    | Contributors |
-| ---------- | ------- | -------------------------------------------------------- | ------------ |
-| 10/28/2022 | 1.4.0   | New guidelines added and linked to 3D documentation site. | P. Borgstein, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, A. Komninos, J. Oczkowski, E. Pilke, S. Sidhu, D. Silcock, T. Sippola, K. Thurlow      |
+| Date       | Version | Notes                                                     | Contributors                                                                                                                                  |
+| ---------- | ------- | --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 10/28/2022 | 1.4.0   | New guidelines added and linked to 3D documentation site. | P. Borgstein, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, A. Komninos, J. Oczkowski, E. Pilke, S. Sidhu, D. Silcock, T. Sippola, K. Thurlow |
 
 {{</ whats-changed-table >}}

@@ -1,0 +1,153 @@
+- title: Getting Started
+  prefix: ""
+  pages:
+    - title: Introduction
+    - title: Figma
+    - title: Adobe XD
+    - title: Device Support
+
+- title: Foundations
+  prefix: ""
+  pages:
+    - title: Accessibility
+    - title: Color Palette
+    - title: Dark Mode
+    - title: Data Visualization
+    - title: Grid & Spacing
+    - title: Icon Definitions
+    - title: Logo Usage
+    - title: Modus 3D
+    - title: Shadows & Depth
+    - title: Trimble ID (TID)
+    - title: Typography
+    - title: User Assistance
+    - title: Voice & Tone
+    - title: Writing Style
+
+- title: Components (Web)
+  prefix: "components/web"
+  pages:
+    - title: Introduction
+    - title: Accordions
+    - title: Alerts
+    - title: Autocomplete
+    - title: Badges
+    - title: Breadcrumbs
+    - title: Buttons
+    - title: Cards
+    - title: Checkboxes
+    - title: Chips
+    - title: Content Tree
+    - title: Date & Time Picker
+    - title: Dropdowns
+    - title: File Upload Dropzone
+    - title: Inputs
+    - title: Lists
+    - title: Messages
+    - title: Modals
+    - title: Navbars
+    - title: Pagination
+    - title: Progress Bars
+    - title: Radio Buttons
+    - title: Rich Text Format Editor
+    - title: Sentiment Scale
+    - title: Side Navigation
+    - title: Sliders
+    - title: Spinners
+    - title: Switches
+    - title: Tables
+    - title: Tabs
+    - title: Toasts
+    - title: Tooltips
+    - title: Transactional Emails
+    - title: Utility Panel
+
+- title: Components (In-Field)
+  prefix: "components/in-field"
+  pages:
+    - title: Introduction
+    - title: Accordions
+    - title: Alarms
+    - title: Badges
+    - title: Buttons
+    - title: Cards
+    - title: Checkboxes
+    - title: Chips
+    - title: Dropdowns
+    - title: Inputs
+    - title: Lists
+    - title: Messages
+    - title: Modals
+    - title: Navbar
+    - title: Notifications
+    - title: Prompts
+    - title: Radio Buttons
+    - title: Scrollbars
+    - title: Segmented Controls
+    - title: Sliders
+    - title: Switches
+    - title: Tables
+    - title: Tabs
+
+- title: Components (Mobile)
+  prefix: "components/mobile"
+  pages:
+    - title: Introduction
+    - title: Accordions
+    - title: Alerts
+    - title: Badges
+    - title: Bottom Navbars
+    - title: Buttons
+    - title: Cards
+    - title: Checkboxes
+    - title: Chips
+    - title: Inputs
+    - title: Lists
+    - title: Messages
+    - title: Modals
+    - title: Progress Bars
+    - title: Radio Buttons
+    - title: Scrollbars
+    - title: Segmented Controls
+    - title: Sliders
+    - title: Spinners
+    - title: Switches
+    - title: Tables
+    - title: Tabs
+    - title: Toasts
+    - title: Top Navbars
+
+- title: Components (XR)
+  prefix: "components/xr"
+  pages:
+    - title: Introduction
+    - title: Backplates
+    - title: Buttons
+    - title: Cards
+    - title: Lists
+    - title: Menus
+    - title: Modals
+    - title: Sliders
+    - title: Tooltips
+
+- title: Community
+  pages:
+    - title: News & Articles
+      url: "/news/"
+    - title: How to Contribute
+      url: "/community/contribute/"
+    - title: Tiger Teams
+      url: "/community/tiger-teams/"
+    - title: Contribution Process
+      url: "/community/contribution-process/"
+    - title: Submission Guidelines
+      url: "/community/submission-guidelines/"
+    - title: Submissions Status
+      url: "/community/submissions-status/"
+    - title: Modus Adoption
+      url: "/community/modus-adoption/"
+    - title: Contact Us
+      url: "/community/contact-us/"
+    - title: GitHub Discussions
+      url: "https://github.com/orgs/trimble-oss/discussions"
+      external: true

@@ -20,81 +20,42 @@ tags: [usage]
 Checkboxes should be used in forms that require submission and processing. The checkbox is shown as a square box that is ticked when it is activated. It allows the user to select one or more options among all the limited choices and requires a button press to confirm the user's settings before they are committed.
 
 <div class="guide-example-block">
-  <div class="guide-sample d-flex mb-4">
-    <div class="form-group">
-      <div class="custom-control custom-checkbox">
-        <input
-          type="checkbox"
-          checked=""
-          class="custom-control-input"
-          id="exampleCheckbox"
-          name="exampleCheckbox"
-          value="customEx"
-        />
-        <label class="custom-control-label" for="exampleCheckbox"
-          >Checkbox</label
-        >
-      </div>
-      <div class="custom-control custom-checkbox">
-        <input
-          type="checkbox"
-          class="custom-control-input"
-          id="exampleCheckbox2"
-          name="exampleCheckbox2"
-          value="customEx"
-        />
-        <label class="custom-control-label" for="exampleCheckbox2"
-          >Checkbox</label
-        >
-      </div>
-    </div>
-    <div class="form-group ml-3">
-      <div class="custom-control custom-checkbox">
-        <input
-          type="checkbox"
-          disabled=""
-          checked=""
-          class="custom-control-input"
-          id="exampleCheckbox3"
-          name="exampleCheckbox3"
-          value="customEx"
-        />
-        <label class="custom-control-label" for="exampleCheckbox3"
-          >Disabled</label
-        >
-      </div>
-      <div class="custom-control custom-checkbox">
-        <input
-          type="checkbox"
-          disabled=""
-          class="custom-control-input"
-          id="exampleCheckbox4"
-          name="exampleCheckbox4"
-          value="customEx"
-        />
-        <label class="custom-control-label" for="exampleCheckbox4"
-          >Disabled</label
-        >
-      </div>
-    </div>
-    <div class="form-group ml-3">
-      <div class="custom-control custom-checkbox">
-        <input
-          type="checkbox"
-          class="custom-control-input"
-          id="exampleCheckbox5"
-          name="exampleCheckbox5"
-          value="customEx">
-        <label class="custom-control-label" for="exampleCheckbox5"
-         >Indeterminate State</label
-         >
-      </div>
-    </div>
-  </div>
+  <div class="guide-sample mb-4">
+  <div class="form-check my-2">
+  <input class="form-check-input" type="checkbox" id="flexCheckChecked" checked>
+  <label class="form-check-label" for="flexCheckChecked">
+    Checked checkbox
+  </label>
+</div>
+<div class="form-check my-2">
+  <input class="form-check-input" type="checkbox"  id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Default checkbox
+  </label>
+</div>
+<div class="form-check my-2">
+  <input class="form-check-input" type="checkbox" id="flexCheckChecked" disabled checked>
+  <label class="form-check-label" for="flexCheckCheckedDisabled">
+    Disabled Checked checkbox
+  </label>
+</div>
+<div class="form-check my-2">
+  <input class="form-check-input" type="checkbox" id="flexCheckChecked" disabled>
+  <label class="form-check-label" for="flexCheckCheckedDisabled">
+    Disabled checkbox
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="flexCheckIndeterminate">
+  <label class="form-check-label" for="flexCheckIndeterminate">
+    Indeterminate checkbox
+  </label>
+</div>
+</div>
 </div>
 
 <script>
-document.querySelector('#exampleCheckbox5').indeterminate = true;
+document.querySelector('#flexCheckIndeterminate').indeterminate = true;
 </script>
 
 ## Usage
@@ -156,17 +117,12 @@ document.querySelector('#exampleCheckbox5').indeterminate = true;
           </div>
           <div class="card-footer d-flex justify-content-between">
             <div class="form-group mb-0">
-              <div class="custom-control custom-checkbox">
-                <input
-                  type="checkbox"
-                  name="accept"
-                  id="accept"
-                  class="custom-control-input"
-                />
-                <label class="custom-control-label" for="accept"
-                  >I Accept</label
-                >
-              </div>
+              <div class="form-check">
+  <input class="form-check-input" type="checkbox" id="IAccept">
+  <label class="form-check-label" for="IAccept">
+    I Accept
+  </label>
+</div>
             </div>
             <button class="btn btn-primary" type="submit">Submit</button>
           </div>
@@ -193,37 +149,37 @@ document.querySelector('#exampleCheckbox5').indeterminate = true;
     <tr>
       <td scope="row">
         <div class="d-flex bg-panel-background p-3">
-          <div class="form-group mb-0">
-            <div class="custom-control custom-control-inline custom-checkbox">
+          <div class="form-group mb-0 d-flex">
+            <div class="custom-control custom-control-inline custom-checkbox me-3">
               <input
                 type="checkbox"
                 name="dont1"
                 id="dont1"
-                class="custom-control-input"
+                class="form-check-input"
               />
-              <label class="custom-control-label" for="dont1"
+              <label class="form-check-label" for="dont1"
                 >Hide Offline</label
               >
             </div>
-            <div class="custom-control custom-control-inline custom-checkbox">
+            <div class="custom-control custom-control-inline custom-checkbox me-3">
               <input
                 type="checkbox"
                 name="dont2"
                 id="dont2"
-                class="custom-control-input"
+                class="form-check-input"
               />
-              <label class="custom-control-label" for="dont2"
+              <label class="form-check-label" for="dont2"
                 >Show Friends Only</label
               >
             </div>
-            <div class="custom-control custom-control-inline custom-checkbox">
+            <div class="custom-control custom-control-inline custom-checkbox me-3">
               <input
                 type="checkbox"
                 name="dont3"
                 id="dont3"
-                class="custom-control-input"
+                class="form-check-input"
               />
-              <label class="custom-control-label" for="dont3"
+              <label class="form-check-label" for="dont3"
                 >Collapse Panel</label
               >
             </div>
@@ -234,31 +190,31 @@ document.querySelector('#exampleCheckbox5').indeterminate = true;
             class="list-group-item d-flex justify-content-between align-items-center"
           >
             John Doe
-            <span class="badge badge-success">Online</span>
+            <span class="badge bg-success">Online</span>
           </li>
           <li
             class="list-group-item d-flex justify-content-between align-items-center"
           >
             Bob Smith
-            <span class="badge badge-success">Online</span>
+            <span class="badge bg-success">Online</span>
           </li>
           <li
             class="list-group-item d-flex justify-content-between align-items-center"
           >
             Jane Doe
-            <span class="badge badge-tertiary">Offline</span>
+            <span class="badge bg-tertiary text-dark">Offline</span>
           </li>
           <li
             class="list-group-item d-flex justify-content-between align-items-center"
           >
             Mary Smith
-            <span class="badge badge-tertiary">Offline</span>
+            <span class="badge bg-tertiary text-dark">Offline</span>
           </li>
           <li
             class="list-group-item d-flex justify-content-between align-items-center"
           >
             Jack Ryan
-            <span class="badge badge-tertiary">Offline</span>
+            <span class="badge bg-tertiary text-dark">Offline</span>
           </li>
         </ul>
       </td>

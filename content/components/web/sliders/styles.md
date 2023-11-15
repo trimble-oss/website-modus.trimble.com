@@ -11,6 +11,8 @@ bootstrapURL: "/components/sliders/"
 reactBootstrapURL: "/components/sliders/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-slider--default"
 tags: [styles]
+disableAnatomy: true
+popoverCSSInspector: true
 ---
 
 ## Specifications
@@ -21,8 +23,20 @@ tags: [styles]
 - Validate input as soon as users have finished interacting with a field (but not before).
 - Always use with two text field components when range slider has dual thumbs to provide accessible alternatives to both the lower and upper thumbs.
 
-<label for="customRange1">Example range</label>
-<input type="range" class="custom-range" id="customRange1">
+<div class="bg-secondary bg-opacity-10 py-3">
+  <div class="mx-auto w-75 ps-5 py-2">
+    <label for="Range1" class="form-label">Example range</label>
+    <input
+      type="range"
+      class="form-range"
+      id="Range1"
+      data--bs-toggle="popover"
+      data--bs-custom-class="popover-css-inspector"
+      data--bs-placement="left"
+      data--css-inspector-hide="c hide-bc hide-br hide-fs hide-m hide-p hide-us show-h"
+      data--bs-container="div">
+  </div>
+</div>
 
 ### Behaviors
 
@@ -38,5 +52,5 @@ tags: [styles]
 | Slider Bar            | Background | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
 | Thumb                 | Background | {{< color-preview nameL="White" hexL="#ffffff" nameD="White" hexD="#ffffff" >}}                 |
 | Label Text (Optional) | Color      | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff" >}}          |
-{class="table table-sm table-bordered"}
+{class="table table-sm table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->

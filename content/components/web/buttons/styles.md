@@ -10,36 +10,9 @@ bootstrapURL: "/components/buttons/"
 reactBootstrapURL: "/components/buttons/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-button--default"
 tags: [styles]
+disableAnatomy: true
+popoverCSSInspector: true
 ---
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css">
-
-<style>
-[data-theme="light"] #btn-dark-hover {
-  background-color: #e0e1e9 !important;
-}
-[data-theme="light"] #btn-primary-hover {
-  background-color: #dcedf9 !important;
-}
-</style>
-<style>
-[data-theme="dark"] #btn-secondary-default {
-  color: #90939f !important;
-}
-[data-theme="dark"] #btn-secondary-hover {
-  color: #7d808d !important;
-}
-[data-theme="dark"] #btn-secondary-active {
-  color: #353a40 !important;
-  background-color: #90939f !important;
-}
-[data-theme="dark"] #btn-secondary-disabled {
-  color: #90939f !important;
-}
-table td p {
-  margin-bottom: 0 !important;
-}
-</style>
 
 ## Specifications
 
@@ -56,88 +29,60 @@ table td p {
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th></th>
+      <th width="100"></th>
       <th>Example</th>
-      <th>Height</th>
-      <th>Use case</th>
+      <th width="130">Use Case</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr height="180">
       <th scope="row">Small</th>
-      <td class="anatomy-cell">
-        <button type="button"
-          data-anatomy-colors="false"
-          class="btn btn-sm btn-primary anatomy-display-static"
-        >
+      <td class="align-middle">
+        <button
+          type="button"
+          class="btn btn-sm btn-primary pe-none"
+          data-bs-placement="right"
+          data-bs-toggle="popover"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-show="padding"
+          data-bs-container="td">
           Button
         </button>
       </td>
-      <td>24px</td>
       <td>Tables</td>
     </tr>
-    <tr>
+    <tr height="190">
       <th scope="row">Default</th>
-      <td class="anatomy-cell">
-        <button type="button"
-          data-anatomy-colors="false"
-          class="btn btn-primary anatomy-display-static"
-        >
+      <td class="align-middle">
+        <button
+          type="button"
+          class="btn btn-primary pe-none"
+          data-bs-placement="right"
+          data-bs-toggle="popover"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-show="padding"
+          data-bs-container="td">
           Button
         </button>
       </td>
-      <td>32px</td>
       <td>Action Bars</td>
     </tr>
-    <tr>
+    <tr height="190">
       <th scope="row">Large</th>
-      <td class="anatomy-cell">
-        <button type="button"
-          data-anatomy-colors="false"
-          class="btn btn-lg btn-primary anatomy-display-static"
-        >
+      <td class="align-middle">
+        <button
+          type="button"
+          class="btn btn-lg btn-primary pe-none"
+          data-bs-placement="right"
+          data-bs-toggle="popover"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-show="padding"
+          data-bs-boundary="td"
+          data-bs-container="td">
           Button
         </button>
       </td>
-      <td>48px</td>
       <td>Modals</td>
-    </tr>
-  </tbody>
-</table>
-
-- The size of icon buttons should be as follows:
-
-<table class="table table-bordered">
-  <thead>
-    <tr>
-      <th></th>
-      <th>Example</th>
-      <th>Button size</th>
-      <th>Icon size</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Small</td>
-      <td>
-      <button type="button" class="btn btn-sm btn-icon-only btn-text-dark pe-none" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      <button type="button" class="btn btn-sm btn-icon-only btn-outline-dark pe-none" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
-      <td>24px</td>
-      <td>16px</td>
-    </tr>
-    <tr>
-      <td>Default</td>
-      <td><button type="button" class="btn btn-icon-only btn-text-dark pe-none" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      <button type="button" class="btn btn-icon-only btn-outline-dark pe-none" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
-      <td>32px</td>
-      <td>24px</td>
-    </tr>
-    <tr>
-      <td>Large</td>
-      <td><button type="button" class="btn btn-lg btn-icon-only btn-text-dark pe-none" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      <button type="button" class="btn btn-lg btn-icon-only btn-outline-dark pe-none" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
-      <td>48px</td>
-      <td>32px (use 24px when used for Navbars)</td>
     </tr>
   </tbody>
 </table>
@@ -148,7 +93,8 @@ All buttons (including icon buttons) should have the following states:
 
 - Default
 - Hover
-- Pressed
+- Focus
+- Active (Pressed)
 - Disabled
 
 A critical action button has an additional “loading” state when the hover color gradually takes over the button background upon click and hold.
@@ -156,173 +102,187 @@ A critical action button has an additional “loading” state when the hover co
 #### Structural Progression States
 
 <table class="table table-bordered" style="width: max-content">
-  <thead class="thead-light">
-    <tr>
-      <th>State</th>
-      <th>Primary</th>
-      <th>Primary Outline</th>
-      <th>Dark Outline</th>
-      <th>Text</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Default</th>
-      <td>
-        <button class="btn btn-primary" type="button">Button</button>
-      </td>
-      <td>
-        <button class="btn btn-outline-primary" type="button">Button</button>
-      </td>
-      <td>
-        <button class="btn btn-outline-dark" type="button">Button</button>
-      </td>
-      <td>
-        <button class="btn btn-text-primary" type="button">Button</button>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">Hover</th>
-      <td><button class="btn hover btn-primary" type="button">Button</button></td>
-      <td><button class="btn hover btn-outline-primary" type="button">Button</button></td>
-      <td><button class="btn hover btn-outline-dark" type="button">Button</button></td>
-      <td><button class="btn hover btn-text-primary" type="button">Button</button></td>
-    </tr>
-    <tr>
-      <th scope="row">Active</th>
-      <td>
-        <button class="btn display-active btn-primary" type="button">Button</button>
-      </td>
-      <td>
-        <button class="btn display-active btn-outline-primary" type="button">Button</button>
-      </td>
-      <td>
-        <button class="btn display-active btn-outline-dark" type="button">Button</button>
-      </td>
-      <td>
-        <button class="btn display-active btn-text-primary" type="button">Button</button>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">Disabled</th>
-      <td><button disabled class="btn btn-primary" type="button">Button</button></td>
-      <td><button disabled class="btn btn-outline-primary" type="button">Button</button></td>
-      <td><button disabled class="btn btn-outline-dark" type="button">Button</button></td>
-      <td><button disabled class="btn btn-text-primary" type="button">Button</button></td>
-    </tr>
-  </tbody>
+      <thead class="thead-light">
+        <tr>
+          <th>State</th>
+          <th>Primary</th>
+          <th>Primary Outline</th>
+          <th>Secondary Outline</th>
+          <th>Text Primary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Default</th>
+          <td class="py-2">
+            <button class="btn btn-primary" type="button">Button</button>
+          </td>
+          <td class="py-2">
+            <button class="btn btn-outline-primary" type="button">Button</button>
+          </td>
+          <td class="py-2">
+            <button class="btn btn-outline-secondary" type="button">Button</button>
+          </td>
+          <td class="py-2">
+            <button class="btn btn-text-primary" type="button">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Hover</th>
+          <td class="py-2"><button class="btn hover btn-primary" type="button">Button</button></td>
+          <td class="py-2"><button class="btn hover btn-outline-primary" type="button">Button</button></td>
+          <td class="py-2"><button class="btn hover btn-outline-secondary" type="button">Button</button></td>
+          <td class="py-2"><button class="btn hover btn-text-primary" type="button">Button</button></td>
+        </tr>
+        <tr hidden>
+          <th scope="row">Focus</th>
+          <td class="py-2"><button class="btn focus-visible btn-primary" type="button">Button</button></td>
+          <td class="py-2"><button class="btn focus-visible btn-outline-primary" type="button">Button</button></td>
+          <td class="py-2"><button class="btn focus-visible btn-outline-secondary" type="button">Button</button></td>
+          <td class="py-2"><button class="btn focus-visible btn-text-primary" type="button">Button</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Active</th>
+          <td class="py-2">
+            <button class="btn active btn-primary" data-bs-toggle="button" type="button">Button</button>
+          </td>
+          <td class="py-2">
+            <button class="btn active btn-outline-primary" data-bs-toggle="button" type="button">Button</button>
+          </td>
+          <td class="py-2">
+            <button class="btn active btn-outline-secondary" data-bs-toggle="button" type="button">Button</button>
+          </td>
+          <td class="py-2">
+            <button class="btn active btn-text-primary" data-bs-toggle="button" type="button">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Disabled</th>
+          <td class="py-2"><button disabled class="btn btn-primary disabled" type="button" aria-disabled="true">Button</button></td>
+          <td class="py-2"><button disabled class="btn btn-outline-primary disabled" type="button" aria-disabled="true">Button</button></td>
+          <td class="py-2"><button disabled class="btn btn-outline-secondary disabled" type="button" aria-disabled="true">Button</button></td>
+          <td class="py-2"><button disabled class="btn btn-text-primary disabled" type="button" aria-disabled="true">Button</button></td>
+        </tr>
+      </tbody>
 </table>
 
 #### Color Progression States
 
 <table class="table table-bordered" style="width: max-content">
-  <thead class="thead-light">
-    <tr>
-      <th>State</th>
-      <th>Primary</th>
-      <th>Secondary</th>
-      <th>Tertiary</th>
-      <th>Text</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Default</th>
-      <td>
-        <button class="btn btn-primary" type="button">Button</button>
-      </td>
-      <td>
-        <button class="btn btn-secondary" type="button">Button</button>
-      </td>
-      <td>
-        <button class="btn btn-tertiary" type="button">Button</button>
-      </td>
-      <td>
-        <button class="btn btn-text-primary" type="button">Button</button>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">Hover</th>
-      <td><button class="btn hover btn-primary" type="button">Button</button></td>
-      <td><button class="btn hover btn-secondary" type="button">Button</button></td>
-      <td><button class="btn hover btn-tertiary" type="button">Button</button></td>
-      <td><button class="btn hover btn-text-primary" type="button">Button</button></td>
-    </tr>
-    <tr>
-      <th scope="row">Active</th>
-      <td>
-        <button class="btn display-active btn-primary" type="button">Button</button>
-      </td>
-      <td>
-        <button class="btn display-active btn-secondary" type="button">Button</button>
-      </td>
-      <td>
-        <button class="btn display-active btn-tertiary" type="button" style="color: #252a2e">Button</button>
-      </td>
-      <td>
-        <button class="btn display-active btn-text-primary" type="button">Button</button>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">Disabled</th>
-      <td><button disabled class="btn btn-primary" type="button">Button</button></td>
-      <td><button disabled class="btn btn-secondary" type="button">Button</button></td>
-      <td><button disabled class="btn btn-tertiary" type="button">Button</button></td>
-      <td><button disabled class="btn btn-text-primary" type="button">Button</button></td>
-    </tr>
-  </tbody>
+      <thead class="thead-light">
+        <tr>
+          <th>State</th>
+          <th>Primary</th>
+          <th>Secondary</th>
+          <th>Tertiary</th>
+          <th>Text Primary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Default</th>
+          <td class="py-2">
+            <button class="btn btn-primary pe-none" type="button">Button</button>
+          </td>
+          <td class="py-2">
+            <button class="btn btn-secondary pe-none" type="button">Button</button>
+          </td>
+          <td class="py-2">
+            <button class="btn btn-tertiary pe-none" type="button">Button</button>
+          </td>
+          <td class="py-2">
+            <button class="btn btn-text-primary pe-none" type="button">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Hover</th>
+          <td class="py-2"><button class="btn hover btn-primary pe-none" type="button">Button</button></td>
+          <td class="py-2"><button class="btn hover btn-secondary pe-none" type="button">Button</button></td>
+          <td class="py-2"><button class="btn hover btn-tertiary pe-none" type="button">Button</button></td>
+          <td class="py-2"><button class="btn hover btn-text-primary pe-none" type="button">Button</button></td>
+        </tr>
+        <tr hidden class="d-none">
+          <th scope="row">Focus</th>
+          <td class="py-2"><button class="btn focus-visible btn-primary pe-none" type="button">Button</button></td>
+          <td class="py-2"><button class="btn focus-visible btn-secondary pe-none" type="button">Button</button></td>
+          <td class="py-2"><button class="btn focus-visible btn-tertiary pe-none" type="button">Button</button></td>
+          <td class="py-2"><button class="btn focus-visible btn-text-primary pe-none" type="button">Button</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Active</th>
+          <td class="py-2">
+            <button class="btn display-active active btn-primary pe-none" data-bs-toggle="button" type="button">Button</button>
+          </td>
+          <td class="py-2">
+            <button class="btn display-active active btn-secondary pe-none" data-bs-toggle="button" type="button">Button</button>
+          </td>
+          <td class="py-2">
+            <button class="btn display-active active btn-tertiary pe-none" data-bs-toggle="button" type="button">Button</button>
+          </td>
+          <td class="py-2">
+            <button class="btn display-active active btn-text-primary pe-none" data-bs-toggle="button" type="button">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Disabled</th>
+          <td class="py-2"><button disabled class="btn btn-primary disabled" type="button" aria-disabled="true">Button</button></td>
+          <td class="py-2"><button disabled class="btn btn-secondary disabled" type="button" aria-disabled="true">Button</button></td>
+          <td class="py-2"><button disabled class="btn btn-tertiary disabled" type="button" aria-disabled="true">Button</button></td>
+          <td class="py-2"><button disabled class="btn btn-text-primary disabled" type="button" aria-disabled="true">Button</button></td>
+        </tr>
+      </tbody>
 </table>
+
+<script>
+  const buttons = document.querySelectorAll('.focus');
+  buttons.forEach(button => button.focus());
+</script>
+<style>
+.btn.focus-visible {
+  color: var(--bs-btn-hover-color);
+  background-color: var(--bs-btn-hover-bg);
+  border-color: var(--bs-btn-hover-border-color);
+  outline: 0;
+  box-shadow: var(--bs-btn-focus-box-shadow);
+}
+.btn.hover {
+  color: var(--bs-btn-hover-color);
+  background-color: var(--bs-btn-hover-bg);
+  border-color: var(--bs-btn-hover-border-color);
+}
+</style>
 
 #### Danger Button States
 
-Danger buttons are solid, both as text buttons and icon buttons.
-
 <table class="table table-bordered" style="width: max-content">
-  <thead class="thead-light">
-    <tr>
-      <th>State</th>
-      <th>Danger</th>
-      <th>Danger Icon</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Default</th>
-      <td>
-        <button class="btn btn-danger" type="button">Button</button>
-      </td>
-      <td>
-        <button class="btn btn-danger btn-icon-only" type="button" aria-label="Delete">
-          <i class="modus-icons notranslate" aria-hidden="true">delete</i>
-        </button>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">Hover</th>
-      <td><button class="btn hover btn-danger" type="button">Button</button></td>
-      <td><button class="btn hover btn-danger btn-icon-only" type="button" aria-label="Delete">
-        <i class="modus-icons notranslate" aria-hidden="true">delete</i>
-      </button></td>
-    </tr>
-    <tr>
-      <th scope="row">Active</th>
-       <td>
-        <button class="btn display-active btn-danger" type="button">Button</button>
-      </td>
-       <td>
-        <button class="btn display-active btn-danger btn-icon-only" type="button" aria-label="Delete">
-          <i class="modus-icons notranslate" aria-hidden="true">delete</i>
-        </button>
-      </td>
-    </tr>
-    <tr>
-      <th scope="row">Disabled</th>
-      <td><button disabled class="btn btn-danger" type="button">Button</button></td>
-      <td><button disabled class="btn btn-danger btn-icon-only" type="button" aria-label="Delete">
-        <i class="modus-icons notranslate" aria-hidden="true">delete</i>
-      </button></td>
-    </tr>
-  </tbody>
+      <thead class="thead-light">
+        <tr>
+          <th>State</th>
+          <th>Danger</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Default</th>
+          <td>
+            <button class="btn btn-danger" type="button">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Hover</th>
+          <td><button class="btn hover btn-danger" type="button">Button</button></td>
+        </tr>
+        <tr>
+          <th scope="row">Active</th>
+          <td>
+            <button class="btn display-active btn-danger" type="button">Button</button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Disabled</th>
+          <td><button disabled class="btn btn-danger" type="button">Button</button></td>
+        </tr>
+      </tbody>
 </table>
 
 #### Critical Action Button States
@@ -394,85 +354,59 @@ The recommended amount of time is five seconds and/or should be sufficient to re
 
 #### Icon-Only Button States
 
-**Note:** There are only four color options available for Icon-Only buttons:
+There are three types of icon-only buttons:
 
-- **Dark:** The default recommended option (Trimble Gray)
-- **Secondary:** Gray 6
-- **Primary:** Trimble Blue
-- **Reversed:** White. These are used in blue or dark Nav Bars.
+- Icon-only buttons with no fill and no outline.
+- Solid button
+- Outline button
+
+#### Icon-only buttons (no fill, no outline) are recommended:
 
 <table class="table table-bordered">
   <thead>
     <tr>
-      <th style="width: 12%">State</th>
-      <th style="width: 22%">Dark</th>
-      <th style="width: 22%">Secondary</th>
-      <th style="width: 22%">Primary</th>
-      <th style="width: 22%">Reversed</th>
+      <th style="width:12%">State</th>
+      <th style="width:22%">Primary</th>
+      <th style="width:22%">Secondary*</th>
+      <th style="width:22%">Tertiary</th>
+      <th style="width:22%">Reversed</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="width: 12%">Default</td>
-      <td style="width: 22%">
-        <button type="button" class="btn btn-icon-only btn-text-dark pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      </td>
-      <td style="width: 22%">
-        <button type="button" id="btn-secondary-default" class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      </td>
-      <td style="width: 22%">
-        <button type="button" class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      </td>
-      <td style="background-color: #0e416c; color:#fff !important;">
-        <button type="button" class="btn btn-icon-only pe-none"><i class="modus-icons notranslate" aria-hidden="true" style="color:#fff;">settings</i></button>
-      </td>
+      <td style="width:12%">Default</td>
+      <td style="width:22%"><button class="btn btn-icon-only text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td style="width:22%"><button class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td style="width:22%"><button class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td style="background-color:#0e416c"><button class="btn btn-icon-only text-white pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
     </tr>
     <tr>
       <td>Hover</td>
-      <td>
-        <button type="button" id="btn-dark-hover" class="btn btn-icon-only btn-text-dark pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      </td>
-      <td>
-        <button type="button" id="btn-secondary-hover" class="btn btn-icon-only btn-text-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      </td>
-      <td>
-        <button type="button" id="btn-primary-hover" class="btn btn-icon-only text-primary btn-outline-primary border-0 pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      </td>
-      <td style="background-color: #0e416c; color:#fff !important;">
-        <button type="button" class="btn btn-icon-only pe-none bg-primary hover" style="border-width: 1px !important; border-color: #019AEB !important; background-color: #217CBB !important;">
-        <i class="modus-icons notranslate" aria-hidden="true" style="color:#fff;">settings</i></button>
-      </td>
+      <td><button class="btn btn-icon-only text-primary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-text-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only text-tertiary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td style="background-color:#0e416c"><button class="btn btn-icon-only text-white pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+    </tr>
+    <tr hidden>
+      <td>Focus</td>
+      <td><button class="btn btn-icon-only text-primary pe-none focus-visible"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-text-secondary pe-none focus-visible"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only text-tertiary pe-none focus-visible"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td style="background-color:#0e416c"><button class="btn btn-icon-only text-white pe-none focus-visible"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
     </tr>
     <tr>
       <td>Active</td>
-      <td>
-        <button type="button" class="btn btn-icon-only btn-text-dark display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      </td>
-      <td>
-        <button type="button" id="btn-secondary-active" class="btn btn-icon-only btn-text-secondary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      </td>
-      <td>
-        <button type="button" class="btn btn-icon-only btn-text-primary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      </td>
-      <td style="background-color: #0e416c;">
-        <button type="button" class="btn btn-icon-only btn-text-darkblue display-active bg-active pe-none" style="background-color: #019AEB !important; color:#fff !important;">
-        <i class="modus-icons notranslate" aria-hidden="true" style="color:#fff;">settings</i></button>
-      </td>
+      <td><button class="btn btn-icon-only text-primary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-text-secondary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button class="btn btn-icon-only btn-text-tertiary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td style="background-color:#0e416c"><button class="btn btn-icon-only text-white pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
     </tr>
     <tr>
       <td>Disabled</td>
-      <td>
-        <button type="button" disabled class="btn btn-icon-only btn-text-dark pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      </td>
-      <td>
-        <button type="button" id="btn-secondary-disabled" disabled class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      </td>
-      <td>
-        <button type="button" disabled class="btn btn-icon-only btn-text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
-      </td>
-      <td style="background-color: #0e416c; color:#fff !important;">
-        <button type="button" disabled class="btn btn-icon-only pe-none"><i class="modus-icons notranslate" aria-hidden="true" style="color:#fff;">settings</i></button>
-      </td>
+      <td><button disabled class="btn btn-icon-only text-primary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button disabled class="btn btn-icon-only btn-text-secondary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td><button disabled class="btn btn-icon-only btn-text-tertiary pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
+      <td style="background-color:#0e416c"><button disabled class="btn btn-icon-only text-white pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></td>
     </tr>
   </tbody>
 </table>
@@ -482,16 +416,12 @@ The recommended amount of time is five seconds and/or should be sufficient to re
 <table class="table table-bordered">
   <thead>
     <tr>
-      <th rowspan="2">State</th>
-      <th colspan="3">Solid</th>
-      <th colspan="2">Outline</th>
-    </tr>
-    <tr>
-      <th>Primary</th>
-      <th>Secondary*</th>
-      <th>Tertiary</th>
-      <th>Primary</th>
-      <th>Secondary*</th>
+      <th style="width:10%">State</th>
+      <th style="width:16%">Primary</th>
+      <th style="width:16%">Secondary*</th>
+      <th style="width:16%">Tertiary</th>
+      <th style="width:16%">Primary Outline</th>
+      <th style="width:16%">Secondary Outline*</th>
     </tr>
   </thead>
   <tbody>
@@ -511,13 +441,21 @@ The recommended amount of time is five seconds and/or should be sufficient to re
       <td><button type="button" class="btn btn-icon-only btn-outline-primary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
       <td><button type="button" class="btn btn-icon-only btn-outline-secondary pe-none hover"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
     </tr>
+    <tr hidden>
+      <td>Focus</td>
+      <td><button class="btn btn-icon-only btn-primary pe-none focus-visible"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button class="btn btn-icon-only btn-secondary pe-none focus-visible"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button class="btn btn-icon-only btn-tertiary pe-none focus-visible"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button class="btn btn-icon-only btn-outline-primary pe-none focus-visible"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button class="btn btn-icon-only btn-outline-secondary pe-none focus-visible"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+    </tr>
     <tr>
       <td>Active</td>
-      <td><button type="button" class="btn btn-icon-only btn-primary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
-      <td><button type="button" class="btn btn-icon-only btn-secondary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
-      <td><button type="button" class="btn btn-icon-only btn-tertiary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true" style="color:#252a2e">settings</i></button></td>
-      <td><button type="button" class="btn btn-icon-only btn-outline-primary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
-      <td><button type="button" class="btn btn-icon-only btn-outline-secondary display-active pe-none"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-primary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-secondary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-tertiary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-outline-primary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
+      <td><button type="button" class="btn btn-icon-only btn-outline-secondary pe-none active"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button></td>
     </tr>
     <tr>
       <td>Disabled</td>
@@ -545,3 +483,11 @@ Icon button state colors may vary based on product. Always make sure the colors 
   - Don't use OK/Cancel to answer yes or no questions.
   - Make sure you keep "your" and "my" consistent.
   - Avoid saying "click" when referring to buttons (and other UI elements).
+
+<script>
+const popperDiv = document.querySelectorAll('.popover-css-inspector');
+popperDiv.forEach(div => {
+  div.removeAttribute('id');
+  div.setAttribute('data-popper-placement', 'right');
+});
+</script>

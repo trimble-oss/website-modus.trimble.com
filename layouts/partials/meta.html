@@ -4,66 +4,28 @@
 
 <!-- Removes the .no-js class from the <html> element if JavaScript is enabled -->
 <script>document.documentElement.classList.remove('no-js');</script>
-<!-- Theme Toggle  -->
+
+<!-- Loads Dark Mode Toggle JS -->
 {{ $themeToggle := resources.Get "js/theme-toggle.js" }}
 {{ $themeToggleJS := $themeToggle | resources.Minify }}
 <script src="{{ $themeToggleJS.RelPermalink }}" fetchpriority="high"></script>
 <meta name="color-scheme" content="light dark">
-<style>
-  html[data-theme="dark"] {
-    color-scheme: dark;
-  }
-</style>
+<meta name="theme-color" content="{{- with .Params.headerBGColor -}}{{- . -}}{{- else -}}#0e416c{{- end -}}">
 
-<!-- Faster Loading Google Fonts - https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/ -->
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Load Modus Bootstrap CSS -->
+<link rel="stylesheet" href="/css/modus-bootstrap.min.css">
 
 <!-- Compiles and minifies the sites Sass files from /assets/css/ -->
 {{- $sassOptions := (dict "enableSourceMap" true) -}}
 {{ $styles := resources.Get "styles/styles.scss" | toCSS $sassOptions | postCSS | minify }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}?v{{ hugo.Version }}">
 
-<!-- Load jQuery from CDN with fallback -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.7.0.min.js"><\/script>');</script>
+<!-- Load jQuery for search -->
+<script src=https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js></script>
+<script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.7.1.min.js"><\/script>')</script>
 
-{{ if .IsHome -}}
-{{ hugo.Generator }}
-
-<!-- https://search.google.com/search-console -->
-<meta name="google-site-verification" content="NMOesOkCLPuh0w1wyYyMje6YCd3XpJ30lrK5RfvEj7g" />
-{{ end}}
-
-{{ if not .Params.noIcons -}}
-<link rel="stylesheet" href="/css/modus-icons.css">
-{{ else }}
-<link rel="alternate" type="application/rss+xml" href="{{- .Site.BaseURL -}}index.xml"
-  title="{{ .Site.Title }} News & Articles" />
-{{- end }}
-
-<script src="/js/bootstrap.bundle.min.js" fetchpriority="low"></script>
-
-<meta name="description"
-  content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{- end -}}{{- end -}}">
-
-<!-- OpenGraph Meta tags using Hugo's own built-in template -->
-{{ template "_internal/opengraph.html" . }}
-<meta property="og:locale" content="en_US">
-
-<!-- no need to define additional Twitter card meta tags as fallback to Open Graph -->
-<!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#twitter-cards-and-open-graph -->
-
-<!-- Theme Color is used for the tab color on Chrome for Android -->
-<meta name="theme-color" content="#005f9e">
-
-<link rel="canonical" href="{{- .Permalink -}}">
-
-{{- with .OutputFormats.Get "rss" -}}
-{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-{{ end -}}
-
-<!-- Polyfill for Internet Explorer stuff -->
-<script nomodule crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<!-- Load Modus Icons -->
+<link rel="stylesheet" href="/fonts/modus-icons.css">
 
 {{ if not .Params.hideSearch }}
 <script>
@@ -78,11 +40,33 @@
 <script src="{{- $js.RelPermalink -}}" fetchpriority="low"></script>
 {{- end -}}
 
-<!-- Show custom 'LOC' favicon for serving locally -->
-{{- if .Site.IsServer -}}
-{{ $favicon := resources.Get "/static/favicon-loc.ico" }}
-<link rel="icon alternate" type="image/x-icon" href="{{ $favicon.RelPermalink }}" sizes="any">
-{{ else }}
-<link rel="icon alternate" type="image/x-icon" href="/favicon.ico">
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+<meta name="description"
+  content="{{- with .Description -}}{{- . -}}{{ else }}{{ with .Site.Params.description }}{{- . -}}{{- end -}}{{- end -}}">
+
+<!-- OpenGraph Meta tags using Hugo's own built-in template -->
+{{ template "_internal/opengraph.html" . }}
+<meta property="og:locale" content="en_US">
+
+<!-- no need to define additional Twitter card meta tags as fallback to Open Graph -->
+<!-- https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#twitter-cards-and-open-graph -->
+<meta name="robots" content="noindex, nofollow">
+
+<link rel="canonical" href="{{- .Permalink -}}">
+
+<!-- Loads the Trimble favicon and the SVG icon -->
+<link rel="alternate icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+<!-- Polyfills for Internet Explorer 11 -->
+<script nomodule crossorigin="anonymous"
+  src="https://polyfill.io/v3/polyfill.min.js?features=default%2CNumber.parseInt%2CNumber.parseFloat%2CArray.prototype.find%2CArray.prototype.includes"></script>
+<script
+  nomodule>window.MSInputMethodContext && document.documentMode && document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-ie11@5.3.2/css/bootstrap-ie11.min.css"><script src="https://cdn.jsdelivr.net/combine/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js,npm/ie11-custom-properties@4,npm/element-qsa-scope@1"><\/script>');</script>
+
+{{ if .IsHome }}
+{{ hugo.Generator }}
 {{ end }}
+
+<link rel="stylesheet" href="/css/bootstrap-print.min.css" media="print">
