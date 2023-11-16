@@ -20,13 +20,13 @@ Breadcrumb is a one-line navigational element that supports wayfinding: it aids 
 
 ## Usage
 
-#### Use when
+### Use when
 
 - You need to inform the user where they are in the hierarchy of the site.
 - The user needs to navigate back to a higher level page.
 - The application has a complex, multi-layer architecture that's more than 2 levels deep.
 
-#### Don't use when
+### Don't use when
 
 - Primary navigation is needed instead. Breadcrumbs are always treated as secondary and should never replace primary navigation.
 - Employing a vertical model tree component.

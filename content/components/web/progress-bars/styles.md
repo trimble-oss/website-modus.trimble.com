@@ -79,8 +79,8 @@ A smaller version is available with same specs as above except, Height: `8px`.
 A smaller version is available with same specs as above except, Height: `4px`.
 
 <style>
-.progress-xs {
-  height: 4px !important;
+.progress {
+  border-color: #6a6e79;
 }
 </style>
 
@@ -101,8 +101,8 @@ A smaller version is available with same specs as above except, Height: `4px`.
 - Whenever possible, show the user a textual representation of their progress that corresponds to the loading indicator.
 
 <div class="guide-example-block">
-  <div class="guide-sample text-center text-primary">
-    <div class="progress">
+  <div class="guide-sample">
+    <div class="progress text-primary">
       <div
         class="progress-bar"
         role="progressbar"
@@ -113,7 +113,7 @@ A smaller version is available with same specs as above except, Height: `4px`.
         aria-valuemax="100"
       ></div>
     </div>
-    <div class="text-left text-dark">
+    <div class="text-">
       <strong>Completed 40 of 50.</strong>
     </div>
   </div>

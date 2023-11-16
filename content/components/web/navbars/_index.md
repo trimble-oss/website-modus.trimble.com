@@ -26,18 +26,17 @@ The navbar or the app header provides context through globally accessible menu o
       <use xlink:href="/modus-solid-icons.svg#menu" /></svg>
   </button>
   <a href="#navbar-example" class="navbar-brand mr-auto ms-2">
-    <img src="https://modus-bootstrap.trimble.com/img/trimble-logo.svg" width="107" height="25" class="img-fluid d-none d-sm-block" alt="home">
-    <img src="https://modus-bootstrap.trimble.com/img/trimble-icon.svg" class="d-block d-sm-none" height="25" width="25" alt="home">
+    <img src="/img/trimble-logo.svg" width="107" height="25" class="img-fluid d-none d-sm-block" alt="home">
+    <img src="/img/trimble-icon.svg" class="d-block d-sm-none" height="25" width="25" alt="home">
   </a>
   <div class="collapse navbar-collapse">
     <div class="navbar-nav ms-auto">
 
-<div class="search-container d-inline-block position-relative">
+<div class="search-container d-inline-block position-relative" role="search">
   <input class="form-control form-control-search position-absolute" aria-label="Search" id="searchExample" type="search"
-    name="q" placeholder="Search..." autocomplete="off" title="" required>
-
+    placeholder="Search..." autocomplete="off" title="" required>
   <label class="btn btn-lg btn-icon-only border-0 btn-search text-body position-absolute p-2 pt-2" for="searchExample">
-    <svg class="" width="28" height="28" fill="currentColor" style="margin-top:3px;">
+    <svg width="28" height="28" fill="currentColor" style="margin-top:3px;">
           <use xlink:href="/modus-solid-icons.svg#search" /></svg>
   </label>
 </div>

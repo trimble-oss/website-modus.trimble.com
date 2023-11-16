@@ -10,3 +10,7 @@
 .table.table-bordered thead {
   background-color: rgba(133, 133, 133, 0.1);
 }
+
+[data-bs-theme="dark"] .table {
+  --bs-table-border-color: #353a40;
+}
