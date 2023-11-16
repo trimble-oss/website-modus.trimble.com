@@ -17,13 +17,13 @@ A toolbar allows for a maximum workspace and maintains an unobstructed view of t
 
 ## Usage
 
-#### Use when
+### Use when
 
 - Full-screen usage and unobstructed view of the content is critical, e.g., in graphic applications.
 - Providing a contextual menu benefits the user’s productivity.
 - Offering tools near to the objects being worked on is essential.
 
-#### Don't use when
+### Don't use when
 
 - You need to navigate between content within the application. Instead, use [Side Navigation](/components/web/side-navigation/) or [Content Tree](/components/web/content-tree/).
 - A more robust set of tools needs to be displayed. Instead, use [Utility Panel](/components/web/utility-panel/).
@@ -37,13 +37,62 @@ Toolbars can be classified by their layout as follows:
 
 Icon buttons are aligned next to each other (horizontally or vertically), but not connected.
 
-{{< img src="/img/components/floating-toolbar-single-buttons-example.svg" dark="/img/components/floating-toolbar-single-buttons-example-dark.svg" class="bg-light" width="220" height="166" alt="Floating Toolbar single buttons example" loading="lazy" >}}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css">
+<div class="w-100 me-auto text-center py-5 bg-secondary bg-opacity-10" hidden>
+<div>
+  <div>
+    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0 shadow-lg rounded border-0 ms-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Home">
+      <i class="modus-icons notranslate" aria-hidden="true">home</i>
+    </button>
+    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0 shadow-lg rounded border-0 ms-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="History">
+      <i class="modus-icons notranslate" aria-hidden="true">history</i>
+    </button>
+    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0 shadow-lg rounded border-0 ms-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Settings">
+      <i class="modus-icons notranslate" aria-hidden="true">settings</i>
+    </button>
+  </div>
+</div>
+</div>
+
+{{< img src="/img/components/floating-toolbar-single-buttons-example.svg" dark="/img/components/floating-toolbar-single-buttons-example-dark.svg" class="bg-light" width="214" height="162" alt="Floating Toolbar single buttons example" loading="lazy" >}}
 
 ### With Combined Buttons
 
 Icon buttons are connected vertically or horizontally.
 
-{{< img src="/img/components/floating-toolbar-combined-vertical-example.svg" dark="/img/components/floating-toolbar-combined-vertical-example-dark.svg" class="bg-light" width="220" height="166" alt="Floating Toolbar vertical example" loading="lazy" >}}
+<div class="w-100 me-auto text-center py-5 bg-secondary bg-opacity-10" hidden>
+<div>
+  <div class="btn-group me-2 shadow-lg rounded border-0" role="group" aria-label="Second group">
+    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Undo">
+      <i class="modus-icons notranslate" aria-hidden="true">undo</i>
+    </button>
+    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Redo">
+      <i class="modus-icons notranslate" aria-hidden="true">redo</i>
+    </button>
+    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Expand">
+      <i class="modus-icons notranslate" aria-hidden="true">expand</i>
+    </button>
+    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Collapse">
+      <i class="modus-icons notranslate" aria-hidden="true">collapse</i>
+    </button>
+    <div class="vr opacity-50"></div>
+    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Window Dock / Undock">
+      <i class="modus-icons notranslate" aria-hidden="true">window_dock_undock</i>
+    </button>
+  </div>
+</div>
+</div>
+
+{{< img src="/img/components/floating-toolbar-combined-vertical-example.svg" dark="/img/components/floating-toolbar-combined-vertical-example-dark.svg" class="bg-light" width="214" height="162" alt="Floating Toolbar vertical example" loading="lazy" >}}
+
+<style>
+[data-bs-theme="light"] .btn-outline-secondary:not(:hover) {
+  background-color: #fff;
+}
+[data-bs-theme="dark"] .btn-outline-secondary:not(:hover) {
+  background-color: #171c1e;
+}
+</style>
 
 {{< whats-changed-table >}}
 

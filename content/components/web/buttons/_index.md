@@ -186,7 +186,7 @@ There are two button progressions you can choose from: structural and color prog
   <tbody>
     <tr>
       <td>
-      <button type="button" class="btn btn-icon-only text-dark btn-transparent" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <button type="button" class="btn btn-icon-only btn-transparent" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       <button type="button" class="btn btn-icon-only text-primary btn-transparent" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>Icon-only</td>
@@ -202,7 +202,7 @@ There are two button progressions you can choose from: structural and color prog
     </tr>
     <tr>
       <td>
-      <button type="button" class="btn btn-icon-only btn-outline-dark" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <button type="button" class="btn btn-icon-only btn-outline-secondary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       <button type="button" class="btn btn-icon-only btn-outline-primary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>Outline</td>

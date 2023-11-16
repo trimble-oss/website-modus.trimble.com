@@ -21,12 +21,12 @@ Badges notify the user of a status, for example that there are new or unread mes
 
 ## Usage
 
-#### Use when
+### Use when
 
 - In proximity to notifications or user avatars with eye-catching appeal (e.g. displaying unread messages count).
 - Use for displaying quick, easily digestible bits of information.
 
-#### Don't use when
+### Don't use when
 
 - Displaying long strings of text.
 - An interactive element is needed, such as a [Button](/components/web/buttons/) or [Chip](/components/web/chips/).
@@ -46,7 +46,7 @@ Used when more emphasis is needed. **Default badges can look like [Buttons](/com
     <span class="badge bg-tertiary">Tertiary</span>
     <span class="badge bg-high-contrast">High Contrast</span>
     <span class="badge bg-success">Success</span>
-    <span class="badge bg-warning text-dark">Warning</span>
+    <span class="badge text-bg-warning">Warning</span>
     <span class="badge bg-danger">Danger</span>
   </div>
 </div>
@@ -76,7 +76,7 @@ Used to display up to 3 characters (usually a number in a counter). Counter badg
       <span class="badge badge-pill bg-tertiary">3</span>
       <span class="badge badge-pill bg-high-contrast">4</span>
       <span class="badge badge-pill bg-success">5</span>
-      <span class="badge badge-pill bg-warning text-dark">6</span>
+      <span class="badge badge-pill text-bg-warning">6</span>
       <span class="badge badge-pill bg-danger">7</span>
     </div>
 </div>
