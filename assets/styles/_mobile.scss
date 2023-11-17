@@ -45,7 +45,7 @@
     transition: none !important;
   }
 
-  body:has(#sidebar.show) .popover-css-inspector {
+  body:has(#sidebar.show) .popover {
     display: none;
   }
 }
