@@ -16,7 +16,7 @@ tags: [styles]
 
 A Card may contain any of the following elements (with the minimum of one), but they are all optional:
 
-- Card Container (with 1px border, 2px radius, 16px padding, and hover state with [Level 3 shadow](/foundations/shadows-and-depth/)) _required_
+- Card Container (with 1px border, 2px radius, 16px padding). Hover state with [Level 3 shadow](/foundations/shadows-and-depth/)) _required if card is a link_
 - Image (top of card, no padding) _optional_
 - Title _optional_
 - Subtitle _optional_
@@ -60,4 +60,3 @@ A Card may contain any of the following elements (with the minimum of one), but 
 - **Caption:** Use full sentences with punctuation, no longer than 40 words if possible. Do not include multiple paragraphs.
 - **Action:** Follow the editorial guidelines for [Buttons](/components/web/buttons/), [Chips](/components/web/chips/), etc. when using those elements.
 - **Metadata:** Keep metadata one to five words long to avoid wrapping.
-

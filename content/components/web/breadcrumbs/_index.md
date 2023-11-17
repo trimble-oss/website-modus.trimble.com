@@ -31,7 +31,7 @@ Breadcrumb is a one-line navigational element that supports wayfinding: it aids 
 - Primary navigation is needed instead. Breadcrumbs are always treated as secondary and should never replace primary navigation.
 - Employing a vertical model tree component.
 - If a lower-level page is (or can be put) in more than one parent category.
-- You want to show the user's history, path.
+- You want to show the user's history.
 - Your product has a flat hierarchy that's only 1 or 2 levels deep.
 
 {{< whats-changed-table >}}
