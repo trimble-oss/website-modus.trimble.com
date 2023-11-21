@@ -38,23 +38,17 @@ Toolbars can be classified by their layout as follows:
 Icon buttons are aligned next to each other (horizontally or vertically), but not connected.
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css">
-<div class="w-100 me-auto text-center py-5 bg-secondary bg-opacity-10" hidden>
-<div>
-  <div>
-    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0 shadow-lg rounded border-0 ms-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Home">
-      <i class="modus-icons notranslate" aria-hidden="true">home</i>
-    </button>
-    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0 shadow-lg rounded border-0 ms-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="History">
-      <i class="modus-icons notranslate" aria-hidden="true">history</i>
-    </button>
-    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0 shadow-lg rounded border-0 ms-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Settings">
-      <i class="modus-icons notranslate" aria-hidden="true">settings</i>
-    </button>
-  </div>
+<div class="text-center p-5 bg-secondary bg-opacity-10" style="width: 214px;">
+  <button type="button" class="btn btn-outline-secondary btn-icon-only border-0 shadow-lg rounded border-0" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Home">
+    <i class="modus-icons notranslate" aria-hidden="true">home</i>
+  </button>
+  <button type="button" class="btn btn-outline-secondary btn-icon-only border-0 shadow-lg rounded border-0" data-bs-toggle="tooltip" data-bs-placement="bottom" title="History">
+    <i class="modus-icons notranslate" aria-hidden="true">history</i>
+  </button>
+  <button type="button" class="btn btn-outline-secondary btn-icon-only border-0 shadow-lg rounded border-0" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Settings">
+    <i class="modus-icons notranslate" aria-hidden="true">settings</i>
+  </button>
 </div>
-</div>
-
-{{< img src="/img/components/floating-toolbar-single-buttons-example.svg" dark="/img/components/floating-toolbar-single-buttons-example-dark.svg" class="bg-light" width="214" height="162" alt="Floating Toolbar single buttons example" loading="lazy" >}}
 
 ### With Combined Buttons
 
@@ -75,7 +69,9 @@ Icon buttons are connected vertically or horizontally.
     <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Collapse">
       <i class="modus-icons notranslate" aria-hidden="true">collapse</i>
     </button>
-    <div class="vr opacity-50"></div>
+    <div class="d-none">
+      <div class="vr text-dark" style="height: 23px; margin-top: 4px;"></div>
+    </div>
     <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Window Dock / Undock">
       <i class="modus-icons notranslate" aria-hidden="true">window_dock_undock</i>
     </button>

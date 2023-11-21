@@ -8,3 +8,11 @@ layout: components
 disableScrollSpy: true
 tags: [mobile, usage]
 ---
+
+<style>
+main .col-xl-4:has(.card-components),
+main .col-xl-4:has(.card-components-mobile),
+main .col-xl-4:has(.card-mobile) {
+  display: none !important;
+}
+</style>

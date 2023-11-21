@@ -294,10 +294,10 @@ module:
     - source: node_modules/@trimble-oss/modus-bootstrap/dist/css/modus-bootstrap.min.css.map
       target: static/css/modus-bootstrap.min.css.map
 
-    - source: node_modules/@trimble-oss/modus-bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
+    - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
       target: static/js/bootstrap.bundle.min.js
 
-    - source: node_modules/@trimble-oss/modus-bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
+    - source: node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map
       target: static/js/bootstrap.bundle.min.js.map
 
     - source: node_modules/bootstrap-print-css/css/bootstrap-print.min.css

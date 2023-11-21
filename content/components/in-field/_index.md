@@ -8,3 +8,11 @@ layout: components
 disableScrollSpy: true
 tags: [in-field, usage]
 ---
+
+<style>
+main .col-xl-4:has(.card-components),
+main .col-xl-4:has(.card-components-in-field),
+main .col-xl-4:has(.card-in-field) {
+  display: none !important;
+}
+</style>

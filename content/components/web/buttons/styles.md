@@ -411,7 +411,7 @@ There are three types of icon-only buttons:
   </tbody>
 </table>
 
-#### Icon Button States (Solid And Outline)
+#### Icon Button States (Solid and Outline)
 
 <table class="table table-bordered">
   <thead>
