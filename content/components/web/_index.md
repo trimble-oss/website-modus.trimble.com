@@ -8,3 +8,11 @@ listJS: true
 layout: components
 disableScrollSpy: true
 ---
+
+<style>
+main .col-xl-4:has(.card-components),
+main .col-xl-4:has(.card-components-web),
+main .col-xl-4:has(.card-web) {
+  display: none !important;
+}
+</style>

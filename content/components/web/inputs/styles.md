@@ -37,6 +37,7 @@ There are two sizes of input fields defined:
         <input class="form-control mb-2">
         <input
           class="form-control mb-5"
+          aria-label="Example input"
           value="Default Input"
           style=""
           data-bs-toggle="popover"
@@ -57,6 +58,7 @@ There are two sizes of input fields defined:
         />
         <input
           class="form-control form-control-lg anatomy-display-static mb-5"
+          aria-label="Example large input"
           value="Large Input"
           style=""
           data-bs-toggle="popover"
@@ -81,7 +83,7 @@ There are two sizes of input fields defined:
         class="form-control focus pe-none"
         id="focusInput"
         placeholder="In focus"
-        style="border-bottom-color: var(--bs-primary);  border-bottom-style: solid;  border-bottom-width: 2px;"
+        style="border-bottom-style: solid;  border-bottom-width: 2px;"
         data-bs-toggle="popover"
         data-bs-placement="right"
         data-bs-container="main"
@@ -152,7 +154,7 @@ There are two sizes of input fields defined:
 </div>
 
 <style>
-  [data-bs-theme="light"] .form-control {
+[data-bs-theme="light"] .form-control {
     color: #464b52;
   }
 [data-bs-theme="light"] #ReadonlyInput {
@@ -162,6 +164,12 @@ There are two sizes of input fields defined:
 [data-bs-theme="dark"] #ReadonlyInput {
     background-color: #353a40;
     color: #fff;
+  }
+[data-bs-theme="light"] .form-control.focus {
+    border-bottom-color: #0063a3;
+  }
+[data-bs-theme="dark"] .form-control.focus {
+    border-bottom-color: #019aeb;
   }
 </style>
 

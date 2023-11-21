@@ -36,7 +36,7 @@ popoverCSSInspector: true
       <th scope="row">Default</th>
       <td class="text-center align-middle py-5"><br><br>
         <button class="chip chip-solid chip-input pe-none"
-          role="alert"
+          type="button"
           data-bs-toggle="popover"
           data-bs-custom-class="popover-css-inspector"
           data-bs-container="td"
@@ -57,7 +57,7 @@ popoverCSSInspector: true
       <th scope="row">Small</th>
       <td class="text-center align-middle py-3" style="height:180px">
         <button class="chip chip-sm chip-solid chip-input pe-none"
-          role="alert"
+          type="button"
           data-bs-toggle="popover"
           data-bs-custom-class="popover-css-inspector"
           data-bs-container="td"
