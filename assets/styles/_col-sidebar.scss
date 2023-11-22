@@ -17,11 +17,21 @@
   .col-sidebar button:active {
     background-color: #cbcdd6;
   }
+
+  .col-sidebar a.btn:focus-visible,
+  .col-sidebar button:focus-visible {
+    background-color: #e0e1e9;
+  }
 }
 
 [data-bs-theme="dark"] {
   .col-sidebar a.btn:hover,
   .col-sidebar button:hover {
+    background-color: #424649;
+  }
+
+  .col-sidebar a.btn:focus-visible,
+  .col-sidebar button:focus-visible {
     background-color: #424649;
   }
 }
