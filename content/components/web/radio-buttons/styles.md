@@ -90,8 +90,8 @@ popoverCSSInspector: true
   <label class="form-check-label" for="inlineRadio3">Radio 3</label>
 </div>
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
-  <label class="form-check-label" for="inlineRadio3">Radio 4</label>
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option3">
+  <label class="form-check-label" for="inlineRadio4">Radio 4</label>
 </div>
 </div>
     </td>
