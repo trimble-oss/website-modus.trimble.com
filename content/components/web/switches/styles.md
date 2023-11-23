@@ -49,6 +49,7 @@ popoverCSSInspector: true
   <div class="form-check form-check-sm form-switch my-2">
   <input class="form-check-input pe-none"
     type="checkbox"
+    style="width:28px; height:16px; margin-top: .25em;"
     id="flexCheckCheckedSmall"
     data-bs-toggle="popover"
     data-bs-placement="left"
@@ -56,14 +57,14 @@ popoverCSSInspector: true
     data-css-inspector-hide="b-radius color font-size margin max-width padding"
     checked>
   <label
-    class="form-check-label pe-none"
+    class="form-check-label pe-none ms-0"
     for="flexCheckCheckedSmall"
     data-bs-toggle="popover"
     data-bs-placement="right"
     data-bs-custom-class="popover-css-inspector"
     data-css-inspector-hide="bg-color b-radius height margin padding"
     data-css-inspector-show="color font-size">
-    Checked Switch
+    Checked Small Switch
   </label>
 </div>
 </div>
