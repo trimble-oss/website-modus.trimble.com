@@ -62,30 +62,58 @@ Icon buttons are connected vertically or horizontally.
 
 <div class="py-5 bg-secondary bg-opacity-10 mx-auto">
   <div class="btn-toolbar p-1 shadow-lg mx-auto">
-  <div class="btn-group border-0" role="group" aria-label="First group">
-    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0 me-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Undo" aria-label="Undo">
-      <i class="modus-icons notranslate" aria-hidden="true">undo</i>
-    </button>
-    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0 me-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Redo" aria-label="Redo">
-      <i class="modus-icons notranslate" aria-hidden="true">redo</i>
-    </button>
-    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0 me-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Expand" aria-label="Expand">
-      <i class="modus-icons notranslate" aria-hidden="true">expand</i>
-    </button>
-    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0 me-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Collapse" aria-label="Collapse">
-      <i class="modus-icons notranslate" aria-hidden="true">collapse</i>
-    </button>
+    <div class="btn-group border-0" role="group" aria-label="First group">
+      <button
+        type="button"
+        class="btn btn-outline-secondary btn-icon-only border-0 me-1"
+        data-bs-toggle="tooltip"
+        data-bs-placement="bottom"
+        title="Undo"
+        aria-label="Undo">
+        <i class="modus-icons notranslate" aria-hidden="true">undo</i>
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary btn-icon-only border-0 me-1"
+        data-bs-toggle="tooltip"
+        data-bs-placement="bottom"
+        title="Redo"
+        aria-label="Redo">
+        <i class="modus-icons notranslate" aria-hidden="true">redo</i>
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary btn-icon-only border-0 me-1"
+        data-bs-toggle="tooltip"
+        data-bs-placement="bottom"
+        title="Expand"
+        aria-label="Expand">
+        <i class="modus-icons notranslate" aria-hidden="true">expand</i>
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary btn-icon-only border-0 me-1"
+        data-bs-toggle="tooltip"
+        data-bs-placement="bottom"
+        title="Collapse"
+        aria-label="Collapse">
+        <i class="modus-icons notranslate" aria-hidden="true">collapse</i>
+      </button>
+    </div>
+    <div>
+      <div class="vr h-100"></div>
+    </div>
+    <div class="btn-group border-0" role="group" aria-label="Second group">
+      <button
+        type="button"
+        class="btn btn-outline-secondary btn-icon-only border-0 ms-1"
+        data-bs-toggle="tooltip"
+        data-bs-placement="bottom"
+        title="Window Dock / Undock">
+        <i class="modus-icons notranslate" aria-hidden="true">window_dock_undock</i>
+      </button>
+    </div>
   </div>
-  <div>
-    <div class="vr h-100"></div>
-  </div>
-  <div class="btn-group border-0" role="group" aria-label="Second group">
-    <button type="button" class="btn btn-outline-secondary btn-icon-only border-0 ms-1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Window Dock / Undock">
-      <i class="modus-icons notranslate" aria-hidden="true">window_dock_undock</i>
-    </button>
-  </div>
-  </div>
-</div>
 </div>
 
 <style>

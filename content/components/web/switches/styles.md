@@ -24,6 +24,7 @@ popoverCSSInspector: true
   <div class="form-check form-switch my-2">
   <input class="form-check-input pe-none"
     type="checkbox"
+    style="width:40px; height: 20px;"
     id="flexCheckChecked"
     data-bs-toggle="popover"
     data-bs-placement="left"
@@ -33,6 +34,7 @@ popoverCSSInspector: true
   <label
     class="form-check-label pe-none"
     for="flexCheckChecked"
+    style="font-size: 14px; margin-top: 1px"
     data-bs-toggle="popover"
     data-bs-placement="right"
     data-bs-custom-class="popover-css-inspector"
