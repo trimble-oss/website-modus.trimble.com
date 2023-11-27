@@ -1,6 +1,6 @@
 <div
-  class="list-group d-block border-0 text-center sticky-top sticky-offset d-flex flex-column align-items-start justify-content-between"
-  style="height: calc(100vh - 66px)">
+  class="list-group d-block border-0 text-center sticky-top sticky-offset d-flex flex-column align-items-end justify-content-end"
+  style="height: calc(100dvh - 66px)">
 
   <!-- <button class="list-group-item border-0 mt-2 ms-2 p-2" type="button" data-bs-target="#sidebar"
     data-bs-toggle="collapse" aria-label="Expand Menu">
@@ -12,8 +12,7 @@
   </button> -->
   <div></div>
 
-  <div class="mb-5 mb-sm-0">
-    <div class="mb-5 mb-sm-0">
+  <div class="mb-1">
       {{- with .Site.Params.GitHubRepo -}}
       <a href="{{- . -}}" class="btn btn-lg btn-icon-only border-0 mx-1 p-1" target="_blank" rel="noopener"
         data-bs-toggle="tooltip" title="GitHub">
@@ -22,6 +21,5 @@
       {{ end }}
 
       {{ partial "btn-theme-toggle" . }}
-    </div>
   </div>
 </div>
