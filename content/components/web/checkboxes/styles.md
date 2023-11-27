@@ -43,13 +43,14 @@ popoverCSSInspector: true
   <input class="form-check-input pe-none"
     type="checkbox"
     id="flexCheckChecked"
+    style="font-size: 12px;"
     data-bs-toggle="popover"
     data-bs-placement="left"
     data-bs-custom-class="popover-css-inspector"
     data-css-inspector-hide="color margin padding"
     checked>
-  <label class="form-check-label pe-none" for="flexCheckChecked">
-    Checked checkbox
+  <label class="form-check-label pe-none" for="flexCheckChecked" style="font-size: 12px;">
+    Checked Small checkbox
   </label>
 </div>
 </div>
