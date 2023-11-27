@@ -10,7 +10,7 @@ keywords: modal, Dialogs, Dialog
 tags: [xr, usage]
 ---
 
-{{< img src="/img/xr/MXR_Modal_Interaction.gif" width="854" height="481" loading="auto" >}}
+{{< img src="/img/xr/MXR_Modal_Interaction.gif" width="854" height="481" class="bg-light" loading="auto" >}}
 
 ## Overview
 

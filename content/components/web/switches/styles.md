@@ -49,7 +49,7 @@ popoverCSSInspector: true
   <div class="form-check form-check-sm form-switch my-2">
   <input class="form-check-input pe-none"
     type="checkbox"
-    style="width:28px; height:16px; margin-top: .25em;"
+    style="width:30px; min-width:30px; height:16px; margin-top: .25em;"
     id="flexCheckCheckedSmall"
     data-bs-toggle="popover"
     data-bs-placement="left"

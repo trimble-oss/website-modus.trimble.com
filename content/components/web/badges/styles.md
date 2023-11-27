@@ -29,37 +29,49 @@ Badges should be centered vertically inside of their containing element.
   <tbody>
     <tr>
       <th scope="row" height="203">Small</th>
-      <td class="text-center py-5"><br><br>
-        <div class="badge badge-sm bg-primary"
-        data-bs-toggle="popover"
-    data-bs-placement="left"
-    data-bs-custom-class="popover-css-inspector"
-    data-css-inspector-hide="">Badge</div
-        ><br>
+      <td class="text-start py-5">
+        <br /><br />
+        <div
+          class="badge badge-sm bg-primary me-4 me-xxl-auto"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="">
+          Badge
+        </div>
+        <br />
       </td>
       <td>Inside lists or other elements</td>
     </tr>
     <tr>
       <th scope="row" height="203">Default</th>
-       <td class="text-center py-5"><br><br>
-        <div class="badge bg-primary"
-        data-bs-toggle="popover"
-    data-bs-placement="left"
-    data-bs-custom-class="popover-css-inspector"
-    data-css-inspector-hide="">Badge</div
-        ><br>
+      <td class="text-start py-5">
+        <br /><br />
+        <div
+          class="badge bg-primary me-3 me-xxl-auto"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="">
+          Badge
+        </div>
+        <br />
       </td>
       <td>Stand-alone or inside lists</td>
     </tr>
     <tr>
       <th scope="row" height="203">Large</th>
-       <td class="text-center py-5"><br><br>
-        <div class="badge badge-lg bg-primary"
-        data-bs-toggle="popover"
-        data-bs-placement="left"
-    data-bs-custom-class="popover-css-inspector"
-    data-css-inspector-hide="">Badge</div
-        ><br>
+      <td class="text-start py-5">
+        <br /><br />
+        <div
+          class="badge badge-lg bg-primary me-2 me-xxl-auto"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="">
+          Badge
+        </div>
+        <br />
       </td>
       <td>Stand-alone for emphasis</td>
     </tr>

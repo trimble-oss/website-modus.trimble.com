@@ -12,7 +12,7 @@ aliases:
   - card
 ---
 
-{{< img src="/img/xr/MXR_Card_Interaction.gif" width="854" height="481" loading="auto" >}}
+{{< img src="/img/xr/MXR_Card_Interaction.gif" width="854" height="481" class="bg-light" loading="auto" >}}
 
 ## Overview
 

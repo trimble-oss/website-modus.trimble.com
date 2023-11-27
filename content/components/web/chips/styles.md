@@ -55,7 +55,7 @@ popoverCSSInspector: true
     </tr>
     <tr>
       <th scope="row">Small</th>
-      <td class="text-center align-middle py-3" style="height:180px">
+      <td class="text-center align-middle py-5" style="height: 198px">
         <button class="chip chip-sm chip-solid chip-input pe-none"
           type="button"
           data-bs-toggle="popover"
