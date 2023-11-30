@@ -35,7 +35,7 @@ popoverCSSInspector: true
     </tr>
   </thead>
   <tbody>
-    <tr height="180">
+    <tr height="190">
       <th scope="row">Small</th>
       <td class="align-middle">
         <button
@@ -51,7 +51,7 @@ popoverCSSInspector: true
       </td>
       <td>Tables</td>
     </tr>
-    <tr height="190">
+    <tr height="210">
       <th scope="row">Default</th>
       <td class="align-middle">
         <button
@@ -67,7 +67,7 @@ popoverCSSInspector: true
       </td>
       <td>Action Bars</td>
     </tr>
-    <tr height="190">
+    <tr height="210">
       <th scope="row">Large</th>
       <td class="align-middle">
         <button

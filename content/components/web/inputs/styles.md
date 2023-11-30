@@ -33,13 +33,12 @@ There are two sizes of input fields defined:
     <tr>
       <th scope="row">Default</th>
       <td style="height:185px">
-      <div style="padding-left: 198px" class="pt-4 vertical-align">
-        <input class="form-control mb-2">
+      <div style="padding-left: 198px; margin-top: 50px;" class="pt-4 vertical-align">
         <input
-          class="form-control mb-5"
+          class="form-control mb-5 pe-none"
           aria-label="Example input"
           value="Default Input"
-          style=""
+          style="padding: 8px; padding-top: 7px; padding-bottom: 7px; height: 32px;"
           data-bs-toggle="popover"
           data-bs-placement="left"
           data-bs-custom-class="popover-css-inspector"
@@ -52,15 +51,12 @@ There are two sizes of input fields defined:
     <tr>
       <th scope="row">Large</th>
       <td style="height:185px">
-      <div style="padding-left: 198px" class="pt-2">
+      <div style="padding-left: 198px; margin-top: 50px;" class="pt-2">
         <input
-          class="form-control form-control-lg mb-2"
-        />
-        <input
-          class="form-control form-control-lg anatomy-display-static mb-5"
+          class="form-control form-control-lg anatomy-display-static mb-5 pe-none"
           aria-label="Example large input"
           value="Large Input"
-          style=""
+          style="padding: 8px; padding-top: 12px; padding-bottom: 12px;"
           data-bs-toggle="popover"
           data-bs-placement="left"
           data-bs-custom-class="popover-css-inspector"

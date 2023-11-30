@@ -18,6 +18,18 @@ tags: [usage]
 
 Breadcrumb is a one-line navigational element that supports wayfinding: it aids the users in finding their current location within the hierarchical structure of a website. Breadcrumb navigation is a good choice in terms of usability because it never causes problems in user testing and takes up very little space on the page.
 
+<div class="guide-example-block bg-secondary bg-opacity-10 p-4 pb-2">
+  <div class="guide-sample mx-auto">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-3 text-center">
+        <li class="breadcrumb-item"><a href="#">Root</a></li>
+        <li class="breadcrumb-item"><a href="#">Subpage </a></li>
+        <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
 ## Usage
 
 ### Use when
