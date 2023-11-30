@@ -10,6 +10,8 @@ bootstrapURL: "/components/breadcrumbs/"
 reactBootstrapURL: "/components/breadcrumbs/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-breadcrumb--default"
 tags: [styles]
+disableAnatomy: true
+popoverCSSInspector: true
 ---
 
 ## Specifications
@@ -23,12 +25,22 @@ tags: [styles]
 
 ### Default
 
-<div class="guide-example-block d-inline-block">
-  <div class="guide-sample">
+<div class="guide-example-block bg-secondary bg-opacity-10 p-5 pb-2">
+  <div class="guide-sample" style="margin-left: 130px;">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb mb-3">
-        <li class="breadcrumb-item"><a href="#">Root</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+        <li class="breadcrumb-item"><a href="#"
+          data-bs-toggle="popover"
+          data-bs-placement="left"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="bg-color b-radius height margin padding width"
+        >Root</a></li>
+        <li class="breadcrumb-item active" aria-current="page"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="bg-color b-radius font-size height margin padding text-align width"
+        >Current Page</li>
       </ol>
     </nav>
     <nav aria-label="breadcrumb">

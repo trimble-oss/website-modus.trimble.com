@@ -29,9 +29,10 @@ popoverCSSInspector: true
     <i class="modus-icons notranslate me-1" aria-hidden="true">info</i>This is a
     primary message
   </div>
-  <br /><br /><br />
+  <br />
   <div
     class="message message-secondary align-items-center"
+    style="margin-top:40px;"
     data-bs-toggle="popover"
     data-bs-placement="left"
     data-bs-custom-class="popover-css-inspector"

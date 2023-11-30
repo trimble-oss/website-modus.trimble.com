@@ -28,9 +28,15 @@ popoverCSSInspector: true
     data-bs-toggle="popover"
     data-bs-placement="left"
     data-bs-custom-class="popover-css-inspector"
-    data-css-inspector-hide="color margin padding"
+    data-css-inspector-hide="color font-size margin padding"
     checked>
-  <label class="form-check-label pe-none" for="flexCheckChecked">
+  <label class="form-check-label pe-none"
+    for="flexCheckChecked"
+    style="font-size: 14px;"
+    data-bs-toggle="popover"
+    data-bs-placement="right"
+    data-bs-custom-class="popover-css-inspector"
+    data-css-inspector-hide="bg-color b-radius height margin padding">
     Checked checkbox
   </label>
 </div>
@@ -42,14 +48,19 @@ popoverCSSInspector: true
   <div class="form-check-sm my-2">
   <input class="form-check-input pe-none"
     type="checkbox"
-    id="flexCheckChecked"
-    style="font-size: 12px;"
+    id="flexCheckSmallChecked"
     data-bs-toggle="popover"
     data-bs-placement="left"
     data-bs-custom-class="popover-css-inspector"
-    data-css-inspector-hide="color margin padding"
+    data-css-inspector-hide="color font-size margin padding"
     checked>
-  <label class="form-check-label pe-none" for="flexCheckChecked" style="font-size: 12px;">
+  <label class="form-check-label pe-none"
+    for="flexCheckSmallChecked"
+    style="font-size: 12px;"
+    data-bs-toggle="popover"
+    data-bs-placement="right"
+    data-bs-custom-class="popover-css-inspector"
+    data-css-inspector-hide="bg-color b-radius height margin padding">
     Checked Small checkbox
   </label>
 </div>

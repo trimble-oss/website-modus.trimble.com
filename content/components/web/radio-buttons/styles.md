@@ -17,7 +17,7 @@ popoverCSSInspector: true
 
 ## Specifications
 
-<div class="guide-example-block bg-secondary py-5 mb-2" style="padding-left: 250px; --bs-bg-opacity: 0.03;">
+<div class="guide-example-block bg-secondary py-5 mb-2" style="padding-left: 290px; --bs-bg-opacity: 0.03;">
   <div class="guide-sample py-3">
   <div class="form-check my-2">
   <input class="form-check-input pe-none"
@@ -32,7 +32,7 @@ popoverCSSInspector: true
     data-css-inspector-show="b-color"
     >
   <label class="form-check-label pe-none" for="Radios1"
-  data-bs-toggle="popover"
+    data-bs-toggle="popover"
     data-bs-placement="right"
     data-bs-custom-class="popover-css-inspector"
     data-css-inspector-hide="bg-color b-radius height margin padding"

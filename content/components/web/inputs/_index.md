@@ -29,8 +29,8 @@ Input fields or text fields allow users to enter text into a UI. They typically 
     <label for="Input3">Input with icon on left</label>
     <div class="form-control-with-icon">
       <input class="form-control" id="Input3">
-      <div class="form-control-icon">
-        <i class="modus-icons notranslate mx-1 small" aria-hidden="true">search</i>
+      <div class="form-control-icon ps-1">
+        <i class="modus-icons notranslate mx-1 small" aria-hidden="true" style="font-size: 20px;">search</i>
       </div>
     </div>
   </div>

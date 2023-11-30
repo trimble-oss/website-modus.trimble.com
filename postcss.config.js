@@ -54,6 +54,7 @@ module.exports = {
         'clearfix',
         'code',
         'col',
+        'color',
         'color-preview',
         'col-12',
         'col-lg-4',
