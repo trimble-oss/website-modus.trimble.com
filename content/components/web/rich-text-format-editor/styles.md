@@ -32,7 +32,41 @@ The modals consists of following elements:
 - Controls, which are usually buttons placed on the bottom right side of the modal header. A dialog should always include a **single primary button**. Primary button is often paired with an outline or a text-only button. Primary button, representing the desired user action, should always appear to the right of other buttons.
 - Close icon button, which closes the dialog and cancels user action. **Always include a close icon button on a modal**. It should display in the top right corner.
 
-{{< img src="/img/components/rtf-link-modal.svg" dark="/img/components/rtf-link-modal-dark.svg" class="w-100" alt="RTF Link Modal" width=" " height=" " loading="eager" >}}
+<div class="guide-example-block my-3 bg-secondary bg-opacity-10">
+  <div class="guide-content-sample modal-static">
+    <div class="modal show d-block position-relative" tabindex="-1" role="dialog" style="z-index: 1">
+      <div class="modal-dialog show mx-auto px-3 px-md-5" role="document">
+        <div class="modal-content shadow-lg border-0">
+          <div class="modal-header border-0" style="height: 64px">
+            <h4 class="modal-title">Add Link</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-dismiss="modal"
+              aria-label="Close"
+              style="background-size: 24px; opacity: 0.75"></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group mb-3">
+              <label for="inputText">Text <span class="text-danger">*</span></label>
+              <input class="form-control my-1" placeholder="Enter text" type="text" id="inputText" required />
+            </div>
+            <div class="form-group mb-3">
+              <label for="inputUrl">URL <span class="text-danger">*</span></label>
+              <input class="form-control my-1" placeholder="Placeholder text" type="url" id="inputUrl" required />
+            </div>
+          </div>
+          <div class="modal-footer border-0">
+            <button type="button" class="btn btn-outline-secondary btn-outline-high-contrast justify-self-start">
+              Cancel
+            </button>
+            <button type="button" class="btn btn-primary">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 ### Behaviors
 

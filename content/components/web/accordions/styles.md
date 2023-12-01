@@ -31,8 +31,8 @@ popoverCSSInspector: true
 - Collapsed Height: 32px
 
 <div class="bg-secondary-subtle bg-opacity-10 p-2 py-3 ps-5"><br><br><br>
-<div class="ms-5 ps-5">
-<div class="accordion mx-auto" id="accordionStyleExample" style="max-width: 440px">
+<div class="">
+<div class="accordion mx-auto" id="accordionStyleExample" style="max-width: 340px">
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button pe-none"
@@ -41,15 +41,20 @@ popoverCSSInspector: true
         aria-expanded="true"
         aria-controls="collapseOne"
         data-bs-toggle="popover"
-        data-bs-container="body"
         data-bs-placement="left"
+        data-bs-title="Header"
         data-bs-custom-class="popover-css-inspector"
         data-css-inspector-hide="b-radius text-align user-select width">
         Accordion title
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionStyleExample">
-      <div class="accordion-body">
+      <div class="accordion-body"
+        data-bs-toggle="popover"
+        data-bs-placement="right"
+        data-bs-title="body"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="b-radius bg-color height text-align user-select width">
         Accordions are containers that expand to reveal content progressively to limit the amount of information on the page or in a section to reduce clutter. The content can be expanded and collapsed based on the user’s interest.
       </div>
     </div>

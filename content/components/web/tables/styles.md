@@ -22,7 +22,7 @@ tags: [styles]
 | Header    | Body-1/ 14px | SemiBold/ 600 | {{< color-preview nameL="Gray 8" hexL="#464B52" nameD="Gray 0" hexD="#E0E1E9" >}}             | Title Case         |
 | Row       | Body-1/ 14px | SemiBold/ 600 | {{< color-preview nameL="Trimble Gray" hexL="#252A2E" nameD="White" hexD="#fff" >}}           | None               |
 | Link Text | Body-1/14px  | SemiBold/ 600 | {{< color-preview nameL="Blue Light" hexL="#217CBB" nameD="Highlight Blue" hexD="#019AEB" >}} | Underline on hover |
-{class="table table-bordered border border-opacity-50"}
+{class="table table-bordered"}
 <!-- prettier-ignore-end -->
 
 ### Alignment
@@ -43,7 +43,7 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
 | Header Condensed | 32px   | 16px      |
 | Row Default      | 48px   | 16px      |
 | Row Condensed    | 32px   | 16px      |
-{class="table table-bordered border border-opacity-50"}
+{class="table table-bordered"}
 <!-- prettier-ignore-end -->
 
 ### Background color
@@ -57,7 +57,7 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
 | Row Hover                | {{< color-preview hexL="#dcedf9" nameL="Blue Pale" hexD="#464B52" nameD="Gray 8" >}}         |
 | Data Table Read-Only Row | {{< color-preview hexL="#E0E1E9" nameL="Gray 0" hexD="#171C1E" nameD="Gray 10" >}}           |
 | Data Table Editable Row  | {{< color-preview hexL="#ffffff" nameL="White" hexD="#171C1E" nameD="Gray 10" >}}            |
-{class="table table-bordered border border-opacity-50"}
+{class="table table-bordered"}
 <!-- prettier-ignore-end -->
 
 Note: Row striping is not recommended. It should be used as a last resort to increase contrast between data rows. If you need to use row striping make sure to retain appropriate contrast ratios ([Accessibility](/foundations/accessibility/))
