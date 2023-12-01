@@ -16,19 +16,7 @@ popoverCSSInspector: true
 
 ## Specifications
 
-**Default**
-
-- Header Font: Open Sans Semibold 16px
-- Body Font: Open Sans Regular 14px
-- Horizontal Padding: 4px
-- Collapsed Height: 48px
-
-**Compact**
-
-- Header Font: Open Sans Semibold 14px
-- Body Font: Open Sans Regular 12px
-- Horizontal Padding: 4px
-- Collapsed Height: 32px
+### Default
 
 <div class="bg-secondary bg-opacity-10 p-2 py-3 ps-5 mb-3"><br><br><br>
 <div class="accordion mx-auto" id="accordionStyleExample" style="max-width: 340px">
@@ -82,15 +70,60 @@ popoverCSSInspector: true
   </div>
 </div>
 </div>
-<script>
-  var myPopovers = document.querySelectorAll('.my-popover');
-  myPopovers.forEach(function(myPopover) {
-    var popover = new bootstrap.Popover(myPopover, {
-      trigger: 'manual'
-    });
-    popover.show();
-  });
-</script>
+
+### Compact
+
+<div class="bg-secondary bg-opacity-10 p-2 py-3 ps-5 mb-3"><br><br><br>
+<div class="accordion accordion-sm mx-auto" id="accordionStyleSmallExample" style="max-width: 340px">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button pe-none"
+        type="button"
+        aria-expanded="true"
+        aria-controls="collapseOneSmall"
+        data-bs-toggle="popover"
+        data-bs-placement="left"
+        data-bs-title="Header"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="b-radius text-align user-select width">
+        Accordion title
+      </button>
+    </h2>
+    <div id="collapseOneSmall" class="accordion-collapse collapse show" data-bs-parent="#accordionStyleSmallExample">
+      <div class="accordion-body"
+        data-bs-toggle="popover"
+        data-bs-placement="right"
+        data-bs-title="Body"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="b-radius bg-color height text-align user-select width">
+        Accordions are containers that expand to reveal content progressively to limit the amount of information on the page or in a section to reduce clutter. The content can be expanded and collapsed based on the user’s interest.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" aria-expanded="false">
+        Accordion title
+      </button>
+    </h2>
+    <div id="collapseTwoSmall" class="accordion-collapse collapse" data-bs-parent="#accordionStyleSmallExample">
+      <div class="accordion-body">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" aria-expanded="false">
+        Accordion title
+      </button>
+    </h2>
+    <div id="collapseThreeSmall" class="accordion-collapse collapse" data-bs-parent="#accordionStyleSmallExample">
+      <div class="accordion-body">
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
 - Accordions can display directly on the page or in a card container.
 - The arrow icon acts as an affordance to indicate the functionality of the accordion and as a visual marker of the state of the accordion through its rotation and direction.
