@@ -20,7 +20,7 @@ popoverCSSInspector: true
 There are two sizes of input fields defined:
 
 - Default: default form inputs should have a height of 32px (8px padding) and a font-size of 12px (.75rem). Used for most forms.
-- Large: larger variant should have a height of 48px (16px padding) and a font-size of 14px (.875rem). Used for forms in in-cab applications
+- Large: larger variant should have a height of 48px (8px padding) and a font-size of 14px (.875rem). Used for forms in in-cab applications
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -38,7 +38,7 @@ There are two sizes of input fields defined:
           class="form-control mb-5 pe-none"
           aria-label="Example input"
           value="Default Input"
-          style="padding: 8px; padding-top: 7px; padding-bottom: 7px; height: 32px;"
+          style="padding: 8px; height: 32px;"
           data-bs-toggle="popover"
           data-bs-placement="left"
           data-bs-custom-class="popover-css-inspector"

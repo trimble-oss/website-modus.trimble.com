@@ -17,12 +17,12 @@ tags: [styles]
 
 Both header and button container should be 64px in height.
 
-<div class="guide-example-block my-3 pr-n5 bg-secondary-subtle bg-opacity-10">
-  <div class="guide-content-sample modal-static" style="padding-bottom: 24px;">
-    <div class="modal show d-block ms-5 position-relative" tabindex="-1" role="dialog" style="z-index:1">
-      <div class="modal-dialog show" role="document">
-        <div class="modal-content float-end" style="width: 80%;">
-          <div class="modal-header anatomy-display-static" data-anatomy-colors="false" style="padding-top: 17px; padding-bottom: 18px;">
+<div class="guide-example-block my-3 bg-secondary bg-opacity-10">
+  <div class="guide-content-sample modal-static pb-4 px-2">
+    <div class="modal show d-block position-relative" tabindex="-1" role="dialog" style="z-index:1">
+      <div class="modal-dialog show" role="document" style="max-width: 380px">
+        <div class="modal-content">
+          <div class="modal-header anatomy-display-static" data-anatomy-colors="false" style="padding-top: 19px; padding-bottom: 19px; height: 64px;">
             <h4 class="modal-title">Modal header</h4>
             <button
               type="button"

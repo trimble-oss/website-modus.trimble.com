@@ -24,24 +24,18 @@ popoverCSSInspector: true
 
 Lists are available in three sizes: default, condensed (small) and large.
 
-<!--
-- Default list: 40px height; 16px font size.
-- Small list: 32px height; 12px font size.
-- Large list: 48px height; 16px font size.
--->
-
 ### Default list
 
 <div class="guide-example-block my-2 py-5 bg-secondary bg-opacity-10"><br>
   <div class="mx-auto"><br>
     <ul class="list-group" style="margin-left: 260px">
       <li class="list-group-item list-group-item-action active d-flex justify-content-between pe-none"
-      style="height:40px; font-size:16px"
+      style="height:40px; font-size: 14px !important;"
       data-bs-toggle="popover"
       data-bs-container="main"
       data-bs-placement="left"
       data-bs-custom-class="popover-css-inspector"
-      data-css-inspector-hide="b-width width"
+      data-css-inspector-hide="b-radius b-width width"
       data-css-inspector-show="">
         <span>List Item (Active)</span>
         <div style="width:32px;text-align:center">
@@ -49,7 +43,7 @@ Lists are available in three sizes: default, condensed (small) and large.
         </div>
       </li>
       <li class="list-group-item list-group-item-action d-flex justify-content-between" style="height: 40px;">
-        <span style="font-size: 16px;">List Item with Menu</span>
+        <span style="font-size: 14px;">List Item with Menu</span>
         <div class="dropdown">
           <button
             class="btn btm-sm btn-icon-only btn-text-dark rounded-circle"
@@ -75,14 +69,14 @@ Lists are available in three sizes: default, condensed (small) and large.
       <li class="list-group-item list-group-item-action">
 <div class="form-check">
   <input class="form-check-input me-2" type="checkbox" id="flexCheckDefault">
-  <label for="flexCheckDefault">
+  <label for="flexCheckDefault" style="font-size: 14px;">
     List Item with Checkbox
   </label>
 </div>
       </li>
       <li class="list-group-item d-flex align-items-center">
         <i class="modus-icons notranslate me-2" aria-hidden="true" style="font-size: 16px;">dashboard</i>
-        <div>List Item with Left Icon</div>
+        <div style="font-size: 14px;">List Item with Left Icon</div>
       </li>
     </ul>
   </div>
@@ -135,7 +129,7 @@ Lists are available in three sizes: default, condensed (small) and large.
   <div class="mx-auto">
     <ul class="list-group list-group-lg" style="margin-left: 240px">
   <li class="list-group-item list-group-item-action active pe-none"
-      style="height:48px; font-size:16px"
+      style="height:48px; font-size:16px !important;"
       data-bs-toggle="popover"
       data-bs-container="main"
       data-bs-placement="left"
@@ -146,12 +140,12 @@ Lists are available in three sizes: default, condensed (small) and large.
   <li class="list-group-item  d-flex justify-content-between" style="min-height: 48px">
     <div class="form-check form-switch d-flex align-items-center">
       <input class="form-check-input me-2" type="checkbox" role="switch" id="LargeflexSwitchCheckDefault" checked>
-      <label for="LargeflexSwitchCheckDefault">Left Switch</label>
+      <label for="LargeflexSwitchCheckDefault" style="font-size:16px">Left Switch</label>
     </div>
   </li>
   <li class="list-group-item d-flex justify-content-between" style="min-height: 48px">
   <div>
-    <label for="LargeRflexSwitchCheckChecked" style="margin-top: 0;">Right Switch</label>
+    <label for="LargeRflexSwitchCheckChecked" style="margin-top: 0; font-size:16px">Right Switch</label>
   </div>
   <div class="form-check form-switch">
     <input class="form-check-input" type="checkbox" role="switch" id="LargeRflexSwitchCheckChecked" checked>
@@ -160,7 +154,7 @@ Lists are available in three sizes: default, condensed (small) and large.
   <li class="list-group-item d-flex justify-content-between align-items-start" style="min-height: 48px">
     <div class="form-check">
     <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
-    <label for="flexCheckDefault">
+    <label for="flexCheckDefault" style="font-size:16px">
       Left checkbox
     </label>
     </div>
