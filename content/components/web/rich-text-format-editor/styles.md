@@ -19,9 +19,13 @@ tags: [styles]
 - Buttons should be discoverable, easy to identify, and specific.
 
 <style>
-main button.btn .modus-icons {
+[data-bs-theme="light"] main button.btn .modus-icons {
   font-size: 24px;
   color: #000 !important;
+}
+[data-bs-theme="dark"] main button.btn .modus-icons {
+  font-size: 24px;
+  color: #fff !important;
 }
 </style>
 
