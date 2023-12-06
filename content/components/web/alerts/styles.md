@@ -102,19 +102,19 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="alert alert-success d-flex align-items-center alert-dismissible fade show" role="alert">
       <i class="modus-icons notranslate alert-icon flex-shrink-0 me-2" aria-hidden="true">check_circle</i>
       <div>Success! A basic success alert with a dismiss icon</div>
-      <button type="button" class="btn-close" data-bs-dismiss="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
       </button>
     </div>
     <div class="alert alert-danger d-flex align-items-center alert-dismissible fade show" role="alert">
     <i class="modus-icons notranslate alert-icon flex-shrink-0 me-2" aria-hidden="true">warning</i>
       <div> Error! A basic error alert with a dismiss icon</div>
-      <button type="button" class="btn-close" data-bs-dismiss="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
       </button>
     </div>
     <div class="alert alert-warning d-flex align-items-center alert-dismissible fade show" role="alert">
       <i class="modus-icons notranslate alert-icon flex-shrink-0 me-2" aria-hidden="true">alert_outlined</i>
       <div>Warning! A basic warning alert with a dismiss icon</div>
-      <button type="button" class="btn-close" data-bs-dismiss="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
       </button>
     </div>
   </div>

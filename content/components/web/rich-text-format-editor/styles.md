@@ -7,22 +7,111 @@ componentsWeb: true
 images:
   - "/img/components/headers/rtf-editor.png"
 tags: [styles]
-private: true
-hidden: true
 ---
 
 ## Specifications
 
-**RTF Toolbar**
+### RTF Toolbar
 
 - The RTF Toolbar has a height of 40px adding 4 px horizontal padding to the 32px buttons.
 - Button subgroups are grouped by a divider and padding of 4px in logical entities such as font type, size, characteristics, paragraph alignment, lists, and additional function, such as link.
 - All buttons should feel clickable, interactive, and perform an action, see [Buttons](/components/web/buttons/).
 - Buttons should be discoverable, easy to identify, and specific.
 
-{{< img src="/img/components/rtf-editor.svg" dark="/img/components/rtf-editor-dark.svg" class="w-100" alt="RTF editor" width=" " height=" " loading="eager" >}}
+<style>
+[data-bs-theme="light"] main button.btn .modus-icons {
+  font-size: 24px;
+  color: #000 !important;
+}
+[data-bs-theme="dark"] main button.btn .modus-icons {
+  font-size: 24px;
+  color: #fff !important;
+}
+</style>
 
-**Modal (Insert/Edit Link)**
+<div class="guide-example-block my-3 bg-secondary bg-opacity-10 py-2 px-1">
+  <div class="guide-content-sample bg-body m-3 mx-auto rtf-editor" style="max-width: 710px; min-width: 300px">
+    <div class="d-flex border-top">
+      <div>
+        <select class="form-select form-select-sm border-top-0 border-bottom-0" aria-label="Default select example" style="max-width: 138px; width: 138px;">
+          <option selected="">Sans Serif</option>
+          <option
+            value="1"
+            class="font-serif"
+            style="font-family:Georgia,times new roman,Times,serif;">
+            Serif
+          </option>
+          <option value="2" class="font-monospace">Preformatted</option>
+        </select>
+      </div>
+      <div>
+        <select class="form-select form-select-sm border-top-0 border-bottom-0" aria-label="Default select example" style="max-width: 90px; min-width: 80px;">
+          <option selected="" class="fs-4">14px</option>
+          <option value="1" class="fs-5">12px</option>
+          <option value="2" class="fs-6">10px</option>
+        </select>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="btn text-secondary btn-icon-only" aria-label="Bold">
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Bold" style="font-size: 24px; margin-top: 5px">text_bold</i>
+        </button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="btn text-secondary btn-icon-only" aria-label="Italic">
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Italic" style="font-size: 24px; margin-top: 5px">text_italic</i>
+        </button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="btn text-secondary btn-icon-only" aria-label="Underlined">
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Underlined" style="font-size: 24px; margin-top: 5px">text_underlined</i>
+        </button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="btn text-secondary btn-icon-only">
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Strikethrough" style="font-size: 24px; margin-top: 5px">text_strikethrough</i>
+        </button>
+      </div>
+      <div class="vr"></div>
+      <div class="mx-1">
+        <button type="button" class="btn text-secondary btn-icon-only">
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Text align: Left">text_align_left</i>
+        </button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="btn text-secondary btn-icon-only">
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Text align: Center">text_centered</i>
+        </button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="btn text-secondary btn-icon-only">
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Text align: Right">text_align_right</i>
+        </button>
+      </div>
+      <div class="vr"></div>
+      <div class="mx-1">
+        <button type="button" class="btn text-secondary btn-icon-only">
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="List: Bulleted">list_bulleted</i>
+        </button>
+      </div>
+      <div class="mx-1">
+        <button type="button" class="btn text-secondary btn-icon-only">
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="List: Numbered">list_numbered</i>
+        </button>
+      </div>
+      <div class="vr"></div>
+      <div class="mx-1">
+        <button type="button" class="btn text-secondary btn-icon-only">
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Link">link</i>
+        </button>
+      </div>
+    </div>
+    <div class="mb-3">
+      <textarea class="form-control pe-none" id="exampleFormControlTextarea1" rows="10"></textarea>
+    </div>
+  </div>
+</div>
+
+### Modal (Insert/Edit Link)
 
 The modals consists of following elements:
 

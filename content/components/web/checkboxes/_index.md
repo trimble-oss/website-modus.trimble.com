@@ -57,6 +57,16 @@ Checkboxes should be used in forms that require submission and processing. The c
 <script>
 document.querySelector('#flexCheckIndeterminate').indeterminate = true;
 </script>
+<style>
+[data-bs-theme=dark] .form-check-input[type="checkbox"]:indeterminate {
+  border-color: #019aeb;
+}
+
+[data-bs-theme=dark] .form-check-input[type="checkbox"]:indeterminate:hover {
+  background-color: #217CBB;
+  border-color: #217CBB;
+}
+</style>
 
 ## Usage
 
