@@ -7,6 +7,7 @@
 
 <body data-url="{{ .RelPermalink }}" class="{{ with .Page.Params.body_class -}}{{ . -}}{{- end -}}"
   {{ if not .Params.disableScrollSpy }}{{- end -}}>
+  {{ partial "skippy" . }}
   {{ if not .Params.NavbarFalse }}{{ partial "navbar" . }}{{ end }}
   {{ block "body" . }}{{ block "main" . }}
   {{- end -}}
