@@ -14,6 +14,24 @@ aliases:
 tags: [usage]
 ---
 
+<style>
+ article .card-subtitle {
+  font-weight: 700;
+}
+
+[data-bs-theme="dark"] article .card {
+  background-color: #353A40;
+}
+
+[data-bs-theme="dark"] article .card-subtitle {
+  color: #90939F !important;
+}
+
+[data-bs-theme="dark"] article .card:hover {
+  box-shadow: 0px 0px 8px 0px rgba(54, 53, 69, 0.30);
+}
+</style>
+
 ## Overview
 
 Cards act as container or surface for displaying relevant grouped information. Cards can be used as a single entity or in lists or grids for browsing and are often interactive. Cards can contain a wide range of both static and interactive content. They should not be nested within other cards and cannot divide into multiple cards. The card container is the only required element in a card.
