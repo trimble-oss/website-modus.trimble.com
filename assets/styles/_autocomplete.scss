@@ -8,8 +8,7 @@
   cursor: default;
   display: none;
   max-height: 254px;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: hidden auto;
   position: absolute;
   z-index: 33333; // higher than navbar
 }

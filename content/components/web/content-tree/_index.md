@@ -27,7 +27,7 @@ A content tree provides users with a way to navigate nested hierarchical informa
 #### Don't use when
 
 - You need to navigate between pages of an application. Instead use [Side Navigation](/components/web/side-navigation/).
-- You need to display actions a user may take to manipulate content within an application (i.e. edit, erase, rotate, etc.). Instead use a Toolbar (coming soon).
+- You need to display actions a user may take to manipulate content within an application (i.e. edit, erase, rotate, etc.). Instead use a [Toolbar](/components/web/toolbar/).
 - You want a folder to collapse when another folder opens (instead, use an [Accordion](/components/web/accordions/)).
 
 {{< whats-changed-table >}}
