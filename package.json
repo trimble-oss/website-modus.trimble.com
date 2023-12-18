@@ -50,7 +50,7 @@
     "popover-css-inspector": "1.0.0-beta14",
     "postcss": "8.4.32",
     "postcss-cli": "11.0.0",
-    "prettier": "3.1.0",
+    "prettier": "3.1.1",
     "s3-deploy": "1.4.0",
     "stylelint": "15.11.0",
     "stylelint-config-standard-scss": "11.1.0",
