@@ -17,36 +17,66 @@ popoverCSSInspector: true
 
 ## Specifications
 
-<div class="guide-example-block bg-secondary py-5 mb-2" style="padding-left: 290px; --bs-bg-opacity: 0.03;">
+<div
+  class="guide-example-block bg-secondary py-5 mb-2"
+  style="padding-left: 290px; --bs-bg-opacity: 0.03">
   <div class="guide-sample py-3">
-  <div class="form-check my-2">
-  <input class="form-check-input pe-none"
-    type="radio"
-    name="Radios"
-    id="Radios1"
-    value="option1"
-    data-bs-toggle="popover"
-    data-bs-placement="left"
-    data-bs-custom-class="popover-css-inspector"
-    data-css-inspector-hide="b-radius color font-size margin padding"
-    data-css-inspector-show="b-color"
-    >
-  <label class="form-check-label pe-none" for="Radios1"
-    data-bs-toggle="popover"
-    data-bs-placement="right"
-    data-bs-custom-class="popover-css-inspector"
-    data-css-inspector-hide="bg-color b-radius height margin padding"
-    data-css-inspector-show="">
-    Radio 1
-  </label>
-</div>
-</div>
+    <div class="form-check my-2 mb-5 pb-5">
+      <input
+        class="form-check-input pe-none"
+        style="height:16px; width:16px;"
+        type="radio"
+        name="Radios"
+        id="Radios1"
+        value="option1"
+        data-bs-toggle="popover"
+        data-bs-placement="left"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="b-radius color font-size margin padding"
+        data-css-inspector-show="b-color" />
+      <label
+        class="form-check-label pe-none"
+        for="Radios1"
+        data-bs-toggle="popover"
+        data-bs-placement="right"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="bg-color b-radius height margin padding"
+        data-css-inspector-show="">
+        Radio
+      </label>
+    </div>
+    <hr class="visually-hidden" style="margin-top: 90px;">
+    <div class="form-check-sm my-2 mt-5" style="margin-top: 90px;">
+      <input
+        class="form-check-input pe-none"
+        type="radio"
+        name="Radios"
+        id="Radios2"
+        value="option1"
+        data-bs-toggle="popover"
+        data-bs-placement="left"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="b-radius b-width bg-color color font-size margin padding"
+        data-css-inspector-show="" />
+      <label
+        class="form-check-label pe-none"
+        for="Radios2"
+        data-bs-toggle="popover"
+        data-bs-placement="right"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="bg-color b-radius height margin padding"
+        data-css-inspector-show="">
+        Small Radio
+      </label>
+    </div>
+  </div>
 </div>
 
 - Always stack radio buttons vertically. Horizontal variation should not be used.
 - Uses the same `:hover` and `:active` styles as the primary [Button](/components/web/buttons/).
 - A set of radio buttons should not default to having one option selected.
 - A heading much accompany a set of radio buttons.
+- Small radio buttons can only be used within tables
 
 <table class="table table-bordered">
   <tr>
