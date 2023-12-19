@@ -6,7 +6,7 @@
 </head>
 
 <body data-url="{{ .RelPermalink }}" class="{{ with .Page.Params.body_class -}}{{ . -}}{{- end -}}"
-  {{ if not .Params.disableScrollSpy }}{{- end -}}>
+  {{ if not .Params.disableScrollSpy }}{{- end -}} {{ if .Params.listJS }}id="listjs-body"{{- end -}}>
   {{ partial "skippy" . }}
   {{ if not .Params.NavbarFalse }}{{ partial "navbar" . }}{{ end }}
   {{ block "body" . }}{{ block "main" . }}
@@ -58,7 +58,7 @@
     forms.forEach(function (form) {
       var submitButtons = form.querySelectorAll('button[type="submit"], input[type="submit"]');
       submitButtons.forEach(function (submitButton) {
-        submitButton.type = 'button';
+      //  submitButton.type = 'button';
       });
     });
   </script>

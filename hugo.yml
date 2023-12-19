@@ -303,6 +303,9 @@ module:
     - source: node_modules/bootstrap-print-css/css/bootstrap-print.min.css
       target: static/css/bootstrap-print.min.css
 
+    - source: node_modules/list.js/dist/list.min.js
+      target: static/js/list.min.js
+
     - source: node_modules/popover-css-inspector/js/popover-css-inspector.min.js
       target: static/js/popover-css-inspector.min.js
 

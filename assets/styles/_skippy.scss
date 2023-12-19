@@ -1,11 +1,16 @@
 // Accessibility
 
-.skippy:focus {
-  outline: 0;
+.skippy {
+  z-index: 9999;
+  left: 44%;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
 }
 
-.sr-only-focusable:focus {
-  top: 0 !important;
-  margin-bottom: 30px;
-  z-index: 22222;
+.skippy:focus-within {
+  transform: translateY(0%);
+  background-color: white;
+  z-index: 9999;
+  top: 8px;
 }
