@@ -29,8 +29,11 @@ tags: [accessibility]
 - Provides increased usability for people using screen readers or keyboard navigation.
 - This link is invisible until it receives keyboard focus via the Tab key.
 - “Skip to main content” wording explains best where people are navigating to.
-  Example: `<div id="skiptocontent"><a href="#maincontent">Skip to main content</a></div>`
+  Example:
+  ```html
+  <div><a href="#main">Skip to main content</a></div>
+  ```
 
-{{< img src="/img/components/navbar-skip-content.png" dark="/img/components/navbar-skip-content-dark.png" class="w-100" alt="skip to content screenshot" >}}
+{{< img src="/img/components/navbar-skip-content.png" width="949" height="62" alt="skip to content screenshot" >}}
 
 Reference for more detail: [https://webaim.org/techniques/skipnav/](https://webaim.org/techniques/skipnav/)

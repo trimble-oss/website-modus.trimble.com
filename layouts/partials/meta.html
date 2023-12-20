@@ -17,7 +17,7 @@
 <!-- Compiles and minifies the sites Sass files from /assets/css/ -->
 {{- $sassOptions := (dict "enableSourceMap" true) -}}
 {{ $styles := resources.Get "styles/styles.scss" | toCSS $sassOptions | postCSS | minify }}
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}?v2">
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}?{{- hugo.Version -}}">
 
 <!-- Load jQuery for search -->
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
