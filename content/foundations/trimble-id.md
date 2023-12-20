@@ -53,7 +53,7 @@ For smaller screens, such as on a mobile device, the sign-in panel looks as pict
 <img alt="Small TID Screen" src="/img/foundations/tid-small.svg" width="250" height="443" loading="lazy">
 
 <br>&nbsp;<br>
-Find additional resources for branding your sign in page on the [TID v4 Documentation site](https://docs.trimblecloud.com/identity_v4.0/).
+Find additional resources for branding your sign in page on the [TID v4 Documentation site](https://docs.trimblecloud.com/identity/).
 
 {{< whats-changed-table >}}
 
