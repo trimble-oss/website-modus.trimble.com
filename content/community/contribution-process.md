@@ -63,7 +63,7 @@ Some of the criteria used in the heuristic review include (but are not limited t
 
 d.) Review usability tests or any other submitted research data.
 
-You can track the status of submissions [here](/community/submissions-status/). The status can be approved, partially approved (if iteration needed), presented for evaluation by a [Tiger Team](/community/tiger-teams/), or marked not compliant with Modus.
+You can track the [status of submissions](/community/submissions-status/). The status can be approved, partially approved (if iteration needed), presented for evaluation by a [Tiger Team](/community/tiger-teams/), or marked not compliant with Modus.
 
 ### 4. Prioritization and recommendation
 

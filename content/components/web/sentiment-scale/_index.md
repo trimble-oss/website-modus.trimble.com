@@ -7,6 +7,7 @@ componentsWeb: true
 images:
   - "/img/components/headers/sentiment-scale.png"
 tags: [usage]
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-sentiment-scale--default"
 ---
 
 ## Overview

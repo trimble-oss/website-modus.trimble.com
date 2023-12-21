@@ -263,7 +263,6 @@ popoverCSSInspector: true
 - Disable the next and last arrow icons (and their labels) when the last page is selected.
 
 <div class="guide-example-block">
-  <div class="guide-sample">
     <nav aria-label="Page Navigation Example">
       <ul class="pagination m-0">
         <li class="page-item">
@@ -286,32 +285,31 @@ popoverCSSInspector: true
             4
           </a>
         </li>
-        <li class="page-item active" aria-current="page">
+        <li class="page-item">
           <a class="page-link" href="#"
-            >5 <span class="sr-only visually-hidden">(current)</span></a
-          >
+            >5
+          </a>
         </li>
         <li class="page-item">
           <a class="page-link" href="#">
             6
           </a>
         </li>
-        <li class="page-item">
+        <li class="page-item active" aria-current="page">
           <a class="page-link" href="#">
-            7
+            7 <span class="sr-only visually-hidden">(current)</span>
           </a>
         </li>
         <li class="page-item disabled">
-          <a class="page-link p-1" href="#">
+          <a class="page-link p-1">
             <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#more-horizontal"></use></svg>
           </a>
         </li>
         <li class="page-item disabled">
-          <a class="page-link p-1" href="#" aria-label="Next">
+          <a class="page-link p-1">
             <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#chevron-right"></use></svg>
           </a>
         </li>
       </ul>
     </nav>
-  </div>
 </div>
