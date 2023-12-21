@@ -7,6 +7,7 @@ componentsWeb: true
 component: sentiment-scale
 tags: [accessibility]
 hideToc: true
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-sentiment-scale--default"
 ---
 
 ## Accessibility
