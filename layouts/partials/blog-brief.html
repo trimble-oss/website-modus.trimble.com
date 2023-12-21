@@ -1,8 +1,8 @@
 {{- if not .Date.IsZero -}}
 <div class="col-12 col-lg-6 col-xl-4 my-3">
-  <div class="card card-blog-brief h-100">
+  <article class="card card-blog-brief h-100">
     <div class="card-header top-rounded mb-0 pb-0 border-0"
-      style="background-image: url({{ .Params.Image | relURL }}); background-color: {{ .Params.headerBgColor }}">
+      style="background-image: url({{- .Params.Image | relURL -}}); background-color: {{- .Params.headerBgColor -}}">
     </div>
     <div class="card-body border-0 pb-0">
       <h3 class="card-title text-body px-sm-1 px-md-2 ms-n2 name" {{ if .Params.TitleNoTranslate }}translate="no"
@@ -20,16 +20,16 @@
     <div class="card-footer bg-transparent border-0 py-0">
       <div class="d-flex mb-1">
         <div class="me-2">
-          <img src="/img/author/{{ .Params.author | urlize }}.jpg"
+          <img src="/img/author/{{- .Params.author | urlize -}}.jpg"
             class="bg-light rounded-circle mx-auto text-center img-fluid ms-2" height="40" width="40"
-            alt="{{ .Params.author }}">
+            alt="{{- .Params.author -}}">
         </div>
         <div>
-          <p class="text-muted small mb-0">{{ .Params.author }}</p>
+          <p class="text-muted small mb-0">{{- .Params.author -}}</p>
           <p class="text-muted small">{{- .Date.Format "Jan 2, 2006" }}</p>
         </div>
       </div>
     </div>
-  </div>
+  </article>
 </div>
 {{- end -}}
