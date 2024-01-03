@@ -2,13 +2,13 @@
   {{ if in .Params.tags "in-field" }}
   <li class="nav-item">
     <a class="nav-link px-2 px-sm-3 nav-usage text-decoration-none{{ if in .Params.tags "usage" }} active pe-none {{ else }} text-body{{end}}"
-      href="/components/in-field/{{ with .Params.component }}{{ . | lower }}{{- end -}}/">
+      href="/components/in-field/{{ with .Params.component }}{{- . | lower -}}{{- end -}}/">
       Usage</a>
   </li>
   {{ if not (in .Params.tags "hide-styles" ) }}
   <li class="nav-item">
     <a class="nav-link px-2 px-sm-3 nav-styles text-decoration-none{{ if in .Params.tags "styles" }} active pe-none {{ else }} text-body{{end}}"
-      href="/components/in-field/{{ with .Params.component }}{{ . | lower }}{{- end -}}/styles/"
+      href="/components/in-field/{{ with .Params.component }}{{- . | lower -}}{{- end -}}/styles/"
       {{ if in .Params.tags "styles" }} aria-current="page" {{- end -}}>
       {{ partial "icons/modus-solid/palette.svg" (dict "class" "me-2 opacity-75 d-none d-sm-inline-block" "width" "18" "height" "18") }}
       Styles</a>
