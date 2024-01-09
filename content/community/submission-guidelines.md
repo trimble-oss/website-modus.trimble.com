@@ -18,9 +18,7 @@ A design pattern has been defined as “a **proven** solution to a **common** pr
 - Specifications
 - Related user research
 
-<button type="button" class="btn btn-primary mb-1" data-bs-toggle="modal" data-bs-target="#formModal">
-  Submit now
-</button>
+<a href="https://modus.ideas.aha.io/ideas" class="btn btn-primary mb-1" target="_blank">Submit now</a>
 
 ## Guidelines for Creating Patterns
 
@@ -64,23 +62,4 @@ Naming is important and should reflect its purpose. Names of patterns become fam
 
 Are you ready to contribute? To submit your recommendations, please:
 
-<button type="button" class="btn btn-primary mb-1" data-bs-toggle="modal" data-bs-target="#formModal">
-  Submit now
-</button>
-
-<div class="modal fade" id="formModal" tabindex="-1" aria-hidden="true">
-  <div class="modal-dialog modal-lg pb-0">
-    <div class="modal-content">
-      <div class="modal-header mb-0 border-0 pb-0">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body pb-0">
-       <iframe class="clickup-embed clickup-dynamic-height border-0 bg-transparent" src="https://forms.clickup.com/14200829/f/dhbzx-18840/17498YSP0VBP83B3D6" onwheel="" width="100%" height="100%" style="min-height:1399px"></iframe>
-       <script nomodule defer src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.min.js"></script>
-      </div>
-    </div>
-  </div>
-</div>
-
+<a href="https://modus.ideas.aha.io/ideas" class="btn btn-primary mb-1" target="_blank">Submit now</a>
