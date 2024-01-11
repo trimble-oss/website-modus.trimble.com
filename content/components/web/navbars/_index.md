@@ -21,7 +21,7 @@ The navbar or the app header provides context through globally accessible menu o
 
 <!-- prettier-ignore-start -->
 <nav class="navbar nav navbar-expand-sm modus-header border">
-  <button class="btn btn-lg btn-icon-only btn-text-dark p-2 mx-1" id="menuButton" data-modus-item="menu-btn" href="#overview" data-bs-toggle="#" type="button">
+  <button class="btn btn-lg btn-icon-only btn-text-dark p-2 mx-1" id="menuButton" data-modus-item="menu-btn" href="#overview" data-bs-toggle="#" type="button" aria-label="Toggle navigation">
     <svg class="" width="28" height="28" fill="currentColor">
       <use xlink:href="/modus-solid-icons.svg#menu" /></svg>
   </button>

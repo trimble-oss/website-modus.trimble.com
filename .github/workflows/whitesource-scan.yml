@@ -12,6 +12,7 @@ jobs:
   scan:
     name: WhiteSource Scan Runner
     runs-on: ubuntu-latest
+    if: github.repository == 'trimble-oss/website-modus.trimble.com'
     permissions:
       contents: read
 

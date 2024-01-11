@@ -34,14 +34,14 @@ Checkboxes should be used in forms that require submission and processing. The c
   </label>
 </div>
 <div class="form-check my-2">
-  <input class="form-check-input" type="checkbox" id="flexCheckChecked" disabled checked>
+  <input class="form-check-input" type="checkbox" id="flexCheckCheckedDisabled" disabled checked>
   <label class="form-check-label" for="flexCheckCheckedDisabled">
     Disabled Checked checkbox
   </label>
 </div>
 <div class="form-check my-2">
-  <input class="form-check-input" type="checkbox" id="flexCheckChecked" disabled>
-  <label class="form-check-label" for="flexCheckCheckedDisabled">
+  <input class="form-check-input" type="checkbox" id="flexCheckDisabled" disabled>
+  <label class="form-check-label" for="flexCheckDisabled">
     Disabled checkbox
   </label>
 </div>
