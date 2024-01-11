@@ -8,6 +8,7 @@ jobs:
   deploy:
     name: Review reminders
     runs-on: ubuntu-latest
+    if: github.repository == 'trimble-oss/website-modus.trimble.com'
 
     steps:
       - name: Checkout
