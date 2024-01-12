@@ -8,7 +8,7 @@ images:
   - "/img/components/headers/tables.png"
 bootstrapURL: "/components/tables/"
 reactBootstrapURL: "/components/tables/"
-webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-data-table--default
+webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-table--default
 component: tables
 tags: [accessibility]
 ---
