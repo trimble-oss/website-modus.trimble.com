@@ -44,7 +44,7 @@ We're not finished yet and have more improvements in the pipeline, but for now w
 
 ---
 
-Found a bug or have any suggestions about the site? [Share your thoughts in the Modus Chatroom](https://chat.google.com/room/AAAAexugR1k) or open an issue on GitHub!
+Found a bug or have any suggestions about the site? [Share your thoughts in the Modus Chatroom](https://chat.google.com/room/AAAAexugR1k) or [open an issue on GitHub](https://github.com/trimble-oss/website-modus.trimble.com/issues)!
 
 <style>
 main img[src*="popover.png"].img-fluid {

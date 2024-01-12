@@ -48,6 +48,11 @@
   body:has(#sidebar.show) .popover {
     display: none;
   }
+
+  body:has(div.show) .dropdown button[aria-label="Menu"] {
+    pointer-events: none;
+    opacity: 0.4;
+  }
 }
 
 /* SM Only */

@@ -22,12 +22,12 @@ Utilizing a responsive layout grid as a basis for design and development provide
 <div class="row">
 <div class="col-12 col-sm-6">
 
-<div class="container container-grid-spacing-columns border rounded-top mb-1">
+<div class="container container-grid-spacing-columns border rounded-top">
 <div class="row bg-dark rounded-top">
-<div class="py-0 ml-1">
-<span class="text-danger"><svg xmlns="http://www.w3.org/2000/svg" class="" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
-<span class="text-warning"><svg xmlns="http://www.w3.org/2000/svg" class="" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
-<span class="text-success"><svg xmlns="http://www.w3.org/2000/svg" class="" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
+<div class="">
+<span class="text-danger user-select-none"><svg xmlns="http://www.w3.org/2000/svg" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
+<span class="text-warning user-select-none"><svg xmlns="http://www.w3.org/2000/svg" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
+<span class="text-success user-select-none"><svg xmlns="http://www.w3.org/2000/svg" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
 </div>
 </div>
 <div class="row h-100 mb-2">
@@ -57,10 +57,10 @@ Utilizing a responsive layout grid as a basis for design and development provide
 
 <div class="container container-grid-spacing-gutters border rounded-top">
 <div class="row bg-dark rounded-top">
-<div class="py-0 ml-1">
-<span class="text-danger"><svg xmlns="http://www.w3.org/2000/svg" class="" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
-<span class="text-warning"><svg xmlns="http://www.w3.org/2000/svg" class="" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
-<span class="text-success"><svg xmlns="http://www.w3.org/2000/svg" class="" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
+<div class="">
+<span class="text-danger user-select-none"><svg xmlns="http://www.w3.org/2000/svg" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
+<span class="text-warning user-select-none"><svg xmlns="http://www.w3.org/2000/svg" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
+<span class="text-success user-select-none"><svg xmlns="http://www.w3.org/2000/svg" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
 </div>
 </div>
 <div class="row mb-2 p-1">
@@ -92,10 +92,10 @@ Utilizing a responsive layout grid as a basis for design and development provide
 
 <div class="container container-grid-spacing-gutters rounded-top">
 <div class="row bg-dark rounded-top">
-<div class="py-0 ml-1">
-<span class="text-danger"><svg xmlns="http://www.w3.org/2000/svg" class="" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
-<span class="text-warning"><svg xmlns="http://www.w3.org/2000/svg" class="" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
-<span class="text-success"><svg xmlns="http://www.w3.org/2000/svg" class="" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
+<div>
+<span class="text-danger"><svg xmlns="http://www.w3.org/2000/svg" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
+<span class="text-warning"><svg xmlns="http://www.w3.org/2000/svg" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
+<span class="text-success"><svg xmlns="http://www.w3.org/2000/svg" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
 </div>
 </div>
 <div class="row border mb-2">
@@ -125,10 +125,10 @@ Utilizing a responsive layout grid as a basis for design and development provide
 
 <div class="container container-grid-spacing-gutters rounded-top">
 <div class="row bg-dark rounded-top">
-<div class="py-0 ml-1">
-<span class="text-danger"><svg xmlns="http://www.w3.org/2000/svg" class="" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
-<span class="text-warning"><svg xmlns="http://www.w3.org/2000/svg" class="" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
-<span class="text-success"><svg xmlns="http://www.w3.org/2000/svg" class="" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
+<div>
+<span class="text-danger"><svg xmlns="http://www.w3.org/2000/svg" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
+<span class="text-warning"><svg xmlns="http://www.w3.org/2000/svg" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
+<span class="text-success"><svg xmlns="http://www.w3.org/2000/svg" height="5" width="5" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"></path></svg></span>
 </div>
 </div>
 <div class="row border mb-2 p-1">
