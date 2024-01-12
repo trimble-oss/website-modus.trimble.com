@@ -42,9 +42,6 @@ menu:
     - name: Figma
       url: "/figma/"
       weight: 2
-    - name: Adobe XD
-      url: "/adobe-xd/"
-      weight: 3
     - name: Device Support
       url: "/device-support/"
       weight: 4

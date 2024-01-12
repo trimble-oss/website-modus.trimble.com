@@ -2,8 +2,10 @@
 title: "Adobe XD"
 layout: "single"
 description: "Adobe XD UI Kit"
-publishDate: 2021-01-08
 start: true
+private: true
+hidden: true
+sitemap_exclude: true
 ---
 
 ## Overview
