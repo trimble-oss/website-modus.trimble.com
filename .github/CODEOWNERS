@@ -4,16 +4,16 @@
 ## Folders
 
 /assets/                       @coliff
-/content/                      @coliff @egunther39 @enowak1031 @msankaran0712
+/content/                      @coliff @egunther39 @enowak1031
 /content/components/in-field/  @mjohnsnz
 /layouts/                      @coliff
-/static/                       @coliff @egunther39 @enowak1031 @msankaran0712
+/static/                       @coliff @egunther39 @enowak1031
 /static/img/in-field/          @mjohnsnz
 
 ## File Types
 
 *.html      @coliff
-*.js        @coliff @msankaran0712
-*.md        @coliff @egunther39 @enowak1031 @msankaran0712
+*.js        @coliff
+*.md        @coliff @egunther39 @enowak1031
 *.scss      @coliff
 *.xml       @coliff
