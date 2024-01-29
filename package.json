@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "5.0.0",
-    "@trimble-oss/modus-bootstrap": "2.0.0-alpha17",
+    "@trimble-oss/modus-bootstrap": "2.0.0-alpha18",
     "@trimble-oss/modus-icons": "1.9.0",
     "autoprefixer": "10.4.17",
     "bootstrap-print-css": "1.0.1",
