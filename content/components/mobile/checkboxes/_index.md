@@ -36,8 +36,8 @@ Checkboxes should be used in forms that require submission and processing. The c
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                | Contributors                                                                                                                |
-| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
+| Date       | Version | Notes                | Contributors                                                                                                                          |
+| ---------- | ------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, I. Perez, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

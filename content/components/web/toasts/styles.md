@@ -27,18 +27,19 @@ popoverCSSInspector: true
 - Leading non-interactive icon (16x16px) _optional_
 - Trailing close icon (16x16px) or a Text Only [Button](/components/web/buttons/) _optional_
 
-<div class="guide-example-block my-3 py-3 bg-body-secondary bg-opacity-10">
+<div class="guide-example-block my-3 py-4 bg-body-secondary bg-opacity-10">
     <div
       class="toast show my-5 mx-auto pe-none"
       style=""
       role="alert"
       aria-live="assertive"
+      aria-atomic="true"
       data-bs-toggle="popover"
       data-bs-x-template="<div class='popover popover-css-inspector bs-popover-left fade show' role='tooltip'><div class='popover-arrow'></div><div class='popover-body'></div></div>"
       data-bs-custom-class="popover-css-inspector"
       data-bs-placement="left"
       data-css-inspector-hide="bg-color margin max-width padding width"
-      data-css-inspector-show="">
+      data-css-inspector-show="box-shadow">
       <div class="d-flex align-items-center">
       <div class="toast-body">Aww yeah, you read a toast.</div>
       <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="alert">
@@ -67,7 +68,7 @@ popoverCSSInspector: true
 <div class="toast toast-dark show mb-3" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex align-items-center">
     <div class="toast-body">Aww yeah, you read a dark toast.</div>
-    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close">
+    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close">
     </button>
   </div>
 </div>
