@@ -73,7 +73,8 @@ popoverCSSInspector: true
               data-bs-placement="right"
               data-bs-toggle="popover"
               data-bs-custom-class="popover-css-inspector"
-              data-css-inspector-hide="b-color text-align">
+              data-css-inspector-hide="b-color text-align"
+              style="border-radius: 4px;">
                1
               </a>
             </li>
@@ -131,7 +132,7 @@ popoverCSSInspector: true
                 <a href="#" class="page-link pe-none"
                 data-bs-placement="right"
               data-bs-toggle="popover"
-              style="width: 32px; height: 32px; border-radius:	2px;"
+              style="width: 32px; height: 32px; border-radius: 4px;"
               data-bs-custom-class="popover-css-inspector"
               data-css-inspector-hide="b-color text-align">1</a>
               </li>
@@ -144,7 +145,7 @@ popoverCSSInspector: true
     <tr>
       <th scope="row" height="165">Large</th>
       <td class="text-center mx-auto py-2">
-        <nav aria-label="...">
+        <nav aria-label="Large Pagination Example">
           <ul class="pagination pagination-lg" data-anatomy-colors="false" style="font-size: 20px">
             <li class="page-item">
               <a class="page-link px-2" href="#" aria-label="Previous">

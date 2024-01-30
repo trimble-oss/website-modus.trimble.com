@@ -113,7 +113,7 @@ tags: [styles]
       </div>
     </div>
     <div>
-      <textarea class="form-control pe-none" id="exampleFormControlTextarea1" rows="10" aria-label="Textarea"></textarea>
+      <textarea class="form-control pe-none" style="border-top-left-radius:0;border-top-right-radius:0;" id="exampleFormControlTextarea1" rows="10" aria-label="Textarea"></textarea>
     </div>
   </div>
 </div>

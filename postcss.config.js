@@ -171,6 +171,7 @@ module.exports = {
         'page-item',
         'page-link',
         'pagination-lg',
+        'pagination-sm',
         'pagination',
         'pb-1',
         'pb-2',

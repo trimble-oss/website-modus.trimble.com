@@ -23,7 +23,7 @@ popoverCSSInspector: true
 ## Specifications
 
 - Container (Height: 42px; Radius: 2px; Padding: 16px; Margin: 16px; solid color; [level 3 shadow](/foundations/shadows-and-depth/)) _required_
-- Toast text (Font: Open Sans Semibold 14px) _required_
+- Toast text (Font: Open Sans 14px) _required_
 - Leading non-interactive icon (16x16px) _optional_
 - Trailing close icon (16x16px) or a Text Only [Button](/components/web/buttons/) _optional_
 
@@ -42,7 +42,7 @@ popoverCSSInspector: true
       data-css-inspector-show="box-shadow">
       <div class="d-flex align-items-center">
       <div class="toast-body">Aww yeah, you read a toast.</div>
-      <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="alert">
+      <button type="button" class="btn-close me-2 m-auto" aria-disabled="true">
       </button>
     </div>
   </div>

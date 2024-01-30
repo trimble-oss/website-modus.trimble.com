@@ -161,7 +161,7 @@ There are two button progressions you can choose from: structural and color prog
       </td>
     </tr>
     <tr>
-      <td><img src="/img/components/button-danger-loading-example.svg" height="32" alt="Critical Action Button"></td>
+      <td><img src="/img/components/button-danger-loading-example.svg" width="166" height="32" class="rounded" alt="Critical Action Button"></td>
       <th scope="row">Critical action</th>
       <td>High</td>
       <td>
