@@ -116,6 +116,6 @@ input[type="search"]::-webkit-search-cancel-button {
   padding-top: 6px !important;
 }
 
-.btn-sm {
-  border-radius: 4px;
+.nav-tabs {
+  --bs-nav-tabs-border-radius: 0.25rem;
 }
