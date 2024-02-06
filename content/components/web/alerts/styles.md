@@ -85,34 +85,36 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="bg-light">
   <div class="bg-light p-3 p-xl-4 px-xl-5 mx-4">
     <div class="alert alert-primary d-flex align-items-center" role="alert">
-      <i class="modus-icons notranslate alert-icon flex-shrink-0 me-2" aria-hidden="true">info</i>
+      <i class="modus-icons notranslate flex-shrink-0 me-2" aria-hidden="true">info</i>
     <div>
       An example alert with an icon
     </div>
   </div>
-    <div class="alert alert-secondary d-flex align-items-center" role="alert">
-      <i class="modus-icons notranslate alert-icon flex-shrink-0 me-2" aria-hidden="true">help</i>
+    <div class="alert alert-secondary d-flex align-items-center py-2" role="alert">
+      <i class="modus-icons notranslate flex-shrink-0 me-2" aria-hidden="true">help</i>
       <div>A basic secondary alert with a button</div>
-      <a href="#" class="btn btn-sm btn-text-secondary">Button</a>
+      <div class="ms-auto">
+        <a href="#" class="btn btn-secondary">Button</a>
+      </div>
     </div>
     <div class="alert alert-dark d-flex align-items-center" role="alert">
-      <i class="modus-icons notranslate alert-icon flex-shrink-0 me-2" aria-hidden="true">info</i>
+      <i class="modus-icons notranslate flex-shrink-0 me-2" aria-hidden="true">info</i>
       <div>A basic dark alert with a <a href="#examples">link</a></div>
     </div>
     <div class="alert alert-success d-flex align-items-center alert-dismissible fade show" role="alert">
-      <i class="modus-icons notranslate alert-icon flex-shrink-0 me-2" aria-hidden="true">check_circle</i>
+      <i class="modus-icons notranslate flex-shrink-0 me-2" aria-hidden="true">check_circle</i>
       <div>Success! A basic success alert with a dismiss icon</div>
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
       </button>
     </div>
     <div class="alert alert-danger d-flex align-items-center alert-dismissible fade show" role="alert">
-    <i class="modus-icons notranslate alert-icon flex-shrink-0 me-2" aria-hidden="true">warning</i>
+    <i class="modus-icons notranslate flex-shrink-0 me-2" aria-hidden="true">warning</i>
       <div> Error! A basic error alert with a dismiss icon</div>
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
       </button>
     </div>
     <div class="alert alert-warning d-flex align-items-center alert-dismissible fade show" role="alert">
-      <i class="modus-icons notranslate alert-icon flex-shrink-0 me-2" aria-hidden="true">alert_outlined</i>
+      <i class="modus-icons notranslate flex-shrink-0 me-2" aria-hidden="true">alert_outlined</i>
       <div>Warning! A basic warning alert with a dismiss icon</div>
       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
       </button>
