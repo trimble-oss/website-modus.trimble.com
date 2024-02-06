@@ -82,8 +82,8 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 </style>
 
-<div class="bg-light">
-  <div class="bg-light p-3 p-xl-4 px-xl-5 mx-4">
+<div class="bg-secondary bg-opacity-10">
+  <div class="p-3 p-xl-4 px-xl-5 mx-4">
     <div class="alert alert-primary d-flex align-items-center" role="alert">
       <i class="modus-icons notranslate flex-shrink-0 me-2" aria-hidden="true">info</i>
     <div>
