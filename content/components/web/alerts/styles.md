@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <i class="modus-icons notranslate flex-shrink-0 me-2" aria-hidden="true">help</i>
       <div>A basic secondary alert with a button</div>
       <div class="ms-auto">
-        <a href="#" class="btn btn-secondary">Button</a>
+        <a href="#" class="btn-text-primary">Button</a>
       </div>
     </div>
     <div class="alert alert-dark d-flex align-items-center" role="alert">
