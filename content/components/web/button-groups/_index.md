@@ -8,8 +8,7 @@ images:
   - "/img/components/headers/button-group.png"
 # bootstrapURL: "/components/button-group/"
 tags: [usage]
-aliases:
-  - "/components/web/button-groups/"
+aliases: "/components/web/button-groups/"
 ---
 
 ## Overview
@@ -90,8 +89,8 @@ Button groups support two layout directions: **horizontal** and **vertical**
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                | Contributors                   |
-| ---------- | ------- | -------------------- | ------------------------------ |
-| 02/14/2024 | 1.0.0   | New component added. | E. Gunther, E. Nowak, C. Oliff |
+| Date       | Version | Notes                | Contributors                             |
+| ---------- | ------- | -------------------- | ---------------------------------------- |
+| 02/14/2024 | 1.0.0   | New component added. | E. Gunther, E. Nowak, C. Oliff, C.Winsor |
 
 {{</ whats-changed-table >}}

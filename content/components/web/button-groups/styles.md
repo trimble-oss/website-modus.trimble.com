@@ -9,7 +9,6 @@ images:
 # bootstrapURL: "/components/button-group/"
 tags: [styles]
 disableAnatomy: true
-popoverCSSInspector: true
 ---
 
 ## Specifications
@@ -57,7 +56,9 @@ The Button Groups utilize the same colors as the **Primary** and **Secondary** [
 
   <input type="radio" class="btn-check" name="btnRadioLg" id="btnRadioLg3" autocomplete="off">
   <label class="btn btn-outline-primary" for="btnRadioLg3">Radio 3</label>
-</div><br><br>
+
+</div>
+<br><br>
 <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
   <input type="radio" class="btn-check" name="btnRadio" id="btnRadio1" autocomplete="off" checked>
   <label class="btn btn-outline-primary" for="btnRadio1">Radio 1</label>
@@ -108,15 +109,18 @@ Combine sets of button groups into button toolbars for more complex components. 
 <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
   <input type="radio" class="btn-check" name="btnRadioIcon" id="btnRadioIcon1" autocomplete="off" checked>
   <label class="btn btn-outline-primary btn-icon-only" for="btnRadioIcon1"><svg width="24" height="24" fill="currentColor">
-          <use xlink:href="/modus-solid-icons.svg#wifi" /></svg></label>
+    <use xlink:href="/modus-solid-icons.svg#wifi" /></svg>
+  </label>
 
   <input type="radio" class="btn-check" name="btnRadioIcon" id="btnRadioIcon2" autocomplete="off">
   <label class="btn btn-outline-primary btn-icon-only" for="btnRadioIcon2"><svg width="24" height="24" fill="currentColor">
-          <use xlink:href="/modus-solid-icons.svg#wifi-off" /></svg></label>
+    <use xlink:href="/modus-solid-icons.svg#wifi-off" /></svg>
+  </label>
 
   <input type="radio" class="btn-check" name="btnRadioIcon" id="btnRadioIcon3" autocomplete="off">
   <label class="btn btn-outline-primary btn-icon-only" for="btnRadioIcon3"><svg width="24" height="24" fill="currentColor">
-          <use xlink:href="/modus-solid-icons.svg#wifi-no-internet" /></svg></label>
+    <use xlink:href="/modus-solid-icons.svg#wifi-no-internet" /></svg>
+  </label>
 </div>
 
 <style>
