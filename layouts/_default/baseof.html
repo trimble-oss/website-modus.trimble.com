@@ -63,7 +63,7 @@
     });
   </script>
   {{- end -}}
-  {{- if .Site.IsServer -}}
+  {{- if hugo.IsServer -}}
 
   {{ end }}
   {{ $instantPage := resources.Get "js/instant-page.min.js" }}
