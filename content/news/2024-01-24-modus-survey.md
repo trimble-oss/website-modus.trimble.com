@@ -1,5 +1,5 @@
 ---
-title: Take Our Modus Survey
+title: Take Our Survey
 date: 2024-01-24
 description: "Once a year we try to track the usage of Modus to understand how to improve it. Please, help us make Modus more relevant to you by answering a few questions."
 image: "/img/blog/headers/2021-01-21-modus-survey.png"

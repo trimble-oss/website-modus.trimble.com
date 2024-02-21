@@ -4,7 +4,6 @@ languageCode: en-US
 locale: en-US
 
 enableInlineShortcodes: true
-enableGitInfo: true
 googleAnalytics: ""
 
 params:
@@ -91,8 +90,8 @@ menu:
       url: /components/web/badges/
     - name: Breadcrumbs
       url: /components/web/breadcrumbs/
-    #    - name: Button Groups
-    #      url: /components/web/button-groups/
+    - name: Button Groups
+      url: /components/web/button-groups/
     - name: Buttons
       url: /components/web/buttons/
     - name: Cards

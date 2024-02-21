@@ -5,7 +5,7 @@ description: "Button groups allow selection from a similar or related set of opt
 components: true
 componentsWeb: true
 images:
-  - "/img/components/headers/button-group.png"
+  - "/img/components/headers/button-groups.png"
 # bootstrapURL: "/components/button-group/"
 component: button-group
 tags: [accessibility]
