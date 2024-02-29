@@ -79,28 +79,28 @@ There are two sizes of input fields defined:
         class="form-control focus pe-none"
         id="focusInput"
         placeholder="In focus"
-        style="border-bottom-style: solid;  border-bottom-width: 2px;"
+        style="border-bottom-style: solid; border-bottom-width: 2px; border-color: var(--bs-primary) !important; border-bottom-color: var(--bs-primary) !important;"
         data-bs-toggle="popover"
         data-bs-placement="right"
         data-bs-container="main"
         data-bs-custom-class="popover-css-inspector"
-        data-css-inspector-hide="bg-color b-radius b-width color font-size height padding width"
-        data-css-inspector-show="b-bottom-color b-bottom-width"
+        data-css-inspector-hide="bg-color b-radius b-width border-bottom-color color font-size height padding width"
+        data-css-inspector-show="b-color b-bottom-width"
       />
       <small class="text-muted">Helper Text</small>
     </div>
     <div class="form-group mb-4">
       <label for="validInput">Valid Input</label>
       <input
-        class="form-control is-valid pe-none"
+        class="form-control is-valid pe-none active"
         id="validInput"
         placeholder="Valid"
         data-bs-toggle="popover"
         data-bs-placement="right"
         data-bs-container="main"
         data-bs-custom-class="popover-css-inspector"
-        data-css-inspector-hide="bg-color b-radius b-width color font-size height padding width"
-        data-css-inspector-show="b-bottom-color b-bottom-width"
+        data-css-inspector-hide="bg-color b-radius b-bottom-color b-width color font-size height padding width"
+        data-css-inspector-show="b-color b-bottom-width"
       />
       <div class="valid-feedback">Valid Feedback</div>
     </div>
@@ -115,7 +115,7 @@ There are two sizes of input fields defined:
         data-bs-container="body"
         data-bs-custom-class="popover-css-inspector"
         data-css-inspector-hide="bg-color b-radius b-width color font-size height padding width"
-        data-css-inspector-show="b-bottom-color b-bottom-width"
+        data-css-inspector-show="b-color b-bottom-width"
       />
       <div class="invalid-feedback">Invalid Feedback</div>
     </div>
@@ -162,10 +162,10 @@ There are two sizes of input fields defined:
     color: #fff;
   }
 [data-bs-theme="light"] .form-control.focus {
-    border-bottom-color: #0063a3;
+    border-color: #0063a3;
   }
 [data-bs-theme="dark"] .form-control.focus {
-    border-bottom-color: #019aeb;
+    border-color: #019aeb;
   }
 </style>
 
