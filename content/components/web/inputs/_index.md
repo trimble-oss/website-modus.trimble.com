@@ -20,7 +20,7 @@ tags: [usage]
 
 Input fields or text fields allow users to enter text into a UI. They typically appear in forms, often with [checkboxes](/components/web/checkboxes/), [radio buttons](/components/web/radio-buttons/), and [buttons](/components/web/buttons/). The user input is most often sent to a server for processing.
 
-<form class="mb-3">
+<form class="mb-3" style="max-width: 500px;">
   <div class="form-group mb-3">
     <label for="RegularInput">Regular Input</label>
     <input class="form-control" id="RegularInput">
