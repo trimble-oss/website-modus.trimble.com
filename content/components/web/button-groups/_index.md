@@ -8,7 +8,7 @@ images:
   - "/img/components/headers/button-groups.png"
 # bootstrapURL: "/components/button-group/"
 tags: [usage]
-aliases: "/components/web/button-groups/"
+aliases: "/components/web/button-group/"
 ---
 
 ## Overview
