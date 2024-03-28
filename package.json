@@ -30,6 +30,8 @@
     "lint-markdown": "npx markdownlint-cli .",
     "lint-spellcheck": "npx cspell \"content/**/*.md\" --no-progress",
     "lint-textlint": "textlint **/*.*",
+    "pa11y": "npx pa11y build/index.html",
+    "pa11y-ci": "npx pa11y-ci --sitemap https://modus.trimble.com/sitemap.xml",
     "prettier": "prettier --write \"assets/**/*.*s\"",
     "serve": "hugo serve --port 4000 --disableFastRender --navigateToChanged",
     "serve-drafts": "hugo serve --port 4000 --disableFastRender --navigateToChanged --buildDrafts",
