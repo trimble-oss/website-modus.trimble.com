@@ -14,6 +14,18 @@ h5:hover .header-link {
   transition: 0.3s all;
 }
 
+main article h3.h2,
+main article h2.h1 {
+  color: #004f83; // Trimble Blue Dark
+}
+
+[data-bs-theme="dark"] {
+  main article h3.h2,
+  main article h2.h1 {
+    color: #dcedf9; // Pale Blue
+  }
+}
+
 // title of article shouldn't have margin-top
 main article h2.h1:first-of-type {
   margin-top: 0 !important;
