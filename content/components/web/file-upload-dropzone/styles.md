@@ -24,7 +24,66 @@ tags: [styles]
 
 - When the user drags a file into the dropzone, provide a visual clue to show that the user has hit the target area and that the action is about to perform is valid. For example, when the user hovers over the zone while dragging a file, change the color of the box to blue (to indicate a valid action) or red (to indicate an invalid action).
 
-{{< img src="/img/components/dropzone-states.svg" dark="/img/components/dropzone-states-dark.svg" class="w-100 bg-light" alt="Example of Error State" >}}
+<style>
+.file-drop-zone.bg-danger {
+  background-color: var(--Red-Red-Pale, #FBD4D7) !important;
+  border-color: #ab1f26 !important;
+}
+
+html[data-bs-theme="dark"] {
+  .file-drop-zone div,
+  .file-drop-zone svg {
+    color: #fff !important;
+  }
+  .file-drop-zone.bg-danger {
+    background-color:  rgba(218, 33, 44, 0.20) !important;
+    border-color: var(--Red-Red, #DA212C) !important;
+    color: #fff !important;
+  }
+}
+</style>
+
+<div class="p-3 bg-secondary bg-opacity-10 mb-3">
+<h3>Upload Files for Lorem Ipsum</h3>
+<div class="small fw-bold">Max: 3 files (25 MB total)</div>
+
+<div class="file-drop-zone w-75 bg-secondary bg-opacity-10 mt-1">
+  <div class="mt-5 text-center h1">
+  <svg class="" width="32" height="32" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#cloud-upload" /></svg>
+  </div>
+  <div class="mb-5 text-center text-body">
+    Drag files here or <a class="text-underline" href="#">browse</a> to upload.
+  </div>
+</div>
+</div>
+
+<div class="p-3 bg-secondary bg-opacity-10 mb-3">
+<h3>Upload Files for Lorem Ipsum</h3>
+<div class="small fw-bold">Max: 3 files (25 MB total)</div>
+
+<div class="file-drop-zone w-75 bg-primary bg-opacity-10 mt-1 border-primary">
+  <div class="mt-5 text-center h1">
+  <svg class="text-primary" width="32" height="32" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#cloud-upload" /></svg>
+  </div>
+  <div class="mb-5 text-center text-primary">
+    Drag files here.
+  </div>
+</div>
+</div>
+
+<div class="p-3 bg-secondary bg-opacity-10 mb-3">
+<h3>Upload Files for Lorem Ipsum</h3>
+<div class="small fw-bold">Max: 3 files (25 MB total)</div>
+
+<div class="file-drop-zone w-75 bg-danger bg-opacity-10 mt-1 border-danger">
+  <div class="mt-5 text-center h1">
+  <svg class="text-danger" width="32" height="32" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#cloud-upload" /></svg>
+  </div>
+  <div class="mb-5 text-center text-danger">
+    This is an error message.
+  </div>
+</div>
+</div>
 
 - To help the user with motor navigation of moving a file into a precise location, the file upload dropzone should be active outside of its borders. It increases the area of the dropzone and provides a feeling of magnetic attraction preventing errors and speeding up interaction with the component.
 
