@@ -43,54 +43,54 @@ Data visualization encompasses a wide array of techniques and tools, each tailor
 
 ### Bar and Column Graphs
 
-<div class="d-flex flex-column flex-lg-row my-4">
+<div class="d-flex flex-column flex-xxl-row my-4">
   <div id="bar_chart_div"></div>
-  <div class="ms-lg-4" id="column_chart_div"></div>
+  <div class="ms-xxl-4" id="column_chart_div"></div>
 </div>
 
 Bar and column graphs excel in comparing discrete categories or showing the distribution of a single categorical variable. Use bar graphs when categories are non-sequential or unordered, and column graphs when the categories follow a logical sequence. These graphs are effective for visualizing changes over time, comparing quantities between different groups, or displaying rankings. For example, a bar graph can display sales figures for various products, while a column graph can illustrate the performance of different departments over quarters.
 
 ### Stacked Bar and Column Graphs
 
-<div class="d-flex flex-column flex-lg-row my-4">
+<div class="d-flex flex-column flex-xxl-row my-4">
   <div id="stacked_bar_chart"></div>
-  <div class="ms-lg-4" id="stacked_column_chart"></div>
+  <div class="ms-xxl-4" id="stacked_column_chart"></div>
 </div>
 
 Stacked bar and column graphs are effective for illustrating the composition of a whole, where each bar or column is divided into segments representing different categories. They are suitable for comparing the total size of multiple categories while also showing the contribution of each category to the whole. Stacked bar graphs are often used in business reports to display revenue breakdown by product categories over time, while stacked column graphs can visualize demographic data such as age distribution within different regions.
 
 ### Line and Area Graphs
 
-<div class="d-flex flex-column flex-lg-row my-4">
+<div class="d-flex flex-column flex-xxl-row my-4">
   <div id="line_chart_div"></div>
-  <div class="ms-lg-4" id="area_chart_div"></div>
+  <div class="ms-xxl-4" id="area_chart_div"></div>
 </div>
 
 Line and area graphs are ideal for displaying trends and patterns over time or continuous data sets. Use line graphs to show trends or changes in data over time, while area graphs are suitable for highlighting the magnitude of change in addition to trends. These graphs are commonly employed in tracking stock prices, visualizing temperature fluctuations, or displaying population growth over years. Line graphs are particularly effective when illustrating changes in variables such as sales revenue over months, while area graphs can emphasize cumulative data trends, such as total sales over time.
 
 ### Stacked Area Graphs
 
-<div class="d-flex flex-column flex-lg-row my-4">
+<div class="d-flex flex-column flex-xxl-row my-4">
   <div id="stacked_area_chart"></div>
-  <div class="ms-lg-4" id="stacked_area_pct_chart"></div>
+  <div class="ms-xxl-4" id="stacked_area_pct_chart"></div>
 </div>
 
 Stacked area graphs are similar to regular area graphs but depict multiple data series stacked on top of each other, showing the cumulative contribution of each series to the whole. They are useful for illustrating changes in the composition of a total over time and are effective for highlighting both individual trends and the overall trend of the dataset. Stacked area graphs find applications in visualizing trends in market share over time, tracking budget allocations across different departments, or displaying the distribution of energy sources in a country's energy production portfolio.
 
 ### Pie and Donut Charts
 
-<div class="d-flex flex-column flex-lg-row my-4">
+<div class="d-flex flex-column flex-xxl-row my-4">
   <div id="pie_chart_div"></div>
-  <div class="ms-lg-4" id="donut_chart_div"></div>
+  <div class="ms-xxl-4" id="donut_chart_div"></div>
 </div>
 
 Pie charts are best used to illustrate parts of a whole, where each category represents a proportion of the total. They are effective for displaying percentages or proportions and are useful when the data consists of a few distinct categories. However, they can become cluttered and difficult to interpret with too many categories or when the differences in proportions are subtle. Pie charts are commonly used to represent market share distribution, budget allocations, or demographic distributions.
 
 ### Scatter and Bubble Charts
 
-<div class="d-flex flex-column flex-lg-row my-4">
+<div class="d-flex flex-column flex-xxl-row my-4">
   <div id="scatter_chart_div"></div>
-  <div class="ms-lg-4" id="bubble_chart_div"></div>
+  <div class="ms-xxl-4" id="bubble_chart_div"></div>
 </div>
 
 Scatter and bubble charts are ideal for visualizing relationships between two or more variables, showing how one variable impacts another. Scatter charts plot individual data points on a two-dimensional grid, making them suitable for identifying correlations, trends, or outliers in the data. Bubble charts extend scatter charts by adding a third variable, represented by the size of the bubbles, to convey additional information. Scatter and bubble charts are commonly used in scientific research, financial analysis, and social sciences to explore relationships between variables, such as the correlation between income and education level or the impact of advertising spending on sales.
