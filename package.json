@@ -17,6 +17,7 @@
     "node": ">=18"
   },
   "scripts": {
+    "start": "npm run serve",
     "build": "npm-run-all lint-css && npx hugo",
     "build-dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run lint-html",
     "deploy": "cross-env s3-deploy './build/**/*.{css,html,ico,jpg,js,json,webmanifest,map,png,svg,txt,xml}' --cwd './build/' --region us-east-1 --bucket prod-styles-trimblemaps --cache 31557600",
