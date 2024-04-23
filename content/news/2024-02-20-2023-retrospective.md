@@ -2,9 +2,9 @@
 title: 2023 Retrospective
 date: 2024-02-20
 description: "A look back at 2023, our successes, accomplishments, and what we are looking forward to in the new year."
-image: "/img/blog/headers/2024-02-20-2023-retrospective.png"
+image: "/img/blog/headers/2024-02-20-2023-retrospective.jpg"
 images:
-  - /img/blog/headers/2021-01-21-modus-survey.png
+  - /img/blog/headers/2024-02-20-2023-retrospective.jpg
 headerBgColor: "#40769a"
 tags: ["retrospective, 2023"]
 author: Ewa Nowak
