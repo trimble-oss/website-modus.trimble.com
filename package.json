@@ -42,7 +42,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "6.0.0",
     "@trimble-oss/modus-bootstrap": "2.0.0-alpha23",
-    "@trimble-oss/modus-icons": "1.13.0",
+    "@trimble-oss/modus-icons": "1.13.1",
     "autoprefixer": "10.4.19",
     "bootstrap-print-css": "1.0.1",
     "cross-env": "7.0.3",
