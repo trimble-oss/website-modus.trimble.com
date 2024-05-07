@@ -38,7 +38,7 @@ Lists are available in three sizes: default, condensed (small) and large.
       data-css-inspector-hide="b-radius b-width width"
       data-css-inspector-show="">
         <span>List Item (Active)</span>
-        <div style="width:32px;text-align:center">
+        <div style="width:32px;" class="text-center">
           <i class="modus-icons notranslate" aria-hidden="true">check</i>
         </div>
       </li>
@@ -47,7 +47,7 @@ Lists are available in three sizes: default, condensed (small) and large.
         <div class="dropdown">
           <button
             class="btn btm-sm btn-icon-only btn-text-dark rounded-circle"
-            style="margin-top:-8px"
+            style="margin-top: -8px;"
             type="button"
             data-bs-toggle="dropdown"
             aria-haspopup="true"
@@ -67,12 +67,9 @@ Lists are available in three sizes: default, condensed (small) and large.
         </div>
       </li>
       <li class="list-group-item list-group-item-action">
-<div class="form-check">
-  <input class="form-check-input me-2" type="checkbox" id="flexCheckDefault">
-  <label for="flexCheckDefault" style="font-size: 14px;">
-    List Item with Checkbox
-  </label>
-</div>
+        <div style="font-size: 14px;">
+          Another List Item
+        </div>
       </li>
       <li class="list-group-item d-flex align-items-center">
         <i class="modus-icons notranslate me-2" aria-hidden="true" style="font-size: 16px;">dashboard</i>
@@ -97,27 +94,19 @@ Lists are available in three sizes: default, condensed (small) and large.
       data-css-inspector-show=""
       >List Item (active)</li>
     <li class="list-group-item list-group-item-action" style="height: 32px;">
-    <div class="form-check form-switch d-flex align-items-center">
-    <input class="form-check-input me-2" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-    <label class="" for="flexSwitchCheckChecked">Left Switch</label>
-    </div>
+       <div>
+         Another List Item
+       </div>
   </li>
-  <li class="list-group-item list-group-item-action d-flex justify-content-between" style="height: 32px;">
-  <div>
-      <label for="flexSwitchCheckDefault">Right Switch</label>
-    </div>
-    <div class="form-check form-switch">
-      <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" checked>
-    </div>
+  <li class="list-group-item list-group-item-action" style="height: 32px;">
+       <div>
+         Another List Item
+       </div>
   </li>
-
-  <li class="list-group-item list-group-item-action d-flex align-items-center" style="height: 32px;">
-    <div class="form-check">
-      <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckDefault" checked>
-    </div>
-   <div>
-     <label for="flexCheckDefault">Left checkbox</label>
-   </div>
+  <li class="list-group-item list-group-item-action" style="height: 32px;">
+       <div>
+         Another List Item
+       </div>
   </li>
 </ul>
 </div>
@@ -137,27 +126,20 @@ Lists are available in three sizes: default, condensed (small) and large.
       data-css-inspector-hide="bg-color b-radius b-width width"
       data-css-inspector-show="b-color"
       >List Item (active)</li>
-  <li class="list-group-item  d-flex justify-content-between" style="min-height: 48px">
-    <div class="form-check form-switch d-flex align-items-center">
-      <input class="form-check-input me-2" type="checkbox" role="switch" id="LargeflexSwitchCheckDefault" checked>
-      <label for="LargeflexSwitchCheckDefault" style="font-size:16px">Left Switch</label>
-    </div>
+  <li class="list-group-item list-group-item-action py-2">
+       <div class="pt-1">
+         Another List Item
+       </div>
   </li>
-  <li class="list-group-item d-flex justify-content-between" style="min-height: 48px">
-  <div>
-    <label for="LargeRflexSwitchCheckChecked" style="margin-top: 0; font-size:16px">Right Switch</label>
-  </div>
-  <div class="form-check form-switch">
-    <input class="form-check-input" type="checkbox" role="switch" id="LargeRflexSwitchCheckChecked" checked>
-  </div>
+  <li class="list-group-item list-group-item-action py-2">
+       <div class="pt-1">
+         Another List Item
+       </div>
   </li>
-  <li class="list-group-item d-flex justify-content-between align-items-start" style="min-height: 48px">
-    <div class="form-check">
-    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
-    <label for="flexCheckDefault" style="font-size:16px">
-      Left checkbox
-    </label>
-    </div>
+  <li class="list-group-item list-group-item-action py-2">
+       <div class="pt-1">
+         Another List Item
+       </div>
   </li>
 </ul>
 </div>
