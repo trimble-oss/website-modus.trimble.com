@@ -9,7 +9,8 @@ hideToc: true
 hideDate: true
 hideGitHub: true
 disableScrollSpy: true
-sitemap_exclude: true
+sitemap:
+  disable: true
 tags:
   - search_exclude
 ---

@@ -9,5 +9,6 @@ layout: components
 disableScrollSpy: true
 draft: true
 private: true
-sitemap_exclude: true
+sitemap:
+  disable: true
 ---

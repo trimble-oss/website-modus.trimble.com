@@ -5,7 +5,8 @@ description: "Adobe XD UI Kit"
 start: true
 private: true
 hidden: true
-sitemap_exclude: true
+sitemap:
+  disable: true
 ---
 
 ## Overview

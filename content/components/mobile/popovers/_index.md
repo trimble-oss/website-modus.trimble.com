@@ -7,7 +7,8 @@ component: Popovers
 images:
   - "/img/mobile/headers/popovers.png"
 tags: [mobile, usage, hidden]
-sitemap_exclude: true
+sitemap:
+  disable: true
 ---
 
 {{< img src="/img/mobile/popovers.svg" dark="/img/mobile/popovers-dark.svg" width="961" height="260" class="w-100" alt="Popovers Example" loading="auto" >}}
