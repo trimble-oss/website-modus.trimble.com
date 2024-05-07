@@ -6,7 +6,8 @@ url: "/stats/"
 start: true
 hideDate: true
 hideToc: true
-sitemap_exclude: true
+sitemap:
+  disable: true
 tags:
   - search_exclude
 ---

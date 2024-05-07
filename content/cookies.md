@@ -7,7 +7,8 @@ private: true
 hidden: true
 hideToc: true
 disableScrollSpy: true
-sitemap_exclude: true
+sitemap:
+  disable: true
 tags:
   - search_exclude
 ---

@@ -7,7 +7,8 @@ component: status-bars
 images:
   - "/img/mobile/headers/status-bars.png"
 tags: [mobile, usage]
-sitemap_exclude: true
+sitemap:
+  disable: true
 private: true
 draft: true
 ---

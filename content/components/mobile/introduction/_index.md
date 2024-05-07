@@ -9,7 +9,8 @@ layout: single
 component: Introduction
 weight: 1
 tags: [mobile, hide-styles, hide-usage, hide-accessibility]
-sitemap_exclude: true
+sitemap:
+  disable: true
 ---
 
 <style>
