@@ -21,16 +21,16 @@ A tooltip is a popup that displays information related to an element when the el
 <div style="max-width: max-content">
   <div class="guide-sample">
     <div class="btn-group-vertical">
-      <button id="tooltipExample" class="btn btn-icon-only btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Zoom in">
+      <button type="button" id="tooltipExample" class="btn btn-icon-only btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Zoom in">
       <i class="modus-icons notranslate" aria-hidden="true">zoom_in</i>
       </button>
-      <button class="btn btn-icon-only btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Zoom out">
+      <button type="button" class="btn btn-icon-only btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Zoom out">
       <i class="modus-icons notranslate" aria-hidden="true">zoom_out</i>
       </button>
-      <button class="btn btn-icon-only btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Expand">
+      <button type="button" class="btn btn-icon-only btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Expand">
       <i class="modus-icons notranslate" aria-hidden="true">expand</i>
       </button>
-      <button class="btn btn-icon-only btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Toggle layers">
+      <button type="button" class="btn btn-icon-only btn-outline-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Toggle layers">
       <i class="modus-icons notranslate" aria-hidden="true">map</i>
       </button>
     </div>

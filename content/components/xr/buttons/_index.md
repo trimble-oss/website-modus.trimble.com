@@ -12,7 +12,7 @@ aliases:
   - button
 ---
 
-{{< img src="/img/xr/MXR_Button_Interaction.gif" width="854" height="481" class="w-100 bg-light" loading="auto" >}}
+{{< img src="/img/xr/MXR_Button_Interaction.gif" width="854" height="481" class="w-100 bg-secondary bg-opacity-25" loading="auto" >}}
 
 ## Overview
 
