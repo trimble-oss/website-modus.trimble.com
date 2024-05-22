@@ -9,7 +9,7 @@ images:
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/messages-overview.svg" dark="/img/in-field/messages-overview-dark.svg" class="w-100 bg-light" width="1087" height="353" alt="Messages example" loading="auto" >}}
+{{< img src="/img/in-field/messages-overview.svg" dark="/img/in-field/messages-overview-dark.svg" class="w-100 bg-secondary bg-opacity-25" width="1087" height="353" alt="Messages example" loading="auto" >}}
 
 ## Overview
 

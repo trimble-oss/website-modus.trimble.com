@@ -9,7 +9,7 @@ images:
 tags: [in-field, usage]
 ---
 
-{{< img src="/img/in-field/tabs.png" dark="/img/in-field/tabs-dark.png" width="1088" height="359" class="w-100 bg-light" alt="Tabs example" loading="auto" >}}
+{{< img src="/img/in-field/tabs.png" dark="/img/in-field/tabs-dark.png" width="1088" height="359" class="w-100 bg-secondary bg-opacity-25" alt="Tabs example" loading="auto" >}}
 
 ## Overview
 
@@ -23,7 +23,7 @@ Tabs are a set of layered sections of content, known as tab panels, that display
 - You want to organize content into meaningful sections that occupy less screen space.
 - Add visual consistency.
 
-#### Don’t use when
+#### Don't use when
 
 - You need primary means of navigation.
 - Grouping unrelated content.
