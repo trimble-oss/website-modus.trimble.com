@@ -26,6 +26,9 @@ tags: [styles]
   font-size: 24px;
   color: #000 !important;
 }
+[data-bs-theme="light"] main button.btn[data-bs-toggle="button"] {
+  border-color: #fff !important;
+}
 [data-bs-theme="dark"] main button.btn .modus-icons {
   font-size: 24px;
   color: #fff !important;
@@ -37,7 +40,7 @@ tags: [styles]
     <div class="d-flex border-top">
       <div class="border-start">
       <div class="dropdown">
-  <button class="btn text-body fw-normal btn-outline-secondary dropdown-toggle dropdown-ff fs-6 small text-start border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false"  style="max-width: 118px; min-width: 118px;">
+  <button class="btn text-body fw-normal btn-outline-secondary dropdown-toggle dropdown-ff fs-6 small text-start border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="max-width: 118px; min-width: 118px;">
     Sans Serif
   </button>
   <ul class="dropdown-menu dropdown-menu-ff" style="max-width: 118px; min-width: 118px;">
@@ -49,7 +52,7 @@ tags: [styles]
 </div>
       <div class="vr"></div>
 <div class="dropdown border-end">
-  <button class="btn fw-normal btn-outline-secondary dropdown-toggle dropdown-fs fs-6 small text-start border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false"  style="max-width: 80px; min-width: 80px;">
+  <button class="btn fw-normal btn-outline-secondary dropdown-toggle dropdown-fs fs-6 small text-start border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="max-width: 80px; min-width: 80px;">
     14px
   </button>
   <ul class="dropdown-menu dropdown-menu-fs" style="max-width: 80px; min-width: 80px;">
@@ -59,56 +62,56 @@ tags: [styles]
   </ul>
 </div>
       <div class="mx-1">
-        <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Bold">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Bold" style="font-size: 24px; margin-top: 5px">text_bold</i>
+        <button type="button" class="btn btn-outline-secondary btn-icon-only border-opacity-25" aria-label="Bold" data-bs-toggle="button">
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" data-bs-offset="0,16" title="Bold" style="font-size: 24px; margin-top: 5px">text_bold</i>
         </button>
       </div>
       <div class="mx-1">
-        <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Italic">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Italic" style="font-size: 24px; margin-top: 5px">text_italic</i>
+        <button type="button" class="btn btn-outline-secondary btn-icon-only border-opacity-25" aria-label="Italic" data-bs-toggle="button">
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" data-bs-offset="0,16" title="Italic" style="font-size: 24px; margin-top: 5px">text_italic</i>
         </button>
       </div>
       <div class="mx-1">
-        <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Underlined">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Underlined" style="font-size: 24px; margin-top: 5px">text_underlined</i>
+        <button type="button" class="btn btn-outline-secondary btn-icon-only border-opacity-25" aria-label="Underlined" data-bs-toggle="button">
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" data-bs-offset="0,16" title="Underlined" style="font-size: 24px; margin-top: 5px">text_underlined</i>
         </button>
       </div>
       <div class="mx-1">
-        <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Strikethrough">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Strikethrough" style="font-size: 24px; margin-top: 5px">text_strikethrough</i>
+        <button type="button" class="btn btn-outline-secondary btn-icon-only border-opacity-25" aria-label="Strikethrough" data-bs-toggle="button">
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" data-bs-offset="0,16" title="Strikethrough" style="font-size: 24px; margin-top: 5px">text_strikethrough</i>
         </button>
       </div>
       <div class="vr"></div>
       <div class="mx-1">
         <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Text align: Left">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Text align: Left">text_align_left</i>
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" data-bs-offset="0,16" title="Text align: Left">text_align_left</i>
         </button>
       </div>
       <div class="mx-1">
         <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Text align: Center">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Text align: Center">text_centered</i>
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" data-bs-offset="0,16" title="Text align: Center">text_centered</i>
         </button>
       </div>
       <div class="mx-1">
         <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Text align: Right">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Text align: Right">text_align_right</i>
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" data-bs-offset="0,16" title="Text align: Right">text_align_right</i>
         </button>
       </div>
       <div class="vr"></div>
       <div class="mx-1">
         <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="List: bulleted">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="List: Bulleted">list_bulleted</i>
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" data-bs-offset="0,16" title="List: Bulleted">list_bulleted</i>
         </button>
       </div>
       <div class="mx-1">
         <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="List: numbered">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="List: Numbered">list_numbered</i>
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" data-bs-offset="0,16" title="List: Numbered">list_numbered</i>
         </button>
       </div>
       <div class="vr"></div>
       <div class="mx-1">
         <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Link">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Link">link</i>
+          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" data-bs-offset="0,16" title="Link">link</i>
         </button>
       </div>
     </div>

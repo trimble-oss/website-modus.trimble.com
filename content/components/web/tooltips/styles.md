@@ -18,6 +18,7 @@ tags: [styles]
 - Top and bottom pointers can be positioned (in addition to center) from left or right. The pointer is then placed relatively 16px from the edge of the tooltip. Non-centered pointer is used, for example, when a tooltip points to a control placed at the edge of the screen.
 - The container of the tooltip text may be aligned to start, center or end.
 - Do not make the tooltip larger than the element it appears from.
+- Tooltips should have a 350ms before appearing.
 
 <img src="/img/components/tooltips-positions.svg" class="img-fluid" width="800" height="300" alt="Tooltip positions"/>
 <style>
