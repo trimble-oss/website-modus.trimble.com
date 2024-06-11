@@ -42,7 +42,7 @@ h6 {
 }
 
 // underline links
-main a {
+main a:not(.btn-text-primary) {
   text-decoration: underline;
 }
 
