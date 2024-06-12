@@ -16,6 +16,9 @@
   "engines": {
     "node": ">=18"
   },
+  "volta": {
+    "node": "20.14.0"
+  },
   "scripts": {
     "start": "npm run serve",
     "build": "npm-run-all lint-css && npx hugo",
