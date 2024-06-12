@@ -78,7 +78,7 @@ There are two sizes of input fields defined:
 <div class="guide-example-block d-inline-block">
   <div class="guide-sample">
     <div class="form-group mb-4">
-      <label for="focusInput">In Focus</label>
+      <label for="focusInput" class="form-label">In Focus</label>
       <input
         class="form-control focus pe-none"
         id="focusInput"
@@ -94,7 +94,7 @@ There are two sizes of input fields defined:
       <small class="text-muted">Helper Text</small>
     </div>
     <div class="form-group mb-4">
-      <label for="validInput">Valid Input</label>
+      <label for="validInput" class="form-label">Valid Input</label>
       <input
         class="form-control is-valid pe-none active"
         id="validInput"
@@ -109,7 +109,7 @@ There are two sizes of input fields defined:
       <div class="valid-feedback">Valid Feedback</div>
     </div>
     <div class="form-group mb-4">
-      <label for="invalidInput">Invalid Input</label>
+      <label for="invalidInput" class="form-label">Invalid Input</label>
       <input
         class="form-control is-invalid pe-none"
         id="invalidInput"
@@ -124,7 +124,7 @@ There are two sizes of input fields defined:
       <div class="invalid-feedback">Invalid Feedback</div>
     </div>
     <div class="form-group mb-5">
-      <label for="disabledInput">Disabled Input</label>
+      <label for="disabledInput" class="form-label">Disabled Input</label>
       <input class="form-control pe-none"
         id="disabledInput"
         disabled
@@ -137,7 +137,7 @@ There are two sizes of input fields defined:
         data-css-inspector-show=""/>
     </div>
     <div class="form-group mb-4">
-      <label for="ReadonlyInput">Readonly Input</label>
+      <label for="ReadonlyInput" class="form-label">Readonly Input</label>
       <input class="form-control pe-none"
         id="ReadonlyInput"
         readonly
