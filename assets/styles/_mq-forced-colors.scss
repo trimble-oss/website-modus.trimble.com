@@ -1,0 +1,35 @@
+// Windows 'High Contrast' accessibility mode
+
+/* stylelint-disable-next-line */
+@media (forced-colors: active) {
+  .card-img-top {
+    forced-color-adjust: none;
+  }
+
+  #TableOfContents a {
+    border-left: 0 !important;
+  }
+
+  nav.navbar.sticky-top {
+    border-bottom: 1px solid transparent;
+  }
+
+  .col-sidebar {
+    border-right: 1px solid transparent;
+  }
+
+  .btn.btn-icon-only {
+    outline: 1px transparent solid;
+  }
+}
+
+@media (forced-colors: active) and (prefers-color-scheme: light) {
+  .popover-arrow {
+    forced-color-adjust: none;
+  }
+
+  [data-bs-theme="dark"] .btn-close {
+    forced-color-adjust: none;
+    filter: none;
+  }
+}
