@@ -11,6 +11,8 @@ bootstrapURL: "/components/dropdowns/"
 reactBootstrapURL: "/components/dropdowns/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-dropdown--default"
 tags: [styles]
+disableAnatomy: true
+popoverCSSInspector: true
 ---
 
 ## Specifications
@@ -19,28 +21,37 @@ tags: [styles]
 - Dropdown functionality is indicated by a small trailing arrow or an ellipsis (not applicable to icon dropdowns).
 - Within a dropdown, you can separate groups of related menu items with a divider.
 
-<div class="guide-example-block d-inline-block mb-3">
-  <div class="guide-sample" style="padding-bottom: 120px; padding-right: 90px;">
+<div class="guide-example-block p-4 mb-3 bg-secondary bg-opacity-10 w-100 mx-auto">
+  <div class="guide-sample mb-3 pt-5 mt-2" style="padding-bottom: 120px; padding-left: 290px;">
     <div class="dropdown">
       <button
-        class="btn btn-primary dropdown-toggle"
+        class="btn btn-primary dropdown-toggle pe-none"
         type="button"
         id="dropdownMenuButton"
-        data-toggle="dropdown"
         aria-haspopup="true"
         aria-expanded="false"
-      >
+        data-bs-toggle="popover"
+        data-bs-placement="left"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="b-width b-color border-radius margin width"
+        data-css-inspector-show="">
         Dropdown
       </button>
       <div
         class="dropdown-menu dropdown-menu-sm show"
         aria-labelledby="dropdownMenuButton"
         x-placement="bottom-start"
-        style="position: absolute; will-change: transform; top: 0; left: 0; transform: translate3d(0, 32px, 0);"
+        style="will-change: transform; top: 0; left: 0; transform: translate3d(0, 32px, 0);"
       >
         <a class="dropdown-item active" href="#">Active item</a>
         <a class="dropdown-item" href="#">Menu item</a>
-        <a class="dropdown-item" href="#">Menu item</a>
+        <a class="dropdown-item" href="#"
+        data-bs-toggle="popover"
+        data-bs-placement="right"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="b-width b-radius b-color b-left-width height margin width"
+        data-css-inspector-show=""
+        >Menu item</a>
         <a class="dropdown-item" href="#">Menu item</a>
         <a class="dropdown-item" href="#">Menu item</a>
         <a class="dropdown-item" href="#">Menu item</a>

@@ -1,5 +1,6 @@
 ---
-title: "Shadows & Depth"
+title: "Shadows and Depth"
+menuTitle: "Shadows & Depth"
 layout: "single"
 description: "Shadows are used to focus the user’s attention and define spatial relationships."
 foundations: true
@@ -18,7 +19,7 @@ Trimble uses three levels of elevation specified by different depths of drop sha
 
   <div class="col-12 col-sm-6 col-md-4 h-100">
     <div class="card shadow-sm">
-      <div class="card-header py-4 bg-light">
+      <div class="card-header py-4 bg-dark bg-opacity-10">
       <h3>Level 1</h3>
       </div>
       <div class="card-body py-1">
@@ -31,7 +32,8 @@ Trimble uses three levels of elevation specified by different depths of drop sha
 
   <div class="col-12 col-sm-6 col-md-4 h-100">
     <div class="card shadow">
-      <div class="card-header py-4 bg-light"><h3>Level 2</h3>
+      <div class="card-header py-4 bg-dark bg-opacity-10">
+      <h3>Level 2</h3>
       </div>
       <div class="card-body py-1">
       <code>box-shadow:<br>
@@ -44,7 +46,8 @@ Used for: sticky elements, cards active</p>
 
   <div class="col-12 col-sm-6 col-md-4 h-100">
     <div class="card shadow-lg">
-      <div class="card-header py-4 bg-light"><h3>Level 3</h3>
+      <div class="card-header py-4 bg-dark bg-opacity-10">
+      <h3>Level 3</h3>
       </div>
       <div class="card-body py-1">
       <code>box-shadow:<br>

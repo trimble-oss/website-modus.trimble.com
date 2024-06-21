@@ -10,16 +10,35 @@ bootstrapURL: "/components/messages/"
 reactBootstrapURL: "/components/messages/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-message--default"
 tags: [styles]
+disableAnatomy: true
+popoverCSSInspector: true
 ---
 
 ## Specifications
 
-<div class="d-flex flex-column">
-  <div class="message message-primary">
-    <i class="modus-icons notranslate" aria-hidden="true">info</i>This is a primary message
+<div
+  class="example d-flex flex-column bg-secondary pt-5 pe-2 mx-auto border border-opacity-10 mb-3"
+  style="padding-left: 310px !important; --bs-bg-opacity: 0.03; min-height: 270px">
+  <br />
+  <div
+    class="message message-primary align-items-center"
+    data-bs-toggle="popover"
+    data-bs-placement="left"
+    data-bs-custom-class="popover-css-inspector"
+    data-css-inspector-hide="margin">
+    <i class="modus-icons notranslate me-1" aria-hidden="true">info</i>This is a
+    primary message
   </div>
-  <div class="message message-secondary">
-    <i class="modus-icons notranslate" aria-hidden="true">help</i>This is a secondary message
+  <br />
+  <div
+    class="message message-secondary align-items-center"
+    style="margin-top:40px;"
+    data-bs-toggle="popover"
+    data-bs-placement="left"
+    data-bs-custom-class="popover-css-inspector"
+    data-css-inspector-hide="b-radius font-size height margin padding">
+    <i class="modus-icons notranslate me-1" aria-hidden="true">help</i>This is a
+    secondary message
   </div>
 </div>
 
@@ -44,5 +63,5 @@ tags: [styles]
 |           | Background | {{< color-preview nameL="Pale Blue" hexL="#dcedf9" nameD="Dark Mode Blue (20%)" hexD="#019aeb33" >}} |
 | Secondary | Color      | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff" >}}               |
 |           | Background | {{< color-preview nameL="Light Gray" hexL="#f1f1f6" nameD="Gray 9" hexD="#353a40" >}}                |
-{class="table table-sm table-bordered"}
+{class="table table-sm table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->

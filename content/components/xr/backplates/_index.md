@@ -11,7 +11,7 @@ aliases:
   - backplate
 ---
 
-{{< img src="/img/xr/MXR_Backplate_Interaction.gif" width="854" height="480" class="w-100" loading="auto" >}}
+{{< img src="/img/xr/MXR_Backplate_Interaction.gif" width="854" height="480" class="w-100 bg-secondary bg-opacity-25" loading="auto" >}}
 
 ## Overview
 

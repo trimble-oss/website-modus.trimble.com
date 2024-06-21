@@ -58,7 +58,7 @@ A chip _can_ be used to clear the filled selection instead of the default â€œXâ€
 <!-- prettier-ignore-end -->
 
 <style>
-[data-theme="dark"] .table-colors tr:last-child {
+[data-bs-theme="dark"] .table-colors tr:last-child {
   display: none;
 }
 </style>

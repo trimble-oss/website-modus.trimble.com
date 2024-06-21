@@ -1,4 +1,4 @@
 {
   "upgrade": true,
-  "reject": ["bootstrap"]
+  "reject": "textlint-rule-terminology"
 }

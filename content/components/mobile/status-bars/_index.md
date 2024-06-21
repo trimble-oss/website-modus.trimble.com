@@ -7,7 +7,8 @@ component: status-bars
 images:
   - "/img/mobile/headers/status-bars.png"
 tags: [mobile, usage]
-sitemap_exclude: true
+sitemap:
+  disable: true
 private: true
 draft: true
 ---
@@ -26,8 +27,8 @@ The status bar is the operating system tray that goes across the top of the devi
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                | Contributors                                                                                                                |
-| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
+| Date       | Version | Notes                | Contributors                                                                                                                          |
+| ---------- | ------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, I. Perez, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

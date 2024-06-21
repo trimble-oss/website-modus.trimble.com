@@ -23,7 +23,7 @@ Badges should be centered vertically inside of their containing element.
 |---------| -------------------------------------------------------------------------------------------------------------------------------------- | ------ |
 | Small   | {{< img src="/img/in-field/badge-spec-small.svg" dark="/img/in-field/badge-spec-small-dark.svg" width="350" alt="" style="margin:0 auto" >}} | 32dp   |
 | Default | {{< img src="/img/in-field/badge-spec-default.svg" dark="/img/in-field/badge-spec-default-dark.svg" width="350" alt="" >}}            | 40dp   |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 ### Colors & Types

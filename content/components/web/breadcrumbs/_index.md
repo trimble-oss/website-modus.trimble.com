@@ -18,20 +18,32 @@ tags: [usage]
 
 Breadcrumb is a one-line navigational element that supports wayfinding: it aids the users in finding their current location within the hierarchical structure of a website. Breadcrumb navigation is a good choice in terms of usability because it never causes problems in user testing and takes up very little space on the page.
 
+<div class="guide-example-block bg-secondary bg-opacity-10 p-4 pb-2">
+  <div class="guide-sample mx-auto">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-3 text-center">
+        <li class="breadcrumb-item"><a href="#">Root</a></li>
+        <li class="breadcrumb-item"><a href="#">Subpage </a></li>
+        <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
 ## Usage
 
-#### Use when
+### Use when
 
 - You need to inform the user where they are in the hierarchy of the site.
 - The user needs to navigate back to a higher level page.
 - The application has a complex, multi-layer architecture that's more than 2 levels deep.
 
-#### Don't use when
+### Don't use when
 
 - Primary navigation is needed instead. Breadcrumbs are always treated as secondary and should never replace primary navigation.
 - Employing a vertical model tree component.
 - If a lower-level page is (or can be put) in more than one parent category.
-- You want to show the user's history, path.
+- You want to show the user's history.
 - Your product has a flat hierarchy that's only 1 or 2 levels deep.
 
 {{< whats-changed-table >}}

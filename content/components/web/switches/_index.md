@@ -19,25 +19,21 @@ tags: [usage]
 
 Switches are selection controls that yield instantaneous actions. They have an on and off setting.
 
-<div class="form-group mb-0">
-  <div class="custom-control custom-switch">
-    <input type="checkbox" checked="" class="custom-control-input" id="exampleSwitch" name="exampleSwitch" value="customEx">
-    <label class="custom-control-label" for="exampleSwitch">Switch</label>
-  </div>
-  <div class="custom-control custom-switch">
-    <input type="checkbox" class="custom-control-input" id="exampleSwitch2" name="exampleSwitch" value="customEx">
-    <label class="custom-control-label" for="exampleSwitch2">Switch</label>
-  </div>
+<div class="form-check form-switch mb-2">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+  <label class="form-check-label" for="flexSwitchCheckDefault">Default switch</label>
 </div>
-<div class="form-group mb-0">
-  <div class="custom-control custom-switch">
-    <input type="checkbox" disabled="" checked="" class="custom-control-input" id="exampleSwitch3" name="exampleSwitch2" value="customEx">
-    <label class="custom-control-label" for="exampleSwitch3">Disabled</label>
-  </div>
-  <div class="custom-control custom-switch">
-    <input type="checkbox" disabled="" class="custom-control-input" id="exampleSwitch4" name="exampleSwitch2" value="customEx">
-    <label class="custom-control-label" for="exampleSwitch4">Disabled</label>
-  </div>
+<div class="form-check form-switch mb-2">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+  <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch</label>
+</div>
+<div class="form-check form-switch mb-2">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDisabled" disabled>
+  <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch</label>
+</div>
+<div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled>
+  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch</label>
 </div>
 
 ## Usage
@@ -56,69 +52,35 @@ Switches are selection controls that yield instantaneous actions. They have an o
     <tr>
       <td scope="row">
         <div class="bg-panel-background px-3">
-          <strong>Settings</strong>
+          <strong class="mt-2">Settings</strong>
         </div>
-        <ul class="list-group">
-          <li
-            class="list-group-item d-flex justify-content-between align-items-center"
-          >
+        <ul class="list-group mb-2" style="max-width:320px">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
             Wi-Fi
-            <div class="custom-control custom-switch">
-              <input
-                type="checkbox"
-                checked
-                class="custom-control-input"
-                id="do1"
-                name="do1"
-                value="on"
-              />
-              <label class="custom-control-label" for="do1"></label>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchWiFi" checked>
+              <label class="form-check-label" for="flexSwitchWiFi"></label>
             </div>
           </li>
-          <li
-            class="list-group-item d-flex justify-content-between align-items-center"
-          >
+          <li class="list-group-item d-flex justify-content-between align-items-center">
             Bluetooth
-            <div class="custom-control custom-switch">
-              <input
-                type="checkbox"
-                checked
-                class="custom-control-input"
-                id="do2"
-                name="do2"
-                value="on"
-              />
-              <label class="custom-control-label" for="do2"></label>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchBluetooth" checked>
+              <label class="form-check-label" for="flexSwitchBluetooth"></label>
             </div>
           </li>
-          <li
-            class="list-group-item d-flex justify-content-between align-items-center"
-          >
+          <li class="list-group-item d-flex justify-content-between align-items-center">
             Notifications
-            <div class="custom-control custom-switch">
-              <input
-                type="checkbox"
-                class="custom-control-input"
-                id="do3"
-                name="do3"
-                value="on"
-              />
-              <label class="custom-control-label" for="do3"></label>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchBluetooth">
+              <label class="form-check-label" for="flexSwitchBluetooth"></label>
             </div>
           </li>
-          <li
-            class="list-group-item d-flex justify-content-between align-items-center"
-          >
+          <li class="list-group-item d-flex justify-content-between align-items-center">
             Dark Mode
-            <div class="custom-control custom-switch">
-              <input
-                type="checkbox"
-                class="custom-control-input"
-                id="do4"
-                name="do4"
-                value="on"
-              />
-              <label class="custom-control-label" for="do4"></label>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchDarkMode">
+              <label class="form-check-label" for="flexSwitchDarkMode"></label>
             </div>
           </li>
         </ul>
@@ -147,43 +109,43 @@ Switches are selection controls that yield instantaneous actions. They have an o
           Your Allergies (click all that apply)
         </div>
         <div class="form-group mb-0 px-3">
-          <div class="custom-control custom-switch">
+          <div class="form-check form-switch my-1">
             <input
               type="checkbox"
               checked
               name="dont4"
               id="dont4"
-              class="custom-control-input"
+              class="form-check-input"
             />
-            <label class="custom-control-label" for="dont4">Pollen</label>
+            <label class="form-check-label" for="dont4">Pollen</label>
           </div>
-          <div class="custom-control custom-switch">
+          <div class="form-check form-switch my-1">
             <input
               type="checkbox"
               name="dont5"
               id="dont5"
-              class="custom-control-input"
+              class="form-check-input"
             />
-            <label class="custom-control-label" for="dont5">Peanuts</label>
+            <label class="form-check-label" for="dont5">Peanuts</label>
           </div>
-          <div class="custom-control custom-switch">
+          <div class="form-check form-switch my-1">
             <input
               type="checkbox"
               checked
               name="dont6"
               id="dont6"
-              class="custom-control-input"
+              class="form-check-input"
             />
-            <label class="custom-control-label" for="dont6">Milk</label>
+            <label class="form-check-label" for="dont6">Milk</label>
           </div>
-          <div class="custom-control custom-switch">
+          <div class="form-check form-switch my-1">
             <input
               type="checkbox"
               name="dont7"
               id="dont7"
-              class="custom-control-input"
+              class="form-check-input"
             />
-            <label class="custom-control-label" for="dont7">Shellfish</label>
+            <label class="form-check-label" for="dont7">Shellfish</label>
           </div>
         </div>
         <div class="px-3 py-2">

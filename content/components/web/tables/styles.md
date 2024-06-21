@@ -8,7 +8,7 @@ images:
   - "/img/components/headers/tables.png"
 bootstrapURL: "/components/tables/"
 reactBootstrapURL: "/components/tables/"
-webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-data-table--default
+webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-table--default
 tags: [styles]
 ---
 
@@ -46,7 +46,7 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
 {class="table table-bordered"}
 <!-- prettier-ignore-end -->
 
-### Background Color
+### Background color
 
 <!-- prettier-ignore-start -->
 | Class                    | Color                                                                                        |
@@ -62,7 +62,7 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
 
 Note: Row striping is not recommended. It should be used as a last resort to increase contrast between data rows. If you need to use row striping make sure to retain appropriate contrast ratios ([Accessibility](/foundations/accessibility/))
 
-### Custom Border/ Background Color
+### Custom border / background color
 
 Consider using labels/ icons to highlight the cell rather than border/ background. If use dictates, the need for border/ background color, follow color palette guidelines.
 

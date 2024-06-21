@@ -10,6 +10,8 @@ bootstrapURL: "/components/breadcrumbs/"
 reactBootstrapURL: "/components/breadcrumbs/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-breadcrumb--default"
 tags: [styles]
+disableAnatomy: true
+popoverCSSInspector: true
 ---
 
 ## Specifications
@@ -23,16 +25,26 @@ tags: [styles]
 
 ### Default
 
-<div class="guide-example-block d-inline-block">
-  <div class="guide-sample">
+<div class="guide-example-block bg-secondary bg-opacity-10 p-5 pb-2">
+  <div class="guide-sample" style="margin-left: 130px;">
     <nav aria-label="breadcrumb">
-      <ol class="breadcrumb mb-0">
-        <li class="breadcrumb-item"><a href="#">Root</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+      <ol class="breadcrumb mb-3">
+        <li class="breadcrumb-item"><a href="#"
+          data-bs-toggle="popover"
+          data-bs-placement="left"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="bg-color b-radius height margin padding width"
+        >Root</a></li>
+        <li class="breadcrumb-item active" aria-current="page"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="bg-color b-radius font-size height margin padding text-align width"
+        >Current Page</li>
       </ol>
     </nav>
     <nav aria-label="breadcrumb">
-      <ol class="breadcrumb mb-0">
+      <ol class="breadcrumb mb-3">
         <li class="breadcrumb-item"><a href="#">Root</a></li>
         <li class="breadcrumb-item"><a href="#">Subpage </a></li>
         <li class="breadcrumb-item active" aria-current="page">Current Page</li>
@@ -44,29 +56,40 @@ tags: [styles]
 ### Breadcrumbs with Icons
 
 <div class="guide-example-block d-inline-block">
-  <div class="guide-sample">
+  <div class="guide-sample my-2">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><i class="modus-icons notranslate" aria-hidden="true">dashboard</i><a href="#">Home</a></li>
-        <li class="breadcrumb-item"><i class="modus-icons notranslate" aria-hidden="true">ticket_plane</i><a href="#">Library</a></li>
-        <li class="breadcrumb-item active" aria-current="page"><i class="modus-icons notranslate" aria-hidden="true">clipboard</i>Data</li>
+        <li class="breadcrumb-item d-flex align-items-center"><i class="modus-icons notranslate" aria-hidden="true">dashboard</i><a href="#">Home</a></li>
+        <li class="breadcrumb-item d-flex align-items-center"><i class="modus-icons notranslate" aria-hidden="true">ticket_plane</i><a href="#">Library</a></li>
+        <li class="breadcrumb-item d-flex align-items-center active" aria-current="page"><i class="modus-icons notranslate" aria-hidden="true">clipboard</i>Data</li>
       </ol>
     </nav>
   </div>
 </div>
+
+<style>
+.breadcrumb-item i {
+  margin-right: .5rem;
+  color: rgba(var(--bs-link-color-rgb));
+}
+
+.breadcrumb-underline .breadcrumb-item a{
+  text-decoration: underline;
+}
+</style>
 
 ### Accessible Option
 
 <div class="guide-example-block d-inline-block">
   <div class="guide-sample">
     <nav aria-label="breadcrumb">
-      <ol class="breadcrumb breadcrumb-underline mb-0">
+      <ol class="breadcrumb breadcrumb-underline">
         <li class="breadcrumb-item"><a href="#">Root</a></li>
         <li class="breadcrumb-item active" aria-current="page">Current Page</li>
       </ol>
     </nav>
     <nav aria-label="breadcrumb">
-      <ol class="breadcrumb breadcrumb-underline mb-0">
+      <ol class="breadcrumb breadcrumb-underline">
         <li class="breadcrumb-item"><a href="#">Root</a></li>
         <li class="breadcrumb-item"><a href="#">Subpage </a></li>
         <li class="breadcrumb-item active" aria-current="page">Current Page</li>
@@ -82,14 +105,15 @@ tags: [styles]
 <div class="guide-example-block d-inline-block">
   <div class="guide-sample" style="padding-bottom: 125px">
     <nav aria-label="breadcrumb">
-      <ol class="breadcrumb breadcrumb-underline mb-0">
+      <ol class="breadcrumb mb-0">
         <li class="breadcrumb-item"><a href="#">Root</a></li>
         <li class="breadcrumb-item">
-          <div class="dropdown">
+          <div class="dropdown float-start">
             <button
               type="button"
               id="breadcrumbDropdown"
-              data-toggle="dropdown"
+              data-bs-toggle="dropdown"
+              class="border-0 px-1 bg-transparent"
               aria-haspopup="true"
               aria-expanded="false"
             >
@@ -99,9 +123,9 @@ tags: [styles]
               class="dropdown-menu show"
               aria-labelledby="breadcrumbDropdown"
             >
-              <a href="#" class="dropdown-item">Subpage</a>
-              <a href="#" class="dropdown-item">Subpage</a>
-              <a href="#" class="dropdown-item">Subpage</a>
+              <a href="#" class="dropdown-item text-decoration-none text-body">Subpage</a>
+              <a href="#" class="dropdown-item text-decoration-none text-body">Subpage</a>
+              <a href="#" class="dropdown-item text-decoration-none text-body">Subpage</a>
             </div>
           </div>
         </li>

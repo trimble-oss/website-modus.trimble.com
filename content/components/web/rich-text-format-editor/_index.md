@@ -7,8 +7,6 @@ componentsWeb: true
 images:
   - "/img/components/headers/rtf-editor.png"
 tags: [usage]
-private: true
-hidden: true
 ---
 
 ## Overview

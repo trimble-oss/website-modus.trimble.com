@@ -8,14 +8,15 @@
 
 .color-preview .color {
   border-radius: 19px;
-  padding-left: 0;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  margin-top: -2px;
-  margin-left: -1px;
   border: 1px solid #6a6e79;
+  display: inline-block;
+  forced-color-adjust: none;
+  height: 20px;
+  margin-left: -1px;
+  margin-top: -2px;
+  padding-left: 0;
   vertical-align: text-top;
+  width: 20px;
 }
 
 .color-preview .text-monospace {
@@ -28,10 +29,10 @@
   color: #c37;
 }
 
-[data-theme="dark"] .color-preview {
+[data-bs-theme="dark"] .color-preview {
   box-shadow: 0 0 2px rgba(222, 222, 222, 0.3) !important;
 }
 
-[data-theme="dark"] .color-preview .text-monospace {
+[data-bs-theme="dark"] .color-preview .text-monospace {
   filter: brightness(3);
 }

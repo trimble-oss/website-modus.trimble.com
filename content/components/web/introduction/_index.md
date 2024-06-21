@@ -32,16 +32,15 @@ Use these patterns if your application runs in a browser on a desktop computer, 
 
 ## Modus Web UI Kits
 
-Modus Web UI Kits are available in [Figma and Adobe XD for designers](/designers/).
+Modus Web UI Kits are available for [Figma](/figma/) for designers.
 
 ## Supported Frameworks
 
-Web patterns and components are currently available in three frameworks:
+Web patterns and components are currently available in two frameworks:
 
-- [Bootstrap](https://modus-bootstrap.trimble.com)
-- [React Bootstrap](https://modus-react-bootstrap.trimble.com)
-- [Web Components](https://modus-web-components.trimble.com/?path=/story/introduction-welcome--page)
+- [Modus Bootstrap](https://modus-bootstrap.trimble.com)
+- [Modus Web Components](https://modus-web-components.trimble.com/?path=/story/introduction-welcome--page)
 
 You may also find links to relevant implementations on the right nav within each component.
 
-_Note:_ Not all components are available in code in all frameworks. Visit the [Status](/status/) page for more information.
+_Note:_ Not all components are available in code in all frameworks.

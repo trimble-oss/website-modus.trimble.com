@@ -1,0 +1,22 @@
+<ul class="dropdown-menu dropdown-menu-end mt-2 py-0">
+  {{ with .Site.Data.navbar_apps }}
+  {{ range . }}
+  <li class="border-bottom">
+    <a class="dropdown-item py-3 pe-2" href="{{- .url -}}" target="_blank" rel="noopener">
+      <div class="d-flex align-self-center">
+        <div class="text-center me-2">
+          {{- with .icon -}}
+          <img src="{{- . -}}" class="filter-greyscale opacity-75" height="18" width="18" alt=""
+            style="margin-bottom: 2px">
+          {{ end }}
+        </div>
+        <div class="">
+          {{- .title }} <img src="/img/icons/external-link.svg" class="filter-greyscale opacity-50" height="14"
+            width="14" alt="">
+        </div>
+      </div>
+    </a>
+  </li>
+  {{ end }}
+  {{ end }}
+</ul>

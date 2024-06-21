@@ -8,3 +8,10 @@ layout: components
 disableScrollSpy: true
 tags: [xr]
 ---
+
+<style>
+main .col-xl-4:has(.card-xr-components),
+main .col-xl-4:has(.card-xr) {
+  display: none !important;
+}
+</style>

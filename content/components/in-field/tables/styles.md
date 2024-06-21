@@ -14,12 +14,12 @@ tags: [in-field, styles]
 ### Typography
 
 <!-- prettier-ignore-start -->
-| Class     | Font size    | Font weight  | Font color                                                                                   | Text transform     |
-| --------- | ------------ | ------------ | -------------------------------------------------------------------------------------------- | ------------------ |
+| Class     | Font size    | Font weight  | Font color                                                                                    | Text transform     |
+| --------- | ------------ | ------------ | --------------------------------------------------------------------------------------------- | ------------------ |
 | Header    | Body-3/ 22dp | regular/ 400 | {{< color-preview nameL="Gray 10" hexL="#171C1E" nameD="White" hexD="#fff" >}}                | Title Case         |
 | Row       | Body-3/ 22dp | regular/ 400 | {{< color-preview nameL="Gray 10" hexL="#171C1E" nameD="White" hexD="#fff" >}}                | None               |
 | Link Text | Body-3/ 22dp | regular/ 400 | {{< color-preview nameL="Blue Light" hexL="#217CBB" nameD="Highlight Blue" hexD="#019AEB" >}} | Underline on hover |
-{class="table table-bordered"}
+{class="table table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 ### Alignment
@@ -31,7 +31,7 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
 - Align headers with their respective data
 - Center-align images, components, icons, and buttons when in their own columns.
 
-### Background Color
+### Background color
 
 <!-- prettier-ignore-start -->
 | Class                    | Color                                                                                        |
@@ -42,7 +42,7 @@ Follow these rules, when aligning alphanumeric and numeric input types in a colu
 | Row Hover                | {{< color-preview hexL="#dcedf9" nameL="Blue Pale" hexD="#019AEB" nameD="Highlight Blue" >}} |
 | Data Table Read-Only Row | {{< color-preview hexL="#E0E1E9" nameL="Gray 0" hexD="#171C1E" nameD="Gray 10" >}}           |
 | Data Table Editable Row  | {{< color-preview hexL="#ffffff" nameL="White" hexD="#171C1E" nameD="Gray 10" >}}            |
-{class="table table-bordered"}
+{class="table table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 Note: Row striping is not recommended. It should be used as a last resort to increase contrast between data rows. If you need to use row striping make sure to retain appropriate contrast ratios ([Accessibility](/foundations/accessibility/))

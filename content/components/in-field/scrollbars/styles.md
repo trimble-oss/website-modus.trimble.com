@@ -14,7 +14,7 @@ tags: [in-field, styles]
 |------------------| ---------------------------------------------------------------------------------------------------------------------------------- | ------ |
 | Default          | {{< img src="/img/in-field/scrollbar-spec-default.svg" dark="/img/in-field/scrollbar-spec-default-dark.svg" width="182" alt="" >}} | 16dp   |
 | Button Scrolling | {{< img src="/img/in-field/scrollbar-spec-buttons.svg" dark="/img/in-field/scrollbar-spec-buttons-dark.svg" width="289" alt="" >}} | 48dp   |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 **Note:** In-cab sizes only. See mobile patterns for smaller options for in-field.

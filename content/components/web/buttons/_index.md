@@ -14,8 +14,6 @@ aliases:
 tags: [usage]
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css">
-
 ## Overview
 
 Buttons are clickable elements that are used to trigger actions. Buttons are used to initialize an action, either in the background or foreground of an experience. Use button labels wherever possible to express what action will occur, when the user interacts with a button.
@@ -48,7 +46,7 @@ There are two button progressions you can choose from: structural and color prog
 ### Structural Progression
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Example</th>
       <th>Emphasis</th>
@@ -73,7 +71,7 @@ There are two button progressions you can choose from: structural and color prog
       </td>
     </tr>
     <tr>
-      <td><button class="btn btn-outline-dark" type="button">Cancel</button></td>
+      <td><button class="btn btn-outline-secondary" type="button">Cancel</button></td>
       <td>Medium</td>
       <td>
         Used for secondary actions to establish additional visual hierarchy.
@@ -94,7 +92,7 @@ There are two button progressions you can choose from: structural and color prog
 ### Color Progression
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Example</th>
       <th>Emphasis</th>
@@ -141,7 +139,7 @@ There are two button progressions you can choose from: structural and color prog
 ### Danger And Critical Action Buttons
 
 <table class="table table-bordered">
-  <thead>
+  <thead class="thead-light">
     <tr>
       <th>Example</th>
       <th>Type</th>
@@ -163,7 +161,7 @@ There are two button progressions you can choose from: structural and color prog
       </td>
     </tr>
     <tr>
-      <td><img src="/img/components/button-danger-loading-example.svg" height="32" alt="Critical Action Button"></td>
+      <td><img src="/img/components/button-danger-loading-example.svg" width="166" height="32" class="rounded" alt="Critical Action Button"></td>
       <th scope="row">Critical action</th>
       <td>High</td>
       <td>
@@ -188,7 +186,7 @@ There are two button progressions you can choose from: structural and color prog
   <tbody>
     <tr>
       <td>
-      <button type="button" class="btn btn-icon-only text-dark btn-transparent" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <button type="button" class="btn btn-icon-only btn-transparent" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       <button type="button" class="btn btn-icon-only text-primary btn-transparent" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>Icon-only</td>
@@ -204,7 +202,7 @@ There are two button progressions you can choose from: structural and color prog
     </tr>
     <tr>
       <td>
-      <button type="button" class="btn btn-icon-only btn-outline-dark" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
+      <button type="button" class="btn btn-icon-only btn-outline-secondary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       <button type="button" class="btn btn-icon-only btn-outline-primary" aria-label="settings"><i class="modus-icons notranslate" aria-hidden="true">settings</i></button>
       </td>
       <td>Outline</td>

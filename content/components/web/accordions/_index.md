@@ -45,161 +45,70 @@ Accordions come in two sizes to accommodate space availability on the page or wi
 
 ### Default
 
-<div class="guide-example-block">
-  <div class="guide-sample">
-    <div class="accordion" id="accordionCodeExample">
-      <div class="card">
-        <div
-          class="card-header"
-          id="accordionHeadingOne"
-          data-toggle="collapse"
-          data-target="#codeCollapseOne"
-          aria-expanded="true"
-          aria-controls="codeCollapseOne"
-        >
-          <h6 class="mb-0">
-            Collapsible group item #1
-          </h6>
-        </div>
-        <div
-          id="codeCollapseOne"
-          class="collapse show"
-          aria-labelledby="accordionHeadingOne"
-          data-parent="#accordionCodeExample"
-        >
-          <div class="card-body">
-            Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor wes anderson cred nets serpent ea president. Ad vegan except butcher vice lemons. Leggings course craft beer farm-to-table, raw denim aesthetic synth braking you probably haven't heard of them accuse abort sustainable VHS.
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div
-          class="card-header"
-          id="accordionHeadingTwo"
-          data-toggle="collapse"
-          data-target="#codeCollapseTwo"
-          aria-expanded="false"
-          aria-controls="codeCollapseTwo"
-        >
-          <h6 class="mb-0">
-            Collapsible group item #2
-          </h6>
-        </div>
-        <div
-          id="codeCollapseTwo"
-          class="collapse"
-          aria-labelledby="accordionHeadingTwo"
-          data-parent="#accordionCodeExample"
-        >
-          <div class="card-body">
-            Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor wes anderson cred nets serpent ea president. Ad vegan except butcher vice lemons. Leggings course craft beer farm-to-table, raw denim aesthetic synth braking you probably haven't heard of them accuse abort sustainable VHS.
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div
-          class="card-header"
-          id="accordionHeadingThree"
-          data-toggle="collapse"
-          data-target="#codeCollapseThree"
-          aria-expanded="false"
-          aria-controls="codeCollapseThree"
-        >
-          <h6 class="mb-0">
-            Collapsible group item #3
-          </h6>
-        </div>
-        <div
-          id="codeCollapseThree"
-          class="collapse"
-          aria-labelledby="accordionHeadingThree"
-          data-parent="#accordionCodeExample"
-        >
-          <div class="card-body">
-            Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor wes anderson cred nets serpent ea president. Ad vegan except butcher vice lemons. Leggings course craft beer farm-to-table, raw denim aesthetic synth braking you probably haven't heard of them accuse abort sustainable VHS.
-          </div>
-        </div>
-      </div>
+<div class="accordion accordion-flush mb-4" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Accordion item #1
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
     </div>
   </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Accordion item #2
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Accordion item #3
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
 
 ### Compact
 
-<div class="guide-example-block">
-  <div class="guide-sample">
-    <div class="accordion accordion-sm" id="smallAccordionCodeExample">
-      <div class="card">
-        <div
-          class="card-header"
-          id="smallAccordionHeadingOne"
-          data-toggle="collapse"
-          data-target="#smallCodeCollapseOne"
-          aria-expanded="true"
-          aria-controls="smallCodeCollapseOne"
-        >
-          <h6 class="mb-0">
-            Collapsible group item #1
-          </h6>
-        </div>
-        <div
-          id="smallCodeCollapseOne"
-          class="collapse show"
-          aria-labelledby="smallAccordionHeadingOne"
-          data-parent="#smallAccordionCodeExample"
-        >
-          <div class="card-body">
-            Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor wes anderson cred nets serpent ea president. Ad vegan except butcher vice lemons. Leggings course craft beer farm-to-table, raw denim aesthetic synth braking you probably haven't heard of them accuse abort sustainable VHS.
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div
-          class="card-header"
-          id="smallAccordionHeadingTwo"
-          data-toggle="collapse"
-          data-target="#smallCodeCollapseTwo"
-          aria-expanded="false"
-          aria-controls="smallCodeCollapseTwo"
-        >
-          <h6 class="mb-0">
-            Collapsible group item #2
-          </h6>
-        </div>
-        <div
-          id="smallCodeCollapseTwo"
-          class="collapse"
-          aria-labelledby="smallAccordionHeadingTwo"
-          data-parent="#smallAccordionCodeExample"
-        >
-          <div class="card-body">
-            Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor wes anderson cred nets serpent ea president. Ad vegan except butcher vice lemons. Leggings course craft beer farm-to-table, raw denim aesthetic synth braking you probably haven't heard of them accuse abort sustainable VHS.
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div
-          class="card-header"
-          id="smallAccordionHeadingThree"
-          data-toggle="collapse"
-          data-target="#smallCodeCollapseThree"
-          aria-expanded="false"
-          aria-controls="smallCodeCollapseThree"
-        >
-          <h6 class="mb-0">
-            Collapsible group item #3
-          </h6>
-        </div>
-        <div
-          id="smallCodeCollapseThree"
-          class="collapse"
-          aria-labelledby="smallAccordionHeadingThree"
-          data-parent="#smallAccordionCodeExample"
-        >
-          <div class="card-body">
-            Anim cliche, high life terry richardson ad squid. 3 wolf moon official, non skateboard dolor brunch. Food truck quinoa. Brunch 3 wolf moon put a bird on it squid single-origin coffee null assume shoreditch et. Nihil anim keffiyeh helvetica, craft beer labor wes anderson cred nets serpent ea president. Ad vegan except butcher vice lemons. Leggings course craft beer farm-to-table, raw denim aesthetic synth braking you probably haven't heard of them accuse abort sustainable VHS.
-          </div>
-        </div>
-      </div>
+<div class="accordion accordion-sm accordion-flush" id="accordionSmallFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneSmall" aria-expanded="false" aria-controls="flush-collapseOneSmall">
+        Accordion item #1
+      </button>
+    </h2>
+    <div id="flush-collapseOneSmall" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwoSmall" aria-expanded="false" aria-controls="flush-collapseTwoSmall">
+        Accordion item #2
+      </button>
+    </h2>
+    <div id="flush-collapseTwoSmall" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleSmall">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThreeSmall" aria-expanded="false" aria-controls="flush-collapseThreeSmall">
+        Accordion item #3
+      </button>
+    </h2>
+    <div id="flush-collapseThreeSmall" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExampleSmall">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
     </div>
   </div>
 </div>
@@ -211,3 +120,9 @@ Accordions come in two sizes to accommodate space availability on the page or wi
 | 11/23/2020 | 1.0.0   | Spacing and typography adjustments. | E. Gunther   |
 
 {{</ whats-changed-table >}}
+
+<style>
+.nav-figma {
+  display: block !important;
+}
+</style>

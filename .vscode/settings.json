@@ -3,7 +3,7 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "scss.lint.validProperties": [
     "content-visibility",
@@ -11,7 +11,10 @@
   ],
   "markdown.styles": [
     "https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css",
-    "https://cdn.jsdelivr.net/npm/@trimbleinc/modus-bootstrap@1/dist/modus.min.css",
+    "https://cdn.jsdelivr.net/npm/@trimble-oss/modus-bootstrap/dist/css/modus-bootstrap.min.css",
     "https://modus.trimble.com/styles/styles.min.css"
-  ]
+  ],
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  }
 }

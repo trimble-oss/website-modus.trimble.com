@@ -18,9 +18,7 @@ A design pattern has been defined as “a **proven** solution to a **common** pr
 - Specifications
 - Related user research
 
-<button type="button" class="btn btn-primary mb-1" data-toggle="modal" data-target="#formModal">
-  Submit now
-</button>
+<a href="https://modus.ideas.aha.io/ideas" class="btn btn-primary mb-1" target="_blank">Submit now</a>
 
 ## Guidelines for Creating Patterns
 
@@ -56,7 +54,7 @@ Well-established, familiar metaphors lessen the users' cognitive load and aid in
 
 ### 8.) Consider wider audiences
 
-A pattern is most effective if it can be applied in different contexts, for use by different users. Sometimes it is easy to expand the usefulness of a pattern. For example, by simply increasing the contrast between the text and background, you are ensuring that a user with poor vision can also perceive it.
+A pattern is most effective if it can be applied in different contexts, for use by different users. Sometimes it’s easy to expand the usefulness of a pattern. For example, by simply increasing the contrast between the text and background, you are ensuring that a user with poor vision can also perceive it.
 
 ### 9.) Patterns contribute to a shared language
 
@@ -64,28 +62,4 @@ Naming is important and should reflect its purpose. Names of patterns become fam
 
 Are you ready to contribute? To submit your recommendations, please:
 
-<button type="button" class="btn btn-primary mb-1" data-toggle="modal" data-target="#formModal">
-  Submit now
-</button>
-
-<div class="modal fade mt-5" id="formModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg pb-0">
-    <div class="modal-content">
-      <div class="modal-header mb-0 border-0 pb-0">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body pb-0">
-        <iframe class="clickup-embed clickup-dynamic-height border-0" src="https://forms.clickup.com/14200829/f/dhbzx-18840/17498YSP0VBP83B3D6" onwheel="" width="100%" height="100%" style="background: transparent;min-height:1390px"></iframe>
-        <script defer src="https://app-cdn.clickup.com/assets/js/forms-embed/v1.min.js"></script>
-      </div>
-    </div>
-  </div>
-</div>
-
-<style>
-body.modal-open .fixed-top {
-  z-index: 1030 !important;
-}
-</style>
+<a href="https://modus.ideas.aha.io/ideas" class="btn btn-primary mb-1" target="_blank">Submit now</a>

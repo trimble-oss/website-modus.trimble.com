@@ -46,5 +46,3 @@ Top navbar colors can be either White or {{< color-preview nameL="Trimble Blue D
 - Capitalize proper nouns.
 - Use title case for menu titles (e.g. Notifications).
 - Use sentence case for app descriptions and buttons (while preserving proper nouns).
-
-

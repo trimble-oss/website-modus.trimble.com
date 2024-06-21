@@ -14,9 +14,13 @@
   "license": "private",
   "author": "Trimble",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
+  },
+  "volta": {
+    "node": "20.14.0"
   },
   "scripts": {
+    "start": "npm run serve",
     "build": "npm-run-all lint-css && npx hugo",
     "build-dev": "npm-run-all lint-css && npx hugo --config config.yml,config-dev.yml && npm run lint-html",
     "deploy": "cross-env s3-deploy './build/**/*.{css,html,ico,jpg,js,json,webmanifest,map,png,svg,txt,xml}' --cwd './build/' --region us-east-1 --bucket prod-styles-trimblemaps --cache 31557600",
@@ -26,10 +30,12 @@
     "lint-css": "stylelint \"assets/styles/*.scss\" --fix",
     "lint-html": "htmlhint \"layouts/**/*.html\"",
     "lint-js": "npx eslint \"assets/js/*.js\" --fix",
-    "lint-links": "npx linkinator ./",
-    "lint-markdown": "npx markdownlint-cli content/**/*.md",
+    "lint-links": "npx linkinator ./build --recurse --silent",
+    "lint-markdown": "npx markdownlint-cli .",
     "lint-spellcheck": "npx cspell \"content/**/*.md\" --no-progress",
     "lint-textlint": "textlint **/*.*",
+    "pa11y": "npx pa11y build/index.html",
+    "pa11y-ci": "npx pa11y-ci --sitemap https://modus.trimble.com/sitemap.xml",
     "prettier": "prettier --write \"assets/**/*.*s\"",
     "serve": "hugo serve --port 4000 --disableFastRender --navigateToChanged",
     "serve-drafts": "hugo serve --port 4000 --disableFastRender --navigateToChanged --buildDrafts",
@@ -37,24 +43,26 @@
     "test": "npm-run-all build prettier lint-html lint-markdown lint-textlint"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "5.0.0",
-    "@trimble-oss/modus-icons": "1.5.1",
-    "@trimbleinc/modus-bootstrap": "1.6.2",
-    "autoprefixer": "10.4.15",
+    "@fullhuman/postcss-purgecss": "6.0.0",
+    "@trimble-oss/modus-bootstrap": "2.0.0-alpha31",
+    "@trimble-oss/modus-icons": "1.14.0",
+    "autoprefixer": "10.4.19",
+    "bootstrap-print-css": "1.0.1",
     "cross-env": "7.0.3",
     "htmlhint": "1.1.4",
-    "hugo-bin": "0.114.2",
+    "hugo-bin": "0.124.0",
     "list.js": "2.3.1",
     "npm-run-all": "4.1.5",
-    "postcss": "8.4.30",
-    "postcss-cli": "10.1.0",
-    "prettier": "3.0.3",
+    "popover-css-inspector": "1.0.0-beta14",
+    "postcss": "8.4.38",
+    "postcss-cli": "11.0.0",
+    "prettier": "3.3.2",
     "s3-deploy": "1.4.0",
-    "stylelint": "15.10.3",
-    "stylelint-config-standard-scss": "11.0.0",
-    "textlint": "13.3.3",
+    "stylelint": "16.6.1",
+    "stylelint-config-standard-scss": "13.1.0",
+    "textlint": "14.0.4",
     "textlint-rule-common-misspellings": "1.0.1",
-    "textlint-rule-terminology": "4.0.0"
+    "textlint-rule-terminology": "4.0.1"
   },
   "hugo-bin": {
     "buildTags": "extended"

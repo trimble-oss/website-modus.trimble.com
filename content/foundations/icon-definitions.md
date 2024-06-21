@@ -76,7 +76,7 @@ There are a few options for icon sizes that you can choose based on your product
 | 48x48px                | 3px           |                                                      |
 | 64x64px                | 4px           | Use for program logos, toolbars                      |
 | 96x96px                | 6px           | Usually thumbnails, web charms, etc.                 |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 Other design considerations:

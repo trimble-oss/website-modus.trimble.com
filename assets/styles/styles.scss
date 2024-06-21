@@ -4,21 +4,23 @@
 @import "autocomplete"; // search autocomplete dropdown
 @import "article";
 @import "cards";
+@import "col-sidebar"; // 1st column
 @import "color-preview"; // color swatches
 @import "codefences"; // code syntax highlighting
+@import "font-open-sans";
 @import "foundations";
-@import "ie11"; // IE 11 flexbox layout fixes
 @import "javascript-disabled"; // display message at top if JS is disabled
 @import "list-js";
-@import "menu-left";
+@import "sidebar";
 @import "menu-right"; // 'On this page' menu
+@import "mq-forced-colors";
 @import "mobile"; // optimizations for xxs mobile screens
 @import "navbar";
+@import "navbar-search";
+@import "news";
 @import "posts";
 @import "print";
-@import "rfs";
 @import "scroll-to-top-btn";
-@import "status";
 @import "skippy"; // skip to content accessibility
 @import "tables";
 @import "typography";
@@ -27,9 +29,8 @@
 @import "was-this-page-helpful";
 @import "anatomy-css";
 
-html,
 body {
-  color-scheme: light;
+  overflow-x: hidden;
 }
 
 h1,
@@ -42,8 +43,13 @@ h6 {
 }
 
 // underline links
-a {
+main a:not(.btn-text-primary, .dropdown-item, .btn, .page-link, .nav-link) {
   text-decoration: underline;
+}
+
+a.dropdown-item,
+a.nav-link {
+  text-decoration: none;
 }
 
 // don't underline links in buttons or navbar
@@ -71,17 +77,46 @@ code {
 }
 
 main {
-  min-height: 60vh;
+  min-height: calc(100vh - 412px);
 }
 
 .tooltip {
   z-index: 3070 !important;
 }
 
-.custom-select:focus {
-  box-shadow: none !important;
+#sidebar:not(.show) + div,
+#sidebar.collapsing + div {
+  max-width: calc(100% - 64px) !important;
 }
 
-.dropdown-item {
-  font-size: 0.875rem;
+[data-bs-theme="light"] .bg-panel-background {
+  background-color: #f1f1f6 !important;
+}
+
+[data-bs-theme="dark"] .bg-panel-background {
+  background-color: #252a2e !important;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  cursor: pointer;
+  filter: grayscale(1);
+}
+
+[data-bs-theme="light"] .list-group-item-action:active {
+  background-color: var(--bs-list-group-action-hover-bg) !important;
+}
+
+.bg-light {
+  background-color: #f1f1f6;
+}
+
+.popover-css-inspector .popover-header {
+  font-weight: 600;
+  background-color: rgba(133, 133, 133, 0.1);
+  opacity: 0.7;
+  padding-top: 6px !important;
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-radius: 0.25rem;
 }

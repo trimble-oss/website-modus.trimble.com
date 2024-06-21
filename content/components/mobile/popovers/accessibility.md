@@ -1,5 +1,6 @@
 ---
-sitemap_exclude: true
+sitemap:
+  disable: true
 title: "Popovers"
 layout: "single"
 description: ""

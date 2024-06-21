@@ -1,19 +1,20 @@
 # About CODEOWNERS
-# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+## https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
 ## Folders
 
 /assets/                       @coliff
-/content/                      @coliff @egunther39 @enowak1031 @msankaran0712 @soniakaukonen
+/content/                      @coliff @egunther39 @enowak1031
 /content/components/in-field/  @mjohnsnz
 /layouts/                      @coliff
-/static/                       @coliff @egunther39 @enowak1031 @msankaran0712 @soniakaukonen
+/static/                       @coliff
 /static/img/in-field/          @mjohnsnz
 
 ## File Types
 
 *.html      @coliff
-*.js        @coliff @msankaran0712
-*.md        @coliff @egunther39 @enowak1031 @msankaran0712 @soniakaukonen
+*.js        @coliff
+*.md        @coliff @egunther39 @enowak1031
 *.scss      @coliff
 *.xml       @coliff

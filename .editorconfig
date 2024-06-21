@@ -13,5 +13,6 @@ trim_trailing_whitespace = true
 [*.svg]
 insert_final_newline = false
 
+[*.html]
 [*.min.*]
 insert_final_newline = false

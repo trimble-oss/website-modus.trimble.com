@@ -1,12 +1,16 @@
-.table-whats-new th {
-  background-color: #e0e1e9;
-}
-
 .table-whats-new th:first-of-type {
   max-width: 79px;
   width: 79px;
 }
 
+.table-whats-new th {
+  background-color: rgba(133, 133, 133, 0.1);
+}
+
 .table.table-bordered thead {
   background-color: rgba(133, 133, 133, 0.1);
+}
+
+[data-bs-theme="dark"] .table {
+  --bs-table-border-color: #353a40;
 }

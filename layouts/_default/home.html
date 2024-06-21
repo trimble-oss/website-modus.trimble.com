@@ -1,65 +1,77 @@
 {{ define "main" }}
 
-<main id="main">
+<div class="container-fluid">
+  <div class="row row-main px-0">
 
-  <header>
-    <div class="container-fluid pt-5">
-      <div class="container-xl">
-        <div class="row">
-          <div class="col-12 col-md-6 pt-5">
-            <h1 class="text-trimble-blue mt-4 display-1 font-weight-bold">
-              Modus <p class="text-trimble-blue font-weight-light display-2" style="line-height: 1.2;">The One Trimble
-                Design System</p>
-            </h1>
-            <p class="lead text-trimble-blue-dark pt-3 mb-5">
-              Modus (noun) ˈmōdəs' : a mode of procedure : a way of doing something
-            </p>
+    <div class="col-1 col-sidebar px-0 bg-body shadow-sm">
+      {{ partial "col-sidebar" . }}
+    </div>
 
-          </div>
-          <div class="col-10 col-sm-9 col-md-5 mx-auto text-center text-lg-right mt-3">
-            <picture>
-              <source srcset="/img/modus-lead.webp">
-              <source srcset="/img/modus-lead.png">
-              <img src="/img/modus-lead.png" width="491" height="415" class="img-fluid text-center text-lg-right mx-auto mb-n4"
-                alt="">
-            </picture>
-          </div>
-        </div>
+    <div class="col col-auto px-0 collapse collapse-horizontal bg-dark bg-opacity-10" id="sidebar">
+      <div id="sidebar-menu" class="sticky-top sticky-offset shadow-sm overflow-auto overflow-x-hidden">
+        {{ partial "col-sidebar-menu" . }}
       </div>
     </div>
-  </header>
 
-  <div class="container-fluid bg-light py-5">
-    <div class="container-xl">
-      <div class="row">
-        <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto">
-          <h2 class="mt-5 h1 font-weight-bold text-trimble-gray text-center">
-            What's New
-          </h2>
-          <p class="card-text">The latest updates on Modus guidelines, components, documentation across platforms,
-            calls to <a href="/community/tiger-teams/"> join Tiger Teams</a>, and other Modus-related news.</p>
+    <div class="col col-auto col-12 col-main border-start p-0" id="main">
+      <main>
+        <header class="bg-secondary-subtle bg-opacity-10">
+          <div class="container-fluid pt-5">
+            <div class="container-xl">
+              <div class="row">
+                <div class="col-12 col-md-6 pt-sm-5">
+                  <h1 class="text-trimble-blue mt-sm-4 display-1 fw-bold">
+                    Modus
+                  </h1>
+                  <h2 class="text-trimble-blue fw-light display-2" style="line-height: 1.2;">The One
+                    Trimble Design System
+                  </h2>
+                  <p class="lead text-trimble-blue-dark pt-3 mb-5">
+                    Modus (noun) ˈmōdəs' : a mode of procedure : a way of doing something
+                  </p>
+
+                </div>
+                <div class="col-10 col-sm-9 col-md-5 mx-auto text-center text-lg-right mt-3">
+                  <img srcset="/img/modus-lead.webp" src="/img/modus-lead.png" onerror="this.srcset='/img/modus-lead.png';this.onerror='';" width="491" height="415"
+                      class="img-fluid text-center text-lg-right mx-auto mb-n4" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="container-fluid py-5">
+          <div class="container-xl">
+            <div class="row">
+              <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto">
+                <h2 class="mt-5 h1 fw-bold text-trimble-gray text-center">
+                  What's New
+                </h2>
+                <p class="card-text">The latest updates on Modus guidelines, components, documentation across platforms,
+                  calls to <a href="/community/tiger-teams/"> join Tiger Teams</a>, and other Modus-related news.</p>
+              </div>
+            </div>
+            <div>
+              {{- partial "index/list-blog-brief.html" . -}}
+            </div>
+            <div>
+              {{- partial "never-miss-an-update.html" . -}}
+            </div>
+          </div>
         </div>
-      </div>
-      <div>
-        {{- partial "index/list-blog-brief.html" . -}}
-      </div>
-      <div>
-        {{- partial "never-miss-an-update.html" . -}}
-      </div>
-    </div>
-  </div>
 
-  <div class="container-fluid bg-white">
-    <div class="container py-5">
+        <div class="container-fluid bg-secondary-subtle bg-opacity-10">
+          <div class="container py-5">
 
       <div class="row mb-5">
         <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8 mx-auto">
-          <h2 class="mt-5 mb-3 h1 font-weight-bold text-trimble-gray text-center">
+                <h2 class="mt-5 mb-3 h1 fw-bold text-trimble-gray text-center">
             Why a Design System
           </h2>
           <p class="card-text">
             Our design system helps us work together to build great digital experiences for Trimble customers. Its
-            purpose is to unify and create alignment among a vast array of applications and teams through common visual
+                  purpose is to unify and create alignment among a vast array of applications and teams through common
+                  visual
             language and consistent design solutions.
           </p>
         </div>
@@ -74,7 +86,8 @@
             </div>
             <div class="px-4">
               <h3 class="h2">Design Consistently</h3>
-              <p class="card-text">Standardized design components focus teams on creating better user experiences and
+                    <p class="card-text">Standardized design components focus teams on creating better user experiences
+                      and
                 allow our customers to flow between Trimble applications seamlessly.</p>
             </div>
           </div>
@@ -83,7 +96,7 @@
         <div class="col-12 col-sm-6 col-md-4 mb-4">
           <div class="h-100">
             <div class="text-center mb-3">
-              {{ partial "icons/usability.svg" (dict "class" "text-secondary my-1" "width" "64" "height" "64") }}
+                    {{ partial "icons/modus-outlined/person-account.svg" (dict "class" "text-secondary my-1" "width" "64" "height" "64") }}
             </div>
             <div class="px-4">
               <h3 class="h2">Improve Usability</h3>
@@ -102,7 +115,8 @@
             </div>
             <div class="px-4">
               <h3 class="h2">Scale Design</h3>
-              <p class="card-text">Solving problems systematically with a common language to unify products and create
+                    <p class="card-text">Solving problems systematically with a common language to unify products and
+                      create
                 consistent user
                 experiences between different Trimble products.</p>
             </div>
@@ -116,7 +130,8 @@
             </div>
             <div class="px-4">
               <h3 class="h2">Prototype Faster</h3>
-              <p class="card-text">Working with an existing design system allows you to quickly piece together flows
+                    <p class="card-text">Working with an existing design system allows you to quickly piece together
+                      flows
                 and interactions by providing essential building blocks.</p>
             </div>
           </div>
@@ -125,11 +140,12 @@
         <div class="col-12 col-sm-6 col-md-4 mb-4">
           <div class="h-100">
             <div class="text-center mb-3">
-              {{ partial "icons/iterate.svg" (dict "class" "text-secondary my-1" "width" "64" "height" "64") }}
+                    {{ partial "icons/modus-outlined/sync.svg" (dict "class" "text-secondary my-1" "width" "64" "height" "64") }}
             </div>
             <div class="px-4">
               <h3 class="h2">Iterate More Quickly</h3>
-              <p class="card-text">Using a design system reduces effort in making changes allowing for a painless and
+                    <p class="card-text">Using a design system reduces effort in making changes allowing for a painless
+                      and
                 more efficient iteration process.</p>
             </div>
           </div>
@@ -138,11 +154,12 @@
         <div class="col-12 col-sm-6 col-md-4 mb-4">
           <div class="h-100">
             <div class="text-center mb-3">
-              {{ partial "icons/manage-debt.svg" (dict "class" "text-secondary my-1" "width" "64" "height" "64") }}
+                    {{ partial "icons/modus-outlined/bar-graph-square.svg" (dict "class" "text-secondary my-1" "width" "64" "height" "64") }}
             </div>
             <div class="px-4">
               <h3 class="h2">Manage Debt</h3>
-              <p class="card-text">Design and technical debt is accumulated by an overabundance of non-reusable and
+                    <p class="card-text">Design and technical debt is accumulated by an overabundance of non-reusable
+                      and
                 inconsistent styles and conventions, and the impossible task of maintaining them.</p>
             </div>
           </div>
@@ -153,7 +170,8 @@
         <p class="card-text">
           Modus is a shared source of truth–a place to reference official Trimble patterns and styles. It includes
           foundational guidelines and components. It serves product managers, designers, and developers as a
-          repository of everything they need to plan, prototype, and develop better products. It’s a living system and
+                repository of everything they need to plan, prototype, and develop better products. It’s a living system
+                and
           at its core are <a href="/community/contribute/"> your contributions</a>.
         </p>
 
@@ -167,18 +185,18 @@
     </div>
   </div>
 
-
   <div class="container-fluid bg-light">
     <div class="container py-5">
       <div class="row">
         <div class="col-12 col-sm-11 col-md-10 col-lg-9 col-xl-8  mx-auto">
-          <h2 class="mt-5 h1 font-weight-bold text-trimble-gray text-center">
+                <h2 class="mt-5 h1 fw-bold text-trimble-gray text-center">
             How to Contribute
           </h2>
           <p class="card-text">Trimble Modus Design System is the result of community contributions, and we are
             constantly
             working
-            to make it better. We welcome your feedback as well as design patterns, code, ideas, articles, and user
+                  to make it better. We welcome your feedback as well as design patterns, code, ideas, articles, and
+                  user
             research.
             Explore some <a href="/community/contribute/">ways to contribute to Modus</a>.</p>
 
@@ -187,7 +205,8 @@
 
           <p class="mx-auto text-center">
             <a href="/community/tiger-teams/" class="btn btn-outline-primary btn-lg m-2">Join a Tiger Team</a>
-            <a href="/community/contribution-process/" class="btn btn-outline-primary btn-lg m-2">Submit a UI pattern</a>
+                  <a href="/community/contribution-process/" class="btn btn-outline-primary btn-lg m-2">Submit a UI
+                    pattern</a>
             <a href="/community/contact/" class="btn btn-outline-primary btn-lg m-2">Ask a question</a>
           </p>
 
@@ -196,9 +215,12 @@
     </div>
   </div>
 
-
+      </main>
+      <footer class="p-2 footer py-4 bg-secondary bg-opacity-10">
+        {{ partial "footer" . }}
+      </footer>
   </div>
 
-</main>
-
+  </div>
+</div>
 {{- end -}}

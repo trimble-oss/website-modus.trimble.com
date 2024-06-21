@@ -5,6 +5,7 @@
 *.yml
 
 *.config.js
+anatomy.js
 example-code-es*.js
 theme-toggle.js
 

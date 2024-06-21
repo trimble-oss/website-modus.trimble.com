@@ -15,7 +15,7 @@ tags: [usage]
 ---
 
 <style>
-[data-theme="dark"] .nav-tabs .nav-link.active {
+[data-bs-theme="dark"] .nav-tabs .nav-link.active {
   color: #0c77be !important;
 }
 </style>
@@ -32,7 +32,7 @@ Tabs are a set of layered sections of content, known as tab panels, that display
 - You want to organize content into meaningful sections that occupy less screen space.
 - Add visual consistency.
 
-<table class="table table-bordered">
+<table class="table table-bordered border border-opacity-50">
   <tr>
     <td>
       <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -40,7 +40,7 @@ Tabs are a set of layered sections of content, known as tab panels, that display
           <a
             class="nav-link active show"
             id="firstTab"
-            data-toggle="tab"
+            data-bs-toggle="tab"
             href="#first"
             role="tab"
             aria-controls="first"
@@ -52,7 +52,7 @@ Tabs are a set of layered sections of content, known as tab panels, that display
           <a
             class="nav-link"
             id="secondTab"
-            data-toggle="tab"
+            data-bs-toggle="tab"
             href="#second"
             role="tab"
             aria-controls="second"
@@ -64,7 +64,7 @@ Tabs are a set of layered sections of content, known as tab panels, that display
           <a
             class="nav-link"
             id="thirdTab"
-            data-toggle="tab"
+            data-bs-toggle="tab"
             href="#third"
             role="tab"
             aria-controls="third"

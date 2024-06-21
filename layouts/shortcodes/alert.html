@@ -1,0 +1,18 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{ $color := .Get "color" | default "primary" }}
+<div
+  class="alert alert-{{ $color }} d-flex align-items-center {{ with .Get "dismissible" }}alert-dismissible fade show{{end}}"
+  role="alert">
+  {{ with .Get "title" }}<h4 class="alert-heading">{{ . | safeHTML }}</h4>{{ end }}
+  {{- with .Get "icon" -}}<i class="modus-icons small notranslate me-2"
+    aria-hidden="true">{{- . | safeHTML | lower -}}</i>{{ end }}
+  {{ if eq .Page.File.Ext "md" }}
+  {{ .Inner | markdownify }}
+  {{ else }}
+  {{ .Inner | htmlUnescape | safeHTML }}
+  {{ end }}
+
+  {{ with .Get "dismissible" }}
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  {{ end }}
+</div>

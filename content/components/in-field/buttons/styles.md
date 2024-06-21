@@ -37,7 +37,7 @@ main td p img {
 | Floating       | {{< img src="/img/in-field/btn-spec-floating.svg" dark="/img/in-field/btn-spec-floating-dark.svg" width="515" height="56" alt="" >}}             | 56dp   | Segmented Controls |
 | Floating Large | {{< img src="/img/in-field/btn-spec-floating-large.svg" dark="/img/in-field/btn-spec-floating-large-dark.svg" width="530" height="64" alt="" >}} | 64dp   | Floating Screen    |
 | Stacked        | {{< img src="/img/in-field/btn-spec-stacked.svg" dark="/img/in-field/btn-spec-stacked-dark.svg" width="440" height="80" alt="" >}}               | 80dp   | Portrait           |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 **Note**: All items spacing is 8dp, the stacked buttom is 4dp. Incab sizes only, see mobile for smaller options for in-field if required
@@ -60,7 +60,7 @@ All buttons (including icon buttons) should have the following states:
 | Pressed   | {{< img src="/img/in-field/btn-primary-pressed.svg" dark="/img/in-field/btn-primary-pressed-dark.svg" width="90" alt="" >}} | {{< img src="/img/in-field/btn-secondary-pressed.svg" dark="/img/in-field/btn-secondary-pressed-dark.svg" width="90" alt="" >}} | {{< img src="/img/in-field/btn-outline-pressed.svg" dark="/img/in-field/btn-outline-pressed-dark.svg" width="90" alt="" >}} |{{< img src="/img/in-field/btn-text-only-pressed.svg" dark="/img/in-field/btn-text-only-pressed-dark.svg" width="90" alt="" >}} |
 | Focus | {{< img src="/img/in-field/btn-primary-focused.svg" dark="/img/in-field/btn-primary-focused-dark.svg" width="90" alt="" >}} | {{< img src="/img/in-field/btn-secondary-focus.svg" dark="/img/in-field/btn-secondary-focus-dark.svg"width="90" alt="" >}} | {{< img src="/img/in-field/btn-outline-focus.svg" dark="/img/in-field/btn-outline-focus-dark.svg" width="90" alt="" >}} |{{< img src="/img/in-field/btn-text-only-focus.svg" dark="/img/in-field/btn-text-only-focus-dark.svg" width="90" alt="" >}} |
 | Disabled | {{< img src="/img/in-field/btn-primary-disabled.svg" dark="/img/in-field/btn-primary-disabled-dark.svg" width="90" alt="" >}} | {{< img src="/img/in-field/btn-secondary-disabled.svg" dark="/img/in-field/btn-secondary-disabled-dark.svg" width="90" alt="" >}} | {{< img src="/img/in-field/btn-outline-disabled.svg" dark="/img/in-field/btn-outline-disabled-dark.svg" width="90" alt="" >}} |{{< img src="/img/in-field/btn-text-only-disabled.svg" dark="/img/in-field/btn-text-only-disabled-dark.svg" width="90" alt="" >}} |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 **Note:** Focus state uses Highlight Blue for high contrast.

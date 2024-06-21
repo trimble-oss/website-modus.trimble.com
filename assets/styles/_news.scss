@@ -1,0 +1,14 @@
+body[data-url^="/news/"] .col-auto header {
+  aspect-ratio: 4 / 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body[data-url^="/news/"] .menu-left a[href^="/news/"] {
+  font-weight: bold;
+}
+
+.card.card-post:hover {
+  box-shadow: 0 0 8px rgba(37, 42, 46, 0.3);
+}

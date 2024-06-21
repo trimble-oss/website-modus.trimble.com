@@ -10,6 +10,8 @@ bootstrapURL: "/components/pagination/"
 reactBootstrapURL: "/components/pagination/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-pagination--default"
 tags: [styles]
+disableAnatomy: true
+popoverCSSInspector: true
 ---
 
 ## Specifications
@@ -23,18 +25,18 @@ tags: [styles]
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Small</th>
-      <td class="anatomy-cell">
-        <nav aria-label="Page Navigation Example" class="w-75">
-          <ul class="pagination pagination-sm anatomy-display-static" data-anatomy-colors="false" style="font-size: 12px">
+      <th scope="row" height="175">Small</th>
+      <td class="text-center mx-auto py-2">
+        <nav aria-label="Page Navigation Example" class="pb-1">
+          <ul class="pagination pagination-sm" style="font-size: 12px">
             <li class="page-item">
-              <a class="page-link" href="#" aria-label="Previous">
-                <i class="modus-icons notranslate" aria-hidden="true">chevron_left</i>
+              <a class="page-link p-1" href="#" aria-label="Previous">
+                <svg width="16" height="16" fill="currentcolor"><use xlink:href="/modus-icons.svg#chevron-left"></use></svg>
               </a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="#" aria-label="view more">
-                <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
+              <a class="page-link p-1" href="#" aria-label="view more">
+                <svg width="16" height="16" fill="currentcolor"><use xlink:href="/modus-icons.svg#more-horizontal"></use></svg>
               </a>
             </li>
             <li class="page-item">
@@ -44,7 +46,7 @@ tags: [styles]
               <a class="page-link" href="#"> 4 </a>
             </li>
             <li class="page-item active" aria-current="page">
-              <a class="page-link" href="#">5 <span class="sr-only">(current)</span></a>
+              <a class="page-link" href="#">5 <span class="sr-only visually-hidden">(current)</span></a>
             </li>
             <li class="page-item">
               <a class="page-link" href="#"> 6 </a>
@@ -53,40 +55,47 @@ tags: [styles]
               <a class="page-link" href="#"> 7 </a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="#" aria-label="view more">
-                <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
+              <a class="page-link p-1" href="#" aria-label="view more">
+                <svg width="16" height="16" fill="currentcolor"><use xlink:href="/modus-icons.svg#more-horizontal"></use></svg>
               </a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="#" aria-label="Next">
-                <i class="modus-icons notranslate" aria-hidden="true">chevron_right</i>
+              <a class="page-link p-1" href="#" aria-label="Next">
+                <svg width="16" height="16" fill="currentcolor"><use xlink:href="/modus-icons.svg#chevron-right"></use></svg>
               </a>
             </li>
           </ul>
         </nav>
-        <nav aria-label="Page Navigation Example">
+        <nav aria-label="Page Navigation Example" class="mb-5">
           <ul class="pagination pagination-sm m-0 mt-5">
             <li class="page-item">
-              <a href="#" class="page-link anatomy-display-static" data-anatomy-colors="false" data-anatomy-popover="false">1</a>
+              <a href="#" class="page-link pe-none"
+              data-bs-placement="right"
+              data-bs-toggle="popover"
+              data-bs-custom-class="popover-css-inspector"
+              data-css-inspector-hide="b-color text-align"
+              style="border-radius: 4px;">
+               1
+              </a>
             </li>
           </ul>
         </nav>
       </td>
     </tr>
     <tr>
-      <th scope="row">Default</th>
-      <td class="anatomy-cell">
+      <th scope="row" height="165">Default</th>
+      <td class="text-center mx-auto py-3">
         <div>
-          <nav aria-label="..." style="width: 300px">
-            <ul class="pagination anatomy-display-static" data-anatomy-colors="false">
+          <nav aria-label="..." class="mx-auto mb-2">
+            <ul class="pagination">
               <li class="page-item">
-                <a class="page-link" href="#" aria-label="Previous">
-                  <i class="modus-icons notranslate" aria-hidden="true">chevron_left</i>
+                <a class="page-link p-1" href="#" aria-label="Previous">
+                  <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#chevron-left"></use></svg>
                 </a>
               </li>
               <li class="page-item">
-                <a class="page-link" href="#" aria-label="view more">
-                  <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
+                <a class="page-link p-1" href="#" aria-label="view more">
+                  <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#more-horizontal"></use></svg>
                 </a>
               </li>
               <li class="page-item">
@@ -96,7 +105,7 @@ tags: [styles]
                 <a class="page-link" href="#"> 4 </a>
               </li>
               <li class="page-item active" aria-current="page">
-                <a class="page-link" href="#">5 <span class="sr-only">(current)</span></a>
+                <a class="page-link" href="#">5 <span class="sr-only visually-hidden">(current)</span></a>
               </li>
               <li class="page-item">
                 <a class="page-link" href="#"> 6 </a>
@@ -105,40 +114,47 @@ tags: [styles]
                 <a class="page-link" href="#"> 7 </a>
               </li>
               <li class="page-item">
-                <a class="page-link" href="#" aria-label="view more">
-                  <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
+                <a class="page-link p-1" href="#" aria-label="view more">
+                  <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#more-horizontal"></use></svg>
                 </a>
               </li>
               <li class="page-item">
-                <a class="page-link" href="#" aria-label="Next">
-                  <i class="modus-icons notranslate" aria-hidden="true">chevron_right</i>
+                <a class="page-link p-1" href="#" aria-label="Next">
+                  <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#chevron-right"></use></svg>
                 </a>
               </li>
             </ul>
           </nav>
-          <nav aria-label="Page Navigation Example">
+          <div class="mt-3 pt-2">
+          <nav aria-label="Page Navigation Example" class="mb-5 mt-5">
             <ul class="pagination m-0 mt-5">
               <li class="page-item">
-                <a href="#" class="page-link anatomy-display-static" data-anatomy-colors="false" data-anatomy-popover="false">1</a>
+                <a href="#" class="page-link pe-none"
+                data-bs-placement="right"
+              data-bs-toggle="popover"
+              style="width: 32px; height: 32px; border-radius: 4px;"
+              data-bs-custom-class="popover-css-inspector"
+              data-css-inspector-hide="b-color text-align">1</a>
               </li>
             </ul>
           </nav>
+          </div>
         </div>
       </td>
     </tr>
     <tr>
-      <th scope="row">Large</th>
-      <td class="anatomy-cell">
-        <nav aria-label="..." style="width: 400px">
-          <ul class="pagination pagination-lg anatomy-display-static" data-anatomy-colors="false" style="font-size: 20px">
+      <th scope="row" height="165">Large</th>
+      <td class="text-center mx-auto py-2">
+        <nav aria-label="Large Pagination Example">
+          <ul class="pagination pagination-lg" data-anatomy-colors="false" style="font-size: 20px">
             <li class="page-item">
-              <a class="page-link" href="#" aria-label="Previous">
-                <i class="modus-icons notranslate" aria-hidden="true">chevron_left</i>
+              <a class="page-link px-2" href="#" aria-label="Previous">
+                <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#chevron-left"></use></svg>
               </a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="#">
-                <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
+              <a class="page-link px-2" href="#">
+                <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#more-horizontal"></use></svg>
               </a>
             </li>
             <li class="page-item">
@@ -148,21 +164,27 @@ tags: [styles]
               <a class="page-link" href="#"> 4 </a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="#">
-                <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
+              <a class="page-link px-2" href="#">
+                <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#more-horizontal"></use></svg>
               </a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="#" aria-label="Next">
-                <i class="modus-icons notranslate" aria-hidden="true">chevron_right</i>
+              <a class="page-link px-2" href="#" aria-label="Next">
+                <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#chevron-right"></use></svg>
               </a>
             </li>
           </ul>
         </nav>
-        <nav aria-label="Page Navigation Example">
+        <nav aria-label="Page Navigation Example" class="mb-5">
           <ul class="pagination pagination-lg m-0 mt-5">
             <li class="page-item">
-              <a href="#" class="page-link anatomy-display-static" data-anatomy-colors="false" data-anatomy-popover="false">1</a>
+              <a href="#" class="page-link pe-none"
+              data-bs-placement="right"
+              data-bs-toggle="popover"
+              style="width: 48px; height: 48px;"
+              data-bs-custom-class="popover-css-inspector"
+              data-css-inspector-hide="bc text-align hide-us"
+              >1</a>
             </li>
           </ul>
         </nav>
@@ -188,13 +210,13 @@ tags: [styles]
     <nav aria-label="Page Navigation Example">
       <ul class="pagination m-0">
         <li class="page-item disabled">
-          <a class="page-link" href="#" aria-label="Previous">
-            <i class="modus-icons notranslate" aria-hidden="true">chevron_left</i>
+          <a class="page-link p-1" href="#" aria-label="Previous">
+            <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#chevron-left"></use></svg>
           </a>
         </li>
         <li class="page-item disabled">
-          <a class="page-link" href="#">
-            <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
+          <a class="page-link p-1" href="#">
+            <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#more-horizontal"></use></svg>
           </a>
         </li>
         <li class="page-item">
@@ -209,7 +231,7 @@ tags: [styles]
         </li>
         <li class="page-item active" aria-current="page">
           <a class="page-link" href="#"
-            >5 <span class="sr-only">(current)</span></a
+            >5 <span class="sr-only visually-hidden">(current)</span></a
           >
         </li>
         <li class="page-item">
@@ -223,13 +245,13 @@ tags: [styles]
           </a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">
-            <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
+          <a class="page-link p-1" href="#">
+            <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#more-horizontal"></use></svg>
           </a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next">
-            <i class="modus-icons notranslate" aria-hidden="true">chevron_right</i>
+          <a class="page-link p-1" href="#" aria-label="Next">
+            <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#chevron-right"></use></svg>
           </a>
         </li>
       </ul>
@@ -242,17 +264,16 @@ tags: [styles]
 - Disable the next and last arrow icons (and their labels) when the last page is selected.
 
 <div class="guide-example-block">
-  <div class="guide-sample">
     <nav aria-label="Page Navigation Example">
       <ul class="pagination m-0">
         <li class="page-item">
-          <a class="page-link" href="#" aria-label="Previous">
-            <i class="modus-icons notranslate" aria-hidden="true">chevron_left</i>
+          <a class="page-link p-1" href="#" aria-label="Previous">
+            <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#chevron-left"></use></svg>
           </a>
         </li>
         <li class="page-item">
-          <a class="page-link" href="#">
-            <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
+          <a class="page-link p-1" href="#">
+            <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#more-horizontal"></use></svg>
           </a>
         </li>
         <li class="page-item">
@@ -265,32 +286,31 @@ tags: [styles]
             4
           </a>
         </li>
-        <li class="page-item active" aria-current="page">
+        <li class="page-item">
           <a class="page-link" href="#"
-            >5 <span class="sr-only">(current)</span></a
-          >
+            >5
+          </a>
         </li>
         <li class="page-item">
           <a class="page-link" href="#">
             6
           </a>
         </li>
-        <li class="page-item">
+        <li class="page-item active" aria-current="page">
           <a class="page-link" href="#">
-            7
+            7 <span class="sr-only visually-hidden">(current)</span>
           </a>
         </li>
         <li class="page-item disabled">
-          <a class="page-link" href="#">
-            <i class="modus-icons notranslate" aria-hidden="true">more_horizontal</i>
+          <a class="page-link p-1">
+            <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#more-horizontal"></use></svg>
           </a>
         </li>
         <li class="page-item disabled">
-          <a class="page-link" href="#" aria-label="Next">
-            <i class="modus-icons notranslate" aria-hidden="true">chevron_right</i>
+          <a class="page-link p-1">
+            <svg width="24" height="24" fill="currentcolor"><use xlink:href="/modus-icons.svg#chevron-right"></use></svg>
           </a>
         </li>
       </ul>
     </nav>
-  </div>
 </div>

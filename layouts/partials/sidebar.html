@@ -1,0 +1,139 @@
+{{ $currentPage := . }}
+<div class="accordion accordion-flush">
+  <div class="accordion-item">
+    <h6 class="accordion-header">
+      <button class="accordion-button collapsed fs-5 ps-3 py-1 opacity-75" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseFoundations" aria-expanded="false" aria-controls="flush-collapseFoundations">
+        Foundations
+      </button>
+    </h6>
+    <div id="flush-collapseFoundations" class="accordion-collapse collapse {{- if .Params.foundations -}}show{{ end }}">
+      <div class="accordion-body py-1 bg-secondary bg-opacity-10">
+        <ul class="list-unstyled">
+          {{- range .Site.Menus.foundations -}}
+          <li class="my-1"><a
+              class="nav-link text-body {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+              href="{{- .URL -}}">
+              {{- .Name -}}
+            </a>
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h6 class="accordion-header">
+      <button class="accordion-button collapsed fs-5 ps-3 py-1 opacity-75" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseWeb" aria-expanded="false" aria-controls="flush-collapseWeb">
+        Components (Web)
+      </button>
+    </h6>
+    <div id="flush-collapseWeb" class="accordion-collapse collapse {{ if .Params.componentsWeb -}}show{{- end -}}">
+      <div class="accordion-body py-1 bg-secondary bg-opacity-10">
+        <ul class="list-unstyled">
+          {{- range .Site.Menus.components_web -}}
+          <li class="my-1"><a
+              class="nav-link text-body {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+              href="{{- .URL -}}">
+              {{- .Name -}}
+            </a>
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h6 class="accordion-header">
+      <button class="accordion-button collapsed fs-5 ps-3 py-1 opacity-75" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseInfield" aria-expanded="false" aria-controls="flush-collapseInfield">
+        Components (In-Field)
+      </button>
+    </h6>
+    <div id="flush-collapseInfield"
+      class="accordion-collapse collapse {{- if .Params.components_infield -}}show{{ end }}">
+      <div class="accordion-body py-1 bg-secondary bg-opacity-10">
+        <ul class="list-unstyled">
+          {{- range .Site.Menus.components_infield -}}
+          <li class="my-1"><a
+              class="nav-link text-body {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+              href="{{- .URL -}}">
+              {{- .Name -}}
+            </a>
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item" id="components-mobile">
+    <h6 class="accordion-header">
+      <button class="accordion-button collapsed fs-5 ps-3 py-1 opacity-75" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseMobile" aria-expanded="false" aria-controls="flush-collapseMobile">
+        Components (Mobile)
+      </button>
+    </h6>
+    <div id="flush-collapseMobile"
+      class="accordion-collapse collapse {{ if (in .Params.tags "mobile" ) }}show{{ end }}">
+      <div class="accordion-body py-1 bg-secondary bg-opacity-10">
+        <ul class="list-unstyled">
+          {{- range .Site.Menus.components_mobile -}}
+          <li class="my-1"><a
+              class="nav-link text-body {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+              href="{{- .URL -}}">
+              {{- .Name -}}
+            </a>
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed fs-5 ps-3 py-1 opacity-75" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseXr" aria-expanded="false" aria-controls="flush-collapseXr">
+        Components (XR)
+      </button>
+    </h2>
+    <div id="flush-collapseXr" class="accordion-collapse collapse {{ if (in .Params.tags "xr" ) }}show{{ end }}">
+      <div class="accordion-body py-1 bg-secondary bg-opacity-10">
+        <ul class="list-unstyled">
+          {{- range .Site.Menus.components_xr -}}
+          <li class="my-1"><a
+              class="nav-link text-body {{ if or (eq $currentPage.RelPermalink .URL) (eq $currentPage.Name .Name) }}active fw-bold{{- end -}}"
+              href="{{- .URL -}}">
+              {{- .Name -}}
+            </a>
+          </li>
+          {{- end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed fs-5 ps-3 py-1 opacity-75" type="button" data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseC" aria-expanded="false" aria-controls="flush-collapseC">
+        Community
+      </button>
+    </h2>
+    <div id="flush-collapseC" class="accordion-collapse collapse">
+      <div class="accordion-body py-1 bg-secondary bg-opacity-10">
+        <ul class="list-unstyled">
+          <ul class="list-unstyled">
+            <li class="my-1"><a class="nav-link" href="/news/">News &amp; Articles</a></li>
+            <li class="my-1"><a class="nav-link" href="/community/contribute/">How to Contribute</a></li>
+            <li class="my-1"><a class="nav-link" href="/community/tiger-teams/">Tiger Teams</a></li>
+            <li class="my-1"><a class="nav-link" href="/community/contribution-process/">Contribution Process</a></li>
+            <li class="my-1"><a class="nav-link" href="/community/submission-guidelines/">Submission Guidelines</a>
+            </li>
+            <li class="my-1"><a class="nav-link" href="/community/adoption/">Modus Adoption</a></li>
+            <li class="my-1"><a class="nav-link" href="/community/contact/">Contact Us</a></li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

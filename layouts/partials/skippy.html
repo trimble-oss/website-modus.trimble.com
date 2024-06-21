@@ -1,11 +1,8 @@
-<div class="skippy overflow-hidden">
-  <div class="text-center w-100" >
-    <a class="sr-only sr-only-focusable btn btn-primary rounded p-1 m-2" href="#main">Skip to
-      main content</a>
-
-    {{ if (eq .Page.Layout "docs") }}
-    <a class="sr-only sr-only-focusable d-none d-md-inline-flex p-1 mb-1" href="#bd-docs-nav">Skip to docs
-      navigation</a>
+<div class="skippy">
+  <div class="text-center">
+    <a class="px-2 btn btn-tertiary" href="#main">Skip to main content</a>
+    {{ if (eq .Page.Layout "docs") -}}
+    <a class="d-none d-md-inline-flex p-2 m-1" href="#sidebar-menu">Skip to docs navigation</a>
     {{- end }}
   </div>
 </div>

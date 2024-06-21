@@ -17,28 +17,27 @@ tags: [styles]
 
 Both header and button container should be 64px in height.
 
-<div class="guide-example-block my-3 bg-light pr-n5">
-  <div class="guide-content-sample modal-static" style="padding-bottom: 24px;">
-    <div class="modal show d-block ml-5 position-relative" tabindex="-1" role="dialog" style="z-index:1">
-      <div class="modal-dialog show" role="document">
-        <div class="modal-content float-right" style="width: 80%;">
-          <div class="modal-header anatomy-display-static" data-anatomy-colors="false" style="padding-top: 17px; padding-bottom: 18px; font-size: 16px;">
-            <h4 class="modal-title">Modal Header</h4>
+<div class="guide-example-block my-3 bg-secondary bg-opacity-10">
+  <div class="guide-content-sample modal-static pb-4 px-2">
+    <div class="modal show d-block position-relative" tabindex="-1" style="z-index:1">
+      <div class="modal-dialog show" style="max-width: 380px">
+        <div class="modal-content">
+          <div class="modal-header anatomy-display-static" data-anatomy-colors="false" style="padding-top: 19px; padding-bottom: 19px; height: 64px !important; max-height: 64px !important;">
+            <h4 class="modal-title">Modal header</h4>
             <button
               type="button"
-              class="close"
+              class="btn-close"
               data-dismiss="modal"
               aria-label="Close">
-              <span aria-hidden="true">×</span>
             </button>
           </div>
           <div class="modal-body">
             Content Area
           </div>
-          <div class="modal-footer anatomy-display-static" data-anatomy-colors="false">
+          <div class="modal-footer anatomy-display-static" data-anatomy-colors="false" style="height: 64px !important;">
             <button
               type="button"
-              class="btn btn-outline-dark justify-self-start"
+              class="btn btn-outline-secondary btn-outline-high-contrast justify-self-start"
               data-dismiss="modal"
             >
               Close

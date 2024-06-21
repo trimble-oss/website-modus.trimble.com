@@ -39,7 +39,7 @@ Where needed, lists may have groups of sub-categorized list items. Child list it
 | Focus    | {{< img src="/img/in-field/lists-focus.svg" dark="/img/in-field/lists-focus-dark.svg" width="400" alt="Example of a Focus List Item" >}}          |
 | Selected | {{< img src="/img/in-field/lists-selected.svg" dark="/img/in-field/lists-selected-dark.svg" width="400" alt="Example of a Selected List Item" >}} |
 | Disabled | {{< img src="/img/in-field/lists-disabled.svg" dark="/img/in-field/lists-disabled-dark.svg" width="400" alt="Example of a Disabled List Item" >}} |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 ### Editorial

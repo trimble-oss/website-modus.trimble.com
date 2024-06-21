@@ -55,7 +55,7 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inpu
 ![Date Range](/img/components/date-range-picker.png)
 
 <style>
-[data-theme="dark"] img[src="/img/components/date-range-picker.png"] {
+[data-bs-theme="dark"] img[src="/img/components/date-range-picker.png"] {
  content: url(/img/components/date-range-picker-dark.png);
 }
 </style>
@@ -68,7 +68,7 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inpu
 ![Time Picker](/img/components/time-picker.png)
 
 <style>
-[data-theme="dark"] img[src="/img/components/time-picker.png"] {
+[data-bs-theme="dark"] img[src="/img/components/time-picker.png"] {
  content: url(/img/components/time-picker-dark.png);
 }
 </style>

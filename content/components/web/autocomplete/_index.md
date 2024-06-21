@@ -6,6 +6,7 @@ images:
   - "/img/components/headers/autocomplete.png"
 components: true
 componentsWeb: true
+group: web
 keywords: typeahead
 aliases:
   - "/components/autocomplete/"

@@ -35,7 +35,7 @@ There are three types of tabs:
 | Text Only   | {{< img src="/img/in-field/tabs-text.svg" dark="/img/in-field/tabs-text-dark.svg" alt="" >}}           | 56dp   |
 | Text & Icon | {{< img src="/img/in-field/tabs-text-icon.svg" dark="/img/in-field/tabs-text-icon-dark.svg" alt="" >}} | 80dp   |
 | Icon Only   | {{< img src="/img/in-field/tabs-icon.svg" dark="/img/in-field/tabs-icon-dark.svg" alt="" >}}           | 72dp   |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 **Note:** In-cab size only. See mobile patterns (coming soon) for smaller options if required.

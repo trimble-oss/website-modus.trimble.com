@@ -7,7 +7,8 @@ component: Popovers
 images:
   - "/img/mobile/headers/popovers.png"
 tags: [mobile, usage, hidden]
-sitemap_exclude: true
+sitemap:
+  disable: true
 ---
 
 {{< img src="/img/mobile/popovers.svg" dark="/img/mobile/popovers-dark.svg" width="961" height="260" class="w-100" alt="Popovers Example" loading="auto" >}}
@@ -32,8 +33,8 @@ A Popover can have any type of content, such as tables or paragraphs.
 
 {{< whats-changed-table >}}
 
-| Date       | Version | Notes                | Contributors                                                                                                                |
-| ---------- | ------- | -------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
+| Date       | Version | Notes                | Contributors                                                                                                                          |
+| ---------- | ------- | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| 01/16/2023 | 1.0.0   | New component added. | D. Bedick, E. Bohn, N. Cadsawan, E. Gunther, I. Perez, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell, S. Kaukonen, N. Byati |
 
 {{</ whats-changed-table >}}

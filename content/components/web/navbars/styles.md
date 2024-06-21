@@ -61,7 +61,7 @@ Navbar background color can be White or Dark Blue in light theme and Gray (Gray 
 | Header block                                | Varies | 56px                   |
 | Product logo                                | Varies | 24px (max-height 32px) |
 | Navbar button target area                   | 48px   | 48px                   |
-| Icon button fill effect (border-radius 2px) | 48px   | 48px                   |
+| Icon button fill effect (border-radius 4px) | 48px   | 48px                   |
 | Profile avatar                              | 32px   | 32px                   |
 | Icon canvas size                            | 24px   | 24px                   |
 {.table .table-bordered}

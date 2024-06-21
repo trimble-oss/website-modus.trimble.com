@@ -4,6 +4,7 @@ layout: "single"
 description: "Outline of the collaborative processes of revising and adding components to Modus."
 url: "/community/contribute/"
 community: true
+group: community
 hideToc: true
 ---
 

@@ -20,7 +20,7 @@ A content tree should be located on the left side of the screen and should consi
 <img src="/img/components/tree-anatomy.svg" class="img-fluid" alt="Tree Anatomy"></br>
 
 <style>
-[data-theme="dark"] img[src="/img/components/tree-anatomy.svg"] {
+[data-bs-theme="dark"] img[src="/img/components/tree-anatomy.svg"] {
  content: url(/img/components/tree-anatomy-dark.svg);
 }
 </style>
@@ -41,7 +41,7 @@ A content tree view is text-only by default. This option is best used when a hie
 <img src="/img/components/tree-specs.svg" class="img-fluid" alt="Tree Specifications">
 
 <style>
-[data-theme="dark"] img[src="/img/components/tree-specs.svg"] {
+[data-bs-theme="dark"] img[src="/img/components/tree-specs.svg"] {
  content: url(/img/components/tree-specs-dark.svg);
 }
 </style>
@@ -67,7 +67,7 @@ A content tree view is text-only by default. This option is best used when a hie
 <img src="/img/components/tree-item-states.svg" class="img-fluid bg-light" width="792" height="751" loading="lazy" alt="Tree Item States"></br>
 
 <style>
-[data-theme="dark"] img[src="/img/components/tree-item-states.svg"] {
+[data-bs-theme="dark"] img[src="/img/components/tree-item-states.svg"] {
  content: url(/img/components/tree-item-states-dark.svg);
 }
 </style>
@@ -76,8 +76,8 @@ A content tree view is text-only by default. This option is best used when a hie
   <thead class="thead-light">
     <tr>
       <th>State</th>
-      <th width="20%">Background Color</th>
-      <th width="21%">Top/Bottom Border</th>
+      <th width="20%">Background color</th>
+      <th width="21%">Top/bottom border</th>
       <th width="21%">Font</th>
       <th width="21%">Notes</th>
     </tr>
@@ -123,7 +123,7 @@ A content tree view is text-only by default. This option is best used when a hie
 <img src="/img/components/tree-open-close.svg" class="img-fluid" alt="Collapse and Expand"></br>
 
 <style>
-[data-theme="dark"] img[src="/img/components/tree-open-close.svg"] {
+[data-bs-theme="dark"] img[src="/img/components/tree-open-close.svg"] {
  content: url(/img/components/tree-open-close-dark.svg);
 }
 </style>
@@ -135,7 +135,7 @@ When a label's length is too long to display within the tree view, the text shou
 <img src="/img/components/tree-text-overflow.svg" class="img-fluid" alt="Text Overflow"></br>
 
 <style>
-[data-theme="dark"] img[src="/img/components/tree-text-overflow.svg"] {
+[data-bs-theme="dark"] img[src="/img/components/tree-text-overflow.svg"] {
  content: url(/img/components/tree-text-overflow-dark.svg);
 }
 </style>
@@ -160,7 +160,7 @@ If system processes are delaying the display of child tree view items when a par
 <img src="/img/components/tree-lrg-loading.svg" class="img-fluid" alt="Large Tree Views"></br>
 
 <style>
-[data-theme="dark"] img[src="/img/components/tree-lrg-loading.svg"] {
+[data-bs-theme="dark"] img[src="/img/components/tree-lrg-loading.svg"] {
  content: url(/img/components/tree-lrg-loading-dark.svg);
 }
 </style>
@@ -170,7 +170,7 @@ If system processes are delaying the display of child tree view items when a par
 <img src="/img/components/tree-content-br.svg" class="img-fluid" alt="Content Tree Action bar"></br>
 
 <style>
-[data-theme="dark"] img[src="/img/components/tree-content-br.svg"] {
+[data-bs-theme="dark"] img[src="/img/components/tree-content-br.svg"] {
  content: url(/img/components/tree-content-br-dark.svg);
 }
 </style>
@@ -188,7 +188,7 @@ The content tree may include an action bar that contains a variety of icons that
 <img src="/img/components/tree-duplicating.svg" class="img-fluid" alt="Duplicate Tree"></br>
 
 <style>
-[data-theme="dark"] img[src="/img/components/tree-duplicating.svg"] {
+[data-bs-theme="dark"] img[src="/img/components/tree-duplicating.svg"] {
  content: url(/img/components/tree-duplicating-dark.svg);
 }
 </style>
@@ -205,7 +205,7 @@ When a folder is selected, the duplicate icon in the toolbar becomes active.
 <img src="/img/components/tree-drag-drop.svg" class="img-fluid" alt="Drag & Drop"></br>
 
 <style>
-[data-theme="dark"] img[src="/img/components/tree-drag-drop.svg"] {
+[data-bs-theme="dark"] img[src="/img/components/tree-drag-drop.svg"] {
  content: url(/img/components/tree-drag-drop-dark.svg);
 }
 </style>
@@ -233,7 +233,7 @@ If a drag operation is not allowed, the line indicating the drop location will b
 <img src="/img/components/tree-edit.svg" class="img-fluid" alt="Edit"></br>
 
 <style>
-[data-theme="dark"] img[src="/img/components/tree-edit.svg"] {
+[data-bs-theme="dark"] img[src="/img/components/tree-edit.svg"] {
  content: url(/img/components/tree-edit-dark.svg);
 }
 </style>

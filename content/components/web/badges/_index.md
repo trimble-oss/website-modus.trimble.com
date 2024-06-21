@@ -21,12 +21,12 @@ Badges notify the user of a status, for example that there are new or unread mes
 
 ## Usage
 
-#### Use when
+### Use when
 
 - In proximity to notifications or user avatars with eye-catching appeal (e.g. displaying unread messages count).
 - Use for displaying quick, easily digestible bits of information.
 
-#### Don't use when
+### Don't use when
 
 - Displaying long strings of text.
 - An interactive element is needed, such as a [Button](/components/web/buttons/) or [Chip](/components/web/chips/).
@@ -41,13 +41,13 @@ Used when more emphasis is needed. **Default badges can look like [Buttons](/com
 
 <div class="guide-example-block">
   <div class="guide-sample">
-    <span class="badge badge-primary">Primary</span>
-    <span class="badge badge-secondary">Secondary</span>
-    <span class="badge badge-tertiary">Tertiary</span>
-    <span class="badge badge-dark">High Contrast</span>
-    <span class="badge badge-success">Success</span>
-    <span class="badge badge-warning">Warning</span>
-    <span class="badge badge-danger">Danger</span>
+    <span class="badge bg-primary">Primary</span>
+    <span class="badge bg-secondary">Secondary</span>
+    <span class="badge bg-tertiary">Tertiary</span>
+    <span class="badge bg-high-contrast">High Contrast</span>
+    <span class="badge bg-success">Success</span>
+    <span class="badge text-bg-warning">Warning</span>
+    <span class="badge bg-danger">Danger</span>
   </div>
 </div>
 
@@ -57,11 +57,11 @@ Used to display a more subtle label. **Text badges can look like text [Buttons](
 
 <div class="guide-example-block">
   <div class="guide-sample">
-    <span class="badge badge-text-primary">Primary</span>
-    <span class="badge badge-text-secondary">Secondary</span>
-    <span class="badge badge-text-dark">High Contrast</span>
-    <span class="badge badge-text-success">Success</span>
-    <span class="badge badge-text-danger">Danger</span>
+    <span class="badge text-primary">Primary</span>
+    <span class="badge text-secondary">Secondary</span>
+    <span class="badge text-body">High Contrast</span>
+    <span class="badge text-success">Success</span>
+    <span class="badge text-danger">Danger</span>
   </div>
 </div>
 
@@ -71,13 +71,13 @@ Used to display up to 3 characters (usually a number in a counter). Counter badg
 
 <div class="guide-sample">
     <div>
-      <span class="badge badge-pill badge-primary">1</span>
-      <span class="badge badge-pill badge-secondary">2</span>
-      <span class="badge badge-pill badge-tertiary">3</span>
-      <span class="badge badge-pill badge-dark">4</span>
-      <span class="badge badge-pill badge-success">5</span>
-      <span class="badge badge-pill badge-warning">6</span>
-      <span class="badge badge-pill badge-danger">7</span>
+      <span class="badge badge-pill bg-primary">1</span>
+      <span class="badge badge-pill bg-secondary">2</span>
+      <span class="badge badge-pill bg-tertiary">3</span>
+      <span class="badge badge-pill bg-high-contrast">4</span>
+      <span class="badge badge-pill bg-success">5</span>
+      <span class="badge badge-pill text-bg-warning">6</span>
+      <span class="badge badge-pill bg-danger">7</span>
     </div>
 </div>
 
@@ -88,23 +88,23 @@ Badges can be inserted into other elements.
 <div class="guide-example-block">
   <div class="guide-sample">
     <button type="button" class="btn btn-outline-primary">
-    Button <span class="badge badge-primary">9</span>
+    Button <span class="badge bg-primary">9</span>
     <span class="sr-only visually-hidden">unread messages</span>
     </button>
     <button type="button" class="btn btn-primary">
-    Button <span class="badge badge-text-tertiary">9</span>
+    Button <span class="badge text-white">9</span>
     <span class="sr-only visually-hidden">unread messages</span>
     </button>
     <ul class="mt-3 list-group">
       <li class="list-group-item d-flex justify-content-between align-items-center">
-        List with Badge
-        <span class="badge badge-primary badge-pill">14</span>
+        <span class="text-body">List with Badge</span>
+        <span class="badge bg-primary badge-pill">14</span>
       </li>
     </ul>
     <ul class="mt-3 list-group">
       <li class="list-group-item d-flex justify-content-between align-items-center">
-        List with Text Badge
-        <span class="badge badge-text-primary badge-pill">14</span>
+        <span class="text-body">List with Text Badge</span>
+        <span class="badge text-primary badge-pill">14</span>
       </li>
     </ul>
   </div>

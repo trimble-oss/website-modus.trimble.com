@@ -11,102 +11,119 @@ bootstrapURL: "/components/radio-buttons/"
 reactBootstrapURL: "/components/radio-buttons/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-radio-group--default"
 tags: [styles]
+disableAnatomy: true
+popoverCSSInspector: true
 ---
 
 ## Specifications
+
+<div
+  class="guide-example-block bg-secondary py-5 mb-2"
+  style="padding-left: 290px; --bs-bg-opacity: 0.03">
+  <div class="guide-sample py-3">
+    <div class="form-check my-2 mb-5 pb-5">
+      <input
+        class="form-check-input pe-none"
+        style="height:16px; width:16px;"
+        type="radio"
+        name="Radios"
+        id="Radios1"
+        value="option1"
+        data-bs-toggle="popover"
+        data-bs-placement="left"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="b-radius color font-size margin padding"
+        data-css-inspector-show="b-color" />
+      <label
+        class="form-check-label pe-none"
+        for="Radios1"
+        data-bs-toggle="popover"
+        data-bs-placement="right"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="bg-color b-radius height margin padding"
+        data-css-inspector-show="">
+        Radio
+      </label>
+    </div>
+    <hr class="visually-hidden" style="margin-top: 90px;">
+    <div class="form-check-sm my-2 mt-5" style="margin-top: 90px;">
+      <input
+        class="form-check-input pe-none"
+        type="radio"
+        name="Radios"
+        id="Radios2"
+        value="option1"
+        data-bs-toggle="popover"
+        data-bs-placement="left"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="b-radius b-width bg-color color font-size margin padding"
+        data-css-inspector-show="" />
+      <label
+        class="form-check-label pe-none"
+        for="Radios2"
+        data-bs-toggle="popover"
+        data-bs-placement="right"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="bg-color b-radius height margin padding"
+        data-css-inspector-show="">
+        Small Radio
+      </label>
+    </div>
+  </div>
+</div>
 
 - Always stack radio buttons vertically. Horizontal variation should not be used.
 - Uses the same `:hover` and `:active` styles as the primary [Button](/components/web/buttons/).
 - A set of radio buttons should not default to having one option selected.
 - A heading much accompany a set of radio buttons.
+- Small radio buttons can only be used within tables
 
 <table class="table table-bordered">
   <tr>
     <td width="50%">
-      <div class="custom-control custom-radio">
-        <input
-          type="radio"
-          checked=""
-          class="custom-control-input"
-          id="customRadio"
-          name="example"
-          value="customEx"
-        />
-        <label class="custom-control-label" for="customRadio">Radio 1</label>
-      </div>
-      <div class="custom-control custom-radio">
-        <input
-          type="radio"
-          class="custom-control-input"
-          id="customRadio2"
-          name="example"
-          value="customEx2"
-        />
-        <label class="custom-control-label" for="customRadio2">Radio 2</label>
-      </div>
-      <div class="custom-control custom-radio">
-        <input
-          type="radio"
-          class="custom-control-input"
-          id="customRadio3"
-          name="example"
-          value="customEx3"
-        />
-        <label class="custom-control-label" for="customRadio3">Radio 3</label>
-      </div>
-      <div class="custom-control custom-radio">
-        <input
-          type="radio"
-          class="custom-control-input"
-          id="customRadio4"
-          name="example"
-          value="customEx4"
-        />
-        <label class="custom-control-label" for="customRadio4">Radio 4</label>
-      </div>
+   <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Radio 1
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    Radio 2
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+  <label class="form-check-label" for="exampleRadios3">
+    Radio 3
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+  <label class="form-check-label" for="exampleRadios4">
+    Radio 4
+  </label>
+</div>
     </td>
     <td>
-      <div class="custom-control custom-radio custom-control-inline">
-        <input
-          type="radio"
-          checked=""
-          class="custom-control-input"
-          id="customRadio5"
-          name="example2"
-          value="customEx5"
-        />
-        <label class="custom-control-label" for="customRadio5">Radio 1</label>
-      </div>
-      <div class="custom-control custom-radio custom-control-inline">
-        <input
-          type="radio"
-          class="custom-control-input"
-          id="customRadio6"
-          name="example2"
-          value="customEx6"
-        />
-        <label class="custom-control-label" for="customRadio6">Radio 2</label>
-      </div>
-      <div class="custom-control custom-radio custom-control-inline">
-        <input
-          type="radio"
-          class="custom-control-input"
-          id="customRadio7"
-          name="example2"
-          value="customEx7"
-        />
-        <label class="custom-control-label" for="customRadio7">Radio 3</label>
-      </div>
-      <div class="custom-control custom-radio custom-control-inline">
-        <input
-          type="radio"
-          class="custom-control-input"
-          id="customRadio8"
-          name="example2"
-          value="customEx8"
-        />
-        <label class="custom-control-label" for="customRadio8">Radio 4</label>
-      </div>
+      <div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+  <label class="form-check-label" for="inlineRadio1">Radio 1</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+  <label class="form-check-label" for="inlineRadio2">Radio 2</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+  <label class="form-check-label" for="inlineRadio3">Radio 3</label>
+</div>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option3">
+  <label class="form-check-label" for="inlineRadio4">Radio 4</label>
+</div>
+</div>
     </td>
   </tr>
   <tr>

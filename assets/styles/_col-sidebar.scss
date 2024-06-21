@@ -1,0 +1,87 @@
+.col-sidebar {
+  width: 64px;
+}
+
+#sidebar-menu {
+  min-height: calc(100vh - 66px);
+  max-height: calc(100vh - 66px);
+}
+
+[data-bs-theme="light"] {
+  .col-sidebar a.btn:hover,
+  .col-sidebar button:hover {
+    background-color: #e0e1e9;
+  }
+
+  .col-sidebar a.btn:active,
+  .col-sidebar button:active {
+    background-color: #cbcdd6;
+  }
+
+  .col-sidebar a.btn:focus-visible,
+  .col-sidebar button:focus-visible {
+    background-color: #e0e1e9;
+  }
+}
+
+[data-bs-theme="dark"] {
+  .col-sidebar a.btn:hover,
+  .col-sidebar button:hover {
+    background-color: #424649;
+  }
+
+  .col-sidebar a.btn:focus-visible,
+  .col-sidebar button:focus-visible {
+    background-color: #424649;
+  }
+}
+
+.col-sidebar button.list-group-item {
+  height: 48px;
+  width: 48px;
+}
+
+.col-menu {
+  transition: none !important;
+  animation-duration: 0 !important;
+}
+
+body[data-url="/community/contact-us/"] #sidebar-menu a[href="/community/contact-us/"],
+body[data-url="/community/contribute/"] #sidebar-menu a[href="/community/contribute/"],
+body[data-url="/community/contribution-process/"] #sidebar-menu a[href="/community/contribution-process/"],
+body[data-url="/community/modus-adoption/"] #sidebar-menu a[href="/community/modus-adoption/"],
+body[data-url="/community/submission-guidelines/"] #sidebar-menu a[href="/community/submission-guidelines/"],
+body[data-url="/community/submissions-status/"] #sidebar-menu a[href="/community/submissions-status/"],
+body[data-url="/news/"] #sidebar-menu a[href="/news/"],
+body[data-url="/community/tiger-teams/"] #sidebar-menu a[href="/community/tiger-teams/"] {
+  font-weight: 700 !important;
+}
+
+#sidebar.collapsing {
+  transition: none !important;
+  animation-duration: 0 !important;
+}
+
+body[data-url*="/components/in-field/"] #sidebar-menu #flush-collapseMobile a.fw-bold,
+body[data-url*="/components/in-field/"] #sidebar-menu #flush-collapseXR a.fw-bold,
+body[data-url*="/components/in-field/"] #sidebar-menu #flush-collapseWeb a.fw-bold {
+  font-weight: normal !important;
+}
+
+body[data-url*="/components/mobile/"] #sidebar-menu #flush-collapseXR a.fw-bold,
+body[data-url*="/components/mobile/"] #sidebar-menu #flush-collapseInfield a.fw-bold,
+body[data-url*="/components/mobile/"] #sidebar-menu #flush-collapseWeb a.fw-bold {
+  font-weight: normal !important;
+}
+
+body[data-url*="/components/web/"] #sidebar-menu #flush-collapseMobile a.fw-bold,
+body[data-url*="/components/web/"] #sidebar-menu #flush-collapseInfield a.fw-bold,
+body[data-url*="/components/web/"] #sidebar-menu #flush-collapseXR a.fw-bold {
+  font-weight: normal !important;
+}
+
+body[data-url*="/components/xr/"] #sidebar-menu #flush-collapseMobile a.fw-bold,
+body[data-url*="/components/xr/"] #sidebar-menu #flush-collapseInfield a.fw-bold,
+body[data-url*="/components/xr/"] #sidebar-menu #flush-collapseWeb a.fw-bold {
+  font-weight: normal !important;
+}

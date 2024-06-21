@@ -1,35 +1,45 @@
-<div class="sticky-top sticky-offset">
-{{ if and (gt .WordCount 100 ) (not .Params.hideToc) }}
-  <div class="h5 pt-2 ml-3 on-this-page">
+<div class="sticky-top sticky-offset d-print-none">
+  {{ if and (gt .WordCount 100 ) (not .Params.hideToc) }}
+  <div class="h5 pt-2 on-this-page">
     On this page
   </div>
   {{- .TableOfContents -}}
-<script>
-  $(function() {
-    jQuery('#TableOfContents ul').addClass('list-unstyled pl-0 ml-0');
-    jQuery('#TableOfContents a').addClass('nav-link');
-  });
-</script>
-<hr>
-{{ end }}
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('#TableOfContents ul').forEach(function (ul) {
+        ul.classList.add('list-unstyled', 'pl-0', 'ms-0');
+      });
+      document.querySelectorAll('#TableOfContents a').forEach(function (a) {
+        a.classList.add('nav-link');
+      });
+    });
+  </script>
 
-{{- if (or (.Params.bootstrapURL) (.Params.reactBootstrapURL) (.Params.webComponentsURL)) -}}
-<div class="h5 pt-2 ml-3">
-Implementations
-</div>
-<ul class="list-unstyled pl-0 ml-0">
-{{- if .Params.bootstrapURL}}
-  <li><a href="https://modus-bootstrap.trimble.com{{- .Params.bootstrapURL -}}" class="nav-link text-decoration-none" target="_blank" rel="noopener">Modus Bootstrap</a></li>
-{{- end -}}
-{{- if .Params.reactBootstrapURL}}
-  <li><a href="https://modus-react-bootstrap.trimble.com{{- .Params.reactBootstrapURL -}}" class="nav-link text-decoration-none" target="_blank" rel="noopener">Modus React Bootstrap</a></li>
-{{- end -}}
-{{- if .Params.webComponentsURL}}
-<li><a href="{{- .Params.webComponentsURL -}}" class="nav-link text-decoration-none" target="_blank"
-    rel="noopener">Modus Web Components</a></li>
-{{- end -}}
-</ul>
-{{- end -}}
+  <hr class="opacity-25">
+  {{ end }}
 
-{{ partial "was-this-page-helpful.html" . }}
+  {{- if (or (.Params.bootstrapURL) (.Params.reactBootstrapURL) (.Params.webComponentsURL)) -}}
+  <div class="h5 pt-2 ms-0">
+    Implementations
+  </div>
+  <ul class="list-unstyled ps-0 ms-0">
+    {{- if .Params.bootstrapURL}}
+    <li class="my-2"><a href="https://modus-bootstrap.trimble.com{{- .Params.bootstrapURL -}}"
+        class="nav-link text-decoration-none" target="_blank" rel="noopener">Modus Bootstrap</a></li>
+    {{- end -}}
+    {{- if .Params.reactBootstrapURL}}
+    <li class="my-2"><a href="https://modus-react-bootstrap.trimble.com{{- .Params.reactBootstrapURL -}}"
+        class="nav-link text-decoration-none" target="_blank" rel="noopener">Modus React Bootstrap</a></li>
+    <!-- -->
+    {{- end -}}
+    {{- if .Params.webComponentsURL}}
+    <li class="my-2"><a href="{{- .Params.webComponentsURL -}}" class="nav-link text-decoration-none" target="_blank"
+        rel="noopener">Modus Web Components</a></li>
+    {{- end -}}
+  </ul>
+  {{- end -}}
+
+  {{- if not .Params.blog -}}
+  {{ partial "was-this-page-helpful.html" . }}
+  {{ end }}
 </div>

@@ -19,7 +19,7 @@ A progress bar is represented by a white bar that is filled with color over time
 | Size    | Example                                                                                                                              | Height |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------ |--------|
 | Default | {{< img src="/img/in-field/progress-bar-spec.svg" dark="/img/in-field/progress-bar-spec-dark.svg" width="700" alt="Example Size" >}} | 16dp   |
-{class="table table-bordered table-thead-light"}
+{class="table table-bordered table-thead-light border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
 ## Behaviors

@@ -30,7 +30,7 @@ There are other types of navigation that can be used along with the Side Nav: [B
 #### Don't use when
 
 - Your application only has one page of content.
-- You need to provide page-specific actions (such as Save, Edit, etc.). Use a Toolbar instead -- Coming soon!
+- You need to provide page-specific actions (such as Save, Edit, etc.). Use a [Toolbar](/components/web/toolbar/) instead.
 - Navigational items need to be loaded.
 - You need to show a content tree. Use a [Content Tree](/components/web/content-tree/) instead.
 - Items in the side nav need to open dialogs.

@@ -2,13 +2,18 @@
 title: "Adobe XD"
 layout: "single"
 description: "Adobe XD UI Kit"
-publishDate: 2021-01-08
 start: true
+private: true
+hidden: true
+sitemap:
+  disable: true
 ---
 
 ## Overview
 
-Adobe XD is a vector graphics editor and prototyping tool, which is primarily web-based with additional offline features enabled by desktop applications for macOS and Windows. As we build out the Modus Design System this is one of the many files that will be continually supported and maintained. Follow the instructions below to obtain the kit and add it to your project.
+Adobe XD is a vector graphics editor and prototyping tool, which is primarily web-based with additional offline features enabled by desktop applications for macOS and Windows. Follow the instructions below to obtain the kit and add it to your project.
+
+**Note: [Adobe XD is in maintenance mode](https://helpx.adobe.com/support/xd.html)**
 
 ## 1. Install Adobe XD
 

@@ -12,26 +12,37 @@ bootstrapURL: "/components/toasts/"
 reactBootstrapURL: "/components/toasts/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-toast--default"
 tags: [styles]
+disableAnatomy: true
+popoverCSSInspector: true
 ---
+
+<style>
+.toast-body {padding: .594rem;}
+</style>
 
 ## Specifications
 
 - Container (Height: 42px; Radius: 2px; Padding: 16px; Margin: 16px; solid color; [level 3 shadow](/foundations/shadows-and-depth/)) _required_
-- Toast text (Font: Open Sans Semibold 14px) _required_
+- Toast text (Font: Open Sans 14px) _required_
 - Leading non-interactive icon (16x16px) _optional_
 - Trailing close icon (16x16px) or a Text Only [Button](/components/web/buttons/) _optional_
 
-<div class="guide-example-block my-3 py-3 bg-light">
-  <div class="guide-content-sample anatomy-display-container">
+<div class="guide-example-block my-3 py-4 bg-body-secondary bg-opacity-10">
     <div
-      class="toast show anatomy-display-static"
+      class="toast show my-5 mx-auto pe-none"
+      style=""
       role="alert"
       aria-live="assertive"
       aria-atomic="true"
-      data-anatomy-colors="false">
-      Aww yeah, you read a toast.
-      <button type="button" class="close" data-dismiss="alert">
-      <i class="modus-icons modus-icon notranslate">close</i>
+      data-bs-toggle="popover"
+      data-bs-x-template="<div class='popover popover-css-inspector bs-popover-left fade show' role='tooltip'><div class='popover-arrow'></div><div class='popover-body'></div></div>"
+      data-bs-custom-class="popover-css-inspector"
+      data-bs-placement="left"
+      data-css-inspector-hide="bg-color margin max-width padding width"
+      data-css-inspector-show="box-shadow">
+      <div class="d-flex align-items-center">
+      <div class="toast-body">Aww yeah, you read a toast.</div>
+      <button type="button" class="btn-close me-2 m-auto" aria-disabled="true">
       </button>
     </div>
   </div>
@@ -46,49 +57,55 @@ tags: [styles]
 - Can sometimes be dismissed with a close icon.
 - Cannot include links.
 
-**Basic Toasts**
+<div class="toast show mb-3" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex align-items-center">
+    <div class="toast-body">Aww yeah, you read a toast.</div>
+    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close">
+    </button>
+  </div>
+</div>
 
-<div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
-  Aww yeah, you read a toast.
-  <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icons modus-icon notranslate">close</i>
-  </button>
+<div class="toast toast-dark show mb-3" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex align-items-center">
+    <div class="toast-body">Aww yeah, you read a dark toast.</div>
+    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close">
+    </button>
+  </div>
 </div>
-<div class="toast toast-dark show" role="alert" aria-live="assertive" aria-atomic="true">
-  Aww yeah, you read a dark toast.
-  <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icons modus-icon notranslate">close</i>
-  </button>
+<div class="toast toast-primary show mb-3" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex align-items-center">
+    <div class="toast-body">Aww yeah, you read a primary toast.</div>
+    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close">
+    </button>
+  </div>
 </div>
-<div class="toast toast-primary show" role="alert" aria-live="assertive" aria-atomic="true">
-  Aww yeah, you read a primary toast.
-  <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icons modus-icon notranslate">close</i>
-  </button>
+<div class="toast toast-secondary show mb-3" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex align-items-center">
+    <div class="toast-body">Aww yeah, you read a secondary toast.</div>
+    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close">
+    </button>
+  </div>
 </div>
-<div class="toast toast-secondary show" role="alert" aria-live="assertive" aria-atomic="true">
-  Aww yeah, you read a secondary toast.
-  <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icons modus-icon notranslate">close</i>
-  </button>
+<div class="toast toast-danger show mb-3" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex align-items-center">
+    <div class="toast-body">Aww yeah, you read a danger toast.</div>
+    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="alert">
+    </button>
+  </div>
 </div>
-<div class="toast toast-danger show" role="alert" aria-live="assertive" aria-atomic="true">
-  Aww yeah, you read a danger toast.
-  <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icons modus-icon notranslate">close</i>
-  </button>
+<div class="toast toast-warning show mb-3" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex align-items-center">
+    <div class="toast-body">Aww yeah, you read a warning toast.</div>
+    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="alert">
+    </button>
+  </div>
 </div>
-<div class="toast toast-warning show" role="alert" aria-live="assertive" aria-atomic="true">
-  Aww yeah, you read a warning toast.
-  <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icons modus-icon notranslate">close</i>
-  </button>
-</div>
-<div class="toast toast-success show" role="alert" aria-live="assertive" aria-atomic="true">
-  Aww yeah, you read a success toast.
-  <button type="button" class="close" data-dismiss="alert">
-    <i class="modus-icons modus-icon notranslate">close</i>
-  </button>
+<div class="toast toast-success show mb-3" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="d-flex align-items-center">
+    <div class="toast-body">Aww yeah, you read a success toast.</div>
+    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="alert">
+    </button>
+  </div>
 </div>
 
 ### Behaviors
@@ -131,5 +148,5 @@ tags: [styles]
 | Toast (Success)   | Color      | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="Gray Light" hexD="#f1f1f6" >}}               |
 |                   | Background | {{< color-preview nameL="Green" hexL="#dfe9d6" nameD="Green (10%)" hexD="#1e8a4480" >}}                   |
 |                   | Border     | {{< color-preview nameL="Green Dark" hexL="#006638" nameD="Green" hexD="#1e8a44" >}}                      |
-{class="table table-sm table-bordered"}
+{class="table table-sm table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->

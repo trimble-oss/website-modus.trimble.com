@@ -49,7 +49,7 @@ Blue Dark
 {{</ card-color >}}
 
 {{< card-color hex="#0063A3">}}
-Blue
+Trimble Blue
 {{</ card-color >}}
 
 {{< card-color hex="#217CBB">}}

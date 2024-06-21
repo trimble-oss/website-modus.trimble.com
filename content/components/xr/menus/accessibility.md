@@ -1,5 +1,5 @@
 ---
-title: "menus"
+title: "Menus"
 layout: "single"
 description: "A close space-efficient way to present and nest diverse commands."
 components: true

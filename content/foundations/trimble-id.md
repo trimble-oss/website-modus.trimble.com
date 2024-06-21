@@ -8,7 +8,7 @@ aliases:
   - "/foundations/tid/"
 ---
 
-For more information, please visit the [TID v4 Documentation site](https://docs.trimblecloud.com/identity_v4.0/). _You will need to sign in with your TID to view the site._
+For more information, please visit the [TID Documentation site](https://docs.trimblecloud.com/identity/). _You will need to sign in with your TID to view the site._
 
 Trimble ID (TID) is Trimble’s single sign-on across all Trimble applications. “Trimble ID” is the official terminology used for all customer-facing material. Trimble ID (TID) acts as a Trimble passport that provides users with a seamless authentication experience across the Trimble ecosystem.
 
@@ -44,16 +44,16 @@ For larger screens, such as laptops and devices connected to a monitor, the sign
 
 For medium screens, such as on a tablet, the sign-in panel is centered.
 
-<img alt="Medium TID Screen" src="/img/foundations/tid-medium.svg" width="450">
+<img alt="Medium TID Screen" src="/img/foundations/tid-medium.svg" width="450" height="600" class="img-fluid" loading="lazy">
 
 ### Small Screens
 
 For smaller screens, such as on a mobile device, the sign-in panel looks as pictured below:
 
-<img alt="Small TID Screen" src="/img/foundations/tid-small.svg" width="250">
+<img alt="Small TID Screen" src="/img/foundations/tid-small.svg" width="250" height="443" loading="lazy">
 
 <br>&nbsp;<br>
-Find additional resources for branding your sign in page on the [TID v4 Documentation site](https://docs.trimblecloud.com/identity_v4.0/).
+Find additional resources for branding your sign in page on the [TID v4 Documentation site](https://docs.trimblecloud.com/identity/).
 
 {{< whats-changed-table >}}
 
@@ -62,4 +62,3 @@ Find additional resources for branding your sign in page on the [TID v4 Document
 | 04/25/2022 | 1.3.0   | New guidelines added and linked to TID v4 Documentation. | J. Dong      |
 
 {{</ whats-changed-table >}}
-

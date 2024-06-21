@@ -21,36 +21,40 @@ The navbar or the app header provides context through globally accessible menu o
 
 <!-- prettier-ignore-start -->
 <nav class="navbar nav navbar-expand-sm modus-header border">
-  <button class="btn btn-lg btn-icon-only btn-text-dark p-2" id="menuButton" data-modus-item="menu-btn" href="#overview" data-toggle="#" type="button">
-    <svg class="" width="32" height="32" fill="currentColor">
-          <use xlink:href="/modus-solid-icons.svg#menu" /></svg>
+  <button class="btn btn-lg btn-icon-only btn-text-dark p-2 mx-1" id="menuButton" data-modus-item="menu-btn" href="#overview" data-bs-toggle="#" type="button" aria-label="Toggle navigation">
+    <svg class="" width="28" height="28" fill="currentColor">
+      <use xlink:href="/modus-solid-icons.svg#menu" /></svg>
   </button>
-  <a href="#navbar-example" class="navbar-brand mr-auto ml-2">
-    <img src="https://modus-bootstrap.trimble.com/img/trimble-logo.svg" width="107" height="25" class="img-fluid d-none d-sm-block" alt="home">
-    <img src="https://modus-bootstrap.trimble.com/img/trimble-icon.svg" class="d-block d-sm-none" height="25" width="25" alt="home">
+  <a href="#navbar-example" class="navbar-brand mr-auto ms-2">
+    <img src="/img/trimble-logo.svg" width="107" height="25" class="img-fluid d-none d-sm-block" alt="home">
+    <img src="/img/trimble-icon.svg" class="d-block d-sm-none" height="25" width="25" alt="home">
   </a>
   <div class="collapse navbar-collapse">
-    <div class="navbar-nav ml-auto">
-      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 p-2" data-toggle="tooltip"
-         data-placement="bottom" title="Notifications">
-        <svg class="" width="32" height="32" fill="currentColor">
-          <use xlink:href="/modus-solid-icons.svg#notifications" /></svg>
-      </button>
-      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 p-2" data-toggle="tooltip"
-         data-placement="bottom" title="Help">
-        <svg class="" width="32" height="32" fill="currentColor">
+    <div class="navbar-nav ms-auto">
+
+<div class="search-container d-inline-block position-relative" role="search">
+  <input class="form-control form-control-search position-absolute" aria-label="Search" id="searchExample" type="search"
+    placeholder="Search..." autocomplete="off" title="" required>
+  <label class="btn btn-lg btn-icon-only border-0 btn-search text-body position-absolute p-2 pt-2" for="searchExample">
+    <svg width="28" height="28" fill="currentColor" style="margin-top:3px;">
+          <use xlink:href="/modus-solid-icons.svg#search" /></svg>
+  </label>
+</div>
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-body text-body ms-2 p-2" data-bs-toggle="tooltip"
+         data-bs-placement="bottom" title="Help">
+        <svg class="" width="28" height="28" fill="currentColor">
           <use xlink:href="/modus-solid-icons.svg#help" /></svg>
       </button>
-      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark ml-2 p-2" data-toggle="tooltip"
-         data-placement="bottom" title="Applications">
-        <svg class="" width="32" height="32" fill="currentColor">
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-body text-body ms-2 p-2" data-bs-toggle="tooltip"
+         data-bs-placement="bottom" title="Applications">
+        <svg class="" width="28" height="28" fill="currentColor">
           <use xlink:href="/modus-solid-icons.svg#apps" /></svg>
       </button>
     </div>
   </div>
 
   <div class="dropdown d-block d-md-none">
-  <button type="button" data-toggle="dropdown" aria-label="Expand Menu" class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none p-2" aria-expanded="false">
+  <button type="button" data-bs-toggle="dropdown" aria-label="Expand Menu" class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none p-2" aria-expanded="false">
     <svg width="32" height="32" fill="currentColor">
           <use xlink:href="/modus-solid-icons.svg#more-vertical" /></svg>
   </button>
@@ -76,8 +80,8 @@ The navbar or the app header provides context through globally accessible menu o
       </li>
     </ul>
   </div>
-  <button type="button" class="btn btn-lg btn-icon-only btn-text-dark border-white ml-2 border-0 p-2"
-         data-toggle="tooltip" data-placement="bottom" data-html="true"
+  <button type="button" class="btn btn-lg btn-icon-only border-white ms-2 border-0 p-2"
+         data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true"
          title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
          <svg class="" width="32" height="32" fill="currentColor">
           <use xlink:href="/modus-solid-icons.svg#person-account" /></svg>
@@ -88,15 +92,15 @@ The navbar or the app header provides context through globally accessible menu o
 <!-- enable tooltips everywhere -->
 <script>
 $(function () {
-  $('[data-toggle="tooltip"]').tooltip()
+  $('[data-bs-toggle="tooltip"]').tooltip()
 });
 </script>
 <style>
-html[data-theme="dark"] main .navbar-brand img {
+html[data-bs-theme="dark"] main .navbar-brand img {
   filter: brightness(0) invert(1);
 }
 
-html[data-theme="dark"] main .navbar button i {
+html[data-bs-theme="dark"] main .navbar button i {
   filter: brightness(0) invert(1);
 }
 </style>
