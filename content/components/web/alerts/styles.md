@@ -35,7 +35,7 @@ popoverCSSInspector: true
     data-bs-custom-class="popover-css-inspector"
     data-css-inspector-hide="b-width margin width"
     data-css-inspector-show="b-color b-width b-left-width"
-    data-bs-container="td">
+    data-bs-container="main">
     <i class="modus-icons notranslate alert-icon me-2" aria-hidden="true">
       check_circle
     </i>
