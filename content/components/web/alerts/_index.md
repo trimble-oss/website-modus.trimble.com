@@ -32,9 +32,11 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
     <tr>
       <td style="line-height: 1.25" scope="row">
         <div class="border">
-          <div class="alert alert-danger d-flex align-items-center mx-3 mt-3 mb-0" role="alert">
+          <div class="alert alert-danger d-flex align-items-center mx-3 mt-3 mb-0 alert-dismissible fade show" role="alert">
             <i class="modus-icons alert-icon me-2" aria-hidden="true">alert</i>
             <div>Error! Your username and password were incorrect</div>
+            <button type="button" class="btn-close" aria-label="Close">
+            </button>
           </div>
           <div class="p-3">
             <form>
