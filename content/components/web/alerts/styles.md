@@ -34,13 +34,13 @@ popoverCSSInspector: true
     data-bs-placement="right"
     data-bs-custom-class="popover-css-inspector"
     data-css-inspector-hide="b-width margin width"
-    data-css-inspector-show="b-color b-width b-left-width "
+    data-css-inspector-show="b-color b-width b-left-width"
     data-bs-container="td">
     <i class="modus-icons notranslate alert-icon me-2" aria-hidden="true">
       check_circle
     </i>
     <div>You have completed a task.</div>
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+    <button type="button" class="btn-close" aria-label="Close">
       </button>
   </div>
   <br />
@@ -67,9 +67,6 @@ document.addEventListener('DOMContentLoaded', function() {
 ### Examples
 
 <style>
-.bg-light .alert {
-  max-width: 600px;
-}
 .css-max-width {
   display: none;
 }
@@ -88,25 +85,25 @@ document.addEventListener('DOMContentLoaded', function() {
     <div>
       An example alert with an icon
     </div>
-     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+     <button type="button" class="btn-close" aria-label="Close">
       </button>
   </div>
     <div class="alert alert-success d-flex align-items-center alert-dismissible fade show" role="alert">
       <i class="modus-icons notranslate flex-shrink-0 me-2" aria-hidden="true">check_circle</i>
       <div>Success! A basic success alert with a dismiss icon</div>
-      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+      <button type="button" class="btn-close" aria-label="Close">
       </button>
     </div>
     <div class="alert alert-warning d-flex align-items-center alert-dismissible fade show" role="alert">
       <i class="modus-icons notranslate flex-shrink-0 me-2" aria-hidden="true">warning</i>
       <div>Warning! A basic warning alert with a dismiss icon</div>
-      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+      <button type="button" class="btn-close" aria-label="Close">
       </button>
     </div>
     <div class="alert alert-danger d-flex align-items-center alert-dismissible fade show" role="alert">
     <i class="modus-icons notranslate flex-shrink-0 me-2" aria-hidden="true">alert</i>
       <div> Error! A basic error alert with a dismiss icon</div>
-      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+      <button type="button" class="btn-close" aria-label="Close">
       </button>
     </div>
   </div>
