@@ -120,3 +120,19 @@ input[type="search"]::-webkit-search-cancel-button {
 .nav-tabs {
   --bs-nav-tabs-border-radius: 0.25rem;
 }
+
+[data-bs-theme="light"] .alert-danger i.modus-icons {
+  color: var(--bs-danger);
+}
+
+[data-bs-theme="light"] .alert-primary i.modus-icons {
+  color: var(--bs-primary);
+}
+
+[data-bs-theme="light"] .alert-success i.modus-icons {
+  color: var(--bs-success);
+}
+
+[data-bs-theme="light"] .alert-warning i.modus-icons {
+  color: var(--bs-warning);
+}
