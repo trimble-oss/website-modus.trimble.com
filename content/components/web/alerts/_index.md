@@ -33,13 +33,13 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
       <td style="line-height: 1.25" scope="row">
         <div class="border">
           <div class="alert alert-danger d-flex align-items-center mx-3 mt-3 mb-0" role="alert">
-            <i class="modus-icons alert-icon me-2" aria-hidden="true">warning</i>
+            <i class="modus-icons alert-icon me-2" aria-hidden="true">alert</i>
             <div>Error! Your username and password were incorrect</div>
           </div>
           <div class="p-3">
             <form>
               <div class="form-group mb-3">
-                <label for="exampleInputEmail1">Email address</label>
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
                 <input
                   type="email"
                   class="form-control"
@@ -49,7 +49,7 @@ Alerts display in direct response to a user action (e.g. clicking the Submit but
                 />
               </div>
               <div class="form-group mb-3">
-                <label for="exampleInputPassword1">Password</label>
+                <label for="exampleInputPassword1" class="form-label">Password</label>
                 <input
                   type="password"
                   class="form-control"

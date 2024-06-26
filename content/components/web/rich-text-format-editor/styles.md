@@ -169,11 +169,11 @@ The modals consists of following elements:
           </div>
           <div class="modal-body">
             <div class="form-group mb-3">
-              <label for="inputText">Text <span class="text-danger">*</span></label>
+              <label for="inputText" class="form-label">Text <span class="text-danger">*</span></label>
               <input class="form-control my-1" placeholder="Enter text" type="text" id="inputText" required />
             </div>
             <div class="form-group mb-3">
-              <label for="inputUrl">URL <span class="text-danger">*</span></label>
+              <label for="inputUrl" class="form-label">URL <span class="text-danger">*</span></label>
               <input class="form-control my-1" placeholder="Placeholder text" type="url" id="inputUrl" required />
             </div>
           </div>
