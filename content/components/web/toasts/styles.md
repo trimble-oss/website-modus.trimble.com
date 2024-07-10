@@ -71,9 +71,9 @@ popoverCSSInspector: true
     </button>
   </div>
 </div>
-<div class="toast toast-warning show mb-3" role="alert" aria-live="assertive" aria-atomic="true">
+<div class="toast toast-danger show mb-3" role="alert" aria-live="assertive" aria-atomic="true">
   <div class="d-flex align-items-center">
-    <div class="toast-body">Aww yeah, you read a warning toast.</div>
+    <div class="toast-body">Aww yeah, you read a danger toast.</div>
     <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="alert">
     </button>
   </div>
