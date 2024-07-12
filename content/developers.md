@@ -1,11 +1,12 @@
 ---
 title: "Developers"
 layout: "single"
-description: "The Modus Front-end Framework is an HTML/CSS library developed as a common, open source platform for all
-of Trimble's web applications. The framework is designed and managed by the Trimble UX Council."
+description: ""
 start: true
 hidden: true
 private: true
+sitemap:
+  disabled: true
 ---
 
 <style>
@@ -36,10 +37,6 @@ private: true
 <div class="row">
 
 {{< card-start title="Modus Bootstrap" url="https://modus-bootstrap.trimble.com/" target="_blank" header="code.svg" class="bg-primary text-white py-4" >}}
-
-{{</ card-start >}}
-
-{{< card-start title="Modus React Bootstrap" url="https://modus-react-bootstrap.trimble.com/" target="_blank" class="bg-deprecated py-4" header="react.svg" badge="No longer supported" >}}
 
 {{</ card-start >}}
 
