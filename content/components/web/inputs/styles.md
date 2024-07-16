@@ -73,6 +73,25 @@ There are two sizes of input fields defined:
   </tbody>
 </table>
 
+### Colors
+
+<!-- prettier-ignore-start -->
+| Element          | Property                 | Color                                                                   |
+| ---------------- | ------------------------ | ----------------------------------------------------------------------- |
+| Label            | Text                     | {{< color-preview nameL=" " hexL="#464b52" nameD=" " hexD="#b7b9c3" >}} |
+| Input            | Text                     | {{< color-preview nameL=" " hexL="#464b52" nameD=" " hexD="#ffffff" >}} |
+|                  | Placeholder              | {{< color-preview nameL=" " hexL="#b7b9c3" nameD=" " hexD="#7d808d" >}} |
+|                  | Background               | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#171c1e" >}} |
+|                  | Border                   | {{< color-preview nameL=" " hexL="#e0e1e9" nameD=" " hexD="#464b52" >}} |
+|                  | Border                   | {{< color-preview nameL=" " hexL="#6a6e79" nameD=" " hexD="#6a6e79" >}} |
+| Input (Focus)    | Border                   | {{< color-preview nameL=" " hexL="#217cbb" nameD=" " hexD="#019AEB" >}} |
+| Input (Valid)    | Border                   | {{< color-preview nameL=" " hexL="#006638" nameD=" " hexD="#1e8a44" >}} |
+| Input (Invalid)  | Border                   | {{< color-preview nameL=" " hexL="#da212c" nameD=" " hexD="#da212c" >}} |
+| Input (Disabled) | Background (40% opacity) | {{< color-preview nameL=" " hexL="#f1f1f6" nameD=" " hexD="#171c1e" >}} |
+| Input (Readonly) | Background               | {{< color-preview nameL=" " hexL="#e0e1e9" nameD=" " hexD="#353a40" >}} |
+{class="table table-sm table-bordered border border-opacity-50" id="table-colors"}
+<!-- prettier-ignore-end -->
+
 ### Behaviors
 
 <div class="guide-example-block d-inline-block">
@@ -181,21 +200,4 @@ There are two sizes of input fields defined:
 - Use multi-step forms when necessary by breaking up inputs into distinct categories.
 - Provide clear and obvious action buttons. Form submission [buttons](/components/web/buttons/) should be primary.
 
-## Colors
 
-<!-- prettier-ignore-start -->
-| Element          | Property                 | Color                                                                   |
-| ---------------- | ------------------------ | ----------------------------------------------------------------------- |
-| Label            | Text                     | {{< color-preview nameL=" " hexL="#464b52" nameD=" " hexD="#b7b9c3" >}} |
-| Input            | Text                     | {{< color-preview nameL=" " hexL="#464b52" nameD=" " hexD="#ffffff" >}} |
-|                  | Placeholder              | {{< color-preview nameL=" " hexL="#b7b9c3" nameD=" " hexD="#7d808d" >}} |
-|                  | Background               | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#171c1e" >}} |
-|                  | Border                   | {{< color-preview nameL=" " hexL="#e0e1e9" nameD=" " hexD="#464b52" >}} |
-|                  | Border                   | {{< color-preview nameL=" " hexL="#6a6e79" nameD=" " hexD="#6a6e79" >}} |
-| Input (Focus)    | Border                   | {{< color-preview nameL=" " hexL="#217cbb" nameD=" " hexD="#019AEB" >}} |
-| Input (Valid)    | Border                   | {{< color-preview nameL=" " hexL="#006638" nameD=" " hexD="#1e8a44" >}} |
-| Input (Invalid)  | Border                   | {{< color-preview nameL=" " hexL="#da212c" nameD=" " hexD="#da212c" >}} |
-| Input (Disabled) | Background (40% opacity) | {{< color-preview nameL=" " hexL="#f1f1f6" nameD=" " hexD="#171c1e" >}} |
-| Input (Readonly) | Background               | {{< color-preview nameL=" " hexL="#e0e1e9" nameD=" " hexD="#353a40" >}} |
-{class="table table-sm table-bordered border border-opacity-50" id="table-colors"}
-<!-- prettier-ignore-end -->

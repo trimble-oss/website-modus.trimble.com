@@ -38,13 +38,7 @@ popoverCSSInspector: true
   </div>
 </div>
 
-### Behaviors
-
-- Adjust a slider’s value(s) by clicking and dragging its handle(s), or by clicking anywhere on its bar.
-- Hovering over an active slider’s handle will change the default cursor to the grab cursor; clicking will change it to the grab cursor.
-- Changes made with sliders are immediate.
-
-## Colors
+### Colors
 
 <!-- prettier-ignore-start -->
 | Element               | Property   | Color                                                                                           |
@@ -54,3 +48,11 @@ popoverCSSInspector: true
 | Label Text (Optional) | Color      | {{< color-preview nameL="Trimble Gray" hexL="#252a2e" nameD="White" hexD="#ffffff" >}}          |
 {class="table table-sm table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->
+
+
+### Behaviors
+
+- Adjust a slider’s value(s) by clicking and dragging its handle(s), or by clicking anywhere on its bar.
+- Hovering over an active slider’s handle will change the default cursor to the grab cursor; clicking will change it to the grab cursor.
+- Changes made with sliders are immediate.
+
