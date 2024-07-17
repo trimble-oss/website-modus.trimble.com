@@ -27,6 +27,16 @@ tags: [styles]
 }
 </style>
 
+### Colors
+
+<!-- prettier-ignore-start -->
+| Element | Property   | Color                                                                                  |
+| ------- | ---------- | -------------------------------------------------------------------------------------- |
+| Tooltip | Text       | {{< color-preview nameL="White" hexL="#ffffff" nameD="Trimble Gray" hexD="#252a2e" >}} |
+|         | Background | {{< color-preview nameL="Gray 7" hexL="#585c65" nameD="Gray 0" hexD="#e0e1e9" >}}      |
+{class="table table-sm table-bordered border border-opacity-50"}
+<!-- prettier-ignore-end -->
+
 ### Behaviors
 
 - Icon tooltips appear on hover and focus.
@@ -41,12 +51,4 @@ tags: [styles]
 - Use sentence case for tooltips.
 - Never add a link to text in a tooltip.
 
-### Colors
 
-<!-- prettier-ignore-start -->
-| Element | Property   | Color                                                                                  |
-| ------- | ---------- | -------------------------------------------------------------------------------------- |
-| Tooltip | Text       | {{< color-preview nameL="White" hexL="#ffffff" nameD="Trimble Gray" hexD="#252a2e" >}} |
-|         | Background | {{< color-preview nameL="Gray 7" hexL="#585c65" nameD="Gray 0" hexD="#e0e1e9" >}}      |
-{class="table table-sm table-bordered border border-opacity-50"}
-<!-- prettier-ignore-end -->

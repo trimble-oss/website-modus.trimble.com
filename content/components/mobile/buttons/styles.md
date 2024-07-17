@@ -48,6 +48,14 @@ FABs can attach to top or bottom of app bars and the edge of some components.
 
 {{< img src="/img/mobile/button-fab-placement.svg" dark="/img/mobile/button-fab-placement-dark.svg" width="960" height="489" alt="Floating Action Button Placement" >}}
 
+### Disabled Buttons
+
+**The use of disabled buttons is highly discouraged.** There are a few acceptable uses:
+
+- When an option is unavailable, such as an item or product.
+- The button has been clicked, and the system is processing the initial request. The button can be disabled to prevent the user from trying to submit a duplicate request and hitting the server multiple times.
+- When a user is editing a form, but the application has not detected any changes made by the user.
+
 ### Editorial
 
 - All buttons in the Modus Design System employ **sentence case**.
