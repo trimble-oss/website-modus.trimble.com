@@ -45,16 +45,7 @@ popoverCSSInspector: true
 - Fills the width of its container.
 - Should have an accompanying icon to the left of the message text. When the text spans multiple lines, the icon should remain aligned to the top.
 
-### Behaviors
-
-- Messages should remain static on the page. They should not be dismissible.
-
-### Editorial
-
-- Messages should be brief, full sentences, with proper punctuation.
-- They should provide the user with helpful, contextual information about a possible action or a set of data.
-
-## Colors
+### Colors
 
 <!-- prettier-ignore-start -->
 | Element   | Property   | Color                                                                                                |
@@ -65,3 +56,14 @@ popoverCSSInspector: true
 |           | Background | {{< color-preview nameL="Light Gray" hexL="#f1f1f6" nameD="Gray 9" hexD="#353a40" >}}                |
 {class="table table-sm table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->
+
+### Behaviors
+
+- Messages should remain static on the page. They should not be dismissible.
+
+### Editorial
+
+- Messages should be brief, full sentences, with proper punctuation.
+- They should provide the user with helpful, contextual information about a possible action or a set of data.
+
+

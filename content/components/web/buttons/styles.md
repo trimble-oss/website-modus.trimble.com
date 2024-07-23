@@ -472,6 +472,15 @@ There are three types of icon-only buttons:
 
 Icon button state colors may vary based on product. Always make sure the colors of all states (except for disabled) meet [color contrast accessibility standards](/foundations/accessibility/).
 
+#### Disabled Buttons
+
+**The use of disabled buttons is highly discouraged.** There are a few acceptable uses:
+
+- When an option is unavailable, such as an item or product.
+- The button has been clicked, and the system is processing the initial request. The button can be disabled to prevent the user from trying to submit a duplicate request and hitting the server multiple times.
+- When a user is editing a form, but the application has not detected any changes made by the user.
+
+
 ### Editorial
 
 - All buttons in the Modus Design System employ **sentence case**.
