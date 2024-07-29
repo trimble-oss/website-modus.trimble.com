@@ -103,7 +103,7 @@ This is a error toast. It shows that you did you did something not very well.
 ### Behaviors
 
 - When applicable, dismiss by clicking the close icon.
-- Toasts fade out automatically after 30 seconds.
+- Toasts fade out automatically after 15 seconds.
 
 ### Editorial
 
