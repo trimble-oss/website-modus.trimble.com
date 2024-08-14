@@ -11,14 +11,14 @@ tags: [styles]
 
 ## Specifications
 
-{{< demo-rtf-editor >}}
-
 ### RTF Toolbar
 
 - The RTF Toolbar has a height of 40px adding 4 px horizontal padding to the 32px buttons.
 - Button subgroups are grouped by a divider and padding of 4px in logical entities such as font type, size, characteristics, paragraph alignment, lists, and additional function, such as link.
 - All buttons should feel clickable, interactive, and perform an action, see [Buttons](/components/web/buttons/).
 - Buttons should be discoverable, easy to identify, and specific.
+
+{{< demo-rtf-editor >}}
 
 ### Modal (Insert/Edit Link)
 
