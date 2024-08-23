@@ -26,7 +26,6 @@ popoverCSSInspector: true
       aria-live="assertive"
       aria-atomic="true"
       data-bs-toggle="popover"
-      data-bs-x-template="<div class='popover popover-css-inspector bs-popover-left fade show' role='tooltip'><div class='popover-arrow'></div><div class='popover-body'></div></div>"
       data-bs-custom-class="popover-css-inspector"
       data-bs-placement="left"
       data-css-inspector-hide="bg-color height margin max-width padding"
