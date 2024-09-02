@@ -6,7 +6,8 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/button-groups.png"
-# bootstrapURL: "/components/button-group/"
+bootstrapURL: "/docs/v2/components/button-group/"
+webComponentsURL: https://modus-web-components.trimble.com/?path=/story/components-button-group--default
 tags: [usage]
 aliases: "/components/web/button-group/"
 ---
