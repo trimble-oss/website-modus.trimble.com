@@ -5,6 +5,7 @@ locale: en-US
 
 enableInlineShortcodes: true
 googleAnalytics: "G-DZ0V55EQWB"
+enableGitInfo: true
 
 params:
   title: Trimble Modus Design System
