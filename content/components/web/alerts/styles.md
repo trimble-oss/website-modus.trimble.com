@@ -7,8 +7,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/alerts.png"
-bootstrapURL: "/components/alerts/"
-reactBootstrapURL: "/components/alerts/"
+bootstrapURL: "/docs/v2/components/alerts/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-alert--default"
 tags: [styles]
 disableAnatomy: true
