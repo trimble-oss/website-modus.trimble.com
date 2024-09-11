@@ -1,15 +1,15 @@
 {{ $_hugo_config := `{ "version": 1 }` }} {{- $title := .Get "title" -}}
 <div class="col-12 col-lg-6">
-  <div class="card rounded border bg-light mb-4 p-3 bg-opacity-10 bg-secondary">
+  <div class="card rounded border bg-light mb-4 p-3 bg-opacity-10 bg-secondary" style="min-height: 267px;">
     <h2>{{- .Inner -}}</h3>
       <div class="w-100 border-top py-2">
         <h5 class="mb-0 pb-0 font-weight-normal">npm</h5>
         <a href="https://npm-stat.com/charts.html?package={{- .Get "npmjs" -}}&from={{- .Get "date" -}}&to="
           target="_blank" rel="noopener">
-          <img alt="npm (scoped)" class="my-2 me-2" src="https://img.shields.io/npm/v/{{- .Get "npmjs" -}}">
+          <img alt="npm (scoped)" class="my-2 me-2" src="https://img.shields.io/npm/v/{{- .Get "npmjs" -}}">{{- /* remove whitespace */ -}}
         </a>
         <a href="https://www.npmjs.com/package/{{- .Get "npmjs" -}}" target="_blank" rel="noopener">
-          <img alt="npm (scoped)" class="my-2 me-2" src="https://img.shields.io/npm/dm/{{- .Get "npmjs" -}}">
+          <img alt="npm (scoped)" class="my-2 me-2" src="https://img.shields.io/npm/dm/{{- .Get "npmjs" -}}">{{- /* remove whitespace */ -}}
         </a>
       </div>
       {{ if not (.Params.hideCDN) }}
