@@ -25,7 +25,7 @@ There are two sizes of input fields defined:
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th></th>
+      <th style="width: 98px"></th>
       <th>Example</th>
     </tr>
   </thead>
@@ -44,7 +44,7 @@ There are two sizes of input fields defined:
           data-bs-placement="left"
           data-bs-custom-class="popover-css-inspector"
           data-css-inspector-hide="margin"
-          data-css-inspector-show=""
+          data-css-inspector-show="b-color"
           id="defaultInput"
         />
         <div>
@@ -52,7 +52,7 @@ There are two sizes of input fields defined:
     </tr>
     <tr>
       <th scope="row">Large</th>
-      <td style="height:185px">
+      <td style="height:195px">
       <div style="padding-left: 198px; margin-top: 30px;" class="pt-2">
       <label for="defaultInput" class="form-label">Large Input</label>
         <input
@@ -64,7 +64,7 @@ There are two sizes of input fields defined:
           data-bs-placement="left"
           data-bs-custom-class="popover-css-inspector"
           data-css-inspector-hide="margin"
-          data-css-inspector-show=""
+          data-css-inspector-show="b-color"
           id="largeInput"
         />
       </div>
@@ -72,25 +72,6 @@ There are two sizes of input fields defined:
     </tr>
   </tbody>
 </table>
-
-### Colors
-
-<!-- prettier-ignore-start -->
-| Element          | Property                 | Color                                                                   |
-| ---------------- | ------------------------ | ----------------------------------------------------------------------- |
-| Label            | Text                     | {{< color-preview nameL=" " hexL="#464b52" nameD=" " hexD="#b7b9c3" >}} |
-| Input            | Text                     | {{< color-preview nameL=" " hexL="#464b52" nameD=" " hexD="#ffffff" >}} |
-|                  | Placeholder              | {{< color-preview nameL=" " hexL="#b7b9c3" nameD=" " hexD="#7d808d" >}} |
-|                  | Background               | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#171c1e" >}} |
-|                  | Border                   | {{< color-preview nameL=" " hexL="#e0e1e9" nameD=" " hexD="#464b52" >}} |
-|                  | Border                   | {{< color-preview nameL=" " hexL="#6a6e79" nameD=" " hexD="#6a6e79" >}} |
-| Input (Focus)    | Border                   | {{< color-preview nameL=" " hexL="#217cbb" nameD=" " hexD="#019AEB" >}} |
-| Input (Valid)    | Border                   | {{< color-preview nameL=" " hexL="#006638" nameD=" " hexD="#1e8a44" >}} |
-| Input (Invalid)  | Border                   | {{< color-preview nameL=" " hexL="#da212c" nameD=" " hexD="#da212c" >}} |
-| Input (Disabled) | Background (40% opacity) | {{< color-preview nameL=" " hexL="#f1f1f6" nameD=" " hexD="#171c1e" >}} |
-| Input (Readonly) | Background               | {{< color-preview nameL=" " hexL="#e0e1e9" nameD=" " hexD="#353a40" >}} |
-{class="table table-sm table-bordered border border-opacity-50" id="table-colors"}
-<!-- prettier-ignore-end -->
 
 ### Behaviors
 

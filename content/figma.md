@@ -5,6 +5,7 @@ description: "Figma UI Kit"
 publishDate: 2020-11-21
 start: true
 aliases:
+  - "/adobe-xd/"
   - "/designers/"
 ---
 
