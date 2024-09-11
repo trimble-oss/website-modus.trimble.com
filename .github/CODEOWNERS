@@ -15,6 +15,6 @@
 
 *.html      @coliff
 *.js        @coliff
-*.md        @coliff @egunther39 @enowak1031
+*.md        @coliff @egunther39 @enowak1031 @mitch-trimble
 *.scss      @coliff
 *.xml       @coliff

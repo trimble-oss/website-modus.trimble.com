@@ -30,7 +30,7 @@ After a year of beta releases and testing, we are excited to announce the offici
 Here are some of the highlights:
 
 - **Latest Modus Design System**: Modus Bootstrap 2 is based on the latest version of the Modus Design System, which includes improved form components
-- **Improved theming with CSS custom properties**: Modus Bootstrap 2 uses CSS custom properties for light and dark mode and no longer requires separate CSS files for each theme. Modus Layout CSS is also bundled with modus-boostrap.css now too so just a single CSS file is needed.
+- **Improved theming with CSS custom properties**: Modus Bootstrap 2 uses CSS custom properties for light and dark mode and no longer requires separate CSS files for each theme. Modus Layout CSS is also bundled with modus-bootstrap.css now too so just a single CSS file is needed.
 - **New components and utilities**: Modus Bootstrap 2 includes a number of new components and utilities, including placeholders, a much improved accordion component and many helpful new utility classes.
 - **jQuery no longer required**: Modus Bootstrap 2 is built on Bootstrap v5, which no longer requires jQuery. This means that you can build websites that are faster and more lightweight than ever before.
 - **Improved accessibility**: We have made a number of improvements to the accessibility of Modus Bootstrap 2, including better keyboard navigation and screen reader support.
@@ -46,7 +46,7 @@ There is a helpful command-line tool to assist with upgrading from Modus Bootstr
 
 We'd recommend also reviewing the [official Bootstrap v5 migration guide](https://getbootstrap.com/docs/5.3/migration/).
 
-## Modus Boostrap v1
+## Modus Bootstrap v1
 
 If you are still using Modus Bootstrap v1, don't worry! We will continue to support it for the foreseeable future. However, we recommend that you start migrating to Modus Bootstrap 2 as soon as possible to take advantage of the new features and improvements.
 
