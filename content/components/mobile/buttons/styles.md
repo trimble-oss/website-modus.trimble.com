@@ -22,7 +22,7 @@ tags: [mobile, styles]
 
 ### Sizing
 
-There are four sizes of buttons: xsmall, small, default and large. Corner radius is 4px.
+There are four sizes of buttons: x-small, small, default and large. Corner radius is 4px.
 
 {{< img src="/img/mobile/button-sizes.svg" dark="/img/mobile/button-sizes-dark.svg" width="958" height="120" alt="Buttons Sizes" >}}
 
