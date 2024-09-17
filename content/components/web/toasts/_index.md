@@ -79,7 +79,8 @@ Toasts display low priority, event-driven feedback which usually doesn’t requi
             3 Emails Deleted
             <button
               type="button"
-              class="btn btn-text-dark"
+              class="btn btn-outline border"
+              style="color: var(--bs-body-bg);"
               data-dismiss="toast"
               aria-label="Close"
             >

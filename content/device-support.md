@@ -33,7 +33,7 @@ Modus supports native, hybrid, and web-based apps designed to run on a mobile de
 [Introduction to Modus Mobile Patterns](/components/mobile/introduction/).
 {{</ card-start >}}
 
-{{< card-start title="XR Environments" url="/developers/" header="modus-outlined/vr-xr.svg" headerClass="opacity-75" >}}
+{{< card-start title="XR Environments" url="/components/xr/introduction/" header="modus-outlined/vr-xr.svg" headerClass="opacity-75" >}}
 Modus provides UX patterns for Trimble built hardware, and/or mixed-reality devices, such as the Microsoft HoloLens.
 
 [Introduction to Modus XR Patterns](/components/xr/introduction/).

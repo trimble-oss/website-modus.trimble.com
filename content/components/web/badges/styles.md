@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/badges.png"
-bootstrapURL: "/components/badges/"
-reactBootstrapURL: "/components/badges/"
+bootstrapURL: "/docs/v2/components/badges/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-badge--default"
 tags: [styles]
 disableAnatomy: true

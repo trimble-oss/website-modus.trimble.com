@@ -1,3 +1,13 @@
+#TableOfContents {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  #TableOfContents {
+    display: block;
+  }
+}
+
 #TableOfContents ul,
 #TableOfContents li {
   list-style: none;

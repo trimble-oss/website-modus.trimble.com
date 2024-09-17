@@ -7,8 +7,7 @@ componentsWeb: true
 images:
   - "/img/components/headers/switches.png"
 keywords: forms, form
-bootstrapURL: "/components/switches/"
-reactBootstrapURL: "/components/switches/"
+bootstrapURL: "/docs/v2/forms/checks-radios/#switches"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/user-inputs-switch--default"
 aliases:
   - "/components/switches/"

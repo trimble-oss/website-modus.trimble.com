@@ -13,7 +13,7 @@ We are happy to accept contributions from the community to improve this project.
 
 ### Setup (for creating a build of the site locally)
 
-These steps assume you have [NodeJS](https://nodejs.org/en/), [Git](https://git-scm.com/) and a code editor installed.
+These steps assume you have [Node.js](https://nodejs.org/en/), [Git](https://git-scm.com/) and a code editor installed.
 
 1. Install dependencies with `npm install`
 2. Run `npm run serve` to run local server.
@@ -28,7 +28,7 @@ These steps assume you have [NodeJS](https://nodejs.org/en/), [Git](https://git-
 - File formats: Photos should never be in PNG24. A high quality JPEG is usually 1/4 of the size
 - Always specify `alt=""` for improved accessibility
 - Always specify `height` and `width` to images to improve page-rendering time (reduce repaints)
-- Always add `loading="lazy"` to images below the fold for native lazy-loading (not needed for images less than 4 KB)
+- Always add `loading="lazy"` to images below the fold for native lazy loading (not needed for images less than 4 KB)
 - Add the class `img-fluid` to images which are wider than 320 pixels so that they scale down on small screens such as iPhone 5/SE
 - PNG Bitmap images should be losslessly optimized with `npm run imagemin` or <https://squoosh.app/>
 - Image file size should never exceed 200 KB

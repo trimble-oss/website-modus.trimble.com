@@ -7,8 +7,7 @@ componentsWeb: true
 images:
   - "/img/components/headers/lists.png"
 component: lists
-bootstrapURL: "/components/lists/"
-reactBootstrapURL: "/components/lists/"
+bootstrapURL: "/docs/v2/components/list-group/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-list--default"
 tags: [accessibility]
 ---

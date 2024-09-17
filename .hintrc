@@ -18,6 +18,7 @@
       {
         "frame-title": "off"
       }
-    ]
+    ],
+    "compat-api/css": "off"
   }
 }

@@ -27,6 +27,21 @@ tags: [styles]
   </div>
 </div>
 
+### Colors
+
+<!-- prettier-ignore-start -->
+| Element   | Property        | Color                                                                                           |
+| --------- | --------------- | ----------------------------------------------------------------------------------------------- |
+| Default   | Spinner         | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
+|           | Text (Optional) | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="Gray Light" hexD="#f1f1f1" >}}     |
+| Secondary | Spinner         | {{< color-preview nameL="Gray 6" hexL="#6A6E79" nameD="Gray Light" hexD="#f1f1f1" >}}           |
+|           | Text (Optional) | {{< color-preview nameL="Gray 6" hexL="#6A6E79" nameD="Gray Light" hexD="#f1f1f1" >}}           |
+| Tertiary  | Spinner         | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray 4" hexD="#90939f" >}}               |
+|           | Text (Optional) | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray Light" hexD="#f1f1f1" >}}           |
+{class="table table-sm table-bordered border border-opacity-50"}
+<!-- prettier-ignore-end -->
+
+
 ### Behaviors
 
 - A spinner spins indefinitely until loading is complete.
@@ -58,16 +73,3 @@ tags: [styles]
 }
 </style>
 
-## Colors
-
-<!-- prettier-ignore-start -->
-| Element   | Property        | Color                                                                                           |
-| --------- | --------------- | ----------------------------------------------------------------------------------------------- |
-| Default   | Spinner         | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
-|           | Text (Optional) | {{< color-preview nameL="Trimble Blue" hexL="#0063a3" nameD="Gray Light" hexD="#f1f1f1" >}}     |
-| Secondary | Spinner         | {{< color-preview nameL="Gray 6" hexL="#6A6E79" nameD="Gray Light" hexD="#f1f1f1" >}}           |
-|           | Text (Optional) | {{< color-preview nameL="Gray 6" hexL="#6A6E79" nameD="Gray Light" hexD="#f1f1f1" >}}           |
-| Tertiary  | Spinner         | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray 4" hexD="#90939f" >}}               |
-|           | Text (Optional) | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray Light" hexD="#f1f1f1" >}}           |
-{class="table table-sm table-bordered border border-opacity-50"}
-<!-- prettier-ignore-end -->

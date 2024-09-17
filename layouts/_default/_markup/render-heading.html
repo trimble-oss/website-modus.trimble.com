@@ -5,13 +5,13 @@
   h2 mt-5 {{- end -}}
   {{- if (eq .Level 4 ) }}h4 fw-bold mt-3{{- end -}}{{ if eq .Anchor "use-when" }} h4 fw-bold text-success{{- end -}}{{ if eq .Anchor "dont-use-when" }} h4 fw-bold text-danger{{- end -}}">
   {{ if eq .Anchor "use-when" }}
-  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="mx-1 mb-1"
+  <svg width="18" height="18" fill="currentColor" class="mx-1 mb-1"
     viewBox="0 0 24 24">
     <path
       d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm5.56 7.74-6.39 6.4a1 1 0 0 1-1.42-.01l-3.3-3.34-.01-.01a.993.993 0 0 1 .01-1.4.996.996 0 0 1 1.41 0l2.6 2.62 5.68-5.69a.996.996 0 0 1 1.41 0v.02h.01c.39.39.39 1.02 0 1.41Z" />
   </svg>{{- end -}}
   {{- if eq .Anchor "dont-use-when" -}}
-  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="mx-1 mb-1"
+  <svg width="18" height="18" fill="currentColor" class="mx-1 mb-1"
     viewBox="0 0 24 24">
     <path
       d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2Zm4.3 14.3a.996.996 0 0 1-1.41 0L12 13.41 9.11 16.3a.996.996 0 1 1-1.41-1.41L10.59 12 7.7 9.11A.996.996 0 1 1 9.11 7.7L12 10.59l2.89-2.89a.996.996 0 1 1 1.41 1.41L13.41 12l2.89 2.89c.38.38.38 1.02 0 1.41Z" />

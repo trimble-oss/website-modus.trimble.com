@@ -48,7 +48,7 @@ Use a contained accordion for most cases. Separate its items with a divider. Thi
 
 ### Separated
 
-There are some cases, when you can separate accordions with white space. Use this method, when you have available space.
+There are some cases, when you can separate accordions with whitespace. Use this method, when you have available space.
 
 {{< img src="/img/mobile/accordion-separated.svg" dark="/img/mobile/accordion-separated-dark.svg" width="960" height="488" alt="Separated Accordion" >}}
 

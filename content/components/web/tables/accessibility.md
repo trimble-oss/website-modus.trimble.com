@@ -6,7 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/tables.png"
-bootstrapURL: "/components/tables/"
+bootstrapURL: "/docs/v2/content/tables/"
 reactBootstrapURL: "/components/tables/"
 webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-table--default
 component: tables

@@ -75,6 +75,24 @@ popoverCSSInspector: true
 - Maintain consistency by not removing tabs when their function is unavailable. Instead offer an explanation as to why a tab’s content is unavailable and present the user with an action to remedy it.
 - Always arrange tabs in an order that makes sense for the user.
 
+### Colors
+
+<!-- prettier-ignore-start -->
+| Element      | Property      | Color                                                                                                 |
+| ------------ | ------------- | ----------------------------------------------------------------------------------------------------- |
+| Tab Container | Border Bottom | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray 6" hexD="#6a6e79" >}}                    |
+| Default Tab  | Color         | {{< color-preview nameL="Trimble Gray" hexL="#252A2E" nameD="White" hexD="#ffffff" >}}                |
+|              | Background    | Transparent                                                                                           |
+| Active Tab   | Color         | {{< color-preview nameL="Trimble Blue Light" hexL="#217cbb" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
+|              | Bottom Border | {{< color-preview nameL="Trimble Blue Light" hexL="#217cbb" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
+|              | Background    | Transparent                                                                                           |
+| Hover Tab    | Color         | {{< color-preview nameL="Trimble Blue Light" hexL="#217cbb" nameD="White" hexD="#ffffff" >}}          |
+|              | Background    | {{< color-preview nameL="Blue Pale" hexL="#dcedf9" nameD="Gray 8" hexD="#464b52" >}}                  |
+| Disabled Tab | Color         | {{< color-preview nameL="Gray 2" hexL="#B7B9C3" nameD="White" hexD="#ffffff" >}}                      |
+|              | Background    | Transparent                                                                                           |
+{class="table table-sm table-bordered border border-opacity-50"}
+<!-- prettier-ignore-end -->
+
 ### Behaviors
 
 - Try to organize tabs so that the most relevant, pre-selected tab is also the leftmost tab.
@@ -108,20 +126,4 @@ popoverCSSInspector: true
 }
 </style>
 
-### Colors
 
-<!-- prettier-ignore-start -->
-| Element      | Property      | Color                                                                                                 |
-| ------------ | ------------- | ----------------------------------------------------------------------------------------------------- |
-| Tab Container | Border Bottom | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray 6" hexD="#6a6e79" >}}                    |
-| Default Tab  | Color         | {{< color-preview nameL="Trimble Gray" hexL="#252A2E" nameD="White" hexD="#ffffff" >}}                |
-|              | Background    | Transparent                                                                                           |
-| Active Tab   | Color         | {{< color-preview nameL="Trimble Blue Light" hexL="#217cbb" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
-|              | Bottom Border | {{< color-preview nameL="Trimble Blue Light" hexL="#217cbb" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
-|              | Background    | Transparent                                                                                           |
-| Hover Tab    | Color         | {{< color-preview nameL="Trimble Blue Light" hexL="#217cbb" nameD="White" hexD="#ffffff" >}}          |
-|              | Background    | {{< color-preview nameL="Blue Pale" hexL="#dcedf9" nameD="Gray 8" hexD="#464b52" >}}                  |
-| Disabled Tab | Color         | {{< color-preview nameL="Gray 2" hexL="#B7B9C3" nameD="White" hexD="#ffffff" >}}                      |
-|              | Background    | Transparent                                                                                           |
-{class="table table-sm table-bordered border border-opacity-50"}
-<!-- prettier-ignore-end -->

@@ -29,7 +29,11 @@ tags:
 <div class="row">
 
 {{< card-stats npmjs="@trimbleinc/modus-bootstrap" date="2020-11-11" >}}
-Modus Bootstrap
+Modus Bootstrap v1
+{{</ card-stats >}}
+
+{{< card-stats npmjs="@trimble-oss/modus-bootstrap" github="trimble-oss/modus-icons" date="2023-11-11" >}}
+Modus Bootstrap v2
 {{</ card-stats >}}
 
 {{< card-stats npmjs="@trimble-oss/modus-icons" github="trimble-oss/modus-icons" date="2023-02-02" >}}
@@ -44,11 +48,11 @@ Modus React Bootstrap
 Modus Web Components
 {{</ card-stats >}}
 
-{{< card-stats npmjs="@trimble-oss/modus-angular-components" date="2022-03-03" hideCDN="true" >}}
+{{< card-stats npmjs="@trimble-oss/modus-angular-components" github="trimble-oss/modus-web-components" date="2022-03-03" hideCDN="true" >}}
 Modus Angular Components
 {{</ card-stats >}}
 
-{{< card-stats npmjs="@trimble-oss/modus-react-components" date="2022-06-06" hideCDN="true" >}}
+{{< card-stats npmjs="@trimble-oss/modus-react-components" github="trimble-oss/modus-web-components" date="2022-06-06" hideCDN="true" >}}
 Modus React Components
 {{</ card-stats >}}
 

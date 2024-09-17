@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/tables.png"
-bootstrapURL: "/components/tables/"
-reactBootstrapURL: "/components/tables/"
+bootstrapURL: "/docs/v2/content/tables/"
 webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-table--default
 tags: [styles]
 ---
@@ -87,7 +86,7 @@ There are two categories of actions available in tables:
   <br><br>
   {{< img src="/img/components/tables-changing-sort.svg" dark="/img/components/tables-changing-sort-dark.svg" class="w-100" alt="Changing a Sort Type" >}}
   <br><br> - **Column/ Row Reordering:** - User should be able to left click and hold the column header to drag and drop the column in a new order. A visual indicator should be used between the header cells where the column will be dropped. - A separate menu for column order can be utilized in conjunction with but not without the drag and drop function. i.e. if there is a column order menu, you must also retain drag-and-drop functionality - Draggable rows should use the “Drag 2” icon located before the first cell of the table.
-  - **Changing Width:** - When hovering above the dividing line between two columns, there should be a visual indicator that the column is adjustable. Recommend indicator: Border becomes thicker (>2) and/or changes to the primary action color. - Auto-Fit: User should be able to double click the adjustable border in order to fit content to the column.
+  - **Changing Width:** - When hovering above the dividing line between two columns, there should be a visual indicator that the column is adjustable. Recommend indicator: Border becomes thicker (>2) and/or changes to the primary action color. - Auto-Fit: User should be able to double-click the adjustable border in order to fit content to the column.
   - **Hiding/ Showing Columns:** - Right clicking on a column header should give the user a context menu option to collapse/show columns. When a column is collapsed, the border between headers should be increased to 3px. Single clicking the visual indicator will show the column. Right clicking the visual indicator will open the context menu. - Unless use case dictates, Hiding a column does NOT “deactivate” a column and its content. Meaning that even though a column is hidden, the table will still use its content in filters, groups, sorts, etc.
   - **Changing Views:** A view is a default or custom table layout that is saved based on the user’s last selection. User should have a way to reset a view and/or to choose from a list of default views.
   - **Global Search:** - Search field should be located above the table header and/or collocated with any horizontal toolbar. - Search field should use the Modus “Input with icon on left,” and utilize the magnifying glass icon. - Once a string is entered, the “content close” icon should appear at the right internal edge of the field, allowing the user to cancel the search / delete the string. - App Specific: It is at the product team's discretion to update the table real time as a string is entered or after a return. - Optional: Magnifying glass icon can be used on its own, upon a user clicking the icon it should expand into the input field state prescribed above.

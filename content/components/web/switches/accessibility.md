@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 component: switches
 keywords: forms, form
-bootstrapURL: "/components/switches/"
-reactBootstrapURL: "/components/switches/"
+bootstrapURL: "/docs/v2/forms/checks-radios/#switches"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/user-inputs-switch--default"
 tags: [accessibility]
 ---

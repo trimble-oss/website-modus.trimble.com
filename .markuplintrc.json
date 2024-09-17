@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "markuplint:recommended"
+  ],
+  "rules": {
+    "attr-duplication": false,
+    "invalid-attr": false,
+    "permitted-contents": false,
+    "require-accessible-name": false
+  }
+}
