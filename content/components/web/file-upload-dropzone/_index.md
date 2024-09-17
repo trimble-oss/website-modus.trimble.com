@@ -8,7 +8,7 @@ aliases:
   - "/components/file-upload-dropzone/"
 images:
   - "/img/components/headers/file-upload-dropzone.png"
-BootstrapURL: "/docs/v2/components/file-upload-dropzone/"
+bootstrapURL: "/docs/v2/helpers/file-upload-dropzone/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-file-dropzone--default"
 tags: [usage]
 ---
