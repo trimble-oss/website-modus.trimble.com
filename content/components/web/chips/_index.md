@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/chips.png"
-bootstrapURL: "/components/chips/"
-reactBootstrapURL: "/components/chips/"
+bootstrapURL: "/docs/v2/components/chips/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-chip--default"
 aliases:
   - "/components/chips/"

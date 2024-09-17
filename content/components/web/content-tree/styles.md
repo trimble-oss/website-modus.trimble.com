@@ -6,7 +6,6 @@ images:
   - "/img/components/headers/content-tree.png"
 components: true
 componentsWeb: true
-reactBootstrapURL: "/components/content-tree/"
 webComponentsURL: https://modus-web-components.trimble.com/?path=/story/components-content-tree--default
 tags: [styles]
 ---

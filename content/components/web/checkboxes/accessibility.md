@@ -8,8 +8,7 @@ images:
   - "/img/components/headers/checkboxes.png"
 component: checkboxes
 keywords: forms, form
-bootstrapURL: "/components/checkboxes/"
-reactBootstrapURL: "/components/checkboxes/"
+bootstrapURL: "/docs/v2/components/checkboxes/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/user-inputs-checkbox--default"
 tags: [accessibility]
 ---

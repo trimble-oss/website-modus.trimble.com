@@ -9,8 +9,7 @@ images:
 aliases:
   - "/components/progress/"
   - "/components/progress-bars/"
-bootstrapURL: "/components/progress-bars/"
-reactBootstrapURL: "/components/progress-bars/"
+bootstrapURL: "/docs/v2/components/progress-bars/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-progress-bar--default"
 tags: [usage]
 ---

@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/spinners.png"
-bootstrapURL: "/components/spinners/"
-reactBootstrapURL: "/components/spinners/"
+bootstrapURL: "/docs/v2/components/spinners/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-spinner--default"
 aliases:
   - "/components/spinners/"

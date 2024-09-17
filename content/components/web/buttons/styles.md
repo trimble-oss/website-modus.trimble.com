@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/buttons.png"
-bootstrapURL: "/components/buttons/"
-reactBootstrapURL: "/components/buttons/"
+bootstrapURL: "/docs/v2/components/buttons/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-button--default"
 tags: [styles]
 disableAnatomy: true

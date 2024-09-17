@@ -6,7 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/file-upload-dropzone.png"
-bootstrapURL: "/components/file-upload-dropzone/"
+BootstrapURL: "/docs/v2/components/file-upload-dropzone/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-file-dropzone--default"
 tags: [styles]
 ---
