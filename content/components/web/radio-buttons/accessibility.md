@@ -7,8 +7,7 @@ componentsWeb: true
 component: radio-buttons
 keywords: forms, form
 tags: [accessibility]
-bootstrapURL: "/components/radio-buttons/"
-reactBootstrapURL: "/components/radio-buttons/"
+BootstrapURL: "/docs/v2/components/radio-buttons/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-radio-group--default"
 hideToc: true
 ---

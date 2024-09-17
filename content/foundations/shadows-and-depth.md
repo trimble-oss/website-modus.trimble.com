@@ -6,7 +6,6 @@ description: "Shadows are used to focus the user’s attention and define spatia
 foundations: true
 group: foundations
 bootstrapURL: "/foundations/shadows-and-depth/"
-reactBootstrapURL: "/foundations/shadows-and-depth/"
 ---
 
 Shadows provide cues about depth, direction of movement, and surface edges. A surface’s shadow is determined by its elevation and relationship to other surfaces.

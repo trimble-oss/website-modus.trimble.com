@@ -10,8 +10,7 @@ keywords: forms, form, search, select
 aliases:
   - "/components/forms/"
   - "/components/inputs/"
-bootstrapURL: "/components/inputs/"
-reactBootstrapURL: "/components/inputs/"
+bootstrapURL: "/docs/v2/forms/form-control/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/user-inputs-text-input--default"
 tags: [usage]
 ---

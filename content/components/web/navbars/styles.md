@@ -6,8 +6,7 @@ images:
   - "/img/components/headers/navbar.png"
 components: true
 componentsWeb: true
-bootstrapURL: "/components/navbars/"
-reactBootstrapURL: "/components/navbar/"
+BootstrapURL: "/docs/v2/components/navbars/"
 webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-navbar--default
 tags: [styles]
 ---
