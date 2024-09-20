@@ -6,6 +6,8 @@ components: true
 componentsWeb: true
 component: sliders
 tags: [accessibility]
+BootstrapURL: "/docs/v2/forms/range/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-slider--default"
 hideToc: true
 ---
 

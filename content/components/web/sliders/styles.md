@@ -7,7 +7,7 @@ componentsWeb: true
 images:
   - "/img/components/headers/sliders.png"
 keywords: forms, form, range
-BootstrapURL: "/docs/v2/components/sliders/"
+BootstrapURL: "/docs/v2/forms/range/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-slider--default"
 tags: [styles]
 disableAnatomy: true
