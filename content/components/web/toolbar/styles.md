@@ -9,6 +9,7 @@ images:
 tags: [styles]
 disableAnatomy: true
 popoverCSSInspector: true
+webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-toolbar--default
 ---
 
 ## Specifications

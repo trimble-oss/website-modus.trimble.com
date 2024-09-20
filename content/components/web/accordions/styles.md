@@ -6,7 +6,7 @@ images:
   - "/img/components/headers/accordions.png"
 components: true
 componentsWeb: true
-bootstrapURL: "/docs/v2/components/accordions/"
+bootstrapURL: "/docs/v2/components/accordion/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-accordion--default"
 tags: [styles]
 disableAnatomy: true
