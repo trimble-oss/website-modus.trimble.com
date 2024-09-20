@@ -11,6 +11,7 @@ bootstrapURL: "/docs/v2/components/modal/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-modal--default"
 aliases:
   - "/components/modals/"
+  - "/components/web/modal/"
 tags: [usage]
 ---
 
