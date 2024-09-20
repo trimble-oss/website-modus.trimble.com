@@ -7,7 +7,7 @@ componentsWeb: true
 images:
   - "/img/components/headers/checkboxes.png"
 keywords: forms, form
-BootstrapURL: "/docs/v2/components/checkboxes/"
+BootstrapURL: "/docs/v2/forms/checks-radios/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/user-inputs-checkbox--default"
 aliases:
   - "/components/checkboxes/"

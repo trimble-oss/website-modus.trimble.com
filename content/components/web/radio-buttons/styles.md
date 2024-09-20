@@ -7,7 +7,7 @@ componentsWeb: true
 images:
   - "/img/components/headers/radio-buttons.png"
 keywords: forms, form
-bootstrapURL: "/docs/v2/components/radio-buttons/"
+bootstrapURL: "/docs/v2/forms/checks-radios/#radios"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-radio-group--default"
 tags: [styles]
 disableAnatomy: true
