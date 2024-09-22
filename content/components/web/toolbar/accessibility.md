@@ -6,6 +6,7 @@ components: true
 componentsWeb: true
 component: toolbar
 tags: [accessibility]
+webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-toolbar--default
 hideToc: true
 ---
 

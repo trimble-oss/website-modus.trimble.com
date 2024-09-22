@@ -5,7 +5,6 @@ description: "The Modus palette is based on the Trimble brand colors."
 foundations: true
 group: foundations
 bootstrapURL: "/foundations/color-palette/"
-reactBootstrapURL: "/foundations/color-palette/"
 ---
 
 The following colors can be used for UI elements. When using colors, make sure the color contrast is high enough to meet [accessibility standards](/foundations/accessibility/).

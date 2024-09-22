@@ -7,8 +7,7 @@ componentsWeb: true
 images:
   - "/img/components/headers/dropdowns.png"
 keywords: menu
-bootstrapURL: "/components/dropdowns/"
-reactBootstrapURL: "/components/dropdowns/"
+bootstrapURL: "/docs/v2/components/dropdowns/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-dropdown--default"
 aliases:
   - "/components/dropdowns/"

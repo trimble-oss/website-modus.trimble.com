@@ -6,6 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/toolbar.png"
+webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-toolbar--default
 tags: [usage]
 ---
 

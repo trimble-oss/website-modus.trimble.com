@@ -7,8 +7,7 @@ componentsWeb: true
 images:
   - "/img/components/headers/tooltips.png"
 component: tooltips
-bootstrapURL: "/components/tooltips/"
-reactBootstrapURL: "/components/tooltips/"
+bootstrapURL: "/docs/v2/components/tooltips/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-tooltip--default"
 tags: [accessibility]
 ---

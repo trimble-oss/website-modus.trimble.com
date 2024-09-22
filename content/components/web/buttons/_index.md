@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/buttons.png"
-bootstrapURL: "/components/buttons/"
-reactBootstrapURL: "/components/buttons/"
+bootstrapURL: "/docs/v2/components/buttons/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-button--default"
 aliases:
   - "/components/buttons/"
@@ -171,7 +170,26 @@ There are two button progressions you can choose from: structural and color prog
   </tbody>
 </table>
 
-**Note:** A yellow button in the Trimble brand color can be used **only in special use cases**.
+### Special Button
+
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Example</th>
+      <th>When to use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><button class="btn btn-warning" type="button">Button</button></td>
+      <td>
+        Only use in special cases and sparingly within an otherwise blue/gray UI in order to bring more attention to a particular action. It should not be used with primary or danger actions. It does not support borderless or outline variants.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 ### Icon Buttons
 

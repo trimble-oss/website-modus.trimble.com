@@ -6,7 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/breadcrumbs.png"
-bootstrapURL: "/components/breadcrumbs/"
+bootstrapURL: "/docs/v2/components/breadcrumbs/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-breadcrumb--default"
 tags: [accessibility]
 ---

@@ -4,8 +4,7 @@ layout: "single"
 description: "The purpose of typography is to make content legible, readable, and visually appealing."
 foundations: true
 group: foundations
-bootstrapURL: "/foundations/typography/"
-reactBootstrapURL: "/foundations/typography/"
+bootstrapURL: "/docs/v2/content/typography/"
 ---
 
 ## Font Family
