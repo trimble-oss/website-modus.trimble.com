@@ -45,6 +45,59 @@ popoverCSSInspector: true
 </div>
 </div>
 
+<div class="guide-example-block bg-secondary py-4" style="padding-left: 240px !important; --bs-bg-opacity: 0.03; min-height: 98px">
+  <div class="guide-sample py-2">
+  <div class="form-check form-switch my-2">
+  <input class="form-check-input pe-none"
+    type="checkbox"
+    style="width:40px; height: 20px;"
+    id="flexCheckUnchecked"
+    data-bs-toggle="popover"
+    data-bs-placement="left"
+    data-bs-custom-class="popover-css-inspector"
+    data-css-inspector-hide="b-radius color font-size margin padding height width">
+  <label
+    class="form-check-label pe-none"
+    for="flexCheckUnchecked"
+    style="font-size: 14px; margin-top: 1px"
+    data-bs-toggle="popover"
+    data-bs-placement="right"
+    data-bs-custom-class="popover-css-inspector"
+    data-css-inspector-hide="bg-color b-radius height margin padding height width"
+    data-css-inspector-show="color font-size">
+    Unchecked Switch
+  </label>
+</div>
+</div>
+</div>
+
+<div class="guide-example-block bg-secondary py-4" style="padding-left: 240px !important; --bs-bg-opacity: 0.03; min-height: 98px">
+  <div class="guide-sample py-2">
+  <div class="form-check form-switch my-2">
+  <input class="form-check-input pe-none"
+    type="checkbox"
+    style="width:40px; height: 20px;"
+    id="flexCheckDisabled"
+    data-bs-toggle="popover"
+    data-bs-placement="left"
+    data-bs-custom-class="popover-css-inspector"
+    data-css-inspector-hide="b-radius color font-size margin padding height width"
+    disabled>
+  <label
+    class="form-check-label pe-none"
+    for="flexCheckDisabled"
+    style="font-size: 14px; margin-top: 1px"
+    data-bs-toggle="popover"
+    data-bs-placement="right"
+    data-bs-custom-class="popover-css-inspector"
+    data-css-inspector-hide="bg-color b-radius height margin padding"
+    data-css-inspector-show="color font-size">
+    Disabled Switch
+  </label>
+</div>
+</div>
+</div>
+
 <div class="guide-example-block bg-secondary py-5" style="padding-left: 240px !important; --bs-bg-opacity: 0.03; min-height: 98px">
   <div class="guide-sample py-2">
   <div class="form-check form-check-sm form-switch my-2">
@@ -71,9 +124,8 @@ popoverCSSInspector: true
 </div>
 </div>
 
-### Colors
 
-<!-- prettier-ignore-start -->
+<!--
 | Element      | Property         | Color                                                                                             |
 | ------------ | ---------------- | ------------------------------------------------------------------------------------------------- |
 | Toggle       |                  | {{< color-preview nameL="White" hexL="#ffffff" nameD="White" hexD="#ffffff" >}}                   |
@@ -88,8 +140,9 @@ popoverCSSInspector: true
 |              | Border           | {{< color-preview nameL="Blue Light" hexL="#217CBB" nameD="Dark Mode Blue" hexD="#019AEB" >}}     |
 | Disabled/On  | Background (30%) | {{< color-preview nameL="Trimble Blue" hexL="#0063A380" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
 | Disabled/Off | Background (30%) | {{< color-preview nameL="Gray 4" hexL="#90939F80" nameD="Gray 4" hexD="#90939F" >}}               |
-{class="table table-bordered table-sm table-colors"}
-<!-- prettier-ignore-end -->
+{class="table table-bordered table-sm table-colors d-none"}
+ -->
+
 
 ### Behaviors
 
@@ -99,22 +152,22 @@ popoverCSSInspector: true
   <tr>
     <td class="py-3" width="50%">
       <div class="form-check form-switch mb-1">
-        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
-        <label class="form-check-label" for="flexSwitchCheckChecked">Display information</label>
+        <input class="form-check-input pe-none" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+        <label class="form-check-label pe-none" for="flexSwitchCheckChecked">Display information</label>
       </div>
       <div class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-        <label class="form-check-label" for="flexSwitchCheckDefault">Display information</label>
+        <input class="form-check-input pe-none" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label pe-none" for="flexSwitchCheckDefault">Display information</label>
       </div>
     </td>
     <td class="py-3">
       <div class="form-check form-switch mb-1">
-        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked3" checked>
-        <label class="form-check-label" for="flexSwitchCheckChecked3">Display information</label>
+        <input class="form-check-input pe-none" type="checkbox" role="switch" id="flexSwitchCheckChecked3" checked>
+        <label class="form-check-label pe-none" for="flexSwitchCheckChecked3">Display information</label>
       </div>
       <div class="form-check form-switch">
-        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault4">
-        <label class="form-check-label" for="flexSwitchCheckDefault4">Don't display information</label>
+        <input class="form-check-input pe-none" type="checkbox" role="switch" id="flexSwitchCheckDefault4">
+        <label class="form-check-label pe-none" for="flexSwitchCheckDefault4">Don't display information</label>
       </div>
     </td>
   </tr>
