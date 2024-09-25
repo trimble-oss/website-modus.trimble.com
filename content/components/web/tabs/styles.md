@@ -13,12 +13,36 @@ disableAnatomy: true
 popoverCSSInspector: true
 ---
 
+<style>
+[data-bs-theme="light"] .nav-tabs .nav-link {
+  background-color: #fff ;
+}
+</style>
+
 ## Specifications
 
 <div class="guide-example-block my-3 py-4 bg-secondary bg-opacity-10">
   <div class="guide-content-sample text-center">
-    <div class="py-4">
-      <ul class="nav nav-tabs mb-5 py-5 border-0" style="padding-left: 340px">
+    <div class="py-5">
+    <div class="py-5">
+      <ul class="nav nav-tabs" style="margin-left: 340px; max-width: fit-content">
+        <li class="nav-item pe-none">
+          <a
+            class="nav-link pe-none"
+            href="#"
+            data-bs-placement="left"
+            data-bs-toggle="popover"
+            data-bs-custom-class="popover-css-inspector"
+            data-css-inspector-hide="margin height"
+            data-css-inspector-show=""
+            data-bs-container=".guide-content-sample">Default</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div class="py-5">
+    <div class="py-5">
+      <ul class="nav nav-tabs" style="margin-left: 340px; max-width: fit-content">
         <li class="nav-item pe-none">
           <a
             class="nav-link active pe-none"
@@ -26,13 +50,16 @@ popoverCSSInspector: true
             data-bs-placement="left"
             data-bs-toggle="popover"
             data-bs-custom-class="popover-css-inspector"
-            data-css-inspector-hide="b hide-bc hide-us"
-            data-bs-container=".guide-content-sample">Default</a>
+            data-css-inspector-hide="margin height"
+            data-css-inspector-show="b-color"
+            data-bs-container=".guide-content-sample">Active/Selected</a>
         </li>
       </ul>
     </div>
-    <div class="py-4">
-      <ul class="nav nav-tabs mb-5 py-5 border-0" style="padding-left: 340px">
+    </div>
+    <div class="py-5">
+    <div class="py-5">
+      <ul class="nav nav-tabs" style="margin-left: 340px; max-width: fit-content">
         <li class="nav-item pe-none">
           <a
             class="nav-link hover text-decoration-none pe-none"
@@ -40,24 +67,44 @@ popoverCSSInspector: true
             data-bs-placement="left"
             data-bs-toggle="popover"
             data-bs-custom-class="popover-css-inspector"
-            data-css-inspector-hide="b hide-bc hide-m hide-h hide-us"
+            data-css-inspector-hide="b-color margin height"
             data-bs-container=".guide-content-sample">Hover</a>
         </li>
       </ul>
     </div>
-    <div class="py-4">
-      <ul class="nav nav-tabs nav-tabs-sm py-5 border-0" style="padding-left: 340px">
+    </div>
+     <div class="py-5">
+    <div class="py-5">
+      <ul class="nav nav-tabs" style="margin-left: 340px; max-width: fit-content">
+        <li class="nav-item pe-none">
+          <a
+            class="nav-link disabled text-decoration-none pe-none"
+            href="#"
+            data-bs-placement="left"
+            aria-disabled="true"
+            data-bs-toggle="popover"
+            data-bs-custom-class="popover-css-inspector"
+            data-css-inspector-hide="b-color margin height"
+            data-bs-container=".guide-content-sample">Disabled</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div class="py-5">
+    <div class="py-5">
+      <ul class="nav nav-tabs nav-tabs-sm" style="margin-left: 340px; max-width: fit-content">
         <li class="nav-item pe-none">
           <a
             class="nav-link active pe-none"
             data-bs-placement="left"
             data-bs-toggle="popover"
             data-bs-custom-class="popover-css-inspector"
-            data-css-inspector-hide="b hide-bc hide-m hide-h hide-us"
+            data-css-inspector-hide="margin"
             data-bs-container=".guide-content-sample"
             href="#">Small</a>
         </li>
       </ul>
+    </div>
     </div>
   </div>
 </div>
@@ -73,24 +120,6 @@ popoverCSSInspector: true
 - Make unselected tabs visible to avoid potentially hiding features/content from the user.
 - Maintain consistency by not removing tabs when their function is unavailable. Instead offer an explanation as to why a tab’s content is unavailable and present the user with an action to remedy it.
 - Always arrange tabs in an order that makes sense for the user.
-
-### Colors
-
-<!-- prettier-ignore-start -->
-| Element      | Property      | Color                                                                                                 |
-| ------------ | ------------- | ----------------------------------------------------------------------------------------------------- |
-| Tab Container | Border Bottom | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray 6" hexD="#6a6e79" >}}                    |
-| Default Tab  | Color         | {{< color-preview nameL="Trimble Gray" hexL="#252A2E" nameD="White" hexD="#ffffff" >}}                |
-|              | Background    | Transparent                                                                                           |
-| Active Tab   | Color         | {{< color-preview nameL="Trimble Blue Light" hexL="#217cbb" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
-|              | Bottom Border | {{< color-preview nameL="Trimble Blue Light" hexL="#217cbb" nameD="Dark Mode Blue" hexD="#019aeb" >}} |
-|              | Background    | Transparent                                                                                           |
-| Hover Tab    | Color         | {{< color-preview nameL="Trimble Blue Light" hexL="#217cbb" nameD="White" hexD="#ffffff" >}}          |
-|              | Background    | {{< color-preview nameL="Blue Pale" hexL="#dcedf9" nameD="Gray 8" hexD="#464b52" >}}                  |
-| Disabled Tab | Color         | {{< color-preview nameL="Gray 2" hexL="#B7B9C3" nameD="White" hexD="#ffffff" >}}                      |
-|              | Background    | Transparent                                                                                           |
-{class="table table-sm table-bordered border border-opacity-50"}
-<!-- prettier-ignore-end -->
 
 ### Behaviors
 
