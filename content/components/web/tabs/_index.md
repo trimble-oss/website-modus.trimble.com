@@ -13,12 +13,6 @@ aliases:
 tags: [usage]
 ---
 
-<style>
-[data-bs-theme="dark"] .nav-tabs .nav-link.active {
-  color: #0c77be !important;
-}
-</style>
-
 ## Overview
 
 Tabs are a set of layered sections of content, known as tab panels, that display one panel of content at a time. Each tab panel has an associated tab element, that when activated, displays the panel. The list of tab elements is arranged along one edge of the currently displayed panel, most commonly horizontally, at the top edge. When a tabbed interface is initialized, one tab panel is always displayed.
