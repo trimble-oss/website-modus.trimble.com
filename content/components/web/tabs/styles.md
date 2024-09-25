@@ -14,8 +14,8 @@ popoverCSSInspector: true
 ---
 
 <style>
-[data-bs-theme="light"] .nav-tabs .nav-link {
-  background-color: #fff ;
+[data-bs-theme="light"] .nav-tabs .nav-link.hover {
+  background-color: #E0E1E9 !important;
 }
 </style>
 
@@ -141,7 +141,6 @@ popoverCSSInspector: true
   margin-left: -5rem !important;
 }
 [data-bs-theme="light"] .nav-tabs .nav-link.hover {
-  background-color: #dcedf9 !important;
   isolation: isolate;
   border-color: var(--bs-nav-tabs-link-hover-border-color);
   border-bottom: .1875rem solid #dcedf9;
