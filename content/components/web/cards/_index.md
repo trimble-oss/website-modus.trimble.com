@@ -6,7 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/cards.png"
-bootstrapURL: "/docs/v2/components/cards/"
+bootstrapURL: "/docs/v2/components/card/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-card--default"
 aliases:
   - "/components/cards/"
@@ -14,10 +14,6 @@ tags: [usage]
 ---
 
 <style>
- article .card-subtitle {
-  font-weight: 700;
-}
-
 [data-bs-theme="dark"] article .card {
   background-color: #353A40;
 }
