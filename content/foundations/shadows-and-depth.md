@@ -18,8 +18,8 @@ Trimble uses three levels of elevation specified by different depths of drop sha
 
   <div class="col-12 col-sm-6 col-md-4 h-100">
     <div class="card shadow-sm">
-      <div class="card-header py-4 bg-dark bg-opacity-10">
-      <h3>Level 1</h3>
+      <div class="card-header py-2 bg-dark bg-opacity-10">
+      <h3 class="mb-0">Level 1</h3>
       </div>
       <div class="card-body py-1">
       <code>box-shadow:<br>
@@ -31,8 +31,8 @@ Trimble uses three levels of elevation specified by different depths of drop sha
 
   <div class="col-12 col-sm-6 col-md-4 h-100">
     <div class="card shadow">
-      <div class="card-header py-4 bg-dark bg-opacity-10">
-      <h3>Level 2</h3>
+      <div class="card-header py-2 bg-dark bg-opacity-10">
+      <h3 class="mb-0">Level 2</h3>
       </div>
       <div class="card-body py-1">
       <code>box-shadow:<br>
@@ -45,8 +45,8 @@ Used for: sticky elements, cards active</p>
 
   <div class="col-12 col-sm-6 col-md-4 h-100">
     <div class="card shadow-lg">
-      <div class="card-header py-4 bg-dark bg-opacity-10">
-      <h3>Level 3</h3>
+      <div class="card-header py-2 bg-dark bg-opacity-10">
+      <h3 class="mb-0">Level 3</h3>
       </div>
       <div class="card-body py-1">
       <code>box-shadow:<br>
@@ -77,5 +77,6 @@ Z-index is a CSS property that specifies the stack order of an element. An eleme
 | 1050    | Modal Dialogs   |
 | 1060    | Popovers        |
 | 1070    | Tooltips        |
+| 1080    | Toasts          !
 
 {{</ table >}}

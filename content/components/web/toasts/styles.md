@@ -27,13 +27,13 @@ popoverCSSInspector: true
       data-bs-toggle="popover"
       data-bs-custom-class="popover-css-inspector"
       data-bs-placement="left"
-      data-css-inspector-hide="bg-color height margin max-width padding"
+      data-css-inspector-hide="height margin max-width padding"
       data-css-inspector-show="width">
       <div class="toast-header pe-2 align-items-start">
     <i class="modus-icons me-2 align-items-top" aria-hidden="true">info</i>
     <div>
     <h4 class="mb-0">Title</h4>
-This is an informal toast. It shows you did something, but it's not very important.
+This is a neutral toast. It shows you did something, but it's not very important.
     </div>
     <button type="button" class="btn-close me-0 m-auto" data-bs-dismiss="toast" aria-label="Close">
     </button>
