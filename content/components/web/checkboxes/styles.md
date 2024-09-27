@@ -68,6 +68,31 @@ popoverCSSInspector: true
 
 <div class="guide-example-block bg-secondary py-5" style="padding-left: 240px !important; --bs-bg-opacity: 0.03; min-height: 120px">
   <div class="guide-sample py-2">
+  <div class="form-check my-2">
+  <input class="form-check-input pe-none"
+    type="checkbox"
+    id="flexCheckChecked"
+    data-bs-toggle="popover"
+    data-bs-placement="left"
+    data-bs-custom-class="popover-css-inspector"
+    data-css-inspector-hide="color font-size margin padding"
+    data-css-inspector-show="b-color"
+    disabled>
+  <label class="form-check-label pe-none"
+    for="flexCheckChecked"
+    style="font-size: 14px;"
+    data-bs-toggle="popover"
+    data-bs-placement="right"
+    data-bs-custom-class="popover-css-inspector"
+    data-css-inspector-hide="bg-color b-radius height margin padding">
+    Unchecked Disabled checkbox
+  </label>
+</div>
+</div>
+</div>
+
+<div class="guide-example-block bg-secondary py-5" style="padding-left: 240px !important; --bs-bg-opacity: 0.03; min-height: 120px">
+  <div class="guide-sample py-2">
   <div class="form-check-sm my-2">
   <input class="form-check-input pe-none"
     type="checkbox"
