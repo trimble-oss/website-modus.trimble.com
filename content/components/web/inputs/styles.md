@@ -154,22 +154,21 @@ There are two sizes of input fields defined:
 
 <style>
 [data-bs-theme="light"] .form-control {
-    color: #464b52;
-  }
-[data-bs-theme="light"] #ReadonlyInput {
-    background-color: #e0e1e9;
-    color: #252A2E;
-  }
-[data-bs-theme="dark"] #ReadonlyInput {
-    background-color: #353a40;
-    color: #fff;
-  }
+  color: #464b52;
+}
 [data-bs-theme="light"] .form-control.focus {
-    border-color: #0063a3;
-  }
+  border-color: #0063a3;
+}
 [data-bs-theme="dark"] .form-control.focus {
-    border-color: #019aeb;
-  }
+  border-color: #019aeb;
+}
+[data-bs-theme="dark"] .form-control[readonly] {
+  background-color: #171c1e !important;
+  border-color: #353a40 !important;
+}
+[data-bs-theme="dark"] .form-control:disabled {
+  background-color: #171c1e !important;
+}
 </style>
 
 ### Editorial
