@@ -16,11 +16,24 @@ A sentiment scale is an instant, engaging, and typically easy-to-use way to coll
 
 Sentiment selection in hover state:
 
-{{< img src="/img/components/sentiment-scale-hover-example.svg" dark="/img/components/sentiment-scale-hover-example-dark.svg" class="border bg-light" width="300" height="112" alt="Sentiment Scale example" loading="auto" >}}
+<div class="pb-3 pt-4 bg-secondary bg-opacity-10 text-center border rounded mb-4">
+  <i class="modus-icons me-1" style="font-size: 30px; cursor: pointer" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Very Dissatisfied">smiley_dissatisfied_outlined</i>
+  <i class="modus-icons me-1" style="font-size: 30px; cursor: pointer" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Dissatisfied">smiley_somewhat_dissatisfied_outlined</i>
+  <i class="modus-icons me-1" style="font-size: 30px; cursor: pointer" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Neutral">smiley_neutral_outlined</i>
+  <i class="modus-icons me-1 text-primary" style="font-size: 30px; cursor: pointer" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Satisfied">smiley_somewhat_satisfied_outlined</i>
+  <i class="modus-icons" style="font-size: 30px; cursor: pointer" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Very Satisfied">smiley_satisfied_outlined</i>
+</div>
+
 
 Sentiment selection in selected state:
 
-{{< img src="/img/components/sentiment-scale-selected-example.svg" dark="/img/components/sentiment-scale-selected-example-dark.svg" class="border bg-light" width="300" height="112" alt="Sentiment Scale example" loading="auto" >}}
+<div class="pb-3 pt-4 bg-secondary bg-opacity-10 text-center border rounded">
+  <i class="modus-icons me-1" style="font-size: 30px; cursor: pointer" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Very Dissatisfied">smiley_dissatisfied_outlined</i>
+  <i class="modus-icons me-1" style="font-size: 30px; cursor: pointer" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Dissatisfied">smiley_somewhat_dissatisfied_outlined</i>
+  <i class="modus-icons me-1" style="font-size: 30px; cursor: pointer" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Neutral">smiley_neutral_outlined</i>
+  <i class="modus-icons me-1" style="font-size: 30px; cursor: pointer" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Satisfied">smiley_somewhat_satisfied_outlined</i>
+  <i class="modus-icons text-primary" style="font-size: 30px; cursor: pointer" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Very Satisfied">smiley_satisfied</i>
+</div>
 
 ## Usage
 
