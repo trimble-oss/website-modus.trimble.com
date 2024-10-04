@@ -23,6 +23,7 @@ sitemap:
 
 ## Specifications
 
+<div class="w-75 mx-auto">
 <div class="position-relative m-4">
   <div class="progress" role="progressbar" aria-label="Progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 1px;">
     <div class="progress-bar w-50" style="width: 50%"></div>
@@ -40,6 +41,7 @@ Label
 </div>
 <div class="me-2">
 Label
+</div>
 </div>
 </div>
 
@@ -64,31 +66,78 @@ Label
 Please follow the below guidelines for styling and size
 
 - Label should not be more than 3 words with a max-width of 120px and not more than 2 line wrapping.
-- If the step is complete the line to the right is Trimble Blue Dark, if the step is in progress or not started then the line to the right is Neutral/Gray 3
+- If the step is complete the line to the right is Trimble Blue Dark {{< color-preview hex="#004f83" >}}, if the step is in progress or not started then the line to the right is Neutral/Gray 3 {{< color-preview hex="#a3a6b1" >}}
 
 ### Hidden Labels
 
 Labels can be hidden if.....
 
-### Botton Labels
+<div class="w-75 mx-auto">
+  <div class="position-relative m-4">
+    <div class="progress" role="progressbar" aria-label="Progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 1px">
+      <div class="progress-bar w-50" style="width: 50%"></div>
+    </div>
+    <button type="button" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill fw-bold" style="width: 2rem; height: 2rem">1</button>
+    <button
+      type="button"
+      class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-outline-primary rounded-pill fw-bold"
+      style="width: 2rem; height: 2rem; background-color: #dcedf9">
+      2
+    </button>
+    <button
+      type="button"
+      class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-outline-secondary bg-body rounded-pill fw-bold"
+      style="width: 2rem; height: 2rem">
+      3
+    </button>
+  </div>
+</div>
+
+### Bottom Labels
 
 Use bottom labels with horizontal layout
+
+<div class="w-75 mx-auto mb-3">
+  <div class="position-relative m-4">
+    <div class="progress" role="progressbar" aria-label="Progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 1px">
+      <div class="progress-bar w-50" style="width: 50%"></div>
+    </div>
+    <button type="button" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill fw-bold" style="width: 2rem; height: 2rem">1</button>
+    <button
+      type="button"
+      class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-outline-primary rounded-pill fw-bold"
+      style="width: 2rem; height: 2rem; background-color: #dcedf9">
+      2
+    </button>
+    <button
+      type="button"
+      class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-outline-secondary bg-body rounded-pill fw-bold"
+      style="width: 2rem; height: 2rem">
+      3
+    </button>
+  </div>
+  <div class="d-flex justify-content-between">
+    <div class="ms-2">Label</div>
+    <div class="">Label</div>
+    <div class="me-2">Label</div>
+  </div>
+</div>
+
 
 ### Inline Labels
 
 ## Footer
 
-<div class="d-flex justify-content-between w-75 border p-2 mb-2">
+<div class="d-flex justify-content-between w-75 border p-2 mb-3">
   <div>
     <button type="button" class="btn btn-outline-secondary pe-none">Back</button>
   </div>
-  <div class="fw-bold mt-1">
-  Step 1 of 6 : Spectrum Integration
-  </div>
+  <div class="fw-bold mt-1">Step 1 of 6 : Spectrum Integration</div>
   <div>
-  <button type="button" class="btn btn-primary pe-none">Next</button>
+    <button type="button" class="btn btn-primary pe-none">Next</button>
   </div>
 </div>
+
 
 - The footer is placed at the bottom of a page or modal
 - It has to contain a wizard pager and title of the step

@@ -42,12 +42,12 @@ It's open-source and available at [GitHub](https://github.com/trimble-oss/modus-
 
 ## Upgrading
 
-There is a helpful command-line tool to assist with upgrading from Modus Bootstrap v1 to Modus Bootstrap 2. It can all the changed replace class names within your folder of HTML pages/templates. You can find more information on how to use the tool at [github.com/coliff/bootstrap-5-migrate-tool#bootstrap-5-migrate-tooln](https://github.com/coliff/bootstrap-5-migrate-tool).
+There is a helpful command-line tool to assist with upgrading from Modus Bootstrap v1 to Modus Bootstrap 2. It can all the changed replace class names within your folder of HTML pages/templates. You can find more information on how to use the tool at [github.com/coliff/bootstrap-5-migrate-tool](https://github.com/coliff/bootstrap-5-migrate-tool#readme).
 
 We'd recommend also reviewing the [official Bootstrap v5 migration guide](https://getbootstrap.com/docs/5.3/migration/).
 
 ## Modus Bootstrap v1
 
-If you are still using Modus Bootstrap v1, don't worry! We will continue to support it for the foreseeable future. However, we recommend that you start migrating to Modus Bootstrap 2 as soon as possible to take advantage of the new features and improvements.
+If you are still using Modus Bootstrap v1, don't worry! We will continue to support it for the foreseeable future. However, we recommend that you start migrating to Modus Bootstrap 2 soon to take advantage of the new features and improvements.
 
 You can access the documentation for Modus Bootstrap v1 at [modus-bootstrap.trimble.com/docs/v1](https://modus-bootstrap.trimble.com/docs/v1).
