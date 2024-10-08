@@ -19,7 +19,7 @@ tags: [styles]
   <div class="guide-sample">
     <button type="button" class="btn btn-primary display-active" disabled>
       <span
-        class="spinner-border mr-1"
+        class="spinner-border me-1"
         style="height: 16px; width: 16px; color: #fff"></span>
       Loading
     </button>
