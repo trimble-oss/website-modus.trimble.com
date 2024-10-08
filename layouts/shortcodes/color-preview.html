@@ -4,9 +4,9 @@
 {{- $hexD := .Get "hexD" -}}
 {{- $nameD := .Get "nameD" -}}
 {{- $nameL := .Get "nameL" -}}
-{{ if $hex }}<span class="mr-1">{{- .Get "name" -}}</span>{{ end }}
-{{ if $nameL }}<span class="theme-l mr-1">{{- .Get "nameL" -}}</span>{{ end }}
-{{ if $nameD }}<span class="theme-d mr-1">{{- .Get "nameD" -}}</span>{{ end }}
+{{ if $hex }}<span class="me-1">{{- .Get "name" -}}</span>{{ end }}
+{{ if $nameL }}<span class="theme-l me-1">{{- .Get "nameL" -}}</span>{{ end }}
+{{ if $nameD }}<span class="theme-d me-1">{{- .Get "nameD" -}}</span>{{ end }}
 <span class="small color-preview border" style="background-color: rgba(133,133,133,0.1);">
   {{- if $hex -}}
   <div class="mb-n1 color border" style="background-color: {{- .Get "hex" -}};">
