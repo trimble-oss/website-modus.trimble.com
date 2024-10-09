@@ -11,3 +11,4 @@ tags: [accessibility]
 ## Accessibility
 
 - Each spinner should include `role="status"` and a nested `<span class="sr-only">Loading...</span>`.
+- Spinners should rotate slower when the `@media (prefers-reduced-motion: reduce)` media query is set
