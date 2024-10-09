@@ -26,6 +26,13 @@ tags: [styles]
   </div>
 </div>
 
+### Sizes
+
+| Large <small>(64)</small>                                                                            | Default <small>(32)</small>                                                        | Small (24) |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----- |
+| <div class="text-center text-primary m-3"><div class="spinner-border spinner-border-lg"></div></div> | <div class="text-center text-primary m-3"><div class="spinner-border"></div></div> | <div class="text-center text-primary m-3"><div class="spinner-border spinner-border-sm"></div></div>      |
+{class="table table-sm table-bordered border border-opacity-50"}
+
 ### Colors
 
 <!-- prettier-ignore-start -->
@@ -39,7 +46,6 @@ tags: [styles]
 |           | Text (Optional) | {{< color-preview nameL="Gray 1" hexL="#CBCDD6" nameD="Gray Light" hexD="#f1f1f1" >}}           |
 {class="table table-sm table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->
-
 
 ### Behaviors
 
@@ -71,4 +77,3 @@ tags: [styles]
   color: #f1f1f1 !important;
 }
 </style>
-
