@@ -21,28 +21,26 @@ Both header and button container should be 64px in height.
     <div class="modal show d-block position-relative" tabindex="-1" style="z-index:1">
       <div class="modal-dialog show" style="max-width: 380px">
         <div class="modal-content">
-          <div class="modal-header anatomy-display-static" data-anatomy-colors="false" style="padding-top: 19px; padding-bottom: 19px; height: 64px !important; max-height: 64px !important;">
+          <div class="modal-header anatomy-display-static" data-anatomy-colors="false">
             <h4 class="modal-title">Modal header</h4>
             <button
               type="button"
               class="btn-close"
-              data-dismiss="modal"
               aria-label="Close">
             </button>
           </div>
           <div class="modal-body">
             Content Area
           </div>
-          <div class="modal-footer anatomy-display-static" data-anatomy-colors="false" style="height: 64px !important;">
+          <div class="modal-footer anatomy-display-static" data-anatomy-colors="false">
             <button
               type="button"
               class="btn btn-outline-secondary btn-outline-high-contrast justify-self-start"
-              data-dismiss="modal"
             >
-              Close
+              Cancel
             </button>
             <button type="button" class="btn btn-primary">
-              Save changes
+              Primary action
             </button>
           </div>
         </div>

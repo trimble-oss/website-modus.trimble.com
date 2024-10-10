@@ -18,6 +18,23 @@ tags: [usage]
 
 Progress indicators inform users about the status of ongoing processes, such as loading an app, submitting a form, or saving updates. They communicate an app’s state and indicate available actions, such as whether users can navigate away from the current screen. Progress indicators generally have negative connotations among users. Use them sparingly. Instead, focus on optimizing loading.
 
+<div class="guide-example-block mb-2 bg-secondary bg-opacity-10">
+  <div class="guide-sample p-4 p-md-5 mx-auto text-center">
+    <div class="progress progress-sm">
+      <div
+        id="progressExample"
+        class="progress-bar"
+        role="progressbar"
+        aria-label="example progress bar"
+        style="width: 25%;"
+        aria-valuenow="25"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      ></div>
+    </div>
+  </div>
+</div>
+
 ## Usage
 
 #### Use when
