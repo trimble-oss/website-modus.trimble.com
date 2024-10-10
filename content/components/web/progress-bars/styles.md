@@ -75,7 +75,28 @@ A smaller version is available with same specs as above except, Height: `8px`.
   </div>
 </div>
 
-A smaller version is available with same specs as above except, Height: `4px`.
+An extra small version is available with same specs as above except, Height: `4px`.
+
+### Indeterminate State
+
+<div class="guide-example-block mb-2">
+  <div class="guide-sample">
+    <div class="progress">
+      <div
+        id="progressIndeterminate"
+        class="progress-bar progress-bar-animated"
+        role="progressbar"
+        aria-label="example progress bar"
+        style="width: 75%;"
+        aria-valuenow="75"
+        aria-valuemin="0"
+        aria-valuemax="100"
+      ></div>
+    </div>
+  </div>
+</div>
+
+An animated indeterminate state can be used be if the current progress can not be determined.
 
 <style>
 .progress {
