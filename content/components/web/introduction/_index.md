@@ -10,6 +10,8 @@ weight: 1
 tags: [hide-styles, hide-usage, hide-accessibility, hidden]
 aliases:
   - "/components/web/overview/"
+bootstrapURL: "/docs/v2/"
+webComponentsURL: "https://modus-web-components.trimble.com/"
 ---
 
 <style>

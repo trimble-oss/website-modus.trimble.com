@@ -31,17 +31,48 @@ tags: [usage]
 
 Cards act as container or surface for displaying relevant grouped information. Cards can be used as a single entity or in lists or grids for browsing and are often interactive. Cards can contain a wide range of both static and interactive content. They should not be nested within other cards and cannot divide into multiple cards. The card container is the only required element in a card.
 
-<div class="card" style="width: 18rem;">
-  <div class="card-header">Card Header</div>
-  <div class="card-body">
-    <h4 class="card-title">Card Title</h4>
-    <h5 class="card-subtitle mb-2 text-muted">Card Subtitle</h5>
-    <p class="card-text">
-      Some quick example text to build on the card title and make up the
-      bulk of the card's content.
-    </p>
+<div class="guide-example-block bg-secondary bg-opacity-10 p-4">
+  <div class="row">
+    <div class="col-12 col-lg-6 mx-auto">
+      <div class="card m-3 ms-xl-5" style="width: 18rem">
+        <div class="card-header border-bottom-0">Card Header</div>
+        <div class="card-body">
+          <h4 class="card-title" style="font-weight: 700">Card Title</h4>
+          <h5 class="card-subtitle mb-2" style="font-weight: 700">
+            Card Subtitle
+          </h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+        <div class="card-footer border-top-0">Card Footer</div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 mx-auto">
+      <div class="card m-3" style="width: 18rem">
+        <div class="row g-0">
+          <div
+            class="col-4 rounded-start"
+            style="
+              background-image: url(https://developer.trimblemaps.com/maps-sdk/img/examples/basic-map-europe.png);
+            "
+          ></div>
+          <div class="col-8">
+            <div class="card-header border-bottom-0">Card Header</div>
+            <div class="card-body">
+              <h4 class="card-title" style="font-weight: 700">Card title</h4>
+              <p class="card-text">
+                This is a card with supporting text below as a natural lead-in
+                to additional content.
+              </p>
+            </div>
+            <div class="card-footer border-top-0">Card Footer</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="card-footer">Card Footer</div>
 </div>
 
 ## Usage
