@@ -58,7 +58,7 @@
     "postcss-cli": "11.0.0",
     "prettier": "3.3.3",
     "s3-deploy": "1.4.0",
-    "stylelint": "16.9.0",
+    "stylelint": "16.10.0",
     "stylelint-config-standard-scss": "13.1.0",
     "textlint": "14.2.1",
     "textlint-rule-common-misspellings": "1.0.1",
