@@ -22,7 +22,7 @@ A dialog or a modal is a window overlaid on the primary window. It interrupts th
 <div class="guide-example-block my-3 bg-secondary bg-opacity-10">
   <div class="guide-content-sample modal-static pb-4 px-2">
     <div class="modal show d-block position-relative" tabindex="-1" style="z-index:1">
-      <div class="modal-dialog show" style="max-width: 380px">
+      <div class="modal-dialog show shadow-lg" style="max-width: 380px">
         <div class="modal-content">
           <div class="modal-header">
             <h4 class="modal-title">Modal header</h4>
