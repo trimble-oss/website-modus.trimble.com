@@ -24,4 +24,4 @@ tags: [accessibility]
 - If a set of checkboxes is presented as a logical group with a visible label, the checkboxes are included in an element with role `group` that has the property `aria-labelledby` set to the ID of the element containing the label.
 - If the presentation includes additional descriptive static text relevant to a checkbox or checkbox group, the checkbox or checkbox group has the property `aria-describedby` set to the ID of the element containing the description.
 - Use `fieldset` to create a checkbox group.
-- When the checkbox has focus, pressing the "Space" key changes the state of the checkbox.
+- When the checkbox has focus, pressing the <kbd>Space</kbd> key changes the state of the checkbox.
