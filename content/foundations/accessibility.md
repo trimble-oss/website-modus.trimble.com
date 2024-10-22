@@ -88,7 +88,7 @@ article ul:not(:first-of-type) li {
 - {{< checklist >}}Navigations that are repeated on multiple web pages within a set of web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user{{</ checklist >}}
 - {{< checklist >}}Components that have the same functionality within a set of web pages are identified consistently (e.g. all links look the same, all error messages are red){{</ checklist >}}
 - {{< checklist >}}When additional content is presented on hover or keyboard focus:{{</ checklist >}}
-- {{< checklist >}}The newly revealed content can be dismissed (generally via the Esc key) without moving the pointer or keyboard focus, unless the content presents an input error or does not obscure or interfere with other page content.{{</ checklist >}}
+- {{< checklist >}}The newly revealed content can be dismissed (generally via the `Esc` key) without moving the pointer or keyboard focus, unless the content presents an input error or does not obscure or interfere with other page content.{{</ checklist >}}
 - {{< checklist >}}The pointer can be moved to the new content without the content disappearing.{{</ checklist >}}
 - {{< checklist >}}The new content must remain visible until the pointer or keyboard focus is moved away from the triggering control, the new content is dismissed, or the new content is no longer relevant.{{</ checklist >}}
 

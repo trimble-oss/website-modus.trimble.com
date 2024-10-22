@@ -16,4 +16,4 @@ tags: [in-field, accessibility]
 - When the menu is displayed, the element with role `button` has `aria-expanded` set to `true`. When the menu is hidden, it is recommended that `aria-expanded` is not present. If `aria-expanded` is specified when the menu is hidden, it is set to `false`.
 - The element that contains the menu items displayed by activating the button has role `menu`.
 - Optionally, the element with role `button` has a value specified for `aria-controls` that refers to the element with role `menu`.
-- With focus on the button, “Enter” or “Space” opens the menu and places focus on the first menu item. Up and down arrows move focus through menu items.
+- With focus on the button, “Enter” or <kbd>Space</kbd> opens the menu and places focus on the first menu item. Up and down arrows move focus through menu items.

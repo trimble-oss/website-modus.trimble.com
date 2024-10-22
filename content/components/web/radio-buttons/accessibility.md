@@ -21,4 +21,4 @@ hideToc: true
 - The `radiogroup` element has a visible label referenced by `aria-labelledby` or has a label specified with `aria-label`.
 - If elements providing additional information about either the radio group or each radio button are present, those elements are referenced by the `radiogroup` element or radio elements with the `aria-describedby` property.
 - Right and left arrow keys and up and down arrow keys move focus sequentially between radio button in the group. Once the focus comes to the first or last radio buttons in the group, it cycles again.
-- If the focused radio button is not selected, "Space" key deselects the currently selected radio button and selects the focused radio button. It the focused radio button is selected, pressing the "Space" key does nothing.
+- If the focused radio button is not selected, <kbd>Space</kbd> key deselects the currently selected radio button and selects the focused radio button. It the focused radio button is selected, pressing the <kbd>Space</kbd> key does nothing.
