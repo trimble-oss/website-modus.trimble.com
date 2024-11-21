@@ -9,4 +9,6 @@ hideFeedback: true
 disableScrollSpy: true
 layout: redirect
 redirect: https://modus.ideas.aha.io/
+sitemap:
+  disable: true
 ---

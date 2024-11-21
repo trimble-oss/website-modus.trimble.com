@@ -6,11 +6,13 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/wizard.png"
-tags: [styles]
 private: true
 hidden: true
 sitemap:
   - disable: true
+tags:
+  - search_exclude
+  - styles
 ---
 
 <style>
@@ -24,16 +26,35 @@ sitemap:
 ## Specifications
 
 <div class="w-75 mx-auto">
-<div class="position-relative m-4">
-  <div class="progress" role="progressbar" aria-label="Progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 1px;">
-    <div class="progress-bar w-50" style="width: 50%"></div>
+  <div class="position-relative m-4">
+    <div class="progress" role="progressbar" aria-label="Progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 1px">
+      <div class="progress-bar w-50" style="width: 33%"></div>
+    </div>
+    <button type="button" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill fw-bold" style="width: 2rem; height: 2rem">1</button>
+    <button
+      type="button"
+      class="position-absolute top-0 translate-middle btn btn-sm btn-outline-primary rounded-pill fw-bold"
+      style="width: 2rem; height: 2rem; background-color: #dcedf9; left: 33.3%;">
+      2
+    </button>
+    <button
+      type="button"
+      class="position-absolute top-0 translate-middle btn btn-sm btn-outline-secondary bg-body rounded-pill fw-bold"
+      style="width: 2rem; height: 2rem; left: 66.6%;">
+      3
+    </button>
+    <button
+      type="button"
+      class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-outline-secondary bg-body rounded-pill fw-bold"
+      style="width: 2rem; height: 2rem">
+      4
+    </button>
   </div>
-  <button type="button" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill fw-bold" style="width: 2rem; height:2rem;">1</button>
-  <button type="button" class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-outline-primary rounded-pill fw-bold" style="width: 2rem; height:2rem;background-color:#dcedf9">2</button>
-  <button type="button" class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-outline-secondary bg-body rounded-pill fw-bold" style="width: 2rem; height:2rem;">3</button>
-</div>
 <div class="d-flex justify-content-between">
 <div class="ms-2">
+Label
+</div>
+<div class="">
 Label
 </div>
 <div class="">
@@ -45,13 +66,24 @@ Label
 </div>
 </div>
 
-## Anatomy & Structure
+<!-- ## Anatomy & Structure -->
+
+<img src="/img/components/wizard-anatomy.svg" class="img-fluid w-100">
 
 ## Orientation & Layout
 
 - Wizards are available in two orientations: Vertical & Horizontal
 - Use **Horizontal orientation** for a process **less than 5 steps**
 - Use **Vertical orientation** for a process **of 3 steps and above (Limit is 9 steps)**
+
+<div class="row">
+<div class="col-12 col-lg-6">
+<img src="/img/components/wizard-horizontal.svg" class="border rounded img-fluid">
+</div>
+<div class="col-12 col-lg-6">
+<img src="/img/components/wizard-vertical.svg" class="border rounded img-fluid">
+</div>
+</div>
 
 ## Indicators & Labels
 
@@ -100,31 +132,68 @@ Use bottom labels with horizontal layout
 <div class="w-75 mx-auto mb-3">
   <div class="position-relative m-4">
     <div class="progress" role="progressbar" aria-label="Progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 1px">
-      <div class="progress-bar w-50" style="width: 50%"></div>
+      <div class="progress-bar w-50" style="width: 33%"></div>
     </div>
     <button type="button" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill fw-bold" style="width: 2rem; height: 2rem">1</button>
     <button
       type="button"
-      class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-outline-primary rounded-pill fw-bold"
-      style="width: 2rem; height: 2rem; background-color: #dcedf9">
+      class="position-absolute top-0 translate-middle btn btn-sm btn-outline-primary rounded-pill fw-bold"
+      style="width: 2rem; height: 2rem; background-color: #dcedf9; left: 33.3%;">
       2
+    </button>
+    <button
+      type="button"
+      class="position-absolute top-0 translate-middle btn btn-sm btn-outline-secondary bg-body rounded-pill fw-bold"
+      style="width: 2rem; height: 2rem; left: 66.6%;">
+      3
     </button>
     <button
       type="button"
       class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-outline-secondary bg-body rounded-pill fw-bold"
       style="width: 2rem; height: 2rem">
-      3
+      4
     </button>
   </div>
   <div class="d-flex justify-content-between">
     <div class="ms-2">Label</div>
     <div class="">Label</div>
+    <div class="">Label</div>
     <div class="me-2">Label</div>
   </div>
 </div>
 
-
 ### Inline Labels
+
+Use inline labels with vertical layouts
+
+<div class="mb-3">
+  <div class="d-flex flex-column m-4">
+  <div>
+    <button type="button" class="top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill fw-bold" style="width: 2rem; height: 2rem">1</button>
+    <div class="ms-4 position-absolute" style="margin-top:-42px">Label</div>
+  </div>
+  <div class="vr" style="height:64px; margin-top:-22px"></div>
+  <div>
+    <button
+      type="button"
+      class="top-0 start-50 translate-middle btn btn-sm btn-outline-primary rounded-pill fw-bold"
+      style="width: 2rem; height: 2rem; background-color: #dcedf9">
+      2
+    </button>
+    <div class="ms-4 position-absolute" style="margin-top:-42px">Label</div>
+    </div>
+     <div class="vr" style="height:64px; margin-top:-22px"></div>
+    <div>
+    <button
+      type="button"
+      class="top-0 start-100 translate-middle btn btn-sm btn-outline-secondary bg-body rounded-pill fw-bold"
+      style="width: 2rem; height: 2rem">
+      3
+    </button>
+    <div class="ms-4 position-absolute" style="margin-top:-42px">Label</div>
+  </div>
+  </div>
+</div>
 
 ## Footer
 
