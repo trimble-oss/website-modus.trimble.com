@@ -5,12 +5,14 @@ description: "A step-by-step process that guides users through a series of tasks
 components: true
 componentsWeb: true
 component: wizard
-tags: [accessibility]
 hideToc: true
 private: true
 hidden: true
 sitemap:
   - disable: true
+tags:
+  - accessibility
+  - search_exclude
 ---
 
 ## Accessibility

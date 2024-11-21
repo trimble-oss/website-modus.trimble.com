@@ -6,11 +6,13 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/wizard.png"
-tags: [usage]
 private: true
 hidden: true
 sitemap:
   - disable: true
+tags:
+  - search_exclude
+  - usage
 ---
 
 ## Overview
@@ -22,6 +24,8 @@ Wizards usually involve multiple pages and can be displayed on web pages or moda
 Common examples of Wizard components include account setup processes, software installation wizards, and multi-step forms for tasks like online shopping or booking appointments.
 
 ## Usage
+
+### When to use
 
 - **Long or complex processes**: If a process involves multiple steps (**two or more**) or requires users to provide a significant amount of information, breaking it down into smaller, manageable steps with a Wizard can improve usability and reduce cognitive overload.
 - **Guided workflows**: When you want to guide users through a predefined workflow or decision-making process, a Wizard can help ensure they follow the correct sequence of steps.
