@@ -20,44 +20,36 @@ Thank you for your interest in joining a Tiger Team! A Tiger Team is "a speciali
 {class="table table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
-## Active
-
-<!-- prettier-ignore-start -->
-| Team Name                                   | Team Members               | Start Date  |
-| ------------------------------------------- | -------------------------- | ----------- |
-| Wizards                | **s. Farhat**, E. Ball-Babois, C. Cueller, C. Rodrigues  | 02/15/2024 |
-| User Profile Dropdown Menu                  | **N. Cadsawan**, G. Assi, A. Chandroo, J. Dong, A. Galstyan, K. Phillips  | 07/17/2023 |
-| Advanced Table Features                     | **M. Brinkman**, B. Brunner, N. Cadsawan, (M. Casale), C. Cuellar, (S. Farhat), A. Infante, W. Mezo-Gadia, K. Nguyen, J. Parr, C. Rodriguez, Krithika S, Z. Ward | 05/18/2023 |
-| Animations & Microinteractions 2.0          | **W. Mezo-Gadia**, J. Blackwell, S. Farhad, M. Manders, T. Manham, Z. Ward, D. Zambrano | 05/18/2023 |
-{class="table table-bordered border border-opacity-50"}
-<!-- prettier-ignore-end -->
-
 ## Completed
 
 <!-- prettier-ignore-start -->
-| Team Name                      | Team Members               | Status  |
-| ------------------------------ | -------------------------- | ----------- |
+| Team Name                                   | Team Members               | Status      |
+| ------------------------------------------- | -------------------------- | ----------- |
+| Wizards                                     | **s. Farhat**, E. Ball-Babois, C. Cueller, C. Rodrigues  | Complete |
+| User Profile Dropdown Menu                  | **N. Cadsawan**, G. Assi, A. Chandroo, J. Dong, A. Galstyan, K. Phillips  | Complete |
+| Advanced Table Features                     | **M. Brinkman**, B. Brunner, N. Cadsawan, (M. Casale), C. Cuellar, (S. Farhat), A. Infante, W. Mezo-Gadia, K. Nguyen, J. Parr, C. Rodriguez, Krithika S, Z. Ward | Complete |
+| Animations & Microinteractions 2.0          | **W. Mezo-Gadia**, J. Blackwell, S. Farhad, M. Manders, T. Manham, Z. Ward, D. Zambrano | Complete |
 | Skeletons, Placeholders & Empty States      | **R. Stillwell**, J. de Wit, S. Farhat, I. Hong, M. Lee, M. Nawaz, C. Swilley  | In Production |
 | Alerts, Messages, Notifications, and Toasts | **A. Chandroo**, J. Blackwell, E. Gunther, M. Johns, M. Manders, T. Ortiz, V. Sridharan, Priyanka V R | In Production |
 | Accordions, Cards, Modals, and Tabs         | **Z. Ward**, **K. Ponpandian**, J. de Wit, A. Galstyan, E. Gunther, S. Kumar, T. Priya, M. Randrianavony, Krithika S., C. Shaw, Vimal A.V.  | In Production |
-| Layout Tiger Team              | **C. Cuellar**, N. Cadsawan, R. Henness, Q. Le, T. Manham, M. Nawaz, C. Oliff, Purushothaman G.   | In Production |
-| Desktop Patterns               | **J. Kerbs**, A. Bikic, P. Borgstein, K. Davies, L. Kause, C. Krieg, T. Sippola | In Production |
-| Microinteractions & Animations | **T. Manham**, B. Choy, S. Farhat, J. Jyan, S. Kaukonen, W. Mezo-Gadia, T. Ortiz, D. Zambrano, (L. Galle, C. Oliff)  | In Production |
-| Side Panel                     | **J. de Wit**, C. Cuellar, A. Galstyan, D. Silcock  | Complete |
-| Accessibility                  | **C. Koga**, D. Bedick, A. Chammoth-Sivaraman, A. Chandroo, K. Davies, S. Farhad, J. Gray, G. Jagadeesan, S. Kaukonen, B. Kobloth, F. Kuipers, **F. Lira**, B. Mergener, **C. Oliff**, S. Paasch, I. Perez, A. Rodriguez, C. Rodriguez, H. Sunny  | Complete |
-| Help Menu Navigation           | **C. Christison**, D. Bedick, A. Chammoth Sivaraman, M. Cowley, C. Cuellar, F. Kuipers, A. Galstyan, T. Hautalahti, M. Linja-aho, R. Pekkinen, C. Starbird, T. Stryker, K. Vander Ploeg, J. Wegerer | Complete |
-| Icon Revision & Review         | **E. Gunther**, G. Assi, S. Kaukonen, J. Kerbs, T. Manham, T. Ortiz, S. Reda, L. Saenz  | Complete |
-| 3D Design Patterns             | **P. Borgstein**, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, A. Komninos, J. Oczkowski, E. Pilke, S. Sidhu, D. Silcock, T. Sippola, K. Thurlow | Complete |
-| Mobile&nbsp;Patterns           | **D. Bedick**, E. Bohn, N. Cadsawan, E. Gunther, I. Perez, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell | Complete |
-| Side Navigation                | **J. Wittmeyer**, N. Cadsawan, E. Deleon, E. Gunther, P. Karukkuvel, T. Manham, L. Meskanen-Kundu, C. D. Savio Lazaro, S. Taylor, A. Tucker, J. de Wit  | Complete |
-| Dark Mode                      | **S. Kaukonen**, P. Borgstein, E. Gunther, M. Johns, U. Meza, K. Phillips, A. C. Sivaraman, T. Williams, J. de Wit  | Complete  |
-| Icon Implementation            | **S. Kaukonen**, E. Deleon, E. Gunther, C. Krieg, T. Manham, S. Ortiz, A. Shchegoleva, N. Vasudevan | Complete |
-| Tables                         | **G. Leuhof**, D. Donnell, H. Keller, S. Lucey, T. Manham, T. Ortiz, G. Piltzer, K. Tran, Z. Tran Do, S. Williams  | Complete |
-| Header/ Top Nav                | **S. Williams**, N. Cadsawan, C. Christison, J. Dong, E. Gunther, S. Taylor, K. Tran | Complete |
-| Email Templates                | **Z. Kulpa**, T. Barnard, J. Dong, T. Saunders | Complete |
-| Data Visualization             | **E. Nowak**, T. Barnard, E. Bohn, C. Willis | Complete |
-| Icon Definitions               | **S. Kaukonen**, S. Bali, M. Heighway, T. Manham, E. Nowak | Complete |
-| Typography                     | **L. Cook**, E. Bohn, A. Eidam, E. Gunther, M. Heighway, G.Leuhof, N. Springer | Complete |
+| Layout Tiger Team                           | **C. Cuellar**, N. Cadsawan, R. Henness, Q. Le, T. Manham, M. Nawaz, C. Oliff, Purushothaman G.   | In Production |
+| Desktop Patterns                            | **J. Kerbs**, A. Bikic, P. Borgstein, K. Davies, L. Kause, C. Krieg, T. Sippola | In Production |
+| Microinteractions & Animations              | **T. Manham**, B. Choy, S. Farhat, J. Jyan, S. Kaukonen, W. Mezo-Gadia, T. Ortiz, D. Zambrano, (L. Galle, C. Oliff)  | In Production |
+| Side Panel                                  | **J. de Wit**, C. Cuellar, A. Galstyan, D. Silcock  | Complete |
+| Accessibility                               | **C. Koga**, D. Bedick, A. Chammoth-Sivaraman, A. Chandroo, K. Davies, S. Farhad, J. Gray, G. Jagadeesan, S. Kaukonen, B. Kobloth, F. Kuipers, **F. Lira**, B. Mergener, **C. Oliff**, S. Paasch, I. Perez, A. Rodriguez, C. Rodriguez, H. Sunny  | Complete |
+| Help Menu Navigation                        | **C. Christison**, D. Bedick, A. Chammoth Sivaraman, M. Cowley, C. Cuellar, F. Kuipers, A. Galstyan, T. Hautalahti, M. Linja-aho, R. Pekkinen, C. Starbird, T. Stryker, K. Vander Ploeg, J. Wegerer | Complete |
+| Icon Revision & Review                      | **E. Gunther**, G. Assi, S. Kaukonen, J. Kerbs, T. Manham, T. Ortiz, S. Reda, L. Saenz  | Complete |
+| 3D Design Patterns                          | **P. Borgstein**, D. Bedick, D. Donnell, F. Keks, T. Kluyskens, A. Komninos, J. Oczkowski, E. Pilke, S. Sidhu, D. Silcock, T. Sippola, K. Thurlow | Complete |
+| Mobile&nbsp;Patterns                        | **D. Bedick**, E. Bohn, N. Cadsawan, E. Gunther, I. Perez, J. A. Provin Silva, L. Saenz, C. Starbird, R. Stillwell | Complete |
+| Side Navigation                             | **J. Wittmeyer**, N. Cadsawan, E. Deleon, E. Gunther, P. Karukkuvel, T. Manham, L. Meskanen-Kundu, C. D. Savio Lazaro, S. Taylor, A. Tucker, J. de Wit  | Complete |
+| Dark Mode                                   | **S. Kaukonen**, P. Borgstein, E. Gunther, M. Johns, U. Meza, K. Phillips, A. C. Sivaraman, T. Williams, J. de Wit  | Complete  |
+| Icon Implementation                         | **S. Kaukonen**, E. Deleon, E. Gunther, C. Krieg, T. Manham, S. Ortiz, A. Shchegoleva, N. Vasudevan | Complete |
+| Tables                                      | **G. Leuhof**, D. Donnell, H. Keller, S. Lucey, T. Manham, T. Ortiz, G. Piltzer, K. Tran, Z. Tran Do, S. Williams  | Complete |
+| Header/ Top Nav                             | **S. Williams**, N. Cadsawan, C. Christison, J. Dong, E. Gunther, S. Taylor, K. Tran | Complete |
+| Email Templates                             | **Z. Kulpa**, T. Barnard, J. Dong, T. Saunders | Complete |
+| Data Visualization                          | **E. Nowak**, T. Barnard, E. Bohn, C. Willis | Complete |
+| Icon Definitions                            | **S. Kaukonen**, S. Bali, M. Heighway, T. Manham, E. Nowak | Complete |
+| Typography                                  | **L. Cook**, E. Bohn, A. Eidam, E. Gunther, M. Heighway, G.Leuhof, N. Springer | Complete |
 {class="table table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->
 

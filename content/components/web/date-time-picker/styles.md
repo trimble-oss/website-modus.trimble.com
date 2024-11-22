@@ -35,7 +35,7 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inpu
 
 </div>
 
-{{< img src="/img/components/date-picker-button-states.svg" dark="/img/components/date-picker-button-states-dark.png" width="1009" class="w-100" alt="Date selection" >}}
+{{< img src="/img/components/date-picker-button-states.svg" width="1009" class="w-100" alt="Date selection" >}}
 
 {{< img src="/img/components/date-picker-changing-month-year.svg" dark="/img/components/date-picker-changing-month-year-dark.svg" width="300" class="text-center mx-auto" alt="Changing month or year" >}}
 
