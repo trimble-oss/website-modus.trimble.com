@@ -37,7 +37,7 @@
     "pa11y": "npx pa11y build/index.html",
     "pa11y-ci": "npx pa11y-ci --sitemap https://modus.trimble.com/sitemap.xml",
     "prettier": "prettier --write \"assets/**/*.*s\"",
-    "serve": "hugo serve --port 4000 --disableFastRender --navigateToChanged",
+    "serve": "hugo serve -o --port 4000 --disableFastRender --navigateToChanged",
     "serve-drafts": "hugo serve --port 4000 --disableFastRender --navigateToChanged --buildDrafts",
     "svgo": "npx svgo --folder=\"static/img/icons\"",
     "test": "npm-run-all build prettier lint-html lint-markdown lint-textlint"

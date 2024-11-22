@@ -31,9 +31,13 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inpu
 - Close the calendar view when a date is selected, when tabbing to the next field, or when a user clicks anywhere outside of the calendar view.
 - Hovering over (or tabbing into) month and year in the header of the calendar displays up and down arrows allowing for navigation to another year. Left and right arrows change the month.
 
-{{< img src="/img/components/date-picker-button-states.png" dark="/img/components/date-picker-button-states-dark.png" width="1009" height="124" alt="Date selection" >}}
+<div>
 
-{{< img src="/img/components/date-picker-changing-month-year.svg" dark="/img/components/date-picker-changing-month-year-dark.svg" width="854" height="535" alt="Changing month or year" >}}
+</div>
+
+{{< img src="/img/components/date-picker-button-states.svg" dark="/img/components/date-picker-button-states-dark.png" width="1009" class="w-100" alt="Date selection" >}}
+
+{{< img src="/img/components/date-picker-changing-month-year.svg" dark="/img/components/date-picker-changing-month-year-dark.svg" width="300" class="text-center mx-auto" alt="Changing month or year" >}}
 
 #### Date Range Picker
 
