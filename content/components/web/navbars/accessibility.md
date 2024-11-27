@@ -4,8 +4,7 @@ layout: "single"
 description: "The navbar provides context through globally accessible menu options."
 components: true
 componentsWeb: true
-bootstrapURL: "/components/navbars/"
-reactBootstrapURL: "/components/navbar/"
+BootstrapURL: "/docs/v2/components/navbars/"
 webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-navbar--default
 images:
   - "/img/components/headers/navbar.png"

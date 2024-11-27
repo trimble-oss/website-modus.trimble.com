@@ -14,7 +14,10 @@
   "license": "private",
   "author": "Trimble",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
+  },
+  "volta": {
+    "node": "20.18.1"
   },
   "scripts": {
     "start": "npm run serve",
@@ -34,32 +37,32 @@
     "pa11y": "npx pa11y build/index.html",
     "pa11y-ci": "npx pa11y-ci --sitemap https://modus.trimble.com/sitemap.xml",
     "prettier": "prettier --write \"assets/**/*.*s\"",
-    "serve": "hugo serve --port 4000 --disableFastRender --navigateToChanged",
-    "serve-drafts": "hugo serve --port 4000 --disableFastRender --navigateToChanged --buildDrafts",
+    "serve": "npx hugo server -O --port 4000 --disableFastRender --navigateToChanged",
+    "serve-drafts": "hugo server --port 4000 --disableFastRender --navigateToChanged --buildDrafts",
     "svgo": "npx svgo --folder=\"static/img/icons\"",
     "test": "npm-run-all build prettier lint-html lint-markdown lint-textlint"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "6.0.0",
-    "@trimble-oss/modus-bootstrap": "2.0.0-alpha24",
-    "@trimble-oss/modus-icons": "1.14.0",
-    "autoprefixer": "10.4.19",
+    "@trimble-oss/modus-bootstrap": "2.0.7",
+    "@trimble-oss/modus-icons": "1.15.0",
+    "autoprefixer": "10.4.20",
     "bootstrap-print-css": "1.0.1",
     "cross-env": "7.0.3",
     "htmlhint": "1.1.4",
-    "hugo-bin": "0.123.1",
+    "hugo-bin": "0.136.2",
     "list.js": "2.3.1",
     "npm-run-all": "4.1.5",
-    "popover-css-inspector": "1.0.0-beta14",
-    "postcss": "8.4.38",
+    "popover-css-inspector": "1.0.0-beta15",
+    "postcss": "8.4.49",
     "postcss-cli": "11.0.0",
-    "prettier": "3.2.5",
+    "prettier": "3.4.1",
     "s3-deploy": "1.4.0",
-    "stylelint": "16.5.0",
+    "stylelint": "16.10.0",
     "stylelint-config-standard-scss": "13.1.0",
-    "textlint": "14.0.4",
+    "textlint": "14.3.0",
     "textlint-rule-common-misspellings": "1.0.1",
-    "textlint-rule-terminology": "5.0.0"
+    "textlint-rule-terminology": "5.2.12"
   },
   "hugo-bin": {
     "buildTags": "extended"

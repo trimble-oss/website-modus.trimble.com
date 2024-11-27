@@ -19,6 +19,6 @@ tags: [in-field, accessibility]
 - If the accordion panel associated with an accordion header is visible, the header `button` element has `aria-expanded` set to `true`. If the panel is not visible, `aria-expanded` is set to `false`.
 - The accordion header `button` element has `aria-controls` set to the ID of the element containing the accordion panel content.
 - If the accordion panel associated with an accordion header is visible, and if the accordion does not permit the panel to be collapsed, the header `button` element has `aria-disabled` set to `true`.
-- "Enter" or "Space" key should expand and collapse headers. "Tab" key moves focus to the next focusable element; all focusable elements in the accordion should be included in the page tab sequence. "Shift" + "Tab" moves focus to the previous focusable element.
+- <kbd>Enter</kbd> or <kbd>Space</kbd> key should expand and collapse headers. "Tab" key moves focus to the next focusable element; all focusable elements in the accordion should be included in the page tab sequence. "Shift" + "Tab" moves focus to the previous focusable element.
 - Avoid keyboard traps when adding components to the accordion panel. For example, the user expands an accordion, but is unable to tab to the next focusable element.
 - Although the accordion element passes accessibility testing, content authors need to ensure the content that is added to the accordion is accessible. For example, if you add an image to the accordion header or panel you need to include alternative text to pass accessibility testing.

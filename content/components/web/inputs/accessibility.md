@@ -7,8 +7,7 @@ componentsWeb: true
 images:
   - "/img/components/headers/inputs.png"
 component: inputs
-bootstrapURL: "/components/inputs/"
-reactBootstrapURL: "/components/inputs/"
+BootstrapURL: "/docs/v2/components/inputs/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/user-inputs-text-input--default"
 keywords: forms, form
 tags: [accessibility]

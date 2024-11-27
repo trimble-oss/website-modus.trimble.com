@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/badges.png"
-bootstrapURL: "/components/badges/"
-reactBootstrapURL: "/components/badges/"
+bootstrapURL: "/docs/v2/components/badge/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-badge--default"
 aliases:
   - "/components/badges/"
@@ -43,7 +42,7 @@ Used when more emphasis is needed. **Default badges can look like [Buttons](/com
   <div class="guide-sample">
     <span class="badge bg-primary">Primary</span>
     <span class="badge bg-secondary">Secondary</span>
-    <span class="badge bg-tertiary">Tertiary</span>
+    <span class="badge text-bg-tertiary">Tertiary</span>
     <span class="badge bg-high-contrast">High Contrast</span>
     <span class="badge bg-success">Success</span>
     <span class="badge text-bg-warning">Warning</span>
@@ -73,7 +72,7 @@ Used to display up to 3 characters (usually a number in a counter). Counter badg
     <div>
       <span class="badge badge-pill bg-primary">1</span>
       <span class="badge badge-pill bg-secondary">2</span>
-      <span class="badge badge-pill bg-tertiary">3</span>
+      <span class="badge badge-pill text-bg-tertiary">3</span>
       <span class="badge badge-pill bg-high-contrast">4</span>
       <span class="badge badge-pill bg-success">5</span>
       <span class="badge badge-pill text-bg-warning">6</span>

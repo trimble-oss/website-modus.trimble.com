@@ -6,8 +6,7 @@ images:
   - "/img/components/headers/navbar.png"
 components: true
 componentsWeb: true
-bootstrapURL: "/components/navbars/"
-reactBootstrapURL: "/components/navbar/"
+BootstrapURL: "/docs/v2/components/navbars/"
 webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/components-navbar--default
 aliases:
   - "/components/navbar/"
@@ -25,7 +24,7 @@ The navbar or the app header provides context through globally accessible menu o
     <svg class="" width="28" height="28" fill="currentColor">
       <use xlink:href="/modus-solid-icons.svg#menu" /></svg>
   </button>
-  <a href="#navbar-example" class="navbar-brand mr-auto ms-2">
+  <a href="#navbar-example" class="navbar-brand ms-2">
     <img src="/img/trimble-logo.svg" width="107" height="25" class="img-fluid d-none d-sm-block" alt="home">
     <img src="/img/trimble-icon.svg" class="d-block d-sm-none" height="25" width="25" alt="home">
   </a>
@@ -61,19 +60,19 @@ The navbar or the app header provides context through globally accessible menu o
   <ul class="dropdown-menu">
     <li class="bg-tranparent">
       <a class="dropdown-item" href="#">
-        <button type="button" class="btn bg-transparent pl-0 border-0">
+        <button type="button" class="btn bg-transparent border-0">
           Notifications
         </button>
       </a>
     <li>
       <a class="dropdown-item" href="#">
-        <button type="button" class="btn bg-transparent pl-0 border-0">
+        <button type="button" class="btn bg-transparent border-0">
           Help
         </button>
       </a>
     <li>
       <a class="dropdown-item" href="#">
-        <button type="button" class="btn bg-transparent pl-0 border-0">
+        <button type="button" class="btn bg-transparent border-0">
           Applications
         </button>
         </a>

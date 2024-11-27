@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/tooltips.png"
-bootstrapURL: "/components/tooltips/"
-reactBootstrapURL: "/components/tooltips/"
+bootstrapURL: "/docs/v2/components/tooltips/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-tooltip--default"
 tags: [styles]
 ---
@@ -18,6 +17,7 @@ tags: [styles]
 - Top and bottom pointers can be positioned (in addition to center) from left or right. The pointer is then placed relatively 16px from the edge of the tooltip. Non-centered pointer is used, for example, when a tooltip points to a control placed at the edge of the screen.
 - The container of the tooltip text may be aligned to start, center or end.
 - Do not make the tooltip larger than the element it appears from.
+- Tooltips should have a 350ms before appearing.
 
 <img src="/img/components/tooltips-positions.svg" class="img-fluid" width="800" height="300" alt="Tooltip positions"/>
 <style>
@@ -25,6 +25,16 @@ tags: [styles]
  content: url(/img/components/tooltips-positions-dark.svg);
 }
 </style>
+
+### Colors
+
+<!-- prettier-ignore-start -->
+| Element | Property   | Color                                                                                  |
+| ------- | ---------- | -------------------------------------------------------------------------------------- |
+| Tooltip | Text       | {{< color-preview nameL="White" hexL="#ffffff" nameD="Trimble Gray" hexD="#252a2e" >}} |
+|         | Background | {{< color-preview nameL="Gray 7" hexL="#585c65" nameD="Gray 0" hexD="#e0e1e9" >}}      |
+{class="table table-sm table-bordered border border-opacity-50"}
+<!-- prettier-ignore-end -->
 
 ### Behaviors
 
@@ -40,12 +50,4 @@ tags: [styles]
 - Use sentence case for tooltips.
 - Never add a link to text in a tooltip.
 
-### Colors
 
-<!-- prettier-ignore-start -->
-| Element | Property   | Color                                                                                  |
-| ------- | ---------- | -------------------------------------------------------------------------------------- |
-| Tooltip | Text       | {{< color-preview nameL="White" hexL="#ffffff" nameD="Trimble Gray" hexD="#252a2e" >}} |
-|         | Background | {{< color-preview nameL="Gray 7" hexL="#585c65" nameD="Gray 0" hexD="#e0e1e9" >}}      |
-{class="table table-sm table-bordered border border-opacity-50"}
-<!-- prettier-ignore-end -->

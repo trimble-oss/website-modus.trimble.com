@@ -7,8 +7,7 @@ componentsWeb: true
 images:
   - "/img/components/headers/sliders.png"
 keywords: forms, form, range
-bootstrapURL: "/components/sliders/"
-reactBootstrapURL: "/components/sliders/"
+bootstrapURL: "/docs/v2/forms/range/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-slider--default"
 aliases:
   - "/components/sliders/"

@@ -10,6 +10,8 @@ weight: 1
 tags: [hide-styles, hide-usage, hide-accessibility, hidden]
 aliases:
   - "/components/web/overview/"
+bootstrapURL: "/docs/v2/"
+webComponentsURL: "https://modus-web-components.trimble.com/"
 ---
 
 <style>
@@ -32,15 +34,14 @@ Use these patterns if your application runs in a browser on a desktop computer, 
 
 ## Modus Web UI Kits
 
-Modus Web UI Kits are available for [Figma](/figma/) and [Adobe XD](/adobe-xd/) for designers.
+Modus Web UI Kits are available for [Figma](/figma/) for designers.
 
 ## Supported Frameworks
 
-Web patterns and components are currently available in three frameworks:
+Web patterns and components are currently available in two frameworks:
 
-- [Bootstrap](https://modus-bootstrap.trimble.com)
-- [React Bootstrap](https://modus-react-bootstrap.trimble.com)
-- [Web Components](https://modus-web-components.trimble.com/?path=/story/introduction-welcome--page)
+- [Modus Bootstrap](https://modus-bootstrap.trimble.com)
+- [Modus Web Components](https://modus-web-components.trimble.com/?path=/story/introduction-welcome--page)
 
 You may also find links to relevant implementations on the right nav within each component.
 

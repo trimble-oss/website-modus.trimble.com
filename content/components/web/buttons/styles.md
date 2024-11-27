@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/buttons.png"
-bootstrapURL: "/components/buttons/"
-reactBootstrapURL: "/components/buttons/"
+bootstrapURL: "/docs/v2/components/buttons/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-button--default"
 tags: [styles]
 disableAnatomy: true
@@ -255,35 +254,69 @@ A critical action button has an additional “loading” state when the hover co
 #### Danger Button States
 
 <table class="table table-bordered" style="width: max-content">
-      <thead class="thead-light">
-        <tr>
-          <th>State</th>
-          <th>Danger</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Default</th>
-          <td>
-            <button class="btn btn-danger" type="button">Button</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">Hover</th>
-          <td><button class="btn hover btn-danger" type="button">Button</button></td>
-        </tr>
-        <tr>
-          <th scope="row">Active</th>
-          <td>
-            <button class="btn display-active btn-danger" type="button">Button</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">Disabled</th>
-          <td><button disabled class="btn btn-danger" type="button">Button</button></td>
-        </tr>
-      </tbody>
+  <thead class="thead-light">
+    <tr>
+      <th>State</th>
+      <th>Danger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Default</th>
+      <td>
+        <button class="btn btn-danger pe-none" type="button">Button</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Hover</th>
+      <td><button class="btn hover btn-danger pe-none" type="button">Button</button></td>
+    </tr>
+    <tr>
+      <th scope="row">Active</th>
+      <td>
+        <button class="btn display-active btn-danger pe-none" type="button">Button</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Disabled</th>
+      <td><button disabled class="btn btn-danger pe-none" type="button">Button</button></td>
+    </tr>
+  </tbody>
 </table>
+
+#### Special Button
+
+<table class="table table-bordered" style="width: max-content">
+  <thead class="thead-light">
+    <tr>
+      <th>State</th>
+      <th>Danger</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Default</th>
+      <td>
+        <button class="btn btn-warning pe-none" type="button">Button</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Hover</th>
+      <td><button class="btn hover btn-warning pe-none" type="button">Button</button></td>
+    </tr>
+    <tr>
+      <th scope="row">Active</th>
+      <td>
+        <button class="btn display-active btn-warning pe-none" type="button">Button</button>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">Disabled</th>
+      <td><button disabled class="btn btn-warning pe-none" type="button">Button</button></td>
+    </tr>
+  </tbody>
+</table>
+
 
 #### Critical Action Button States
 
@@ -471,6 +504,15 @@ There are three types of icon-only buttons:
 <small>\* Secondary icon buttons are recommended as default option.</small>
 
 Icon button state colors may vary based on product. Always make sure the colors of all states (except for disabled) meet [color contrast accessibility standards](/foundations/accessibility/).
+
+#### Disabled Buttons
+
+**The use of disabled buttons is highly discouraged.** There are a few acceptable uses:
+
+- When an option is unavailable, such as an item or product.
+- The button has been clicked, and the system is processing the initial request. The button can be disabled to prevent the user from trying to submit a duplicate request and hitting the server multiple times.
+- When a user is editing a form, but the application has not detected any changes made by the user.
+
 
 ### Editorial
 

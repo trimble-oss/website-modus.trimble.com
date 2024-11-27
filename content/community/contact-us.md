@@ -6,6 +6,8 @@ url: "/community/contact-us/"
 group: community
 aliases:
   - "/community/contact/"
+sitemap:
+  disable: true
 ---
 
 <nav>

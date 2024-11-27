@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 component: switches
 keywords: forms, form
-bootstrapURL: "/components/switches/"
-reactBootstrapURL: "/components/switches/"
+bootstrapURL: "/docs/v2/forms/checks-radios/#switches"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/user-inputs-switch--default"
 tags: [accessibility]
 ---
@@ -20,5 +19,5 @@ tags: [accessibility]
   - A visible label referenced by the value of `aria-labelledby` set on the element with role `switch`.
   - `aria-label` set on the element with role `switch`.
 - When on, the switch element has state `aria-checked` set to `true`. When off, it has state `aria-checked` set to `false`.
-- When the switch is in focus, pressing the "Space" key changes the state of the switch.
+- When the switch is in focus, pressing the <kbd>Space</kbd> key changes the state of the switch.
 - Use a `fieldset` to create a switch group.

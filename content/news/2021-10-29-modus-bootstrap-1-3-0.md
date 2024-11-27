@@ -34,36 +34,36 @@ This will result in the 'Open Sans' font loading and displaying faster.
 A new blue navbar variant is now available.
 
 <nav class="navbar navbar-blue nav navbar-expand-sm modus-header py-1 mb-3">
-  <button class="btn btn-lg btn-icon-only btn-text-dark" id="menuButton" data-modus-item="menu-btn" href="#overview" data-toggle="#">
+  <button class="btn btn-lg btn-icon-only btn-text-dark" id="menuButton" data-modus-item="menu-btn" href="#overview" data-bs-toggle="#">
     <i class="modus-icons notranslate text-white" aria-hidden="true">menu</i>
   </button>
-  <a href="#navbar-example" class="navbar-brand mr-auto ml-2">
+  <a href="#navbar-example" class="navbar-brand me-auto">
     <img src="https://modus-bootstrap.trimble.com/img/trimble-logo-rev.svg" width="107" height="25" class="img-fluid d-none d-sm-block" alt="home">
     <img src="https://modus-bootstrap.trimble.com/img/trimble-icon-rev.svg" class="d-block d-sm-none" height="25" width="25" alt="home">
   </a>
   <div class="collapse navbar-collapse">
-    <div class="navbar-nav ml-auto">
-      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
-         data-placement="bottom" title="Notifications">
+    <div class="navbar-nav ms-auto">
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark me-2" data-bs-toggle="tooltip"
+         data-bs-placement="bottom" title="Notifications">
         <i class="modus-icons notranslate text-white" aria-hidden="true">notifications</i>
       </button>
-      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
-         data-placement="bottom" title="Help">
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark me-2" data-bs-toggle="tooltip"
+         data-bs-placement="bottom" title="Help">
         <i class="modus-icons notranslate text-white" aria-hidden="true">help</i>
       </button>
-      <button class="btn btn-lg btn-icon-only btn-text-dark ml-2" data-toggle="tooltip"
-         data-placement="bottom" title="Applications">
+      <button type="button" class="btn btn-lg btn-icon-only btn-text-dark me-2" data-bs-toggle="tooltip"
+         data-bs-placement="bottom" title="Applications">
         <i class="modus-icons notranslate text-white" aria-hidden="true">apps</i>
       </button>
     </div>
   </div>
-  <button class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none">
+  <button type="button" class="btn btn-lg btn-icon-only btn-text-dark d-block d-sm-none">
     <i class="modus-icons notranslate text-white" aria-hidden="true">more_vertical</i>
   </button>
-  <button class="btn btn-lg btn-icon-only btn-text-dark bg-transparent ml-2"
-         data-toggle="tooltip" data-placement="bottom" data-html="true"
+  <button type="button" class="btn btn-lg btn-icon-only btn-text-dark bg-transparent me-2"
+         data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-html="true"
          title="<div class=text-left>MyTrimble<br>Stephanie Carter<br>stephanie_carter@example.com</div>">
-         <i class="modus-icons notranslate rounded-circle text-white">account_circle</i>
+         <i class="modus-icons notranslate rounded-circle text-white">person_account</i>
   </button>
 </nav>
 

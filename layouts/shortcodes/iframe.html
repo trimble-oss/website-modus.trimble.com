@@ -6,6 +6,7 @@
 {{ $name := .Get "name" | default "iframe-name" }}
 {{ $id := .Get "id" | default "iframe-id" }}
 {{ $class := .Get "class" }}
+{{ $title := .Get "title" }}
 {{ $sub := .Get "sub" | default "Your browser can not display embedded frames. You can access the embedded page via the following link:" }}
 {{ with $src }}
 {{ if $tryautoheight }}
@@ -15,7 +16,9 @@
   }
 </script>
 {{ end }}
-<iframe id="{{ $id }}" {{ with $class }} class="{{ $class }}" {{ end }} src="{{ $src }}" width="{{ $width }}"
+<iframe id="{{ $id }}" {{ with $class }} class="{{- $class }}" {{ end }}
+  {{ with $title }} class="{{- $title }}" {{ end }}
+  src="{{ $src }}" width="{{- $width -}}"
   name="{{ $name }}" {{ with $style }} style="{{ $style | safeCSS }}" {{ end }}{{ if $tryautoheight }}
   onload="resizeIframe(this)" {{ end }} referrerpolicy="no-referrer"
   {{ if (eq $sandbox false)}}{{ else if (eq $sandbox true) }} sandbox{{ else }} sandbox="{{ $sandbox }}" {{ end }}>

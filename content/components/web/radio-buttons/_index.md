@@ -11,8 +11,7 @@ aliases:
   - "/components/radio/"
   - "/components/radio-button/"
   - "/components/radio-buttons/"
-bootstrapURL: "/components/radio-buttons/"
-reactBootstrapURL: "/components/radio-buttons/"
+BootstrapURL: "/docs/v2/forms/checks-radios/#radios"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-radio-group--default"
 tags: [usage]
 ---

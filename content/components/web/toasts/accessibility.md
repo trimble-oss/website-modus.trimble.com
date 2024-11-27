@@ -7,8 +7,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/toasts.png"
-bootstrapURL: "/components/toasts/"
-reactBootstrapURL: "/components/toasts/"
+bootstrapURL: "/docs/v2/components/toasts/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-toast--default"
 component: toasts
 keywords: alert

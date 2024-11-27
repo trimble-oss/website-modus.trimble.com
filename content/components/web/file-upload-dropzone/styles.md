@@ -6,7 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/file-upload-dropzone.png"
-bootstrapURL: "/components/file-upload-dropzone/"
+bootstrapURL: "/docs/v2/helpers/file-upload-dropzone/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-file-dropzone--default"
 tags: [styles]
 ---
@@ -81,6 +81,20 @@ html[data-bs-theme="dark"] {
   </div>
   <div class="mb-5 text-center text-danger">
     This is an error message.
+  </div>
+</div>
+</div>
+
+<div class="p-3 bg-secondary bg-opacity-10 mb-3">
+<h3>Upload Files for Lorem Ipsum</h3>
+<div class="small fw-bold">Max: 3 files (25 MB total)</div>
+
+<div class="file-drop-zone disabled w-75 bg-opacity-10 mt-1">
+  <div class="mt-5 text-center h1">
+  <svg class="text-body opacity-25" width="32" height="32" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#cloud-upload" /></svg>
+  </div>
+  <div class="mb-5 text-center">
+    This is a disabled state message.
   </div>
 </div>
 </div>

@@ -4,8 +4,7 @@ layout: "single"
 description: "Tabs are used to quickly navigate between views within the same context."
 components: true
 componentsWeb: true
-bootstrapURL: "/components/tabs/"
-reactBootstrapURL: "/components/tabs/"
+BootstrapURL: "/docs/v2/components/tabs/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-tabs--default"
 component: tabs
 tags: [accessibility]

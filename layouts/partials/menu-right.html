@@ -1,13 +1,13 @@
 <div class="sticky-top sticky-offset d-print-none">
   {{ if and (gt .WordCount 100 ) (not .Params.hideToc) }}
-  <div class="h5 pt-2 on-this-page">
+  <div class="h5 pt-2 on-this-page d-none d-xl-block">
     On this page
   </div>
   {{- .TableOfContents -}}
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       document.querySelectorAll('#TableOfContents ul').forEach(function (ul) {
-        ul.classList.add('list-unstyled', 'pl-0', 'ms-0');
+        ul.classList.add('list-unstyled', 'ms-0');
       });
       document.querySelectorAll('#TableOfContents a').forEach(function (a) {
         a.classList.add('nav-link');
@@ -26,11 +26,6 @@
     {{- if .Params.bootstrapURL}}
     <li class="my-2"><a href="https://modus-bootstrap.trimble.com{{- .Params.bootstrapURL -}}"
         class="nav-link text-decoration-none" target="_blank" rel="noopener">Modus Bootstrap</a></li>
-    {{- end -}}
-    {{- if .Params.reactBootstrapURL}}
-    <li class="my-2"><a href="https://modus-react-bootstrap.trimble.com{{- .Params.reactBootstrapURL -}}"
-        class="nav-link text-decoration-none" target="_blank" rel="noopener">Modus React Bootstrap</a></li>
-    <!-- -->
     {{- end -}}
     {{- if .Params.webComponentsURL}}
     <li class="my-2"><a href="{{- .Params.webComponentsURL -}}" class="nav-link text-decoration-none" target="_blank"

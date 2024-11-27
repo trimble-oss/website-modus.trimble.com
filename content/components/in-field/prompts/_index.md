@@ -12,7 +12,7 @@ aliases:
   - prompt
 ---
 
-{{< img src="/img/in-field/prompts.svg" dark="/img/in-field/prompts-dark.svg" width="1051" height="313" class="w-100 bg-light" alt="Prompts example" loading="auto" >}}
+{{< img src="/img/in-field/prompts.svg" dark="/img/in-field/prompts-dark.svg" width="1051" height="313" class="w-100 bg-secondary bg-opacity-25" alt="Prompts example" loading="auto" >}}
 
 ## Overview
 

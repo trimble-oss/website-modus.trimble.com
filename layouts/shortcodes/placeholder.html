@@ -20,7 +20,7 @@
 {{- $show_text := not (eq $text "false") -}}
 
 <svg class="bd-placeholder-img{{ with $class }} {{ . }}{{- end -}}" width="{{ $width }}" height="{{ $height }}"
-  xmlns="http://www.w3.org/2000/svg" {{ if (or $show_title $show_text) }}
+  {{ if (or $show_title $show_text) }}
   aria-label="{{ if $show_title }}{{ $title }}{{ if $show_text }}: {{- end -}}{{- end -}}{{ if ($show_text) }}{{ $text }}{{- end -}}"
   {{- end -}} preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
   {{- if $show_title -}}

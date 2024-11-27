@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/badges.png"
-bootstrapURL: "/components/badges/"
-reactBootstrapURL: "/components/badges/"
+bootstrapURL: "/docs/v2/components/badge/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-badge--default"
 tags: [styles]
 disableAnatomy: true
@@ -53,7 +52,61 @@ Badges should be centered vertically inside of their containing element.
           data-bs-placement="right"
           data-bs-custom-class="popover-css-inspector"
           data-css-inspector-hide="">
-          Badge
+          Primary Badge
+        </div>
+         <br /><br /><br><br>
+        <div
+          class="badge bg-secondary me-3 me-xxl-auto mt-5"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="font-weight font-size height padding text-align b-radius margin">
+          Secondary Badge
+        </div>
+        <br />
+        <div
+          class="badge text-bg-tertiary me-3 me-xxl-auto mt-5"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="font-weight font-size height padding text-align b-radius margin">
+          Tertiary Badge
+        </div>
+        <br />
+        <div
+          class="badge bg-high-contrast me-3 me-xxl-auto mt-5"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="font-weight font-size height padding text-align b-radius margin">
+          High Contrast Badge
+        </div>
+         <br />
+        <div
+          class="badge bg-success me-3 me-xxl-auto mt-5"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="font-weight font-size height padding text-align b-radius margin">
+          Success Badge
+        </div>
+          <br />
+        <div
+          class="badge bg-danger me-3 me-xxl-auto mt-5"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="font-weight font-size height padding text-align b-radius margin">
+          Danger Badge
+        </div>
+        <br />
+        <div
+          class="badge text-bg-warning me-3 me-xxl-auto mt-5"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="font-weight font-size height padding text-align b-radius margin">
+          Warning Badge
         </div>
         <br />
       </td>
@@ -75,27 +128,56 @@ Badges should be centered vertically inside of their containing element.
       </td>
       <td>Stand-alone for emphasis</td>
     </tr>
+     <tr>
+      <th scope="row" height="327">Text</th>
+      <td class="text-start py-4">
+        <div
+          class="badge text-primary me-2 me-xxl-auto"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="padding text-align margin height border-radius bg-color b-radius font-weight">
+          Primary
+        </div>
+        <br /><br><br>
+        <div
+          class="badge text-secondary me-2 me-xxl-auto"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="padding text-align margin height border-radius bg-color b-radius font-weight">
+          Secondary
+        </div>
+        <br /><br><br>
+        <div
+          class="badge text-body me-2 me-xxl-auto"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="padding text-align margin height border-radius bg-color b-radius font-weight">
+          High Contrast
+        </div>
+         <br /><br><br>
+        <div
+          class="badge text-danger me-2 me-xxl-auto"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="padding text-align margin height border-radius bg-color b-radius font-weight">
+          Danger
+        </div>
+         <br /><br><br>
+        <div
+          class="badge text-success me-2 me-xxl-auto"
+          data-bs-toggle="popover"
+          data-bs-placement="right"
+          data-bs-custom-class="popover-css-inspector"
+          data-css-inspector-hide="padding text-align margin height border-radius bg-color b-radius font-weight">
+          Success
+        </div>
+        <br />
+      </td>
+      <td>Display a more subtle label</td>
+    </tr>
   </tbody>
 </table>
-
-### Colors
-
-<!-- prettier-ignore-start -->
-| Element               | Property   | Color                                                                   |
-| --------------------- | ---------- | ----------------------------------------------------------------------- |
-| Badge (Primary)       | Background | {{< color-preview nameL=" " hexL="#0063a3" nameD=" " hexD="#019aeb" >}} |
-|                       | Text       | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#ffffff" >}} |
-| Badge (Secondary)     | Background | {{< color-preview nameL=" " hexL="#6a6e79" nameD=" " hexD="#6a6e79" >}} |
-|                       | Text       | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#ffffff" >}} |
-| Badge (Tertiary)      | Background | {{< color-preview nameL=" " hexL="#cbcdd6" nameD=" " hexD="#cbcdd6" >}} |
-|                       | Text       | {{< color-preview nameL=" " hexL="#252a2e" nameD=" " hexD="#252a2e" >}} |
-| Badge (High Contrast) | Background | {{< color-preview nameL=" " hexL="#252a2e" nameD=" " hexD="#F1F1F6" >}} |
-|                       | Text       | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#171C1E" >}} |
-| Badge (Success)       | Background | {{< color-preview nameL=" " hexL="#006638" nameD=" " hexD="#1E8A44" >}} |
-|                       | Text       | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#ffffff" >}} |
-| Badge (Warning)       | Background | {{< color-preview nameL=" " hexL="#fbad26" nameD=" " hexD="#fbad26" >}} |
-|                       | Text       | {{< color-preview nameL=" " hexL="#252A2E" nameD=" " hexD="#252A2E" >}} |
-| Badge (Danger)        | Background | {{< color-preview nameL=" " hexL="#da212c" nameD=" " hexD="#da212c" >}} |
-|                       | Text       | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#ffffff" >}} |
-{class="table table-bordered table-sm table-colors"}
-<!-- prettier-ignore-end -->

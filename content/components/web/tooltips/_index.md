@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/tooltips.png"
-bootstrapURL: "/components/tooltips/"
-reactBootstrapURL: "/components/tooltips/"
+bootstrapURL: "/docs/v2/components/tooltips/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-tooltip--default"
 aliases:
   - "/components/tooltips/"
@@ -16,7 +15,7 @@ tags: [usage]
 
 ## Overview
 
-A tooltip is a popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it. It typically appears after a small delay and disappears when "Escape" is pressed or on mouse out.
+A tooltip is a popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it. It typically appears after a small delay and disappears when <kbd>Esc</kbd> is pressed or on mouse out.
 
 <div style="max-width: max-content">
   <div class="guide-sample">

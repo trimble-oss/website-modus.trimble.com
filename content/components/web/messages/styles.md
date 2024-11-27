@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/messages.png"
-bootstrapURL: "/components/messages/"
-reactBootstrapURL: "/components/messages/"
+BootstrapURL: "/docs/v2/components/messages/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-message--default"
 tags: [styles]
 disableAnatomy: true
@@ -25,18 +24,18 @@ popoverCSSInspector: true
     data-bs-toggle="popover"
     data-bs-placement="left"
     data-bs-custom-class="popover-css-inspector"
-    data-css-inspector-hide="margin">
+    data-css-inspector-hide="margin width">
     <i class="modus-icons notranslate me-1" aria-hidden="true">info</i>This is a
     primary message
   </div>
-  <br />
+  <br /><br>
   <div
     class="message message-secondary align-items-center"
     style="margin-top:40px;"
     data-bs-toggle="popover"
     data-bs-placement="left"
     data-bs-custom-class="popover-css-inspector"
-    data-css-inspector-hide="b-radius font-size height margin padding">
+    data-css-inspector-hide="b-radius font-size height margin padding width">
     <i class="modus-icons notranslate me-1" aria-hidden="true">help</i>This is a
     secondary message
   </div>
@@ -45,16 +44,7 @@ popoverCSSInspector: true
 - Fills the width of its container.
 - Should have an accompanying icon to the left of the message text. When the text spans multiple lines, the icon should remain aligned to the top.
 
-### Behaviors
-
-- Messages should remain static on the page. They should not be dismissible.
-
-### Editorial
-
-- Messages should be brief, full sentences, with proper punctuation.
-- They should provide the user with helpful, contextual information about a possible action or a set of data.
-
-## Colors
+### Colors
 
 <!-- prettier-ignore-start -->
 | Element   | Property   | Color                                                                                                |
@@ -65,3 +55,14 @@ popoverCSSInspector: true
 |           | Background | {{< color-preview nameL="Light Gray" hexL="#f1f1f6" nameD="Gray 9" hexD="#353a40" >}}                |
 {class="table table-sm table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->
+
+### Behaviors
+
+- Messages should remain static on the page. They should not be dismissible.
+
+### Editorial
+
+- Messages should be brief, full sentences, with proper punctuation.
+- They should provide the user with helpful, contextual information about a possible action or a set of data.
+
+

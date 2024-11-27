@@ -69,7 +69,7 @@ There are many ways that you can write your results from doing a CW. One common 
 
 ![Results Example](/img/news/usability-inspection-6.jpg)
 
-## What if I want to mix parts of both methods HE and CW? Is that ok?
+## What if I want to mix parts of both methods HE and CW? Is that OK?
 
 Of course! You can mix any usability inspection method. And to be honest, you will notice that it comes naturally. For example, you can do a HE, while going through a sequence of actions. You can also do a HE imagining the user is going through this task for the very first time. This can help you to determine the scope for a HE. On the other hand, you can explain certain issues from the CW by providing the violated heuristics to better understand the issue and how to potentially fix them.
 

@@ -8,8 +8,7 @@ components: true
 componentsWeb: true
 aliases:
   - "/components/accordions/"
-bootstrapURL: "/components/accordions/"
-reactBootstrapURL: "/components/accordions/"
+bootstrapURL: "/docs/v2/components/accordion/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-accordion--default"
 tags: [usage]
 ---

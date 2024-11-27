@@ -7,8 +7,7 @@ componentsWeb: true
 images:
   - "/img/components/headers/inputs.png"
 keywords: forms, form
-bootstrapURL: "/components/inputs/"
-reactBootstrapURL: "/components/inputs/"
+BootstrapURL: "/docs/v2/components/inputs/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/user-inputs-text-input--default"
 tags: [styles]
 disableAnatomy: true
@@ -25,7 +24,7 @@ There are two sizes of input fields defined:
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th></th>
+      <th style="width: 98px"></th>
       <th>Example</th>
     </tr>
   </thead>
@@ -33,7 +32,8 @@ There are two sizes of input fields defined:
     <tr>
       <th scope="row">Default</th>
       <td style="height:185px">
-      <div style="padding-left: 198px; margin-top: 50px;" class="pt-4 vertical-align">
+      <div style="padding-left: 198px; margin-top: 20px;" class="pt-4 vertical-align">
+      <label for="defaultInput" class="form-label">Default Input</label>
         <input
           class="form-control mb-5 pe-none"
           aria-label="Example input"
@@ -43,15 +43,17 @@ There are two sizes of input fields defined:
           data-bs-placement="left"
           data-bs-custom-class="popover-css-inspector"
           data-css-inspector-hide="margin"
-          data-css-inspector-show=""
+          data-css-inspector-show="b-color"
+          id="defaultInput"
         />
         <div>
       </td>
     </tr>
     <tr>
       <th scope="row">Large</th>
-      <td style="height:185px">
-      <div style="padding-left: 198px; margin-top: 50px;" class="pt-2">
+      <td style="height:195px">
+      <div style="padding-left: 198px; margin-top: 30px;" class="pt-2">
+      <label for="defaultInput" class="form-label">Large Input</label>
         <input
           class="form-control form-control-lg anatomy-display-static mb-5 pe-none"
           aria-label="Example large input"
@@ -61,7 +63,8 @@ There are two sizes of input fields defined:
           data-bs-placement="left"
           data-bs-custom-class="popover-css-inspector"
           data-css-inspector-hide="margin"
-          data-css-inspector-show=""
+          data-css-inspector-show="b-color"
+          id="largeInput"
         />
       </div>
       </td>
@@ -74,23 +77,23 @@ There are two sizes of input fields defined:
 <div class="guide-example-block d-inline-block">
   <div class="guide-sample">
     <div class="form-group mb-4">
-      <label for="focusInput">In Focus</label>
+      <label for="focusInput" class="form-label">In Focus</label>
       <input
         class="form-control focus pe-none"
         id="focusInput"
         placeholder="In focus"
-        style="border-bottom-style: solid; border-bottom-width: 2px; border-color: var(--bs-primary) !important; border-bottom-color: var(--bs-primary) !important;"
+        style="border-color: var(--bs-primary) !important; border-width: 2px;"
         data-bs-toggle="popover"
         data-bs-placement="right"
         data-bs-container="main"
         data-bs-custom-class="popover-css-inspector"
-        data-css-inspector-hide="bg-color b-radius b-width border-bottom-color color font-size height padding width"
-        data-css-inspector-show="b-color b-bottom-width"
+        data-css-inspector-hide="bg-color b-radius color font-size height padding width b-width"
+        data-css-inspector-show="b-color"
       />
       <small class="text-muted">Helper Text</small>
     </div>
     <div class="form-group mb-4">
-      <label for="validInput">Valid Input</label>
+      <label for="validInput" class="form-label">Valid Input</label>
       <input
         class="form-control is-valid pe-none active"
         id="validInput"
@@ -99,13 +102,13 @@ There are two sizes of input fields defined:
         data-bs-placement="right"
         data-bs-container="main"
         data-bs-custom-class="popover-css-inspector"
-        data-css-inspector-hide="bg-color b-radius b-bottom-color b-width color font-size height padding width"
-        data-css-inspector-show="b-color b-bottom-width"
+        data-css-inspector-hide="bg-color b-radius b-bottom-color color font-size height padding width b-width"
+        data-css-inspector-show="b-color"
       />
       <div class="valid-feedback">Valid Feedback</div>
     </div>
     <div class="form-group mb-4">
-      <label for="invalidInput">Invalid Input</label>
+      <label for="invalidInput" class="form-label">Invalid Input</label>
       <input
         class="form-control is-invalid pe-none"
         id="invalidInput"
@@ -114,13 +117,13 @@ There are two sizes of input fields defined:
         data-bs-placement="right"
         data-bs-container="body"
         data-bs-custom-class="popover-css-inspector"
-        data-css-inspector-hide="bg-color b-radius b-width color font-size height padding width"
-        data-css-inspector-show="b-color b-bottom-width"
+        data-css-inspector-hide="bg-color b-radius color font-size height padding width b-width"
+        data-css-inspector-show="b-color"
       />
       <div class="invalid-feedback">Invalid Feedback</div>
     </div>
     <div class="form-group mb-5">
-      <label for="disabledInput">Disabled Input</label>
+      <label for="disabledInput" class="form-label">Disabled Input</label>
       <input class="form-control pe-none"
         id="disabledInput"
         disabled
@@ -129,11 +132,11 @@ There are two sizes of input fields defined:
         data-bs-placement="right"
         data-bs-container="body"
         data-bs-custom-class="popover-css-inspector"
-        data-css-inspector-hide="b-radius b-width font-size height padding width"
-        data-css-inspector-show="b-bottom-color b-bottom-width"/>
+        data-css-inspector-hide="b-radius font-size height padding width b-width"
+        data-css-inspector-show=""/>
     </div>
     <div class="form-group mb-4">
-      <label for="ReadonlyInput">Readonly Input</label>
+      <label for="ReadonlyInput" class="form-label">Readonly Input</label>
       <input class="form-control pe-none"
         id="ReadonlyInput"
         readonly
@@ -142,8 +145,8 @@ There are two sizes of input fields defined:
         data-bs-placement="right"
         data-bs-container="body"
         data-bs-custom-class="popover-css-inspector"
-        data-css-inspector-hide="b-radius b-width font-size height padding width"
-        data-css-inspector-show="b-bottom-color b-bottom-width"
+        data-css-inspector-hide="b-radius font-size height padding width b-width"
+        data-css-inspector-show=""
       />
     </div>
   </div>
@@ -151,22 +154,21 @@ There are two sizes of input fields defined:
 
 <style>
 [data-bs-theme="light"] .form-control {
-    color: #464b52;
-  }
-[data-bs-theme="light"] #ReadonlyInput {
-    background-color: #e0e1e9;
-    color: #252A2E;
-  }
-[data-bs-theme="dark"] #ReadonlyInput {
-    background-color: #353a40;
-    color: #fff;
-  }
+  color: #464b52;
+}
 [data-bs-theme="light"] .form-control.focus {
-    border-color: #0063a3;
-  }
+  border-color: #0063a3;
+}
 [data-bs-theme="dark"] .form-control.focus {
-    border-color: #019aeb;
-  }
+  border-color: #019aeb;
+}
+[data-bs-theme="dark"] .form-control[readonly] {
+  background-color: #171c1e !important;
+  border-color: #353a40 !important;
+}
+[data-bs-theme="dark"] .form-control:disabled {
+  background-color: #171c1e !important;
+}
 </style>
 
 ### Editorial
@@ -177,21 +179,4 @@ There are two sizes of input fields defined:
 - Use multi-step forms when necessary by breaking up inputs into distinct categories.
 - Provide clear and obvious action buttons. Form submission [buttons](/components/web/buttons/) should be primary.
 
-## Colors
 
-<!-- prettier-ignore-start -->
-| Element          | Property                 | Color                                                                   |
-| ---------------- | ------------------------ | ----------------------------------------------------------------------- |
-| Label            | Text                     | {{< color-preview nameL=" " hexL="#464b52" nameD=" " hexD="#b7b9c3" >}} |
-| Input            | Text                     | {{< color-preview nameL=" " hexL="#464b52" nameD=" " hexD="#ffffff" >}} |
-|                  | Placeholder              | {{< color-preview nameL=" " hexL="#b7b9c3" nameD=" " hexD="#7d808d" >}} |
-|                  | Background               | {{< color-preview nameL=" " hexL="#ffffff" nameD=" " hexD="#171c1e" >}} |
-|                  | Border                   | {{< color-preview nameL=" " hexL="#e0e1e9" nameD=" " hexD="#464b52" >}} |
-|                  | Border (Bottom 2px)      | {{< color-preview nameL=" " hexL="#6a6e79" nameD=" " hexD="#6a6e79" >}} |
-| Input (Focus)    | Border (Bottom 2px)      | {{< color-preview nameL=" " hexL="#217cbb" nameD=" " hexD="#019AEB" >}} |
-| Input (Valid)    | Border (Bottom 2px)      | {{< color-preview nameL=" " hexL="#006638" nameD=" " hexD="#1e8a44" >}} |
-| Input (Invalid)  | Border (Bottom 2px)      | {{< color-preview nameL=" " hexL="#da212c" nameD=" " hexD="#da212c" >}} |
-| Input (Disabled) | Background (40% opacity) | {{< color-preview nameL=" " hexL="#f1f1f6" nameD=" " hexD="#171c1e" >}} |
-| Input (Readonly) | Background               | {{< color-preview nameL=" " hexL="#e0e1e9" nameD=" " hexD="#353a40" >}} |
-{class="table table-sm table-bordered border border-opacity-50" id="table-colors"}
-<!-- prettier-ignore-end -->

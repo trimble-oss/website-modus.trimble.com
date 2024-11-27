@@ -18,127 +18,7 @@ tags: [styles]
 - All buttons should feel clickable, interactive, and perform an action, see [Buttons](/components/web/buttons/).
 - Buttons should be discoverable, easy to identify, and specific.
 
-<style>
-.rtf-editor .btn:focus-visible {
-  box-shadow: none !important;
-}
-[data-bs-theme="light"] main button.btn .modus-icons {
-  font-size: 24px;
-  color: #000 !important;
-}
-[data-bs-theme="dark"] main button.btn .modus-icons {
-  font-size: 24px;
-  color: #fff !important;
-}
-</style>
-
-<div class="guide-example-block my-3 bg-secondary bg-opacity-10 py-2 px-1">
-  <div class="guide-content-sample bg-body m-3 mx-auto rtf-editor overflow-hidden" style="max-width: 710px; min-width: 300px">
-    <div class="d-flex border-top">
-      <div class="border-start">
-      <div class="dropdown">
-  <button class="btn text-body fw-normal btn-outline-secondary dropdown-toggle dropdown-ff fs-6 small text-start border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false"  style="max-width: 118px; min-width: 118px;">
-    Sans Serif
-  </button>
-  <ul class="dropdown-menu dropdown-menu-ff" style="max-width: 118px; min-width: 118px;">
-    <li><a class="dropdown-item small" href="#">Sans Serif</a></li>
-    <li><a class="dropdown-item small" style="font-family:Georgia,times new roman,Times,serif;" href="#">Serif</a></li>
-    <li><a class="dropdown-item small font-monospace" href="#">Preformatted</a></li>
-  </ul>
-</div>
-</div>
-      <div class="vr"></div>
-<div class="dropdown border-end">
-  <button class="btn fw-normal btn-outline-secondary dropdown-toggle dropdown-fs fs-6 small text-start border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false"  style="max-width: 80px; min-width: 80px;">
-    14px
-  </button>
-  <ul class="dropdown-menu dropdown-menu-fs" style="max-width: 80px; min-width: 80px;">
-    <li><a class="dropdown-item small" href="#" style="font-size: 14px;">14px</a></li>
-    <li><a class="dropdown-item small" href="#" style="font-size: 12px;">12px</a></li>
-    <li><a class="dropdown-item small" href="#" style="font-size: 10px;">10px</a></li>
-  </ul>
-</div>
-      <div class="mx-1">
-        <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Bold">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Bold" style="font-size: 24px; margin-top: 5px">text_bold</i>
-        </button>
-      </div>
-      <div class="mx-1">
-        <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Italic">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Italic" style="font-size: 24px; margin-top: 5px">text_italic</i>
-        </button>
-      </div>
-      <div class="mx-1">
-        <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Underlined">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Underlined" style="font-size: 24px; margin-top: 5px">text_underlined</i>
-        </button>
-      </div>
-      <div class="mx-1">
-        <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Strikethrough">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Strikethrough" style="font-size: 24px; margin-top: 5px">text_strikethrough</i>
-        </button>
-      </div>
-      <div class="vr"></div>
-      <div class="mx-1">
-        <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Text align: Left">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Text align: Left">text_align_left</i>
-        </button>
-      </div>
-      <div class="mx-1">
-        <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Text align: Center">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Text align: Center">text_centered</i>
-        </button>
-      </div>
-      <div class="mx-1">
-        <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Text align: Right">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Text align: Right">text_align_right</i>
-        </button>
-      </div>
-      <div class="vr"></div>
-      <div class="mx-1">
-        <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="List: bulleted">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="List: Bulleted">list_bulleted</i>
-        </button>
-      </div>
-      <div class="mx-1">
-        <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="List: numbered">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="List: Numbered">list_numbered</i>
-        </button>
-      </div>
-      <div class="vr"></div>
-      <div class="mx-1">
-        <button type="button" class="btn btn-outline-secondary btn-icon-only border-0" aria-label="Link">
-          <i class="modus-icons notranslate" aria-hidden="true" data-bs-toggle="tooltip" title="Link">link</i>
-        </button>
-      </div>
-    </div>
-    <div>
-      <textarea class="form-control pe-none" style="border-top-left-radius:0;border-top-right-radius:0;" id="exampleFormControlTextarea1" rows="10" aria-label="Textarea"></textarea>
-    </div>
-  </div>
-</div>
-<script>
-let selectorBtn = document.querySelector('.dropdown-ff.dropdown-toggle');
-let items = document.querySelectorAll('.dropdown-menu-ff .dropdown-item');
-items.forEach(item => {
-    item.addEventListener("click", function() {
-        selectorBtn.innerHTML = item.text;
-        selectorBtn.value = item.dataset.value;
-        console.log(`innerHTML: ${selectorBtn.innerHTML}, value: ${selectorBtn.value}`);
-    });
-});
-</script>
-<script>
-let selectorBtnFs = document.querySelector('.dropdown-fs.dropdown-toggle');
-let itemsFs = document.querySelectorAll('.dropdown-menu-fs .dropdown-item');
-itemsFs.forEach(item => {
-    item.addEventListener("click", function() {
-        selectorBtnFs.innerHTML = item.text;
-        selectorBtnFs.value = item.dataset.value;
-        console.log(`innerHTML: ${selectorBtnFs.innerHTML}, value: ${selectorBtnFs.value}`);
-    });
-});
-</script>
+{{< demo-rtf-editor >}}
 
 ### Modal (Insert/Edit Link)
 
@@ -166,19 +46,21 @@ The modals consists of following elements:
           </div>
           <div class="modal-body">
             <div class="form-group mb-3">
-              <label for="inputText">Text <span class="text-danger">*</span></label>
-              <input class="form-control my-1" placeholder="Enter text" type="text" id="inputText" required />
+              <label for="inputText" class="form-label">Text <span class="text-danger">*</span></label>
+              <input class="form-control my-1" type="text" id="inputText" required />
             </div>
             <div class="form-group mb-3">
-              <label for="inputUrl">URL <span class="text-danger">*</span></label>
-              <input class="form-control my-1" placeholder="Placeholder text" type="url" id="inputUrl" required />
+              <label for="inputUrl" class="form-label">URL <span class="text-danger">*</span></label>
+              <input class="form-control my-1" type="url" id="inputUrl" required />
             </div>
           </div>
           <div class="modal-footer border-0">
             <button type="button" class="btn btn-outline-secondary btn-outline-high-contrast justify-self-start">
               Cancel
             </button>
-            <button type="button" class="btn btn-primary">Save</button>
+            <button type="button" class="btn btn-primary">
+              Save
+            </button>
           </div>
         </div>
       </div>

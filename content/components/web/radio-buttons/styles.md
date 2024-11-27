@@ -7,8 +7,7 @@ componentsWeb: true
 images:
   - "/img/components/headers/radio-buttons.png"
 keywords: forms, form
-bootstrapURL: "/components/radio-buttons/"
-reactBootstrapURL: "/components/radio-buttons/"
+bootstrapURL: "/docs/v2/forms/checks-radios/#radios"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-radio-group--default"
 tags: [styles]
 disableAnatomy: true
@@ -43,6 +42,33 @@ popoverCSSInspector: true
         data-css-inspector-hide="bg-color b-radius height margin padding"
         data-css-inspector-show="">
         Radio
+      </label>
+    </div>
+    <hr class="visually-hidden py-5 my-5" style="margin-top: 90px;">
+    <div class="form-check my-2 mb-5 pb-5 mt-5 pt-4">
+      <input
+        class="form-check-input pe-none"
+        style="height:16px; width:16px;"
+        type="radio"
+        name="Radios"
+        id="RadioDisabled"
+        value="option1"
+        data-bs-toggle="popover"
+        data-bs-placement="left"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="b-radius color font-size margin padding"
+        data-css-inspector-show="b-color"
+        disabled
+        />
+      <label
+        class="form-check-label pe-none"
+        for="RadioDisabled"
+        data-bs-toggle="popover"
+        data-bs-placement="right"
+        data-bs-custom-class="popover-css-inspector"
+        data-css-inspector-hide="bg-color b-radius height margin padding"
+        data-css-inspector-show="">
+        Disabled Radio
       </label>
     </div>
     <hr class="visually-hidden" style="margin-top: 90px;">

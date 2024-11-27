@@ -6,8 +6,7 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/cards.png"
-bootstrapURL: "/components/cards/"
-reactBootstrapURL: "/components/cards/"
+bootstrapURL: "/docs/v2/components/card/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-card--default"
 component: cards
 tags: [accessibility]
