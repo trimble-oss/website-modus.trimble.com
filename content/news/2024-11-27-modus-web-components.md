@@ -6,15 +6,15 @@ image: "/img/blog/headers/2024-11-27-mwc.jpg"
 images:
   - /img/blog/headers/2024-11-27-mwc.jpg
 headerBgColor: "#f2d1a4"
-tags: [""]
+tags: ["Modus Web Components"]
 author: "Ewa Nowak"
 blog: true
 layout: blog-post
 ---
 
-After three and a half years worth of updates to our Modus Web COmponents library we've got around to publishing v1.0.0!
+After three and a half years worth of updates to our Modus Web Components library we've just [published v1.0.0](https://github.com/trimble-oss/modus-web-components/releases/tag/v1.0.0)!
 
-We've been working hard on improving the library and making it easier to use for everyone. Here are some of the highlights from our progress this year:
+We've been working hard on improving the library. Here are some of the highlights from our progress this year:
 
 ## Component Updates
 
@@ -40,7 +40,7 @@ We were happy to talk with Netlify about our experience using the platform for a
 
 The Modus Web Components library has always been open source, MIT licensed and available for anyone to use and contribute to.
 
-We've been really happy that front-end developer [Austin O'Neil](https://github.com/austinoneil), a developer from the community, has been contributing to the project (he's now had 19 merged Pull Requests!) and has been a great help in improving the library.
+We've been really happy that [Austin O'Neil](https://github.com/austinoneil), a front-end developer from the community, has been contributing to the project (he's now had 19 Pull Requests merged!) and has been a great help in improving the library.
 
 Thanks Austin!
 <br><br><br>
