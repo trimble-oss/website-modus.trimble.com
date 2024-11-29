@@ -61,6 +61,7 @@
     - title: Tooltips
     - title: Transactional Emails
     - title: Utility Panel
+    - title: Wizard
 
 - title: Components (In-Field)
   prefix: "components/in-field"
