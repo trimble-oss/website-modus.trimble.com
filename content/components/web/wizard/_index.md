@@ -6,13 +6,10 @@ components: true
 componentsWeb: true
 images:
   - "/img/components/headers/wizard.png"
-private: true
-hidden: true
-sitemap:
-  - disable: true
 tags:
-  - search_exclude
   - usage
+aliases:
+  - "/components/web/wizards/"
 ---
 
 ## Overview

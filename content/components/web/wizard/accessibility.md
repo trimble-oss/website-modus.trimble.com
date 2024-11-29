@@ -6,10 +6,6 @@ components: true
 componentsWeb: true
 component: wizard
 hideToc: true
-private: true
-hidden: true
-sitemap:
-  - disable: true
 tags:
   - accessibility
   - search_exclude
