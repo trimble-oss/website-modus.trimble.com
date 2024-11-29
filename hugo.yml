@@ -151,6 +151,8 @@ menu:
       url: /components/web/transactional-emails/
     - name: Utility Panel
       url: /components/web/utility-panel/
+    - name: Wizard
+      url: /components/web/wizard/
 
   components_infield:
     - name: Introduction
