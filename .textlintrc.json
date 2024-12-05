@@ -2,8 +2,17 @@
   "rules": {
     "common-misspellings": true,
     "terminology": {
-      "defaultTerms": false,
-      "terms": ".terms.jsonc"
+      "defaultTerms": true,
+      "exclude": [
+        "bug[- ]fix(es)?",
+        "built ?in(s)?",
+        "by ?product(s)?",
+        "front[- ]end(\\w*)",
+        "ID",
+        "name[- ]space(s)?",
+        "repo\\b",
+        "web[- ]?site(s)?"
+      ]
     }
   }
 }
