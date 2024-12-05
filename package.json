@@ -60,7 +60,7 @@
     "s3-deploy": "1.4.0",
     "stylelint": "16.11.0",
     "stylelint-config-standard-scss": "14.0.0",
-    "textlint": "14.3.0",
+    "textlint": "14.4.0",
     "textlint-rule-common-misspellings": "1.0.1",
     "textlint-rule-terminology": "5.2.12"
   },
