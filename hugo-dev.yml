@@ -1,4 +1,3 @@
-baseurl: https://styles-dev.trimblemaps.com/
 disableKinds: ["taxonomy", "taxonomyTerm", "404", "sitemap"]
 googleAnalytics: "disabled"
 buildFuture: true
