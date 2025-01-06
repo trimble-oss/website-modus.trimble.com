@@ -13,12 +13,6 @@
   },
   "license": "private",
   "author": "Trimble",
-  "engines": {
-    "node": ">=20"
-  },
-  "volta": {
-    "node": "20.18.1"
-  },
   "scripts": {
     "start": "npm run serve",
     "build": "npm-run-all lint-css && npx hugo",
@@ -66,5 +60,11 @@
   },
   "hugo-bin": {
     "buildTags": "extended"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "volta": {
+    "node": "20.18.1"
   }
 }
