@@ -69,7 +69,9 @@ While working on defining the best 3D practices for Trimble we come into contact
 <br>
 <br>
 
+<!--
 Find additional resources for 3D patterns and implementation on the [Modus 3D Documentation site](https://web3d.trimble.com/demo/modus/).
+-->
 
 {{< whats-changed-table >}}
 
