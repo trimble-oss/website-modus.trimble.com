@@ -130,12 +130,6 @@ article .nav-tabs .nav-link::after {
   width: 0 !important;
 }
 
-#sidebar.show + div {
-  width: calc(100vw - 321px - var(--scrollbar-width));
-  min-width: calc(100vw - 340px);
-  max-width: calc(100vw - 321px - var(--scrollbar-width)) !important;
-}
-
 h3#use-when,
 h3#dont-use-when {
   margin-top: 1rem !important;

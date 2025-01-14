@@ -32,8 +32,8 @@
 /* SM */
 @media (max-width: 767px) {
   #sidebar.show {
-    width: calc(100% - 64px) !important;
-    min-width: calc(100% - 64px) !important;
+    width: 100% !important;
+    min-width: 100% !important;
   }
 
   #sidebar.show + div {
