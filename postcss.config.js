@@ -60,7 +60,6 @@ module.exports = {
         'col-lg-4',
         'col-md-4',
         'col-lg-4',
-        'col-auto',
         'container',
         'container-fluid',
         'container-xl',

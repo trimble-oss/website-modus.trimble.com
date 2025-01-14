@@ -2,18 +2,13 @@
 
 <div class="container-fluid">
   <div class="row row-main px-0">
-
-    <div class="col-1 col-sidebar px-0 bg-body shadow-sm">
-      {{ partial "col-sidebar" . }}
-    </div>
-
     <div class="col col-auto px-0 collapse collapse-horizontal bg-dark bg-opacity-10" id="sidebar">
       <div id="sidebar-menu" class="sticky-top sticky-offset shadow-sm overflow-auto overflow-x-hidden">
         {{ partial "col-sidebar-menu" . }}
       </div>
     </div>
 
-    <div class="col col-auto col-12 col-main border-start p-0" id="main">
+    <div class="col col-main border-start p-0" id="main">
       <main>
         <header class="bg-secondary-subtle bg-opacity-10">
           <div class="container-fluid pt-5">

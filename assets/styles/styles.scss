@@ -4,7 +4,6 @@
 @import "autocomplete"; // search autocomplete dropdown
 @import "article";
 @import "cards";
-@import "col-sidebar"; // 1st column
 @import "color-preview"; // color swatches
 @import "codefences"; // code syntax highlighting
 @import "font-open-sans";
@@ -77,16 +76,11 @@ code {
 }
 
 main {
-  min-height: calc(100vh - 412px);
+  min-height: calc(100vh - 402px);
 }
 
 .tooltip {
   z-index: 3070 !important;
-}
-
-#sidebar:not(.show) + div,
-#sidebar.collapsing + div {
-  max-width: calc(100% - 64px) !important;
 }
 
 [data-bs-theme="light"] .bg-panel-background {
