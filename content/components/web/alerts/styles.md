@@ -105,6 +105,14 @@ document.addEventListener('DOMContentLoaded', function() {
       <button type="button" class="btn-close" aria-label="Close">
       </button>
     </div>
+    <div class="alert alert-primary d-flex align-items-top alert-dismissible fade show" role="alert">
+      <i class="modus-icons notranslate flex-shrink-0 me-2" aria-hidden="true">warning</i>
+      <div class="mb-0">An example alert with a dismiss icon
+       <p class="mb-0 fw-normal">This alert includes an example alert description</p>
+      </div>
+      <button type="button" class="btn-close" aria-label="Close">
+      </button>
+    </div>
   </div>
 </div>
 
