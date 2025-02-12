@@ -22,3 +22,7 @@ tags: [accessibility]
 - If a `tab` element has a pop-up menu, it has the property `aria-haspopup` set to either `menu` or `true`.
 - If the `tablist` element is vertically oriented, it has the property `aria-orientation` set to `vertical`. The default value of `aria-orientation` for a tablist element is horizontal.
 - When focus moves into the tab list, focus is placed on the active tab element. When the tab list contains the focus, focus moves to the next element in the page tab sequence outside the tablist, which is typically either the first focusable element inside the tab panel or the tab panel itself.
+
+### Further Reading
+
+- [Tabs Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/tabs/)

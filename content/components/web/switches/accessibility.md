@@ -21,3 +21,7 @@ tags: [accessibility]
 - When on, the switch element has state `aria-checked` set to `true`. When off, it has state `aria-checked` set to `false`.
 - When the switch is in focus, pressing the <kbd>Space</kbd> key changes the state of the switch.
 - Use a `fieldset` to create a switch group.
+
+### Further Reading
+
+- [Switch Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/switch/)

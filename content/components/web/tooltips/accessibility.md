@@ -18,3 +18,7 @@ tags: [accessibility]
 - The element that triggers the tooltip references the `tooltip` element with `aria-describedby`.
 - Make sure tooltips are part of the page's tab sequence, so they can receive focus.
 - The <kbd>Escape</kbd> key should close the tooltip.
+
+### Further Reading
+
+- [Tooltip Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/tooltip/)

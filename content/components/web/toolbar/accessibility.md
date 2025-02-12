@@ -17,3 +17,7 @@ hideToc: true
 - Provide tooltips for all icons. See [Tooltips](/components/web/tooltips/accessibility).
 - Provide logical tab sequence.
 - See [Buttons](/components/web/buttons/accessibility/) for accessibility guidelines.
+
+### Further Reading
+
+- [Toolbar Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/toolbar/)

@@ -23,3 +23,7 @@ tags: [accessibility]
   - Write out dates, e.g., December 1, 2018 and not 12/1/2018.
   - Avoid non-text symbols like “/” and “+”.
   - When describing a date or time range use “to” instead of “–”.
+
+### Further Reading
+
+- [Alert Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/alert/)

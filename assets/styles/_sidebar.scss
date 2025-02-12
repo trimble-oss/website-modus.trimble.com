@@ -31,16 +31,12 @@
   top: 65px !important;
 }
 
-.collapse-horizontal.collapse:not(.show) {
+#sidebar.collapse-horizontal.collapse:not(.show) {
   width: 0;
 }
 
 .row-main {
   min-height: calc(100dvh - 66px);
-}
-
-#sidebar.collapsing {
-  transition: none;
 }
 
 #sidebar:not(.show) + div,
@@ -57,14 +53,9 @@
   max-width: calc(100vw - 270px);
 }
 
-#sidebar-menu {
-  min-height: calc(100vh - 66px);
-  max-height: calc(100vh - 66px);
-}
-
-.col-menu {
-  transition: none !important;
-  animation-duration: 0 !important;
+#sidebar.collapsing {
+  transition: none;
+  animation-duration: 0.2s;
 }
 
 body[data-url="/community/contact-us/"] #sidebar-menu a[href="/community/contact-us/"],
@@ -76,11 +67,6 @@ body[data-url="/community/submissions-status/"] #sidebar-menu a[href="/community
 body[data-url="/news/"] #sidebar-menu a[href="/news/"],
 body[data-url="/community/tiger-teams/"] #sidebar-menu a[href="/community/tiger-teams/"] {
   font-weight: 700 !important;
-}
-
-#sidebar.collapsing {
-  transition: none !important;
-  animation-duration: 0 !important;
 }
 
 body[data-url*="/components/in-field/"] #sidebar-menu #flush-collapseMobile a.fw-bold,

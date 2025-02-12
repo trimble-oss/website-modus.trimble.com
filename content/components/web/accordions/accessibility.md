@@ -24,3 +24,7 @@ tags: [accessibility]
 - <kbd>Enter</kbd> or <kbd>Space</kbd> key should expand and collapse headers. <kbd>Tab</kbd> key moves focus to the next focusable element; all focusable elements in the accordion should be included in the page tab sequence. <kbd>Shift</kbd> + <kbd>Tab</kbd> moves focus to the previous focusable element.
 - Avoid keyboard traps when adding components to the accordion panel. For example, the user expands an accordion, but is unable to tab to the next focusable element.
 - Although the accordion element passes accessibility testing, content authors need to ensure the content that is added to the accordion is accessible. For example, if you add an image to the accordion header or panel you need to include alternative text to pass accessibility testing.
+
+### Further Reading
+
+- [Accordion Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/accordion/)

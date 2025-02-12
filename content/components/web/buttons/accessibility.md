@@ -26,3 +26,6 @@ tags: [accessibility]
   - A request is actively being processed, and a duplicate request will be submitted;
   - When the user is editing an existing record, but no changes have been made.
 
+### Further Reading
+
+- [Button Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/button/)

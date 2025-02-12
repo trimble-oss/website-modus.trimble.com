@@ -29,3 +29,7 @@ tags: [accessibility]
     - It is very unlikely users need to immediately re-invoke the dialog.
     - The task completed in the dialog is directly related to a subsequent step in the workflow.
 - The tab sequence of all dialogs needs to include the Close icon button.
+
+### Further Reading
+
+- [Dialog/Modal Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/)

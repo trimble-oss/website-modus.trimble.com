@@ -20,3 +20,7 @@ tags: [accessibility]
 - Make sure the tab order matches the hierarchy.
 - Apply `aria-current="page"` to the last item of the set to indicate that it represents the current page.
 - For more information, see the [WAI-ARIA Authoring Practices for the breadcrumb pattern](https://www.w3.org/WAI/ARIA/apg/patterns/breadcrumb/).
+
+### Further Reading
+
+- [Breadcrumb Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/breadcrumb/)

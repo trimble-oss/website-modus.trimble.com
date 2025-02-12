@@ -20,3 +20,7 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inpu
 - Use a wrapping `<nav>` element to identify the calendar popover as a navigation section to screen readers and other assistive technologies. Provide a descriptive `aria-label` (for example, "Pick a date" or "Pick a date range") for the `<nav>` to reflect its purpose.
 - Be sure to add `aria-label="Previous"` and ` aria-label="Next"` attributes to the previous/ next icons in the date picker.
 - Provide clear and informative error messaging to help users understand what they needs to do to rectify the problem.
+
+### Further Reading
+
+- [Date Picker Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/datepicker-dialog/)

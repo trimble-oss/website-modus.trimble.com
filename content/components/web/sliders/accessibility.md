@@ -23,3 +23,7 @@ hideToc: true
 - Make sure the thumb is in the page tab sequence.
 - Right and Up arrows increase the value of the slider by one step; Left and Down arrows decrease the value of the slider by one step.
 - When using a multi-thumb slider, each thumb is in the page tab sequence and has the same keyboard interaction as a single-thumb slider.
+
+### Further Reading
+
+- [Slider Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/slider/)
