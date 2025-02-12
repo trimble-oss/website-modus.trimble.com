@@ -145,8 +145,6 @@
       url: "/community/submission-guidelines/"
     - title: Modus Adoption
       url: "/community/modus-adoption/"
-    - title: Contact Us
-      url: "/community/contact-us/"
     - title: GitHub Discussions
       url: "https://github.com/orgs/trimble-oss/discussions"
       external: true
