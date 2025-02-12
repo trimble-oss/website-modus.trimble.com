@@ -17,3 +17,7 @@ tags: [accessibility]
 - Lists should use the native HTML unordered list element `<ul>`.
 - Make sure the list is keyboard accessible. The tab order needs to be sequential.
 - Avoid keyboard traps.
+
+### Further Reading
+
+- [Listbox Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/listbox/)

@@ -28,3 +28,7 @@ tags: [accessibility]
 - Alert the user of any validation errors in an apparent and accessible manner. Provide informative feedback messages.
 - Allow the user to easily access the form controls that need to be modified.
 - Allow resubmission and revalidation of the form information.
+
+### Further Reading
+
+- [Editable Combobox With List Autocomplete Example Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/examples/combobox-autocomplete-list/)

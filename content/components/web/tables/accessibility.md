@@ -29,3 +29,7 @@ tags: [accessibility]
 - If the table includes cells that span multiple rows or multiple columns, then `aria-rowspan` or `aria-colspan` is applied as described in grid and table properties.
 - Make sure content in a table can be navigated through with a keyboard, so it can be read by a screen reader.
 - Make sure any interactive elements within a table are focusable and are part of the page's tab sequence.
+
+### Further Reading
+
+- [Table Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/table/)

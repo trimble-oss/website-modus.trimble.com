@@ -25,3 +25,7 @@ tags: [accessibility]
 - If the presentation includes additional descriptive static text relevant to a checkbox or checkbox group, the checkbox or checkbox group has the property `aria-describedby` set to the ID of the element containing the description.
 - Use `fieldset` to create a checkbox group.
 - When the checkbox has focus, pressing the <kbd>Space</kbd> key changes the state of the checkbox.
+
+### Further Reading
+
+- [Checkbox Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/checkbox/)

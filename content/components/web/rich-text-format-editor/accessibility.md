@@ -13,3 +13,7 @@ hideToc: true
 
 - See [Buttons](/components/web/buttons/), [Inputs](/components/web/inputs/), and [Modals](/components/web/modals/) for accessibility guidelines.
 - Use a hidden label, or a title or `aria-label` attribute when a visible text label is not needed.
+
+### Further Reading
+
+- [Editor Menubar Example Pattern - ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/patterns/menubar/examples/menubar-editor/)
