@@ -5,7 +5,7 @@
 ## Folders
 
 /assets/                       @coliff
-/content/                      @coliff @egunther39 @enowak1031 @mitch-trimble
+/content/                      @coliff @egunther39 @mitch-trimble
 /content/components/in-field/  @mjohnsnz
 /layouts/                      @coliff
 /static/                       @coliff
@@ -15,6 +15,6 @@
 
 *.html      @coliff
 *.js        @coliff
-*.md        @coliff @egunther39 @enowak1031 @mitch-trimble
+*.md        @coliff @egunther39 @mitch-trimble
 *.scss      @coliff
 *.xml       @coliff
