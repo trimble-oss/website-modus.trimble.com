@@ -127,7 +127,7 @@ input[type="search"]::-webkit-search-cancel-button {
   color: var(--bs-warning);
 }
 
-[data-bs-theme="light"] .nav-tabs .nav-link:not(:hover):not(.active) {
+[data-bs-theme="light"] .nav-tabs .nav-link:not(:hover, .active) {
   background-color: #fff;
   border-bottom: 1px solid #cbcdd6;
 }

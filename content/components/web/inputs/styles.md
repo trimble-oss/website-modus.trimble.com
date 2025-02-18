@@ -78,6 +78,7 @@ There are two sizes of input fields defined:
   <div class="guide-sample">
     <div class="form-group mb-4">
       <label for="focusInput" class="form-label">In Focus</label>
+      <div class="form-text">Helper Text</div>
       <input
         class="form-control focus pe-none"
         id="focusInput"
@@ -90,7 +91,6 @@ There are two sizes of input fields defined:
         data-css-inspector-hide="bg-color b-radius color font-size height padding width b-width"
         data-css-inspector-show="b-color"
       />
-      <small class="text-muted">Helper Text</small>
     </div>
     <div class="form-group mb-4">
       <label for="validInput" class="form-label">Valid Input</label>
@@ -178,5 +178,3 @@ There are two sizes of input fields defined:
 - Provide input constraints, such as a character limit within a text entry box, to provide users with guidelines and improve form efficiency.
 - Use multi-step forms when necessary by breaking up inputs into distinct categories.
 - Provide clear and obvious action buttons. Form submission [buttons](/components/web/buttons/) should be primary.
-
-
