@@ -48,7 +48,7 @@
     "list.js": "2.3.1",
     "npm-run-all": "4.1.5",
     "popover-css-inspector": "1.0.0-beta15",
-    "postcss": "8.5.1",
+    "postcss": "8.5.2",
     "postcss-cli": "11.0.0",
     "prettier": "3.5.0",
     "s3-deploy": "1.4.0",
