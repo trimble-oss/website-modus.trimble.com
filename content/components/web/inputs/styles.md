@@ -173,8 +173,9 @@ There are two sizes of input fields defined:
 
 ### Editorial
 
-- When possible, add helper text below an input to further clarify selections or validation errors.
+- When possible, add helper text below a label and above the input to further clarify selections.
 - Always mark **required** fields with an \* .
-- Provide input constraints, such as a character limit within a text entry box, to provide users with guidelines and improve form efficiency.
 - Use multi-step forms when necessary by breaking up inputs into distinct categories.
 - Provide clear and obvious action buttons. Form submission [buttons](/components/web/buttons/) should be primary.
+
+<!-- - Provide input constraints, such as a character limit within a text entry box, to provide users with guidelines and improve form efficiency. -->
