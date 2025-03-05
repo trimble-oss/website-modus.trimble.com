@@ -16,19 +16,22 @@ aliases: "/components/web/button-group/"
 
 A button group is used to organize related actions and allow selection and toggling. Buttons can be grouped in a single line or in a vertical column. They can be used within action bars (e.g. [Toolbar](/components/web/toolbar/)).
 
-<div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+<div class="btn-group" role="group" aria-label="Radio toggle button group">
   <input type="radio" class="btn-check" name="btnRadioIcon" id="btnRadioIcon1" autocomplete="off" checked>
   <label class="btn btn-outline-primary btn-icon-only" for="btnRadioIcon1">
+    <span class="visually-hidden">Wi-Fi On</span>
   <svg width="24" height="24" fill="currentColor">
     <use xlink:href="/modus-solid-icons.svg#wifi" /></svg>
   </label>
   <input type="radio" class="btn-check" name="btnRadioIcon" id="btnRadioIcon2" autocomplete="off">
   <label class="btn btn-outline-primary btn-icon-only" for="btnRadioIcon2">
+    <span class="visually-hidden">Wi-Fi Off</span>
   <svg width="24" height="24" fill="currentColor">
     <use xlink:href="/modus-solid-icons.svg#wifi-off" /></svg>
   </label>
   <input type="radio" class="btn-check" name="btnRadioIcon" id="btnRadioIcon3" autocomplete="off">
   <label class="btn btn-outline-primary btn-icon-only" for="btnRadioIcon3">
+    <span class="visually-hidden">No Internet</span>
   <svg width="24" height="24" fill="currentColor">
     <use xlink:href="/modus-solid-icons.svg#wifi-no-internet" /></svg>
   </label>
