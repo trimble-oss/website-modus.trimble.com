@@ -2,9 +2,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{- if .IsHome -}}{{- .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title -}}{{- end -}}</title>
 
-<!-- Removes the .no-js class from the <html> element if JavaScript is enabled -->
-<script>document.documentElement.classList.remove('no-js');</script>
-
 <!-- Loads Dark Mode Toggle JS -->
 {{ $themeToggleJS := resources.Get "js/theme-toggle.js" | resources.Minify }}
 <script src="{{ $themeToggleJS.RelPermalink }}?v2"></script>

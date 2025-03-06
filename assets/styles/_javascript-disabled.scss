@@ -1,21 +1,23 @@
-.no-js input,
-.no-js a[data-toggle] {
-  pointer-events: none !important;
-  opacity: 0.65;
-}
+@media (scripting: none) {
+  a[data-bs-toggle],
+  button[data-bs-toggle] {
+    pointer-events: none !important;
+    opacity: 0.6;
+  }
 
-.no-js nav.navbar {
-  margin-top: 26px;
-}
+  nav.navbar {
+    margin-top: 26px;
+  }
 
-.no-js body::before {
-  height: 32px;
-  background-color: #e0e1e9;
-  text-align: center;
-  content: "⚠️ JavaScript is disabled. This site requires JavaScript to be enabled ⚠️";
-  display: block;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
+  .row-main:before {
+    height: 32px;
+    background-color: #e0e1e9;
+    text-align: center;
+    content: "⚠️ JavaScript is disabled. This site requires JavaScript to be enabled";
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
 }
