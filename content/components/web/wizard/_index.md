@@ -9,6 +9,7 @@ images:
 tags:
   - usage
 aliases:
+  - "/components/web/stepper/"
   - "/components/web/wizards/"
 ---
 

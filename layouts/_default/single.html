@@ -80,7 +80,7 @@
               {{- if ne .Lastmod .Date -}}
               {{- if not .Params.blog -}}
               <div class="text-secondary small"><em>
-                  Last updated {{ .Lastmod.Format "January 2, 2006" }}.
+                  Last updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "January 2, 2006" }}</time>.
                 </em></div>
               {{- end -}}
               {{- end -}}

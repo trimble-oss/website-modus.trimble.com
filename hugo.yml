@@ -29,8 +29,6 @@ outputs:
 privacy:
   googleAnalytics:
     anonymizeIP: true
-  twitter:
-    enableDNT: true
   youtube:
     privacyEnhanced: true
 

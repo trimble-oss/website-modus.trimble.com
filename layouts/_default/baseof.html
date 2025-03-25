@@ -25,7 +25,7 @@
   <script>
     // Hide Bootstrap tooltips when user presses Escape
     document.addEventListener('keyup', function (event) {
-      if (event.which === 27) {
+      if (event.key === 'Escape') {
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
         tooltipTriggerList.forEach(function (tooltipTriggerEl) {
           $(tooltipTriggerEl).tooltip('hide');
