@@ -6,6 +6,7 @@
 
 *.config.js
 anatomy.js
+auto-complete.js
 example-code-es*.js
 theme-toggle.js
 
