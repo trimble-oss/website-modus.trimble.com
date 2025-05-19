@@ -16,9 +16,8 @@
 {{ $styles := resources.Get "styles/styles.scss" | toCSS $sassOptions | postCSS | minify }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}?{{- hugo.Version -}}">
 
-<!-- Load jQuery for search -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.7.1.min.js"><\/script>')</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"><\/script>')</script>
 
 <!-- Load Modus Icons -->
 <link rel="stylesheet" href="/fonts/modus-icons.css">
@@ -29,9 +28,9 @@
 </script>
 
 <!-- Combines and minifies the 3x JS files which are used for the Search -->
-{{ $autocomplete := resources.Get "js/auto-complete.min.js" }}
+{{ $autocomplete := resources.Get "js/auto-complete.js" }}
 {{ $lunr := resources.Get "js/lunr.min.js" }}
-{{ $search := resources.Get "js/search.min.js" }}
+{{ $search := resources.Get "js/search.js" }}
 {{ $js := slice $autocomplete $lunr $search | resources.Concat "js/search.js" | resources.Minify }}
 <script src="{{- $js.RelPermalink -}}" fetchpriority="low"></script>
 {{- end -}}
@@ -52,7 +51,7 @@
 
 <!-- Polyfills for Internet Explorer 11 -->
 <script nomodule crossorigin="anonymous"
-  src="https://polyfill-fastly.io/v3/polyfill.min.js?features=default%2CNumber.parseInt%2CNumber.parseFloat%2CArray.prototype.find%2CArray.prototype.includes"></script>
+  src="https://polyfill-fastly.io/v3/polyfill.min.js"></script>
 <script
   nomodule>window.MSInputMethodContext && document.documentMode && document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-ie11@5.3.3/css/bootstrap-ie11.min.css"><script src="https://cdn.jsdelivr.net/combine/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js,npm/ie11-custom-properties@4,npm/element-qsa-scope@1"><\/script>');</script>
 
