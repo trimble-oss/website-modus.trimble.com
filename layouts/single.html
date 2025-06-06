@@ -50,7 +50,7 @@
               {{ .Content }}
 
               {{- if .Params.figmaURL -}}
-              <iframe class="w-100 iframe-figma rounded border-0" width="800" height="450" style="min-height: 80vh;"
+              <iframe class="w-100 iframe-figma rounded border-0" aria-label="Figma Design" width="800" height="450" style="min-height: 80vh;"
                 src="https://www.figma.com/embed?embed_host=share&url={{- .Params.figmaURL -}}"
                 allowfullscreen></iframe>
               {{ end }}
