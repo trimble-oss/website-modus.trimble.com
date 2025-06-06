@@ -19,6 +19,7 @@
 <iframe id="{{ $id }}" {{ with $class }} class="{{- $class }}" {{ end }}
   {{ with $title }} class="{{- $title }}" {{ end }}
   src="{{ $src }}" width="{{- $width -}}"
+  aria-label="{{ $name }}"
   name="{{ $name }}" {{ with $style }} style="{{ $style | safeCSS }}" {{ end }}{{ if $tryautoheight }}
   onload="resizeIframe(this)" {{ end }} referrerpolicy="no-referrer"
   {{ if (eq $sandbox false)}}{{ else if (eq $sandbox true) }} sandbox{{ else }} sandbox="{{ $sandbox }}" {{ end }}>
