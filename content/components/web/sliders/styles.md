@@ -14,7 +14,7 @@ disableAnatomy: true
 popoverCSSInspector: true
 ---
 
-<script src="/js/range-slider.js" async></script>
+<script src="/js/range-slider.js" defer></script>
 <style>
 .form-range::-moz-range-track {
   background: linear-gradient(to right, #0063a3 0%, #0063a3 var(--value, 0%), #dee2e6 var(--value, 0%), #dee2e6 100%);
@@ -69,6 +69,6 @@ popoverCSSInspector: true
 
 ### Behaviors
 
-- Adjust a slider’s value(s) by clicking and dragging its handle(s), or by clicking anywhere on its bar.
-- Hovering over an active slider’s handle will change the default cursor to the grab cursor; clicking will change it to the grab cursor.
+- Adjust a slider's value(s) by clicking and dragging its handle(s), or by clicking anywhere on its bar.
+- Hovering over an active slider's handle will change the default cursor to the grab cursor; clicking will change it to the grab cursor.
 - Changes made with sliders are immediate.
