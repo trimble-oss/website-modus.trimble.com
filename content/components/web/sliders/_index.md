@@ -14,7 +14,7 @@ aliases:
 tags: [usage]
 ---
 
-<script src="/js/range-slider.js" async></script>
+<script src="/js/range-slider.js" defer></script>
 <style>
 .form-range::-moz-range-track {
   background: linear-gradient(to right, #0063a3 0%, #0063a3 var(--value, 0%), #dee2e6 var(--value, 0%), #dee2e6 100%);
@@ -32,7 +32,7 @@ tags: [usage]
 
 ## Overview
 
-Sliders select a numeric value or range of values by moving a handle or set of handles along a bar. They are ideal for adjusting settings such as volume and brightness. The slider in its basic form should be accompanied by a label and a number input that doubles as a display for the slider’s current value.
+Sliders select a numeric value or range of values by moving a handle or set of handles along a bar. They are ideal for adjusting settings such as volume and brightness. The slider in its basic form should be accompanied by a label and a number input that doubles as a display for the slider's current value.
 
 <div class="mx-auto w-75">
 <label for="customRange1" class="form-label">Example range</label>
