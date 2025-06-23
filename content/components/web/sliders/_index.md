@@ -14,16 +14,32 @@ aliases:
 tags: [usage]
 ---
 
+<script src="/js/range-slider.js" async></script>
+<style>
+.form-range::-moz-range-track {
+  background: linear-gradient(to right, #0063a3 0%, #0063a3 var(--value, 0%), #dee2e6 var(--value, 0%), #dee2e6 100%);
+}
+.form-range::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #0063a3 0%, #0063a3 var(--value, 0%), #dee2e6 var(--value, 0%), #dee2e6 100%);
+}
+[data-bs-theme="dark"] .form-range::-moz-range-track {
+  background: linear-gradient(to right, #019aeb 0%, #019aeb var(--value, 0%), #545859 var(--value, 0%), #545859 100%);
+}
+[data-bs-theme="dark"] .form-range::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #019aeb 0%, #019aeb var(--value, 0%), #545859 var(--value, 0%), #545859 100%);
+}
+</style>
+
 ## Overview
 
 Sliders select a numeric value or range of values by moving a handle or set of handles along a bar. They are ideal for adjusting settings such as volume and brightness. The slider in its basic form should be accompanied by a label and a number input that doubles as a display for the slider’s current value.
 
 <div class="mx-auto w-75">
 <label for="customRange1" class="form-label">Example range</label>
-<input type="range" class="form-range mb-3" id="customRange1">
+<input type="range" class="form-range mb-3" id="customRange1" min="0" max="10" value="5">
 
 <label for="disabledRange" class="form-label">Disabled range</label>
-<input type="range" class="form-range" id="disabledRange" disabled>
+<input type="range" class="form-range" id="disabledRange" min="0" max="10" value="5" disabled>
 
 </div>
 

@@ -14,6 +14,22 @@ disableAnatomy: true
 popoverCSSInspector: true
 ---
 
+<script src="/js/range-slider.js" async></script>
+<style>
+.form-range::-moz-range-track {
+  background: linear-gradient(to right, #0063a3 0%, #0063a3 var(--value, 0%), #dee2e6 var(--value, 0%), #dee2e6 100%);
+}
+.form-range::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #0063a3 0%, #0063a3 var(--value, 0%), #dee2e6 var(--value, 0%), #dee2e6 100%);
+}
+[data-bs-theme="dark"] .form-range::-moz-range-track {
+  background: linear-gradient(to right, #019aeb 0%, #019aeb var(--value, 0%), #545859 var(--value, 0%), #545859 100%);
+}
+[data-bs-theme="dark"] .form-range::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #019aeb 0%, #019aeb var(--value, 0%), #545859 var(--value, 0%), #545859 100%);
+}
+</style>
+
 ## Specifications
 
 - Always use with a label, even if that label is hidden.
@@ -29,6 +45,9 @@ popoverCSSInspector: true
       type="range"
       class="form-range"
       id="Range1"
+      min="0"
+      max="10"
+      value="5"
       data--bs-toggle="popover"
       data--bs-custom-class="popover-css-inspector"
       data--bs-placement="left"
@@ -48,10 +67,8 @@ popoverCSSInspector: true
 {class="table table-sm table-bordered border border-opacity-50"}
 <!-- prettier-ignore-end -->
 
-
 ### Behaviors
 
 - Adjust a slider’s value(s) by clicking and dragging its handle(s), or by clicking anywhere on its bar.
 - Hovering over an active slider’s handle will change the default cursor to the grab cursor; clicking will change it to the grab cursor.
 - Changes made with sliders are immediate.
-
