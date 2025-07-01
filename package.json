@@ -50,11 +50,11 @@
     "popover-css-inspector": "1.0.0-beta16",
     "postcss": "8.5.6",
     "postcss-cli": "11.0.1",
-    "prettier": "3.5.3",
+    "prettier": "3.6.2",
     "s3-deploy": "1.4.0",
     "stylelint": "16.21.0",
     "stylelint-config-standard-scss": "15.0.1",
-    "textlint": "14.8.4",
+    "textlint": "15.1.0",
     "textlint-rule-common-misspellings": "1.0.1",
     "textlint-rule-terminology": "5.2.13"
   },
