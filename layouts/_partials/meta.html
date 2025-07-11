@@ -16,7 +16,7 @@
 {{ $styles := resources.Get "styles/styles.scss" | toCSS $sassOptions | postCSS | minify }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}?{{- hugo.Version -}}">
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"><\/script>')</script>
 
 <!-- Load Modus Icons -->
