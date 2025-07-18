@@ -9,11 +9,8 @@ class ChartObservable {
     this.observers.forEach((observer) => observer(value));
   }
 }
-
 google.charts.load('current', { packages: ['corechart'] });
-
 google.charts.setOnLoadCallback(() => chartDraw.emit(darkMode));
-
 const chartDraw = new ChartObservable();
 const htmlElement = document.querySelector('html');
 let darkMode = htmlElement.getAttribute('data-bs-theme') === 'dark';
@@ -27,7 +24,6 @@ const themeObserver = new MutationObserver(function (mutationsList, themeObserve
   }
 });
 themeObserver.observe(htmlElement, { attributes: true });
-
 const chartColors = {
   textDark: '#fff',
   textLight: '#252a2e',
@@ -48,7 +44,6 @@ const chartColors = {
     '#e3aff2',
   ],
 };
-
 const textStyle = {
   color: darkMode ? chartColors.textDark : chartColors.textLight,
   fontName: 'Open Sans',
@@ -56,7 +51,6 @@ const textStyle = {
   italic: false,
   fontSize: 14,
 };
-
 const legendTextStyle = {
   color: darkMode ? chartColors.textDark : chartColors.textLight,
   fontName: 'Open Sans',
@@ -64,9 +58,7 @@ const legendTextStyle = {
   italic: false,
   fontSize: 12,
 };
-
 let pieSliceBorder = darkMode ? chartColors.textLight : chartColors.textDark;
-
 const chartOptions = {
   width: 450,
   height: 350,
@@ -106,7 +98,6 @@ const chartOptions = {
     baselineColor: darkMode ? chartColors.lineDark : chartColors.lineLight,
   },
 };
-
 function setChartOptions() {
   chartOptions.backgroundColor.stroke = darkMode ? chartColors.lineDark : chartColors.lineLight;
   textStyle.color = darkMode ? chartColors.textDark : chartColors.textLight;
@@ -120,7 +111,6 @@ function setChartOptions() {
   chartOptions.vAxis.minorGridlines.color = darkMode ? chartColors.lineDark : chartColors.lineLight;
   chartOptions.vAxis.baselineColor = darkMode ? chartColors.lineDark : chartColors.lineLight;
 }
-
 // bar chart
 chartDraw.subscribe((value) => {
   const data = google.visualization.arrayToDataTable([
@@ -138,7 +128,6 @@ chartDraw.subscribe((value) => {
   const chart = new google.visualization.BarChart(document.getElementById('bar_chart_div'));
   chart.draw(data, options);
 });
-
 // column chart
 chartDraw.subscribe((value) => {
   const data = google.visualization.arrayToDataTable([
@@ -156,7 +145,6 @@ chartDraw.subscribe((value) => {
   const chart = new google.visualization.ColumnChart(document.getElementById('column_chart_div'));
   chart.draw(data, options);
 });
-
 // stacked bar chart
 chartDraw.subscribe((value) => {
   const data = google.visualization.arrayToDataTable([
@@ -176,7 +164,6 @@ chartDraw.subscribe((value) => {
   const chart = new google.visualization.BarChart(document.getElementById('stacked_bar_chart'));
   chart.draw(data, options);
 });
-
 // stacked column chart
 chartDraw.subscribe((value) => {
   const data = google.visualization.arrayToDataTable([
@@ -197,7 +184,6 @@ chartDraw.subscribe((value) => {
   const chart = new google.visualization.ColumnChart(document.getElementById('stacked_column_chart'));
   chart.draw(data, options);
 });
-
 // line chart
 chartDraw.subscribe((value) => {
   const data = new google.visualization.DataTable();
@@ -231,7 +217,6 @@ chartDraw.subscribe((value) => {
   const chart = new google.visualization.LineChart(document.getElementById('line_chart_div'));
   chart.draw(data, options);
 });
-
 // area chart
 chartDraw.subscribe((value) => {
   const data = google.visualization.arrayToDataTable([
@@ -251,7 +236,6 @@ chartDraw.subscribe((value) => {
   const chart = new google.visualization.AreaChart(document.getElementById('area_chart_div'));
   chart.draw(data, options);
 });
-
 //  stacked area chart
 chartDraw.subscribe((value) => {
   const data = google.visualization.arrayToDataTable([
@@ -272,7 +256,6 @@ chartDraw.subscribe((value) => {
   const chart = new google.visualization.AreaChart(document.getElementById('stacked_area_chart'));
   chart.draw(data, options);
 });
-
 //  stacked area chart
 chartDraw.subscribe((value) => {
   const data = google.visualization.arrayToDataTable([
@@ -293,7 +276,6 @@ chartDraw.subscribe((value) => {
   const chart = new google.visualization.AreaChart(document.getElementById('stacked_area_pct_chart'));
   chart.draw(data, options);
 });
-
 // pie chart
 chartDraw.subscribe((value) => {
   const data = google.visualization.arrayToDataTable([
@@ -313,7 +295,6 @@ chartDraw.subscribe((value) => {
   const chart = new google.visualization.PieChart(document.getElementById('pie_chart_div'));
   chart.draw(data, options);
 });
-
 // donut chart
 chartDraw.subscribe((value) => {
   const data = google.visualization.arrayToDataTable([
@@ -335,7 +316,6 @@ chartDraw.subscribe((value) => {
   const chart = new google.visualization.PieChart(document.getElementById('donut_chart_div'));
   chart.draw(data, options);
 });
-
 // scatter chart
 chartDraw.subscribe((value) => {
   const data = google.visualization.arrayToDataTable([
@@ -356,7 +336,6 @@ chartDraw.subscribe((value) => {
   const chart = new google.visualization.ScatterChart(document.getElementById('scatter_chart_div'));
   chart.draw(data, options);
 });
-
 // bubble chart
 chartDraw.subscribe((value) => {
   var data = google.visualization.arrayToDataTable([
