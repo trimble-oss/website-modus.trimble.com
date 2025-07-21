@@ -38,7 +38,6 @@ jobs:
           VALIDATE_EDITORCONFIG: false
           VALIDATE_HTML: false
           VALIDATE_JAVASCRIPT_ES: false
-          VALIDATE_JAVASCRIPT_STANDARD: false
           VALIDATE_JSCPD: false
           VALIDATE_MARKDOWN: false
           VALIDATE_MARKDOWN_PRETTIER: false
