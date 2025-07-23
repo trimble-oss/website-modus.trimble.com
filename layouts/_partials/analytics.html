@@ -23,10 +23,15 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('consent', 'default', {
-    ad_storage: 'denied',
-    analytics_storage: 'denied',
-  }),
-  gtag('config', 'G-DZ0V55EQWB');
+  gtag('config', 'G-DZ0V55EQWB', {
+    'allow_google_signals': false,
+    'allow_ad_personalization_signals': false,
+    'restricted_data_processing': true,
+    'storage': 'none',
+    'cookie_expires': 1,
+  });
+  setTimeout(() => {
+    document.cookie = "_ga=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+  }, 1);
 </script>
 {{- end -}}
