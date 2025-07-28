@@ -42,7 +42,7 @@
     "@trimble-oss/modus-icons": "1.16.0",
     "autoprefixer": "10.4.21",
     "bootstrap-print-css": "1.0.1",
-    "cross-env": "7.0.3",
+    "cross-env": "10.0.0",
     "htmlhint": "1.6.3",
     "hugo-bin": "0.145.1",
     "list.js": "2.3.1",
