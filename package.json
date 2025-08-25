@@ -56,7 +56,7 @@
     "stylelint-config-standard-scss": "15.0.1",
     "textlint": "15.2.1",
     "textlint-rule-common-misspellings": "1.0.1",
-    "textlint-rule-terminology": "5.2.14"
+    "textlint-rule-terminology": "5.2.15"
   },
   "hugo-bin": {
     "buildTags": "extended"
