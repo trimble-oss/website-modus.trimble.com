@@ -44,7 +44,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
 
 ### Default
 
-<div class="accordion accordion-flush mb-4" id="accordionFlushExample">
+<div class="accordion mb-4" id="accordionFlushExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -79,7 +79,7 @@ Accordions come in two sizes to accommodate space availability on the page or wi
 
 ### Compact
 
-<div class="accordion accordion-sm accordion-flush" id="accordionSmallFlushExample">
+<div class="accordion accordion-sm" id="accordionSmallFlushExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOneSmall" aria-expanded="false" aria-controls="flush-collapseOneSmall">
