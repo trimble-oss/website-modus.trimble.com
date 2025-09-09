@@ -1,3 +1,5 @@
+# Copilot Instructions
+
 - This repo is for the Modus Styleguide.
 - The site is built with Hugo.
 - Node v20 is recommended for development.
