@@ -32,7 +32,7 @@ The navbar or the app header provides context through globally accessible menu o
     <div class="navbar-nav ms-auto">
 
 <div class="search-container d-inline-block position-relative" role="search">
-  <input class="form-control form-control-search position-absolute" aria-label="Search" id="searchExample" type="search"
+  <input class="form-control form-control-lg form-control-search position-absolute" aria-label="Main" id="searchExample" type="search"
     placeholder="Search..." autocomplete="off" title="" required>
   <label class="btn btn-lg btn-icon-only border-0 btn-search text-body position-absolute p-2 pt-2" for="searchExample">
     <svg width="28" height="28" fill="currentColor" style="margin-top:3px;">
