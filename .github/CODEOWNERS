@@ -6,10 +6,8 @@
 
 /assets/                       @coliff
 /content/                      @coliff @egunther39 @mitch-trimble
-/content/components/in-field/  @mjohnsnz
 /layouts/                      @coliff
 /static/                       @coliff
-/static/img/in-field/          @mjohnsnz
 
 ## File Types
 
