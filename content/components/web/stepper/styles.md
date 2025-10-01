@@ -8,6 +8,9 @@ images:
   - "/img/components/headers/wizard.png"
 tags:
   - styles
+aliases:
+  - "/components/web/wizard/styles/"
+  - "/components/web/wizards/styles/"
 ---
 
 <style>
@@ -201,7 +204,6 @@ Use inline labels with vertical layouts
     <button type="button" class="btn btn-primary pe-none">Next</button>
   </div>
 </div>
-
 
 - The footer is placed at the bottom of a page or modal
 - It has to contain a wizard pager and title of the step
