@@ -9,10 +9,12 @@ hideToc: true
 tags:
   - accessibility
   - search_exclude
+aliases:
+  - "/components/web/wizard/accessibility/"
+  - "/components/web/wizards/accessibility/"
 ---
 
 ## Accessibility
-
 
 If possible, the first step of a form should explain how many steps will follow.
 Each step should inform the user about the progress they are making.
@@ -28,11 +30,12 @@ Each step should inform the user about the progress they are making.
    - a. Hide unlabeled segments. There is no content inside the segments when labels aren’t used, so it is safe to add `aria-hidden="true"` to the element
 9. The progress lines connecting the steps are pure aesthetic and don’t need attributes.
 10. Keyboard shortcuts:
-   - a. <kbd>Shift</kbd> + <kbd>Tab</kbd> = Focuses previous link
-   - b. <kbd>Tab</kbd> = Focuses next link
-   - c. <kbd>Home</kbd> = Focuses first link
-   - d. <kbd>End</kbd>	= Focuses last link
-   - e. <kbd>Space</kbd> / <kbd>Enter</kbd>	= Activates the currently focused link
+
+- a. <kbd>Shift</kbd> + <kbd>Tab</kbd> = Focuses previous link
+- b. <kbd>Tab</kbd> = Focuses next link
+- c. <kbd>Home</kbd> = Focuses first link
+- d. <kbd>End</kbd> = Focuses last link
+- e. <kbd>Space</kbd> / <kbd>Enter</kbd> = Activates the currently focused link
 
 <style>
   main ul:last-of-type {
