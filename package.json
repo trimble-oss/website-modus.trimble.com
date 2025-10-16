@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:trimble-oss/website-modus.trimble.com.git"
+    "url": "git+ssh://git@github.com/trimble-oss/website-modus.trimble.com.git"
   },
   "license": "private",
   "author": "Trimble",
