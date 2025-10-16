@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:trimble-oss/website-modus.trimble.com.git"
+    "url": "git+ssh://git@github.com/trimble-oss/website-modus.trimble.com.git"
   },
   "license": "private",
   "author": "Trimble",
@@ -39,7 +39,7 @@
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "7.0.2",
     "@trimble-oss/modus-bootstrap": "2.1.0",
-    "@trimble-oss/modus-icons": "1.17.1",
+    "@trimble-oss/modus-icons": "1.18.0",
     "autoprefixer": "10.4.21",
     "bootstrap-print-css": "1.0.1",
     "cross-env": "7.0.3",
