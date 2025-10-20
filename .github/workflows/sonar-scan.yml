@@ -31,7 +31,7 @@ jobs:
           persist-credentials: false
 
       - name: Run Sonar Scan Action
-        uses: sonarsource/sonarqube-scan-action@master
+        uses: sonarsource/sonarqube-scan-action@40f5b61913e891f9d316696628698051136015be # master
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
