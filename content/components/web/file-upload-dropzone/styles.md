@@ -44,7 +44,7 @@ html[data-bs-theme="dark"] {
 </style>
 
 <div class="p-3 bg-secondary bg-opacity-10 mb-3">
-<h3>Upload Files for Lorem Ipsum</h3>
+<h3>Upload Files</h3>
 <div class="small fw-bold">Max: 3 files (25 MB total)</div>
 
 <div class="file-drop-zone w-75 bg-secondary bg-opacity-10 mt-1">
@@ -58,35 +58,49 @@ html[data-bs-theme="dark"] {
 </div>
 
 <div class="p-3 bg-secondary bg-opacity-10 mb-3">
-<h3>Upload Files for Lorem Ipsum</h3>
+<h3>Upload Files</h3>
 <div class="small fw-bold">Max: 3 files (25 MB total)</div>
 
 <div class="file-drop-zone w-75 bg-primary bg-opacity-10 mt-1 border-primary">
   <div class="mt-5 text-center h1">
-  <svg class="text-primary" width="32" height="32" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#cloud-upload" /></svg>
+  <svg class="text-body" width="32" height="32" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#cloud-upload" /></svg>
   </div>
-  <div class="mb-5 text-center text-primary">
+  <div class="mb-5 text-center text-body">
     Drag files here.
   </div>
 </div>
 </div>
 
 <div class="p-3 bg-secondary bg-opacity-10 mb-3">
-<h3>Upload Files for Lorem Ipsum</h3>
+<h3>Upload Files</h3>
 <div class="small fw-bold">Max: 3 files (25 MB total)</div>
 
 <div class="file-drop-zone w-75 bg-danger bg-opacity-10 mt-1 border-danger">
   <div class="mt-5 text-center h1">
-  <svg class="text-danger" width="32" height="32" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#cloud-upload" /></svg>
+  <svg class="text-body" width="32" height="32" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#cloud-upload" /></svg>
   </div>
-  <div class="mb-5 text-center text-danger">
+  <div class="mb-5 text-center text-body">
     This is an error message.
   </div>
 </div>
 </div>
 
 <div class="p-3 bg-secondary bg-opacity-10 mb-3">
-<h3>Upload Files for Lorem Ipsum</h3>
+<h3>Upload Files</h3>
+<div class="small fw-bold">Max: 3 files (25 MB total)</div>
+
+<div class="file-drop-zone w-75 bg-success bg-opacity-10 mt-1 border-success">
+  <div class="mt-5 text-center h1">
+  <svg class="text-body" width="32" height="32" fill="currentColor"><use xlink:href="/modus-solid-icons.svg#check-circle" /></svg>
+  </div>
+  <div class="mb-5 text-center text-body">
+    Successfully uploaded 3 files.
+  </div>
+</div>
+</div>
+
+<div class="p-3 bg-secondary bg-opacity-10 mb-3">
+<h3>Upload Files</h3>
 <div class="small fw-bold">Max: 3 files (25 MB total)</div>
 
 <div class="file-drop-zone disabled w-75 bg-opacity-10 mt-1">
