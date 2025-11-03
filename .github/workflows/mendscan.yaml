@@ -20,7 +20,7 @@ jobs:
     name: 'Mend CLI Scan'
     steps:
       - name: 'Checkout code'
-        uses: 'actions/checkout@v4'
+        uses: 'actions/checkout@v5'
       # No build steps configured - customize manually if needed
       - name: 'Download Mend CLI'
         run: |
