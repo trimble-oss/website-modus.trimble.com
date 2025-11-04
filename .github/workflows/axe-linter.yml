@@ -11,7 +11,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: dequelabs/axe-linter-action@c7273184452e89e90b53a6cc437d1a775593a91b # v1
+      - uses: dequelabs/axe-linter-action@e033b363144cdce2e28d4a4a9dd7f375c0ae4dd3 # v1
         with:
           api_key: ${{ secrets.AXE_LINTER_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
