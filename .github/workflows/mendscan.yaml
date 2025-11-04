@@ -1,6 +1,4 @@
 ---
-# Mend CLI Scan workflow
-
 name: 'Mend CLI Scan'
 
 on:
@@ -20,8 +18,10 @@ jobs:
     name: 'Mend CLI Scan'
     steps:
       - name: 'Checkout code'
-        uses: 'actions/checkout@v5'
-      # No build steps configured - customize manually if needed
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          persist-credentials: false
+          
       - name: 'Download Mend CLI'
         run: |
           echo "Downloading Mend CLI"
@@ -50,4 +50,3 @@ jobs:
           mend code \
             -s "Trimble, Inc.//modus.trimble.com//website-modus.trimble.com" \
             -d "."
-...
