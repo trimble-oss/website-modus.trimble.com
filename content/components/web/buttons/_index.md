@@ -159,14 +159,6 @@ There are two button progressions you can choose from: structural and color prog
         button.
       </td>
     </tr>
-    <tr>
-      <td><img src="/img/components/button-danger-loading-example.svg" width="166" height="32" class="rounded" alt="Critical Action Button"></td>
-      <th scope="row">Critical action</th>
-      <td>High</td>
-      <td>
-        Critical action buttons require users to press and hold for a defined amount of time a button in order to trigger a critical action that should only be performed with clear intent. It should be used when an action can lead to an outcome that cannot be undone, reversed and/or could potentially have destructive consequences, such as permanent deletion. Critical action buttons can be styled as danger, primary, or secondary buttons.
-      </td>
-    </tr>
   </tbody>
 </table>
 
@@ -188,8 +180,6 @@ There are two button progressions you can choose from: structural and color prog
     </tr>
   </tbody>
 </table>
-
-
 
 ### Icon Buttons
 
