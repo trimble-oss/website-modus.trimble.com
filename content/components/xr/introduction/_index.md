@@ -75,4 +75,4 @@ These guidelines and components are heavily influenced by the experiences create
 
 We continue to implement and create on top of the expertise that diverse hardware producers deliver, and although Modus XR is built as an extension of Microsoft’s guidelines, we are expanding them to cater to other XR experiences (namely indirect interactions) and devices.
 
-Our focus remains on user centered patterns, as well as easy of use and adaption. Modus XR will continue receiving progressive improvements around our users’ workflows and industry devices.
+Our focus remains on user centered patterns, as well as ease of use and adaptation. Modus XR will continue receiving progressive improvements around our users’ workflows and industry devices.
