@@ -18,9 +18,9 @@ webComponentsURL: https://modus-web-components.trimble.com/?path=/docs/user-inpu
 - To activate the calendar popover, use the `enter`/`return` or `space` keys when the calendar icon is in focus.
 - To activate the input, use the `enter`/`return` or `space` keys.
 - Use a wrapping `<nav>` element to identify the calendar popover as a navigation section to screen readers and other assistive technologies. Provide a descriptive `aria-label` (for example, "Pick a date" or "Pick a date range") for the `<nav>` to reflect its purpose.
-- Be sure to add `aria-label="Previous"` and ` aria-label="Next"` attributes to the previous/ next icons in the date picker.
+- Be sure to add `aria-label="Previous"` and `aria-label="Next"` attributes to the previous/ next icons in the date picker.
 - Provide clear and informative error messaging to help users understand what they needs to do to rectify the problem.
-- If the day names in the column headers are abbreviated to two characters then use the `<abbr>` attribute on the column headers (e.g. `abbr="Monday"`, enabling screen readers to announce the full names when users navigate the grid. 
+- If the day names in the column headers are abbreviated to two characters then use the `<abbr>` attribute on the column headers (e.g. `abbr="Monday"`), enabling screen readers to announce the full names when users navigate the grid. 
 
 ### Further Reading
 
