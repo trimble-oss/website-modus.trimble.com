@@ -31,7 +31,7 @@ The mobile library for native apps Modus components and elements for designing a
 
 ## Modus Web UI Kits
 
-Modus Mobile UI Kits are available in [Figma and Adobe XD for designers](/designers/).
+Modus Mobile UI Kits are available in [Figma for designers](/designers/).
 
 ## Gestures
 
