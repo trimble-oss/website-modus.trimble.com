@@ -4,7 +4,6 @@ layout: "single"
 description: "The web library of Modus components is specific to web-based applications."
 components: true
 componentsWeb: true
-layout: single
 component: Introduction
 weight: 1
 tags: [hide-styles, hide-usage, hide-accessibility, hidden]
