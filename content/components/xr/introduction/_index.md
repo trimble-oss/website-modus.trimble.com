@@ -1,7 +1,7 @@
 ---
 title: "XR | Extended Reality"
 layout: "single"
-description: ""
+description: "Introduction to Modus XR, Trimble’s library for designing and implementing cohesive, branded extended reality (XR) experiences."
 component: Introduction
 weight: 1
 tags: [xr, hide-styles, hide-usage, hide-accessibility, hidden]
