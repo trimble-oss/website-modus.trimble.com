@@ -4,6 +4,7 @@ layout: "single"
 description: "Rich Text Format (RTF) Editor allows the user to style fonts and layout in a text area field."
 components: true
 componentsWeb: true
+webComponents_v2: hide
 component: rich-text-format-editor
 tags: [accessibility]
 hideToc: true

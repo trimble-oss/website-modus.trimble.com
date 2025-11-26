@@ -8,6 +8,7 @@ images:
   - "/img/components/headers/messages.png"
 BootstrapURL: "/docs/v2/components/messages/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-message--default"
+webComponents_v2: hide
 aliases:
   - "/components/messages/"
 tags: [usage]
