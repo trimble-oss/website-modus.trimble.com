@@ -29,7 +29,7 @@ Any application implementing Augmented Reality workflows could benefit from some
 
 ## Guiding Principles
 
-These components serve developers, designers and product owners as a reference for the creation and implementation of XR experiences. This technology adds great value for Trimble's mission to connect the physical and digital worlds with unequivocal clarity, serving present challenges and setting foundation for future needs.
+These components serve developers, designers and product owners as a reference for the creation and implementation of XR experiences. This technology adds great value for Trimble's mission to connect the physical and digital worlds with unequivocal clarity, serving present challenges and setting the foundation for future needs.
 
 3 main principles work as the foundation of these guidelines:
 
