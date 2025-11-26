@@ -2,7 +2,6 @@
 title: "XR | Extended Reality"
 layout: "single"
 description: ""
-layout: single
 component: Introduction
 weight: 1
 tags: [xr, hide-styles, hide-usage, hide-accessibility, hidden]

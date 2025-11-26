@@ -4,6 +4,7 @@ layout: "single"
 description: "Rich Text Format (RTF) Editor allows the user to style fonts and layout in a text area field."
 components: true
 componentsWeb: true
+webComponents_v2: hide
 images:
   - "/img/components/headers/rtf-editor.png"
 tags: [usage]

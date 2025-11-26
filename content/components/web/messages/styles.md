@@ -8,6 +8,7 @@ images:
   - "/img/components/headers/messages.png"
 BootstrapURL: "/docs/v2/components/messages/"
 webComponentsURL: "https://modus-web-components.trimble.com/?path=/story/components-message--default"
+webComponents_v2: hide
 tags: [styles]
 disableAnatomy: true
 popoverCSSInspector: true
@@ -64,5 +65,3 @@ popoverCSSInspector: true
 
 - Messages should be brief, full sentences, with proper punctuation.
 - They should provide the user with helpful, contextual information about a possible action or a set of data.
-
-

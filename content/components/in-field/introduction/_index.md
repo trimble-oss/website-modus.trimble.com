@@ -5,7 +5,6 @@ description: "The in-field, high-contrast library is specific to applications us
 components: true
 images:
   - "/img/in-field/intro.png"
-layout: single
 component: Introduction
 weight: 1
 tags: [in-field, hide-styles, hide-usage, hide-accessibility]
