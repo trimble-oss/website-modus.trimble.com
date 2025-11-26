@@ -55,7 +55,7 @@ These components serve developers, designers and product owners as a reference f
 
 ## Modus XR UI Kits
 
-Based on the observable conclusions from [Microsoft’s MRTK guidelines](https://learn.microsoft.com/en-gb/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05#ux-building-blocks),[Google’s DMMs units](https://www.ryanhinojosa.com/2018/01/08/device-independent/), as well as [Meta's Oculus guidelines](https://developer.oculus.com/resources/bp-vision/), but also considering the ergonomic factors to comfortably interact with spatial, touch UIs at a distance between 40-60cm off the point of interest, the following ratio is the foundation when creating and visualizing experiences from figma for further implementation in game engines:
+These guidelines are based on the observable conclusions from [Microsoft’s MRTK guidelines](https://learn.microsoft.com/en-gb/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05#ux-building-blocks), [Google’s DMMs units](https://www.ryanhinojosa.com/2018/01/08/device-independent/), and [Meta's Oculus guidelines](https://developer.oculus.com/resources/bp-vision/). Ergonomic factors are also considered, such as ensuring comfortable interaction with spatial touch UIs at a distance of 40–60 cm from the point of interest. As a result, the following ratio serves as the foundation for creating and visualizing experiences from Figma for further implementation in game engines:
 
 **1 pixel = 1mm**
 
