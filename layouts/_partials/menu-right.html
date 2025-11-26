@@ -28,8 +28,20 @@
         class="nav-link text-decoration-none" target="_blank" rel="noopener">Modus Bootstrap</a></li>
     {{- end -}}
     {{- if .Params.webComponentsURL}}
-    <li class="my-2"><a href="{{- .Params.webComponentsURL -}}" class="nav-link text-decoration-none" target="_blank"
-        rel="noopener">Modus Web Components</a></li>
+    {{- $originalURL := .Params.webComponentsURL -}}
+    {{- $urlPath := "" -}}
+    {{- if strings.Contains $originalURL "?" -}}
+      {{- $urlPath = (index (split $originalURL "?") 1) -}}
+      {{- $urlPath = printf "?%s" $urlPath -}}
+    {{- end -}}
+    {{- if ne .Params.webComponents_v1 "hide" }}
+    <li class="my-2"><a href="{{- .Site.Params.webComponentsV1URL -}}{{- $urlPath -}}" class="nav-link text-decoration-none" target="_blank"
+        rel="noopener">Modus Web Components v1</a></li>
+    {{- end -}}
+    {{- if ne .Params.webComponents_v2 "hide" }}
+    <li class="my-2"><a href="{{- .Site.Params.webComponentsV2URL -}}{{- $urlPath -}}" class="nav-link text-decoration-none" target="_blank"
+        rel="noopener">Modus Web Components v2</a></li>
+    {{- end -}}
     {{- end -}}
   </ul>
   {{- end -}}
