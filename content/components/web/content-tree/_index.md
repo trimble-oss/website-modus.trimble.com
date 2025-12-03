@@ -7,6 +7,7 @@ images:
 components: true
 componentsWeb: true
 webComponentsURL: https://modus-web-components.trimble.com/?path=/story/components-content-tree--default
+webComponents_v2: hide
 aliases:
   - "/components/content-tree/"
 tags: [usage]

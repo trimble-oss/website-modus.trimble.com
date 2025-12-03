@@ -5,6 +5,8 @@ description: "The purpose of typography is to make content legible, readable, an
 foundations: true
 group: foundations
 bootstrapURL: "/docs/v2/content/typography/"
+webComponentsURL: "https://modus-web-components.trimble.com/?path=/docs/content-typography--docs"
+webComponents_v1: hide
 ---
 
 ## Font Family
