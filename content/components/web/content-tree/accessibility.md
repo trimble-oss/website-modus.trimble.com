@@ -5,6 +5,7 @@ description: "A content tree provides users with a way to navigate nested hierar
 components: true
 componentsWeb: true
 webComponentsURL: https://modus-web-components.trimble.com/?path=/story/components-content-tree--default
+webComponents_v2: hide
 component: content-tree
 tags: [accessibility]
 ---
