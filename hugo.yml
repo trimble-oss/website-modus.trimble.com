@@ -15,13 +15,12 @@ params:
   images:
     - https://modus.trimble.com/img/preview.jpg
   GitHubRepo: "https://github.com/trimble-oss/website-modus.trimble.com"
-  trimble_insights_key: "stP0oRfZPt6GLobwfavo9qgV0yKtChK2AWVtnsw9" #gitleaks:allow
   webComponentsV1URL: "https://modus-web-components-v1.trimble.com"
   webComponentsV2URL: "https://modus-web-components-v2.trimble.com"
 
 publishdir: "./build/"
 
-disableKinds: ["taxonomy", "term"]
+disableKinds: ["sitemap", "taxonomy", "term"]
 
 pygmentsUseClasses: true
 
