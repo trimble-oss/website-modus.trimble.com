@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Under Construction</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .app {
+      align-items: center;
+      background: linear-gradient(135deg, #0e416c 0%, #1a5490 50%, #0e416c 100%);
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      max-width: 800px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .logo-container {
+      margin-bottom: 40px;
+    }
+
+    .logo {
+      height: auto;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .construction-container {
+      margin-bottom: 40px;
+    }
+
+    .construction-image {
+      height: auto;
+      max-width: 500px;
+      width: 100%;
+    }
+
+    .title {
+      color: #ffffff;
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .logo {
+        max-width: 300px;
+      }
+      
+      .construction-image {
+        max-width: 350px;
+      }
+      
+      .title {
+        font-size: 2rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .logo {
+        max-width: 250px;
+      }
+      
+      .construction-image {
+        max-width: 280px;
+      }
+      
+      .title {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="container">
+      <div class="logo-container">
+        <img src="/assets/images/modus-2-logo.svg" alt="Modus 2.0 Logo" class="logo">
+      </div>
+      
+      <div class="construction-container">
+        <img src="/assets/images/construction.svg" alt="Under Construction" class="construction-image">
+      </div>
+      
+      <h1 class="title">Site Under Construction</h1>
+    </div>
+  </div>
+</body>
+</html>
+
