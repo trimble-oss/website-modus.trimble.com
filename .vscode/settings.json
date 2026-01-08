@@ -12,6 +12,6 @@
   "markdown.styles": [
     "https://cdn.jsdelivr.net/npm/@trimble-oss/modus-icons@1/dist/modus-solid/fonts/modus-icons.css",
     "https://cdn.jsdelivr.net/npm/@trimble-oss/modus-bootstrap/dist/css/modus-bootstrap.min.css",
-    "https://modus.trimble.com/styles/styles.min.css"
+    "https://modus-v1.trimble.com/styles/styles.min.css"
   ]
 }

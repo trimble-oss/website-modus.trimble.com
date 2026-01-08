@@ -1,4 +1,4 @@
-baseurl: https://modus.trimble.com/
+baseurl: https://modus-v1.trimble.com/
 title: Trimble Modus Design System
 languageCode: en-US
 locale: en-US
@@ -13,8 +13,8 @@ params:
   author: "Trimble"
   copyrightHolder: "Trimble Inc."
   images:
-    - https://modus.trimble.com/img/preview.jpg
-  GitHubRepo: "https://github.com/trimble-oss/website-modus.trimble.com"
+    - https://modus-v1.trimble.com/img/preview.jpg
+  GitHubRepo: "https://github.com/trimble-oss/website-modus-v1.trimble.com"
   webComponentsV1URL: "https://modus-web-components-v1.trimble.com"
   webComponentsV2URL: "https://modus-web-components-v2.trimble.com"
 

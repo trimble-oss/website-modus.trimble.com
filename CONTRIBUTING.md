@@ -4,7 +4,7 @@ We are happy to accept contributions from the community to improve this project.
 
 ## Editing using the GitHub Web Interface
 
-1. Open the [GitHub project](https://github.com/trimble-oss/website-modus.trimble.com) in your browser.
+1. Open the [GitHub project](https://github.com/trimble-oss/website-modus-v1.trimble.com) in your browser.
 2. Navigate to the section and page you'd like to edit. The folder structure matches the site navigation. If you would like to edit a page in the Components section for example, click on **content** > **components** and select the page you would like to edit.
 3. To edit, first click the edit (pencil) icon in the top-right of the content preview pane.
 4. Make your text changes. When you've finished, enter the title and description of your changes and select the 'Create a new branch' option and click the green 'propose changes' button
