@@ -67,7 +67,7 @@ article iframe {
 <span class="text-muted">Reusable, encapsulated UI elements that are framework agnostic</span>
 {{</ card-start >}}
 
-{{< card-start title="Modus Style Guide site" github="website-modus.trimble.com">}}
+{{< card-start title="Modus Style Guide site" github="website-modus-v1.trimble.com">}}
 <span class="text-muted">This site - Your first stop for Modus guidelines, news and resources</span>
 {{</ card-start >}}
 

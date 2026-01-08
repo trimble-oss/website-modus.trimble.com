@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "description": "The Modus Design System site built with Hugo",
-  "homepage": "https://modus.trimble.com",
+  "homepage": "https://modus-v1.trimble.com",
   "bugs": {
     "url": "https://github.com/trimble-oss/modus/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/trimble-oss/website-modus.trimble.com.git"
+    "url": "git+ssh://git@github.com/trimble-oss/website-modus-v1.trimble.com.git"
   },
   "license": "private",
   "author": "Trimble",
@@ -29,7 +29,7 @@
     "lint-spellcheck": "npx cspell \"content/**/*.md\" --no-progress",
     "lint-textlint": "textlint **/*.*",
     "pa11y": "npx pa11y build/index.html",
-    "pa11y-ci": "npx pa11y-ci --sitemap https://modus.trimble.com/sitemap.xml",
+    "pa11y-ci": "npx pa11y-ci --sitemap https://modus-v1.trimble.com/sitemap.xml",
     "prettier": "prettier --write \"assets/**/*.*s\"",
     "serve": "npx hugo server -O --port 4000 --disableFastRender --navigateToChanged",
     "serve-drafts": "hugo server --port 4000 --disableFastRender --navigateToChanged --buildDrafts",
