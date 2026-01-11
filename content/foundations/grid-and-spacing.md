@@ -1,7 +1,7 @@
 ---
-title: "Grid & Spacing"
+title: "Grid, Responsive Layout & Spacing"
 layout: "single"
-description: "Responsive grid and spacing guidelines create layout flexibility and consistency."
+description: "Recommended layout compositions for organizing components on screen in a consistent way."
 foundations: true
 group: foundations
 bootstrapURL: "/docs/v2/layout/containers/"
@@ -11,6 +11,9 @@ bootstrapURL: "/docs/v2/layout/containers/"
 article table {
   width: 100%;
   border: 1px;
+}
+.table-align-top td {
+  vertical-align: top !important;
 }
 </style>
 
@@ -176,6 +179,126 @@ Panels and rails can offset the grid. The width of the component is used as the 
 
 Regions can house modules (or combinations of basic components) such as content, sidebars, headers, navigation, and footers. These elements should be consistent across products and will be defined in Modus in the modules and layout sections.
 
+## Responsive Layout
+
+Modus provides three standard responsive layouts that can be used as a starting point for organizing components on a screen:
+
+- **One-pane layout**
+- **Two-pane layout**
+- **Grid layout**
+
+By using these layouts, Modus supports consistency across Trimble applications. Each layout considers the most common use cases and addresses component behaviors at different breakpoints.
+
+**Note:** Use these layouts only as a supporting tool. The responsive layout patterns are intended to be flexible and versatile, adjusting to the different needs of each application.
+
+### One-pane layout
+
+- The one-pane layout displays content in a continuous vertical flow. This is the most common layout.
+
+**Usage**
+
+- Use for full-screen content, such as large tables, maps, or lists.
+
+**Dividing space**
+
+- Modus offers two variations: full-width and centered.
+  - The full-width variation extends over all the columns available.
+  - See the one-pane layout (full-width variation) live example [here](https://trimble-oss.github.io/modus-layout/one-pane-layout-full-width/).
+  - The centered variation leaves a margin of one column in grids of eight, or two columns in grids of twelve.
+  - See the one-pane layout (centered variation) live example [here](https://trimble-oss.github.io/modus-layout/one-pane-layout-centered/).
+
+**Behavior**
+
+- For all breakpoints, there is just one pane.
+
+### Two-pane layout
+
+- A layout with two related vertical panes, where the first one contains a list of elements, and the other one a connected detail view.
+
+**Usage**
+
+- Use for displaying browsable content and details, such as browsing files and their details, a contact directory, or vertical tabs.
+
+**Dividing space**
+
+- The type of content determines the number of columns used by each pane (this is intended to be flexible), with the only rule that the right pane needs to be wider than the left pane.
+- Modus offers two variations of this layout: full-width and centered.
+  - The full-width variation extends over all the columns available.
+  - See two-pane layout (full-width variation) live example [here](https://trimble-oss.github.io/modus-layout/two-pane-layout-full-width/).
+  - The centered variation leaves a margin of one column in grids of eight, or two columns in grids of twelve.
+  - See two-pane layout (centered variation) live example [here](https://trimble-oss.github.io/modus-layout/two-pane-layout-centered/).
+
+**Behavior**
+
+- On compact screens (breakpoints X-Small and Small), Modus recommends to only show one pane at a time, and provide links between the related elements: a link to advance to the detail view and a back button in the detail view.
+- On wider screens, both panes render at the same time.
+
+### Grid layout
+
+- A layout that uses a grid composition in order to enable quick browsing and discovery.
+
+**Usage**
+
+- This layout is used in dashboards and other groups of cards. Use for displaying various content encapsulated in cards.
+
+**Dividing space**
+
+- The composition should be flexible enough to allow different sizes and proportions of cards. Use size and position to establish hierarchy.
+- See grid layout live example [here](https://trimble-oss.github.io/modus-layout/grid-layout/).
+
+**Behavior**
+
+- Cards should reflow with the different breakpoints.
+
+<table class="table table-bordered table-align-top">
+  <thead>
+    <tr>
+      <th>Type</th>
+      <th>Definition and usage</th>
+      <th>Dividing space</th>
+      <th>Behavior</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>One-pane layout</td>
+      <td>
+        .
+      </td>
+      <td>.</td>
+      <td>.</td>
+    </tr>
+        <tr>
+      <td>Two-pane layout</td>
+      <td>
+        .
+      </td>
+      <td>.</td>
+      <td>.</td>
+    </tr>
+        <tr>
+      <td>Grid layout</td>
+      <td>
+        .
+      </td>
+      <td>. </td>
+      <td>.</td>
+    </tr>
+  </tbody>
+</table>
+
+### Resources
+
+**Figma**
+
+- **Grid Styles**. The Modus Foundations library for Figma contains grid styles ready to use for all our standard breakpoints: X-Small, Small, Medium, Large, X-Large, and XX-Large.
+
+- In the Modus-Web file, you can also find a set of the most commonly used frames, with their grids already included.
+
+**GitHub**
+
+- The [Modus Layout Repository](https://github.com/trimble-oss/modus-layout/) consists of a collection of HTML templates built with Modus Bootstrap v2 including examples of all responsive layouts.
+
 ## Spacing
 
 Spacing is a vital part of visual hierarchy within regions. Spacing is used to align elements within smaller containers in the UI. Trimble uses a baseline spacing of 8px and its multiples (some elements can also utilize an x-small spacing of 4px).
@@ -192,3 +315,11 @@ Spacing is a vital part of visual hierarchy within regions. Spacing is used to a
 | XX-Large      | 48         | 3           |
 
 {{</ table >}}
+
+{{< whats-changed-table >}}
+
+| Date       | Version | Notes                    | Contributors                                                                                                         |
+| ---------- | ------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| 09/12/2023 | 1.1.0   | Responsive layout added. | N. Cadsawan, C. Cuellar, E. Gunther, R. Henness, S. Kaukonen, Q. Le, T. Manham, M. Nawaz, C. Oliff, Purushothaman G. |
+
+{{</ whats-changed-table >}}
